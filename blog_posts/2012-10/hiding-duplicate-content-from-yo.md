@@ -17,13 +17,14 @@ Thankfully there’s a way to tell search engines to not index parts of
 your site. It’s [quite
 simple](http://www.javascriptkit.com/howto/robots.shtml) and in five
 minutes I cooked up the following [robots.txt](/robots.txt) for my
-site:\
-<code>\
-User-agent: \*\
-Disallow: /page/\
-Disallow: /tag/\
-Disallow: /notes/\
-</code>
+site:
+
+```
+User-agent: *
+Disallow: /page/
+Disallow: /tag/
+Disallow: /notes/
+```
 
 In my particular case, archive pages all start with `/page/` or
 `/notes/` and `/tag/` is another namespace with duplicate content (shows

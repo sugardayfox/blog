@@ -61,14 +61,14 @@ configuration:
 
 Let's create `provisioning.sh` helper script:
 
-``` bash
+```bash
 #!/bin/bash
 ansible-playbook provisioning.yml
 ```
 
 This is how we run Ansible playbook. Playbook `provisioning.yml` is:
 
-``` yml
+```yml
 ---
 - name: initial server setup
   hosts: sumatrawebsite-initial

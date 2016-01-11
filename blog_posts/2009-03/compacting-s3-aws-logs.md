@@ -31,9 +31,8 @@ The logic of the script is simple:
 -   delete the original files
 -   repeat
 
-It took me a few hours to get right, so in the spirit of sharing, [here
-it
-is](http://code.google.com/p/kjk/source/browse/trunk/scripts/compact-s3-logs.py).
+It took me a few hours to get right, so in the spirit of sharing,
+[here it is](http://code.google.com/p/kjk/source/browse/trunk/scripts/compact-s3-logs.py).
 You’ll have to change a few things in the source:
 
 -   s3 bucket name that stores the logs
@@ -43,12 +42,10 @@ You’ll have to change a few things in the source:
 Also, the script expects a `awscreds.py` file with access/secret key
 i.e.:
 
-<code>
-
-1.  This is awscreds.py file\
-    access = “access key”\
-    secret = “secret key”\
-    </code>
+```python
+    access = “access key”
+    secret = “secret key”
+```
 
 One unexpected thing I noticed is that apparently Amazon sometimes saves
 the log file with screwy permissions so that it can’t be read or even

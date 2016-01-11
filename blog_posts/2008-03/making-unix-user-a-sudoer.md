@@ -8,11 +8,11 @@ To make someone a sudoer:
 
 Run `visudo` (must be root), edit `/etc/sudoer` and add:
 
-<code>\
-%username ALL=(ALL) NOPASSWD: ALL\
-</code>
+```
+%username ALL=(ALL) NOPASSWD: ALL
+```
 
-e.g.:\
-<code>\
-%kkowalczyk ALL=(ALL) NOPASSWD: ALL\
-</code>
+e.g.:
+```
+%kkowalczyk ALL=(ALL) NOPASSWD: ALL
+```

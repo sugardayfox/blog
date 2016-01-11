@@ -36,36 +36,36 @@ rules](http://webkit.org/coding/coding-style.html):
     selection command). Don’t bother to organize them in a logical
     order.
 
-File config.h\
-<code c>\
-\#ifndef COMMON\_H\_\
-\#define COMMON\_H\_
+File `config.h`:
+```
+#ifndef COMMON_H_
+#define COMMON_H_
 
-/\* This is a header included by every single file.\
- It should include definitions of most basic types and utilities\
- (like asserts and simple templates. It usually means most common\
- header files for C standard library like <stdio.h> etc. and\
- <windows.h> on Windows.\
- Resist temptation to include too much in this file - it’ll lead\
- to insanity.\
-\*/\
-\#endif\
-</code>
+/* This is a header included by every single file.
+ It should include definitions of most basic types and utilities
+ (like asserts and simple templates. It usually means most common
+ header files for C standard library like <stdio.h> etc. and
+ <windows.h> on Windows.
+ Resist temptation to include too much in this file - it’ll lead
+ to insanity.
+*/
+#endif
+```
 
-File foo.h:\
-<code c>\
-\#ifndef FOO\_H\_\
-\#define FOO\_H\_\
-/\* To speedup compilation times avoid \#include’ing header files.\
- You can use any definitions in config.h. If possible, use forward\
- declarations instead of including header file with definitions \*/
+File `foo.h`:
+```c
+#ifndef FOO_H_
+#define FOO_H_
+/* To speedup compilation times avoid #include’ing header files.
+ You can use any definitions in config.h. If possible, use forward
+ declarations instead of including header file with definitions */
 
-\#endif\
-</code>
+#endif
+```
 
-File foo.c:\
-<code c>\
-\#include “config.h”\
-\#include “foo.h”\
-/\* rest of include files sorted alphabetically \*/\
-</code>
+File `foo.c`:
+```c
+#include “config.h”
+#include “foo.h”
+/* rest of include files sorted alphabetically */
+```

@@ -14,13 +14,12 @@ not issue a challenge and simply not authenticate a request.
 Fortunately fixing it by manually adding Authorization HTTP header to
 the request is simple and this code snippet shows how to do it:
 
-<code>\
+```c#
 public void SetBasicAuthHeader(WebRequest req, String userName, String
-userPassword)\
-{\
- string authInfo = userName + “:” + userPassword;\
- authInfo =
-Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));\
- req.Headers[“Authorization”] = “Basic ” + authInfo;\
-}\
-</code>
+userPassword)
+{
+ string authInfo = userName + “:” + userPassword;
+ authInfo = Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));
+ req.Headers[“Authorization”] = “Basic ” + authInfo;
+}
+```

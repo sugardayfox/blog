@@ -10,44 +10,43 @@ According to docs works best on code compiled with `-O0` or `-O1` and
 might report false positives with highly optimized code (i.e. compiled
 with `-O2`).
 
-**Basic usage**\
-<code>\
-valgrind \${prog-to-run} \${arg1} \${arg2} …\
-</code>
+**Basic usage**
+```
+valgrind \${prog-to-run} ${arg1} ${arg2} …
+```
 
 **Checking for memory access errors and memory leaks**:
 
-<code>\
+```
 valgrind —tool=memcheck —leak-check=full —show-reachable=yes
-—num-callers=16 \${prog-to-run}\
-</code>
+—num-callers=16 ${prog-to-run}
+```
 
 **Profiling memory usage:**
 
-<code>\
-valgrind —tool=massif \${prog-to-run}\
-gv massif.\${pid}.ps\
-most massif.\${pid}.txt\
-</code>
+```
+valgrind —tool=massif ${prog-to-run}
+gv massif.${pid}.ps
+most massif.${pid}.txt
+```
 
 **Profiling CPU usage:**
 
-<code>\
-valgrind —tool=callgrind \${prog-to-run}\
-</code>
-
+```
+valgrind —tool=callgrind ${prog-to-run}
+```
 or:
 
-<code>\
-valgrind —tool=callgrind —instr-atstart=no \${prog-to-run}\
-</code>
+```
+valgrind —tool=callgrind —instr-atstart=no ${prog-to-run}
+```
 
 and then:
 
-<code>\
-callgrind\_control -i on\
-callgrind\_control -i off\
-</code>
+```
+callgrind_control -i on
+callgrind_control -i off
+```
 
 It generates `callgrind.out.<pid>` file (where `<pid>` is process id of
 the program). Use `kcachegrind` GUI tool to view the results.
@@ -60,14 +59,14 @@ the program). Use `kcachegrind` GUI tool to view the results.
     beginning but only the sections of the code within
     `CALLGRIND_TOGGLE_COLLECT`
 
-In other words, if your code looks like:\
-<code>\
-\#include <valgrind/callgrind.h>
+In other words, if your code looks like:
+```
+#include <valgrind/callgrind.h>
 
-CALLGRIND\_TOGGLE\_COLLECT\
-foo();\
-CALLGRIND\_TOGGLE\_COLLECT\
-</code>\
+CALLGRIND\_TOGGLE\_COLLECT
+foo();
+CALLGRIND\_TOGGLE\_COLLECT
+```
 your program is profiled only when foo() function is running.
 
 There’s also an option `--instr-atstart=no` and

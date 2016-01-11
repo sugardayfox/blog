@@ -22,21 +22,21 @@ An hour of trying various ways to make it work ended with me finding a
 working work-around: using `EM_SETTEXTEX` and utf-8 encoded text with
 `CP_UTF8` code-page. I’m using WTL so the code ended up being:
 
-<code>\
-\#ifdef UNICODE\
- // Don’t know why I have to do this, but SetWindowText() with unicode\
- // doesn’t work (rtf codes are not being recognized)\
- const char \*sUtf = WstrToUtf8(s);\
- m\_statusMsgEdit.SetTextEx((LPCTSTR)sUtf, ST\_DEFAULT, CP\_UTF8);\
-\#else\
- m\_statusMsgEdit.SetWindowText(s);\
-\#endif\
-</code>
+```c++
+#ifdef UNICODE
+ // Don’t know why I have to do this, but SetWindowText() with unicode
+ // doesn’t work (rtf codes are not being recognized)
+ const char *sUtf = WstrToUtf8(s);
+ m_statusMsgEdit.SetTextEx((LPCTSTR)sUtf, ST_DEFAULT, CP_UTF8);
+#else
+ m_statusMsgEdit.SetWindowText(s);
+#endif
+```
 
 MSDN [claims](http://msdn.microsoft.com/en-us/library/bb774284.aspx) I
 could have used code-page 1200 for unicode text, but that didn’t work
 either.
 
 It’s quite possible I’ve botched something somewhere in my code and this
-work-around isn’t needed but I can hardly think of anything. If you ever
-run into problem like this, the above is one thing to try.
+work-around isn’t needed but I can hardly think of anything.
+

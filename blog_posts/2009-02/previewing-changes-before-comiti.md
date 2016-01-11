@@ -9,13 +9,13 @@ time ago I wrote a program to help with that on Windows, called
 [scdiff](/software/scdiff/). On mac, if you have TextMate installed, a
 simple shell script does the job just as well:
 
-<code>\
-\#!/bin/sh
+```bash
+#!/bin/sh
 
-if [ -d “.svn” ]\
-then\
- svn diff | mate\
-else\
- git diff | mate\
-fi\
-</code>
+if [ -d “.svn” ]
+then
+ svn diff | mate
+else
+ git diff | mate
+fi
+```

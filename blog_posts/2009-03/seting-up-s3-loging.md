@@ -6,41 +6,27 @@ Format: Markdown
 --------------
 An example:
 
-<code>
+Getting acl on kjklogs bucket: `s3curl.pl —id kjk — -s -v http://s3.amazonaws.com/kjklogs?acl`
 
-1.  getting acl on kjklogs bucket\
-    s3curl.pl —id kjk — -s -v http://s3.amazonaws.com/kjklogs?acl
+Ssetting acl on kjklogs bucket: `s3curl.pl —id kjk —put mylogs.acl — -s -v ‘http://s3.amazonaws.com/kjklogs?acl’`
 
-<!-- -->
+Getting logging status for source bucket: `s3curl.pl —id kjk — -s -v http://s3.amazonaws.com/kjkpub?logging >kjkpub.logging.xml`
 
-1.  setting acl on kjklogs bucket\
-    s3curl.pl —id kjk —put mylogs.acl — -s -v
-    ‘http://s3.amazonaws.com/kjklogs?acl’
-
-<!-- -->
-
-1.  getting logging status for source bucket\
-    s3curl.pl —id kjk — -s -v
-    http://s3.amazonaws.com/kjkpub?logging \>kjkpub.logging.xml\
-    </code>
-
-<code>\
-<Grant>\
-
-<Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Group">\
- <URI>http://acs.amazonaws.com/groups/s3/LogDelivery</URI>\
- </Grantee>\
- <Permission>WRITE</Permission>\
+```xml
+<Grant>
+  <Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Group">
+    <URI>http://acs.amazonaws.com/groups/s3/LogDelivery</URI>
+  </Grantee>
+  <Permission>WRITE</Permission>
 </Grant>
 
-<Grant>\
-
-<Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Group">\
- <URI>http://acs.amazonaws.com/groups/s3/LogDelivery</URI>\
- </Grantee>\
- <Permission>READ\_ACP</Permission>\
-</Grant>\
-</code>
+<Grant>
+  <Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Group">
+    <URI>http://acs.amazonaws.com/groups/s3/LogDelivery</URI>
+  </Grantee>
+  <Permission>READ_ACP</Permission>
+</Grant>
+```
 
 Note: I mistakenly reset logging on a bucket by blindly using
 [boto’s](http://boto.s3.amazonaws.com) `create_bucket()` function in my

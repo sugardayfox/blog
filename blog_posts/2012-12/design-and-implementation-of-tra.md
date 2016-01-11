@@ -74,14 +74,14 @@ In first iteration, I had a single text file with all translations.
 
 It looked like this:
 
-<code>\
-String to translate\
-de:German translation\
+```
+String to translate
+de:German translation
 fr:French translation
 
-Another string to translate\
-de:another German translation\
-</code>
+Another string to translate
+de:another German translation
+```
 
 People would download the latest version of the file from svn, add
 missing translations and e-mail it to me. I would check-in that to svn

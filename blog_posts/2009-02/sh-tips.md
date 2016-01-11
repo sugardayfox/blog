@@ -9,13 +9,12 @@ Format: Markdown
 -   generate public and private key (e.g. with
     `ssh-keygen -q -f ~/.ssh/id_rsa -t rsa`) (or `-t dsa`)
 -   on the machine from which you connect: put private key in
-    \~/.ssh/id\_rsa (for rss key) or `~/.ssh/id_dsa` (for dsa key), with
+    `~/.ssh/id_rsa` (for rss key) or `~/.ssh/id_dsa` (for dsa key), with
     0600 permissions
 -   on the machine you connect to: append public key to
     `~/.ssh/authorized_keys` (also with 0600 permission)
 
-You can read [long
-version](http://sial.org/howto/openssh/publickey-auth/)
+You can read [long version](http://sial.org/howto/openssh/publickey-auth/)
 
 **Using a different username with svn+ssh:**
 
@@ -58,36 +57,38 @@ Links:
 
 Add this to `~/.bashrc`:
 
-<code>
+```
 
-\#\# Enable ssh agent\
+## Enable ssh agent
 export SSH\_AUTH\_SOCK=/tmp/.ssh-socket
 
 ssh-add -l \>/dev/null 2\>&1
 
-if [ \$? = 2 ]; then\
- \# Exit status 2 means couldn’t connect to ssh-agent; start one now\
- rm ~~rf /tmp/.ssh~~\*\
- ssh-agent -a \$SSH\_AUTH\_SOCK \>/tmp/.ssh-script\
- . /tmp/.ssh-script\
- echo \$SSH\_AGENT\_PID \>/tmp/.ssh-agent-pid\
+if [ $? = 2 ]; then
+ # Exit status 2 means couldn’t connect to ssh-agent; start one now
+ rm -rf /tmp/.ssh*
+ ssh-agent -a $SSH_AUTH_SOCK >/tmp/.ssh-script
+ . /tmp/.ssh-script
+ echo $SSH_AGENT_PID >/tmp/.ssh-agent-pid
 fi
 
-function kill-agent {\
- pid=\`cat /tmp/.ssh-agent-pid\`\
- kill \$pid\
+function kill-agent {
+ pid=`cat /tmp/.ssh-agent-pid`
+ kill $pid
 }
 
-function addkeys {\
- ssh-add \~/.ssh/id\_dsa\*\
-}\
-</code>
+function addkeys {
+ ssh-add ~/.ssh/id_dsa*
+}
+```
 
 **Set an alias for a hostname**
 
 In `~/.ssh/config`:
 
+```
     Host dev30
     HostName dev30.kowalczyk.info
     User root
-    IdentityFile ~/.ssh/id_dsa_opendns
+    IdentityFile ~/.ssh/id_dsa_dev30
+```
