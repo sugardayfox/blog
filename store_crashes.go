@@ -34,10 +34,12 @@ type App struct {
 	PerCrashingLineCrashes map[string][]*Crash
 }
 
+// CrashesCount returns number of crashes for an app
 func (a *App) CrashesCount() int {
 	return len(a.Crashes)
 }
 
+// StoreCrashes is a store for crashes
 type StoreCrashes struct {
 	sync.Mutex
 	dataDir       string
@@ -53,14 +55,17 @@ func (c *Crash) IpAddress() string {
 	return ipAddrInternalToOriginal(*c.IpAddrInternal)
 }
 
+// CreatedOnDay returns a string version of created on
 func (c *Crash) CreatedOnDay() string {
 	return c.CreatedOn.Format("2006-01-02")
 }
 
+// CrashingLineCount returns number of unique crashing lines
 func (c *Crash) CrashingLineCount() int {
 	return len(c.App.PerCrashingLineCrashes[*c.CrashingLine])
 }
 
+// CrashesByCreatedOn is for sorting crashing by CreatedOn time
 type CrashesByCreatedOn []*Crash
 
 func (s CrashesByCreatedOn) Len() int {
@@ -75,6 +80,7 @@ func (s CrashesByCreatedOn) Less(i, j int) bool {
 	return t1.After(t2)
 }
 
+// GetAppByName returns App by its name
 func (s *StoreCrashes) GetAppByName(appName string) *App {
 	for _, app := range s.apps {
 		if appName == app.Name {
@@ -84,6 +90,7 @@ func (s *StoreCrashes) GetAppByName(appName string) *App {
 	return nil
 }
 
+// FindOrCreateApp returns existing App or creates a new one for a given name
 func (s *StoreCrashes) FindOrCreateApp(appName string) *App {
 	if app := s.GetAppByName(appName); app != nil {
 		return app
@@ -262,8 +269,10 @@ func (s *StoreCrashes) readExistingCrashesData(fileDataPath string) error {
 	return nil
 }
 
+// NewStoreCrashes returns new StoreCrashes
 func NewStoreCrashes(dataDir string) (*StoreCrashes, error) {
 	dataFilePath := filepath.Join(dataDir, "data", "crashesdata.txt")
+	u.CreateDirForFile(dataFilePath)
 	store := &StoreCrashes{
 		dataDir:       dataDir,
 		crashes:       make([]*Crash, 0),
@@ -298,6 +307,7 @@ func NewStoreCrashes(dataDir string) (*StoreCrashes, error) {
 	return store, nil
 }
 
+// CrashesCount returns total number of crashes
 func (s *StoreCrashes) CrashesCount() int {
 	s.Lock()
 	defer s.Unlock()
@@ -310,11 +320,13 @@ func blobCrahesPath(dir, sha1 string) string {
 	return filepath.Join(dir, "blobs_crashes", d1, d2, sha1)
 }
 
+// MessageFilePath returns path of a message file
 func (s *StoreCrashes) MessageFilePath(sha1 []byte) string {
 	sha1Str := hex.EncodeToString(sha1)
 	return blobCrahesPath(s.dataDir, sha1Str)
 }
 
+// MessageFileExists return true if message file exists
 func (s *StoreCrashes) MessageFileExists(sha1 []byte) bool {
 	p := s.MessageFilePath(sha1)
 	return u.PathExists(p)
@@ -337,10 +349,6 @@ func (s *StoreCrashes) writeMessageAsSha1(msg []byte, sha1 []byte) error {
 	return err
 }
 
-func (s *StoreCrashes) newCrashId() int {
-	return len(s.crashes)
-}
-
 func ip2str(s string) uint32 {
 	var nums [4]uint32
 	parts := strings.Split(s, ".")
@@ -351,12 +359,14 @@ func ip2str(s string) uint32 {
 	return (nums[0] << 24) | (nums[1] << 16) + (nums[2] << 8) | nums[3]
 }
 
+// GetApps returns all unique apps
 func (s *StoreCrashes) GetApps() []*App {
 	s.Lock()
 	defer s.Unlock()
 	return s.apps
 }
 
+// GetCrashesForApp returns crashes for an app
 func (s *StoreCrashes) GetCrashesForApp(appName string) []*Crash {
 	s.Lock()
 	defer s.Unlock()
