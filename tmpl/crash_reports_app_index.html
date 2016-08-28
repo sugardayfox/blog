@@ -21,7 +21,7 @@
         <td><a href="/app/crashshow?crash_id={{ .Id }}">{{ .Id }}</a></td>
         <td>{{ .Version }}</td>
         <td><a href="/app/crashes?app_name={{$appName}}&crashing_line={{.CrashingLine}}">{{ .ShortCrashingLine }}</a> <span style="color: gray;">({{ .CrashingLineCount }})</span></td>
-        <td><a href="/app/crashes?app_name={{$appName}}&ip_addr={{.IpAddrInternal}}">{{ .ShortIpAddr }}</a></td>
+        <td><a href="/app/crashes?app_name={{$appName}}&ip_addr={{.IpAddrInternal}}">{{ .ShortIPAddr }}</a></td>
         {{ if $showSince }}
         <td>{{ .CreatedOnSince }}</td>
         {{ end }}

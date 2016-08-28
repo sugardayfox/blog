@@ -20,7 +20,7 @@ func IsAdmin(r *http.Request) bool {
 	return getSecureCookie(r).TwitterUser == "kjk"
 }
 
-func getLogInOutUrl(r *http.Request) string {
+func getLogInOutURL(r *http.Request) string {
 	url := r.URL.Path
 	if IsAdmin(r) {
 		return "/logout?redirect=" + url

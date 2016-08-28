@@ -25,6 +25,7 @@ func getTrimmedFormValue(r *http.Request, name string) string {
 	return strings.TrimSpace(r.FormValue(name))
 }
 
+// Version returns app version
 func (c *Crash) Version() string {
 	ver := *c.ProgramVersion
 	if ver == "" {
@@ -36,10 +37,12 @@ func (c *Crash) Version() string {
 	return ver
 }
 
+// CreatedOnSince returns created on time in a human-readable form
 func (c *Crash) CreatedOnSince() string {
 	return u.TimeSinceNowAsString(c.CreatedOn)
 }
 
+// ShortCrashingLine returns short crashing line
 func (c *Crash) ShortCrashingLine() string {
 	s := *c.CrashingLine
 	if len(s) <= 60 {
@@ -48,7 +51,8 @@ func (c *Crash) ShortCrashingLine() string {
 	return s[:56] + "..."
 }
 
-func (c *Crash) ShortIpAddr() string {
+// ShortIPAddr returns short ip address
+func (c *Crash) ShortIPAddr() string {
 	s := c.IpAddress()
 	if len(s) <= 16 {
 		return s
@@ -56,15 +60,18 @@ func (c *Crash) ShortIpAddr() string {
 	return s[:13] + "..."
 }
 
+// CrashesForDay collects crashes for a given day
 type CrashesForDay struct {
 	Day     string
 	Crashes []*Crash
 }
 
+// CrashesCount returns total number of crashes
 func (c *CrashesForDay) CrashesCount() int {
 	return len(c.Crashes)
 }
 
+// AppDisplay defines crashes for app
 type AppDisplay struct {
 	*App
 	Days []CrashesForDay
@@ -107,6 +114,7 @@ func serveCrashLoginLogout(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// NewAppDisplay returns new AppDisplay
 func NewAppDisplay(app *App, addCrashesPerDay bool) *AppDisplay {
 	res := &AppDisplay{App: app}
 	if !addCrashesPerDay {
@@ -119,9 +127,9 @@ func NewAppDisplay(app *App, addCrashesPerDay bool) *AppDisplay {
 
 	days := make([]string, n)
 	i := 0
-	for day, _ := range app.PerDayCrashes {
+	for day := range app.PerDayCrashes {
 		days[i] = day
-		i += 1
+		i++
 	}
 	sort.Sort(Reverse{sort.StringSlice(days)})
 	for i, day := range days {
@@ -144,7 +152,7 @@ func showCrashesIndex(w http.ResponseWriter, r *http.Request) {
 	ExecTemplate(w, tmplCrashReportsIndex, model)
 }
 
-func showCrashesByIp(w http.ResponseWriter, r *http.Request, app *App, ipAddrInternal string) {
+func showCrashesByIP(w http.ResponseWriter, r *http.Request, app *App, ipAddrInternal string) {
 	appDisplay := NewAppDisplay(app, false)
 	crashes := storeCrashes.GetCrashesForIpAddrInternal(app, ipAddrInternal)
 	model := struct {
@@ -286,7 +294,7 @@ func handleCrashes(w http.ResponseWriter, r *http.Request) {
 
 	ipAddrInternal := getTrimmedFormValue(r, "ip_addr")
 	if ipAddrInternal != "" {
-		showCrashesByIp(w, r, app, ipAddrInternal)
+		showCrashesByIP(w, r, app, ipAddrInternal)
 		return
 	}
 	crashingLine := getTrimmedFormValue(r, "crashing_line")
@@ -334,12 +342,12 @@ func handleCrashShow(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	crashIdStr := getTrimmedFormValue(r, "crash_id")
-	crashId, err := strconv.Atoi(crashIdStr)
+	crashID, err := strconv.Atoi(crashIdStr)
 	if err != nil {
 		http.NotFound(w, r)
 		return
 	}
-	crash := storeCrashes.GetCrashById(crashId)
+	crash := storeCrashes.GetCrashById(crashID)
 	if crash == nil {
 		http.NotFound(w, r)
 		return
@@ -431,7 +439,7 @@ func handleCrashSubmit(w http.ResponseWriter, r *http.Request) {
 		httpErrorf(w, "GET not supported")
 		return
 	}
-	ipAddr := getIpAddress(r)
+	ipAddr := getIPAddress(r)
 	appName := getTrimmedFormValue(r, "appname")
 	if appName == "" {
 		logger.Noticef("handleCrashSubmit(): 'appName' is not defined")

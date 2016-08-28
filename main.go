@@ -39,16 +39,10 @@ var (
 		CookieAuthKeyHexStr     *string
 		CookieEncrKeyHexStr     *string
 		AnalyticsCode           *string
-		AwsAccess               *string
-		AwsSecret               *string
-		S3BackupBucket          *string
-		S3BackupDir             *string
 	}{
 		&oauthClient.Credentials,
 		nil, nil,
 		nil,
-		nil, nil,
-		nil, nil,
 	}
 	logger        *ServerLogger
 	cookieAuthKey []byte
@@ -62,32 +56,9 @@ var (
 	alwaysLogTime = true
 )
 
+// StringEmpty returns true if string is empty
 func StringEmpty(s *string) bool {
 	return s == nil || 0 == len(*s)
-}
-
-func S3BackupEnabled() bool {
-	if !inProduction {
-		logger.Notice("s3 backups disabled because not in production")
-		return false
-	}
-	if StringEmpty(config.AwsAccess) {
-		logger.Notice("s3 backups disabled because AwsAccess not defined in config.json")
-		return false
-	}
-	if StringEmpty(config.AwsSecret) {
-		logger.Notice("s3 backups disabled because AwsSecret not defined in config.json")
-		return false
-	}
-	if StringEmpty(config.S3BackupBucket) {
-		logger.Notice("s3 backups disabled because S3BackupBucket not defined in config.json")
-		return false
-	}
-	if StringEmpty(config.S3BackupDir) {
-		logger.Notice("s3 backups disabled because S3BackupDir not defined in config.json")
-		return false
-	}
-	return true
 }
 
 func getDataDir() string {
@@ -95,26 +66,19 @@ func getDataDir() string {
 		return dataDir
 	}
 
-	// on the server, must be done first because ExpandTildeInPath()
-	// doesn't work when cross-compiled on mac for linux
-	serverDir := filepath.Join("..", "..", "data")
-	dataDir = serverDir
-	if u.PathExists(dataDir) {
-		return dataDir
+	dirsToCheck := []string{"/data", u.ExpandTildeInPath("~/data/blog")}
+	for _, dir := range dirsToCheck {
+		if u.PathExists(dir) {
+			dataDir = dir
+			return dataDir
+		}
 	}
 
-	// locally
-	localDir := u.ExpandTildeInPath("~/data/blog")
-	dataDir = localDir
-	if u.PathExists(dataDir) {
-		return dataDir
-	}
-
-	log.Fatalf("data directory (%q or %q) doesn't exist", serverDir, localDir)
+	log.Fatalf("data directory (%v) doesn't exist", dirsToCheck)
 	return ""
 }
 
-func isTopLevelUrl(url string) bool {
+func isTopLevelURL(url string) bool {
 	return 0 == len(url) || "/" == url
 }
 
@@ -199,11 +163,11 @@ func ipAddrFromRemoteAddr(s string) string {
 	return s[:idx]
 }
 
-func getIpAddress(r *http.Request) string {
+func getIPAddress(r *http.Request) string {
 	hdr := r.Header
-	hdrRealIp := hdr.Get("X-Real-Ip")
+	hdrRealIP := hdr.Get("X-Real-Ip")
 	hdrForwardedFor := hdr.Get("X-Forwarded-For")
-	if hdrRealIp == "" && hdrForwardedFor == "" {
+	if hdrRealIP == "" && hdrForwardedFor == "" {
 		return ipAddrFromRemoteAddr(r.RemoteAddr)
 	}
 	if hdrForwardedFor != "" {
@@ -215,7 +179,7 @@ func getIpAddress(r *http.Request) string {
 		// TODO: should return first non-local address
 		return parts[0]
 	}
-	return hdrRealIp
+	return hdrRealIP
 }
 
 func makeTimingHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
@@ -319,8 +283,8 @@ func sanitizeForFile(s string) string {
 	return s
 }
 
-func findUniqueArticleId(articles []*Article) int {
-	ids := make([]int, 0)
+func findUniqueArticleID(articles []*Article) int {
+	var ids []int
 	for _, a := range articles {
 		ids = append(ids, a.Id)
 	}
@@ -328,14 +292,14 @@ func findUniqueArticleId(articles []*Article) int {
 		return 1
 	}
 	sort.Ints(ids)
-	prevId := ids[0]
+	prevID := ids[0]
 	for i := 1; i < len(ids); i++ {
-		if ids[i] != prevId+1 {
-			return prevId + 1
+		if ids[i] != prevID+1 {
+			return prevID + 1
 		}
-		prevId = ids[i]
+		prevID = ids[i]
 	}
-	return prevId + 1
+	return prevID + 1
 }
 
 func genNewArticle(title string) {
@@ -344,9 +308,9 @@ func genNewArticle(title string) {
 	if err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
-	newId := findUniqueArticleId(store.articles)
+	newID := findUniqueArticleID(store.articles)
 	name := sanitizeForFile(title) + ".md"
-	fmt.Printf("new id: %d, name: %s\n", newId, name)
+	fmt.Printf("new id: %d, name: %s\n", newID, name)
 	t := time.Now()
 	dir := "blog_posts"
 	d := t.Format("2006-01")
@@ -355,7 +319,7 @@ func genNewArticle(title string) {
 Title: %s
 Date: %s
 Format: Markdown
---------------`, newId, title, t.Format(time.RFC3339))
+--------------`, newID, title, t.Format(time.RFC3339))
 	for i := 1; i < 10; i++ {
 		if !u.PathExists(path) {
 			break
@@ -414,18 +378,6 @@ func main() {
 
 	readRedirects()
 	InitMetrics()
-
-	backupConfig := &BackupConfig{
-		AwsAccess: *config.AwsAccess,
-		AwsSecret: *config.AwsSecret,
-		Bucket:    *config.S3BackupBucket,
-		S3Dir:     *config.S3BackupDir,
-		LocalDir:  getDataDir(),
-	}
-
-	if S3BackupEnabled() {
-		go BackupLoop(backupConfig)
-	}
 
 	//startWatching()
 	InitHttpHandlers()

@@ -17,7 +17,7 @@ type Year struct {
 type ArticlesIndexModel struct {
 	IsAdmin       bool
 	AnalyticsCode string
-	LogInOutUrl   string
+	LogInOutURL   string
 	ArticlesJsUrl string
 	Article       *Article
 	PostsCount    int
@@ -92,7 +92,7 @@ func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Art
 	model := ArticlesIndexModel{
 		IsAdmin:       isAdmin,
 		AnalyticsCode: *config.AnalyticsCode,
-		LogInOutUrl:   getLogInOutUrl(r),
+		LogInOutURL:   getLogInOutURL(r),
 		ArticlesJsUrl: articlesJsUrl,
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),

@@ -59,7 +59,7 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if !isTopLevelUrl(r.URL.Path) {
+	if !isTopLevelURL(r.URL.Path) {
 		http.NotFound(w, r)
 		return
 	}
@@ -75,14 +75,14 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		Article       *Article
 		Articles      []*Article
 		ArticleCount  int
-		LogInOutUrl   string
+		LogInOutURL   string
 	}{
 		IsAdmin:       isAdmin,
 		AnalyticsCode: *config.AnalyticsCode,
 		Article:       nil, // always nil
 		ArticleCount:  articleCount,
 		Articles:      articles,
-		LogInOutUrl:   getLogInOutUrl(r),
+		LogInOutURL:   getLogInOutURL(r),
 	}
 
 	ExecTemplate(w, tmplMainPage, model)

@@ -199,7 +199,7 @@ func readArticles() ([]*Article, []string, error) {
 	dirs := make([]string, 0)
 	for walker.Step() {
 		if walker.Err() != nil {
-			fmt.Printf("walker.Err() failed with %s\n", walker.Err())
+			fmt.Printf("readArticles: walker.Step() failed with %s\n", walker.Err())
 			return nil, nil, walker.Err()
 		}
 		st := walker.Stat()

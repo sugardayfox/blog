@@ -13,10 +13,6 @@ problems if they arise.
     "AnalyticsCode":"",
     "CookieAuthKeyHexStr":"",
     "CookieEncrKeyHexStr":"",
-    "AwsAccess":"",
-    "AwsSecret":"",
-    "S3BackupBucket":"",
-    "S3BackupDir":""
 }
 
 Here's what they mean and why they are there:
@@ -40,13 +36,6 @@ values used to encrypt cookies (so that they cannot be spoofed).
 
 If empty, the code will helpfully generate values for you to put there
 (see readConfig() in main.go).
-
-1.4 This blog software has an option to backup files to s3 (see s3backup.go).
-
-AwsAccesss, AwsSecret, S3BackupBucket and S3BackupDir define where they are
-backed up.
-
-You can leave them empty (in which case s3 backup will be disabled).
 
 2. You need to create data directory ../../data (assuming you're in go
 directory).
