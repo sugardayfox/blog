@@ -41,7 +41,7 @@ def go_files_matcher(path):
 
 
 def go_dirs_matcher(path):
-    if path.endswith("Godeps"):
+    if path.endswith("vendor"):
         return False
     return True
 

@@ -4,7 +4,6 @@ set -o nounset
 set -o errexit
 set -o pipefail
 
-#rm -rf $TMPDIR/godep
 if [ -e blog_app ]
 then
     ./blog_app -newarticle="$*"

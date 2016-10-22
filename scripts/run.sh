@@ -4,7 +4,6 @@ set -o nounset
 set -o errexit
 set -o pipefail
 
-#rm -rf $TMPDIR/godep
 echo "building"
 go build -o blog_app *.go
 #go build -o blog_app *.go
