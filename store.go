@@ -331,16 +331,6 @@ func strToHTML(s string) string {
 	return "<p>" + ns + "</p>"
 }
 
-func textile(s []byte) string {
-	s, replacements := txtWithCodeParts(s)
-	res := textiler.ToHtml(s, false, false)
-	for kstr, v := range replacements {
-		k := []byte(kstr)
-		res = bytes.Replace(res, k, v, -1)
-	}
-	return string(res)
-}
-
 func markdown(s []byte) string {
 	s, replacements := txtWithCodeParts(s)
 	unsafe := blackfriday.MarkdownCommon(s)

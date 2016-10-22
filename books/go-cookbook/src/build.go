@@ -10,11 +10,7 @@ import (
 )
 
 func parse(r io.Reader) {
-	r2, err := bufio.NewReaderSize(r, 2048)
-	if err != nil {
-		fmt.Printf("Error creating bufio.NewReaderSize()")
-		return
-	}
+	r2 := bufio.NewReaderSize(r, 2048)
 	line := 0
 	for {
 		l, isPrefix, err := r2.ReadLine()
