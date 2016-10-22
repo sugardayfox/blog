@@ -9,5 +9,5 @@ echo "building"
 gdep go build -o blog_app *.go
 #go build -o blog_app *.go
 echo "running in `pwd`"
-./blog_app
+./blog_app -addr=localhost:5020
 rm blog_app
