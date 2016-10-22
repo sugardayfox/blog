@@ -14,7 +14,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kjk/textiler"
 	"github.com/kr/fs"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
@@ -33,7 +32,6 @@ type Article struct {
 
 const (
 	FormatHtml     = 0
-	FormatTextile  = 1
 	FormatMarkdown = 2
 	FormatText     = 3
 
@@ -106,8 +104,6 @@ func parseFormat(s string) int {
 	switch s {
 	case "html":
 		return FormatHtml
-	case "textile":
-		return FormatTextile
 	case "markdown", "md":
 		return FormatMarkdown
 	case "text":
@@ -195,8 +191,8 @@ func readArticle(path string) (*Article, error) {
 func readArticles() ([]*Article, []string, error) {
 	timeStart := time.Now()
 	walker := fs.Walk("blog_posts")
-	res := make([]*Article, 0)
-	dirs := make([]string, 0)
+	var res []*Article
+	var dirs []string
 	for walker.Step() {
 		if walker.Err() != nil {
 			fmt.Printf("readArticles: walker.Step() failed with %s\n", walker.Err())
@@ -307,7 +303,7 @@ func strToHTML(s string) string {
 	for n, match := range matches {
 		start, end := match[0], match[1]
 		for end > start && notUrlEndChar(s[end-1]) {
-			end -= 1
+			end--
 		}
 		url := s[start:end]
 		ns += s[prevEnd:start]
@@ -338,8 +334,8 @@ func strToHTML(s string) string {
 func textile(s []byte) string {
 	s, replacements := txtWithCodeParts(s)
 	res := textiler.ToHtml(s, false, false)
-	for kStr, v := range replacements {
-		k := []byte(kStr)
+	for kstr, v := range replacements {
+		k := []byte(kstr)
 		res = bytes.Replace(res, k, v, -1)
 	}
 	return string(res)
@@ -351,8 +347,8 @@ func markdown(s []byte) string {
 	policy := bluemonday.UGCPolicy()
 	policy.AllowStyling()
 	res := policy.SanitizeBytes(unsafe)
-	for kStr, v := range replacements {
-		k := []byte(kStr)
+	for kstr, v := range replacements {
+		k := []byte(kstr)
 		res = bytes.Replace(res, k, v, -1)
 	}
 	return string(res)
@@ -362,8 +358,6 @@ func msgToHTML(msg []byte, format int) string {
 	switch format {
 	case FormatHtml:
 		return string(msg)
-	case FormatTextile:
-		return textile(msg)
 	case FormatMarkdown:
 		return markdown(msg)
 	case FormatText:
