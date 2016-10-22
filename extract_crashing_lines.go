@@ -1,35 +1,5 @@
 package main
 
-/*
-import (
-	"fmt"
-	"path/filepath"
-	"log"
-	"bytes"
-	"strings"
-)
-
-func main() {
-	dataDir := filepath.Join("..", "..", "blog", "blobs_crashes")
-	if !u.PathExists(dataDir) {
-		log.Fatalf("dir %q doesn't exist", dataDir)
-	}
-	files := u.ListFilesInDir(dataDir, true)
-	for i, f := range files {
-		if i > 200000 {
-			break
-		}
-		d, err := ioutil.ReadFile(f)
-		if err != nil {
-			log.Fatalf("ReadFileAll() failed with %q", err)
-		}
-		s := ExtractSumatraCrashingLine(d)
-		//fmt.Printf("%s:\n  %s\n", f, s)
-		fmt.Printf("%s\n", s)
-	}
-}
-*/
-
 import (
 	"bytes"
 	"strings"

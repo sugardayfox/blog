@@ -182,33 +182,6 @@ func getIPAddress(r *http.Request) string {
 	return hdrRealIP
 }
 
-func makeTimingHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
-		metricCurrentReqs.Inc(1)
-		defer metricCurrentReqs.Dec(1)
-		startTime := time.Now()
-		fn(w, r)
-		duration := time.Now().Sub(startTime)
-		// log urls that take long time to generate i.e. over 1 sec in production
-		// or over 0.1 sec in dev
-		shouldLog := duration.Seconds() > 1.0
-		if alwaysLogTime && duration.Seconds() > 0.1 {
-			shouldLog = true
-		}
-		if shouldLog {
-			url := r.URL.Path
-			if len(r.URL.RawQuery) > 0 {
-				url = fmt.Sprintf("%s?%s", url, r.URL.RawQuery)
-			}
-			logger.Noticef("%q took %f seconds to serve", url, duration.Seconds())
-		}
-		// TODO: add query to url
-		metricHttpReqRate.Mark(1)
-		metricHttpReqTime.Update(duration)
-		LogSlowPage(r.URL.Path, duration)
-	}
-}
-
 func setContentType(w http.ResponseWriter, contentType string) {
 	w.Header().Set("Content-Type", contentType)
 }
@@ -377,7 +350,6 @@ func main() {
 	}
 
 	readRedirects()
-	InitMetrics()
 
 	//startWatching()
 	InitHttpHandlers()

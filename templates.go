@@ -9,17 +9,15 @@ import (
 )
 
 var (
-	tmplLogs                 = "logs.html"
-	tmplTimings              = "timings.html"
 	tmplMainPage             = "mainpage.html"
 	tmplArticle              = "article.html"
 	tmplArchive              = "archive.html"
 	tmplCrashReportsIndex    = "crash_reports_index.html"
 	tmplCrashReportsAppIndex = "crash_reports_app_index.html"
 	tmplCrashReport          = "crash_report.html"
-	templateNames            = [...]string{tmplLogs, tmplMainPage, tmplArticle,
+	templateNames            = [...]string{tmplMainPage, tmplArticle,
 		tmplArchive, tmplCrashReportsIndex, tmplCrashReportsAppIndex,
-		tmplCrashReport, tmplTimings,
+		tmplCrashReport,
 		"analytics.html", "tagcloud.js", "page_navbar.html"}
 	templatePaths   []string
 	templates       *template.Template
