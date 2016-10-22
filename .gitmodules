@@ -1,6 +1,3 @@
-[submodule "vendor/github.com/garyburd/go-oauth"]
-	path = vendor/github.com/garyburd/go-oauth
-	url = https://github.com/garyburd/go-oauth
 [submodule "vendor/github.com/go-fsnotify/fsnotify"]
 	path = vendor/github.com/go-fsnotify/fsnotify
 	url = https://github.com/go-fsnotify/fsnotify
@@ -28,9 +25,12 @@
 [submodule "vendor/github.com/shurcooL/sanitized_anchor_name"]
 	path = vendor/github.com/shurcooL/sanitized_anchor_name
 	url = https://github.com/shurcooL/sanitized_anchor_name
-[submodule "vendor/github.com/thomas11/atomgenerator"]
-	path = vendor/github.com/thomas11/atomgenerator
-	url = https://github.com/thomas11/atomgenerator
 [submodule "vendor/golang.org/x/net"]
 	path = vendor/golang.org/x/net
 	url = https://go.googlesource.com/net
+[submodule "vendor/github.com/garyburd/go-oauth"]
+	path = vendor/github.com/garyburd/go-oauth
+	url = https://github.com/garyburd/go-oauth
+[submodule "vendor/github.com/thomas11/atomgenerator"]
+	path = vendor/github.com/thomas11/atomgenerator
+	url = https://github.com/thomas11/atomgenerator
