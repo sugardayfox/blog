@@ -44,8 +44,11 @@ func shortenCrashLine(s string) string {
 	if len(parts) < 3 {
 		return s
 	}
-	// verify first part is what we expect ("771A2CC7" etc.)
-	if len(parts[0]) != 8 {
+	// verify first part is what we expect ("771A2CC7" for 32-bit and
+	// "771A2CC7771A2CC7" for 64bitetc.)
+	n := len(parts[0])
+	isValidLen = (n == 8) || (n == 16)
+	if !isValidLen {
 		return s
 	}
 	addr := parts[2]

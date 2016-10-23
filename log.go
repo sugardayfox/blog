@@ -1,15 +1,6 @@
 // This code is in Public Domain. Take all the code you want, I'll just write more.
 package main
 
-// TODO: add an option to log to a file in the format:
-// $time E: $msg
-// $time N: $msg
-// E: is for errors, N: is for notices
-// format of $time is TBD (human readable is long, unix timestamp is short
-// but not human-readable)
-
-// TODO: gather all errors and email them periodically (e.g. every day) to myself
-
 import (
 	"fmt"
 	"time"
