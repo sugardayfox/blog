@@ -282,12 +282,14 @@ func genNewArticle(title string) {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
 	newID := findUniqueArticleID(store.articles)
-	name := sanitizeForFile(title) + ".md"
-	fmt.Printf("new id: %d, name: %s\n", newID, name)
 	t := time.Now()
 	dir := "blog_posts"
-	d := t.Format("2006-01")
-	path := filepath.Join(dir, d, name)
+	yyyy := fmt.Sprintf("%04d", t.Year())
+	month := t.Month()
+	sanitizedTitle := sanitizeForFile(title)
+	name := fmt.Sprintf("%02d-%s.md", month, sanitizedTitle)
+	fmt.Printf("new id: %d, name: %s\n", newID, name)
+	path := filepath.Join(dir, yyyy, name)
 	s := fmt.Sprintf(`Id: %d
 Title: %s
 Date: %s
@@ -297,8 +299,8 @@ Format: Markdown
 		if !u.PathExists(path) {
 			break
 		}
-		name := sanitizeForFile(title) + "-" + strconv.Itoa(i) + ".md"
-		path = filepath.Join(dir, d, name)
+		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
+		path = filepath.Join(dir, yyyy, name)
 	}
 	u.PanicIf(u.PathExists(path))
 	fmt.Printf("path: %s\n", path)
@@ -315,12 +317,6 @@ func main() {
 		genNewArticle(newArticleTitle)
 		return
 	}
-
-	/*findFileFixes("../../../sumatrapdf")
-	return
-	s := linkifyCrashReport(test)
-	fmt.Print(string(s))
-	return*/
 
 	if inProduction {
 		reloadTemplates = false

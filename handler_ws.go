@@ -142,7 +142,7 @@ func serveWs(w http.ResponseWriter, r *http.Request) {
 	}
 
 	article := articleInfo.this
-	fmt.Printf("serveWs: started watching %s for uri %s\n", article.Path, uri)
+	fmt.Printf("serveWs: started watching '%s' for url '%s'\n", article.Path, uri)
 
 	c := AddWatch(article.Path)
 	defer RemoveWatch(c)
