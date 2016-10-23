@@ -3,6 +3,7 @@ Title: Customizing Visual Studio
 Tags: visual studio,note
 Date: 2009-02-24T16:51:08-08:00
 Format: Markdown
+Deleted: yes
 --------------
 Keyboard changes:
 

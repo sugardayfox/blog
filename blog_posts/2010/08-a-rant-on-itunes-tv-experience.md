@@ -2,6 +2,7 @@ Id: 311001
 Title: A rant on iTunes TV experience
 Date: 2010-08-11T01:46:24-07:00
 Format: Markdown
+Deleted: yes
 --------------
 or why I switched from iTunes to Amazon’s [Video On
 Demand](http://www.amazon.com/Video-On-Demand/b/ref=topnav_storetab_atv?ie=UTF8&node=16261631)

@@ -3,6 +3,7 @@ Title: apt, dpkg, rpm basics
 Tags: unix,note
 Date: 2010-04-29T16:02:20-07:00
 Format: Markdown
+Deleted: yes
 --------------
 **apt basics:**
 

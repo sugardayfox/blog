@@ -3,6 +3,7 @@ Title: habit forming
 Tags: psychology
 Date: 2008-07-14T08:03:12-07:00
 Format: Markdown
+Deleted: yes
 --------------
 Habits - something we do unconsciously.
 <div>

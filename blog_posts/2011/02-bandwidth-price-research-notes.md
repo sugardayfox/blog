@@ -3,6 +3,7 @@ Title: Bandwidth price research notes
 Tags: note
 Date: 2011-02-24T20:31:28-08:00
 Format: Markdown
+Deleted: yes
 --------------
 For comparison’s sake, the price is in GB of bandwidth per dollar. For
 most plans it’s on a per month cap basis i.e. the actual price will be

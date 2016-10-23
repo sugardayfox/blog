@@ -3,6 +3,7 @@ Title: Bash programming basics
 Tags: reference,unix,note
 Date: 2010-05-11T10:39:16-07:00
 Format: Markdown
+Deleted: yes
 --------------
 **Script arguments**
 

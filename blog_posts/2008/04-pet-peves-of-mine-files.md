@@ -3,6 +3,7 @@ Title: Pet peeves of mine - files
 Tags: ui design
 Date: 2008-04-12T11:22:06-07:00
 Format: Markdown
+Deleted: yes
 --------------
 Files are fine, I just don't like that programs expose me to them for no
 reason at all.

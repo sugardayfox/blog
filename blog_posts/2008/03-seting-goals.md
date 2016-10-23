@@ -3,6 +3,7 @@ Title: Setting goals
 Tags: productivity,psychology
 Date: 2008-03-15T14:54:04-07:00
 Format: Markdown
+Deleted: yes
 --------------
 For complex goals:
 

@@ -2,6 +2,7 @@ Id: 324001
 Title: Drobo and warranty extortion
 Date: 2010-09-16T15:06:14-07:00
 Format: Markdown
+Deleted: yes
 --------------
 I just had a really bad experience with support from Data Robotics
 (makers of Drobo).

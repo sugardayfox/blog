@@ -2,6 +2,7 @@ Id: 58001
 Title: Google storage 8 times cheaper than Amazon's S3?
 Date: 2010-01-12T20:17:23-08:00
 Format: Markdown
+Deleted: yes
 --------------
 7.92 times cheaper, to be exact, if my calculations are right. According
 to [this page](https://www.google.com/accounts/purchasestorage), you can

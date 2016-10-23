@@ -3,6 +3,7 @@ Title: Design process at Apple
 Tags: ui design
 Date: 2008-03-13T05:48:32-07:00
 Format: Markdown
+Deleted: yes
 --------------
 Design process at Apple (from
 http://www.businessweek.com/the\_thread/techbeat/archives/2008/03/apples\_design\_p.html):

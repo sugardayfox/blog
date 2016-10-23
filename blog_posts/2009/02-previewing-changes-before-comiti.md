@@ -3,6 +3,7 @@ Title: Previewing changes before commiting on mac (svn or git)
 Tags: git,svn,mac
 Date: 2009-02-17T03:11:17-08:00
 Format: Markdown
+Deleted: yes
 --------------
 It’s a good habit to preview your changes before committing them. Long
 time ago I wrote a program to help with that on Windows, called
