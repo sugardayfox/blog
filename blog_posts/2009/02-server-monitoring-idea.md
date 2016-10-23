@@ -3,6 +3,7 @@ Title: Server monitoring idea
 Tags: idea
 Date: 2009-02-18T00:44:21-08:00
 Format: Markdown
+Deleted: yes
 --------------
 Server monitor is a service for monitoring servers, providing web-based
 UI and iPhone UI.

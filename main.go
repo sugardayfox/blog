@@ -347,7 +347,7 @@ func main() {
 
 	readRedirects()
 
-	//startWatching()
+	startWatching()
 	InitHttpHandlers()
 	logger.Noticef(fmt.Sprintf("Started runing on %s", httpAddr))
 	if err := http.ListenAndServe(httpAddr, nil); err != nil {

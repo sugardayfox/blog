@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"strings"
 	"sync"
+	"time"
 
 	"github.com/go-fsnotify/fsnotify"
 	"github.com/gorilla/websocket"
@@ -26,27 +27,39 @@ var upgrader = websocket.Upgrader{
 	WriteBufferSize: 1024,
 }
 
+// AddWatch adds watch for a file
 func AddWatch(path string) chan struct{} {
-	c := make(chan struct{})
 	mu.Lock()
+	defer mu.Unlock()
+
+	for _, wf := range watchedFiles {
+		if path == wf.path {
+			return nil
+		}
+	}
+
+	c := make(chan struct{})
+	log.Printf("AddWatch: '%s'\n", path)
 	wf := watchedFile{path, c}
 	watchedFiles = append(watchedFiles, wf)
-	mu.Unlock()
 	return c
 }
 
+// RemoveWatch reoves watch for a file
 func RemoveWatch(c chan struct{}) {
 	mu.Lock()
+	defer mu.Unlock()
+
 	for i, w := range watchedFiles {
 		if w.c == c {
 			fmt.Printf("removed watching of %s\n", w.path)
 			watchedFiles = append(watchedFiles[:i], watchedFiles[i+1:]...)
-			break
+			return
 		}
 	}
-	mu.Unlock()
 }
 
+// NotifyFileChanges sends a notification about changed file
 func NotifyFileChanges(ev fsnotify.Event) {
 	path := ev.Name
 	if isTmpFile(path) {
@@ -58,7 +71,7 @@ func NotifyFileChanges(ev fsnotify.Event) {
 
 	for _, w := range watchedFiles {
 		if strings.HasSuffix(path, w.path) {
-			fmt.Printf("NotifyFileChanges: notify about %s, event: %s\n", path, ev.String())
+			log.Printf("NotifyFileChanges: notify about %s, event: %s\n", path, ev.String())
 			select {
 			case w.c <- struct{}{}:
 			default:
@@ -97,8 +110,6 @@ func startWatching() {
 		if err != nil {
 			fmt.Printf("watcher.Add() for %s failed with %s\n", dir, err)
 			return
-		} else {
-			//fmt.Printf("added watching for dir %s\n", dir)
 		}
 	}
 	//watcher.Close()
@@ -107,10 +118,10 @@ func startWatching() {
 func reloadArticle(article *Article) {
 	for i, a := range store.articles {
 		if a == article {
-			fmt.Printf("reloading %s\n", a.Path)
+			log.Printf("reloading %s\n", article.Path)
 			newArticle, err := readArticle(a.Path)
 			if err != nil {
-				fmt.Printf("reloading %s failed with %s\n", a.Path, err)
+				log.Printf("reloading %s failed with %s\n", a.Path, err)
 				return
 			}
 			store.articles[i] = newArticle
@@ -119,58 +130,92 @@ func reloadArticle(article *Article) {
 	}
 }
 
-// serveWs receives a file name from a websocket client and relays to it
-// all the notifications about changes to this file.
-func serveWs(w http.ResponseWriter, r *http.Request) {
-	conn, err := upgrader.Upgrade(w, r, nil)
-	if err != nil {
-		log.Print(err)
-		return
-	}
-	defer conn.Close()
+const (
+	// Time allowed to write the file to the client.
+	writeWait = 10 * time.Second
 
-	_, p, err := conn.ReadMessage()
-	if err != nil {
-		log.Print(err)
-		return
-	}
-	uri := string(p)
-	articleInfo := articleInfoFromUrl(uri)
-	if articleInfo == nil {
-		fmt.Printf("serveWs: didn't find article for uri %s\n", uri)
-		return
-	}
+	// Time allowed to read the next pong message from the client.
+	pongWait = 60 * time.Second
 
-	article := articleInfo.this
-	fmt.Printf("serveWs: started watching '%s' for url '%s'\n", article.Path, uri)
+	// Send pings to client with this period. Must be less than pongWait.
+	pingPeriod = (pongWait * 9) / 10
+)
 
+func fileWatcher(article *Article, wsChan chan struct{}, chClose chan struct{}) {
 	c := AddWatch(article.Path)
+	if c == nil {
+		return
+	}
 	defer RemoveWatch(c)
-	done := make(chan struct{})
-
-	go func() {
-		for {
-			_, _, err := conn.ReadMessage()
-			if err != nil {
-				fmt.Printf("serveWs: closing for %s\n", uri)
-				close(done)
-				break
-			}
-		}
-	}()
-
-loop:
 	for {
 		select {
 		case <-c:
 			reloadArticle(article)
-			err := conn.WriteMessage(websocket.TextMessage, nil)
-			if err != nil {
-				log.Print(err)
-				break loop
-			}
-		case <-done:
-			break loop
+			wsChan <- struct{}{}
+		case <-chClose:
+			return
 		}
+	}
+}
+
+func wsWriter(ws *websocket.Conn, wsChan chan struct{}, chClose chan struct{}) {
+	ticker := time.NewTicker(pingPeriod)
+	for {
+		select {
+		case <-ticker.C:
+			log.Print("sending ws ping")
+			if err := ws.WriteMessage(websocket.PingMessage, []byte{}); err != nil {
+				log.Print(err)
+				return
+			}
+		case <-wsChan:
+			err := ws.WriteMessage(websocket.TextMessage, []byte{})
+			if err != nil {
+				log.Printf("wsWrite: ws.WriteMessage failed with '%s'\n", err)
+				return
+			}
+		case <-chClose:
+			return
+		}
+	}
+}
+
+// serveWs receives a file name from a websocket client and relays to it
+// all the notifications about changes to this file.
+func serveWs(w http.ResponseWriter, r *http.Request) {
+	log.Printf("serveWs: new connection\n")
+	ws, err := upgrader.Upgrade(w, r, nil)
+	if err != nil {
+		if _, ok := err.(websocket.HandshakeError); !ok {
+			log.Printf("serveWs: upgrader.Upgrade() failed with '%s'\n", err)
+		}
+		return
+	}
+
+	defer ws.Close()
+	ws.SetReadLimit(512)
+	ws.SetReadDeadline(time.Now().Add(pongWait))
+	ws.SetPongHandler(func(string) error { ws.SetReadDeadline(time.Now().Add(pongWait)); return nil })
+	wsChan := make(chan struct{})
+	chClose := make(chan struct{})
+	defer func() {
+		chClose <- struct{}{}
+	}()
+	go wsWriter(ws, wsChan, chClose)
+	for {
+		msgType, p, err := ws.ReadMessage()
+		if err != nil {
+			log.Printf("serveWs: ws.ReadMessage() failed with '%s'\n", err)
+			return
+		}
+		log.Printf("Got ws msg type: %d s: '%s'\n", msgType, string(p))
+		uri := string(p)
+		articleInfo := articleInfoFromUrl(uri)
+		if articleInfo == nil {
+			log.Printf("serveWs: didn't find article for uri %s\n", uri)
+			continue
+		}
+		article := articleInfo.this
+		go fileWatcher(article, wsChan, chClose)
 	}
 }

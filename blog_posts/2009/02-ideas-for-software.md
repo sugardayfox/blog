@@ -3,6 +3,7 @@ Title: Ideas for software
 Tags: idea
 Date: 2009-02-21T15:07:35-08:00
 Format: Markdown
+Deleted: yes
 --------------
 ### Port SelfControl to Windows
 

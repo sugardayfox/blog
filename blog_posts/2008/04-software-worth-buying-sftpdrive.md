@@ -2,6 +2,7 @@ Id: 1994
 Title: Software worth buying - SftpDrive and ExpanDrive
 Tags: software
 Date: 2008-04-15T18:47:17-07:00
+Deleted: yes
 Format: Markdown
 --------------
 [SftpDrive](http://www.sftpdrive.com/) and

@@ -1,7 +1,8 @@
 Id: 224001
 Title: How does chromoting works
 Date: 2010-06-11T12:42:55-07:00
-Format: Markdown
+Deleted: yes
+Format: Markdowna
 --------------
 ### Chromoting is out
 

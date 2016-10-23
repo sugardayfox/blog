@@ -1,6 +1,6 @@
 Id: 312
 Title: Pickling (serialization) in Python
-Tags: python,serialization
+Tags: python
 Date: 2005-12-30T16:00:00-08:00
 Format: Markdown
 --------------

@@ -2,6 +2,7 @@ Id: 326001
 Title: Find free stock photos with Fotofi
 Tags: software,fotofi
 Date: 2010-09-26T18:39:40-07:00
+Deleted: yes
 Format: Markdown
 --------------
 ![Fotofi](=http://yepi.s3.amazonaws.com/img/fotofi/main-small-310x270.png "Fotofi")

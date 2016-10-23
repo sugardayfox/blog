@@ -1,6 +1,6 @@
 Id: 2017
 Title: BitTorrent-based, large file distribution for HTTP
-Tags: idea,bittorrent
+Tags: idea
 Date: 2010-04-18T15:35:18-07:00
 Format: Markdown
 --------------

@@ -3,6 +3,7 @@ Title: OpenVPN gui weirdness on 64-bit Windows 7
 Tags: software
 Date: 2010-06-06T14:42:05-07:00
 Format: Markdown
+Deleted: yes
 --------------
 This is just to document a weirdness in [OpenVPN
 2.1.1](http://openvpn.net/index.php/open-source/downloads.html) on

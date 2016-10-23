@@ -1,6 +1,6 @@
 Id: 21002
 Title: Automatic Java to C# conversion - experience using Java Language Conversion Assistant
-Tags: java,c#,.net,tenderbase
+Tags: c#,.net,tenderbase
 Date: 2009-04-22T00:10:19-07:00
 Format: Markdown
 --------------

@@ -151,7 +151,9 @@ func readArticle(path string) (*Article, error) {
 		k := strings.ToLower(parts[0])
 		v := strings.TrimSpace(parts[1])
 		switch k {
-		case "deleted", "draft":
+		case "deleted":
+			return nil, nil
+		case "draft":
 			if inProduction {
 				return nil, nil
 			}

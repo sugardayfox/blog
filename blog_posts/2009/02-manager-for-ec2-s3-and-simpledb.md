@@ -3,6 +3,7 @@ Title: Manager for ec2, s3 and SimpleDB, on mac
 Tags: idea
 Date: 2009-02-19T02:06:30-08:00
 Format: Markdown
+Deleted: yes
 --------------
 Big picture
 -----------

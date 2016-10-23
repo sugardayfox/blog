@@ -7,7 +7,7 @@ Tags: programming,go
 
 Go lacks a good ad-hoc debugging tool (i.e. a competent debugger).
 
-For that reason we have to revert to cavemen-style debugging: sprinkling the code with `fmt.Printf()`.
+For that reason we have to revert to caveman-style debugging: sprinkling the code with `fmt.Printf()`.
 
 The problem with this approach is lack of selectivity: imagine you have 100 tests
 and only 1 test fails. For debugging the issue you only need to see logs when

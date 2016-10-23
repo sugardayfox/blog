@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"path/filepath"
@@ -77,8 +78,11 @@ func readRedirects() {
 			panic("malformed line in article_redirects.txt")
 		} else {
 			a := store.GetArticleById(id)
-			panicif(a == nil, "bad article id (%d) article_redirects.txt", id)
-			articleRedirects[url] = id
+			if a == nil {
+				fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
+			} else {
+				articleRedirects[url] = id
+			}
 		}
 	}
 	logger.Noticef("loaded %d article redirects", len(articleRedirects))

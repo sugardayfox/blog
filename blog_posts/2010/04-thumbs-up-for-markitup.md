@@ -3,6 +3,7 @@ Title: Thumbs up for markItUp
 Tags: javascript,web devel
 Date: 2010-04-18T15:23:25-07:00
 Format: Markdown
+Deleted: yes
 --------------
 [markItUp](http://markitup.jaysalvat.com/home/) is a simple enhancement
 to textarea that adds icons that help writing markup for popular markup
