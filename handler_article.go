@@ -50,7 +50,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	}
 	article := articleInfo.this
 	displayArticle := &DisplayArticle{Article: article}
-	msgHtml := article.GetHtmlStr()
+	msgHtml := article.GetHTMLStr()
 	displayArticle.HtmlBody = template.HTML(msgHtml)
 
 	model := struct {

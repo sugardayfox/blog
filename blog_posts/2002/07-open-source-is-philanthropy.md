@@ -3,8 +3,9 @@ Title: Open Source is Philanthropy
 Date: 2002-07-23T03:39:58-07:00
 Format: Markdown
 --------------
-> [coder
-> blog](http://cubicmetercrystal.com/log/log-0004.html#16-april-2002):
+
+From now defunct blog:
+
 > Business is business, and business loves proprietary patented
 > technology with its pseudo monopolies used to leverage revenue and
 > increase value. These kind of leverage points used to drive income are

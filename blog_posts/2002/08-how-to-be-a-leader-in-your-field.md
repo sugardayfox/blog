@@ -21,7 +21,7 @@ an interesting pro-blogging argument:
 > -- Philip Greenspun
 
 A little more boring but similar in conclusion paper [How to be a leader
-in your field](http://dlis.gseis.ucla.edu/people/pagre/leader.html).
+in your field](http://polaris.gseis.ucla.edu/pagre/leader.html).
 Blogs are great tools that make it easy to write about your thoughts and
 ideas on the web. But never forget: in the end, it's the quality of your
 ideas that will make or break your reputation.

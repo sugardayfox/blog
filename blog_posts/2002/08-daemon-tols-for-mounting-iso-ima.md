@@ -3,6 +3,7 @@ Title: Daemon tools for mounting iso images
 Tags: software
 Date: 2002-08-23T03:04:59-07:00
 Format: Markdown
+Deleted: yes
 --------------
 I have a new tool in my toolbox: [Daemon
 Tools](http://www.daemon-tools.com/daemon_tools.htm). It allows you to

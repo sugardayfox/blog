@@ -2,6 +2,7 @@ Id: 1379
 Title: What I need: ssh/sftp file system driver for Windows
 Date: 2002-08-17T18:36:27-07:00
 Format: Markdown
+Deleted: yes
 --------------
 What would be great to have is a ssh/sftp file system driver for
 Windows. Currently to exchange files between my servers running ssh and

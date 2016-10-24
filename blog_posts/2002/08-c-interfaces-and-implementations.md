@@ -28,6 +28,5 @@ Two tips from the book (there are many others) worth remembering:
     the speed in the first place (if you speed up by 100% code that only
     takes 1% of total execution time, you'll improve total execution
     time by only imperceptible 0.5%).
--   use assert() generously (but beware of [stupid
-    mistakes](../../../2002/07/30/stuid-coding-mistake-of-the-day.html))
+-   use assert() generously
 

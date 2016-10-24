@@ -39,7 +39,7 @@ func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 		e := &atom.Entry{
 			Title:   a.Title,
 			Link:    "http://blog.kowalczyk.info/" + a.Permalink(),
-			Content: a.GetHtmlStr(),
+			Content: a.GetHTMLStr(),
 			PubDate: a.PublishedOn,
 		}
 		feed.AddEntry(e)
