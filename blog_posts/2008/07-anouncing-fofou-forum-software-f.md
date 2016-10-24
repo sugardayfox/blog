@@ -82,10 +82,10 @@ landscape of low-end web hosting. App Engine is plenty powerful to host
 your website, blog, wiki, forums and what not, for free, with better
 quality guarantees than most low-end web hosts.
 
-It doesn't make sense to pay even \$5/month for low-end web hosting and
+It doesn't make sense to pay even $5/month for low-end web hosting and
 mess with configuring web servers and databases and PHP software.
 
-It doesn't make sense to pay \$5/month for TypePad blog, if you could
+It doesn't make sense to pay $5/month for TypePad blog, if you could
 install TypePad-like software on App Engine and run it for free.
 
 It's even attractive to use App Engine instead of free (read: ad

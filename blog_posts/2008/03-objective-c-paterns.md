@@ -10,7 +10,7 @@ MVC:
     controller changes data
 -   view is the display. reads data from model. reports user interaction
     to controller
--   controller. changes the data based on user interaction in the view
+-   controller changes the data based on user interaction in the view
 
 Target/Action (command):
 

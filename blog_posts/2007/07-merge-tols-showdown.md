@@ -19,6 +19,6 @@ deal-breaking limitation: it doesn't support utf-8 encoded text.
 
 And the winner is:
 [DiffMerge](http://www.sourcegear.com/diffmerge/index.html), which has
-been recently re-released with the price of \$0. It might be not as
+been recently re-released with the price of $0. It might be not as
 flashy as Araxis Merge, but it has good merge workflow and support utf-8
 encoded text.

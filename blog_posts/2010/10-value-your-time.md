@@ -5,9 +5,9 @@ Date: 2010-10-24T16:40:38-07:00
 Format: Markdown
 --------------
 A common question on the internet: I want to host a website. Which low
-cost VPS should I use? [Linode](http://www.linode.com) (\$20/month for
+cost VPS should I use? [Linode](http://www.linode.com) ($20/month for
 the cheapest plan)? [Slicehost](http://www.slicehost.com/) (also
-\$20/moth for the cheapest plan)? Something else?
+$20/moth for the cheapest plan)? Something else?
 
 A helpful, albeit misguided, answer would weight various pros and cons
 of many services, compare prices, do rigorous processor and I/O
@@ -17,15 +17,15 @@ A much better answer is: stop wasting your time (and money) trying to
 optimize inconsequential parts of your business.
 
 Your time is worth a lot. For the purpose of this discussion let’s say
-it’s \$50/hour (a not so great salary of a good software developer).
+it’s $50/hour (a not so great salary of a good software developer).
 
 VPS hosting is a mature, competitive business. You can reject all plans
-that are too good to be true (e.g. unlimited bandwidth for \$5/month)
+that are too good to be true (e.g. unlimited bandwidth for $5/month)
 because they are scams. That leaves a number of roughly equivalent
 plans. Pick one and move on to more important things.
 
-If a competitive plan costs \$20/month, let’s be unrealistic and assume
-you’ll be able to find an equivalent service that is 25% (\$5) cheaper.
+If a competitive plan costs $20/month, let’s be unrealistic and assume
+you’ll be able to find an equivalent service that is 25% ($5) cheaper.
 One hour spent trying to find such a plan would cost you 10 months of
 savings on such a hypothetical service.
 

@@ -2,6 +2,7 @@ Id: 1877
 Title: Recovering data from formatted drives
 Date: 2004-12-13T04:06:27-08:00
 Format: Markdown
+Deleted: yes
 --------------
 I've made a small, but tragic in consequences, mistake. I have my
 biggest hard-drive in a removable hard-drive bay. It got disconnected,
@@ -21,7 +22,7 @@ hard-drive.
 
 Googling revealed that there are multiple programs to do that. I've
 tried [Restorer2000 Professional](http://www.bitmart.net/r2k.shtml)
-(\$50) and I'm happy to say that it worked.
+($50) and I'm happy to say that it worked.
 
 Restorer2000 scans the whole hard-drive looking for partitions and file
 systems and is able to reconstruct files from file system info (in my
@@ -33,7 +34,7 @@ First, the process takes a long time, directly proportional to the size
 of the disk. First, Restorer2000 has to scan the whole hard-drive (read
 every sector on it) to detect all the files. Then, during actual
 recovery, it has to read the files again. We're looking at countless
-hours for big hard-drives (mine was \>200 GB).
+hours for big hard-drives (mine was >200 GB).
 
 The other thing is that it cannot recover files in-place i.e. you need
 as much free space on other hard-drives as the size of files you want to

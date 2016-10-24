@@ -16,7 +16,7 @@ Mentioned:
 -   [Infralution ILS and IPN](http://www.infralution.com/)
 -   [VMProtect](http://www.vmpsoft.com/)
 -   [SmartAssembly](http://www.red-gate.com/products/smartassembly/index.htm)
-    to obfuscate .NET code (\$795-\$994)
+    to obfuscate .NET code ($795-$994)
 
 Custom scheme: encrypt bunch of data, including customer’s name, using
 private key, decrypt in the app using public key and show part of the

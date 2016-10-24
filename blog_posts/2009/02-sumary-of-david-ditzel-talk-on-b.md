@@ -67,7 +67,7 @@ Lessons realized in 1995:
 
 That led to Transmeta in 1995. Transmeta:
 
--   spent \$600M over 12 years in R&D
+-   spent $600M over 12 years in R&D
 -   5 generations of processors although only 3 announced
 
 Key challenges for hybrid processors:

@@ -173,7 +173,7 @@ available Microsoft developers.
 
 Let's consider the moral side of the story. Is Google (or any other
 company) that benefits so much from open-source obliged to contribute
-back? And I don't mean in a token way, like donating \$100 to Mozilla
+back? And I don't mean in a token way, like donating $100 to Mozilla
 foundation. I'm talking about investing at least 10% of estimated
 savings back into open source. Either by donating money to established venues
 like EFF, FSF, Mozilla Foundation or by hiring developers to spend

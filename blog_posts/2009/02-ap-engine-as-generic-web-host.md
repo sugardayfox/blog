@@ -39,7 +39,7 @@ It also has many advantages over basic PHP setup:
 -   hosting is free until you go over a very generous quota but even
     after that usage-based pricing should make it cheaper than even
     cheapest hosting (I overpay a little for my needs but before this
-    site was hosted on \$20 slicehost account)
+    site was hosted on $20 slicehost account)
 -   hopefully Google will keep it running well
 
 Sure, there are many restrictions but basic (i.e. cheap) PHP setups also

@@ -4,16 +4,16 @@ Tags: programming,business
 Date: 2011-05-14T17:15:17-07:00
 Format: Markdown
 --------------
-It it hard to make \$1000 a month?
+It it hard to make $1000 a month?
 ----------------------------------
 
 There’s a question on Quora: [Is it hard to build, market and maintain a
-web app that makes at least \$1000 a
+web app that makes at least $1000 a
 month?](http://www.quora.com/Is-it-hard-to-build-market-and-maintain-a-web-app-that-makes-at-least-1000-a-month)
 
 Most of the answers are happily saying “no, it’s not hard at all”,
 usually justifying it with wishful thinking (“it’s not hard to get 50
-people pay you \$20 a month”).
+people pay you $20 a month”).
 
 Those answers are misleading.
 
@@ -86,13 +86,13 @@ least as good as before. And yet, the other apps were all failures.
 My first success was easy but it wasn’t easily repeatable.
 
 Many people who answered the Quora question did build successful
-websites making \$1000 or more a month. Does that mean that their
+websites making $1000 or more a month. Does that mean that their
 experience is good enough to declare that achieving what they did is
 easy?
 
 No. Just like me, they all have only one or two successful products. If
 it’s easy, then why don’t they re-invest their capital in making more
-products? After all, if you have 100 products each making \$1000 per
+products? After all, if you have 100 products each making $1000 per
 month, you’ll make more than a million a year.
 
 The answers are a good example of selection bias. Even if something has

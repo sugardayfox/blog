@@ -17,7 +17,7 @@ and as such was a great substitute of money when money didn't
 yet exist). We, as a society, perpetuate this historical accident. It
 only works because we all play the game. Now, salt is different but also
 demonstrates the crucial aspect of scarcity. Today I can get all the
-salt I'll ever need to consume in my lifetime for less than \$100. You
+salt I'll ever need to consume in my lifetime for less than $100. You
 might not know it, but there was a time (a long time ago) when salt was
 terribly expensive because people didn't know how to produce it. It was
 scarce. Or you might have heard that around the time Columbus lived it

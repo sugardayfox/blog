@@ -7,16 +7,15 @@ Key data from [New Yorker article on
 e-books](http://www.newyorker.com/reporting/2010/04/26/100426fa_fact_auletta?currentPage=all):
 
 -   typical pricing of a hard-cover book:
-    -   bookstore price: \$26
-    -   whole-sale price for the bookstore: 50% (\$13)
-    -   author royalty: about 15% of the cover price (\$3.90)
-    -   bookstores return about 40% of hard-covers, \$5.2 per book on
-        average
-    -   \$3 is for printing and shipping
-    -   publisher profit: about \$1 (\$15 - \$3.90 - \$5.2 - \$3)
+    -   bookstore price: $26
+    -   whole-sale price for the bookstore: 50% ($13)
+    -   author royalty: about 15% of the cover price ($3.90)
+    -   bookstores return about 40% of hard-covers, $5.2 per book on average
+    -   $3 is for printing and shipping
+    -   publisher profit: about $1 ($15 - $3.90 - $5.2 - $3)
 -   e-book royalties for the author: 25%
--   before agency model pricing, Amazon was buying e-books for \$13 and
-    selling for \$9. The assumption is that Amazon is taking short-term
+-   before agency model pricing, Amazon was buying e-books for $13 and
+    selling for $9. The assumption is that Amazon is taking short-term
     loss to set low price expectation for e-books so that in the future
     they can sell more e-books and kill bookstores (therefore make more
     money)
@@ -33,7 +32,7 @@ e-books](http://www.newyorker.com/reporting/2010/04/26/100426fa_fact_auletta?cur
 -   Open Road Integrated Media, founded by C.E.O. of HarperCollins,
     plans 50% royalty to authors
 -   Amazon tried to strike deals directly with authors, offering them
-    70% royalty, as long as they agree to a \$2.99-\$9.99 price
+    70% royalty, as long as they agree to a $2.99-$9.99 price
 -   of more than 100.000 published books, 70% doesn’t earn back advance
     on royalties
 -   6 biggest publishers produce 60% of all books sold in the U.S.

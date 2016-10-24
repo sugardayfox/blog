@@ -3,6 +3,7 @@ Title: Windbg reference
 Tags: debugging,windbg,win32
 Date: 2008-03-13T07:48:23-07:00
 Format: Markdown
+Deleted: yes
 --------------
 ```
 k, kb, kp, kP
@@ -38,7 +39,7 @@ strings
 ln $addr - list symbols near address
 
 g - go
-g $addr - go until \$addr is reached
+g $addr - go until $addr is reached
 gu - go until exit from function
 ~0 gu - like gu but only current thread is executing
 t - trace (execute one assembly instruction)

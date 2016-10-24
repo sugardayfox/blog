@@ -24,7 +24,7 @@ The [relevant facts](http://en.wikipedia.org/wiki/ConnectU) are:
     to work on it in January 2003. He leaves the project in spring 2003
     after graduating and getting a job at Google
 -   they hire another Harvard student to continue coding. He works
-    during summer and fall, gets paid \$400 for the work but leaves the
+    during summer and fall, gets paid $400 for the work but leaves the
     project for personal reasons. He recommends Zuckerberg, also a
     Harvard student, for his replacement
 -   they talk to Zuckerberg on November 30, 2003 and he agrees to
@@ -98,9 +98,9 @@ Not paying your programmers well
 
 We don’t have enough facts to say why ConnectU had such a hard time
 finding effective programmers for their project but it’s telling that
-they paid the second programmer \$400 for several months of work.
+they paid the second programmer $400 for several months of work.
 
-A fair market rate would be more like \$5000 per month. If you’re
+A fair market rate would be more like $5000 per month. If you’re
 serious about your idea, you need to be realistic about how much you
 need to pay your crucial employees.
 
@@ -133,8 +133,8 @@ In all fairness, this is one mistake that Zuckerberg also made. He
 founded Facebook with his friend Eduardo, with 70-30 split, with no
 vesting provision.
 
-Eduardo put a minuscule amount of money (\$1000 initially and later
-added \$18000) but other than that he doesn’t seem to have done much
+Eduardo put a minuscule amount of money ($1000 initially and later
+added $18000) but other than that he doesn’t seem to have done much
 work on Facebook. The idea was Zuckerberg’s. The code was Zuckerberg’s.
 Eduardo was a business guy at a time when there was no business to do.
 He wasn’t interested in the project enough to work on it during a
@@ -143,7 +143,7 @@ internship in New York instead of working with Zuckerberg on Facebook in
 California.
 
 Despite contributing very little, Eduardo ended up with 5% of Facebook
-(worth more than \$billion). Good for Eduardo but sucks for Zuckerberg.
+(worth more than $billion). Good for Eduardo but sucks for Zuckerberg.
 
 Zuckerberg could have done it all by himself but at the very least there
 should be a clause stipulating vesting schedule of, say, 4 years, saying

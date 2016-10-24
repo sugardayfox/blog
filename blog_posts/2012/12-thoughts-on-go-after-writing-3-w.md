@@ -31,7 +31,7 @@ earlier App Engine version).
 
 One reason to migrate from App Engine to my own server was to save
 money. At my levels of traffic
-(~3\\ requests\\ per\\ second)\\ I\\ was\\ paying~\$80/month, mostly for
+(~3 requests per second) I was paying ~$80/month, mostly for
 the frontend instance hours.
 
 Another reason was to do more complex processing (App Engine is great as
@@ -41,9 +41,8 @@ Finally, I wanted to see how Go will handle a real life project. The
 best way to test a new technology is on a project with a predictable
 (and relatively small) scope.
 
-I used to run them all on a single \$60/month [Kimsufi
-24](http://www.kimsufi.co.uk/) dedicated server but now I’m using
-\$10/month [DigitalOcean](https://www.digitalocean.com/) VPS. I’m using
+I used to run them all on a single $60/month [Kimsufi 24](http://www.kimsufi.co.uk/) dedicated server but now I’m using
+$10/month [DigitalOcean](https://www.digitalocean.com/) VPS. I’m using
 latest Ubuntu for the OS.
 
 Things you need for building a web application

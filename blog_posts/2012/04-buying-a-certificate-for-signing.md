@@ -20,7 +20,7 @@ kind of certificate for signing Windows apps. The certificate is
 actually issued by Comodo, K Software is only a reseller (but they have
 lower prices than Comodo - go figure).
 
-I bought a certificate valid for 3 years (\$245). The validity only
+I bought a certificate valid for 3 years ($245). The validity only
 affects whether you can use the certificate to sign. After you sign the
 app, its signature is valid forever.
 

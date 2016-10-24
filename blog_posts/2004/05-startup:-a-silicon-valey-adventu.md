@@ -21,6 +21,6 @@ alone. Alone but well funded (thanks to Kapor Kaplan gets initial VC
 funding). The journey of GO begins and it's a fascinating journey.
 Reading the book gives an insight into workings of PC business and GO,
 the company, did everything there is to be done: fund rising (to the
-tune of \$75 million, and those were not dot-com days), good and bad
+tune of $75 million, and those were not dot-com days), good and bad
 partnerships, brutal competition (with Microsoft, among others),
 spinning off another company, being bought out and going bankrupt.

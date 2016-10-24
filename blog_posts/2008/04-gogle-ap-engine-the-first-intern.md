@@ -14,7 +14,7 @@ Google App Engine really is the first Internet operating system and
 given generous free plan it spells death for low-end web hosting and
 some of the specialized application hosters.
 
-Currently I pay The Planet \$150/month to lease a decent server. It's
+Currently I pay The Planet $150/month to lease a decent server. It's
 all mine but all I really use it for is my WordPress-based blog and 2
 minor websites. Yes, I overpay, I could move to a low-end web host for
 tens of dollars per month.
@@ -56,7 +56,7 @@ They have a very comfortable business: those days hosting a blog, a
 wiki, a chatroom costs pennies per user per month and they charge
 several dollars. Sign up few thousands paying customers and you have
 steady revenue flow and plenty of money to subsidize basic free accounts
-and work only 4 days a week. But why would I pay 37signals \$12/month
+and work only 4 days a week. But why would I pay 37signals $12/month
 for Campfire if I could install a Campfire-like application on GAE OS,
 for free and with full control over my data (as opposed to believing
 that 37signals will not abuse my data)?
