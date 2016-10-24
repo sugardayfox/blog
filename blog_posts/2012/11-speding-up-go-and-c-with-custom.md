@@ -10,7 +10,7 @@ Speeding up Go with custom allocators
 **Summary**: using a custom allocator I was able to speed up an
 allocation heavy program ([binary-trees
 benchmark](http://shootout.alioth.debian.org/u64/performance.php?test=binarytrees))
-\~4x.
+~4x.
 
 Allocation is expensive. It holds true for all languages. At the time of
 this writing, Go (version 1.0.3) doesn’t have a garbage collector that
@@ -208,7 +208,7 @@ faster is applicable to non-gc languages as well, like C and C++,
 because `malloc()\free()` are relatively slow functions.
 
 Back in the day when I was working on Poppler, I achieved a significant
-\~19% speedup by [improving a string
+~19% speedup by [improving a string
 class](http://blog.kowalczyk.info/article/Performance-optimization-story.html)
 to avoid an additional allocation in 90% of the cases. I now use this
 trick in my C++ code e.g. in [SumatraPDF
