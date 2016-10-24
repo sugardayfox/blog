@@ -6,16 +6,18 @@ import (
 	"strings"
 )
 
+// DisplayArticle represents an article to display
 type DisplayArticle struct {
 	*Article
-	HtmlBody template.HTML
+	HTMLBody template.HTML
 }
 
+// PublishedOnShort is a short version of date
 func (a *DisplayArticle) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
 }
 
-func articleInfoFromUrl(uri string) *ArticleInfo {
+func articleInfoFromURL(uri string) *ArticleInfo {
 	if strings.HasPrefix(uri, "/") {
 		uri = uri[1:]
 	}
@@ -28,8 +30,8 @@ func articleInfoFromUrl(uri string) *ArticleInfo {
 		return nil
 	}
 
-	articleId := UnshortenId(parts[0])
-	return getCachedArticlesById(articleId)
+	articleID := UnshortenID(parts[0])
+	return getCachedArticlesByID(articleID)
 }
 
 // /article/*, /blog/*, /kb/*
@@ -42,7 +44,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 
 	// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 	uri := r.URL.Path
-	articleInfo := articleInfoFromUrl(r.URL.Path)
+	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
 		logger.Noticef("handleArticle: invalid url: %s\n", uri)
 		http.NotFound(w, r)
@@ -50,8 +52,8 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	}
 	article := articleInfo.this
 	displayArticle := &DisplayArticle{Article: article}
-	msgHtml := article.GetHTMLStr()
-	displayArticle.HtmlBody = template.HTML(msgHtml)
+	msgHTML := article.GetHTMLStr()
+	displayArticle.HTMLBody = template.HTML(msgHTML)
 
 	model := struct {
 		IsAdmin       bool
@@ -62,7 +64,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		NextArticle   *Article
 		PrevArticle   *Article
 		LogInOutURL   string
-		ArticlesJsUrl string
+		ArticlesJsURL string
 		TagsDisplay   string
 		ArticleNo     int
 		ArticlesCount int
@@ -77,7 +79,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		PageTitle:     article.Title,
 		ArticlesCount: store.ArticlesCount(),
 		ArticleNo:     articleInfo.pos + 1,
-		ArticlesJsUrl: getArticlesJsUrl(),
+		ArticlesJsURL: getArticlesJsURL(),
 	}
 
 	ExecTemplate(w, tmplArticle, model)

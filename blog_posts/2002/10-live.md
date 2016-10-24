@@ -2,6 +2,7 @@ Id: 463
 Title: Live
 Date: 2002-10-10T18:43:59-07:00
 Format: Markdown
+Deleted: yes
 --------------
 **Live.**\
 

@@ -10,6 +10,7 @@ import (
 
 var articlesCache ArticlesCache
 
+// ArticlesCache describes a cache of articles
 type ArticlesCache struct {
 	sync.Mutex
 	articles       []*Article
@@ -17,7 +18,7 @@ type ArticlesCache struct {
 	articlesJsSha1 string
 }
 
-func appendJsonMarshalled(buf *bytes.Buffer, val interface{}) {
+func appendJSONMarshalled(buf *bytes.Buffer, val interface{}) {
 	if data, err := json.Marshal(val); err != nil {
 		logger.Errorf("json.Marshal() of %v failed with %s", val, err)
 	} else {
@@ -26,7 +27,7 @@ func appendJsonMarshalled(buf *bytes.Buffer, val interface{}) {
 }
 
 // TODO: I only use it for tag cloud, could just send info about tags directly
-func buildArticlesJson(articles []*Article) ([]byte, string) {
+func buildArticlesJSON(articles []*Article) ([]byte, string) {
 	var buf bytes.Buffer
 	buf.WriteString("var __articles_json = ")
 	n := len(articles)
@@ -37,9 +38,9 @@ func buildArticlesJson(articles []*Article) ([]byte, string) {
 		val := make([]interface{}, 1, 1)
 		val[0] = a.Tags
 		vals[n] = val
-		n += 1
+		n++
 	}
-	appendJsonMarshalled(&buf, vals)
+	appendJSONMarshalled(&buf, vals)
 	buf.WriteString("; articlesJsonLoaded(__articles_json);")
 	jsData := buf.Bytes()
 	sha1 := u.Sha1HexOfBytes(jsData)
@@ -47,14 +48,7 @@ func buildArticlesJson(articles []*Article) ([]byte, string) {
 	return jsData, sha1
 }
 
-func buildArticlesCache() {
-	u.PanicIf(articlesCache.articles != nil)
-	articles := store.GetArticles()
-	articlesCache.articles = articles
-	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJson(articles)
-}
-
-func getArticlesJsUrl() string {
+func getArticlesJsURL() string {
 	sha1 := articlesCache.articlesJsSha1
 	return "/djs/articles-" + sha1 + ".js"
 }
@@ -67,6 +61,7 @@ func getCachedArticles() []*Article {
 	return articlesCache.articles
 }
 
+// ArticleInfo describes an article
 type ArticleInfo struct {
 	this *Article
 	next *Article
@@ -74,11 +69,11 @@ type ArticleInfo struct {
 	pos  int
 }
 
-func getCachedArticlesById(articleId int) *ArticleInfo {
+func getCachedArticlesByID(articleID int) *ArticleInfo {
 	articles := store.GetArticles()
 	res := &ArticleInfo{}
 	for i, curr := range articles {
-		if curr.ID == articleId {
+		if curr.ID == articleID {
 			if i != len(articles)-1 {
 				res.next = articles[i+1]
 			}

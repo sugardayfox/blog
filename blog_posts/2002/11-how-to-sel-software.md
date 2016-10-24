@@ -3,7 +3,6 @@ Title: How to sell software
 Date: 2002-11-05T06:35:25-08:00
 Format: Markdown
 --------------
-**How to sell software.**
 
 Interesting [thread][1] in Joel On Software discussion forums. A guy asks how to sell software. Suggested links:
 

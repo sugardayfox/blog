@@ -2,6 +2,7 @@ Id: 579
 Title: Disabling WFP (Windows File Protection)
 Date: 2003-04-01T07:30:53-08:00
 Format: Markdown
+Deleted: yes
 --------------
 New versions of Windows have a feature of automatically re-installing
 files if they have been deleted/modified. It's a way to protect vital

@@ -4,11 +4,11 @@ Date: 2003-01-05T02:51:09-08:00
 Format: Markdown
 --------------
 **Spoiler alert**: don't read this if you want to see the movie and
-don't want to know too much.\
-I just saw [Catch
-me](http://www.rottentomatoes.com/m/CatchMeIfYouCan-1118711/) [if you
-can](http://us.imdb.com/Title?0264464). Watching the movie was a bit
-weird because I've already read [the
+don't want to know too much.
+
+I just saw [Catch me](http://www.rottentomatoes.com/m/CatchMeIfYouCan-1118711/) [if you can](http://us.imdb.com/Title?0264464).
+
+Watching the movie was a bit weird because I've already read [the
 book](http://www.amazon.com/exec/obidos/tg/detail/-/0767905385/) on
 which the movie was based so in principle I knew what was going to
 happen. Or so I thought: turns out that the story was significantly
@@ -19,9 +19,8 @@ directors](http://us.imdb.com/Name?Spielberg,%20Steven) of all times. At
 some point in the movie Tom Hanks' character says "Sometimes it's better
 to live a lie." Sounds like a good tagline for Hollywood.\
 
-\
 So for those who only saw the movie, here's a list of things that was
-different in the book:\
+different in the book:
 
 -   the book is structured along the "I did this and that" theme i.e. it
     tells the story from the point of view of Frank; the movie is

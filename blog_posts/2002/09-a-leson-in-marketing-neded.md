@@ -3,7 +3,7 @@ Title: A lesson in marketing needed
 Date: 2002-09-11T03:15:07-07:00
 Format: Markdown
 --------------
-**A lesson in marketing needed.** It looks like many companies need
+It looks like many companies need
 merketing lesson. Here's a ["marketing"
 description](http://www.xengames.com/productsif.htm) of a game:
 

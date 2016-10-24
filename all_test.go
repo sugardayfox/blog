@@ -7,7 +7,7 @@ import (
 
 func testShortenId(t *testing.T, n int) {
 	s := ShortenId(n)
-	n2 := UnshortenId(s)
+	n2 := UnshortenID(s)
 	if n != n2 {
 		t.Fatalf("'%d' != '%d', shortened = %q", n, n2, s)
 	}

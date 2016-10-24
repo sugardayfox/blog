@@ -2,6 +2,7 @@ Id: 1528
 Title: Christopher Alexander's talk
 Date: 2003-01-30T19:00:00-08:00
 Format: Markdown
+Deleted: yes
 --------------
 Mitch Kapor's
 [talk](http://www.stanford.edu/class/ee380/Abstracts/030129.html) is not

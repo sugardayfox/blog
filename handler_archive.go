@@ -18,7 +18,7 @@ type ArticlesIndexModel struct {
 	IsAdmin       bool
 	AnalyticsCode string
 	LogInOutURL   string
-	ArticlesJsUrl string
+	ArticlesJsURL string
 	Article       *Article
 	PostsCount    int
 	Tag           string
@@ -88,12 +88,12 @@ func filterArticlesByTag(articles []*Article, tag string, include bool) []*Artic
 
 func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Article, tag string) {
 	isAdmin := IsAdmin(r)
-	articlesJsUrl := getArticlesJsUrl()
+	articlesJsURL := getArticlesJsURL()
 	model := ArticlesIndexModel{
 		IsAdmin:       isAdmin,
 		AnalyticsCode: *config.AnalyticsCode,
 		LogInOutURL:   getLogInOutURL(r),
-		ArticlesJsUrl: articlesJsUrl,
+		ArticlesJsURL: articlesJsURL,
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),
 		Tag:           tag,

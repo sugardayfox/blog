@@ -3,7 +3,7 @@ Title: LL2 webcast
 Date: 2002-11-09T23:46:55-08:00
 Format: Markdown
 --------------
-**LL2 webcast.** I love internet. What else would enable me to watch
+I love internet. What else would enable me to watch
 [Lightweight Languages Workshop 2002](http://ll2.ai.mit.edu) (LL2). I
 liked the talk about Erlan (I don't care much about Erlang but the
 presenter was entertaining), talk about disruptive programming language

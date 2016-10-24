@@ -308,6 +308,16 @@ Format: Markdown
 	ioutil.WriteFile(path, []byte(s), 0644)
 }
 
+func loadArticles() {
+	var err error
+	if store, err = NewStore(); err != nil {
+		log.Fatalf("NewStore() failed with %s", err)
+	}
+	articles := store.GetArticles()
+	articlesCache.articles = articles
+	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJSON(articles)
+}
+
 func main() {
 	var err error
 
@@ -336,10 +346,7 @@ func main() {
 		config.AnalyticsCode = &emptyString
 	}
 
-	if store, err = NewStore(); err != nil {
-		log.Fatalf("NewStore() failed with %s", err)
-	}
-	buildArticlesCache()
+	loadArticles()
 
 	if storeCrashes, err = NewStoreCrashes(getDataDir()); err != nil {
 		log.Fatalf("NewStoreCrashes() failed with %s", err)
@@ -347,7 +354,6 @@ func main() {
 
 	readRedirects()
 
-	startWatching()
 	InitHttpHandlers()
 	logger.Noticef(fmt.Sprintf("Started runing on %s", httpAddr))
 	if err := http.ListenAndServe(httpAddr, nil); err != nil {

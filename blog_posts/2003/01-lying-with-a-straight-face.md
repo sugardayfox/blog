@@ -2,6 +2,7 @@ Id: 1488
 Title: Lying with a straight face
 Date: 2003-01-09T03:27:08-08:00
 Format: Markdown
+Deleted: yes
 --------------
 In my naive moments I think there's a limit to how outragously you can
 lie. MPEG LA consortium just set me straight by proving that, in fact,

@@ -109,7 +109,7 @@ func ShortenId(n int) string {
 	return string(buf[:size])
 }
 
-func UnshortenId(s string) int {
+func UnshortenID(s string) int {
 	n := 0
 	for _, c := range s {
 		n *= 36

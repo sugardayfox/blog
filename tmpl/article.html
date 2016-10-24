@@ -59,7 +59,7 @@
 
 
       <div style="margin-right:48px">
-        {{ .Article.HtmlBody }}
+        {{ .Article.HTMLBody }}
       </div>
 
       <hr>
@@ -104,7 +104,8 @@ Find free stock photos with <a href="http://www.yepi.ws/fotofi/free-stock-photos
 
   {{ template "analytics.html" . }}
 
-  <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsUrl }}"></script>
+  <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsURL }}">
+  </script>
 
 </body>
 
