@@ -77,7 +77,7 @@ func readRedirects() {
 		if id, err := strconv.Atoi(idStr); err != nil {
 			panic("malformed line in article_redirects.txt")
 		} else {
-			a := store.GetArticleById(id)
+			a := store.GetArticleByID(id)
 			if a == nil {
 				fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
 			} else {
@@ -119,7 +119,7 @@ func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	if redirectArticleID == -1 {
 		return false
 	}
-	article := store.GetArticleById(redirectArticleID)
+	article := store.GetArticleByID(redirectArticleID)
 	if article != nil {
 		redirURL := "/" + article.Permalink()
 		//logger.Noticef("Redirecting %q => %q", url, redirUrl)

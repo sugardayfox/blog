@@ -259,7 +259,7 @@ func sanitizeForFile(s string) string {
 func findUniqueArticleID(articles []*Article) int {
 	var ids []int
 	for _, a := range articles {
-		ids = append(ids, a.Id)
+		ids = append(ids, a.ID)
 	}
 	if len(ids) == 0 {
 		return 1

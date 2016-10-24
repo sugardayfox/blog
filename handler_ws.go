@@ -117,17 +117,19 @@ func startWatching() {
 
 func reloadArticle(article *Article) {
 	for i, a := range store.articles {
-		if a == article {
-			log.Printf("reloading %s\n", article.Path)
-			newArticle, err := readArticle(a.Path)
-			if err != nil {
-				log.Printf("reloading %s failed with %s\n", a.Path, err)
-				return
-			}
-			store.articles[i] = newArticle
+		if a.ID != article.ID {
+			continue
+		}
+		log.Printf("reloading %s\n", article.Path)
+		newArticle, err := readArticle(a.Path)
+		if err != nil {
+			log.Printf("reloading %s failed with %s\n", a.Path, err)
 			return
 		}
+		store.articles[i] = newArticle
+		return
 	}
+	log.Printf("reloadArticle: didn't reload article %s\n", article.Title)
 }
 
 const (

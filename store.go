@@ -20,18 +20,18 @@ import (
 )
 
 type Article struct {
-	Id          int
+	ID          int
 	PublishedOn time.Time
 	Title       string
 	Tags        []string
 	Format      int
 	Path        string
 	Body        []byte
-	BodyHtml    string
+	BodyHTML    string
 }
 
 const (
-	FormatHtml     = 0
+	FormatHTML     = 0
 	FormatMarkdown = 2
 	FormatText     = 3
 
@@ -40,6 +40,7 @@ const (
 	FormatUnknown = -1
 )
 
+// ArticlesByTime sorts articles by time
 type ArticlesByTime []*Article
 
 func (s ArticlesByTime) Len() int {
@@ -70,7 +71,8 @@ func urlForTag(tag string) string {
 	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
 }
 
-func FormatNameToId(name string) int {
+// FormatNameToID return id of a format
+func FormatNameToID(name string) int {
 	for i, formatName := range formatNames {
 		if strings.EqualFold(name, formatName) {
 			return i
@@ -79,6 +81,7 @@ func FormatNameToId(name string) int {
 	return FormatUnknown
 }
 
+// Store is a store for articles
 type Store struct {
 	articles    []*Article
 	idToArticle map[int]*Article
@@ -103,7 +106,7 @@ func parseFormat(s string) int {
 	s = strings.ToLower(s)
 	switch s {
 	case "html":
-		return FormatHtml
+		return FormatHTML
 	case "markdown", "md":
 		return FormatMarkdown
 	case "text":
@@ -162,7 +165,7 @@ func readArticle(path string) (*Article, error) {
 			if err != nil {
 				return nil, fmt.Errorf("%q is not a valid id (not a number)", v)
 			}
-			a.Id = id
+			a.ID = id
 			a.Path = path
 		case "title":
 			a.Title = v
@@ -219,6 +222,7 @@ func readArticles() ([]*Article, []string, error) {
 	return res, dirs, nil
 }
 
+// NewStore returns a store of articles
 func NewStore() (*Store, error) {
 	articles, dirs, err := readArticles()
 	if err != nil {
@@ -228,38 +232,43 @@ func NewStore() (*Store, error) {
 	res := &Store{articles: articles, dirsToWatch: dirs}
 	res.idToArticle = make(map[int]*Article)
 	for _, a := range articles {
-		curr := res.idToArticle[a.Id]
+		curr := res.idToArticle[a.ID]
 		if curr == nil {
-			res.idToArticle[a.Id] = a
+			res.idToArticle[a.ID] = a
 			continue
 		}
-		log.Fatalf("2 articles with the same id %d\n%s\n%s\n", a.Id, curr.Path, a.Path)
+		log.Fatalf("2 articles with the same id %d\n%s\n%s\n", a.ID, curr.Path, a.Path)
 	}
 	return res, nil
 }
 
+// GetArticles returns all articles
 func (s *Store) GetArticles() []*Article {
 	return s.articles
 }
 
-func (s *Store) GetArticleById(id int) *Article {
+// GetArticleByID returns an article given its id
+func (s *Store) GetArticleByID(id int) *Article {
 	//fmt.Printf("GetArticleById: %d\n", id)
 	for _, a := range s.articles {
-		if a.Id == id {
+		if a.ID == id {
 			return a
 		}
 	}
 	return nil
 }
 
+// ArticlesCount returns number of articles
 func (s *Store) ArticlesCount() int {
 	return len(s.articles)
 }
 
+// Permalink returns article's permalink
 func (a *Article) Permalink() string {
-	return "article/" + ShortenId(a.Id) + "/" + Urlify(a.Title) + ".html"
+	return "article/" + ShortenId(a.ID) + "/" + Urlify(a.Title) + ".html"
 }
 
+// TagsDisplay returns tags as html
 func (a *Article) TagsDisplay() template.HTML {
 	arr := make([]string, 0)
 	for _, tag := range a.Tags {
@@ -269,13 +278,15 @@ func (a *Article) TagsDisplay() template.HTML {
 	return template.HTML(s)
 }
 
-func (a *Article) GetHtmlStr() string {
-	if a.BodyHtml == "" {
-		a.BodyHtml = msgToHTML(a.Body, a.Format)
+// GetHTMLStr returns body of the article as html
+func (a *Article) GetHTMLStr() string {
+	if a.BodyHTML == "" {
+		a.BodyHTML = msgToHTML(a.Body, a.Format)
 	}
-	return a.BodyHtml
+	return a.BodyHTML
 }
 
+// GetDirsToWatch returns directories to watch for chagnes
 func (s *Store) GetDirsToWatch() []string {
 	return s.dirsToWatch
 }
@@ -348,7 +359,7 @@ func markdown(s []byte) string {
 
 func msgToHTML(msg []byte, format int) string {
 	switch format {
-	case FormatHtml:
+	case FormatHTML:
 		return string(msg)
 	case FormatMarkdown:
 		return markdown(msg)

@@ -78,7 +78,7 @@ func getCachedArticlesById(articleId int) *ArticleInfo {
 	articles := store.GetArticles()
 	res := &ArticleInfo{}
 	for i, curr := range articles {
-		if curr.Id == articleId {
+		if curr.ID == articleId {
 			if i != len(articles)-1 {
 				res.next = articles[i+1]
 			}
