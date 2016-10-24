@@ -99,7 +99,7 @@ func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Art
 		Tag:           tag,
 	}
 
-	ExecTemplate(w, tmplArchive, model)
+	execTemplate(w, tmplArchive, model)
 }
 
 func showArchivePage(w http.ResponseWriter, r *http.Request, tag string) {

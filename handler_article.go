@@ -46,8 +46,8 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	uri := r.URL.Path
 	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
-		logger.Noticef("handleArticle: invalid url: %s\n", uri)
-		http.NotFound(w, r)
+		logger.Noticef("handleArticle: invalid url: %s", uri)
+		httpNotFound(w, r)
 		return
 	}
 	article := articleInfo.this
@@ -82,5 +82,5 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesJsURL: getArticlesJsURL(),
 	}
 
-	ExecTemplate(w, tmplArticle, model)
+	execTemplate(w, tmplArticle, model)
 }

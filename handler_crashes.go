@@ -149,7 +149,7 @@ func showCrashesIndex(w http.ResponseWriter, r *http.Request) {
 		Apps: apps,
 		User: getSecureCookie(r).TwitterUser,
 	}
-	ExecTemplate(w, tmplCrashReportsIndex, model)
+	execTemplate(w, tmplCrashReportsIndex, model)
 }
 
 func showCrashesByIP(w http.ResponseWriter, r *http.Request, app *App, ipAddrInternal string) {
@@ -166,7 +166,7 @@ func showCrashesByIP(w http.ResponseWriter, r *http.Request, app *App, ipAddrInt
 		Crashes:     crashes,
 		DayOrIpAddr: crashes[0].IpAddress(),
 	}
-	ExecTemplate(w, tmplCrashReportsAppIndex, model)
+	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
 
 func showCrashesByCrashingLine(w http.ResponseWriter, r *http.Request, app *App, crashingLine string) {
@@ -183,7 +183,7 @@ func showCrashesByCrashingLine(w http.ResponseWriter, r *http.Request, app *App,
 		Crashes:     crashes,
 		DayOrIpAddr: crashingLine,
 	}
-	ExecTemplate(w, tmplCrashReportsAppIndex, model)
+	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
 
 var tmplCrashesRss = template.Must(template.New("crashesrss.html").Parse(`
@@ -206,7 +206,7 @@ func handleCrashesRss(w http.ResponseWriter, r *http.Request) {
 	app := storeCrashes.GetAppByName(appName)
 	if app == nil {
 		logger.Errorf("handleCrashesRss(): invalid app %q", appName)
-		http.NotFound(w, r)
+		httpNotFound(w, r)
 		return
 	}
 	// to minimize the number of times rss reader updates the entries, we
@@ -288,7 +288,7 @@ func handleCrashes(w http.ResponseWriter, r *http.Request) {
 	app := storeCrashes.GetAppByName(appName)
 	if app == nil {
 		logger.Errorf("handleCrashes(): invalid app %q", appName)
-		http.NotFound(w, r)
+		httpNotFound(w, r)
 		return
 	}
 
@@ -328,7 +328,7 @@ func handleCrashes(w http.ResponseWriter, r *http.Request) {
 		Crashes:     crashes,
 		DayOrIpAddr: day,
 	}
-	ExecTemplate(w, tmplCrashReportsAppIndex, model)
+	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
 
 func readCrashReport(sha1 []byte) ([]byte, error) {
@@ -344,17 +344,17 @@ func handleCrashShow(w http.ResponseWriter, r *http.Request) {
 	crashIdStr := getTrimmedFormValue(r, "crash_id")
 	crashID, err := strconv.Atoi(crashIdStr)
 	if err != nil {
-		http.NotFound(w, r)
+		httpNotFound(w, r)
 		return
 	}
 	crash := storeCrashes.GetCrashById(crashID)
 	if crash == nil {
-		http.NotFound(w, r)
+		httpNotFound(w, r)
 		return
 	}
 	crashData, err := readCrashReport(crash.Sha1[:])
 	if err != nil {
-		http.NotFound(w, r)
+		httpNotFound(w, r)
 		return
 	}
 	appName := crash.App.Name
@@ -370,7 +370,7 @@ func handleCrashShow(w http.ResponseWriter, r *http.Request) {
 		AppName:   appName,
 		CrashBody: template.HTML(crashBody),
 	}
-	ExecTemplate(w, tmplCrashReport, model)
+	execTemplate(w, tmplCrashReport, model)
 }
 
 // Version is in the format:
