@@ -38,7 +38,7 @@ func getAppEngineTmplDir() string {
 	return ""
 }
 
-func getCssDir() string {
+func getCSSDir() string {
 	return filepath.Join(getWwwDir(), "css")
 }
 
@@ -48,10 +48,6 @@ func getJsDir() string {
 
 func getGfxDir() string {
 	return filepath.Join(getWwwDir(), "gfx")
-}
-
-func getMarkitupDir() string {
-	return filepath.Join(getWwwDir(), "markitup")
 }
 
 func getStaticDir() string {
@@ -130,7 +126,7 @@ func handleStatic(w http.ResponseWriter, r *http.Request) {
 // url: /css/*
 func handleCss(w http.ResponseWriter, r *http.Request) {
 	file := r.URL.Path[len("/css/"):]
-	serveFileFromDir(w, r, getCssDir(), file)
+	serveFileFromDir(w, r, getCSSDir(), file)
 }
 
 // url: /js/*
@@ -143,12 +139,6 @@ func handleJs(w http.ResponseWriter, r *http.Request) {
 func handleGfx(w http.ResponseWriter, r *http.Request) {
 	file := r.URL.Path[len("/gfx/"):]
 	serveFileFromDir(w, r, getGfxDir(), file)
-}
-
-// url: /markitup/*
-func handleMarkitup(w http.ResponseWriter, r *http.Request) {
-	file := r.URL.Path[len("/markitup/"):]
-	serveFileFromDir(w, r, getMarkitupDir(), file)
 }
 
 // url: /software*

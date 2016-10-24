@@ -2,7 +2,7 @@ package main
 
 import "net/http"
 
-func InitHttpHandlers() {
+func InitHTTPHandlers() {
 	http.HandleFunc("/", handleMainPage)
 	http.HandleFunc("/favicon.ico", handleFavicon)
 	http.HandleFunc("/robots.txt", handleRobotsTxt)
@@ -35,7 +35,6 @@ func InitHttpHandlers() {
 	http.HandleFunc("/css/", handleCss)
 	http.HandleFunc("/js/", handleJs)
 	http.HandleFunc("/gfx/", handleGfx)
-	http.HandleFunc("/markitup/", handleMarkitup)
 	http.HandleFunc("/djs/", handleDjs)
 	if !inProduction {
 		http.HandleFunc("/ws", serveWs)
