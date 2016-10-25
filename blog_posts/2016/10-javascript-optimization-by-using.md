@@ -115,7 +115,7 @@ class Note extends Array {
 // to Note instance. Note: if rawAray is not Array instance,
 // bad things will happen
 function toNote(rawArray: any): Note {
-  rawArray.__proto__ = Note.prototype;
+  Object.setPrototypeOf(rawArray, Note.prototype);
   return rawArray as Note;
 }
 
@@ -134,21 +134,22 @@ Class Note extends built-in JavaScript Array so it's as efficient as JavaScript
 array and inherits all its functionality. We add a couple of functions for
 getting/setting note data. That gives us efficiency and good interface.
 
-The magic happens in `toNote` function. Since `rawNote` is an instance of
-`Array`, `rawNote.__proto__` is `Array.prototype` . We could add our accessor
-function directly to `Array.prototype` but that would make them available to
-all `Array` instances, even those that are not notes.
+The magic happens in `toNote` function. `rawNote` is an instance of
+`Array` We could add our accessor functions directly to `Array.prototype`
+but that would make them available to all `Array` instances.
 
-By definining a class `Note` that inherits from `Array` , `Note.prototype`
+By defining a class `Note` that inherits from `Array`, `Note.prototype`
 inherits all of `Array.prototype` functions and gets our additional functions.
 In order to convert a raw array to `Note` object we can either construct a new
-object from raw array or "upgrade" the object by replacing `__proto__` property.
+object from raw array or "upgrade" the object with `Object.setPrototypeOf(note, Note.prototype)`.
+
 This is dangerous: if the object being upgraded is not an instance of `Array`
 bad things will happen. It's not a technique that should be over-used.
 
 Upgrading the object in place should be more efficient than creating a new
-object because it avoids an allocation. However [according to MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto),
-updating `__proto__` and subsequent operations on such objects are slow so it can go either way.
+object because it avoids an allocation. However [according to MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf),
+changing prototype of an object makes code using that object slow, so it can go
+either way.
 
 To summarize:
 
