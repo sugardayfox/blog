@@ -51,9 +51,8 @@ var (
 
 	dataDir string
 
-	store         *Store
-	storeCrashes  *StoreCrashes
-	alwaysLogTime = true
+	store        *Store
+	storeCrashes *StoreCrashes
 )
 
 // StringEmpty returns true if string is empty
@@ -330,11 +329,9 @@ func main() {
 
 	if inProduction {
 		reloadTemplates = false
-		alwaysLogTime = false
 	}
 
-	useStdout := !inProduction
-	logger = NewServerLogger(256, 256, useStdout)
+	logger = NewServerLogger(256, 256)
 
 	rand.Seed(time.Now().UnixNano())
 
@@ -355,7 +352,7 @@ func main() {
 	readRedirects()
 
 	InitHTTPHandlers()
-	logger.Noticef(fmt.Sprintf("Started runing on %s", httpAddr))
+	logger.Noticef(fmt.Sprintf("Started runing on %s, in production: %v", httpAddr, inProduction))
 	if err := http.ListenAndServe(httpAddr, nil); err != nil {
 		fmt.Printf("http.ListendAndServer() failed with %s\n", err)
 	}

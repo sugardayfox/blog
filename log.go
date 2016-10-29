@@ -62,16 +62,14 @@ func (b *CircularMessagesBuf) GetOrdered() []*TimestampedMsg {
 }
 
 type ServerLogger struct {
-	Errors    *CircularMessagesBuf
-	Notices   *CircularMessagesBuf
-	UseStdout bool
+	Errors  *CircularMessagesBuf
+	Notices *CircularMessagesBuf
 }
 
-func NewServerLogger(errorsMax, noticesMax int, useStdout bool) *ServerLogger {
+func NewServerLogger(errorsMax, noticesMax int) *ServerLogger {
 	l := &ServerLogger{
-		Errors:    NewCircularMessagesBuf(errorsMax),
-		Notices:   NewCircularMessagesBuf(noticesMax),
-		UseStdout: useStdout,
+		Errors:  NewCircularMessagesBuf(errorsMax),
+		Notices: NewCircularMessagesBuf(noticesMax),
 	}
 	return l
 }

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./blog -addr=:80
+./blog -production -addr=:80
