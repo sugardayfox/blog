@@ -4,30 +4,9 @@ Tags: visual studio,c++
 Date: 2008-04-04T16:36:43-07:00
 Format: Markdown
 --------------
-<div>
-
-Variadic Macros
-
-</div>
-
-<div>
-
-<div>
 
 Variadic macros are function-like macros that contain a variable number
 of arguments.
-
-<div>
-
-<div>
-
- Remarks
-
-</div>
-
-<div>
-
-<div>
 
 To use variadic macros, the ellipsis may be specified as the final
 formal argument in a macro definition, and the replacement identifier
@@ -42,42 +21,12 @@ trailing comma if no arguments are passed to the ellipsis.
 
 Support for variadic macros was introduced in Visual C++ 2005.
 
-</div>
 
-</div>
+#### Example:
 
-</div>
-
-<div>
-
-<div>
-
- Example
-
-</div>
-
-<div>
-
-<div>
-
-<div>
-
-<div>
-
-<div>
-
-</div>
-
-<div>
-
-[Copy Code](#)
-
-</div>
-
-</div>
-
+```c++
     // variadic_macros.cpp
-    #include 
+    #include
     #define EMPTY
 
     #define CHECK1(x, ...) if (!(x)) { printf(__VA_ARGS__); }
@@ -98,22 +47,14 @@ Support for variadic macros was introduced in Visual C++ 2005.
        MACRO("hello, world\n");
        // MACRO("error\n", EMPTY);   would cause C2059
     }
-
-</div>
+```
 
 #### Output
+
+```
 
     here are some varargs1(1)
     here are some varargs2(4)
     here are some varargs3(5)
     hello, world
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+```

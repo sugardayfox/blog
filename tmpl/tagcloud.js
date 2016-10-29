@@ -1,5 +1,12 @@
 <script type="text/javascript">
 
+function $(id) {
+  if (id[0] === '#') {
+    id = id.substr(1);
+  }
+  return document.getElementById(id);
+}
+
 function showById(id) {
   $('#' + id).removeClass("invisible").addClass("visible");
 }

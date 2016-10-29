@@ -25,15 +25,13 @@
     }
   </style>
 
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
   {{ template "tagcloud.js" }}
 
   <script type="text/javascript">
     function articlesJsonLoaded(articlesJson) {
       articles_json = articlesJson;
       var html = genTagCloudHtml2();
-      $('#tagCloud').html(html);
+      $('#tagCloud').innerHTML = html;
     }
   </script>
 
