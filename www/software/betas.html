@@ -4,10 +4,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Misc software betas</title>
-  <script src="//kjkpub.s3.amazonaws.com/app/fotofi/latestver.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="//kjkpub.s3.amazonaws.com/software/the_silver_searcher/latestver.js" type="text/javascript"></script>
   <script src="//kjkpub.s3.amazonaws.com/software/pigz/latestver.js" type="text/javascript"></script>
-  <script src="//kjkpub.s3.amazonaws.com/software/ve8/latestver.js" type="text/javascript"></script>
 
   <!--
 <script src="//kjkpub.s3.amazonaws.com/software/notenik/latestver.js" type="text/javascript"></script>
@@ -18,18 +17,6 @@
 -->
 
   <script>
-    function $(id) {
-      if (document.all)
-        return document.all[id];
-      if (document.getElementById)
-        return document.getElementById(id);
-      for (var i = 1; i < document.layers.length; i++) {
-        if (document.layers[i].id == id)
-          return document.layers[i];
-      }
-      return false;
-    }
-
     function a(url, txt) {
       return '<a href="' + url + '">' + txt + '</a>';
     }
@@ -64,38 +51,49 @@
       return a(ve8LatestUrl, ve8LatestVer) + " <span style='color:gray'> built on " + ve8BuiltOn + "</span>";
     }
 
+    function build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl) {
+      var name = "QuickNotes-" + ver + ".zip";
+      return a(macZipUrl, name);
+    }
+
     //function build_simplerion_html() { return build_link_html(simplerionLatestVer); }
     //function build_filerion_html() { return build_link_html(filerionLatestVer); }
     //function build_velociraptor8_html() { return build_link_html(velociraptor8LatestVer); }
 
     function myInit() {
-      //$("fotofi").innerHTML = build_fotofi_html();
-      //$("patheditor").innerHTML = build_patheditor_html();
-      $("ag").innerHTML = build_ag_html();
-      $("pigz").innerHTML = build_pigz_html();
-      $("ve8").innerHTML = build_ve8_html();
-      //$("notenik").innerHTML = build_notenik_html();
-      //$("simplerion").innerHTML = build_simplerion_html();
-      //$("filerion").innerHTML = build_filerion_html();
-      //$("velociraptor8").innerHTML = build_velociraptor8_html();
-    }
+      //$("#fotofi").innerHTML = build_fotofi_html();
+      //$("#patheditor").innerHTML = build_patheditor_html();
+      $("#ag").html(build_ag_html());
+      $("#pigz").html(build_pigz_html());
+      //$("#ve8").innerHTML = build_ve8_html();
+      //$("#notenik").innerHTML = build_notenik_html();
+      //$("#simplerion").innerHTML = build_simplerion_html();
+      //$("#filerion").innerHTML = build_filerion_html();
+      //$("#velociraptor8").innerHTML = build_velociraptor8_html();
 
+      $.ajax({
+        url: "https://s3.amazonaws.com/kjkpub/software/quicknotes/lastvermac.js",
+      })
+      .done(function( data ) {
+          console.log( "Sample of data:", data );
+          var ver = data.ver;
+          var macZipUrl = data.macZipUrl;
+          var macDmgUrl = data.macDmgUrl;
+          var html = build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl);
+          $("#quicknotes-mac").html(html);
+      });
+    }
     window.onload = myInit;
   </script>
 </head>
 
 Latest versions of my misc software:
 <ul>
-  <li><a href="/software/the-silver-searcher-for-windows.html">the silver searcher</a>:
-    <span id="ag"></span>
-  </li>
-  <li><a href="/software/pigz-for-windows.html">pigz</a>:
-    <span id="pigz"></span>
-  </li>
-  <li>velociraptor8:
-    <span id="ve8"></span>
-  </li>
+  <li><a href="/software/the-silver-searcher-for-windows.html">the silver searcher</a>:<span id="ag"></span></li>
+  <li><a href="/software/pigz-for-windows.html">pigz</a>:<span id="pigz"></span></li>
+  <li>QuickNotes mac: <span id="quicknotes-mac"></span></li>
   <!--
+  <li>velociraptor8:<span id="ve8"></span></li>
   <li>fotofi: <span id="fotofi"></span></li>
   <li>notenik: <span id="notenik"></span></li>
   <li><a href="/software/patheditor/">patheditor</a>: <span id="patheditor"></span></li>
