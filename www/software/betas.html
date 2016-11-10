@@ -27,33 +27,16 @@
       return a(url, ver);
     }
 
-    function build_fotofi_html() {
-      return build_link_html(fotofiLatestVer);
-    }
-
-    function build_patheditor_html() {
-      return a(pathEditorLatestUrl, pathEditorLatestVer);
-    }
-
-    function build_ag_html() {
-      return a(agLatestUrl, agLatestVer) + " <span style='color:gray'> built on " + agBuiltOn + "</span>";
-    }
-
-    function build_pigz_html() {
-      return a(pigzLatestUrlZip, pigzLatestVer) + " <span style='color:gray'> built on " + pigzBuiltOn + "</span>";
-    }
-
-    function build_notenik_html() {
-      return a(notenikLatestUrl, notenikLatestVer) + " <span style='color:gray'> built on " + notenikBuiltOn + "</span>";
-    }
-
-    function build_ve8_html() {
-      return a(ve8LatestUrl, ve8LatestVer) + " <span style='color:gray'> built on " + ve8BuiltOn + "</span>";
-    }
-
-    function build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl) {
+    function built_on(when) { return " <span style='color:gray'> built on " + when + "</span>"; }
+    //function build_fotofi_html() { return build_link_html(fotofiLatestVer); }
+    //function build_patheditor_html() { return a(pathEditorLatestUrl, pathEditorLatestVer); }
+    function build_ag_html() { return a(agLatestUrl, agLatestVer) + built_on(agBuiltOn); }
+    function build_pigz_html() { return a(pigzLatestUrlZip, pigzLatestVer) + built_on(pigzBuiltOn); }
+    //function build_notenik_html() { return a(notenikLatestUrl, notenikLatestVer) + built_on(notenikBuiltOn); }
+    //function build_ve8_html() { return a(ve8LatestUrl, ve8LatestVer) + built_on(ve8BuiltOn); }
+    function build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl, when) {
       var name = "QuickNotes-" + ver + ".zip";
-      return a(macZipUrl, name);
+      return a(macZipUrl, name) + built_on(when);
     }
 
     //function build_simplerion_html() { return build_link_html(simplerionLatestVer); }
@@ -79,7 +62,8 @@
           var ver = data.ver;
           var macZipUrl = data.macZipUrl;
           var macDmgUrl = data.macDmgUrl;
-          var html = build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl);
+          var when = data.builtOn;
+          var html = build_quicknotes_mac_html(ver, macZipUrl, macDmgUrl, when);
           $("#quicknotes-mac").html(html);
       });
     }
