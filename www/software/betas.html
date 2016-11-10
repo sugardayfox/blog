@@ -58,7 +58,7 @@
         url: "https://s3.amazonaws.com/kjkpub/software/quicknotes/lastvermac.js",
       })
       .done(function( data ) {
-          var html = build_quicknotes_mac_html(data.ver, data.macZipUrl, data.macDmgUrl, data.when);
+          var html = build_quicknotes_mac_html(data.ver, data.macZipUrl, data.macDmgUrl, data.builtOn);
           $("#quicknotes-mac").html(html);
       });
     }
