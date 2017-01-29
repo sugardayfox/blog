@@ -351,9 +351,10 @@ func main() {
 
 	readRedirects()
 
-	InitHTTPHandlers()
+	srv := initHTTPServer()
+	srv.Addr = httpAddr
 	logger.Noticef(fmt.Sprintf("Started runing on %s, in production: %v", httpAddr, inProduction))
-	if err := http.ListenAndServe(httpAddr, nil); err != nil {
+	if err := srv.ListenAndServe(); err != nil {
 		fmt.Printf("http.ListendAndServer() failed with %s\n", err)
 	}
 	fmt.Printf("Exited\n")

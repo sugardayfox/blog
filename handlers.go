@@ -1,42 +1,58 @@
 package main
 
-import "net/http"
+import (
+	"net/http"
+	"time"
+)
 
-func InitHTTPHandlers() {
-	http.HandleFunc("/", handleMainPage)
-	http.HandleFunc("/favicon.ico", handleFavicon)
-	http.HandleFunc("/robots.txt", handleRobotsTxt)
-	http.HandleFunc("/contactme.html", handleContactme)
-	http.HandleFunc("/oauthtwittercb", handleOauthTwitterCallback)
-	http.HandleFunc("/login", handleLogin)
-	http.HandleFunc("/logout", handleLogout)
+// https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
+func initHTTPServer() *http.Server {
+	mux := &http.ServeMux{}
 
-	http.HandleFunc("/app/crashsubmit", handleCrashSubmit)
-	http.HandleFunc("/app/crashes", handleCrashes)
-	http.HandleFunc("/app/crashesrss", handleCrashesRss)
-	http.HandleFunc("/app/crashshow", handleCrashShow)
+	mux.HandleFunc("/", handleMainPage)
+	mux.HandleFunc("/favicon.ico", handleFavicon)
+	mux.HandleFunc("/robots.txt", handleRobotsTxt)
+	mux.HandleFunc("/contactme.html", handleContactme)
+	mux.HandleFunc("/oauthtwittercb", handleOauthTwitterCallback)
+	mux.HandleFunc("/login", handleLogin)
+	mux.HandleFunc("/logout", handleLogout)
+
+	mux.HandleFunc("/app/crashsubmit", handleCrashSubmit)
+	mux.HandleFunc("/app/crashes", handleCrashes)
+	mux.HandleFunc("/app/crashesrss", handleCrashesRss)
+	mux.HandleFunc("/app/crashshow", handleCrashShow)
 	// TODO: I stopped pointing people to FeedBurner feed on 2013-05-22
 	// At some point I should delete /feedburner.xml, which is a source data
 	// for FeedBurner
-	http.HandleFunc("/feedburner.xml", handleAtom)
-	http.HandleFunc("/atom.xml", handleAtom)
-	http.HandleFunc("/atom-all.xml", handleAtomAll)
-	http.HandleFunc("/archives.html", handleArchives)
-	http.HandleFunc("/software", handleSoftware)
-	http.HandleFunc("/software/", handleSoftware)
-	http.HandleFunc("/extremeoptimizations/", handleExtremeOpt)
-	http.HandleFunc("/article/", handleArticle)
-	http.HandleFunc("/kb/", handleArticle)
-	http.HandleFunc("/blog/", handleArticle)
-	http.HandleFunc("/forum_sumatra/", forumRedirect)
-	http.HandleFunc("/articles/", handleArticles)
-	http.HandleFunc("/tag/", handleTag)
-	http.HandleFunc("/static/", handleStatic)
-	http.HandleFunc("/css/", handleCss)
-	http.HandleFunc("/js/", handleJs)
-	http.HandleFunc("/gfx/", handleGfx)
-	http.HandleFunc("/djs/", handleDjs)
+	mux.HandleFunc("/feedburner.xml", handleAtom)
+	mux.HandleFunc("/atom.xml", handleAtom)
+	mux.HandleFunc("/atom-all.xml", handleAtomAll)
+	mux.HandleFunc("/archives.html", handleArchives)
+	mux.HandleFunc("/software", handleSoftware)
+	mux.HandleFunc("/software/", handleSoftware)
+	mux.HandleFunc("/extremeoptimizations/", handleExtremeOpt)
+	mux.HandleFunc("/article/", handleArticle)
+	mux.HandleFunc("/kb/", handleArticle)
+	mux.HandleFunc("/blog/", handleArticle)
+	mux.HandleFunc("/forum_sumatra/", forumRedirect)
+	mux.HandleFunc("/articles/", handleArticles)
+	mux.HandleFunc("/tag/", handleTag)
+	mux.HandleFunc("/static/", handleStatic)
+	mux.HandleFunc("/css/", handleCss)
+	mux.HandleFunc("/js/", handleJs)
+	mux.HandleFunc("/gfx/", handleGfx)
+	mux.HandleFunc("/djs/", handleDjs)
 	if !inProduction {
-		http.HandleFunc("/ws", serveWs)
+		mux.HandleFunc("/ws", serveWs)
 	}
+
+	srv := &http.Server{
+		ReadTimeout:  5 * time.Second,
+		WriteTimeout: 5 * time.Second,
+		// TODO: 1.8 only
+		// IdleTimeout:  120 * time.Second,
+		Handler: mux,
+	}
+	// TODO: track connections and their state
+	return srv
 }
