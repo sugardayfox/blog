@@ -93,7 +93,7 @@ func ShortenId(n int) string {
 	size := 0
 	for {
 		buf[size] = base64Chars[n%36]
-		size += 1
+		size++
 		if n < 36 {
 			break
 		}

@@ -262,7 +262,7 @@ func handleCrashesRss(w http.ResponseWriter, r *http.Request) {
 				Content: html,
 				PubDate: pubDate}
 			feed.AddEntry(e)
-			i += 1
+			i++
 		}
 	}
 
