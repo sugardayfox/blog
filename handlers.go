@@ -6,7 +6,7 @@ import (
 )
 
 // https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
-func initHTTPServer() *http.Server {
+func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
 
 	mux.HandleFunc("/", handleMainPage)

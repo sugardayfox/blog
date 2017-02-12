@@ -11,6 +11,6 @@ COPY www /app/www/
 COPY tmpl /app/tmpl/
 COPY blog_posts /app/blog_posts/
 
-EXPOSE 80
+EXPOSE 80 443
 
 CMD ["./entrypoint.sh"]

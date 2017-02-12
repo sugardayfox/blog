@@ -1,8 +1,10 @@
 package main
 
 import (
+	"crypto/tls"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"io"
@@ -18,9 +20,12 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"golang.org/x/crypto/acme/autocert"
+
 	"github.com/garyburd/go-oauth/oauth"
 	"github.com/gorilla/securecookie"
 	"github.com/kjk/u"
+	netcontext "golang.org/x/net/context"
 )
 
 var (
@@ -317,6 +322,13 @@ func loadArticles() {
 	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJSON(articles)
 }
 
+func hostPolicy(ctx netcontext.Context, host string) error {
+	if strings.HasSuffix(host, "kowalczyk.info") {
+		return nil
+	}
+	return errors.New("acme/autocert: only *.kowalczyk.info hosts are allowed")
+}
+
 func main() {
 	var err error
 
@@ -351,7 +363,21 @@ func main() {
 
 	readRedirects()
 
-	srv := initHTTPServer()
+	if inProduction {
+		srv := makeHTTPServer()
+		m := autocert.Manager{
+			Prompt:     autocert.AcceptTOS,
+			HostPolicy: hostPolicy,
+		}
+		srv.Addr = ":443"
+		srv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
+		logger.Noticef("Started runing HTTPS on", srv.Addr)
+		go func() {
+			srv.ListenAndServeTLS("", "")
+		}()
+	}
+
+	srv := makeHTTPServer()
 	srv.Addr = httpAddr
 	logger.Noticef(fmt.Sprintf("Started runing on %s, in production: %v", httpAddr, inProduction))
 	if err := srv.ListenAndServe(); err != nil {
