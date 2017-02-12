@@ -371,7 +371,7 @@ func main() {
 		}
 		srv.Addr = ":443"
 		srv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
-		logger.Noticef("Started runing HTTPS on", srv.Addr)
+		logger.Noticef("Started runing HTTPS on %s\n", srv.Addr)
 		go func() {
 			srv.ListenAndServeTLS("", "")
 		}()
