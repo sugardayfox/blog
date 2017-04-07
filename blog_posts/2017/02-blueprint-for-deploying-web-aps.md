@@ -32,24 +32,104 @@ To make the scripts more re-usable, create `ipaddr.sh`:
 IPADDR=<ip address of the server>
 ```
 
-Usually a kernel benefits from one or more tweaks. I create `initial-server-setup.sh` for that and run it as the first thing.
+For convenience I also write `login.sh`:
+```bash
+#!/bin/bash
+. ./ipaddr.sh
+ssh -i ./id_rsa core@${IPADDR}
+```
 
+Usually a kernel benefits from one or more tweaks and those tweaks have to be
+applied at startup. We'll use `systemd` to run a script at startup that makes
+adjustements to the kernel parameters. We need the following files on the
+server:
+
+`/etc/sysctl.d/startup.conf`:
+```
+# http://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet
+# https://coreos.com/os/docs/latest/other-settings.html
+net.netfilter.nf_conntrack_max=131072
+# in seconds, default value was 600 == 5 mins
+net.netfilter.nf_conntrack_generic_timeout = 60
+# in seconds, default value was 432000 i.e. 5 days
+net.netfilter.nf_conntrack_tcp_timeout_established = 54000
+# was 46992
+fs.file-max = 131072
+```
+
+This file contains the settings. Default values for connection tracking are so
+low that it's easy for a malicious person to DoS your server just by opening
+a small number of connections to your http server.
+
+`/etc/systemd/system/startup_script.sh`:
 ```bash
 #!/bin/bash
 
+# put in /etc/systemd/system/startup_script.sh
+# reload values from /etc/sysctl.d/startup.conf
+sysctl --system
+# make hashsize match net.netfilter.nf_conntrack_max (should be nf_conntrack_max / 4)
+# https://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet
+echo 32768 > /sys/module/nf_conntrack/parameters/hashsize
+```
+
+This script makes the changes. Now we need to make sure it gets called at
+startup.
+
+`/etc/systemd/system/startup.service`
+```
+# put in /etc/systemd/system/startup.service
+# http://unix.stackexchange.com/questions/47695/how-to-write-startup-script-for-systemd
+[Unit]
+Description=things to do after each reboot
+# just to be safe, run it after docker is booted
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+# per https://www.digitalocean.com/community/tutorials/how-to-create-and-run-a-service-on-a-coreos-cluster
+EnvironmentFile=/etc/environment
+# '=-' means it can fail
+ExecStart=-/etc/systemd/system/startup_script.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
+I also automate putting those files on the server and configuring `systemd`
+to notice them with a `initial-server-setup.sh` script.
+
+```bash
+#!/bin/bash
 set -u -e -o pipefail
 
 . ./ipaddr.sh
 
+scp -i ./id_rsa ./startup.conf ./startup.service ./startup_script.sh core@${IPADDR}:/home/core/
+
 ssh -i ./id_rsa core@${IPADDR} <<'ENDSSH'
-# http://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet
-# https://coreos.com/os/docs/latest/other-settings.html
-sudo bash -c "echo net.netfilter.nf_conntrack_max=131072 > /etc/sysctl.d/nf.conf"
+sudo cp startup.conf /etc/sysctl.d/startup.conf
+sudo chmod 0644 /etc/sysctl.d/startup.conf
+sudo cp startup.service /etc/systemd/system
+sudo cp startup_script.sh /etc/systemd/system
+sudo chmod 0750 /etc/systemd/system/startup_script.sh
+sudo systemctl daemon-reload
+sudo systemctl enable /etc/systemd/system/startup.service
+
+sudo bash -c "echo 32768 > /sys/module/nf_conntrack/parameters/hashsize"
 sudo sysctl --system
+rm startup.conf startup.service startup_script.sh
 ENDSSH
 ```
 
-The above increases maximum number of conncurrent tcp connections.
+After running `initial-server-setup.sh` you should test that the changes are
+applied:
+
+* login to the server with `./login.sh`
+* reboot with `sudo shutdown -r now`
+* login again
+* `sudo sysctl -a | grep nf_conntrack_max`
 
 **3\. Use systemctld to automatically restart the app**
 
@@ -100,7 +180,7 @@ rm blog.service
 ENDSSH
 ```
 
-You need to re-run it after updating `.service` file.
+You need to re-run it after updating `blog.service` file.
 
 
 **4\. Package the app as a Docker image and upload to the server**
@@ -153,16 +233,6 @@ rm -rf blog-latest.tar.bz2
 You can see the content of Dockerfile [here](https://github.com/kjk/web-blog).
 
 After setting things up and deploying the app, you should restart the OS (`shutdown -r`) to verify that the app will start up after reboot.
-
-For convenience I also write `login.sh`:
-```bash
-#!/bin/bash
-
-. ./ipaddr.sh
-
-ssh -i ./id_rsa core@${IPADDR}
-
-```
 
 and `tail-logs.sh`:
 ```bash
