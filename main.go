@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"crypto/tls"
 	"encoding/hex"
 	"encoding/json"
@@ -24,8 +25,6 @@ import (
 
 	"github.com/garyburd/go-oauth/oauth"
 	"github.com/gorilla/securecookie"
-	"github.com/kjk/u"
-	netcontext "golang.org/x/net/context"
 )
 
 var (
@@ -70,9 +69,9 @@ func getDataDir() string {
 		return dataDir
 	}
 
-	dirsToCheck := []string{"/data", u.ExpandTildeInPath("~/data/blog")}
+	dirsToCheck := []string{"/data", ExpandTildeInPath("~/data/blog")}
 	for _, dir := range dirsToCheck {
-		if u.PathExists(dir) {
+		if PathExists(dir) {
 			dataDir = dir
 			return dataDir
 		}
@@ -300,15 +299,15 @@ Date: %s
 Format: Markdown
 --------------`, newID, title, t.Format(time.RFC3339))
 	for i := 1; i < 10; i++ {
-		if !u.PathExists(path) {
+		if !PathExists(path) {
 			break
 		}
 		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
 		path = filepath.Join(dir, yyyy, name)
 	}
-	u.PanicIf(u.PathExists(path))
+	PanicIf(PathExists(path))
 	fmt.Printf("path: %s\n", path)
-	u.CreateDirForFileMust(path)
+	CreateDirForFileMust(path)
 	ioutil.WriteFile(path, []byte(s), 0644)
 }
 
@@ -322,7 +321,7 @@ func loadArticles() {
 	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJSON(articles)
 }
 
-func hostPolicy(ctx netcontext.Context, host string) error {
+func hostPolicy(ctx context.Context, host string) error {
 	if strings.HasSuffix(host, "kowalczyk.info") {
 		return nil
 	}

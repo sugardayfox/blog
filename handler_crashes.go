@@ -13,8 +13,6 @@ import (
 	"time"
 
 	atom "github.com/thomas11/atomgenerator"
-
-	"github.com/kjk/u"
 )
 
 var blacklistedSumatraVersions = []string{"1.0", "1.5.1", "1.6", "1.7", "1.8", "1.9",
@@ -39,7 +37,7 @@ func (c *Crash) Version() string {
 
 // CreatedOnSince returns created on time in a human-readable form
 func (c *Crash) CreatedOnSince() string {
-	return u.TimeSinceNowAsString(c.CreatedOn)
+	return TimeSinceNowAsString(c.CreatedOn)
 }
 
 // ShortCrashingLine returns short crashing line
