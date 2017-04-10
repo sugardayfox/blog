@@ -1,11 +1,15 @@
 body {
   margin: 0px;
   margin-left: 16px;
-  background: #fcfcfa;
+  background: white;
   color: #333;
   /* same as github.com */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 12pt;
+}
+
+code {
+  background-color: #f9f9f9;
 }
 
 div > p, li > p {
@@ -219,7 +223,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #fdf6e3;
+  background: #f9f9f9;
   color: #657b83;
   border: 1px solid lightgray;
   overflow-x: visible;

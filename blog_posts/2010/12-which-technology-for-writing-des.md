@@ -1,6 +1,6 @@
 Id: 346001
 Title: Which technology for writing desktop software?
-Tags: programing
+Tags: programming
 Date: 2010-12-05T23:20:58-08:00
 Format: Markdown
 --------------

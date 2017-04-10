@@ -2,6 +2,7 @@ Id: 5
 Title: Blueprint for deploying web apps on CoreOS
 Date: 2017-02-11T19:18:21-08:00
 Format: Markdown
+Tags: devops
 --------------
 I used to deploy my web apps on Ubuntu running on Digital Ocean but recently I switched to using [CoreOS](https://coreos.com/) instead of Ubuntu.
 
