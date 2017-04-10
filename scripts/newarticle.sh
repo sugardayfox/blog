@@ -1,8 +1,5 @@
 #!/bin/bash
-
-set -o nounset
-set -o errexit
-set -o pipefail
+set -u -e -o pipefail
 
 if [[ $# -eq 0 ]]; then
     echo "usage: ./scripts/newarticle.sh <title>"
