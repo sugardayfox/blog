@@ -6,6 +6,7 @@ body {
   /* same as github.com */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 12pt;
+  line-height: 1.4;
 }
 
 code {
@@ -70,8 +71,14 @@ hr {
     font-size: 140%;
 }
 
-a.title:hover {
-    text-decoration: underline;
+a {
+  color: #0894f1;
+  text-decoration: none;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .taglink {

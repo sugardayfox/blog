@@ -1,49 +1,71 @@
 <!doctype html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/css/main.css" type="text/css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="/css/main.css" type="text/css" rel="stylesheet">
 
-<title>About Krzysztof Kowalczyk</title>
-<style type="text/css">
+  <title>About Krzysztof Kowalczyk</title>
+  <style type="text/css">
+    h1 {
+      margin-bottom: 2px;
+      padding: 0;
+    }
 
-h1 {
-  margin-bottom: 2px;
-  padding: 0;
-}
+    div#content {
+      margin: 1.75em auto;
+      width: 960px;
+    }
 
-div#content {
-  margin: 1.75em auto;
-  width: 960px;
-}
+    img {
+      border: 0
+    }
 
-img {
-  border:0
-}
-
-.light {
-  color: #5a5a5a;
-}
-</style>
+    .light {
+      color: #5a5a5a;
+    }
+  </style>
 
 </head>
+
 <body>
 
-<div id="content">
-<table>
-  <tr>
-    <td valign="top" colspan="3">
-    <div style="font-size:200%; font-weight: bold;">Krzysztof Kowalczyk</div>
-    <br>
-    </td>
-  </tr>
-  <tr style="font-size: 80%">
-      <td valign="top" style="padding-right: 14px;">
-        <img src="https://lh3.googleusercontent.com/-V65XYnDvc1M/AAAAAAAAAAI/AAAAAAAAAl8/UVQ6FhhYopQ/photo.jpg?sz=120" border="0">
-      </td>
+  <div id="content">
+    <table>
+      <tr>
+        <td valign="top" colspan="3">
+          <div style="font-size:200%; font-weight: bold;">Krzysztof Kowalczyk</div>
+          <br>
+        </td>
+      </tr>
+      <tr style="font-size: 80%">
+        <td valign="top" style="padding-right: 14px;">
+          <img src="https://lh3.googleusercontent.com/-V65XYnDvc1M/AAAAAAAAAAI/AAAAAAAAAl8/UVQ6FhhYopQ/photo.jpg?sz=120" border="0">
+        </td>
 
-      <td valign="top">
-        <script>
+        <td valign="top">
+          <script>
+            var email = "";
+            email += "kkowalczyk";
+            email += "@";
+            email += "gmail.com"
+            hyperlink = "<a href='mailto:email'>email</a>";
+            hyperlink = hyperlink.replace(/email/g, email);
+            document.write(hyperlink);
+          </script>
+
+          <br><br><a href="http://www.linkedin.com/profile/view?id=30171766">LinkedIn</a>
+          <br><br><a href="http://twitter.com/kjk">twitter.com/kjk</a>
+          <br><br><a href="http://github.com/kjk">github.com/kjk</a>
+        </td>
+
+      </tr>
+    </table>
+
+    <h2>How to get in touch with me</h2>
+
+    Send me an email:
+    <script>
           var email = "";
           email += "kkowalczyk";
           email += "@";
@@ -51,39 +73,20 @@ img {
           hyperlink = "<a href='mailto:email'>email</a>";
           hyperlink = hyperlink.replace(/email/g, email);
           document.write(hyperlink);
-        </script>
+    </script>.
+    <p>
+      I love getting feedback, bug reports etc. about my software and my websites so feel free to send them my way - they're always
+      appreciated.
+    </p>
+    <p>
+      One exception: if it's about <a href="http://www.sumatrapdfreader.org/">SumatraPDF</a>, use either
+      <a href="http://www.sumatrapdfreader.org/forum.html">forum</a> (questions) or <a href="https://www.notion.so/How-to-submit-bug-reports-c992bbe9c7b14c0eac5b7493228d4ce4">bug tracker</a>      (bug reports and feature requests).
+    </p>
 
-        <br><br><a href="http://www.linkedin.com/profile/view?id=30171766">LinkedIn</a>
-        <br><br><a href="http://twitter.com/kjk">twitter.com/kjk</a>
-        <br><br><a href="http://github.com/kjk">github.com/kjk</a>
-      </td>
+    <hr>
+    <center><a href="/">Krzysztof Kowalczyk</a></center>
 
-    </tr>
-</table>
-
-<h2>How to get in touch with me</h2>
-
-Send me an email:         <script>
-          var email = "";
-          email += "kkowalczyk";
-          email += "@";
-          email += "gmail.com"
-          hyperlink = "<a href='mailto:email'>email</a>";
-          hyperlink = hyperlink.replace(/email/g, email);
-          document.write(hyperlink);
-        </script>.
-<p>
-I love getting feedback, bug reports etc. about my software and my websites so
-feel free to send them my way - they're always appreciated.
-</p>
-<p>
-One exception: if it's about <a href="http://www.sumatrapdfreader.org/">SumatraPDF</a>, use either
-<a href="http://forums.fofou.org/sumatrapdf/">forum</a> (questions) or <a href="https://github.com/sumatrapdfreader/sumatrapdf/wiki/Submitting-bug-reports">bug tracker</a> (bug reports and feature requests).
-</p>
-
-<hr>
-<center><a href="/">Krzysztof Kowalczyk</a></center>
-
-</div>
+  </div>
 </body>
+
 </html>

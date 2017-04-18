@@ -12,11 +12,6 @@
       font-weight: bold;
     }
 
-    a.articlelink:hover {
-      color: white;
-      background-color: black;
-    }
-
     #headline {
       line-height: 1.4em;
     }
@@ -59,7 +54,7 @@
         {{ range .Articles }}
         <tr>
           <td colspan="2" style="padding-top:2px; padding-bottom: 4px">
-            <a class="articlelink" href="/{{ .Permalink }}">{{.Title}}</a> {{ if .TagsDisplay }}
+            <a href="/{{ .Permalink }}">{{.Title}}</a> {{ if .TagsDisplay }}
             <span style="font-size:80%">
               <span class="taglink">in:</span> {{ .TagsDisplay }}</span>
             {{ end }}
