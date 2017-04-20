@@ -1,25 +1,27 @@
 <html>
+
 <head>
-  <title>Crash reports</title>
-  <style type="text/css">
-    body {
-        font-family: verdana, arial, sans-serif;
-        font-size: 11px;
-        color: #2c3034;
-        background: #eee;
-        margin: 0;
-        padding: 30px;
-        border-top: 5px solid #117700;
-    }
-  </style>
+    <title>Crash reports</title>
+    <style type="text/css">
+        body {
+            font-family: verdana, arial, sans-serif;
+            font-size: 11px;
+            color: #2c3034;
+            background: #eee;
+            margin: 0;
+            padding: 30px;
+            border-top: 5px solid #117700;
+        }
+    </style>
 </head>
 
 <body>
-<h1><a href='{{ .IndexUrl }}'>All</a> : Crash report for {{ .AppName }} from ip {{ .IpAddr }}</h1>
+    <h1><a href='{{ .IndexURL }}'>All</a> : Crash report for {{ .AppName }} from ip {{ .IPAddr }}</h1>
 
-<pre>
+    <pre>
 {{ .CrashBody }}
 </pre>
 
 </body>
+
 </html>
