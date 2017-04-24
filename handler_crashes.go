@@ -51,7 +51,7 @@ func (c *Crash) ShortCrashingLine() string {
 
 // ShortIPAddr returns short ip address
 func (c *Crash) ShortIPAddr() string {
-	s := c.IpAddress()
+	s := c.IPAddress()
 	if len(s) <= 16 {
 		return s
 	}
@@ -88,7 +88,7 @@ func (r Reverse) Less(i, j int) bool {
 	return r.Interface.Less(j, i)
 }
 
-func CanSeeCrashes(r *http.Request, app string) bool {
+func canSeeCrashes(r *http.Request, app string) bool {
 	user := getSecureCookie(r).TwitterUser
 	if user == "kjk" {
 		return true
@@ -152,17 +152,17 @@ func showCrashesIndex(w http.ResponseWriter, r *http.Request) {
 
 func showCrashesByIP(w http.ResponseWriter, r *http.Request, app *App, ipAddrInternal string) {
 	appDisplay := NewAppDisplay(app, false)
-	crashes := storeCrashes.GetCrashesForIpAddrInternal(app, ipAddrInternal)
+	crashes := storeCrashes.GetCrashesForIPAddrInternal(app, ipAddrInternal)
 	model := struct {
 		App         *AppDisplay
 		ShowSince   bool
 		Crashes     []*Crash
-		DayOrIpAddr string
+		DayOrIPAddr string
 	}{
 		App:         appDisplay,
 		ShowSince:   true,
 		Crashes:     crashes,
-		DayOrIpAddr: crashes[0].IpAddress(),
+		DayOrIPAddr: crashes[0].IPAddress(),
 	}
 	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
@@ -174,12 +174,12 @@ func showCrashesByCrashingLine(w http.ResponseWriter, r *http.Request, app *App,
 		App         *AppDisplay
 		ShowSince   bool
 		Crashes     []*Crash
-		DayOrIpAddr string
+		DayOrIPAddr string
 	}{
 		App:         appDisplay,
 		ShowSince:   true,
 		Crashes:     crashes,
-		DayOrIpAddr: crashingLine,
+		DayOrIPAddr: crashingLine,
 	}
 	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
@@ -228,11 +228,11 @@ func handleCrashesRss(w http.ResponseWriter, r *http.Request) {
 		Title:   fmt.Sprintf("Crashes %s", appName),
 		Link:    fmt.Sprintf("http://blog.kowalczyk.info/app/crashesrss?app_name=%s", appName),
 		PubDate: pubDate}
-	baseUrl := fmt.Sprintf("http://blog.kowalczyk.info/app/crashes?app_name=%s", appName)
+	baseURL := fmt.Sprintf("http://blog.kowalczyk.info/app/crashes?app_name=%s", appName)
 	if firstDayIdx == -1 {
 		e := &atom.Entry{
 			Title:   fmt.Sprintf("Crashes for %s", appName),
-			Link:    baseUrl,
+			Link:    baseURL,
 			Content: fmt.Sprintf("There are no crashes for %s yet", appName),
 			PubDate: pubDate}
 		feed.AddEntry(e)
@@ -256,7 +256,7 @@ func handleCrashesRss(w http.ResponseWriter, r *http.Request) {
 			pubDate, _ = time.Parse("2006-01-02", day)
 			e := &atom.Entry{
 				Title:   fmt.Sprintf("%d %s crashes on %s", len(crashes), appName, day),
-				Link:    fmt.Sprintf("%s&day=%s", baseUrl, day),
+				Link:    fmt.Sprintf("%s&day=%s", baseURL, day),
 				Content: html,
 				PubDate: pubDate}
 			feed.AddEntry(e)
@@ -279,7 +279,7 @@ func handleCrashes(w http.ResponseWriter, r *http.Request) {
 		showCrashesIndex(w, r)
 		return
 	}
-	if !CanSeeCrashes(r, "") {
+	if !canSeeCrashes(r, "") {
 		serveCrashLoginLogout(w, r)
 		return
 	}
@@ -319,12 +319,12 @@ func handleCrashes(w http.ResponseWriter, r *http.Request) {
 		App         *AppDisplay
 		ShowSince   bool
 		Crashes     []*Crash
-		DayOrIpAddr string
+		DayOrIPAddr string
 	}{
 		App:         appDisplay,
 		ShowSince:   false,
 		Crashes:     crashes,
-		DayOrIpAddr: day,
+		DayOrIPAddr: day,
 	}
 	execTemplate(w, tmplCrashReportsAppIndex, model)
 }
@@ -335,17 +335,17 @@ func readCrashReport(sha1 []byte) ([]byte, error) {
 
 // /app/crashshow?crash_id=${crash_id}
 func handleCrashShow(w http.ResponseWriter, r *http.Request) {
-	if !CanSeeCrashes(r, "") {
+	if !canSeeCrashes(r, "") {
 		serveCrashLoginLogout(w, r)
 		return
 	}
-	crashIdStr := getTrimmedFormValue(r, "crash_id")
-	crashID, err := strconv.Atoi(crashIdStr)
+	crashIDStr := getTrimmedFormValue(r, "crash_id")
+	crashID, err := strconv.Atoi(crashIDStr)
 	if err != nil {
 		httpNotFound(w, r)
 		return
 	}
-	crash := storeCrashes.GetCrashById(crashID)
+	crash := storeCrashes.GetCrashByID(crashID)
 	if crash == nil {
 		httpNotFound(w, r)
 		return
@@ -358,13 +358,13 @@ func handleCrashShow(w http.ResponseWriter, r *http.Request) {
 	appName := crash.App.Name
 	crashBody := string(crashData)
 	model := struct {
-		IndexUrl  string
-		IpAddr    string
+		IndexURL  string
+		IPAddr    string
 		AppName   string
 		CrashBody template.HTML
 	}{
-		IndexUrl:  fmt.Sprintf("/app/crashes?app_name=%s", appName),
-		IpAddr:    crash.IpAddress(),
+		IndexURL:  fmt.Sprintf("/app/crashes?app_name=%s", appName),
+		IPAddr:    crash.IPAddress(),
 		AppName:   appName,
 		CrashBody: template.HTML(crashBody),
 	}

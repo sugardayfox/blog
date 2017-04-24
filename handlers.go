@@ -21,6 +21,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/app/crashes", handleCrashes)
 	mux.HandleFunc("/app/crashesrss", handleCrashesRss)
 	mux.HandleFunc("/app/crashshow", handleCrashShow)
+	mux.HandleFunc("/app/debug", handleDebug)
 	// TODO: I stopped pointing people to FeedBurner feed on 2013-05-22
 	// At some point I should delete /feedburner.xml, which is a source data
 	// for FeedBurner
@@ -49,9 +50,8 @@ func makeHTTPServer() *http.Server {
 	srv := &http.Server{
 		ReadTimeout:  5 * time.Second,
 		WriteTimeout: 5 * time.Second,
-		// TODO: 1.8 only
-		// IdleTimeout:  120 * time.Second,
-		Handler: mux,
+		IdleTimeout:  120 * time.Second,
+		Handler:      mux,
 	}
 	// TODO: track connections and their state
 	return srv

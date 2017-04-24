@@ -15,16 +15,18 @@ import (
 	"time"
 )
 
+// Crash describes a crash
 type Crash struct {
-	Id             int
+	ID             int
 	CreatedOn      time.Time
 	App            *App
 	ProgramVersion *string
-	IpAddrInternal *string
+	IPAddrInternal *string
 	CrashingLine   *string
 	Sha1           [20]byte
 }
 
+// App describes an app
 type App struct {
 	Name                   string
 	Crashes                []*Crash
@@ -49,8 +51,9 @@ type StoreCrashes struct {
 	dataFile      *os.File
 }
 
-func (c *Crash) IpAddress() string {
-	return ipAddrInternalToOriginal(*c.IpAddrInternal)
+// IPAddress returns ip address of crashing computer
+func (c *Crash) IPAddress() string {
+	return ipAddrInternalToOriginal(*c.IPAddrInternal)
 }
 
 // CreatedOnDay returns a string version of created on
@@ -104,6 +107,7 @@ func (s *StoreCrashes) FindOrCreateApp(appName string) *App {
 	return app
 }
 
+// FindOrCreateVersion finds or creates a version
 func (s *StoreCrashes) FindOrCreateVersion(ver string) *string {
 	for _, v := range s.versions {
 		if *v == ver {
@@ -114,6 +118,7 @@ func (s *StoreCrashes) FindOrCreateVersion(ver string) *string {
 	return &ver
 }
 
+// FindCrashingLine finds crashing line
 func (s *StoreCrashes) FindCrashingLine(str string) *string {
 	if s2, ok := s.crashingLines[str]; ok {
 		return s2
@@ -121,6 +126,7 @@ func (s *StoreCrashes) FindCrashingLine(str string) *string {
 	return nil
 }
 
+// FindOrCreateCrashingLine finds or creates a crashing line
 func (s *StoreCrashes) FindOrCreateCrashingLine(str string) *string {
 	if s2, ok := s.crashingLines[str]; ok {
 		return s2
@@ -129,14 +135,16 @@ func (s *StoreCrashes) FindOrCreateCrashingLine(str string) *string {
 	return &str
 }
 
-func (s *StoreCrashes) FindIp(str string) *string {
+// FindIP finds an ip
+func (s *StoreCrashes) FindIP(str string) *string {
 	if s2, ok := s.ips[str]; ok {
 		return s2
 	}
 	return nil
 }
 
-func (s *StoreCrashes) FindOrCreateIp(str string) *string {
+// FindOrCreateIP finds or creates ip address
+func (s *StoreCrashes) FindOrCreateIP(str string) *string {
 	if s2, ok := s.ips[str]; ok {
 		return s2
 	}
@@ -147,11 +155,11 @@ func (s *StoreCrashes) FindOrCreateIp(str string) *string {
 func ipAddrInternalToOriginal(s string) string {
 	// check if ipv4 in hex form
 	if len(s) == 8 {
-		if d, err := hex.DecodeString(s); err != nil {
+		d, err := hex.DecodeString(s)
+		if err != nil {
 			return s
-		} else {
-			return fmt.Sprintf("%d.%d.%d.%d", d[0], d[1], d[2], d[3])
 		}
+		return fmt.Sprintf("%d.%d.%d.%d", d[0], d[1], d[2], d[3])
 	}
 	// other format (ipv6?)
 	return s
@@ -202,15 +210,15 @@ func (s *StoreCrashes) parseCrash(line []byte) {
 	}
 
 	programVersionInterned := s.FindOrCreateVersion(programVersion)
-	ipAddr := s.FindOrCreateIp(ipAddrInternal)
+	ipAddr := s.FindOrCreateIP(ipAddrInternal)
 	app := s.FindOrCreateApp(programName)
 	crashingLine := s.FindOrCreateCrashingLine(crashingLineTmp)
 	c := &Crash{
-		Id:             len(s.crashes),
+		ID:             len(s.crashes),
 		App:            app,
 		CreatedOn:      createdOn,
 		ProgramVersion: programVersionInterned,
-		IpAddrInternal: ipAddr,
+		IPAddrInternal: ipAddr,
 		CrashingLine:   crashingLine,
 	}
 	copy(c.Sha1[:], msgSha1)
@@ -372,16 +380,17 @@ func (s *StoreCrashes) GetCrashesForApp(appName string) []*Crash {
 	return app.Crashes
 }
 
-func (s *StoreCrashes) GetCrashesForIpAddrInternal(app *App, ipAddrInternal string) []*Crash {
+// GetCrashesForIPAddrInternal returns crashes for a given ip addrss
+func (s *StoreCrashes) GetCrashesForIPAddrInternal(app *App, ipAddrInternal string) []*Crash {
 	s.Lock()
 	defer s.Unlock()
 	res := make([]*Crash, 0)
-	ipAddrPtr := s.FindIp(ipAddrInternal)
+	ipAddrPtr := s.FindIP(ipAddrInternal)
 	if ipAddrPtr == nil {
 		return res
 	}
 	for i, c := range s.crashes {
-		if c.App == app && c.IpAddrInternal == ipAddrPtr {
+		if c.App == app && c.IPAddrInternal == ipAddrPtr {
 			res = append(res, s.crashes[i])
 		}
 	}
@@ -389,6 +398,7 @@ func (s *StoreCrashes) GetCrashesForIpAddrInternal(app *App, ipAddrInternal stri
 	return res
 }
 
+// GetCrashesForCrashingLine returns crashes for a crashing line
 func (s *StoreCrashes) GetCrashesForCrashingLine(app *App, crashingLine string) []*Crash {
 	s.Lock()
 	defer s.Unlock()
@@ -406,7 +416,8 @@ func (s *StoreCrashes) GetCrashesForCrashingLine(app *App, crashingLine string) 
 	return res
 }
 
-func (s *StoreCrashes) GetCrashById(id int) *Crash {
+// GetCrashByID returns a crash by id
+func (s *StoreCrashes) GetCrashByID(id int) *Crash {
 	s.Lock()
 	defer s.Unlock()
 	if id < 0 || id > len(s.crashes) {
@@ -421,14 +432,14 @@ func serCrash(c *Crash) string {
 	s2 := fmt.Sprintf("%d", c.CreatedOn.Unix())
 	s3 := remSep(c.App.Name)
 	s4 := remSep(*c.ProgramVersion)
-	s5 := *c.IpAddrInternal
+	s5 := *c.IPAddrInternal
 	s6 := *c.CrashingLine
 	return fmt.Sprintf("C%s|%s|%s|%s|%s|%s\n", s1, s2, s3, s4, s5, s6)
 }
 
 func getCrashPrefixData(crash *Crash) []byte {
 	s := fmt.Sprintf("App: %s\n", crash.App.Name)
-	s += fmt.Sprintf("Ip: %s\n", *crash.IpAddrInternal)
+	s += fmt.Sprintf("Ip: %s\n", *crash.IPAddrInternal)
 	s += fmt.Sprintf("On: %s\n", crash.CreatedOn.Format(time.RFC3339))
 	return []byte(s)
 }
@@ -438,6 +449,7 @@ func storeCrashingLine(d []byte) string {
 	return remSep(l)
 }
 
+// SaveCrash saves a crash
 func (s *StoreCrashes) SaveCrash(appName, appVer, ipAddr string, crashData []byte) error {
 	s.Lock()
 	defer s.Unlock()
@@ -445,16 +457,16 @@ func (s *StoreCrashes) SaveCrash(appName, appVer, ipAddr string, crashData []byt
 	// TODO: white-list app names?
 	app := s.FindOrCreateApp(appName)
 	programVersionInterned := s.FindOrCreateVersion(appVer)
-	ipAddrInterned := s.FindOrCreateIp(ipAddrToInternal(ipAddr))
+	ipAddrInterned := s.FindOrCreateIP(ipAddrToInternal(ipAddr))
 	cl := storeCrashingLine(crashData)
 	crashingLine := s.FindOrCreateCrashingLine(cl)
 
 	c := &Crash{
-		Id:             len(s.crashes),
+		ID:             len(s.crashes),
 		App:            app,
 		CreatedOn:      time.Now(),
 		ProgramVersion: programVersionInterned,
-		IpAddrInternal: ipAddrInterned,
+		IPAddrInternal: ipAddrInterned,
 		CrashingLine:   crashingLine,
 	}
 
