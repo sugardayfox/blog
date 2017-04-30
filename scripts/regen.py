@@ -2,6 +2,8 @@
 
 """
 Re-generate html files from markdown (.md) files.
+
+pip install markdown web.py
 """
 
 import os, markdown, web, util
