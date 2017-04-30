@@ -5,7 +5,6 @@ import (
 	"time"
 )
 
-// https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
 func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
 
@@ -47,12 +46,12 @@ func makeHTTPServer() *http.Server {
 		mux.HandleFunc("/ws", serveWs)
 	}
 
+	// https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/
 	srv := &http.Server{
 		ReadTimeout:  5 * time.Second,
 		WriteTimeout: 5 * time.Second,
 		IdleTimeout:  120 * time.Second,
 		Handler:      mux,
 	}
-	// TODO: track connections and their state
 	return srv
 }

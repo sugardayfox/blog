@@ -216,7 +216,7 @@ var (
 	newArticleTitle string
 )
 
-func parseCmdLineArgs() {
+func parseCmdLineFlags() {
 	flag.StringVar(&configPath, "config", "config.json", "Path to configuration file")
 	flag.StringVar(&httpAddr, "addr", ":5020", "HTTP server address")
 	flag.BoolVar(&inProduction, "production", false, "are we running in production")
@@ -331,7 +331,7 @@ func hostPolicy(ctx context.Context, host string) error {
 func main() {
 	var err error
 
-	parseCmdLineArgs()
+	parseCmdLineFlags()
 
 	if newArticleTitle != "" {
 		genNewArticle(newArticleTitle)
