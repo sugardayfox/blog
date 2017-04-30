@@ -11,11 +11,12 @@ import (
 	"github.com/garyburd/go-oauth/oauth"
 )
 
-type SecureCookieValue struct {
+type secureCookieValue struct {
 	TwitterUser string
 	TwitterTemp string
 }
 
+// IsAdmin returns true if the user is an admin
 func IsAdmin(r *http.Request) bool {
 	return getSecureCookie(r).TwitterUser == "kjk"
 }
@@ -28,7 +29,7 @@ func getLogInOutURL(r *http.Request) string {
 	return "/login?redirect=" + url
 }
 
-func setSecureCookie(w http.ResponseWriter, cookieVal *SecureCookieValue) {
+func setSecureCookie(w http.ResponseWriter, cookieVal *secureCookieValue) {
 	val := make(map[string]string)
 	val["twuser"] = cookieVal.TwitterUser
 	val["twittertemp"] = cookieVal.TwitterTemp
@@ -45,7 +46,7 @@ func setSecureCookie(w http.ResponseWriter, cookieVal *SecureCookieValue) {
 	}
 }
 
-const WeekInSeconds = 60 * 60 * 24 * 7
+const weekInSeconds = 60 * 60 * 24 * 7
 
 // to delete the cookie value (e.g. for logging out), we need to set an
 // invalid value
@@ -53,18 +54,18 @@ func deleteSecureCookie(w http.ResponseWriter) {
 	cookie := &http.Cookie{
 		Name:   cookieName,
 		Value:  "deleted",
-		MaxAge: WeekInSeconds,
+		MaxAge: weekInSeconds,
 		Path:   "/",
 	}
 	http.SetCookie(w, cookie)
 }
 
-func getSecureCookie(r *http.Request) *SecureCookieValue {
-	ret := new(SecureCookieValue)
+func getSecureCookie(r *http.Request) *secureCookieValue {
+	ret := &secureCookieValue{}
 	if cookie, err := r.Cookie(cookieName); err == nil {
 		// detect a deleted cookie
 		if "deleted" == cookie.Value {
-			return new(SecureCookieValue)
+			return &secureCookieValue{}
 		}
 		val := make(map[string]string)
 		if err = secureCookie.Decode(cookieName, cookie.Value, &val); err != nil {
@@ -72,16 +73,16 @@ func getSecureCookie(r *http.Request) *SecureCookieValue {
 			// cookie, but that requires access to http.ResponseWriter, so not
 			// convenient for us
 			//logger.Noticef("Error decoding cookie %q, error: %s", cookie.Value, err)
-			return new(SecureCookieValue)
+			return &secureCookieValue{}
 		}
 		var ok bool
 		if ret.TwitterUser, ok = val["twuser"]; !ok {
 			logger.Errorf("Error decoding cookie, no 'twuser' field")
-			return new(SecureCookieValue)
+			return &secureCookieValue{}
 		}
 		if ret.TwitterTemp, ok = val["twittertemp"]; !ok {
 			logger.Errorf("Error decoding cookie, no 'twittertemp' field")
-			return new(SecureCookieValue)
+			return &secureCookieValue{}
 		}
 	}
 	return ret
@@ -174,7 +175,7 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Error getting temp cred, "+err.Error(), 500)
 		return
 	}
-	cookie := &SecureCookieValue{TwitterTemp: tempCred.Secret}
+	cookie := &secureCookieValue{TwitterTemp: tempCred.Secret}
 	setSecureCookie(w, cookie)
 	http.Redirect(w, r, oauthClient.AuthorizationURL(tempCred, nil), 302)
 }

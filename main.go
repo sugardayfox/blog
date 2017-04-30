@@ -116,7 +116,7 @@ func shouldLog404(s string) bool {
 	return !ok
 }
 
-func userIsAdmin(cookie *SecureCookieValue) bool {
+func userIsAdmin(cookie *secureCookieValue) bool {
 	return cookie.TwitterUser == "kjk"
 }
 
