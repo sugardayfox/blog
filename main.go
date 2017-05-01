@@ -394,7 +394,7 @@ func main() {
 
 	httpSrv = makeHTTPServer()
 	httpSrv.Addr = httpAddr
-	logger.Noticef("Starting http server on %s, in production: %v", httpAddr, inProduction)
+	logger.Noticef("Starting http server on %s, in production: %v", httpSrv.Addr, inProduction)
 	go func() {
 		wg.Add(1)
 		err := httpSrv.ListenAndServe()
