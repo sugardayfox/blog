@@ -19,46 +19,38 @@ var patWs = regexp.MustCompile(`\s+`)
 var patNonAlpha = regexp.MustCompile(`[^\w-]`)
 var patMultipleMinus = regexp.MustCompile("-+")
 
-// PanicIfErr panics if err is not nil
-func PanicIfErr(err error) {
-	if err != nil {
-		panic(err.Error())
+func fmtArgs(args ...interface{}) string {
+	if len(args) == 0 {
+		return ""
 	}
+	format := args[0].(string)
+	if len(args) == 1 {
+		return format
+	}
+	return fmt.Sprintf(format, args[1:]...)
 }
 
-// PanicIf panics if cond is true
-func PanicIf(cond bool, args ...interface{}) {
+func panicWithMsg(defaultMsg string, args ...interface{}) {
+	s := fmtArgs(args...)
+	if s == "" {
+		s = defaultMsg
+	}
+	fmt.Printf("%s\n", s)
+	panic(s)
+}
+
+func fatalIfErr(err error, args ...interface{}) {
+	if err == nil {
+		return
+	}
+	panicWithMsg(err.Error(), args...)
+}
+
+func fatalIf(cond bool, args ...interface{}) {
 	if !cond {
 		return
 	}
-	msg := "invalid state"
-	if len(args) > 0 {
-		s, ok := args[0].(string)
-		if ok {
-			msg = s
-			if len(s) > 1 {
-				msg = fmt.Sprintf(msg, args[1:]...)
-			}
-		}
-	}
-	panic(msg)
-}
-
-func panicif(cond bool, args ...interface{}) {
-	if !cond {
-		return
-	}
-	msg := "panic"
-	if len(args) > 0 {
-		s, ok := args[0].(string)
-		if ok {
-			msg = s
-			if len(s) > 1 {
-				msg = fmt.Sprintf(msg, args[1:]...)
-			}
-		}
-	}
-	panic(msg)
+	panicWithMsg("fatalIf: condition failed", args...)
 }
 
 // Urlify generates url from tile
@@ -78,7 +70,7 @@ const (
 	lf = 0xa
 )
 
-// ExtracLine finds end of line (cr, lf or crlf). Return the line
+// ExtractLine finds end of line (cr, lf or crlf). Return the line
 // and the remaining of data (without the end-of-line character(s))
 func ExtractLine(d []byte) ([]byte, []byte) {
 	if d == nil || len(d) == 0 {
@@ -262,7 +254,7 @@ func ExpandTildeInPath(s string) string {
 func CreateDirForFileMust(path string) string {
 	dir := filepath.Dir(path)
 	err := os.MkdirAll(dir, 0755)
-	PanicIfErr(err)
+	fatalIfErr(err)
 	return dir
 }
 

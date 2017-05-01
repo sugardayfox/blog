@@ -70,7 +70,7 @@ func readRedirects() {
 			continue
 		}
 		parts := strings.Split(string(l), "|")
-		panicif(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
+		fatalIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
 		idStr := parts[0]
 		url := strings.TrimSpace(parts[1])
 		if id, err := strconv.Atoi(idStr); err != nil {

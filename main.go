@@ -14,10 +14,14 @@ import (
 	"math/rand"
 	"net/http"
 	_ "net/url"
+	"os"
+	"os/signal"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
+	"syscall"
 	"time"
 	"unicode/utf8"
 
@@ -305,7 +309,7 @@ Format: Markdown
 		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
 		path = filepath.Join(dir, yyyy, name)
 	}
-	PanicIf(PathExists(path))
+	fatalIf(PathExists(path))
 	fmt.Printf("path: %s\n", path)
 	CreateDirForFileMust(path)
 	ioutil.WriteFile(path, []byte(s), 0644)
@@ -362,25 +366,57 @@ func main() {
 
 	readRedirects()
 
+	ctx := context.TODO()
+	var wg sync.WaitGroup
+	var httpsSrv, httpSrv *http.Server
+
 	if inProduction {
-		srv := makeHTTPServer()
+		httpsSrv = makeHTTPServer()
 		m := autocert.Manager{
 			Prompt:     autocert.AcceptTOS,
 			HostPolicy: hostPolicy,
 		}
-		srv.Addr = ":443"
-		srv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
-		logger.Noticef("Started runing HTTPS on %s\n", srv.Addr)
+		httpsSrv.Addr = ":443"
+		httpsSrv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
+		logger.Noticef("Starting https server on %s\n", httpsSrv.Addr)
 		go func() {
-			srv.ListenAndServeTLS("", "")
+			wg.Add(1)
+			err := httpsSrv.ListenAndServeTLS("", "")
+			// mute error caused by Shutdown()
+			if err == http.ErrServerClosed {
+				err = nil
+			}
+			fatalIfErr(err)
+			fmt.Printf("HTTPS server shutdown gracefully\n")
+			wg.Done()
 		}()
 	}
 
-	srv := makeHTTPServer()
-	srv.Addr = httpAddr
-	logger.Noticef(fmt.Sprintf("Started runing on %s, in production: %v", httpAddr, inProduction))
-	if err := srv.ListenAndServe(); err != nil {
-		fmt.Printf("http.ListendAndServer() failed with %s\n", err)
+	httpSrv = makeHTTPServer()
+	httpSrv.Addr = httpAddr
+	logger.Noticef("Starting http server on %s, in production: %v", httpAddr, inProduction)
+	go func() {
+		wg.Add(1)
+		err := httpSrv.ListenAndServe()
+		// mute error caused by Shutdown()
+		if err == http.ErrServerClosed {
+			err = nil
+		}
+		fatalIfErr(err)
+		fmt.Printf("HTTP server shutdown gracefully\n")
+		wg.Done()
+	}()
+
+	c := make(chan os.Signal, 2)
+	signal.Notify(c, os.Interrupt /* SIGINT */, syscall.SIGTERM)
+	sig := <-c
+	fmt.Printf("Got signal %s\n", sig)
+	if httpsSrv != nil {
+		httpsSrv.Shutdown(ctx)
 	}
+	if httpSrv != nil {
+		httpSrv.Shutdown(ctx)
+	}
+	wg.Wait()
 	fmt.Printf("Exited\n")
 }
