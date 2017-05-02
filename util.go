@@ -138,9 +138,9 @@ func Sha1OfBytes(data []byte) []byte {
 	return h.Sum(nil)
 }
 
-// PathExists returns true if a filesystem path exists
+// pathExists returns true if a filesystem path exists
 // Treats any error (e.g. lack of access due to permissions) as non-existence
-func PathExists(path string) bool {
+func pathExists(path string) bool {
 	_, err := os.Stat(path)
 	return err == nil
 }

@@ -9,12 +9,12 @@ import (
 func getWwwDir() string {
 	// when running locally
 	d := filepath.Join("..", "www")
-	if PathExists(d) {
+	if pathExists(d) {
 		return d
 	}
 	// when running on a server
 	d = "www"
-	if PathExists(d) {
+	if pathExists(d) {
 		return d
 	}
 	logger.Errorf("getWwwDir(): %q dir doesn't exist", d)
@@ -24,12 +24,12 @@ func getWwwDir() string {
 func getAppEngineTmplDir() string {
 	// when running locally
 	d := filepath.Join("..", "tmpl")
-	if PathExists(d) {
+	if pathExists(d) {
 		return d
 	}
 	// when running on a server
 	d = "appengtmpl"
-	if PathExists(d) {
+	if pathExists(d) {
 		return d
 	}
 	logger.Errorf("getAppEngineTmplDir(): %q dir doesn't exist", d)
@@ -103,7 +103,7 @@ func serveFileFromDir(w http.ResponseWriter, r *http.Request, dir, fileName stri
 		return
 	}
 	filePath := filepath.Join(dir, fileName)
-	if PathExists(filePath) {
+	if pathExists(filePath) {
 		//logger.Noticef("serveFileFromDir(): %q", filePath)
 		http.ServeFile(w, r, filePath)
 	} else {
