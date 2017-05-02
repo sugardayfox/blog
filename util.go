@@ -2,10 +2,8 @@
 package main
 
 import (
-	"bytes"
 	"crypto/sha1"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"os/user"
@@ -65,72 +63,10 @@ func Urlify(title string) string {
 	return s
 }
 
-const (
-	cr = 0xd
-	lf = 0xa
-)
-
-// ExtractLine finds end of line (cr, lf or crlf). Return the line
-// and the remaining of data (without the end-of-line character(s))
-func ExtractLine(d []byte) ([]byte, []byte) {
-	if d == nil || len(d) == 0 {
-		return nil, nil
-	}
-	wasCr := false
-	pos := -1
-	for i := 0; i < len(d); i++ {
-		if d[i] == cr || d[i] == lf {
-			wasCr = (d[i] == cr)
-			pos = i
-			break
-		}
-	}
-	if pos == -1 {
-		return d, nil
-	}
-	line := d[:pos]
-	rest := d[pos+1:]
-	if wasCr && len(rest) > 0 && rest[0] == lf {
-		rest = rest[1:]
-	}
-	return line, rest
-}
-
-// SkipPastLine iterates d as lines, find lineToFind and return the part
-// after that line. Return nil if not found
-func SkipPastLine(d []byte, lineToFind string) []byte {
-	lb := []byte(lineToFind)
-	var l []byte
-	for {
-		l, d = ExtractLine(d)
-		if l == nil {
-			return nil
-		}
-		if bytes.Equal(l, lb) {
-			return d
-		}
-	}
-}
-
-// FindLineWithPrefix finds a line with a given prefix
-func FindLineWithPrefix(d []byte, prefix string) []byte {
-	prefixb := []byte(prefix)
-	var l []byte
-	for {
-		l, d = ExtractLine(d)
-		if l == nil {
-			return nil
-		}
-		if bytes.HasPrefix(l, prefixb) {
-			return l
-		}
-	}
-}
-
 const base64Chars = "0123456789abcdefghijklmnopqrstuvwxyz"
 
-// ShortenId encodes n as base64
-func ShortenId(n int) string {
+// ShortenID encodes n as base64
+func ShortenID(n int) string {
 	var buf [16]byte
 	size := 0
 	for {
@@ -171,8 +107,8 @@ func httpErrorf(w http.ResponseWriter, format string, args ...interface{}) {
 	http.Error(w, msg, http.StatusBadRequest)
 }
 
-// DurationToString converts duration to a string
-func DurationToString(d time.Duration) string {
+// durationToString converts duration to a string
+func durationToString(d time.Duration) string {
 	minutes := int(d.Minutes()) % 60
 	hours := int(d.Hours())
 	days := hours / 24
@@ -186,9 +122,8 @@ func DurationToString(d time.Duration) string {
 	return fmt.Sprintf("%dm", minutes)
 }
 
-// TimeSinceNowAsString returns string version of time since a ginve timestamp
-func TimeSinceNowAsString(t time.Time) string {
-	return DurationToString(time.Now().Sub(t))
+func timeSinceNowAsString(t time.Time) string {
+	return durationToString(time.Now().Sub(t))
 }
 
 // Sha1HexOfBytes returns 40-byte hex sha1 of bytes
@@ -210,14 +145,13 @@ func PathExists(path string) bool {
 	return err == nil
 }
 
-// ListFilesInDir returns a list of files in a directory
-func ListFilesInDir(dir string, recursive bool) []string {
+func listFilesInDir(dir string, recursive bool) []string {
 	files := make([]string, 0)
 	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
-		isDir, err := PathIsDir(path)
+		isDir, err := pathIsDir(path)
 		if err != nil {
 			return err
 		}
@@ -233,8 +167,8 @@ func ListFilesInDir(dir string, recursive bool) []string {
 	return files
 }
 
-// UserHomeDir returns $HOME diretory of the user
-func UserHomeDir() string {
+// userHomeDir returns $HOME diretory of the user
+func userHomeDir() string {
 	// user.Current() returns nil if cross-compiled e.g. on mac for linux
 	if usr, _ := user.Current(); usr != nil {
 		return usr.HomeDir
@@ -242,38 +176,28 @@ func UserHomeDir() string {
 	return os.Getenv("HOME")
 }
 
-// ExpandTildeInPath converts ~ to $HOME
-func ExpandTildeInPath(s string) string {
+// expandTildeInPath converts ~ to $HOME
+func expandTildeInPath(s string) string {
 	if strings.HasPrefix(s, "~") {
-		return UserHomeDir() + s[1:]
+		return userHomeDir() + s[1:]
 	}
 	return s
 }
 
-// CreateDirForFileMust is like CreateDirForFile. Panics on error.
-func CreateDirForFileMust(path string) string {
+func createDirForFileMust(path string) string {
 	dir := filepath.Dir(path)
 	err := os.MkdirAll(dir, 0755)
 	fatalIfErr(err)
 	return dir
 }
 
-// PathIsDir returns true if a path exists and is a directory
+// pathIsDir returns true if a path exists and is a directory
 // Returns false, nil if a path exists and is not a directory (e.g. a file)
 // Returns undefined, error if there was an error e.g. because a path doesn't exists
-func PathIsDir(path string) (isDir bool, err error) {
+func pathIsDir(path string) (isDir bool, err error) {
 	fi, err := os.Stat(path)
 	if err != nil {
 		return false, err
 	}
 	return fi.IsDir(), nil
-}
-
-// WriteBytesToFile is like ioutil.WriteFile() but also creates intermediary
-// directories
-func WriteBytesToFile(d []byte, path string) error {
-	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
-		return err
-	}
-	return ioutil.WriteFile(path, d, 0644)
 }

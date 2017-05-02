@@ -17,9 +17,6 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/logout", handleLogout)
 
 	mux.HandleFunc("/app/crashsubmit", handleCrashSubmit)
-	mux.HandleFunc("/app/crashes", handleCrashes)
-	mux.HandleFunc("/app/crashesrss", handleCrashesRss)
-	mux.HandleFunc("/app/crashshow", handleCrashShow)
 	mux.HandleFunc("/app/debug", handleDebug)
 	// TODO: I stopped pointing people to FeedBurner feed on 2013-05-22
 	// At some point I should delete /feedburner.xml, which is a source data

@@ -22,7 +22,7 @@ func (m *TimestampedMsg) TimeStr() string {
 }
 
 func (m *TimestampedMsg) TimeSinceStr() string {
-	return TimeSinceNowAsString(m.Time)
+	return timeSinceNowAsString(m.Time)
 }
 
 func NewCircularMessagesBuf(cap int) *CircularMessagesBuf {

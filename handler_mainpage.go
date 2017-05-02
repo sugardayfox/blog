@@ -37,7 +37,7 @@ func handleDjs(w http.ResponseWriter, r *http.Request) {
 		handleArticlesJs(w, r, url[len("articles-"):])
 		return
 	}
-	httpNotFound(w, r)
+	serve404(w, r)
 }
 
 func getRecentArticles(articles []*Article, max int) []*Article {
@@ -53,7 +53,7 @@ func getRecentArticles(articles []*Article, max int) []*Article {
 	return res
 }
 
-func httpNotFound(w http.ResponseWriter, r *http.Request) {
+func serve404(w http.ResponseWriter, r *http.Request) {
 	uri := r.URL.Path
 	w.Header().Set("X-Content-Type-Options", "nosniff")
 	w.WriteHeader(http.StatusNotFound)
@@ -72,7 +72,7 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if !isTopLevelURL(r.URL.Path) {
-		httpNotFound(w, r)
+		serve404(w, r)
 		return
 	}
 

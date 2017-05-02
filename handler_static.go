@@ -74,7 +74,7 @@ func redirectIfFoundMatching(w http.ResponseWriter, r *http.Request, dir, fileNa
 	var files []string
 	ok := false
 	if files, ok = filesPerDir[dir]; !ok {
-		files = ListFilesInDir(dir, true)
+		files = listFilesInDir(dir, true)
 		n := len(dir) + 1
 		for i, f := range files {
 			files[i] = f[n:]
@@ -108,7 +108,7 @@ func serveFileFromDir(w http.ResponseWriter, r *http.Request, dir, fileName stri
 		http.ServeFile(w, r, filePath)
 	} else {
 		logger.Noticef("serveFileFromDir() file %q doesn't exist, referer: %q", fileName, getReferer(r))
-		httpNotFound(w, r)
+		serve404(w, r)
 	}
 }
 

@@ -19,6 +19,7 @@ import (
 	"github.com/russross/blackfriday"
 )
 
+// Article describes a single article
 type Article struct {
 	ID          int
 	PublishedOn time.Time
@@ -31,13 +32,13 @@ type Article struct {
 }
 
 const (
-	FormatHTML     = 0
-	FormatMarkdown = 2
-	FormatText     = 3
+	formatHTML     = 0
+	formatMarkdown = 2
+	formatText     = 3
 
-	FormatFirst   = 0
-	FormatLast    = 3
-	FormatUnknown = -1
+	formatFirst   = 0
+	formatLast    = 3
+	formatUnknown = -1
 )
 
 // ArticlesByTime sorts articles by time
@@ -59,7 +60,7 @@ func (s ArticlesByTime) Less(i, j int) bool {
 var formatNames = []string{"Html", "Textile", "Markdown", "Text"}
 
 func validFormat(format int) bool {
-	return format >= FormatFirst && format <= FormatLast
+	return format >= formatFirst && format <= formatLast
 }
 
 func remSep(s string) string {
@@ -78,7 +79,7 @@ func FormatNameToID(name string) int {
 			return i
 		}
 	}
-	return FormatUnknown
+	return formatUnknown
 }
 
 // Store is a store for articles
@@ -106,13 +107,13 @@ func parseFormat(s string) int {
 	s = strings.ToLower(s)
 	switch s {
 	case "html":
-		return FormatHTML
+		return formatHTML
 	case "markdown", "md":
-		return FormatMarkdown
+		return formatMarkdown
 	case "text":
-		return FormatText
+		return formatText
 	default:
-		return FormatUnknown
+		return formatUnknown
 	}
 }
 
@@ -149,7 +150,7 @@ func readArticle(path string) (*Article, error) {
 		}
 		parts := strings.SplitN(l, ":", 2)
 		if len(parts) != 2 {
-			return nil, fmt.Errorf("Unexpected line: %q\n", l)
+			return nil, fmt.Errorf("Unexpected line: %q", l)
 		}
 		k := strings.ToLower(parts[0])
 		v := strings.TrimSpace(parts[1])
@@ -173,7 +174,7 @@ func readArticle(path string) (*Article, error) {
 			a.Tags = parseTags(v)
 		case "format":
 			f := parseFormat(v)
-			if f == FormatUnknown {
+			if f == formatUnknown {
 				return nil, fmt.Errorf("%q is not a valid format", v)
 			}
 			a.Format = f
@@ -183,7 +184,7 @@ func readArticle(path string) (*Article, error) {
 				return nil, fmt.Errorf("%q is not a valid date", v)
 			}
 		default:
-			return nil, fmt.Errorf("Unexpected key: %q\n", k)
+			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
 	}
 	a.Body, err = ioutil.ReadAll(r)
@@ -265,7 +266,7 @@ func (s *Store) ArticlesCount() int {
 
 // Permalink returns article's permalink
 func (a *Article) Permalink() string {
-	return "article/" + ShortenId(a.ID) + "/" + Urlify(a.Title) + ".html"
+	return "article/" + ShortenID(a.ID) + "/" + Urlify(a.Title) + ".html"
 }
 
 // TagsDisplay returns tags as html
@@ -294,10 +295,10 @@ func (s *Store) GetDirsToWatch() []string {
 // TODO: this is simplistic but works for me, http://net.tutsplus.com/tutorials/other/8-regular-expressions-you-should-know/
 // has more elaborate regex for extracting urls
 var urlRx = regexp.MustCompile(`https?://[[:^space:]]+`)
-var notUrlEndChars = []byte(".),")
+var notURLEndChars = []byte(".),")
 
-func notUrlEndChar(c byte) bool {
-	return -1 != bytes.IndexByte(notUrlEndChars, c)
+func notURLEndChar(c byte) bool {
+	return -1 != bytes.IndexByte(notURLEndChars, c)
 }
 
 var disableUrlization = false
@@ -315,7 +316,7 @@ func strToHTML(s string) string {
 	prevEnd := 0
 	for n, match := range matches {
 		start, end := match[0], match[1]
-		for end > start && notUrlEndChar(s[end-1]) {
+		for end > start && notURLEndChar(s[end-1]) {
 			end--
 		}
 		url := s[start:end]
@@ -359,11 +360,11 @@ func markdown(s []byte) string {
 
 func msgToHTML(msg []byte, format int) string {
 	switch format {
-	case FormatHTML:
+	case formatHTML:
 		return string(msg)
-	case FormatMarkdown:
+	case formatMarkdown:
 		return markdown(msg)
-	case FormatText:
+	case formatText:
 		return strToHTML(string(msg))
 	}
 	panic("unknown format")

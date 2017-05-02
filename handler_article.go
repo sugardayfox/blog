@@ -47,7 +47,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
 		logger.Noticef("handleArticle: invalid url: %s", uri)
-		httpNotFound(w, r)
+		serve404(w, r)
 		return
 	}
 	article := articleInfo.this

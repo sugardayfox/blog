@@ -59,21 +59,15 @@ var (
 
 	dataDir string
 
-	store        *Store
-	storeCrashes *StoreCrashes
+	store *Store
 )
-
-// StringEmpty returns true if string is empty
-func StringEmpty(s *string) bool {
-	return s == nil || 0 == len(*s)
-}
 
 func getDataDir() string {
 	if dataDir != "" {
 		return dataDir
 	}
 
-	dirsToCheck := []string{"/data", ExpandTildeInPath("~/data/blog")}
+	dirsToCheck := []string{"/data", expandTildeInPath("~/data/blog")}
 	for _, dir := range dirsToCheck {
 		if PathExists(dir) {
 			dataDir = dir
@@ -311,7 +305,7 @@ Format: Markdown
 	}
 	fatalIf(PathExists(path))
 	fmt.Printf("path: %s\n", path)
-	CreateDirForFileMust(path)
+	createDirForFileMust(path)
 	ioutil.WriteFile(path, []byte(s), 0644)
 }
 
@@ -333,8 +327,6 @@ func hostPolicy(ctx context.Context, host string) error {
 }
 
 func main() {
-	var err error
-
 	parseCmdLineFlags()
 
 	if newArticleTitle != "" {
@@ -359,10 +351,6 @@ func main() {
 	}
 
 	loadArticles()
-
-	if storeCrashes, err = NewStoreCrashes(getDataDir()); err != nil {
-		log.Fatalf("NewStoreCrashes() failed with %s", err)
-	}
 
 	readRedirects()
 
