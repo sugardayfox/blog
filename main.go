@@ -296,14 +296,18 @@ Title: %s
 Date: %s
 Format: Markdown
 --------------`, newID, title, t.Format(time.RFC3339))
-		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
+	for i := 1; i < 10; i++ {
 		if !pathExists(path) {
+			break
+		}
+		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
+		path = filepath.Join(dir, yyyy, name)
 	}
-	fatalIf(PathExists(path))
+	fatalIf(pathExists(path))
 	fmt.Printf("path: %s\n", path)
 	createDirForFileMust(path)
 	ioutil.WriteFile(path, []byte(s), 0644)
-	fatalIf(pathExists(path))
+}
 
 func loadArticles() {
 	var err error

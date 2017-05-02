@@ -63,10 +63,6 @@ func validFormat(format int) bool {
 	return format >= formatFirst && format <= formatLast
 }
 
-func remSep(s string) string {
-	return strings.Replace(s, "|", "", -1)
-}
-
 func urlForTag(tag string) string {
 	// TODO: url-quote the first tag
 	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
