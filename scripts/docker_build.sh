@@ -1,7 +1,5 @@
 #!/bin/bash
-set -u -e -o pipefail
+set -ue -o pipefail -o verbose
 
 GOOS=linux GOARCH=amd64 go build -o blog_linux
-
 docker build --no-cache --tag blog:latest .
-rm blog_linux
