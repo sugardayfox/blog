@@ -56,6 +56,7 @@ func getMostCounted(m map[string]int, nTop int) []countedString {
 	return res
 }
 
+// TODO: slowest pages
 func calcAnalyticsStats(path string) *analyticsStats {
 	uriCount := make(map[string]int)
 	refererCount := make(map[string]int)
@@ -78,7 +79,10 @@ func calcAnalyticsStats(path string) *analyticsStats {
 			}
 		}
 		if referer, ok := rec.Get(keyReferer); ok {
-			refererCount[referer]++
+			// we don't care about internal referers
+			if !strings.Contains(referer, "blog.kowalczyk.info") {
+				refererCount[referer]++
+			}
 		}
 		if ip, ok := rec.Get(keyIPAddr); ok {
 			ipCount[ip]++
