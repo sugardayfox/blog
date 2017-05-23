@@ -406,5 +406,6 @@ func main() {
 		httpSrv.Shutdown(ctx)
 	}
 	wg.Wait()
+	analyticsClose()
 	fmt.Printf("Exited\n")
 }
