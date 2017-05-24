@@ -114,10 +114,6 @@ func shouldLog404(s string) bool {
 	return !ok
 }
 
-func userIsAdmin(cookie *secureCookieValue) bool {
-	return cookie.TwitterUser == "kjk"
-}
-
 // reads the configuration file from the path specified by
 // the config command line flag.
 func readConfig(configFile string) error {

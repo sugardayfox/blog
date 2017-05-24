@@ -145,6 +145,14 @@ func pathExists(path string) bool {
 	return err == nil
 }
 
+func getFileSize(path string) (int64, error) {
+	stat, err := os.Stat(path)
+	if err != nil {
+		return 0, err
+	}
+	return stat.Size(), nil
+}
+
 func listFilesInDir(dir string, recursive bool) []string {
 	files := make([]string, 0)
 	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
@@ -200,4 +208,8 @@ func pathIsDir(path string) (isDir bool, err error) {
 		return false, err
 	}
 	return fi.IsDir(), nil
+}
+
+func utcNow() time.Time {
+	return time.Now().UTC()
 }
