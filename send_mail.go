@@ -48,7 +48,7 @@ func sendMail(subject, body string) error {
 func sendBootMail() {
 	subject := utcNow().Format("blog started on 2006-01-02 15:04:05")
 	body := "Just letting you know that I've started\n"
-	body += fmt.Sprintf("production: %v, data dir: %s\n", inProduction, getDataDir())
+	body += fmt.Sprintf("production: %v, data dir: %s\n", flgProduction, getDataDir())
 	sendMail(subject, body)
 }
 

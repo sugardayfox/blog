@@ -35,7 +35,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/js/", handleJs)
 	mux.HandleFunc("/gfx/", handleGfx)
 	mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
-	if !inProduction {
+	if !flgProduction {
 		mux.HandleFunc("/ws", serveWs)
 	}
 

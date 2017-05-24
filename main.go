@@ -59,7 +59,7 @@ var (
 
 	dataDir string
 
-	store *Store
+	store *ArticlesStore
 )
 
 func getDataDir() string {
@@ -204,17 +204,17 @@ var test = []byte(`Crashed thread:
 7757B26C 01:0005A26C ntdll.dll!RtlInitializeExceptionChain+0x36`)
 
 var (
-	configPath      string
-	httpAddr        string
-	inProduction    bool
-	newArticleTitle string
+	flgConfigPath      string
+	flgHTTPAddr        string
+	flgProduction      bool
+	flgNewArticleTitle string
 )
 
 func parseCmdLineFlags() {
-	flag.StringVar(&configPath, "config", "config.json", "Path to configuration file")
-	flag.StringVar(&httpAddr, "addr", ":5020", "HTTP server address")
-	flag.BoolVar(&inProduction, "production", false, "are we running in production")
-	flag.StringVar(&newArticleTitle, "newarticle", "", "create a new article")
+	flag.StringVar(&flgConfigPath, "config", "config.json", "Path to configuration file")
+	flag.StringVar(&flgHTTPAddr, "addr", ":5020", "HTTP server address")
+	flag.BoolVar(&flgProduction, "production", false, "are we running in production")
+	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.Parse()
 }
 
@@ -274,7 +274,7 @@ func findUniqueArticleID(articles []*Article) int {
 
 func genNewArticle(title string) {
 	fmt.Printf("genNewArticle: %q\n", title)
-	store, err := NewStore()
+	store, err := NewArticlesStore()
 	if err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
@@ -307,7 +307,7 @@ Format: Markdown
 
 func loadArticles() {
 	var err error
-	if store, err = NewStore(); err != nil {
+	if store, err = NewArticlesStore(); err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
 	articles := store.GetArticles()
@@ -325,12 +325,12 @@ func hostPolicy(ctx context.Context, host string) error {
 func main() {
 	parseCmdLineFlags()
 
-	if newArticleTitle != "" {
-		genNewArticle(newArticleTitle)
+	if flgNewArticleTitle != "" {
+		genNewArticle(flgNewArticleTitle)
 		return
 	}
 
-	if inProduction {
+	if flgProduction {
 		reloadTemplates = false
 	}
 
@@ -338,11 +338,11 @@ func main() {
 
 	rand.Seed(time.Now().UnixNano())
 
-	if err := readConfig(configPath); err != nil {
-		log.Fatalf("Failed reading config file %s. %s\n", configPath, err)
+	if err := readConfig(flgConfigPath); err != nil {
+		log.Fatalf("Failed reading config file %s. %s\n", flgConfigPath, err)
 	}
 
-	if !inProduction {
+	if !flgProduction {
 		config.AnalyticsCode = &emptyString
 	}
 
@@ -357,7 +357,7 @@ func main() {
 	var wg sync.WaitGroup
 	var httpsSrv, httpSrv *http.Server
 
-	if inProduction {
+	if flgProduction {
 		httpsSrv = makeHTTPServer()
 		m := autocert.Manager{
 			Prompt:     autocert.AcceptTOS,
@@ -380,8 +380,8 @@ func main() {
 	}
 
 	httpSrv = makeHTTPServer()
-	httpSrv.Addr = httpAddr
-	logger.Noticef("Starting http server on %s, in production: %v", httpSrv.Addr, inProduction)
+	httpSrv.Addr = flgHTTPAddr
+	logger.Noticef("Starting http server on %s, in production: %v", httpSrv.Addr, flgProduction)
 	go func() {
 		wg.Add(1)
 		err := httpSrv.ListenAndServe()

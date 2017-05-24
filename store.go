@@ -78,8 +78,8 @@ func FormatNameToID(name string) int {
 	return formatUnknown
 }
 
-// Store is a store for articles
-type Store struct {
+// ArticlesStore is a store for articles
+type ArticlesStore struct {
 	articles    []*Article
 	idToArticle map[int]*Article
 	dirsToWatch []string
@@ -154,7 +154,7 @@ func readArticle(path string) (*Article, error) {
 		case "deleted":
 			return nil, nil
 		case "draft":
-			if inProduction {
+			if flgProduction {
 				return nil, nil
 			}
 		case "id":
@@ -219,14 +219,14 @@ func readArticles() ([]*Article, []string, error) {
 	return res, dirs, nil
 }
 
-// NewStore returns a store of articles
-func NewStore() (*Store, error) {
+// NewArticlesStore returns a store of articles
+func NewArticlesStore() (*ArticlesStore, error) {
 	articles, dirs, err := readArticles()
 	if err != nil {
 		return nil, err
 	}
 	sort.Sort(ArticlesByTime(articles))
-	res := &Store{articles: articles, dirsToWatch: dirs}
+	res := &ArticlesStore{articles: articles, dirsToWatch: dirs}
 	res.idToArticle = make(map[int]*Article)
 	for _, a := range articles {
 		curr := res.idToArticle[a.ID]
@@ -240,12 +240,12 @@ func NewStore() (*Store, error) {
 }
 
 // GetArticles returns all articles
-func (s *Store) GetArticles() []*Article {
+func (s *ArticlesStore) GetArticles() []*Article {
 	return s.articles
 }
 
 // GetArticleByID returns an article given its id
-func (s *Store) GetArticleByID(id int) *Article {
+func (s *ArticlesStore) GetArticleByID(id int) *Article {
 	//fmt.Printf("GetArticleById: %d\n", id)
 	for _, a := range s.articles {
 		if a.ID == id {
@@ -256,7 +256,7 @@ func (s *Store) GetArticleByID(id int) *Article {
 }
 
 // ArticlesCount returns number of articles
-func (s *Store) ArticlesCount() int {
+func (s *ArticlesStore) ArticlesCount() int {
 	return len(s.articles)
 }
 
@@ -284,7 +284,7 @@ func (a *Article) GetHTMLStr() string {
 }
 
 // GetDirsToWatch returns directories to watch for chagnes
-func (s *Store) GetDirsToWatch() []string {
+func (s *ArticlesStore) GetDirsToWatch() []string {
 	return s.dirsToWatch
 }
 

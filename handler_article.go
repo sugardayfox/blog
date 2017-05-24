@@ -70,7 +70,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesCount int
 	}{
 		IsAdmin:       isAdmin,
-		Reload:        !inProduction,
+		Reload:        !flgProduction,
 		AnalyticsCode: *config.AnalyticsCode,
 		LogInOutURL:   getLogInOutURL(r),
 		Article:       displayArticle,

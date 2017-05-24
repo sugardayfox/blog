@@ -41,7 +41,7 @@ func watchChanges(watcher *fsnotify.Watcher, close chan struct{}, notify chan st
 }
 
 func startBlogPostsWatcher() *fsnotify.Watcher {
-	if inProduction {
+	if flgProduction {
 		return nil
 	}
 	watcher, err := fsnotify.NewWatcher()
