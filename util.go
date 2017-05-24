@@ -59,6 +59,8 @@ func urlify(title string) string {
 	s = patWs.ReplaceAllString(s, "-")
 	s = patNonAlpha.ReplaceAllString(s, "")
 	s = patMultipleMinus.ReplaceAllString(s, "-")
+	s = strings.Replace(s, ":", "", -1)
+	s = strings.Replace(s, "%", "-perc", -1)
 	if len(s) > 48 {
 		s = s[:48]
 	}
