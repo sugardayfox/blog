@@ -150,9 +150,13 @@ func onAnalyticsFileCloseBackground(path string) {
 	durCompress := time.Since(timeStart)
 	os.Remove(path)
 
-	// TODO: upload dstPath to backblaze
+	fileName := filepath.Base(dstPath)
+	b2Path := "backup/blog/analytics/" + fileName
+	timeStart = time.Now()
+	b2UploadFile(b2Path, dstPath)
+	durUpload := time.Since(timeStart)
 
-	s := fmt.Sprintf("Processing analytics for %s of size %s took %s. Compressing took %s.", path, sizeStr, dur, durCompress)
+	s := fmt.Sprintf("Processing analytics for %s of size %s took %s. Compressing took %s. Uploading to b2 as %s took %s.", path, sizeStr, dur, durCompress, b2Path, durUpload)
 	lines = append(lines, s)
 	s = fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
 	lines = append(lines, s)
