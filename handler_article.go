@@ -30,7 +30,7 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 		return nil
 	}
 
-	articleID := UnshortenID(parts[0])
+	articleID := unshortenID(parts[0])
 	return getCachedArticlesByID(articleID)
 }
 

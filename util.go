@@ -2,8 +2,10 @@
 package main
 
 import (
+	"compress/gzip"
 	"crypto/sha1"
 	"fmt"
+	"io"
 	"net/http"
 	"os"
 	"os/user"
@@ -51,8 +53,8 @@ func fatalIf(cond bool, args ...interface{}) {
 	panicWithMsg("fatalIf: condition failed", args...)
 }
 
-// Urlify generates url from tile
-func Urlify(title string) string {
+// urlify generates url from tile
+func urlify(title string) string {
 	s := strings.TrimSpace(title)
 	s = patWs.ReplaceAllString(s, "-")
 	s = patNonAlpha.ReplaceAllString(s, "")
@@ -65,8 +67,8 @@ func Urlify(title string) string {
 
 const base64Chars = "0123456789abcdefghijklmnopqrstuvwxyz"
 
-// ShortenID encodes n as base64
-func ShortenID(n int) string {
+// shortenID encodes n as base64
+func shortenID(n int) string {
 	var buf [16]byte
 	size := 0
 	for {
@@ -87,8 +89,8 @@ func ShortenID(n int) string {
 	return string(buf[:size])
 }
 
-// UnshortenID decodes base64 string
-func UnshortenID(s string) int {
+// unshortenID decodes base64 string
+func unshortenID(s string) int {
 	n := 0
 	for _, c := range s {
 		n *= 36
@@ -126,13 +128,13 @@ func timeSinceNowAsString(t time.Time) string {
 	return durationToString(time.Now().Sub(t))
 }
 
-// Sha1HexOfBytes returns 40-byte hex sha1 of bytes
-func Sha1HexOfBytes(data []byte) string {
-	return fmt.Sprintf("%x", Sha1OfBytes(data))
+// sha1HexOfBytes returns 40-byte hex sha1 of bytes
+func sha1HexOfBytes(data []byte) string {
+	return fmt.Sprintf("%x", sha1OfBytes(data))
 }
 
-// Sha1OfBytes returns 20-byte sha1 of bytes
-func Sha1OfBytes(data []byte) []byte {
+// sha1OfBytes returns 20-byte sha1 of bytes
+func sha1OfBytes(data []byte) []byte {
 	h := sha1.New()
 	h.Write(data)
 	return h.Sum(nil)
@@ -145,12 +147,45 @@ func pathExists(path string) bool {
 	return err == nil
 }
 
+// pathIsDir returns true if a path exists and is a directory
+// Returns false, nil if a path exists and is not a directory (e.g. a file)
+// Returns undefined, error if there was an error e.g. because a path doesn't exists
+func pathIsDir(path string) (isDir bool, err error) {
+	fi, err := os.Stat(path)
+	if err != nil {
+		return false, err
+	}
+	return fi.IsDir(), nil
+}
+
 func getFileSize(path string) (int64, error) {
 	stat, err := os.Stat(path)
 	if err != nil {
 		return 0, err
 	}
 	return stat.Size(), nil
+}
+
+func gzipFile(dstPath, srcPath string) error {
+	fSrc, err := os.Open(srcPath)
+	if err != nil {
+		return err
+	}
+	defer fSrc.Close()
+	fDst, err := os.Create(dstPath)
+	if err != nil {
+		return err
+	}
+	defer fDst.Close()
+	w, err := gzip.NewWriterLevel(fDst, gzip.BestCompression)
+	if err != nil {
+		return err
+	}
+	_, err = io.Copy(w, fSrc)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 func listFilesInDir(dir string, recursive bool) []string {
@@ -197,17 +232,6 @@ func createDirForFileMust(path string) string {
 	err := os.MkdirAll(dir, 0755)
 	fatalIfErr(err)
 	return dir
-}
-
-// pathIsDir returns true if a path exists and is a directory
-// Returns false, nil if a path exists and is not a directory (e.g. a file)
-// Returns undefined, error if there was an error e.g. because a path doesn't exists
-func pathIsDir(path string) (isDir bool, err error) {
-	fi, err := os.Stat(path)
-	if err != nil {
-		return false, err
-	}
-	return fi.IsDir(), nil
 }
 
 func utcNow() time.Time {

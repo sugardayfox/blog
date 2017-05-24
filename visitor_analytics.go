@@ -1,9 +1,7 @@
 package main
 
 import (
-	"compress/gzip"
 	"fmt"
-	"io"
 	"net/http"
 	"net/url"
 	"os"
@@ -42,6 +40,13 @@ type analyticsStats struct {
 	referers   []countedString
 	notFound   []countedString
 	nUniqueIPs int
+}
+
+func initAnalyticsMust(pathFormat string) error {
+	var err error
+	analyticsFile, err = dailyrotate.NewFile(pathFormat, onAnalyticsFileClosed)
+	fatalIfErr(err)
+	return nil
 }
 
 func withAnalyticsLogging(f http.HandlerFunc) http.HandlerFunc {
@@ -89,10 +94,11 @@ func calcAnalyticsStats(path string) *analyticsStats {
 		_, rec := r.Record()
 		code, ok1 := rec.Get(keyCode)
 		requestURI, ok2 := rec.Get(keyURI)
-		referer, ok3 := rec.Get(keyReferer)
-		ip, ok4 := rec.Get(keyIPAddr)
+		ip, ok3 := rec.Get(keyIPAddr)
+		// referer can be empty
+		referer, _ := rec.Get(keyReferer)
 
-		if !(ok1 && ok2 && ok3 && ok4) {
+		if !(ok1 && ok2 && ok3) {
 			// shouldn't happen
 			continue
 		}
@@ -108,7 +114,7 @@ func calcAnalyticsStats(path string) *analyticsStats {
 		}
 
 		// we don't care about internal referers
-		if !strings.Contains(referer, "blog.kowalczyk.info") {
+		if referer != "" && !strings.Contains(referer, "blog.kowalczyk.info") {
 			refererCount[referer]++
 		}
 
@@ -128,28 +134,6 @@ func calcAnalyticsStats(path string) *analyticsStats {
 		notFound:   countedStringMapToArray(uri404Count),
 		nUniqueIPs: len(ipCount),
 	}
-}
-
-func gzipFile(dstPath, srcPath string) error {
-	fSrc, err := os.Open(srcPath)
-	if err != nil {
-		return err
-	}
-	defer fSrc.Close()
-	fDst, err := os.Create(dstPath)
-	if err != nil {
-		return err
-	}
-	defer fDst.Close()
-	w, err := gzip.NewWriterLevel(fDst, gzip.BestCompression)
-	if err != nil {
-		return err
-	}
-	_, err = io.Copy(w, fSrc)
-	if err != nil {
-		return err
-	}
-	return nil
 }
 
 func onAnalyticsFileCloseBackground(path string) {
@@ -207,13 +191,6 @@ func onAnalyticsFileClosed(path string, didRotate bool) {
 	}
 }
 
-func initAnalyticsMust(pathFormat string) error {
-	var err error
-	analyticsFile, err = dailyrotate.NewFile(pathFormat, onAnalyticsFileClosed)
-	fatalIfErr(err)
-	return nil
-}
-
 func logWebAnalytics(r *http.Request, code int, nBytesWritten int64, dur time.Duration) {
 	uri := r.RequestURI
 
@@ -229,14 +206,18 @@ func logWebAnalytics(r *http.Request, code int, nBytesWritten int64, dur time.Du
 	}
 
 	ipAddr := getIPAddress(r)
-	referer := r.Referer()
 	when := time.Now().UTC().Format(time.RFC3339)
 	codeStr := strconv.Itoa(code)
 	durMs := float64(dur) / float64(time.Millisecond)
 	durStr := strconv.FormatFloat(durMs, 'f', 2, 64)
-	sizeStr := strconv.FormatInt(nBytesWritten, 64)
+	sizeStr := strconv.FormatInt(nBytesWritten, 10)
 	var rec siser.Record
-	rec = rec.Append(keyURI, uri, keyCode, codeStr, keyIPAddr, ipAddr, keyReferer, referer, keyDuration, durStr, keyWhen, when, keySize, sizeStr)
+	rec = rec.Append(keyURI, uri, keyCode, codeStr, keyIPAddr, ipAddr, keyDuration, durStr, keyWhen, when, keySize, sizeStr)
+
+	referer := r.Referer()
+	if referer != "" {
+		rec = rec.Append(keyReferer, referer)
+	}
 	d := rec.Marshal()
 	// ignoring error because can't do anything about it
 	analyticsFile.Write2(d, true)

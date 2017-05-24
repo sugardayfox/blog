@@ -350,6 +350,9 @@ func main() {
 
 	readRedirects()
 
+	analyticsPath := filepath.Join(getDataDir(), "analytics", "2006-01-02.txt")
+	initAnalyticsMust(analyticsPath)
+
 	ctx := context.TODO()
 	var wg sync.WaitGroup
 	var httpsSrv, httpSrv *http.Server

@@ -262,7 +262,7 @@ func (s *Store) ArticlesCount() int {
 
 // Permalink returns article's permalink
 func (a *Article) Permalink() string {
-	return "article/" + ShortenID(a.ID) + "/" + Urlify(a.Title) + ".html"
+	return "article/" + shortenID(a.ID) + "/" + urlify(a.Title) + ".html"
 }
 
 // TagsDisplay returns tags as html

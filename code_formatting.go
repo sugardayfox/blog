@@ -31,7 +31,7 @@ func langToPrettifyLang(lang string) string {
 }
 
 func txtCookie(s string) string {
-	return Sha1HexOfBytes([]byte(s))
+	return sha1HexOfBytes([]byte(s))
 }
 
 var reCode = regexp.MustCompile("(?siU)<code.*>.+</code>")
