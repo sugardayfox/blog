@@ -17,13 +17,14 @@ import (
 )
 
 const (
-	keyURI      = "uri"
-	keyCode     = "code"
-	keyIPAddr   = "ip"
-	keyWhen     = "when"
-	keyDuration = "dur" // in milliseconds
-	keyReferer  = "referer"
-	keySize     = "size"
+	keyURI       = "uri"
+	keyCode      = "code"
+	keyIPAddr    = "ip"
+	keyWhen      = "when"
+	keyDuration  = "dur" // in milliseconds
+	keyReferer   = "referer"
+	keySize      = "size"
+	keyUserAgent = "ua"
 )
 
 var (
@@ -218,6 +219,10 @@ func logWebAnalytics(r *http.Request, code int, nBytesWritten int64, dur time.Du
 	var rec siser.Record
 	rec = rec.Append(keyURI, uri, keyCode, codeStr, keyIPAddr, ipAddr, keyDuration, durStr, keyWhen, when, keySize, sizeStr)
 
+	ua := r.Header.Get("user-agent")
+	if ua != "" {
+		rec = rec.Append(keyUserAgent, ua)
+	}
 	referer := r.Referer()
 	if referer != "" {
 		rec = rec.Append(keyReferer, referer)
