@@ -1,21 +1,9 @@
 package main
 
 import (
-	"html/template"
 	"net/http"
 	"strings"
 )
-
-// DisplayArticle represents an article to display
-type DisplayArticle struct {
-	*Article
-	HTMLBody template.HTML
-}
-
-// PublishedOnShort is a short version of date
-func (a *DisplayArticle) PublishedOnShort() string {
-	return a.PublishedOn.Format("Jan 2 2006")
-}
 
 func articleInfoFromURL(uri string) *ArticleInfo {
 	if strings.HasPrefix(uri, "/") {
@@ -50,15 +38,12 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	article := articleInfo.this
-	displayArticle := &DisplayArticle{Article: article}
-	msgHTML := article.GetHTMLStr()
-	displayArticle.HTMLBody = template.HTML(msgHTML)
 
 	model := struct {
 		Reload        bool
 		AnalyticsCode string
 		PageTitle     string
-		Article       *DisplayArticle
+		Article       *Article
 		NextArticle   *Article
 		PrevArticle   *Article
 		ArticlesJsURL string
@@ -68,7 +53,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	}{
 		Reload:        !flgProduction,
 		AnalyticsCode: config.AnalyticsCode,
-		Article:       displayArticle,
+		Article:       article,
 		NextArticle:   articleInfo.next,
 		PrevArticle:   articleInfo.prev,
 		PageTitle:     article.Title,

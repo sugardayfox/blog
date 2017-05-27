@@ -19,50 +19,6 @@ import (
 	"github.com/russross/blackfriday"
 )
 
-// Article describes a single article
-type Article struct {
-	ID          int
-	PublishedOn time.Time
-	Title       string
-	Tags        []string
-	Format      int
-	Path        string
-	Body        []byte
-	BodyHTML    string
-}
-
-const (
-	formatHTML     = 0
-	formatMarkdown = 2
-	formatText     = 3
-
-	formatFirst   = 0
-	formatLast    = 3
-	formatUnknown = -1
-)
-
-// same format as Format* constants
-var formatNames = []string{"Html", "Textile", "Markdown", "Text"}
-
-func validFormat(format int) bool {
-	return format >= formatFirst && format <= formatLast
-}
-
-func urlForTag(tag string) string {
-	// TODO: url-quote the first tag
-	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
-}
-
-// FormatNameToID return id of a format
-func FormatNameToID(name string) int {
-	for i, formatName := range formatNames {
-		if strings.EqualFold(name, formatName) {
-			return i
-		}
-	}
-	return formatUnknown
-}
-
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
 	articles    []*Article
@@ -172,6 +128,9 @@ func readArticle(path string) (*Article, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	a.BodyHTML = msgToHTML(a.Body, a.Format)
+	a.HTMLBody = template.HTML(a.BodyHTML)
 	return a, nil
 }
 
@@ -245,29 +204,6 @@ func (s *ArticlesStore) GetArticleByID(id int) *Article {
 // ArticlesCount returns number of articles
 func (s *ArticlesStore) ArticlesCount() int {
 	return len(s.articles)
-}
-
-// Permalink returns article's permalink
-func (a *Article) Permalink() string {
-	return "article/" + shortenID(a.ID) + "/" + urlify(a.Title) + ".html"
-}
-
-// TagsDisplay returns tags as html
-func (a *Article) TagsDisplay() template.HTML {
-	arr := make([]string, 0)
-	for _, tag := range a.Tags {
-		arr = append(arr, urlForTag(tag))
-	}
-	s := strings.Join(arr, ", ")
-	return template.HTML(s)
-}
-
-// GetHTMLStr returns body of the article as html
-func (a *Article) GetHTMLStr() string {
-	if a.BodyHTML == "" {
-		a.BodyHTML = msgToHTML(a.Body, a.Format)
-	}
-	return a.BodyHTML
 }
 
 // GetDirsToWatch returns directories to watch for chagnes
