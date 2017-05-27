@@ -4,20 +4,21 @@ import (
 	"net/http"
 )
 
+// MonthArticle combines article and a month
 type MonthArticle struct {
 	*Article
 	DisplayMonth string
 }
 
+// Year describes articles in a given year
 type Year struct {
 	Name     string
 	Articles []MonthArticle
 }
 
+// ArticlesIndexModel describes index of articles
 type ArticlesIndexModel struct {
-	IsAdmin       bool
 	AnalyticsCode string
-	LogInOutURL   string
 	ArticlesJsURL string
 	Article       *Article
 	PostsCount    int
@@ -25,6 +26,7 @@ type ArticlesIndexModel struct {
 	Years         []Year
 }
 
+// DisplayTitle returns a title for an article
 func (a *MonthArticle) DisplayTitle() string {
 	if a.Title != "" {
 		return a.Title
@@ -32,6 +34,7 @@ func (a *MonthArticle) DisplayTitle() string {
 	return "no title"
 }
 
+// NewYear creates a new Year
 func NewYear(name string) *Year {
 	return &Year{Name: name, Articles: make([]MonthArticle, 0)}
 }
@@ -87,12 +90,9 @@ func filterArticlesByTag(articles []*Article, tag string, include bool) []*Artic
 }
 
 func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Article, tag string) {
-	isAdmin := IsAdmin(r)
 	articlesJsURL := getArticlesJsURL()
 	model := ArticlesIndexModel{
-		IsAdmin:       isAdmin,
-		AnalyticsCode: *config.AnalyticsCode,
-		LogInOutURL:   getLogInOutURL(r),
+		AnalyticsCode: config.AnalyticsCode,
 		ArticlesJsURL: articlesJsURL,
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),

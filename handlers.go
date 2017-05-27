@@ -12,9 +12,6 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/favicon.ico", handleFavicon)
 	mux.HandleFunc("/robots.txt", handleRobotsTxt)
 	mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
-	mux.HandleFunc("/oauthtwittercb", handleOauthTwitterCallback)
-	mux.HandleFunc("/login", handleLogin)
-	mux.HandleFunc("/logout", handleLogout)
 
 	mux.HandleFunc("/app/crashsubmit", withAnalyticsLogging(handleCrashSubmit))
 	mux.HandleFunc("/app/debug", withAnalyticsLogging(handleDebug))

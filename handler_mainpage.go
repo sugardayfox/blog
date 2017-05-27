@@ -23,9 +23,7 @@ func handleArticlesJs(w http.ResponseWriter, r *http.Request, url string) {
 	w.Header().Set("Content-Type", "text/javascript")
 	// cache non-admin version by setting max age 1 year into the future
 	// http://betterexplained.com/articles/how-to-optimize-your-site-with-http-caching/
-	if !IsAdmin(r) {
-		w.Header().Set("Cache-Control", "max-age=31536000, public")
-	}
+	w.Header().Set("Cache-Control", "max-age=31536000, public")
 	w.Header().Set("Content-Length", strconv.Itoa(len(jsData)))
 	w.Write(jsData)
 }
@@ -76,25 +74,20 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	isAdmin := IsAdmin(r)
 	articles := getCachedArticles()
 	articleCount := len(articles)
 	articles = getRecentArticles(articles, articleCount)
 
 	model := struct {
-		IsAdmin       bool
 		AnalyticsCode string
 		Article       *Article
 		Articles      []*Article
 		ArticleCount  int
-		LogInOutURL   string
 	}{
-		IsAdmin:       isAdmin,
-		AnalyticsCode: *config.AnalyticsCode,
+		AnalyticsCode: config.AnalyticsCode,
 		Article:       nil, // always nil
 		ArticleCount:  articleCount,
 		Articles:      articles,
-		LogInOutURL:   getLogInOutURL(r),
 	}
 
 	execTemplate(w, tmplMainPage, model)

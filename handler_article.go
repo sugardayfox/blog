@@ -40,7 +40,6 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	if redirectIfNeeded(w, r) {
 		return
 	}
-	isAdmin := IsAdmin(r)
 
 	// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 	uri := r.URL.Path
@@ -56,23 +55,19 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	displayArticle.HTMLBody = template.HTML(msgHTML)
 
 	model := struct {
-		IsAdmin       bool
 		Reload        bool
 		AnalyticsCode string
 		PageTitle     string
 		Article       *DisplayArticle
 		NextArticle   *Article
 		PrevArticle   *Article
-		LogInOutURL   string
 		ArticlesJsURL string
 		TagsDisplay   string
 		ArticleNo     int
 		ArticlesCount int
 	}{
-		IsAdmin:       isAdmin,
 		Reload:        !flgProduction,
-		AnalyticsCode: *config.AnalyticsCode,
-		LogInOutURL:   getLogInOutURL(r),
+		AnalyticsCode: config.AnalyticsCode,
 		Article:       displayArticle,
 		NextArticle:   articleInfo.next,
 		PrevArticle:   articleInfo.prev,
