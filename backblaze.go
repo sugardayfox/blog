@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	b2Bucket = "kjkfiles"
+	b2BucketName = "kjkfiles"
 )
 
 var (
@@ -39,7 +39,7 @@ func b2UploadFile(bbPath, filePath string) error {
 	if err != nil {
 		return err
 	}
-	bucket, err := client.Bucket(ctx, b2Bucket)
+	bucket, err := client.Bucket(ctx, b2BucketName)
 	if err != nil {
 		return err
 	}
