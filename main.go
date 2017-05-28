@@ -36,6 +36,7 @@ var (
 	logger  *ServerLogger
 	dataDir string
 	store   *ArticlesStore
+	sha1ver string
 )
 
 func getDataDir() string {
@@ -317,7 +318,7 @@ func main() {
 
 	httpSrv = makeHTTPServer()
 	httpSrv.Addr = flgHTTPAddr
-	logger.Noticef("Starting http server on %s, in production: %v", httpSrv.Addr, flgProduction)
+	logger.Noticef("Starting http server on %s, in production: %v, sha1ver: %s", httpSrv.Addr, flgProduction, sha1ver)
 	go func() {
 		wg.Add(1)
 		err := httpSrv.ListenAndServe()

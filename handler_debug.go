@@ -43,6 +43,9 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	a = append(a, "")
+	a = append(a, fmt.Sprintf("ver: https://github.com/kjk/web-blog/commit/%s", sha1ver))
+
 	s = strings.Join(a, "\n")
 	servePlainText(w, s)
 }
