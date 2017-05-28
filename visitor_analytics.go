@@ -190,6 +190,7 @@ func onAnalyticsFileCloseBackground(path string) {
 }
 
 func onAnalyticsFileClosed(path string, didRotate bool) {
+	logger.Noticef("onAnalyticsFileClosed: %s, didRotate: %v\n", path, didRotate)
 	if didRotate {
 		// do in background, we don't want to block writes
 		go onAnalyticsFileCloseBackground(path)
