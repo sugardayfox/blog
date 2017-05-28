@@ -4,7 +4,6 @@ RUN apk add --no-cache ca-certificates
 
 WORKDIR /app
 
-COPY config.json /app/
 COPY blog_linux /app/blog
 COPY www /app/www/
 COPY tmpl /app/tmpl/
