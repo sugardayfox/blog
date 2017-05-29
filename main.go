@@ -324,6 +324,9 @@ func main() {
 	if httpSrv != nil {
 		httpSrv.Shutdown(ctx)
 	}
+	if flgProduction {
+		sendBootMail()
+	}
 	wg.Wait()
 	analyticsClose()
 	fmt.Printf("Exited\n")
