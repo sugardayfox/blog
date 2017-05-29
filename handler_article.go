@@ -30,10 +30,9 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
-	uri := r.URL.Path
 	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
-		logger.Noticef("handleArticle: invalid url: %s", uri)
+		//logger.Noticef("handleArticle: invalid url: %s", r.URL.Path)
 		serve404(w, r)
 		return
 	}
