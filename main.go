@@ -314,6 +314,10 @@ func main() {
 		wg.Done()
 	}()
 
+	if flgProduction {
+		sendBootMail()
+	}
+
 	c := make(chan os.Signal, 2)
 	signal.Notify(c, os.Interrupt /* SIGINT */, syscall.SIGTERM)
 	sig := <-c
@@ -323,9 +327,6 @@ func main() {
 	}
 	if httpSrv != nil {
 		httpSrv.Shutdown(ctx)
-	}
-	if flgProduction {
-		sendBootMail()
 	}
 	wg.Wait()
 	analyticsClose()
