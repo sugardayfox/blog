@@ -11,4 +11,4 @@ COPY blog_posts /app/blog_posts/
 
 EXPOSE 80 443
 
-CMD ["/app/blog", "-production", "-addr=:80"]
+CMD ["/app/blog", "-production"]

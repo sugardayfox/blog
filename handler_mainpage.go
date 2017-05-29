@@ -84,7 +84,7 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		Articles      []*Article
 		ArticleCount  int
 	}{
-		AnalyticsCode: config.AnalyticsCode,
+		AnalyticsCode: analyticsCode,
 		Article:       nil, // always nil
 		ArticleCount:  articleCount,
 		Articles:      articles,

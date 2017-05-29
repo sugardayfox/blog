@@ -92,7 +92,7 @@ func filterArticlesByTag(articles []*Article, tag string, include bool) []*Artic
 func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Article, tag string) {
 	articlesJsURL := getArticlesJsURL()
 	model := ArticlesIndexModel{
-		AnalyticsCode: config.AnalyticsCode,
+		AnalyticsCode: analyticsCode,
 		ArticlesJsURL: articlesJsURL,
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),

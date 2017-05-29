@@ -27,11 +27,7 @@ import (
 )
 
 var (
-	config = struct {
-		AnalyticsCode string
-	}{
-		AnalyticsCode: "UA-194516-1",
-	}
+	analyticsCode = "UA-194516-1"
 
 	logger  *ServerLogger
 	dataDir string
@@ -261,15 +257,14 @@ func main() {
 
 	if flgProduction {
 		reloadTemplates = false
+		flgHTTPAddr = ":80"
+	} else {
+		analyticsCode = ""
 	}
 
 	logger = NewServerLogger(256, 256)
 
 	rand.Seed(time.Now().UnixNano())
-
-	if !flgProduction {
-		config.AnalyticsCode = ""
-	}
 
 	loadArticles()
 

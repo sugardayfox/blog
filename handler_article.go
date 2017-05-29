@@ -51,7 +51,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesCount int
 	}{
 		Reload:        !flgProduction,
-		AnalyticsCode: config.AnalyticsCode,
+		AnalyticsCode: analyticsCode,
 		Article:       article,
 		NextArticle:   articleInfo.next,
 		PrevArticle:   articleInfo.prev,
