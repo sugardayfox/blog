@@ -159,31 +159,35 @@ func onAnalyticsFileCloseBackground(path string) {
 
 	s := fmt.Sprintf("Processing analytics for %s of size %s took %s. Compressing took %s. Uploading to b2 as %s took %s.", path, sizeStr, dur, durCompress, b2Path, durUpload)
 	lines = append(lines, s)
-	s = fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
-	lines = append(lines, s)
+	if a != nil {
+		s = fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
+		lines = append(lines, s)
 
-	lines = append(lines, "Most frequent referers:")
-	n := len(a.referers)
-	if n > 64 {
-		n = 64
-	}
-	for i := 0; i < n; i++ {
-		cs := a.referers[i]
-		s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
+		lines = append(lines, "Most frequent referers:")
+		n := len(a.referers)
+		if n > 64 {
+			n = 64
+		}
+		for i := 0; i < n; i++ {
+			cs := a.referers[i]
+			s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
+			lines = append(lines, s)
+		}
+
+		lines = append(lines, "Most popular urls:")
+		n = len(a.urls)
+		if n > 64 {
+			n = 64
+		}
+		for i := 0; i < n; i++ {
+			cs := a.urls[i]
+			s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
+			lines = append(lines, s)
+		}
+	} else {
+		s = "Couldn't calculate analytics stats"
 		lines = append(lines, s)
 	}
-
-	lines = append(lines, "Most popular urls:")
-	n = len(a.urls)
-	if n > 64 {
-		n = 64
-	}
-	for i := 0; i < n; i++ {
-		cs := a.urls[i]
-		s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
-		lines = append(lines, s)
-	}
-
 	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
 	body := strings.Join(lines, "\n")
 	sendMail(subject, body)
