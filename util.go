@@ -188,7 +188,7 @@ func gzipFile(dstPath, srcPath string) error {
 	if err != nil {
 		return err
 	}
-	return nil
+	return w.Close()
 }
 
 func listFilesInDir(dir string, recursive bool) []string {
