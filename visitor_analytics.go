@@ -78,15 +78,15 @@ func countedStringMapToArray(m map[string]int) []countedString {
 
 // TODO:
 // - slowest pages
-func calcAnalyticsStats(path string) *analyticsStats {
+func calcAnalyticsStats(path string) (*analyticsStats, error) {
 	uriCount := make(map[string]int)
 	uri404Count := make(map[string]int)
 	refererCount := make(map[string]int)
 	ipCount := make(map[string]int)
 
-	f, err := os.Open(path)
+	f, err := openFileMaybeCompressed(path)
 	if err != nil {
-		return nil
+		return nil, err
 	}
 	defer f.Close()
 	r := siser.NewReader(f)
@@ -127,14 +127,14 @@ func calcAnalyticsStats(path string) *analyticsStats {
 		ipCount[ip]++
 	}
 	if r.Err() != nil {
-		return nil
+		return nil, r.Err()
 	}
 	return &analyticsStats{
 		urls:       countedStringMapToArray(uriCount),
 		referers:   countedStringMapToArray(refererCount),
 		notFound:   countedStringMapToArray(uri404Count),
 		nUniqueIPs: len(ipCount),
-	}
+	}, nil
 }
 
 func analyticsStatsText(a *analyticsStats) []string {
@@ -172,7 +172,7 @@ func analyticsStatsText(a *analyticsStats) []string {
 
 func onAnalyticsFileCloseBackground(path string) {
 	timeStart := time.Now()
-	a := calcAnalyticsStats(path)
+	a, statsErr := calcAnalyticsStats(path)
 	dur := time.Since(timeStart)
 	var lines []string
 	size, _ := getFileSize(path)
@@ -192,9 +192,14 @@ func onAnalyticsFileCloseBackground(path string) {
 
 	s := fmt.Sprintf("Processing analytics for %s of size %s took %s. Compressing took %s. Uploading to b2 as %s took %s.", path, sizeStr, dur, durCompress, b2Path, durUpload)
 	lines = append(lines, s)
-	lines = append(lines, analyticsStatsText(a)...)
+	if statsErr != nil {
+		s = fmt.Sprintf("Processing analytics failed with %s", statsErr)
+		lines = append(lines, s)
+	} else {
+		lines = append(lines, analyticsStatsText(a)...)
+	}
 	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
-	body := strings.Join(lines, "\n")
+	body := strings.Join(lines, "\n\n")
 	sendMail(subject, body)
 }
 
@@ -247,4 +252,12 @@ func analyticsClose() {
 		analyticsFile.Close()
 		analyticsFile = nil
 	}
+}
+
+func testAnalyticsStats(path string) {
+	stats, err := calcAnalyticsStats(path)
+	fatalIfErr(err)
+	fmt.Printf("Analytics stats: %v\n", stats)
+	lines := analyticsStatsText(stats)
+	fmt.Printf("Analytics as text:\n%s\n", strings.Join(lines, "\n\n"))
 }

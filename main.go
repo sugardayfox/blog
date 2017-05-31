@@ -250,6 +250,10 @@ func hostPolicy(ctx context.Context, host string) error {
 func main() {
 	parseCmdLineFlags()
 
+	if false {
+		testAnalyticsStats("/Users/kjk/Downloads/2017-05-30.txt.gz")
+	}
+
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
 		return

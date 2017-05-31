@@ -2,6 +2,7 @@
 package main
 
 import (
+	"compress/bzip2"
 	"compress/gzip"
 	"crypto/sha1"
 	"fmt"
@@ -234,6 +235,50 @@ func createDirForFileMust(path string) string {
 	err := os.MkdirAll(dir, 0755)
 	fatalIfErr(err)
 	return dir
+}
+
+// implement io.ReadCloser over os.File wrapped with io.Reader.
+// io.Closer goes to os.File, io.Reader goes to wrapping reader
+type readerWrappedFile struct {
+	f *os.File
+	r io.Reader
+}
+
+func (rc *readerWrappedFile) Close() error {
+	return rc.f.Close()
+}
+
+func (rc *readerWrappedFile) Read(p []byte) (int, error) {
+	return rc.r.Read(p)
+}
+
+func openFileMaybeCompressed(path string) (io.ReadCloser, error) {
+	ext := strings.ToLower(filepath.Ext(path))
+	f, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	if ext == ".gz" {
+		r, err := gzip.NewReader(f)
+		if err != nil {
+			f.Close()
+			return nil, err
+		}
+		rc := &readerWrappedFile{
+			f: f,
+			r: r,
+		}
+		return rc, nil
+	}
+	if ext == ".bz2" {
+		r := bzip2.NewReader(f)
+		rc := &readerWrappedFile{
+			f: f,
+			r: r,
+		}
+		return rc, nil
+	}
+	return f, nil
 }
 
 func utcNow() time.Time {
