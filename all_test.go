@@ -32,7 +32,6 @@ func testGzip(t *testing.T, path string) {
 	assert.Nil(t, err)
 	d2 := dst.Bytes()
 	assert.Equal(t, d, d2)
-	os.Remove(dstPath)
 }
 
 func TestGzip(t *testing.T) {
