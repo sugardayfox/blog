@@ -1,24 +1,49 @@
 package main
 
 import (
-	_ "fmt"
+	"bytes"
+	"io"
+	"io/ioutil"
+	"os"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-func testShortenId(t *testing.T, n int) {
+func testShortenID(t *testing.T, n int) {
 	s := shortenID(n)
 	n2 := unshortenID(s)
-	if n != n2 {
-		t.Fatalf("'%d' != '%d', shortened = %q", n, n2, s)
-	}
+	assert.Equal(t, n, n2)
 }
 
+func testGzip(t *testing.T, path string) {
+	d, err := ioutil.ReadFile(path)
+	assert.Nil(t, err)
+
+	dstPath := path + ".gz"
+	err = gzipFile(dstPath, path)
+	defer os.Remove(dstPath)
+	assert.Nil(t, err)
+	r, err := openFileMaybeCompressed(dstPath)
+	assert.Nil(t, err)
+	defer r.Close()
+	var dst bytes.Buffer
+	_, err = io.Copy(&dst, r)
+	assert.Nil(t, err)
+	d2 := dst.Bytes()
+	assert.Equal(t, d, d2)
+	os.Remove(dstPath)
+}
+
+func TestGzip(t *testing.T) {
+	testGzip(t, "visitor_analytics.go")
+}
 func TestShortenId(t *testing.T) {
-	testShortenId(t, 1404040)
-	testShortenId(t, 0)
-	testShortenId(t, 1)
-	testShortenId(t, 35)
-	testShortenId(t, 36)
-	testShortenId(t, 37)
-	testShortenId(t, 123413343)
+	testShortenID(t, 1404040)
+	testShortenID(t, 0)
+	testShortenID(t, 1)
+	testShortenID(t, 35)
+	testShortenID(t, 36)
+	testShortenID(t, 37)
+	testShortenID(t, 123413343)
 }

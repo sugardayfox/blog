@@ -180,7 +180,11 @@ func onAnalyticsFileCloseBackground(path string) {
 
 	timeStart = time.Now()
 	dstPath := path + ".gz"
-	gzipFile(dstPath, path)
+	err := gzipFile(dstPath, path)
+	if err != nil {
+		s := fmt.Sprintf("gzipFile(%s, %s) failed with %s", dstPath, path, err)
+		lines = append(lines, s)
+	}
 	durCompress := time.Since(timeStart)
 	os.Remove(path)
 
