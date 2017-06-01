@@ -251,7 +251,8 @@ func main() {
 	parseCmdLineFlags()
 
 	if false {
-		testAnalyticsStats("/Users/kjk/Downloads/2017-05-30.txt.gz")
+		testAnalyticsStats("/Users/kjk/Downloads/2017-05-31.txt.gz")
+		os.Exit(0)
 	}
 
 	if flgNewArticleTitle != "" {

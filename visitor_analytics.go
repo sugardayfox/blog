@@ -146,25 +146,25 @@ func analyticsStatsText(a *analyticsStats) []string {
 	s := fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
 	lines = append(lines, s)
 
-	lines = append(lines, "Most frequent referers:")
+	lines = append(lines, "\nMost frequent referers:")
 	n := len(a.referers)
 	if n > 64 {
 		n = 64
 	}
 	for i := 0; i < n; i++ {
 		cs := a.referers[i]
-		s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
+		s = fmt.Sprintf("%s : %d", cs.s, cs.n)
 		lines = append(lines, s)
 	}
 
-	lines = append(lines, "Most popular urls:")
+	lines = append(lines, "\nMost popular urls:")
 	n = len(a.urls)
 	if n > 64 {
 		n = 64
 	}
 	for i := 0; i < n; i++ {
 		cs := a.urls[i]
-		s = fmt.Sprintf("%s : %d\n", cs.s, cs.n)
+		s = fmt.Sprintf("%s : %d", cs.s, cs.n)
 		lines = append(lines, s)
 	}
 	return lines
@@ -261,7 +261,6 @@ func analyticsClose() {
 func testAnalyticsStats(path string) {
 	stats, err := calcAnalyticsStats(path)
 	fatalIfErr(err)
-	fmt.Printf("Analytics stats: %v\n", stats)
 	lines := analyticsStatsText(stats)
-	fmt.Printf("Analytics as text:\n%s\n", strings.Join(lines, "\n\n"))
+	fmt.Printf("Analytics as text:\n%s\n", strings.Join(lines, "\n"))
 }
