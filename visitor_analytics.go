@@ -137,6 +137,14 @@ func calcAnalyticsStats(path string) (*analyticsStats, error) {
 	}, nil
 }
 
+// sparkpost converts http:// and https:// links in plain text emails
+// to http://post.spmailt.com redirects. To prevent this mangling, strip url prefix
+func stripURLPrefix(s string) string {
+	s = strings.TrimPrefix(s, "http://")
+	s = strings.TrimPrefix(s, "https://")
+	return s
+}
+
 func analyticsStatsText(a *analyticsStats) []string {
 	if a == nil {
 		return []string{"Couldn't calculate analytics stats"}
@@ -146,18 +154,18 @@ func analyticsStatsText(a *analyticsStats) []string {
 	s := fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
 	lines = append(lines, s)
 
-	lines = append(lines, "\nMost frequent referers:")
+	lines = append(lines, "\nMost frequent referers:\n")
 	n := len(a.referers)
 	if n > 64 {
 		n = 64
 	}
 	for i := 0; i < n; i++ {
 		cs := a.referers[i]
-		s = fmt.Sprintf("%s : %d", cs.s, cs.n)
+		s = fmt.Sprintf("%s : %d", stripURLPrefix(cs.s), cs.n)
 		lines = append(lines, s)
 	}
 
-	lines = append(lines, "\nMost popular urls:")
+	lines = append(lines, "\nMost popular urls:\n")
 	n = len(a.urls)
 	if n > 64 {
 		n = 64
@@ -203,7 +211,7 @@ func onAnalyticsFileCloseBackground(path string) {
 		lines = append(lines, analyticsStatsText(a)...)
 	}
 	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
-	body := strings.Join(lines, "\n\n")
+	body := strings.Join(lines, "\n")
 	sendMail(subject, body)
 }
 
@@ -263,4 +271,7 @@ func testAnalyticsStats(path string) {
 	fatalIfErr(err)
 	lines := analyticsStatsText(stats)
 	fmt.Printf("Analytics as text:\n%s\n", strings.Join(lines, "\n"))
+	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
+	body := strings.Join(lines, "\n")
+	sendMail(subject, body)
 }
