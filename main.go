@@ -306,7 +306,7 @@ func main() {
 
 	httpSrv = makeHTTPServer()
 	httpSrv.Addr = flgHTTPAddr
-	logger.Noticef("Starting http server on %s, in production: %v, sha1ver: %s", httpSrv.Addr, flgProduction, sha1ver)
+	logger.Noticef("Starting http server on %s, in production: %v, sha1ver: , ver: https://github.com/kjk/web-blog/commit/%s", httpSrv.Addr, flgProduction, sha1ver)
 	go func() {
 		wg.Add(1)
 		err := httpSrv.ListenAndServe()
