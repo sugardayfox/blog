@@ -22,7 +22,9 @@ func watchChanges(watcher *fsnotify.Watcher, close chan struct{}, notify chan st
 			log.Printf("watchChange: stopped watching\n")
 			return
 		case err := <-watcher.Errors:
-			log.Println("error:", err)
+			if err != nil {
+				log.Println("error:", err)
+			}
 		case ev := <-watcher.Events:
 			path := ev.Name
 			if isTmpFile(path) {

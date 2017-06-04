@@ -21,7 +21,7 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 	}
 
 	articleID, err := u.DecodeBase64(parts[0])
-	if err == nil {
+	if err != nil {
 		return nil
 	}
 	return getCachedArticlesByID(articleID)
@@ -37,7 +37,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
-		//logger.Noticef("handleArticle: invalid url: %s", r.URL.Path)
+		logger.Noticef("handleArticle: invalid url: %s", r.URL.Path)
 		serve404(w, r)
 		return
 	}
