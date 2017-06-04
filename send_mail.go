@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/SparkPost/gosparkpost"
+	"github.com/kjk/u"
 )
 
 const (
@@ -46,14 +47,14 @@ func sendMail(subject, body string) error {
 }
 
 func sendBootMail() {
-	subject := utcNow().Format("blog started on 2006-01-02 15:04:05")
+	subject := u.UtcNow().Format("blog started on 2006-01-02 15:04:05")
 	body := "Just letting you know that I've started\n"
 	body += fmt.Sprintf("production: %v, data dir: %s, ver: github.com/kjk/web-blog/commit/%s\n", flgProduction, getDataDir(), sha1ver)
 	sendMail(subject, body)
 }
 
 func testSendEmail() {
-	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
+	subject := u.UtcNow().Format("blog stats on 2006-01-02 15:04:05")
 	body := "this is a test e-mail"
 	sendMail(subject, body)
 }

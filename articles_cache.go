@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"sync"
+
+	"github.com/kjk/u"
 )
 
 var articlesCache ArticlesCache
@@ -41,7 +43,7 @@ func buildArticlesJSON(articles []*Article) ([]byte, string) {
 	appendJSONMarshalled(&buf, vals)
 	buf.WriteString("; articlesJsonLoaded(__articles_json);")
 	jsData := buf.Bytes()
-	sha1 := sha1HexOfBytes(jsData)
+	sha1 := u.Sha1HexOfBytes(jsData)
 	//logger.Noticef("buildArticlesJson(): len(jsData)=%d, sha1=%s", len(jsData), sha1)
 	return jsData, sha1
 }

@@ -23,6 +23,8 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/kjk/u"
+
 	"golang.org/x/crypto/acme/autocert"
 )
 
@@ -40,9 +42,9 @@ func getDataDir() string {
 		return dataDir
 	}
 
-	dirsToCheck := []string{"/data", expandTildeInPath("~/data/blog")}
+	dirsToCheck := []string{"/data", u.ExpandTildeInPath("~/data/blog")}
 	for _, dir := range dirsToCheck {
-		if pathExists(dir) {
+		if u.PathExists(dir) {
 			dataDir = dir
 			return dataDir
 		}
@@ -214,15 +216,15 @@ Date: %s
 Format: Markdown
 --------------`, newID, title, t.Format(time.RFC3339))
 	for i := 1; i < 10; i++ {
-		if !pathExists(path) {
+		if !u.PathExists(path) {
 			break
 		}
 		name = fmt.Sprintf("%02d-%s-%d.md", month, sanitizedTitle, i)
 		path = filepath.Join(dir, yyyy, name)
 	}
-	fatalIf(pathExists(path))
+	u.PanicIf(u.PathExists(path))
 	fmt.Printf("path: %s\n", path)
-	createDirForFileMust(path)
+	u.CreateDirForFileMust(path)
 	ioutil.WriteFile(path, []byte(s), 0644)
 }
 
@@ -294,7 +296,7 @@ func main() {
 			if err == http.ErrServerClosed {
 				err = nil
 			}
-			fatalIfErr(err)
+			u.PanicIfErr(err)
 			fmt.Printf("HTTPS server shutdown gracefully\n")
 			wg.Done()
 		}()
@@ -310,7 +312,7 @@ func main() {
 		if err == http.ErrServerClosed {
 			err = nil
 		}
-		fatalIfErr(err)
+		u.PanicIfErr(err)
 		fmt.Printf("HTTP server shutdown gracefully\n")
 		wg.Done()
 	}()

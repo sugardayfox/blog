@@ -8,6 +8,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/kjk/u"
 )
 
 var redirects = map[string]string{
@@ -70,7 +72,7 @@ func readRedirects() {
 			continue
 		}
 		parts := strings.Split(string(l), "|")
-		fatalIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
+		u.PanicIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
 		idStr := parts[0]
 		url := strings.TrimSpace(parts[1])
 		if id, err := strconv.Atoi(idStr); err != nil {

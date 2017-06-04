@@ -5,6 +5,8 @@ import (
 	"html/template"
 	"strings"
 	"time"
+
+	"github.com/kjk/u"
 )
 
 const (
@@ -55,7 +57,7 @@ func FormatNameToID(name string) int {
 
 // Permalink returns article's permalink
 func (a *Article) Permalink() string {
-	return "article/" + shortenID(a.ID) + "/" + urlify(a.Title) + ".html"
+	return "article/" + u.EncodeBase64(a.ID) + "/" + urlify(a.Title) + ".html"
 }
 
 // TagsDisplay returns tags as html

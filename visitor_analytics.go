@@ -14,6 +14,7 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"github.com/kjk/dailyrotate"
 	"github.com/kjk/siser"
+	"github.com/kjk/u"
 )
 
 const (
@@ -46,7 +47,7 @@ type analyticsStats struct {
 func initAnalyticsMust(pathFormat string) error {
 	var err error
 	analyticsFile, err = dailyrotate.NewFile(pathFormat, onAnalyticsFileClosed)
-	fatalIfErr(err)
+	u.PanicIfErr(err)
 	return nil
 }
 
@@ -84,7 +85,7 @@ func calcAnalyticsStats(path string) (*analyticsStats, error) {
 	refererCount := make(map[string]int)
 	ipCount := make(map[string]int)
 
-	f, err := openFileMaybeCompressed(path)
+	f, err := u.OpenFileMaybeCompressed(path)
 	if err != nil {
 		return nil, err
 	}
@@ -183,12 +184,12 @@ func onAnalyticsFileCloseBackground(path string) {
 	a, statsErr := calcAnalyticsStats(path)
 	dur := time.Since(timeStart)
 	var lines []string
-	size, _ := getFileSize(path)
+	size, _ := u.GetFileSize(path)
 	sizeStr := humanize.Bytes(uint64(size))
 
 	timeStart = time.Now()
 	dstPath := path + ".gz"
-	err := gzipFile(dstPath, path)
+	err := u.GzipFile(dstPath, path)
 	if err != nil {
 		s := fmt.Sprintf("gzipFile(%s, %s) failed with %s", dstPath, path, err)
 		lines = append(lines, s)
@@ -210,7 +211,7 @@ func onAnalyticsFileCloseBackground(path string) {
 	} else {
 		lines = append(lines, analyticsStatsText(a)...)
 	}
-	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
+	subject := u.UtcNow().Format("blog stats on 2006-01-02 15:04:05")
 	body := strings.Join(lines, "\n")
 	sendMail(subject, body)
 }
@@ -268,10 +269,10 @@ func analyticsClose() {
 
 func testAnalyticsStats(path string) {
 	stats, err := calcAnalyticsStats(path)
-	fatalIfErr(err)
+	u.PanicIfErr(err)
 	lines := analyticsStatsText(stats)
 	fmt.Printf("Analytics as text:\n%s\n", strings.Join(lines, "\n"))
-	subject := utcNow().Format("blog stats on 2006-01-02 15:04:05")
+	subject := u.UtcNow().Format("blog stats on 2006-01-02 15:04:05")
 	body := strings.Join(lines, "\n")
 	sendMail(subject, body)
 }

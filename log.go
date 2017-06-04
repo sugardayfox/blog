@@ -4,6 +4,8 @@ package main
 import (
 	"fmt"
 	"time"
+
+	"github.com/kjk/u"
 )
 
 type TimestampedMsg struct {
@@ -22,7 +24,7 @@ func (m *TimestampedMsg) TimeStr() string {
 }
 
 func (m *TimestampedMsg) TimeSinceStr() string {
-	return timeSinceNowAsString(m.Time)
+	return u.TimeSinceNowAsString(m.Time)
 }
 
 func NewCircularMessagesBuf(cap int) *CircularMessagesBuf {

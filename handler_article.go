@@ -3,6 +3,8 @@ package main
 import (
 	"net/http"
 	"strings"
+
+	"github.com/kjk/u"
 )
 
 func articleInfoFromURL(uri string) *ArticleInfo {
@@ -18,7 +20,10 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 		return nil
 	}
 
-	articleID := unshortenID(parts[0])
+	articleID, err := u.DecodeBase64(parts[0])
+	if err == nil {
+		return nil
+	}
 	return getCachedArticlesByID(articleID)
 }
 
