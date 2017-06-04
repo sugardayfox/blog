@@ -240,7 +240,6 @@ func main() {
 	analyticsPath := filepath.Join(getDataDir(), "analytics", "2006-01-02.txt")
 	initAnalyticsMust(analyticsPath)
 
-	ctx := context.TODO()
 	var wg sync.WaitGroup
 	var httpsSrv, httpSrv *http.Server
 
@@ -297,10 +296,10 @@ func main() {
 	sig := <-c
 	fmt.Printf("Got signal %s\n", sig)
 	if httpsSrv != nil {
-		httpsSrv.Shutdown(ctx)
+		httpsSrv.Shutdown(nil)
 	}
 	if httpSrv != nil {
-		httpSrv.Shutdown(ctx)
+		httpSrv.Shutdown(nil)
 	}
 	wg.Wait()
 	analyticsClose()
