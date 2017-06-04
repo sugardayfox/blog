@@ -8,12 +8,6 @@
   revision = "c041325a607bb2faf3a138e48a17074172ac4da7"
 
 [[projects]]
-  name = "github.com/davecgh/go-spew"
-  packages = ["spew"]
-  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
-  version = "v1.1.0"
-
-[[projects]]
   branch = "master"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
@@ -45,6 +39,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/kjk/u"
+  packages = ["."]
+  revision = "18f06cf8f6c4ff142f4a305c0b0ee4babde8c088"
+
+[[projects]]
+  branch = "master"
   name = "github.com/kr/fs"
   packages = ["."]
   revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
@@ -68,22 +68,10 @@
   version = "v0.8.0"
 
 [[projects]]
-  name = "github.com/pmezard/go-difflib"
-  packages = ["difflib"]
-  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
-  version = "v1.0.0"
-
-[[projects]]
   branch = "master"
   name = "github.com/russross/blackfriday"
   packages = ["."]
   revision = "0ba0f2b6ed7c475a92e4df8641825cb7a11d1fa3"
-
-[[projects]]
-  name = "github.com/stretchr/testify"
-  packages = ["assert"]
-  revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
-  version = "v1.1.4"
 
 [[projects]]
   branch = "master"
@@ -95,13 +83,13 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "080743b21912ae11ad9222778a048b795a5aae00"
+  revision = "e1a4589e7d3ea14a3352255d04b6f1a418845e5e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","html","html/atom"]
-  revision = "3da985ce5951d99de868be4385f21ea6c2b22f24"
+  revision = "e4fa1c5465ad6111f206fc92186b8c83d64adbe1"
 
 [[projects]]
   branch = "master"
@@ -112,6 +100,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2dfe379b4e5c6bec934c566a41dc72b5ab3799e4f45df13894d68a216a662581"
+  inputs-digest = "d222574db2f8f2cb69ac579ed3aa777c5c2dc0388f5831f61244876c9010c7b5"
   solver-name = "gps-cdcl"
   solver-version = 1
