@@ -6,18 +6,19 @@ import (
 	"strings"
 )
 
-// url is in the form: $sha1.js
+// url is in the form: ${sha1}.js
 func handleArticlesJs(w http.ResponseWriter, r *http.Request, url string) {
 	sha1 := url[:len(url)-len(".js")]
 	if len(sha1) != 40 {
 		logger.Errorf("handleArticlesJs(): invalid sha1=%q, url='%s", sha1, url)
-		panic("invalid sha1")
+		serve404(w, r)
+		return
 	}
 
 	jsData, expectedSha1 := getArticlesJsData()
 	if sha1 != expectedSha1 {
 		logger.Errorf("handleArticlesJs(): invalid value of sha1=%q, expected=%q", sha1, expectedSha1)
-		panic("invalid value of sha1")
+		// this might happen due to caching and stale url, return the old value
 	}
 
 	w.Header().Set("Content-Type", "text/javascript")
