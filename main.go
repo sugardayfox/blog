@@ -56,10 +56,6 @@ func isTopLevelURL(url string) bool {
 	return 0 == len(url) || "/" == url
 }
 
-func getReferer(r *http.Request) string {
-	return r.Header.Get("Referer")
-}
-
 // this list was determined by watching /logs
 var noLog404 = map[string]bool{
 	"/crossdomain.xml":                                               true,

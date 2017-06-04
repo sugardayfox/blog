@@ -107,7 +107,7 @@ func serveFileFromDir(w http.ResponseWriter, r *http.Request, dir, fileName stri
 		//logger.Noticef("serveFileFromDir(): %q", filePath)
 		http.ServeFile(w, r, filePath)
 	} else {
-		//logger.Noticef("serveFileFromDir() file %q doesn't exist, referer: %q", fileName, getReferer(r))
+		//logger.Noticef("serveFileFromDir() file %q doesn't exist, referer: %q", fileName, r.Referer())
 		serve404(w, r)
 	}
 }
