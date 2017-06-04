@@ -54,7 +54,7 @@ func initAnalyticsMust(pathFormat string) error {
 func withAnalyticsLogging(f http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		timeStart := time.Now()
-		rrw := NewRecordingResponseWriter(w)
+		rrw := u.NewRecordingResponseWriter(w)
 		f(rrw, r)
 		dur := time.Since(timeStart)
 		logWebAnalytics(r, rrw.Code, rrw.BytesWritten, dur)
