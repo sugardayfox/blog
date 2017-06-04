@@ -85,35 +85,6 @@ func shouldLog404(s string) bool {
 	return !ok
 }
 
-// Request.RemoteAddress contains port, which we want to remove i.e.:
-// "[::1]:58292" => "[::1]"
-func ipAddrFromRemoteAddr(s string) string {
-	idx := strings.LastIndex(s, ":")
-	if idx == -1 {
-		return s
-	}
-	return s[:idx]
-}
-
-func getIPAddress(r *http.Request) string {
-	hdr := r.Header
-	hdrRealIP := hdr.Get("X-Real-Ip")
-	hdrForwardedFor := hdr.Get("X-Forwarded-For")
-	if hdrRealIP == "" && hdrForwardedFor == "" {
-		return ipAddrFromRemoteAddr(r.RemoteAddr)
-	}
-	if hdrForwardedFor != "" {
-		// X-Forwarded-For is potentially a list of addresses separated with ","
-		parts := strings.Split(hdrForwardedFor, ",")
-		for i, p := range parts {
-			parts[i] = strings.TrimSpace(p)
-		}
-		// TODO: should return first non-local address
-		return parts[0]
-	}
-	return hdrRealIP
-}
-
 func setContentType(w http.ResponseWriter, contentType string) {
 	w.Header().Set("Content-Type", contentType)
 }

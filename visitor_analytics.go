@@ -224,21 +224,27 @@ func onAnalyticsFileClosed(path string, didRotate bool) {
 	}
 }
 
-func logWebAnalytics(r *http.Request, code int, nBytesWritten int64, dur time.Duration) {
+// for visitor analytics, not all hits are important
+func shouldLog(r *http.Request) bool {
 	uri := r.RequestURI
-
-	// don't log hits we don't care about
 	if uri == "/robots.txt" {
-		return
+		return false
 	}
 	ext := strings.ToLower(filepath.Ext(uri))
 	switch ext {
-	// we care mostly about .http files, those are referenced files
 	case ".png", ".jpg", ".jpeg", ".ico", ".gif", ".css", ".js":
+		return false
+	}
+	return true
+}
+
+func logWebAnalytics(r *http.Request, code int, nBytesWritten int64, dur time.Duration) {
+	if !shouldLog(r) {
 		return
 	}
+	uri := r.RequestURI
 
-	ipAddr := getIPAddress(r)
+	ipAddr := u.RequestGetIPAddress(r)
 	when := time.Now().UTC().Format(time.RFC3339)
 	codeStr := strconv.Itoa(code)
 	durMs := float64(dur) / float64(time.Millisecond)
