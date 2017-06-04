@@ -122,7 +122,7 @@ func handleStatic(w http.ResponseWriter, r *http.Request) {
 }
 
 // url: /css/*
-func handleCss(w http.ResponseWriter, r *http.Request) {
+func handleCSS(w http.ResponseWriter, r *http.Request) {
 	file := r.URL.Path[len("/css/"):]
 	serveFileFromDir(w, r, getCSSDir(), file)
 }

@@ -28,10 +28,17 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
 	mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
 	mux.HandleFunc("/static/", withAnalyticsLogging(handleStatic))
-	mux.HandleFunc("/css/", handleCss)
+
+	// not logged because not interesting for visitor analytics
+	mux.HandleFunc("/ping", handlePing)
+	mux.HandleFunc("/css/", handleCSS)
 	mux.HandleFunc("/js/", handleJs)
 	mux.HandleFunc("/gfx/", handleGfx)
+
 	mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
+
+	// websocket is only for dev mode, used for refreshing the pages if
+	// they change on disk
 	if !flgProduction {
 		mux.HandleFunc("/ws", serveWs)
 	}

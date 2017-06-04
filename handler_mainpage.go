@@ -93,3 +93,8 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 
 	execTemplate(w, tmplMainPage, model)
 }
+
+// /ping
+func handlePing(w http.ResponseWriter, r *http.Request) {
+	servePlainText(w, "pong")
+}
