@@ -209,13 +209,6 @@ func loadArticles() {
 	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJSON(articles)
 }
 
-func hostPolicy(ctx context.Context, host string) error {
-	if strings.HasSuffix(host, "kowalczyk.info") {
-		return nil
-	}
-	return errors.New("acme/autocert: only *.kowalczyk.info hosts are allowed")
-}
-
 func main() {
 	parseCmdLineFlags()
 
@@ -253,6 +246,13 @@ func main() {
 
 	if flgProduction {
 		httpsSrv = makeHTTPServer()
+		hostPolicy := func(ctx context.Context, host string) error {
+			if strings.HasSuffix(host, "kowalczyk.info") {
+				return nil
+			}
+			return errors.New("acme/autocert: only *.kowalczyk.info hosts are allowed")
+		}
+
 		m := autocert.Manager{
 			Prompt:     autocert.AcceptTOS,
 			HostPolicy: hostPolicy,

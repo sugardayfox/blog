@@ -179,13 +179,16 @@ func analyticsStatsText(a *analyticsStats) []string {
 	return lines
 }
 
+func getFileSizeHumanized(path string) string {
+	size, _ := u.GetFileSize(path)
+	return humanize.Bytes(uint64(size))
+}
+
 func onAnalyticsFileCloseBackground(path string) {
 	timeStart := time.Now()
 	a, statsErr := calcAnalyticsStats(path)
 	dur := time.Since(timeStart)
 	var lines []string
-	size, _ := u.GetFileSize(path)
-	sizeStr := humanize.Bytes(uint64(size))
 
 	timeStart = time.Now()
 	dstPath := path + ".gz"
@@ -195,6 +198,9 @@ func onAnalyticsFileCloseBackground(path string) {
 		lines = append(lines, s)
 	}
 	durCompress := time.Since(timeStart)
+
+	sizeOriginal := getFileSizeHumanized(path)
+	sizeCompressed := getFileSizeHumanized(dstPath)
 	os.Remove(path)
 
 	fileName := filepath.Base(dstPath)
@@ -203,7 +209,11 @@ func onAnalyticsFileCloseBackground(path string) {
 	b2UploadFile(b2Path, dstPath)
 	durUpload := time.Since(timeStart)
 
-	s := fmt.Sprintf("Processing analytics for %s of size %s took %s. Compressing took %s. Uploading to b2 as %s took %s.", path, sizeStr, dur, durCompress, b2Path, durUpload)
+	s := fmt.Sprintf("Processing analytics for %s took %s.", path, dur)
+	lines = append(lines, s)
+	s = fmt.Sprintf("Compressed %s to %s in %s.", sizeOriginal, sizeCompressed, durCompress)
+	lines = append(lines, s)
+	s = fmt.Sprintf("Uploading to b2 as %s took %s.", b2Path, durUpload)
 	lines = append(lines, s)
 	if statsErr != nil {
 		s = fmt.Sprintf("Processing analytics failed with %s", statsErr)
