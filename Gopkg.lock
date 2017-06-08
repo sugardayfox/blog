@@ -26,6 +26,12 @@
   revision = "a91eba7f97777409bc2c443f5534d41dd20c5720"
 
 [[projects]]
+  name = "github.com/kennygrant/sanitize"
+  packages = ["."]
+  revision = "6a0bfdde8629a3a3a7418a7eae45c54154692514"
+  version = "v1.2"
+
+[[projects]]
   branch = "master"
   name = "github.com/kjk/dailyrotate"
   packages = ["."]
@@ -41,7 +47,7 @@
   branch = "master"
   name = "github.com/kjk/u"
   packages = ["."]
-  revision = "f4485540eb9a4b68a40252b20194a8fa580776c9"
+  revision = "a8dc8a93557893f99b679cf644fc795d8e676750"
 
 [[projects]]
   branch = "master"
@@ -53,13 +59,19 @@
   branch = "master"
   name = "github.com/kurin/blazer"
   packages = ["b2","base","internal/b2types","internal/blog"]
-  revision = "48de0a1e4d21fba201aff7fefdf3e5e7735b1439"
+  revision = "37589164c2e262ddf5b9bc82e3f8da4a6207c0e4"
 
 [[projects]]
   branch = "master"
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
   revision = "e79763773ab6222ca1d5a7cbd9d62d83c1f77081"
+
+[[projects]]
+  name = "github.com/mvdan/xurls"
+  packages = ["."]
+  revision = "d315b61cf6727664f310fa87b3197e9faf2a8513"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/pkg/errors"
@@ -83,23 +95,23 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "e1a4589e7d3ea14a3352255d04b6f1a418845e5e"
+  revision = "e7ba82683099cae71475961448ab8f903ea77c26"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","html","html/atom"]
-  revision = "e4fa1c5465ad6111f206fc92186b8c83d64adbe1"
+  revision = "59a0b19b5533c7977ddeb86b017bf507ed407b12"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "b90f89a1e7a9c1f6b918820b3daa7f08488c8594"
+  revision = "0b25a408a50076fbbcae6b7ac0ea5fbb0b085e79"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d222574db2f8f2cb69ac579ed3aa777c5c2dc0388f5831f61244876c9010c7b5"
+  inputs-digest = "1fe49cf956d73dc371ce3eb061af1100caf41443099d2b8028258cb976f7c771"
   solver-name = "gps-cdcl"
   solver-version = 1

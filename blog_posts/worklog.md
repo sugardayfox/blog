@@ -1,6 +1,6 @@
 2017-06-08
 
-1. Started this worklog. More code needed to actually show it.
+1. Started this worklog. Wrote code to parse worklog.md file. More code needed to show in on the blog.
 
 2. Reading more blog posts from http://thestartuptoolkit.com/.
 
@@ -18,9 +18,14 @@ For example, there are PDF documents with gigantic images (think 4000 x 4000 pix
 
 I'm sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible).
 
-5. Digital footprints:
+5. #watched https://vimeo.com/77265280, trying to understand capabilities of WebRTC. I want to build VNC client in the browser but without ability to open tcp/udp connections it's not possible. And for local machines it's not possible even when using a proxy server (website talks to a proxy, proxy talks to VNC server and tunnels the data to website).
+
+6. #inspiration "Every day for years, Trollope reported in his “Autobiography,” he woke in darkness and wrote from 5:30 a.m. to 8:30 a.m., with his watch in front of him." (http://www.newyorker.com/magazine/2004/06/14/blocked). If I was able to do coding like this, I would have written many more programs than I have.
+
+7. Digital footprints:
 * http://discuss.bootstrapped.fm/t/advice-on-getting-free-users-to-pay-for-a-pro-option-of-a-product/5084/3?u=kjk
 * https://www.indiehackers.com/forum/post/-Km7Y53UZUwjvKGZECh6?commentId=-Km7xYYmTwQJPBGQwFQo
+* https://github.com/kurin/blazer/issues/17
 
 2017-06-07
 

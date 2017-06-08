@@ -17,9 +17,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/kennygrant/sanitize"
 	"github.com/kjk/u"
 	"github.com/kr/fs"
 	"github.com/microcosm-cc/bluemonday"
+	"github.com/mvdan/xurls"
 	"github.com/russross/blackfriday"
 )
 
@@ -223,6 +225,33 @@ func buildBodyFromLines(lines []string) string {
 		lines = lines[:len(lines)-1]
 	}
 	return strings.Join(lines, "\n")
+}
+
+// removes duplicate strings from the array.
+// not the fastest way but here not expected to be used on large arrays
+func removeDuplicateStrings(a []string) []string {
+	sort.Strings(a)
+	for i := 1; i < len(a); i++ {
+		if a[i-1] != a[i] {
+			continue
+		}
+		idxLast := len(a) - 1
+		a[i] = a[idxLast]
+		a = a[:idxLast-1]
+		sort.Strings(a)
+	}
+	return a
+}
+
+func workLogPostToHTML(s string) string {
+	urls := xurls.Relaxed.FindAllString(s, -1)
+	urls = removeDuplicateStrings(urls)
+	for _, url := range urls {
+		s2 := fmt.Sprintf(`<a href="%s">%s</a>`, url, url)
+		s = strings.Replace(s, url, s2, -1)
+	}
+	s, _ = sanitize.HTMLAllowing(s, []string{"a"})
+	return s
 }
 
 // TODO: parse worklog
