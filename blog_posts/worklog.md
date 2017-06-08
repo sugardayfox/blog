@@ -1,12 +1,14 @@
 2017-06-08
 
-1. Reading more blog posts from http://thestartuptoolkit.com/.
+1. Started this worklog. More code needed to actually show it.
+
+2. Reading more blog posts from http://thestartuptoolkit.com/.
 
 Insight: if you're business is "better X", use X to make sure you're really improving on it (http://thestartuptoolkit.com/blog/2011/09/use-the-tools-youre-displacing/) #business
 
-2. #read https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164. Summary: webassembly is much faster than asm.js. #webassembly
+3. #read https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164. Summary: webassembly is much faster than asm.js. #webassembly
 
-3. #idea For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it.
+4. #idea For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it.
 
 Imagine a binary format that is designed for fast loading and one-time PDF => binary format compilation step. With the right format, parsing step could essentially be eliminated.
 
@@ -16,7 +18,7 @@ For example, there are PDF documents with gigantic images (think 4000 x 4000 pix
 
 I'm sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible).
 
-4. Digital footprints:
+5. Digital footprints:
 * http://discuss.bootstrapped.fm/t/advice-on-getting-free-users-to-pay-for-a-pro-option-of-a-product/5084/3?u=kjk
 * https://www.indiehackers.com/forum/post/-Km7Y53UZUwjvKGZECh6?commentId=-Km7xYYmTwQJPBGQwFQo
 
