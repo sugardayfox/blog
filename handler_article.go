@@ -7,6 +7,31 @@ import (
 	"github.com/kjk/u"
 )
 
+// ArticleInfo describes an article
+type ArticleInfo struct {
+	this *Article
+	next *Article
+	prev *Article
+	pos  int
+}
+
+func getCachedArticlesByID(articleID int) *ArticleInfo {
+	articles := store.GetArticles()
+	res := &ArticleInfo{}
+	for i, curr := range articles {
+		if curr.ID == articleID {
+			if i != len(articles)-1 {
+				res.next = articles[i+1]
+			}
+			res.this = curr
+			res.pos = i
+			return res
+		}
+		res.prev = curr
+	}
+	return nil
+}
+
 func articleInfoFromURL(uri string) *ArticleInfo {
 	if strings.HasPrefix(uri, "/") {
 		uri = uri[1:]

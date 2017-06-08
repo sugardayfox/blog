@@ -3,21 +3,91 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
+	"github.com/kjk/u"
 	"github.com/kr/fs"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
 )
+
+const (
+	formatHTML     = 0
+	formatMarkdown = 1
+	formatText     = 2
+
+	formatUnknown = -1
+)
+
+// Article describes a single article
+type Article struct {
+	ID          int
+	PublishedOn time.Time
+	Title       string
+	Tags        []string
+	Format      int
+	Hidden      bool // is it hidden from main timeline?
+	Path        string
+	Body        []byte
+	BodyHTML    string
+
+	HTMLBody     template.HTML
+	DisplayMonth string
+}
+
+// same format as Format* constants
+var formatNames = []string{"Html", "Markdown", "Text"}
+
+func validFormat(format int) bool {
+	return format >= formatHTML && format <= formatText
+}
+
+func urlForTag(tag string) string {
+	// TODO: url-quote the first tag
+	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
+}
+
+// FormatNameToID return id of a format
+func FormatNameToID(name string) int {
+	for i, formatName := range formatNames {
+		if strings.EqualFold(name, formatName) {
+			return i
+		}
+	}
+	return formatUnknown
+}
+
+// Permalink returns article's permalink
+func (a *Article) Permalink() string {
+	return "article/" + u.EncodeBase64(a.ID) + "/" + urlify(a.Title) + ".html"
+}
+
+// TagsDisplay returns tags as html
+func (a *Article) TagsDisplay() template.HTML {
+	arr := make([]string, 0)
+	for _, tag := range a.Tags {
+		arr = append(arr, urlForTag(tag))
+	}
+	s := strings.Join(arr, ", ")
+	return template.HTML(s)
+}
+
+// PublishedOnShort is a short version of date
+func (a *Article) PublishedOnShort() string {
+	return a.PublishedOn.Format("Jan 2 2006")
+}
 
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
@@ -134,6 +204,79 @@ func readArticle(path string) (*Article, error) {
 	return a, nil
 }
 
+type workLogArticle struct {
+	Day    time.Time
+	DayStr string
+	Body   string
+}
+
+var (
+	workLogPosts []*workLogArticle
+)
+
+func buildBodyFromLines(lines []string) string {
+	// remove empty lines from beginning and end
+	for len(lines[0]) == 0 {
+		lines = lines[1:]
+	}
+	for len(lines[len(lines)-1]) == 0 {
+		lines = lines[:len(lines)-1]
+	}
+	return strings.Join(lines, "\n")
+}
+
+// TODO: parse worklog
+func readWorkLog(path string) error {
+	f, err := os.Open(path)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	scanner := bufio.NewScanner(f)
+	var posts []*workLogArticle
+	var curr *workLogArticle
+	var lines []string
+
+	for scanner.Scan() {
+		s := strings.TrimRight(scanner.Text(), "\n\r\t ")
+		day, err := time.Parse("2006-01-02", s)
+
+		if err != nil {
+			// first line must be a valid new day
+			u.PanicIf(curr == nil)
+			lines = append(lines, s)
+			continue
+		}
+
+		// this is a new day
+		if curr != nil {
+			curr.Body = buildBodyFromLines(lines)
+			posts = append(posts, curr)
+		}
+		curr = &workLogArticle{
+			Day:    day,
+			DayStr: s,
+		}
+		lines = nil
+	}
+	curr.Body = buildBodyFromLines(lines)
+	workLogPosts = append(posts, curr)
+
+	// verify they are in chronological order
+	for i := 1; i < len(workLogPosts); i++ {
+		post := workLogPosts[i-1]
+		postPrev := workLogPosts[i]
+		diff := post.Day.Sub(postPrev.Day)
+		if diff < 0 {
+			return fmt.Errorf("Post '%s' should be later than '%s'", post.DayStr, postPrev.DayStr)
+		}
+	}
+	fmt.Printf("Read %d daily logs\n", len(workLogPosts))
+	// TODO: build weekly index (week starting on Monday)
+	// TODO: serve weekly posts, anchored at /worklog/, /worklog/{first-day-of-week}
+	return scanner.Err()
+}
+
 func readArticles() ([]*Article, []string, error) {
 	timeStart := time.Now()
 	walker := fs.Walk("blog_posts")
@@ -148,6 +291,15 @@ func readArticles() ([]*Article, []string, error) {
 		path := walker.Path()
 		if st.IsDir() {
 			dirs = append(dirs, path)
+			continue
+		}
+		name := filepath.Base(path)
+		if name == "worklog.md" {
+			err := readWorkLog(path)
+			if err != nil {
+				fmt.Printf("readWorkLog(%s) failed with %s\n", path, err)
+				return nil, nil, err
+			}
 			continue
 		}
 		a, err := readArticle(path)
@@ -287,4 +439,57 @@ func msgToHTML(msg []byte, format int) string {
 		return strToHTML(string(msg))
 	}
 	panic("unknown format")
+}
+
+var articlesCache ArticlesCache
+
+// ArticlesCache describes a cache of articles
+type ArticlesCache struct {
+	sync.Mutex
+	articles       []*Article
+	articlesJs     []byte
+	articlesJsSha1 string
+}
+
+func appendJSONMarshalled(buf *bytes.Buffer, val interface{}) {
+	if data, err := json.Marshal(val); err != nil {
+		logger.Errorf("json.Marshal() of %v failed with %s", val, err)
+	} else {
+		buf.Write(data)
+	}
+}
+
+// TODO: I only use it for tag cloud, could just send info about tags directly
+func buildArticlesJSON(articles []*Article) ([]byte, string) {
+	var buf bytes.Buffer
+	buf.WriteString("var __articles_json = ")
+	n := len(articles)
+	vals := make([]interface{}, n, n)
+	n = 0
+	for i := len(articles) - 1; i >= 0; i-- {
+		a := articles[i]
+		val := make([]interface{}, 1, 1)
+		val[0] = a.Tags
+		vals[n] = val
+		n++
+	}
+	appendJSONMarshalled(&buf, vals)
+	buf.WriteString("; articlesJsonLoaded(__articles_json);")
+	jsData := buf.Bytes()
+	sha1 := u.Sha1HexOfBytes(jsData)
+	//logger.Noticef("buildArticlesJson(): len(jsData)=%d, sha1=%s", len(jsData), sha1)
+	return jsData, sha1
+}
+
+func getArticlesJsURL() string {
+	sha1 := articlesCache.articlesJsSha1
+	return "/djs/articles-" + sha1 + ".js"
+}
+
+func getArticlesJsData() ([]byte, string) {
+	return articlesCache.articlesJs, articlesCache.articlesJsSha1
+}
+
+func getCachedArticles() []*Article {
+	return articlesCache.articles
 }
