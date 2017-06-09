@@ -1,5 +1,17 @@
 2017-06-08
 
+#flexbox
+
+To implement [[left]   [right]]:
+
+div style=display:flex;flex-direction: row;justify-content: space-between;
+  div
+    left
+  div
+    right
+
+---
+
 Sciter (https://sciter.com/) is a tool for writing desktop UI quickly. It's like Electron but much smaller (5-8 MB vs. hundrends of megabytes). It's almost HTML and almost JavaScript.
 
 It's also under-documented. Here's how I started playing with it:
