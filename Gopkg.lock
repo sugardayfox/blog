@@ -8,6 +8,12 @@
   revision = "c041325a607bb2faf3a138e48a17074172ac4da7"
 
 [[projects]]
+  name = "github.com/davecgh/go-spew"
+  packages = ["spew"]
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+  version = "v1.1.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
@@ -80,10 +86,22 @@
   version = "v0.8.0"
 
 [[projects]]
+  name = "github.com/pmezard/go-difflib"
+  packages = ["difflib"]
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/russross/blackfriday"
   packages = ["."]
   revision = "0ba0f2b6ed7c475a92e4df8641825cb7a11d1fa3"
+
+[[projects]]
+  name = "github.com/stretchr/testify"
+  packages = ["assert"]
+  revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
+  version = "v1.1.4"
 
 [[projects]]
   branch = "master"
@@ -112,6 +130,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1fe49cf956d73dc371ce3eb061af1100caf41443099d2b8028258cb976f7c771"
+  inputs-digest = "7458a28d3f250383bdc4d3b37b1f28b2ab77f33511e1744961431a19fbe70575"
   solver-name = "gps-cdcl"
   solver-version = 1
