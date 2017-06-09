@@ -146,6 +146,20 @@ func stripURLPrefix(s string) string {
 	return s
 }
 
+func countedStringsToLines(a []countedString, max int) []string {
+	n := len(a)
+	if n > max {
+		n = max
+	}
+	var res []string
+	for i := 0; i < n; i++ {
+		cs := a[i]
+		s := fmt.Sprintf("%s : %d", stripURLPrefix(cs.s), cs.n)
+		res = append(res, s)
+	}
+	return res
+}
+
 func analyticsStatsText(a *analyticsStats) []string {
 	if a == nil {
 		return []string{"Couldn't calculate analytics stats"}
@@ -156,26 +170,14 @@ func analyticsStatsText(a *analyticsStats) []string {
 	lines = append(lines, s)
 
 	lines = append(lines, "\nMost frequent referers:\n")
-	n := len(a.referers)
-	if n > 64 {
-		n = 64
-	}
-	for i := 0; i < n; i++ {
-		cs := a.referers[i]
-		s = fmt.Sprintf("%s : %d", stripURLPrefix(cs.s), cs.n)
-		lines = append(lines, s)
-	}
+	lines = append(lines, countedStringsToLines(a.referers, 64)...)
 
 	lines = append(lines, "\nMost popular urls:\n")
-	n = len(a.urls)
-	if n > 64 {
-		n = 64
-	}
-	for i := 0; i < n; i++ {
-		cs := a.urls[i]
-		s = fmt.Sprintf("%s : %d", cs.s, cs.n)
-		lines = append(lines, s)
-	}
+	lines = append(lines, countedStringsToLines(a.urls, 64)...)
+
+	lines = append(lines, "\nMost frequent 404:\n")
+	lines = append(lines, countedStringsToLines(a.notFound, 64)...)
+
 	return lines
 }
 
