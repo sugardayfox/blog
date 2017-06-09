@@ -2,7 +2,7 @@
 
 #flexbox
 
-To implement [[left]   [right]]:
+To implement layout: [[left]     [right]]:
 
 div style=display:flex;flex-direction: row;justify-content: space-between;
   div
@@ -45,7 +45,7 @@ Insight: if your business is "better X", you should use X to make sure you're re
 
 ---
 
- https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164. Summary: webassembly is much faster than asm.js. #webassembly
+https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164. Summary: webassembly is much faster than asm.js. #webassembly
 
 ---
 

@@ -87,26 +87,50 @@ func removeLastLine(lines []string) []string {
 	return lines[:lastIdx]
 }
 
-// remove hashtags from beginning and end
+func findWordEnd(s string, start int) int {
+	for i := start; i < len(s); i++ {
+		c := s[i]
+		if c == ' ' {
+			return i + 1
+		}
+	}
+	return -1
+}
+
+func collapseMultipleSpaces(s string) string {
+	for {
+		s2 := strings.Replace(s, "  ", " ", -1)
+		if s2 == s {
+			return s
+
+		}
+		s = s2
+	}
+}
+
+// remove hashtags from start and end
 func removeHashtags(s string) string {
-	s = strings.TrimSpace(s)
-	words := strings.Split(s, " ")
-	for len(words) > 0 {
-		s = words[0]
-		if !strings.HasPrefix(s, "#") {
-			break
+	// remove hashtags from start
+	for strings.HasPrefix(s, "#") {
+		idx := findWordEnd(s, 0)
+		if idx == -1 {
+			return ""
 		}
-		words = words[1:]
+		s = s[idx:]
+		s = strings.TrimLeft(s, " ")
 	}
-	for len(words) > 0 {
-		lastIdx := len(words) - 1
-		s = words[lastIdx]
-		if !strings.HasPrefix(s, "#") {
-			break
+
+	// remove hashtags from end
+	for {
+		idx := strings.LastIndex(s, "#")
+		if idx == -1 {
+			return s
 		}
-		words = words[:lastIdx]
+		if -1 != findWordEnd(s, idx) {
+			return s
+		}
+		s = strings.TrimRight(s[:idx], " ")
 	}
-	return strings.Join(words, " ")
 }
 
 func buildBodyFromLines(lines []string) string {
@@ -130,6 +154,7 @@ func buildBodyFromLines(lines []string) string {
 	}
 	lines = lines[:currWrite]
 	for idx, line := range lines {
+		line = collapseMultipleSpaces(line)
 		lines[idx] = removeHashtags(line)
 	}
 
