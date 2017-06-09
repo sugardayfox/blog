@@ -1,5 +1,9 @@
 2017-06-08
 
+#read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
+
+---
+
 #flexbox
 
 To implement layout: [[left]     [right]]:
