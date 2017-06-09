@@ -18,7 +18,8 @@
             </div>
 
             {{ range .Posts }}
-            <pre class="worklog-post"><span class="worklog-day">{{ .DayStr }}</span>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre> {{ end }}
+            <pre class="worklog-post"><a href="/worklog/post/{{ .ID }}" class="worklog-post-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
+
         </div>
     </div>
 

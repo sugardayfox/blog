@@ -3,11 +3,11 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"html/template"
 	"math/rand"
 	"net/http"
 	"os"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
@@ -21,15 +21,22 @@ const (
 )
 
 var (
-	workLogDays                []*workLogDay
-	workLogTagsToPosts         map[string][]*workLogPost
+	workLogDays        []*workLogDay
+	workLogTagsToPosts map[string][]*workLogPost
+
 	workLogWeekStartDayToPosts map[string][]*workLogPost
 	workLogWeekStarts          []string
 )
 
 type workLogPost struct {
-	Day      time.Time
-	BodyHTML string
+	Day    time.Time
+	DayStr string // in format 2006-01-02
+	// in format 2006-01-02-${idx}. This is an index within workLogDay.Posts
+	// which is not ideal because it changes if I delete a post or re-arrange
+	// them, but that's rare. The alternative would be to auto-generate
+	// unique ids, e.g. parsing would add missing data and re-save
+	ID       string
+	HTMLBody string
 	Tags     []string
 }
 
@@ -37,6 +44,20 @@ type workLogDay struct {
 	Day    time.Time
 	DayStr string
 	Posts  []*workLogPost
+}
+
+type modelWorkLogWeek struct {
+	Posts         []*workLogPost
+	WeekStartDay  string
+	NextWeek      string
+	PrevWeek      string
+	AnalyticsCode string
+}
+
+type modelWorkLogTag struct {
+	Posts         []*workLogPost
+	Tag           string
+	AnalyticsCode string
 }
 
 // RemoveDuplicateStrings removes duplicate strings from a
@@ -238,13 +259,13 @@ func workLogPostToHTML(s string) string {
 	return s
 }
 
-func newWorkLogPart(lines []string) *workLogPost {
+func newWorkLogPost(lines []string) *workLogPost {
 	tags := extractTagsFromLines(lines)
 	s := buildBodyFromLines(lines)
 	body := workLogPostToHTML(s)
 	return &workLogPost{
 		Tags:     tags,
-		BodyHTML: body,
+		HTMLBody: body,
 	}
 }
 
@@ -255,7 +276,7 @@ func workLogLinesToPosts(lines []string) []*workLogPost {
 	for _, line := range lines {
 		if line == postSeparator {
 			if len(curr) > 0 {
-				part := newWorkLogPart(curr)
+				part := newWorkLogPost(curr)
 				res = append(res, part)
 			}
 			curr = nil
@@ -264,7 +285,7 @@ func workLogLinesToPosts(lines []string) []*workLogPost {
 		}
 	}
 	if len(curr) > 0 {
-		part := newWorkLogPart(curr)
+		part := newWorkLogPost(curr)
 		res = append(res, part)
 	}
 	return res
@@ -318,12 +339,15 @@ func readWorkLog(path string) error {
 			return fmt.Errorf("Post '%s' should be later than '%s'", post.DayStr, postPrev.DayStr)
 		}
 	}
-	// update date on parts
+
+	// update date and id on posts
 	for _, day := range workLogDays {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
-		for _, post := range day.Posts {
+		for idx, post := range day.Posts {
 			post.Day = day.Day
+			post.DayStr = day.Day.Format("2006-01-02")
+			post.ID = fmt.Sprintf("%s-%d", post.DayStr, idx)
 			for _, tag := range post.Tags {
 				a := workLogTagsToPosts[tag]
 				a = append(a, post)
@@ -351,49 +375,17 @@ func calcWeekStart(t time.Time) time.Time {
 	return t.Add(dayOffset)
 }
 
-type modelWorkLogPost struct {
-	DayStr   string
-	HTMLBody template.HTML
-	Tags     []string
-}
-
-type modelWorkLogWeek struct {
-	Posts         []*modelWorkLogPost
-	StartDay      string
-	NextWeek      string
-	PrevWeek      string
-	AnalyticsCode string
-}
-
-func makeModelWorkLogPost(post *workLogPost) *modelWorkLogPost {
-	dayStr := post.Day.Format("2006-01-02 Mon")
-	return &modelWorkLogPost{
-		DayStr:   dayStr,
-		HTMLBody: template.HTML(post.BodyHTML),
-		Tags:     post.Tags,
-	}
-}
-
-func getPostsForWeekStart(weekStart string) []*modelWorkLogPost {
-	var res []*modelWorkLogPost
-	posts := workLogWeekStartDayToPosts[weekStart]
-	for _, post := range posts {
-		res = append(res, makeModelWorkLogPost(post))
-	}
-	return res
-}
-
 // /worklog
 func handleWorkLogIndex(w http.ResponseWriter, r *http.Request) {
 	weekStart := workLogWeekStarts[0]
-	posts := getPostsForWeekStart(weekStart)
+	posts := workLogWeekStartDayToPosts[weekStart]
 	var nextWeek string
 	if len(workLogWeekStarts) > 1 {
 		nextWeek = workLogWeekStarts[1]
 	}
 	model := &modelWorkLogWeek{
-		Posts: posts,
-		// for index page we don't set StartDay
+		Posts:         posts,
+		WeekStartDay:  weekStart,
 		AnalyticsCode: analyticsCode,
 		NextWeek:      nextWeek,
 	}
@@ -404,7 +396,7 @@ func handleWorkLogIndex(w http.ResponseWriter, r *http.Request) {
 func handleWorkLogWeek(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	weekStart := strings.TrimPrefix(uri, "/worklog/week/")
-	posts := getPostsForWeekStart(weekStart)
+	posts := workLogWeekStartDayToPosts[weekStart]
 	if len(posts) == 0 {
 		serve404(w, r)
 		return
@@ -425,7 +417,7 @@ func handleWorkLogWeek(w http.ResponseWriter, r *http.Request) {
 	}
 	model := &modelWorkLogWeek{
 		Posts:         posts,
-		StartDay:      weekStart,
+		WeekStartDay:  weekStart,
 		NextWeek:      nextWeek,
 		PrevWeek:      prevWeek,
 		AnalyticsCode: analyticsCode,
@@ -433,10 +425,56 @@ func handleWorkLogWeek(w http.ResponseWriter, r *http.Request) {
 	execTemplate(w, tmplWorkLogWeek, model)
 }
 
-type modelWorkLogTag struct {
-	Posts         []*modelWorkLogPost
-	Tag           string
-	AnalyticsCode string
+func findWorkLogDay(dayStr string) *workLogDay {
+	for _, d := range workLogDays {
+		if dayStr == d.DayStr {
+			return d
+		}
+	}
+	return nil
+}
+
+// /worklog/post/${day}-${idx}
+func handleWorkLogPost(w http.ResponseWriter, r *http.Request) {
+	uri := r.RequestURI
+	postID := strings.TrimPrefix(uri, "/worklog/post/")
+	// expecting sth. like: 2006-01-02-1
+	parts := strings.Split(postID, "-")
+	if len(parts) != 4 {
+		serve404(w, r)
+		return
+	}
+	idx, err := strconv.Atoi(parts[3])
+	if err != nil || idx < 0 {
+		serve404(w, r)
+		return
+	}
+
+	dateStr := strings.Join(parts[:3], "-")
+	day := findWorkLogDay(dateStr)
+	if day == nil {
+		serve404(w, r)
+		return
+	}
+
+	if idx >= len(day.Posts) {
+		serve404(w, r)
+		return
+	}
+
+	post := day.Posts[idx]
+	weekStartTime := calcWeekStart(day.Day)
+	weekStartDay := weekStartTime.Format("2006-01-02")
+	model := struct {
+		WeekStartDay  string
+		Post          *workLogPost
+		AnalyticsCode string
+	}{
+		WeekStartDay:  weekStartDay,
+		Post:          post,
+		AnalyticsCode: analyticsCode,
+	}
+	execTemplate(w, tmplWorkLogPost, model)
 }
 
 // /worklog/tag/${tag} :
@@ -449,12 +487,8 @@ func handleWorkLogTag(w http.ResponseWriter, r *http.Request) {
 		serve404(w, r)
 		return
 	}
-	var postsModel []*modelWorkLogPost
-	for _, post := range posts {
-		postsModel = append(postsModel, makeModelWorkLogPost(post))
-	}
 	model := &modelWorkLogTag{
-		Posts:         postsModel,
+		Posts:         posts,
 		Tag:           tag,
 		AnalyticsCode: analyticsCode,
 	}

@@ -251,8 +251,8 @@ a.taglink:hover {
 
 .worklog-post {
     border-top: 2px dashed lightskyblue;
-    padding: 1em 1em;
-    padding-bottom: 0px;
+    padding: 0px;
+    padding-top: 1em;
     font-size: 10pt;
     white-space: pre-wrap;
 }
@@ -262,6 +262,18 @@ a.taglink:hover {
     font-size: 8pt;
     padding: 0px;
     padding-right: 1em;
+}
+
+a.worklog-post-link {
+    font-size: 8pt;
+    padding: 0px;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+a.worklog-post-link:hover {
+    background-color: #0894f1;
+    color: white;
 }
 
 .worklog-tags {

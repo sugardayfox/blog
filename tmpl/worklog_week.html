@@ -15,13 +15,11 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                {{ if .StartDay }}
-                <a href="/">Home</a> / <a href="/worklog">Notes</a> / {{ .StartDay }}, {{ else }}
-                <a href="/">Home</a> / Notes, {{ end }} {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}}
+                <a href="/">Home</a> / <a href="/worklog">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Posts }} {{ if gt (len .Posts) 1 }}notes{{else}}note{{end}}
             </div>
 
             {{ range .Posts }}
-            <pre class="worklog-post"><span class="worklog-day">{{ .DayStr }}</span>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre> {{ end }}
+            <pre class="worklog-post"><a href="/worklog/post/{{ .ID }}" class="worklog-post-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
 
             <div class="nav-prev-next">
                 {{ if .PrevWeek }}

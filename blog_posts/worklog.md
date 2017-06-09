@@ -2,6 +2,30 @@
 
 #read http://floooh.github.io/2017/06/09/webassembly-demystified.html #webassembly
 
+---
+
+#go Go is a controversial language, often criticized for lack of sophistication. "We know how to do things better!".
+
+I think of Go as Moneyball For Programming Languages: How to get maximum capability from minimal feature set.
+
+Go makes much more sense when you look at it through "biggest bang for the buck" prism.
+
+Go ruthlessly eliminates duplicate features and non-critical .
+
+Enums? Can be replaced by idealized integers.
+
+do/while loops? Can be replaced by slightly extended for.
+
+Generics? You get the most common generic types built-in (slices and maps) but no user-defined generics.
+
+Unit testing, benchmarking? You get that as part of standard library but it's ridiculusly minimal compared to, say, jUnit from Java world.
+
+---
+
+#did
+* implemented individual note view for worklog notes.
+
+
 2017-06-08
 
 #read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
@@ -41,7 +65,7 @@ Using scapp is a way to quickly prototype UI.
 
 ---
 
-#go Implemented worklog for blog.
+#go #did Implemented worklog for blog.
 
 ---
 
@@ -53,7 +77,8 @@ Insight: if your business is "better X", you should use X to make sure you're re
 
 ---
 
-https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164. Summary: webassembly is much faster than asm.js. #webassembly
+#read https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164.
+Summary: webassembly is much faster than asm.js. #webassembly
 
 ---
 
@@ -88,7 +113,7 @@ Digital footprints:
 
 2017-06-07
 
-#go
+#go #did
 
 Mostly finished local drive -> backblaze backup tool in Go. Backblaze is much cheaper at storage and bandwidth than S3 or Google Storage.
 
@@ -110,4 +135,4 @@ Also started on a very simple web front-end for listing the files. https://vuejs
 
 ---
 
-Playing a bit with https://sciter.com (trying to build a UI version of https://github.com/jonas/tig). Sciter is very promising in the sense of allowing to build UI quickly. However, it's badly documented. Good thing it has lots of examples in the SDK. #sciter
+Playing a bit with https://sciter.com (trying to build a UI version of https://github.com/jonas/tig). Sciter is very promising in the sense of allowing to build UI quickly. However, it's badly documented. Good thing it has lots of examples in the SDK. #sciter #did

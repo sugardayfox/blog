@@ -14,11 +14,19 @@ var (
 	tmplArchive     = "archive.html"
 	tmplWorkLogWeek = "worklog_week.html"
 	tmplWorkLogTag  = "worklog_tag.html"
+	tmplWorkLogPost = "worklog_post.html"
 	tmpl404         = "404.html"
 	templateNames   = [...]string{
-		tmplMainPage, tmplArticle, tmplArchive, tmplWorkLogWeek,
-		tmplWorkLogTag, tmpl404, "analytics.html",
-		"tagcloud.js", "page_navbar.html",
+		tmplMainPage,
+		tmplArticle,
+		tmplArchive,
+		tmplWorkLogWeek,
+		tmplWorkLogTag,
+		tmplWorkLogPost,
+		tmpl404,
+		"analytics.html",
+		"page_navbar.html",
+		"tagcloud.js",
 	}
 	templatePaths   []string
 	templates       *template.Template
