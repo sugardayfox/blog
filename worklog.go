@@ -97,6 +97,7 @@ func findWordEnd(s string, start int) int {
 	return -1
 }
 
+// TODO: must not remove spaces from start
 func collapseMultipleSpaces(s string) string {
 	for {
 		s2 := strings.Replace(s, "  ", " ", -1)
@@ -154,7 +155,6 @@ func buildBodyFromLines(lines []string) string {
 	}
 	lines = lines[:currWrite]
 	for idx, line := range lines {
-		line = collapseMultipleSpaces(line)
 		lines[idx] = removeHashtags(line)
 	}
 
