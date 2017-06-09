@@ -1,3 +1,7 @@
+2017-06-09
+
+#read http://floooh.github.io/2017/06/09/webassembly-demystified.html #webassembly
+
 2017-06-08
 
 #read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
