@@ -14,7 +14,7 @@
     <div id="content">
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/worklog">Work Log</a> / tag: {{ .Tag }}
+                <a href="/">Home</a> / <a href="/worklog">Work Log</a> / {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}} tagged with #{{ .Tag }}
             </div>
 
             {{ range .Posts }}

@@ -273,6 +273,12 @@ a.taglink:hover {
     padding-right: 1em;
 }
 
+.worklog-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 /*
 

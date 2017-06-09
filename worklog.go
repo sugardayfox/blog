@@ -17,12 +17,14 @@ import (
 )
 
 const (
-	partSeparator = "---"
+	postSeparator = "---"
 )
 
 var (
-	workLogDays        []*workLogDay
-	workLogTagsToParts map[string][]*workLogPost
+	workLogDays                []*workLogDay
+	workLogTagsToPosts         map[string][]*workLogPost
+	workLogWeekStartDayToPosts map[string][]*workLogPost
+	workLogWeekStarts          []string
 )
 
 type workLogPost struct {
@@ -34,7 +36,7 @@ type workLogPost struct {
 type workLogDay struct {
 	Day    time.Time
 	DayStr string
-	Parts  []*workLogPost
+	Posts  []*workLogPost
 }
 
 // RemoveDuplicateStrings removes duplicate strings from a
@@ -85,24 +87,29 @@ func removeLastLine(lines []string) []string {
 	return lines[:lastIdx]
 }
 
+// remove hashtags from beginning and end
+func removeHashtags(s string) string {
+	s = strings.TrimSpace(s)
+	words := strings.Split(s, " ")
+	for len(words) > 0 {
+		s = words[0]
+		if !strings.HasPrefix(s, "#") {
+			break
+		}
+		words = words[1:]
+	}
+	for len(words) > 0 {
+		lastIdx := len(words) - 1
+		s = words[lastIdx]
+		if !strings.HasPrefix(s, "#") {
+			break
+		}
+		words = words[:lastIdx]
+	}
+	return strings.Join(words, " ")
+}
+
 func buildBodyFromLines(lines []string) string {
-	if len(lines) == 0 {
-		return ""
-	}
-
-	// remove empty lines from beginning
-	for len(lines[0]) == 0 {
-		lines = lines[1:]
-	}
-
-	// remove empty lines from end
-	for lastLineEmpty(lines) {
-		lines = removeLastLine(lines)
-	}
-	if len(lines) == 0 {
-		return ""
-	}
-
 	// collapse multiple empty lines into single empty line
 	// and remove lines that are just #hashtags
 	currWrite := 1
@@ -118,12 +125,27 @@ func buildBodyFromLines(lines []string) string {
 			continue
 		}
 
-		if i != currWrite {
-			lines[currWrite] = lines[i]
-		}
+		lines[currWrite] = curr
 		currWrite++
 	}
 	lines = lines[:currWrite]
+	for idx, line := range lines {
+		lines[idx] = removeHashtags(line)
+	}
+
+	if len(lines) == 0 {
+		return ""
+	}
+
+	// remove empty lines from beginning
+	for len(lines[0]) == 0 {
+		lines = lines[1:]
+	}
+
+	// remove empty lines from end
+	for lastLineEmpty(lines) {
+		lines = removeLastLine(lines)
+	}
 	return strings.Join(lines, "\n")
 }
 
@@ -201,12 +223,12 @@ func newWorkLogPart(lines []string) *workLogPost {
 	}
 }
 
-func workLogLinesToParts(lines []string) []*workLogPost {
+func workLogLinesToPosts(lines []string) []*workLogPost {
 	// parts are separated by "---" line
 	var res []*workLogPost
 	var curr []string
 	for _, line := range lines {
-		if line == partSeparator {
+		if line == postSeparator {
 			if len(curr) > 0 {
 				part := newWorkLogPart(curr)
 				res = append(res, part)
@@ -224,7 +246,8 @@ func workLogLinesToParts(lines []string) []*workLogPost {
 }
 
 func readWorkLog(path string) error {
-	workLogTagsToParts = make(map[string][]*workLogPost)
+	workLogTagsToPosts = make(map[string][]*workLogPost)
+	workLogWeekStartDayToPosts = make(map[string][]*workLogPost)
 	f, err := os.Open(path)
 	if err != nil {
 		return err
@@ -248,7 +271,7 @@ func readWorkLog(path string) error {
 
 		// this is a new day
 		if curr != nil {
-			curr.Parts = workLogLinesToParts(lines)
+			curr.Posts = workLogLinesToPosts(lines)
 			posts = append(posts, curr)
 		}
 		curr = &workLogDay{
@@ -257,7 +280,7 @@ func readWorkLog(path string) error {
 		}
 		lines = nil
 	}
-	curr.Parts = workLogLinesToParts(lines)
+	curr.Posts = workLogLinesToPosts(lines)
 	workLogDays = append(posts, curr)
 
 	// verify they are in chronological order
@@ -270,20 +293,36 @@ func readWorkLog(path string) error {
 		}
 	}
 	// update date on parts
-	for _, post := range workLogDays {
-		for _, part := range post.Parts {
-			part.Day = post.Day
-			for _, tag := range part.Tags {
-				a := workLogTagsToParts[tag]
-				a = append(a, part)
-				workLogTagsToParts[tag] = a
+	for _, day := range workLogDays {
+		weekStartTime := calcWeekStart(day.Day)
+		weekStartDay := weekStartTime.Format("2006-01-02")
+		for _, post := range day.Posts {
+			post.Day = day.Day
+			for _, tag := range post.Tags {
+				a := workLogTagsToPosts[tag]
+				a = append(a, post)
+				workLogTagsToPosts[tag] = a
 			}
+			a := workLogWeekStartDayToPosts[weekStartDay]
+			a = append(a, post)
+			workLogWeekStartDayToPosts[weekStartDay] = a
 		}
 	}
+	for day := range workLogWeekStartDayToPosts {
+		workLogWeekStarts = append(workLogWeekStarts, day)
+	}
+	sort.Strings(workLogWeekStarts)
 	fmt.Printf("Read %d daily logs\n", len(workLogDays))
-	// TODO: build weekly index (week starting on Monday)
-	// TODO: serve weekly posts, anchored at /worklog/, /worklog/{first-day-of-week}
+	fmt.Printf("workLogWeekStarts: %v\n", workLogWeekStarts)
 	return scanner.Err()
+}
+
+// given time, return time on start of week (monday)
+func calcWeekStart(t time.Time) time.Time {
+	// wd is 1 to 7
+	wd := t.Weekday()
+	dayOffset := time.Duration((wd - 1)) * time.Hour * -24
+	return t.Add(dayOffset)
 }
 
 type modelWorkLogPost struct {
@@ -292,13 +331,8 @@ type modelWorkLogPost struct {
 	Tags     []string
 }
 
-type modelWorkLogDay struct {
-	DayStr string
-	Posts  []*modelWorkLogPost
-}
-
-type modelWorkLogIndex struct {
-	Days          []*modelWorkLogDay
+type modelWorkLogWeek struct {
+	Posts         []*modelWorkLogPost
 	StartDay      string
 	NextWeek      string
 	PrevWeek      string
@@ -314,32 +348,63 @@ func makeModelWorkLogPost(post *workLogPost) *modelWorkLogPost {
 	}
 }
 
+func getPostsForWeekStart(weekStart string) []*modelWorkLogPost {
+	var res []*modelWorkLogPost
+	posts := workLogWeekStartDayToPosts[weekStart]
+	for _, post := range posts {
+		res = append(res, makeModelWorkLogPost(post))
+	}
+	return res
+}
+
 // /worklog
 func handleWorkLogIndex(w http.ResponseWriter, r *http.Request) {
-	var days []*modelWorkLogDay
-	for _, day := range workLogDays {
-		var posts []*modelWorkLogPost
-		for _, post := range day.Parts {
-			posts = append(posts, makeModelWorkLogPost(post))
-		}
-		day2 := &modelWorkLogDay{
-			Posts: posts,
-		}
-		days = append(days, day2)
+	weekStart := workLogWeekStarts[0]
+	posts := getPostsForWeekStart(weekStart)
+	var nextWeek string
+	if len(workLogWeekStarts) > 1 {
+		nextWeek = workLogWeekStarts[1]
 	}
-
-	// for index page we don't set Start Day
-	model := &modelWorkLogIndex{
-		Days:          days,
+	model := &modelWorkLogWeek{
+		Posts: posts,
+		// for index page we don't set StartDay
 		AnalyticsCode: analyticsCode,
-		// TODO: NextWeek, PrevWeek
+		NextWeek:      nextWeek,
 	}
 	execTemplate(w, tmplWorkLogWeek, model)
 }
 
 // /worklog/week/${day} : week starting with a given day
 func handleWorkLogWeek(w http.ResponseWriter, r *http.Request) {
-	serve404(w, r)
+	uri := r.RequestURI
+	weekStart := strings.TrimPrefix(uri, "/worklog/week/")
+	posts := getPostsForWeekStart(weekStart)
+	if len(posts) == 0 {
+		serve404(w, r)
+		return
+	}
+	var nextWeek, prevWeek string
+	for idx, ws := range workLogWeekStarts {
+		if ws != weekStart {
+			continue
+		}
+		if idx > 0 {
+			prevWeek = workLogWeekStarts[idx-1]
+		}
+		lastIdx := len(workLogWeekStarts) - 1
+		if idx+1 <= lastIdx {
+			nextWeek = workLogWeekStarts[idx+1]
+		}
+		break
+	}
+	model := &modelWorkLogWeek{
+		Posts:         posts,
+		StartDay:      weekStart,
+		NextWeek:      nextWeek,
+		PrevWeek:      prevWeek,
+		AnalyticsCode: analyticsCode,
+	}
+	execTemplate(w, tmplWorkLogWeek, model)
 }
 
 type modelWorkLogTag struct {
@@ -352,7 +417,7 @@ type modelWorkLogTag struct {
 func handleWorkLogTag(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	tag := strings.TrimPrefix(uri, "/worklog/tag/")
-	posts := workLogTagsToParts[tag]
+	posts := workLogTagsToPosts[tag]
 
 	if len(posts) == 0 {
 		serve404(w, r)

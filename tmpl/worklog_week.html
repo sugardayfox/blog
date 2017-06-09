@@ -16,28 +16,24 @@
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
                 {{ if .StartDay }}
-                <a href="/">Home</a> / <a href="/worklog">Work Log</a> {{ else }}
-                <a href="/">Home</a> / Work Log {{ end }}
+                <a href="/">Home</a> / <a href="/worklog">Work Log</a> / {{ .StartDay }}, {{ else }}
+                <a href="/">Home</a> / Work Log, {{ end }} {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}}
             </div>
 
-            {{ range .Days }} {{ range .Posts }}
-            <pre class="worklog-post"><span class="worklog-day">{{ .DayStr }}</span>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre> {{ end }} {{ end }}
+            {{ range .Posts }}
+            <pre class="worklog-post"><span class="worklog-day">{{ .DayStr }}</span>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre> {{ end }}
 
-            <table class="postmeta" style="padding-top:8px;padding-bottom:16px;border-spacing:0px;width:100%">
-                <tr>
-                    <td style="margin:0px; padding:0px; padding-right: 8px; width: 50%; text-align:right">
-                        {{ if .NextWeek }}
-                        <a title="{{ .NextWeek }}" href="/worklog/week/{{ .NextWeek }}">« {{ .NextWeek }}</a> {{ end }}
-                    </td>
-
-                    <td style="padding:0px; padding-right: 8px;">&bull;</td>
-
-                    <td style="margin:0px; padding:0px;width:50%">
-                        {{ if .PrevWeek }}
-                        <a title="{{ .PrevWeek }}" href="/worklog/week/{{ .PrevWeek }}">{{ .PrevWeek }} »</a> {{ end }}
-                    </td>
-                </tr>
-            </table>
+            <div class="worklog-nav">
+                {{ if .PrevWeek }}
+                <div>
+                    <a title="{{ .PrevWeek }}" href="/worklog/week/{{ .PrevWeek }}">« {{ .PrevWeek }}</a>
+                </div>
+                {{ end }} {{ if .NextWeek }}
+                <div>
+                    <a title="{{ .NextWeek }}" href="/worklog/week/{{ .NextWeek }}">{{ .NextWeek }} »</a>
+                </div>
+                {{ end }}
+            </div>
 
         </div>
     </div>

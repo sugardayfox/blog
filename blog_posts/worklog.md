@@ -21,13 +21,15 @@ Using scapp is a way to quickly prototype UI.
 
 ---
 
-Started this worklog. Wrote code to parse worklog.md file. More code needed to show in on the blog.
+#go Implemented worklog for blog.
 
 ---
 
 Reading more blog posts from http://thestartuptoolkit.com/.
 
-Insight: if you're business is "better X", use X to make sure you're really improving on it (http://thestartuptoolkit.com/blog/2011/09/use-the-tools-youre-displacing/) #business
+Insight: if your business is "better X", you should use X to make sure you're really improving on it. http://thestartuptoolkit.com/blog/2011/09/use-the-tools-youre-displacing/
+
+#business
 
 ---
 
@@ -35,12 +37,12 @@ Insight: if you're business is "better X", use X to make sure you're really impr
 
 ---
 
-http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/
-#postgres
+#postgres http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/
 
 ---
+#idea
 
- For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it.
+For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it.
 
 Imagine a binary format that is designed for fast loading and one-time PDF => binary format compilation step. With the right format, parsing step could essentially be eliminated.
 
@@ -49,8 +51,6 @@ We could even improve rendering time with some additional optimizations.
 For example, there are PDF documents with gigantic images (think 4000 x 4000 pixels) that could be resized to some reasonable value and saved in a format that is fastest to decode.
 
 I'm sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible).
-
-#idea
 ---
 
 #watched https://vimeo.com/77265280, trying to understand capabilities of WebRTC. I want to build VNC client in the browser but without ability to open tcp/udp connections it's not possible. And for local machines it's not possible even when using a proxy server (website talks to a proxy, proxy talks to VNC server and tunnels the data to website).
@@ -67,6 +67,8 @@ Digital footprints:
 * https://github.com/kurin/blazer/issues/17
 
 2017-06-07
+
+#go
 
 Mostly finished local drive -> backblaze backup tool in Go. Backblaze is much cheaper at storage and bandwidth than S3 or Google Storage.
 
