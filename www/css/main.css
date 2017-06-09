@@ -250,8 +250,9 @@ a.taglink:hover {
 }
 
 .worklog-post {
-    border: 1px solid lightsteelblue;
+    border-top: 2px dashed lightskyblue;
     padding: 1em 1em;
+    padding-bottom: 0px;
     font-size: 10pt;
     white-space: pre-wrap;
 }

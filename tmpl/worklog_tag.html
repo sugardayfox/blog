@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Krzysztof Kowalczyk Work Log by tag</title>
+    <title>Krzysztof Kowalczyk notes by tag</title>
     <link href="/css/main.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -14,7 +14,7 @@
     <div id="content">
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/worklog">Work Log</a> / {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}} tagged with #{{ .Tag }}
+                <a href="/">Home</a> / <a href="/worklog">Notes</a> / {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}} tagged with #{{ .Tag }}
             </div>
 
             {{ range .Posts }}

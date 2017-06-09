@@ -16,8 +16,8 @@
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
                 {{ if .StartDay }}
-                <a href="/">Home</a> / <a href="/worklog">Work Log</a> / {{ .StartDay }}, {{ else }}
-                <a href="/">Home</a> / Work Log, {{ end }} {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}}
+                <a href="/">Home</a> / <a href="/worklog">Notes</a> / {{ .StartDay }}, {{ else }}
+                <a href="/">Home</a> / Notes, {{ end }} {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}}
             </div>
 
             {{ range .Posts }}

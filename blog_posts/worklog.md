@@ -4,7 +4,7 @@
 
 ---
 
-#flexbox
+#flexbox #css
 
 To implement layout: [[left]     [right]]:
 
