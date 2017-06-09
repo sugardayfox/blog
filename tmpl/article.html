@@ -2,105 +2,90 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>{{ .PageTitle }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{ .PageTitle }}</title>
 
-  <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
-  <link href="/css/main.css" type="text/css" rel="stylesheet">
+    <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
+    <link href="/css/main.css" type="text/css" rel="stylesheet">
 
-  <script src="/js/highlight.js"></script>
+    <script src="/js/highlight.js"></script>
 
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 
-  {{ template "tagcloud.js" }} {{ if .Reload }}
-  <script>
-    var ws = new WebSocket('ws://' + location.host + '/ws');
-    ws.onopen = function(event) {
-      ws.send(location.pathname.substr(1));
-    };
-    ws.onclose = function(event) {
-      location.reload();
-    };
-    ws.onmessage = function(event) {
-      location.reload();
-    };
-    ws.onerror = function(event) {
-      location.reload();
-    };
-  </script>
-  {{ end }}
+    {{ template "tagcloud.js" }} {{ if .Reload }}
+    <script>
+        var ws = new WebSocket('ws://' + location.host + '/ws');
+        ws.onopen = function(event) {
+            ws.send(location.pathname.substr(1));
+        };
+        ws.onclose = function(event) {
+            location.reload();
+        };
+        ws.onmessage = function(event) {
+            location.reload();
+        };
+        ws.onerror = function(event) {
+            location.reload();
+        };
+    </script>
+    {{ end }}
 
-  <script type="text/javascript">
-    function articlesJsonLoaded(articlesJson) {
-      articles_json = articlesJson;
-      /* no need to do anything */
-    }
-  </script>
+    <script type="text/javascript">
+        function articlesJsonLoaded(articlesJson) {
+            articles_json = articlesJson;
+            /* no need to do anything */
+        }
+    </script>
 
 </head>
 
 <body>
 
-  {{ template "page_navbar.html" . }}
+    {{ template "page_navbar.html" . }}
 
-  <div id="content">
+    <div id="content">
 
-    <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
-      <div class="title">
-        <a href="/">Home</a> / {{ .Article.Title }}
-      </div>
-
-
-      <div style="margin-right:48px">
-        {{ .Article.HTMLBody }}
-      </div>
-
-      <hr>
-
-      <div class="postmeta">Written on {{ .Article.PublishedOnShort }}{{ if .Article.TagsDisplay }}. Topics: {{ .Article.TagsDisplay }} {{ end }}
-      </div>
+        <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+            <div class="title">
+                <a href="/">Home</a> / {{ .Article.Title }}
+            </div>
 
 
-      <table class="postmeta" style="padding-top:8px;padding-bottom:16px;border-spacing:0px;width:100%">
-        <tr>
-          <td style="margin:0px; padding:0px; padding-right: 8px; width: 50%; text-align:right">
-            {{if .NextArticle}}
-            <a title="{{ .NextArticle.Title }}" href="/{{ .NextArticle.Permalink }}">« {{ .NextArticle.Title }}</a> {{end}}
-          </td>
+            <div style="margin-right:48px">
+                {{ .Article.HTMLBody }}
+            </div>
 
-          <td style="padding:0px; padding-right: 8px;">&bull;</td>
+            <hr>
 
-          {{if .PrevArticle }}
-          <td style="margin:0px; padding:0px;width:50%">
-            <a title="{{ .PrevArticle.Title }}" href="/{{ .PrevArticle.Permalink }}">{{ .PrevArticle.Title }} »</a> {{end}}
-          </td>
-        </tr>
+            <div class="postmeta">Written on {{ .Article.PublishedOnShort }}{{ if .Article.TagsDisplay }}. Topics: {{ .Article.TagsDisplay }} {{ end }}
+            </div>
 
-      </table>
+
+            <table class="postmeta" style="padding-top:8px;padding-bottom:16px;border-spacing:0px;width:100%">
+                <tr>
+                    <td style="margin:0px; padding:0px; padding-right: 8px; width: 50%; text-align:right">
+                        {{if .NextArticle}}
+                        <a title="{{ .NextArticle.Title }}" href="/{{ .NextArticle.Permalink }}">« {{ .NextArticle.Title }}</a> {{end}}
+                    </td>
+
+                    <td style="padding:0px; padding-right: 8px;">&bull;</td>
+
+                    <td style="margin:0px; padding:0px;width:50%">
+                        {{if .PrevArticle }}
+                        <a title="{{ .PrevArticle.Title }}" href="/{{ .PrevArticle.Permalink }}">{{ .PrevArticle.Title }} »</a> {{end}}
+                    </td>
+                </tr>
+
+            </table>
+        </div>
     </div>
 
-    <!--
-<center>
-<table class="ad" style="visibility:hidden;" cellspacing=0 cellpadding=0>
-<tr><td>
-  <a href="/software/fotofi/"><b>Free stock photos</b></a>
-</td></tr>
-<tr><td>
-<span style="font-size: 80%"><span class="adl">www.yepi.ws</span>&nbsp;&nbsp;&nbsp;&nbsp;
-Find free stock photos with <a href="http://www.yepi.ws/fotofi/free-stock-photos">Fotofi</a>. More than 100 million photos available.</span>
-</td></tr>
-</table>
-</center>
--->
+    {{ template "analytics.html" . }}
 
-  </div>
-
-  {{ template "analytics.html" . }}
-
-  <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsURL }}">
-  </script>
+    <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsURL }}">
+    </script>
 
 </body>
 

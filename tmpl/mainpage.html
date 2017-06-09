@@ -2,79 +2,58 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Krzysztof Kowalczyk</title>
-  <link href="/css/main.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Krzysztof Kowalczyk</title>
+    <link href="/css/main.css" type="text/css" rel="stylesheet">
 
-  <style type="text/css">
-    .bigtxt {
-      font-size: 160%;
-      font-weight: bold;
-    }
+    <style type="text/css">
 
-    #headline {
-      line-height: 1.4em;
-    }
-
-    #headline a {
-      color: #aaa;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    #headline a:hover {
-      color:#666;
-      text-decoration: none;
-      border-bottom: 1px solid #666;
-    }
-  </style>
+    </style>
 
 </head>
 
 <body>
 
-  {{ template "page_navbar.html" . }}
+    {{ template "page_navbar.html" . }}
 
-  <div id="content" style="clear:both">
+    <div id="content" style="clear:both">
 
-    <div class="centered">
-      <table>
+        <div class="centered">
+            <table>
 
-        <tr>
-          <td>
-            <div id="headline" style="text-align: center; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 10px; margin-bottom: 24px; color: #777">
-              Hello. I'm <a href="/static/resume.html">Chris</a>. I live in San Francisco.
-              <br>
-              I made <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">SumatraPDF</a> and <a href="/software">few other things</a>.
-              <br>
-            </div>
-          </td>
-        </tr>
+                <tr>
+                    <td>
+                        <div id="headline" style="text-align: center; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 10px; margin-bottom: 24px; color: #777">
+                            Hello. I'm <a href="/static/resume.html">Chris</a>. I live in San Francisco.
+                            <br> I made <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">SumatraPDF</a> and <a href="/software">few other things</a>.
+                            <br>
+                        </div>
+                    </td>
+                </tr>
 
-        {{ range .Articles }}
-        <tr>
-          <td colspan="2" style="padding-top:2px; padding-bottom: 4px">
-            <a href="/{{ .Permalink }}">{{.Title}}</a> {{ if .TagsDisplay }}
-            <span style="font-size:80%">
+                {{ range .Articles }}
+                <tr>
+                    <td colspan="2" style="padding-top:2px; padding-bottom: 4px">
+                        <a href="/{{ .Permalink }}">{{.Title}}</a> {{ if .TagsDisplay }}
+                        <span style="font-size:80%">
               <span class="taglink">in:</span> {{ .TagsDisplay }}</span>
-            {{ end }}
-          </td>
-        </tr>
-        {{ end }}
+                        {{ end }}
+                    </td>
+                </tr>
+                {{ end }}
 
-        <tr>
-          <td>
-            <br>
-            Subscribe to <a href="/atom.xml">RSS/Atom feed</a>
-          </td>
-        </tr>
+                <tr>
+                    <td>
+                        <br> Subscribe to <a href="/atom.xml">RSS/Atom feed</a>
+                    </td>
+                </tr>
 
-    </table>
-  </div>
+            </table>
+        </div>
 
-  </div>
+    </div>
 
-  <hr> {{ template "analytics.html" . }}
+    <hr> {{ template "analytics.html" . }}
 
 </body>
 

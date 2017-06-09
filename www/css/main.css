@@ -1,69 +1,71 @@
 body {
-  margin: 0px 16px 0px 16px;
-  background: white;
-  color: #333;
-  /* same as github.com */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12pt;
-  line-height: 1.4;
+    margin: 0px 16px 0px 16px;
+    background: white;
+    color: #333;
+    /* same as github.com */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12pt;
+    line-height: 1.4;
 }
 
 code {
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
-div > p, li > p {
-  line-height: 1.5em;
+div>p,
+li>p {
+    line-height: 1.5em;
 }
 
-h1, h2, h3 {
-  font-size: medium;
+h1,
+h2,
+h3 {
+    font-size: medium;
 }
 
 h1 {
-  margin-bottom: 2px;
-  padding: 0;
+    margin-bottom: 2px;
+    padding: 0;
 }
 
 img {
-  border: 0;
+    border: 0;
 }
 
 blockquote {
-  font-style: italic;
+    font-style: italic;
 }
 
 div#tophdr {
-  font-size:10pt;
-  font-weight: bold;
-
-  margin: 0px;
-  padding: 6pt;
-  padding-left: 16px;
-  padding-right: 16px
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0px;
+    padding: 6pt;
+    padding-left: 16px;
+    padding-right: 16px
 }
 
-div.centered
-{
+div.centered {
     text-align: center;
 }
-div.centered table
-{
+
+div.centered table {
     margin: 0 auto;
     text-align: left;
 }
 
 div#post {
-  min-width: 400px;
-  max-width: 960px;
+    min-width: 400px;
+    max-width: 960px;
 }
 
 hr {
-  border: 0;
-  border-top: 1px solid #eee;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
-.title, .title:visited {
+.title,
+.title:visited {
     color: #000;
     font-weight: bold;
     text-decoration: none;
@@ -71,153 +73,206 @@ hr {
 }
 
 a {
-  color: #0894f1;
-  text-decoration: none;
-  background: transparent;
+    color: #0894f1;
+    text-decoration: none;
+    background: transparent;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .taglink {
-  color: gray;
-  text-decoration: none;
+    color: gray;
+    text-decoration: none;
 }
 
 a.taglink:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .onHoverVisible a {
-  color: white;
+    color: white;
 }
 
 .onHoverVisible a:hover {
-  color: gray;
+    color: gray;
 }
 
 .postmeta {
-  color: gray;
-  font-size: 80%;
+    color: gray;
+    font-size: 80%;
 }
 
 .ad {
-  font-family: geneva,helvetica,arial,sans-serif;
-  font-size: 12pt;
-  background-color: #FBF0FA;
-  padding: 4px 8px;
+    font-family: geneva, helvetica, arial, sans-serif;
+    font-size: 12pt;
+    background-color: #FBF0FA;
+    padding: 4px 8px;
 }
 
 .adl {
-  color: green;
+    color: green;
 }
 
 .light {
-  color: #999999;
+    color: #999999;
 }
 
-.invisible { color: #fcfcfa }
-.visible { color: #000 }
+.invisible {
+    color: #fcfcfa
+}
+
+.visible {
+    color: #000
+}
 
 .nowrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .inactiveSearch {
-  color: gray;
-  font-style: italic;
+    color: gray;
+    font-style: italic;
 }
 
 .activeSearch {
-  color: black;
-  font-style: normal;
+    color: black;
+    font-style: normal;
 }
 
+
 /* drop-down menu based on http://csswizardry.com/2011/02/creating-a-pure-css-dropdown-menu/ */
+
 #nav {
-  list-style:none;
-  font-weight: bold;
-  float:right;
-  margin-top:0px;
-  position:relative;
-  z-index:5;
+    list-style: none;
+    font-weight: bold;
+    float: right;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
 }
 
 #nav li {
-  float: left;
-  margin-right: 4pt;
-  position:relative;
+    float: left;
+    margin-right: 4pt;
+    position: relative;
 }
 
 #nav a {
-  display: block;
-  color: #aaa;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
 }
 
 #nav a:hover {
-  color:#666;
-  text-decoration: none;
-  border-bottom: 1px solid #666;
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
 }
 
+
 /* drop-down */
+
 #nav ul {
-  background:#4D5456;
-  list-style:none;
-  position:absolute;
-  left:-9999px;
+    background: #4D5456;
+    list-style: none;
+    position: absolute;
+    left: -9999px;
 }
 
 #nav ul li {
-  padding-top:1px;
-  float: none;
+    padding-top: 1px;
+    float: none;
 }
 
-#nav ul a{
-  white-space: nowrap;
+#nav ul a {
+    white-space: nowrap;
 }
 
 #nav li:hover ul {
-  padding: 8pt;
-  left:-8pt;
+    padding: 8pt;
+    left: -8pt;
 }
 
-#nav li:hover a{
-  text-decoration: none;
+#nav li:hover a {
+    text-decoration: none;
 }
 
-#nav li:hover ul a{
-  color: white;
-  border-bottom: 3px solid transparent;
-  text-decoration: none;
+#nav li:hover ul a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
 }
 
-#nav li:hover ul li a:hover{
-  border-bottom: 3px solid;
+#nav li:hover ul li a:hover {
+    border-bottom: 3px solid;
 }
 
 #container {
-  margin-left: 16pt;
-  margin-right: 16pt;
+    margin-left: 16pt;
+    margin-right: 16pt;
+}
+
+
+/* used in mainpage.html */
+
+#headline {
+    line-height: 1.4em;
+}
+
+#headline a {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+#headline a:hover {
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
 }
 
 @media(min-width: 1200px) {
-  #container {
-      width: 1170px;
-      margin-left: auto;
-      margin-right: auto;
-  }
+    #container {
+        width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media(max-width: 767px) {
-  #container {
-    margin-left: 4px;
-    margin-right: 4px;
-  }
+    #container {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 }
+
+.worklog-post {
+    border: 1px solid lightsteelblue;
+    padding: 1em 1em;
+    font-size: 10pt;
+    white-space: pre-wrap;
+}
+
+.worklog-day {
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 0px;
+    padding-right: 1em;
+}
+
+.worklog-tags {
+    font-size: 8pt;
+    padding: 0px;
+}
+
+.worklog-tags a {
+    padding: 0px;
+    padding-right: 1em;
+}
+
 
 /*
 
@@ -226,58 +281,68 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 */
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #f9f9f9;
-  color: #657b83;
-  border: 1px solid lightgray;
-  overflow-x: visible;
-  font-size: 85%;
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #f9f9f9;
+    color: #657b83;
+    border: 1px solid lightgray;
+    overflow-x: visible;
+    font-size: 85%;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #93a1a1;
+    color: #93a1a1;
 }
 
+
 /* Solarized Green */
+
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-addition {
-  color: #859900;
+    color: #859900;
 }
 
+
 /* Solarized Cyan */
+
 .hljs-number,
 .hljs-string,
 .hljs-meta .hljs-meta-string,
 .hljs-literal,
 .hljs-doctag,
 .hljs-regexp {
-  color: #2aa198;
+    color: #2aa198;
 }
 
+
 /* Solarized Blue */
+
 .hljs-title,
 .hljs-section,
 .hljs-name,
 .hljs-selector-id,
 .hljs-selector-class {
-  color: #268bd2;
+    color: #268bd2;
 }
 
+
 /* Solarized Yellow */
+
 .hljs-attribute,
 .hljs-attr,
 .hljs-variable,
 .hljs-template-variable,
 .hljs-class .hljs-title,
 .hljs-type {
-  color: #b58900;
+    color: #b58900;
 }
 
+
 /* Solarized Orange */
+
 .hljs-symbol,
 .hljs-bullet,
 .hljs-subst,
@@ -286,23 +351,25 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-selector-attr,
 .hljs-selector-pseudo,
 .hljs-link {
-  color: #cb4b16;
+    color: #cb4b16;
 }
 
+
 /* Solarized Red */
+
 .hljs-built_in,
 .hljs-deletion {
-  color: #dc322f;
+    color: #dc322f;
 }
 
 .hljs-formula {
-  background: #eee8d5;
+    background: #eee8d5;
 }
 
 .hljs-emphasis {
-  font-style: italic;
+    font-style: italic;
 }
 
 .hljs-strong {
-  font-weight: bold;
+    font-weight: bold;
 }

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Krzysztof Kowalczyk</title>
+    <link href="/css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    {{ template "page_navbar.html" . }}
+
+    <div id="content">
+
+        <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+            <div class="title">
+                {{ if .StartDay }}
+                <a href="/">Home</a> / <a href="/worklog">Work Log</a> {{ else }}
+                <a href="/">Home</a> / Work Log {{ end }}
+            </div>
+
+            {{ range .Days }} {{ range .Posts }}
+            <pre class="worklog-post"><span class="worklog-day">{{ .DayStr }}</span>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre> {{ end }} {{ end }}
+
+            <table class="postmeta" style="padding-top:8px;padding-bottom:16px;border-spacing:0px;width:100%">
+                <tr>
+                    <td style="margin:0px; padding:0px; padding-right: 8px; width: 50%; text-align:right">
+                        {{ if .NextWeek }}
+                        <a title="{{ .NextWeek }}" href="/worklog/week/{{ .NextWeek }}">« {{ .NextWeek }}</a> {{ end }}
+                    </td>
+
+                    <td style="padding:0px; padding-right: 8px;">&bull;</td>
+
+                    <td style="margin:0px; padding:0px;width:50%">
+                        {{ if .PrevWeek }}
+                        <a title="{{ .PrevWeek }}" href="/worklog/week/{{ .PrevWeek }}">{{ .PrevWeek }} »</a> {{ end }}
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    {{ template "analytics.html" . }}
+
+</body>
+
+</html>

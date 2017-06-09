@@ -9,16 +9,15 @@ import (
 )
 
 var (
-	tmplMainPage             = "mainpage.html"
-	tmplArticle              = "article.html"
-	tmplArchive              = "archive.html"
-	tmplCrashReportsIndex    = "crash_reports_index.html"
-	tmplCrashReportsAppIndex = "crash_reports_app_index.html"
-	tmplCrashReport          = "crash_report.html"
-	tmpl404                  = "404.html"
-	templateNames            = [...]string{
-		tmplMainPage, tmplArticle, tmplArchive, tmplCrashReportsIndex,
-		tmplCrashReportsAppIndex, tmplCrashReport, tmpl404, "analytics.html",
+	tmplMainPage    = "mainpage.html"
+	tmplArticle     = "article.html"
+	tmplArchive     = "archive.html"
+	tmplWorkLogWeek = "worklog_week.html"
+	tmplWorkLogTag  = "worklog_tag.html"
+	tmpl404         = "404.html"
+	templateNames   = [...]string{
+		tmplMainPage, tmplArticle, tmplArchive, tmplWorkLogWeek,
+		tmplWorkLogTag, tmpl404, "analytics.html",
 		"tagcloud.js", "page_navbar.html",
 	}
 	templatePaths   []string

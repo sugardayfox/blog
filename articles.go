@@ -17,11 +17,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kennygrant/sanitize"
 	"github.com/kjk/u"
 	"github.com/kr/fs"
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/mvdan/xurls"
 	"github.com/russross/blackfriday"
 )
 
@@ -204,106 +202,6 @@ func readArticle(path string) (*Article, error) {
 	a.BodyHTML = msgToHTML(a.Body, a.Format)
 	a.HTMLBody = template.HTML(a.BodyHTML)
 	return a, nil
-}
-
-type workLogArticle struct {
-	Day    time.Time
-	DayStr string
-	Body   string
-}
-
-var (
-	workLogPosts []*workLogArticle
-)
-
-func buildBodyFromLines(lines []string) string {
-	// remove empty lines from beginning and end
-	for len(lines[0]) == 0 {
-		lines = lines[1:]
-	}
-	for len(lines[len(lines)-1]) == 0 {
-		lines = lines[:len(lines)-1]
-	}
-	return strings.Join(lines, "\n")
-}
-
-// removes duplicate strings from the array.
-// not the fastest way but here not expected to be used on large arrays
-func removeDuplicateStrings(a []string) []string {
-	sort.Strings(a)
-	for i := 1; i < len(a); i++ {
-		if a[i-1] != a[i] {
-			continue
-		}
-		idxLast := len(a) - 1
-		a[i] = a[idxLast]
-		a = a[:idxLast-1]
-		sort.Strings(a)
-	}
-	return a
-}
-
-func workLogPostToHTML(s string) string {
-	urls := xurls.Relaxed.FindAllString(s, -1)
-	urls = removeDuplicateStrings(urls)
-	for _, url := range urls {
-		s2 := fmt.Sprintf(`<a href="%s">%s</a>`, url, url)
-		s = strings.Replace(s, url, s2, -1)
-	}
-	s, _ = sanitize.HTMLAllowing(s, []string{"a"})
-	return s
-}
-
-// TODO: parse worklog
-func readWorkLog(path string) error {
-	f, err := os.Open(path)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-	scanner := bufio.NewScanner(f)
-	var posts []*workLogArticle
-	var curr *workLogArticle
-	var lines []string
-
-	for scanner.Scan() {
-		s := strings.TrimRight(scanner.Text(), "\n\r\t ")
-		day, err := time.Parse("2006-01-02", s)
-
-		if err != nil {
-			// first line must be a valid new day
-			u.PanicIf(curr == nil)
-			lines = append(lines, s)
-			continue
-		}
-
-		// this is a new day
-		if curr != nil {
-			curr.Body = buildBodyFromLines(lines)
-			posts = append(posts, curr)
-		}
-		curr = &workLogArticle{
-			Day:    day,
-			DayStr: s,
-		}
-		lines = nil
-	}
-	curr.Body = buildBodyFromLines(lines)
-	workLogPosts = append(posts, curr)
-
-	// verify they are in chronological order
-	for i := 1; i < len(workLogPosts); i++ {
-		post := workLogPosts[i-1]
-		postPrev := workLogPosts[i]
-		diff := post.Day.Sub(postPrev.Day)
-		if diff < 0 {
-			return fmt.Errorf("Post '%s' should be later than '%s'", post.DayStr, postPrev.DayStr)
-		}
-	}
-	fmt.Printf("Read %d daily logs\n", len(workLogPosts))
-	// TODO: build weekly index (week starting on Monday)
-	// TODO: serve weekly posts, anchored at /worklog/, /worklog/{first-day-of-week}
-	return scanner.Err()
 }
 
 func readArticles() ([]*Article, []string, error) {
