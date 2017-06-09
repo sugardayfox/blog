@@ -62,23 +62,17 @@
             <div class="postmeta">Written on {{ .Article.PublishedOnShort }}{{ if .Article.TagsDisplay }}. Topics: {{ .Article.TagsDisplay }} {{ end }}
             </div>
 
-
-            <table class="postmeta" style="padding-top:8px;padding-bottom:16px;border-spacing:0px;width:100%">
-                <tr>
-                    <td style="margin:0px; padding:0px; padding-right: 8px; width: 50%; text-align:right">
-                        {{if .NextArticle}}
-                        <a title="{{ .NextArticle.Title }}" href="/{{ .NextArticle.Permalink }}">« {{ .NextArticle.Title }}</a> {{end}}
-                    </td>
-
-                    <td style="padding:0px; padding-right: 8px;">&bull;</td>
-
-                    <td style="margin:0px; padding:0px;width:50%">
-                        {{if .PrevArticle }}
-                        <a title="{{ .PrevArticle.Title }}" href="/{{ .PrevArticle.Permalink }}">{{ .PrevArticle.Title }} »</a> {{end}}
-                    </td>
-                </tr>
-
-            </table>
+            <p></p>
+            <div class="nav-prev-next">
+                <div>
+                    {{if .NextArticle}}
+                    <a title="{{ .NextArticle.Title }}" href="/{{ .NextArticle.Permalink }}">« {{ .NextArticle.Title }}</a> {{ end }}
+                </div>
+                <div>
+                    {{if .PrevArticle }}
+                    <a title="{{ .PrevArticle.Title }}" href="/{{ .PrevArticle.Permalink }}">{{ .PrevArticle.Title }} »</a> {{ end }}
+                </div>
+            </div>
         </div>
     </div>
 

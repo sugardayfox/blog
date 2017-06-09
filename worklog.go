@@ -273,6 +273,7 @@ func workLogLinesToPosts(lines []string) []*workLogPost {
 func readWorkLog(path string) error {
 	workLogTagsToPosts = make(map[string][]*workLogPost)
 	workLogWeekStartDayToPosts = make(map[string][]*workLogPost)
+	workLogWeekStarts = nil
 	f, err := os.Open(path)
 	if err != nil {
 		return err
