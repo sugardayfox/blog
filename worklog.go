@@ -22,10 +22,10 @@ const (
 
 var (
 	workLogDays        []*workLogDay
-	workLogTagsToParts map[string][]*workLogPart
+	workLogTagsToParts map[string][]*workLogPost
 )
 
-type workLogPart struct {
+type workLogPost struct {
 	Day      time.Time
 	BodyHTML string
 	Tags     []string
@@ -34,7 +34,7 @@ type workLogPart struct {
 type workLogDay struct {
 	Day    time.Time
 	DayStr string
-	Parts  []*workLogPart
+	Parts  []*workLogPost
 }
 
 // RemoveDuplicateStrings removes duplicate strings from a
@@ -191,19 +191,19 @@ func workLogPostToHTML(s string) string {
 	return s
 }
 
-func newWorkLogPart(lines []string) *workLogPart {
+func newWorkLogPart(lines []string) *workLogPost {
 	tags := extractTagsFromLines(lines)
 	s := buildBodyFromLines(lines)
 	body := workLogPostToHTML(s)
-	return &workLogPart{
+	return &workLogPost{
 		Tags:     tags,
 		BodyHTML: body,
 	}
 }
 
-func workLogLinesToParts(lines []string) []*workLogPart {
+func workLogLinesToParts(lines []string) []*workLogPost {
 	// parts are separated by "---" line
-	var res []*workLogPart
+	var res []*workLogPost
 	var curr []string
 	for _, line := range lines {
 		if line == partSeparator {
@@ -224,7 +224,7 @@ func workLogLinesToParts(lines []string) []*workLogPart {
 }
 
 func readWorkLog(path string) error {
-	workLogTagsToParts = make(map[string][]*workLogPart)
+	workLogTagsToParts = make(map[string][]*workLogPost)
 	f, err := os.Open(path)
 	if err != nil {
 		return err
@@ -305,7 +305,7 @@ type modelWorkLogIndex struct {
 	AnalyticsCode string
 }
 
-func makeModelWorkLogPost(post *workLogPart) *modelWorkLogPost {
+func makeModelWorkLogPost(post *workLogPost) *modelWorkLogPost {
 	dayStr := post.Day.Format("2006-01-02 Mon")
 	return &modelWorkLogPost{
 		DayStr:   dayStr,
