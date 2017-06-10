@@ -33,10 +33,11 @@ var (
 )
 
 type note struct {
-	Day    time.Time
-	DayStr string // in format 2006-01-02
+	Day            time.Time
+	DayStr         string // in format "2006-01-02"
+	DayWithNameStr string // in format "2006-01-02 Mon"
 	// in format 2006-01-02-${idx}. This is an index within notesForDay.Notes
-	// which is not ideal because it changes if I delete a post or re-arrange
+	// which is not ideal because it changes if I delete a note or re-arrange
 	// them, but that's rare. The alternative would be to auto-generate
 	// unique ids, e.g. parsing would add missing data and re-save
 	ID       string
@@ -318,7 +319,7 @@ func readNotes(path string) error {
 	}
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
-	var posts []*notesForDay
+	var notes []*notesForDay
 	var curr *notesForDay
 	var lines []string
 
@@ -336,7 +337,7 @@ func readNotes(path string) error {
 		// this is a new day
 		if curr != nil {
 			curr.Notes = linesToNotes(lines)
-			posts = append(posts, curr)
+			notes = append(notes, curr)
 		}
 		curr = &notesForDay{
 			Day:    day,
@@ -345,33 +346,34 @@ func readNotes(path string) error {
 		lines = nil
 	}
 	curr.Notes = linesToNotes(lines)
-	notesDays = append(posts, curr)
+	notesDays = append(notes, curr)
 
 	// verify they are in chronological order
 	for i := 1; i < len(notesDays); i++ {
-		post := notesDays[i-1]
-		postPrev := notesDays[i]
-		diff := post.Day.Sub(postPrev.Day)
+		note := notesDays[i-1]
+		notePrev := notesDays[i]
+		diff := note.Day.Sub(notePrev.Day)
 		if diff < 0 {
-			return fmt.Errorf("Post '%s' should be later than '%s'", post.DayStr, postPrev.DayStr)
+			return fmt.Errorf("Note '%s' should be later than '%s'", note.DayStr, notePrev.DayStr)
 		}
 	}
 
-	// update date and id on posts
+	// update date and id on notes
 	for _, day := range notesDays {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
-		for idx, post := range day.Notes {
-			post.Day = day.Day
-			post.DayStr = day.Day.Format("2006-01-02")
-			post.ID = fmt.Sprintf("%s-%d", post.DayStr, idx)
-			for _, tag := range post.Tags {
+		for idx, note := range day.Notes {
+			note.Day = day.Day
+			note.DayStr = day.Day.Format("2006-01-02")
+			note.DayWithNameStr = day.Day.Format("2006-01-02 Mon")
+			note.ID = fmt.Sprintf("%s-%d", note.DayStr, idx)
+			for _, tag := range note.Tags {
 				a := notesTagsToNotes[tag]
-				a = append(a, post)
+				a = append(a, note)
 				notesTagsToNotes[tag] = a
 			}
 			a := notesWeekStartDayToNotes[weekStartDay]
-			a = append(a, post)
+			a = append(a, note)
 			notesWeekStartDayToNotes[weekStartDay] = a
 		}
 	}
@@ -395,13 +397,13 @@ func calcWeekStart(t time.Time) time.Time {
 // /dailynotes
 func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
 	weekStart := notesWeekStarts[0]
-	posts := notesWeekStartDayToNotes[weekStart]
+	notes := notesWeekStartDayToNotes[weekStart]
 	var nextWeek string
 	if len(notesWeekStarts) > 1 {
 		nextWeek = notesWeekStarts[1]
 	}
 	model := &modelNotesForWeek{
-		Notes:         posts,
+		Notes:         notes,
 		TotalNotes:    nTotalNotes,
 		WeekStartDay:  weekStart,
 		AnalyticsCode: analyticsCode,
@@ -414,8 +416,8 @@ func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
 func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	weekStart := strings.TrimPrefix(uri, "/dailynotes/week/")
-	posts := notesWeekStartDayToNotes[weekStart]
-	if len(posts) == 0 {
+	notes := notesWeekStartDayToNotes[weekStart]
+	if len(notes) == 0 {
 		serve404(w, r)
 		return
 	}
@@ -434,7 +436,7 @@ func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
 		break
 	}
 	model := &modelNotesForWeek{
-		Notes:         posts,
+		Notes:         notes,
 		WeekStartDay:  weekStart,
 		NextWeek:      nextWeek,
 		PrevWeek:      prevWeek,
@@ -452,12 +454,18 @@ func findNotesForDay(dayStr string) *notesForDay {
 	return nil
 }
 
+// /worklog
+func handleWorkLog(w http.ResponseWriter, r *http.Request) {
+	// originally /dailynotes was under /worklog
+	http.Redirect(w, r, "/dailynotes", http.StatusMovedPermanently)
+}
+
 // /dailynotes/note/${day}-${idx}
 func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
-	postID := strings.TrimPrefix(uri, "/dailynotes/note/")
+	noteID := strings.TrimPrefix(uri, "/dailynotes/note/")
 	// expecting sth. like: 2006-01-02-1
-	parts := strings.Split(postID, "-")
+	parts := strings.Split(noteID, "-")
 	if len(parts) != 4 {
 		serve404(w, r)
 		return
@@ -499,9 +507,9 @@ func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")
-	posts := notesTagsToNotes[tag]
+	notes := notesTagsToNotes[tag]
 
-	if len(posts) == 0 {
+	if len(notes) == 0 {
 		serve404(w, r)
 		return
 	}
@@ -511,7 +519,7 @@ func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 		Tag           string
 		AnalyticsCode string
 	}{
-		Notes:         posts,
+		Notes:         notes,
 		Tag:           tag,
 		AnalyticsCode: analyticsCode,
 	}

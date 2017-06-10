@@ -13,21 +13,22 @@
             border-collapse: collapse;
             margin-top: 12px;
         }
-        
+
         #arc th {
             padding: 0 1.75em 0 0;
             vertical-align: baseline;
             text-align: right;
         }
-        
+
         .year th {
             color: black;
         }
     </style>
 
-    {{ template "tagcloud.js" }}
 
     <script type="text/javascript">
+        {{ template "tagcloud.js" }}
+
         function articlesJsonLoaded(articlesJson) {
             articles_json = articlesJson;
             var html = genTagCloudHtml2();

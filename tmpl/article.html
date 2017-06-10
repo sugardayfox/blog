@@ -11,10 +11,16 @@
     <script src="/js/highlight.js"></script>
 
     <script>
+        {{ template "tagcloud.js" }}
+
         hljs.initHighlightingOnLoad();
+        function articlesJsonLoaded(articlesJson) {
+            articles_json = articlesJson;
+            /* no need to do anything */
+        }
     </script>
 
-    {{ template "tagcloud.js" }} {{ if .Reload }}
+    {{ if .Reload }}
     <script>
         var ws = new WebSocket('ws://' + location.host + '/ws');
         ws.onopen = function(event) {
@@ -31,13 +37,6 @@
         };
     </script>
     {{ end }}
-
-    <script type="text/javascript">
-        function articlesJsonLoaded(articlesJson) {
-            articles_json = articlesJson;
-            /* no need to do anything */
-        }
-    </script>
 
 </head>
 

@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 function $(id) {
   if (id[0] === '#') {
     id = id.substr(1);
@@ -105,4 +103,3 @@ function genTagCloudHtml2() {
   }
   return lines.join("");
 }
-</script>
