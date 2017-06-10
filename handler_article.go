@@ -91,5 +91,5 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesJsURL: getArticlesJsURL(),
 	}
 
-	execTemplate(w, tmplArticle, model)
+	serveTemplate(w, tmplArticle, model)
 }

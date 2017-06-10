@@ -249,41 +249,43 @@ a.taglink:hover {
     }
 }
 
-.worklog-post {
-    border-top: 2px dashed lightskyblue;
+.notes-note {
+    border-top: 1px dashed lightskyblue;
     padding: 0px;
     padding-top: 1em;
     font-size: 10pt;
     white-space: pre-wrap;
 }
 
-.worklog-day {
+.notes-day {
     font-weight: bold;
     font-size: 8pt;
     padding: 0px;
     padding-right: 1em;
 }
 
-a.worklog-post-link {
+a.notes-note-link {
     font-size: 8pt;
     padding: 0px;
     margin-right: 1em;
-    text-decoration: none;
+    color: rgba(8, 148, 241, 0.71);
+   text-decoration: none;
 }
 
-a.worklog-post-link:hover {
-    background-color: #0894f1;
+a.notes-note-link:hover {
+    background-color: rgba(8, 148, 241, 0.71);
     color: white;
 }
 
-.worklog-tags {
+.notes-tags {
     font-size: 8pt;
     padding: 0px;
 }
 
-.worklog-tags a {
+.notes-tags a {
     padding: 0px;
     padding-right: 1em;
+    color: rgba(8, 148, 241, 0.71);
 }
 
 .nav-prev-next {

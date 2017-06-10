@@ -28,10 +28,10 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
 	mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
 	mux.HandleFunc("/static/", withAnalyticsLogging(handleStatic))
-	mux.HandleFunc("/worklog/week/", withAnalyticsLogging(handleWorkLogWeek))
-	mux.HandleFunc("/worklog/tag/", withAnalyticsLogging(handleWorkLogTag))
-	mux.HandleFunc("/worklog/post/", withAnalyticsLogging(handleWorkLogPost))
-	mux.HandleFunc("/worklog", withAnalyticsLogging(handleWorkLogIndex))
+	mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
+	mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
+	mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
+	mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
 
 	// not logged because not interesting for visitor analytics
 	mux.HandleFunc("/ping", handlePing)

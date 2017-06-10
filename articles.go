@@ -221,8 +221,8 @@ func readArticles() ([]*Article, []string, error) {
 			continue
 		}
 		name := filepath.Base(path)
-		if name == "worklog.md" {
-			err := readWorkLog(path)
+		if name == "notes.txt" {
+			err := readNotes(path)
 			if err != nil {
 				fmt.Printf("readWorkLog(%s) failed with %s\n", path, err)
 				return nil, nil, err

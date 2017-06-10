@@ -61,7 +61,7 @@ func serve404(w http.ResponseWriter, r *http.Request) {
 	}{
 		URL: uri,
 	}
-	execTemplate(w, tmpl404, model)
+	serveTemplate(w, tmpl404, model)
 }
 
 // /
@@ -91,7 +91,7 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		Articles:      articles,
 	}
 
-	execTemplate(w, tmplMainPage, model)
+	serveTemplate(w, tmplMainPage, model)
 }
 
 // /ping

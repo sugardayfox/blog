@@ -15,20 +15,20 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/worklog">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Posts }} {{ if gt (len .Posts) 1 }}notes{{else}}note{{end}}
+                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Notes }} {{ if gt (len .Notes) 1 }}notes{{else}}note{{end}} {{if .TotalNotes}}, {{.TotalNotes}} total notes {{end}}
             </div>
 
-            {{ range .Posts }}
-            <pre class="worklog-post"><a href="/worklog/post/{{ .ID }}" class="worklog-post-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
+            {{ range .Notes }}
+            <pre class="notes-note"><a href="/dailynotes/note/{{ .ID }}" class="notes-note-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="notes-tags">{{ range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
 
             <div class="nav-prev-next">
                 {{ if .PrevWeek }}
                 <div>
-                    <a title="{{ .PrevWeek }}" href="/worklog/week/{{ .PrevWeek }}">« {{ .PrevWeek }}</a>
+                    <a title="{{ .PrevWeek }}" href="/dailynotes/week/{{ .PrevWeek }}">« {{ .PrevWeek }}</a>
                 </div>
                 {{ end }} {{ if .NextWeek }}
                 <div>
-                    <a title="{{ .NextWeek }}" href="/worklog/week/{{ .NextWeek }}">{{ .NextWeek }} »</a>
+                    <a title="{{ .NextWeek }}" href="/workdailynoteslog/week/{{ .NextWeek }}">{{ .NextWeek }} »</a>
                 </div>
                 {{ end }}
             </div>

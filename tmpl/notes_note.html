@@ -15,10 +15,10 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/worklog">Notes</a> / <a href="/worklog/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / Post
+                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / <a href="/dailynotes/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / Note
             </div>
 
-            <pre class="worklog-post"><span class="worklog-day">{{ .Post.DayStr }}</span>{{ if .Post.Tags }}<span class="worklog-tags">{{ range .Post.Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .Post.HTMLBody }}</pre>
+            <pre class="notes-note"><span class="notes-day">{{ .Note.DayStr }}</span>{{ if .Note.Tags }}<span class="notes-tags">{{ range .Note.Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .Note.HTMLBody }}</pre>
 
         </div>
     </div>

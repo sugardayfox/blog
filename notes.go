@@ -21,17 +21,18 @@ const (
 )
 
 var (
-	workLogDays        []*workLogDay
-	workLogTagsToPosts map[string][]*workLogPost
+	notesDays        []*notesForDay
+	notesTagsToNotes map[string][]*note
 
-	workLogWeekStartDayToPosts map[string][]*workLogPost
-	workLogWeekStarts          []string
+	notesWeekStartDayToNotes map[string][]*note
+	notesWeekStarts          []string
+	nTotalNotes              int
 )
 
-type workLogPost struct {
+type note struct {
 	Day    time.Time
 	DayStr string // in format 2006-01-02
-	// in format 2006-01-02-${idx}. This is an index within workLogDay.Posts
+	// in format 2006-01-02-${idx}. This is an index within notesForDay.Notes
 	// which is not ideal because it changes if I delete a post or re-arrange
 	// them, but that's rare. The alternative would be to auto-generate
 	// unique ids, e.g. parsing would add missing data and re-save
@@ -40,23 +41,18 @@ type workLogPost struct {
 	Tags     []string
 }
 
-type workLogDay struct {
+type notesForDay struct {
 	Day    time.Time
 	DayStr string
-	Posts  []*workLogPost
+	Notes  []*note
 }
 
-type modelWorkLogWeek struct {
-	Posts         []*workLogPost
+type modelNotesForWeek struct {
+	Notes         []*note
+	TotalNotes    int
 	WeekStartDay  string
 	NextWeek      string
 	PrevWeek      string
-	AnalyticsCode string
-}
-
-type modelWorkLogTag struct {
-	Posts         []*workLogPost
-	Tag           string
 	AnalyticsCode string
 }
 
@@ -203,7 +199,7 @@ func genRandomString() string {
 	return fmt.Sprintf("__--##%d##--__", rand.Int63())
 }
 
-func workLogPostToHTML(s string) string {
+func noteToHTML(s string) string {
 	urls := xurls.Relaxed.FindAllString(s, -1)
 	urls = u.RemoveDuplicateStrings(urls)
 
@@ -234,24 +230,25 @@ func workLogPostToHTML(s string) string {
 	return s
 }
 
-func newWorkLogPost(lines []string) *workLogPost {
+func newNote(lines []string) *note {
+	nTotalNotes++
 	tags := extractTagsFromLines(lines)
 	s := buildBodyFromLines(lines)
-	body := workLogPostToHTML(s)
-	return &workLogPost{
+	body := noteToHTML(s)
+	return &note{
 		Tags:     tags,
 		HTMLBody: body,
 	}
 }
 
-func workLogLinesToPosts(lines []string) []*workLogPost {
+func linesToNotes(lines []string) []*note {
 	// parts are separated by "---" line
-	var res []*workLogPost
+	var res []*note
 	var curr []string
 	for _, line := range lines {
 		if line == postSeparator {
 			if len(curr) > 0 {
-				part := newWorkLogPost(curr)
+				part := newNote(curr)
 				res = append(res, part)
 			}
 			curr = nil
@@ -260,24 +257,24 @@ func workLogLinesToPosts(lines []string) []*workLogPost {
 		}
 	}
 	if len(curr) > 0 {
-		part := newWorkLogPost(curr)
+		part := newNote(curr)
 		res = append(res, part)
 	}
 	return res
 }
 
-func readWorkLog(path string) error {
-	workLogTagsToPosts = make(map[string][]*workLogPost)
-	workLogWeekStartDayToPosts = make(map[string][]*workLogPost)
-	workLogWeekStarts = nil
+func readNotes(path string) error {
+	notesTagsToNotes = make(map[string][]*note)
+	notesWeekStartDayToNotes = make(map[string][]*note)
+	notesWeekStarts = nil
 	f, err := os.Open(path)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
-	var posts []*workLogDay
-	var curr *workLogDay
+	var posts []*notesForDay
+	var curr *notesForDay
 	var lines []string
 
 	for scanner.Scan() {
@@ -293,22 +290,22 @@ func readWorkLog(path string) error {
 
 		// this is a new day
 		if curr != nil {
-			curr.Posts = workLogLinesToPosts(lines)
+			curr.Notes = linesToNotes(lines)
 			posts = append(posts, curr)
 		}
-		curr = &workLogDay{
+		curr = &notesForDay{
 			Day:    day,
 			DayStr: s,
 		}
 		lines = nil
 	}
-	curr.Posts = workLogLinesToPosts(lines)
-	workLogDays = append(posts, curr)
+	curr.Notes = linesToNotes(lines)
+	notesDays = append(posts, curr)
 
 	// verify they are in chronological order
-	for i := 1; i < len(workLogDays); i++ {
-		post := workLogDays[i-1]
-		postPrev := workLogDays[i]
+	for i := 1; i < len(notesDays); i++ {
+		post := notesDays[i-1]
+		postPrev := notesDays[i]
 		diff := post.Day.Sub(postPrev.Day)
 		if diff < 0 {
 			return fmt.Errorf("Post '%s' should be later than '%s'", post.DayStr, postPrev.DayStr)
@@ -316,29 +313,29 @@ func readWorkLog(path string) error {
 	}
 
 	// update date and id on posts
-	for _, day := range workLogDays {
+	for _, day := range notesDays {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
-		for idx, post := range day.Posts {
+		for idx, post := range day.Notes {
 			post.Day = day.Day
 			post.DayStr = day.Day.Format("2006-01-02")
 			post.ID = fmt.Sprintf("%s-%d", post.DayStr, idx)
 			for _, tag := range post.Tags {
-				a := workLogTagsToPosts[tag]
+				a := notesTagsToNotes[tag]
 				a = append(a, post)
-				workLogTagsToPosts[tag] = a
+				notesTagsToNotes[tag] = a
 			}
-			a := workLogWeekStartDayToPosts[weekStartDay]
+			a := notesWeekStartDayToNotes[weekStartDay]
 			a = append(a, post)
-			workLogWeekStartDayToPosts[weekStartDay] = a
+			notesWeekStartDayToNotes[weekStartDay] = a
 		}
 	}
-	for day := range workLogWeekStartDayToPosts {
-		workLogWeekStarts = append(workLogWeekStarts, day)
+	for day := range notesWeekStartDayToNotes {
+		notesWeekStarts = append(notesWeekStarts, day)
 	}
-	sort.Strings(workLogWeekStarts)
-	fmt.Printf("Read %d daily logs\n", len(workLogDays))
-	fmt.Printf("workLogWeekStarts: %v\n", workLogWeekStarts)
+	sort.Strings(notesWeekStarts)
+	fmt.Printf("Read %d daily logs\n", len(notesDays))
+	fmt.Printf("notesWeekStarts: %v\n", notesWeekStarts)
 	return scanner.Err()
 }
 
@@ -350,58 +347,59 @@ func calcWeekStart(t time.Time) time.Time {
 	return t.Add(dayOffset)
 }
 
-// /worklog
-func handleWorkLogIndex(w http.ResponseWriter, r *http.Request) {
-	weekStart := workLogWeekStarts[0]
-	posts := workLogWeekStartDayToPosts[weekStart]
+// /dailynotes
+func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
+	weekStart := notesWeekStarts[0]
+	posts := notesWeekStartDayToNotes[weekStart]
 	var nextWeek string
-	if len(workLogWeekStarts) > 1 {
-		nextWeek = workLogWeekStarts[1]
+	if len(notesWeekStarts) > 1 {
+		nextWeek = notesWeekStarts[1]
 	}
-	model := &modelWorkLogWeek{
-		Posts:         posts,
+	model := &modelNotesForWeek{
+		Notes:         posts,
+		TotalNotes:    nTotalNotes,
 		WeekStartDay:  weekStart,
 		AnalyticsCode: analyticsCode,
 		NextWeek:      nextWeek,
 	}
-	execTemplate(w, tmplWorkLogWeek, model)
+	serveTemplate(w, tmplNotesWeek, model)
 }
 
-// /worklog/week/${day} : week starting with a given day
-func handleWorkLogWeek(w http.ResponseWriter, r *http.Request) {
+// /dailynotes/week/${day} : week starting with a given day
+func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
-	weekStart := strings.TrimPrefix(uri, "/worklog/week/")
-	posts := workLogWeekStartDayToPosts[weekStart]
+	weekStart := strings.TrimPrefix(uri, "/dailynotes/week/")
+	posts := notesWeekStartDayToNotes[weekStart]
 	if len(posts) == 0 {
 		serve404(w, r)
 		return
 	}
 	var nextWeek, prevWeek string
-	for idx, ws := range workLogWeekStarts {
+	for idx, ws := range notesWeekStarts {
 		if ws != weekStart {
 			continue
 		}
 		if idx > 0 {
-			prevWeek = workLogWeekStarts[idx-1]
+			prevWeek = notesWeekStarts[idx-1]
 		}
-		lastIdx := len(workLogWeekStarts) - 1
+		lastIdx := len(notesWeekStarts) - 1
 		if idx+1 <= lastIdx {
-			nextWeek = workLogWeekStarts[idx+1]
+			nextWeek = notesWeekStarts[idx+1]
 		}
 		break
 	}
-	model := &modelWorkLogWeek{
-		Posts:         posts,
+	model := &modelNotesForWeek{
+		Notes:         posts,
 		WeekStartDay:  weekStart,
 		NextWeek:      nextWeek,
 		PrevWeek:      prevWeek,
 		AnalyticsCode: analyticsCode,
 	}
-	execTemplate(w, tmplWorkLogWeek, model)
+	serveTemplate(w, tmplNotesWeek, model)
 }
 
-func findWorkLogDay(dayStr string) *workLogDay {
-	for _, d := range workLogDays {
+func findNotesForDay(dayStr string) *notesForDay {
+	for _, d := range notesDays {
 		if dayStr == d.DayStr {
 			return d
 		}
@@ -409,10 +407,10 @@ func findWorkLogDay(dayStr string) *workLogDay {
 	return nil
 }
 
-// /worklog/post/${day}-${idx}
-func handleWorkLogPost(w http.ResponseWriter, r *http.Request) {
+// /dailynotes/note/${day}-${idx}
+func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
-	postID := strings.TrimPrefix(uri, "/worklog/post/")
+	postID := strings.TrimPrefix(uri, "/dailynotes/note/")
 	// expecting sth. like: 2006-01-02-1
 	parts := strings.Split(postID, "-")
 	if len(parts) != 4 {
@@ -426,46 +424,51 @@ func handleWorkLogPost(w http.ResponseWriter, r *http.Request) {
 	}
 
 	dateStr := strings.Join(parts[:3], "-")
-	day := findWorkLogDay(dateStr)
+	day := findNotesForDay(dateStr)
 	if day == nil {
 		serve404(w, r)
 		return
 	}
 
-	if idx >= len(day.Posts) {
+	if idx >= len(day.Notes) {
 		serve404(w, r)
 		return
 	}
 
-	post := day.Posts[idx]
+	oneNote := day.Notes[idx]
 	weekStartTime := calcWeekStart(day.Day)
 	weekStartDay := weekStartTime.Format("2006-01-02")
 	model := struct {
 		WeekStartDay  string
-		Post          *workLogPost
+		Note          *note
 		AnalyticsCode string
 	}{
 		WeekStartDay:  weekStartDay,
-		Post:          post,
+		Note:          oneNote,
 		AnalyticsCode: analyticsCode,
 	}
-	execTemplate(w, tmplWorkLogPost, model)
+	serveTemplate(w, tmplNotesNote, model)
 }
 
-// /worklog/tag/${tag} :
-func handleWorkLogTag(w http.ResponseWriter, r *http.Request) {
+// /dailynotes/tag/${tag} :
+func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
-	tag := strings.TrimPrefix(uri, "/worklog/tag/")
-	posts := workLogTagsToPosts[tag]
+	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")
+	posts := notesTagsToNotes[tag]
 
 	if len(posts) == 0 {
 		serve404(w, r)
 		return
 	}
-	model := &modelWorkLogTag{
-		Posts:         posts,
+
+	model := struct {
+		Notes         []*note
+		Tag           string
+		AnalyticsCode string
+	}{
+		Notes:         posts,
 		Tag:           tag,
 		AnalyticsCode: analyticsCode,
 	}
-	execTemplate(w, tmplWorkLogTag, model)
+	serveTemplate(w, tmplNotesTag, model)
 }

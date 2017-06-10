@@ -9,20 +9,20 @@ import (
 )
 
 var (
-	tmplMainPage    = "mainpage.html"
-	tmplArticle     = "article.html"
-	tmplArchive     = "archive.html"
-	tmplWorkLogWeek = "worklog_week.html"
-	tmplWorkLogTag  = "worklog_tag.html"
-	tmplWorkLogPost = "worklog_post.html"
-	tmpl404         = "404.html"
-	templateNames   = [...]string{
+	tmplMainPage  = "mainpage.html"
+	tmplArticle   = "article.html"
+	tmplArchive   = "archive.html"
+	tmplNotesWeek = "notes_week.html"
+	tmplNotesTag  = "notes_tag.html"
+	tmplNotesNote = "notes_note.html"
+	tmpl404       = "404.html"
+	templateNames = [...]string{
 		tmplMainPage,
 		tmplArticle,
 		tmplArchive,
-		tmplWorkLogWeek,
-		tmplWorkLogTag,
-		tmplWorkLogPost,
+		tmplNotesWeek,
+		tmplNotesTag,
+		tmplNotesNote,
 		tmpl404,
 		"analytics.html",
 		"page_navbar.html",
@@ -45,7 +45,7 @@ func getTemplates() *template.Template {
 	return templates
 }
 
-func execTemplate(w http.ResponseWriter, templateName string, model interface{}) bool {
+func serveTemplate(w http.ResponseWriter, templateName string, model interface{}) bool {
 	var buf bytes.Buffer
 	if err := getTemplates().ExecuteTemplate(&buf, templateName, model); err != nil {
 		logger.Errorf("Failed to execute template %q, error: %s", templateName, err)

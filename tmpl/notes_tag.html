@@ -14,11 +14,11 @@
     <div id="content">
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/worklog">Notes</a> / {{ len .Posts }} {{ if gt (len .Posts) 1 }}posts{{else}}post{{end}} tagged with #{{ .Tag }}
+                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / {{ len .Notes }} {{ if gt (len .Notes) 1 }}notes{{else}}note{{end}} tagged with #{{ .Tag }}
             </div>
 
-            {{ range .Posts }}
-            <pre class="worklog-post"><a href="/worklog/post/{{ .ID }}" class="worklog-post-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="worklog-tags">{{ range .Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
+            {{ range .Notes }}
+            <pre class="notes-note"><a href="/dailynotes/note/{{ .ID }}" class="notes-note-link">{{ .DayStr }}</a>{{ if .Tags }}<span class="notes-tags">{{ range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
 
         </div>
     </div>
