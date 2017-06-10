@@ -15,7 +15,7 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Notes }} {{ if gt (len .Notes) 1 }}notes{{else}}note{{end}} {{if .TotalNotes}}, {{.TotalNotes}} total notes {{end}}
+                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Notes }} {{ if gt (len .Notes) 1 }}notes{{else}}note{{end}}{{if .TotalNotes}}, {{.TotalNotes}} total notes {{end}}
             </div>
 
             {{ range .Notes }}

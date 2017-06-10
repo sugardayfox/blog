@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/hex"
 	"fmt"
 	"math/rand"
 	"net/http"
@@ -14,10 +15,12 @@ import (
 	"github.com/kennygrant/sanitize"
 	"github.com/kjk/u"
 	"github.com/mvdan/xurls"
+	"github.com/sourcegraph/syntaxhighlight"
 )
 
 const (
-	postSeparator = "---"
+	noteSeparator  = "---"
+	codeBlockStart = "```"
 )
 
 var (
@@ -167,6 +170,7 @@ func buildBodyFromLines(lines []string) string {
 }
 
 // tags start with #
+// TODO: maybe only at the beginning/end?
 func extractTagsFromString(txt string) []string {
 	var res []string
 	parts := strings.Split(txt, " ")
@@ -191,10 +195,9 @@ func extractTagsFromLines(lines []string) []string {
 // there are no guarantees in live, but this should be pretty unique string
 func genRandomString() string {
 	var a [20]byte
-	buf := a[:]
-	_, err := rand.Read(buf)
+	_, err := rand.Read(a[:])
 	if err == nil {
-		return string(buf)
+		return hex.EncodeToString(a[:])
 	}
 	return fmt.Sprintf("__--##%d##--__", rand.Int63())
 }
@@ -212,29 +215,71 @@ func noteToHTML(s string) string {
 	// this is a two-step url -> random_unique_string,
 	// random_unique_string -> url replacement to prevent
 	// double-escaping if we have 2 urls like: foo.bar.com and bar.com
-	urlToUnique := make(map[string]string)
+	urlToAnchor := make(map[string]string)
 
 	for _, url := range urls {
-		unique := genRandomString()
-		urlToUnique[url] = unique
-		s = strings.Replace(s, url, unique, -1)
+		anchor := genRandomString()
+		urlToAnchor[url] = anchor
+		s = strings.Replace(s, url, anchor, -1)
 	}
 
 	for _, url := range urls {
 		replacement := fmt.Sprintf(`<a href="%s">%s</a>`, url, url)
-		unique := urlToUnique[url]
-		s = strings.Replace(s, unique, replacement, -1)
+		anchor := urlToAnchor[url]
+		s = strings.Replace(s, anchor, replacement, -1)
 	}
 
 	s, _ = sanitize.HTMLAllowing(s, []string{"a"})
 	return s
 }
 
+// returns new lines and a mapping of string => html as flattened string array
+func extractCodeSnippets(lines []string) ([]string, []string) {
+	var resLines []string
+	var anchors []string
+	codeLineStart := -1
+	for i, s := range lines {
+		isCodeLine := strings.HasPrefix(s, codeBlockStart)
+		if isCodeLine {
+			if codeLineStart == -1 {
+				// this is a beginning of new code block
+				codeLineStart = i
+			} else {
+				// end of the code block
+				//lang := strings.TrimPrefix(lines[codeLineStart], codeBlockStart)
+				codeLines := lines[codeLineStart+1 : i]
+				codeLineStart = -1
+				code := strings.Join(codeLines, "\n")
+				codeHTML, err := syntaxhighlight.AsHTML([]byte(code))
+				u.PanicIfErr(err)
+				anchor := genRandomString()
+				resLines = append(resLines, anchor)
+				anchors = append(anchors, anchor, string(codeHTML))
+			}
+		} else {
+			if codeLineStart == -1 {
+				resLines = append(resLines, s)
+			}
+		}
+	}
+	// TODO: could append unclosed lines
+	u.PanicIf(codeLineStart != -1)
+
+	return resLines, anchors
+}
+
 func newNote(lines []string) *note {
 	nTotalNotes++
 	tags := extractTagsFromLines(lines)
+	lines, codeReplacements := extractCodeSnippets(lines)
 	s := buildBodyFromLines(lines)
 	body := noteToHTML(s)
+	n := len(codeReplacements) / 2
+	for i := 0; i < n; i++ {
+		anchor := codeReplacements[i*2]
+		codeHTML := `<pre class="note-code">` + codeReplacements[i*2+1] + `</pre>`
+		body = strings.Replace(body, anchor, codeHTML, -1)
+	}
 	return &note{
 		Tags:     tags,
 		HTMLBody: body,
@@ -246,7 +291,7 @@ func linesToNotes(lines []string) []*note {
 	var res []*note
 	var curr []string
 	for _, line := range lines {
-		if line == postSeparator {
+		if line == noteSeparator {
 			if len(curr) > 0 {
 				part := newNote(curr)
 				res = append(res, part)

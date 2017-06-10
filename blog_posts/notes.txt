@@ -88,8 +88,39 @@ Digital footprints:
 ---
 
 #did
-* implemented individual note view for worklog notes.
+* implemented individual note view for notes
+* added support for code syntax highlighting for notes
 
+---
+
+#go #snippet
+
+```go
+// RemoveDuplicateStrings removes duplicate strings from an array of strings.
+// It's optimized for the case of no duplicates. It modifes a in place.
+func RemoveDuplicateStrings(a []string) []string {
+	if len(a) < 2 {
+		return a
+	}
+	sort.Strings(a)
+	writeIdx := 1
+	for i := 1; i < len(a); i++ {
+		if a[i-1] == a[i] {
+			continue
+		}
+		if writeIdx != i {
+			a[writeIdx] = a[i]
+		}
+		writeIdx++
+	}
+	return a[:writeIdx]
+}
+```
+
+---
+#read #systemd #go
+https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/
+How to use systemd socket activation for for zero-downtime deployments
 
 2017-06-08
 

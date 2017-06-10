@@ -98,6 +98,18 @@
   revision = "0ba0f2b6ed7c475a92e4df8641825cb7a11d1fa3"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/sourcegraph/annotate"
+  packages = ["."]
+  revision = "f4cad6c6324d3f584e1743d8b3e0e017a5f3a636"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/sourcegraph/syntaxhighlight"
+  packages = ["."]
+  revision = "bd320f5d308e1a3c4314c678d8227a0d72574ae7"
+
+[[projects]]
   name = "github.com/stretchr/testify"
   packages = ["assert"]
   revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
@@ -130,6 +142,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7458a28d3f250383bdc4d3b37b1f28b2ab77f33511e1744961431a19fbe70575"
+  inputs-digest = "e9588ebd537885ced1f011bb94f540785ee0b2b1a2e6e7eab2461b5c678d0633"
   solver-name = "gps-cdcl"
   solver-version = 1
