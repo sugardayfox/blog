@@ -1,5 +1,9 @@
 2017-06-09
 
+#read https://www.indiehackers.com/businesses/intrinio #business #startups
+
+---
+
 #read http://floooh.github.io/2017/06/09/webassembly-demystified.html #webassembly
 
 ---
@@ -19,6 +23,67 @@ do/while loops? Can be replaced by slightly extended for.
 Generics? You get the most common generic types built-in (slices and maps) but no user-defined generics.
 
 Unit testing, benchmarking? You get that as part of standard library but it's ridiculusly minimal compared to, say, jUnit from Java world.
+
+---
+
+#business #startups
+
+"The Mom Test" (http://momtestbook.com/) is a very good book about how to validate business idea.
+
+If you can't read or don't want to spend $10, the author also gave a few talks that cover the same ground and you can watch for free:
+* https://www.youtube.com/watch?v=IuXhNJ3M_iM "PODIM 2014, Robert Fitzpatrick: Customer Development"
+* https://www.youtube.com/watch?v=w4L0ZU7hMH4 "Rob Fitzpatrick - Getting Customer Development Right - Pioneers Festival 2012"
+* https://www.youtube.com/watch?v=0LwbFZkyRKk "Rob Fitzpatrick - How to Learn from Customers When Everyone is Lying to You"
+* https://www.youtube.com/watch?v=AFo2yQuqEsk "Rob Fitzpatrick @ Leanconf 2013 Keynote"
+* https://www.youtube.com/watch?v=vqHR7CUPVbA&t=923s "Founders Battle - Virtual Talk #2 - Rob Fitzpatrick: "The mom test"
+* https://www.youtube.com/watch?v=O_xjb7LB7VY "Rob Fitzpatrick - Prototyping Everything"
+* https://www.youtube.com/watch?v=6PqpM4QM1JM "Idea Validation with Rob Fitzpatrick of dex.io [Blueprint Entrepreneur]"
+
+Here's my summary, for the lazy.
+
+So you have an idea for a software product/business. How to make sure that people want it?
+
+Here are typical ways to do it:
+* describe the idea, ask for feedback. Ask queations like "what do you think?", "would you buy it?"
+* create a landing page, describe the product, collect e-mail addresses to guess-estimate the interest
+
+Asking for feedback is bad because people are nice, they don't want to hurt your feelings so they'll either lie to you or will be way too optimistic about their interest in the product.
+
+Rob talks about how to talk to people so that you get more accurate reading of their real interest.
+
+It's best described as an example.
+
+Let's say you want to do a cookbook app for iPad. You see that your mom has lots of cookbooks, so you interview her to validate the idea.
+
+Here's how *not* to drive the conversation:
+
+you > Hey mom, I have an idea for an coookbook app for an iPad.
+mom > That sounds interesting. Tell me more. (thinking to herself: I've been cooking for 40 years, I don't need another cookbook)
+you > It'll be $40, it'll have pictures for every recipe, you'll be able to share the recipies with friends and family, it'll have detailed instructions, a built in timer.
+mom > That's great honey, I'm proud of you. Go for it.
+
+Here's a better way:
+you > Hey mom, I see you have an iPad. What are you using it for?
+mom > Reading web, email, sometimes I'll download an app, like sudoku.
+you > So how do you decide to buy an app.
+mom > There's an app review section in the newspaper.
+you > I noticed you have a lot of cookbooks. When was the last time you bought a cookbook?
+mom > Oh, I've book cooking for 40 years, I don't need cookbooks. Those are mostly gifts.
+you > So, you've never buy cookbooks?
+mom > Come to think of it, I did buy a vegeterian cookbook because I want to improve my diet and I wanted to learn how to make vegetables more tasty.
+
+In the first conversation potential customer lies because you're asking about hypotheticals.
+
+In the second conversation you didn't even mention your idea but you asked about current behavior and you've learned that this particular person:
+* is not a good customer for a basic cookbook
+* they learn about new apps from the newspaper, so that would be a good place to advertise to reach them
+* they might be interested in "niche" cookbook (vegeterian, popular ethnic trends)
+
+---
+
+Digital footprints:
+* https://github.com/sumatrapdfreader/sumatrapdf/pull/826
+* http://discuss.bootstrapped.fm/t/is-anyone-paying-for-seo-help-how-do-you-find-someone-who-is-doing-it-the-right-way-and-getting-results/1630/19?u=kjk
 
 ---
 
