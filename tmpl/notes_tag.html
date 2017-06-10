@@ -18,7 +18,7 @@
             </div>
 
             {{ range .Notes }}
-            <pre class="notes-note"><a href="/dailynotes/note/{{ .ID }}" class="notes-note-link">{{ .DayWithNameStr }}</a>{{ if .Tags }}<span class="notes-tags">{{ range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
+            <pre class="notes-note"><a href="{{.URL}}" class="notes-note-link">{{ .DayWithNameStr }}</a>{{ if .Tags }}<span class="notes-tags">{{ range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .HTMLBody }}</pre>            {{ end }}
 
         </div>
     </div>

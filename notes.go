@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"os"
 	"sort"
-	"strconv"
 	"strings"
 	"time"
 
@@ -26,23 +25,28 @@ const (
 var (
 	notesDays        []*notesForDay
 	notesTagsToNotes map[string][]*note
+	// maps unique id of the note (from Id: ${id} metadata) to the note
+	notesIDToNote map[string]*note
 
 	notesWeekStartDayToNotes map[string][]*note
 	notesWeekStarts          []string
 	nTotalNotes              int
 )
 
+type noteMetadata struct {
+	ID    string
+	Title string
+}
+
 type note struct {
 	Day            time.Time
 	DayStr         string // in format "2006-01-02"
 	DayWithNameStr string // in format "2006-01-02 Mon"
-	// in format 2006-01-02-${idx}. This is an index within notesForDay.Notes
-	// which is not ideal because it changes if I delete a note or re-arrange
-	// them, but that's rare. The alternative would be to auto-generate
-	// unique ids, e.g. parsing would add missing data and re-save
-	ID       string
-	HTMLBody string
-	Tags     []string
+	ID             string
+	Title          string
+	URL            string // in format /dailynotes/note/${id}-${title}
+	HTMLBody       string
+	Tags           []string
 }
 
 type notesForDay struct {
@@ -193,7 +197,39 @@ func extractTagsFromLines(lines []string) []string {
 	return res
 }
 
-// there are no guarantees in live, but this should be pretty unique string
+// given lines, extracts metadata information from lines that are:
+// Id: $id
+// Title: $title
+// Returns new lines with metadata lines removed
+func extractMetaDataFromLines(lines []string) ([]string, noteMetadata) {
+	var res noteMetadata
+	writeIdx := 0
+	for i, s := range lines {
+		idx := strings.Index(s, ":")
+		skipLine := false
+		if -1 != idx {
+			name := strings.ToLower(s[:idx])
+			val := strings.TrimSpace(s[idx+1:])
+			switch name {
+			case "id":
+				res.ID = val
+				skipLine = true
+			case "title":
+				res.Title = val
+				skipLine = true
+			}
+		}
+		if skipLine || writeIdx == i {
+			continue
+		}
+		lines[writeIdx] = lines[i]
+		writeIdx++
+	}
+	u.PanicIf(res.ID == "", "note has no Id:. Note: %s\n", strings.Join(lines, "\n"))
+	return lines[:writeIdx], res
+}
+
+// there are no guarantees in life, but this should be pretty unique string
 func genRandomString() string {
 	var a [20]byte
 	_, err := rand.Read(a[:])
@@ -272,6 +308,7 @@ func extractCodeSnippets(lines []string) ([]string, []string) {
 func newNote(lines []string) *note {
 	nTotalNotes++
 	tags := extractTagsFromLines(lines)
+	lines, meta := extractMetaDataFromLines(lines)
 	lines, codeReplacements := extractCodeSnippets(lines)
 	s := buildBodyFromLines(lines)
 	body := noteToHTML(s)
@@ -284,6 +321,8 @@ func newNote(lines []string) *note {
 	return &note{
 		Tags:     tags,
 		HTMLBody: body,
+		ID:       meta.ID,
+		Title:    meta.Title,
 	}
 }
 
@@ -312,6 +351,7 @@ func linesToNotes(lines []string) []*note {
 func readNotes(path string) error {
 	notesTagsToNotes = make(map[string][]*note)
 	notesWeekStartDayToNotes = make(map[string][]*note)
+	notesIDToNote = make(map[string]*note)
 	notesWeekStarts = nil
 	f, err := os.Open(path)
 	if err != nil {
@@ -362,11 +402,17 @@ func readNotes(path string) error {
 	for _, day := range notesDays {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
-		for idx, note := range day.Notes {
+		for _, note := range day.Notes {
+			id := note.ID
+			u.PanicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)
+			notesIDToNote[id] = note
 			note.Day = day.Day
 			note.DayStr = day.Day.Format("2006-01-02")
 			note.DayWithNameStr = day.Day.Format("2006-01-02 Mon")
-			note.ID = fmt.Sprintf("%s-%d", note.DayStr, idx)
+			note.URL = "/dailynotes/note/" + id
+			if note.Title != "" {
+				note.URL += "-" + urlify(note.Title)
+			}
 			for _, tag := range note.Tags {
 				a := notesTagsToNotes[tag]
 				a = append(a, note)
@@ -460,36 +506,19 @@ func handleWorkLog(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/dailynotes", http.StatusMovedPermanently)
 }
 
-// /dailynotes/note/${day}-${idx}
+// /dailynotes/note/${id}-${title}
 func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
-	noteID := strings.TrimPrefix(uri, "/dailynotes/note/")
-	// expecting sth. like: 2006-01-02-1
-	parts := strings.Split(noteID, "-")
-	if len(parts) != 4 {
-		serve404(w, r)
-		return
-	}
-	idx, err := strconv.Atoi(parts[3])
-	if err != nil || idx < 0 {
+	s := strings.TrimPrefix(uri, "/dailynotes/note/")
+	parts := strings.SplitN(s, "-", 2)
+	noteID := parts[0]
+	aNote := notesIDToNote[noteID]
+	if aNote == nil {
 		serve404(w, r)
 		return
 	}
 
-	dateStr := strings.Join(parts[:3], "-")
-	day := findNotesForDay(dateStr)
-	if day == nil {
-		serve404(w, r)
-		return
-	}
-
-	if idx >= len(day.Notes) {
-		serve404(w, r)
-		return
-	}
-
-	oneNote := day.Notes[idx]
-	weekStartTime := calcWeekStart(day.Day)
+	weekStartTime := calcWeekStart(aNote.Day)
 	weekStartDay := weekStartTime.Format("2006-01-02")
 	model := struct {
 		WeekStartDay  string
@@ -497,7 +526,7 @@ func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 		AnalyticsCode string
 	}{
 		WeekStartDay:  weekStartDay,
-		Note:          oneNote,
+		Note:          aNote,
 		AnalyticsCode: analyticsCode,
 	}
 	serveTemplate(w, tmplNotesNote, model)

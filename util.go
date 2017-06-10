@@ -8,18 +8,18 @@ import (
 	"strings"
 )
 
-var patWs = regexp.MustCompile(`\s+`)
-var patNonAlpha = regexp.MustCompile(`[^\w-]`)
-var patMultipleMinus = regexp.MustCompile("-+")
+var (
+	patWs            = regexp.MustCompile(`\s+`)
+	patNonAlpha      = regexp.MustCompile(`[^\w-]`)
+	patCharsToRemove = regexp.MustCompile("[-+:*%&]")
+)
 
-// urlify generates url from tile
+// urlify generates safe url from tile
 func urlify(title string) string {
 	s := strings.TrimSpace(title)
 	s = patWs.ReplaceAllString(s, "-")
 	s = patNonAlpha.ReplaceAllString(s, "")
-	s = patMultipleMinus.ReplaceAllString(s, "-")
-	s = strings.Replace(s, ":", "", -1)
-	s = strings.Replace(s, "%", "-perc", -1)
+	s = patCharsToRemove.ReplaceAllString(s, "")
 	if len(s) > 48 {
 		s = s[:48]
 	}

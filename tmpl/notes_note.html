@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Krzysztof Kowalczyk</title>
+    {{if .Note.Title}}<title>{{.Note.Title}}</title>{{end}}
     <link href="/css/main.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -15,7 +15,7 @@
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / <a href="/dailynotes/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / Note
+                <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / <a href="/dailynotes/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / {{if .Note.Title}}{{.Note.Title}}{{else}}Note{{end}}
             </div>
 
             <pre class="notes-note"><span class="notes-day">{{ .Note.DayWithNameStr }}</span>{{ if .Note.Tags }}<span class="notes-tags">{{ range .Note.Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .Note.HTMLBody }}</pre>

@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/kjk/u"
+	"github.com/rs/xid"
 )
 
 func getWwwDir() string {
@@ -191,4 +192,17 @@ func handleArticles(w http.ResponseWriter, r *http.Request) {
 	}
 	file := r.URL.Path[len("/articles/"):]
 	serveFileFromDir(w, r, getArticlesDir(), file)
+}
+
+// url: /tools/generate-unique-id
+func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
+	id := xid.New()
+	model := struct {
+		UniqueID      string
+		AnalyticsCode string
+	}{
+		UniqueID:      id.String(),
+		AnalyticsCode: analyticsCode,
+	}
+	serveTemplate(w, tmplGenerateUniqueID, model)
 }

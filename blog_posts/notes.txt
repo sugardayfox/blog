@@ -1,18 +1,80 @@
 2017-06-10
 
+Id: b4u68hcvj43jdajdsuo0
+
+#idea Build a web service that builds google sitemaps (https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome
+
+It should aggressively cache the results to avoid re-crawling websites. Url should be /tools/build-submit-google-sitemap.html. Maybe use a domain like webtools.io/build-submit-google-sitemap.html
+
+To make money limit web service to N links (100? 256?) and up-sell a $10-$30 windows/mac desktop app build on electron.
+
+---
+
+Id: b4u6894vj43jdajdsung
+Title: Summary of Founders Battle Virtual Talks #7 about SEO with Michael Schwarz
+
+#seo #watched https://www.youtube.com/watch?v=R29ypgkXHVw
+Insights:
+* 70% vistors come from search engines, 96% of those are from google
+* 8 SEO must-haves for a website:
+ * title tags
+ * meta description
+ * headings (h1)
+ * URL
+ * create unique landing pages
+ * optimize alt & title image tags
+ * choose the right CMS
+ * create sitemaps
+
+* 2 SEO nice-haves
+ * rich snippets
+ * link building
+
+Page title is important ranking factor and is shown in search result.
+
+Meta Description is shown in Google Search, so its quality can improve click-through from search results.
+
+h1 is important ranking factor.
+
+url is important ranking factor.
+
+Google likes to rank one page for keyword, so if you target multiple keywords, you should have multiple page, each page targeting different keywords.
+
+Don't try to optimize a single page for too many keywords.
+
+Alt & title for image tags is important for ranking in image search.
+
+Good CMS (e.g. WordPress) allows you to set those important things (page title, meta description etc.)
+
+Sitemap is an xml or text file that lists pages on your website. You submit a sitemap to Google to help it index the website. More info: https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190
+
+Rich snippets don't apply for everything but for e.g. review sites, you can add ranking for a given item that will be shown in search results.
+
+Link building is tricky. You want your website to be linked from other high-ranking websites. But if you use shady tactics like buying links then Google doesn't like it and might penalize your website.
+
+---
+Id: b4u67n4vj43jdajdsun0
+
 #did
 
 * show day of the note in /dailynotes on blog
+* added unique ids to daily notes
+* wrote /tools/generate-unique-id so that I can easily get unique ids for daily notes
+* handle Id: and Title: metadata for daily notes
 
 2017-06-09
 
+Id: b4u67ksvj43jdajdsumg
 #read https://www.indiehackers.com/businesses/intrinio #business #startups
 
 ---
+Id: b4u67isvj43jdajdsum0
 
 #read http://floooh.github.io/2017/06/09/webassembly-demystified.html #webassembly
 
 ---
+Id: b4u67bcvj43jdajdsul0
+Title: Go is Moneyball For Programming Languages
 
 #go Go is a controversial language, often criticized for lack of sophistication. "We know how to do things better!".
 
@@ -31,6 +93,8 @@ Generics? You get the most common generic types built-in (slices and maps) but n
 Unit testing, benchmarking? You get that as part of standard library but it's ridiculusly minimal compared to, say, jUnit from Java world.
 
 ---
+Id: b4u674cvj43jdajdsukg
+Title: Summary of "The Mom Test" book about validating business ideas
 
 #business #startups
 
@@ -86,18 +150,22 @@ In the second conversation you didn't even mention your idea but you asked about
 * they might be interested in "niche" cookbook (vegeterian, popular ethnic trends)
 
 ---
+Id: b4u671kvj43jdajdsuk0
 
 Digital footprints:
 * https://github.com/sumatrapdfreader/sumatrapdf/pull/826
 * http://discuss.bootstrapped.fm/t/is-anyone-paying-for-seo-help-how-do-you-find-someone-who-is-doing-it-the-right-way-and-getting-results/1630/19?u=kjk
 
 ---
+Id: b4u66vkvj43jdajdsujg
 
 #did
 * implemented individual note view for notes
 * added support for code syntax highlighting for notes
 
 ---
+Id: b4u66n4vj43jdajdsuj0
+Title: remove duplicate strings from array, in Go
 
 #go #snippet
 
@@ -124,15 +192,19 @@ func RemoveDuplicateStrings(a []string) []string {
 ```
 
 ---
+Id: b4u66i4vj43jdajdsui0
+
 #read #systemd #go
 https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/
 How to use systemd socket activation for for zero-downtime deployments
 
 2017-06-08
 
+Id: b4u66ksvj43jdajdsuig
 #read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
 
 ---
+Id: b4u66ccvj43jdajdsuhg
 
 #flexbox #css
 
@@ -145,6 +217,7 @@ div style=display:flex;flex-direction: row;justify-content: space-between;
     right
 
 ---
+Id: b4u66asvj43jdajdsuh0
 
 Sciter (https://sciter.com/) is a tool for writing desktop UI quickly. It's like Electron but much smaller (5-8 MB vs. hundrends of megabytes). It's almost HTML and almost JavaScript.
 
@@ -166,11 +239,11 @@ Using scapp is a way to quickly prototype UI.
 #sciter
 
 ---
-
+Id: b4u669kvj43jdajdsugg
 #go #did Implemented worklog for blog.
 
 ---
-
+Id: b4u667svj43jdajdsug0
 Reading more blog posts from http://thestartuptoolkit.com/.
 
 Insight: if your business is "better X", you should use X to make sure you're really improving on it. http://thestartuptoolkit.com/blog/2011/09/use-the-tools-youre-displacing/
@@ -178,15 +251,18 @@ Insight: if your business is "better X", you should use X to make sure you're re
 #business
 
 ---
-
+Id: b4u666cvj43jdajdsufg
 #read https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164.
 Summary: compared to asm.js, webassembly loads much faster, parses faster and executes slightly faster. #webassembly
 
 ---
-
+Id: b4u664cvj43jdajdsuf0
 #postgres http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/
 
 ---
+Id: b4u6624vj43jdajdsueg
+Title: Idea for faster PDF rendering
+
 #idea
 
 For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it.
@@ -200,13 +276,18 @@ For example, there are PDF documents with gigantic images (think 4000 x 4000 pix
 I'm sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible).
 ---
 
+Id: b4u65tsvj43jdajdsue0
+
 #watched https://vimeo.com/77265280, trying to understand capabilities of WebRTC. I want to build VNC client in the browser but without ability to open tcp/udp connections it's not possible. And for local machines it's not possible even when using a proxy server (website talks to a proxy, proxy talks to VNC server and tunnels the data to website).
 
 ---
 
+Id: b4u65rkvj43jdajdsudg
+
 #inspiration "Every day for years, Trollope reported in his “Autobiography,” he woke in darkness and wrote from 5:30 a.m. to 8:30 a.m., with his watch in front of him." (http://www.newyorker.com/magazine/2004/06/14/blocked). If I was able to do coding like this, I would have written many more programs than I have.
 
 ---
+Id: b4u65ocvj43jdajdsucg
 
 Digital footprints:
 * http://discuss.bootstrapped.fm/t/advice-on-getting-free-users-to-pay-for-a-pro-option-of-a-product/5084/3?u=kjk
@@ -215,6 +296,7 @@ Digital footprints:
 
 2017-06-07
 
+Id: b4u65l4vj43jdajdsuc0
 #go #did
 
 Mostly finished local drive -> backblaze backup tool in Go. Backblaze is much cheaper at storage and bandwidth than S3 or Google Storage.
@@ -236,5 +318,6 @@ Go library I used for backblaze API had small bugs and inefficiencies, but the a
 Also started on a very simple web front-end for listing the files. https://vuejs.org is great as a simple template library (have data -> render some html based on that). I know that Vue.js is much more than that, but it's perfect for simple templating as well. In the past I would laboriously create html as text in JavaScript or use some simple templating like mustache.
 
 ---
+Id: b4u65fsvj43jdajdsubg
 
 Playing a bit with https://sciter.com (trying to build a UI version of https://github.com/jonas/tig). Sciter is very promising in the sense of allowing to build UI quickly. However, it's badly documented. Good thing it has lots of examples in the SDK. #sciter #did

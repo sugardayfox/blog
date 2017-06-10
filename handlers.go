@@ -32,6 +32,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
 	mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
 	mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
+	mux.HandleFunc("/tools/generate-unique-id", withAnalyticsLogging(handleGenerateUniqueID))
 	mux.HandleFunc("/worklog", handleWorkLog)
 
 	// not logged because not interesting for visitor analytics

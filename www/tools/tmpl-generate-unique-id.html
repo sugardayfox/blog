@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Generate a unique id</title>
+    <link href="/css/main.css" type="text/css" rel="stylesheet">
+    <script src="/js/highlight.js"></script>
+</head>
+
+<body>
+    {{ template "page_navbar.html" . }}
+
+    <div id="content">
+        <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+            <div class="title">
+                <a href="/">Home</a> / Generate unique id
+            </div>
+
+            <p>
+            Unique id: <span style="font-weight: bold">{{.UniqueID}}</span> <span style="color:lightgray">(reload the page to get another one)</span>
+            </p>
+
+            <p>
+                This page generates a unique id usign <a href="https://github.com/rs/xid">xid</a> Go library. Reload the page to get another id.
+            </p>
+            <p>
+                Why? Because I sometimes need unique id.
+            </p>
+        </div>
+    </div>
+
+    {{ template "analytics.html" . }}
+</body>
+
+</html>
