@@ -92,6 +92,12 @@
   version = "v1.0.0"
 
 [[projects]]
+  name = "github.com/rs/xid"
+  packages = ["."]
+  revision = "02dd45c33376f85d1064355dc790dcc4850596b1"
+  version = "v1.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/russross/blackfriday"
   packages = ["."]
@@ -142,6 +148,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "e9588ebd537885ced1f011bb94f540785ee0b2b1a2e6e7eab2461b5c678d0633"
+  inputs-digest = "c25df022f8c38766095c83e26931a042adf5968b6bd1a47bcb2d0fa5ce9d549c"
   solver-name = "gps-cdcl"
   solver-version = 1
