@@ -64,15 +64,6 @@ type modelNotesForWeek struct {
 	AnalyticsCode string
 }
 
-// a line is just a #hashtag if it has only one word and starts with #
-func isJustHashtag(s string) bool {
-	if !strings.HasPrefix(s, "#") {
-		return false
-	}
-	// Maybe: consider more characters other than ' ' as #hashtag delimiter
-	return !strings.Contains(s, " ")
-}
-
 func lastLineEmpty(lines []string) bool {
 	if len(lines) == 0 {
 		return false
@@ -109,32 +100,51 @@ func collapseMultipleSpaces(s string) string {
 	}
 }
 
-// remove hashtags from start and end
-func removeHashtags(s string) string {
+// remove #tag from start and end
+func removeHashTags(s string) (string, []string) {
+	var tags []string
+	defer func() {
+		for i, tag := range tags {
+			tags[i] = strings.ToLower(tag)
+		}
+	}()
+
 	// remove hashtags from start
 	for strings.HasPrefix(s, "#") {
 		idx := findWordEnd(s, 0)
 		if idx == -1 {
-			return ""
+			tags = append(tags, s[1:])
+			return "", tags
 		}
-		s = s[idx:]
-		s = strings.TrimLeft(s, " ")
+		tags = append(tags, s[1:idx-1])
+		s = strings.TrimLeft(s[idx:], " ")
 	}
 
 	// remove hashtags from end
+	s = strings.TrimRight(s, " ")
 	for {
 		idx := strings.LastIndex(s, "#")
 		if idx == -1 {
-			return s
+			return s, tags
 		}
 		if -1 != findWordEnd(s, idx) {
-			return s
+			return s, tags
 		}
+		tags = append(tags, s[idx+1:])
 		s = strings.TrimRight(s[:idx], " ")
 	}
 }
 
-func buildBodyFromLines(lines []string) string {
+func buildBodyFromLines(lines []string) (string, []string) {
+	var resTags []string
+
+	for i, line := range lines {
+		line, tags := removeHashTags(line)
+		lines[i] = line
+		resTags = append(resTags, tags...)
+	}
+	resTags = u.RemoveDuplicateStrings(resTags)
+
 	// collapse multiple empty lines into single empty line
 	// and remove lines that are just #hashtags
 	currWrite := 1
@@ -145,21 +155,14 @@ func buildBodyFromLines(lines []string) string {
 			// skips the current line because we don't advance currWrite
 			continue
 		}
-		if isJustHashtag(curr) {
-			// skip just hashtags
-			continue
-		}
 
 		lines[currWrite] = curr
 		currWrite++
 	}
 	lines = lines[:currWrite]
-	for idx, line := range lines {
-		lines[idx] = removeHashtags(line)
-	}
 
 	if len(lines) == 0 {
-		return ""
+		return "", resTags
 	}
 
 	// remove empty lines from beginning
@@ -171,30 +174,7 @@ func buildBodyFromLines(lines []string) string {
 	for lastLineEmpty(lines) {
 		lines = removeLastLine(lines)
 	}
-	return strings.Join(lines, "\n")
-}
-
-// tags start with #
-// TODO: maybe only at the beginning/end?
-func extractTagsFromString(txt string) []string {
-	var res []string
-	parts := strings.Split(txt, " ")
-	for _, s := range parts {
-		s = strings.TrimSpace(s)
-		if strings.HasPrefix(s, "#") {
-			res = append(res, s[1:])
-		}
-	}
-	return res
-}
-
-func extractTagsFromLines(lines []string) []string {
-	var res []string
-	for _, line := range lines {
-		tags := extractTagsFromString(line)
-		res = append(res, tags...)
-	}
-	return res
+	return strings.Join(lines, "\n"), resTags
 }
 
 // given lines, extracts metadata information from lines that are:
@@ -307,10 +287,9 @@ func extractCodeSnippets(lines []string) ([]string, []string) {
 
 func newNote(lines []string) *note {
 	nTotalNotes++
-	tags := extractTagsFromLines(lines)
 	lines, meta := extractMetaDataFromLines(lines)
 	lines, codeReplacements := extractCodeSnippets(lines)
-	s := buildBodyFromLines(lines)
+	s, tags := buildBodyFromLines(lines)
 	body := noteToHTML(s)
 	n := len(codeReplacements) / 2
 	for i := 0; i < n; i++ {

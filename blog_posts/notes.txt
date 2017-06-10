@@ -2,7 +2,7 @@
 
 Id: b4u68hcvj43jdajdsuo0
 
-#idea Build a web service that builds google sitemaps (https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome
+#idea Build a web service that builds google sitemaps (https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome headless.
 
 It should aggressively cache the results to avoid re-crawling websites. Url should be /tools/build-submit-google-sitemap.html. Maybe use a domain like webtools.io/build-submit-google-sitemap.html
 
