@@ -20,7 +20,10 @@
 
             <pre class="notes-note"><span class="notes-day">{{ .Note.DayWithNameStr }}</span>{{ if .Note.Tags }}<span class="notes-tags">{{ range .Note.Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}<br/><br/>{{ .Note.HTMLBody }}</pre>
 
+        <hr>
+
         </div>
+
     </div>
 
     {{ template "analytics.html" . }}
