@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Krzysztof Kowalczyk</title>
+    <link href="/css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    {{ template "page_navbar.html" . }}
+
+    <div id="content">
+
+        <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
+            <div class="title">
+                <a href="/">Home</a> / <a href="/worklog">Notes</a> / <a href="/worklog/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / Post
+            </div>
+
+            <pre class="worklog-post"><span class="worklog-day">{{ .Post.DayStr }}</span>{{ if .Post.Tags }}<span class="worklog-tags">{{ range .Post.Tags}}<a href="/worklog/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}{{ .Post.HTMLBody }}</pre>
+
+        </div>
+    </div>
+
+    {{ template "analytics.html" . }}
+
+</body>
+
+</html>
