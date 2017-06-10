@@ -60,31 +60,6 @@ type modelWorkLogTag struct {
 	AnalyticsCode string
 }
 
-// RemoveDuplicateStrings removes duplicate strings from a
-// Is optimized for the case of no duplicates
-func RemoveDuplicateStrings(a []string) []string {
-	sort.Strings(a)
-	hasDups := false
-	for i := 1; i < len(a); i++ {
-		if a[i-1] == a[i] {
-			hasDups = true
-			break
-		}
-	}
-	if !hasDups {
-		return a
-	}
-	var res []string
-	m := make(map[string]struct{})
-	for _, s := range a {
-		if _, ok := m[s]; !ok {
-			m[s] = struct{}{}
-			res = append(res, s)
-		}
-	}
-	return res
-}
-
 // a line is just a #hashtag if it has only one word and starts with #
 func isJustHashtag(s string) bool {
 	if !strings.HasPrefix(s, "#") {
@@ -230,7 +205,7 @@ func genRandomString() string {
 
 func workLogPostToHTML(s string) string {
 	urls := xurls.Relaxed.FindAllString(s, -1)
-	urls = RemoveDuplicateStrings(urls)
+	urls = u.RemoveDuplicateStrings(urls)
 
 	// sort by length, longest first, so that we correctly convert
 	// urls to hrefs when there are 2 urls like http://foo.com
