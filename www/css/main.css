@@ -249,12 +249,35 @@ a.taglink:hover {
     }
 }
 
-.notes-note {
-    border-top: 1px dashed lightskyblue;
+.note-divider {}
+
+.notes-note-body {
+    display: block;
     padding: 0px;
-    padding-top: 1em;
+    margin: 0px;
     font-size: 10pt;
     white-space: pre-wrap;
+}
+
+.notes-meta {
+    font-size: 8pt;
+    display: inline-block;
+    color: white;
+    color: #080;
+}
+
+.notes-meta a {
+    padding: 0px;
+    color: #080;
+    text-decoration: none;
+}
+
+.notes-meta a:hover {
+    text-decoration: underline;
+}
+
+.notes-tags a {
+    margin-left: 8px;
 }
 
 .notes-day {
@@ -262,30 +285,6 @@ a.taglink:hover {
     font-size: 8pt;
     padding: 0px;
     padding-right: 1em;
-}
-
-a.notes-note-link {
-    font-size: 8pt;
-    padding: 0px;
-    margin-right: 1em;
-    color: rgba(8, 148, 241, 0.71);
-    text-decoration: none;
-}
-
-a.notes-note-link:hover {
-    background-color: rgba(8, 148, 241, 0.71);
-    color: white;
-}
-
-.notes-tags {
-    font-size: 8pt;
-    padding: 0px;
-}
-
-.notes-tags a {
-    padding: 0px;
-    padding-right: 1em;
-    color: rgba(8, 148, 241, 0.71);
 }
 
 .note-code {

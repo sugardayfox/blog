@@ -17,9 +17,12 @@
             <div class="title">
                 <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / Week of {{ .WeekStartDay }}, {{ len .Notes }} {{ if gt (len .Notes) 1 }}notes{{else}}note{{end}}{{if .TotalNotes}}, {{.TotalNotes}} total notes {{end}}
             </div>
-
-            {{ range .Notes }}
-            <pre class="notes-note"><a href="{{.URL}}" class="notes-note-link">{{ .DayWithNameStr }}</a>{{ if .Tags }}<span class="notes-tags">{{ range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{ end }}<br/>{{ .HTMLBody }}</pre>            {{ end }}
+            <br/> {{ range .Notes }}
+            <div class="notes-note">
+                <div class="notes-meta"><a href="{{.URL}}">{{.DayWithNameStr}}</a>{{if .Tags}}<span class="notes-tags">{{range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{end}}</div>
+                <pre class="notes-note-body">{{.HTMLBody}}</pre>
+            </div>
+            <hr class="note-divider"> {{end}}
 
             <div class="nav-prev-next">
                 {{ if .PrevWeek }}
@@ -31,8 +34,9 @@
                     <a title="{{ .NextWeek }}" href="/workdailynoteslog/week/{{ .NextWeek }}">{{ .NextWeek }} »</a>
                 </div>
                 {{ end }}
-            </div>
 
+            </div>
+            <br>
         </div>
     </div>
 
