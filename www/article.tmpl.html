@@ -57,9 +57,11 @@
                 {{.Article.HTMLBody}}
             </div>
 
+            <div class="postmeta"></div>
+
             <hr>
 
-            <div class="postmeta">Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}} {{end}}
+            <div class="postmeta">Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}. Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>
             </div>
 
             <p></p>
@@ -74,6 +76,8 @@
                 </div>
             </div>
         </div>
+
+
     </div>
 
     {{ template "analytics.tmpl.html" . }}

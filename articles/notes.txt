@@ -1,3 +1,38 @@
+2017-06-12
+Id: b4vgfsg1n8a000c8qrvg
+#flexbox #css
+Title: Flexbox summary.
+
+Properties on flex container:
+  display: flex
+  flex-direction: row | row-reverse | column | column-reverse
+  flex-wrap: nowrap | wrap | wrap-reverse
+  align-items: flex-start | flex-end | center | baseline | stretch
+    for row, it's: top | bottom | center | baseline | fill dy
+    for column, it's: left | rigth | center | baselne | fill dx
+  justify-content: flex-start | flex-end | space-between | center | space-around
+    how remaining space is distributed
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch
+
+Properties of flex items:
+  align-self: auto | flex-start | flex-end | center | baseline | stretch
+    like align-items but per-item
+  flex-grow
+  flex-shrink
+  flex-basis
+  flex: flex-grow [flex-shrink] [flex-basis]
+  order: ${pos}  // 0, 1 etc.
+
+Example layouts:
+1. [ [left]     [right]]
+div display:flex
+  div
+    left
+  div margin-left: auto
+    right
+
+margin-left will push [right] all the way to the right.
+
 2017-06-11
 Id: b4uufok4qnvg00eh2kbg
 #read #paypal #payments #seo #upwork
