@@ -1,8 +1,8 @@
 Id: wOYk
-Title: Advanced command execution with os/exec
+Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-12T06:26:31Z
+Date: 2017-06-12T07:23:02Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 

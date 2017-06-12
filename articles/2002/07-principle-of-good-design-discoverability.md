@@ -22,8 +22,8 @@ to entry for new users.
 
 There are two problems:
 
--   it's hard to find out what a given keystroke does
--   it's hard to find out what is a keystroke that does what I want
+* it's hard to find out what a given keystroke does
+* it's hard to find out what is a keystroke that does what I want
 
 It would help discoverability if users could easily find those 2 things
 out. Here enters my idea: we need to add a new window that will list all
