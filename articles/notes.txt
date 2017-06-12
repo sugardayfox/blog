@@ -24,6 +24,7 @@ Properties of flex items:
   order: ${pos}  // 0, 1 etc.
 
 Example layouts:
+
 1. [ [left]     [right]]
 div display:flex
   div
@@ -32,6 +33,12 @@ div display:flex
     right
 
 margin-left will push [right] all the way to the right.
+
+Flexbox links:
+* https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b
+* https://codepen.io/enxaneta/full/adLPwv/ : visual showcase of flexbox properties
+* https://css-tricks.com/flex-grow-is-weird/
+* https://flexbox.io/ : 20 video tutorials, from beginning to some advanced layouts
 
 2017-06-11
 Id: b4uufok4qnvg00eh2kbg
