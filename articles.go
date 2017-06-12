@@ -206,7 +206,7 @@ func readArticle(path string) (*Article, error) {
 
 func readArticles() ([]*Article, []string, error) {
 	timeStart := time.Now()
-	walker := fs.Walk("blog_posts")
+	walker := fs.Walk("articles")
 	var res []*Article
 	var dirs []string
 	for walker.Step() {

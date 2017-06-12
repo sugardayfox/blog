@@ -174,7 +174,7 @@ func genNewArticle(title string) {
 	}
 	newID := findUniqueArticleID(store.articles)
 	t := time.Now()
-	dir := "blog_posts"
+	dir := "articles"
 	yyyy := fmt.Sprintf("%04d", t.Year())
 	month := t.Month()
 	sanitizedTitle := sanitizeForFile(title)

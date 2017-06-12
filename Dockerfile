@@ -9,7 +9,7 @@ WORKDIR /app
 COPY blog_linux /app/blog
 COPY www /app/www/
 COPY tmpl /app/tmpl/
-COPY blog_posts /app/blog_posts/
+COPY articles /app/articles/
 
 EXPOSE 80 443
 

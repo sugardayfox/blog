@@ -54,7 +54,7 @@ func startBlogPostsWatcher() *fsnotify.Watcher {
 	}
 
 	dirs := store.GetDirsToWatch()
-	dirs = append(dirs, "blog_posts")
+	dirs = append(dirs, "articles")
 	for _, dir := range dirs {
 		err = watcher.Add(dir)
 		if err != nil {
