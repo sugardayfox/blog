@@ -51,7 +51,7 @@ What if the command takes a long time to finish? It would be nice to both captur
 It's a little bit more involved, but not terribly so.
 
 ```go
-func copyAndCapture(w io.Writer, r io.Reader) []byte {
+func copyAndCapture(w io.Writer, r io.Reader) ([]byte, error) {
 	var out []byte
 	buf := make([]byte, 1024, 1024)
 	for {
@@ -65,27 +65,34 @@ func copyAndCapture(w io.Writer, r io.Reader) []byte {
 			os.Stdout.Write(d)
 		}
 	}
-	return out
+	if err == io.EOF {
+		err = nil
+	}
+	return out, err
 }
 
 func main() {
 	cmd := exec.Command("ls", "-lah")
 	var stdout, stderr []byte
+	var errStdout, errStderr error
 	stdoutIn, _ := cmd.StdoutPipe()
 	stderrIn, _ := cmd.StderrPipe()
 	cmd.Start()
 
 	go func() {
-		stdout = copyAndCapture(os.Stdout, stdoutIn)
+		stdout, errStdout = copyAndCapture(os.Stdout, stdoutIn)
 	}()
 
 	go func() {
-		stderr = copyAndCapture(os.Stderr, stderrIn)
+		stderr, errStderr = copyAndCapture(os.Stderr, stderrIn)
 	}()
 
 	err := cmd.Wait()
 	if err != nil {
 		log.Fatalf("cmd.Run() failed with %s\n", err)
+	}
+	if errStdout != nil || errStderr != nil {
+		log.Fatalf("failed to capture stdout or stderr\n")
 	}
 	outStr, errStr := string(stdout), string(stderr)
 	fmt.Printf("\nout:\n%s\nerr:\n%s\n", outStr, errStr)
@@ -134,17 +141,21 @@ func main() {
 		log.Fatalf("cmd.Start() failed with '%s'\n", err)
 	}
 
+	var errStdout, errStderr error
 	go func() {
-		io.Copy(stdout, stdoutIn)
+		errStdout = io.Copy(stdout, stdoutIn)
 	}()
 
 	go func() {
-		io.Copy(stderr, stderrIn)
+		errStderr = io.Copy(stderr, stderrIn)
 	}()
 
 	err = cmd.Wait()
 	if err != nil {
 		log.Fatalf("cmd.Run() failed with %s\n", err)
+	}
+	if errStdout != nil || errStderr != nil {
+		log.Fatalf("failed to capture stdout or stderr\n")
 	}
 	outStr, errStr := string(stdout.Bytes()), string(stderr.Bytes())
 	fmt.Printf("\nout:\n%s\nerr:\n%s\n", outStr, errStr)
@@ -194,9 +205,9 @@ func checkLsExists() {
 	path, err := exec.LookPath("ls")
 	if err != nil {
 		fmt.Printf("didn't find 'ls' executable\n")
-		return
+	} else {
+		fmt.Printf("'ls' executable is in '%s'\n", path)
 	}
-	fmt.Printf("'ls' executable is in '%s'\n", path)
 }
 ```
 
