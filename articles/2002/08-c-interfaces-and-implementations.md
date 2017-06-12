@@ -5,22 +5,22 @@ Date: 2002-08-03T02:18:21-07:00
 Format: Markdown
 --------------
 Finished reading [C Interfaces and
-Implementations](http://www.amazon.com/exec/obidos/ASIN/0201498413/).
-Another one down, millions more to go.
+Implementations](https://www.amazon.com/exec/obidos/ASIN/0201498413/).
 
-Good advanced book on C that mostly wants to teach how to design (and
-implement) good, re-usable interfaces. It does that by showing full
-design and implementation of 24 interfaces (e.g. better memory
+Good, advanced book on C that teaches how to design and
+implement good, re-usable interfaces.
+
+It describes design and implementation of 24 interfaces (e.g. better memory
 allocation primitives, better string-handling primitives, lists, dynamic
 arrays, bit vectors, sequences, threads, etc.).
 
-The book is not about analyzing/designing algorithms or data structures
+The book is not about analyzing and designing algorithms or data structures
 but about practical issues of how to design good interface (which is
-surprisingly hard). It's very to the point (doesn't have the flowery
-prose of many O'Reilly books, which for some might be an advantage and
-for some a disadvantage).
+surprisingly hard).
 
-Two tips from the book (there are many others) worth remembering:
+It's very to the point. It doesn't have the flowery prose of many O'Reilly books.
+
+Two tips from the book worth remembering:
 
 -   the only way to get good performance is by profiling. Always prefer
     a clean code over what you think is more efficient code. First you
@@ -28,5 +28,5 @@ Two tips from the book (there are many others) worth remembering:
     the speed in the first place (if you speed up by 100% code that only
     takes 1% of total execution time, you'll improve total execution
     time by only imperceptible 0.5%).
--   use assert() generously
+-   use `assert` generously
 
