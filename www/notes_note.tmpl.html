@@ -16,12 +16,16 @@
       <div class="title">
         <a href="/">Home</a> / <a href="/dailynotes">Notes</a> / <a href="/dailynotes/week/{{ .WeekStartDay }}">Week of {{ .WeekStartDay }}</a> / {{if .Note.Title}}{{.Note.Title}}{{else}}Note{{end}}
       </div>
+      <br/>
 
-      <div class="notes-meta" style="border-top: 0px">{{.Note.DayWithNameStr}}{{if .Note.Tags}}<span class="notes-tags">{{range .Note.Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{end}}</div>
-      <p></p>
-      <pre class="notes-note-body">{{.Note.HTMLBody}}</pre>
-
-      <hr><br>
+      {{ with .Note }}
+      <div class="notes-note">
+        <div class="notes-meta"><a href="{{.URL}}">{{.DayWithNameStr}}</a>{{if .Tags}}<span class="notes-tags">{{range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{end}}</div>
+        <pre class="notes-note-body">{{.HTMLBody}}</pre>
+      </div>
+      <hr>
+      {{end}}
+      <br>
     </div>
   </div>
 
