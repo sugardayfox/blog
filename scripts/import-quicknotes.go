@@ -58,10 +58,21 @@ func main() {
 	path := filepath.Join("articles", "from-simplenote.txt")
 	lines, err := u.ReadLinesFromFile(path)
 	u.PanicIfErr(err)
+	urlPrefix := "https://quicknotes.io/raw/n/"
 	for _, url := range lines {
 		url = strings.TrimSpace(url)
+		if len(url) == 0 {
+			continue
+		}
+		u.PanicIf(!strings.HasPrefix(url, urlPrefix), "url '%s' should start with '%s'", url, urlPrefix)
 		d, err := httpGet(url)
 		u.PanicIfErr(err)
-		fmt.Printf("url: %s, %d bytes\n", lines, len(d))
+		name := strings.TrimPrefix(url, urlPrefix)
+		parts := strings.SplitN(name, "-", 2)
+		name = parts[0]
+		path := filepath.Join("articles", "from-simplenote", name+".md")
+		err = ioutil.WriteFile(path, d, 0644)
+		u.PanicIfErr(err)
+		fmt.Printf("Wrote '%s' as '%s', %d bytes\n", url, path, len(d))
 	}
 }

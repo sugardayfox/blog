@@ -3,8 +3,6 @@ package main
 import (
 	"net/http"
 	"strings"
-
-	"github.com/kjk/u"
 )
 
 // ArticleInfo describes an article
@@ -15,7 +13,7 @@ type ArticleInfo struct {
 	pos  int
 }
 
-func getCachedArticlesByID(articleID int) *ArticleInfo {
+func getCachedArticlesByID(articleID string) *ArticleInfo {
 	articles := store.GetArticles()
 	res := &ArticleInfo{}
 	for i, curr := range articles {
@@ -45,11 +43,7 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 		return nil
 	}
 
-	articleID, err := u.DecodeBase64(parts[0])
-	if err != nil {
-		return nil
-	}
-	return getCachedArticlesByID(articleID)
+	return getCachedArticlesByID(parts[0])
 }
 
 // /article/*, /blog/*, /kb/*

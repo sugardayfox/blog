@@ -10,18 +10,17 @@ import (
 
 var (
 	patWs            = regexp.MustCompile(`\s+`)
-	patNonAlpha      = regexp.MustCompile(`[^\w-]`)
-	patCharsToRemove = regexp.MustCompile("[-+:*%&]")
+	patCharsToRemove = regexp.MustCompile("[+:*%&/()]")
 )
 
 // urlify generates safe url from tile
 func urlify(title string) string {
 	s := strings.TrimSpace(title)
-	s = patWs.ReplaceAllString(s, "-")
-	s = patNonAlpha.ReplaceAllString(s, "")
+	s = strings.ToLower(s)
 	s = patCharsToRemove.ReplaceAllString(s, "")
-	if len(s) > 48 {
-		s = s[:48]
+	s = patWs.ReplaceAllString(s, "-")
+	if len(s) > 128 {
+		s = s[:128]
 	}
 	return s
 }

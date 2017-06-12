@@ -15,7 +15,6 @@ import (
 	"os"
 	"os/signal"
 	"path/filepath"
-	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -147,23 +146,20 @@ func sanitizeForFile(s string) string {
 	return s
 }
 
-func findUniqueArticleID(articles []*Article) int {
-	var ids []int
+func findUniqueArticleID(articles []*Article) string {
+	existingIDs := make(map[string]bool)
 	for _, a := range articles {
-		ids = append(ids, a.ID)
+		existingIDs[a.ID] = true
 	}
-	if len(ids) == 0 {
-		return 1
-	}
-	sort.Ints(ids)
-	prevID := ids[0]
-	for i := 1; i < len(ids); i++ {
-		if ids[i] != prevID+1 {
-			return prevID + 1
+
+	for i := 1; i < 10000; i++ {
+		s := u.EncodeBase64(i)
+		if !existingIDs[s] {
+			return strconv.Itoa(i)
 		}
-		prevID = ids[i]
 	}
-	return prevID + 1
+	u.PanicIf(true, "couldn't find unique article id")
+	return ""
 }
 
 func genNewArticle(title string) {
@@ -179,9 +175,9 @@ func genNewArticle(title string) {
 	month := t.Month()
 	sanitizedTitle := sanitizeForFile(title)
 	name := fmt.Sprintf("%02d-%s.md", month, sanitizedTitle)
-	fmt.Printf("new id: %d, name: %s\n", newID, name)
+	fmt.Printf("new id: %s, name: %s\n", newID, name)
 	path := filepath.Join(dir, yyyy, name)
-	s := fmt.Sprintf(`Id: %d
+	s := fmt.Sprintf(`Id: %s
 Title: %s
 Date: %s
 Format: Markdown

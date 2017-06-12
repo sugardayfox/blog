@@ -33,7 +33,7 @@ const (
 
 // Article describes a single article
 type Article struct {
-	ID          int
+	ID          string
 	PublishedOn time.Time
 	Title       string
 	Tags        []string
@@ -71,7 +71,7 @@ func FormatNameToID(name string) int {
 
 // Permalink returns article's permalink
 func (a *Article) Permalink() string {
-	return "article/" + u.EncodeBase64(a.ID) + "/" + urlify(a.Title) + ".html"
+	return "article/" + a.ID + "/" + urlify(a.Title) + ".html"
 }
 
 // TagsDisplay returns tags as html
@@ -92,7 +92,7 @@ func (a *Article) PublishedOnShort() string {
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
 	articles    []*Article
-	idToArticle map[int]*Article
+	idToArticle map[string]*Article
 	dirsToWatch []string
 }
 
@@ -102,12 +102,17 @@ func isSepLine(s string) bool {
 
 func parseTags(s string) []string {
 	tags := strings.Split(s, ",")
-	for i, tag := range tags {
+	var res []string
+	for _, tag := range tags {
 		tag = strings.TrimSpace(tag)
 		tag = strings.ToLower(tag)
-		tags[i] = tag
+		// skip the tag I use in quicknotes.io to tag notes for the blog
+		if tag == "for-blog" {
+			continue
+		}
+		res = append(res, tag)
 	}
-	return tags
+	return res
 }
 
 func parseFormat(s string) int {
@@ -169,11 +174,16 @@ func readArticle(path string) (*Article, error) {
 				return nil, nil
 			}
 		case "id":
+			// we handle 2 types of ids
+			// blog posts from articles/ directory have integer id
+			// blog posts imported from quicknotes (articles/from-simplenote/)
+			// have id that are strings
 			id, err := strconv.Atoi(v)
-			if err != nil {
-				return nil, fmt.Errorf("%q is not a valid id (not a number)", v)
+			if err == nil {
+				a.ID = u.EncodeBase64(id)
+			} else {
+				a.ID = strings.TrimSpace(v)
 			}
-			a.ID = id
 			a.Path = path
 		case "title":
 			a.Title = v
@@ -221,6 +231,10 @@ func readArticles() ([]*Article, []string, error) {
 			continue
 		}
 		name := filepath.Base(path)
+		switch name {
+		case "from-simplenote.txt":
+			continue
+		}
 		if name == "notes.txt" {
 			err := readNotes(path)
 			if err != nil {
@@ -252,14 +266,14 @@ func NewArticlesStore() (*ArticlesStore, error) {
 		return articles[i].PublishedOn.Before(articles[j].PublishedOn)
 	})
 	res := &ArticlesStore{articles: articles, dirsToWatch: dirs}
-	res.idToArticle = make(map[int]*Article)
+	res.idToArticle = make(map[string]*Article)
 	for _, a := range articles {
 		curr := res.idToArticle[a.ID]
 		if curr == nil {
 			res.idToArticle[a.ID] = a
 			continue
 		}
-		log.Fatalf("2 articles with the same id %d\n%s\n%s\n", a.ID, curr.Path, a.Path)
+		log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.Path, a.Path)
 	}
 	return res, nil
 }
@@ -270,14 +284,8 @@ func (s *ArticlesStore) GetArticles() []*Article {
 }
 
 // GetArticleByID returns an article given its id
-func (s *ArticlesStore) GetArticleByID(id int) *Article {
-	//fmt.Printf("GetArticleById: %d\n", id)
-	for _, a := range s.articles {
-		if a.ID == id {
-			return a
-		}
-	}
-	return nil
+func (s *ArticlesStore) GetArticleByID(id string) *Article {
+	return s.idToArticle[id]
 }
 
 // ArticlesCount returns number of articles

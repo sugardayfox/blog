@@ -59,7 +59,7 @@ var redirects = map[string]string{
 	"/static/krzysztof.html":                        "/static/resume.html",
 }
 
-var articleRedirects = make(map[string]int)
+var articleRedirects = make(map[string]string)
 var articleRedirectsMutex sync.Mutex
 
 func readRedirects() {
@@ -77,29 +77,25 @@ func readRedirects() {
 		u.PanicIf(len(parts) != 2, "malformed article_redirects.txt, len(parts) = %d (!2)", len(parts))
 		idStr := parts[0]
 		url := strings.TrimSpace(parts[1])
-		if id, err := strconv.Atoi(idStr); err != nil {
-			panic("malformed line in article_redirects.txt")
-		} else {
-			a := store.GetArticleByID(id)
-			if a != nil {
-				articleRedirects[url] = id
-				continue
-			}
-			//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
+		idNum, err := strconv.Atoi(idStr)
+		u.PanicIfErr(err, "malformed line in article_redirects.txt. Line:\n%s\n", l)
+		id := u.EncodeBase64(idNum)
+		a := store.GetArticleByID(id)
+		if a != nil {
+			articleRedirects[url] = id
+			continue
 		}
+		//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
 	}
 	logger.Noticef("loaded %d article redirects", len(articleRedirects))
 }
 
 // return -1 if there's no redirect for this urls
-func getRedirectArticleID(url string) int {
+func getRedirectArticleID(url string) string {
 	url = url[1:] // remove '/' from the beginning
 	articleRedirectsMutex.Lock()
 	defer articleRedirectsMutex.Unlock()
-	if articleID, ok := articleRedirects[url]; ok {
-		return articleID
-	}
-	return -1
+	return articleRedirects[url]
 }
 
 func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
@@ -119,7 +115,7 @@ func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	}
 
 	redirectArticleID := getRedirectArticleID(uri)
-	if redirectArticleID == -1 {
+	if redirectArticleID == "" {
 		return false
 	}
 	article := store.GetArticleByID(redirectArticleID)
