@@ -2,15 +2,13 @@ Id: wOYk
 Title: Advanced command execution with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-12T05:03:31Z
+Date: 2017-06-12T06:26:31Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 
 ## Running a command and capturing the output
 
 Here's the simplest way to run `ls -lah` and capture its combined stdout/stderr.
-
-[https://github.com/kjk/go-cookbook/blob/master/advanced-exec/01-simple-exec.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/01-simple-exec.go):
 
 ```go
 func main() {
@@ -23,11 +21,11 @@ func main() {
 }
 ```
 
+Full example: [advanced-exec/01-simple-exec.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/01-simple-exec.go).
+
 ## Capture stdout and stderr separately
 
 What if you want to do the same but capture stdout and stderr separately?
-
-[https://github.com/kjk/go-cookbook/blob/master/advanced-exec/02-capture-stdout-stderr.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/02-capture-stdout-stderr.go):
 
 ```go
 func main() {
@@ -44,13 +42,13 @@ func main() {
 }
 ```
 
+Full example: [advanced-exec/02-capture-stdout-stderr.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/02-capture-stdout-stderr.go).
+
 ## Capture output but also show progress
 
 What if the command takes a long time to finish? It would be nice to both capture stdout/stderr but also show the output of the program as it being generated (as opposed to dumping it at the very end).
 
 It's a little bit more involved, but not terribly so.
-
-[https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture.go) :
 
 ```go
 func copyAndCapture(w io.Writer, r io.Reader) []byte {
@@ -94,11 +92,11 @@ func main() {
 }
 ```
 
+Full example: [advanced-exec/03-live-progress-and-capture.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture.go).
+
 ## Capture output but also show progress #2
 
 Previous solution works but `copyAndCapture` looks like we're re-implementing `io.Copy` . Thanks to Go interfaces we can re-use `io.Copy` . We'll write `CapturingPassThroughWriter` struct implementing `io.Writer` interface. It'll capture everything that's written to it and also write it to underlying `io.Writer` . Possibly `CapturingPassThroughWriter` can be used in other contexts.
-
-[https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-live-progress-and-capture-v2.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-live-progress-and-capture-v2.go) :
 
 ```go
 / CapturingPassThroughWriter is a writer that remembers
@@ -153,6 +151,8 @@ func main() {
 }
 ```
 
+Full example: [advanced-exec/04-live-progress-and-capture-v2.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-live-progress-and-capture-v2.go).
+
 ## Changing environment of executed program
 
 Things you need to know about using of environment variables in Go:
@@ -162,7 +162,6 @@ Things you need to know about using of environment variables in Go:
 Sometimes you need to modify the environment of the executed program.
 
 You do it by setting `Env` member of `exec.Cmd` in the same format as `os.Environ()`. Usually you don't want to construct a completely new environment but pass your own environment augmented with more variables:
-
 
 ```go
 	cmd := exec.Command("programToExecute")
@@ -176,19 +175,19 @@ You do it by setting `Env` member of `exec.Cmd` in the same format as `os.Enviro
 	fmt.Printf("%s", out)
 ```
 
-Complete example: [https://github.com/kjk/go-cookbook/blob/master/advanced-exec/06-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/06-change-environment.go)
+Full example: [advanced-exec/06-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/06-change-environment.go).
 
 
 ## Check early that a program is installed
 
-Imagine you wrote a program that takes a long time to run and calls `foo` executable at the end to perform some essential task.
+Imagine you wrote a program that takes a long time to run. You call `foo` executable at the end to perform some essential task.
 
 If `foo` executable is not present on your computer, the call will fail.
 
-It's a good idea to check that the program is available at the start so that the user doesn't have to wait a long time to find out that your program failed.
+It's a good idea to detect that at the beginning of the program, not after doing a lot of work.
 
-You can do it using `exec.LookPath` .
-[https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-check-exe-exists.go):
+
+You can do it using `exec.LookPath`.
 
 ```go
 func checkLsExists() {
@@ -201,6 +200,8 @@ func checkLsExists() {
 }
 ```
 
-In real program you would call it at the beginning. If the program couldn't be found you would inform the user with descriptive error message and exit
+Full example: [advanced-exec/05-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-check-exe-exists.go).
+
+In a real program you would call it at the beginning. If the program couldn't be found you would inform the user with descriptive error message and exit
 
 Another way to check if program exists is to try to execute in a no-op mode (e.g. many programs support `--help` option).
