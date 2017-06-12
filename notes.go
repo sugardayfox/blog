@@ -406,9 +406,18 @@ func readNotes(path string) error {
 		notesWeekStarts = append(notesWeekStarts, day)
 	}
 	sort.Strings(notesWeekStarts)
+	reverseStringArray(notesWeekStarts)
 	fmt.Printf("Read %d daily logs\n", len(notesDays))
 	fmt.Printf("notesWeekStarts: %v\n", notesWeekStarts)
 	return scanner.Err()
+}
+
+func reverseStringArray(a []string) {
+	n := len(a) / 2
+	for i := 0; i < n; i++ {
+		end := len(a) - i - 1
+		a[i], a[end] = a[end], a[i]
+	}
 }
 
 // given time, return time on start of week (monday)

@@ -260,6 +260,7 @@ var (
 		"/archives/2006/04/08/bloglines-vs-newsgator/": true,
 		"/.git/HEAD":                                   true,
 		"/setup":                                       true,
+		"/plus/mytag_js.php":                           true,
 	}
 )
 

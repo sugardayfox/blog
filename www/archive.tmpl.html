@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="robots" content="noindex">
+  <link href="/css/main.css" type="text/css" rel="stylesheet">
+  <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
+
+  <title>All articles</title>
+  <style>
+    #arc {
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    #arc th {
+      padding: 0 1.75em 0 0;
+      vertical-align: baseline;
+      text-align: right;
+    }
+
+    .year th {
+      color: black;
+    }
+  </style>
+
+  <script type="text/javascript">
+    {{template "tagcloud.tmpl.js"}}
+
+    function articlesJsonLoaded(articlesJson) {
+      articles_json = articlesJson;
+      var html = genTagCloudHtml2();
+      $('#tagCloud').innerHTML = html;
+    }
+  </script>
+
+</head>
+
+<body>
+  {{template "page_navbar.tmpl.html"}}
+
+  <div id="content" style="clear:both;line-height:1.50; margin-top: 18px; margin-left: 18pt; margin-right: 18pt;">
+
+    <p><a href="/">Home</a> : {{.PostsCount}} articles</p>
+
+    <div style="float: right; margin-right: 12px; margin-left: 12px; font-size: 80%; border: 1px solid #CCC; padding: 6px 12px;">
+      <div class="sidebarhdr">Topics:</div>
+      <div style="max-width:180px">
+        <span id="tagCloud"></span>
+      </div>
+    </div>
+
+    <table id="arc">
+      {{range .Years}}
+      <tr class="year">
+        <th colspan="2" style="text-align: left">{{ .Name }}</th>
+      </tr>
+      {{range .Articles}}
+      <tr>
+        <td style="color:gray; text-align:right; vertical-align: middle; font-size:80%; padding-right:8px; padding-left:8px" nowrap>{{ .DisplayMonth }}</td>
+        <td style="padding-top:2px">
+          <a href="/{{.Permalink}}">{{.DisplayTitle}}</a> {{if .TagsDisplay}}
+          <span style="font-size:80%">
+            <span class="taglink">in:</span> {{.TagsDisplay}}
+          </span>
+          {{end}}
+        </td>
+      </tr>
+      {{end}}
+      {{end}}
+    </table>
+    <br>
+
+  </div>
+  <p style="clear:both"></p>
+  <br>
+  <hr>
+  <center><a href="/">Krzysztof Kowalczyk</a></center>
+  <br>
+  <script charset="utf-8" type="text/javascript" src="{{.ArticlesJsURL}}"></script>
+  {{template "analytics.tmpl.html" .}}
+
+</body>
+
+</html>

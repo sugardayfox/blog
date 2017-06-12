@@ -1,3 +1,58 @@
+2017-06-11
+Id: b4uufok4qnvg00eh2kbg
+#read #paypal #payments #seo #upwork
+
+https://fman.io/blog/paypal-for-saas-99-problems/ describes using PayPal for implementing subscriptions for desktop software. Discussion: http://discuss.bootstrapped.fm/t/my-experiences-with-paypal-for-saas/5073/9
+
+http://discuss.bootstrapped.fm/t/is-anyone-paying-for-seo-help-how-do-you-find-someone-who-is-doing-it-the-right-way-and-getting-results/1630/22 has seo tips for a specific site, but the advice would work for many others.
+
+http://discuss.bootstrapped.fm/t/frustrated-with-upwork-etc-anyone-had-any-success/4550/9 : tips on how to hire people on upwork and similar sites. Also https://baremetrics.com/blog/startup-guide-to-hiring-remote-customer-support
+
+---
+Id: b4uufr44qnvg00eh2kc0
+Title: Idea for GUI version of tig
+#idea
+
+Write a Mac and/or Windows GUI version of tig (https://github.com/jonas/tig). Tig has 4.5k stars on github, which implies a significant interest.
+
+It could be implemented in JavaScript/HTML. It could have a web version that allows browsing any github repository and on desktop it could be done as Electron.
+
+Or it could be done with https://sciter.com/. Or Winforms on Windows and Swift/Cocoa on Mac.
+
+---
+Id: b4uuftk4qnvg00eh2kd0
+
+#idea #pdf
+
+A website that allows comparing of poppler vs. mupdf vs. pdfium rendering. Upload a PDF, render each page in each engine in both native size and down-scaled to a reasonably sized thumbnail for overview. The baisc layout would be:
+
+[page 1 mupdf] [page 1 pdfium] [page 1 poppler]
+[page 2 mupdf] [page 2 pdfium] [page 2 poppler]
+...
+
+Then one could click on the thumbnail to see comparison of the native size.
+
+Bonus feature: some type of overlay comparison.
+
+---
+Id: b4uufvs4qnvg00eh2kdg
+#idea #pdf
+
+Write a tool to extract text from PDF files.
+
+Upload the file and get text in plain text file and json (augmented with position information) and maybe even xml.
+
+Limit size of PDF files. Upsell to $19 mac/windows. Write a command-line tool, maybe even open-sources, also upsell GUI version.
+
+---
+Id: b4uuffk4qnvg00eh2kb0
+#did
+* add Id: and Tag: to https://quicknotes.io when exporting /raw/n raw note
+* posted https://www.indiehackers.com/forum/post/-KmAWdcuUKZ0d3WjQTw1?commentId=-KmODyuvCnN_0ibCoIe-
+* updated https://github.com/sumatrapdfreader/sumatrapdf/wiki to point to sumatra website, not notion
+* posted https://news.ycombinator.com/item?id=14534154
+* posted https://news.ycombinator.com/item?id=14534161
+
 2017-06-10
 
 Id: b4u68hcvj43jdajdsuo0

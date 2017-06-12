@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    {{ template "page_navbar.html" . }}
+    {{ template "page_navbar.tmpl.html" . }}
 
     <div id="content">
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
@@ -18,7 +18,7 @@
             </div>
 
             <p>
-            Unique id: <span style="font-weight: bold">{{.UniqueID}}</span> <span style="color:lightgray">(reload the page to get another one)</span>
+                Unique id: <span style="font-weight: bold">{{.UniqueID}}</span> <span style="color:lightgray">(reload the page to get another one)</span>
             </p>
 
             <p>
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    {{ template "analytics.html" . }}
+    {{ template "analytics.tmpl.html" . }}
 </body>
 
 </html>

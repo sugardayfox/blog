@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>{{ .PageTitle }}</title>
+    <title>{{.PageTitle}}</title>
 
     <link rel="alternate" type="application/atom+xml" title="RSS 2.0" href="/atom.xml">
     <link href="/css/main.css" type="text/css" rel="stylesheet">
@@ -11,73 +11,75 @@
     <script src="/js/highlight.js"></script>
 
     <script>
-        {{ template "tagcloud.js" }}
+        {{ template "tagcloud.tmpl.js" }}
 
         hljs.initHighlightingOnLoad();
+
         function articlesJsonLoaded(articlesJson) {
             articles_json = articlesJson;
             /* no need to do anything */
         }
     </script>
 
-    {{ if .Reload }}
+    {{if .Reload}}
     <script>
         var ws = new WebSocket('ws://' + location.host + '/ws');
-        ws.onopen = function(event) {
+        ws.onopen = function (event) {
             ws.send(location.pathname.substr(1));
         };
-        ws.onclose = function(event) {
+        ws.onclose = function (event) {
             location.reload();
         };
-        ws.onmessage = function(event) {
+        ws.onmessage = function (event) {
             location.reload();
         };
-        ws.onerror = function(event) {
+        ws.onerror = function (event) {
             location.reload();
         };
     </script>
-    {{ end }}
+    {{end}}
 
 </head>
 
 <body>
 
-    {{ template "page_navbar.html" . }}
+    {{ template "page_navbar.tmpl.html" . }}
 
     <div id="content">
 
         <div id="post" style="margin-left:auto;margin-right:auto;margin-top:2em;">
             <div class="title">
-                <a href="/">Home</a> / {{ .Article.Title }}
+                <a href="/">Home</a> / {{.Article.Title}}
             </div>
 
 
             <div style="margin-right:48px">
-                {{ .Article.HTMLBody }}
+                {{.Article.HTMLBody}}
             </div>
 
             <hr>
 
-            <div class="postmeta">Written on {{ .Article.PublishedOnShort }}{{ if .Article.TagsDisplay }}. Topics: {{ .Article.TagsDisplay }} {{ end }}
+            <div class="postmeta">Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}} {{end}}
             </div>
 
             <p></p>
             <div class="nav-prev-next">
                 <div>
                     {{if .NextArticle}}
-                    <a title="{{ .NextArticle.Title }}" href="/{{ .NextArticle.Permalink }}">« {{ .NextArticle.Title }}</a> {{ end }}
+                    <a title="{{.NextArticle.Title}}" href="/{{.NextArticle.Permalink}}">« {{.NextArticle.Title}}</a>{{end}}
                 </div>
                 <div>
-                    {{if .PrevArticle }}
-                    <a title="{{ .PrevArticle.Title }}" href="/{{ .PrevArticle.Permalink }}">{{ .PrevArticle.Title }} »</a> {{ end }}
+                    {{if .PrevArticle}}
+                    <a title="{{.PrevArticle.Title}}" href="/{{.PrevArticle.Permalink}}">{{.PrevArticle.Title}} »</a>{{end}}
                 </div>
             </div>
         </div>
     </div>
 
-    {{ template "analytics.html" . }}
+    {{ template "analytics.tmpl.html" . }}
 
     <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsURL }}">
+
     </script>
 
 </body>

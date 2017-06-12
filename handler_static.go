@@ -121,7 +121,22 @@ func handleStatic(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	file := r.URL.Path[len("/static/"):]
-	serveFileFromDir(w, r, getStaticDir(), file)
+	path := filepath.Join(getStaticDir(), file)
+	if u.FileExists(path) {
+		serveFileFromDir(w, r, getStaticDir(), file)
+		return
+	}
+	// for foo.html try foo.tmpl.html
+	ext := strings.ToLower(filepath.Ext(file))
+	n := len(file)
+	fileBase := file[:n-len(ext)]
+	file = fileBase + ".tmpl" + ext
+	path = filepath.Join(getStaticDir(), file)
+	if u.FileExists(path) {
+		serveTemplate(w, file, nil)
+		return
+	}
+	serve404(w, r)
 }
 
 // url: /css/*
