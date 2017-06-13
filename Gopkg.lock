@@ -53,7 +53,7 @@
   branch = "master"
   name = "github.com/kjk/u"
   packages = ["."]
-  revision = "672f1d477509cc730e44ba1bdc2c03c6477b6001"
+  revision = "cf067a14a6284457c0dde1d819195da6b4d3224f"
 
 [[projects]]
   branch = "master"
@@ -80,6 +80,12 @@
   version = "v1.1.0"
 
 [[projects]]
+  name = "github.com/oklog/ulid"
+  packages = ["."]
+  revision = "d311cb43c92434ec4072dfbbda3400741d0a6337"
+  version = "v0.3.0"
+
+[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
@@ -102,6 +108,12 @@
   name = "github.com/russross/blackfriday"
   packages = ["."]
   revision = "067529f716f4c3f5e37c8c95ddd59df1007290ae"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/segmentio/ksuid"
+  packages = ["."]
+  revision = "6995043403f1e607c942d38e231f8b45d773617e"
 
 [[projects]]
   branch = "master"
@@ -148,6 +160,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c25df022f8c38766095c83e26931a042adf5968b6bd1a47bcb2d0fa5ce9d549c"
+  inputs-digest = "5654e0c7dead4ac56e3e3c9270625407033a0025bf9b618daa07ecf7cd67a86e"
   solver-name = "gps-cdcl"
   solver-version = 1

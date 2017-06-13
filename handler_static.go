@@ -1,12 +1,16 @@
 package main
 
 import (
+	"math/rand"
 	"net/http"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/kjk/u"
+	"github.com/oklog/ulid"
 	"github.com/rs/xid"
+	"github.com/segmentio/ksuid"
 )
 
 func getWwwDir() string {
@@ -211,12 +215,22 @@ func handleArticles(w http.ResponseWriter, r *http.Request) {
 
 // url: /tools/generate-unique-id
 func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
-	id := xid.New()
+	idXid := xid.New()
+	idKsuid := ksuid.New()
+
+	t := time.Unix(1000000, 0)
+	entropy := rand.New(rand.NewSource(t.UnixNano()))
+	idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
+
 	model := struct {
-		UniqueID      string
+		UniqueIDXid   string
+		UniqueIDKsuid string
+		UniqueIDUlid  string
 		AnalyticsCode string
 	}{
-		UniqueID:      id.String(),
+		UniqueIDXid:   idXid.String(),
+		UniqueIDKsuid: idKsuid.String(),
+		UniqueIDUlid:  idUlid.String(),
 		AnalyticsCode: analyticsCode,
 	}
 	serveTemplate(w, tmplGenerateUniqueID, model)
