@@ -1,4 +1,76 @@
 2017-06-12
+
+Id: b4uug944qnvg00eh2keg
+#go #rants
+
+There's a famous quote "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.".
+
+I've never seen anyone disagree with that and yet Go, the only language that takes this principle seriously, is visciously denigrated because it didn't add all those features that could possibly be added. Generics, fancy type system, optionals, non-nullable types, unions, exceptions.
+
+I think it shows that most people don't really understand the quote. They think that the opposite is "don't add unnecessary features" and who would be in favor of unnecessary features?
+
+But what the quote is really saying is: "you should resist adding features, even though they are useful; their cost is additional complexity and you should strive to keep complexity to minimum while still providing core value".
+
+It's easy to agree with such a sentiment in abstract but when you start talking about concrete features, this wisdom suddenly disappears.
+
+Features sell. The value of a feature is easy to visualise, the value of simplicity due to lack of the feature is not.
+
+---
+
+Id: b4vdfhg1n8a000c8qrtg
+#idea Write windows desktop app like https://github.com/soheilpro/mon. Do it either the hard way (pure win32) or C# or sciter.
+
+---
+
+Id: b4vksu78m63000aqbjo0
+Title: Summary of "Sell to Strangers" video about content marketing
+
+#seo
+
+Summary of "Sell to Strangers" 20 min video about content marketing (https://audienceops.com/resources/videos/sell-to-strangers/).
+
+TOFU: Top of Funnel conent is how you attract users first e.g. social posts or blog articles.
+
+MOFU: Middle of Funnel content helps people understand what your product does e.g. customer case study articles or e-mail blast sequences.
+
+BOFU: Bottom Of Funnel assets help people make buying decision e.g. pricing page, faq, free samples, sales demo.
+
+BOFU is something you must have to sell a product.
+
+In order to grow the business, you need more TOFU and MOFU content to drive new people to your website.
+
+5 essential content assets:
+
+  1. Evergreen articles
+  2. Lead Magnets
+  3. Emails
+  4. Case Studies
+  5. Social Media posts
+
+Evergreen articles: blog posts, books etc. that provide value now and in the future.
+
+Lead magnets are articles meant to incentivize people to sign up to your mailing list.
+
+2 types of lead magnets:
+
+1. Content Upgrade : bonus content (e.g. delivered as PDF) attached to evergreen article. Visitor has to provide mailing list to receive bonus content.
+
+2. Global Lead Magnet : longer assets (e.g. an e-book or e-mail drip course) that you can promote independently.
+
+Email tips:
+* within first 2 weeks send optimized drip e-mail campaign to new subscribers
+* consistent follow up: send weekly follow up newsletters to stay top-of-mind
+* repurpose content: re-use articles as e-mail content
+* make emails plain text and personalize them
+
+Case studies: like testimonials, they provide social proof that your product works.
+
+Tweet and use facebook posts to promote your content on social channels.
+
+You can promote your evergreen articles as re-targeted ads on Facebook.
+
+---
+
 Id: b4vgfsg1n8a000c8qrvg
 #flexbox #css
 Title: Flexbox summary.
@@ -49,6 +121,14 @@ Flexbox links:
 * https://codepen.io/enxaneta/full/adLPwv/ : visual showcase of flexbox properties
 * https://css-tricks.com/flex-grow-is-weird/
 * https://flexbox.io/ : 20 video tutorials, from beginning to some advanced layouts
+
+---
+
+Id: b4vlaqf8m63000aqbjog
+#did
+* posted https://www.reddit.com/r/golang/comments/6gtt61/advanced_command_execution_in_go_with_osexec/
+* tweaked blog css to be readable on mobile. Still not great on my Nexus 5. I suck at CSS.
+* https://audienceops.com/resources/videos/sell-to-strangers/ #watched
 
 2017-06-11
 Id: b4uufok4qnvg00eh2kbg
