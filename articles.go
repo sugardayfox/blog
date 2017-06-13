@@ -195,11 +195,13 @@ func readArticle(path string) (*Article, error) {
 				return nil, fmt.Errorf("%q is not a valid format", v)
 			}
 			a.Format = f
-		case "date":
+		case "date", "createdat":
 			a.PublishedOn, err = parseDate(v)
 			if err != nil {
 				return nil, fmt.Errorf("%q is not a valid date", v)
 			}
+		case "updatedat":
+		// do nothing
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
