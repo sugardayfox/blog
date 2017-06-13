@@ -2,7 +2,7 @@ Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-12T07:23:02Z
+Date: 2017-06-13T02:02:09Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 
@@ -46,7 +46,10 @@ Full example: [advanced-exec/02-capture-stdout-stderr.go](https://github.com/kjk
 
 ## Capture output but also show progress
 
-What if the command takes a long time to finish? It would be nice to both capture stdout/stderr but also show the output of the program as it being generated (as opposed to dumping it at the very end).
+What if the command takes a long time to finish?
+
+It would be nice to see its progress on the console as it happens in addition to capturing stdout/stderr.
+
 
 It's a little bit more involved, but not terribly so.
 
@@ -56,19 +59,22 @@ func copyAndCapture(w io.Writer, r io.Reader) ([]byte, error) {
 	buf := make([]byte, 1024, 1024)
 	for {
 		n, err := r.Read(buf[:])
-		if err != nil {
-			break
-		}
 		if n > 0 {
 			d := buf[:n]
 			out = append(out, d...)
 			os.Stdout.Write(d)
 		}
+		if err != nil {
+			// Read returns io.EOF at the end of file, which is not an error for us
+			if err == io.EOF {
+				err = nil
+			}
+			return out, err
+		}
 	}
-	if err == io.EOF {
-		err = nil
-	}
-	return out, err
+	// never reached
+	panic(true)
+	return nil, nil
 }
 
 func main() {
@@ -99,11 +105,13 @@ func main() {
 }
 ```
 
-Full example: [advanced-exec/03-live-progress-and-capture.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture.go).
+Full example: [advanced-exec/03-live-progress-and-capture-v1.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture-v1.go).
 
 ## Capture output but also show progress #2
 
-Previous solution works but `copyAndCapture` looks like we're re-implementing `io.Copy` . Thanks to Go interfaces we can re-use `io.Copy` . We'll write `CapturingPassThroughWriter` struct implementing `io.Writer` interface. It'll capture everything that's written to it and also write it to underlying `io.Writer` . Possibly `CapturingPassThroughWriter` can be used in other contexts.
+Previous solution works but `copyAndCapture` looks like we're re-implementing `io.Copy`. Thanks to Go's use of interfaces we can re-use `io.Copy`.
+
+We'll write `CapturingPassThroughWriter` struct implementing `io.Writer` interface. It'll capture everything that's written to it and also write it to underlying `io.Writer`.
 
 ```go
 / CapturingPassThroughWriter is a writer that remembers
@@ -131,6 +139,7 @@ func (w *CapturingPassThroughWriter) Bytes() []byte {
 }
 
 func main() {
+	var errStdout, errStderr error
 	cmd := exec.Command("ls", "-lah")
 	stdoutIn, _ := cmd.StdoutPipe()
 	stderrIn, _ := cmd.StderrPipe()
@@ -141,13 +150,12 @@ func main() {
 		log.Fatalf("cmd.Start() failed with '%s'\n", err)
 	}
 
-	var errStdout, errStderr error
 	go func() {
-		errStdout = io.Copy(stdout, stdoutIn)
+		_, errStdout = io.Copy(stdout, stdoutIn)
 	}()
 
 	go func() {
-		errStderr = io.Copy(stderr, stderrIn)
+		_, errStderr = io.Copy(stderr, stderrIn)
 	}()
 
 	err = cmd.Wait()
@@ -162,7 +170,55 @@ func main() {
 }
 ```
 
-Full example: [advanced-exec/04-live-progress-and-capture-v2.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-live-progress-and-capture-v2.go).
+Full example: [advanced-exec/03-live-progress-and-capture-v2.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture-v2.go).
+
+## Capture output but also show progress #3
+
+
+Turns out Go's standard library implements [io.MultiWriter](https://golang.org/pkg/io/#MultiWriter), which is more generic version of `CapturingPassThroughWriter`. Let's use that instead:
+
+
+```go
+func main() {
+	var stdoutBuf, stderrBuf bytes.Buffer
+	cmd := exec.Command("ls", "-lah")
+
+	stdoutIn, _ := cmd.StdoutPipe()
+	stderrIn, _ := cmd.StderrPipe()
+
+	var errStdout, errStderr error
+	stdout := io.MultiWriter(os.Stdout, &stdoutBuf)
+	stderr := io.MultiWriter(os.Stderr, &stderrBuf)
+	err := cmd.Start()
+	if err != nil {
+		log.Fatalf("cmd.Start() failed with '%s'\n", err)
+	}
+
+	go func() {
+		_, errStdout = io.Copy(stdout, stdoutIn)
+	}()
+
+	go func() {
+		_, errStderr = io.Copy(stderr, stderrIn)
+	}()
+
+	err = cmd.Wait()
+	if err != nil {
+		log.Fatalf("cmd.Run() failed with %s\n", err)
+	}
+	if errStdout != nil || errStderr != nil {
+		log.Fatal("failed to capture stdout or stderr\n")
+	}
+	outStr, errStr := string(stdoutBuf.Bytes()), string(stderrBuf.Bytes())
+	fmt.Printf("\nout:\n%s\nerr:\n%s\n", outStr, errStr)
+
+}
+```
+
+Full example: [advanced-exec/03-live-progress-and-capture-v3.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture-v3.go).
+
+It's good to be able to write the code ourselves, but it's even better to know standard library well!
+
 
 ## Changing environment of executed program
 
@@ -186,7 +242,7 @@ You do it by setting `Env` member of `exec.Cmd` in the same format as `os.Enviro
 	fmt.Printf("%s", out)
 ```
 
-Full example: [advanced-exec/06-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/06-change-environment.go).
+Full example: [advanced-exec/05-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-change-environment.go).
 
 
 ## Check early that a program is installed
@@ -211,7 +267,7 @@ func checkLsExists() {
 }
 ```
 
-Full example: [advanced-exec/05-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-check-exe-exists.go).
+Full example: [advanced-exec/04-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-check-exe-exists.go).
 
 In a real program you would call it at the beginning. If the program couldn't be found you would inform the user with descriptive error message and exit
 
