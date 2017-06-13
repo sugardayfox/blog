@@ -2,7 +2,7 @@
 set -u -e -o pipefail
 
 if [[ $# -eq 0 ]]; then
-    echo "usage: ./scripts/newarticle.sh <title>"
+    echo "usage: ./s/newarticle.sh <title>"
     exit 1
 fi
 

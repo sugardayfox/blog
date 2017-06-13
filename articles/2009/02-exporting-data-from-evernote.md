@@ -11,7 +11,7 @@ additional benefit of my notes being published on the web, hopefully for
 the benefit of others as well.
 
 There was a problem of existing EverNote notes so I wrote [this python
-script](http://github.com/kjk/web-blog/blob/6a5161d2a362f2b4a35688235f9d00445f7f7f23/scripts/evernote-to-file.py)
+script](http://github.com/kjk/blog/blob/6a5161d2a362f2b4a35688235f9d00445f7f7f23/scripts/evernote-to-file.py)
 to extract the notes and then import them as posts to this site.
 
 It was surprisingly easy: the script is less than 150 lines of python.
