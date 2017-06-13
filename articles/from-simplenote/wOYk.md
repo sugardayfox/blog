@@ -2,7 +2,7 @@ Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-13T02:02:09Z
+Date: 2017-06-13T02:13:06Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 
@@ -243,6 +243,8 @@ You do it by setting `Env` member of `exec.Cmd` in the same format as `os.Enviro
 ```
 
 Full example: [advanced-exec/05-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-change-environment.go).
+
+Package [shurcooL/go/osutil](https://godoc.org/github.com/shurcooL/go/osutil#Environ) offers slightly more civilized way of manipulating environment variables.
 
 
 ## Check early that a program is installed
