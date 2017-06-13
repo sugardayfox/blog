@@ -52,17 +52,22 @@
                 <a href="/">Home</a> / {{.Article.Title}}
             </div>
 
-
             <div style="margin-right:48px">
                 {{.Article.HTMLBody}}
             </div>
 
             <div class="postmeta"></div>
 
-            <hr>
 
-            <div class="postmeta">Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}. Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>
+            <div class="postmeta" style="display:flex">
+                <div>
+                    Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}.
+                </div>
+                <div style="margin-left:auto">
+                    Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
+                 </div>
             </div>
+            <hr>
 
             <p></p>
             <div class="nav-prev-next">

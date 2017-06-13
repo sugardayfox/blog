@@ -26,6 +26,7 @@ Properties of flex items:
 Example layouts:
 
 1. [ [left]     [right]]
+
 div display:flex
   div
     left
@@ -33,6 +34,15 @@ div display:flex
     right
 
 margin-left will push [right] all the way to the right.
+
+2. the same as in 1, but using justify-content: space-between
+
+div style=display:flex; justify-content: space-between;
+  div
+    left
+  div
+    right
+
 
 Flexbox links:
 * https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b
@@ -301,19 +311,6 @@ How to use systemd socket activation for for zero-downtime deployments
 
 Id: b4u66ksvj43jdajdsuig
 #read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
-
----
-Id: b4u66ccvj43jdajdsuhg
-
-#flexbox #css
-
-To implement layout: [[left]     [right]]:
-
-div style=display:flex;flex-direction: row;justify-content: space-between;
-  div
-    left
-  div
-    right
 
 ---
 Id: b4u66asvj43jdajdsuh0

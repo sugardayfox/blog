@@ -2,7 +2,7 @@ Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-13T02:13:06Z
+Date: 2017-06-13T02:25:19Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 
@@ -249,12 +249,11 @@ Package [shurcooL/go/osutil](https://godoc.org/github.com/shurcooL/go/osutil#Env
 
 ## Check early that a program is installed
 
-Imagine you wrote a program that takes a long time to run. You call `foo` executable at the end to perform some essential task.
+Imagine you wrote a program that takes a long time to run. You call executable `foo` at the end to perform some essential task.
 
-If `foo` executable is not present on your computer, the call will fail.
+If `foo` executable is not present, the call will fail.
 
-It's a good idea to detect that at the beginning of the program, not after doing a lot of work.
-
+It's a good idea to detect that at the beginning of the program and fail early with descriptive error message.
 
 You can do it using `exec.LookPath`.
 
@@ -270,7 +269,5 @@ func checkLsExists() {
 ```
 
 Full example: [advanced-exec/04-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-check-exe-exists.go).
-
-In a real program you would call it at the beginning. If the program couldn't be found you would inform the user with descriptive error message and exit
 
 Another way to check if program exists is to try to execute in a no-op mode (e.g. many programs support `--help` option).
