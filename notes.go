@@ -377,11 +377,13 @@ func readNotes(path string) error {
 		}
 	}
 
+	nNotes := 0
 	// update date and id on notes
 	for _, day := range notesDays {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
 		for _, note := range day.Notes {
+			nNotes++
 			id := note.ID
 			u.PanicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)
 			notesIDToNote[id] = note
@@ -407,8 +409,7 @@ func readNotes(path string) error {
 	}
 	sort.Strings(notesWeekStarts)
 	reverseStringArray(notesWeekStarts)
-	fmt.Printf("Read %d daily logs\n", len(notesDays))
-	fmt.Printf("notesWeekStarts: %v\n", notesWeekStarts)
+	fmt.Printf("Read %d notes in %d days and %d weeks\n", nNotes, len(notesDays), len(notesWeekStarts))
 	return scanner.Err()
 }
 

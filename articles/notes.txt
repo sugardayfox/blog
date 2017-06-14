@@ -1,5 +1,123 @@
 2017-06-13
 
+Id: b5057b05bmm000eh92kg
+#did
+* working on link checker using https://github.com/knq/chromedp. Failure becuse couldn't tell 404 from 200 using their API
+
+---
+Id: b5057u85bmm000eh92l0
+
+#cdp #chrome
+
+Chrome dev tools protocol resources:
+* https://github.com/ChromeDevTools/awesome-chrome-devtools
+* https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
+* https://chromedevtools.github.io/devtools-protocol/
+* https://developers.google.com/web/updates/2017/04/headless-chrome
+
+Go libraries:
+* https://github.com/mafredri/cdp : most high-level
+* https://github.com/raff/godet : low-level
+* https://github.com/wirepair/gcd : low-level
+
+---
+Id: b5064105bmm000eh92pg
+
+Website/uptime monitoring:
+* https://www.site24x7.com $9 for 10 monitors
+* https://www.pingdom.com $11 for 10 checks
+* https://www.statuscake.com, free plan with unclear limits, $25 for 50 tests
+* https://uptimerobot.com, free plan 50 checks, additional 50 checks for $4.5 (decreases with scale)
+* https://newrelic.com
+
+---
+Id: b5080e85bmm000eh92q0
+
+#idea
+
+Write a simple source code indexer for C++ code. Use it for Sumatra code.
+Others:
+* http://free-electrons.com/blog/elixir/
+* https://sourceforge.net/projects/lxr/
+* https://github.com/OpenGrok/OpenGrok (java)
+* https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/
+
+Combines searching with browsing.
+
+---
+
+Id: b509a385bmm000eh92qg
+#adsense
+
+Some notes on using adsense well: https://www.reddit.com/r/Entrepreneur/comments/6gveyw/ive_seen_a_lot_of_google_adwords_posts_that_lack/
+
+---
+
+Id: b50ab985bmm000eh92tg
+#webdev #javascript
+
+https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications
+
+FileReader
+  event handlers:
+    onloadstart
+    onprogress
+    onloadend : failure or success
+    onload : on success, (evt) => { evt.target.result is the data }
+    onabort
+    onerror
+  methods
+    abort
+    readAsArrayBuffer : result will be ArrayBuffer
+    readAsBinaryString : result will be binary data as string
+    readAsDataURL : result will be data: URL
+    readAsText : result will be content as string
+
+---
+Id: b50apto5bmm000eh92u0
+#idea
+
+Build a GUI version of https://github.com/johnkerl/miller
+
+The weakness of such cmd-line tools is that they require writing of the whole sequence of operations up-front. There are 3 problems with that:
+* the syntax is rather arcane
+* the user doesn't see the data he's operating on
+* mistakes are costly i.e. changing the operations has to redo all computation from scratch
+
+A better approach is to allow humans multi-step refinements of data in a UI that shows the preview of the operations.
+
+For example, the operation:
+
+$ mlr --icsv --opprint --barred \
+  put '$tiv_delta = $tiv_2012 - $tiv_2011; unset $tiv_2011, $tiv_2012' \
+  then sort -nr tiv_delta flins.csv
+
+Would be done as sequence of steps.
+> load flins.csv
+$1: 215 records
+show first 10 records + headers
+
+> add tiv_delta = $tiv_2012 - $tiv_2011
+$2: 215 records
+... 10 record preview
+
+> remove tiv_2011 tiv_2012
+$3: 215 records
+... 10 record preview
+
+> sort by tiv_delta
+$4: 215 records
+... 10 record preview
+
+> save flins_sorted.csv
+
+"add", "remove", "sort by", "save" are operations that work on list of records.
+If argument is not provided, it's implicitly the last result.
+The argument can be explicilty provided e.g.:
+> $2 save flins_sorted_2.csv
+
+---
+
 Id: b4vod3f8m63000aqbjpg
 #seo
 https://inside.6q.io/blogging-for-startups/ is a case study of attracting website traffic by writing blog posts.

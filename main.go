@@ -295,7 +295,9 @@ func main() {
 		httpsSrv.Shutdown(nil)
 	}
 	if httpSrv != nil {
-		httpSrv.Shutdown(nil)
+		ctx := context.Background()
+		// Shutdown() needs a non-nil context
+		httpSrv.Shutdown(ctx)
 	}
 	wg.Wait()
 	analyticsClose()
