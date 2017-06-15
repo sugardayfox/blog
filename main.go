@@ -291,11 +291,11 @@ func main() {
 	signal.Notify(c, os.Interrupt /* SIGINT */, syscall.SIGTERM)
 	sig := <-c
 	fmt.Printf("Got signal %s\n", sig)
+	ctx := context.Background()
 	if httpsSrv != nil {
-		httpsSrv.Shutdown(nil)
+		httpsSrv.Shutdown(ctx)
 	}
 	if httpSrv != nil {
-		ctx := context.Background()
 		// Shutdown() needs a non-nil context
 		httpSrv.Shutdown(ctx)
 	}
