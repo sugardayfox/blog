@@ -27,6 +27,11 @@ func TestRemoveHashtags(t *testing.T) {
 			sExp: "not #found here",
 			tags: nil,
 		},
+		{
+			s:    "#foo   not a#hash",
+			sExp: "not a#hash",
+			tags: []string{"foo"},
+		},
 	}
 	for _, test := range tests {
 		sGot, tags := removeHashTags(test.s)

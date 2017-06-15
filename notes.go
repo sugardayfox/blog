@@ -127,7 +127,13 @@ func removeHashTags(s string) (string, []string) {
 		if idx == -1 {
 			return s, tags
 		}
+		// tag from the end must not have space after it
 		if -1 != findWordEnd(s, idx) {
+			return s, tags
+		}
+		// tag from the end must start at the beginning of line
+		// or be proceded by space
+		if idx > 0 && s[idx-1] != ' ' {
 			return s, tags
 		}
 		tags = append(tags, s[idx+1:])
