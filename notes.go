@@ -23,15 +23,21 @@ const (
 )
 
 var (
-	notesDays        []*notesForDay
-	notesTagsToNotes map[string][]*note
+	notesDays       []*notesForDay
+	notesTagToNotes map[string][]*note
 	// maps unique id of the note (from Id: ${id} metadata) to the note
-	notesIDToNote map[string]*note
+	notesIDToNote  map[string]*note
+	notesTagCounts []tagWithCount
 
 	notesWeekStartDayToNotes map[string][]*note
 	notesWeekStarts          []string
 	nTotalNotes              int
 )
+
+type tagWithCount struct {
+	Tag   string
+	Count int
+}
 
 type noteMetadata struct {
 	ID    string
@@ -58,6 +64,7 @@ type notesForDay struct {
 type modelNotesForWeek struct {
 	Notes         []*note
 	TotalNotes    int
+	TagCounts     []tagWithCount
 	WeekStartDay  string
 	NextWeek      string
 	PrevWeek      string
@@ -334,7 +341,7 @@ func linesToNotes(lines []string) []*note {
 }
 
 func readNotes(path string) error {
-	notesTagsToNotes = make(map[string][]*note)
+	notesTagToNotes = make(map[string][]*note)
 	notesWeekStartDayToNotes = make(map[string][]*note)
 	notesIDToNote = make(map[string]*note)
 	notesWeekStarts = nil
@@ -405,9 +412,9 @@ func readNotes(path string) error {
 				note.URL += "-" + urlify(note.Title)
 			}
 			for _, tag := range note.Tags {
-				a := notesTagsToNotes[tag]
+				a := notesTagToNotes[tag]
 				a = append(a, note)
-				notesTagsToNotes[tag] = a
+				notesTagToNotes[tag] = a
 			}
 			a := notesWeekStartDayToNotes[weekStartDay]
 			a = append(a, note)
@@ -417,6 +424,20 @@ func readNotes(path string) error {
 	for day := range notesWeekStartDayToNotes {
 		notesWeekStarts = append(notesWeekStarts, day)
 	}
+	var tags []string
+	for tag := range notesTagToNotes {
+		tags = append(tags, tag)
+	}
+	sort.Strings(tags)
+	for _, tag := range tags {
+		count := len(notesTagToNotes[tag])
+		tc := tagWithCount{
+			Tag:   tag,
+			Count: count,
+		}
+		notesTagCounts = append(notesTagCounts, tc)
+	}
+
 	sort.Strings(notesWeekStarts)
 	reverseStringArray(notesWeekStarts)
 	fmt.Printf("Read %d notes in %d days and %d weeks\n", nNotes, len(notesDays), len(notesWeekStarts))
@@ -449,6 +470,7 @@ func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
 	}
 	model := &modelNotesForWeek{
 		Notes:         notes,
+		TagCounts:     notesTagCounts,
 		TotalNotes:    nTotalNotes,
 		WeekStartDay:  weekStart,
 		AnalyticsCode: analyticsCode,
@@ -482,6 +504,7 @@ func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
 	}
 	model := &modelNotesForWeek{
 		Notes:         notes,
+		TagCounts:     notesTagCounts,
 		WeekStartDay:  weekStart,
 		NextWeek:      nextWeek,
 		PrevWeek:      prevWeek,
@@ -535,7 +558,7 @@ func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")
-	notes := notesTagsToNotes[tag]
+	notes := notesTagToNotes[tag]
 
 	if len(notes) == 0 {
 		serve404(w, r)
@@ -544,10 +567,12 @@ func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 
 	model := struct {
 		Notes         []*note
+		TagCounts     []tagWithCount
 		Tag           string
 		AnalyticsCode string
 	}{
 		Notes:         notes,
+		TagCounts:     notesTagCounts,
 		Tag:           tag,
 		AnalyticsCode: analyticsCode,
 	}

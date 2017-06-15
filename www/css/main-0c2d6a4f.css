@@ -264,6 +264,35 @@ a.taglink:hover {
     white-space: pre-wrap;
 }
 
+.notes-tag-list {
+    font-size: 8pt;
+    margin-top: -12px;
+    margin-bottom: 8px;
+    opacity: .6;
+}
+
+.notes-tag:after {
+    content: " \00b7 "; /* middot */
+}
+
+.notes-tag:last-child:after {
+    content: "";
+}
+
+.notes-tag-count {
+    color: #080;
+}
+
+.notes-tag-list a {
+    padding: 0px;
+    color: #080;
+    text-decoration: none;
+}
+
+.notes-tag-list a:hover {
+    text-decoration: underline;
+}
+
 .notes-meta {
     font-size: 8pt;
     display: inline-block;

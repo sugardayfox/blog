@@ -17,7 +17,15 @@
         tagged with #{{.Tag}}
       </div>
 
-      <br/>
+      <br>
+      <div class="notes-tag-list">
+        {{range .TagCounts}}
+        <span class="notes-tag">
+        <a href="/dailynotes/tag/{{.Tag}}">{{.Tag}}</a> <span class="notes-tag-count">{{.Count}}</span>
+        </span>
+        {{end}}
+      </div>
+
       {{range .Notes}}
       <div class="notes-note">
         <div class="notes-meta"><a href="{{.URL}}">{{.DayWithNameStr}}</a>{{if .Tags}}<span class="notes-tags">{{range .Tags}}<a href="/dailynotes/tag/{{.}}">#{{.}}</a>{{end}}</span>{{end}}</div>

@@ -54,7 +54,6 @@ https://vuejs.org/v2/api/#v-on
 event bindings modifiers (e.g. @onclick.stop):
  * stop, prevent, capture, self, native, once
 
-
 Links:
 * https://css-tricks.com/intro-to-vue-1-rendering-directives-events/
 * https://alligator.io/vuejs/vue-placeholders/
@@ -86,7 +85,7 @@ Id: b50racq8i1lg00d84r8g
 #did
 * failed to implement moving div on the page using drag events with vue.js
 * implemented moving ov div element using mousedown/mousemove/mouseup and tracking x/y offset from positioned saved in mousedown
-
+* blog: added tag list to week/tag views; fixed tag detection
 
 2017-06-13
 
