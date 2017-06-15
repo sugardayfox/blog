@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/kjk/betterguid"
 	"github.com/kjk/u"
 	"github.com/oklog/ulid"
 	"github.com/rs/xid"
@@ -218,19 +219,22 @@ func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
 	idXid := xid.New()
 	idKsuid := ksuid.New()
 
-	t := time.Unix(1000000, 0)
+	t := time.Now().UTC()
 	entropy := rand.New(rand.NewSource(t.UnixNano()))
 	idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
+	betterGUID := betterguid.New()
 
 	model := struct {
-		UniqueIDXid   string
-		UniqueIDKsuid string
-		UniqueIDUlid  string
+		Xid           string
+		Ksuid         string
+		Ulid          string
+		BetterGUID    string
 		AnalyticsCode string
 	}{
-		UniqueIDXid:   idXid.String(),
-		UniqueIDKsuid: idKsuid.String(),
-		UniqueIDUlid:  idUlid.String(),
+		Xid:           idXid.String(),
+		Ksuid:         idKsuid.String(),
+		Ulid:          idUlid.String(),
+		BetterGUID:    betterGUID,
 		AnalyticsCode: analyticsCode,
 	}
 	serveTemplate(w, tmplGenerateUniqueID, model)
