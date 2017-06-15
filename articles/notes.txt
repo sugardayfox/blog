@@ -1,3 +1,93 @@
+2017-06-14
+
+Id: b50emcq8i1lg00d84r70
+#vue
+
+Vue.js notes.
+
+div#app
+  p v-if="seen"
+    {{ message | capitalize }}
+  p v-else
+    shown if not seen
+  span v-bind:title="message"
+  span :title="message"
+  ol
+    li v-for="todo in todos"
+      {{ todo.text }}
+  button v-on:click="reverseMessage"
+  button @click="reverseMessage"
+  input v-model="message"
+  div v-html="rawHtml"
+  div v-for="(value, key, index) in object"
+
+new Vue({
+  el: "#app",
+  data: {
+    seen: true,
+    message: "my messge",
+    todos: [
+      { text: "todo 1" },
+      { text: "todo 2" },
+    ],
+    rawHtml: "<p>is html</p>",
+  },
+  methods: {
+    reverseMessage: function() {
+      this.message = reverse(this.message);
+    },
+  filters: {
+    capitalize: function (value) {
+      if (!value) return '';
+      value = value.toString();
+      return value.charAt(0).toUpperCase() + value.slice(1);
+    }
+  },
+  computed: {
+    reversedMessageComputed: function() {
+      return reverse(this.message);
+    }
+  },
+})
+
+https://vuejs.org/v2/api/#v-on
+event bindings modifiers (e.g. @onclick.stop):
+ * stop, prevent, capture, self, native, once
+
+
+Links:
+* https://css-tricks.com/intro-to-vue-1-rendering-directives-events/
+* https://alligator.io/vuejs/vue-placeholders/
+* https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
+
+---
+Id: b50te8a8i1lg00d84r90
+#business #book
+* https://personalmba.com
+* http://changethis.com/manifesto/98.02.PersonalMBA/pdf/98.02.PersonalMBA.pdf
+* "Go it Alone" full book http://brucejudson.com/
+
+---
+
+Id: b50osea8i1lg00d84r7g
+#webdev
+https://github.com/dexteryy/spellbook-of-modern-webdev : large list of links for all web dev things
+
+---
+
+Id: b50ouda8i1lg00d84r80
+#webdev #canvas
+http://chimera.labs.oreilly.com/books/1234000001654/index.html is a full book about HTML5 Canvas
+
+---
+
+Id: b50racq8i1lg00d84r8g
+
+#did
+* failed to implement moving div on the page using drag events with vue.js
+* implemented moving ov div element using mousedown/mousemove/mouseup and tracking x/y offset from positioned saved in mousedown
+
+
 2017-06-13
 
 Id: b5057b05bmm000eh92kg

@@ -342,6 +342,8 @@ func readNotes(path string) error {
 	var curr *notesForDay
 	var lines []string
 
+	seenDays := make(map[string]bool)
+
 	for scanner.Scan() {
 		s := strings.TrimRight(scanner.Text(), "\n\r\t ")
 		day, err := time.Parse("2006-01-02", s)
@@ -358,6 +360,8 @@ func readNotes(path string) error {
 			curr.Notes = linesToNotes(lines)
 			notes = append(notes, curr)
 		}
+		u.PanicIf(seenDays[s], "duplicate day: %s", s)
+		seenDays[s] = true
 		curr = &notesForDay{
 			Day:    day,
 			DayStr: s,
