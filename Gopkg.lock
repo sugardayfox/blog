@@ -5,7 +5,7 @@
   branch = "master"
   name = "github.com/SparkPost/gosparkpost"
   packages = [".","events"]
-  revision = "c041325a607bb2faf3a138e48a17074172ac4da7"
+  revision = "7e8565c83ee09336624604fba3cf6e9853926c2c"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -36,6 +36,12 @@
   packages = ["."]
   revision = "6a0bfdde8629a3a3a7418a7eae45c54154692514"
   version = "v1.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/kjk/betterguid"
+  packages = ["."]
+  revision = "228ae5ebc261cb8482f1790759c9fd54074bf9f5"
 
 [[projects]]
   branch = "master"
@@ -113,7 +119,7 @@
   branch = "master"
   name = "github.com/segmentio/ksuid"
   packages = ["."]
-  revision = "6995043403f1e607c942d38e231f8b45d773617e"
+  revision = "2a5ff14b083336e28641d86008fee84ae598de60"
 
 [[projects]]
   branch = "master"
@@ -143,13 +149,13 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "e7ba82683099cae71475961448ab8f903ea77c26"
+  revision = "850760c427c516be930bc91280636328f1a62286"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","html","html/atom"]
-  revision = "1a68b1313cf4ad7778376e82641197b60c02f65c"
+  revision = "ddf80d0970594e2e4cccf5a98861cad3d9eaa4cd"
 
 [[projects]]
   branch = "master"
@@ -160,6 +166,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5654e0c7dead4ac56e3e3c9270625407033a0025bf9b618daa07ecf7cd67a86e"
+  inputs-digest = "cfa9bf4c03b4716b81ba6d562553d10922d05d7b00d4720fac601e0ea81923d8"
   solver-name = "gps-cdcl"
   solver-version = 1
