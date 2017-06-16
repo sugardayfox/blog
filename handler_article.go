@@ -63,16 +63,17 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	article := articleInfo.this
 
 	model := struct {
-		Reload        bool
-		AnalyticsCode string
-		PageTitle     string
-		Article       *Article
-		NextArticle   *Article
-		PrevArticle   *Article
-		ArticlesJsURL string
-		TagsDisplay   string
-		ArticleNo     int
-		ArticlesCount int
+		Reload         bool
+		AnalyticsCode  string
+		PageTitle      string
+		Article        *Article
+		NextArticle    *Article
+		PrevArticle    *Article
+		ArticlesJsURL  string
+		TagsDisplay    string
+		ArticleNo      int
+		ArticlesCount  int
+		HeaderImageURL string
 	}{
 		Reload:        !flgProduction,
 		AnalyticsCode: analyticsCode,

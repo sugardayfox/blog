@@ -52,14 +52,17 @@
                 <a href="/">Home</a> / {{.Article.Title}}
             </div>
 
+            {{if .Article.HeaderImageURL}}
+            <div class="article-header hide-mobile">
+                <img class = "hide-mobile" src="{{.Article.HeaderImageURL}}">
+            </div>
+            {{end}}
+
             <div style="margin-right:48px">
                 {{.Article.HTMLBody}}
             </div>
 
-            <div class="postmeta"></div>
-
-
-            <div class="postmeta" style="display:flex">
+            <div class="article-meta">
                 <div>
                     Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}.
                 </div>

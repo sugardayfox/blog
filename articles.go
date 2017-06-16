@@ -33,15 +33,16 @@ const (
 
 // Article describes a single article
 type Article struct {
-	ID          string
-	PublishedOn time.Time
-	Title       string
-	Tags        []string
-	Format      int
-	Hidden      bool // is it hidden from main timeline?
-	Path        string
-	Body        []byte
-	BodyHTML    string
+	ID             string
+	PublishedOn    time.Time
+	Title          string
+	Tags           []string
+	Format         int
+	Hidden         bool // is it hidden from main timeline?
+	Path           string
+	Body           []byte
+	BodyHTML       string
+	HeaderImageURL string
 
 	HTMLBody     template.HTML
 	DisplayMonth string
@@ -142,6 +143,46 @@ func parseDate(s string) (time.Time, error) {
 	return time.Now(), err
 }
 
+func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
+	if !bytes.HasPrefix(d, []byte(prefix)) {
+		return d, ""
+	}
+	d = bytes.TrimPrefix(d, []byte(prefix))
+	eolIdx := bytes.IndexByte(d, '\n')
+	if eolIdx == -1 {
+		return []byte{}, string(d)
+	}
+	val := d[:eolIdx]
+	d = d[eolIdx+1:]
+	return d, strings.TrimSpace(string(val))
+}
+
+// a note can have additional metadata at the beginning in the form of:
+// @{name} ${value}\n
+// We extract this metadata and put the relevant info in article
+func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
+	var fileName string
+	oneMore := true
+	for oneMore {
+		oneMore = false
+		d, fileName = extractMetadataValue(d, "@header-image")
+		if fileName != "" {
+			oneMore = true
+			if fileName[0] != '/' {
+				fileName = "/" + fileName
+			}
+			path := filepath.Join("www", fileName)
+			if !u.FileExists(path) {
+				return d, fmt.Errorf("File '%s' for @header-image doesn't exist", path)
+			}
+			fmt.Printf("Found HeaderImageURL: %s\n", fileName)
+			article.HeaderImageURL = fileName
+			continue
+		}
+	}
+	return d, nil
+}
+
 // might return nil if article is meant to be skipped (deleted or draft)
 func readArticle(path string) (*Article, error) {
 	f, err := os.Open(path)
@@ -206,11 +247,16 @@ func readArticle(path string) (*Article, error) {
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
 	}
-	a.Body, err = ioutil.ReadAll(r)
+
+	d, err := ioutil.ReadAll(r)
 	if err != nil {
 		return nil, err
 	}
-
+	d, err = extractAdditionalMetadata(d, a)
+	if err != nil {
+		return nil, err
+	}
+	a.Body = d
 	a.BodyHTML = msgToHTML(a.Body, a.Format)
 	a.HTMLBody = template.HTML(a.BodyHTML)
 	return a, nil

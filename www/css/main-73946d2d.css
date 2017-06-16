@@ -99,7 +99,21 @@ a.taglink:hover {
     color: gray;
 }
 
-.postmeta {
+.article-header {
+    margin-top: 16px;
+}
+
+/* https://stackoverflow.com/questions/19390690/css-media-queries-to-hide-and-show-page-elements
+TODO: it still loads the image if it's inside div hidden with this trick
+*/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.article-meta {
+    display:flex;
     color: gray;
     font-size: 80%;
 }
