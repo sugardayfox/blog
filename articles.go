@@ -175,7 +175,7 @@ func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
 			if !u.FileExists(path) {
 				return d, fmt.Errorf("File '%s' for @header-image doesn't exist", path)
 			}
-			fmt.Printf("Found HeaderImageURL: %s\n", fileName)
+			//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
 			article.HeaderImageURL = fileName
 			continue
 		}
