@@ -28,6 +28,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
 	mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
 	mux.HandleFunc("/static/", withAnalyticsLogging(handleStatic))
+	mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
 	mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
 	mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
 	mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))

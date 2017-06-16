@@ -28,6 +28,7 @@ var (
 	// maps unique id of the note (from Id: ${id} metadata) to the note
 	notesIDToNote  map[string]*note
 	notesTagCounts []tagWithCount
+	notesAllNotes  []*note
 
 	notesWeekStartDayToNotes map[string][]*note
 	notesWeekStarts          []string
@@ -386,11 +387,11 @@ func readNotes(path string) error {
 
 	// verify they are in chronological order
 	for i := 1; i < len(notesDays); i++ {
-		note := notesDays[i-1]
-		notePrev := notesDays[i]
-		diff := note.Day.Sub(notePrev.Day)
+		notesForDay := notesDays[i-1]
+		notesForPrevDay := notesDays[i]
+		diff := notesForDay.Day.Sub(notesForPrevDay.Day)
 		if diff < 0 {
-			return fmt.Errorf("Note '%s' should be later than '%s'", note.DayStr, notePrev.DayStr)
+			return fmt.Errorf("Note '%s' should be later than '%s'", notesForDay.DayStr, notesForPrevDay.DayStr)
 		}
 	}
 
@@ -400,6 +401,7 @@ func readNotes(path string) error {
 		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
 		for _, note := range day.Notes {
+			notesAllNotes = append(notesAllNotes, note)
 			nNotes++
 			id := note.ID
 			u.PanicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)

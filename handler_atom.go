@@ -30,7 +30,7 @@ func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 
 	feed := &atom.Feed{
 		Title:   "Krzysztof Kowalczyk blog",
-		Link:    "http://blog.kowalczyk.info/atom.xml",
+		Link:    "https://blog.kowalczyk.info/atom.xml",
 		PubDate: pubTime,
 	}
 
@@ -38,7 +38,7 @@ func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 		//id := fmt.Sprintf("tag:blog.kowalczyk.info,1999:%d", a.Id)
 		e := &atom.Entry{
 			Title:   a.Title,
-			Link:    "http://blog.kowalczyk.info/" + a.Permalink(),
+			Link:    "https://blog.kowalczyk.info/" + a.Permalink(),
 			Content: a.BodyHTML,
 			PubDate: a.PublishedOn,
 		}
@@ -61,4 +61,46 @@ func handleAtomAll(w http.ResponseWriter, r *http.Request) {
 // /atom.xml
 func handleAtom(w http.ResponseWriter, r *http.Request) {
 	handleAtomHelp(w, r, true)
+}
+
+// /dailynotes-atom.xml
+// TODO: could cache generated xml
+func handleNotesFeed(w http.ResponseWriter, r *http.Request) {
+	notes := notesAllNotes
+	if len(notes) > 25 {
+		notes = notes[:25]
+	}
+
+	pubTime := time.Now()
+	if len(notes) > 0 {
+		pubTime = notes[0].Day
+	}
+
+	feed := &atom.Feed{
+		Title:   "Krzysztof Kowalczyk daily notes",
+		Link:    "https://blog.kowalczyk.info/dailynotes-atom.xml",
+		PubDate: pubTime,
+	}
+
+	for _, n := range notes {
+		//id := fmt.Sprintf("tag:blog.kowalczyk.info,1999:%d", a.Id)
+		title := n.Title
+		if title == "" {
+			title = n.ID
+		}
+		e := &atom.Entry{
+			Title:   title,
+			Link:    "https://blog.kowalczyk.info/" + n.URL,
+			Content: n.HTMLBody,
+			PubDate: n.Day,
+		}
+		feed.AddEntry(e)
+	}
+
+	s, err := feed.GenXml()
+	if err != nil {
+		s = []byte("Failed to generate XML feed")
+	}
+
+	w.Write(s)
 }
