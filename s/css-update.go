@@ -12,6 +12,15 @@ import (
 	"github.com/kjk/u"
 )
 
+/*
+To make it easy to use from shell to detect if content changed,
+returns exit code 1 when something changed and 0 if didn't
+*/
+
+var (
+	contentChanged = false
+)
+
 func calcMainCSSSha1Short() string {
 	pattern := filepath.Join("www", "css", "main*.css")
 	matches, err := filepath.Glob(pattern)
@@ -58,6 +67,7 @@ func updateMainCSSSha1() {
 		fmt.Printf("css/main.css didn't change\n")
 		return
 	}
+	contentChanged = true
 	filepath.Walk("www", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -75,4 +85,7 @@ func updateMainCSSSha1() {
 
 func main() {
 	updateMainCSSSha1()
+	if contentChanged {
+		os.Exit(1)
+	}
 }
