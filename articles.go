@@ -176,7 +176,7 @@ func readArticle(path string) (*Article, error) {
 		case "id":
 			// we handle 2 types of ids
 			// blog posts from articles/ directory have integer id
-			// blog posts imported from quicknotes (articles/from-simplenote/)
+			// blog posts imported from quicknotes (articles/from-quicknotes/)
 			// have id that are strings
 			id, err := strconv.Atoi(v)
 			if err == nil {
@@ -234,7 +234,7 @@ func readArticles() ([]*Article, []string, error) {
 		}
 		name := filepath.Base(path)
 		switch name {
-		case "from-simplenote.txt":
+		case "from-quicknotes.txt":
 			continue
 		}
 		if name == "notes.txt" {

@@ -55,10 +55,24 @@ func httpGet(url string) ([]byte, error) {
 }
 
 func main() {
-	path := filepath.Join("articles", "from-simplenote.txt")
+	path := filepath.Join("articles", "from-quicknotes.txt")
 	lines, err := u.ReadLinesFromFile(path)
 	u.PanicIfErr(err)
 	urlPrefix := "https://quicknotes.io/raw/n/"
+	dir := filepath.Join("articles", "from-quicknotes")
+
+	// titles might change but we don't want to change file names
+	files, err := ioutil.ReadDir(dir)
+	u.PanicIfErr(err)
+	noteIDToFileName := make(map[string]string)
+	for _, fi := range files {
+		u.PanicIf(filepath.Ext(fi.Name()) != ".md")
+		parts := strings.SplitN(fi.Name(), "-", 2)
+		noteID := strings.TrimSuffix(parts[0], ".md")
+		noteIDToFileName[noteID] = fi.Name()
+		//fmt.Printf("%s => %s\n", noteID, fi.Name())
+	}
+
 	for _, url := range lines {
 		url = strings.TrimSpace(url)
 		if len(url) == 0 {
@@ -68,9 +82,16 @@ func main() {
 		d, err := httpGet(url)
 		u.PanicIfErr(err)
 		name := strings.TrimPrefix(url, urlPrefix)
+
 		parts := strings.SplitN(name, "-", 2)
-		name = parts[0]
-		path := filepath.Join("articles", "from-simplenote", name+".md")
+		noteID := parts[0]
+		fileName := noteIDToFileName[noteID]
+		//fmt.Printf("noteID: %s, fileName: %s\n", noteID, fileName)
+		if fileName == "" {
+			fileName = name + ".md"
+		}
+		path := filepath.Join(dir, fileName)
+
 		err = ioutil.WriteFile(path, d, 0644)
 		u.PanicIfErr(err)
 		fmt.Printf("Wrote '%s' as '%s', %d bytes\n", url, path, len(d))
