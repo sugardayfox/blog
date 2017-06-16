@@ -2,7 +2,8 @@ Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go
-Date: 2017-06-13T02:25:19Z
+CreatedAt: 2017-06-16T02:55:50Z
+UpdatedAt: 2017-06-16T02:55:51Z
 --------------
 Go has excellent support for executing external programs. Let's start at the beginning.
 
@@ -114,7 +115,7 @@ Previous solution works but `copyAndCapture` looks like we're re-implementing `i
 We'll write `CapturingPassThroughWriter` struct implementing `io.Writer` interface. It'll capture everything that's written to it and also write it to underlying `io.Writer`.
 
 ```go
-/ CapturingPassThroughWriter is a writer that remembers
+// CapturingPassThroughWriter is a writer that remembers
 // data written to it and passes it to w
 type CapturingPassThroughWriter struct {
 	buf bytes.Buffer
