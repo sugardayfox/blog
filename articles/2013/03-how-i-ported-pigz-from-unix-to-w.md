@@ -4,7 +4,7 @@ Tags: programming
 Date: 2013-03-20T11:25:36-07:00
 Format: Markdown
 --------------
-I just finished [porting](https://github.com/kjk/pigz) [pigz](http://zlib.net/pigz/) from Unix to Windows (you can download [pre-compiled binaries](http://blog.kowalczyk.info/software/pigz-for-windows.html)). This article describes how I did it.
+I just finished [porting](https://github.com/kjk/pigz) [pigz](http://zlib.net/pigz/) from Unix to Windows (you can download [pre-compiled binaries](/software/pigz-for-windows.html)). This article describes how I did it.
 
 Pigz was clearly written with Unix in mind, with no thought given to cross-platform portability.
 

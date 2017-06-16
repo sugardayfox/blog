@@ -44,7 +44,7 @@ We improved searching for text to use less memory.
 We improved printing.
 
 We’ve updated translations contributed by our
-[translators](http://blog.kowalczyk.info/software/sumatrapdf/translators.html)
+[translators](https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS)
 
 We updated to latest [mupdf](http://mupdf.com/) code for various
 improvements and bugfixes.

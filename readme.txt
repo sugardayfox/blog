@@ -1,5 +1,5 @@
 This is a simple blog engine and my personal website running at
-http://blog.kowalczyk.info
+https://blog.kowalczyk.info
 
 It's written in Go. Doesn't require a database as all data is stored in files.
 

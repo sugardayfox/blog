@@ -209,7 +209,7 @@ because `malloc()\free()` are relatively slow functions.
 
 Back in the day when I was working on Poppler, I achieved a significant
 ~19% speedup by [improving a string
-class](http://blog.kowalczyk.info/article/Performance-optimization-story.html)
+class](/article/Performance-optimization-story.html)
 to avoid an additional allocation in 90% of the cases. I now use this
 trick in my C++ code e.g. in [SumatraPDF
 code](https://code.google.com/p/sumatrapdf/source/browse/trunk/src/utils/Vec.h)

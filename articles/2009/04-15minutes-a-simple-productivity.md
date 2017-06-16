@@ -6,7 +6,7 @@ Format: Markdown
 --------------
 ![](//kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-1.1.png)
 
-[15minutes](http://blog.kowalczyk.info/software/15minutes/) is a simple
+[15minutes](/software/15minutes/) is a simple
 productivity tool I wrote.
 
 One of productivity techniques is [time
@@ -28,5 +28,5 @@ end of time boxing period.
 Any timer will do - a physical timer, iPhone’s built-in clock etc.
 
 I wrote a small application to do it, since most of my work is done on a
-computer. [15minutes](http://blog.kowalczyk.info/software/15minutes/) is
+computer. [15minutes](/software/15minutes/) is
 that application.

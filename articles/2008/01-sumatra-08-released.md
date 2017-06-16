@@ -8,7 +8,7 @@ I’ve released Sumatra 0.8. Changes in this release:
 
 -   added search (contributed by MrChuoi)
 -   added table of contents (contributed by MrChuoi)
--   added many translation (contributed by [many people](http://blog.kowalczyk.info/software/sumatrapdf/translators.html))
+-   added many translation (contributed by [many people](https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS))
 -   new program icon
 -   fixed printing
 -   fixed some crashes

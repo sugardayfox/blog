@@ -5,7 +5,7 @@ Date: 2011-11-30T04:30:12-08:00
 Format: Markdown
 --------------
 This came up while working on
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/) and took
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) and took
 me a while to figure out, so I’m documenting it for the posterity.
 
 The problem: an easy way to show HTML in a windows program is by hosting

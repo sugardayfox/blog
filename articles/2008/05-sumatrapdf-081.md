@@ -20,10 +20,6 @@ Tesch)
   * fix showing boxes in table of contents tree
   * translation updates (contributed by [many people][1])
 
-Go [get it][2].
+Go [get it][https://www.sumatrapdfreader.org/free-pdf-reader.html].
 
-   [1]: http://blog.kowalczyk.info/software/sumatrapdf/translators.html
-
-   [2]: http://blog.kowalczyk.info/software/sumatrapdf/index.html
-
-
+   [1]: https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS

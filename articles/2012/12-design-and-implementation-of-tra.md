@@ -10,7 +10,7 @@ A web-based, crowd-sourced translation system.
 I just finished building [AppTranslator](http://www.apptranslator.org/),
 which is a third iteration of a system that allows people to contribute
 translations for
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/).
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html).
 
 This post describes the big picture of how it’s designed and
 implemented. Everything I discuss is

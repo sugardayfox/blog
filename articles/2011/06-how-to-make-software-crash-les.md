@@ -97,7 +97,7 @@ solution is convoluted, but works:
 -   I HTTP POST it to the server
 
 You can re-use my work. The code is part of my
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/)
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
 open-source project. Most of it is in
 [CrashHandler.cpp](http://code.google.com/p/sumatrapdf/source/browse/trunk/src/CrashHandler.cpp)
 and, unlike most of Sumatra, is under liberal BSD license.

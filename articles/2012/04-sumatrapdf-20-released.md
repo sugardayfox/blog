@@ -4,7 +4,7 @@ Tags: sumatra,releasenotes
 Date: 2012-04-02T14:54:09-07:00
 Format: Markdown
 --------------
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf) is a
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) is a
 multi-format PDF, XPS, ebook (MOBI), DjVu etc. reader for Windows and
 [we](http://www.ohloh.net/p/4623/contributors) are pleased to announce
 version 2.0.

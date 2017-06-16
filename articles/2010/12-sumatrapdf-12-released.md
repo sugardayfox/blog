@@ -24,4 +24,4 @@ Contributors to this release:
 -   Krzysztof Kowalczyk
 
 As always, it’s available [from
-here](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)
+here](https://www.sumatrapdfreader.org/free-pdf-reader.html)

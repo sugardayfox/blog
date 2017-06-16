@@ -4,7 +4,7 @@ Tags: software,volante,.net,c#
 Date: 2011-09-22T17:12:27-07:00
 Format: Markdown
 --------------
-[Volante](http://blog.kowalczyk.info/software/volante/database.html) is
+[Volante](/software/volante/database.html) is
 a small, fast, object-oriented, embeddable database designed for
 seamless integration with C\# (and other .NET languages). Today I’ve
 made a first public release.

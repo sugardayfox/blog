@@ -5,7 +5,7 @@ Date: 2009-07-20T00:07:21-07:00
 Format: Markdown
 --------------
 I’ve released a new version of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/), my PDF
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html), my PDF
 reader for Windows.
 
 It’s been 9 months since previous release.

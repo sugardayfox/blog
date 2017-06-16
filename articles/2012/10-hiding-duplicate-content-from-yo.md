@@ -4,7 +4,7 @@ Date: 2012-10-22T01:43:33-07:00
 Format: Markdown
 --------------
 Many blogs, including this one, generate duplicate content. For example,
-[the archive pages](http://blog.kowalczyk.info/blog) duplicate the
+[the archive pages](/archives.html) duplicate the
 content of individual posts, they just show them in a different way (a
 couple of posts per page, as opposed to a single post per page).
 

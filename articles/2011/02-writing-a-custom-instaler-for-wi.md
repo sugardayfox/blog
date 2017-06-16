@@ -8,7 +8,7 @@ A tale of 2 installers
 ----------------------
 
 For version 1.3 of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
 I’ve created a new installer.
 
 The old installer:
@@ -44,7 +44,7 @@ As everyone else, I did my installers with a tool.
 people used it, there are examples to learn from.
 
 I used it in
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html),
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html),
 [OpenDNS client](https://github.com/opendns/dynamicipupdate) and was
 reasonably happy with it. However, it wasn’t all roses.
 

@@ -5,7 +5,7 @@ Date: 2011-03-12T16:18:46-08:00
 Format: Markdown
 --------------
 Good news everyone: a new version of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html),
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html),
 a free, small, fast, open-source PDF viewer for Windows, is ready.
 
 What’s new in this version?

@@ -15,4 +15,4 @@ This version has received great many improvements from Simon Bünzli
 (zeniko) and some more TeXSync support fixes from William Blum so they
 deserve much credit for this release.
 
-It’s available [here](http://blog.kowalczyk.info/software/sumatrapdf/)
+It’s available  from [www.sumatrapdfreader.org](https://www.sumatrapdfreader.org/free-pdf-reader.html)

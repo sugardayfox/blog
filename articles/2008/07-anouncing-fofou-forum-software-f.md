@@ -4,7 +4,7 @@ Tags: appengine
 Date: 2008-07-06T11:33:13-07:00
 Format: Markdown
 --------------
-Elevator pitch: [Fofou](http://blog.kowalczyk.info/software/fofou/) is
+Elevator pitch: [Fofou](/software/fofou/) is
 forum software optimized for software product support/discussions. Free
 to use, easy to install and free to run, thanks to [Google's App
 Engine](http://code.google.com/appengine).

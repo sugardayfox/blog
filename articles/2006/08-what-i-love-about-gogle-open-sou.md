@@ -55,7 +55,7 @@ the face of the project (i.e. a wiki or something like that) would be
 nice too.\
 \
 Personally, I think that for discussions the [jos-style
-forum](http://blog.kowalczyk.info/forum_sumatra/) is the best for
+forum](https://blog.kowalczyk.info/forum_sumatra/) is the best for
 projects that don't generate too much discussion (and that's a majority;
 for those that do generate a lot of discussion regular mailing list
 could be better).\

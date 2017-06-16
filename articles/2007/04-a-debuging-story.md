@@ -45,8 +45,7 @@ support for conditional breakpoints and an array of useful extensions)
 people telling you that "refcounting makes programming easier". "Ha, ha, ha"
 should be your response.
 
-   [1]: http://blog.kowalczyk.info/software/sumatrapdf/
-
+   [1]: https://www.sumatrapdfreader.org/free-pdf-reader.html
    [2]: http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx
 
 

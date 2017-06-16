@@ -6,7 +6,7 @@ Format: Markdown
 --------------
 [SumatraPDF developers](http://www.ohloh.net/p/4623/contributors) are
 quite pleased to announce 1.6 release of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf), a PDF,
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html), a PDF,
 XPS, DjVu, CBZ and CBR reader for Windows.
 
 In this release we’ve added support for [DjVu](http://djvu.org/) file

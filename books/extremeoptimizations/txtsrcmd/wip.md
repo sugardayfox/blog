@@ -35,7 +35,7 @@ Table of contents
 11. [Case study: optimizing disassembler in v8][]
 12. [Other misc ideas][]
 
-  [Krzysztof Kowalczyk]: http://blog.kowalczyk.info
+  [Krzysztof Kowalczyk]: https://blog.kowalczyk.info
   []: >http://farm1.static.flickr.com/206/512024537_3da49317eb_m.jpg
   [Why optimize?]: why_optimize.html
   [An optimization story]: optimization_story.html

@@ -8,7 +8,7 @@ Me, a social marketer
 ---------------------
 
 Four months ago I started an experiment in social marketing of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html),
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html),
 my free PDF viewer for Windows.
 
 Let me rephrase that without the buzzwords: four months ago I added

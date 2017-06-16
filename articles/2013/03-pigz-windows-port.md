@@ -8,4 +8,4 @@ Format: Markdown
 
 Until today it was only available for Unix. But not anymore!
 
-I've [ported it to Windows](http://blog.kowalczyk.info/software/pigz-for-windows.html). Get it while it's hot.
+I've [ported it to Windows](/software/pigz-for-windows.html). Get it while it's hot.

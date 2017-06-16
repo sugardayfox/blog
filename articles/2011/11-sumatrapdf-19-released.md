@@ -6,7 +6,7 @@ Format: Markdown
 --------------
 [We](http://www.ohloh.net/p/4623/contributors) are pleased to announce
 1.9 release of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf), a small,
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html), a small,
 fast, free PDF, CHM, DjVu, XPS, CBZ and CBR reader for Windows.
 
 The most significant addition in this release is support for CHM

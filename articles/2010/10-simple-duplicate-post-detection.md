@@ -18,7 +18,7 @@ is that such mistakes can be easily prevented with a bit of programming.
 
 I know it’s easy because I’ve implemented it in a few lines of python in
 software running this blog and in my [forum
-software](http://blog.kowalczyk.info/software/fofou/index.html). They
+software](/software/fofou/index.html). They
 run on App Engine but the technique applies to any web development
 platform.
 

@@ -6,7 +6,7 @@ Format: Markdown
 --------------
 Recently I’ve bought a code signing certificate so that I can sign my
 Windows application
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html)
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
 (I’m hoping it’ll reduce number of false positive from various
 anti-virus programs that claim that SumatraPDF is suspect).
 

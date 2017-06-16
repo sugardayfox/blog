@@ -14,9 +14,9 @@ Changes in this release:
  * Ctrl+PgUp, Ctrl+Left : go to previous page
 * 10x faster ebook layout
 * support JP2 images
-* new [advanced settings](http://blog.kowalczyk.info/software/sumatrapdf/settings.html): ShowMenuBar, ReloadModifiedDocuments, CustomScreenDPI
+* new [advanced settings](https://www.sumatrapdfreader.org/settings.html): ShowMenuBar, ReloadModifiedDocuments, CustomScreenDPI
 * left/right clicking no longer changes pages in fullscreen mode (use Presentation mode if you rely on this feature)
 * fixed multiple crashes
 * continuos improvements to PDF rendering
 
-You can download Sumatra from [http://blog.kowalczyk.info/software/sumatrapdf/](http://blog.kowalczyk.info/software/sumatrapdf/ "http://blog.kowalczyk.info/software/sumatrapdf/")
+You can download Sumatra from [www.sumatrapdfreader.org](https://www.sumatrapdfreader.org/free-pdf-reader.html)

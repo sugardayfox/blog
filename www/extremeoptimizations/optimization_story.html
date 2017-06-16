@@ -214,7 +214,7 @@ bool ParsedStr::parse(const char *str)
     _count = str_count / 2;
     _names = (const char**)malloc(_count * sizeof(_names[0]));
     _values = (const char**)malloc(_count * sizeof(_values[0]));
-    
+
     s = (char*)_str;
     int idx = 0;
     while (*s) {
@@ -678,7 +678,7 @@ ParsedStr::~ParsedStr()
 
 <p>Important thing to notice is that sometimes optimizing for space also makes the code simpler and faster so you win at multiple fronts.</p><hr>
 <center>
-Comments, corrections, suggestions? Send them to <a href="http://blog.kowalczyk.info/static/krzysztof.html">Krzysztof Kowalczyk</a>
+Comments, corrections, suggestions? Send them to <a href="https://blog.kowalczyk.info/static/krzysztof.html">Krzysztof Kowalczyk</a>
 </center>
 
 <script>

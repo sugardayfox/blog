@@ -5,13 +5,13 @@ Date: 2007-07-29T21:09:47-07:00
 Format: Markdown
 --------------
 I’ve released version 0.7 of [Sumatra
-PDF](http://blog.kowalczyk.info/software/sumatrapdf/) viewer. Changes in
+PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) viewer. Changes in
 this release:
 
 -   added ability to select the text and copy it to clipboard -
     contributed by Tomek Weksej
 -   made it multi-lingual (13 translations contributed by [many
-    people](http://blog.kowalczyk.info/software/sumatrapdf/translators.html)
+    people](https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS)
 -   added Save As option
 -   list of recently opened files is updated immediately
 -   fixed .pdf extension registration on Vista

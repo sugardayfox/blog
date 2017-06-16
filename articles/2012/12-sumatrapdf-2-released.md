@@ -6,7 +6,7 @@ Format: Markdown
 --------------
 [We](https://code.google.com/p/sumatrapdf/source/browse/trunk/AUTHORS)
 are happy to announce release 2.2 of
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf), a
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html), a
 multi-format PDF, XPS, ebook (ePub, MOBI), DjVu reader for Windows.
 
 In version 2.2 we’ve added support for

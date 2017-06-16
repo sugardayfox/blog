@@ -4,14 +4,14 @@ Tags: sumatra,releasenotes
 Date: 2012-05-03T13:30:42-07:00
 Format: Markdown
 --------------
-[SumatraPDF](http://blog.kowalczyk.info/software/sumatrapdf) is a
+[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) is a
 multi-format PDF, XPS, ebook (ePub, MOBI), DjVu etc. reader for Windows
 and [we](http://www.ohloh.net/p/4623/contributors) are pleased to
 announce version 2.1.
 
 The biggest change in this version is a support for ePub ebook format.
 ePub is one of the 2 most popular ebook standards (the other one,
-[mobi](http://blog.kowalczyk.info/articles/mobi-ebook-reader-viewer-for-windows.html),
+[mobi](/articles/mobi-ebook-reader-viewer-for-windows.html),
 is already supported by Sumatra). Unfortunately we can only read ebooks
 that are not DRM protected.
 
