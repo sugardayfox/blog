@@ -1,3 +1,33 @@
+2017-06-17
+
+Id: b52r6cvee28000b4mm6g
+
+#business
+
+Selling downloadable content:
+* Gumroad
+* Paddle
+* FastSpring
+* SendOwl
+
+Links:
+* http://discuss.bootstrapped.fm/t/gumroad-alternatives/5103
+* http://discuss.bootstrapped.fm/t/gumroad-alternative/4631
+
+2017-06-16
+
+Id: b524f388mmmg00eqcokg
+#did
+* blog: implemented a system to use header images when post has @header-image meta-data at the top
+* blog: prototypes adding title to header image http://i.imgur.com/7rxCjVE.png The code for that:
+
+<div class="article-header hide-mobile" style="position: relative">
+  <img class="hide-mobile" src="/gfx/headers/header-02.jpg">
+  <div style="position:absolute;bottom:0px;left:0px;padding:0.5em 1em; background-color:white;color:black;opacity:.7;font-size:18pt;font-weight: bold">
+    Advanced command execution in Go with os/exec
+  </div>
+</div>
+
 2017-06-15
 
 Id: b51424u9krpg00db2sn0
