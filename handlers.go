@@ -14,7 +14,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
 
 	mux.HandleFunc("/app/crashsubmit", withAnalyticsLogging(handleCrashSubmit))
-	mux.HandleFunc("/app/debug", withAnalyticsLogging(handleDebug))
+	mux.HandleFunc("/app/debug", handleDebug)
 	mux.HandleFunc("/atom.xml", withAnalyticsLogging(handleAtom))
 	mux.HandleFunc("/atom-all.xml", withAnalyticsLogging(handleAtomAll))
 	mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
