@@ -2,14 +2,14 @@ Id: JyRZ
 Title: Generating good, random and unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
-CreatedAt: 2017-06-20T23:03:26Z
-UpdatedAt: 2017-06-20T23:03:27Z
+CreatedAt: 2017-06-20T23:08:51Z
+UpdatedAt: 2017-06-20T23:08:52Z
 --------------
 @header-image gfx/headers/header-01.jpg
 
 Imagine you're writing a [note taking](http://quicknotes.io) application.
 
-Each note must have a unique id.
+Each note needs a unique id.
 
 Generating unique ids is easy if you can coordinate.
 
@@ -26,7 +26,7 @@ A simple solution is to generate a random id. If you give it 16 bytes of randomn
 It's such a common problem that we have a standard for this called [UUID/GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), created over 30 years ago.
 
 We can do better than GUID. A good random unique id:
-* is random; we can't skip the basics
+* is unique; we can't skip the basics
 * can be sorted by its string representation
 * is time-clustered i.e. ids generated at the same time are close to each other when sorted
 * string representation can be used as part of URL without escaping
