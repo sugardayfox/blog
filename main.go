@@ -251,6 +251,7 @@ func main() {
 		m := autocert.Manager{
 			Prompt:     autocert.AcceptTOS,
 			HostPolicy: hostPolicy,
+			Cache:      autocert.DirCache(getDataDir()),
 		}
 		httpsSrv.Addr = ":443"
 		httpsSrv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
