@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"crypto/tls"
-	"errors"
 	"flag"
 	"fmt"
 	"io"
@@ -242,10 +241,11 @@ func main() {
 	if flgProduction {
 		httpsSrv = makeHTTPServer()
 		hostPolicy := func(ctx context.Context, host string) error {
-			if strings.HasSuffix(host, "kowalczyk.info") {
+			myDomain := "kowalczyk.info"
+			if strings.HasSuffix(host, myDomain) {
 				return nil
 			}
-			return errors.New("acme/autocert: only *.kowalczyk.info hosts are allowed")
+			return fmt.Errorf("acme/autocert: only *.%s hosts are allowed", myDomain)
 		}
 
 		m := autocert.Manager{
