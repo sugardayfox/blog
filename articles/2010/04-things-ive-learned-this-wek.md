@@ -14,7 +14,7 @@ Things I’ve learned this week:
     books take years to write
 -   therefore shorthand notations are good. I started writing it html
     and it was painful. I improved things by writing small [python
-    script](http://github.com/kjk/web-blog/blob/master/www/articles/jsrefgen.py)
+    script](http://github.com/kjk/blog/blob/master/www/articles/jsrefgen.py)
     that generates html from a more compact text format
 -   [etherpad](http://etherpad.com) was open-sourced but pretty much
     abandoned by (now) google folks. There is an [active

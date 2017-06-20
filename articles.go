@@ -108,7 +108,7 @@ func parseTags(s string) []string {
 		tag = strings.TrimSpace(tag)
 		tag = strings.ToLower(tag)
 		// skip the tag I use in quicknotes.io to tag notes for the blog
-		if tag == "for-blog" {
+		if tag == "for-blog" || tag == "published" || tag == "draft" {
 			continue
 		}
 		res = append(res, tag)
@@ -399,9 +399,47 @@ func strToHTML(s string) string {
 	return "<p>" + ns + "</p>"
 }
 
-func markdown(s []byte) string {
+func markdownToUnsafeHTML(text []byte) []byte {
+	// Those are blackfriday.MarkdownCommon() extensions
+	/*
+		extensions := 0 |
+			EXTENSION_NO_INTRA_EMPHASIS |
+			EXTENSION_TABLES |
+			EXTENSION_FENCED_CODE |
+			EXTENSION_AUTOLINK |
+			EXTENSION_STRIKETHROUGH |
+			EXTENSION_SPACE_HEADERS |
+			EXTENSION_HEADER_IDS |
+			EXTENSION_BACKSLASH_LINE_BREAK |
+			EXTENSION_DEFINITION_LISTS
+	*/
+
+	// https://github.com/shurcooL/github_flavored_markdown/blob/master/main.go#L82
+	extensions := 0 |
+		blackfriday.EXTENSION_NO_INTRA_EMPHASIS |
+		blackfriday.EXTENSION_TABLES |
+		blackfriday.EXTENSION_FENCED_CODE |
+		blackfriday.EXTENSION_AUTOLINK |
+		blackfriday.EXTENSION_STRIKETHROUGH |
+		blackfriday.EXTENSION_SPACE_HEADERS |
+		blackfriday.EXTENSION_NO_EMPTY_LINE_BEFORE_BLOCK
+
+	commonHTMLFlags := 0 |
+		blackfriday.HTML_USE_XHTML |
+		blackfriday.HTML_USE_SMARTYPANTS |
+		blackfriday.HTML_SMARTYPANTS_FRACTIONS |
+		blackfriday.HTML_SMARTYPANTS_DASHES |
+		blackfriday.HTML_SMARTYPANTS_LATEX_DASHES
+
+	renderer := blackfriday.HtmlRenderer(commonHTMLFlags, "", "")
+	opts := blackfriday.Options{Extensions: extensions}
+	return blackfriday.MarkdownOptions(text, renderer, opts)
+}
+
+func markdownToHTML(s []byte) string {
 	s, replacements := txtWithCodeParts(s)
-	unsafe := blackfriday.MarkdownCommon(s)
+	unsafe := markdownToUnsafeHTML(s)
+	//unsafe := blackfriday.MarkdownCommon(s)
 	policy := bluemonday.UGCPolicy()
 	policy.AllowStyling()
 	res := policy.SanitizeBytes(unsafe)
@@ -417,7 +455,7 @@ func msgToHTML(msg []byte, format int) string {
 	case formatHTML:
 		return string(msg)
 	case formatMarkdown:
-		return markdown(msg)
+		return markdownToHTML(msg)
 	case formatText:
 		return strToHTML(string(msg))
 	}

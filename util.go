@@ -10,7 +10,7 @@ import (
 
 var (
 	patWs            = regexp.MustCompile(`\s+`)
-	patCharsToRemove = regexp.MustCompile("[+:*%&/()]")
+	patCharsToRemove = regexp.MustCompile("[+:*%&/(),]")
 )
 
 // urlify generates safe url from tile

@@ -178,7 +178,7 @@ The source for all three projects is publicly available on Github, using
 liberal BSD license: [App
 Translator](https://github.com/kjk/apptranslator),
 [Fofou](https://github.com/kjk/fofou),
-[blog](https://github.com/kjk/web-blog)
+[blog](https://github.com/kjk/blog)
 
 Feel free to learn from the code or use it in your own projects.
 

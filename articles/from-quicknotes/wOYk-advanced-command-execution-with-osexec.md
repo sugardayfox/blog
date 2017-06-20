@@ -1,9 +1,9 @@
 Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
-Tags: for-blog, go
-CreatedAt: 2017-06-16T20:27:15Z
-UpdatedAt: 2017-06-16T20:27:15Z
+Tags: for-blog, go, published
+CreatedAt: 2017-06-19T18:15:45Z
+UpdatedAt: 2017-06-19T18:15:46Z
 --------------
 @header-image gfx/headers/header-02.jpg
 

@@ -54,11 +54,23 @@ func httpGet(url string) ([]byte, error) {
 	return ioutil.ReadAll(resp.Body)
 }
 
+func getURLPrefix(uri string) string {
+	urlPrefix := "https://quicknotes.io/raw/n/"
+	if strings.HasPrefix(uri, urlPrefix) {
+		return urlPrefix
+	}
+	urlPrefix = "http://quicknotes.io/raw/n/"
+	if strings.HasPrefix(uri, urlPrefix) {
+		return urlPrefix
+	}
+	msg := fmt.Sprintf("url '%s' should start with '%s' or '%s'", uri, "https://quicknotes.io/raw/n/", "http://quicknotes.io/raw/n/")
+	panic(msg)
+}
+
 func main() {
 	path := filepath.Join("articles", "from-quicknotes.txt")
 	lines, err := u.ReadLinesFromFile(path)
 	u.PanicIfErr(err)
-	urlPrefix := "https://quicknotes.io/raw/n/"
 	dir := filepath.Join("articles", "from-quicknotes")
 
 	// titles might change but we don't want to change file names
@@ -78,7 +90,7 @@ func main() {
 		if len(url) == 0 {
 			continue
 		}
-		u.PanicIf(!strings.HasPrefix(url, urlPrefix), "url '%s' should start with '%s'", url, urlPrefix)
+		urlPrefix := getURLPrefix(url)
 		d, err := httpGet(url)
 		u.PanicIfErr(err)
 		name := strings.TrimPrefix(url, urlPrefix)

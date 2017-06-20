@@ -4,6 +4,8 @@ Date: 2017-02-11T19:18:21-08:00
 Format: Markdown
 Tags: devops, go
 --------------
+@header-image gfx/headers/header-00.jpg
+
 I used to deploy my web apps on Ubuntu running on Digital Ocean but recently I switched to using [CoreOS](https://coreos.com/) instead of Ubuntu.
 
 For a while I didn't understand CoreOS; a linux distro without package manager? How do I install more software on this thing?
@@ -14,7 +16,7 @@ The benefit of using CoreOS is less configuration needed compared to e.g. Ubuntu
 
 I used to deploy multiple apps per server but for operational simplicity I moved to using one server per app. At $5 per server (my apps are written in Go, so they run comfortably on the smallest servers) it's a reasonable cost.
 
-Here's my playbook for deploying an app on CoreOS. This example is how I deploy my [blog](https://github.com/kjk/web-blog).
+Here's my playbook for deploying an app on CoreOS. This example is how I deploy my [blog](https://github.com/kjk/blog).
 
 **1\. Create a unique ssh key for the machine**
 
@@ -231,7 +233,7 @@ ENDSSH
 rm -rf blog-latest.tar.bz2
 ```
 
-You can see the content of Dockerfile [here](https://github.com/kjk/web-blog).
+You can see the content of Dockerfile [here](https://github.com/kjk/blog).
 
 After setting things up and deploying the app, you should restart the OS (`shutdown -r`) to verify that the app will start up after reboot.
 
