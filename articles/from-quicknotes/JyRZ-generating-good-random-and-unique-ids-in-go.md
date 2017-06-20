@@ -1,13 +1,13 @@
 Id: JyRZ
 Title: Generating good, random and unique ids in Go
 Format: Markdown
-Tags: for-blog, go, draft
-CreatedAt: 2017-06-20T09:07:51Z
-UpdatedAt: 2017-06-20T09:07:52Z
+Tags: for-blog, go, published
+CreatedAt: 2017-06-20T23:03:26Z
+UpdatedAt: 2017-06-20T23:03:27Z
 --------------
 @header-image gfx/headers/header-01.jpg
 
-Imagine you're writing a [note taking](https://quicknotes.io) application.
+Imagine you're writing a [note taking](http://quicknotes.io) application.
 
 Each note must have a unique id.
 
