@@ -32,4 +32,4 @@ a list of articles with a given tag).
 
 For this technique to work the names duplicate pages have to follow a
 pattern, but that’s easy enough to ensure, especially if you write your
-own blog software, like [I do](http://github.com/kjk/web-blog).
+own blog software, like [I do](http://github.com/kjk/blog).
