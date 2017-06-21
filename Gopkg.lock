@@ -8,6 +8,12 @@
   revision = "7e8565c83ee09336624604fba3cf6e9853926c2c"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/chilts/sid"
+  packages = ["."]
+  revision = "6cf658ffc40cc14559db7af19fdae2ac0bf3d780"
+
+[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
@@ -41,7 +47,7 @@
   branch = "master"
   name = "github.com/kjk/betterguid"
   packages = ["."]
-  revision = "228ae5ebc261cb8482f1790759c9fd54074bf9f5"
+  revision = "c442874ba63a7beb6c8b6f14ad1675de747b7f71"
 
 [[projects]]
   branch = "master"
@@ -178,6 +184,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5c332c119793fe0bc9819d47ad2efe2f3522085a1a6eaeed4f6240a215413523"
+  inputs-digest = "2b6b110b0d754601f5599e1a384c896cfc9a584749d168afc4660cf077ebc2b5"
   solver-name = "gps-cdcl"
   solver-version = 1

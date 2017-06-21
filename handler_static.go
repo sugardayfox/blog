@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/chilts/sid"
 	"github.com/kjk/betterguid"
 	"github.com/kjk/u"
 	"github.com/oklog/ulid"
@@ -241,6 +242,7 @@ func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
 		Ulid          string
 		BetterGUID    string
 		Sonyflake     string
+		Sid           string
 		UUIDv4        string
 		AnalyticsCode string
 	}{
@@ -249,6 +251,7 @@ func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
 		Ulid:          idUlid.String(),
 		BetterGUID:    betterGUID,
 		Sonyflake:     sfidstr,
+		Sid:           sid.Id(),
 		UUIDv4:        uuid.String(),
 		AnalyticsCode: analyticsCode,
 	}

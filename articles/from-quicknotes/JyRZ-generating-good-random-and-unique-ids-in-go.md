@@ -2,8 +2,8 @@ Id: JyRZ
 Title: Generating good, random and unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
-CreatedAt: 2017-06-21T08:51:55Z
-UpdatedAt: 2017-06-21T08:51:56Z
+CreatedAt: 2017-06-21T18:40:36Z
+UpdatedAt: 2017-06-21T18:40:36Z
 --------------
 @header-image gfx/headers/header-01.jpg
 
@@ -47,7 +47,8 @@ package | id | format
 [github.com/kjk/betterguid](https://github.com/kjk/betterguid) | **`-Kmdih_fs4ZZccpx2Hl1`** | 8 bytes of time (milliseconds) + 12 random bytes
 |[github.com/sony/sonyflake](https://github.com/sony/sonyflake)| **`20f8707d6000108`**| ~6 bytes of time (10 ms) + 1 byte sequence + 2 bytes machine id|
 [github.com/oklog/ulid](https://github.com/oklog/ulid) | **`01BJMVNPBBZC3E36FJTGVF0C4S`** | 6 bytes of time (milliseconds) + 8 bytes random
-|[github.com/satori/go.uuid](https://github.com/satori/go.uuid)| **`5b52d72c-82b3-4f8e-beb5-437a974842c`** | UUIDv4 from [RFC 4112](http://tools.ietf.org/html/rfc4122) for comparison
+|[github.com/chilts/sid](https://github.com/chilts/sid) |**`1JADkqpWxPx-4qaWY47~FqI`** | 8 bytes of time (ns) + 8 random bytes
+|[github.com/satori/go.uuid](https://github.com/satori/go.uuid) | **`5b52d72c-82b3-4f8e-beb5-437a974842c`** | UUIDv4 from [RFC 4112](http://tools.ietf.org/html/rfc4122) for comparison
 
 You can see how the values change over time by refreshing [this test page](/tools/generate-unique-id) a couple of times.
 
