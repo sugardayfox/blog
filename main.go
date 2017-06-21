@@ -239,13 +239,12 @@ func main() {
 	var httpsSrv, httpSrv *http.Server
 
 	if flgProduction {
-		httpsSrv = makeHTTPServer()
 		hostPolicy := func(ctx context.Context, host string) error {
-			myDomain := "kowalczyk.info"
-			if strings.HasSuffix(host, myDomain) {
+			allowedDomain := "kowalczyk.info"
+			if strings.HasSuffix(host, allowedDomain) {
 				return nil
 			}
-			return fmt.Errorf("acme/autocert: only *.%s hosts are allowed", myDomain)
+			return fmt.Errorf("acme/autocert: only *.%s hosts are allowed", allowedDomain)
 		}
 
 		m := autocert.Manager{
@@ -253,6 +252,8 @@ func main() {
 			HostPolicy: hostPolicy,
 			Cache:      autocert.DirCache(getDataDir()),
 		}
+
+		httpsSrv = makeHTTPServer()
 		httpsSrv.Addr = ":443"
 		httpsSrv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
 		logger.Noticef("Starting https server on %s\n", httpsSrv.Addr)
