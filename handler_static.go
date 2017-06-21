@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 	"net/http"
 	"path/filepath"
@@ -11,7 +12,9 @@ import (
 	"github.com/kjk/u"
 	"github.com/oklog/ulid"
 	"github.com/rs/xid"
+	uuid "github.com/satori/go.uuid"
 	"github.com/segmentio/ksuid"
+	"github.com/sony/sonyflake"
 )
 
 func getWwwDir() string {
@@ -223,18 +226,30 @@ func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
 	entropy := rand.New(rand.NewSource(t.UnixNano()))
 	idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
 	betterGUID := betterguid.New()
+	uuid := uuid.NewV4()
+
+	flake := sonyflake.NewSonyflake(sonyflake.Settings{})
+	sfid, err := flake.NextID()
+	sfidstr := fmt.Sprintf("%x", sfid)
+	if err != nil {
+		sfidstr = err.Error()
+	}
 
 	model := struct {
 		Xid           string
 		Ksuid         string
 		Ulid          string
 		BetterGUID    string
+		Sonyflake     string
+		UUIDv4        string
 		AnalyticsCode string
 	}{
 		Xid:           idXid.String(),
 		Ksuid:         idKsuid.String(),
 		Ulid:          idUlid.String(),
 		BetterGUID:    betterGUID,
+		Sonyflake:     sfidstr,
+		UUIDv4:        uuid.String(),
 		AnalyticsCode: analyticsCode,
 	}
 	serveTemplate(w, tmplGenerateUniqueID, model)
