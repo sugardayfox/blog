@@ -236,7 +236,7 @@ func main() {
 	initAnalyticsMust(analyticsPath)
 
 	var wg sync.WaitGroup
-	var httpsSrv, httpSrv *http.Server
+	var httpsSrv *http.Server
 
 	if flgProduction {
 		hostPolicy := func(ctx context.Context, host string) error {
@@ -270,7 +270,7 @@ func main() {
 		}()
 	}
 
-	httpSrv = makeHTTPServer()
+	httpSrv := makeHTTPServer()
 	httpSrv.Addr = flgHTTPAddr
 	logger.Noticef("Starting http server on %s, in production: %v, ver: github.com/kjk/blog/commit/%s", httpSrv.Addr, flgProduction, sha1ver)
 	go func() {
