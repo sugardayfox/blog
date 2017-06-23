@@ -2,8 +2,8 @@ Id: JyRZ
 Title: Generating good, random and unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
-CreatedAt: 2017-06-21T18:40:36Z
-UpdatedAt: 2017-06-21T18:40:36Z
+CreatedAt: 2017-06-21T18:47:07Z
+UpdatedAt: 2017-06-21T18:47:07Z
 --------------
 @header-image gfx/headers/header-01.jpg
 
@@ -56,6 +56,7 @@ How to generate unique ids using different libraries:
 
 ```go
 import (
+	"github.com/chilts/sid"
 	"github.com/kjk/betterguid"
 	"github.com/oklog/ulid"
 	"github.com/rs/xid"
@@ -99,6 +100,11 @@ func genSonyflake() {
 	fmt.Printf("github.com/sony/sonyflake:   %x\n", id)
 }
 
+func genSid() {
+	id := sid.Id()
+	fmt.Printf("github.com/chilts/sid:       %s\n", id)
+}
+
 func genUUIDv4() {
 	id := uuid.NewV4()
 	fmt.Printf("github.com/satori/go.uuid:   %s\n", id)
@@ -110,6 +116,7 @@ func main() {
 	genBetterGUID()
 	genUlid()
 	genSonyflake()
+	genSid()
 	genUUIDv4()
 }
 ```

@@ -2,8 +2,8 @@ Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go, published
-CreatedAt: 2017-06-19T18:15:45Z
-UpdatedAt: 2017-06-19T18:15:46Z
+CreatedAt: 2017-06-23T06:30:34Z
+UpdatedAt: 2017-06-23T06:30:34Z
 --------------
 @header-image gfx/headers/header-02.jpg
 
@@ -221,6 +221,45 @@ func main() {
 Full example: [advanced-exec/03-live-progress-and-capture-v3.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/03-live-progress-and-capture-v3.go).
 
 It's good to be able to write the code ourselves, but it's even better to know standard library well!
+
+## Writing to program's stdin
+
+We know how to read program's stdout but we can also write to its stdin.
+
+There is no Go library to do bzip2 compression (only decompression is available in standard library).
+
+We can use `bzip2` to do the compression by:
+* writing the data to a temporary file
+* call `bzip2 -c ${file_in}` and capture its stdout
+
+It would be even better if we didn't have to create a temporary file.
+
+Most compression programs accept data to compress/decompress on stdin.
+
+To do that on command-line we would use the following command: `bzip2 -c <${file_in} >${file_out}`.
+
+Here's the same thing in Go:
+
+```go
+// compress data using bzip2 without creating temporary files
+func bzipCompress(d []byte) ([]byte, error) {
+	var out bytes.Buffer
+// -c : compress
+	// -9 : select the highest level of compresion
+	cmd := exec.Command("bzip2", "-c", "-9")
+	cmd.Stdin = bytes.NewBuffer(d)
+	cmd.Stdout = &out
+	err := cmd.Run()
+	if err != nil {
+		return nil, err
+	}
+	return out.Bytes(), nil
+}
+```
+
+Full example: [advanced-exec/06-feed-stdin.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/06-feed-stdin.go).
+
+We can also call `cmd.StdinPipe()`, which returns `io.WriteCloser`. It's more complicated but gives more control over writing.
 
 
 ## Changing environment of executed program
