@@ -6,9 +6,9 @@ Format: Markdown
 --------------
 **Set a variable**: `SET FOO="bar"`
 
-**Refer to a variable**: `echo %FOO%`
+**Use a variable**: `echo %FOO%`
 
-Command line arguments are variables `%1`, `%2` etc.
+Command line arguments are variables: `%1`, `%2` etc.
 
 **Check if a variable is defined**: `IF NOT DEFINED FOO SET FOO="bar"`. Useful
 for testing command line arguments.
@@ -21,11 +21,11 @@ check for any failures use 1.
 
 **Execute another script**: `call another.bat`
 
-**Check if directory exists**: `IF EXIST E:\NUL GOTO USE_E`
+**Check if directory exists**: `IF EXIST e:\directory GOTO USE_E`
 
 Here's an example of a batch file that does a few common things:
 
-```bat
+```
 @ECHO OFF
 @rem "pushd $dir" puts $dir on directory stack
 pushd .
