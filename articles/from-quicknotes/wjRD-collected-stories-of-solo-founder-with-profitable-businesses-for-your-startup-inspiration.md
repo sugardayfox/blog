@@ -1,9 +1,9 @@
 Id: wjRD
-Title: Collected stories of solo founder with profitable businesses , for your startup inspiration
+Title: Collected stories of solo founder with profitable businesses, for your startup inspiration
 Format: Markdown
 Tags: for-blog, draft
-CreatedAt: 2017-06-23T17:57:04Z
-UpdatedAt: 2017-06-23T17:57:05Z
+CreatedAt: 2017-06-23T23:44:19Z
+UpdatedAt: 2017-06-30T07:45:09Z
 --------------
 @header-image gfx/headers/header-03.jpg
 
@@ -242,10 +242,11 @@ Open source library for Ruby, a background job framework.
 
 Sells pro version for $950/year and enterprise version. Only needs 800 customer
 
-### 22. Balsamiq, $2 millions in revenue
+### 22. Balsamiq, $2 millions in revenue after 18 months
 
 Source:
 * http://conversionaid.com/podcast/peldi-guilizzoni-balsamiq/
+* http://programmingzen.com/startup-interviews-balsamiq-studio-llc/
 
 It's no longer a single person but it was created in 2008 by a single person and within 18 monts reached $2 million in revenue.
 
@@ -354,7 +355,7 @@ Author was able to quit his job.
 
 Business tip: build related free app and host on the same domain.
 
-### 34. 10 Games of Ryan Clark, $3+ million over 10 years
+### 34. Ryan Clark, 10 Games, $3+ million over 10 years
 
 Source: http://www.gamasutra.com/blogs/RyanClark/20150917/253842/What_Makes_an_Indie_Hit_How_to_Choose_the_Right_Design.php
 
@@ -363,3 +364,44 @@ Working full time since 2004 on his games. Wrote 10 games in 11 years. 8 been pr
 ### 35. https://PhantomJsCloud.com, ramen profitable for Seattle
 
 Source: https://news.ycombinator.com/item?id=13327835
+
+### 36. Desktop app, seating planning, $120k+/year
+
+Source: 
+* https://successfulsoftware.net/2015/01/07/10-years-a-microisv/
+* https://successfulsoftware.net/2013/11/06/lifestyle-programming/
+
+2 desktop apps for Windows, written in C++.
+
+Over 10 years, sold 40 thousand licenses of first desktop app, the cheapest is $30, which is at least $120k/year.
+
+
+### 37. Desktop app in construction industry, making a living
+
+Source: https://news.ycombinator.com/item?id=11659140
+
+21-year old app for Windows, written in Delphi 5.
+
+### 38. Video games, making a living
+
+Source: 
+* https://news.ycombinator.com/item?id=11659283
+* https://news.ycombinator.com/item?id=13838257
+* https://news.ycombinator.com/item?id=13328138
+* https://news.ycombinator.com/item?id=12066509
+
+Multi-platform games written in C#, based on Unity game engine, released on Steawm. Makes a game every X months.
+
+### 39. Pinegrow Web Editor, comfortable living
+
+Source: 
+* https://news.ycombinator.com/item?id=11659561
+* https://medium.com/@mattront/pinegrow-year-in-review-2014-from-0-to-100k-fed4e7a05689
+
+Desktop web editor built with NWJS/Electron. Started by a single person, grew to 3 full-time people.
+
+Launched in January 2014 after 2.5 years in development, sold $100k the first year. Sells for $49/$79.
+
+Marketing: website and asking for e-mail address when starting the trial to build e-mail database to send promotions to.
+
+Tried Carbon, Google and Reddit ads but was losing money on them.
