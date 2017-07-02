@@ -15,7 +15,7 @@ first doesn't matter if the idea/product is not good.
 extremely big advantage over competition but doesn't guarantee the
 success. It's rather obvious that it doesn't matter that you're first to
 market if no-one needs your product or if your product is very bad.
-There are many examples from computer industry that disapprove this rule
+There are many examples from computer industry that disprove this rule
 (i.e. first spreadsheet isn't the dominant spreadsheet, first word
 processor isn't the dominant word processor) so there are (many) cases
 showing that n-th product can overtake early leaders. But it's very hard
