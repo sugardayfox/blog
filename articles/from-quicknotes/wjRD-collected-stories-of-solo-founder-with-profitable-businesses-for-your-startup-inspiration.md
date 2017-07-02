@@ -3,7 +3,7 @@ Title: Collected stories of solo founder with profitable businesses, for your st
 Format: Markdown
 Tags: for-blog, draft
 CreatedAt: 2017-06-23T23:44:19Z
-UpdatedAt: 2017-06-30T07:45:09Z
+UpdatedAt: 2017-07-02T21:02:06Z
 --------------
 @header-image gfx/headers/header-03.jpg
 
@@ -405,3 +405,89 @@ Launched in January 2014 after 2.5 years in development, sold $100k the first ye
 Marketing: website and asking for e-mail address when starting the trial to build e-mail database to send promotions to.
 
 Tried Carbon, Google and Reddit ads but was losing money on them.
+
+### 40. https://ipinfo.io, full-time job
+
+Source:
+* https://blog.ipinfo.io/api-side-project-to-250-million-requests-with-0-marketing-budget-bb0de01c01f6
+* https://news.ycombinator.com/item?id=14678473
+
+Wrote and launched in a couple of hours as a response to StackOverflow question about. Posted as a response, forgot about it, it became popular so he implemented paid plans and started charging for it.
+
+### 41. http://duetapp.com, $3-4k/mo
+
+Self-hosted, web-based invoicing and project management app.
+
+Source: https://news.ycombinator.com/item?id=8630931
+
+### 42. https://betterexplained.com, $6k/mo after 10 years
+
+A website with math tutorials. Started in 2006. Content is free. Makes money selling ebooks (on Amazon kindle and directly from the website), amazon affiliate links and newsletter sponsorships.
+
+Source:
+* https://betterexplained.com/articles/life-lessons-10-years/
+* https://news.ycombinator.com/item?id=8631204
+* https://news.ycombinator.com/item?id=870015
+
+### 43. Website with special-interest news, $!0-15k/mo
+
+Money from AdSense.
+
+Source: https://news.ycombinator.com/item?id=8630369
+
+### 44. $5.5k/mo from Udemy course
+
+Source: https://news.ycombinator.com/item?id=8631035
+
+### 45. Storemapper, $21k/mo
+
+Source: 
+* https://www.indiehackers.com/businesses/storemapper
+* http://tylertringas.com/storemapper-bootstrapped-to-50000year-in-2-years-with-live-metrics/
+
+### 46. Brendan Dunn, $451k revenue in 2014 from several products
+
+Source: 
+* https://doubleyourfreelancing.com/annual-review-2014/
+* https://doubleyourfreelancing.com/2016-year-review/
+* https://doubleyourfreelancing.com/2015-year-in-review/
+
+His income:
+* https://doubleyourfreelancing.com/rate/, online course, $207k
+* http://doubleyourfreelancing.com/leads/, online course, $40k
+* https://planscope.io/, SaaS app, $71k
+* http://buildaconsultancy.com/, live classes, $44k from 3 live classes
+* consulting and coaching, $89k from 6 weeks of consulting
+
+### 47. Cooking blog, $5-6k/mo
+
+He does the design/programming/marketing/monetization work behind http://www.theyummylife.com, his mother does the writing.
+Revenue from Amazon affiliates, ads and ebook.
+
+Source: 
+* https://news.ycombinator.com/item?id=4467954
+* https://www.lessannoyingcrm.com/blog/2012/04/259/How+I+monetized+a+blog+in+30+days%3A+what+worked%2C+and+what+didn%27t
+
+### 48. Few dozens entertainment-related websites, $122k/mo
+
+Revenue from AdSense, 8 million monthly uniques, after 6 years.
+
+Source: https://news.ycombinator.com/item?id=4468067
+
+### 49. https://www.tiki-toki.com/, $5k/mo
+
+Web and desktop app for creating pretty timelines. Makes money from premium accounts and selling desktop app.
+
+Source: https://news.ycombinator.com/item?id=4469672
+
+### 50. Webapp in education space, $90k/m
+
+Revenue: AdSsense.
+
+Source: https://news.ycombinator.com/item?id=4468535
+
+### 51. Large web community, $90-110k/mo
+
+Revenu from subscription, adsense, other ad revenue, license and royalty revenue
+
+Source: https://news.ycombinator.com/item?id=2567487
