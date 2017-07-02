@@ -271,7 +271,8 @@ func shouldLog(r *http.Request) bool {
 	if dontLog404[uri] {
 		return false
 	}
-	ext := strings.ToLower(filepath.Ext(uri))
+	uri = strings.ToLower(uri)
+	ext := filepath.Ext(uri)
 	switch ext {
 	// we don't care about stats for image/javascript/css files
 	case ".png", ".jpg", ".jpeg", ".ico", ".gif", ".css", ".js":
@@ -280,6 +281,13 @@ func shouldLog(r *http.Request) bool {
 	// for vulnerabilities and we don't have any pages
 	case ".php", ".asp", ".aspx":
 		return false
+	}
+
+	// people really like to prob urls like /admin/ etc.
+	for _, s := range []string{"admin", "mysql", "php", "pma"} {
+		if strings.Contains(uri, s) {
+			return false
+		}
 	}
 	return true
 }
