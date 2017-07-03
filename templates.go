@@ -18,6 +18,7 @@ var (
 	tmplNotesTag         = "notes_tag.tmpl.html"
 	tmplNotesNote        = "notes_note.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
+	tmplDocuments        = "documents.tmpl.html"
 	tmpl404              = "404.tmpl.html"
 	templateNames        = []string{
 		tmplMainPage,
@@ -27,10 +28,10 @@ var (
 		tmplNotesTag,
 		tmplNotesNote,
 		tmplGenerateUniqueID,
+		tmplDocuments,
 		tmpl404,
 		"analytics.tmpl.html",
 		"page_navbar.tmpl.html",
-		"documents.tmpl.html",
 		"tagcloud.tmpl.js",
 	}
 	templatePaths   []string

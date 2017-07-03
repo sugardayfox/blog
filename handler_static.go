@@ -209,9 +209,9 @@ func handleArticles(w http.ResponseWriter, r *http.Request) {
 	if redirectIfNeeded(w, r) {
 		return
 	}
-	url := r.URL.Path
-	if url == "/articles/" || url == "/articles/index.html" {
-		serveFileFromDir(w, r, getStaticDir(), "documents.html")
+	uri := r.URL.Path
+	if uri == "/articles/" || uri == "/articles/index.html" {
+		serveTemplate(w, tmplDocuments, nil)
 		return
 	}
 	file := r.URL.Path[len("/articles/"):]
