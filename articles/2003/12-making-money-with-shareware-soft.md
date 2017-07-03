@@ -6,12 +6,6 @@ Format: Markdown
 --------------
 An article just about that:
 
-  * [Software Strategies for Emerging Developers][3] (from [O'Reilly][4]).
+  * [Software Strategies for Emerging Developers](https://web.archive.org/web/20090430134033/http://www.macdevcenter.com/lpt/a/3138)
 
-Some good points were made.
-
-   [3]: http://www.macdevcenter.com/lpt/a/3138
-
-   [4]: http://www.ora.com
-
-
+Some good points about shareware model, open-source, patents, complements and commodities.

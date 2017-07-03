@@ -1,27 +1,29 @@
 Id: wjRD
-Title: Collected stories of solo founder with profitable businesses, for your startup inspiration
+Title: Solo founders with profitable businesses, collected stories
 Format: Markdown
-Tags: for-blog, draft
+Tags: for-blog, published, business
 CreatedAt: 2017-06-23T23:44:19Z
-UpdatedAt: 2017-07-02T21:02:06Z
+UpdatedAt: 2017-07-03T02:10:34Z
 --------------
 @header-image gfx/headers/header-03.jpg
 
 People sometimes wonder: can I have a successful business as a single founder?
 
-The answer is: yes. This is a collection of solo-preneur success stories (with occasional 2 people bands).
+The answer is: **yes**.
 
-I only include businesses generating significant revenues. In this context it's $5k/mo or more.
+This is a collection of solo-preneur success stories (with occasional 2 people bands).
+
+I only include businesses generating significant revenues. In this context it's around $5k/mo or more, enough to replace full-time salary.
 
 Maybe it'll inspire you to start your own, solo business.
 
-Before you get too (or not enough) excited, keep the following in mind.
+Before you get too excited, keep the following in mind.
 
 This list is the pinnacle of survivorship bias. Solo-preneur software business is not different that any other business, and most businesses fail. You have 10-20% chance of success so pick your idea wisely, work hard and if you fail, do it again.
 
 At the same time, this is only tip of the iceberg. Those are the stories that people shared, cribbed from a few online sources.
 
-There are 100x more people who have successful businesses like this but they don't share their numbers publicly. There is a silent majority of successful software businesses.
+There are 100x more successful solo founders that don't share their numbers publicly. A silent majority of successful solo businesses.
 
 ### 1. Anonymous making $750k/year with a desktop app, sold via his website
 
