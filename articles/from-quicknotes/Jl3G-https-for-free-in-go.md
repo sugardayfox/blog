@@ -4,7 +4,7 @@ Title: HTTPS for free in Go
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-03T01:57:36Z
+UpdatedAt: 2017-07-03T04:55:45Z
 --------------
 @header-image gfx/headers/header-04.jpg
 
@@ -169,9 +169,9 @@ In real code I add code that checks for `-production` cmd-line flag and use that
 
 ## Redirecting from HTTP to HTTPS
 
-If you have HTTPS version of your website, it makes sense to always use instead of HTTP, for security and SEO (Google doesn't like duplicate content so your SEO rank will be better with a single website).
+If you can do HTTPS there's no point in providing plain HTTP. 
 
-You can achieve that by redirecting all HTTP request to corresponding HTTPS version.
+We can re-direct all HTTP request to HTTPS equivalent, for better security and SEO (Google doesn't like duplicate content so your SEO rank will be better with a single version of the website).
 
 ```go
 func makeServerFromMux(mux *http.ServeMux) *http.Server {
