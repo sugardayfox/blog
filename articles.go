@@ -192,6 +192,7 @@ func readArticle(path string) (*Article, error) {
 	defer f.Close()
 	a := &Article{}
 	r := bufio.NewReader(f)
+	var publishedOn time.Time
 	for {
 		l, err := r.ReadString('\n')
 		if err != nil {
@@ -236,6 +237,11 @@ func readArticle(path string) (*Article, error) {
 				return nil, fmt.Errorf("%q is not a valid format", v)
 			}
 			a.Format = f
+		case "publishedon":
+			publishedOn, err = parseDate(v)
+			if err != nil {
+				return nil, fmt.Errorf("%q is not a valid PublishedOn date", v)
+			}
 		case "date", "createdat":
 			a.PublishedOn, err = parseDate(v)
 			if err != nil {
@@ -246,6 +252,11 @@ func readArticle(path string) (*Article, error) {
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
+	}
+
+	// PublishedOn over-writes Date and CreatedAt
+	if !publishedOn.IsZero() {
+		a.PublishedOn = publishedOn
 	}
 
 	d, err := ioutil.ReadAll(r)

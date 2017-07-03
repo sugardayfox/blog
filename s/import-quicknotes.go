@@ -67,6 +67,16 @@ func getURLPrefix(uri string) string {
 	panic(msg)
 }
 
+// given a date in format "YYYY-MM-DD", return it format "2017-06-21T18:47:07Z"
+// empty string returns empty string
+// panic if non-empty but doesn't fit the expected format
+func validateDate(s string) string {
+	s = strings.TrimSpace(s)
+	t, err := time.Parse("2006-01-02", s)
+	u.PanicIfErr(err)
+	return t.Format(time.RFC3339)
+}
+
 func main() {
 	path := filepath.Join("articles", "from-quicknotes.txt")
 	lines, err := u.ReadLinesFromFile(path)
@@ -85,17 +95,27 @@ func main() {
 		//fmt.Printf("%s => %s\n", noteID, fi.Name())
 	}
 
-	for _, url := range lines {
-		url = strings.TrimSpace(url)
-		if len(url) == 0 {
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if len(line) == 0 {
 			continue
 		}
-		urlPrefix := getURLPrefix(url)
-		d, err := httpGet(url)
+		// a line could be in format: ${url} ${published_on}
+		parts := strings.Split(line, " ")
+		u.PanicIf(len(parts) > 2)
+		uri := parts[0]
+		urlPrefix := getURLPrefix(uri)
+		d, err := httpGet(uri)
 		u.PanicIfErr(err)
-		name := strings.TrimPrefix(url, urlPrefix)
+		if len(parts) == 2 {
+			publishedOnStr := validateDate(parts[1])
+			d2 := []byte("PublishedOn: " + publishedOnStr + "\n")
+			d = append(d2, d...)
+		}
 
-		parts := strings.SplitN(name, "-", 2)
+		name := strings.TrimPrefix(uri, urlPrefix)
+
+		parts = strings.SplitN(name, "-", 2)
 		noteID := parts[0]
 		fileName := noteIDToFileName[noteID]
 		//fmt.Printf("noteID: %s, fileName: %s\n", noteID, fileName)
@@ -106,6 +126,6 @@ func main() {
 
 		err = ioutil.WriteFile(path, d, 0644)
 		u.PanicIfErr(err)
-		fmt.Printf("Wrote '%s' as '%s', %d bytes\n", url, path, len(d))
+		fmt.Printf("Wrote '%s' as '%s', %d bytes\n", uri, path, len(d))
 	}
 }

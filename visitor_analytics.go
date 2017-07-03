@@ -284,7 +284,7 @@ func shouldLog(r *http.Request) bool {
 	}
 
 	// people really like to prob urls like /admin/ etc.
-	for _, s := range []string{"admin", "mysql", "php", "pma"} {
+	for _, s := range []string{"admin", "sql", "php", "pma"} {
 		if strings.Contains(uri, s) {
 			return false
 		}
