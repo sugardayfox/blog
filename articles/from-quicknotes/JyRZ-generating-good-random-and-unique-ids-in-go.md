@@ -3,7 +3,7 @@ Title: Generating good, random and unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-21T18:47:07Z
-UpdatedAt: 2017-06-21T18:47:07Z
+UpdatedAt: 2017-07-03T08:08:50Z
 --------------
 @header-image gfx/headers/header-01.jpg
 
@@ -44,7 +44,7 @@ package | id | format
 --- | --- | ---
 [github.com/segmentio/ksuid](https://github.com/segmentio/ksuid) | **`0pPKHjWprnVxGH7dEsAoXX2YQvU`** | 4 bytes of time (seconds) + 16 random bytes
 [github.com/rs/xid](https://github.com/rs/xid) | **`b50vl5e54p1000fo3gh0`** | 4 bytes of time (seconds) + 3 byte machine id + 2 byte process id + 3 bytes random
-[github.com/kjk/betterguid](https://github.com/kjk/betterguid) | **`-Kmdih_fs4ZZccpx2Hl1`** | 8 bytes of time (milliseconds) + 12 random bytes
+[github.com/kjk/betterguid](https://github.com/kjk/betterguid) | **`-Kmdih_fs4ZZccpx2Hl1`** | 8 bytes of time (milliseconds) + 9 random bytes
 |[github.com/sony/sonyflake](https://github.com/sony/sonyflake)| **`20f8707d6000108`**| ~6 bytes of time (10 ms) + 1 byte sequence + 2 bytes machine id|
 [github.com/oklog/ulid](https://github.com/oklog/ulid) | **`01BJMVNPBBZC3E36FJTGVF0C4S`** | 6 bytes of time (milliseconds) + 8 bytes random
 |[github.com/chilts/sid](https://github.com/chilts/sid) |**`1JADkqpWxPx-4qaWY47~FqI`** | 8 bytes of time (ns) + 8 random bytes

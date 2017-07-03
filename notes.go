@@ -342,10 +342,19 @@ func linesToNotes(lines []string) []*note {
 }
 
 func readNotes(path string) error {
+	// TODO: throws "duplicate note id:" when re-reading notes, so don't re-read
+	if len(notesAllNotes) > 0 {
+		return nil
+	}
+
+	notesDays = nil
 	notesTagToNotes = make(map[string][]*note)
-	notesWeekStartDayToNotes = make(map[string][]*note)
 	notesIDToNote = make(map[string]*note)
+	notesTagCounts = nil
+	notesAllNotes = nil
+	notesWeekStartDayToNotes = make(map[string][]*note)
 	notesWeekStarts = nil
+
 	f, err := os.Open(path)
 	if err != nil {
 		return err
