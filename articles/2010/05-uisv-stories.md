@@ -10,8 +10,7 @@ proof positive it’s possible.
 
 **1. GitHub**
 
-Source:
-<http://thechangelog.com/post/352878673/episode-0-1-0-chris-wanstrath-from-github>
+Source: http://thechangelog.com/post/352878673/episode-0-1-0-chris-wanstrath-from-github
 
 Started by 3 people in October 07
 
@@ -28,10 +27,10 @@ salary). Reached desired salary in the beginning of 2009.
 
 Source:
 
--   <http://blog.stackoverflow.com/2010/02/podcast-82/>
--   <http://www.red-sweater.com/blog/743/two-years-on-mars>
--   <http://www.red-sweater.com/blog/302/black-ink-10>
--   <http://www.red-sweater.com/blog/447/indie-fever>
+* http://blog.stackoverflow.com/2010/02/podcast-82/
+* http://www.red-sweater.com/blog/743/two-years-on-mars
+* http://www.red-sweater.com/blog/302/black-ink-10
+* http://www.red-sweater.com/blog/447/indie-fever
 
 Daniel Jalkut launched in 1999 (while still working at apple), quit
 apple in 2002, became primary business in 2005. In 2007 moved from being
@@ -49,8 +48,8 @@ Mars Edit acquired in Feb 2007.
 
 Source:
 
--   <http://www.red-sweater.com/blog/791/panics-lucky-13>
--   <http://www.panic.com/extras/audionstory/>
+* http://www.red-sweater.com/blog/791/panics-lucky-13
+* http://www.panic.com/extras/audionstory/
 
 13 people in 2009
 
@@ -64,8 +63,8 @@ Cabel Sasser)
 
 Source:
 
--   "http://gusmueller.com/blog/archives/2008/01/flying\_meat+*.html":http://gusmueller.com/blog/archives/2008/01/flying\_meat*+.html
--   <http://www.gusmueller.com/blog/archives/2005/12/25.html#1401>
+* [http://www.gusmueller.com/blog/archives/2008/01/flying_meat++.html](http://www.gusmueller.com/blog/archives/2008/01/flying_meat++.html)
+* http://www.gusmueller.com/blog/archives/2005/12/25.html#1401
 
 Products: Acorn ($50), VoodooPad ($20), FlySketch ($25)
 
@@ -85,9 +84,9 @@ Profitable enough to take 3 months off at the end of 2009.
 
 Source:
 
--   <http://www.bvckup.com/support/forums/topic_show.pl?tid=22>
--   <http://www.swapped.cc/hamachi/>
--   <http://news.ycombinator.com/item?id=1046839>
+* http://www.bvckup.com/support/forums/topic_show.pl?tid=22
+* http://www.swapped.cc/hamachi/
+* http://news.ycombinator.com/item?id=1046839
 
 Alex Pankratov started Hamachi (peer-to-peer VPN system) in early 2004,
 launched in December 2004 and sold it to LogMeIn in 2006.
@@ -95,7 +94,7 @@ launched in December 2004 and sold it to LogMeIn in 2006.
 **7. Cocoatech**
 
 Source:
-<http://theappleblog.com/2009/06/25/interview-steve-gehrman-of-path-findercocoatech/>
+https://gigaom.com/2009/06/25/interview-steve-gehrman-of-path-findercocoatech/
 
 Products: Path Finder ($40)
 
