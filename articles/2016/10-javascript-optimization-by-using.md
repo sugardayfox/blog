@@ -1,25 +1,25 @@
 Id: 18
-Title: JavaScript optimization by using arrays instead of objects
+Title: Optimizing JavaScript by using arrays instead of objects
 Date: 2016-10-23T00:43:56-07:00
 Tags: programming, javascript
 Format: Markdown
 --------------
-This article talks about two things:
+@header-image gfx/headers/header-05.jpg
 
-* best optimizations are achievied by thinking about a problem holistically
-* In JavaScript, a clever micro-optimization that uses arrays instead of classes
-while preserving a class-based interface for accessing data
+Best optimizations are achievied by thinking about a problem holistically.
 
-Imagine you're building a note-taking web application. It uses modern,
-single-page architecture with front-end written in React and backend that
-mostly implements API calls returning JSON data that drive the display.
+In this article I describe an optimization that uses arrays instead of classes while providing a class API for accessing data.
+
+Imagine you're building a web-based [note taking application](https://quicknotes.io).
+
+It uses modern, single-page architecture. Front-end is written in React and backend provides JSON data to React.
 
 The main view is a list of all notes of a given user. You need a backend api
 call that returns list of user's notes. You survey how everyone else is
 implementing such API and you come up with the following:
-`/api/getnotes?user_id=<user_id>` call returns JSON response that looks like:
+`/api/getnotes?user_id=<user_id>` call which returns JSON response that looks like:
 
-```javascript
+```json
 {
   "notes": [
     {
@@ -39,11 +39,11 @@ implementing such API and you come up with the following:
 }
 ```
 
-You notice there's a lot of redundancy as we repeat key names for every object.
-In our case the structure of a note is fixed i.e. at always has the same set of
-properties. We can encode this data much more efficiently:
+You notice there's a lot of redundancy as we repeat property names in every note object.
 
-```javascript
+In our case the structure of the note is fixed i.e. it always has the same properties. We can encode this data more efficiently:
+
+```json
 {
   "notes": [
     [1, "first note", "2016-08-14 15:34:32Z", ... more properties],
@@ -53,7 +53,7 @@ properties. We can encode this data much more efficiently:
 }
 ```
 
-This is a holistic optimization that creates several speedups at once:
+This is a holistic optimization that achieves several speedups at once:
 
 * backend generates less text (JSON response)
 * backend compresses less data
@@ -65,15 +65,16 @@ data uses less memory
 
 If you know how gzip compression works you might protest that our effort to
 remove property names is mostly futile because gzip is very good at removing
-such redundancies. As with all benchmarks the exact results depend on exact
-details but when benchmarking [quicknotes.io](http://quicknotes.io) using my
-own notes, I found that even after compression the size difference of two
-compressed versions is ~50%. This might be a difference between a browser
-downloading 150kB of data vs. 300kB.
+such redundancies.
 
-This does come at a small cost: accessing the data in JavaScript is less
-convenient. With objects we can say: `note.title`. With array representation,
-we have to do more:
+I benchmarked [quicknotes.io](http://quicknotes.io) using my
+own notes and found that even after compression the size difference of two
+versions is ~50%. This might be a difference between a browser
+downloading 150 kB of data vs. 300 kB.
+
+This representation comes at a cost of programmer's convenience.
+
+With objects we say `note.title`. With array representation it's more work:
 
 ```javascript
 const noteIdIdx = 0;
@@ -83,7 +84,7 @@ const noteTitleIdx = 1;
 const title = note[noteTitleIdx];
 ```
 
-This is not great. We can improve that by writing accessor functions:
+This is not great. We can improve this by writing accessor functions:
 
 ```javascript
 function getTitle(note) {
@@ -91,9 +92,12 @@ function getTitle(note) {
 }
 ```
 
-Thankfully, JavaScript is very dynamic language so we can get the best of both
-worlds: array representation but class interface. This example uses TypeScript,
-because static typing rocks, but will work in pure ES2015.
+JavaScript is a pliable language and we can get the best of both
+worlds: array representation with class API.
+
+We create a class that derives from `Array` and extends it with accessor functions.
+
+ This example uses TypeScript, because static typing rocks, but will also work in pure JavaScript.
 
 ```javascript
 class Note extends Array {
@@ -112,15 +116,14 @@ class Note extends Array {
 }
 
 // this "upgrades" rawArray object from being Array instance
-// to Note instance. Note: if rawAray is not Array instance,
-// bad things will happen
+// to Note instance by patching prototype chain.
+// Beware: if rawAray is not Array instance, bad things will happen
 function toNote(rawArray: any): Note {
   Object.setPrototypeOf(rawArray, Note.prototype);
   return rawArray as Note;
 }
 
-// now we can can treat a raw array as Note object by patching class type
-// of existing object
+// one way to convert raw array to object
 const rawNote = [1, "first note", ... more properties];
 const note = toNote(rawNote);
 const title = note.Title();
@@ -130,28 +133,27 @@ const note = new Note(rawNote);
 const title = note.Title();
 ```
 
-Class Note extends built-in JavaScript Array so it's as efficient as JavaScript
-array and inherits all its functionality. We add a couple of functions for
-getting/setting note data. That gives us efficiency and good interface.
+Class `Note` extends built-in JavaScript `Array` so it's as efficient as an array and inherits all its functionality.
 
-The magic happens in `toNote` function. `rawNote` is an instance of
-`Array` We could add our accessor functions directly to `Array.prototype`
-but that would make them available to all `Array` instances.
+We add a couple of functions for getting/setting note data for a better API.
 
-By defining a class `Note` that inherits from `Array`, `Note.prototype`
-inherits all of `Array.prototype` functions and gets our additional functions.
-In order to convert a raw array to `Note` object we can either construct a new
-object from raw array or "upgrade" the object with `Object.setPrototypeOf(note, Note.prototype)`.
+The magic happens in `toNote` function.
 
-This is dangerous: if the object being upgraded is not an instance of `Array`
-bad things will happen. It's not a technique that should be over-used.
+`rawNote` is an instance of `Array` We could add our accessor functions directly to `Array.prototype` but that would make them available to all `Array` instances.
+
+By defining a class `Note` that inherits from `Array`, `Note.prototype` inherits all of `Array.prototype` functions and gets our additional functions.
+
+In order to convert a raw array to `Note` object we can either construct a new object from raw array or "upgrade" the object with `Object.setPrototypeOf(note, Note.prototype)`.
+
+This is dangerous: if the object being upgraded is not an instance of `Array`,
+bad things will happen. It's not a technique that should be overused.
 
 Upgrading the object in place should be more efficient than creating a new
-object because it avoids an allocation. However [according to MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf),
-changing prototype of an object makes code using that object slow, so it can go
-either way.
+object as it avoids an allocation.
+
+On the other hand, [according to MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf) changing prototype of an object makes for slowera access, so it can go either way.
 
 To summarize:
 
 * optimization is often achieved by looking at a problem as a whole
-* thanks to flexibility of JavaScript we can implement a micro-optimization where we represent objects as arrays but preserve convenient class-like interface to an object
+* thanks to flexibility of JavaScript we can implement a micro-optimization where we represent objects as arrays but add convenient class-like API
