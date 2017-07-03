@@ -86,11 +86,12 @@ Links:
 * http://discuss.bootstrapped.fm/t/gumroad-alternative/4631
 * https://news.ycombinator.com/item?id=11356560
 
+---
+
 Id: b52r6inee28000b4mm70
 #idea
 
 Make web version of https://www.watermark-image.com/ (which makes $3k-$5k as desktop app). Allow limited free use. Upsell Mac/Windows app.
-
 
 2017-06-16
 
@@ -123,6 +124,7 @@ Id: b50emcq8i1lg00d84r70
 
 Vue.js notes.
 
+```
 div#app
   p v-if="seen"
     {{ message | capitalize }}
@@ -138,7 +140,9 @@ div#app
   input v-model="message"
   div v-html="rawHtml"
   div v-for="(value, key, index) in object"
+```
 
+```javascript
 new Vue({
   el: "#app",
   data: {
@@ -167,6 +171,7 @@ new Vue({
     }
   },
 })
+```
 
 https://vuejs.org/v2/api/#v-on
 event bindings modifiers (e.g. @onclick.stop):
