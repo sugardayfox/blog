@@ -4,7 +4,7 @@ Title: HTTPS for free in Go
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-03T04:55:45Z
+UpdatedAt: 2017-07-05T19:50:14Z
 --------------
 @header-image gfx/headers/header-04.jpg
 
@@ -35,9 +35,11 @@ Browser talks to CloudFlare, which takes care of provisioning SSL certificate an
 
 AWS, Google Cloud and some other hosting providers also provide free HTTPS for servers hosted on their infrastructures.
 
+Another option is to run your server behind reverse-proxy server supporting HTTPS, like [Caddy](https://caddyserver.com/).
+
 ## Directly supporting HTTPS
 
-Not long ago, if you wanted a certificate, you had to pay many dollars a year for a single domain.
+Not long ago, if you wanted a SSL certificate, you had to pay many dollars a year for each domain.
 
 [Let's Encrypt](https://letsencrypt.org/) changed that. It's a non-profit organization that provides certificates for free and offers HTTP API for obtaining certificates. API allows automating the process.
 
@@ -49,7 +51,7 @@ Thankfully all the hard work of talking to the API has already bee done by other
 
 There are a couple of Go libraries that implement Let's Encrypt support.
 
-I've been using [golang.org/x/crypto/acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert) written by Russ Cox, one of Go core developers.
+I've been using [golang.org/x/crypto/acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert), which is developed by Go core developers.
 
 It's been several months now and it works flawlessly.
 
@@ -198,7 +200,7 @@ func makeHTTPToHTTPSRedirectServer() *http.Server {
 func main() {
 	httpSrv := makeHTTPToHTTPSRedirectServer()
 	httpSrv.Addr = ":80"
-	fmt.Printf("Starting HTTP server on %s\n", httpSrv.Addrt)
+	fmt.Printf("Starting HTTP server on %s\n", httpSrv.Addr)
 	err := httpSrv.ListenAndServe()
 	if err != nil {
 		log.Fatalf("httpSrv.ListenAndServe() failed with %s", err)
