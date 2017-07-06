@@ -218,7 +218,7 @@ func handleArticles(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	file := strings.TrimPrefix(uri, "/articles/")
-	file = strings.TrimPrefix(uri, "/book/")
+	file = strings.TrimPrefix(file, "/book/")
 	serveFileFromDir(w, r, getArticlesDir(), file)
 }
 
