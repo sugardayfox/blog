@@ -19,7 +19,7 @@ cppcheck
 --------
 
 I’ve learned about
-[cppcheck](http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Main_Page)
+[cppcheck](http://cppcheck.sourceforge.net/)
 just recently because someone [opened a
 bug](http://code.google.com/p/sumatrapdf/issues/detail?id=984) against
 Sumatra with a result of running a cppcheck scan. It’s free, open source

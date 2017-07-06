@@ -29,7 +29,7 @@ that help me understand my code better. Those tools include:
 
 -   static code checkers like [clang
     analyzer](http://clang-analyzer.llvm.org/) or
-    [cppcheck](http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Main_Page)
+    [cppcheck](http://cppcheck.sourceforge.net/)
     or [pychecker](http://pychecker.sourceforge.net/)
 -   [Valgrind](http://www.valgrind.org/)
 -   memory and cpu profilers
