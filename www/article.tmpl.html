@@ -58,26 +58,32 @@
             </div>
             {{end}}
 
-            <div style="margin-right:48px">
+            <div>
                 {{.Article.HTMLBody}}
             </div>
 
-            <hr>
-
-            <div class="article-meta">
-                {{if .Article.CollectionURL}}
+            {{if .Article.CollectionURL}}
+            <center>
                 <div style="font-size: 120%">
-                    <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a> / <b>{{.Article.Title}}</b>
+                    Part of <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a>
                 </div>
-                {{else}}
-                <div>
-                    Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}.
-                </div>
-                {{end}}
+            </center>
+            <div class="article-meta">
                 <div style="margin-left:auto">
                     Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
                  </div>
             </div>
+            {{else}}
+            <div class="article-meta">
+                <div>
+                    Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}.
+                </div>
+                <div style="margin-left:auto">
+                    Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
+                 </div>
+            </div>
+            {{end}}
+            <hr>
 
             <p></p>
             {{if not .Article.CollectionURL}}
@@ -92,6 +98,13 @@
                 </div>
             </div>
             {{end}}
+            <p></p>
+            <center>
+                <p style="font-size: 90%; color: gray">
+            {{.ShareHTML}}
+            </p>
+            </center>
+            <p></p>
         </div>
 
     </div>

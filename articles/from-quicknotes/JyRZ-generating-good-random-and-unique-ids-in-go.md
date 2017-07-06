@@ -1,9 +1,9 @@
 Id: JyRZ
-Title: Generating good, random and unique ids in Go
+Title: Generating good unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-21T18:47:07Z
-UpdatedAt: 2017-07-06T06:22:22Z
+UpdatedAt: 2017-07-06T08:41:17Z
 --------------
 @header-image gfx/headers/header-01.jpg
 @collection go-cookbook

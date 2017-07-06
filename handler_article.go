@@ -1,7 +1,10 @@
 package main
 
 import (
+	"fmt"
+	"html/template"
 	"net/http"
+	"net/url"
 	"strings"
 )
 
@@ -46,6 +49,14 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 	return getCachedArticlesByID(parts[0])
 }
 
+func makeShareHTML(r *http.Request, article *Article) string {
+	title := url.QueryEscape(article.Title)
+	uri := url.QueryEscape("https://" + r.Host + r.URL.String())
+	shareURL := fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
+	followURL := `https://twitter.com/intent/follow?user_id=3194001`
+	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
+}
+
 // /article/*, /blog/*, /kb/*
 func handleArticle(w http.ResponseWriter, r *http.Request) {
 	//logger.Noticef("handleArticle: %s", r.URL)
@@ -61,6 +72,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	article := articleInfo.this
+	shareHTML := makeShareHTML(r, article)
 
 	model := struct {
 		Reload         bool
@@ -74,6 +86,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticleNo      int
 		ArticlesCount  int
 		HeaderImageURL string
+		ShareHTML      template.HTML
 	}{
 		Reload:        !flgProduction,
 		AnalyticsCode: analyticsCode,
@@ -84,6 +97,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesCount: store.ArticlesCount(),
 		ArticleNo:     articleInfo.pos + 1,
 		ArticlesJsURL: getArticlesJsURL(),
+		ShareHTML:     template.HTML(shareHTML),
 	}
 
 	serveTemplate(w, tmplArticle, model)

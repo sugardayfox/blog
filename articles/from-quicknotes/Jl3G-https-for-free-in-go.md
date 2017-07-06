@@ -4,7 +4,7 @@ Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-06T06:09:00Z
+UpdatedAt: 2017-07-06T20:29:20Z
 --------------
 @header-image gfx/headers/header-04.jpg
 @collection go-cookbook
@@ -13,7 +13,7 @@ UpdatedAt: 2017-07-06T06:09:00Z
 
 Having HTTPS for your website is important:
 
-* HTTPS encrypts the traffic between browser and server. Passwords of your users are protected from traffic sniffing on naughty intermediary servers or miscreants sniffing wifi packets roaming through the air in a cafe.
+* HTTPS encrypts the traffic between browser and server. Passwords of your users are protected from traffic sniffing on naughty intermediary servers or miscreants sniffing wifi packets in a cafe.
 * new HTTP/2 protocol is faster than HTTP/1.1 but only works over HTTPS.
 * if you care about SEO, Google ranks HTTPS websites higher than HTTP ones.
 
@@ -189,9 +189,9 @@ func makeServerFromMux(mux *http.ServeMux) *http.Server {
 }
 
 func makeHTTPToHTTPSRedirectServer() *http.Server {
-	handleRedirect := func(w http.ResponseWriter, req *http.Request) {
-		newURI := "https://" + req.Host + req.URL.String()
-		http.Redirect(w, req, newURI, http.StatusFound)
+	handleRedirect := func(w http.ResponseWriter, r *http.Request) {
+		newURI := "https://" + r.Host + r.URL.String()
+		http.Redirect(w, r, newURI, http.StatusFound)
 	}
 	mux := &http.ServeMux{}
 	mux.HandleFunc("/", handleRedirect)
@@ -235,7 +235,7 @@ That's exactly what happened in SSL certificates market. You can have a low-end 
 
 That was a problem because the cost of SSL certificates was a significant barrier to adopting encryption by all websites.
 
-A few companies decided to poll their resources and solve that problem for the greater good of the web.
+A few companies decided to pool their resources and solve that problem for the greater good of the web.
 
 They funded Let's Encrypt which became a Certificate Authority, wrote necessary software and is running the servers that do the work of issuing certificates. It's been a [raging success](//letsencrypt.org/2017/06/28/hundred-million-certs.html).
 
