@@ -14,7 +14,6 @@ achieve more. They don't always agree on the answer but there's one thing they a
   * **R**esults oriented
   * **T**ime-bound
 
-Do you set yourself goals? What do you want to achieve in the next week, next
-month, next year, next 5 years?
+Do you set yourself goals? What do you want to achieve in the next week, next month, next year, next 5 years?
 
 

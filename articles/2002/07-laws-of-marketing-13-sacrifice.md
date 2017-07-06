@@ -7,8 +7,8 @@ Format: Markdown
 have to give up something in order to get something. There are three
 things to sacrifice:
 
--   product line
--   target market
--   constant change
+* product line
+* target market
+* constant change
 
 See also [Eric's take](http://www.ericsink.com/laws/Law_13.html)

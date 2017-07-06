@@ -4,8 +4,7 @@ Tags: book,programming
 Date: 2002-08-03T02:18:21-07:00
 Format: Markdown
 --------------
-Finished reading [C Interfaces and
-Implementations](https://www.amazon.com/exec/obidos/ASIN/0201498413/).
+Finished reading [C Interfaces and Implementations](https://www.amazon.com/exec/obidos/ASIN/0201498413/).
 
 Good, advanced book on C that teaches how to design and
 implement good, re-usable interfaces.

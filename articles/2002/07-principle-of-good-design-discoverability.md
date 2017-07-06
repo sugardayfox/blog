@@ -16,7 +16,8 @@ Emacs, in general, has poor discoverability. Most of the work is being
 done with arbitrary keystrokes and obscure lisp functions and the only
 way to find out what a given keystroke does is by reading copious
 manuals or using one of the obscure lisp functions to list current key
-bindings.\
+bindings.
+
 This is efficient for experienced users but presents a very high barrier
 to entry for new users.
 
