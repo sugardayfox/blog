@@ -103,6 +103,10 @@ a.taglink:hover {
     margin-top: 16px;
 }
 
+.hdr-image:hover {
+    filter: grayscale(100%);
+}
+
 /* https://stackoverflow.com/questions/19390690/css-media-queries-to-hide-and-show-page-elements
 TODO: it still loads the image if it's inside div hidden with this trick, at least in Chrome's device simulator
 See: https://timkadlec.com/2012/04/media-query-asset-downloading-results/
