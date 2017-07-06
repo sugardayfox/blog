@@ -3,8 +3,7 @@ Title: Laws of marketing #22 (resources)
 Date: 2002-07-17T05:30:03-07:00
 Format: Markdown
 --------------
-\
- [The book](http://www.amazon.com/exec/obidos/ASIN/0887306667) says:
+[The book](http://www.amazon.com/exec/obidos/ASIN/0887306667) says:
 without adequate funding an idea won't get off the ground. You need a
 lot of money to market your ideas.
 
