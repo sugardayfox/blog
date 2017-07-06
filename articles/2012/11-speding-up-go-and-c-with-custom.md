@@ -1,11 +1,11 @@
 Id: 1407031
-Title: Speeding up Go (and C++) with custom allocators
+Title: Speeding up Go with custom allocators
 Tags: go,programming
 Date: 2012-11-26T12:17:53-08:00
 Format: Markdown
 --------------
-Speeding up Go with custom allocators
--------------------------------------
+@header-image gfx/headers/header-07.jpg
+@collection go-cookbook
 
 **Summary**: using a custom allocator I was able to speed up an
 allocation heavy program ([binary-trees

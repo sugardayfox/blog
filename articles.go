@@ -43,6 +43,8 @@ type Article struct {
 	Body           []byte
 	BodyHTML       string
 	HeaderImageURL string
+	Collection     string
+	CollectionURL  string
 
 	HTMLBody     template.HTML
 	DisplayMonth string
@@ -161,7 +163,7 @@ func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
 // @{name} ${value}\n
 // We extract this metadata and put the relevant info in article
 func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
-	var fileName string
+	var fileName, collection string
 	oneMore := true
 	for oneMore {
 		oneMore = false
@@ -178,6 +180,21 @@ func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
 			//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
 			article.HeaderImageURL = fileName
 			continue
+		}
+		d, collection = extractMetadataValue(d, "@collection")
+		if collection != "" {
+			oneMore = true
+			collectionURL := ""
+			switch collection {
+			case "go-cookbook":
+				collectionURL = "/book/go-cookbook.html"
+				collection = "Go Cookbook"
+			}
+			if collectionURL == "" {
+				return d, fmt.Errorf("'%s' is now a known collection", collection)
+			}
+			article.Collection = collection
+			article.CollectionURL = collectionURL
 		}
 	}
 	return d, nil

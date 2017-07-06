@@ -3,9 +3,10 @@ Title: Generating good, random and unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-21T18:47:07Z
-UpdatedAt: 2017-07-03T08:08:50Z
+UpdatedAt: 2017-07-06T06:22:22Z
 --------------
 @header-image gfx/headers/header-01.jpg
+@collection go-cookbook
 
 Imagine you're writing a [note taking](http://quicknotes.io) application.
 

@@ -4,6 +4,8 @@ Date: 2015-06-03T17:45:57-07:00
 Format: Markdown
 Tags: go, programming
 --------------
+@collection go-cookbook
+
 For a project written in Go I needed to access files inside .7z archive.
 
 Unfortunately at this time there is no pure Go implementation for that.

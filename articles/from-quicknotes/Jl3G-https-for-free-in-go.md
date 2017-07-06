@@ -4,9 +4,10 @@ Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-06T02:40:26Z
+UpdatedAt: 2017-07-06T06:09:00Z
 --------------
 @header-image gfx/headers/header-04.jpg
+@collection go-cookbook
 
 ## Why HTTPS?
 

@@ -4,8 +4,18 @@
 <head>
     <title>Go Cookbook</title>
     <meta name="description" content="Go Cookbook - slightly more advanced articles on Go">
-
     <link rel="stylesheet" href="/css/main-2ad8fabd.css">
+    <style type="text/css">
+        .summary {
+            margin-left: 16px;
+            font-size: 90%;
+            color: darkslategray;
+        }
+        a {
+            font-weight: bold;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,51 +24,58 @@
 
         <p><a href="/">Home</a> &raquo; <a href="/articles/">Writing</a> &raquo; <strong>Go Cookbook</strong></p>
 
-        <h3>Go Cookbook</h3>
+        <center><h1 style="font-size:2em">Go Cookbook</h1></center>
 
-        <p>So, you've read <a href="https://gobyexample.com/">Go By Example</a> and you're hungry for a little bit more? This
-            is the right place.</p>
-        <p><b>Table of Contents</b></p>
+        <div class="article-header hide-mobile">
+            <img class = "hide-mobile" src="/gfx/headers/header-16.jpg">
+        </div>
+
+        <p>Go Cookbook is a collection of slightly advanced articles about programming in Go.</p>
+
+        <p><center><b style="font-size:1.4em">Table of Contents</b></center></p>
 
         <div>
             <a href="/article/wOYk/advanced-command-execution-in-go-with-osexec.html">Advanced command execution with os/exec</a>
-            <br> One of Go standard libraries is <a href="https://golang.org/pkg/os/exec/">os/exec</a> used for executing
+            <div class="summary">One of Go standard libraries is <a href="https://golang.org/pkg/os/exec/">os/exec</a>, used for executing
             external programs. This article describes slightly more advanced use cases.
+            </div>
         </div>
         <br>
 
         <div>
             <a href="/article/Jl3G/https-for-free-in-go.html">HTTPS for free using Let's Encrypt</a>
-            <br> In the past supporting HTTPS required paying for SSL certificate. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>            we get free SSL certificates and <a href="golang.org/x/crypto/acme/autocert">autocert</a> library does all the
-            hard work of provisioning them. Learn how to easily add HTTPS support and redirect HTTP traffic to HTTPS.
+            <div class="summary">In the past supporting HTTPS required paying for SSL certificate. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>            we get free SSL certificates and <a href="https://golang.org/x/crypto/acme/autocert">autocert</a> library does all the
+            hard work of provisioning them. Learn how to easily add HTTPS support and redirect HTTP traffic to HTTPS.</div>
         </div>
         <br>
 
         <div>
             <a href="/article/JyRZ/generating-good-random-and-unique-ids-in-go.html">Generating good, unique ids</a>
-            <br> Generating unique ids comes up often in web services and distributed systems. This article describes what a good, unique id is and compares 7 libraries for generating ids.
+            <div class="summary">Generating unique ids comes up often in web services and distributed systems. This article describes what a good, unique id is and compares 7 libraries for generating ids.</div>
         </div>
         <br>
 
         <div>
             <a href="/article/f/accessing-github-api-from-go.html">Accessing GitHub API</a>
-            <br> <a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service. This article will get you started writing programs that access the API.
+            <div class="summary"><a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service. This article will get you started writing programs that access the API.</div>
         </div>
         <br>
 
         <div>
-            <a href="/article/u5o7/speeding-up-go-and-c-with-custom-allocators.html">Speeding up Go  with custom allocators</a>
-            <br> Allocations are often a silent performance killer. This article takes a well-known benchmark (construction of binary trees) and speeds it up ~4x by optimizing memory allocations.
+            <a href="/article/u5o7/speeding-up-go-and-c-with-custom-allocators.html">Speeding up code with custom allocators</a>
+            <div class="summary">Allocations are often a silent performance killer. This article takes a well-known benchmark (construction of binary trees) and speeds it up ~4x by optimizing memory allocations.</div>
         </div>
         <br>
 
         <div>
             <a href="/article/g/extracting-files-from-.7z-archives-in-go.html">Extracting files from .7z archives</a>
-            <br> Go doesn't have a native library for reading 7-Zip. This article describes extracting files from .7z archives
-            using cmd-line 7z program.
+            <div class="summary">Go doesn't have a native library for reading 7-Zip. This article describes extracting files from .7z archives
+            using cmd-line 7z program.</div>
         </div>
         <br>
-
+        <hr>
+        <center>Written by <a href="/">Krzysztof Kowalczyk</a></center>
+        <p></p>
     </div>
 
     <script>
