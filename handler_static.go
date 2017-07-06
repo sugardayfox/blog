@@ -205,16 +205,20 @@ func handleExtremeOpt(w http.ResponseWriter, r *http.Request) {
 }
 
 // url: /articles/*
+// url: /book/*
+// I serve /book/ from the same directory as /articles/ for convenience.
+// Some things I prefer to park under /book/ (like go cookbook)
 func handleArticles(w http.ResponseWriter, r *http.Request) {
 	if redirectIfNeeded(w, r) {
 		return
 	}
 	uri := r.URL.Path
-	if uri == "/articles/" || uri == "/articles/index.html" {
+	if uri == "/articles/" || uri == "/articles/index.html" || uri == "/book/" {
 		serveTemplate(w, tmplDocuments, nil)
 		return
 	}
-	file := r.URL.Path[len("/articles/"):]
+	file := strings.TrimPrefix(uri, "/articles/")
+	file = strings.TrimPrefix(uri, "/book/")
 	serveFileFromDir(w, r, getArticlesDir(), file)
 }
 

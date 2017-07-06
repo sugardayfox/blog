@@ -26,6 +26,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/blog/", withAnalyticsLogging(handleArticle))
 	mux.HandleFunc("/forum_sumatra/", withAnalyticsLogging(forumRedirect))
 	mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
+	mux.HandleFunc("/book/", withAnalyticsLogging(handleArticles))
 	mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
 	mux.HandleFunc("/static/", withAnalyticsLogging(handleStatic))
 	mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
