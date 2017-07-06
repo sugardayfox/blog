@@ -1,9 +1,11 @@
 Id: 13
-Title: Improving speed of pure Go SMAZ compressor by 2.6x/1.5x
+Title: Improving speed of SMAZ compressor by 2.6x/1.5x
 Date: 2014-12-11T00:19:49-08:00
 Format: Markdown
 Tags: go, programming
 --------------
+@header-image gfx/headers/header-08.jpg
+@collection go-cookbook
 
 I was testing fast compressors in pure Go. One of them was [Go implementation](https://github.com/kjk/smaz)
 of [SMAZ algorithm](https://github.com/antirez/smaz) for compressing small
@@ -28,14 +30,12 @@ The speed increase came from 3 micro-optimizations.
 ## 1. Don't use `bytes.Buffer` if `[]byte` will do.
 
 The biggest decompression speed-up came from
-[this change](https://github.com/kjk/smaz/commit/7adaf22db621f66027e38bd1ee4d36f351025043) where I replaced the use of `bytes.Buffer` with using slices directly.
+[this change](https://github.com/kjk/smaz/commit/7adaf22db621f66027e38bd1ee4d36f351025043) where I replaced the use of `bytes.Buffer` with `[]byte` slice.
 
 `bytes.Buffer` is a wrapper around `[]byte`. It adds convenience by
-implementing popular interfaces like `io.Reader`, `io.Writer` etc. but
-decreased speed is the price of that.
+implementing popular interfaces like `io.Reader`, `io.Writer` etc. Decreased speed is the price of that.
 
-Usuaully it doesn't matter but when there are lots of operations on `byte.Buffer`,
-even small differences add up.
+It doesn't matter in most programs, but in a tight decompression loop even small wins do add up.
 
 ## 2. Re-using buffers is another common optimization trick in Go.
 
@@ -45,7 +45,7 @@ compressed := smaz.Compress(source)
 ```
 
 `Compress` function has no option but to allocate a new buffer for the compressed
-data every time. Allocations are not free and they slow down the program by
+data. Allocations are not free and they slow down the program by
 making garbage collector do more work.
 
 Other compression libraries allow the caller to provide a buffer for the result:
@@ -55,24 +55,21 @@ compressed = smaz.Encode(compressed, source)
 ```
 
 If the buffer is not big enough, it'll be enlarged. If the caller
-doesn't want additional complexity of managing reusable buffers, it can
-pass `nil`.
+doesn't want manage the buffer, it can pass `nil`.
 
 ## 3. Avoid un-necessary copies
 
-Compression and decompression improves reading data from memory, transforming it
+Compression and decompression involves reading data from memory, transforming it
 and writing the result to another memory location.
 
-Memory operations are expensive. You can execute [7 CPU instructions](https://gist.github.com/kjk/0cd9e13e8b5f1046b697) for one memory operation in L2 cache.
+Memory access is expensive. You can execute [7 CPU instructions](https://gist.github.com/kjk/0cd9e13e8b5f1046b697) for one memory operation in L2 cache.
 
 I noticed that compression was making unnecessary temporary copies of data.
 The code got [a bit more complicated](https://github.com/kjk/smaz/commit/754db648b7cd39fb12120a851e3d1106d2dff3e0) but also 1.14x faster.
 
-## A digression on benchmarking tools in Go
+## Benchmarking tools in Go
 
-One of the features that distinguish Go from other programming language
-implemenations is that out-of-the-box it comes with tooling for testing,
-profiling and benchmarking.
+Go includes tools for writing benchmarks and tests.
 
 Writing benchmarks is straightforward. Here's a benchmark for compression speed:
 
@@ -91,8 +88,7 @@ func BenchmarkCompression(b *testing.B) {
 }
 ```
 
-You run the benchmarks with `go test -bench=.`. You can benchmark only selected
-function thanks to `-bench` argument (or pass `.` to run all of them).
+You run benchmarks with `go test -bench=.`. To benchmark a single function only use `-bench` argument (or pass `.` to run all of them).
 
 Go minimizes amount of work the programmer needs to do in several ways:
 
@@ -100,11 +96,9 @@ Go minimizes amount of work the programmer needs to do in several ways:
 that starts with `Benchmark` in `*_test.go` file is a benchmark function
 * the results are in a standardized, human-readable form
 * benchmarking tool not only measures time but you can also get MB/s metric
-by using `testing.B.SetBytes()`, which is a better way to think about and compare
-code like compression algorithms.
+by using `b.SetBytes()`. It's a good metric for compression algorithms.
 
-Finally, Go comes with a tool that makes it easy to compare speed before and
-after the change:
+There's also a tool to compare benchmark results (before and after the change):
 ```
 > go get -u golang.org/x/tools/cmd/benchcmp
 > go test -bench=. >before.txt
