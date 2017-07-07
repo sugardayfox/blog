@@ -4,10 +4,11 @@ Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-06T20:29:20Z
+UpdatedAt: 2017-07-07T08:24:30Z
 --------------
 @header-image gfx/headers/header-04.jpg
 @collection go-cookbook
+@description How to implement HTTPS in Go for free, using Let's Encrypt certificates. Redirecting HTTP to HTTPS.
 
 ## Why HTTPS?
 

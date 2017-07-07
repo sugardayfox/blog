@@ -49,6 +49,7 @@ type Article struct {
 	Collection     string
 	CollectionURL  string
 	Status         int
+	Description    string
 
 	HTMLBody     template.HTML
 	DisplayMonth string
@@ -221,6 +222,11 @@ func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
 				return d, err
 			}
 		}
+		d, val = extractMetadataValue(d, "@description")
+		if val != "" {
+			oneMore = true
+			article.Description = val
+		}
 	}
 	return d, nil
 }
@@ -316,9 +322,7 @@ func readArticle(path string) (*Article, error) {
 		return nil, nil
 	}
 	if a.Status == statusDraft {
-		fmt.Printf("Draft: %s\n", a.Title)
 		if flgProduction {
-			fmt.Printf("skipping draft '%s' because in production\n", a.Title)
 			return nil, nil
 		}
 	}
