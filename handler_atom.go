@@ -100,8 +100,6 @@ var staticURLS = []string{
 
 // /sitemap.xml
 func handleSiteMap(w http.ResponseWriter, r *http.Request) {
-	// TODO:
-	// - better LastModified when we have the info (for pages managed in quicknotes)
 	articles := getCachedArticles()
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
@@ -109,7 +107,7 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 		pageURL := "https://" + path.Join(r.Host, article.Permalink())
 		uri := SiteMapURL{
 			URL:          pageURL,
-			LastModified: article.PublishedOn.Format("2006-01-02"),
+			LastModified: article.UpdatedOn.Format("2006-01-02"),
 		}
 		urls = append(urls, uri)
 	}

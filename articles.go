@@ -35,6 +35,7 @@ const (
 type Article struct {
 	ID             string
 	PublishedOn    time.Time
+	UpdatedOn      time.Time
 	Title          string
 	Tags           []string
 	Format         int
@@ -265,7 +266,7 @@ func readArticle(path string) (*Article, error) {
 				return nil, fmt.Errorf("%q is not a valid date", v)
 			}
 		case "updatedat":
-		// do nothing
+			a.UpdatedOn, err = parseDate(v)
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
@@ -274,6 +275,10 @@ func readArticle(path string) (*Article, error) {
 	// PublishedOn over-writes Date and CreatedAt
 	if !publishedOn.IsZero() {
 		a.PublishedOn = publishedOn
+	}
+
+	if a.UpdatedOn.IsZero() {
+		a.UpdatedOn = a.PublishedOn
 	}
 
 	d, err := ioutil.ReadAll(r)
