@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/xml"
 	"net/http"
+	"path"
 	"time"
 
 	atom "github.com/thomas11/atomgenerator"
@@ -79,25 +80,43 @@ func makeSiteMapURLSet() *SiteMapURLSet {
 
 // SiteMapURL represents a single url
 type SiteMapURL struct {
-	XMLName xml.Name `xml:"url"`
-	URL     string   `xml:"loc"`
-	LastMod string   `xml:"lastmod"`
+	XMLName      xml.Name `xml:"url"`
+	URL          string   `xml:"loc"`
+	LastModified string   `xml:"lastmod"`
+}
+
+// TODO: more static documents
+var staticURLS = []string{
+	"/book/go-cookbook.html",
 }
 
 // /sitemap.xml
 func handleSiteMap(w http.ResponseWriter, r *http.Request) {
-	// TODO: add daily notes and static documents
+	// TODO:
+	// - add daily notes
+	// - better LastModified when we have the info (for pages managed in quicknotes)
 	articles := getCachedArticles()
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
-		articleURL := "https://" + r.Host + "/" + article.Permalink()
+		articleURL := "https://" + path.Join(r.Host, article.Permalink())
 		uri := SiteMapURL{
-			URL:     articleURL,
-			LastMod: article.PublishedOn.Format("2006-01-02"),
+			URL:          articleURL,
+			LastModified: article.PublishedOn.Format("2006-01-02"),
 		}
 		urls = append(urls, uri)
 	}
+
+	now := time.Now()
+	for _, staticURL := range staticURLS {
+		articleURL := "https://" + path.Join(r.Host, staticURL)
+		uri := SiteMapURL{
+			URL:          articleURL,
+			LastModified: now.Format("2006-01-02"),
+		}
+		urls = append(urls, uri)
+	}
+
 	urlset.URLS = urls
 
 	xmlData, err := xml.MarshalIndent(urlset, " ", " ")
