@@ -49,3 +49,8 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	s = strings.Join(a, "\n")
 	servePlainText(w, s)
 }
+
+// GET /app/sendmsg
+func handleSendMsg(w http.ResponseWriter, r *http.Request) {
+
+}

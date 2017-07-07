@@ -29,7 +29,65 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    .btn {
+      font-size: 12pt;
+      background-color: #C6E2FF;
+      border: none;
+      padding: 4px 8px;
+      border: solid 2px #b2cbe5;
+    }
+
+    .btn:hover {
+      background-color: #dcedff;
+    }
+
+    #msg-for-chris {
+      width: 100%;
+      height: 8em;
+    }
+
+    #msg-send-result {
+      margin-left: 2em;
+      color: #6195CC;
+      font-weight: bold;
+    }
+
+    textarea {
+      font-size: 12pt;
+    }
+
   </style>
+  <script>
+
+    function clearMessage() {
+      var el = document.getElementById("msg-send-result");
+      el.textContent = "";
+    }
+
+    function flashMessage(s) {
+      var el = document.getElementById("msg-send-result");
+      el.textContent = s;
+      window.setTimeout(clearMessage, 1000*5);
+    }
+
+    function sendMessage(s) {
+      var req = new XMLHttpRequest();
+      var queryString = "msg=" + encodeURIComponent(s);
+      req.open("GET", "/app/sendmsg?" + queryString, true);
+      req.send(null);
+    }
+
+    function sendToChris() {
+      console.log("sending to chris");
+      var el = document.getElementById("msg-for-chris");
+      var msg = el.value;
+      console.log("text: ", msg);
+      flashMessage("Message was sent!");
+      el.value = "";
+    }
+  </script>
+
 </head>
 
 <body>
@@ -41,12 +99,12 @@
           <br>
         </td>
       </tr>
-      <tr style="font-size: 80%">
+      <tr>
         <td valign="top" style="padding-right: 14px;">
           <img src="/gfx/head-bw-sq-120.png" border="0">
         </td>
 
-        <td valign="top">
+        <td valign="center" style="line-height: 1.8em;">
           <script>
             var email = "";
             email += "kkowalczyk";
@@ -57,9 +115,9 @@
             document.write(hyperlink);
           </script>
 
-          <br><br><a href="http://www.linkedin.com/profile/view?id=30171766">LinkedIn</a>
-          <br><br><a href="http://twitter.com/kjk">twitter.com/kjk</a>
-          <br><br><a href="http://github.com/kjk">github.com/kjk</a>
+          <br><a href="http://twitter.com/kjk">twitter.com/kjk</a>
+          <br><a href="http://github.com/kjk">github.com/kjk</a>
+          <br><a href="http://www.linkedin.com/profile/view?id=30171766">LinkedIn</a>
         </td>
       </tr>
     </table>
@@ -73,6 +131,15 @@
     <p>
       If it's about <a href="https://www.sumatrapdfreader.org/">SumatraPDF</a>, use
       <a href="https://forum.sumatrapdfreader.org/">forum</a> (for questions) or see how to submit <a href="https://www.sumatrapdfreader.org/docs/How-to-submit-bug-reports-c992bbe9c7b14c0eac5b7493228d4ce4.html">bug reports and feature requests</a>.
+    </p>
+    <p>
+      If you want to sen a quick message, anonymously (I will have no way of getting back to you),
+      type it in and press send:
+    </p>
+    <p>
+      <textarea id="msg-for-chris" style=""></textarea>
+      <button class="btn" onclick="sendToChris()">Send message to Chris</button>
+      <span id="msg-send-result"></span>
     </p>
 
     <hr>
