@@ -7,7 +7,7 @@ Format: Markdown
 Short version: realloc() on Windows can have much worse performance than
 on Linux/Mac.
 
-As part of working on [Sumatra](/software/sumatrapdf/), I sometimes work
+As part of working on [Sumatra](https://www.sumatrapdfreader.org/), I sometimes work
 on [mupdf](http://ccxvii.net/fitz/), underlying PDF parsing/rendering
 engine. I’m not an expert on that code but I try to fix bugs and try to
 improve performance.

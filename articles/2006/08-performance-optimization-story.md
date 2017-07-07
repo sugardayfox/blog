@@ -7,13 +7,12 @@ Format: Markdown
 The story you’re about to read makes those major points about
 optimizing software for speed:
 
--   it’s good to read other people’s sources. You will learn new tricks.
--   performance work is driven by data. Don’t guess what is slow,
-    measure it.
--   a good profiler is extremely helpful in getting the data
--   lots of allocation of small objects isn’t good in a C/C++ program
+* it’s good to read other people’s sources. You will learn new tricks.
+* performance work is driven by data. Don’t guess what is slow, measure it.
+* a good profiler is extremely helpful in getting the data
+* lots of allocation of small objects isn’t good in a C/C++ program
 
-When working on my "Sumatra PDF viewer:/software/sumatrapdf/ for
+When working on my [Sumatra PDF viewer](https://www.sumatrapdfreader.org/) for
 Windows, I decided to take a look at the performance. I profiled the
 code to parse a rather large (\~8MB) PDF. I found a rather surprising
 thing: a lot of time was spent inside malloc()/free() (they were in the
@@ -129,7 +128,7 @@ A good profiler is essential to giving the right data. An hour spent
 profiling and reading the results pointed me in the right direction.
 
 It’s important for a programmer to read other people’s source code. I’ve
-learn new tricks from reading the source of GooString. I’ve learn new
+learn new tricks from reading the source of `GooString`. I’ve learn new
 tricks from reading Tcl’s implementation. In the end it’s much cheaper
 than trying to come up with those ideas on my own.
 
