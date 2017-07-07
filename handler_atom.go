@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/xml"
 	"net/http"
 	"time"
 
@@ -61,6 +62,51 @@ func handleAtomAll(w http.ResponseWriter, r *http.Request) {
 // /atom.xml
 func handleAtom(w http.ResponseWriter, r *http.Request) {
 	handleAtomHelp(w, r, true)
+}
+
+// SiteMapURLSet represents <urlset>
+type SiteMapURLSet struct {
+	XMLName xml.Name `xml:"urlset"`
+	Ns      string   `xml:"xmlns,attr"`
+	URLS    []SiteMapURL
+}
+
+func makeSiteMapURLSet() *SiteMapURLSet {
+	return &SiteMapURLSet{
+		Ns: "http://www.sitemaps.org/schemas/sitemap/0.9",
+	}
+}
+
+// SiteMapURL represents a single url
+type SiteMapURL struct {
+	XMLName xml.Name `xml:"url"`
+	URL     string   `xml:"loc"`
+	LastMod string   `xml:"lastmod"`
+}
+
+// /sitemap.xml
+func handleSiteMap(w http.ResponseWriter, r *http.Request) {
+	// TODO: add daily notes and static documents
+	articles := getCachedArticles()
+	urlset := makeSiteMapURLSet()
+	var urls []SiteMapURL
+	for _, article := range articles {
+		articleURL := "https://" + r.Host + "/" + article.Permalink()
+		uri := SiteMapURL{
+			URL:     articleURL,
+			LastMod: article.PublishedOn.Format("2006-01-02"),
+		}
+		urls = append(urls, uri)
+	}
+	urlset.URLS = urls
+
+	xmlData, err := xml.MarshalIndent(urlset, " ", " ")
+	if err != nil {
+		serve404(w, r)
+		return
+	}
+	d := append([]byte(xml.Header), xmlData...)
+	serveXML(w, string(d))
 }
 
 // /dailynotes-atom.xml
