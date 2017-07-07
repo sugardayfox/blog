@@ -93,15 +93,14 @@ var staticURLS = []string{
 // /sitemap.xml
 func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 	// TODO:
-	// - add daily notes
 	// - better LastModified when we have the info (for pages managed in quicknotes)
 	articles := getCachedArticles()
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
-		articleURL := "https://" + path.Join(r.Host, article.Permalink())
+		pageURL := "https://" + path.Join(r.Host, article.Permalink())
 		uri := SiteMapURL{
-			URL:          articleURL,
+			URL:          pageURL,
 			LastModified: article.PublishedOn.Format("2006-01-02"),
 		}
 		urls = append(urls, uri)
@@ -109,10 +108,19 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 
 	now := time.Now()
 	for _, staticURL := range staticURLS {
-		articleURL := "https://" + path.Join(r.Host, staticURL)
+		pageURL := "https://" + path.Join(r.Host, staticURL)
 		uri := SiteMapURL{
-			URL:          articleURL,
+			URL:          pageURL,
 			LastModified: now.Format("2006-01-02"),
+		}
+		urls = append(urls, uri)
+	}
+
+	for _, note := range notesAllNotes {
+		pageURL := "https://" + path.Join(r.Host, note.URL)
+		uri := SiteMapURL{
+			URL:          pageURL,
+			LastModified: note.Day.Format("2006-01-02"),
 		}
 		urls = append(urls, uri)
 	}
