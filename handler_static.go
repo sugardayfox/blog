@@ -187,7 +187,12 @@ func handleFavicon(w http.ResponseWriter, r *http.Request) {
 
 // url: /contactme.html
 func handleContactme(w http.ResponseWriter, r *http.Request) {
-	serveFileFromDir(w, r, getStaticDir(), "contactme.html")
+	model := struct {
+		RandomCookie string
+	}{
+		RandomCookie: randomCookie,
+	}
+	serveTemplate(w, tmplContactMe, model)
 }
 
 // url: /robots.txt

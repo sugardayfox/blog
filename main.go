@@ -22,6 +22,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/kjk/u"
+	"github.com/rs/xid"
 
 	"golang.org/x/crypto/acme/autocert"
 )
@@ -29,11 +30,16 @@ import (
 var (
 	analyticsCode = "UA-194516-1"
 
-	logger  *ServerLogger
-	dataDir string
-	store   *ArticlesStore
-	sha1ver string
+	logger       *ServerLogger
+	dataDir      string
+	store        *ArticlesStore
+	sha1ver      string
+	randomCookie string
 )
+
+func genRandomCookie() {
+	randomCookie = xid.New().String()
+}
 
 func getDataDir() string {
 	if dataDir != "" {
@@ -205,6 +211,8 @@ func loadArticles() {
 }
 
 func main() {
+	genRandomCookie()
+
 	parseCmdLineFlags()
 
 	if false {

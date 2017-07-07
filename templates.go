@@ -19,6 +19,7 @@ var (
 	tmplNotesNote        = "notes_note.tmpl.html"
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
 	tmplDocuments        = "documents.tmpl.html"
+	tmplContactMe        = "contactme.tmpl.html"
 	tmpl404              = "404.tmpl.html"
 	templateNames        = []string{
 		tmplMainPage,
@@ -29,6 +30,7 @@ var (
 		tmplNotesNote,
 		tmplGenerateUniqueID,
 		tmplDocuments,
+		tmplContactMe,
 		tmpl404,
 		"analytics.tmpl.html",
 		"page_navbar.tmpl.html",

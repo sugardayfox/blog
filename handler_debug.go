@@ -51,6 +51,39 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 }
 
 // GET /app/sendmsg
+// args:
+//  msg: text to email me
+//  cookie: must match randomCookie
 func handleSendMsg(w http.ResponseWriter, r *http.Request) {
-
+	msg := strings.TrimSpace(r.FormValue("msg"))
+	cookie := strings.TrimSpace(r.FormValue("cookie"))
+	if cookie == "" {
+		logger.Notice("handleSendMsg: 'cookie' arg is missing\n")
+		// technically that should be some other error
+		serve404(w, r)
+		return
+	}
+	if cookie != randomCookie {
+		logger.Noticef("handleSendMsg: 'cookie' != randomCookie (%s != %s)\n", cookie, randomCookie)
+		// technically that should be some other error
+		serve404(w, r)
+		return
+	}
+	if msg == "" {
+		logger.Notice("handleSendMsg: 'msg' arg is missing\n")
+		// technically that should be some other error
+		serve404(w, r)
+		return
+	}
+	// I assume that shorter messages are garbage
+	words := strings.Split(msg, " ")
+	if len(words) < 3 {
+		logger.Noticef("handleSendMsg: 'msg' is too short ('%s')\n", msg)
+		// technically that should be some other error
+		serve404(w, r)
+		return
+	}
+	sendMail("Message from contact me blog page", msg)
+	logger.Noticef("handleSendMsg: sent email with message: '%s'\n", msg)
+	servePlainText(w, "ok")
 }
