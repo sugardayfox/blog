@@ -5,6 +5,7 @@ import (
 	"html/template"
 	"net/http"
 	"net/url"
+	"path"
 	"strings"
 )
 
@@ -74,6 +75,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	article := articleInfo.this
 	shareHTML := makeShareHTML(r, article)
 
+	canonicalURL := "https://" + path.Join(r.Host, article.URL())
 	model := struct {
 		Reload         bool
 		AnalyticsCode  string
@@ -87,6 +89,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticlesCount  int
 		HeaderImageURL string
 		ShareHTML      template.HTML
+		CanonicalURL   string
 	}{
 		Reload:        !flgProduction,
 		AnalyticsCode: analyticsCode,
@@ -98,6 +101,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		ArticleNo:     articleInfo.pos + 1,
 		ArticlesJsURL: getArticlesJsURL(),
 		ShareHTML:     template.HTML(shareHTML),
+		CanonicalURL:  canonicalURL,
 	}
 
 	serveTemplate(w, tmplArticle, model)

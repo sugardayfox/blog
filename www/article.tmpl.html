@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="always">
+    <link rel="canonical" href="{{.CanonicalURL}}" />
+
     {{if .Article.Description}}<meta name="description" content="{{.Article.Description}}">{{end}}
 
     <title>{{.PageTitle}}</title>
@@ -102,11 +104,11 @@
             <div class="nav-prev-next">
                 <div>
                     {{if .NextArticle}}
-                    <a title="{{.NextArticle.Title}}" href="/{{.NextArticle.Permalink}}">« {{.NextArticle.Title}}</a>{{end}}
+                    <a title="{{.NextArticle.Title}}" href="/{{.NextArticle.URL}}">« {{.NextArticle.Title}}</a>{{end}}
                 </div>
                 <div>
                     {{if .PrevArticle}}
-                    <a title="{{.PrevArticle.Title}}" href="/{{.PrevArticle.Permalink}}">{{.PrevArticle.Title}} »</a>{{end}}
+                    <a title="{{.PrevArticle.Title}}" href="/{{.PrevArticle.URL}}">{{.PrevArticle.Title}} »</a>{{end}}
                 </div>
             </div>
             {{end}}

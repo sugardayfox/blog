@@ -46,7 +46,7 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
-		pageURL := "https://" + path.Join(r.Host, article.Permalink())
+		pageURL := "https://" + path.Join(r.Host, article.URL())
 		uri := SiteMapURL{
 			URL:          pageURL,
 			LastModified: article.UpdatedOn.Format("2006-01-02"),

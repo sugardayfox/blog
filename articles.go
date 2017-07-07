@@ -77,8 +77,8 @@ func FormatNameToID(name string) int {
 	return formatUnknown
 }
 
-// Permalink returns article's permalink
-func (a *Article) Permalink() string {
+// URL returns article's permalink
+func (a *Article) URL() string {
 	return "article/" + a.ID + "/" + urlify(a.Title) + ".html"
 }
 
