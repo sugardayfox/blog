@@ -13,6 +13,9 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/robots.txt", handleRobotsTxt)
 	mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
 
+	mux.HandleFunc("/book/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
+	mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
+
 	mux.HandleFunc("/app/crashsubmit", withAnalyticsLogging(handleCrashSubmit))
 	mux.HandleFunc("/app/debug", handleDebug)
 	mux.HandleFunc("/app/sendmsg", handleSendMsg)

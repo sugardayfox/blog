@@ -3,7 +3,7 @@ Title: Google App Engine - the first Internet operating system
 Tags: appengine
 Date: 2008-04-08T01:59:26-07:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 I've read [all of the
 commentary](http://www.techmeme.com/080407/p133#a080407p133) on Google

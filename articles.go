@@ -27,8 +27,11 @@ const (
 	formatHTML     = 0
 	formatMarkdown = 1
 	formatText     = 2
+	formatUnknown  = -1
 
-	formatUnknown = -1
+	statusNormal  = 0 // shown always
+	statusDeleted = 1 // shown never
+	statusDraft   = 2 // can be accessed via explicit url but not linked
 )
 
 // Article describes a single article
@@ -39,13 +42,13 @@ type Article struct {
 	Title          string
 	Tags           []string
 	Format         int
-	Hidden         bool // is it hidden from main timeline?
 	Path           string
 	Body           []byte
 	BodyHTML       string
 	HeaderImageURL string
 	Collection     string
 	CollectionURL  string
+	Status         int
 
 	HTMLBody     template.HTML
 	DisplayMonth string
@@ -160,42 +163,63 @@ func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
 	return d, strings.TrimSpace(string(val))
 }
 
+func parseStatus(status string) (int, error) {
+	status = strings.ToLower(status)
+	switch status {
+	case "deleted":
+		return statusDeleted, nil
+	case "draft":
+		return statusDraft, nil
+	default:
+		return 0, fmt.Errorf("'%s' is not a valid status", status)
+	}
+}
+
 // a note can have additional metadata at the beginning in the form of:
 // @{name} ${value}\n
 // We extract this metadata and put the relevant info in article
 func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
-	var fileName, collection string
+	var val string
+	var err error
 	oneMore := true
 	for oneMore {
 		oneMore = false
-		d, fileName = extractMetadataValue(d, "@header-image")
-		if fileName != "" {
+		d, val = extractMetadataValue(d, "@header-image")
+		if val != "" {
 			oneMore = true
-			if fileName[0] != '/' {
-				fileName = "/" + fileName
+			if val[0] != '/' {
+				val = "/" + val
 			}
-			path := filepath.Join("www", fileName)
+			path := filepath.Join("www", val)
 			if !u.FileExists(path) {
 				return d, fmt.Errorf("File '%s' for @header-image doesn't exist", path)
 			}
 			//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
-			article.HeaderImageURL = fileName
+			article.HeaderImageURL = val
 			continue
 		}
-		d, collection = extractMetadataValue(d, "@collection")
-		if collection != "" {
+		d, val = extractMetadataValue(d, "@collection")
+		if val != "" {
 			oneMore = true
 			collectionURL := ""
-			switch collection {
+			switch val {
 			case "go-cookbook":
 				collectionURL = "/book/go-cookbook.html"
-				collection = "Go Cookbook"
+				val = "Go Cookbook"
 			}
 			if collectionURL == "" {
-				return d, fmt.Errorf("'%s' is now a known collection", collection)
+				return d, fmt.Errorf("'%s' is now a known collection", val)
 			}
-			article.Collection = collection
+			article.Collection = val
 			article.CollectionURL = collectionURL
+		}
+		d, val = extractMetadataValue(d, "@status")
+		if val != "" {
+			oneMore = true
+			article.Status, err = parseStatus(val)
+			if err != nil {
+				return d, err
+			}
 		}
 	}
 	return d, nil
@@ -227,11 +251,10 @@ func readArticle(path string) (*Article, error) {
 		k := strings.ToLower(parts[0])
 		v := strings.TrimSpace(parts[1])
 		switch k {
-		case "deleted":
-			return nil, nil
-		case "draft":
-			if flgProduction {
-				return nil, nil
+		case "status":
+			a.Status, err = parseStatus(v)
+			if err != nil {
+				return nil, err
 			}
 		case "id":
 			// we handle 2 types of ids
@@ -289,6 +312,17 @@ func readArticle(path string) (*Article, error) {
 	if err != nil {
 		return nil, err
 	}
+	if a.Status == statusDeleted {
+		return nil, nil
+	}
+	if a.Status == statusDraft {
+		fmt.Printf("Draft: %s\n", a.Title)
+		if flgProduction {
+			fmt.Printf("skipping draft '%s' because in production\n", a.Title)
+			return nil, nil
+		}
+	}
+
 	a.Body = d
 	a.BodyHTML = msgToHTML(a.Body, a.Format)
 	a.HTMLBody = template.HTML(a.BodyHTML)

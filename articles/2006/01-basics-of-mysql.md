@@ -3,7 +3,7 @@ Title: Basics of mysql
 Tags: sql,mysql
 Date: 2006-01-14T16:00:00-08:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 **Start the console**: `mysql`
 

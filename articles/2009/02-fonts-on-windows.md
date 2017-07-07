@@ -2,7 +2,7 @@ Id: 3082
 Title: Fonts on windows
 Date: 2009-02-18T01:00:27-08:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
     The font seems to have to names (as shown by font preview on windows):
     "OCR-B 10 Pitch BT" - shown at the top by font preview

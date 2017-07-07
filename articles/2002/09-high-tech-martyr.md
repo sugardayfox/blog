@@ -2,7 +2,7 @@ Id: 421
 Title: High tech martyr
 Date: 2002-09-12T08:32:26-07:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 [Resume](http://www.craigslist.org/best/2471353.html):
 

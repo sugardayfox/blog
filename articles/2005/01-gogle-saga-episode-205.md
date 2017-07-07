@@ -2,7 +2,7 @@ Id: 892
 Title: Google saga - episode 205
 Date: 2005-01-02T04:43:43-08:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 Google's Chris DiBona sent me this e-mail, which I post verbatim:
 

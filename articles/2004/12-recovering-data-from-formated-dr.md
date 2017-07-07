@@ -2,7 +2,7 @@ Id: 1877
 Title: Recovering data from formatted drives
 Date: 2004-12-13T04:06:27-08:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 I've made a small, but tragic in consequences, mistake. I have my
 biggest hard-drive in a removable hard-drive bay. It got disconnected,

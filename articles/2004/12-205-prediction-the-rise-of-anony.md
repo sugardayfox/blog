@@ -1,7 +1,7 @@
 Id: 1887
 Title: 2005 prediction - the rise of anonymous p2p
 Date: 2004-12-30T21:55:29-08:00
-Deleted: yes
+Status: deleted
 Format: Markdown
 --------------
 **"So sue me" - [he said](http://www.nanocrew.net/blog/). And that's

@@ -28,6 +28,14 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .draft {
+            background-color: lightyellow;
+        }
+        .draft > a::after {
+            content: "draft";
+            color: red;
+            margin-left: 8px;
+        }
     </style>
 </head>
 
@@ -43,6 +51,16 @@
         <p>"Go Cookbook" is a collection of articles about programming in Go.</p>
 
         <p><center><b style="font-size:1.4em">Table of Contents</b></center></p>
+
+        {{if not .InProduction}}
+        <div class="draft">
+            <a href="/article/1Bkr/3-ways-to-iterate-in-go.html">3 ways to iterate</a>
+            <div class="summary">3 different way to implement an iterator in Go: callbacks, channels, struct with <tt>Next()</tt> function.
+            </div>
+        </div>
+        <br>
+
+        {{end}}
 
         <div>
             <a href="/article/wOYk/advanced-command-execution-in-go-with-osexec.html">Advanced command execution with os/exec</a>

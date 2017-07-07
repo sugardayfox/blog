@@ -20,6 +20,7 @@ var (
 	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
 	tmplDocuments        = "documents.tmpl.html"
 	tmplContactMe        = "contactme.tmpl.html"
+	tmplGoCookBook       = "go-cookbook.tmpl.html"
 	tmpl404              = "404.tmpl.html"
 	templateNames        = []string{
 		tmplMainPage,
@@ -31,6 +32,7 @@ var (
 		tmplGenerateUniqueID,
 		tmplDocuments,
 		tmplContactMe,
+		tmplGoCookBook,
 		tmpl404,
 		"analytics.tmpl.html",
 		"page_navbar.tmpl.html",

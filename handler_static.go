@@ -195,6 +195,16 @@ func handleContactme(w http.ResponseWriter, r *http.Request) {
 	serveTemplate(w, tmplContactMe, model)
 }
 
+// url: /book/go-cookbook.html
+func handleGoCookbook(w http.ResponseWriter, r *http.Request) {
+	model := struct {
+		InProduction bool
+	}{
+		InProduction: flgProduction,
+	}
+	serveTemplate(w, tmplGoCookBook, model)
+}
+
 // url: /robots.txt
 func handleRobotsTxt(w http.ResponseWriter, r *http.Request) {
 	serveFileFromDir(w, r, getWwwDir(), "robots.txt")

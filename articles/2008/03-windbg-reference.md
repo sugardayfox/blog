@@ -3,7 +3,7 @@ Title: Windbg reference
 Tags: debugging,windbg,win32
 Date: 2008-03-13T07:48:23-07:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 ```
 k, kb, kp, kP

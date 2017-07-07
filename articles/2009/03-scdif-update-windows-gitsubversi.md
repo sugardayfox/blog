@@ -3,7 +3,7 @@ Title: scdiff update (Windows git/subversion/cvs gui diff previewer)
 Tags: software
 Date: 2009-03-11T21:40:44-07:00
 Format: Markdown
-Deleted: yes
+Status: deleted
 --------------
 I’ve updated my little [scdiff](/software/scdiff/index.html) program and
 added git support.
