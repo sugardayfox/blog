@@ -6,11 +6,11 @@ function $(id) {
 }
 
 function showById(id) {
-    $('#' + id).removeClass("invisible").addClass("visible");
+    $(id).removeClass("invisible").addClass("visible");
 }
 
 function hideById(id) {
-    $('#' + id).removeClass("visible").addClass("invisible");
+    $(id).removeClass("visible").addClass("invisible");
 }
 
 var articles_json = null;
