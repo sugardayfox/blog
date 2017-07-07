@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/kjk/u"
 )
 
 func servePlainText(w http.ResponseWriter, s string) {
@@ -32,7 +34,10 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	}
 	a = append(a, s)
 
-	s = fmt.Sprintf("RemoteAddr: %s", r.RemoteAddr)
+	s = fmt.Sprintf("Raw RemoteAddr: %s", r.RemoteAddr)
+	a = append(a, s)
+
+	s = fmt.Sprintf("Real RemoteAddr: %s", u.RequestGetIPAddress(r))
 	a = append(a, s)
 
 	a = append(a, "Headers:")

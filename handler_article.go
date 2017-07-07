@@ -52,7 +52,8 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 
 func makeShareHTML(r *http.Request, article *Article) string {
 	title := url.QueryEscape(article.Title)
-	uri := url.QueryEscape("https://" + r.Host + r.URL.String())
+	uri := path.Join(RequestGetFullHost(r), r.URL.String())
+	uri = url.QueryEscape(uri)
 	shareURL := fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
 	followURL := `https://twitter.com/intent/follow?user_id=3194001`
 	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
@@ -75,7 +76,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	article := articleInfo.this
 	shareHTML := makeShareHTML(r, article)
 
-	canonicalURL := "https://" + path.Join(r.Host, article.URL())
+	canonicalURL := path.Join(RequestGetFullHost(r), article.URL())
 	model := struct {
 		Reload         bool
 		AnalyticsCode  string

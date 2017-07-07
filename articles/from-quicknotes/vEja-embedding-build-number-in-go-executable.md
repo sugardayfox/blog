@@ -10,7 +10,7 @@ UpdatedAt: 2017-07-07T09:10:00Z
 @description How to embed build number in Go executable.
 @status draft
 
-So you've deployed your web application to production. 
+So you've deployed your web application to production.
 
 When debugging problems it's good to know what version of the code is running on the server.
 
@@ -80,7 +80,7 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	}
 	a = append(a, s)
 
-	s = fmt.Sprintf("RemoteAddr: %s", r.RemoteAddr)
+	s = fmt.Sprintf("RemoteAddr: %s", getRemoteAddress(r))
 	a = append(a, s)
 
 	a = append(a, "Headers:")
@@ -108,7 +108,7 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 
 func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
-  
+
 	mux.HandleFunc("/app/debug", handleDebug)
 	...
 
