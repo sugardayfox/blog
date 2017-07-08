@@ -68,24 +68,3 @@ func httpErrorf(w http.ResponseWriter, format string, args ...interface{}) {
 	}
 	http.Error(w, msg, http.StatusBadRequest)
 }
-
-// RequestGetProtocol returns protocol under which the request is being served i.e. "http" or "https"
-func RequestGetProtocol(r *http.Request) string {
-	hdr := r.Header
-	// X-Forwarded-Proto is set by proxies e.g. CloudFlare
-	forwardedProto := strings.TrimSpace(strings.ToLower(hdr.Get("X-Forwarded-Proto")))
-	if forwardedProto != "" {
-		if forwardedProto == "http" || forwardedProto == "https" {
-			return forwardedProto
-		}
-	}
-	if r.TLS != nil {
-		return "https"
-	}
-	return "http"
-}
-
-// RequestGetFullHost returns full host name e.g. "https://blog.kowalczyk.info/"
-func RequestGetFullHost(r *http.Request) string {
-	return RequestGetProtocol(r) + "://" + r.Host
-}

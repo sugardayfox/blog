@@ -32,10 +32,10 @@
   revision = "4da3e2cfbabc9f751898f250b49f2439785783a1"
 
 [[projects]]
-  branch = "master"
   name = "github.com/gorilla/websocket"
   packages = ["."]
   revision = "ea4d1f681babbce9545c9c5f3d5194a789c89f5b"
+  version = "v1.2.0"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -65,7 +65,7 @@
   branch = "master"
   name = "github.com/kjk/u"
   packages = ["."]
-  revision = "cf067a14a6284457c0dde1d819195da6b4d3224f"
+  revision = "40cfe878942451cfeb470309642d1f6b82896eb8"
 
 [[projects]]
   branch = "master"
@@ -131,7 +131,7 @@
   branch = "master"
   name = "github.com/segmentio/ksuid"
   packages = ["."]
-  revision = "2a5ff14b083336e28641d86008fee84ae598de60"
+  revision = "e3c9952840557adbb3538b1039e783d44c21ae4a"
 
 [[projects]]
   branch = "master"
@@ -167,23 +167,23 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "adbae1b6b6fb4b02448a0fc0dbbc9ba2b95b294d"
+  revision = "a48ac81e47fd6f9ed1258f3b60ae9e75f93cb7ed"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","html","html/atom"]
-  revision = "057a25b06247e0c51ba15d8ae475feb2fcb72164"
+  revision = "054b33e6527139ad5b1ec2f6232c3b175bd9a30c"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "fb4cac33e3196ff7f507ab9b2d2a44b0142f5b5a"
+  revision = "739734461d1c916b6c72a63d7efda2b27edb369f"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2b6b110b0d754601f5599e1a384c896cfc9a584749d168afc4660cf077ebc2b5"
+  inputs-digest = "59c0b39453a668398411b5959493e95474a83ea2c73defaa23ce7efac5f82d07"
   solver-name = "gps-cdcl"
   solver-version = 1

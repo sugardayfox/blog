@@ -7,6 +7,8 @@ import (
 	"net/url"
 	"path"
 	"strings"
+
+	"github.com/kjk/u"
 )
 
 // ArticleInfo describes an article
@@ -52,7 +54,7 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 
 func makeShareHTML(r *http.Request, article *Article) string {
 	title := url.QueryEscape(article.Title)
-	uri := path.Join(RequestGetFullHost(r), r.URL.String())
+	uri := path.Join(u.RequestGetFullHost(r), r.URL.String())
 	uri = url.QueryEscape(uri)
 	shareURL := fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
 	followURL := `https://twitter.com/intent/follow?user_id=3194001`
@@ -78,10 +80,10 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 
 	coverImage := ""
 	if article.HeaderImageURL != "" {
-		coverImage = path.Join(RequestGetFullHost(r), article.HeaderImageURL)
+		coverImage = path.Join(u.RequestGetFullHost(r), article.HeaderImageURL)
 	}
 
-	canonicalURL := path.Join(RequestGetFullHost(r), article.URL())
+	canonicalURL := path.Join(u.RequestGetFullHost(r), article.URL())
 	model := struct {
 		Reload         bool
 		AnalyticsCode  string

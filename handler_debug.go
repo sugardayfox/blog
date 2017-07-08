@@ -37,7 +37,7 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	s = fmt.Sprintf("Raw RemoteAddr: %s", r.RemoteAddr)
 	a = append(a, s)
 
-	s = fmt.Sprintf("Real RemoteAddr: %s", u.RequestGetIPAddress(r))
+	s = fmt.Sprintf("Real RemoteAddr: %s", u.RequestGetRemoteAddress(r))
 	a = append(a, s)
 
 	a = append(a, "Headers:")
