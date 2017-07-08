@@ -215,6 +215,17 @@ func getFileSizeHumanized(path string) string {
 	return humanize.Bytes(uint64(size))
 }
 
+func shouldDeleteAnalyticsFile(fi os.FileInfo) bool {
+	name := strings.ToLower(fi.Name())
+	if !strings.HasSuffix(name, ".txt.gz") {
+		return false
+	}
+
+	// delete if file older than 7 days
+	t := fi.ModTime().Add(time.Hour * 24 * 7)
+	return t.Before(time.Now())
+}
+
 func onAnalyticsFileCloseBackground(path string) {
 	timeStart := time.Now()
 	a, statsErr := calcAnalyticsStats(path)
@@ -255,6 +266,9 @@ func onAnalyticsFileCloseBackground(path string) {
 	subject := u.UtcNow().Format("blog stats on 2006-01-02 15:04:05")
 	body := strings.Join(lines, "\n")
 	sendMail(subject, body)
+
+	// delete old files to save space
+	u.DeleteFilesIf(filepath.Dir(path), shouldDeleteAnalyticsFile)
 }
 
 func onAnalyticsFileClosed(path string, didRotate bool) {
