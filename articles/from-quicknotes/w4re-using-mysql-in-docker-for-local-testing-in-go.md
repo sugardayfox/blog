@@ -3,14 +3,14 @@ Title: Using MySQL in Docker for local testing In Go
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-06-12T06:16:54Z
-UpdatedAt: 2017-07-08T05:20:35Z
+UpdatedAt: 2017-07-08T05:23:26Z
 --------------
 @header-image gfx/headers/header-11.jpg
 @collection go-cookbook
 @description How and why to run MySQL in Docker when developing Go web apps locally.
 @status draft
 
-Imagine you’re writing a web service that uses MySQL. You deploy on Linux but code and test on Mac.
+Imagine you’re writing a web application that uses MySQL. You [deploy on Linux](/article/5/blueprint-for-deploying-web-apps-on-coreos.html) but code and test on Mac.
 
 What is a good way to setup a MySQL database for local testing?
 

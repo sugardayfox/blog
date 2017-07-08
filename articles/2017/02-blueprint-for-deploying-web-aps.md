@@ -33,6 +33,9 @@ To make the scripts more re-usable, create `ipaddr.sh`:
 ```bash
 # e.g. IPADDR=137.63.26.193
 IPADDR=<ip address of the server>
+# git likes to loose non-standard permissions. This is always called from
+# scripts so a good place to ensure right permissions on id_rsa
+chmod 0600 id_rsa
 ```
 
 For convenience I also write `login.sh`:
@@ -42,12 +45,12 @@ For convenience I also write `login.sh`:
 ssh -i ./id_rsa core@${IPADDR}
 ```
 
-Usually a kernel benefits from one or more tweaks and those tweaks have to be
-applied at startup. We'll use `systemd` to run a script at startup that makes
-adjustements to the kernel parameters. We need the following files on the
-server:
+Usually a kernel benefits from one or more tweaks. Some tweaks don't persist
+and have to be applied at startup. We'll use [`systemd`](https://www.freedesktop.org/wiki/Software/systemd/)
+to run startup script and adjust kernel parameters. We need several files.
+files on the server:
 
-`/etc/sysctl.d/startup.conf`:
+`startup.conf` (`/etc/sysctl.d/startup.conf` on the server):
 ```
 # http://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet
 # https://coreos.com/os/docs/latest/other-settings.html
@@ -60,15 +63,16 @@ net.netfilter.nf_conntrack_tcp_timeout_established = 54000
 fs.file-max = 131072
 ```
 
-This file contains the settings. Default values for connection tracking are so
+`startup.conf` contains the settings. Default values for connection tracking are so
 low that it's easy for a malicious person to DoS your server just by opening
 a small number of connections to your http server.
 
-`/etc/systemd/system/startup_script.sh`:
+This is for the smallest server with 512 MB of RAM. Increase for larger servers.
+
+`startup_script.sh` (`/etc/systemd/system/startup_script.sh` on the server):
 ```bash
 #!/bin/bash
 
-# put in /etc/systemd/system/startup_script.sh
 # reload values from /etc/sysctl.d/startup.conf
 sysctl --system
 # make hashsize match net.netfilter.nf_conntrack_max (should be nf_conntrack_max / 4)
@@ -79,13 +83,13 @@ echo 32768 > /sys/module/nf_conntrack/parameters/hashsize
 This script makes the changes. Now we need to make sure it gets called at
 startup.
 
-`/etc/systemd/system/startup.service`
+`startup.service` (`/etc/systemd/system/startup.service` on the server):
+
 ```
-# put in /etc/systemd/system/startup.service
 # http://unix.stackexchange.com/questions/47695/how-to-write-startup-script-for-systemd
 [Unit]
 Description=things to do after each reboot
-# just to be safe, run it after docker is booted
+# just to be safe, run it after docker started
 After=docker.service
 Requires=docker.service
 
@@ -100,8 +104,8 @@ ExecStart=-/etc/systemd/system/startup_script.sh
 WantedBy=multi-user.target
 ```
 
-I also automate putting those files on the server and configuring `systemd`
-to notice them with a `initial-server-setup.sh` script.
+I have `initial-server-setup.sh` script to automate putting those files on the
+server and configure `systemd` to notice it.
 
 ```bash
 #!/bin/bash
@@ -126,8 +130,7 @@ rm startup.conf startup.service startup_script.sh
 ENDSSH
 ```
 
-After running `initial-server-setup.sh` you should test that the changes are
-applied:
+Run `initial-server-setup.sh` and test that the changes are applied:
 
 * login to the server with `./login.sh`
 * reboot with `sudo shutdown -r now`
@@ -136,13 +139,16 @@ applied:
 
 **3\. Use systemctld to automatically restart the app**
 
-When the server reboots we want the app to start automatically. We also want the app to automatically restart if it crashes.
+When the server reboots we want the app to start automatically.
 
-CoreOS comes with `systemd` so we'll use that.
+We also want the app to automatically restart if it crashes.
 
-Create `blog.service` file which instructs systemd how to run a docker container named `blog`:
+We'll use `systemd` again as it comes with CoreOS.
+
+Create `blog.service` (`/etc/systemd/system/blog.service` on the server) file
+which instructs `systemd` how to run a docker container named `blog`:
+
 ```bash
-# put in /etc/systemd/system/blog.service
 [Unit]
 Description=blog
 # this unit will only start after docker.service
@@ -158,7 +164,7 @@ EnvironmentFile=/etc/environment
 ExecStartPre=-/usr/bin/docker rm blog
 ExecStart=/usr/bin/docker run --rm -p 80:80 -v /data-blog:/data --name blog blog:latest
 ExecStop=/usr/bin/docker stop blog
-# restart if the fails or is killed e.g. by oom
+# restart if it crashes or is killed e.g. by oom
 Restart=on-failure
 RestartSec=5
 
@@ -167,6 +173,7 @@ WantedBy=multi-user.target
 ```
 
 It's a one-time operation but I still like to have it as a script named `install-service.sh`:
+
 ```bash
 #!/bin/bash
 set -u -e -o pipefail
@@ -185,14 +192,13 @@ ENDSSH
 
 You need to re-run it after updating `blog.service` file.
 
-
 **4\. Package the app as a Docker image and upload to the server**
 
 A script to build the app, package as Docker image and upload latest version to the server.
 
 The most common advice for uploading/downloading docker images is to use docker registry. For simplicity I just use `docker save`/`docker load` and `scp`.
 
-Here's a `docker_build_and_upload.sh` script:
+Here's a `build_and_upload.sh` script:
 
 ```bash
 #!/bin/bash
@@ -233,11 +239,14 @@ ENDSSH
 rm -rf blog-latest.tar.bz2
 ```
 
-You can see the content of Dockerfile [here](https://github.com/kjk/blog).
+You can see a sample [`Dockerfile`](https://github.com/kjk/blog/blob/master/Dockerfile) and a sample [`docker_build.sh`](https://github.com/kjk/blog/blob/master/s/docker_build.sh)
 
-After setting things up and deploying the app, you should restart the OS (`shutdown -r`) to verify that the app will start up after reboot.
+After deploying the app for the first time you should restart the server
+(`shutdown -r`) to verify that the app will start up after reboot.
 
-and `tail-logs.sh`:
+I also have a sceript `logs.sh` that logs in to the server and shows logs for
+the docker service in follow mode (like `tail -f`):
+
 ```bash
 #!/bin/bash
 
