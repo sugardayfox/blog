@@ -3,20 +3,20 @@ Title: Embedding build number in Go executable
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-07-07T09:01:20Z
-UpdatedAt: 2017-07-07T09:10:00Z
+UpdatedAt: 2017-07-07T09:11:18Z
 --------------
 @header-image gfx/headers/header-10.jpg
 @collection go-cookbook
 @description How to embed build number in Go executable.
 @status draft
 
-So you've deployed your web application to production.
+So you've deployed your web application to production and it's running on a server far away.
 
-When debugging problems it's good to know what version of the code is running on the server.
+When debugging problems it's good to know what version of the code is running.
 
 If you're using git, that would be sha1 of the revision used to build the program.
 
-We can embed that version in the executable during build process thanks Go's linker `-X` option. It allows to externally set a value of a variable inside the executable.
+We can embed that version in the executable during build thanks Go linker's `-X` option. It allows to externally set a value of a variable inside the executable.
 
 In our Go program we would have:
 ```go
@@ -80,7 +80,7 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	}
 	a = append(a, s)
 
-	s = fmt.Sprintf("RemoteAddr: %s", getRemoteAddress(r))
+	s = fmt.Sprintf("RemoteAddr: %s", r.RemoteAddr)
 	a = append(a, s)
 
 	a = append(a, "Headers:")
@@ -108,7 +108,7 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 
 func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
-
+  
 	mux.HandleFunc("/app/debug", handleDebug)
 	...
 
