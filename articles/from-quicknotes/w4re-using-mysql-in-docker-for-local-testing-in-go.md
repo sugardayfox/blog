@@ -3,7 +3,7 @@ Title: Using MySQL in Docker for local testing In Go
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-06-12T06:16:54Z
-UpdatedAt: 2017-07-08T05:23:26Z
+UpdatedAt: 2017-07-08T07:33:40Z
 --------------
 @header-image gfx/headers/header-11.jpg
 @collection go-cookbook
@@ -12,21 +12,19 @@ UpdatedAt: 2017-07-08T05:23:26Z
 
 Imagine you’re writing a web application that uses MySQL. You [deploy on Linux](/article/5/blueprint-for-deploying-web-apps-on-coreos.html) but code and test on Mac.
 
-What is a good way to setup a MySQL database for local testing?
+What is a good way to setup MySQL database for local developement and testing on Mac?
 
 You can install MySQL on Mac using [official MySQL installer](https://dev.mysql.com/downloads/mysql/) or via [Homebrew](https://brew.sh/) but my favorite way is to use [docker](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 
 Docker better isolates MySQL from the rest of the system, which has  a couple of advantages:
-* it's easier to pick the exact version of MySQL that is running in production as there is a docker image for every version
-* you don't have to worry that `brew upgrade` will upgrade MySQL
+* it's easier to install the exact version of MySQL that is running in production as there is a docker image for every version
+* you don't have to worry that `brew upgrade` will upgrade MySQL. Auto-upgrade is desired for most software but not a database. You need to remember to use `brew pin` to disable that
 * you can run several different version of MySQL for different projects
-* since it's running on Linux, MySQL is closer to the version running in production
+* since it's running on Linux, it's closer to the code running in production
 
-Downside to using Docker is that you have to make sure that the database container is running, get the ip address of docker instance and port on which the database is listening on.
+There is a downside to using Docker: you have to make sure that the database container is running and know the ip address of docker vm running the container.
 
-Doing this manually would be annoying and I like to automate.
-
-I wrote a re-usable script that ensures MySQL docker instance is running and then passes database ip address/port to the program.
+Doing this manually would be annoying and I like to automate so I wrote re-usable bit of Go code to do that.
 
 It’s just a matter of running docker commands and parsing their outputs but it’s difficult enough to worth sharing the complete solution.
 
@@ -37,16 +35,16 @@ Conceptually, what we do is:
 * if the container is stopped, re-start it with `docker start` 
 * if the container is already running, extract ip address/port from the output
 
-MySQL database is stored in a mounted directory so that it persists even if the container is stopped.
+MySQL database is stored in a local directory mounted by the container. That way data persists even if the container is stopped.
 
-The script is very re-usable. You can customize it by changing:
+The script is re-usable. You can customize it by changing:
 
 * the base MySQL container. In my case it's [`mysql:5.6`](https://hub.docker.com/_/mysql/)
 * where MySQL data is stored
-* name of the container, which should by unique for the project
-* port on which the database is exposed locally. In the container MySQL listens on standard port 3306, it must be exposed locally on a unique port
+* name of the container, which should by unique to the project
+* port on which the database is exposed locally. In the container MySQL listens on standard port 3306. It must be exposed locally on a unique port
 
-This can be adapted for other databases, like PostgreSQL.
+It can be adapted for other databases, like PostgreSQL. 
 
 We should only start docker when running locally. In my software I use cmd-line flag `-production` to distinguish between running production and locally.
 
@@ -105,7 +103,7 @@ func runCmdWithLogging(cmd *exec.Cmd) error {
 }
 
 func decodeContainerStaus(status string) string {
-	// Convert "Exited (0) 2 days ago" into statusExited
+	// convert "Exited (0) 2 days ago" into statusExited
 	if strings.HasPrefix(status, "Exited") {
 		return dockerStatusExited
 	}

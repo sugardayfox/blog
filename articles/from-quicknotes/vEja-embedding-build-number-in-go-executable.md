@@ -3,27 +3,29 @@ Title: Embedding build number in Go executable
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-07-07T09:01:20Z
-UpdatedAt: 2017-07-07T09:11:18Z
+UpdatedAt: 2017-07-08T19:07:32Z
 --------------
 @header-image gfx/headers/header-10.jpg
 @collection go-cookbook
 @description How to embed build number in Go executable.
 @status draft
 
-So you've deployed your web application to production and it's running on a server far away.
+Code for this article: https://github.com/kjk/go-cookbook/tree/master/embed-build-number
+
+So you've deployed your web application to production and it's running on a server far, far away.
 
 When debugging problems it's good to know what version of the code is running.
 
 If you're using git, that would be sha1 of the revision used to build the program.
 
-We can embed that version in the executable during build thanks Go linker's `-X` option. It allows to externally set a value of a variable inside the executable.
+We can embed that version in the executable during build thanks Go linker's `-X` option which allows to change variable in the program.
 
 In our Go program we would have:
 ```go
 package main
 
 var (
-	sha1ver string // sha1 revision used to build the program
+	sha1ver   string // sha1 revision used to build the program
 	buildTime string // when the executable was built
 )
 ```
@@ -32,37 +34,49 @@ We can set that variable to sha1 of the git revision in our build script:
 ```sh
 #!/bin/bash
 
+# notice how we avoid spaces in $now to avoid quotation hell in go build
 now=$(date +'%Y-%m-%d_%T')
 go build -ldflags "-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now"
 ```
+Full example: [embed-build-number/build.sh](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.sh)
 
-// TODO: windows example
+On Windows we would do:
+```powershell
+#!/bin/bash
+
+# notice how we avoid spaces in $now to avoid quotation hell in go build
+$now = Get-Date -UFormat "%Y-%m-%d_%T"
+$sha1 = (git rev-parse HEAD).Trim()
+
+go build -ldflags "-X main.sha1ver=$sha1 -X main.buildTime=$now"
+```
+Full example: [embed-build-number/build.ps1](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.ps1)
+
 
 Let's deconstruct:
 * `git rev-parse HEAD` returns sha1 of the current revision, e.g. `e5ce06c1f604efb1de91d515d5de865e7e164d59`
 * `-X main.sha1ver=${foo}` tells Go linker to set variable `sha1ver` in package `main` to `${foo}`
 * `-ldflags "${flags}"` tells Go build tool to pass `${flags}` to go linker
 
-We also need an easy way to see that version. We can add `-version` cmd-line flag to print it out:
+We also need an easy way to see that version. We can add `-version` cmd-line flag to [print it out](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/main.go#L26):
 ```go
 var (
 	flgVersion bool
 )
 
 func parseCmdLineFlags() {
-	flags.BoolVar(&flgVersion, "version", false, "if true, print version and exit")
-  flags.Parse()
-  if flgVersion {
-  	fmt.Printf("Build from sha1 %s on %s\n", sha1ver, buildTime)
-    os.Exit(0)
-  }
+	flag.BoolVar(&flgVersion, "version", false, "if true, print version and exit")
+	flag.Parse()
+	if flgVersion {
+		fmt.Printf("Build on %s from sha1 %s\n", buildTime, sha1ver)
+		os.Exit(0)
+	}
 }
 ```
 
-If this is a web application, we can additionally add a debug page that would show the version. I often do it like that:
+If this is a web application, we can additionally add a debug page that would show the version. I often do it [like that](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/main.go#L43):
 ```go
-
-func servePlainText(w http.ResponseWriter, s string) {
+unc servePlainText(w http.ResponseWriter, s string) {
 	w.Header().Set("Content-Type", "text/plain")
 	w.Header().Set("Content-Length", strconv.Itoa(len(s)))
 	w.WriteHeader(http.StatusOK)
@@ -73,15 +87,6 @@ func servePlainText(w http.ResponseWriter, s string) {
 func handleDebug(w http.ResponseWriter, r *http.Request) {
 	s := fmt.Sprintf("url: %s %s", r.Method, r.RequestURI)
 	a := []string{s}
-
-	s = "https: no"
-	if r.TLS != nil {
-		s = "https: yes"
-	}
-	a = append(a, s)
-
-	s = fmt.Sprintf("RemoteAddr: %s", r.RemoteAddr)
-	a = append(a, s)
 
 	a = append(a, "Headers:")
 	for k, v := range r.Header {
@@ -99,8 +104,8 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 	}
 
 	a = append(a, "")
-	a = append(a, fmt.Sprintf("ver: https://github.com/kjk/blog/commit/%s", sha1ver))
-	a = append(a, fmt.Sprintf("built on: %s", buildTime)
+	a = append(a, fmt.Sprintf("ver: https://github.com/kjk/go-cookbook/commit/%s", sha1ver))
+	a = append(a, fmt.Sprintf("built on: %s", buildTime))
 
 	s = strings.Join(a, "\n")
 	servePlainText(w, s)
@@ -108,9 +113,8 @@ func handleDebug(w http.ResponseWriter, r *http.Request) {
 
 func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
-  
+
 	mux.HandleFunc("/app/debug", handleDebug)
-	...
 
 	return &http.Server{
 		ReadTimeout:  5 * time.Second,
@@ -119,6 +123,17 @@ func makeHTTPServer() *http.Server {
 		Handler:      mux,
 	}
 }
+
+func startHTTPServer() {
+	httpAddr := "127.0.0.1:4040"
+	httpSrv := makeHTTPServer()
+	httpSrv.Addr = httpAddr
+	fmt.Printf("Visit http://%s/app/debug\n", httpAddr)
+	err := httpSrv.ListenAndServe()
+	if err != nil {
+		log.Fatalf("httpSrv.ListendAndServe() failed with %s\n", err)
+	}
+}
 ```
 
-As you can see, in addition to printing code version I also show HTTP headers. During debugging, the more information, the better.
+In addition to printing version of the code I also show HTTP headers. During debugging, the more information, the better.

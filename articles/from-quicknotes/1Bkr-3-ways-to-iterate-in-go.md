@@ -3,7 +3,7 @@ Title: 3 ways to iterate in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-06-19T06:56:45Z
-UpdatedAt: 2017-07-07T08:17:36Z
+UpdatedAt: 2017-07-08T07:41:14Z
 --------------
 @header-image gfx/headers/header-09.jpg
 @collection go-cookbook
@@ -31,7 +31,7 @@ Our processing is simple as well: we print the number.
 
 Here's an example of iteration intertwined with processing.
 
-Full example: [3-ways-to-iterate/inline.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/inline.go).
+Full example: [3-ways-to-iterate/inlined.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/inlined.go).
 ```go
 func printEvenNumbers(max int) {
 	if max < 0 {
