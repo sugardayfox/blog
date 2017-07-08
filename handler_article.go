@@ -76,11 +76,17 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	article := articleInfo.this
 	shareHTML := makeShareHTML(r, article)
 
+	coverImage := ""
+	if article.HeaderImageURL != "" {
+		coverImage = path.Join(RequestGetFullHost(r), article.HeaderImageURL)
+	}
+
 	canonicalURL := path.Join(RequestGetFullHost(r), article.URL())
 	model := struct {
 		Reload         bool
 		AnalyticsCode  string
 		PageTitle      string
+		CoverImage     string
 		Article        *Article
 		NextArticle    *Article
 		PrevArticle    *Article
@@ -98,6 +104,7 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 		NextArticle:   articleInfo.next,
 		PrevArticle:   articleInfo.prev,
 		PageTitle:     article.Title,
+		CoverImage:    coverImage,
 		ArticlesCount: store.ArticlesCount(),
 		ArticleNo:     articleInfo.pos + 1,
 		ArticlesJsURL: getArticlesJsURL(),
