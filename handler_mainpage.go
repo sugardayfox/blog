@@ -39,19 +39,6 @@ func handleDjs(w http.ResponseWriter, r *http.Request) {
 	serve404(w, r)
 }
 
-func getRecentArticles(articles []*Article, max int) []*Article {
-	if max > len(articles) {
-		max = len(articles)
-	}
-	res := make([]*Article, max, max)
-	n := 0
-	for i := len(articles) - 1; n < max; i-- {
-		res[n] = articles[i]
-		n++
-	}
-	return res
-}
-
 func serve404(w http.ResponseWriter, r *http.Request) {
 	uri := r.URL.Path
 	w.Header().Set("X-Content-Type-Options", "nosniff")
@@ -75,9 +62,8 @@ func handleMainPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	articles := getCachedArticles()
+	articles := store.GetArticles(false)
 	articleCount := len(articles)
-	articles = getRecentArticles(articles, articleCount)
 
 	model := struct {
 		AnalyticsCode string

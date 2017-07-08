@@ -42,7 +42,7 @@ var staticURLS = []string{
 
 // /sitemap.xml
 func handleSiteMap(w http.ResponseWriter, r *http.Request) {
-	articles := getCachedArticles()
+	articles := store.GetArticles(true)
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {

@@ -8,7 +8,7 @@ import (
 )
 
 func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
-	articles := getCachedArticles()
+	articles := store.GetArticles(false)
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}

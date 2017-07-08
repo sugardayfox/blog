@@ -20,7 +20,7 @@ type ArticleInfo struct {
 }
 
 func getCachedArticlesByID(articleID string) *ArticleInfo {
-	articles := store.GetArticles()
+	articles := store.GetArticles(false)
 	res := &ArticleInfo{}
 	for i, curr := range articles {
 		if curr.ID == articleID {

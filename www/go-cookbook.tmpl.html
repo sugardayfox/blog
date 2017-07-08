@@ -57,45 +57,78 @@
             color: red;
             margin-left: 8px;
         }
+        .book-tagline {
+            font-size: 0.8em;
+        }
     </style>
+
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        var hideDrafts = {{.InProduction}};
+        function render() {
+            console.log("render called");
+            var el = $("drafts");
+            var el2 = $("toggle-drafts");
+            if (hideDrafts) {
+                el.style.display = "none";
+                el2.textContent = "see drafts";
+            } else {
+                el.style.display = "block";
+                el2.textContent = "hide drafts";
+            }
+        }
+        function toggleDrafts() {
+            hideDrafts = !hideDrafts;
+            render();
+        }
+      document.addEventListener("DOMContentLoaded", function(event) {
+          render();
+      });
+    </script>
+
 </head>
 
 <body>
 
     <div id="container">
         <center><h1 style="font-size:2em"><span class="hl">G</span><span class="hl">o</span> <span class="hl">C</span><span class="hl">o</span><span class="hl">o</span><span class="hl">k</span><span class="hl">b</span><span class="hl">o</span><span class="hl">o</span><span class="hl">k</span></h1></center>
+        <center class="book-tagline">collection of articles about programming in Go</center>
         <center>By <a href="/">Krzysztof Kowalczyk</a></center>
         <div class="article-header hide-mobile">
             <center><img class="center hide-mobile" src="/gfx/headers/header-16.jpg"></center>
         </div>
 
-        <p>"Go Cookbook" is a collection of articles about programming in Go.</p>
+        <p>
+            <center><b style="font-size:1.4em">Table of Contents</b></center>
+            <center><a href="#" onclick="toggleDrafts(); return false;" id="toggle-drafts">show drafts</a></center>
+        </p>
 
-        <p><center><b style="font-size:1.4em">Table of Contents</b></center></p>
 
-        {{if not .InProduction}}
-        <div class="draft">
-            <a href="/article/w4re/using-mysql-in-docker-for-local-testing-in-go.html">Using MySQL in Docker for local testing</a>
-            <div class="summary">How and why to run MySQL in Docker when developing Go web apps locally.
+        <div id="drafts" style="display:none">
+            <div class="draft">
+                <a href="/article/w4re/using-mysql-in-docker-for-local-testing-in-go.html">Using MySQL in Docker for local testing</a>
+                <div class="summary">How and why to run MySQL in Docker when developing Go web apps locally.
+                </div>
             </div>
-        </div>
-        <br>
+            <br>
 
-        <div class="draft">
-            <a href="/article/vEja/embedding-build-number-in-go-executable.html">Embedding build number in Go executable</a>
-            <div class="summary">How to embed build number in Go executable.
+            <div class="draft">
+                <a href="/article/vEja/embedding-build-number-in-go-executable.html">Embedding build number in Go executable</a>
+                <div class="summary">How to embed build number in Go executable.
+                </div>
             </div>
-        </div>
-        <br>
+            <br>
 
-        <div class="draft">
-            <a href="/article/1Bkr/3-ways-to-iterate-in-go.html">3 ways to iterate</a>
-            <div class="summary">3 different way to implement an iterator in Go: callbacks, channels, struct with <tt>Next()</tt> function.
+            <div class="draft">
+                <a href="/article/1Bkr/3-ways-to-iterate-in-go.html">3 ways to iterate</a>
+                <div class="summary">3 different way to implement an iterator in Go: callbacks, channels, struct with <tt>Next()</tt> function.
+                </div>
             </div>
+            <br>
         </div>
-        <br>
-
-        {{end}}
 
         <div>
             <a href="/article/wOYk/advanced-command-execution-in-go-with-osexec.html">Advanced command execution with os/exec</a>

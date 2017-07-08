@@ -173,7 +173,7 @@ func genNewArticle(title string) {
 	if err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
-	newID := findUniqueArticleID(store.articles)
+	newID := findUniqueArticleID(store.articlesWithDrafts)
 	t := time.Now()
 	dir := "articles"
 	yyyy := fmt.Sprintf("%04d", t.Year())
@@ -205,9 +205,8 @@ func loadArticles() {
 	if store, err = NewArticlesStore(); err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
-	articles := store.GetArticles()
-	articlesCache.articles = articles
-	articlesCache.articlesJs, articlesCache.articlesJsSha1 = buildArticlesJSON(articles)
+	articles := store.GetArticles(true)
+	articlesJs, articlesJsSha1 = buildArticlesJSON(articles)
 }
 
 func main() {

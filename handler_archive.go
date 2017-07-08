@@ -44,7 +44,7 @@ func buildYearsFromArticles(articles []*Article) []Year {
 	var currYear *Year
 	var currMonthName string
 	n := len(articles)
-	for i := n - 1; i >= 0; i-- {
+	for i := 0; i < n; i++ {
 		a := articles[i]
 		yearName := a.PublishedOn.Format("2006")
 		if currYear == nil || currYear.Name != yearName {
@@ -103,7 +103,7 @@ func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Art
 }
 
 func showArchivePage(w http.ResponseWriter, r *http.Request, tag string) {
-	articles := getCachedArticles()
+	articles := store.GetArticles(true)
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 	}

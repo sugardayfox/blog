@@ -14,7 +14,6 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"sync"
 	"time"
 
 	"github.com/kjk/u"
@@ -23,12 +22,19 @@ import (
 	"github.com/russross/blackfriday"
 )
 
+// for Article.Format
 const (
 	formatHTML     = 0
 	formatMarkdown = 1
 	formatText     = 2
 	formatUnknown  = -1
+)
 
+// same order as format* constants
+var formatNames = []string{"Html", "Markdown", "Text"}
+
+// for Article.Status
+const (
 	statusNormal  = 0 // shown always
 	statusDeleted = 1 // shown never
 	statusDraft   = 2 // can be accessed via explicit url but not linked
@@ -55,8 +61,10 @@ type Article struct {
 	DisplayMonth string
 }
 
-// same format as Format* constants
-var formatNames = []string{"Html", "Markdown", "Text"}
+var (
+	articlesJs     []byte
+	articlesJsSha1 string
+)
 
 func validFormat(format int) bool {
 	return format >= formatHTML && format <= formatText
@@ -99,9 +107,10 @@ func (a *Article) PublishedOnShort() string {
 
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
-	articles    []*Article
-	idToArticle map[string]*Article
-	dirsToWatch []string
+	articlesNoDrafts   []*Article
+	articlesWithDrafts []*Article
+	idToArticle        map[string]*Article
+	dirsToWatch        []string
 }
 
 func isSepLine(s string) bool {
@@ -321,11 +330,6 @@ func readArticle(path string) (*Article, error) {
 	if a.Status == statusDeleted {
 		return nil, nil
 	}
-	if a.Status == statusDraft {
-		if flgProduction {
-			return nil, nil
-		}
-	}
 
 	a.Body = d
 	a.BodyHTML = msgToHTML(a.Body, a.Format)
@@ -381,25 +385,43 @@ func NewArticlesStore() (*ArticlesStore, error) {
 	if err != nil {
 		return nil, err
 	}
+	var articlesNoDrafts []*Article
+	for _, article := range articles {
+		if article.Status == statusNormal {
+			articlesNoDrafts = append(articlesNoDrafts, article)
+		}
+	}
+
 	sort.Slice(articles, func(i, j int) bool {
-		return articles[i].PublishedOn.Before(articles[j].PublishedOn)
+		return articles[i].PublishedOn.After(articles[j].PublishedOn)
 	})
-	res := &ArticlesStore{articles: articles, dirsToWatch: dirs}
+
+	sort.Slice(articlesNoDrafts, func(i, j int) bool {
+		return articlesNoDrafts[i].PublishedOn.After(articlesNoDrafts[j].PublishedOn)
+	})
+
+	res := &ArticlesStore{
+		articlesWithDrafts: articles,
+		articlesNoDrafts:   articlesNoDrafts,
+		dirsToWatch:        dirs,
+	}
 	res.idToArticle = make(map[string]*Article)
 	for _, a := range articles {
 		curr := res.idToArticle[a.ID]
-		if curr == nil {
-			res.idToArticle[a.ID] = a
-			continue
+		if curr != nil {
+			log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.Path, a.Path)
 		}
-		log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.Path, a.Path)
+		res.idToArticle[a.ID] = a
 	}
 	return res, nil
 }
 
 // GetArticles returns all articles
-func (s *ArticlesStore) GetArticles() []*Article {
-	return s.articles
+func (s *ArticlesStore) GetArticles(withDrafts bool) []*Article {
+	if withDrafts {
+		return s.articlesWithDrafts
+	}
+	return s.articlesNoDrafts
 }
 
 // GetArticleByID returns an article given its id
@@ -409,7 +431,7 @@ func (s *ArticlesStore) GetArticleByID(id string) *Article {
 
 // ArticlesCount returns number of articles
 func (s *ArticlesStore) ArticlesCount() int {
-	return len(s.articles)
+	return len(s.articlesNoDrafts)
 }
 
 // GetDirsToWatch returns directories to watch for chagnes
@@ -533,16 +555,6 @@ func msgToHTML(msg []byte, format int) string {
 	panic("unknown format")
 }
 
-var articlesCache ArticlesCache
-
-// ArticlesCache describes a cache of articles
-type ArticlesCache struct {
-	sync.Mutex
-	articles       []*Article
-	articlesJs     []byte
-	articlesJsSha1 string
-}
-
 func appendJSONMarshalled(buf *bytes.Buffer, val interface{}) {
 	if data, err := json.Marshal(val); err != nil {
 		logger.Errorf("json.Marshal() of %v failed with %s", val, err)
@@ -574,14 +586,10 @@ func buildArticlesJSON(articles []*Article) ([]byte, string) {
 }
 
 func getArticlesJsURL() string {
-	sha1 := articlesCache.articlesJsSha1
+	sha1 := articlesJsSha1
 	return "/djs/articles-" + sha1 + ".js"
 }
 
 func getArticlesJsData() ([]byte, string) {
-	return articlesCache.articlesJs, articlesCache.articlesJsSha1
-}
-
-func getCachedArticles() []*Article {
-	return articlesCache.articles
+	return articlesJs, articlesJsSha1
 }
