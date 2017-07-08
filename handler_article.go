@@ -19,8 +19,8 @@ type ArticleInfo struct {
 	pos  int
 }
 
-func getCachedArticlesByID(articleID string) *ArticleInfo {
-	articles := store.GetArticles(false)
+func getArticleInfoByID(articleID string) *ArticleInfo {
+	articles := store.GetArticles(true)
 	res := &ArticleInfo{}
 	for i, curr := range articles {
 		if curr.ID == articleID {
@@ -49,7 +49,7 @@ func articleInfoFromURL(uri string) *ArticleInfo {
 		return nil
 	}
 
-	return getCachedArticlesByID(parts[0])
+	return getArticleInfoByID(parts[0])
 }
 
 func makeShareHTML(r *http.Request, article *Article) string {

@@ -106,41 +106,30 @@
                     Part of <a href="{{.Article.CollectionURL}}">{{.Article.Collection}}</a>
                 </div>
             </center>
-            <div class="article-meta">
-                <div style="margin-left:auto">
-                    Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
-                 </div>
-            </div>
             {{else}}
+            <center>
+                <div style="font-size: 120%">
+                    Go to <a href="/">index of articles</a>.
+                </div>
+            </center>
+            {{end}}
+
             <div class="article-meta">
+                {{if not .Article.CollectionURL}}
                 <div>
                     Written on {{.Article.PublishedOnShort}}{{if .Article.TagsDisplay}}. Topics: {{.Article.TagsDisplay}}{{end}}.
                 </div>
+                {{end}}
                 <div style="margin-left:auto">
                     Found a mistake, have a comment? <a href="/contactme.html">Let me know</a>.
                  </div>
             </div>
-            {{end}}
-            <hr>
 
             <p></p>
-            {{if not .Article.CollectionURL}}
-            <div class="nav-prev-next">
-                <div>
-                    {{if .NextArticle}}
-                    <a title="{{.NextArticle.Title}}" href="/{{.NextArticle.URL}}">« {{.NextArticle.Title}}</a>{{end}}
-                </div>
-                <div>
-                    {{if .PrevArticle}}
-                    <a title="{{.PrevArticle.Title}}" href="/{{.PrevArticle.URL}}">{{.PrevArticle.Title}} »</a>{{end}}
-                </div>
-            </div>
-            {{end}}
-            <p></p>
             <center>
-                <p class="share-me">
-            {{.ShareHTML}}
-            </p>
+                <p  class="share-me">
+                        {{.ShareHTML}}
+                </p>
             </center>
             <p></p>
         </div>
