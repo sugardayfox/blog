@@ -155,7 +155,7 @@ func parseDate(s string) (time.Time, error) {
 	if err == nil {
 		return t, nil
 	}
-	t, err = time.Parse(s, "2006-01-02")
+	t, err = time.Parse("2006-01-02", s)
 	if err == nil {
 		return t, nil
 	}
@@ -164,15 +164,15 @@ func parseDate(s string) (time.Time, error) {
 }
 
 func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
-	if !bytes.HasPrefix(d, []byte(prefix)) {
+	eolIdx := bytes.IndexByte(d, '\n')
+	if eolIdx == -1 || eolIdx < len(prefix) {
 		return d, ""
 	}
-	d = bytes.TrimPrefix(d, []byte(prefix))
-	eolIdx := bytes.IndexByte(d, '\n')
-	if eolIdx == -1 {
-		return []byte{}, string(d)
+	maybePrefix := strings.ToLower(string(d[:len(prefix)]))
+	if maybePrefix != prefix {
+		return d, ""
 	}
-	val := d[:eolIdx]
+	val := d[len(prefix):eolIdx]
 	d = d[eolIdx+1:]
 	return d, strings.TrimSpace(string(val))
 }
@@ -239,6 +239,15 @@ func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
 		if val != "" {
 			oneMore = true
 			article.Description = val
+		}
+		d, val = extractMetadataValue(d, "@publishedon")
+		if val != "" {
+			oneMore = true
+			publishedOn, err := parseDate(val)
+			if err != nil {
+				return nil, fmt.Errorf("%q is not a valid @publishedon date", val)
+			}
+			article.PublishedOn = publishedOn
 		}
 	}
 	return d, nil
