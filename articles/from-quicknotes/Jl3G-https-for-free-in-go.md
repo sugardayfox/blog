@@ -4,7 +4,7 @@ Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-07T08:24:30Z
+UpdatedAt: 2017-07-08T23:52:52Z
 --------------
 @header-image gfx/headers/header-04.jpg
 @collection go-cookbook
@@ -37,7 +37,7 @@ Browser talks to CloudFlare, which takes care of provisioning SSL certificate an
 
 AWS, Google Cloud and some other hosting providers also provide free HTTPS for servers hosted on their infrastructures.
 
-Another option is to run your server behind reverse-proxy server supporting HTTPS, like [Caddy](https://caddyserver.com/).
+Another option is to run your server behind reverse proxy supporting HTTPS, like [Caddy](https://caddyserver.com/).
 
 ## Directly supporting HTTPS
 
@@ -53,13 +53,9 @@ Thankfully all the hard work of talking to the API has already bee done by other
 
 There are a couple of Go libraries that implement Let's Encrypt support.
 
-I've been using [golang.org/x/crypto/acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert), which is developed by Go core developers.
+I've been using [golang.org/x/crypto/acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert), which is developed by Go core developers. It's been several months now and it works flawlessly.
 
-It's been several months now and it works flawlessly.
-
-Here's how to start an HTTPS web server that uses free SSL certificates from Let's Encrypt.
-
-Full example: [free-ssl-certificates/main.go](https://github.com/kjk/go-cookbook/blob/master/free-ssl-certificates/main.go).
+Here's how to start HTTPS web server that uses free SSL certificates from Let's Encrypt.
 
 
 ```go
@@ -130,6 +126,8 @@ func main() {
 	}
 }
 ```
+
+Full example: [free-ssl-certificates/main.go](https://github.com/kjk/go-cookbook/blob/master/free-ssl-certificates/main.go).
 
 There are some important things to note.
 
