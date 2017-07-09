@@ -1,13 +1,13 @@
 Id: vkeR
-Title: Simple serialization for logging and analytics in Go
+Title: Simple serialization format for logging and analytics in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-07-09T03:59:28Z
-UpdatedAt: 2017-07-09T06:34:37Z
+UpdatedAt: 2017-07-09T20:46:20Z
 --------------
 @header-image gfx/headers/header-14.jpg
 @collection go-cookbook
-@description Simple serialization for logging and analytics in Go.
+@description Usage, design and implementation of simple serialization format for logging and analytics in Go.
 @status draft
 
 I was looking to save multiple records with somewhat flexible schema to a file. Go has plenty of options but I couldn't find anything that was just right.
@@ -57,17 +57,15 @@ When I use it for logging events for analytics, each record correspond to an eve
 
 Here's how we would log info about HTTP requests:
 ```go
-var r siser.Record
 func logHTTPRequest(w io.Writer, url string, ipAddr string, statusCode int) error {
-  // for efficiency, you can re-use siser.Record across calls
-  r = r.Reset()
-  // you can append multiple key/value pairs at once
-  r = r.Append("url", url, "ipaddr", ipAddr)
-  // or assemble with multiple calls
-  r = r.Append("code", strconv.Itoa(statusCode))
-  d := r.Marshal()
-  _, err := w.Write(d)
-  return err
+	var r siser.Record
+	// you can append multiple key/value pairs at once
+	r.Append("url", url, "ipaddr", ipAddr)
+	// or assemble with multiple calls
+	r.Append("code", strconv.Itoa(statusCode))
+	d := r.Marshal()
+	_, err := w.Write(d)
+	return err
 }
 ```
 
@@ -80,9 +78,9 @@ panicIfErr(err)
 defer f.Close()
 r := siser.NewReader(f)
 for r.ReadNext() {
-  record := r.Record()
-  code, ok := r.Get("code")
-  // get rest of values and do something with them
+	record := r.Record()
+	code, ok := r.Get("code")
+	// get rest of values and do something with them
 }
 panicIfErr(r.Err())
 ```
@@ -112,6 +110,13 @@ When serializing, you need to use `Reset` method to get the benefit of efficient
 When reading and deserializing records, `siser.Reader` uses this optimization internally.
 
 The format avoids the need for escaping keys and values, which helps in making encoding/decoding fast. 
+
+How does that play out in real life? I wrote a [benchmark](https://github.com/kjk/siser/blob/293341408be76f2b40b3f64b2c78de61bb3a887e/serialize_test.go#L132) comparing siser vs. `json.Marshal`. It's about 30% faster:
+```
+$ go test -bench=.
+BenchmarkSiserMarshal-8   	 1000000	      1903 ns/op
+BenchmarkJSONMarshal-8    	  500000	      2905 ns/op
+```
 
 The format is binary-safe and works for serializing large values e.g. you can use png image as value.
 
