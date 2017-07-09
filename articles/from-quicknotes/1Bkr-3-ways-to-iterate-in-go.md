@@ -3,14 +3,12 @@ Title: 3 ways to iterate in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-06-19T06:56:45Z
-UpdatedAt: 2017-07-08T19:44:07Z
+UpdatedAt: 2017-07-09T01:52:00Z
 --------------
 @header-image gfx/headers/header-09.jpg
 @collection go-cookbook
 @status draft
 @description 3 different way to implement an iterator in Go: callbacks, channels, struct with Next() function.
-
-Code for this article: https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate
 
 Iteration is a frequent need, be it iterating over lines of a file, results or of `SELECT` SQL query or files in a directory.
 
@@ -33,7 +31,6 @@ Our processing is simple as well: we print the number.
 
 Here's an example of iteration intertwined with processing.
 
-Full example: [3-ways-to-iterate/inlined.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/inlined.go).
 ```go
 func printEvenNumbers(max int) {
 	if max < 0 {
@@ -45,6 +42,8 @@ func printEvenNumbers(max int) {
 }
 ```
 
+Full example: [3-ways-to-iterate/inlined.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/inlined.go).
+
 This is fine if iteration logic is simple. If our iteration was complex, like iterating over lines in a file, every time we needed to do different processing of the lines, we would end up copy & pasteing a lot of code.
 
 For easy reuse we want to encapsulate complex iteration logic and provide simple API to callers.
@@ -52,8 +51,6 @@ For easy reuse we want to encapsulate complex iteration logic and provide simple
 ## Iterating via callback
 
 The caller provides callback function to be called with each value.
-
-Full example: [3-ways-to-iterate/callback.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/callback.go).
 
 Client side of iteration:
 
@@ -88,6 +85,8 @@ func iterateEvenNumbers(max int, cb func(n int) error) error {
 }
 ```
 
+Full example: [3-ways-to-iterate/callback.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/callback.go).
+
 This pattern is used in [`filepath.Walk`](https://golang.org/pkg/path/filepath/#Walk) API in standard library.
 
 
@@ -97,8 +96,6 @@ Another pattern is to implement iterator struct with 3 functions:
 * `Next()` advances iterator to next value. It returns false to indicate end of iteration (which can be due to error)
 * `Value()` to get the current value of the iterator. The name depends on the kind of value we retrieve
 * optional `Err()` function which returns iteration error
-
-Full example: [3-ways-to-iterate/next.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/next.go).
 
 Client code:
 
@@ -164,6 +161,8 @@ func (i *EvenNumberIterator) Err() error {
 }
 ```
 
+Full example: [3-ways-to-iterate/next.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/next.go).
+
 Notes:
 * this method requires the largest amount of boilerplate
 * `Next()` should return `false` if there was an error
@@ -181,8 +180,6 @@ Some of those iterators combine `Next()` and `Value()` into a single function re
 ## Iterating with a channel
 
 Channels and goroutines are Go's banner features and can be used as iterators.
-
-Full example: [3-ways-to-iterate/channel.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/channel.go).
 
 Caller side:
 
@@ -234,6 +231,9 @@ func generateEvenNumbers(max int) chan IntWithError {
 }
 ```
 
+Full example: [3-ways-to-iterate/channel.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/channel.go).
+
+
 We could use buffered channel, e.g.: `ch := make(chan IntWithError, 128)`. That would speed up things if both generation and processing are time consuming by parallelizing those 2 processes.
 
 ## Which way is the best?
@@ -247,3 +247,5 @@ Using `Next()` is the hardest to implement but presents nice interface to the ca
 Channel-based iterator is easy to implent and use by the caller but most expensive. Only in exceptional circumstances the cost should be of concern.
 
 It's also the only one that is concurrent by nature.
+
+Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate

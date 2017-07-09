@@ -4,7 +4,7 @@ Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
 Tags: for-blog, published, go
 CreatedAt: 2017-06-23T09:56:26Z
-UpdatedAt: 2017-07-08T23:52:52Z
+UpdatedAt: 2017-07-09T01:54:37Z
 --------------
 @header-image gfx/headers/header-04.jpg
 @collection go-cookbook
@@ -208,7 +208,7 @@ func main() {
 }
 ```
 
-This concludes the technical part.
+Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/free-ssl-certificates
 
 ## How free certificates came to be
 

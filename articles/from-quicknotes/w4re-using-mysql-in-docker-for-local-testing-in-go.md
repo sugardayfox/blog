@@ -3,7 +3,7 @@ Title: Using MySQL in Docker for local testing In Go
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-06-12T06:16:54Z
-UpdatedAt: 2017-07-08T07:33:40Z
+UpdatedAt: 2017-07-09T01:50:59Z
 --------------
 @header-image gfx/headers/header-11.jpg
 @collection go-cookbook
@@ -49,8 +49,6 @@ It can be adapted for other databases, like PostgreSQL.
 We should only start docker when running locally. In my software I use cmd-line flag `-production` to distinguish between running production and locally.
 
 In production I would use the hard-coded host/ip of MySQL server. Locally I would call `startLocalDockerDbMust()` go get them.
-
-Full example: [start-mysql-in-docker/main.go](https://github.com/kjk/go-cookbook/blob/master/start-mysql-in-docker-go/main.go) 
 
 ```go
 const (
@@ -189,3 +187,5 @@ func startLocalDockerDbMust() (string, string) {
 	return "", ""
 }
 ```
+
+Code for this chapter: https://github.com/kjk/go-cookbook/blob/master/start-mysql-in-docker-go

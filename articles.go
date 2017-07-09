@@ -105,6 +105,10 @@ func (a *Article) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
 }
 
+func (a *Article) IsDraft() bool {
+	return a.Status == statusDraft
+}
+
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
 	articlesNoDrafts   []*Article

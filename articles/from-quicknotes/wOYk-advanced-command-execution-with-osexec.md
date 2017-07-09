@@ -3,7 +3,7 @@ Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-23T09:43:49Z
-UpdatedAt: 2017-07-07T08:22:48Z
+UpdatedAt: 2017-07-09T01:52:50Z
 --------------
 @header-image gfx/headers/header-02.jpg
 @collection go-cookbook
@@ -315,3 +315,5 @@ func checkLsExists() {
 Full example: [advanced-exec/04-check-exe-exists.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/04-check-exe-exists.go).
 
 Another way to check if program exists is to try to execute in a no-op mode (e.g. many programs support `--help` option).
+
+Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/advanced-exec

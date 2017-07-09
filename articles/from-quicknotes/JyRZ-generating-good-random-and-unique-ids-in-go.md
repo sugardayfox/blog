@@ -3,7 +3,7 @@ Title: Generating good unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-21T18:47:07Z
-UpdatedAt: 2017-07-07T08:32:05Z
+UpdatedAt: 2017-07-09T01:56:50Z
 --------------
 @header-image gfx/headers/header-01.jpg
 @collection go-cookbook
@@ -125,7 +125,9 @@ func main() {
 
 Full example: [generate-unique-id/main.go](https://github.com/kjk/go-cookbook/blob/master/generate-unique-id/main.go)
 
-Which one to use? All of them are good.
+## Which one to use?
+
+All of them are good.
 
 I would pick either `rs/xid` or `segmentio/ksuid`.
 
@@ -144,3 +146,5 @@ To learn more:
 * http://antoniomo.com/blog/2017/05/28/unique-ids-in-golang-part-2/
 * http://antoniomo.com/blog/2017/06/03/unique-ids-in-golang-part-3/
 * https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake.html : details of Twitter's snowflake on which sonyflake is based
+
+Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/generate-unique-id

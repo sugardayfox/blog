@@ -3,14 +3,12 @@ Title: Embedding build number in Go executable
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-07-07T09:01:20Z
-UpdatedAt: 2017-07-08T19:07:32Z
+UpdatedAt: 2017-07-09T01:50:32Z
 --------------
 @header-image gfx/headers/header-10.jpg
 @collection go-cookbook
 @description How to embed build number in Go executable.
 @status draft
-
-Code for this article: https://github.com/kjk/go-cookbook/tree/master/embed-build-number
 
 So you've deployed your web application to production and it's running on a server far, far away.
 
@@ -41,15 +39,14 @@ go build -ldflags "-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now"
 Full example: [embed-build-number/build.sh](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.sh)
 
 On Windows we would do:
-```powershell
-#!/bin/bash
-
+```sh
 # notice how we avoid spaces in $now to avoid quotation hell in go build
 $now = Get-Date -UFormat "%Y-%m-%d_%T"
 $sha1 = (git rev-parse HEAD).Trim()
 
 go build -ldflags "-X main.sha1ver=$sha1 -X main.buildTime=$now"
 ```
+
 Full example: [embed-build-number/build.ps1](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.ps1)
 
 
@@ -137,3 +134,5 @@ func startHTTPServer() {
 ```
 
 In addition to printing version of the code I also show HTTP headers. During debugging, the more information, the better.
+
+Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/embed-build-number
