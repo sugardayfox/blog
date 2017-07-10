@@ -3,7 +3,7 @@ Title: 3 ways to iterate in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-06-19T06:56:45Z
-UpdatedAt: 2017-07-09T21:01:00Z
+UpdatedAt: 2017-07-10T22:52:13Z
 --------------
 @header-image gfx/headers/header-09.jpg
 @collection go-cookbook
@@ -169,7 +169,7 @@ Notes:
 * `Value()` panics if accessed after iteration has finished
 
 
-Roughly this pattern is used in standard library:
+This pattern is used in standard library:
 * [`Rows.Next`](https://golang.org/pkg/database/sql/#Rows.Next) to iterate over results of SQL `SELECT` statement
 * [`Scanner.Scan`](https://golang.org/pkg/go/scanner/#Scanner.Scan) to iterate over text
 * [`Decoder.Token`](https://golang.org/pkg/encoding/xml/#Decoder.Token) for XML parsing
@@ -240,7 +240,7 @@ We could use buffered channel, e.g.: `ch := make(chan IntWithError, 128)`. That 
 
 The one that best fits your scenario.
 
-The callback pattern makes for a simple implementation of the iterator but callbacks in Go are akward syntax.
+The callback pattern makes for a simple implementation of the iterator but callbacks in Go have akward syntax.
 
 Using `Next()` is the hardest to implement but presents nice interface to the caller. It's most commonly used in Go standard library for complex iterators.
 
