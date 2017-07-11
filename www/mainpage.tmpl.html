@@ -35,9 +35,10 @@
                 {{range .Articles}}
                 <div>
                     <a href="/{{.URL}}">{{.Title}}</a>
-                    <span style="font-size:80%">
                     {{if .TagsDisplay}}
-                        <span class="taglink">in:</span> {{.TagsDisplay}}</span>
+                        <span style="font-size:80%">
+                            <span class="taglink">in:</span> {{.TagsDisplay}}
+                        </span>
                     {{end}}
                 </div>
                 {{end}}
