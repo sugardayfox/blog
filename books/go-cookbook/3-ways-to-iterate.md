@@ -323,4 +323,8 @@ Channel-based iterator is easy to implent and use by the caller but most expensi
 
 It's also the only one that is concurrent by nature.
 
+At the same time, channels are heavy machinery. Don't over-use them, don't use channels for things that can be done without them.
+
+Channels are meant to serve as a coordination mechanism between goroutines. If you don't need to launch a goroutine, then you probably don't need to use channels.
+
 Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate
