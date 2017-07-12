@@ -183,11 +183,12 @@ func genNewArticle(title string) {
 	name := fmt.Sprintf("%02d-%s.md", month, sanitizedTitle)
 	fmt.Printf("new id: %s, name: %s\n", newID, name)
 	path := filepath.Join(dir, yyyy, name)
-	s := fmt.Sprintf(`Id: %s
+	s := fmt.Sprintf(`---
+Id: %s
 Title: %s
 Date: %s
 Format: Markdown
---------------`, newID, title, t.Format(time.RFC3339))
+---`, newID, title, t.Format(time.RFC3339))
 	for i := 1; i < 10; i++ {
 		if !u.PathExists(path) {
 			break
