@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="always">
+  <meta name="description" content="Reference guide to modern C++ features">
+
+  <title>Modern C++ features</title>
+  <link href="modern_cpp.css" rel="stylesheet">
+  <script src="modern_cpp.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="list">
+      <div>C++ 11 new language</div>
+
+      <ul>
+        <li><a href="#" onclick='return g("c11lang-1")'>move semantics</a></li>
+        <li><a href="#" onclick='return g("c11lang-2")'>variadic templates</a></li>
+        <li><a href="#" onclick='return g("c11lang-3")'>rvalue references</a></li>
+        <li><a href="#" onclick='return g("c11lang-4")'>initializer lists</a></li>
+        <li><a href="#" onclick='return g("c11lang-5")'>static assertions</a></li>
+        <li><a href="#" onclick='return g("c11lang-6")'>auto</a></li>
+        <li><a href="#" onclick='return g("c11lang-7")'>lambda expressions</a></li>
+        <li><a href="#" onclick='return g("c11lang-8")'>decltype</a></li>
+        <li><a href="#" onclick='return g("c11lang-9")'>template aliases</a></li>
+        <li><a href="#" onclick='return g("c11lang-10")'>nullptr</a></li>
+        <li><a href="#" onclick='return g("c11lang-11")'>strongly-typed enums</a></li>
+        <li><a href="#" onclick='return g("c11lang-12")'>attributes</a></li>
+        <li><a href="#" onclick='return g("c11lang-13")'>constexpr</a></li>
+        <li><a href="#" onclick='return g("c11lang-14")'>delegating constructors</a></li>
+        <li><a href="#" onclick='return g("c11lang-15")'>user-defined literals</a></li>
+        <li><a href="#" onclick='return g("c11lang-16")'>explicit virtual overrides</a></li>
+        <li><a href="#" onclick='return g("c11lang-17")'>final specifier</a></li>
+        <li><a href="#" onclick='return g("c11lang-18")'>default functions</a></li>
+        <li><a href="#" onclick='return g("c11lang-19")'>deleted functions</a></li>
+        <li><a href="#" onclick='return g("c11lang-20")'>range-based for loops</a></li>
+        <li><a href="#" onclick='return g("c11lang-21")'>special member functions for move semantics</a></li>
+        <li><a href="#" onclick='return g("c11lang-22")'>converting constructors</a></li>
+        <li><a href="#" onclick='return g("c11lang-23")'>explicit conversion functions</a></li>
+        <li><a href="#" onclick='return g("c11lang-24")'>inline-namespaces</a></li>
+        <li><a href="#" onclick='return g("c11lang-25")'>non-static data member initializers</a></li>
+        <li><a href="#" onclick='return g("c11lang-26")'>right angle brackets</a></li>
+      </ul>
+
+    </div>
+
+    <div class="list">
+      <div>C++ 11 new library</div>
+
+      <ul>
+        <li><a href="#" onclick='return g("c11lib-1")'>std::move</a></li>
+        <li><a href="#" onclick='return g("c11lib-2")'>std::forward</a></li>
+        <li><a href="#" onclick='return g("c11lib-3")'>std::to_string</a></li>
+        <li><a href="#" onclick='return g("c11lib-4")'>type traits</a></li>
+        <li><a href="#" onclick='return g("c11lib-5")'>smart pointers</a></li>
+        <li><a href="#" onclick='return g("c11lib-6")'>std::chrono</a></li>
+        <li><a href="#" onclick='return g("c11lib-7")'>tuples</a></li>
+        <li><a href="#" onclick='return g("c11lib-8")'>std::tie</a></li>
+        <li><a href="#" onclick='return g("c11lib-9")'>std::array</a></li>
+        <li><a href="#" onclick='return g("c11lib-10")'>unordered containers</a></li>
+        <li><a href="#" onclick='return g("c11lib-11")'>std::make_shared</a></li>
+        <li><a href="#" onclick='return g("c11lib-12")'>memory model</a></li>
+      </ul>
+
+    </div>
+
+    <div class="list">
+      <div>C++ 14 new language</div>
+
+      <ul>
+        <li><a href="#" onclick='return g("c14lang-1")'>binary literals</a></li>
+        <li><a href="#" onclick='return g("c14lang-2")'>generic lambda expressions</a></li>
+        <li><a href="#" onclick='return g("c14lang-3")'>lambda capture initializers</a></li>
+        <li><a href="#" onclick='return g("c14lang-4")'>return type deduction</a></li>
+        <li><a href="#" onclick='return g("c14lang-5")'>decltype(auto)</a></li>
+        <li><a href="#" onclick='return g("c14lang-6")'>relaxing constraints on constexpr functions</a></li>
+        <li><a href="#" onclick='return g("c14lang-7")'>variable templates</a></li>
+      </ul>
+
+    </div>
+
+    <div class="list">
+      <div>C++ 14 new library</div>
+
+      <ul>
+        <li><a href="#" onclick='return g("c14lib-1")'>user-defined literals for standard library types</a></li>
+        <li><a href="#" onclick='return g("c14lib-2")'>compile-time integer sequences</a></li>
+        <li><a href="#" onclick='return g("c14lib-3")'>std::make_unique</a></li>
+      </ul>
+
+    </div>
+
+
+
+    <div class="list">
+      <div>C++ 17 new language</div>
+      <ul>
+        <li><a href="#" onclick='return g("c17lang-1")'>template argument deduction for class templates</a></li>
+        <li><a href="#" onclick='return g("c17lang-2")'>declaring non-type template parameters with auto</a></li>
+        <li><a href="#" onclick='return g("c17lang-3")'>folding expressions</a></li>
+        <li><a href="#" onclick='return g("c17lang-4")'>new rules for auto deduction from braced-init-list</a></li>
+        <li><a href="#" onclick='return g("c17lang-5")'>constexpr lambda</a></li>
+        <li><a href="#" onclick='return g("c17lang-6")'>lambda capture this by value</a></li>
+        <li><a href="#" onclick='return g("c17lang-7")'>inline variables</a></li>
+        <li><a href="#" onclick='return g("c17lang-8")'>nested namespaces</a></li>
+        <li><a href="#" onclick='return g("c17lang-9")'>structured bindings</a></li>
+        <li><a href="#" onclick='return g("c17lang-10")'>selection statements with initializer</a></li>
+        <li><a href="#" onclick='return g("c17lang-11")'>constexpr if</a></li>
+        <li><a href="#" onclick='return g("c17lang-12")'>utf-8 character literals</a></li>
+        <li><a href="#" onclick='return g("c17lang-13")'>direct-list-initialization of enums</a></li>
+      </ul>
+
+    </div>
+
+    <div class="list">
+      <div>C++ 17 new library</div>
+
+      <ul>
+        <li><a href="#" onclick='return g("c17lib-1")'>std::variant</a></li>
+        <li><a href="#" onclick='return g("c17lib-2")'>std::optional</a></li>
+        <li><a href="#" onclick='return g("c17lib-3")'>std::any</a></li>
+        <li><a href="#" onclick='return g("c17lib-4")'>std::string_view</a></li>
+        <li><a href="#" onclick='return g("c17lib-5")'>std::invoke</a></li>
+        <li><a href="#" onclick='return g("c17lib-6")'>std::apply</a></li>
+        <li><a href="#" onclick='return g("c17lib-7")'>splicing for maps and sets</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
