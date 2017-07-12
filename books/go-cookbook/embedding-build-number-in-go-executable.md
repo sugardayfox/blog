@@ -28,7 +28,7 @@ var (
 )
 ```
 
-We can set that variable to sha1 of the git revision in our build script:
+We can set that variable to sha1 of the git revision in our build script `build.sh`:
 ```sh
 #!/bin/bash
 
@@ -38,7 +38,7 @@ go build -ldflags "-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now"
 ```
 Full example: [embed-build-number/build.sh](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.sh)
 
-On Windows we would do:
+On Windows we would write powershell script `build.ps1`:
 ```sh
 # notice how we avoid spaces in $now to avoid quotation hell in go build
 $now = Get-Date -UFormat "%Y-%m-%d_%T"
@@ -48,7 +48,6 @@ go build -ldflags "-X main.sha1ver=$sha1 -X main.buildTime=$now"
 ```
 
 Full example: [embed-build-number/build.ps1](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.ps1)
-
 
 Let's deconstruct:
 * `git rev-parse HEAD` returns sha1 of the current revision, e.g. `e5ce06c1f604efb1de91d515d5de865e7e164d59`

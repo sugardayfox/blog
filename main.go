@@ -23,6 +23,7 @@ import (
 
 	"github.com/kjk/u"
 	"github.com/rs/xid"
+	"github.com/skratchdot/open-golang/open"
 
 	"golang.org/x/crypto/acme/autocert"
 )
@@ -294,6 +295,10 @@ func main() {
 
 	if flgProduction {
 		sendBootMail()
+	}
+
+	if !flgProduction {
+		open.Run("http://" + flgHTTPAddr)
 	}
 
 	c := make(chan os.Signal, 2)

@@ -17,6 +17,7 @@ Having HTTPS for your website is important:
 * HTTPS encrypts the traffic between browser and server. Passwords of your users are protected from traffic sniffing on naughty intermediary servers or miscreants sniffing wifi packets in a cafe.
 * new HTTP/2 protocol is faster than HTTP/1.1 but only works over HTTPS.
 * if you care about SEO, Google ranks HTTPS websites higher than HTTP ones.
+* browser vendors will increasingly [scare users of HTTP websites](https://www.troyhunt.com/life-is-about-to-get-harder-for-websites-without-https/)
 
 ## Using someone else to provide HTTPS
 
@@ -29,7 +30,7 @@ Their free plan offers acting as HTTPS proxy to your HTTP-only website.
 To use Cloudflare:
 * configure your domain to use CloudFlare's DNS servers
 * in CloudFlare's DNS settings point the domain to your server and set Status to "DNS and HTTP proxy (CDN)"
-* in CloudFlare's Crypto settings, set SSL to "Flexible" (browser talks to CloudFlare via HTTPS, CloudFlare talks to 
+* in CloudFlare's Crypto settings, set SSL to "Flexible" (browser talks to CloudFlare via HTTPS, CloudFlare talks to
 * configure CloudFlare's HTTPS proxy in their web interface by providing IP address of your server.
 * for good measure, also enable "Always use HTTPS"
 
@@ -47,7 +48,7 @@ Not long ago, if you wanted a SSL certificate, you had to pay many dollars a yea
 
 Before Let's Encrypt you would buy a certificate, which is just a bunch of bytes. You would save certificate to a file and configure your web server to use it.
 
-With Let's Encrypt you can use their API to obtain the certificate for free, automatically, when your server starts. 
+With Let's Encrypt you can use their API to obtain the certificate for free, automatically, when your server starts.
 
 Thankfully all the hard work of talking to the API has already bee done by others. We just need to plug it in.
 
@@ -84,7 +85,7 @@ func makeHTTPServer() *http.Server {
 
 func main() {
 	var httpsSrv *http.Server
-  
+
 	// when testing locally it doesn't make sense to start
 	// HTTPS server, so only do it in production.
 	// In real code, I control this with -production cmd-line flag
@@ -143,7 +144,7 @@ It's therefore important to cache the certificate somewhere. In our example we c
 
 Cache is an interface so you could implement your own storage e.g. in a SQL database or Redis.
 
-**4\.** You must set up DNS correctly. 
+**4\.** You must set up DNS correctly.
 
 To verify that you're the owner of domain for which you want a certificate, Let's Encrypt server calls back your server.
 
@@ -171,7 +172,7 @@ In real code I add code that checks for `-production` cmd-line flag and use that
 
 ## Redirecting from HTTP to HTTPS
 
-If you can do HTTPS there's no point in providing plain HTTP. 
+If you can do HTTPS there's no point in providing plain HTTP.
 
 We can re-direct all HTTP request to HTTPS equivalent, for better security and SEO (Google doesn't like duplicate content so your SEO rank will be better with a single version of the website).
 
@@ -226,7 +227,7 @@ The trust doesn't scale. Browser and OS vendors can trust 10 companies to not is
 
 We don't want any random company to become a rogue certificate authority and start issuing certificates for google.com domains to Ivan The Hacker.
 
-It would be too much effort to continuosly audit thousands of Certificate Authority companies so as a result we ended up with just a few. 
+It would be too much effort to continuosly audit thousands of Certificate Authority companies so as a result we ended up with just a few.
 
 A market controlled by small number of companies tends to become a cartel that keeps prices high due to lack of competition.
 

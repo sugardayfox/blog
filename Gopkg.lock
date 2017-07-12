@@ -53,19 +53,19 @@
   branch = "master"
   name = "github.com/kjk/dailyrotate"
   packages = ["."]
-  revision = "509825f8b45b81fd14a6ef2725146ece51f03586"
+  revision = "beaeffc0fc487826d2808e72fa9c9e8f2e63b61f"
 
 [[projects]]
   branch = "master"
   name = "github.com/kjk/siser"
   packages = ["."]
-  revision = "293341408be76f2b40b3f64b2c78de61bb3a887e"
+  revision = "c872843814ffeca450a1615671095f7ddf219713"
 
 [[projects]]
   branch = "master"
   name = "github.com/kjk/u"
   packages = ["."]
-  revision = "40cfe878942451cfeb470309642d1f6b82896eb8"
+  revision = "93181be023c9670de435766579b45c9d912aaf1c"
 
 [[projects]]
   branch = "master"
@@ -77,7 +77,7 @@
   branch = "master"
   name = "github.com/kurin/blazer"
   packages = ["b2","base","internal/b2types","internal/blog"]
-  revision = "37589164c2e262ddf5b9bc82e3f8da4a6207c0e4"
+  revision = "612082ed2430716569f1ec816fc6ade849020816"
 
 [[projects]]
   branch = "master"
@@ -135,6 +135,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/skratchdot/open-golang"
+  packages = ["open"]
+  revision = "75fb7ed4208cf72d323d7d02fd1a5964a7a9073c"
+
+[[projects]]
+  branch = "master"
   name = "github.com/sony/sonyflake"
   packages = ["."]
   revision = "fa881fb1052b152e977c41023052c2f2a1c475e9"
@@ -167,23 +173,23 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "a48ac81e47fd6f9ed1258f3b60ae9e75f93cb7ed"
+  revision = "dd85ac7e6a88fc6ca420478e934de5f1a42dd3c6"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","html","html/atom"]
-  revision = "054b33e6527139ad5b1ec2f6232c3b175bd9a30c"
+  revision = "f01ecb60fe3835d80d9a0b7b2bf24b228c89260e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "739734461d1c916b6c72a63d7efda2b27edb369f"
+  revision = "abf9c25f54453410d0c6668e519582a9e1115027"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "59c0b39453a668398411b5959493e95474a83ea2c73defaa23ce7efac5f82d07"
+  inputs-digest = "6ccf70d98ee41536ef33d7ca2878815acbb0e45309fb9140f2f90c03cc71de61"
   solver-name = "gps-cdcl"
   solver-version = 1
