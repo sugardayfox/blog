@@ -494,3 +494,12 @@ Source: https://news.ycombinator.com/item?id=4468535
 Revenu from subscription, adsense, other ad revenue, license and royalty revenue
 
 Source: https://news.ycombinator.com/item?id=2567487
+
+### 52. Zencaster, $12k/mo
+
+Zencaster is a web-based tool that helps podcasters record their guests in studio quality.
+
+Source:
+* https://www.indiehackers.com/businesses/zencastr
+* https://news.ycombinator.com/item?id=13533894
+* https://news.ycombinator.com/item?id=13169704
