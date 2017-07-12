@@ -10,6 +10,7 @@ COPY blog_linux /app/blog
 COPY www /app/www/
 COPY tmpl /app/tmpl/
 COPY articles /app/articles/
+COPY books /app/books/
 
 EXPOSE 80 443
 
