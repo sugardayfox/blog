@@ -351,8 +351,24 @@ func readArticle(path string) (*Article, error) {
 }
 
 func readArticles() ([]*Article, []string, error) {
+	dirsToScan := []string{"articles", filepath.Join("books", "go-cookbook")}
+	var allArticles []*Article
+	var allDirs []string
 	timeStart := time.Now()
-	walker := fs.Walk("articles")
+	for _, dir := range dirsToScan {
+		articles, dirs, err := readArticlesFromDir(dir)
+		if err != nil {
+			return nil, nil, err
+		}
+		allArticles = append(allArticles, articles...)
+		allDirs = append(allDirs, dirs...)
+	}
+	fmt.Printf("read %d articles in %s\n", len(allArticles), time.Since(timeStart))
+	return allArticles, allDirs, nil
+}
+
+func readArticlesFromDir(dir string) ([]*Article, []string, error) {
+	walker := fs.Walk(dir)
 	var res []*Article
 	var dirs []string
 	for walker.Step() {
@@ -388,7 +404,6 @@ func readArticles() ([]*Article, []string, error) {
 			res = append(res, a)
 		}
 	}
-	fmt.Printf("read %d articles in %s\n", len(res), time.Since(timeStart))
 	return res, dirs, nil
 }
 

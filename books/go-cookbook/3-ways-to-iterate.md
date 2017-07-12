@@ -233,8 +233,82 @@ func generateEvenNumbers(max int) chan IntWithError {
 
 Full example: [3-ways-to-iterate/channel.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/channel.go).
 
-
 We could use buffered channel, e.g.: `ch := make(chan IntWithError, 128)`. That would speed up things if both generation and processing are time consuming by parallelizing those 2 processes.
+
+## Adding cancellation to channel-based iterator
+
+In the above example the client doesn't have a way to stop the channel-based iterator.
+
+If it just stops processing values from the channel before it's closed, the generator goroutine will be forever blocked trying to send on a channel no-one is reading from. The goroutine will leak.
+
+We can add ability to stop a channel iterator by using `context` created with `context.WithCancel`.
+
+Here's slightly modified generator function:
+```go
+func generateEvenNumbers(ctx context.Context, max int) chan IntWithError {
+	ch := make(chan IntWithError)
+	go func() {
+		defer close(ch)
+		if max < 0 {
+			ch <- IntWithError{
+				Err: fmt.Errorf("'max' is %d and should be >= 0", max),
+			}
+			return
+		}
+
+		for i := 2; i <= max; i += 2 {
+			if ctx != nil {
+				// if context was cancelled, we stop early
+				select {
+				case <-ctx.Done():
+					return
+				default:
+				}
+			}
+			ch <- IntWithError{
+				Int: i,
+			}
+		}
+	}()
+	return ch
+}
+```
+Full example: [3-ways-to-iterate/channel-cancellable.go](https://github.com/kjk/go-cookbook/blob/master/3-ways-to-iterate/channel-cancellable.go).
+
+Here's a user of the above code that stops the generator a bit early:
+```go
+func printEvenNumbersCancellable(max int, stopAt int) {
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	ch := generateEvenNumbers(ctx, max)
+	for val := range ch {
+		if val.Err != nil {
+			log.Fatalf("Error: %s\n", val.Err)
+		}
+		if val.Int > stopAt {
+			cancel()
+			// notice we keep going in order to drain the channel
+			continue
+		}
+		// process the value
+		fmt.Printf("%d\n", val.Int)
+	}
+}
+```
+
+Important to note:
+
+* we must call `cancel()` on the context we get from `context.WithCancel()` or else it'll leak
+* it's safe to call `cancel()` multiple times
+* `cancel()` asks for the generator to stop but cannot guarantee it. After cancelling we'll get more values queued on the channel
+
+It's important to fully drain the channel or else we'll leak the goroutine that is trying to write to it. In this example we skip processing after reaching stop value.
+
+Alternatively, we could break the processing loop and then have a loop just to drain the channel:
+```go
+	for _ = range ch {
+	}
+```
 
 ## Which way is the best?
 

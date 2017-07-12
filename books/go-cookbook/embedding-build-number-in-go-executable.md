@@ -73,7 +73,7 @@ func parseCmdLineFlags() {
 
 If this is a web application, we can additionally add a debug page that would show the version. I often do it [like that](https://github.com/kjk/go-cookbook/blob/master/embed-build-number/main.go#L43):
 ```go
-unc servePlainText(w http.ResponseWriter, s string) {
+func servePlainText(w http.ResponseWriter, s string) {
 	w.Header().Set("Content-Type", "text/plain")
 	w.Header().Set("Content-Length", strconv.Itoa(len(s)))
 	w.WriteHeader(http.StatusOK)
