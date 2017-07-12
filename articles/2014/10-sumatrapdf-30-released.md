@@ -1,9 +1,10 @@
+---
 Id: 11
 Title: SumatraPDF 3.0 released
 Tags: releasenotes,sumatra
 Date: 2014-10-29T20:56:38-07:00
 Format: Markdown
---------------
+---
 We, [the SumatraPDF developers](http://www.ohloh.net/p/4623/contributors?sort=latest_commit&time_span=30+days) have released a version 3.0 of Sumatra, a multi-format reader (PDF, epub and mobi ebooks, comic books, etc.) for Windows.
 
 You can download it from [official SumatraPDF website](https://www.sumatrapdfreader.org/free-pdf-reader.html)

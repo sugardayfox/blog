@@ -1,14 +1,15 @@
+---
 Id: vEja
 Title: Embedding build number in Go executable
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-07-07T09:01:20Z
 UpdatedAt: 2017-07-09T01:50:32Z
---------------
-@header-image gfx/headers/header-10.jpg
-@collection go-cookbook
-@description How to embed build number in Go executable.
-@status draft
+HeaderImage: gfx/headers/header-10.jpg
+Collection: go-cookbook
+Description: How to embed build number in Go executable.
+Status: draft
+---
 
 So you've deployed your web application to production and it's running on a server far, far away.
 

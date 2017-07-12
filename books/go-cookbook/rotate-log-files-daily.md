@@ -1,14 +1,15 @@
+---
 Id: 1Ll7
 Title: Rotate log files daily in Go
 Format: Markdown
 Tags: for-blog, go
 CreatedAt: 2017-06-14T02:07:56Z
 UpdatedAt: 2017-07-09T20:35:12Z
---------------
-@header-image gfx/headers/header-17.jpg
-@collection go-cookbook
-@description How to rotate a log file daily.
-@status draft
+HeaderImage: gfx/headers/header-17.jpg
+Collection: go-cookbook
+Description: How to rotate a log file daily.
+Status: draft
+---
 
 If your program logs to a file, it's a good idea to rotate log files as that prevents them from growing too large.
 
@@ -67,7 +68,7 @@ func shutdownLogging() {
 }
 ```
 
-Here's a [real-life example](https://github.com/kjk/blog/blob/ee30c22379c90642880c8fae33fa3b767a22cb64/visitor_analytics.go#L229) of processing rotated file: 
+Here's a [real-life example](https://github.com/kjk/blog/blob/ee30c22379c90642880c8fae33fa3b767a22cb64/visitor_analytics.go#L229) of processing rotated file:
 
 
 `dailyrotate.File` is `io.Writer` and safe to use from multiple goroutines.
@@ -75,7 +76,7 @@ Here's a [real-life example](https://github.com/kjk/blog/blob/ee30c22379c9064288
 In addition to `Write(d []byte)` It also implements a `Write2(d []byte, flush bool) (string, int64, int, error)`. It has 2 improvements over `Write`:
 
 * allows to flush in a single call. Flushing after each write is slower but less likely to loose data or corrupt the file when program crashes
-* it returns file path and offset in the file at which the data was written. This is important for building a random-access index to records written to `dailyrotate.File` 
+* it returns file path and offset in the file at which the data was written. This is important for building a random-access index to records written to `dailyrotate.File`
 
 ## Other real-world uses
 

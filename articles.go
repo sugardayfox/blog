@@ -105,6 +105,7 @@ func (a *Article) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
 }
 
+// IsDraft returns true if article is a draft
 func (a *Article) IsDraft() bool {
 	return a.Status == statusDraft
 }
@@ -118,7 +119,7 @@ type ArticlesStore struct {
 }
 
 func isSepLine(s string) bool {
-	return strings.HasPrefix(s, "-----")
+	return strings.HasPrefix(s, "---")
 }
 
 func parseTags(s string) []string {
@@ -189,68 +190,36 @@ func parseStatus(status string) (int, error) {
 	}
 }
 
-// a note can have additional metadata at the beginning in the form of:
-// @{name} ${value}\n
-// We extract this metadata and put the relevant info in article
-func extractAdditionalMetadata(d []byte, article *Article) ([]byte, error) {
-	var val string
+func setStatusMust(article *Article, val string) {
 	var err error
-	oneMore := true
-	for oneMore {
-		oneMore = false
-		d, val = extractMetadataValue(d, "@header-image")
-		if val != "" {
-			oneMore = true
-			if val[0] != '/' {
-				val = "/" + val
-			}
-			path := filepath.Join("www", val)
-			if !u.FileExists(path) {
-				return d, fmt.Errorf("File '%s' for @header-image doesn't exist", path)
-			}
-			//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
-			article.HeaderImageURL = val
-			continue
-		}
-		d, val = extractMetadataValue(d, "@collection")
-		if val != "" {
-			oneMore = true
-			collectionURL := ""
-			switch val {
-			case "go-cookbook":
-				collectionURL = "/book/go-cookbook.html"
-				val = "Go Cookbook"
-			}
-			if collectionURL == "" {
-				return d, fmt.Errorf("'%s' is now a known collection", val)
-			}
-			article.Collection = val
-			article.CollectionURL = collectionURL
-		}
-		d, val = extractMetadataValue(d, "@status")
-		if val != "" {
-			oneMore = true
-			article.Status, err = parseStatus(val)
-			if err != nil {
-				return d, err
-			}
-		}
-		d, val = extractMetadataValue(d, "@description")
-		if val != "" {
-			oneMore = true
-			article.Description = val
-		}
-		d, val = extractMetadataValue(d, "@publishedon")
-		if val != "" {
-			oneMore = true
-			publishedOn, err := parseDate(val)
-			if err != nil {
-				return nil, fmt.Errorf("%q is not a valid @publishedon date", val)
-			}
-			article.PublishedOn = publishedOn
-		}
+	article.Status, err = parseStatus(val)
+	u.PanicIfErr(err)
+}
+
+func setDescriptionMust(article *Article, val string) {
+	article.Description = val
+}
+
+func setCollectionMust(article *Article, val string) {
+	collectionURL := ""
+	switch val {
+	case "go-cookbook":
+		collectionURL = "/book/go-cookbook.html"
+		val = "Go Cookbook"
 	}
-	return d, nil
+	u.PanicIf(collectionURL == "", "'%s' is now a known collection", val)
+	article.Collection = val
+	article.CollectionURL = collectionURL
+
+}
+func setHeaderImageMust(article *Article, val string) {
+	if val[0] != '/' {
+		val = "/" + val
+	}
+	path := filepath.Join("www", val)
+	u.PanicIf(!u.FileExists(path), "File '%s' for @header-image doesn't exist", path)
+	//fmt.Printf("Found HeaderImageURL: %s\n", fileName)
+	article.HeaderImageURL = val
 }
 
 // might return nil if article is meant to be skipped (deleted or draft)
@@ -263,6 +232,7 @@ func readArticle(path string) (*Article, error) {
 	a := &Article{}
 	r := bufio.NewReader(f)
 	var publishedOn time.Time
+	atBeginning := true
 	for {
 		l, err := r.ReadString('\n')
 		if err != nil {
@@ -270,8 +240,12 @@ func readArticle(path string) (*Article, error) {
 		}
 		l = strings.TrimSpace(l)
 		if isSepLine(l) {
+			if atBeginning {
+				continue
+			}
 			break
 		}
+		atBeginning = false
 		parts := strings.SplitN(l, ":", 2)
 		if len(parts) != 2 {
 			return nil, fmt.Errorf("Unexpected line: %q", l)
@@ -318,6 +292,12 @@ func readArticle(path string) (*Article, error) {
 			}
 		case "updatedat":
 			a.UpdatedOn, err = parseDate(v)
+		case "headerimage":
+			setHeaderImageMust(a, v)
+		case "collection":
+			setCollectionMust(a, v)
+		case "description":
+			setDescriptionMust(a, v)
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
@@ -336,10 +316,7 @@ func readArticle(path string) (*Article, error) {
 	if err != nil {
 		return nil, err
 	}
-	d, err = extractAdditionalMetadata(d, a)
-	if err != nil {
-		return nil, err
-	}
+
 	if a.Status == statusDeleted {
 		return nil, nil
 	}

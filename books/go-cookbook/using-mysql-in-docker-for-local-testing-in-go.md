@@ -1,14 +1,15 @@
+---
 Id: w4re
 Title: Using MySQL in Docker for local testing In Go
 Format: Markdown
 Tags: for-blog, go, draft
 CreatedAt: 2017-06-12T06:16:54Z
 UpdatedAt: 2017-07-09T01:50:59Z
---------------
-@header-image gfx/headers/header-11.jpg
-@collection go-cookbook
-@description How and why to run MySQL in Docker when developing Go web apps locally.
-@status draft
+HeaderImage: gfx/headers/header-11.jpg
+Collection: go-cookbook
+Description: How and why to run MySQL in Docker when developing Go web apps locally.
+Status: draft
+---
 
 Imagine you’re writing a web application that uses MySQL. You [deploy on Linux](/article/5/blueprint-for-deploying-web-apps-on-coreos.html) but code and test on Mac.
 
@@ -31,8 +32,8 @@ It’s just a matter of running docker commands and parsing their outputs but it
 Conceptually, what we do is:
 
 * run `docker ps -a` and parse the output
-* if the container is not running at all, start it with `docker run` 
-* if the container is stopped, re-start it with `docker start` 
+* if the container is not running at all, start it with `docker run`
+* if the container is stopped, re-start it with `docker start`
 * if the container is already running, extract ip address/port from the output
 
 MySQL database is stored in a local directory mounted by the container. That way data persists even if the container is stopped.
@@ -44,7 +45,7 @@ The script is re-usable. You can customize it by changing:
 * name of the container, which should by unique to the project
 * port on which the database is exposed locally. In the container MySQL listens on standard port 3306. It must be exposed locally on a unique port
 
-It can be adapted for other databases, like PostgreSQL. 
+It can be adapted for other databases, like PostgreSQL.
 
 We should only start docker when running locally. In my software I use cmd-line flag `-production` to distinguish between running production and locally.
 

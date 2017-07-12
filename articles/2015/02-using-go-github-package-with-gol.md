@@ -1,11 +1,12 @@
+---
 Id: 15
 Title: Accessing GitHub API from Go
 Date: 2015-02-12T23:18:58-08:00
 Format: Markdown
 tags: go, programming
---------------
-@header-image gfx/headers/header-06.jpg
-@collection go-cookbook
+HeaderImage: gfx/headers/header-06.jpg
+Collection: go-cookbook
+---
 
 To use GitHub API from Go you can use [github.com/google/go-github](http://github.com/google/go-github) package.
 GitHub, like many other sites, uses OAuth 2.0 protocol for authentication. There are few packages for Go that implement OAuth. This article describes how to use [golang.org/x/oauth2](http://golang.org/x/oauth2) package.

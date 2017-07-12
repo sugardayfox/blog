@@ -1,13 +1,14 @@
+---
 Id: wOYk
 Title: Advanced command execution in Go with os/exec
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-23T09:43:49Z
 UpdatedAt: 2017-07-09T01:52:50Z
---------------
-@header-image gfx/headers/header-02.jpg
-@collection go-cookbook
-@description Examples of using os/exec library to execute external programs in Go.
+HeaderImage: gfx/headers/header-02.jpg
+Collection: go-cookbook
+Description: Examples of using os/exec library to execute external programs in Go.
+---
 
 Go has excellent support for executing external programs. Let's start at the beginning.
 

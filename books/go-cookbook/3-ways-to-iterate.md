@@ -1,14 +1,15 @@
+---
 Id: 1Bkr
 Title: 3 ways to iterate in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-06-19T06:56:45Z
 UpdatedAt: 2017-07-10T22:52:13Z
---------------
-@header-image gfx/headers/header-09.jpg
-@collection go-cookbook
-@PublishedOn 2017-07-09
-@description 3 different way to implement an iterator in Go: callbacks, channels, struct with Next() function.
+HeaderImage: gfx/headers/header-09.jpg
+Collection: go-cookbook
+PublishedOn: 2017-07-09
+Description: 3 different way to implement an iterator in Go: callbacks, channels, struct with Next() function.
+---
 
 Iteration is a frequent need, be it iterating over lines of a file, results or of `SELECT` SQL query or files in a directory.
 

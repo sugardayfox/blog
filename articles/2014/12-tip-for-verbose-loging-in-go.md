@@ -1,9 +1,10 @@
+---
 Id: 12
 Title: Tip for verbose logging in Go
 Date: 2014-12-03T18:21:29-08:00
 Format: Markdown
 Tags: programming,go
---------------
+---
 
 Go lacks a good ad-hoc debugging tool (i.e. a competent debugger).
 

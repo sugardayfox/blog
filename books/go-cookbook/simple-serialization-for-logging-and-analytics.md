@@ -1,14 +1,15 @@
+---
 Id: vkeR
 Title: Simple serialization format for logging and analytics in Go
 Format: Markdown
 Tags: for-blog, draft, go
 CreatedAt: 2017-07-09T03:59:28Z
 UpdatedAt: 2017-07-09T20:46:20Z
---------------
-@header-image gfx/headers/header-14.jpg
-@collection go-cookbook
-@description Usage, design and implementation of simple serialization format for logging and analytics in Go.
-@status draft
+HeaderImage: gfx/headers/header-14.jpg
+Collection: go-cookbook
+Description: Usage, design and implementation of simple serialization format for logging and analytics in Go.
+Status: draft
+---
 
 I was looking to save multiple records with somewhat flexible schema to a file. Go has plenty of options but I couldn't find anything that was just right.
 
@@ -23,7 +24,7 @@ Here are some most popular available options and why they don't exactly fit the 
 * json : not very readable
 * protocol buffers : binary so not human readable, needs up-front scheme
 
-I designed and implemented my own format in [siser](https://github.com/kjk/siser) library. 
+I designed and implemented my own format in [siser](https://github.com/kjk/siser) library.
 
 You'll not be surprised by how it looks:
 
@@ -109,7 +110,7 @@ When serializing, you need to use `Reset` method to get the benefit of efficient
 
 When reading and deserializing records, `siser.Reader` uses this optimization internally.
 
-The format avoids the need for escaping keys and values, which helps in making encoding/decoding fast. 
+The format avoids the need for escaping keys and values, which helps in making encoding/decoding fast.
 
 How does that play out in real life? I wrote a [benchmark](https://github.com/kjk/siser/blob/293341408be76f2b40b3f64b2c78de61bb3a887e/serialize_test.go#L132) comparing siser vs. `json.Marshal`. It's about 30% faster:
 ```

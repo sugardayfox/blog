@@ -1,13 +1,14 @@
+---
 Id: JyRZ
 Title: Generating good unique ids in Go
 Format: Markdown
 Tags: for-blog, go, published
 CreatedAt: 2017-06-21T18:47:07Z
 UpdatedAt: 2017-07-09T01:56:50Z
---------------
-@header-image gfx/headers/header-01.jpg
-@collection go-cookbook
-@description Survey of 7 libraries for generating good, unique ids in Go.
+HeaderImage: gfx/headers/header-01.jpg
+Collection: go-cookbook
+Description: Survey of 7 libraries for generating good, unique ids in Go.
+---
 
 Imagine you're writing a [note taking](http://quicknotes.io) application.
 

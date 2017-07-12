@@ -1,11 +1,12 @@
+---
 Id: wjRD
 Title: Solo founders with profitable businesses, collected stories
 Format: Markdown
 Tags: for-blog, published, business
 CreatedAt: 2017-06-23T23:44:19Z
 UpdatedAt: 2017-07-03T02:10:34Z
---------------
-@header-image gfx/headers/header-03.jpg
+HeaderImage: gfx/headers/header-03.jpg
+---
 
 People sometimes wonder: can I have a successful business as a single founder?
 
@@ -126,7 +127,7 @@ Website traffic generation:
 
 ### 10. Watermarking desktop app for Mac/Windows
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=13150864
 * https://news.ycombinator.com/item?id=11604736
 
@@ -186,7 +187,7 @@ Source:
 
 ### 14. NomadList, $400k/year revenue
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=13443124
 * https://news.ycombinator.com/item?id=13443124
 
@@ -288,7 +289,7 @@ In early days pitched his service on linkedin, now people come from referrals.
 
 ### 27. park.io, $125k/mo
 
-Source: 
+Source:
 * https://www.indiehackers.com/businesses/park-io
 * https://news.ycombinator.com/item?id=9726435
 
@@ -347,7 +348,7 @@ Sold via ThemeForest.
 
 ### 33. Radio Silence, main income
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=12722772
 * https://news.ycombinator.com/item?id=12034558
 
@@ -369,7 +370,7 @@ Source: https://news.ycombinator.com/item?id=13327835
 
 ### 36. Desktop app, seating planning, $120k+/year
 
-Source: 
+Source:
 * https://successfulsoftware.net/2015/01/07/10-years-a-microisv/
 * https://successfulsoftware.net/2013/11/06/lifestyle-programming/
 
@@ -386,7 +387,7 @@ Source: https://news.ycombinator.com/item?id=11659140
 
 ### 38. Video games, making a living
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=11659283
 * https://news.ycombinator.com/item?id=13838257
 * https://news.ycombinator.com/item?id=13328138
@@ -396,7 +397,7 @@ Multi-platform games written in C#, based on Unity game engine, released on Stea
 
 ### 39. Pinegrow Web Editor, comfortable living
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=11659561
 * https://medium.com/@mattront/pinegrow-year-in-review-2014-from-0-to-100k-fed4e7a05689
 
@@ -443,13 +444,13 @@ Source: https://news.ycombinator.com/item?id=8631035
 
 ### 45. Storemapper, $21k/mo
 
-Source: 
+Source:
 * https://www.indiehackers.com/businesses/storemapper
 * http://tylertringas.com/storemapper-bootstrapped-to-50000year-in-2-years-with-live-metrics/
 
 ### 46. Brendan Dunn, $451k revenue in 2014 from several products
 
-Source: 
+Source:
 * https://doubleyourfreelancing.com/annual-review-2014/
 * https://doubleyourfreelancing.com/2016-year-review/
 * https://doubleyourfreelancing.com/2015-year-in-review/
@@ -466,7 +467,7 @@ His income:
 He does the design/programming/marketing/monetization work behind http://www.theyummylife.com, his mother does the writing.
 Revenue from Amazon affiliates, ads and ebook.
 
-Source: 
+Source:
 * https://news.ycombinator.com/item?id=4467954
 * https://www.lessannoyingcrm.com/blog/2012/04/259/How+I+monetized+a+blog+in+30+days%3A+what+worked%2C+and+what+didn%27t
 
