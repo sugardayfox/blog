@@ -4,9 +4,10 @@ Title: Installing necessary tools
 Format: Markdown
 Tags: go
 CreatedAt: 2017-07-12
-PublishedOn: 2017-07-12
+PublishedOn: 2017-09-12
 Collection: go-windows
 Description: Installing Go toolchain and necessary libraries.
+Status: invisible
 ---
 
 You probably have the tools already installed, but I have to cover it anyway. Such is life of a tutorial writer.

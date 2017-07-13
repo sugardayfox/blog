@@ -35,9 +35,10 @@ var formatNames = []string{"Html", "Markdown", "Text"}
 
 // for Article.Status
 const (
-	statusNormal  = 0 // shown always
-	statusDeleted = 1 // shown never
-	statusDraft   = 2 // can be accessed via explicit url but not linked
+	statusNormal    = 0 // always shown
+	statusDeleted   = 1 // never shown
+	statusDraft     = 2 // linked from archive page, but not main page
+	statusInvisible = 3 // not shown in production but shown in dev
 )
 
 // Article describes a single article
@@ -185,6 +186,8 @@ func parseStatus(status string) (int, error) {
 		return statusDeleted, nil
 	case "draft":
 		return statusDraft, nil
+	case "invisible":
+		return statusInvisible, nil
 	default:
 		return 0, fmt.Errorf("'%s' is not a valid status", status)
 	}
@@ -206,6 +209,9 @@ func setCollectionMust(article *Article, val string) {
 	case "go-cookbook":
 		collectionURL = "/book/go-cookbook.html"
 		val = "Go Cookbook"
+	case "go-windows":
+		collectionURL = "/book/windows-programming-in-go.html"
+		val = "Windows Programming In Go"
 	}
 	u.PanicIf(collectionURL == "", "'%s' is now a known collection", val)
 	article.Collection = val
@@ -321,6 +327,13 @@ func readArticle(path string) (*Article, error) {
 		return nil, nil
 	}
 
+	if a.Status == statusInvisible {
+		if flgProduction {
+			return nil, nil
+		}
+		a.Status = statusNormal
+	}
+
 	a.Body = d
 	a.BodyHTML = msgToHTML(a.Body, a.Format)
 	a.HTMLBody = template.HTML(a.BodyHTML)
@@ -328,7 +341,11 @@ func readArticle(path string) (*Article, error) {
 }
 
 func readArticles() ([]*Article, []string, error) {
-	dirsToScan := []string{"articles", filepath.Join("books", "go-cookbook")}
+	dirsToScan := []string{
+		"articles",
+		filepath.Join("books", "go-cookbook"),
+		filepath.Join("books", "windows-programming-in-go"),
+	}
 	var allArticles []*Article
 	var allDirs []string
 	timeStart := time.Now()

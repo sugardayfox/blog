@@ -4,9 +4,10 @@ Title: Introduction to Windows Programming in Go
 Format: Markdown
 Tags: go
 CreatedAt: 2017-07-12
-PublishedOn: 2017-07-12
+PublishedOn: 2017-09-12
 Collection: go-windows
 Description: Introduction to Windows Programming in Go.
+Status: invisible
 ---
 
 This books is meant to teach you how to write native Windows programs in Go.
