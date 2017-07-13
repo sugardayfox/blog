@@ -32,31 +32,38 @@
             font-size: 90%;
             color: darkslategray;
         }
+
         a {
             font-weight: bold;
             color: black;
         }
+
         .hl:hover {
             color: #03a9f4;
         }
+
         .beg {
             border-radius: 8px;
             border: 1px solid darkgray;
             display: inline-block;
             padding: 4px 32px;
         }
+
         .center {
             margin-left: auto;
             margin-right: auto;
         }
+
         .draft {
             background-color: lightyellow;
         }
-        .draft > a::after {
+
+        .draft>a::after {
             content: "draft";
             color: red;
             margin-left: 8px;
         }
+
         .book-tagline {
             font-size: 0.8em;
         }
@@ -67,7 +74,7 @@
             return document.getElementById(id);
         }
 
-        var hideDrafts = {{.InProduction}};
+        var hideDrafts = {{.InProduction }};
         function render() {
             var el = $("drafts");
             var el2 = $("toggle-drafts");
@@ -83,9 +90,9 @@
             hideDrafts = !hideDrafts;
             render();
         }
-      document.addEventListener("DOMContentLoaded", function(event) {
-          render();
-      });
+        document.addEventListener("DOMContentLoaded", function (event) {
+            render();
+        });
     </script>
 
 </head>
@@ -93,7 +100,9 @@
 <body>
 
     <div id="container">
-        <center><h1 style="font-size:2em">Go Cookbook</h1></center>
+        <center>
+            <h1 style="font-size:2em">Go Cookbook</h1>
+        </center>
         <center class="book-tagline">collection of articles about programming in Go</center>
         <center style="margin-top: 0.8em">By <a href="/">Krzysztof Kowalczyk</a></center>
         <div class="article-header hide-mobile">
@@ -128,13 +137,6 @@
             </div>
             <br>
 
-            <div class="draft">
-                <a href="/article/vEja/embedding-build-number-in-go-executable.html">Embedding build number in Go executable</a>
-                <div class="summary">How to embed build number in Go executable.
-                </div>
-            </div>
-            <br>
-
         </div>
 
         <div>
@@ -146,34 +148,46 @@
 
         <div>
             <a href="/article/wOYk/advanced-command-execution-in-go-with-osexec.html">Advanced command execution with os/exec</a>
-            <div class="summary">Standard library <a href="https://golang.org/pkg/os/exec/">os/exec</a> is used for executing
-            external programs. This article describes slightly more advanced use cases.
+            <div class="summary">Standard library <a href="https://golang.org/pkg/os/exec/">os/exec</a> is used for executing external programs.
+                This article describes slightly more advanced use cases.
             </div>
         </div>
         <br>
 
         <div>
             <a href="/article/Jl3G/https-for-free-in-go.html">HTTPS for free using Let's Encrypt</a>
-            <div class="summary">In the past supporting HTTPS required paying for SSL certificate. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>            we get free SSL certificates and <a href="https://golang.org/x/crypto/acme/autocert">autocert</a> library does all the
-            hard work of provisioning them. Learn how to easily add HTTPS support and redirect HTTP traffic to HTTPS.</div>
+            <div class="summary">In the past supporting HTTPS required paying for SSL certificate. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>                we get free SSL certificates and <a href="https://golang.org/x/crypto/acme/autocert">autocert</a> library
+                does all the hard work of provisioning them. Learn how to easily add HTTPS support and redirect HTTP traffic
+                to HTTPS.</div>
         </div>
         <br>
 
         <div>
+            <a href="/article/vEja/embedding-build-number-in-go-executable.html">Embedding build number in Go executable</a>
+            <div class="summary">How to embed build number in Go executable.
+            </div>
+        </div>
+        <br>
+
+
+        <div>
             <a href="/article/JyRZ/generating-good-random-and-unique-ids-in-go.html">Generating good unique ids</a>
-            <div class="summary">Generating unique ids comes up often in web services and distributed systems. This article describes what a good, unique id is and compares 7 libraries for generating ids.</div>
+            <div class="summary">Generating unique ids comes up often in web services and distributed systems. This article describes what a good,
+                unique id is and compares 7 libraries for generating ids.</div>
         </div>
         <br>
 
         <div>
             <a href="/article/f/accessing-github-api-from-go.html">Accessing GitHub API</a>
-            <div class="summary"><a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service. This article will get you started writing programs that access the API.</div>
+            <div class="summary"><a href="https://github.com">GitHub</a> offers a rich API for accessing information related to their service.
+                This article will get you started writing programs that access the API.</div>
         </div>
         <br>
 
         <div>
             <a href="/article/u5o7/speeding-up-go-and-c-with-custom-allocators.html">Speeding up code with custom allocators</a>
-            <div class="summary">Allocations are often a silent performance killer. This article takes a well-known benchmark (construction of binary trees) and speeds it up ~4x by optimizing memory allocations.</div>
+            <div class="summary">Allocations are often a silent performance killer. This article takes a well-known benchmark (construction of
+                binary trees) and speeds it up ~4x by optimizing memory allocations.</div>
         </div>
         <br>
 
@@ -186,14 +200,17 @@
         <div>
             <a href="/article/g/extracting-files-from-.7z-archives-in-go.html">Extracting files from .7z archives</a>
             <div class="summary">Go doesn't have a native library for reading 7-Zip. This article describes extracting files from .7z archives
-            using cmd-line 7z program.</div>
+                using cmd-line 7z program.</div>
         </div>
         <br>
 
         <br>
-        <center><div class="beg">
-            If you like "Go Cookbok", <a href="https://twitter.com/intent/tweet?text=Go+Cookbook+-+a+book+involving+Go+and+programming&url=https%3A%2F%2Fblog.kowalczyk.info%2Fbook%2Fgo-cookbook.html&via=kjk">share it on Twitter</a>. To be notified about new chapters, <a href="https://twitter.com/intent/follow?user_id=3194001">follow @kjk</a>.
-        </div></center>
+        <center>
+            <div class="beg">
+                If you like "Go Cookbok", <a href="https://twitter.com/intent/tweet?text=Go+Cookbook+-+a+book+involving+Go+and+programming&url=https%3A%2F%2Fblog.kowalczyk.info%2Fbook%2Fgo-cookbook.html&via=kjk">share it on Twitter</a>.
+                To be notified about new chapters, <a href="https://twitter.com/intent/follow?user_id=3194001">follow @kjk</a>.
+            </div>
+        </center>
 
         <hr>
         <center>Written by <a href="/">Krzysztof Kowalczyk</a></center>
@@ -202,10 +219,10 @@
 
     <script>
         (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-194516-1', 'auto');
