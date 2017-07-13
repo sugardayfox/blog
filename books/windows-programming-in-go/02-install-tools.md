@@ -22,7 +22,21 @@ There are 2 versions of the compiler:
 
 64-bit version of the toolchan can only run on 64-bit version of Windows. By default it produces 64-bit executables but can also produce 32-bit.
 
-After installing Go toolchain, you need to setup `$GOHOME` environment variable. I set it to `$HOME\src\go`.
+You can follow [official installation instructions](https://golang.org/doc/install) or the steps below.
+
+After installing Go toolchain, you need to setup `$GOPATH` environment variable. I set it to `$USERPROFILE\src\go`.
+
+You also need to add `$GOPATH\bin` to `$PATH`. When you `go get` a program (as opposed to just a library), go toolchain installs it in `$GOPATH\bin`. We want them to be avilable in `$PATH` for convenience. We'll need some tools installed via `go get` on this journey.
+
+If you always use powershell, you can add the following to `$profile` file (e.g. via `notepad $profile`):
+```
+$env:GOPATH = $env:USERPROFILE + "\src\go"
+$env:Path = $env:Path + ";" + $env::GOPATH + "\bin"
+```
+
+`$profile` is executed when powershell starts.
+
+Don't forget to create `$env:GOPATH` directory.
 
 **TODO:** describe how to do it. Maybe screenshot of env variable editor or describe how to setup powershell using `$profile`.
 
@@ -30,6 +44,10 @@ This book heavily uses 2 libraries:
 * https://github.com/lxn/win provides Go bindings to win32 API calls
 * https://github.com/lxn/walk builds on top of `lxn/win` and provides higher-level wrappers and declarative UI and layout framework. Think of it as equivalent of winforms in C#
 
-You might just as well install them right away by doing `go get github.com/lxn/win` and `go get github.com/lxn/walk`.
+Install
+* `go get github.com/lxn/walk` : this is the library we'll be using
+* `go get github.com/akavel/rsrc` : we'll need `rsrc` tool
 
-I'm not one to tell you which text editor to use. I use [Visual Studio Code](https://code.visualstudio.com/) with [Go extension](https://marketplace.visualstudio.com/items?itemName=lukehoban.Go) and it works very well.
+I'm not one to tell you which text editor to use.
+
+I use [Visual Studio Code](https://code.visualstudio.com/) with [Go extension](https://marketplace.visualstudio.com/items?itemName=lukehoban.Go) and it works very well.
