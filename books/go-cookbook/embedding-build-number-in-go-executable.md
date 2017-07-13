@@ -5,10 +5,10 @@ Format: Markdown
 Tags: go
 CreatedAt: 2017-07-07T09:01:20Z
 UpdatedAt: 2017-07-09T01:50:32Z
+PublishedOn: 2017-07-13
 HeaderImage: gfx/headers/header-10.jpg
 Collection: go-cookbook
 Description: How to embed build number in Go executable.
-Status: draft
 ---
 
 So you've deployed your web application to production and it's running on a server far, far away.
@@ -17,7 +17,7 @@ When debugging problems it's good to know what version of the code is running.
 
 If you're using git, that would be sha1 of the revision used to build the program.
 
-We can embed that version in the executable during build thanks Go linker's `-X` option which allows to change variable in the program.
+We can embed that version in the executable during build thanks Go linker's `-X` option which allows to change any variable in the program.
 
 In our Go program we would have:
 ```go
@@ -33,7 +33,7 @@ We can set that variable to sha1 of the git revision in our build script `build.
 ```sh
 #!/bin/bash
 
-# notice how we avoid spaces in $now to avoid quotation hell in go build
+# notice how we avoid spaces in $now to avoid quotation hell in go build command
 now=$(date +'%Y-%m-%d_%T')
 go build -ldflags "-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now"
 ```
@@ -41,7 +41,7 @@ Full example: [embed-build-number/build.sh](https://github.com/kjk/go-cookbook/b
 
 On Windows we would write powershell script `build.ps1`:
 ```sh
-# notice how we avoid spaces in $now to avoid quotation hell in go build
+# notice how we avoid spaces in $now to avoid quotation hell in go build command
 $now = Get-Date -UFormat "%Y-%m-%d_%T"
 $sha1 = (git rev-parse HEAD).Trim()
 
