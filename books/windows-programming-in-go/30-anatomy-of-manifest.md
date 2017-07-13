@@ -1,6 +1,6 @@
 ---
 Id: wpig-30
-Title: Anatomy of .manifest file.
+Title: Anatomy of .manifest file
 Format: Markdown
 Tags: go
 CreatedAt: 2017-07-12
