@@ -2,7 +2,7 @@
 Id: w4re
 Title: Using MySQL in Docker for local testing In Go
 Format: Markdown
-Tags: for-blog, go, draft
+Tags: go
 CreatedAt: 2017-06-12T06:16:54Z
 UpdatedAt: 2017-07-09T01:50:59Z
 HeaderImage: gfx/headers/header-11.jpg

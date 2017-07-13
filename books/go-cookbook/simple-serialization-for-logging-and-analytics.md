@@ -2,7 +2,7 @@
 Id: vkeR
 Title: Simple serialization format for logging and analytics in Go
 Format: Markdown
-Tags: for-blog, draft, go
+Tags: go
 CreatedAt: 2017-07-09T03:59:28Z
 UpdatedAt: 2017-07-09T20:46:20Z
 HeaderImage: gfx/headers/header-14.jpg

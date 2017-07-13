@@ -2,7 +2,7 @@
 Id: 1Ll7
 Title: Rotate log files daily in Go
 Format: Markdown
-Tags: for-blog, go
+Tags: go
 CreatedAt: 2017-06-14T02:07:56Z
 UpdatedAt: 2017-07-09T20:35:12Z
 HeaderImage: gfx/headers/header-17.jpg

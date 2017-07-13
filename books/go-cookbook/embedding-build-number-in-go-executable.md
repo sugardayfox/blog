@@ -2,7 +2,7 @@
 Id: vEja
 Title: Embedding build number in Go executable
 Format: Markdown
-Tags: for-blog, go, draft
+Tags: go
 CreatedAt: 2017-07-07T09:01:20Z
 UpdatedAt: 2017-07-09T01:50:32Z
 HeaderImage: gfx/headers/header-10.jpg

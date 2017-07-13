@@ -2,7 +2,7 @@
 Id: Jl3G
 Title: HTTPS for free in Go, with little help of Let's Encrypt
 Format: Markdown
-Tags: for-blog, published, go
+Tags: go
 CreatedAt: 2017-06-23T09:56:26Z
 UpdatedAt: 2017-07-09T21:00:18Z
 PublishedOn: 2017-07-02

@@ -2,7 +2,7 @@
 Id: JyRZ
 Title: Generating good unique ids in Go
 Format: Markdown
-Tags: for-blog, go, published
+Tags: go
 CreatedAt: 2017-06-21T18:47:07Z
 UpdatedAt: 2017-07-09T01:56:50Z
 HeaderImage: gfx/headers/header-01.jpg

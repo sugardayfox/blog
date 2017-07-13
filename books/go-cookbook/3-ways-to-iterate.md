@@ -2,7 +2,7 @@
 Id: 1Bkr
 Title: 3 ways to iterate in Go
 Format: Markdown
-Tags: for-blog, draft, go
+Tags: go
 CreatedAt: 2017-06-19T06:56:45Z
 UpdatedAt: 2017-07-10T22:52:13Z
 HeaderImage: gfx/headers/header-09.jpg
