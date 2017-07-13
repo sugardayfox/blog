@@ -10,7 +10,7 @@ Description: What is .manifest file and how to use it.
 Status: invisible
 ---
 
-A manifest is an XML file that tells Windows some important information about your program.
+A manifest is an [XML file](https://msdn.microsoft.com/en-us/library/windows/desktop/aa375365(v=vs.85).aspx) that tells Windows some important information about your program.
 
 There are 2 ways to provide manifest file:
 * as a separate file alongside your executable. If your program is `foo.exe`, manifest file should be named `foo.exe.manifest`
