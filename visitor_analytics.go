@@ -198,11 +198,11 @@ func analyticsStatsText(a *analyticsStats) []string {
 	s := fmt.Sprintf("Unique ips: %d, unique referers: %d, unique urls: %d", a.nUniqueIPs, len(a.referers), len(a.urls))
 	lines = append(lines, s)
 
-	lines = append(lines, "\nMost frequent referers:\n")
-	lines = append(lines, countedStringsToLines(a.referers, 64)...)
-
 	lines = append(lines, "\nMost popular urls:\n")
 	lines = append(lines, countedStringsToLines(a.urls, 64)...)
+
+	lines = append(lines, "\nMost frequent referers:\n")
+	lines = append(lines, countedStringsToLines(a.referers, 64)...)
 
 	lines = append(lines, "\nMost frequent 404:\n")
 	lines = append(lines, countedStringsToLines(a.notFound, 64)...)
