@@ -1,3 +1,26 @@
+2017-07-14
+Id: b5kjaikh5sog00anr320
+Title: Idea for a GitHub wiki editor
+#idea
+
+GitHub has wikis but they are merely passable, not good:
+* the editing UI is very bare bones
+* the way they are displayed could also be improved
+
+Idea: build a better editor and a better publishing for the wiki.
+
+Technology: build a better markdown editor like http://dillinger.io/ or https://stackedit.io/ or https://hackmd.io/. It's simple.
+
+GitHub wiki is just a repository. If your project is foo/bar, main repo is github.com/foo/bar.git and wiki repo is github.com/foo/bar.wiki.git
+
+Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it's possible to do from GitHub API.
+
+Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for prive repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more.
+
+Free access for public repos would act as free advertisement.
+
+The business idea is similar to other companies built on top of GitHub, like https://www.zenhub.com/
+
 2017-07-13
 Id: b5k2rbsh5sog00anr2vg
 #did
