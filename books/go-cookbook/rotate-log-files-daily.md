@@ -5,21 +5,22 @@ Format: Markdown
 Tags: go
 CreatedAt: 2017-06-14T02:07:56Z
 UpdatedAt: 2017-07-09T20:35:12Z
+PublishedOn: 2017-07-17
 HeaderImage: gfx/headers/header-17.jpg
 Collection: go-cookbook
 Description: How to rotate a log file daily.
 Status: draft
 ---
 
-If your program logs to a file, it's a good idea to rotate log files as that prevents them from growing too large.
+If you log to a file, it's a good idea to rotate logs. That way they won't become too large.
 
 After rotation you can backup them up to online storage or delete them.
 
-Rotating daily is a good balance of how often to rotate vs. how large the log file can become.
+Rotating daily has a good balance of how often to rotate vs. how large the log file can become.
 
 You can write logs to stdout and use external program, like [logrotate](https://www.cyberciti.biz/faq/how-do-i-rotate-log-files/), to do the rotation.
 
-I prefer the simplicity of handling that in my own code and Go's `io.Writer` interface makes it easy to implement a re-usable file ration functionality.
+I prefer the simplicity of handling that in my own code and Go's `io.Writer` interface makes it easy to implement a re-usable file ration code.
 
 I did just that in package [dailyrotate](https://github.com/kjk/dailyrotate) ([documentation](https://godoc.org/github.com/kjk/dailyrotate)).
 
@@ -60,7 +61,7 @@ func initRotatedFileMust() {
 
 func logString(s string) error {
 	_, err = io.WriteString(rotatedFile, s)
-	panicIfErr(err)
+	return err
 }
 
 func shutdownLogging() {
@@ -73,7 +74,7 @@ Here's a [real-life example](https://github.com/kjk/blog/blob/ee30c22379c9064288
 
 `dailyrotate.File` is `io.Writer` and safe to use from multiple goroutines.
 
-In addition to `Write(d []byte)` It also implements a `Write2(d []byte, flush bool) (string, int64, int, error)`. It has 2 improvements over `Write`:
+In addition to `Write(d []byte)` it also implements a `Write2(d []byte, flush bool) (string, int64, int, error)`. It has 2 improvements over `Write`:
 
 * allows to flush in a single call. Flushing after each write is slower but less likely to loose data or corrupt the file when program crashes
 * it returns file path and offset in the file at which the data was written. This is important for building a random-access index to records written to `dailyrotate.File`
@@ -82,12 +83,12 @@ In addition to `Write(d []byte)` It also implements a `Write2(d []byte, flush bo
 
 Rotation is not limited to log files. I use it as part of poor-man's [web server analytics system](https://github.com/kjk/blog/blob/master/visitor_analytics.go).
 
-I log info about web requests to `dailyrotate.File` using my [siser](https://github.com/kjk/siser) simple serialization format.
+I log info about web requests to `dailyrotate.File` using my [siser](/article/vkeR/simple-serialization-for-logging-and-analytics-in-go.html) simple serialization format.
 
-When a file is rotated, I compress it, upload to backblaze for backup and delete local files older than 7 days to free up space.
+When a file is rotated, I compress it, upload to [backblaze](https://www.backblaze.com/b2/cloud-storage.html) for backup and delete local files older than 7 days to free up space.
 
-I also calculate basic statistics for the day and e-mail a summary to myself.
+I also calculate basic daily statistics and e-mail a summary to myself.
 
 I know, I could just use Google Analytics, and I do. My little system has advantages:
-* it tells me about missing pages (404). That alerts me if break something. Also people sometimes link incorrectly to my website and knowing what are bad links, I can add re-directs for them
-* it e-mails me daily the summary of most important information. I keep an eye on things with minimal effort.
+* it tells me about missing pages (404). That alerts me if break something or if others link incorrectly to my website. Knowing bad links, I can add re-directs for them
+* by getting daily summaries via e-mail, I keep an eye on things with minimal effort
