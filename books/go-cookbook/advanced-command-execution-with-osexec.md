@@ -180,9 +180,7 @@ Full example: [advanced-exec/03-live-progress-and-capture-v2.go](https://github.
 
 ## Capture output but also show progress #3
 
-
 Turns out Go's standard library implements [io.MultiWriter](https://golang.org/pkg/io/#MultiWriter), which is more generic version of `CapturingPassThroughWriter`. Let's use that instead:
-
 
 ```go
 func main() {
@@ -247,7 +245,7 @@ Here's the same thing in Go:
 // compress data using bzip2 without creating temporary files
 func bzipCompress(d []byte) ([]byte, error) {
 	var out bytes.Buffer
-// -c : compress
+	// -c : compress
 	// -9 : select the highest level of compresion
 	cmd := exec.Command("bzip2", "-c", "-9")
 	cmd.Stdin = bytes.NewBuffer(d)
@@ -264,10 +262,9 @@ Full example: [advanced-exec/06-feed-stdin.go](https://github.com/kjk/go-cookboo
 
 We can also call `cmd.StdinPipe()`, which returns `io.WriteCloser`. It's more complicated but gives more control over writing.
 
-
 ## Changing environment of executed program
 
-Things you need to know about using of environment variables in Go:
+Things to know about environment variables in Go:
 * `os.Environ()` returns `[]string` where each string is in form of `FOO=bar`, where `FOO` is the name of environment variable and `bar` is the value
 * `os.Getenv("FOO")` returns the value of environment variable.
 
@@ -290,7 +287,6 @@ You do it by setting `Env` member of `exec.Cmd` in the same format as `os.Enviro
 Full example: [advanced-exec/05-change-environment.go](https://github.com/kjk/go-cookbook/blob/master/advanced-exec/05-change-environment.go).
 
 Package [shurcooL/go/osutil](https://godoc.org/github.com/shurcooL/go/osutil#Environ) offers slightly more civilized way of manipulating environment variables.
-
 
 ## Check early that a program is installed
 
