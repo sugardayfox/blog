@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="always">
+    <meta name="description" content="Find Files is a tool to find files quickly on Window">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" content="@kjk">
+    <meta name="twitter:title" content="Find Files is for quickly finding files on Windows">
+    <meta name="twitter:description" content="Find Files is a tool to find files quickly on Window">
+    <meta name="twitter:creator" content="@kjk">
+    <meta name="twitter:image" content="https://blog.kowalczyk/software/findfiles/shot-00.png">
+
+    <!-- Open Graph i.e. Facebook data -->
+    <meta property="og:title" content="Find Files is for finding files quickly on Window">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://blog.kowalczyk/software/findfiles/" />
+    <meta property="og:description" content="Find Files is for finding files quickly on Window">
+    <meta property="og:image" content="https://blog.kowalczyk/software/findfiles/shot-00.png">
+
+    <title>Find Files is for finding files quickly on Window</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+    <link href="findfiles.css" rel="stylesheet">
+
+    <script src="findfiles.js"></script>
+    <script>
+      function onload() {
+        changeShot("shot-00.png");
+      }
+
+      document.addEventListener("DOMContentLoaded", onload);
+    </script>
+</head>
+
+<body>
+    <div class="flex flex-column mt3">
+
+      <div class="flex flex-row justify-end ml2 mr4">
+        <!--
+        <div class="ml3">Forum</div>
+        <div class="ml3">About</div>
+        -->
+      </div>
+
+      <div class="flex justify-center mt2">
+        <h1 class="ma0">Find Files</h1>
+      </div>
+
+      <div class="flex justify-center mt2">
+        Fast Way To Find Files on Windows
+      </div>
+
+      <div class="flex justify-center mt4">
+        <img id="main-shot" src="shot-00.png" width="400" height="300">
+      </div>
+
+      <div class="flex justify-center mt4">
+        <div id="shot-00.png" class="pa1">
+          <a href="#" onclick="changeShot('shot-00.png'); return false">
+            <img src="shot-00.png" width="80" height="60">
+          </a>
+        </div>
+        <div id="shot-01.png" class="ml3 pa1">
+          <a href="#" onclick="changeShot('shot-01.png'); return false">
+            <img src="shot-01.png" width="80" height="60">
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-column items-center mt3">
+        <a href="https://kjktools.org/dl/findfiles/latest" class="buttonDownload">Download Free</a>
+        <div class="f7 mt1">Requires Windows 7, 8 or 10</div>
+      </div>
+
+    </div>
+</body>
+
+</html>
