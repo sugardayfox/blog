@@ -12,6 +12,11 @@ http://tachyons.io/docs/
   border: 1px solid lightskyblue;
 }
 
+.screenshot {
+	max-width: 95%;
+	object-fit: scale-down;
+}
+
 /* https://codepen.io/nw/pen/udkIB */
 .buttonDownload {
 	display: inline-block;
