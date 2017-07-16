@@ -9,7 +9,6 @@ PublishedOn: 2017-07-17
 HeaderImage: gfx/headers/header-14.jpg
 Collection: go-cookbook
 Description: Usage, design and implementation of simple serialization format for logging and analytics in Go.
-Status: draft
 ---
 
 I was looking to save multiple records with somewhat flexible schema to a file. Go has plenty of options but I couldn't find anything that was just right.
