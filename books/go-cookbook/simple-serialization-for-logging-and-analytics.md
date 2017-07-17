@@ -122,5 +122,3 @@ BenchmarkJSONUnmarshal-8    	  200000	      7482 ns/op
 The format is binary-safe and works for serializing large values e.g. you can serialize png image
 
 It's also very easy to implement in any language.
-
-Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/simple-serialization
