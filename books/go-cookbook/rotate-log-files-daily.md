@@ -5,11 +5,10 @@ Format: Markdown
 Tags: go
 CreatedAt: 2017-06-14T02:07:56Z
 UpdatedAt: 2017-07-09T20:35:12Z
-PublishedOn: 2017-07-17
+PublishedOn: 2017-07-20
 HeaderImage: gfx/headers/header-17.jpg
 Collection: go-cookbook
 Description: How to rotate a log file daily.
-Status: draft
 ---
 
 If you log to a file, it's a good idea to rotate logs. That way they won't become too large.
