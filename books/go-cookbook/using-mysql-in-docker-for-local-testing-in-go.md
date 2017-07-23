@@ -5,10 +5,10 @@ Format: Markdown
 Tags: go
 CreatedAt: 2017-06-12T06:16:54Z
 UpdatedAt: 2017-07-09T01:50:59Z
+PublishedOn: 2017-07-23
 HeaderImage: gfx/headers/header-11.jpg
 Collection: go-cookbook
 Description: How and why to run MySQL in Docker when developing Go web apps locally.
-Status: draft
 ---
 
 Imagine you’re writing a web application that uses MySQL. You [deploy on Linux](/article/5/blueprint-for-deploying-web-apps-on-coreos.html) but code and test on Mac.
