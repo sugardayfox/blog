@@ -20,7 +20,7 @@ You can install MySQL on Mac using [official MySQL installer](https://dev.mysql.
 Docker better isolates MySQL from the rest of the system, which has  a couple of advantages:
 * it's easier to install the exact version of MySQL that is running in production as there is a docker image for every version
 * you don't have to worry that `brew upgrade` will upgrade MySQL. Auto-upgrade is desired for most software but not a database. You need to remember to use `brew pin` to disable that
-* you can run several different version of MySQL for different projects
+* you can run several different versions of MySQL for different projects
 * since it's running on Linux, it's closer to the code running in production
 
 There is a downside to using Docker: you have to make sure that the database container is running and know the ip address of docker vm running the container.
