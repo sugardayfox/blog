@@ -23,7 +23,10 @@ Docker better isolates MySQL from the rest of the system, which has  a couple of
 * you can run several different versions of MySQL for different projects
 * since it's running on Linux, it's closer to the code running in production
 
-There is a downside to using Docker: you have to make sure that the database container is running and know the ip address of docker vm running the container.
+There is a downside to using Docker:
+
+* you have to make sure that the database container is running
+* you need to know the ip address of docker vm running the container
 
 Doing this manually would be annoying and I like to automate so I wrote re-usable bit of Go code to do that.
 
@@ -38,7 +41,7 @@ Conceptually, what we do is:
 
 MySQL database is stored in a local directory mounted by the container. That way data persists even if the container is stopped.
 
-The script is re-usable. You can customize it by changing:
+The code is re-usable. You can customize it by changing:
 
 * the base MySQL container. In my case it's [`mysql:5.6`](https://hub.docker.com/_/mysql/)
 * where MySQL data is stored
@@ -47,7 +50,7 @@ The script is re-usable. You can customize it by changing:
 
 It can be adapted for other databases, like PostgreSQL.
 
-We should only start docker when running locally. In my software I use cmd-line flag `-production` to distinguish between running production and locally.
+We should only start docker when running locally. In my software I use cmd-line flag `-production` to distinguish between running in production and locally.
 
 In production I would use the hard-coded host/ip of MySQL server. Locally I would call `startLocalDockerDbMust()` go get them.
 
