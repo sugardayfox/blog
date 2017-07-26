@@ -76,16 +76,6 @@ func urlForTag(tag string) string {
 	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
 }
 
-// FormatNameToID return id of a format
-func FormatNameToID(name string) int {
-	for i, formatName := range formatNames {
-		if strings.EqualFold(name, formatName) {
-			return i
-		}
-	}
-	return formatUnknown
-}
-
 // URL returns article's permalink
 func (a *Article) URL() string {
 	return "article/" + a.ID + "/" + urlify(a.Title) + ".html"
