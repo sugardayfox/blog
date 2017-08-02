@@ -70,22 +70,24 @@ Some porting comments:
 * Go and C have reversed order of declarations. Reversing it manually is boring and error prone. There were many repeated declarations that I could do with a simple search-and-replace, e.g `YGNodeRef node` => `node *YGNode`
 * search-and-replace `->` to `.` as Go uses `.` for both cases (something that C++-28 should adopt)
 * Go doesn't support ternary operator and Yoga's developers are infatuated with it. That was one part where I had to be extra careful as it was more than mechanical change
-* Go doesn't support `xor` (^) and `or` (|) operator on bool. As it turns out, they are not neccessary. `x ^ y` is the same as `x != y`. `a | b` can be written as: `if b { a = true }`
+* Go doesn't support `xor` (^) and `or` (|) operator on bool. As it turns out, they are not neccessary. `x ^ y` is the same as `x != y`. `a | b` can be written as: `if !a && b { a = true }`
 * `switch` statement needs attention as in C `case` falls-through by default
-* Yoga uses `float` for coordinates and uses a few functions like `fmaxf` etc. Go only implements `float64` versions of
+* Yoga uses `float` for coordinates and uses a few functions like `fmaxf` etc. Go only implements `float64` versions of math functions. Missing functions were easy to write.
 * Yoga code was relatively easy to port partly because of lack of string handling, which is where Go and C differ a lot
 
 It took me 2 days to port C code to Go, get it compiling and passing some tests. But some tests were failing.
 
 ## Phase two - fixing bugs
 
-Yoga has a lot of tests which gave me confidence that when I port the code, I'll be able to verify the correctness of the port by porting the tests.
+Yoga has a lot of tests which gave me confidence that when the port is done,  I'll be able to verify its correctness by porting the tests.
 
 I ported the code, I started porting the tests and they were failing.
 
-I was in a pickle. 2 days was enough to mechanically port the code but not even close enough to understand it.
+I was in a pickle.
 
-My first approach was to create a test program based on the test that was failing so that I can step through the code in the debugger.
+2 days was enough to mechanically port the code but not even close enough to understand it.
+
+As far as I can tell you can't step through tests in the debugger, so I converted a failing test into a test program.
 
 I was pleasently surprised that debugger in Visual Studio Code works decently.
 
@@ -105,7 +107,7 @@ I did another pass in the debugger and fortunately an inspiration struck.
 
 Yoga uses `NaN` value as `undefined`. A result of `fmaxf` function returned `NaN`. My `fmaxf` implementation was the simplest possible. I've checked implementation in C library and turns out I didn't handle `NaN` values properly.
 
-It was the change that finally made the tests pass.
+It was the fix that finally made the tests pass.
 
 ## Phase three - Go-ifying the API
 
@@ -120,15 +122,15 @@ The majority of changes were:
 
 It's mechanical, boring process.
 
-Some transforamations could be done with regex search & replace. The rest by using manual labor.
+Some transformations could be done with regex search & replace. The rest with manual labor.
 
 Having lots of tests really helped in making sure that the code is still correct.
 
 ## The status
 
-The port is finished. The code works and passes all Yoga tests.
+The port is finished. It works and passes all Yoga tests.
 
-The API is a bit awkward by Go standards. Too many methods, not enough direct access to variables.
+The API is still a bit awkward by Go standards. Too many methods, not enough direct access to variables.
 
 Partly it's because I wanted to stay close to C code so that future changes to Yoga can be ported easily.
 
@@ -140,15 +142,13 @@ How to represent that in Go? Ideally, the zero value of the type would represent
 
 Unfortunately, that doesn't work well for properties that are numbers because zero might be a valid value.
 
-Yoga uses `float32` for numbers and `NaN` for undefined.
+Yoga uses `float32` for numbers and `NaN` for undefined value of a CSS property.
 
-Another option is used in `sql` package for types like `sql.NullString` that need to indicate null-abilibility. They are represented as a struct that combines a value and bool field `Valid`. Zero value of bool is false, so by default values start as undefined.
+Another option is used in `sql` package for types like `sql.NullString` that need to indicate null-abilibility. They are represented as a struct that combines a value and bool field `Valid`. Zero value of bool is false, so by default values start as invalid (undefined).
 
 This isn't a great API either since it makes setting and reading values more awkward.
 
-Full flexbox implementation is not trivial to write.
-
-At the end of the day it's better to have solid, working code with awkward API than not having the code at all.
+At the end of the day it's better to have solid, working code with awkward API than not having the code at all. Full flexbox implementation is not trivial to write.
 
 Unless someone writes a pure Go implementation designed from scratch with Go idioms in mind, [flex](https://github.com/kjk/flex) is the best option.
 
@@ -163,4 +163,6 @@ There are few attempts to do that:
 
 [elliotchance/c2go](https://github.com/elliotchance/c2go) seems to be the most promising.
 
-I didn't try any of them. Neither seems to be usable. It's an approach worth keeping an eye on for the future but not yet viable today.
+I didn't try any of them as neither seems to be usable yet.
+
+It's an approach worth keeping an eye on for the future but not yet viable today.
