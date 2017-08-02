@@ -69,7 +69,7 @@ Porting process was boring but relatively uneventful.
 Some porting comments:
 * Go and C have reversed order of declarations. Reversing it manually is boring and error prone. There were many repeated declarations that I could do with a simple search-and-replace, e.g `YGNodeRef node` => `node *YGNode`
 * search-and-replace `->` to `.` as Go uses `.` for both cases (something that C++-28 should adopt)
-* Go doesn't support ternary operator and Yoga's developers are infatuated. That was one part where I had to be extra careful as it was more than mechanical change
+* Go doesn't support ternary operator and Yoga's developers are infatuated with it. That was one part where I had to be extra careful as it was more than mechanical change
 * Go doesn't support `xor` (^) and `or` (|) operator on bool. As it turns out, they are not neccessary. `x ^ y` is the same as `x != y`. `a | b` can be written as: `if b { a = true }`
 * `switch` statement needs attention as in C `case` falls-through by default
 * Yoga uses `float` for coordinates and uses a few functions like `fmaxf` etc. Go only implements `float64` versions of
