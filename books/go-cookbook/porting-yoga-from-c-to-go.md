@@ -2,7 +2,7 @@
 Id: wN9R
 Title: Experience porting 4.5k loc of C to Go (Facebook's CSS flexbox implementation Yoga)
 Format: Markdown
-Tags: for-blog, draft
+Tags: go
 CreatedAt: 2017-07-23T05:35:08Z
 UpdatedAt: 2017-08-02T18:02:19Z
 PublishedOn: 2017-08-02
