@@ -38,23 +38,21 @@ Here's how porting happened.
 
 ## Phase zero - picking a name for the package
 
-Too many people have a bad habit of including "go" in their repository name, presumably to not confuse people with non-go version of the code.
+It was tempting to pick a name that would be some combination of `yoga` and `go` e.g. `goyoga` or `yoga-go`.
 
-Those people would probably name a direct port of Yoga as `yoga-go` or `goyoga`.
-
-That would be a bad idea.
+That would be a bad idea. Including `go` in package or repository name is bad (but unfortunately happens too often).
 
 My rules for a good name for a Go library are:
 
 * it's short
 * it's descriptive
-* package name matches github repository name
+* package name matches repository name
 
-Therefore [github.com/kjk/flex](https://github.com/kjk/flex) was born.
+Therefore [github.com/kjk/flex](github.com/kjk/flex) was born.
 
 I could use `yoga`, to better higlight connection with original project, but it's not descriptive.
 
-I could use `flexbox` to better higlight connection with `CSS flexbox`, but it's a bit long.
+I could use `flexbox` to better higlight connection with [CSS flexbox](https://www.w3.org/TR/css-flexbox-1/), but it's a bit long.
 
 ## Phase one - getting Go port to compile
 
@@ -70,7 +68,7 @@ Some porting comments:
 * Go and C have reversed order of declarations. Reversing it manually is boring and error prone. There were many repeated declarations that I could do with a simple search-and-replace, e.g `YGNodeRef node` => `node *YGNode`
 * search-and-replace `->` to `.` as Go uses `.` for both cases (something that C++-28 should adopt)
 * Go doesn't support ternary operator and Yoga's developers are infatuated with it. That was one part where I had to be extra careful as it was more than mechanical change
-* Go doesn't support `xor` (^) and `or` (|) operator on bool. As it turns out, they are not neccessary. `x ^ y` is the same as `x != y`. `a | b` can be written as: `if !a && b { a = true }`
+* Go doesn't support `xor` (^) and `or` (|) operator on bool. As it turns out, they are not neccessary. `x ^ y` is the same as `x != y`. `a = a | b` can be written as: `if !a && b { a = true }`
 * `switch` statement needs attention as in C `case` falls-through by default
 * Yoga uses `float` for coordinates and uses a few functions like `fmaxf` etc. Go only implements `float64` versions of math functions. Missing functions were easy to write.
 * Yoga code was relatively easy to port partly because of lack of string handling, which is where Go and C differ a lot
@@ -91,7 +89,7 @@ As far as I can tell you can't step through tests in the debugger, so I converte
 
 I was pleasently surprised that debugger in Visual Studio Code works decently.
 
-I found one porting mistake by stepping through the code but it didn't fix all test failures.
+I found one porting mistake by stepping through the code but fixing it didn't fix test failures.
 
 I spent a bit more time stepping through the code but not knowing what results to expect I decided that it's not a promising approach.
 
@@ -105,9 +103,11 @@ The tests were still failing and I was a bit stuck.
 
 I did another pass in the debugger and fortunately an inspiration struck.
 
-Yoga uses `NaN` value as `undefined`. A result of `fmaxf` function returned `NaN`. My `fmaxf` implementation was the simplest possible. I've checked implementation in C library and turns out I didn't handle `NaN` values properly.
+Yoga uses `NaN` value as `undefined`. I noticed that `fmaxf` function that I wrote returned `NaN` when any argument was `NaN`.
 
-It was the fix that finally made the tests pass.
+I compared my `fmaxf` implementation with C implmentation and it turns out that if one of the arguments is `NaN` but the other one isn't, it should return non-NaN value.
+
+It was easy to fix and that fixed all the tests.
 
 ## Phase three - Go-ifying the API
 
@@ -116,6 +116,7 @@ The code was working but it was far from idiomatic Go code.
 Next phase was tweaking the API to be more Go-like.
 
 The majority of changes were:
+
 * making struct fields public
 * removing `YG` prefix as packages obviate the need for that
 * renaming accessor functions to methods (from `func NodeFoo(node *Node)` => `func (node *Node) Foo()`
