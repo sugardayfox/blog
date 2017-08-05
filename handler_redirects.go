@@ -120,7 +120,7 @@ func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	}
 	article := store.GetArticleByID(redirectArticleID)
 	if article != nil {
-		redirURL := "/" + article.URL()
+		redirURL := article.URL()
 		//logger.Noticef("Redirecting %q => %q", url, redirUrl)
 		http.Redirect(w, r, redirURL, 302)
 		return true

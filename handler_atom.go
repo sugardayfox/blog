@@ -38,7 +38,7 @@ func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 		//id := fmt.Sprintf("tag:blog.kowalczyk.info,1999:%d", a.Id)
 		e := &atom.Entry{
 			Title:   a.Title,
-			Link:    "https://blog.kowalczyk.info/" + a.URL(),
+			Link:    "https://blog.kowalczyk.info" + a.URL(),
 			Content: a.BodyHTML,
 			PubDate: a.PublishedOn,
 		}

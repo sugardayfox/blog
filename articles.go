@@ -78,7 +78,7 @@ func urlForTag(tag string) string {
 
 // URL returns article's permalink
 func (a *Article) URL() string {
-	return "article/" + a.ID + "/" + urlify(a.Title) + ".html"
+	return "/article/" + a.ID + "/" + urlify(a.Title) + ".html"
 }
 
 // TagsDisplay returns tags as html
