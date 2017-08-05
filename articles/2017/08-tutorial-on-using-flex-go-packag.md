@@ -97,7 +97,7 @@ After `CalculateLayout` we can see the position of each node e.g.:
 
 ```go
 	fmt.Printf("root left: %f\n", root.LayoutGetLeft()) // 0
-	fmt.Printf(("root top: %f\n", root.LayoutGetTop()) // 0
+	fmt.Printf"root top: %f\n", root.LayoutGetTop()) // 0
 	fmt.Printf("root width: %f\n", root.LayoutGetWidth()) // 200
 	fmt.Printf("root height: %f\n", root.LayoutGetHeight()) // 200
 ```
