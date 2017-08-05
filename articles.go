@@ -547,6 +547,8 @@ func markdownToHTML(s []byte) string {
 	//unsafe := blackfriday.MarkdownCommon(s)
 	policy := bluemonday.UGCPolicy()
 	policy.AllowStyling()
+	policy.RequireNoFollowOnFullyQualifiedLinks(false)
+	policy.RequireNoFollowOnLinks(false)
 	res := policy.SanitizeBytes(unsafe)
 	for kstr, v := range replacements {
 		k := []byte(kstr)
