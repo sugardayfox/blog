@@ -27,7 +27,7 @@ The high-level use is:
 
 ## An exmple
 
-Let's assume that we want to re-create the equivalent of the following HTML layout:
+Let's assume that we want to re-create the following HTML layout:
 ```html
 <div id="percentage_multiple_nested_with_padding_margin_and_percentage_values" style="width: 200px; height: 200px; flex-direction: column;">
   <div style="flex-grow: 1; flex-basis: 10%; min-width: 60%; margin: 5px; padding: 3px;">
