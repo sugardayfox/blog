@@ -1,6 +1,6 @@
 ---
 Id: 9
-Title: Tutorial on using github.com/kjk/flex Go package
+Title: Tutorial for github.com/kjk/flex Go package (implementation of CSS flexbox algorithm)
 Date: 2017-08-04T18:32:51-07:00
 Format: Markdown
 Tags: go
