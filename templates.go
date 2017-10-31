@@ -2,10 +2,10 @@ package main
 
 import (
 	"bytes"
+	"html/template"
 	"net/http"
 	"path/filepath"
 	"strconv"
-	"text/template"
 
 	"github.com/kjk/u"
 )
