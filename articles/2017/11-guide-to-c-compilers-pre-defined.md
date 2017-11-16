@@ -82,31 +82,35 @@ Notice the chack has to be: `major > 5 || (major == 5 && minor >= 1)`. If you on
 `_MSC_VER` and `_MSC_FULL_VER`:
 
 ```
-VS                      _MSC_VER   _MSC_FULL_VER
-1.0                     800
-3.0                     900
-4.0                     1000
-4.2                     1020
-5.0                     1100
-6.0                     1200
-6.0 SP6                 1200    12008804
-7.0                     1300    13009466
-7.1 (2003)              1310    13103077
-8.0 (2005)              1400    140050727
-9.0 (2008)              1500    150021022
-9.0 SP1                 1500    150030729
-10.0 (2010)             1600    160030319
-10.0 (2010) SP1         1600    160040219
-11.0 (2012)             1700    170050727
-12.0 (2013)             1800    180021005
-14.0 (2015)             1900    190023026
-14.0 (2015 Update 1)    1900    190023506
-14.0 (2015 Update 2)    1900    190023918
-14.0 (2015 Update 3)    1900    190024210
-15.0 (2017)             1910    191025017
+VS                        _MSC_VER   _MSC_FULL_VER
+1                         800
+3                         900
+4                         1000
+4                         1020
+5                         1100
+6                         1200
+6 SP6                     1200    12008804
+7                         1300    13009466
+7.1 (2003)                1310    13103077
+8 (2005)                  1400    140050727
+9 (2008)                  1500    150021022
+9 SP1                     1500    150030729
+10 (2010)                 1600    160030319
+10 (2010) SP1             1600    160040219
+11 (2012)                 1700    170050727
+12 (2013)                 1800    180021005
+14 (2015)                 1900    190023026
+14 (2015 Update 1)        1900    190023506
+14 (2015 Update 2)        1900    190023918
+14 (2015 Update 3)        1900    190024210
+15 (2017 Update 1 & 2)    1910    191025017
+15 (2017 Update 3 & 4)    1911
+15 (2017 Update 5)        1912
 ```
 
-See [more information](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/).
+More information:
+* https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/
+* https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525 for more inf
 
 ### MinGW
 
