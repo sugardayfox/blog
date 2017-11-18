@@ -2,7 +2,7 @@
 Id: wjRD
 Title: Solo founders with profitable businesses, collected stories
 Format: Markdown
-Tags: for-blog, published, business
+Tags: published, business
 CreatedAt: 2017-06-23T23:44:19Z
 UpdatedAt: 2017-07-03T02:10:34Z
 HeaderImage: gfx/headers/header-03.jpg
@@ -503,3 +503,14 @@ Source:
 * https://www.indiehackers.com/businesses/zencastr
 * https://news.ycombinator.com/item?id=13533894
 * https://news.ycombinator.com/item?id=13169704
+
+### 53. Workflowy, $800k/year
+
+Jesse Patel learn how to program building https://workflowy.com/. After 9 months of working on it alone, he asked a friend he knew from college to join him. They got into YC to work on a different idea but pivoted back to Workflowy.
+
+They started charging 2 years after they launched and got enough revenue to pay for living expenses.
+
+They have 100k paying users and $800k/year revenue.
+
+Source:
+* https://www.indiehackers.com/podcast/037-jesse-patel-of-workflowy
