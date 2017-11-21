@@ -2,6 +2,7 @@
 Id: 20
 Title: How to install latest clang (5.0) on Ubuntu 16.04 (xenial) / WSL
 Date: 2017-11-20T20:37:02-08:00
+Tags: unix
 Format: Markdown
 ---
 
