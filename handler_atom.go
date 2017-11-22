@@ -2,16 +2,28 @@ package main
 
 import (
 	"net/http"
+	"sort"
 	"time"
 
 	atom "github.com/thomas11/atomgenerator"
 )
+
+func copyAndSortArticles(articles []*Article) []*Article {
+	n := len(articles)
+	res := make([]*Article, n, n)
+	copy(res, articles)
+	sort.Slice(res, func(i, j int) bool {
+		return res[j].PublishedOn.After(res[i].PublishedOn)
+	})
+	return res
+}
 
 func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 	articles := store.GetArticles(false)
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
+	articles = copyAndSortArticles(articles)
 	n := 25
 	if n > len(articles) {
 		n = len(articles)
