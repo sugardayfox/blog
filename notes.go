@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"encoding/hex"
 	"fmt"
+	"html/template"
 	"math/rand"
 	"net/http"
 	"os"
@@ -52,7 +53,7 @@ type note struct {
 	ID             string
 	Title          string
 	URL            string // in format /dailynotes/note/${id}-${title}
-	HTMLBody       string
+	HTMLBody       template.HTML
 	Tags           []string
 }
 
@@ -259,8 +260,10 @@ func noteToHTML(s string) string {
 		anchor := urlToAnchor[url]
 		s = strings.Replace(s, anchor, replacement, -1)
 	}
-
-	s, _ = sanitize.HTMLAllowing(s, []string{"a"})
+	//fmt.Printf("%s\n", s)
+	s, _ = sanitize.HTMLAllowing(s)
+	//u.PanicIfErr(err)
+	fmt.Printf("%s\n\n\n", s)
 	return s
 }
 
@@ -313,7 +316,7 @@ func newNote(lines []string) *note {
 	}
 	return &note{
 		Tags:     tags,
-		HTMLBody: body,
+		HTMLBody: template.HTML(body),
 		ID:       meta.ID,
 		Title:    meta.Title,
 	}

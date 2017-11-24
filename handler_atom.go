@@ -100,11 +100,10 @@ func handleNotesFeed(w http.ResponseWriter, r *http.Request) {
 		if title == "" {
 			title = n.ID
 		}
-		html := `<pre>` + n.HTMLBody + `</pre>`
 		e := &atom.Entry{
 			Title:   title,
 			Link:    "https://blog.kowalczyk.info/" + n.URL,
-			Content: html,
+			Content: string(n.HTMLBody),
 			PubDate: n.Day,
 		}
 		feed.AddEntry(e)
