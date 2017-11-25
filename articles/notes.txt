@@ -1,3 +1,99 @@
+2017-11-24
+Id: b8cbvh10rm7g009pfvsg
+Title: Typo-resistant way of using #define in C++.
+#programming
+
+Sometimes you just have to use #ifdef. Let's say you're writing cross-platform code and your `read_file` function needs different implementation for mac and windows. You would do it like this:
+```c++
+#if defined(_WIN32)
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+
+#if defined(__APPLE__)
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+```
+
+Using `_WIN32` and `__APPLE__` is a bit ugly. Let's do something more uniform:
+```c++
+#if defined(_WIN32)
+#define OS_WIN 1
+#endif
+
+#if defined(__APPLE__)
+#define OS_MAC 1
+#endif
+
+#if defined(OS_WIN)
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+
+#if defined(OS_MAC)
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+```
+
+It looks better but has a problem: typos are silent bugs:
+```
+#if defined(OS_MAP)
+...
+#endif
+```
+
+Thankfully newer versions of gcc and clang have a useful option `-Wunder` which produces a warning when you do `#if FOO` and `FOO` is not defined.
+
+Knowing that, the final version of our code is:
+```c++
+#if defined(_WIN32)
+#define OS_WIN 1
+#else
+#define OS_WIN 0
+#endif
+
+#if defined(__APPLE__)
+#define OS_MAC 1
+#else
+#define OS_MAC 0
+#endif
+
+#if OS_WIN
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+
+#if OS_MAC
+std::vector<char> read_file(std::string& path) { ... }
+#endif
+```
+
+It's not without downsides: now `#ifdef OS_MAC` is always true, so you need the discipline to use `#if`. That discipline can be enforced with a regex over your code base.
+
+On Windows, msvc has a similar warning 4668. Unfortunately, system headers produce a lot of those warnings.
+
+There are 2 solutions.
+
+You can enable this warning globally and disable when including system headers:
+```c++
+#pragma warning(push)
+#pragma warning(disable : 4668) // silence /analyze: de-referencing a nullptr pointer
+#endif
+#include <windows.h>
+... and other system headers
+#pragma warning(pop)
+```
+
+Another option is to have the warning off by default but enable it after including system headers:
+```c++
+#include <windows.h>
+....
+
+#pragma warning(default : 4668)
+
+... now only your code
+```
+
+I use a variation of second method. To avoid enabling that warning in each .cpp file, I have a `common.h` header files which includes most of the system headers and enables the warning. You can re-use `stdafx.h` for that.
+
+
 2017-11-23
 Id: b8bmm8sau0kg00eesncg
 Reading http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf about history of PowerPoint software.
