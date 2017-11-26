@@ -40,7 +40,7 @@ It looks better but has a problem: typos are silent bugs:
 #endif
 ```
 
-Thankfully newer versions of gcc and clang have a useful option `-Wunder` which produces a warning when you do `#if FOO` and `FOO` is not defined.
+Thankfully newer versions of gcc and clang have a useful option `-Wundef` which produces a warning when you do `#if FOO` and `FOO` is not defined.
 
 Knowing that, the final version of our code is:
 ```c++
