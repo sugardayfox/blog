@@ -1,3 +1,13 @@
+2017-11-28
+Id: b8f2coifss0000aovdh0
+#did
+
+Converting Sumatra's unix build from premake5.unix.lua to a Go program.
+
+This is my second attempt at such a tool. Before I was too ambitious and tried to abstract too much from start.
+
+This time I did it in a straightforward, sequential way and it seems to be working.
+
 2017-11-24
 Id: b8cbvh10rm7g009pfvsg
 Title: Typo-resistant way of using #define in C++.
