@@ -1,3 +1,13 @@
+2017-11-29
+Id: b8fqv02fss0000aovdk0
+#did
+
+In Sumatra, fixed a regression due careless coding and not running changed code at all.
+
+For easier tracking of mem leaks, added ./scripts/valgrind_rel.sh scripts that builds the unix version and runs valgrind with mem leak detection. Gave me a pointer for TxtParser leak location. Unfortunately requires redoing by removing TxtParser::children std::vector because in one code path we allocate nodes from pool allocator and in another path with new. It was fine when we used Vec, which used the same allocator for internal allocations, but now std::vector uses new() and in one code path it's intermixed with allocator.
+
+We should get rid of TxtParser::children and instead keep child list as pointers TxtNode, either first child or sibling for n-th child.
+
 2017-11-28
 Id: b8f2coifss0000aovdh0
 #did
