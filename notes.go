@@ -263,7 +263,7 @@ func noteToHTML(s string) string {
 	//fmt.Printf("%s\n", s)
 	s, _ = sanitize.HTMLAllowing(s)
 	//u.PanicIfErr(err)
-	fmt.Printf("%s\n\n\n", s)
+	//fmt.Printf("%s\n\n\n", s)
 	return s
 }
 
