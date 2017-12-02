@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"html/template"
+	"io/ioutil"
 	"net/http"
 	"path/filepath"
 	"strconv"
@@ -73,6 +74,15 @@ func getTemplates() *template.Template {
 		templates = template.Must(template.ParseFiles(templatePaths...))
 	}
 	return templates
+}
+
+func execTemplateToFile(path string, templateName string, model interface{}) {
+
+	var buf bytes.Buffer
+	err := getTemplates().ExecuteTemplate(&buf, templateName, model)
+	u.PanicIfErr(err)
+	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
+	u.PanicIfErr(err)
 }
 
 func serveTemplate(w http.ResponseWriter, templateName string, model interface{}) bool {
