@@ -57,7 +57,7 @@ func skipFile(path string) bool {
 	return false
 }
 
-func dirCopyRecur(dst string, src string) (error, int) {
+func dirCopyRecur(dst string, src string) (int, error) {
 	fmt.Printf("dirCopyRecur: %s => %s\n", src, dst)
 	nFilesCopied := 0
 	dirsToVisit := []string{src}
@@ -67,7 +67,7 @@ func dirCopyRecur(dst string, src string) (error, int) {
 		dirsToVisit = dirsToVisit[:n-1]
 		fileInfos, err := ioutil.ReadDir(dir)
 		if err != nil {
-			return err, nFilesCopied
+			return nFilesCopied, err
 		}
 		for _, fi := range fileInfos {
 			path := filepath.Join(dir, fi.Name())
@@ -81,15 +81,15 @@ func dirCopyRecur(dst string, src string) (error, int) {
 			dstPath := dst + path[len(src):]
 			err := copyFile(dstPath, path)
 			if err != nil {
-				return err, nFilesCopied
+				return nFilesCopied, err
 			}
 			nFilesCopied++
 		}
 	}
-	return nil, nFilesCopied
+	return nFilesCopied, nil
 }
 
-func main() {
+func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
 	panicIfErr(err)
@@ -98,7 +98,7 @@ func main() {
 	panicIfErr(err)
 	err = os.MkdirAll(outDir, 0755)
 	panicIfErr(err)
-	err, nCopied := dirCopyRecur(outDir, "www")
+	nCopied, err := dirCopyRecur(outDir, "www")
 	panicIfErr(err)
 	fmt.Printf("Copied %d files\n", nCopied)
 }

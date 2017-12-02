@@ -107,12 +107,14 @@ func textResponse(w http.ResponseWriter, text string) {
 var (
 	flgHTTPAddr        string
 	flgProduction      bool
+	flgNetlifyBuild    bool
 	flgNewArticleTitle string
 )
 
 func parseCmdLineFlags() {
 	flag.StringVar(&flgHTTPAddr, "addr", ":5020", "HTTP server address")
 	flag.BoolVar(&flgProduction, "production", false, "are we running in production")
+	flag.BoolVar(&flgNetlifyBuild, "netlify-build", false, "if true, builds and deploys to netlify")
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.Parse()
 }
@@ -223,6 +225,11 @@ func main() {
 
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
+		return
+	}
+
+	if flgNetlifyBuild {
+		netlifyBuild()
 		return
 	}
 
