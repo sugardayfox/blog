@@ -222,7 +222,6 @@ func main() {
 		testAnalyticsStats("/Users/kjk/Downloads/2017-06-02.txt.gz")
 		os.Exit(0)
 	}
-
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
 		return
