@@ -1,12 +1,15 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/kjk/u"
 )
 
 func panicIfErr(err error) {
@@ -89,6 +92,21 @@ func dirCopyRecur(dst string, src string) (int, error) {
 	return nFilesCopied, nil
 }
 
+func netlifyPath(fileName string) string {
+	fileName = strings.TrimLeft(fileName, "/")
+	return filepath.Join("netlify_static", "www", fileName)
+}
+
+func execNetlifyTemplateToFile(fileName string, templateName string, model interface{}) {
+	path := netlifyPath(fileName)
+	fmt.Printf("%s\n", path)
+	var buf bytes.Buffer
+	err := getTemplates().ExecuteTemplate(&buf, templateName, model)
+	u.PanicIfErr(err)
+	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
+	u.PanicIfErr(err)
+}
+
 func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -101,4 +119,42 @@ func netlifyBuild() {
 	nCopied, err := dirCopyRecur(outDir, "www")
 	panicIfErr(err)
 	fmt.Printf("Copied %d files\n", nCopied)
+
+	analyticsCode = "UA-194516-1"
+
+	// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
+	model := struct {
+		RandomCookie string
+	}{
+		RandomCookie: randomCookie,
+	}
+	execNetlifyTemplateToFile("/contactme.html", tmplContactMe, model)
+
+	/*
+		mux.HandleFunc("/book/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
+		mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
+
+		mux.HandleFunc("/atom.xml", withAnalyticsLogging(handleAtom))
+		mux.HandleFunc("/atom-all.xml", withAnalyticsLogging(handleAtomAll))
+		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
+		mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
+		mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
+		mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
+		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
+		mux.HandleFunc("/article/", withAnalyticsLogging(handleArticle))
+		mux.HandleFunc("/kb/", withAnalyticsLogging(handleArticle))
+		mux.HandleFunc("/blog/", withAnalyticsLogging(handleArticle))
+		mux.HandleFunc("/forum_sumatra/", withAnalyticsLogging(forumRedirect))
+		mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
+		mux.HandleFunc("/book/", withAnalyticsLogging(handleArticles))
+		mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
+		mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
+		mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
+		mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
+		mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
+		mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
+		mux.HandleFunc("/worklog", handleWorkLog)
+		mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
+	*/
+
 }

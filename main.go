@@ -232,11 +232,6 @@ func main() {
 		return
 	}
 
-	if flgNetlifyBuild {
-		netlifyBuild()
-		return
-	}
-
 	if flgProduction {
 		reloadTemplates = false
 		flgHTTPAddr = ":80"
@@ -251,6 +246,11 @@ func main() {
 	loadArticles()
 
 	readRedirects()
+
+	if flgNetlifyBuild {
+		netlifyBuild()
+		return
+	}
 
 	analyticsPath := filepath.Join(getDataDir(), "analytics", "2006-01-02.txt")
 	initAnalyticsMust(analyticsPath)

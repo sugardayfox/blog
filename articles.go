@@ -366,7 +366,6 @@ func readArticlesFromDir(dir string) ([]*Article, []string, error) {
 			continue
 		}
 		name := filepath.Base(path)
-		switch name {
 		if name == "notes.txt" {
 			err := readNotes(path)
 			if err != nil {
@@ -375,6 +374,7 @@ func readArticlesFromDir(dir string) ([]*Article, []string, error) {
 			}
 			continue
 		}
+
 		a, err := readArticle(path)
 		if err != nil {
 			fmt.Printf("readArticle() of %s failed with %s\n", path, err)
