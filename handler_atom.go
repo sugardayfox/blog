@@ -5,6 +5,7 @@ import (
 	"sort"
 	"time"
 
+	"github.com/kjk/blog/pkg/notes"
 	atom "github.com/thomas11/atomgenerator"
 )
 
@@ -78,7 +79,7 @@ func handleAtom(w http.ResponseWriter, r *http.Request) {
 // /dailynotes-atom.xml
 // TODO: could cache generated xml
 func handleNotesFeed(w http.ResponseWriter, r *http.Request) {
-	notes := notesAllNotes
+	notes := notes.NotesAllNotes
 	if len(notes) > 25 {
 		notes = notes[:25]
 	}
