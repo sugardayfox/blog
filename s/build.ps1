@@ -1,9 +1,10 @@
 #!/usr/bin/env pwsh
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
-function exitIfFailed { if (-Not $?) { exit } }
+function exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }
 
 $sha1 = (git rev-parse HEAD) | Out-String
+exitIfFailed
 $sha1 = $sha1.Replace([System.Environment]::NewLine,"")
 
 $exe = ".\blog_app.exe"
