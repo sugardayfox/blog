@@ -17,10 +17,6 @@ To make it easy to use from shell to detect if content changed,
 returns exit code 1 when something changed and 0 if didn't
 */
 
-var (
-	contentChanged = false
-)
-
 func calcMainCSSSha1Short() string {
 	pattern := filepath.Join("www", "css", "main*.css")
 	matches, err := filepath.Glob(pattern)
@@ -60,15 +56,14 @@ func updateCSSSha1InFile(path, sha1 string) bool {
 }
 
 // rename www/css/main.css to www/css/main-${sha1}.css and update references
-func updateMainCSSSha1() {
+func updateMainCSSSha1() (bool, error) {
 	sha1 := calcMainCSSSha1Short()
 	if sha1 == "" {
 		// no change
-		fmt.Printf("css/main.css didn't change\n")
-		return
+		return false, nil
 	}
-	contentChanged = true
-	filepath.Walk("www", func(path string, info os.FileInfo, err error) error {
+
+	err := filepath.Walk("www", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -81,11 +76,11 @@ func updateMainCSSSha1() {
 		}
 		return nil
 	})
+	return true, err
 }
 
-func main() {
-	updateMainCSSSha1()
-	if contentChanged {
-		os.Exit(1)
-	}
+func updateMainCSSSha1Must() {
+	changed, err := updateMainCSSSha1()
+	u.PanicIfErr(err)
+	u.PanicIf(changed, "css changed, must commit!")
 }
