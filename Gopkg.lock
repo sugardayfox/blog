@@ -5,7 +5,7 @@
   branch = "master"
   name = "github.com/SparkPost/gosparkpost"
   packages = [".","events"]
-  revision = "7e8565c83ee09336624604fba3cf6e9853926c2c"
+  revision = "8c18ed3a823bf762833b7cb62c44f37e2f10350f"
 
 [[projects]]
   branch = "master"
@@ -23,7 +23,7 @@
   branch = "master"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
-  revision = "259d2a102b871d17f30e3cd9881a642961a1e486"
+  revision = "bb3d318650d48840a39aa21a027c6630e198e626"
 
 [[projects]]
   branch = "master"
@@ -35,13 +35,13 @@
   branch = "master"
   name = "github.com/gorilla/websocket"
   packages = ["."]
-  revision = "462d5c5828f6203e4047c47be2920315937be380"
+  revision = "b89020ee79b89a7f932c5617d218fc06db382f53"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
   packages = ["."]
-  revision = "6a0bfdde8629a3a3a7418a7eae45c54154692514"
-  version = "v1.2"
+  revision = "2e6820834a1f36c626bf19a253b7d3cc060e9b8b"
+  version = "v1.2.3"
 
 [[projects]]
   branch = "master"
@@ -59,7 +59,7 @@
   branch = "master"
   name = "github.com/kjk/siser"
   packages = ["."]
-  revision = "c872843814ffeca450a1615671095f7ddf219713"
+  revision = "f1af2d1a21bb9d2527792d032d9473b35dd92ac1"
 
 [[projects]]
   branch = "master"
@@ -74,16 +74,16 @@
   revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
 
 [[projects]]
-  branch = "master"
   name = "github.com/kurin/blazer"
   packages = ["b2","base","internal/b2types","internal/blog"]
-  revision = "612082ed2430716569f1ec816fc6ade849020816"
+  revision = "e269a1a17bb6aec278c06a57cb7e8f8d0d333e04"
+  version = "v0.2.1"
 
 [[projects]]
   branch = "master"
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
-  revision = "e79763773ab6222ca1d5a7cbd9d62d83c1f77081"
+  revision = "68fecaef60268522d2ac3f0123cec9d3bcab7b6e"
 
 [[projects]]
   name = "github.com/mvdan/xurls"
@@ -119,7 +119,7 @@
   branch = "master"
   name = "github.com/russross/blackfriday"
   packages = ["."]
-  revision = "067529f716f4c3f5e37c8c95ddd59df1007290ae"
+  revision = "6d1ef893fcb01b4f50cb6e57ed7df3e2e627b6b2"
 
 [[projects]]
   name = "github.com/satori/go.uuid"
@@ -128,10 +128,10 @@
   version = "v1.1.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/segmentio/ksuid"
   packages = ["."]
-  revision = "e3c9952840557adbb3538b1039e783d44c21ae4a"
+  revision = "112f929a3020abfcd06b77c963ec919130796a35"
+  version = "1.0.1"
 
 [[projects]]
   branch = "master"
@@ -173,19 +173,19 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["acme","acme/autocert"]
-  revision = "dd85ac7e6a88fc6ca420478e934de5f1a42dd3c6"
+  revision = "94eea52f7b742c7cbe0b03b22f0c4c8631ece122"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["context","html","html/atom"]
-  revision = "f01ecb60fe3835d80d9a0b7b2bf24b228c89260e"
+  packages = ["html","html/atom"]
+  revision = "a8b9294777976932365dabb6640cf1468d95c70f"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "abf9c25f54453410d0c6668e519582a9e1115027"
+  revision = "8b4580aae2a0dd0c231a45d3ccb8434ff533b840"
 
 [solve-meta]
   analyzer-name = "dep"
