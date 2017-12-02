@@ -5,8 +5,6 @@ import (
 	"net/http"
 	"path"
 	"time"
-
-	"github.com/kjk/blog/pkg/notes"
 )
 
 // SiteMapURLSet represents <urlset>
@@ -66,7 +64,7 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 		urls = append(urls, uri)
 	}
 
-	for _, note := range notes.NotesAllNotes {
+	for _, note := range notesAllNotes {
 		pageURL := "https://" + path.Join(r.Host, note.URL)
 		uri := SiteMapURL{
 			URL:          pageURL,

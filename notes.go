@@ -1,4 +1,4 @@
-package notes
+package main
 
 import (
 	"bufio"
@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"html/template"
 	"math/rand"
+	"net/http"
 	"os"
 	"sort"
 	"strings"
@@ -23,32 +24,29 @@ const (
 )
 
 var (
-	NotesDays       []*NotesForDay
-	NotesTagToNotes map[string][]*Note
+	notesDays       []*notesForDay
+	notesTagToNotes map[string][]*note
 	// maps unique id of the note (from Id: ${id} metadata) to the note
-	NotesIDToNote  map[string]*Note
-	NotesTagCounts []TagWithCount
-	NotesAllNotes  []*Note
+	notesIDToNote  map[string]*note
+	notesTagCounts []tagWithCount
+	notesAllNotes  []*note
 
-	NotesWeekStartDayToNotes map[string][]*Note
-	NotesWeekStarts          []string
-	TotalNotes               int
+	notesWeekStartDayToNotes map[string][]*note
+	notesWeekStarts          []string
+	nTotalNotes              int
 )
 
-// TagWithCount represents tag and its count
-type TagWithCount struct {
+type tagWithCount struct {
 	Tag   string
 	Count int
 }
 
-// NoteMetadata represents metadata about notes
-type NoteMetadata struct {
+type noteMetadata struct {
 	ID    string
 	Title string
 }
 
-// Note represetns a note
-type Note struct {
+type note struct {
 	Day            time.Time
 	DayStr         string // in format "2006-01-02"
 	DayWithNameStr string // in format "2006-01-02 Mon"
@@ -59,11 +57,20 @@ type Note struct {
 	Tags           []string
 }
 
-// NotesForDay represents notes for a day
-type NotesForDay struct {
+type notesForDay struct {
 	Day    time.Time
 	DayStr string
-	Notes  []*Note
+	Notes  []*note
+}
+
+type modelNotesForWeek struct {
+	Notes         []*note
+	TotalNotes    int
+	TagCounts     []tagWithCount
+	WeekStartDay  string
+	NextWeek      string
+	PrevWeek      string
+	AnalyticsCode string
 }
 
 func lastLineEmpty(lines []string) bool {
@@ -189,8 +196,8 @@ func buildBodyFromLines(lines []string) (string, []string) {
 // Id: $id
 // Title: $title
 // Returns new lines with metadata lines removed
-func extractMetaDataFromLines(lines []string) ([]string, NoteMetadata) {
-	var res NoteMetadata
+func extractMetaDataFromLines(lines []string) ([]string, noteMetadata) {
+	var res noteMetadata
 	writeIdx := 0
 	for i, s := range lines {
 		idx := strings.Index(s, ":")
@@ -295,8 +302,8 @@ func extractCodeSnippets(lines []string) ([]string, []string) {
 	return resLines, anchors
 }
 
-func newNote(lines []string) *Note {
-	TotalNotes++
+func newNote(lines []string) *note {
+	nTotalNotes++
 	lines, meta := extractMetaDataFromLines(lines)
 	lines, codeReplacements := extractCodeSnippets(lines)
 	s, tags := buildBodyFromLines(lines)
@@ -307,7 +314,7 @@ func newNote(lines []string) *Note {
 		codeHTML := `<pre class="note-code">` + codeReplacements[i*2+1] + `</pre>`
 		body = strings.Replace(body, anchor, codeHTML, -1)
 	}
-	return &Note{
+	return &note{
 		Tags:     tags,
 		HTMLBody: template.HTML(body),
 		ID:       meta.ID,
@@ -315,9 +322,9 @@ func newNote(lines []string) *Note {
 	}
 }
 
-func linesToNotes(lines []string) []*Note {
+func linesToNotes(lines []string) []*note {
 	// parts are separated by "---" line
-	var res []*Note
+	var res []*note
 	var curr []string
 	for _, line := range lines {
 		if line == noteSeparator {
@@ -337,19 +344,19 @@ func linesToNotes(lines []string) []*Note {
 	return res
 }
 
-func ReadNotes(path string) error {
+func readNotes(path string) error {
 	// TODO: throws "duplicate note id:" when re-reading notes, so don't re-read
-	if len(NotesAllNotes) > 0 {
+	if len(notesAllNotes) > 0 {
 		return nil
 	}
 
-	NotesDays = nil
-	NotesTagToNotes = make(map[string][]*Note)
-	NotesIDToNote = make(map[string]*Note)
-	NotesTagCounts = nil
-	NotesAllNotes = nil
-	NotesWeekStartDayToNotes = make(map[string][]*Note)
-	NotesWeekStarts = nil
+	notesDays = nil
+	notesTagToNotes = make(map[string][]*note)
+	notesIDToNote = make(map[string]*note)
+	notesTagCounts = nil
+	notesAllNotes = nil
+	notesWeekStartDayToNotes = make(map[string][]*note)
+	notesWeekStarts = nil
 
 	f, err := os.Open(path)
 	if err != nil {
@@ -357,8 +364,8 @@ func ReadNotes(path string) error {
 	}
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
-	var notes []*NotesForDay
-	var curr *NotesForDay
+	var notes []*notesForDay
+	var curr *notesForDay
 	var lines []string
 
 	seenDays := make(map[string]bool)
@@ -381,19 +388,19 @@ func ReadNotes(path string) error {
 		}
 		u.PanicIf(seenDays[s], "duplicate day: %s", s)
 		seenDays[s] = true
-		curr = &NotesForDay{
+		curr = &notesForDay{
 			Day:    day,
 			DayStr: s,
 		}
 		lines = nil
 	}
 	curr.Notes = linesToNotes(lines)
-	NotesDays = append(notes, curr)
+	notesDays = append(notes, curr)
 
 	// verify they are in chronological order
-	for i := 1; i < len(NotesDays); i++ {
-		notesForDay := NotesDays[i-1]
-		notesForPrevDay := NotesDays[i]
+	for i := 1; i < len(notesDays); i++ {
+		notesForDay := notesDays[i-1]
+		notesForPrevDay := notesDays[i]
 		diff := notesForDay.Day.Sub(notesForPrevDay.Day)
 		if diff < 0 {
 			return fmt.Errorf("Note '%s' should be later than '%s'", notesForDay.DayStr, notesForPrevDay.DayStr)
@@ -402,15 +409,15 @@ func ReadNotes(path string) error {
 
 	nNotes := 0
 	// update date and id on notes
-	for _, day := range NotesDays {
-		weekStartTime := CalcWeekStart(day.Day)
+	for _, day := range notesDays {
+		weekStartTime := calcWeekStart(day.Day)
 		weekStartDay := weekStartTime.Format("2006-01-02")
 		for _, note := range day.Notes {
-			NotesAllNotes = append(NotesAllNotes, note)
+			notesAllNotes = append(notesAllNotes, note)
 			nNotes++
 			id := note.ID
-			u.PanicIf(NotesIDToNote[id] != nil, "duplicate note id: %s", id)
-			NotesIDToNote[id] = note
+			u.PanicIf(notesIDToNote[id] != nil, "duplicate note id: %s", id)
+			notesIDToNote[id] = note
 			note.Day = day.Day
 			note.DayStr = day.Day.Format("2006-01-02")
 			note.DayWithNameStr = day.Day.Format("2006-01-02 Mon")
@@ -419,35 +426,35 @@ func ReadNotes(path string) error {
 				note.URL += "-" + urlify(note.Title)
 			}
 			for _, tag := range note.Tags {
-				a := NotesTagToNotes[tag]
+				a := notesTagToNotes[tag]
 				a = append(a, note)
-				NotesTagToNotes[tag] = a
+				notesTagToNotes[tag] = a
 			}
-			a := NotesWeekStartDayToNotes[weekStartDay]
+			a := notesWeekStartDayToNotes[weekStartDay]
 			a = append(a, note)
-			NotesWeekStartDayToNotes[weekStartDay] = a
+			notesWeekStartDayToNotes[weekStartDay] = a
 		}
 	}
-	for day := range NotesWeekStartDayToNotes {
-		NotesWeekStarts = append(NotesWeekStarts, day)
+	for day := range notesWeekStartDayToNotes {
+		notesWeekStarts = append(notesWeekStarts, day)
 	}
 	var tags []string
-	for tag := range NotesTagToNotes {
+	for tag := range notesTagToNotes {
 		tags = append(tags, tag)
 	}
 	sort.Strings(tags)
 	for _, tag := range tags {
-		count := len(NotesTagToNotes[tag])
-		tc := TagWithCount{
+		count := len(notesTagToNotes[tag])
+		tc := tagWithCount{
 			Tag:   tag,
 			Count: count,
 		}
-		NotesTagCounts = append(NotesTagCounts, tc)
+		notesTagCounts = append(notesTagCounts, tc)
 	}
 
-	sort.Strings(NotesWeekStarts)
-	reverseStringArray(NotesWeekStarts)
-	fmt.Printf("Read %d notes in %d days and %d weeks\n", nNotes, len(NotesDays), len(NotesWeekStarts))
+	sort.Strings(notesWeekStarts)
+	reverseStringArray(notesWeekStarts)
+	fmt.Printf("Read %d notes in %d days and %d weeks\n", nNotes, len(notesDays), len(notesWeekStarts))
 	return scanner.Err()
 }
 
@@ -460,18 +467,128 @@ func reverseStringArray(a []string) {
 }
 
 // given time, return time on start of week (monday)
-func CalcWeekStart(t time.Time) time.Time {
+func calcWeekStart(t time.Time) time.Time {
 	// wd is 1 to 7
 	wd := t.Weekday()
 	dayOffset := time.Duration((wd - 1)) * time.Hour * -24
 	return t.Add(dayOffset)
 }
 
-func findNotesForDay(dayStr string) *NotesForDay {
-	for _, d := range NotesDays {
+// /dailynotes
+func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
+	weekStart := notesWeekStarts[0]
+	notes := notesWeekStartDayToNotes[weekStart]
+	var nextWeek string
+	if len(notesWeekStarts) > 1 {
+		nextWeek = notesWeekStarts[1]
+	}
+	model := &modelNotesForWeek{
+		Notes:         notes,
+		TagCounts:     notesTagCounts,
+		TotalNotes:    nTotalNotes,
+		WeekStartDay:  weekStart,
+		AnalyticsCode: analyticsCode,
+		NextWeek:      nextWeek,
+	}
+	serveTemplate(w, tmplNotesWeek, model)
+}
+
+// /dailynotes/week/${day} : week starting with a given day
+func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
+	uri := r.RequestURI
+	weekStart := strings.TrimPrefix(uri, "/dailynotes/week/")
+	notes := notesWeekStartDayToNotes[weekStart]
+	if len(notes) == 0 {
+		serve404(w, r)
+		return
+	}
+	var nextWeek, prevWeek string
+	for idx, ws := range notesWeekStarts {
+		if ws != weekStart {
+			continue
+		}
+		if idx > 0 {
+			prevWeek = notesWeekStarts[idx-1]
+		}
+		lastIdx := len(notesWeekStarts) - 1
+		if idx+1 <= lastIdx {
+			nextWeek = notesWeekStarts[idx+1]
+		}
+		break
+	}
+	model := &modelNotesForWeek{
+		Notes:         notes,
+		TagCounts:     notesTagCounts,
+		WeekStartDay:  weekStart,
+		NextWeek:      nextWeek,
+		PrevWeek:      prevWeek,
+		AnalyticsCode: analyticsCode,
+	}
+	serveTemplate(w, tmplNotesWeek, model)
+}
+
+func findNotesForDay(dayStr string) *notesForDay {
+	for _, d := range notesDays {
 		if dayStr == d.DayStr {
 			return d
 		}
 	}
 	return nil
+}
+
+// /worklog
+func handleWorkLog(w http.ResponseWriter, r *http.Request) {
+	// originally /dailynotes was under /worklog
+	http.Redirect(w, r, "/dailynotes", http.StatusMovedPermanently)
+}
+
+// /dailynotes/note/${id}-${title}
+func handleNotesNote(w http.ResponseWriter, r *http.Request) {
+	uri := r.RequestURI
+	s := strings.TrimPrefix(uri, "/dailynotes/note/")
+	parts := strings.SplitN(s, "-", 2)
+	noteID := parts[0]
+	aNote := notesIDToNote[noteID]
+	if aNote == nil {
+		serve404(w, r)
+		return
+	}
+
+	weekStartTime := calcWeekStart(aNote.Day)
+	weekStartDay := weekStartTime.Format("2006-01-02")
+	model := struct {
+		WeekStartDay  string
+		Note          *note
+		AnalyticsCode string
+	}{
+		WeekStartDay:  weekStartDay,
+		Note:          aNote,
+		AnalyticsCode: analyticsCode,
+	}
+	serveTemplate(w, tmplNotesNote, model)
+}
+
+// /dailynotes/tag/${tag} :
+func handleNotesTag(w http.ResponseWriter, r *http.Request) {
+	uri := r.RequestURI
+	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")
+	notes := notesTagToNotes[tag]
+
+	if len(notes) == 0 {
+		serve404(w, r)
+		return
+	}
+
+	model := struct {
+		Notes         []*note
+		TagCounts     []tagWithCount
+		Tag           string
+		AnalyticsCode string
+	}{
+		Notes:         notes,
+		TagCounts:     notesTagCounts,
+		Tag:           tag,
+		AnalyticsCode: analyticsCode,
+	}
+	serveTemplate(w, tmplNotesTag, model)
 }

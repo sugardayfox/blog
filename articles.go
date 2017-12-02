@@ -16,7 +16,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kjk/blog/pkg/notes"
 	"github.com/kjk/u"
 	"github.com/kr/fs"
 	"github.com/microcosm-cc/bluemonday"
@@ -373,7 +372,7 @@ func readArticlesFromDir(dir string) ([]*Article, []string, error) {
 			continue
 		}
 		if name == "notes.txt" {
-			err := notes.ReadNotes(path)
+			err := readNotes(path)
 			if err != nil {
 				fmt.Printf("readWorkLog(%s) failed with %s\n", path, err)
 				return nil, nil, err
