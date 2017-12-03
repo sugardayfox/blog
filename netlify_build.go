@@ -230,12 +230,24 @@ func netlifyBuild() {
 	netlifyAddStaticRedirects()
 	{
 		// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
+		netlifyAddRewrite("/contactme.html", "/static/contactme-netlify.html")
+	}
+
+	{
+		// static/documents.html
+		netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
+	}
+
+	{
+		// url: /book/go-cookbook.html
 		model := struct {
-			RandomCookie string
+			InProduction bool
 		}{
-			RandomCookie: randomCookie,
+			InProduction: true,
 		}
-		netlifyExecTemplate("/contactme.html", tmplContactMe, model)
+		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
+		// mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
+		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
 
 	{
@@ -353,8 +365,6 @@ func netlifyBuild() {
 	netlifyWriteRedirects()
 
 	/*
-		mux.HandleFunc("/book/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
-		mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 
 		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
 		mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
