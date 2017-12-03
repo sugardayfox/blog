@@ -11,18 +11,19 @@ import (
 )
 
 var (
-	tmplMainPage         = "mainpage.tmpl.html"
-	tmplArticle          = "article.tmpl.html"
-	tmplArchive          = "archive.tmpl.html"
-	tmplNotesWeek        = "notes_week.tmpl.html"
-	tmplNotesTag         = "notes_tag.tmpl.html"
-	tmplNotesNote        = "notes_note.tmpl.html"
-	tmplGenerateUniqueID = "generate-unique-id.tmpl.html"
-	tmplDocuments        = "documents.tmpl.html"
-	tmplContactMe        = "contactme.tmpl.html"
-	tmplGoCookBook       = "go-cookbook.tmpl.html"
-	tmpl404              = "404.tmpl.html"
-	templateNames        = []string{
+	tmplMainPage          = "mainpage.tmpl.html"
+	tmplArticle           = "article.tmpl.html"
+	tmplArchive           = "archive.tmpl.html"
+	tmplNotesWeek         = "notes_week.tmpl.html"
+	tmplNotesTag          = "notes_tag.tmpl.html"
+	tmplNotesNote         = "notes_note.tmpl.html"
+	tmplGenerateUniqueID  = "generate-unique-id.tmpl.html"
+	tmplGenerateUniqueID2 = "generate-unique-id-2.tmpl.html"
+	tmplDocuments         = "documents.tmpl.html"
+	tmplContactMe         = "contactme.tmpl.html"
+	tmplGoCookBook        = "go-cookbook.tmpl.html"
+	tmpl404               = "404.tmpl.html"
+	templateNames         = []string{
 		tmplMainPage,
 		tmplArticle,
 		tmplArchive,
@@ -30,6 +31,7 @@ var (
 		tmplNotesTag,
 		tmplNotesNote,
 		tmplGenerateUniqueID,
+		tmplGenerateUniqueID2,
 		tmplDocuments,
 		tmplContactMe,
 		tmplGoCookBook,

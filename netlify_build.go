@@ -6,13 +6,21 @@ import (
 	"html/template"
 	"io"
 	"io/ioutil"
+	"math/rand"
 	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
+	"github.com/chilts/sid"
+	"github.com/kjk/betterguid"
 	"github.com/kjk/u"
+	"github.com/oklog/ulid"
+	"github.com/rs/xid"
+	uuid "github.com/satori/go.uuid"
+	"github.com/segmentio/ksuid"
+	"github.com/sony/sonyflake"
 	atom "github.com/thomas11/atomgenerator"
 )
 
@@ -518,6 +526,49 @@ func netlifyBuild() {
 		data, err := genSiteMap("https://blog.kowalczyk.info")
 		u.PanicIfErr(err)
 		netlifyWriteFile("/sitemap.xml", data)
+	}
+
+	{
+		// /tools/generate-unique-id
+		idXid := xid.New()
+		idKsuid := ksuid.New()
+
+		t := time.Now().UTC()
+		entropy := rand.New(rand.NewSource(t.UnixNano()))
+		idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
+		betterGUID := betterguid.New()
+		uuid := uuid.NewV4()
+
+		flake := sonyflake.NewSonyflake(sonyflake.Settings{})
+		sfid, err := flake.NextID()
+		sfidstr := fmt.Sprintf("%x", sfid)
+		if err != nil {
+			sfidstr = err.Error()
+		}
+
+		model := struct {
+			Xid           string
+			Ksuid         string
+			Ulid          string
+			BetterGUID    string
+			Sonyflake     string
+			Sid           string
+			UUIDv4        string
+			AnalyticsCode string
+		}{
+			Xid:           idXid.String(),
+			Ksuid:         idKsuid.String(),
+			Ulid:          idUlid.String(),
+			BetterGUID:    betterGUID,
+			Sonyflake:     sfidstr,
+			Sid:           sid.Id(),
+			UUIDv4:        uuid.String(),
+			AnalyticsCode: analyticsCode,
+		}
+		path := "/generate-unique-id.html"
+		netlifyExecTemplate(path, tmplGenerateUniqueID2, model)
+		from := "/tools/generate-unique-id"
+		netlifyAddRewrite(from, path)
 	}
 
 	// no longer care about /worklog
