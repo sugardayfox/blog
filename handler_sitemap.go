@@ -40,13 +40,12 @@ var staticURLS = []string{
 	"/dailynotes",
 }
 
-// /sitemap.xml
-func handleSiteMap(w http.ResponseWriter, r *http.Request) {
+func genSiteMap(host string) ([]byte, error) {
 	articles := store.GetArticles(true)
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
-		pageURL := "https://" + path.Join(r.Host, article.URL())
+		pageURL := path.Join(host, article.URL())
 		uri := SiteMapURL{
 			URL:          pageURL,
 			LastModified: article.UpdatedOn.Format("2006-01-02"),
@@ -56,7 +55,7 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 
 	now := time.Now()
 	for _, staticURL := range staticURLS {
-		pageURL := "https://" + path.Join(r.Host, staticURL)
+		pageURL := path.Join(host, staticURL)
 		uri := SiteMapURL{
 			URL:          pageURL,
 			LastModified: now.Format("2006-01-02"),
@@ -65,7 +64,7 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 	}
 
 	for _, note := range notesAllNotes {
-		pageURL := "https://" + path.Join(r.Host, note.URL)
+		pageURL := path.Join(host, note.URL)
 		uri := SiteMapURL{
 			URL:          pageURL,
 			LastModified: note.Day.Format("2006-01-02"),
@@ -77,9 +76,18 @@ func handleSiteMap(w http.ResponseWriter, r *http.Request) {
 
 	xmlData, err := xml.MarshalIndent(urlset, " ", " ")
 	if err != nil {
+		return nil, err
+	}
+	d := append([]byte(xml.Header), xmlData...)
+	return d, nil
+}
+
+// /sitemap.xml
+func handleSiteMap(w http.ResponseWriter, r *http.Request) {
+	d, err := genSiteMap("https://" + r.Host)
+	if err != nil {
 		serve404(w, r)
 		return
 	}
-	d := append([]byte(xml.Header), xmlData...)
 	serveXML(w, string(d))
 }

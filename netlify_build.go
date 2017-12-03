@@ -10,8 +10,10 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/kjk/u"
+	atom "github.com/thomas11/atomgenerator"
 )
 
 var (
@@ -471,16 +473,60 @@ func netlifyBuild() {
 		}
 	}
 
-	// 		mux.HandleFunc("/worklog", handleWorkLog)
-	// no longer care about it
+	{
+		// mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
+		// /dailynotes-atom.xml
+		notes := notesAllNotes
+		if len(notes) > 25 {
+			notes = notes[:25]
+		}
+
+		pubTime := time.Now()
+		if len(notes) > 0 {
+			pubTime = notes[0].Day
+		}
+
+		feed := &atom.Feed{
+			Title:   "Krzysztof Kowalczyk daily notes",
+			Link:    "https://blog.kowalczyk.info/dailynotes-atom.xml",
+			PubDate: pubTime,
+		}
+
+		for _, n := range notes {
+			//id := fmt.Sprintf("tag:blog.kowalczyk.info,1999:%d", a.Id)
+			title := n.Title
+			if title == "" {
+				title = n.ID
+			}
+			e := &atom.Entry{
+				Title:   title,
+				Link:    "https://blog.kowalczyk.info/" + n.URL,
+				Content: string(n.HTMLBody),
+				PubDate: n.Day,
+			}
+			feed.AddEntry(e)
+		}
+
+		data, err := feed.GenXml()
+		u.PanicIfErr(err)
+		netlifyWriteFile("/dailynotes-atom.xml", data)
+	}
+
+	{
+		// mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
+		// /sitemap.xml
+		data, err := genSiteMap("https://blog.kowalczyk.info")
+		u.PanicIfErr(err)
+		netlifyWriteFile("/sitemap.xml", data)
+	}
+
+	// no longer care about /worklog
 
 	netlifyAddArticleRedirects()
 	netlifyWriteRedirects()
 
 	/*
 
-		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
-		mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
 		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
 	*/
 }
