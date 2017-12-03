@@ -12,5 +12,5 @@ exitIfFailed
 $origDir = Get-Location
 Set-Location -Path netlify_static
 Write-Host "About to deploy"
-# netlifyctl deploy
+netlifyctl deploy
 Set-Location -Path $origDir

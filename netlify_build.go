@@ -3,8 +3,10 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"html/template"
 	"io"
 	"io/ioutil"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -12,16 +14,45 @@ import (
 	"github.com/kjk/u"
 )
 
-func panicIfErr(err error) {
-	if err != nil {
-		panic(err.Error())
-	}
+var (
+	netlifyRedirects []*netlifyRedirect
+)
+
+type netlifyRedirect struct {
+	from string
+	to   string
+	// valid code is 301, 302, 200, 404
+	code int
 }
 
-func panicIf(cond bool) {
-	if cond {
-		panic("condition failed")
+func netlifyAddRedirect(from, to string, code int) {
+	r := netlifyRedirect{
+		from: from,
+		to:   to,
+		code: code,
 	}
+	netlifyRedirects = append(netlifyRedirects, &r)
+}
+
+func netlifyAddRewrite(from, to string) {
+	netlifyAddRedirect(from, to, 200)
+}
+
+func netflifyAddTempRedirect(from, to string) {
+	netlifyAddRedirect(from, to, 302)
+}
+
+func netflifyAddPermRedirect(from, to string) {
+	netlifyAddRedirect(from, to, 301)
+}
+
+func netlifyWriteRedirects() {
+	var buf bytes.Buffer
+	for _, r := range netlifyRedirects {
+		s := fmt.Sprintf("%s\t%s\t%d\n", r.from, r.to, r.code)
+		buf.WriteString(s)
+	}
+	netlifyWriteFile("_redirects", buf.Bytes())
 }
 
 func mkdirForFile(filePath string) error {
@@ -94,10 +125,19 @@ func dirCopyRecur(dst string, src string) (int, error) {
 
 func netlifyPath(fileName string) string {
 	fileName = strings.TrimLeft(fileName, "/")
-	return filepath.Join("netlify_static", "www", fileName)
+	path := filepath.Join("netlify_static", "www", fileName)
+	err := mkdirForFile(path)
+	u.PanicIfErr(err)
+	return path
 }
 
-func execNetlifyTemplateToFile(fileName string, templateName string, model interface{}) {
+func netlifyWriteFile(fileName string, d []byte) {
+	path := netlifyPath(fileName)
+	fmt.Printf("%s\n", path)
+	ioutil.WriteFile(path, d, 0644)
+}
+
+func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
 	path := netlifyPath(fileName)
 	fmt.Printf("%s\n", path)
 	var buf bytes.Buffer
@@ -107,43 +147,150 @@ func execNetlifyTemplateToFile(fileName string, templateName string, model inter
 	u.PanicIfErr(err)
 }
 
+func netlifyRequestGetFullHost() string {
+	return "https://blog.kowalczyk.info"
+}
+
+func netlifyMakeShareHTML(article *Article) string {
+	title := url.QueryEscape(article.Title)
+	uri := netlifyRequestGetFullHost() + article.URL()
+	uri = url.QueryEscape(uri)
+	shareURL := fmt.Sprintf(`https://twitter.com/intent/tweet?text=%s&url=%s&via=kjk`, title, uri)
+	followURL := `https://twitter.com/intent/follow?user_id=3194001`
+	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
+}
+
 func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
-	panicIfErr(err)
+	u.PanicIfErr(err)
 	outDir := filepath.Join("netlify_static", "www")
 	err = os.RemoveAll(outDir)
-	panicIfErr(err)
+	u.PanicIfErr(err)
 	err = os.MkdirAll(outDir, 0755)
-	panicIfErr(err)
+	u.PanicIfErr(err)
 	nCopied, err := dirCopyRecur(outDir, "www")
-	panicIfErr(err)
+	u.PanicIfErr(err)
 	fmt.Printf("Copied %d files\n", nCopied)
 
 	analyticsCode = "UA-194516-1"
 
-	// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
-	model := struct {
-		RandomCookie string
-	}{
-		RandomCookie: randomCookie,
+	{
+		// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
+		model := struct {
+			RandomCookie string
+		}{
+			RandomCookie: randomCookie,
+		}
+		netlifyExecTemplate("/contactme.html", tmplContactMe, model)
 	}
-	execNetlifyTemplateToFile("/contactme.html", tmplContactMe, model)
+
+	{
+		// 	mux.HandleFunc("/", withAnalyticsLogging(handleMainPage))
+		articles := store.GetArticles(false)
+		articleCount := len(articles)
+
+		model := struct {
+			AnalyticsCode string
+			Article       *Article
+			Articles      []*Article
+			ArticleCount  int
+		}{
+			AnalyticsCode: analyticsCode,
+			Article:       nil, // always nil
+			ArticleCount:  articleCount,
+			Articles:      articles,
+		}
+
+		netlifyExecTemplate("/index.html", tmplMainPage, model)
+	}
+
+	{
+		// mux.HandleFunc("/atom.xml", withAnalyticsLogging(handleAtom))
+		d, err := genAtomXML(true)
+		u.PanicIfErr(err)
+		netlifyWriteFile("/atom.xml", d)
+	}
+
+	{
+		// mux.HandleFunc("/atom-all.xml", withAnalyticsLogging(handleAtomAll))
+		d, err := genAtomXML(false)
+		u.PanicIfErr(err)
+		netlifyWriteFile("/atom-all.xml", d)
+	}
+
+	{
+		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
+		articles := store.GetArticles(true)
+		for _, a := range articles {
+			articleInfo := getArticleInfoByID(a.ID)
+			u.PanicIf(articleInfo == nil, "No article for id '%s'", a.ID)
+			article := articleInfo.this
+			shareHTML := netlifyMakeShareHTML(article)
+
+			coverImage := ""
+			if article.HeaderImageURL != "" {
+				coverImage = netlifyRequestGetFullHost() + article.HeaderImageURL
+			}
+
+			canonicalURL := netlifyRequestGetFullHost() + article.URL()
+			model := struct {
+				Reload         bool
+				AnalyticsCode  string
+				PageTitle      string
+				CoverImage     string
+				Article        *Article
+				NextArticle    *Article
+				PrevArticle    *Article
+				ArticlesJsURL  string
+				TagsDisplay    string
+				ArticleNo      int
+				ArticlesCount  int
+				HeaderImageURL string
+				ShareHTML      template.HTML
+				CanonicalURL   string
+			}{
+				Reload:        false,
+				AnalyticsCode: analyticsCode,
+				Article:       article,
+				NextArticle:   articleInfo.next,
+				PrevArticle:   articleInfo.prev,
+				PageTitle:     article.Title,
+				CoverImage:    coverImage,
+				ArticlesCount: store.ArticlesCount(),
+				ArticleNo:     articleInfo.pos + 1,
+				ArticlesJsURL: getArticlesJsURL(),
+				ShareHTML:     template.HTML(shareHTML),
+				CanonicalURL:  canonicalURL,
+			}
+
+			path := fmt.Sprintf("/blog/%s.html", article.ID)
+			netlifyExecTemplate(path, tmplArticle, model)
+			netlifyAddRewrite(article.URL(), path)
+		}
+	}
+
+	{
+		// mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
+		// /djs/$url
+		jsData, expectedSha1 := getArticlesJsData()
+		path := fmt.Sprintf("/djs/articles-%s.js", expectedSha1)
+		netlifyWriteFile(path, jsData)
+		from := "/djs/articles-*"
+		netflifyAddTempRedirect(from, path)
+	}
+
+	netlifyWriteRedirects()
 
 	/*
 		mux.HandleFunc("/book/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 		mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 
-		mux.HandleFunc("/atom.xml", withAnalyticsLogging(handleAtom))
-		mux.HandleFunc("/atom-all.xml", withAnalyticsLogging(handleAtomAll))
 		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
 		mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
 		mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
 		mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
 		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
-		mux.HandleFunc("/article/", withAnalyticsLogging(handleArticle))
-		mux.HandleFunc("/kb/", withAnalyticsLogging(handleArticle))
-		mux.HandleFunc("/blog/", withAnalyticsLogging(handleArticle))
 		mux.HandleFunc("/forum_sumatra/", withAnalyticsLogging(forumRedirect))
 		mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
 		mux.HandleFunc("/book/", withAnalyticsLogging(handleArticles))
@@ -154,7 +301,6 @@ func netlifyBuild() {
 		mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
 		mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
 		mux.HandleFunc("/worklog", handleWorkLog)
-		mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
 	*/
 
 }

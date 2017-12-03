@@ -18,7 +18,7 @@ func copyAndSortArticles(articles []*Article) []*Article {
 	return res
 }
 
-func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
+func genAtomXML(excludeNotes bool) ([]byte, error) {
 	articles := store.GetArticles(false)
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
@@ -57,12 +57,16 @@ func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
 		feed.AddEntry(e)
 	}
 
-	s, err := feed.GenXml()
-	if err != nil {
-		s = []byte("Failed to generate XML feed")
-	}
+	return feed.GenXml()
 
-	w.Write(s)
+}
+
+func handleAtomHelp(w http.ResponseWriter, r *http.Request, excludeNotes bool) {
+	d, err := genAtomXML(excludeNotes)
+	if err != nil {
+		d = []byte("Failed to generate XML feed")
+	}
+	w.Write(d)
 }
 
 // /atom-all.xml
