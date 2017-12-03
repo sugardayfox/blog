@@ -46,6 +46,28 @@ func netflifyAddPermRedirect(from, to string) {
 	netlifyAddRedirect(from, to, 301)
 }
 
+func netlifyAddStaticRedirects() {
+	for from, to := range redirects {
+		netflifyAddTempRedirect(from, to)
+	}
+}
+
+func netlifyAddArticleRedirects() {
+	for from, articleID := range articleRedirects {
+		from = "/" + from
+		article := store.GetArticleByID(articleID)
+		u.PanicIf(article == nil, "didn't find article for id '%s'", articleID)
+		to := article.URL()
+		netflifyAddTempRedirect(from, to) // TODO: change to permanent
+	}
+	// redirect /article/:id/* => /article/:id/pretty-title
+	articles := store.GetArticles(false)
+	for _, article := range articles {
+		from := fmt.Sprintf("/article/%s/*", article.ID)
+		netflifyAddTempRedirect(from, article.URL())
+	}
+}
+
 func netlifyWriteRedirects() {
 	var buf bytes.Buffer
 	for _, r := range netlifyRedirects {
@@ -205,6 +227,7 @@ func netlifyBuild() {
 
 	analyticsCode = "UA-194516-1"
 
+	netlifyAddStaticRedirects()
 	{
 		// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
 		model := struct {
@@ -326,6 +349,7 @@ func netlifyBuild() {
 		}
 	}
 
+	netlifyAddArticleRedirects()
 	netlifyWriteRedirects()
 
 	/*
