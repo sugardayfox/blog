@@ -108,12 +108,14 @@ var (
 	flgHTTPAddr        string
 	flgProduction      bool
 	flgNetlifyBuild    bool
+	flgUpdateNotes     bool
 	flgNewArticleTitle string
 )
 
 func parseCmdLineFlags() {
 	flag.StringVar(&flgHTTPAddr, "addr", ":5020", "HTTP server address")
 	flag.BoolVar(&flgProduction, "production", false, "are we running in production")
+	flag.BoolVar(&flgUpdateNotes, "update-notes", false, "if true, we make sure that all notes have ids")
 	flag.BoolVar(&flgNetlifyBuild, "netlify-build", false, "if true, builds and deploys to netlify")
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.Parse()
@@ -242,6 +244,11 @@ func main() {
 	logger = NewServerLogger(256, 256)
 
 	rand.Seed(time.Now().UnixNano())
+
+	if flgUpdateNotes {
+		notesGenIDIfNecessary()
+		return
+	}
 
 	loadArticles()
 

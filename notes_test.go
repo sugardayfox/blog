@@ -6,6 +6,34 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+func TestTrimEmptyLines(t *testing.T) {
+	tests := []struct {
+		a   []string
+		exp []string
+	}{
+		{
+			a:   []string{"a"},
+			exp: []string{"a"},
+		},
+		{
+			a:   []string{"a", "", "", "b"},
+			exp: []string{"a", "", "b"},
+		},
+		{
+			a:   []string{"", "a", ""},
+			exp: []string{"a"},
+		},
+		{
+			a:   []string{"", "", "a", "", "b", "", ""},
+			exp: []string{"a", "", "b"},
+		},
+	}
+	for _, test := range tests {
+		got := trimEmptyLines(test.a)
+		assert.Equal(t, test.exp, got)
+	}
+}
+
 func TestRemoveHashtags(t *testing.T) {
 	tests := []struct {
 		s    string

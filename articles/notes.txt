@@ -1,4 +1,5 @@
 2017-12-02
+Id: b8hqgnmv5i7uuf54b6e0
 #did
 
 Porting blog to netlify.
@@ -118,7 +119,6 @@ Another option is to have the warning off by default but enable it after includi
 
 I use a variation of second method. To avoid enabling that warning in each .cpp file, I have a `common.h` header files which includes most of the system headers and enables the warning. You can re-use `stdafx.h` for that.
 
-
 2017-11-23
 Id: b8bmm8sau0kg00eesncg
 Reading http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf about history of PowerPoint software.
@@ -195,7 +195,9 @@ Business model: either charge individuals a little bit per month ($2-$10) for th
 Free access for public repos would act as free advertisement.
 
 The business idea is similar to other companies built on top of GitHub, like https://www.zenhub.com/
+
 ---
+
 Id: b5kl18kh5sog00anr32g
 #did
 * find files: context menu for listbox
@@ -309,7 +311,6 @@ Id: b5as5ipimpb000a8psg0
 * reading http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf
 
 2017-06-24
-
 Id: b5715ipimpb000a8pkrg
 
 #did
@@ -352,7 +353,6 @@ Id: b53nkffee28000b4mma0
 * wrote https://www.indiehackers.com/forum/post/-KmyIfWqa9bNPdiO_Veq?commentId=-KmyLD1Tnwpa8CH2WXMl
 
 2017-06-17
-
 Id: b52r6cvee28000b4mm6g
 
 #business #payments
@@ -376,7 +376,6 @@ Id: b52r6inee28000b4mm70
 Make web version of https://www.watermark-image.com/ (which makes $3k-$5k as desktop app). Allow limited free use. Upsell Mac/Windows app.
 
 2017-06-16
-
 Id: b524f388mmmg00eqcokg
 #did
 * blog: implemented a system to use header images when post has @header-image meta-data at the top
@@ -392,7 +391,6 @@ Id: b524f388mmmg00eqcokg
 ```
 
 2017-06-15
-
 Id: b51424u9krpg00db2sn0
 #did
 * quicknotes: send list of recently created/modified notes in #quicknotes
@@ -400,7 +398,6 @@ Id: b51424u9krpg00db2sn0
 * created many header images
 
 2017-06-14
-
 Id: b50emcq8i1lg00d84r70
 #vue
 
@@ -465,6 +462,7 @@ Links:
 * https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77
 
 ---
+
 Id: b50te8a8i1lg00d84r90
 #business #book
 * https://personalmba.com
@@ -493,7 +491,6 @@ Id: b50racq8i1lg00d84r8g
 * blog: added tag list to week/tag views; fixed tag detection
 
 2017-06-13
-
 Id: b5057b05bmm000eh92kg
 #did
 * working on link checker using https://github.com/knq/chromedp. Failure becuse couldn't tell 404 from 200 using their API
@@ -501,6 +498,7 @@ Id: b5057b05bmm000eh92kg
 * read about http://tachyons.io/ css framework
 
 ---
+
 Id: b5057u85bmm000eh92l0
 
 #cdp #chrome
@@ -517,6 +515,7 @@ Go libraries:
 * https://github.com/wirepair/gcd : low-level
 
 ---
+
 Id: b5064105bmm000eh92pg
 
 Website/uptime monitoring:
@@ -527,6 +526,7 @@ Website/uptime monitoring:
 * https://newrelic.com
 
 ---
+
 Id: b5080e85bmm000eh92q0
 
 #idea
@@ -570,6 +570,7 @@ FileReader
     readAsText : result will be content as string
 
 ---
+
 Id: b50apto5bmm000eh92u0
 #idea
 
@@ -619,7 +620,6 @@ Id: b4vod3f8m63000aqbjpg
 https://inside.6q.io/blogging-for-startups/ is a case study of attracting website traffic by writing blog posts.
 
 2017-06-12
-
 Id: b4uug944qnvg00eh2keg
 #go #rant
 
@@ -735,7 +735,6 @@ div style=display:flex; justify-content: space-between;
   div
     right
 
-
 Flexbox links:
 * https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b
 * https://codepen.io/enxaneta/full/adLPwv/ : visual showcase of flexbox properties
@@ -767,6 +766,7 @@ http://discuss.bootstrapped.fm/t/is-anyone-paying-for-seo-help-how-do-you-find-s
 http://discuss.bootstrapped.fm/t/frustrated-with-upwork-etc-anyone-had-any-success/4550/9 : tips on how to hire people on upwork and similar sites. Also https://baremetrics.com/blog/startup-guide-to-hiring-remote-customer-support
 
 ---
+
 Id: b4uufr44qnvg00eh2kc0
 Title: Idea for GUI version of tig
 #idea
@@ -778,6 +778,7 @@ It could be implemented in JavaScript/HTML. It could have a web version that all
 Or it could be done with https://sciter.com/. Or Winforms on Windows and Swift/Cocoa on Mac.
 
 ---
+
 Id: b4uuftk4qnvg00eh2kd0
 
 #idea #pdf
@@ -793,6 +794,7 @@ Then one could click on the thumbnail to see comparison of the native size.
 Bonus feature: some type of overlay comparison.
 
 ---
+
 Id: b4uufvs4qnvg00eh2kdg
 #idea #pdf
 
@@ -805,6 +807,7 @@ Limit size of PDF files. Upsell to $19 mac/windows. Write a command-line tool, m
 Good example of upselling to a better version: https://www.spyfu.com
 
 ---
+
 Id: b4uuffk4qnvg00eh2kb0
 #did
 * https://quicknotes.io: add Id: and Tag: when exporting /raw/n raw note
@@ -818,7 +821,6 @@ Id: b4uuffk4qnvg00eh2kb0
 * blog: sha1-ify /css/main.css
 
 2017-06-10
-
 Id: b4u68hcvj43jdajdsuo0
 
 #idea Build a web service that builds google sitemaps (https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome headless.
@@ -874,6 +876,7 @@ Rich snippets don't apply for everything but for e.g. review sites, you can add 
 Link building is tricky. You want your website to be linked from other high-ranking websites. But if you use shady tactics like buying links then Google doesn't like it and might penalize your website.
 
 ---
+
 Id: b4u67n4vj43jdajdsun0
 
 #did
@@ -885,16 +888,17 @@ Id: b4u67n4vj43jdajdsun0
 * implemented /raw/n in quicknotes
 
 2017-06-09
-
 Id: b4u67ksvj43jdajdsumg
 #read https://www.indiehackers.com/businesses/intrinio #business #startups
 
 ---
+
 Id: b4u67isvj43jdajdsum0
 
 #read http://floooh.github.io/2017/06/09/webassembly-demystified.html #webassembly
 
 ---
+
 Id: b4u67bcvj43jdajdsul0
 Title: Go is Moneyball For Programming Languages
 
@@ -915,6 +919,7 @@ Generics? You get the most common generic types built-in (slices and maps) but n
 Unit testing, benchmarking? You get that as part of standard library but it's ridiculusly minimal compared to, say, jUnit from Java world.
 
 ---
+
 Id: b4u674cvj43jdajdsukg
 Title: Summary of "The Mom Test" book about validating business ideas
 
@@ -972,6 +977,7 @@ In the second conversation you didn't even mention your idea but you asked about
 * they might be interested in "niche" cookbook (vegeterian, popular ethnic trends)
 
 ---
+
 Id: b4u66vkvj43jdajdsujg
 
 #did
@@ -981,6 +987,7 @@ Id: b4u66vkvj43jdajdsujg
 * http://discuss.bootstrapped.fm/t/is-anyone-paying-for-seo-help-how-do-you-find-someone-who-is-doing-it-the-right-way-and-getting-results/1630/19?u=kjk
 
 ---
+
 Id: b4u66n4vj43jdajdsuj0
 Title: remove duplicate strings from array, in Go
 
@@ -1009,6 +1016,7 @@ func RemoveDuplicateStrings(a []string) []string {
 ```
 
 ---
+
 Id: b4u66i4vj43jdajdsui0
 
 #read #systemd #go
@@ -1016,11 +1024,11 @@ https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-acti
 How to use systemd socket activation for for zero-downtime deployments
 
 2017-06-08
-
 Id: b4u66ksvj43jdajdsuig
 #read http://www.kalzumeus.com/2008/01/28/why-you-shouldnt-pay-any-seo-you-can-afford/ #seo
 
 ---
+
 Id: b4u66asvj43jdajdsuh0
 
 Sciter (https://sciter.com/) is a tool for writing desktop UI quickly. It's like Electron but much smaller (5-8 MB vs. hundrends of megabytes). It's almost HTML and almost JavaScript.
@@ -1043,6 +1051,7 @@ Using scapp is a way to quickly prototype UI.
 #sciter
 
 ---
+
 Id: b4u667svj43jdajdsug0
 Reading more blog posts from http://thestartuptoolkit.com/.
 
@@ -1051,15 +1060,18 @@ Insight: if your business is "better X", you should use X to make sure you're re
 #business
 
 ---
+
 Id: b4u666cvj43jdajdsufg
 #read https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164.
 Summary: compared to asm.js, webassembly loads much faster, parses faster and executes slightly faster. #webassembly
 
 ---
+
 Id: b4u664cvj43jdajdsuf0
 #postgres http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/
 
 ---
+
 Id: b4u6624vj43jdajdsueg
 Title: Idea for faster PDF rendering
 
@@ -1074,6 +1086,7 @@ We could even improve rendering time with some additional optimizations.
 For example, there are PDF documents with gigantic images (think 4000 x 4000 pixels) that could be resized to some reasonable value and saved in a format that is fastest to decode.
 
 I'm sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible).
+
 ---
 
 Id: b4u65tsvj43jdajdsue0
@@ -1087,6 +1100,7 @@ Id: b4u65rkvj43jdajdsudg
 #inspiration "Every day for years, Trollope reported in his “Autobiography,” he woke in darkness and wrote from 5:30 a.m. to 8:30 a.m., with his watch in front of him." (http://www.newyorker.com/magazine/2004/06/14/blocked). If I was able to do coding like this, I would have written many more programs than I have.
 
 ---
+
 Id: b4u65ocvj43jdajdsucg
 #did
 
@@ -1096,7 +1110,6 @@ Id: b4u65ocvj43jdajdsucg
 * https://github.com/kurin/blazer/issues/17
 
 2017-06-07
-
 Id: b4u65l4vj43jdajdsuc0
 #go #did
 
@@ -1119,6 +1132,7 @@ Go library I used for backblaze API had small bugs and inefficiencies, but the a
 Also started on a very simple web front-end for listing the files. https://vuejs.org is great as a simple template library (have data -> render some html based on that). I know that Vue.js is much more than that, but it's perfect for simple templating as well. In the past I would laboriously create html as text in JavaScript or use some simple templating like mustache.
 
 ---
+
 Id: b4u65fsvj43jdajdsubg
 
 Playing a bit with https://sciter.com (trying to build a UI version of https://github.com/jonas/tig). Sciter is very promising in the sense of allowing to build UI quickly. However, it's badly documented. Good thing it has lots of examples in the SDK. #sciter #did
