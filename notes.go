@@ -665,7 +665,7 @@ func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	serveTemplate(w, tmplNotesNote, model)
 }
 
-// /dailynotes/tag/${tag} :
+// /dailynotes/tag/${tag}
 func handleNotesTag(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
 	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")

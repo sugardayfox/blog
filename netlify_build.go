@@ -236,6 +236,10 @@ func netlifyBuild() {
 	{
 		// static/documents.html
 		netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
+		netlifyAddRewrite("/articles/", "/static/documents.html")
+		netlifyAddRewrite("/articles/index.html", "/static/documents.html")
+		netlifyAddRewrite("/book/", "/static/documents.html")
+		netflifyAddTempRedirect("/book/*", "/articles/:splat")
 	}
 
 	{
@@ -361,24 +365,122 @@ func netlifyBuild() {
 		}
 	}
 
+	{
+		// mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
+		weekStart := notesWeekStarts[0]
+		notes := notesWeekStartDayToNotes[weekStart]
+		var nextWeek string
+		if len(notesWeekStarts) > 1 {
+			nextWeek = notesWeekStarts[1]
+		}
+		model := &modelNotesForWeek{
+			Notes:         notes,
+			TagCounts:     notesTagCounts,
+			TotalNotes:    nTotalNotes,
+			WeekStartDay:  weekStart,
+			AnalyticsCode: analyticsCode,
+			NextWeek:      nextWeek,
+		}
+		netlifyExecTemplate("/dailynotes.html", tmplNotesWeek, model)
+		netlifyAddRewrite("/dailynotes", "dailynotes.html")
+	}
+
+	{
+		// 		mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
+		// /dailynotes/week/${day} : week starting with a given day
+		for weekStart, notes := range notesWeekStartDayToNotes {
+			u.PanicIf(len(notes) == 0, "no notes for week '%s'", weekStart)
+			var nextWeek, prevWeek string
+			for idx, ws := range notesWeekStarts {
+				if ws != weekStart {
+					continue
+				}
+				if idx > 0 {
+					prevWeek = notesWeekStarts[idx-1]
+				}
+				lastIdx := len(notesWeekStarts) - 1
+				if idx+1 <= lastIdx {
+					nextWeek = notesWeekStarts[idx+1]
+				}
+				break
+			}
+			model := &modelNotesForWeek{
+				Notes:         notes,
+				TagCounts:     notesTagCounts,
+				WeekStartDay:  weekStart,
+				NextWeek:      nextWeek,
+				PrevWeek:      prevWeek,
+				AnalyticsCode: analyticsCode,
+			}
+			path := fmt.Sprintf("/dailynotes-week-%s.html", weekStart)
+			netlifyExecTemplate(path, tmplNotesWeek, model)
+			from := "/dailynotes/week/" + weekStart
+			netlifyAddRewrite(from, path)
+		}
+	}
+
+	{
+		// 		mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
+		// /dailynotes/note/${id}-${title}
+		for _, aNote := range notesAllNotes {
+			weekStartTime := calcWeekStart(aNote.Day)
+			weekStartDay := weekStartTime.Format("2006-01-02")
+			model := struct {
+				WeekStartDay  string
+				Note          *note
+				AnalyticsCode string
+			}{
+				WeekStartDay:  weekStartDay,
+				Note:          aNote,
+				AnalyticsCode: analyticsCode,
+			}
+			path := fmt.Sprintf("/dailynotes-note-%s.html", aNote.ID)
+			netlifyExecTemplate(path, tmplNotesNote, model)
+			from := fmt.Sprintf("/dailynotes/note/%s", aNote.ID)
+			if aNote.Title != "" {
+				from += "-" + urlify(aNote.Title)
+			}
+			netlifyAddRewrite(from, path)
+		}
+	}
+
+	{
+		// mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
+		// /dailynotes/tag/${tag}
+		seenTags := make(map[string]bool)
+		for tag, notes := range notesTagToNotes {
+			u.PanicIf(len(notes) == 0, "no notes for tag '%s'", tag)
+			model := struct {
+				Notes         []*note
+				TagCounts     []tagWithCount
+				Tag           string
+				AnalyticsCode string
+			}{
+				Notes:         notes,
+				TagCounts:     notesTagCounts,
+				Tag:           tag,
+				AnalyticsCode: analyticsCode,
+			}
+			// TODO: this tag can be
+			tag2 := urlify(tag)
+			u.PanicIf(seenTags[tag2], "already seen tag: '%s' '%s'", tag, tag2)
+			path := fmt.Sprintf("/dailynotes-tag-%s.html", tag2)
+			netlifyExecTemplate(path, tmplNotesTag, model)
+			from := fmt.Sprintf("/dailynotes/tag/%s", tag)
+			netlifyAddRewrite(from, path)
+		}
+	}
+
+	// 		mux.HandleFunc("/worklog", handleWorkLog)
+	// no longer care about it
+
 	netlifyAddArticleRedirects()
 	netlifyWriteRedirects()
 
 	/*
 
 		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
-		mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
-		mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
-		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
-		mux.HandleFunc("/forum_sumatra/", withAnalyticsLogging(forumRedirect))
-		mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
-		mux.HandleFunc("/book/", withAnalyticsLogging(handleArticles))
-		mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
 		mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
-		mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
-		mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
-		mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
-		mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
-		mux.HandleFunc("/worklog", handleWorkLog)
+		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
 	*/
 }
