@@ -160,6 +160,36 @@ func netlifyMakeShareHTML(article *Article) string {
 	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
 }
 
+func netlifyWriteArticlesArchiveForTag(tag string) {
+	path := "/archives.html"
+	articles := store.GetArticles(true)
+	if tag != "" {
+		articles = filterArticlesByTag(articles, tag, true)
+		// must manually resolve conflict due to urlify
+		tagInPath := tag
+		if tag == "c#" {
+			tagInPath = "csharp"
+		} else if tag == "c++" {
+			tagInPath = "cplusplus"
+		}
+		tagInPath = urlify(tagInPath)
+		path = fmt.Sprintf("/blog/archives-by-tag-%s.html", tagInPath)
+		from := "/tag/" + tag
+		netlifyAddRewrite(from, path)
+	}
+
+	articlesJsURL := getArticlesJsURL()
+	model := ArticlesIndexModel{
+		AnalyticsCode: analyticsCode,
+		ArticlesJsURL: articlesJsURL,
+		PostsCount:    len(articles),
+		Years:         buildYearsFromArticles(articles),
+		Tag:           tag,
+	}
+
+	netlifyExecTemplate(path, tmplArchive, model)
+}
+
 func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
@@ -280,6 +310,22 @@ func netlifyBuild() {
 		netflifyAddTempRedirect(from, path)
 	}
 
+	{
+		// mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
+		netlifyWriteArticlesArchiveForTag("")
+		seenTags := make(map[string]bool)
+		articles := store.GetArticles(false)
+		for _, article := range articles {
+			for _, tag := range article.Tags {
+				if seenTags[tag] {
+					continue
+				}
+				netlifyWriteArticlesArchiveForTag(tag)
+				seenTags[tag] = true
+			}
+		}
+	}
+
 	netlifyWriteRedirects()
 
 	/*
@@ -287,7 +333,6 @@ func netlifyBuild() {
 		mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 
 		mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
-		mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
 		mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
 		mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
 		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
@@ -302,5 +347,4 @@ func netlifyBuild() {
 		mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
 		mux.HandleFunc("/worklog", handleWorkLog)
 	*/
-
 }
