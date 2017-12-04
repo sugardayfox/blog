@@ -13,7 +13,7 @@ Run:
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main"
 sudo apt-get update
-sudo apt-get -y clang-5.0
+sudo apt-get install -y clang-5.0
 ```
 
 `clang-5.0` is the name of the executable (and so is `lldb-5.0` etc.).
