@@ -245,6 +245,31 @@ func netlifyMakeShareHTML(article *Article) string {
 	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
 }
 
+// ArticleInfo describes an article
+type ArticleInfo struct {
+	this *Article
+	next *Article
+	prev *Article
+	pos  int
+}
+
+func getArticleInfoByID(articleID string) *ArticleInfo {
+	articles := store.GetArticles(true)
+	res := &ArticleInfo{}
+	for i, curr := range articles {
+		if curr.ID == articleID {
+			if i != len(articles)-1 {
+				res.next = articles[i+1]
+			}
+			res.this = curr
+			res.pos = i
+			return res
+		}
+		res.prev = curr
+	}
+	return nil
+}
+
 func netlifyWriteArticlesArchiveForTag(tag string) {
 	path := "/archives.html"
 	articles := store.GetArticles(true)

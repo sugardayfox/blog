@@ -109,9 +109,3 @@ func showArchivePage(w http.ResponseWriter, r *http.Request, tag string) {
 	}
 	showArchiveArticles(w, r, articles, tag)
 }
-
-// /tag/${tag}
-func handleTag(w http.ResponseWriter, r *http.Request) {
-	tag := r.URL.Path[len("/tag/"):]
-	showArchivePage(w, r, tag)
-}

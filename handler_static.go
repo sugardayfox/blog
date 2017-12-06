@@ -132,38 +132,6 @@ func handleStatic(w http.ResponseWriter, r *http.Request) {
 	serve404(w, r)
 }
 
-// url: /css/*
-func handleCSS(w http.ResponseWriter, r *http.Request) {
-	file := r.URL.Path[len("/css/"):]
-	serveFileFromDir(w, r, getCSSDir(), file)
-}
-
-// url: /js/*
-func handleJs(w http.ResponseWriter, r *http.Request) {
-	file := r.URL.Path[len("/js/"):]
-	serveFileFromDir(w, r, getJsDir(), file)
-}
-
-// url: /gfx/*
-func handleGfx(w http.ResponseWriter, r *http.Request) {
-	file := r.URL.Path[len("/gfx/"):]
-	serveFileFromDir(w, r, getGfxDir(), file)
-}
-
-// url: /software*
-func handleSoftware(w http.ResponseWriter, r *http.Request) {
-	url := r.URL.Path
-	if url == "/software" || url == "/software/" || url == "/software/index.html" {
-		serveFileFromDir(w, r, getSoftwareDir(), "index.html")
-		return
-	}
-	if redirectIfNeeded(w, r) {
-		return
-	}
-	file := r.URL.Path[len("/software/"):]
-	serveFileFromDir(w, r, getSoftwareDir(), file)
-}
-
 // url: /extremeoptimizations/
 func handleExtremeOpt(w http.ResponseWriter, r *http.Request) {
 	file := r.URL.Path[len("/extremeoptimizations/"):]

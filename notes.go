@@ -633,12 +633,6 @@ func findNotesForDay(dayStr string) *notesForDay {
 	return nil
 }
 
-// /worklog
-func handleWorkLog(w http.ResponseWriter, r *http.Request) {
-	// originally /dailynotes was under /worklog
-	http.Redirect(w, r, "/dailynotes", http.StatusMovedPermanently)
-}
-
 // /dailynotes/note/${id}-${title}
 func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	uri := r.RequestURI
