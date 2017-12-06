@@ -10,6 +10,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 
@@ -85,6 +86,58 @@ func netlifyWriteRedirects() {
 		buf.WriteString(s)
 	}
 	netlifyWriteFile("_redirects", buf.Bytes())
+}
+
+func copyAndSortArticles(articles []*Article) []*Article {
+	n := len(articles)
+	res := make([]*Article, n, n)
+	copy(res, articles)
+	sort.Slice(res, func(i, j int) bool {
+		return res[j].PublishedOn.After(res[i].PublishedOn)
+	})
+	return res
+}
+
+func genAtomXML(excludeNotes bool) ([]byte, error) {
+	articles := store.GetArticles(false)
+	if excludeNotes {
+		articles = filterArticlesByTag(articles, "note", false)
+	}
+	articles = copyAndSortArticles(articles)
+	n := 25
+	if n > len(articles) {
+		n = len(articles)
+	}
+
+	latest := make([]*Article, n, n)
+	size := len(articles)
+	for i := 0; i < n; i++ {
+		latest[i] = articles[size-1-i]
+	}
+
+	pubTime := time.Now()
+	if len(articles) > 0 {
+		pubTime = articles[0].PublishedOn
+	}
+
+	feed := &atom.Feed{
+		Title:   "Krzysztof Kowalczyk blog",
+		Link:    "https://blog.kowalczyk.info/atom.xml",
+		PubDate: pubTime,
+	}
+
+	for _, a := range latest {
+		//id := fmt.Sprintf("tag:blog.kowalczyk.info,1999:%d", a.Id)
+		e := &atom.Entry{
+			Title:   a.Title,
+			Link:    "https://blog.kowalczyk.info" + a.URL(),
+			Content: a.BodyHTML,
+			PubDate: a.PublishedOn,
+		}
+		feed.AddEntry(e)
+	}
+
+	return feed.GenXml()
 }
 
 func mkdirForFile(filePath string) error {
@@ -285,14 +338,14 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/atom.xml", withAnalyticsLogging(handleAtom))
+		// /atom.xml
 		d, err := genAtomXML(true)
 		u.PanicIfErr(err)
 		netlifyWriteFile("/atom.xml", d)
 	}
 
 	{
-		// mux.HandleFunc("/atom-all.xml", withAnalyticsLogging(handleAtomAll))
+		// /atom-all.xml
 		d, err := genAtomXML(false)
 		u.PanicIfErr(err)
 		netlifyWriteFile("/atom-all.xml", d)
@@ -482,7 +535,6 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/dailynotes-atom.xml", withAnalyticsLogging(handleNotesFeed))
 		// /dailynotes-atom.xml
 		notes := notesAllNotes
 		if len(notes) > 25 {
