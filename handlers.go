@@ -13,9 +13,6 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/articles/", handleArticles)
 	mux.HandleFunc("/book/", handleArticles)
 	mux.HandleFunc("/static/", handleStatic)
-	mux.HandleFunc("/dailynotes/week/", handleNotesWeek)
-	mux.HandleFunc("/dailynotes/note/", handleNotesNote)
-	mux.HandleFunc("/dailynotes", handleNotesIndex)
 
 	mux.HandleFunc("/djs/", handleDjs)
 

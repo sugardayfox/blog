@@ -7,7 +7,6 @@ import (
 	"html/template"
 	"io/ioutil"
 	"math/rand"
-	"net/http"
 	"os"
 	"path/filepath"
 	"sort"
@@ -475,7 +474,6 @@ func notesGenIDIfNecessary() {
 }
 
 func readNotes(path string) error {
-	// TODO: throws "duplicate note id:" when re-reading notes, so don't re-read
 	var err error
 	if len(notesAllNotes) > 0 {
 		return nil
@@ -569,92 +567,4 @@ func calcWeekStart(t time.Time) time.Time {
 	wd := t.Weekday()
 	dayOffset := time.Duration((wd - 1)) * time.Hour * -24
 	return t.Add(dayOffset)
-}
-
-// /dailynotes
-func handleNotesIndex(w http.ResponseWriter, r *http.Request) {
-	weekStart := notesWeekStarts[0]
-	notes := notesWeekStartDayToNotes[weekStart]
-	var nextWeek string
-	if len(notesWeekStarts) > 1 {
-		nextWeek = notesWeekStarts[1]
-	}
-	model := &modelNotesForWeek{
-		Notes:         notes,
-		TagCounts:     notesTagCounts,
-		TotalNotes:    nTotalNotes,
-		WeekStartDay:  weekStart,
-		AnalyticsCode: analyticsCode,
-		NextWeek:      nextWeek,
-	}
-	serveTemplate(w, tmplNotesWeek, model)
-}
-
-// /dailynotes/week/${day} : week starting with a given day
-func handleNotesWeek(w http.ResponseWriter, r *http.Request) {
-	uri := r.RequestURI
-	weekStart := strings.TrimPrefix(uri, "/dailynotes/week/")
-	notes := notesWeekStartDayToNotes[weekStart]
-	if len(notes) == 0 {
-		serve404(w, r)
-		return
-	}
-	var nextWeek, prevWeek string
-	for idx, ws := range notesWeekStarts {
-		if ws != weekStart {
-			continue
-		}
-		if idx > 0 {
-			prevWeek = notesWeekStarts[idx-1]
-		}
-		lastIdx := len(notesWeekStarts) - 1
-		if idx+1 <= lastIdx {
-			nextWeek = notesWeekStarts[idx+1]
-		}
-		break
-	}
-	model := &modelNotesForWeek{
-		Notes:         notes,
-		TagCounts:     notesTagCounts,
-		WeekStartDay:  weekStart,
-		NextWeek:      nextWeek,
-		PrevWeek:      prevWeek,
-		AnalyticsCode: analyticsCode,
-	}
-	serveTemplate(w, tmplNotesWeek, model)
-}
-
-func findNotesForDay(dayStr string) *notesForDay {
-	for _, d := range notesDays {
-		if dayStr == d.DayStr {
-			return d
-		}
-	}
-	return nil
-}
-
-// /dailynotes/note/${id}-${title}
-func handleNotesNote(w http.ResponseWriter, r *http.Request) {
-	uri := r.RequestURI
-	s := strings.TrimPrefix(uri, "/dailynotes/note/")
-	parts := strings.SplitN(s, "-", 2)
-	noteID := parts[0]
-	aNote := notesIDToNote[noteID]
-	if aNote == nil {
-		serve404(w, r)
-		return
-	}
-
-	weekStartTime := calcWeekStart(aNote.Day)
-	weekStartDay := weekStartTime.Format("2006-01-02")
-	model := struct {
-		WeekStartDay  string
-		Note          *note
-		AnalyticsCode string
-	}{
-		WeekStartDay:  weekStartDay,
-		Note:          aNote,
-		AnalyticsCode: analyticsCode,
-	}
-	serveTemplate(w, tmplNotesNote, model)
 }

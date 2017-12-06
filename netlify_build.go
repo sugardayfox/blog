@@ -446,7 +446,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/dailynotes", handleNotesIndex)
+		// /dailynotes (index page)
 		weekStart := notesWeekStarts[0]
 		notes := notesWeekStartDayToNotes[weekStart]
 		var nextWeek string
