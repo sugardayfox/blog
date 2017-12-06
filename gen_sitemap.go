@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/xml"
-	"net/http"
 	"path"
 	"time"
 )
@@ -80,14 +79,4 @@ func genSiteMap(host string) ([]byte, error) {
 	}
 	d := append([]byte(xml.Header), xmlData...)
 	return d, nil
-}
-
-// /sitemap.xml
-func handleSiteMap(w http.ResponseWriter, r *http.Request) {
-	d, err := genSiteMap("https://" + r.Host)
-	if err != nil {
-		serve404(w, r)
-		return
-	}
-	serveXML(w, string(d))
 }

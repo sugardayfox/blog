@@ -1,21 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"math/rand"
 	"net/http"
 	"path/filepath"
 	"strings"
-	"time"
 
-	"github.com/chilts/sid"
-	"github.com/kjk/betterguid"
 	"github.com/kjk/u"
-	"github.com/oklog/ulid"
-	"github.com/rs/xid"
-	uuid "github.com/satori/go.uuid"
-	"github.com/segmentio/ksuid"
-	"github.com/sony/sonyflake"
 )
 
 func getWwwDir() string {
@@ -180,36 +170,6 @@ func handleSoftware(w http.ResponseWriter, r *http.Request) {
 	serveFileFromDir(w, r, getSoftwareDir(), file)
 }
 
-// url: /favicon.ico
-func handleFavicon(w http.ResponseWriter, r *http.Request) {
-	serveFileFromDir(w, r, getStaticDir(), "favicon.ico")
-}
-
-// url: /contactme.html
-func handleContactme(w http.ResponseWriter, r *http.Request) {
-	model := struct {
-		RandomCookie string
-	}{
-		RandomCookie: randomCookie,
-	}
-	serveTemplate(w, tmplContactMe, model)
-}
-
-// url: /book/go-cookbook.html
-func handleGoCookbook(w http.ResponseWriter, r *http.Request) {
-	model := struct {
-		InProduction bool
-	}{
-		InProduction: flgProduction,
-	}
-	serveTemplate(w, tmplGoCookBook, model)
-}
-
-// url: /robots.txt
-func handleRobotsTxt(w http.ResponseWriter, r *http.Request) {
-	serveFileFromDir(w, r, getWwwDir(), "robots.txt")
-}
-
 // url: /extremeoptimizations/
 func handleExtremeOpt(w http.ResponseWriter, r *http.Request) {
 	file := r.URL.Path[len("/extremeoptimizations/"):]
@@ -235,44 +195,4 @@ func handleArticles(w http.ResponseWriter, r *http.Request) {
 	file := strings.TrimPrefix(uri, "/articles/")
 	file = strings.TrimPrefix(file, "/book/")
 	serveFileFromDir(w, r, getArticlesDir(), file)
-}
-
-// url: /tools/generate-unique-id
-func handleGenerateUniqueID(w http.ResponseWriter, r *http.Request) {
-	idXid := xid.New()
-	idKsuid := ksuid.New()
-
-	t := time.Now().UTC()
-	entropy := rand.New(rand.NewSource(t.UnixNano()))
-	idUlid := ulid.MustNew(ulid.Timestamp(t), entropy)
-	betterGUID := betterguid.New()
-	uuid := uuid.NewV4()
-
-	flake := sonyflake.NewSonyflake(sonyflake.Settings{})
-	sfid, err := flake.NextID()
-	sfidstr := fmt.Sprintf("%x", sfid)
-	if err != nil {
-		sfidstr = err.Error()
-	}
-
-	model := struct {
-		Xid           string
-		Ksuid         string
-		Ulid          string
-		BetterGUID    string
-		Sonyflake     string
-		Sid           string
-		UUIDv4        string
-		AnalyticsCode string
-	}{
-		Xid:           idXid.String(),
-		Ksuid:         idKsuid.String(),
-		Ulid:          idUlid.String(),
-		BetterGUID:    betterGUID,
-		Sonyflake:     sfidstr,
-		Sid:           sid.Id(),
-		UUIDv4:        uuid.String(),
-		AnalyticsCode: analyticsCode,
-	}
-	serveTemplate(w, tmplGenerateUniqueID, model)
 }

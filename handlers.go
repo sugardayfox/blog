@@ -9,17 +9,10 @@ func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
 
 	mux.HandleFunc("/", withAnalyticsLogging(handleMainPage))
-	mux.HandleFunc("/favicon.ico", handleFavicon)
-	mux.HandleFunc("/robots.txt", handleRobotsTxt)
-	mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
-
-	mux.HandleFunc("/book/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
-	mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 
 	mux.HandleFunc("/app/crashsubmit", withAnalyticsLogging(handleCrashSubmit))
 	mux.HandleFunc("/app/debug", handleDebug)
 	mux.HandleFunc("/app/sendmsg", handleSendMsg)
-	mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
 	mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
 	mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
 	mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
@@ -36,7 +29,6 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
 	mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
 	mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
-	mux.HandleFunc("/tools/generate-unique-id", withAnalyticsLogging(handleGenerateUniqueID))
 	mux.HandleFunc("/worklog", handleWorkLog)
 
 	// not logged because not interesting for visitor analytics

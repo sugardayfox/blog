@@ -291,19 +291,14 @@ func netlifyBuild() {
 	analyticsCode = "UA-194516-1"
 
 	netlifyAddStaticRedirects()
-	{
-		// mux.HandleFunc("/contactme.html", withAnalyticsLogging(handleContactme))
-		netlifyAddRewrite("/contactme.html", "/static/contactme-netlify.html")
-	}
+	netlifyAddRewrite("/contactme.html", "/static/contactme-netlify.html")
+	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
+	netlifyAddRewrite("/articles/", "/static/documents.html")
+	netlifyAddRewrite("/articles/index.html", "/static/documents.html")
+	netlifyAddRewrite("/book/", "/static/documents.html")
+	netflifyAddTempRedirect("/book/*", "/articles/:splat")
 
-	{
-		// static/documents.html
-		netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
-		netlifyAddRewrite("/articles/", "/static/documents.html")
-		netlifyAddRewrite("/articles/index.html", "/static/documents.html")
-		netlifyAddRewrite("/book/", "/static/documents.html")
-		netflifyAddTempRedirect("/book/*", "/articles/:splat")
-	}
+	netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
 
 	{
 		// url: /book/go-cookbook.html
@@ -313,7 +308,6 @@ func netlifyBuild() {
 			InProduction: true,
 		}
 		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
-		// mux.HandleFunc("/articles/go-cookbook.html", withAnalyticsLogging(handleGoCookbook))
 		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
 	}
 
@@ -573,7 +567,6 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/sitemap.xml", withAnalyticsLogging(handleSiteMap))
 		// /sitemap.xml
 		data, err := genSiteMap("https://blog.kowalczyk.info")
 		u.PanicIfErr(err)
@@ -617,10 +610,8 @@ func netlifyBuild() {
 			UUIDv4:        uuid.String(),
 			AnalyticsCode: analyticsCode,
 		}
-		path := "/generate-unique-id.html"
-		netlifyExecTemplate(path, tmplGenerateUniqueID2, model)
-		from := "/tools/generate-unique-id"
-		netlifyAddRewrite(from, path)
+		path := "/tools/generate-unique-id"
+		netlifyExecTemplate(path, tmplGenerateUniqueID, model)
 	}
 
 	// no longer care about /worklog
@@ -629,7 +620,6 @@ func netlifyBuild() {
 	netlifyWriteRedirects()
 
 	/*
-
 		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
 	*/
 }
