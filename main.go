@@ -221,11 +221,6 @@ func main() {
 
 	parseCmdLineFlags()
 
-	if false {
-		testAnalyticsStats("/Users/kjk/Downloads/2017-06-02.txt.gz")
-		os.Exit(0)
-	}
-
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
 		return
@@ -255,9 +250,6 @@ func main() {
 		netlifyBuild()
 		return
 	}
-
-	analyticsPath := filepath.Join(getDataDir(), "analytics", "2006-01-02.txt")
-	initAnalyticsMust(analyticsPath)
 
 	var wg sync.WaitGroup
 	var httpsSrv *http.Server
@@ -309,10 +301,6 @@ func main() {
 		wg.Done()
 	}()
 
-	if flgProduction {
-		sendBootMail()
-	}
-
 	if !flgProduction {
 		open.Run("http://" + flgHTTPAddr)
 	}
@@ -330,6 +318,5 @@ func main() {
 		httpSrv.Shutdown(ctx)
 	}
 	wg.Wait()
-	analyticsClose()
 	fmt.Printf("Exited\n")
 }

@@ -312,7 +312,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// 	mux.HandleFunc("/", withAnalyticsLogging(handleMainPage))
+		// 	mux.HandleFunc("/", handleMainPage)
 		articles := store.GetArticles(false)
 		articleCount := len(articles)
 
@@ -397,7 +397,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
+		// mux.HandleFunc("/djs/", handleDjs)
 		// /djs/$url
 		jsData, expectedSha1 := getArticlesJsData()
 		path := fmt.Sprintf("/djs/articles-%s.js", expectedSha1)
@@ -407,7 +407,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
+		// mux.HandleFunc("/archives.html", handleArchives)
 		netlifyWriteArticlesArchiveForTag("")
 		seenTags := make(map[string]bool)
 		articles := store.GetArticles(false)
@@ -423,7 +423,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
+		// mux.HandleFunc("/dailynotes", handleNotesIndex)
 		weekStart := notesWeekStarts[0]
 		notes := notesWeekStartDayToNotes[weekStart]
 		var nextWeek string
@@ -443,7 +443,6 @@ func netlifyBuild() {
 	}
 
 	{
-		// 		mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
 		// /dailynotes/week/${day} : week starting with a given day
 		for weekStart, notes := range notesWeekStartDayToNotes {
 			u.PanicIf(len(notes) == 0, "no notes for week '%s'", weekStart)
@@ -477,7 +476,6 @@ func netlifyBuild() {
 	}
 
 	{
-		// 		mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
 		// /dailynotes/note/${id}-${title}
 		for _, aNote := range notesAllNotes {
 			weekStartTime := calcWeekStart(aNote.Day)
@@ -502,7 +500,6 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
 		// /dailynotes/tag/${tag}
 		seenTags := make(map[string]bool)
 		for tag, notes := range notesTagToNotes {
@@ -623,6 +620,6 @@ func netlifyBuild() {
 	netlifyWriteRedirects()
 
 	/*
-		mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
+		mux.HandleFunc("/extremeoptimizations/", handleExtremeOpt)
 	*/
 }

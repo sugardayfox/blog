@@ -8,27 +8,23 @@ import (
 func makeHTTPServer() *http.Server {
 	mux := &http.ServeMux{}
 
-	mux.HandleFunc("/", withAnalyticsLogging(handleMainPage))
+	mux.HandleFunc("/", handleMainPage)
 
-	mux.HandleFunc("/app/crashsubmit", withAnalyticsLogging(handleCrashSubmit))
-	mux.HandleFunc("/app/debug", handleDebug)
-	mux.HandleFunc("/app/sendmsg", handleSendMsg)
-	mux.HandleFunc("/archives.html", withAnalyticsLogging(handleArchives))
-	mux.HandleFunc("/software", withAnalyticsLogging(handleSoftware))
-	mux.HandleFunc("/software/", withAnalyticsLogging(handleSoftware))
-	mux.HandleFunc("/extremeoptimizations/", withAnalyticsLogging(handleExtremeOpt))
-	mux.HandleFunc("/article/", withAnalyticsLogging(handleArticle))
-	mux.HandleFunc("/kb/", withAnalyticsLogging(handleArticle))
-	mux.HandleFunc("/blog/", withAnalyticsLogging(handleArticle))
-	mux.HandleFunc("/forum_sumatra/", withAnalyticsLogging(forumRedirect))
-	mux.HandleFunc("/articles/", withAnalyticsLogging(handleArticles))
-	mux.HandleFunc("/book/", withAnalyticsLogging(handleArticles))
-	mux.HandleFunc("/tag/", withAnalyticsLogging(handleTag))
-	mux.HandleFunc("/static/", withAnalyticsLogging(handleStatic))
-	mux.HandleFunc("/dailynotes/week/", withAnalyticsLogging(handleNotesWeek))
-	mux.HandleFunc("/dailynotes/tag/", withAnalyticsLogging(handleNotesTag))
-	mux.HandleFunc("/dailynotes/note/", withAnalyticsLogging(handleNotesNote))
-	mux.HandleFunc("/dailynotes", withAnalyticsLogging(handleNotesIndex))
+	mux.HandleFunc("/app/crashsubmit", handleCrashSubmit)
+	mux.HandleFunc("/archives.html", handleArchives)
+	mux.HandleFunc("/software", handleSoftware)
+	mux.HandleFunc("/software/", handleSoftware)
+	mux.HandleFunc("/extremeoptimizations/", handleExtremeOpt)
+	mux.HandleFunc("/article/", handleArticle)
+	mux.HandleFunc("/kb/", handleArticle)
+	mux.HandleFunc("/blog/", handleArticle)
+	mux.HandleFunc("/articles/", handleArticles)
+	mux.HandleFunc("/book/", handleArticles)
+	mux.HandleFunc("/tag/", handleTag)
+	mux.HandleFunc("/static/", handleStatic)
+	mux.HandleFunc("/dailynotes/week/", handleNotesWeek)
+	mux.HandleFunc("/dailynotes/note/", handleNotesNote)
+	mux.HandleFunc("/dailynotes", handleNotesIndex)
 	mux.HandleFunc("/worklog", handleWorkLog)
 
 	// not logged because not interesting for visitor analytics
@@ -37,7 +33,7 @@ func makeHTTPServer() *http.Server {
 	mux.HandleFunc("/js/", handleJs)
 	mux.HandleFunc("/gfx/", handleGfx)
 
-	mux.HandleFunc("/djs/", withAnalyticsLogging(handleDjs))
+	mux.HandleFunc("/djs/", handleDjs)
 
 	// websocket is only for dev mode, used for refreshing the pages if
 	// they change on disk

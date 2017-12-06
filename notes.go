@@ -664,28 +664,3 @@ func handleNotesNote(w http.ResponseWriter, r *http.Request) {
 	}
 	serveTemplate(w, tmplNotesNote, model)
 }
-
-// /dailynotes/tag/${tag}
-func handleNotesTag(w http.ResponseWriter, r *http.Request) {
-	uri := r.RequestURI
-	tag := strings.TrimPrefix(uri, "/dailynotes/tag/")
-	notes := notesTagToNotes[tag]
-
-	if len(notes) == 0 {
-		serve404(w, r)
-		return
-	}
-
-	model := struct {
-		Notes         []*note
-		TagCounts     []tagWithCount
-		Tag           string
-		AnalyticsCode string
-	}{
-		Notes:         notes,
-		TagCounts:     notesTagCounts,
-		Tag:           tag,
-		AnalyticsCode: analyticsCode,
-	}
-	serveTemplate(w, tmplNotesTag, model)
-}
