@@ -610,8 +610,11 @@ func netlifyBuild() {
 			UUIDv4:        uuid.String(),
 			AnalyticsCode: analyticsCode,
 		}
-		path := "/tools/generate-unique-id"
+
+		// make sure /tools/generate-unique-id is served as html
+		path := "/tools/generate-unique-id.html"
 		netlifyExecTemplate(path, tmplGenerateUniqueID, model)
+		netlifyAddRewrite("/tools/generate-unique-id", path)
 	}
 
 	// no longer care about /worklog
