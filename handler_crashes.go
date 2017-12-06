@@ -24,7 +24,6 @@ func handleCrashesRss(w http.ResponseWriter, r *http.Request) {
 	appName := getTrimmedFormValue(r, "app_name")
 	app := storeCrashes.GetAppByName(appName)
 	if app == nil {
-		logger.Errorf("handleCrashesRss(): invalid app %q", appName)
 		httpNotFound(w, r)
 		return
 	}

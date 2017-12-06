@@ -86,7 +86,6 @@ func readRedirects() {
 		}
 		//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
 	}
-	logger.Noticef("loaded %d article redirects", len(articleRedirects))
 }
 
 // return -1 if there's no redirect for this urls
@@ -99,7 +98,6 @@ func getRedirectArticleID(url string) string {
 
 func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	uri := r.URL.Path
-	//logger.Noticef("redirectIfNeeded(): %q", uri)
 
 	if strings.HasPrefix(uri, "/software/sumatrapdf") {
 		redirURL := "https://www.sumatrapdfreader.org" + uri[len("/software/sumatrapdf"):]
@@ -108,7 +106,6 @@ func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	}
 
 	if redirURL, ok := redirects[uri]; ok {
-		//logger.Noticef("Redirecting %q => %q", url, redirUrl)
 		http.Redirect(w, r, redirURL, 302)
 		return true
 	}
@@ -120,7 +117,6 @@ func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
 	article := store.GetArticleByID(redirectArticleID)
 	if article != nil {
 		redirURL := article.URL()
-		//logger.Noticef("Redirecting %q => %q", url, redirUrl)
 		http.Redirect(w, r, redirURL, 302)
 		return true
 	}

@@ -567,7 +567,6 @@ func msgToHTML(msg []byte, format int) string {
 
 func appendJSONMarshalled(buf *bytes.Buffer, val interface{}) {
 	if data, err := json.Marshal(val); err != nil {
-		logger.Errorf("json.Marshal() of %v failed with %s", val, err)
 	} else {
 		buf.Write(data)
 	}
@@ -591,7 +590,6 @@ func buildArticlesJSON(articles []*Article) ([]byte, string) {
 	buf.WriteString("; articlesJsonLoaded(__articles_json);")
 	jsData := buf.Bytes()
 	sha1 := u.Sha1HexOfBytes(jsData)
-	//logger.Noticef("buildArticlesJson(): len(jsData)=%d, sha1=%s", len(jsData), sha1)
 	return jsData, sha1
 }
 

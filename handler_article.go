@@ -62,7 +62,6 @@ func makeShareHTML(r *http.Request, article *Article) string {
 
 // /article/*, /blog/*, /kb/*
 func handleArticle(w http.ResponseWriter, r *http.Request) {
-	//logger.Noticef("handleArticle: %s", r.URL)
 	if redirectIfNeeded(w, r) {
 		return
 	}
@@ -70,7 +69,6 @@ func handleArticle(w http.ResponseWriter, r *http.Request) {
 	// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
 	articleInfo := articleInfoFromURL(r.URL.Path)
 	if articleInfo == nil {
-		logger.Noticef("handleArticle: invalid url: %s", r.URL.Path)
 		serve404(w, r)
 		return
 	}

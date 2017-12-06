@@ -1,8 +1,6 @@
 package main
 
 import (
-	"context"
-	"crypto/tls"
 	"flag"
 	"fmt"
 	"io"
@@ -11,27 +9,19 @@ import (
 	"math/rand"
 	"net/http"
 	_ "net/url"
-	"os"
-	"os/signal"
 	"path/filepath"
 	"strconv"
 	"strings"
-	"sync"
-	"syscall"
 	"time"
 	"unicode/utf8"
 
 	"github.com/kjk/u"
 	"github.com/rs/xid"
-	"github.com/skratchdot/open-golang/open"
-
-	"golang.org/x/crypto/acme/autocert"
 )
 
 var (
 	analyticsCode = "UA-194516-1"
 
-	logger       *ServerLogger
 	dataDir      string
 	store        *ArticlesStore
 	sha1ver      string
@@ -57,10 +47,6 @@ func getDataDir() string {
 
 	log.Fatalf("data directory (%v) doesn't exist", dirsToCheck)
 	return ""
-}
-
-func isTopLevelURL(url string) bool {
-	return 0 == len(url) || "/" == url
 }
 
 // this list was determined by watching /logs
@@ -233,8 +219,6 @@ func main() {
 		analyticsCode = ""
 	}
 
-	logger = NewServerLogger(256, 256)
-
 	rand.Seed(time.Now().UnixNano())
 
 	if flgUpdateNotes {
@@ -246,77 +230,5 @@ func main() {
 
 	readRedirects()
 
-	if flgNetlifyBuild {
-		netlifyBuild()
-		return
-	}
-
-	var wg sync.WaitGroup
-	var httpsSrv *http.Server
-
-	if flgProduction {
-		hostPolicy := func(ctx context.Context, host string) error {
-			allowedDomain := "kowalczyk.info"
-			if strings.HasSuffix(host, allowedDomain) {
-				return nil
-			}
-			return fmt.Errorf("acme/autocert: only *.%s hosts are allowed", allowedDomain)
-		}
-
-		m := autocert.Manager{
-			Prompt:     autocert.AcceptTOS,
-			HostPolicy: hostPolicy,
-			Cache:      autocert.DirCache(getDataDir()),
-		}
-
-		httpsSrv = makeHTTPServer()
-		httpsSrv.Addr = ":443"
-		httpsSrv.TLSConfig = &tls.Config{GetCertificate: m.GetCertificate}
-		logger.Noticef("Starting https server on %s\n", httpsSrv.Addr)
-		go func() {
-			wg.Add(1)
-			err := httpsSrv.ListenAndServeTLS("", "")
-			// mute error caused by Shutdown()
-			if err == http.ErrServerClosed {
-				err = nil
-			}
-			u.PanicIfErr(err)
-			fmt.Printf("HTTPS server shutdown gracefully\n")
-			wg.Done()
-		}()
-	}
-
-	httpSrv := makeHTTPServer()
-	httpSrv.Addr = flgHTTPAddr
-	logger.Noticef("Starting http server on %s, in production: %v, ver: github.com/kjk/blog/commit/%s", httpSrv.Addr, flgProduction, sha1ver)
-	go func() {
-		wg.Add(1)
-		err := httpSrv.ListenAndServe()
-		// mute error caused by Shutdown()
-		if err == http.ErrServerClosed {
-			err = nil
-		}
-		u.PanicIfErr(err)
-		fmt.Printf("HTTP server shutdown gracefully\n")
-		wg.Done()
-	}()
-
-	if !flgProduction {
-		open.Run("http://" + flgHTTPAddr)
-	}
-
-	c := make(chan os.Signal, 2)
-	signal.Notify(c, os.Interrupt /* SIGINT */, syscall.SIGTERM)
-	sig := <-c
-	fmt.Printf("Got signal %s\n", sig)
-	ctx := context.Background()
-	if httpsSrv != nil {
-		httpsSrv.Shutdown(ctx)
-	}
-	if httpSrv != nil {
-		// Shutdown() needs a non-nil context
-		httpSrv.Shutdown(ctx)
-	}
-	wg.Wait()
-	fmt.Printf("Exited\n")
+	netlifyBuild()
 }

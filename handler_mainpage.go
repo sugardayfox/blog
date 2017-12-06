@@ -10,14 +10,12 @@ import (
 func handleArticlesJs(w http.ResponseWriter, r *http.Request, url string) {
 	sha1 := url[:len(url)-len(".js")]
 	if len(sha1) != 40 {
-		logger.Errorf("handleArticlesJs(): invalid sha1=%q, url='%s", sha1, url)
 		serve404(w, r)
 		return
 	}
 
 	jsData, expectedSha1 := getArticlesJsData()
 	if sha1 != expectedSha1 {
-		logger.Errorf("handleArticlesJs(): invalid value of sha1=%q, expected=%q", sha1, expectedSha1)
 		// this might happen due to caching and stale url, return the old value
 	}
 
@@ -49,38 +47,4 @@ func serve404(w http.ResponseWriter, r *http.Request) {
 		URL: uri,
 	}
 	serveTemplate(w, tmpl404, model)
-}
-
-// /
-func handleMainPage(w http.ResponseWriter, r *http.Request) {
-	if redirectIfNeeded(w, r) {
-		return
-	}
-
-	if !isTopLevelURL(r.URL.Path) {
-		serve404(w, r)
-		return
-	}
-
-	articles := store.GetArticles(false)
-	articleCount := len(articles)
-
-	model := struct {
-		AnalyticsCode string
-		Article       *Article
-		Articles      []*Article
-		ArticleCount  int
-	}{
-		AnalyticsCode: analyticsCode,
-		Article:       nil, // always nil
-		ArticleCount:  articleCount,
-		Articles:      articles,
-	}
-
-	serveTemplate(w, tmplMainPage, model)
-}
-
-// /ping
-func handlePing(w http.ResponseWriter, r *http.Request) {
-	servePlainText(w, "pong")
 }

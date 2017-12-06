@@ -312,10 +312,9 @@ func netlifyBuild() {
 	}
 
 	{
-		// 	mux.HandleFunc("/", handleMainPage)
+		// /
 		articles := store.GetArticles(false)
 		articleCount := len(articles)
-
 		model := struct {
 			AnalyticsCode string
 			Article       *Article
@@ -327,7 +326,6 @@ func netlifyBuild() {
 			ArticleCount:  articleCount,
 			Articles:      articles,
 		}
-
 		netlifyExecTemplate("/index.html", tmplMainPage, model)
 	}
 
@@ -407,7 +405,7 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/archives.html", handleArchives)
+		// /archives.html"
 		netlifyWriteArticlesArchiveForTag("")
 		seenTags := make(map[string]bool)
 		articles := store.GetArticles(false)
@@ -612,6 +610,11 @@ func netlifyBuild() {
 		path := "/tools/generate-unique-id.html"
 		netlifyExecTemplate(path, tmplGenerateUniqueID, model)
 		netlifyAddRewrite("/tools/generate-unique-id", path)
+	}
+
+	{
+		// /ping
+		netlifyWriteFile("/ping", []byte("pong"))
 	}
 
 	// no longer care about /worklog
