@@ -48,7 +48,7 @@ My rules for a good name for a Go library are:
 * it's descriptive
 * package name matches repository name
 
-Therefore [github.com/kjk/flex](github.com/kjk/flex) was born.
+Therefore [github.com/kjk/flex](https://github.com/kjk/flex) was born.
 
 I could use `yoga`, to better higlight connection with original project, but it's not descriptive.
 

@@ -4,7 +4,7 @@ Tags: go,programming
 Date: 2011-06-01T23:40:38-07:00
 Format: Markdown
 --------------
-I’ve been recently interested in [Go](http://golang.org), a new
+I’ve been recently interested in [Go](https://golang.org), a new
 programming language.
 
 The best way to learn a language is to use it in a small but real
