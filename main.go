@@ -118,7 +118,6 @@ func parseCmdLineFlags() {
 	flag.BoolVar(&flgProduction, "production", false, "are we running in production")
 	flag.BoolVar(&flgUpdateNotes, "update-notes", false, "if true, we make sure that all notes have ids")
 	flag.BoolVar(&flgNetlifyBuild, "netlify-build", false, "if true, builds and deploys to netlify")
-	flag.BoolVar(&flgUpdateCSS, "update-css", false, "if true, make sure to update css")
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.Parse()
 }
@@ -225,11 +224,6 @@ func main() {
 	if false {
 		testAnalyticsStats("/Users/kjk/Downloads/2017-06-02.txt.gz")
 		os.Exit(0)
-	}
-
-	if flgUpdateCSS {
-		updateMainCSSSha1Must()
-		return
 	}
 
 	if flgNewArticleTitle != "" {
