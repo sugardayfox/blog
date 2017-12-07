@@ -2,12 +2,14 @@
 package main
 
 import (
+	"bytes"
 	"encoding/hex"
 	"fmt"
 	"math/rand"
-	"net/http"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/kjk/u"
 )
 
 // whitelisted characters valid in url
@@ -62,14 +64,6 @@ func urlify(title string) string {
 		s = s[:128]
 	}
 	return s
-}
-
-func httpErrorf(w http.ResponseWriter, format string, args ...interface{}) {
-	msg := format
-	if len(args) > 0 {
-		msg = fmt.Sprintf(format, args...)
-	}
-	http.Error(w, msg, http.StatusBadRequest)
 }
 
 func trimEmptyLines(a []string) []string {
@@ -224,4 +218,20 @@ func sanitizeForFile(s string) string {
 	s = strings.Trim(s, "_- ")
 	s = strings.ToLower(s)
 	return s
+}
+
+func normalizeNewlines(d []byte) []byte {
+	// replace CR LF (windows) with LF (unix)
+	d = bytes.Replace(d, []byte{13, 10}, []byte{10}, -1)
+	// replace CF (mac) with LF (unix)
+	d = bytes.Replace(d, []byte{13}, []byte{10}, -1)
+	return d
+}
+
+// return first line of d and the rest
+func bytesRemoveFirstLine(d []byte) (string, []byte) {
+	idx := bytes.IndexByte(d, 10)
+	u.PanicIf(-1 == idx)
+	l := d[:idx]
+	return string(l), d[idx+1:]
 }

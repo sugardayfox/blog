@@ -516,8 +516,18 @@ func markdownToUnsafeHTML(text []byte) []byte {
 	return blackfriday.MarkdownOptions(text, renderer, opts)
 }
 
+var (
+	useChroma = true
+)
+
 func markdownToHTML(s []byte) string {
-	s, replacements := txtWithCodeParts(s)
+	var replacements map[string][]byte
+	if useChroma {
+		s, replacements = markdownCodeHighligh(s)
+	} else {
+		s, replacements = txtWithCodeParts(s)
+	}
+
 	unsafe := markdownToUnsafeHTML(s)
 	//unsafe := blackfriday.MarkdownCommon(s)
 	policy := bluemonday.UGCPolicy()
@@ -525,6 +535,8 @@ func markdownToHTML(s []byte) string {
 	policy.RequireNoFollowOnFullyQualifiedLinks(false)
 	policy.RequireNoFollowOnLinks(false)
 	res := policy.SanitizeBytes(unsafe)
+
+	// restore code snippets
 	for kstr, v := range replacements {
 		k := []byte(kstr)
 		res = bytes.Replace(res, k, v, -1)
