@@ -3,12 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"io"
 	"io/ioutil"
 	"log"
 	"math/rand"
 	_ "net/url"
-	"os"
 	"path/filepath"
 	"strconv"
 	"time"
@@ -84,32 +82,6 @@ func loadArticles() {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
 	store.GetArticles(true)
-}
-
-// https://caddyserver.com/tutorial/caddyfile
-var caddyProlog = `
-localhost:8080
-root netlify_static
-`
-
-func writeCaddyConfig() {
-	path := filepath.Join("Caddyfile")
-	f, err := os.Create(path)
-	u.PanicIfErr(err)
-	defer f.Close()
-
-	_, err = f.Write([]byte(caddyProlog))
-	u.PanicIfErr(err)
-	var s string
-	for _, r := range netlifyRedirects {
-		if r.code == 200 {
-			s = fmt.Sprintf("rewrite %s %s %d\n", r.from, r.to, r.code)
-		} else {
-			s = fmt.Sprintf("redir %s %s %d\n", r.from, r.to, r.code)
-		}
-		_, err = io.WriteString(f, s)
-		u.PanicIfErr(err)
-	}
 }
 
 func main() {

@@ -13,4 +13,4 @@ exitIfFailed
 Start-Process -Wait -FilePath $exe
 Remove-Item -Path $exe
 
-caddy
+caddy -log stdout

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"html/template"
 	"io"
@@ -24,69 +23,6 @@ import (
 	"github.com/sony/sonyflake"
 	atom "github.com/thomas11/atomgenerator"
 )
-
-var (
-	netlifyRedirects []*netlifyRedirect
-)
-
-type netlifyRedirect struct {
-	from string
-	to   string
-	// valid code is 301, 302, 200, 404
-	code int
-}
-
-func netlifyAddRedirect(from, to string, code int) {
-	r := netlifyRedirect{
-		from: from,
-		to:   to,
-		code: code,
-	}
-	netlifyRedirects = append(netlifyRedirects, &r)
-}
-
-func netlifyAddRewrite(from, to string) {
-	netlifyAddRedirect(from, to, 200)
-}
-
-func netflifyAddTempRedirect(from, to string) {
-	netlifyAddRedirect(from, to, 302)
-}
-
-func netflifyAddPermRedirect(from, to string) {
-	netlifyAddRedirect(from, to, 301)
-}
-
-func netlifyAddStaticRedirects() {
-	for from, to := range redirects {
-		netflifyAddTempRedirect(from, to)
-	}
-}
-
-func netlifyAddArticleRedirects() {
-	for from, articleID := range articleRedirects {
-		from = "/" + from
-		article := store.GetArticleByID(articleID)
-		u.PanicIf(article == nil, "didn't find article for id '%s'", articleID)
-		to := article.URL()
-		netflifyAddTempRedirect(from, to) // TODO: change to permanent
-	}
-	// redirect /article/:id/* => /article/:id/pretty-title
-	articles := store.GetArticles(false)
-	for _, article := range articles {
-		from := fmt.Sprintf("/article/%s/*", article.ID)
-		netflifyAddTempRedirect(from, article.URL())
-	}
-}
-
-func netlifyWriteRedirects() {
-	var buf bytes.Buffer
-	for _, r := range netlifyRedirects {
-		s := fmt.Sprintf("%s\t%s\t%d\n", r.from, r.to, r.code)
-		buf.WriteString(s)
-	}
-	netlifyWriteFile("_redirects", buf.Bytes())
-}
 
 func copyAndSortArticles(articles []*Article) []*Article {
 	n := len(articles)
@@ -362,8 +298,8 @@ func netlifyBuild() {
 	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
 	netlifyAddRewrite("/articles/", "/static/documents.html")
 	netlifyAddRewrite("/articles/index.html", "/static/documents.html")
-	netlifyAddRewrite("/book/", "/static/documents.html")
-	netflifyAddTempRedirect("/book/*", "/articles/:splat")
+	//netlifyAddRewrite("/book/", "/static/documents.html")
+	//netflifyAddTempRedirect("/book/*", "/article/:splat")
 	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org:splat")
 
 	// TODO: make /documents.html be canonical, redirect others

@@ -2,6 +2,10 @@ package main
 
 import (
 	"bytes"
+	"fmt"
+	"io"
+	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
@@ -602,5 +606,111 @@ func readRedirects() {
 			continue
 		}
 		//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
+	}
+}
+
+var (
+	netlifyRedirects []*netlifyRedirect
+)
+
+type netlifyRedirect struct {
+	from string
+	to   string
+	// valid code is 301, 302, 200, 404
+	code int
+}
+
+func netlifyAddRedirect(from, to string, code int) {
+	r := netlifyRedirect{
+		from: from,
+		to:   to,
+		code: code,
+	}
+	netlifyRedirects = append(netlifyRedirects, &r)
+}
+
+func netlifyAddRewrite(from, to string) {
+	netlifyAddRedirect(from, to, 200)
+}
+
+func netflifyAddTempRedirect(from, to string) {
+	netlifyAddRedirect(from, to, 302)
+}
+
+func netflifyAddPermRedirect(from, to string) {
+	netlifyAddRedirect(from, to, 301)
+}
+
+func netlifyAddStaticRedirects() {
+	for from, to := range redirects {
+		netflifyAddTempRedirect(from, to)
+	}
+}
+
+func netlifyAddArticleRedirects() {
+	for from, articleID := range articleRedirects {
+		from = "/" + from
+		article := store.GetArticleByID(articleID)
+		u.PanicIf(article == nil, "didn't find article for id '%s'", articleID)
+		to := article.URL()
+		netflifyAddTempRedirect(from, to) // TODO: change to permanent
+	}
+
+	// redirect /article/:id/* => /article/:id/pretty-title
+	articles := store.GetArticles(false)
+	for _, article := range articles {
+		from := fmt.Sprintf("/article/%s/*", article.ID)
+		path := fmt.Sprintf("/blog/%s.html", article.ID)
+		netlifyAddRewrite(from, path)
+	}
+}
+
+func netlifyWriteRedirects() {
+	var buf bytes.Buffer
+	for _, r := range netlifyRedirects {
+		s := fmt.Sprintf("%s\t%s\t%d\n", r.from, r.to, r.code)
+		buf.WriteString(s)
+	}
+	netlifyWriteFile("_redirects", buf.Bytes())
+}
+
+// https://caddyserver.com/tutorial/caddyfile
+var caddyProlog = `
+localhost:8080
+root netlify_static
+errors stdout
+log stdout
+`
+
+func writeCaddyConfig() {
+	path := filepath.Join("Caddyfile")
+	f, err := os.Create(path)
+	u.PanicIfErr(err)
+	defer f.Close()
+
+	_, err = f.Write([]byte(caddyProlog))
+	u.PanicIfErr(err)
+	var s string
+	for _, r := range netlifyRedirects {
+		from := r.from
+		to := r.to
+		if r.code == 200 {
+			if strings.HasSuffix(from, "*") {
+				base := strings.TrimSuffix(from, "*")
+				to = strings.Replace(to, ":splat", "{1}", -1)
+				s = fmt.Sprintf("rewrite %s {\n    regexp (.*)\n    to %s\n}\n", base, to)
+			} else {
+				s = fmt.Sprintf("rewrite %s %s %d\n", from, to, r.code)
+			}
+		} else {
+			if strings.HasSuffix(from, "*") {
+				base := strings.TrimSuffix(from, "*")
+				s = fmt.Sprintf("rewrite %s {\n    regexp .*\n    to %s\n}\n", base, to)
+			} else {
+				s = fmt.Sprintf("redir %s %s %d\n", from, to, r.code)
+			}
+		}
+		_, err = io.WriteString(f, s)
+		u.PanicIfErr(err)
 	}
 }
