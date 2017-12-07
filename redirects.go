@@ -581,7 +581,8 @@ var redirects = map[string]string{
 	"/software/fotofi/":                         "/software/fotofi/free-stock-photos.html",
 	"/software/fotofi/index.html":               "/software/fotofi/free-stock-photos.html",
 	"/static/software.html":                     "/software/index.html",
-	"/static/krzysztof.html":                    "/static/resume.html",
+	"/static/krzysztof.html":                    "/resume.html",
+	"/static/resume.html":                       "/resume.html",
 }
 
 var articleRedirects = make(map[string]string)

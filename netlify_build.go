@@ -162,7 +162,7 @@ func netlifyRequestGetFullHost() string {
 	return "https://blog.kowalczyk.info"
 }
 
-func netlifyMakeShareHTML(article *Article) string {
+func makeShareHTML(article *Article) string {
 	title := url.QueryEscape(article.Title)
 	uri := netlifyRequestGetFullHost() + article.URL()
 	uri = url.QueryEscape(uri)
@@ -294,16 +294,15 @@ func netlifyBuild() {
 	fmt.Printf("Copied %d files\n", nCopied)
 
 	netlifyAddStaticRedirects()
-	netlifyAddRewrite("/contactme.html", "/static/contactme-netlify.html")
 	netlifyAddRewrite("/favicon.ico", "/static/favicon.ico")
-	netlifyAddRewrite("/articles/", "/static/documents.html")
-	netlifyAddRewrite("/articles/index.html", "/static/documents.html")
+	netlifyAddRewrite("/articles/", "/documents.html")
+	netlifyAddRewrite("/articles/index.html", "/documents.html")
 	//netlifyAddRewrite("/book/", "/static/documents.html")
 	//netflifyAddTempRedirect("/book/*", "/article/:splat")
 	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org:splat")
 
-	// TODO: make /documents.html be canonical, redirect others
-	netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
+	netlifyExecTemplate("/documents.html", tmplDocuments, nil)
+	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
 
 	{
 		// url: /book/go-cookbook.html
@@ -355,7 +354,7 @@ func netlifyBuild() {
 			articleInfo := getArticleInfoByID(a.ID)
 			u.PanicIf(articleInfo == nil, "No article for id '%s'", a.ID)
 			article := articleInfo.this
-			shareHTML := netlifyMakeShareHTML(article)
+			shareHTML := makeShareHTML(article)
 
 			coverImage := ""
 			if article.HeaderImageURL != "" {

@@ -40,8 +40,8 @@ var (
 
 	// dirs to search when looking for templates
 	tmplDirs = []string{
-		"tmpl",
 		"www",
+		filepath.Join("www", "tmpl"),
 		filepath.Join("www", "tools"),
 		filepath.Join("www", "static"),
 	}
