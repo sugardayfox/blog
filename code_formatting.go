@@ -37,8 +37,6 @@ func txtCookie(s string) string {
 	return u.Sha1HexOfBytes([]byte(s))
 }
 
-var reCode = regexp.MustCompile("(?siU)<code.*>.+</code>")
-
 func extractLang(s []byte) (rest, lang []byte) {
 	for len(s) > 0 {
 		if s[0] != ' ' {
@@ -52,6 +50,8 @@ func extractLang(s []byte) (rest, lang []byte) {
 	}
 	return s[i+1:], s[:i]
 }
+
+var reCode = regexp.MustCompile("(?siU)<code.*>.+</code>")
 
 func txtWithCodeParts(txt []byte) ([]byte, map[string][]byte) {
 	codeParts := make(map[string][]byte)

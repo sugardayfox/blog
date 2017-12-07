@@ -2,16 +2,34 @@
 
 
 [[projects]]
+  name = "github.com/alecthomas/chroma"
+  packages = [".","formatters","formatters/html","lexers","quick","styles"]
+  revision = "d08da055befd6993d66b606ee6cdd833e698ca55"
+  version = "v0.2.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/chilts/sid"
   packages = ["."]
   revision = "6cf658ffc40cc14559db7af19fdae2ac0bf3d780"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/danwakefield/fnmatch"
+  packages = ["."]
+  revision = "cbb64ac3d964b81592e64f957ad53df015803288"
+
+[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/dlclark/regexp2"
+  packages = [".","syntax"]
+  revision = "487489b64fb796de2e55f4e8a4ad1e145f80e957"
+  version = "v1.1.6"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -119,11 +137,11 @@
   branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom"]
-  revision = "a8b9294777976932365dabb6640cf1468d95c70f"
+  revision = "faacc1b5e36e3ff02cbec9661c69ac63dd5a83ad"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "0eb651b30342e4db774ee4dce996f752645ac0f8935d4a2b3be0c9390aac5ddc"
+  inputs-digest = "c4b5eaa3d4ac5a150e5ac72b9521c129210145a5ac70d04ba2f1820da8e8e4a2"
   solver-name = "gps-cdcl"
   solver-version = 1
