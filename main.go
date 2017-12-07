@@ -83,8 +83,7 @@ func loadArticles() {
 	if store, err = NewArticlesStore(); err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
-	articles := store.GetArticles(true)
-	articlesJs, articlesJsSha1 = buildArticlesJSON(articles)
+	store.GetArticles(true)
 }
 
 // https://caddyserver.com/tutorial/caddyfile

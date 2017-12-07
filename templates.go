@@ -34,7 +34,6 @@ var (
 		tmpl404,
 		"analytics.tmpl.html",
 		"page_navbar.tmpl.html",
-		"tagcloud.tmpl.js",
 	}
 	templatePaths []string
 	templates     *template.Template

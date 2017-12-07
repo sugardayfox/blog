@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"html/template"
 	"io/ioutil"
@@ -27,7 +26,6 @@ const (
 	formatHTML     = 0
 	formatMarkdown = 1
 	formatText     = 2
-	formatUnknown  = -1
 )
 
 // same order as format* constants
@@ -61,11 +59,6 @@ type Article struct {
 	HTMLBody     template.HTML
 	DisplayMonth string
 }
-
-var (
-	articlesJs     []byte
-	articlesJsSha1 string
-)
 
 func validFormat(format int) bool {
 	return format >= formatHTML && format <= formatText
@@ -106,7 +99,6 @@ type ArticlesStore struct {
 	articlesNoDrafts   []*Article
 	articlesWithDrafts []*Article
 	idToArticle        map[string]*Article
-	dirsToWatch        []string
 }
 
 func isSepLine(s string) bool {
@@ -137,9 +129,9 @@ func parseFormat(s string) int {
 		return formatMarkdown
 	case "text":
 		return formatText
-	default:
-		return formatUnknown
 	}
+	u.PanicIf(true, "unknown format: '%s'", s)
+	return 0
 }
 
 func parseDate(s string) (time.Time, error) {
@@ -270,11 +262,7 @@ func readArticle(path string) (*Article, error) {
 		case "tags":
 			a.Tags = parseTags(v)
 		case "format":
-			f := parseFormat(v)
-			if f == formatUnknown {
-				return nil, fmt.Errorf("%q is not a valid format", v)
-			}
-			a.Format = f
+			a.Format = parseFormat(v)
 		case "publishedon":
 			publishedOn, err = parseDate(v)
 			if err != nil {
@@ -386,7 +374,7 @@ func readArticlesFromDir(dir string) ([]*Article, []string, error) {
 
 // NewArticlesStore returns a store of articles
 func NewArticlesStore() (*ArticlesStore, error) {
-	articles, dirs, err := readArticles()
+	articles, _, err := readArticles()
 	if err != nil {
 		return nil, err
 	}
@@ -408,7 +396,6 @@ func NewArticlesStore() (*ArticlesStore, error) {
 	res := &ArticlesStore{
 		articlesWithDrafts: articles,
 		articlesNoDrafts:   articlesNoDrafts,
-		dirsToWatch:        dirs,
 	}
 	res.idToArticle = make(map[string]*Article)
 	for _, a := range articles {
@@ -437,11 +424,6 @@ func (s *ArticlesStore) GetArticleByID(id string) *Article {
 // ArticlesCount returns number of articles
 func (s *ArticlesStore) ArticlesCount() int {
 	return len(s.articlesNoDrafts)
-}
-
-// GetDirsToWatch returns directories to watch for chagnes
-func (s *ArticlesStore) GetDirsToWatch() []string {
-	return s.dirsToWatch
 }
 
 // TODO: this is simplistic but works for me, http://net.tutsplus.com/tutorials/other/8-regular-expressions-you-should-know/
@@ -562,39 +544,78 @@ func msgToHTML(msg []byte, format int) string {
 	panic("unknown format")
 }
 
-func appendJSONMarshalled(buf *bytes.Buffer, val interface{}) {
-	if data, err := json.Marshal(val); err != nil {
-	} else {
-		buf.Write(data)
-	}
+// MonthArticle combines article and a month
+type MonthArticle struct {
+	*Article
+	DisplayMonth string
 }
 
-// TODO: I only use it for tag cloud, could just send info about tags directly
-func buildArticlesJSON(articles []*Article) ([]byte, string) {
-	var buf bytes.Buffer
-	buf.WriteString("var __articles_json = ")
+// Year describes articles in a given year
+type Year struct {
+	Name     string
+	Articles []MonthArticle
+}
+
+// DisplayTitle returns a title for an article
+func (a *MonthArticle) DisplayTitle() string {
+	if a.Title != "" {
+		return a.Title
+	}
+	return "no title"
+}
+
+// NewYear creates a new Year
+func NewYear(name string) *Year {
+	return &Year{Name: name, Articles: make([]MonthArticle, 0)}
+}
+
+func buildYearsFromArticles(articles []*Article) []Year {
+	res := make([]Year, 0)
+	var currYear *Year
+	var currMonthName string
 	n := len(articles)
-	vals := make([]interface{}, n, n)
-	n = 0
-	for i := len(articles) - 1; i >= 0; i-- {
+	for i := 0; i < n; i++ {
 		a := articles[i]
-		val := make([]interface{}, 1, 1)
-		val[0] = a.Tags
-		vals[n] = val
-		n++
+		yearName := a.PublishedOn.Format("2006")
+		if currYear == nil || currYear.Name != yearName {
+			if currYear != nil {
+				res = append(res, *currYear)
+			}
+			currYear = NewYear(yearName)
+			currMonthName = ""
+		}
+		ma := MonthArticle{Article: a}
+		monthName := a.PublishedOn.Format("01")
+		if monthName != currMonthName {
+			ma.DisplayMonth = a.PublishedOn.Format("January 2")
+		} else {
+			ma.DisplayMonth = a.PublishedOn.Format("2")
+		}
+		currMonthName = monthName
+		currYear.Articles = append(currYear.Articles, ma)
 	}
-	appendJSONMarshalled(&buf, vals)
-	buf.WriteString("; articlesJsonLoaded(__articles_json);")
-	jsData := buf.Bytes()
-	sha1 := u.Sha1HexOfBytes(jsData)
-	return jsData, sha1
+	if currYear != nil {
+		res = append(res, *currYear)
+	}
+	return res
 }
 
-func getArticlesJsURL() string {
-	sha1 := articlesJsSha1
-	return "/djs/articles-" + sha1 + ".js"
-}
-
-func getArticlesJsData() ([]byte, string) {
-	return articlesJs, articlesJsSha1
+// TODO: fold this into article reading code
+func filterArticlesByTag(articles []*Article, tag string, include bool) []*Article {
+	res := make([]*Article, 0)
+	for _, a := range articles {
+		hasTag := false
+		for _, t := range a.Tags {
+			if tag == t {
+				hasTag = true
+				break
+			}
+		}
+		if include && hasTag {
+			res = append(res, a)
+		} else if !include && !hasTag {
+			res = append(res, a)
+		}
+	}
+	return res
 }

@@ -51,36 +51,9 @@
         }
     </style>
     <script src="/js/highlight.js"></script>
-
     <script>
-        {{ template "tagcloud.tmpl.js" }}
-
         hljs.initHighlightingOnLoad();
-
-        function articlesJsonLoaded(articlesJson) {
-            articles_json = articlesJson;
-            /* no need to do anything */
-        }
     </script>
-
-    {{if .Reload}}
-    <script>
-        var ws = new WebSocket('ws://' + location.host + '/ws');
-        ws.onopen = function (event) {
-            ws.send(location.pathname.substr(1));
-        };
-        ws.onclose = function (event) {
-            location.reload();
-        };
-        ws.onmessage = function (event) {
-            location.reload();
-        };
-        ws.onerror = function (event) {
-            location.reload();
-        };
-    </script>
-    {{end}}
-
 </head>
 
 <body>
@@ -141,10 +114,6 @@
     </div>
 
     {{ template "analytics.tmpl.html" . }}
-
-    <script charset="utf-8" type="text/javascript" src="{{ .ArticlesJsURL }}">
-
-    </script>
 
 </body>
 

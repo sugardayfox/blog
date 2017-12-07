@@ -260,6 +260,54 @@ func getArticleInfoByID(articleID string) *ArticleInfo {
 	return nil
 }
 
+// TagInfo represents a single tag for articles
+type TagInfo struct {
+	URL   string
+	Name  string
+	Count int
+}
+
+var (
+	allTags []*TagInfo
+)
+
+func buildTags() []*TagInfo {
+	if allTags != nil {
+		return allTags
+	}
+
+	var res []*TagInfo
+	ti := &TagInfo{
+		URL:   "/archives.html",
+		Name:  "all",
+		Count: store.ArticlesCount(),
+	}
+	res = append(res, ti)
+
+	tagCounts := make(map[string]int)
+	for _, a := range store.GetArticles(false) {
+		for _, tag := range a.Tags {
+			tagCounts[tag]++
+		}
+	}
+	var tags []string
+	for tag := range tagCounts {
+		tags = append(tags, tag)
+	}
+	sort.Strings(tags)
+	for _, tag := range tags {
+		count := tagCounts[tag]
+		ti = &TagInfo{
+			URL:   "/tag/" + tag,
+			Name:  tag,
+			Count: count,
+		}
+		res = append(res, ti)
+	}
+	allTags = res
+	return res
+}
+
 func netlifyWriteArticlesArchiveForTag(tag string) {
 	path := "/archives.html"
 	articles := store.GetArticles(true)
@@ -278,13 +326,19 @@ func netlifyWriteArticlesArchiveForTag(tag string) {
 		netlifyAddRewrite(from, path)
 	}
 
-	articlesJsURL := getArticlesJsURL()
-	model := ArticlesIndexModel{
+	model := struct {
+		AnalyticsCode string
+		Article       *Article
+		PostsCount    int
+		Tag           string
+		Years         []Year
+		Tags          []*TagInfo
+	}{
 		AnalyticsCode: analyticsCode,
-		ArticlesJsURL: articlesJsURL,
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),
 		Tag:           tag,
+		Tags:          buildTags(),
 	}
 
 	netlifyExecTemplate(path, tmplArchive, model)
@@ -374,14 +428,12 @@ func netlifyBuild() {
 
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
-				Reload         bool
 				AnalyticsCode  string
 				PageTitle      string
 				CoverImage     string
 				Article        *Article
 				NextArticle    *Article
 				PrevArticle    *Article
-				ArticlesJsURL  string
 				TagsDisplay    string
 				ArticleNo      int
 				ArticlesCount  int
@@ -389,7 +441,6 @@ func netlifyBuild() {
 				ShareHTML      template.HTML
 				CanonicalURL   string
 			}{
-				Reload:        false,
 				AnalyticsCode: analyticsCode,
 				Article:       article,
 				NextArticle:   articleInfo.next,
@@ -398,7 +449,6 @@ func netlifyBuild() {
 				CoverImage:    coverImage,
 				ArticlesCount: store.ArticlesCount(),
 				ArticleNo:     articleInfo.pos + 1,
-				ArticlesJsURL: getArticlesJsURL(),
 				ShareHTML:     template.HTML(shareHTML),
 				CanonicalURL:  canonicalURL,
 			}
@@ -407,18 +457,6 @@ func netlifyBuild() {
 			netlifyExecTemplate(path, tmplArticle, model)
 			netlifyAddRewrite(article.URL(), path)
 		}
-	}
-
-	{
-		// TODO: do I need this? /djs/articles-*.js is included
-		// in some files but the data doesn't seem to be used
-		// anywhere
-		// /djs/$url
-		jsData, expectedSha1 := getArticlesJsData()
-		path := fmt.Sprintf("/djs/articles-%s.js", expectedSha1)
-		netlifyWriteFile(path, jsData)
-		from := "/djs/articles-*"
-		netflifyAddTempRedirect(from, path)
 	}
 
 	{

@@ -28,16 +28,6 @@
     }
   </style>
 
-  <script type="text/javascript">
-    {{template "tagcloud.tmpl.js"}}
-
-    function articlesJsonLoaded(articlesJson) {
-      articles_json = articlesJson;
-      var html = genTagCloudHtml2();
-      $('#tagCloud').innerHTML = html;
-    }
-  </script>
-
 </head>
 
 <body>
@@ -50,7 +40,14 @@
     <div style="float: right; margin-right: 12px; margin-left: 12px; font-size: 80%; border: 1px solid #CCC; padding: 6px 12px;">
       <div class="sidebarhdr">Topics:</div>
       <div style="max-width:180px">
-        <span id="tagCloud"></span>
+        <span id="tagCloud">
+          {{range .Tags}}
+          <span class="nowrap">
+            <a href="{{.URL}}">{{.Name}}</a>
+            <span class="light">{{.Count}}</span>
+          </span>
+          {{end}}
+        </span>
       </div>
     </div>
 
@@ -81,7 +78,6 @@
   <hr>
   <center><a href="/">Krzysztof Kowalczyk</a></center>
   <br>
-  <script charset="utf-8" type="text/javascript" src="{{.ArticlesJsURL}}"></script>
   {{template "analytics.tmpl.html" .}}
 
 </body>
