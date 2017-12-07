@@ -99,6 +99,7 @@ func main() {
 	}
 
 	notesGenIDIfNecessary()
+	regenMd()
 	loadTemplates()
 	loadArticles()
 	readRedirects()

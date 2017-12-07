@@ -91,3 +91,27 @@ func TestRemoveHashtags(t *testing.T) {
 		assert.Equal(t, test.tags, tags)
 	}
 }
+
+func TestCapitalize(t *testing.T) {
+	tests := []struct {
+		s   string
+		exp string
+	}{
+		{
+			s:   "foo",
+			exp: "Foo",
+		},
+		{
+			s:   "FOO",
+			exp: "Foo",
+		},
+		{
+			s:   "FOO baR",
+			exp: "Foo bar",
+		},
+	}
+	for _, test := range tests {
+		got := capitalize(test.s)
+		assert.Equal(t, test.exp, got)
+	}
+}

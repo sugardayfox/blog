@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"math/rand"
+	"path/filepath"
 	"strings"
 	"unicode/utf8"
 
@@ -234,4 +235,23 @@ func bytesRemoveFirstLine(d []byte) (string, []byte) {
 	u.PanicIf(-1 == idx)
 	l := d[:idx]
 	return string(l), d[idx+1:]
+}
+
+func replaceExt(fileName, newExt string) string {
+	ext := filepath.Ext(fileName)
+	if ext == "" {
+		return fileName
+	}
+	n := len(fileName)
+	s := fileName[:n-len(ext)]
+	return s + newExt
+}
+
+// foo => Foo, BAR => Bar etc.
+func capitalize(s string) string {
+	if len(s) == 0 {
+		return s
+	}
+	s = strings.ToLower(s)
+	return strings.ToUpper(s[0:1]) + s[1:]
 }

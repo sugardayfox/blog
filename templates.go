@@ -67,7 +67,10 @@ func loadTemplates() {
 
 func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
 	path := netlifyPath(fileName)
-	//fmt.Printf("%s\n", path)
+	execTemplate(path, templateName, model)
+}
+
+func execTemplate(path string, templateName string, model interface{}) {
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, templateName, model)
 	u.PanicIfErr(err)
