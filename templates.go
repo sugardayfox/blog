@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"fmt"
 	"html/template"
 	"io/ioutil"
 	"path/filepath"
@@ -68,7 +67,7 @@ func loadTemplates() {
 
 func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
 	path := netlifyPath(fileName)
-	fmt.Printf("%s\n", path)
+	//fmt.Printf("%s\n", path)
 	var buf bytes.Buffer
 	err := templates.ExecuteTemplate(&buf, templateName, model)
 	u.PanicIfErr(err)

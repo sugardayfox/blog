@@ -154,7 +154,7 @@ func netlifyPath(fileName string) string {
 
 func netlifyWriteFile(fileName string, d []byte) {
 	path := netlifyPath(fileName)
-	fmt.Printf("%s\n", path)
+	//fmt.Printf("%s\n", path)
 	ioutil.WriteFile(path, d, 0644)
 }
 

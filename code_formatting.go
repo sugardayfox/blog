@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/alecthomas/chroma/quick"
 	"github.com/kjk/u"
 )
 
@@ -68,5 +69,28 @@ func txtWithCodeParts(txt []byte) ([]byte, map[string][]byte) {
 		codeParts[cookie] = []byte(newCode)
 		return []byte(cookie)
 	})
+	return res, codeParts
+}
+
+func txtWithCodeParts2(txt []byte) ([]byte, map[string][]byte) {
+	fmt.Printf("txtWithCodeParts\n")
+	codeParts := make(map[string][]byte)
+	res := reCode.ReplaceAllFunc(txt, func(s []byte) []byte {
+		fmt.Printf("txtWithCodeParts inside\n")
+		s = s[len("<code") : len(s)-len("</code>")]
+		s, langByte := extractLang(s)
+		var buf bytes.Buffer
+		lang := ""
+		if langByte != nil {
+			lang = langToPrettifyLang(string(langByte))
+		}
+		err := quick.Highlight(&buf, string(s), lang, "html", "monokai")
+		u.PanicIfErr(err)
+		newCode := string(buf.Bytes())
+		cookie := txtCookie(newCode)
+		codeParts[cookie] = []byte(newCode)
+		return []byte(cookie)
+	})
+
 	return res, codeParts
 }
