@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"io/ioutil"
-	"net/http"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -86,40 +85,4 @@ func readRedirects() {
 		}
 		//fmt.Printf("skipping redirect '%s' because article with id %d no longer present\n", string(l), id)
 	}
-}
-
-// return -1 if there's no redirect for this urls
-func getRedirectArticleID(url string) string {
-	url = url[1:] // remove '/' from the beginning
-	articleRedirectsMutex.Lock()
-	defer articleRedirectsMutex.Unlock()
-	return articleRedirects[url]
-}
-
-func redirectIfNeeded(w http.ResponseWriter, r *http.Request) bool {
-	uri := r.URL.Path
-
-	if strings.HasPrefix(uri, "/software/sumatrapdf") {
-		redirURL := "https://www.sumatrapdfreader.org" + uri[len("/software/sumatrapdf"):]
-		http.Redirect(w, r, redirURL, 302)
-		return true
-	}
-
-	if redirURL, ok := redirects[uri]; ok {
-		http.Redirect(w, r, redirURL, 302)
-		return true
-	}
-
-	redirectArticleID := getRedirectArticleID(uri)
-	if redirectArticleID == "" {
-		return false
-	}
-	article := store.GetArticleByID(redirectArticleID)
-	if article != nil {
-		redirURL := article.URL()
-		http.Redirect(w, r, redirURL, 302)
-		return true
-	}
-
-	return false
 }

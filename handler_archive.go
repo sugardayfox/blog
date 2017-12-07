@@ -1,9 +1,5 @@
 package main
 
-import (
-	"net/http"
-)
-
 // MonthArticle combines article and a month
 type MonthArticle struct {
 	*Article
@@ -70,6 +66,7 @@ func buildYearsFromArticles(articles []*Article) []Year {
 	return res
 }
 
+// TODO: fold this into article reading code
 func filterArticlesByTag(articles []*Article, tag string, include bool) []*Article {
 	res := make([]*Article, 0)
 	for _, a := range articles {
@@ -87,25 +84,4 @@ func filterArticlesByTag(articles []*Article, tag string, include bool) []*Artic
 		}
 	}
 	return res
-}
-
-func showArchiveArticles(w http.ResponseWriter, r *http.Request, articles []*Article, tag string) {
-	articlesJsURL := getArticlesJsURL()
-	model := ArticlesIndexModel{
-		AnalyticsCode: analyticsCode,
-		ArticlesJsURL: articlesJsURL,
-		PostsCount:    len(articles),
-		Years:         buildYearsFromArticles(articles),
-		Tag:           tag,
-	}
-
-	serveTemplate(w, tmplArchive, model)
-}
-
-func showArchivePage(w http.ResponseWriter, r *http.Request, tag string) {
-	articles := store.GetArticles(true)
-	if tag != "" {
-		articles = filterArticlesByTag(articles, tag, true)
-	}
-	showArchiveArticles(w, r, articles, tag)
 }

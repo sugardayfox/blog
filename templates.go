@@ -1,11 +1,8 @@
 package main
 
 import (
-	"bytes"
 	"html/template"
-	"net/http"
 	"path/filepath"
-	"strconv"
 
 	"github.com/kjk/u"
 )
@@ -71,17 +68,4 @@ func getTemplates() *template.Template {
 		templates = template.Must(template.ParseFiles(templatePaths...))
 	}
 	return templates
-}
-
-func serveTemplate(w http.ResponseWriter, templateName string, model interface{}) bool {
-	var buf bytes.Buffer
-	if err := getTemplates().ExecuteTemplate(&buf, templateName, model); err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return false
-	}
-
-	// at this point we ignore error
-	w.Header().Set("Content-Length", strconv.Itoa(len(buf.Bytes())))
-	w.Write(buf.Bytes())
-	return true
 }

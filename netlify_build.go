@@ -322,7 +322,9 @@ func netlifyBuild() {
 	netlifyAddRewrite("/articles/index.html", "/static/documents.html")
 	netlifyAddRewrite("/book/", "/static/documents.html")
 	netflifyAddTempRedirect("/book/*", "/articles/:splat")
+	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org:splat")
 
+	// TODO: make /documents.html be canonical, redirect others
 	netlifyExecTemplate("/static/documents.html", tmplDocuments, nil)
 
 	{
@@ -420,7 +422,9 @@ func netlifyBuild() {
 	}
 
 	{
-		// mux.HandleFunc("/djs/", handleDjs)
+		// TODO: do I need this? /djs/articles-*.js is included
+		// in some files but the data doesn't seem to be used
+		// anywhere
 		// /djs/$url
 		jsData, expectedSha1 := getArticlesJsData()
 		path := fmt.Sprintf("/djs/articles-%s.js", expectedSha1)
