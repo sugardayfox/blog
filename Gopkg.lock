@@ -3,12 +3,6 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/SparkPost/gosparkpost"
-  packages = [".","events"]
-  revision = "8c18ed3a823bf762833b7cb62c44f37e2f10350f"
-
-[[projects]]
-  branch = "master"
   name = "github.com/chilts/sid"
   packages = ["."]
   revision = "6cf658ffc40cc14559db7af19fdae2ac0bf3d780"
@@ -18,24 +12,6 @@
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/dustin/go-humanize"
-  packages = ["."]
-  revision = "bb3d318650d48840a39aa21a027c6630e198e626"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/go-fsnotify/fsnotify"
-  packages = ["."]
-  revision = "4da3e2cfbabc9f751898f250b49f2439785783a1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/gorilla/websocket"
-  packages = ["."]
-  revision = "b89020ee79b89a7f932c5617d218fc06db382f53"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -51,18 +27,6 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/kjk/dailyrotate"
-  packages = ["."]
-  revision = "beaeffc0fc487826d2808e72fa9c9e8f2e63b61f"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/kjk/siser"
-  packages = ["."]
-  revision = "f1af2d1a21bb9d2527792d032d9473b35dd92ac1"
-
-[[projects]]
-  branch = "master"
   name = "github.com/kjk/u"
   packages = ["."]
   revision = "93181be023c9670de435766579b45c9d912aaf1c"
@@ -72,12 +36,6 @@
   name = "github.com/kr/fs"
   packages = ["."]
   revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
-
-[[projects]]
-  name = "github.com/kurin/blazer"
-  packages = ["b2","base","internal/b2types","internal/blog"]
-  revision = "e269a1a17bb6aec278c06a57cb7e8f8d0d333e04"
-  version = "v0.2.1"
 
 [[projects]]
   branch = "master"
@@ -96,12 +54,6 @@
   packages = ["."]
   revision = "d311cb43c92434ec4072dfbbda3400741d0a6337"
   version = "v0.3.0"
-
-[[projects]]
-  name = "github.com/pkg/errors"
-  packages = ["."]
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
@@ -135,12 +87,6 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/skratchdot/open-golang"
-  packages = ["open"]
-  revision = "75fb7ed4208cf72d323d7d02fd1a5964a7a9073c"
-
-[[projects]]
-  branch = "master"
   name = "github.com/sony/sonyflake"
   packages = ["."]
   revision = "fa881fb1052b152e977c41023052c2f2a1c475e9"
@@ -171,25 +117,13 @@
 
 [[projects]]
   branch = "master"
-  name = "golang.org/x/crypto"
-  packages = ["acme","acme/autocert"]
-  revision = "94eea52f7b742c7cbe0b03b22f0c4c8631ece122"
-
-[[projects]]
-  branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom"]
   revision = "a8b9294777976932365dabb6640cf1468d95c70f"
 
-[[projects]]
-  branch = "master"
-  name = "golang.org/x/sys"
-  packages = ["unix"]
-  revision = "8b4580aae2a0dd0c231a45d3ccb8434ff533b840"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6ccf70d98ee41536ef33d7ca2878815acbb0e45309fb9140f2f90c03cc71de61"
+  inputs-digest = "0eb651b30342e4db774ee4dce996f752645ac0f8935d4a2b3be0c9390aac5ddc"
   solver-name = "gps-cdcl"
   solver-version = 1
