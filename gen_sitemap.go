@@ -35,7 +35,7 @@ var staticURLS = []string{
 	"/articles/epub-ebook-reader-viewer-for-windows.html",
 	"/articles/where-to-get-free-ebooks-epub-mobi.html",
 	"/software/",
-	"static/documents.html",
+	"/static/documents.html",
 	"/dailynotes",
 }
 

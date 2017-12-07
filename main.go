@@ -7,140 +7,25 @@ import (
 	"io/ioutil"
 	"log"
 	"math/rand"
-	"net/http"
 	_ "net/url"
+	"os"
 	"path/filepath"
 	"strconv"
-	"strings"
 	"time"
-	"unicode/utf8"
 
 	"github.com/kjk/u"
-	"github.com/rs/xid"
 )
 
 var (
+	store         *ArticlesStore
 	analyticsCode = "UA-194516-1"
 
-	dataDir      string
-	store        *ArticlesStore
-	sha1ver      string
-	randomCookie string
-)
-
-func genRandomCookie() {
-	randomCookie = xid.New().String()
-}
-
-func getDataDir() string {
-	if dataDir != "" {
-		return dataDir
-	}
-
-	dirsToCheck := []string{"/data", u.ExpandTildeInPath("~/data/blog")}
-	for _, dir := range dirsToCheck {
-		if u.PathExists(dir) {
-			dataDir = dir
-			return dataDir
-		}
-	}
-
-	log.Fatalf("data directory (%v) doesn't exist", dirsToCheck)
-	return ""
-}
-
-// this list was determined by watching /logs
-var noLog404 = map[string]bool{
-	"/crossdomain.xml":                                               true,
-	"/article/Exercise-links-1.html":                                 true,
-	"/article/Ecco-for-free.html":                                    true,
-	"/article/Disappointed-by-The-Bat.html":                          true,
-	"/article/Comments-need-not-apply.html":                          true,
-	"/article/Browsing-Newton.html":                                  true,
-	"/article/Perl-and-lisp-programmers.html":                        true,
-	"/article/iPod-competition.html":                                 true,
-	"/article/Programming-Jabber.html":                               true,
-	"/article/Good-software-design-contradicts-eXtreme-Program.html": true,
-	"/article/Bloglines-vs-Google-Reader-the-verdict.html":           true,
-	"/2002/07/30/stuid-coding-mistake-of-the-day.html":               true,
-	"/article/Corman-Lisp.html":                                      true,
-	"/article/Offshore-outsourcing.html":                             true,
-	"/article/Nabble-hosted-forums.html":                             true,
-}
-
-func shouldLog404(s string) bool {
-	if strings.HasPrefix(s, "/apple-touch-icon") {
-		return false
-	}
-	_, ok := noLog404[s]
-	return !ok
-}
-
-func setContentType(w http.ResponseWriter, contentType string) {
-	w.Header().Set("Content-Type", contentType)
-}
-
-func writeResponse(w http.ResponseWriter, responseBody string) {
-	w.Header().Set("Content-Length", strconv.FormatInt(int64(len(responseBody)), 10))
-	io.WriteString(w, responseBody)
-}
-
-func textResponse(w http.ResponseWriter, text string) {
-	setContentType(w, "text/plain")
-	writeResponse(w, text)
-}
-
-var (
-	flgHTTPAddr        string
-	flgProduction      bool
-	flgNetlifyBuild    bool
-	flgUpdateNotes     bool
-	flgUpdateCSS       bool
 	flgNewArticleTitle string
 )
 
 func parseCmdLineFlags() {
-	flag.StringVar(&flgHTTPAddr, "addr", ":5020", "HTTP server address")
-	flag.BoolVar(&flgProduction, "production", false, "are we running in production")
-	flag.BoolVar(&flgUpdateNotes, "update-notes", false, "if true, we make sure that all notes have ids")
-	flag.BoolVar(&flgNetlifyBuild, "netlify-build", false, "if true, builds and deploys to netlify")
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.Parse()
-}
-
-func isTmpFile(path string) bool {
-	return strings.HasSuffix(path, ".tmp")
-}
-
-func sanitizeForFile(s string) string {
-	var res []byte
-	toRemove := "/\\#()[]{},?+.'\""
-	var prev rune
-	buf := make([]byte, 3)
-	for _, c := range s {
-		if strings.ContainsRune(toRemove, c) {
-			continue
-		}
-		switch c {
-		case ' ', '_':
-			c = '-'
-		}
-		if c == prev {
-			continue
-		}
-		prev = c
-		n := utf8.EncodeRune(buf, c)
-		for i := 0; i < n; i++ {
-			res = append(res, buf[i])
-		}
-	}
-	if len(res) > 32 {
-		res = res[:32]
-	}
-	s = string(res)
-	s = strings.Trim(s, "_- ")
-	s = strings.ToLower(s)
-	return s
 }
 
 func findUniqueArticleID(articles []*Article) string {
@@ -202,9 +87,34 @@ func loadArticles() {
 	articlesJs, articlesJsSha1 = buildArticlesJSON(articles)
 }
 
-func main() {
-	genRandomCookie()
+// https://caddyserver.com/tutorial/caddyfile
+var caddyProlog = `
+localhost:8080
+root netlify_static
+`
 
+func writeCaddyConfig() {
+	path := filepath.Join("Caddyfile")
+	f, err := os.Create(path)
+	u.PanicIfErr(err)
+	defer f.Close()
+
+	_, err = f.Write([]byte(caddyProlog))
+	u.PanicIfErr(err)
+	var s string
+	for _, r := range netlifyRedirects {
+		if r.code == 200 {
+			s = fmt.Sprintf("rewrite %s %s %d\n", r.from, r.to, r.code)
+		} else {
+			s = fmt.Sprintf("redir %s %s %d\n", r.from, r.to, r.code)
+		}
+		_, err = io.WriteString(f, s)
+		u.PanicIfErr(err)
+	}
+}
+
+func main() {
+	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
 
 	if flgNewArticleTitle != "" {
@@ -212,23 +122,10 @@ func main() {
 		return
 	}
 
-	if flgProduction {
-		reloadTemplates = false
-		flgHTTPAddr = ":80"
-	} else {
-		analyticsCode = ""
-	}
-
-	rand.Seed(time.Now().UnixNano())
-
-	if flgUpdateNotes {
-		notesGenIDIfNecessary()
-		return
-	}
-
+	notesGenIDIfNecessary()
+	loadTemplates()
 	loadArticles()
-
 	readRedirects()
-
 	netlifyBuild()
+	writeCaddyConfig()
 }

@@ -1,7 +1,10 @@
 package main
 
 import (
+	"bytes"
+	"fmt"
 	"html/template"
+	"io/ioutil"
 	"path/filepath"
 
 	"github.com/kjk/u"
@@ -33,9 +36,8 @@ var (
 		"page_navbar.tmpl.html",
 		"tagcloud.tmpl.js",
 	}
-	templatePaths   []string
-	templates       *template.Template
-	reloadTemplates = true
+	templatePaths []string
+	templates     *template.Template
 
 	// dirs to search when looking for templates
 	tmplDirs = []string{
@@ -57,15 +59,20 @@ func findTemplate(name string) string {
 	return ""
 }
 
-func getTemplates() *template.Template {
-	if reloadTemplates || (nil == templates) {
-		if 0 == len(templatePaths) {
-			for _, name := range templateNames {
-				path := findTemplate(name)
-				templatePaths = append(templatePaths, path)
-			}
-		}
-		templates = template.Must(template.ParseFiles(templatePaths...))
+func loadTemplates() {
+	for _, name := range templateNames {
+		path := findTemplate(name)
+		templatePaths = append(templatePaths, path)
 	}
-	return templates
+	templates = template.Must(template.ParseFiles(templatePaths...))
+}
+
+func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
+	path := netlifyPath(fileName)
+	fmt.Printf("%s\n", path)
+	var buf bytes.Buffer
+	err := templates.ExecuteTemplate(&buf, templateName, model)
+	u.PanicIfErr(err)
+	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
+	u.PanicIfErr(err)
 }

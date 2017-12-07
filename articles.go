@@ -317,10 +317,7 @@ func readArticle(path string) (*Article, error) {
 	}
 
 	if a.Status == statusInvisible {
-		if flgProduction {
-			return nil, nil
-		}
-		a.Status = statusNormal
+		return nil, nil
 	}
 
 	a.Body = d

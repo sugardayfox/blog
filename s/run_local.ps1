@@ -10,7 +10,7 @@ if ($plat = "Unix") {
 }
 go build -o $exe
 exitIfFailed
+Start-Process -Wait -FilePath $exe
+Remove-Item -Path $exe
 
-Start-Process -Wait -FilePath $exe -ArgumentList "-addr=localhost:5020"
-
-Remove-Item $exe
+caddy

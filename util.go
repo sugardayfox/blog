@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"net/http"
 	"strings"
+	"unicode/utf8"
 )
 
 // whitelisted characters valid in url
@@ -192,4 +193,35 @@ func reverseStringArray(a []string) {
 		end := len(a) - i - 1
 		a[i], a[end] = a[end], a[i]
 	}
+}
+
+func sanitizeForFile(s string) string {
+	var res []byte
+	toRemove := "/\\#()[]{},?+.'\""
+	var prev rune
+	buf := make([]byte, 3)
+	for _, c := range s {
+		if strings.ContainsRune(toRemove, c) {
+			continue
+		}
+		switch c {
+		case ' ', '_':
+			c = '-'
+		}
+		if c == prev {
+			continue
+		}
+		prev = c
+		n := utf8.EncodeRune(buf, c)
+		for i := 0; i < n; i++ {
+			res = append(res, buf[i])
+		}
+	}
+	if len(res) > 32 {
+		res = res[:32]
+	}
+	s = string(res)
+	s = strings.Trim(s, "_- ")
+	s = strings.ToLower(s)
+	return s
 }

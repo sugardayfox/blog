@@ -3,10 +3,14 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 function exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }
 
-go build -o blog_app
+$exe = ".\blog_app.exe"
+$plat = $PSVersionTable["Platform"]
+if ($plat = "Unix") {
+    $exe = "./blog_app"
+}
+go build -o $exe
 exitIfFailed
-
-./blog_app -netlify-build
-exitIfFailed
+Start-Process -Wait -FilePath $exe
+Remove-Item -Path $exe
 
 netlifyctl deploy

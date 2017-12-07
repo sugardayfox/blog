@@ -210,7 +210,7 @@ func dirCopyRecur(dst string, src string) (int, error) {
 
 func netlifyPath(fileName string) string {
 	fileName = strings.TrimLeft(fileName, "/")
-	path := filepath.Join("netlify_static", "www", fileName)
+	path := filepath.Join("netlify_static", fileName)
 	err := mkdirForFile(path)
 	u.PanicIfErr(err)
 	return path
@@ -220,16 +220,6 @@ func netlifyWriteFile(fileName string, d []byte) {
 	path := netlifyPath(fileName)
 	fmt.Printf("%s\n", path)
 	ioutil.WriteFile(path, d, 0644)
-}
-
-func netlifyExecTemplate(fileName string, templateName string, model interface{}) {
-	path := netlifyPath(fileName)
-	fmt.Printf("%s\n", path)
-	var buf bytes.Buffer
-	err := getTemplates().ExecuteTemplate(&buf, templateName, model)
-	u.PanicIfErr(err)
-	err = ioutil.WriteFile(path, buf.Bytes(), 0644)
-	u.PanicIfErr(err)
 }
 
 func netlifyRequestGetFullHost() string {
@@ -304,7 +294,7 @@ func netlifyBuild() {
 	// verify we're in the right directory
 	_, err := os.Stat("netlify_static")
 	u.PanicIfErr(err)
-	outDir := filepath.Join("netlify_static", "www")
+	outDir := filepath.Join("netlify_static")
 	err = os.RemoveAll(outDir)
 	u.PanicIfErr(err)
 	err = os.MkdirAll(outDir, 0755)
@@ -312,8 +302,6 @@ func netlifyBuild() {
 	nCopied, err := dirCopyRecur(outDir, "www")
 	u.PanicIfErr(err)
 	fmt.Printf("Copied %d files\n", nCopied)
-
-	analyticsCode = "UA-194516-1"
 
 	netlifyAddStaticRedirects()
 	netlifyAddRewrite("/contactme.html", "/static/contactme-netlify.html")
@@ -465,8 +453,9 @@ func netlifyBuild() {
 			AnalyticsCode: analyticsCode,
 			NextWeek:      nextWeek,
 		}
-		netlifyExecTemplate("/dailynotes.html", tmplNotesWeek, model)
-		netlifyAddRewrite("/dailynotes", "dailynotes.html")
+		path := "/dailynotes/dailynotes.html"
+		netlifyExecTemplate(path, tmplNotesWeek, model)
+		netlifyAddRewrite("/dailynotes", path)
 	}
 
 	{
@@ -495,7 +484,7 @@ func netlifyBuild() {
 				PrevWeek:      prevWeek,
 				AnalyticsCode: analyticsCode,
 			}
-			path := fmt.Sprintf("/dailynotes-week-%s.html", weekStart)
+			path := fmt.Sprintf("/dailynotes/dailynotes-week-%s.html", weekStart)
 			netlifyExecTemplate(path, tmplNotesWeek, model)
 			from := "/dailynotes/week/" + weekStart
 			netlifyAddRewrite(from, path)
@@ -516,7 +505,7 @@ func netlifyBuild() {
 				Note:          aNote,
 				AnalyticsCode: analyticsCode,
 			}
-			path := fmt.Sprintf("/dailynotes-note-%s.html", aNote.ID)
+			path := fmt.Sprintf("/dailynotes/dailynotes-note-%s.html", aNote.ID)
 			netlifyExecTemplate(path, tmplNotesNote, model)
 			from := fmt.Sprintf("/dailynotes/note/%s", aNote.ID)
 			if aNote.Title != "" {
@@ -545,7 +534,7 @@ func netlifyBuild() {
 			// TODO: this tag can be
 			tag2 := urlify(tag)
 			u.PanicIf(seenTags[tag2], "already seen tag: '%s' '%s'", tag, tag2)
-			path := fmt.Sprintf("/dailynotes-tag-%s.html", tag2)
+			path := fmt.Sprintf("/dailynotes/dailynotes-tag-%s.html", tag2)
 			netlifyExecTemplate(path, tmplNotesTag, model)
 			from := fmt.Sprintf("/dailynotes/tag/%s", tag)
 			netlifyAddRewrite(from, path)
@@ -650,8 +639,4 @@ func netlifyBuild() {
 
 	netlifyAddArticleRedirects()
 	netlifyWriteRedirects()
-
-	/*
-		mux.HandleFunc("/extremeoptimizations/", handleExtremeOpt)
-	*/
 }
