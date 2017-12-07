@@ -16,5 +16,6 @@ if ($plat = "Unix") {
 }
 go build -o $exe
 exitIfFailed
-Start-Process -Wait -FilePath $exe -ArgumentList "-newarticle=\"$title\""
+Start-Process -Wait -FilePath $exe -ArgumentList "-newarticle='$title'"
+
 Remove-Item -Path $exe
