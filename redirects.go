@@ -676,8 +676,7 @@ func netlifyWriteRedirects() {
 }
 
 // https://caddyserver.com/tutorial/caddyfile
-var caddyProlog = `
-localhost:8080
+var caddyProlog = `localhost:8080
 root netlify_static
 errors stdout
 log stdout

@@ -115,7 +115,7 @@ func regenMd() {
 		htmlFile := replaceExt(mdFile, ".html")
 		templateFile := findMdTemplate(mdFile)
 		if templateFile == "" {
-			fmt.Printf("%s : skipping because no tempate file\n", mdFile)
+			fmt.Printf("%s : skipping because no template file\n", mdFile)
 			continue
 		}
 		fmt.Printf("%s\n", mdFile)

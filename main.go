@@ -104,5 +104,4 @@ func main() {
 	loadArticles()
 	readRedirects()
 	netlifyBuild()
-	writeCaddyConfig()
 }
