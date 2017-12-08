@@ -682,23 +682,24 @@ errors stdout
 log stdout
 `
 
+func isRewrite(r *netlifyRedirect) bool {
+	return (r.code == 200) || strings.HasSuffix(r.from, "*")
+}
+
 func genCaddyRedir(r *netlifyRedirect) string {
-	from := r.from
-	to := r.to
-	if r.code == 200 {
-		if strings.HasSuffix(from, "*") {
-			base := strings.TrimSuffix(from, "*")
-			to = strings.Replace(to, ":splat", "{1}", -1)
-			return fmt.Sprintf("rewrite %s {\n    regexp (.*)\n    to %s\n}\n", base, to)
+	if r.from == "/" {
+		return fmt.Sprintf("rewrite / %s\n", r.to)
+	}
+	if isRewrite(r) {
+		if strings.HasSuffix(r.from, "*") {
+			base := strings.TrimSuffix(r.from, "*")
+			to := strings.Replace(r.to, ":splat", "{1}", -1)
+			return fmt.Sprintf("rewrite \"%s\" {\n    regexp (.*)\n    to %s\n}\n", base, to)
 		}
-		return fmt.Sprintf("rewrite %s %s\n", from, to)
+		return fmt.Sprintf("rewrite \"%s\" \"%s\"\n", r.from, r.to)
 	}
 
-	if strings.HasSuffix(from, "*") {
-		base := strings.TrimSuffix(from, "*")
-		return fmt.Sprintf("rewrite %s {\n    regexp .*\n    to %s\n}\n", base, to)
-	}
-	return fmt.Sprintf("redir %s %s %d\n", from, to, r.code)
+	return fmt.Sprintf("redir \"%s\" \"%s\" %d\n", r.from, r.to, r.code)
 }
 
 func writeCaddyConfig() {

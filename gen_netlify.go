@@ -541,10 +541,8 @@ func netlifyBuild() {
 		netlifyAddRewrite("/tools/generate-unique-id", path)
 	}
 
-	{
-		// /ping
-		netlifyWriteFile("/ping", []byte("pong"))
-	}
+	// /ping
+	netlifyWriteFile("/ping", []byte("pong"))
 
 	// no longer care about /worklog
 
