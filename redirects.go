@@ -682,6 +682,25 @@ errors stdout
 log stdout
 `
 
+func genCaddyRedir(r *netlifyRedirect) string {
+	from := r.from
+	to := r.to
+	if r.code == 200 {
+		if strings.HasSuffix(from, "*") {
+			base := strings.TrimSuffix(from, "*")
+			to = strings.Replace(to, ":splat", "{1}", -1)
+			return fmt.Sprintf("rewrite %s {\n    regexp (.*)\n    to %s\n}\n", base, to)
+		}
+		return fmt.Sprintf("rewrite %s %s\n", from, to)
+	}
+
+	if strings.HasSuffix(from, "*") {
+		base := strings.TrimSuffix(from, "*")
+		return fmt.Sprintf("rewrite %s {\n    regexp .*\n    to %s\n}\n", base, to)
+	}
+	return fmt.Sprintf("redir %s %s %d\n", from, to, r.code)
+}
+
 func writeCaddyConfig() {
 	path := filepath.Join("Caddyfile")
 	f, err := os.Create(path)
@@ -690,26 +709,8 @@ func writeCaddyConfig() {
 
 	_, err = f.Write([]byte(caddyProlog))
 	u.PanicIfErr(err)
-	var s string
 	for _, r := range netlifyRedirects {
-		from := r.from
-		to := r.to
-		if r.code == 200 {
-			if strings.HasSuffix(from, "*") {
-				base := strings.TrimSuffix(from, "*")
-				to = strings.Replace(to, ":splat", "{1}", -1)
-				s = fmt.Sprintf("rewrite %s {\n    regexp (.*)\n    to %s\n}\n", base, to)
-			} else {
-				s = fmt.Sprintf("rewrite %s %s %d\n", from, to, r.code)
-			}
-		} else {
-			if strings.HasSuffix(from, "*") {
-				base := strings.TrimSuffix(from, "*")
-				s = fmt.Sprintf("rewrite %s {\n    regexp .*\n    to %s\n}\n", base, to)
-			} else {
-				s = fmt.Sprintf("redir %s %s %d\n", from, to, r.code)
-			}
-		}
+		s := genCaddyRedir(r)
 		_, err = io.WriteString(f, s)
 		u.PanicIfErr(err)
 	}
