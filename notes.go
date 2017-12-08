@@ -78,8 +78,9 @@ type modelNotesForWeek struct {
 func buildBodyFromLines(lines []string) (string, []string) {
 	var resTags []string
 
+	var tags []string
 	for i, line := range lines {
-		line, tags := removeHashTags(line)
+		line, tags = removeHashTags(line)
 		lines[i] = line
 		resTags = append(resTags, tags...)
 	}

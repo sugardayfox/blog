@@ -66,7 +66,7 @@ func txtWithCodeParts(txt []byte) ([]byte, map[string][]byte) {
 	res := reCode.ReplaceAllFunc(txt, func(s []byte) []byte {
 		s = s[len("<code") : len(s)-len("</code>")]
 		s, lang := extractLang(s)
-		newCode := ""
+		var newCode string
 		if lang != nil {
 			l := langToPrettifyLang(string(lang))
 			newCode = fmt.Sprintf(`<pre class="prettyprint %s">%s</pre>`, l, string(s))

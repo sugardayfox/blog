@@ -28,9 +28,6 @@ const (
 	formatText     = 2
 )
 
-// same order as format* constants
-var formatNames = []string{"Html", "Markdown", "Text"}
-
 // for Article.Status
 const (
 	statusNormal    = 0 // always shown
@@ -58,10 +55,6 @@ type Article struct {
 
 	HTMLBody     template.HTML
 	DisplayMonth string
-}
-
-func validFormat(format int) bool {
-	return format >= formatHTML && format <= formatText
 }
 
 func urlForTag(tag string) string {
