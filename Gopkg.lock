@@ -3,7 +3,7 @@
 
 [[projects]]
   name = "github.com/alecthomas/chroma"
-  packages = [".","formatters","formatters/html","lexers","quick","styles"]
+  packages = [".","formatters/html","lexers","styles"]
   revision = "d08da055befd6993d66b606ee6cdd833e698ca55"
   version = "v0.2.0"
 
@@ -142,6 +142,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c4b5eaa3d4ac5a150e5ac72b9521c129210145a5ac70d04ba2f1820da8e8e4a2"
+  inputs-digest = "84229a92906e70dac971d659786b8b24f92504299799ef81bf4b032bf33f6940"
   solver-name = "gps-cdcl"
   solver-version = 1

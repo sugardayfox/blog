@@ -3,12 +3,8 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 function exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }
 
-$exe = ".\blog_app.exe"
-$plat = $PSVersionTable["Platform"]
-if ($plat = "Unix") {
-    $exe = "./blog_app"
-}
-go build -o $exe
+$exe = "./blog_app.exe"
+go build -o blog_app.exe
 exitIfFailed
 Start-Process -Wait -FilePath $exe
 Remove-Item -Path $exe
