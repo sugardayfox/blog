@@ -1,3 +1,21 @@
+2017-12-18
+#idea
+
+Self-hosted blog on https://firebase.google.com/.
+
+Core insight: Cloud Firestore database has a free usage tier big enough  to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.).
+
+One could build a single page app that includes all the important functionality of a blog.
+
+USP (Unique Selling Proposition) would be:
+* cheap (almost free) to host
+* easy to deploy (follow a tutorial custom written for the software)
+* many themes (write it so that it can use e.g. Hugo or Jekyll themes)
+
+Written in Vue.
+
+Unfortunately, there's no money in it.
+
 2017-12-13
 Id: b8p31jqie3f3po79m5rg
 #did
@@ -13,11 +31,13 @@ Id: b8p35uaie3f3n04cibe0
 #did
 Sumatra code cleanups.
 
-2017-12-9
+2017-12-09
+Id: b8p39juv5i7ja8u2ko7g
 #did
 Sumatra code cleanups.
 
-2017-12-8
+2017-12-08
+Id: b8p39juv5i7ja8u2ko80
 #did
 Sumatra code cleanups.
 
