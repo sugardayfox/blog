@@ -14,7 +14,7 @@ if ($plat = "Unix") {
 go build -o $exe
 exitIfFailed
 
-Start-Process -Wait -FilePath $exe -ArgumentList "-update-notes"
+Start-Process -Wait -FilePath $exe
 exitIfFailed
 
 git commit articles/notes.txt -m "update notes"
