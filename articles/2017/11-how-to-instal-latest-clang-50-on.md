@@ -8,8 +8,11 @@ Format: Markdown
 
 This article describes installing latest clang (llvm) on Ubuntu 16.04 (Xenial), which is also the default distro for [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about) (WSL).
 
-Run:
-```
+Ubuntu 16.04 ships with relatively old clang. Running `sudo apt-get install clang` installs version 3.8.
+
+To install latest version (currently 5.0) run:
+
+```bash
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main"
 sudo apt-get update
@@ -28,7 +31,7 @@ Apt queries package servers to get a list of available deb packages. Default Ubu
 
 List of servers is in `/etc/apt/sources.list`. Here's how it looks by default on Ubuntu 16.04:
 
-```
+```bash
 $ cat /etc/apt/sources.list
 deb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse
@@ -55,3 +58,20 @@ There is a new llvm/clang release every 6 months. What to do for newer version?
 
 Visit https://apt.llvm.org/ and locate the equivalent of `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main` for desired combo of clang/Ubuntu and correspondingly update `apt-add-repository ...` line in the above instructions.
 
+## Making latest version available as clang
+
+To run this version, you have to explicitly say `clang-5.0`. `clang` will either refer to 3.8 (if you've installed it) or nothing at all.
+
+After installing boght default clang and clang-5, you can reconfigure the system so that `clang` refers to clang 5:
+
+```bash
+update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100
+update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-5.0 1000
+update-alternatives --install /usr/bin/clang++ clang /usr/bin/clang-3.8 100
+update-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 100
+update-alternatives --install /usr/bin/clang clang /usr/bin/clang-5.0 1000
+update-alternatives --config clang
+update-alternatives --config clang++
+```
+
+This might help if you have scripts that don't allow over-writing the compiler name.
