@@ -3,7 +3,12 @@
 
 [[projects]]
   name = "github.com/alecthomas/chroma"
-  packages = [".","formatters/html","lexers","styles"]
+  packages = [
+    ".",
+    "formatters/html",
+    "lexers",
+    "styles"
+  ]
   revision = "d08da055befd6993d66b606ee6cdd833e698ca55"
   version = "v0.2.0"
 
@@ -27,7 +32,10 @@
 
 [[projects]]
   name = "github.com/dlclark/regexp2"
-  packages = [".","syntax"]
+  packages = [
+    ".",
+    "syntax"
+  ]
   revision = "487489b64fb796de2e55f4e8a4ad1e145f80e957"
   version = "v1.1.6"
 
@@ -59,7 +67,7 @@
   branch = "master"
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
-  revision = "68fecaef60268522d2ac3f0123cec9d3bcab7b6e"
+  revision = "13fa02f14d538b61af59f0d460acaa25c7724784"
 
 [[projects]]
   name = "github.com/mvdan/xurls"
@@ -136,7 +144,10 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["html","html/atom"]
+  packages = [
+    "html",
+    "html/atom"
+  ]
   revision = "d866cfc389cec985d6fda2859936a575a55a3ab6"
 
 [solve-meta]
