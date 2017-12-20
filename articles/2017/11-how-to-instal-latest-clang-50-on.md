@@ -60,9 +60,9 @@ Visit https://apt.llvm.org/ and locate the equivalent of `deb http://apt.llvm.or
 
 ## Making latest version available as clang
 
-To run this version, you have to explicitly say `clang-5.0`. `clang` will either refer to 3.8 (if you've installed it) or nothing at all.
+This version is installed side-by-side with the default clang 3.8. To run it, you have to explicitly say `clang-5.0`. `clang` will either refer to 3.8 (if you've installed it) or nothing at all.
 
-After installing boght default clang and clang-5, you can reconfigure the system so that `clang` refers to clang 5:
+You can reconfigure the system so that `clang` refers to clang 5:
 
 ```bash
 update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100
@@ -74,4 +74,4 @@ update-alternatives --config clang
 update-alternatives --config clang++
 ```
 
-This might help if you have scripts that don't allow over-writing the compiler name.
+This might help if you have scripts that hard-code name of the compiler and don't allow over-writing it.
