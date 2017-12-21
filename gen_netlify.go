@@ -544,8 +544,6 @@ func netlifyBuild() {
 	// /ping
 	netlifyWriteFile("/ping", []byte("pong"))
 
-	netflifyAddTempRedirect("/software/dbhero/", "/software/dbhero/for-mac.html")
-
 	// no longer care about /worklog
 
 	netlifyAddArticleRedirects()

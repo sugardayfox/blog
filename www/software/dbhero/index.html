@@ -21,11 +21,6 @@
 <div>
   <div class="nav-container">
     <nav class="container">
-      <div class="links">
-        <a href="for-mac.html" class="link-current">Mac</a>
-        <a href="for-windows.html" class="link">Windows</a>
-        &nbsp;&nbsp;
-      </div>
     </nav>
   </div>
 
@@ -36,17 +31,12 @@
         Simple GUI database explorer for PostgreSQL & MySQL.
       </h4>
 
-      <div class='callouts'>
-        <!-- <a id="download-button" href='#' target='_blank' class='btn color-blue border-blue'>
-             <i class="fa fa-apple" style="margin-right: 8px;"></i>
-              Download for Mac
-          </a> -->
-        <span id="download-button"></span>
-        <span id="requirements">
-          <p style="margin-top: 20px;">
-            <b style="margin-left: 10px;">Requirements:</b> OS X 10.10 or later</p>
-        </span>
-      </div>
+      <div class="color-red">
+          <p>This project is no longer being worked on. You can see the source
+          code at <a href="https://github.com/kjk/dbworkbench">github.com/kjk/dbworkbench</a>.</p>
+          <p></p>
+        </div>
+
 
       <div class='demo'>
         <div class="single-item">
@@ -93,29 +83,18 @@
 
 </div>
 
-<div class='footer text-center'></div>
+<div class="footer text-center"></div>
 
 <script>
-  function a(url, txt) {
-    return '<a href="' + url + '" class="btn color-blue border-blue" style="margin-right:10px; font-weight:bold;">' + txt + '</a>';
-  }
-
-  function build_html() {
-    return a(LatestUrlMac, "<i class='fa fa-apple' style='margin-right: 8px;''></i>Download for Mac");
-  }
-
   function myInit() {
-    $("#download-button").html(build_html());
+    $('.single-item').slick({
+      dots: true,
+      arrows: true,
+      draggable: true,
+      // lazyLoad: false,
+      // centerMode: true,
+    });
   }
-
-  $('.single-item').slick({
-    dots: true,
-    arrows: true,
-    draggable: true,
-    // lazyLoad: false,
-    // centerMode: true,
-  });
-
   window.onload = myInit;
 </script>
 
