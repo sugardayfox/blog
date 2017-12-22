@@ -3,12 +3,7 @@
 
 [[projects]]
   name = "github.com/alecthomas/chroma"
-  packages = [
-    ".",
-    "formatters/html",
-    "lexers",
-    "styles"
-  ]
+  packages = [".","formatters/html","lexers","styles"]
   revision = "d08da055befd6993d66b606ee6cdd833e698ca55"
   version = "v0.2.0"
 
@@ -32,12 +27,15 @@
 
 [[projects]]
   name = "github.com/dlclark/regexp2"
-  packages = [
-    ".",
-    "syntax"
-  ]
+  packages = [".","syntax"]
   revision = "487489b64fb796de2e55f4e8a4ad1e145f80e957"
   version = "v1.1.6"
+
+[[projects]]
+  name = "github.com/fsnotify/fsnotify"
+  packages = ["."]
+  revision = "629574ca2a5df945712d3079857300b5e4da0236"
+  version = "v1.4.2"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -67,7 +65,7 @@
   branch = "master"
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
-  revision = "13fa02f14d538b61af59f0d460acaa25c7724784"
+  revision = "542fd4642604d0d0c26112396ce5b1a9d01eee0b"
 
 [[projects]]
   name = "github.com/mvdan/xurls"
@@ -144,15 +142,18 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = [
-    "html",
-    "html/atom"
-  ]
+  packages = ["html","html/atom"]
   revision = "d866cfc389cec985d6fda2859936a575a55a3ab6"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "83801418e1b59fb1880e363299581ee543af32ca"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "84229a92906e70dac971d659786b8b24f92504299799ef81bf4b032bf33f6940"
+  inputs-digest = "ff66e04173abf47dede30ca30e3cd5f73a941b28d48d304b6ad28804facd9fd7"
   solver-name = "gps-cdcl"
   solver-version = 1
