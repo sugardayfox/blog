@@ -12,6 +12,10 @@ import (
 	"github.com/kjk/u"
 )
 
+var (
+	mdOutWhitelist = make(map[string]bool)
+)
+
 func isMarkdownFile(path string) bool {
 	path = strings.ToLower(path)
 	return strings.HasSuffix(path, ".md")
@@ -120,5 +124,13 @@ func regenMd() {
 		}
 		fmt.Printf("%s\n", mdFile)
 		mdToHTML(mdFile, templateFile, htmlFile)
+		fmt.Printf("Whitelisted: %s\n", htmlFile)
+		mdOutWhitelist[htmlFile] = true
 	}
+}
+
+// files written under www by md => html conversion
+// should not trigger regeneration
+func isWhitelistedFromChanges(path string) bool {
+	return mdOutWhitelist[path]
 }

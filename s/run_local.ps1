@@ -6,7 +6,5 @@ function exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }
 $exe = "./blog_app.exe"
 go build -o blog_app.exe
 exitIfFailed
-Start-Process -Wait -FilePath $exe
+Start-Process -Wait -FilePath $exe -ArgumentList "-watch"
 Remove-Item -Path $exe
-
-caddy -log stdout
