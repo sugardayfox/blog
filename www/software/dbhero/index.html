@@ -19,83 +19,79 @@
 <link rel='stylesheet' href="style.css">
 
 <div>
-  <div class="nav-container">
-    <nav class="container">
-    </nav>
-  </div>
+    <div class="nav-container">
+        <nav class="container">
+        </nav>
+    </div>
 
-  <div class='hero text-center'>
-    <div class='container'>
-      <h1 class='color-blue'>dbHero</h1>
-      <h4 class='subtitle color-dark-gray'>
-        Simple GUI database explorer for PostgreSQL & MySQL.
-      </h4>
+    <div class='hero text-center'>
+        <div class='container'>
+            <h1 class='color-blue'>dbHero</h1>
+            <h4 class='subtitle color-dark-gray'>
+                Simple GUI database explorer for PostgreSQL & MySQL.
+            </h4>
 
-      <div class="color-red">
-          <p>This project is no longer being worked on. You can see the source
-          code at <a href="https://github.com/kjk/dbworkbench">github.com/kjk/dbworkbench</a>.</p>
-          <p></p>
+            <div class="color-red">
+                <p>This project is no longer being worked on. You can see the source code at <a href="https://github.com/kjk/dbworkbench">github.com/kjk/dbworkbench</a>.</p>
+                <p></p>
+            </div>
+
+            <div class='demo'>
+                <div class="single-item">
+                    <div class='with-shadow'>
+                        <img src='./images/mac-ss1.png' />
+                    </div>
+                    <div class='with-shadow'>
+                        <img src='./images/mac-ss2.png' />
+                    </div>
+                    <div class='with-shadow'>
+                        <img src='./images/mac-ss3.png' />
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
 
+    <div>
+        <h2 class='color-light-blue text-center' style='margin-top: 20px; margin-bottom: -10px;'>Making Databases Simple</h2>
+    </div>
 
-      <div class='demo'>
-        <div class="single-item">
-          <div class='with-shadow'>
-            <img src='./images/mac-ss1.png' />
-          </div>
-          <div class='with-shadow'>
-            <img src='./images/mac-ss2.png' />
-          </div>
-          <div class='with-shadow'>
-            <img src='./images/mac-ss3.png' />
-          </div>
+    <div class='container features'>
+        <div>
+            <h3 class='color-dark-gray'>Stable, fast and secure</h3>
+            <p>
+                Works on your on your local machine. Requests are encrypted and secure.
+            </p>
         </div>
-      </div>
-
+        <div>
+            <h3 class='color-dark-gray'>Simple UI</h3>
+            <p>
+                Intuitive and easy to use.
+            </p>
+        </div>
+        <div>
+            <h3 class='color-dark-gray'>Features</h3>
+            <p>
+                Multiple database bookmarks. Table information. Table indexes. Custom query. Explain query. Query history. Latest activities on database and more..
+            </p>
+        </div>
     </div>
-  </div>
-
-  <div>
-    <h2 class='color-light-blue text-center' style='margin-top: 20px; margin-bottom: -10px;'>Making Databases Simple</h2>
-  </div>
-
-  <div class='container features'>
-    <div>
-      <h3 class='color-dark-gray'>Stable, fast and secure</h3>
-      <p>
-        Works on your on your local machine. Requests are encrypted and secure.
-      </p>
-    </div>
-    <div>
-      <h3 class='color-dark-gray'>Simple UI</h3>
-      <p>
-        Intuitive and easy to use.
-      </p>
-    </div>
-    <div>
-      <h3 class='color-dark-gray'>Features</h3>
-      <p>
-        Multiple database bookmarks. Table information. Table indexes. Custom query. Explain query. Query history. Latest activities
-        on database and more..
-      </p>
-    </div>
-  </div>
-
 </div>
 
 <div class="footer text-center"></div>
 
 <script>
-  function myInit() {
-    $('.single-item').slick({
-      dots: true,
-      arrows: true,
-      draggable: true,
-      // lazyLoad: false,
-      // centerMode: true,
-    });
-  }
-  window.onload = myInit;
+    function myInit() {
+        $('.single-item').slick({
+            dots: true,
+            arrows: true,
+            draggable: true,
+            // lazyLoad: false,
+            // centerMode: true,
+        });
+    }
+    window.onload = myInit;
 </script>
 
 </html>
