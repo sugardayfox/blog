@@ -3,13 +3,14 @@ Title: Speeding up Go with custom allocators
 Tags: go,programming
 Date: 2012-11-26T12:17:53-08:00
 Format: Markdown
---------------
-@header-image gfx/headers/header-07.jpg
-@collection go-cookbook
+HeaderImage: gfx/headers/header-07.jpg
+Collection: go-cookbook
+Description: Speeding up a well-known benchmark (construction of binary trees) ~4x by optimizing memory allocations.
+---
 
 **Summary**: using a custom allocator I was able to speed up an
 allocation heavy program ([binary-trees
-benchmark](http://shootout.alioth.debian.org/u64/performance.php?test=binarytrees))
+benchmark](http://benchmarksgame.alioth.debian.org/u64q/binarytrees.html))
 ~4x.
 
 Allocation is expensive. It holds true for all languages. At the time of
