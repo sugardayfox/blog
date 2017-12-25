@@ -52,7 +52,6 @@ Support for variadic macros was introduced in Visual C++ 2005.
 #### Output
 
 ```
-
     here are some varargs1(1)
     here are some varargs2(4)
     here are some varargs3(5)

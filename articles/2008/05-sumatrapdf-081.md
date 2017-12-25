@@ -18,8 +18,6 @@ Tesch)
   * add command-line option -print-dialog (contributed by Peter Astrand)
   * ESC or single mouse click hides selection
   * fix showing boxes in table of contents tree
-  * translation updates (contributed by [many people][1])
+  * translation updates (contributed by [many people](https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS))
 
-Go [get it][https://www.sumatrapdfreader.org/free-pdf-reader.html].
-
-   [1]: https://github.com/sumatrapdfreader/sumatrapdf/blob/master/TRANSLATORS
+Go [get it](https://www.sumatrapdfreader.org/free-pdf-reader.html).
