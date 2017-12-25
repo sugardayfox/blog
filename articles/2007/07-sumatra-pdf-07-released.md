@@ -18,9 +18,7 @@ this release:
 -   added ability to compile as DLL and C\# sample application -
     contributed by Valery Possoz
 -   mingw compilation fixes and project files for CodeBlocks -
-    contributed by\
-    MrChuoi
+    contributed by     MrChuoi
 -   fixed a few crashes
 -   moved the sources to [Google Code project
     hosting](http://code.google.com/p/sumatrapdf/)
-

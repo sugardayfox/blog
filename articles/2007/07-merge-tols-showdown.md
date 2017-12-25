@@ -5,7 +5,8 @@ Format: Markdown
 --------------
 Recently I've been spending a lot of time merging files (I need to merge
 translation files for Sumatra PDF that people send me) so a good merging
-tools is valuable.\
+tools is valuable.
+
 On Windows, there are at least 3 good diff/merge tools.
 
 [Araxis Merge](http://www.araxis.com/merge/) is a really nice but

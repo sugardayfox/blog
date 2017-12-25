@@ -4,7 +4,7 @@ Tags: sumatra
 Date: 2007-04-29T14:41:28-07:00
 Format: Markdown
 --------------
-I've just released another version of [SumatraPDF][https://www.sumatrapdfreader.org/free-pdf-reader.html]. This version mostly fixes bugs. The changes in this release are:
+I've just released another version of [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html). This version mostly fixes bugs. The changes in this release are:
 
   * enable opening password-protected PDFs
   * don't allow printing in PDFs that have printing forbidden

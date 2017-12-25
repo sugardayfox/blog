@@ -17,4 +17,4 @@ I’ve released Sumatra 0.8. Changes in this release:
 -   add command-line option -esc-to-exit
 -   add command-line option -bgcolor $color
 
-If you find bugs, please report them in the [bug tracker](http://code.google.com/p/sumatrapdf/issues/list)
+If you find bugs, please report them in the [bug tracker](https://github.com/sumatrapdfreader/sumatrapdf/issues)

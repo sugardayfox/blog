@@ -32,14 +32,13 @@ so I've enabled it by default. You can switch back to poppler by
 unchecking menu item.
 
 And a bunch of fixes, most of them reported at some point on those
-forums:\
+forums:
 
 -   scrolling with mouse wheel works
 -   fix toolbar issues on win2k
 -   improve the way fonts directory is found (hopefully)
 -   uninstaller completely removes the program
 
-\
 A side effect of using new engine is that support for link inside PDF
 files was disabled. Well, one more reason to wait for the next
 version...
