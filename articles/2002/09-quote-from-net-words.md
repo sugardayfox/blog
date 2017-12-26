@@ -2,6 +2,7 @@ Id: 1395
 Title: Quote from "Net Words"
 Date: 2002-09-02T18:01:30-07:00
 Format: Markdown
+Tags: quote, marketing
 --------------
 [Net Words](http://www.amazon.com/exec/obidos/tg/detail/-/0071380396/):
 

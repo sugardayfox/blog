@@ -2,6 +2,7 @@ Id: 450
 Title: Show me the code
 Date: 2002-09-27T23:23:49-07:00
 Format: Markdown
+Tags: quote
 --------------
 [Raph](http://www.advogato.org/person/raph/diary.html?start=281):\
 
