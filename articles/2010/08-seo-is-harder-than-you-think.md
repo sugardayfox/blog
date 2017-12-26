@@ -2,6 +2,7 @@ Id: 314001
 Title: SEO is harder than you think
 Date: 2010-08-13T17:39:27-07:00
 Format: Markdown
+Tags: marketing, business
 --------------
 Here is a frequent advice for aspiring entrepreneur: even before you
 launch your product, start a blog. Blog about topics related to your
@@ -10,8 +11,7 @@ product, the product itself, blog about anything.
 It’s a good advice, I just wish it was followed with “but don’t expect
 miracles” qualifier.
 
-Bad expectations
-----------------
+## Bad expectations
 
 People giving this advice usually provide 37signals or Joel Spolsky as
 examples of bloggers that have hundreds of thousands of readers and who
@@ -27,8 +27,7 @@ the only natural state of being. What we don’t see is thousands of other
 people who started blogs, put as much effort into them as 37signals did
 and don’t have much to show for it.
 
-You’re not a handsome billionaire
----------------------------------
+## You’re not a handsome billionaire
 
 It’s true: 37signals and Joel Spolsky built huge readerships. It’s also
 true that they are incredibly good writers and you are not.
@@ -42,8 +41,7 @@ But you’re not a handsome millionaire, you wont get attention of a
 celebrity and you’re unlikely to produce top quality content like Joel
 Spolsky.
 
-How to attract traffic and why you shouldn’t
---------------------------------------------
+## How to attract traffic and why you shouldn’t
 
 There are ways to engineer your posts for maximum traffic.
 
@@ -74,8 +72,7 @@ opposed to people looking for sensationalist headlines). More
 importantly, it’ll build your reputation and people will be more likely
 to listen to you when you have something to sell to them.
 
-How to achieve mediocrity in eight years, just like me.
--------------------------------------------------------
+## How to achieve mediocrity in eight years, just like me.
 
 What kind of traffic can you realistically expect for your blog? I’ll
 use myself as an example, because that’s the only example I have.
@@ -91,8 +88,7 @@ I’m not a total looser but its not a smashing success either.
 More importantly, even with this decent amount of traffic, I couldn’t
 make any given product a success.
 
-You don’t need a lot of traffic, or seed theory of success.
------------------------------------------------------------
+## You don’t need a lot of traffic, or seed theory of success.
 
 The reason why you shouldn’t get depressed right about now is this: you
 don’t actually need a lot of traffic to successfully promote your
@@ -125,16 +121,14 @@ The practical consequence of seed theory is: don’t spend too much time
 blogging to build traffic. You only need a little bit. Spend the time
 making your product remarkable so that other people will blog about it.
 
-Leave the pimping to pimps.
----------------------------
+## Leave the pimping to pimps.
 
 Ironically, because everyone else is obsessed with blogging for the sake
 of building traffic, they’ll do the blogging for your. They’re desperate
 for things to blog about, you just have to give them a reason to blog
 about your product. The best way to do it is to make it awesome.
 
-Bend, the pudding with the proof
---------------------------------
+## Bend, the pudding with the proof
 
 Don’t believe me? I give you Bend Editor as an example. As far as I can
 tell, it didn’t have a blog, its author didn’t make a single blog post

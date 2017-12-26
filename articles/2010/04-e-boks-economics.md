@@ -2,6 +2,7 @@ Id: 81001
 Title: e-books economics
 Date: 2010-04-19T22:14:58-07:00
 Format: Markdown
+Tags: business
 --------------
 Key data from [New Yorker article on
 e-books](http://www.newyorker.com/reporting/2010/04/26/100426fa_fact_auletta?currentPage=all):

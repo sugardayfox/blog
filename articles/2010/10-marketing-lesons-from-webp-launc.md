@@ -4,25 +4,19 @@ Tags: business
 Date: 2010-10-02T01:16:19-07:00
 Format: Markdown
 --------------
-Google just introduced [WebP](http://code.google.com/speed/webp/), a new
+Google just introduced [WebP](https://developers.google.com/speed/webp/), a new
 image format which offers 40% smaller files compared to JPEG (currently
 dominant format).
 
 There was inevitable backlash.
-[Some](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/7d377bff1f757eeb#)\
 
-[folks](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/8d52f9ae8e9f64dd#)\
-
-[argued](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/f7255587832eff8e#)\
- that in order to become popular, WebP
-[must](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/64bca69fd6fd6fc9#)\
+[Some](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/7d377bff1f757eeb#) [folks](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/8d52f9ae8e9f64dd#) [argued](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/f7255587832eff8e#) that in order to become popular, WebP [must](https://groups.google.com/a/webmproject.org/group/webp-discuss/browse_thread/thread/64bca69fd6fd6fc9#)
  offer more value by means of more features.
 
 Those people, as well intentioned as they might be, are missing an
 important marketing truth:
 
-Focus matters
--------------
+## Focus matters
 
 It might or might not be accidental, but Google’s messaging regarding
 WebP is very [simple](http://code.google.com/speed/webp/):
@@ -40,8 +34,7 @@ also care about the speed.
 Google advertises only one quality of WebP (making web faster) and they
 focus on a quality that everyone cares about.
 
-Lack of focus is deadly
------------------------
+## Lack of focus is deadly
 
 Those advocating adding more features to WebP haven’t learnt from the
 past. We already have formats that are superior to WebP in terms of
