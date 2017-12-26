@@ -2,7 +2,7 @@ Id: 952
 Title: Order of #include headers in C/C++
 Tags: programming, c++
 Date: 2006-08-15T09:23:28-07:00
-Status: invisible
+Status: notimportant
 Format: Markdown
 --------------
 One thing I've learned: maintaining good #include hierarchy requires eternal vigilance.

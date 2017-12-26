@@ -30,10 +30,11 @@ const (
 
 // for Article.Status
 const (
-	statusNormal      = iota // show on main page
-	statusDraft              // not shown in production but shown in dev
-	statusLessVisible        // linked from archive page, but not main page
-	statusHidden             // not linked from any page but accessible via url
+	statusNormal       = iota // show on main page
+	statusDraft               // not shown in production but shown in dev
+	statusNotImportant        // linked from archive page, but not main page
+	statusHidden              // not linked from any page but accessible via url
+	statusDeleted             // not shown at all
 )
 
 // Article describes a single article
@@ -70,7 +71,7 @@ func (a *Article) IsDraft() bool {
 
 // DebugIsNotImportant returns true if article is not important and we're previewing locally
 func (a *Article) DebugIsNotImportant() bool {
-	return !inProduction && (a.Status == statusLessVisible)
+	return !inProduction && (a.Status == statusNotImportant)
 }
 
 // DebugIsHidden returns true if article is not important and we're previewing locally
@@ -168,8 +169,10 @@ func parseStatus(status string) (int, error) {
 		return statusHidden, nil
 	case "draft":
 		return statusDraft, nil
-	case "invisible":
-		return statusLessVisible, nil
+	case "notimportant":
+		return statusNotImportant, nil
+	case "deleted":
+		return statusDeleted, nil
 	default:
 		return 0, fmt.Errorf("'%s' is not a valid status", status)
 	}
@@ -217,6 +220,7 @@ func readArticle(path string) (*Article, error) {
 		return nil, err
 	}
 	defer f.Close()
+
 	a := &Article{}
 	r := bufio.NewReader(f)
 	var publishedOn time.Time
@@ -284,6 +288,11 @@ func readArticle(path string) (*Article, error) {
 		default:
 			return nil, fmt.Errorf("Unexpected key: %q", k)
 		}
+	}
+
+	// if deleted, act as doesn't exist
+	if a.Status == statusDeleted {
+		return nil, nil
 	}
 
 	// PublishedOn over-writes Date and CreatedAt
@@ -410,11 +419,11 @@ func shouldGetArticle(a *Article, typ int) bool {
 	}
 
 	if typ == articlesWithLessVisible {
-		return isNormal(a) || (a.Status == statusLessVisible)
+		return isNormal(a) || (a.Status == statusNotImportant)
 	}
 
 	u.PanicIf(typ != articlesWithHidden, "unknown typ: %d", typ)
-	return isNormal(a) || (a.Status == statusLessVisible) || (a.Status == statusHidden)
+	return isNormal(a) || (a.Status == statusNotImportant) || (a.Status == statusHidden)
 }
 
 // GetArticles returns articles of a given type
