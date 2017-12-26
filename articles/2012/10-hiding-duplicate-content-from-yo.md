@@ -1,6 +1,7 @@
 Id: 238002
 Title: Hiding duplicate content from your site via robots.txt
 Date: 2012-10-22T01:43:33-07:00
+Tags: webdev
 Format: Markdown
 --------------
 Many blogs, including this one, generate duplicate content. For example,

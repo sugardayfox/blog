@@ -31,9 +31,9 @@ const (
 // for Article.Status
 const (
 	statusNormal    = 0 // always shown
-	statusDeleted   = 1 // never shown
-	statusDraft     = 2 // linked from archive page, but not main page
-	statusInvisible = 3 // not shown in production but shown in dev
+	statusDraft     = 1 // not shown in production but shown in dev
+	statusInvisible = 2 // linked from archive page, but not main page
+	statusDeleted   = 3 // never shown
 )
 
 // Article describes a single article
@@ -57,21 +57,23 @@ type Article struct {
 	DisplayMonth string
 }
 
-func urlForTag(tag string) string {
-	// TODO: url-quote the first tag
-	return fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
-}
-
 // URL returns article's permalink
 func (a *Article) URL() string {
 	return "/article/" + a.ID + "/" + urlify(a.Title) + ".html"
+}
+
+// IsDraft returns true if article is a draft
+func (a *Article) IsDraft() bool {
+	return a.Status == statusDraft
 }
 
 // TagsDisplay returns tags as html
 func (a *Article) TagsDisplay() template.HTML {
 	arr := make([]string, 0)
 	for _, tag := range a.Tags {
-		arr = append(arr, urlForTag(tag))
+		// TODO: url-quote the first tag
+		escapedURL := fmt.Sprintf(`<a href="/tag/%s" class="taglink">%s</a>`, tag, tag)
+		arr = append(arr, escapedURL)
 	}
 	s := strings.Join(arr, ", ")
 	return template.HTML(s)
@@ -80,11 +82,6 @@ func (a *Article) TagsDisplay() template.HTML {
 // PublishedOnShort is a short version of date
 func (a *Article) PublishedOnShort() string {
 	return a.PublishedOn.Format("Jan 2 2006")
-}
-
-// IsDraft returns true if article is a draft
-func (a *Article) IsDraft() bool {
-	return a.Status == statusDraft
 }
 
 // ArticlesStore is a store for articles
