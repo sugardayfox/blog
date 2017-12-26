@@ -7,7 +7,7 @@ CreatedAt: 2017-07-12
 PublishedOn: 2017-09-12
 Collection: go-windows
 Description: What is .manifest file and how to use it.
-Status: invisible
+Status: draft
 ---
 
 A manifest is an [XML file](https://msdn.microsoft.com/en-us/library/windows/desktop/aa375365(v=vs.85).aspx) that tells Windows some important information about your program.

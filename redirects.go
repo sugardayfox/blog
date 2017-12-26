@@ -658,7 +658,7 @@ func netlifyAddArticleRedirects() {
 	}
 
 	// redirect /article/:id/* => /article/:id/pretty-title
-	articles := store.GetArticles(false)
+	articles := store.GetArticles(articlesWithHidden)
 	for _, article := range articles {
 		from := fmt.Sprintf("/article/%s/*", article.ID)
 		path := fmt.Sprintf("/blog/%s.html", article.ID)

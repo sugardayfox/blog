@@ -40,7 +40,7 @@ var staticURLS = []string{
 }
 
 func genSiteMap(host string) ([]byte, error) {
-	articles := store.GetArticles(true)
+	articles := store.GetArticles(articlesNormal)
 	urlset := makeSiteMapURLSet()
 	var urls []SiteMapURL
 	for _, article := range articles {
@@ -73,7 +73,7 @@ func genSiteMap(host string) ([]byte, error) {
 
 	urlset.URLS = urls
 
-	xmlData, err := xml.MarshalIndent(urlset, " ", " ")
+	xmlData, err := xml.MarshalIndent(urlset, "", "")
 	if err != nil {
 		return nil, err
 	}

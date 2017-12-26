@@ -35,7 +35,7 @@
 
   <div id="content" style="clear:both;line-height:1.50; margin-top: 18px; margin-left: 18pt; margin-right: 18pt;">
 
-    <p><a href="/">Home</a> / {{.PostsCount}} articles</p>
+    <p><a href="/">Home</a> / {{.PostsCount}} articles {{if .Tag}}tagged with '{{.Tag}}'{{end}}</p>
 
     <div style="float: right; margin-right: 12px; margin-left: 12px; font-size: 80%; border: 1px solid #CCC; padding: 6px 12px;">
       <div class="sidebarhdr">Topics:</div>
@@ -60,10 +60,20 @@
       <tr>
         <td style="color:gray; text-align:right; vertical-align: middle; font-size:80%; padding-right:8px; padding-left:8px" nowrap>{{ .DisplayMonth }}</td>
         <td style="padding-top:2px">
-          <a href="{{.URL}}">{{.DisplayTitle}}</a> {{if .TagsDisplay}}
+          <a href="{{.URL}}">{{.DisplayTitle}}</a>
+          {{if .TagsDisplay}}
           <span style="font-size:80%">
             <span class="taglink">in:</span> {{.TagsDisplay}}
           </span>
+          {{end}}
+          {{if .IsDraft}}
+          <span style="font-size:80%; color:red">draft!</span>
+          {{end}}
+          {{if .DebugIsNotImportant}}
+          <span style="font-size:80%; color:lightsalmon">unimportant</span>
+          {{end}}
+          {{if .DebugIsHidden}}
+          <span style="font-size:80%; color:lightsalmon">hidden</span>
           {{end}}
         </td>
       </tr>

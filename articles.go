@@ -30,21 +30,22 @@ const (
 
 // for Article.Status
 const (
-	statusNormal    = 0 // always shown
-	statusDraft     = 1 // not shown in production but shown in dev
-	statusInvisible = 2 // linked from archive page, but not main page
-	statusDeleted   = 3 // never shown
+	statusNormal      = iota // show on main page
+	statusDraft              // not shown in production but shown in dev
+	statusLessVisible        // linked from archive page, but not main page
+	statusHidden             // not linked from any page but accessible via url
 )
 
 // Article describes a single article
 type Article struct {
 	ID             string
+	OrigID         string
 	PublishedOn    time.Time
 	UpdatedOn      time.Time
 	Title          string
 	Tags           []string
 	Format         int
-	Path           string
+	OrigPath       string // path of the markdown file with content
 	Body           []byte
 	BodyHTML       string
 	HeaderImageURL string
@@ -67,6 +68,16 @@ func (a *Article) IsDraft() bool {
 	return a.Status == statusDraft
 }
 
+// DebugIsNotImportant returns true if article is not important and we're previewing locally
+func (a *Article) DebugIsNotImportant() bool {
+	return !inProduction && (a.Status == statusLessVisible)
+}
+
+// DebugIsHidden returns true if article is not important and we're previewing locally
+func (a *Article) DebugIsHidden() bool {
+	return !inProduction && (a.Status == statusHidden)
+}
+
 // TagsDisplay returns tags as html
 func (a *Article) TagsDisplay() template.HTML {
 	arr := make([]string, 0)
@@ -86,9 +97,8 @@ func (a *Article) PublishedOnShort() string {
 
 // ArticlesStore is a store for articles
 type ArticlesStore struct {
-	articlesNoDrafts   []*Article
-	articlesWithDrafts []*Article
-	idToArticle        map[string]*Article
+	articles    []*Article
+	idToArticle map[string]*Article
 }
 
 func isSepLine(s string) bool {
@@ -155,11 +165,11 @@ func parseStatus(status string) (int, error) {
 	status = strings.ToLower(status)
 	switch status {
 	case "deleted":
-		return statusDeleted, nil
+		return statusHidden, nil
 	case "draft":
 		return statusDraft, nil
 	case "invisible":
-		return statusInvisible, nil
+		return statusLessVisible, nil
 	default:
 		return 0, fmt.Errorf("'%s' is not a valid status", status)
 	}
@@ -240,13 +250,13 @@ func readArticle(path string) (*Article, error) {
 			// we handle 2 types of ids:
 			// - blog posts from articles/ directory have integer id
 			// - blog posts imported from quicknotes have id that are strings
-			id, err := strconv.Atoi(v)
+			a.OrigID = strings.TrimSpace(v)
+			a.ID = a.OrigID
+			id, err := strconv.Atoi(a.ID)
 			if err == nil {
 				a.ID = u.EncodeBase64(id)
-			} else {
-				a.ID = strings.TrimSpace(v)
 			}
-			a.Path = path
+			a.OrigPath = path
 		case "title":
 			a.Title = v
 		case "tags":
@@ -288,14 +298,6 @@ func readArticle(path string) (*Article, error) {
 	d, err := ioutil.ReadAll(r)
 	if err != nil {
 		return nil, err
-	}
-
-	if a.Status == statusDeleted {
-		return nil, nil
-	}
-
-	if a.Status == statusInvisible {
-		return nil, nil
 	}
 
 	a.Body = d
@@ -368,52 +370,67 @@ func NewArticlesStore() (*ArticlesStore, error) {
 	if err != nil {
 		return nil, err
 	}
-	var articlesNoDrafts []*Article
-	for _, article := range articles {
-		if article.Status == statusNormal {
-			articlesNoDrafts = append(articlesNoDrafts, article)
-		}
-	}
-
 	sort.Slice(articles, func(i, j int) bool {
 		return articles[i].PublishedOn.After(articles[j].PublishedOn)
 	})
 
-	sort.Slice(articlesNoDrafts, func(i, j int) bool {
-		return articlesNoDrafts[i].PublishedOn.After(articlesNoDrafts[j].PublishedOn)
-	})
-
 	res := &ArticlesStore{
-		articlesWithDrafts: articles,
-		articlesNoDrafts:   articlesNoDrafts,
+		articles: articles,
 	}
 	res.idToArticle = make(map[string]*Article)
 	for _, a := range articles {
 		curr := res.idToArticle[a.ID]
 		if curr != nil {
-			log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.Path, a.Path)
+			log.Fatalf("2 articles with the same id %s\n%s\n%s\n", a.ID, curr.OrigPath, a.OrigPath)
 		}
 		res.idToArticle[a.ID] = a
 	}
 	return res, nil
 }
 
-// GetArticles returns all articles
-func (s *ArticlesStore) GetArticles(withDrafts bool) []*Article {
-	if withDrafts {
-		return s.articlesWithDrafts
+const (
+	articlesNormal          = 0
+	articlesWithLessVisible = 1
+	articlesWithHidden      = 2
+)
+
+func isNormal(a *Article) bool {
+	if a.Status == statusNormal {
+		return true
 	}
-	return s.articlesNoDrafts
+	if a.Status == statusDraft {
+		return showDrafts
+	}
+	return false
+}
+
+func shouldGetArticle(a *Article, typ int) bool {
+	if typ == articlesNormal {
+		return isNormal(a)
+	}
+
+	if typ == articlesWithLessVisible {
+		return isNormal(a) || (a.Status == statusLessVisible)
+	}
+
+	u.PanicIf(typ != articlesWithHidden, "unknown typ: %d", typ)
+	return isNormal(a) || (a.Status == statusLessVisible) || (a.Status == statusHidden)
+}
+
+// GetArticles returns articles of a given type
+func (s *ArticlesStore) GetArticles(typ int) []*Article {
+	var res []*Article
+	for _, a := range s.articles {
+		if shouldGetArticle(a, typ) {
+			res = append(res, a)
+		}
+	}
+	return res
 }
 
 // GetArticleByID returns an article given its id
 func (s *ArticlesStore) GetArticleByID(id string) *Article {
 	return s.idToArticle[id]
-}
-
-// ArticlesCount returns number of articles
-func (s *ArticlesStore) ArticlesCount() int {
-	return len(s.articlesNoDrafts)
 }
 
 // TODO: this is simplistic but works for me, http://net.tutsplus.com/tutorials/other/8-regular-expressions-you-should-know/
@@ -602,7 +619,6 @@ func buildYearsFromArticles(articles []*Article) []Year {
 	return res
 }
 
-// TODO: fold this into article reading code
 func filterArticlesByTag(articles []*Article, tag string, include bool) []*Article {
 	res := make([]*Article, 0)
 	for _, a := range articles {

@@ -2,6 +2,7 @@ Id: 362
 Title: Open Source is Philanthropy
 Date: 2002-07-23T03:39:58-07:00
 Format: Markdown
+Tags: quote, business
 --------------
 
 From now defunct blog:

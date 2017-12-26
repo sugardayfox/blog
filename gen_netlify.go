@@ -34,7 +34,7 @@ func copyAndSortArticles(articles []*Article) []*Article {
 }
 
 func genAtomXML(excludeNotes bool) ([]byte, error) {
-	articles := store.GetArticles(false)
+	articles := store.GetArticles(articlesNormal)
 	if excludeNotes {
 		articles = filterArticlesByTag(articles, "note", false)
 	}
@@ -102,27 +102,12 @@ func makeShareHTML(article *Article) string {
 	return fmt.Sprintf(`Hey there. You've read the whole thing. Let others know about this article by <a href="%s">sharing on Twitter</a>. <br>To be notified about new articles, <a href="%s">follow @kjk</a> on Twitter.`, shareURL, followURL)
 }
 
-// ArticleInfo describes an article
-type ArticleInfo struct {
-	this *Article
-	next *Article
-	prev *Article
-	pos  int
-}
-
-func getArticleInfoByID(articleID string) *ArticleInfo {
-	articles := store.GetArticles(true)
-	res := &ArticleInfo{}
-	for i, curr := range articles {
-		if curr.ID == articleID {
-			if i != len(articles)-1 {
-				res.next = articles[i+1]
-			}
-			res.this = curr
-			res.pos = i
-			return res
+func getArticleByID(articleID string) *Article {
+	articles := store.GetArticles(articlesWithHidden)
+	for _, a := range articles {
+		if a.ID == articleID {
+			return a
 		}
-		res.prev = curr
 	}
 	return nil
 }
@@ -138,7 +123,7 @@ var (
 	allTags []*TagInfo
 )
 
-func buildTags() []*TagInfo {
+func buildTags(articles []*Article) []*TagInfo {
 	if allTags != nil {
 		return allTags
 	}
@@ -147,12 +132,12 @@ func buildTags() []*TagInfo {
 	ti := &TagInfo{
 		URL:   "/archives.html",
 		Name:  "all",
-		Count: store.ArticlesCount(),
+		Count: len(articles),
 	}
 	res = append(res, ti)
 
 	tagCounts := make(map[string]int)
-	for _, a := range store.GetArticles(false) {
+	for _, a := range articles {
 		for _, tag := range a.Tags {
 			tagCounts[tag]++
 		}
@@ -177,7 +162,7 @@ func buildTags() []*TagInfo {
 
 func netlifyWriteArticlesArchiveForTag(tag string) {
 	path := "/archives.html"
-	articles := store.GetArticles(true)
+	articles := store.GetArticles(articlesWithLessVisible)
 	if tag != "" {
 		articles = filterArticlesByTag(articles, tag, true)
 		// must manually resolve conflict due to urlify
@@ -205,7 +190,7 @@ func netlifyWriteArticlesArchiveForTag(tag string) {
 		PostsCount:    len(articles),
 		Years:         buildYearsFromArticles(articles),
 		Tag:           tag,
-		Tags:          buildTags(),
+		Tags:          buildTags(articles),
 	}
 
 	netlifyExecTemplate(path, tmplArchive, model)
@@ -254,8 +239,19 @@ func netlifyBuild() {
 	}
 
 	{
+		// url: /book/windows-programming-in-go.html
+		model := struct {
+			InProduction bool
+		}{
+			InProduction: true,
+		}
+		netlifyExecTemplate("/book/go-cookbook.html", tmplGoCookBook, model)
+		netlifyAddRewrite("/articles/go-cookbook.html", "/book/go-cookbook.html")
+	}
+
+	{
 		// /
-		articles := store.GetArticles(false)
+		articles := store.GetArticles(articlesNormal)
 		articleCount := len(articles)
 		model := struct {
 			AnalyticsCode string
@@ -287,11 +283,11 @@ func netlifyBuild() {
 
 	{
 		// /blog/ and /kb/ are only for redirects, we only handle /article/ at this point
-		articles := store.GetArticles(true)
+		articles := store.GetArticles(articlesWithHidden)
+		logVerbose("%d articles\n", len(articles))
 		for _, a := range articles {
-			articleInfo := getArticleInfoByID(a.ID)
-			u.PanicIf(articleInfo == nil, "No article for id '%s'", a.ID)
-			article := articleInfo.this
+			article := getArticleByID(a.ID)
+			u.PanicIf(article == nil, "No article for id '%s'", a.ID)
 			shareHTML := makeShareHTML(article)
 
 			coverImage := ""
@@ -302,48 +298,41 @@ func netlifyBuild() {
 			canonicalURL := netlifyRequestGetFullHost() + article.URL()
 			model := struct {
 				AnalyticsCode  string
-				PageTitle      string
-				CoverImage     string
 				Article        *Article
-				NextArticle    *Article
-				PrevArticle    *Article
-				TagsDisplay    string
-				ArticleNo      int
-				ArticlesCount  int
-				HeaderImageURL string
-				ShareHTML      template.HTML
 				CanonicalURL   string
+				CoverImage     string
+				PageTitle      string
+				ShareHTML      template.HTML
+				TagsDisplay    string
+				HeaderImageURL string
 			}{
 				AnalyticsCode: analyticsCode,
 				Article:       article,
-				NextArticle:   articleInfo.next,
-				PrevArticle:   articleInfo.prev,
-				PageTitle:     article.Title,
-				CoverImage:    coverImage,
-				ArticlesCount: store.ArticlesCount(),
-				ArticleNo:     articleInfo.pos + 1,
-				ShareHTML:     template.HTML(shareHTML),
 				CanonicalURL:  canonicalURL,
+				CoverImage:    coverImage,
+				PageTitle:     article.Title,
+				ShareHTML:     template.HTML(shareHTML),
 			}
 
 			path := fmt.Sprintf("/blog/%s.html", article.ID)
+			logVerbose("%s, %s => %s, %s, %s\n", article.OrigID, article.ID, path, article.URL(), article.Title)
 			netlifyExecTemplate(path, tmplArticle, model)
 			netlifyAddRewrite(article.URL(), path)
 		}
 	}
 
 	{
-		// /archives.html"
+		// /archives.html
 		netlifyWriteArticlesArchiveForTag("")
 		seenTags := make(map[string]bool)
-		articles := store.GetArticles(false)
+		articles := store.GetArticles(articlesWithLessVisible)
 		for _, article := range articles {
 			for _, tag := range article.Tags {
-				if seenTags[tag] {
+				if !seenTags[tag] {
+					netlifyWriteArticlesArchiveForTag(tag)
+					seenTags[tag] = true
 					continue
 				}
-				netlifyWriteArticlesArchiveForTag(tag)
-				seenTags[tag] = true
 			}
 		}
 	}

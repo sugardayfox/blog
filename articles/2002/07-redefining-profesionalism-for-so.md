@@ -1,6 +1,7 @@
 Id: 333
 Title: Redefining Professionalism for Software Engineers
 Date: 2002-07-01T03:30:52-07:00
+Status: invisible
 Format: Markdown
 --------------
 Philip Greenspun is unique among those who write about programming. He doesn't confine himself to writing about technical topics.

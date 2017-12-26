@@ -20,15 +20,26 @@ import (
 var (
 	store         *ArticlesStore
 	analyticsCode = "UA-194516-1"
+	showDrafts    bool
 
 	flgNewArticleTitle string
 	flgWatch           bool
+	flgVerbose         bool
+	inProduction       bool
 )
 
 func parseCmdLineFlags() {
 	flag.StringVar(&flgNewArticleTitle, "newarticle", "", "create a new article")
 	flag.BoolVar(&flgWatch, "watch", false, "if true, runs caddy for preview and re-builds on changes")
+	flag.BoolVar(&flgVerbose, "verbose", false, "if true, verbose logging")
 	flag.Parse()
+}
+
+func logVerbose(format string, args ...interface{}) {
+	if !flgVerbose {
+		return
+	}
+	fmt.Printf(format, args...)
 }
 
 func findUniqueArticleID(articles []*Article) string {
@@ -53,7 +64,7 @@ func genNewArticle(title string) {
 	if err != nil {
 		log.Fatalf("NewStore() failed with %s", err)
 	}
-	newID := findUniqueArticleID(store.articlesWithDrafts)
+	newID := findUniqueArticleID(store.articles)
 	t := time.Now()
 	dir := "articles"
 	yyyy := fmt.Sprintf("%04d", t.Year())
@@ -82,11 +93,9 @@ Format: Markdown
 }
 
 func loadArticles() {
-	var err error
-	if store, err = NewArticlesStore(); err != nil {
-		log.Fatalf("NewStore() failed with %s", err)
-	}
-	store.GetArticles(true)
+	s, err := NewArticlesStore()
+	u.PanicIfErr(err)
+	store = s
 }
 
 func rebuildAll() {
@@ -192,6 +201,11 @@ func main() {
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
 		return
+	}
+	inProduction = true
+	if flgWatch {
+		showDrafts = true
+		inProduction = false
 	}
 	rebuildAll()
 	if flgWatch {

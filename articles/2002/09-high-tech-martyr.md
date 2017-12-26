@@ -3,6 +3,7 @@ Title: High tech martyr
 Date: 2002-09-12T08:32:26-07:00
 Format: Markdown
 Status: deleted
+Tags: quote
 --------------
 [Resume](http://www.craigslist.org/best/2471353.html):
 

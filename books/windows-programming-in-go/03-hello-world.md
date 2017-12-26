@@ -7,7 +7,7 @@ CreatedAt: 2017-07-12
 PublishedOn: 2017-09-12
 Collection: go-windows
 Description: Writing "Hello World" program.
-Status: invisible
+Status: draft
 ---
 
 This is not a book to teach you about win32 programming. There are existing resources for that, for example:
