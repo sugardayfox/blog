@@ -2,6 +2,7 @@ Id: 430
 Title: Those are the good times
 Date: 2002-09-17T09:15:27-07:00
 Format: Markdown
+Status: hidden
 --------------
 I happen to agree with
 [Robert](http://radio.weblogs.com/0001011/2002/09/16.html#a1462) that:
