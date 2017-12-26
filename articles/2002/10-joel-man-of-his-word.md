@@ -1,7 +1,7 @@
 Id: 469
 Title: Joel, man of his word
 Date: 2002-10-19T22:45:57-07:00
-Status: deleted
+Status: hidden
 Format: Markdown
 --------------
 [Joel Spolsky][1] [advocates][2] [writing][3] [functional][4] [specs][5] in the name of better software. Recently he wrote [a setup program][6] for his company's [bug tracking system.][7] Someone challenged him to show the specs for the setup program. And so [he did][8] ([direct link to a spec][1]). Excellent.

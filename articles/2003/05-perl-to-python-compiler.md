@@ -3,7 +3,7 @@ Title: Perl to Python compiler
 Tags: python
 Date: 2003-05-05T17:43:13-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 Now, this is seriously cool: [Perl to Python
 compiler](http://www.crazy-compilers.com/). I haven't tried it and the

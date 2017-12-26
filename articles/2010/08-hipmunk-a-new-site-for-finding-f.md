@@ -2,7 +2,7 @@ Id: 316001
 Title: Hipmunk - a new site for finding flights
 Date: 2010-08-17T14:57:11-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 A new web service [Hipmunk](http://www.hipmunk.com/) just launched. They
 offer a new interface for finding flights (which then can be booked

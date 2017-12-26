@@ -2,7 +2,7 @@ Id: 561
 Title: Remote desktop - from Windows to Mac OS X
 Date: 2003-03-02T17:33:00-08:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 I just tested VNC-ing from my Windows XP box to my Mac OS X. VNC is an
 open-source (GPL-ed) multi-platform remote display application.

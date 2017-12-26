@@ -2,7 +2,7 @@ Id: 1480
 Title: High Tech start up
 Date: 2002-12-17T06:35:10-08:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 I bought [High Tech start
 up](http://www.amazon.com/exec/obidos/tg/detail/-/068487170X) because

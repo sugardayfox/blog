@@ -3,7 +3,7 @@ Title: Getting user-specific application data directory for .NET WinForms apps
 Tags: .net,c#,win32,winforms
 Date: 2005-12-31T16:00:00-08:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 Windows defines a number of directories for specific things.
 

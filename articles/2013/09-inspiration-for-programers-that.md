@@ -3,7 +3,7 @@ Title: Inspiration for programmers that want a passive business
 Tags: business
 Date: 2013-09-23T22:16:39-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 There is no lack of inspiration available for programming that want to start a multi-billion companies. There are several stories a day on [TechCrunch](http://techcrunch.com).
 

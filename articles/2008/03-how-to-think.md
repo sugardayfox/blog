@@ -3,7 +3,7 @@ Title: How to think
 Tags: productivity,psychology
 Date: 2008-03-18T12:26:25-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 From [this post](http://www.technologyreview.com/blog/boyden/21925/)
 

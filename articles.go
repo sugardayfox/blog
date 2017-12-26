@@ -164,7 +164,7 @@ func extractMetadataValue(d []byte, prefix string) ([]byte, string) {
 func parseStatus(status string) (int, error) {
 	status = strings.ToLower(status)
 	switch status {
-	case "deleted":
+	case "hidden":
 		return statusHidden, nil
 	case "draft":
 		return statusDraft, nil

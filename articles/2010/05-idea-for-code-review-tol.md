@@ -3,7 +3,7 @@ Title: Idea for code review tool
 Tags: idea,note
 Date: 2010-05-04T11:06:24-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 Idea: code review tool for windows and mac.
 

@@ -3,7 +3,7 @@ Id: 10000
 Title: Notes on Ansible
 Date: 2014-11-27T22:59:50-08:00
 Tags: programming
-Status: deleted
+Status: hidden
 Format: Markdown
 ---
 Ansible is a system for provisioning servers and automatic deployments.

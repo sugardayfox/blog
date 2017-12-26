@@ -2,7 +2,7 @@ Id: 1884
 Title: Google - we take it all, give nothing back
 Date: 2004-12-29T19:10:34-08:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 I have a new hobby: [inventing advertising
 slogans](../../../2004/12/25/google-ultimate-hypocrite.html) for Google.

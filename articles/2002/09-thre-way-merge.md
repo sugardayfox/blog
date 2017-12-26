@@ -2,7 +2,7 @@ Id: 422
 Title: Three-way merge
 Date: 2002-09-15T20:27:53-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 Rare are the times when a piece of software amazes
 me with how good it is. [Araxis Merge](http://www.araxis.com/) just did.

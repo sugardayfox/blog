@@ -3,7 +3,7 @@ Title: Automatic Java to C# conversion - experience using Java Language Conversi
 Tags: c#,.net,tenderbase
 Date: 2009-04-22T00:10:19-07:00
 Format: Markdown
-Status: deleted
+Status: hidden
 --------------
 Recently I’ve been working on porting perst (a small, fast,
 object-oriented database) from Java to C\#.
