@@ -2,6 +2,7 @@ Id: 98001
 Title: Things I've learned this week
 Date: 2010-04-24T01:26:24-07:00
 Format: Markdown
+Status: notimportant
 --------------
 Things I’ve learned this week:
 

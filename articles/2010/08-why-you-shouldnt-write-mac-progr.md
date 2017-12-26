@@ -2,6 +2,7 @@ Id: 319001
 Title: Why you shouldn't write Mac programs in QT
 Date: 2010-08-22T15:46:25-07:00
 Format: Markdown
+Status: hidden
 --------------
 [Toggl](http://www.toggl.com) is a time-tracking web application that I
 just found. You can use it to measure how much time you spend on tasks.

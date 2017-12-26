@@ -2,6 +2,7 @@ Id: 492
 Title: The ghost of ArsDigita
 Date: 2002-12-19T03:57:03-08:00
 Format: Markdown
+Status: hidden
 --------------
 I just started reading [Entrepreneur
 America](http://www.amazon.com/exec/obidos/tg/detail/-/006662066X/) in

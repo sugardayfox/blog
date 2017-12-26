@@ -2,6 +2,7 @@ Id: 1530
 Title: Old ArsDigita content
 Date: 2003-01-31T00:18:39-08:00
 Format: Markdown
+Status: notimportant
 --------------
 Philip Greenspun made [a
 page](http://philip.greenspun.com/ancient-history/) with his old

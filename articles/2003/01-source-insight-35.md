@@ -2,6 +2,7 @@ Id: 1508
 Title: Source Insight 3.5
 Date: 2003-01-19T17:55:02-08:00
 Format: Markdown
+Status: hidden
 --------------
 A new version of Source Insight (3.5) [has been
 released](http://www.sourceinsight.com). Source Insight is a

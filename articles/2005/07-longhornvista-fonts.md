@@ -2,6 +2,7 @@ Id: 1903
 Title: Longhorn/Vista fonts
 Date: 2005-07-29T16:11:10-07:00
 Format: Markdown
+Status: hidden
 --------------
 Probably won't last long, but you can download new fonts included with
 Vista (Longhorn)

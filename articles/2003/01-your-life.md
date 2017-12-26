@@ -2,10 +2,9 @@ Id: 494
 Title: Your life
 Date: 2003-01-04T22:50:50-08:00
 Format: Markdown
+Status: hidden
 --------------
-[An interesting
-article](http://www.fastcompany.com/online/66/mylife.html). This caught
-my attention:
+An interesting article [What Should I Do With My Life?](http://web.archive.org/web/20040823082806/http://www.fastcompany.com:80/online/66/mylife.html). This caught my attention:
 
 > It turns out that having the ﬁnancial independence to walk away rarely
 > triggers people to do just that. The reality is, making money is such

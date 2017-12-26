@@ -2,12 +2,10 @@ Id: 571
 Title: Outsourcing
 Date: 2003-03-22T01:16:33-08:00
 Format: Markdown
+Status: notimportant
 --------------
 Software production outsourcing is a popular and re-current topic on
-[Joel's forum](http://www.joelonsoftware.com). [This
-thread](http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=34287&ixReplies=68)
-has a few interesting posts about realities of doing software in India
-and China. Here's the China part:
+Joel's forum. [This thread](http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=34287&ixReplies=68) has a few interesting posts about realities of doing software in India and China. Here's the China part:
 
 > For a comparison with the competition India may come in for
 > eventually...

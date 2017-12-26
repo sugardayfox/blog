@@ -4,10 +4,7 @@ Tags: productivity
 Date: 2010-04-20T16:46:32-07:00
 Format: Markdown
 --------------
-Fixed-schedule productivity
-===========================
-
-From [this article](http://www.instapaper.com/go/28822446/text)
+## Fixed-schedule productivity
 
 The idea:
 
@@ -19,8 +16,7 @@ To get there:
 -   cut all work that can’t fit in the schedule
 -   don’t procrastinate
 
-Deliberate practice
-===================
+## Deliberate practice
 
 To get good at something, you need:
 

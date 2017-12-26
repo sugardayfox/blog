@@ -4,7 +4,7 @@ Tags: business
 Date: 2010-10-03T14:14:27-07:00
 Format: Markdown
 --------------
-![Social Network]({float:right;padding:8px}http://upload.wikimedia.org/wikipedia/en/7/7a/Social_network_film_poster.jpg "Social Network")
+![Social Network](http://upload.wikimedia.org/wikipedia/en/7/7a/Social_network_film_poster.jpg)
 
 The movie [The Social
 Network](http://www.rottentomatoes.com/m/the-social-network/) is
@@ -39,8 +39,7 @@ The [relevant facts](http://en.wikipedia.org/wiki/ConnectU) are:
 There are several mistakes that ConnectU founders made managing their
 startup.
 
-Not using written contracts when hiring people.
------------------------------------------------
+## Not using written contracts when hiring people.
 
 The agreement between ConnectU founders and Zuckerberg was oral. If you
 hire people to work on your idea on a contract basis, write a contract.
@@ -51,8 +50,7 @@ You can even add a reasonable non-compete clause so that they can’t just
 learn everything about your business and start a competing one, like
 Zuckerberg did.
 
-Underestimating the value of good programmers
----------------------------------------------
+## Underestimating the value of good programmers
 
 It took ConnectU 17 months to launch their website. At least 3
 programmers worked on it (2 programmers before Zuckerberg and at least
@@ -63,8 +61,7 @@ Zuckerberg launched his website in 2 months, with code written all by
 himself (although he did have a non-technical co-founder). He was 8x as
 effective as ConnectU programmers.
 
-Not growing fast enough
------------------------
+## Not growing fast enough
 
 There are some businesses that can grow slowly and organically. There
 are some that have to [grow fast at any
@@ -82,8 +79,7 @@ ConnectU founders pursued other time-consuming activities during that
 time (they were training as rowers for Olympics) and dragged their feet
 hiring talent necessary to implement their idea.
 
-Not supervising the work and not firing ineffective employees
--------------------------------------------------------------
+## Not supervising the work and not firing ineffective employees
 
 Zuckerberg was able to string them along for 2 months by making excuses
 via e-mail. During that time he didn’t deliver any code.
@@ -93,8 +89,7 @@ mis-managing your employees so badly, you only have yourself to blame.
 After a month of no results they should have just fired Zuckerberg and
 hire a more dependable programmer.
 
-Not paying your programmers well
---------------------------------
+## Not paying your programmers well
 
 We don’t have enough facts to say why ConnectU had such a hard time
 finding effective programmers for their project but it’s telling that
@@ -104,8 +99,7 @@ A fair market rate would be more like $5000 per month. If you’re
 serious about your idea, you need to be realistic about how much you
 need to pay your crucial employees.
 
-Treating programmers as replaceable cogs
-----------------------------------------
+## Treating programmers as replaceable cogs
 
 In rare cases you can but programming is hard, good programmers are rare
 and good code is crucial element of software startups. The visible
@@ -118,8 +112,7 @@ be replaced at any time.
 What Facebook and other technology companies do is hiring the best and
 retaining them for as long as they can.
 
-Paying in equity
-----------------
+## Paying in equity
 
 It’s unclear if ConnectU founders had funds to pay in cash for
 programmers but from the point of view of the startup founder, paying in
@@ -152,8 +145,7 @@ only entitled to the vested part. Since Eduardo stopped working about 6
 months in, he would only get 1/8 of 30% (3.75%) and the rest would go to
 other founders.
 
-What you don’t know you don’t know will hurt you
-------------------------------------------------
+## What you don’t know you don’t know will hurt you
 
 It all shows that even Harvard hot-shots are not immune to youthful
 business naiveté. The above mistakes are pretty basic but they still

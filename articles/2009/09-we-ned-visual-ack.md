@@ -3,6 +3,7 @@ Title: We need Visual Ack
 Tags: software
 Date: 2009-09-18T09:51:35-07:00
 Format: Markdown
+Status: hidden
 --------------
 [ack](http://betterthangrep.com/) is a nifty improvement over grep
 written in perl. However, it’s a command-line app and those days dumping

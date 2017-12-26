@@ -153,6 +153,14 @@ func rebuildOnChanges() {
 	defer watcher.Close()
 	done := make(chan bool)
 	go func() {
+		defer func() {
+			if r := recover(); r != nil {
+				fmt.Printf("Recovered in rebuildOnChanges(). Error: '%s'\n", r)
+				// TODO: why this doesn't seem to trigger done
+				done <- true
+			}
+		}()
+
 		for {
 			select {
 			case event := <-watcher.Events:
@@ -182,6 +190,7 @@ func rebuildOnChanges() {
 	// waiting forever
 	// TODO: pick up ctrl-c and cleanup and quit
 	<-done
+	fmt.Printf("exiting rebuildOnChanges()")
 }
 
 func runCaddyAndWatch() {

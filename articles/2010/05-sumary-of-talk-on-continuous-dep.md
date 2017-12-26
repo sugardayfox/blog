@@ -2,6 +2,7 @@ Id: 134001
 Title: Summary of talk on continuous deployment
 Date: 2010-05-03T12:28:26-07:00
 Format: Markdown
+Tags: programming
 --------------
 Summary of [this
 talk](http://www.justin.tv/startuplessonslearned/b/262657677) from
