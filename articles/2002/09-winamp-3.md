@@ -2,6 +2,8 @@ Id: 402
 Title: WinAmp 3 and software business lessons
 Date: 2002-09-02T02:14:08-07:00
 Format: Markdown
+Tags: business
+Status: notimportant
 --------------
 I've seen some people bitching about new WinAmp
 3 but I like it.

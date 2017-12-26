@@ -2,6 +2,7 @@ Id: 1902
 Title: VirtualEarth vs. Google Maps - not hitting the high note
 Date: 2005-07-25T14:39:15-07:00
 Format: Markdown
+Status: hidden
 --------------
 Let's not kid ourselves: any new online map web service will be
 evaluated based on how it compares to Google Maps, the most popular kid

@@ -2,6 +2,7 @@ Id: 367
 Title: Wozniak's speech
 Date: 2002-08-01T06:25:55-07:00
 Format: Markdown
+Status: notimportant
 --------------
 The ability to watch [this wonderful Wozniak's
 speech](http://wean1.ulib.org/cgi-bin/metawin-lectures.pl?target=Lectures/Distinguished%20Lectures/2002)

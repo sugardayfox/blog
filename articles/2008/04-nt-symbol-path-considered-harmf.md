@@ -3,7 +3,9 @@ Title: _NT_SYMBOL_PATH considered harmful
 Tags: windbg,debugging
 Date: 2008-04-17T19:31:59-07:00
 Format: Markdown
+Status: hidden
 --------------
+
 When you debug your software on Windows, it’s sometimes useful to also
 have access to symbols for Windows DLL. Microsoft is kind enough to provide
 them for download and the easiest way to make them available locally is to

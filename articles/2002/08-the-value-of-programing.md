@@ -2,6 +2,7 @@ Id: 381
 Title: The value of programming
 Date: 2002-08-11T23:02:08-07:00
 Format: Markdown
+Status: notimportant
 --------------
 I'm a programmer so [this
 post](http://www.crynwr.com/cgi-bin/ezmlm-cgi?mmp:7790) was at first

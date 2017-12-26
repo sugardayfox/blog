@@ -3,6 +3,7 @@ Title: On writing well
 Tags: writing
 Date: 2002-08-21T04:03:58-07:00
 Format: Markdown
+Status: notimportant
 --------------
 Good writing is the basis for weblogging. Good books about how to write
 learn are [On writing
