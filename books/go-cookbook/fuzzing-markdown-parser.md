@@ -9,7 +9,7 @@ Collection: go-cookbook
 Description: Fuzzing markdown parser written in Go with go-fuzz
 ---
 
-I fnished working on [Markdown parser](https://github.com/gomarkdown/markdown) for Go.
+I finished working on [Markdown parser](https://github.com/gomarkdown/markdown) for Go.
 
 To make sure it's robust (no crashes, no hangs) I decided to fuzz it.
 
