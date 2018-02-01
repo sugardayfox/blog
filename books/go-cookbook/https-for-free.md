@@ -80,12 +80,13 @@ func makeHTTPServer() *http.Server {
 		ReadTimeout:  5 * time.Second,
 		WriteTimeout: 5 * time.Second,
 		IdleTimeout:  120 * time.Second,
-		Handler:      mux,
+		Handler:      handler,
 	}
 }
 
 func main() {
 	var httpsSrv *http.Server
+	var m *autocert.Handler
 
 	// when testing locally it doesn't make sense to start
 	// HTTPS server, so only do it in production.
@@ -104,7 +105,7 @@ func main() {
 		}
 
 		httpsSrv = makeHTTPServer()
-		m := autocert.Manager{
+		m := &autocert.Manager{
 			Prompt:     autocert.AcceptTOS,
 			HostPolicy: hostPolicy,
 			Cache:      autocert.DirCache(dataDir),
@@ -121,6 +122,11 @@ func main() {
 	}
 
 	httpSrv := makeHTTPServer()
+	if m != nil {
+		// allow autocert handle Let's Encrypt auth callbacks over HTTP.
+		// it'll pass all other urls to our hanlder
+		httpSrv.Handler = m.HTTPHandler(httpServ.Handler)
+	}
 	httpSrv.Addr = ":80"
 	err := httpSrv.ListenAndServe()
 	if err != nil {
@@ -201,6 +207,7 @@ func makeHTTPToHTTPSRedirectServer() *http.Server {
 
 func main() {
 	httpSrv := makeHTTPToHTTPSRedirectServer()
+	httpSrv.Handler = m.HTTPHandler(httpServ.Handler)
 	httpSrv.Addr = ":80"
 	fmt.Printf("Starting HTTP server on %s\n", httpSrv.Addr)
 	err := httpSrv.ListenAndServe()

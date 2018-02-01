@@ -2,7 +2,11 @@
 Id: 23
 Title: Fuzzing Markdown parser written in Go
 Date: 2018-01-31T15:32:55-08:00
+Tags: go, programming
 Format: Markdown
+HeaderImage: gfx/headers/header-21.jpg
+Collection: go-cookbook
+Description: Fuzzing markdown parser written in Go with go-fuzz
 ---
 
 I fnished working on [Markdown parser](https://github.com/gomarkdown/markdown) for Go.
