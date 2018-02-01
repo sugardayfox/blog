@@ -3,9 +3,14 @@
 
 [[projects]]
   name = "github.com/alecthomas/chroma"
-  packages = [".","formatters/html","lexers","styles"]
-  revision = "d08da055befd6993d66b606ee6cdd833e698ca55"
-  version = "v0.2.0"
+  packages = [
+    ".",
+    "formatters/html",
+    "lexers",
+    "styles"
+  ]
+  revision = "e0f32fbcb59bc99c521910291b7ba8ecdb17ca34"
+  version = "v0.2.1"
 
 [[projects]]
   branch = "master"
@@ -27,15 +32,29 @@
 
 [[projects]]
   name = "github.com/dlclark/regexp2"
-  packages = [".","syntax"]
+  packages = [
+    ".",
+    "syntax"
+  ]
   revision = "487489b64fb796de2e55f4e8a4ad1e145f80e957"
   version = "v1.1.6"
 
 [[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
-  revision = "629574ca2a5df945712d3079857300b5e4da0236"
-  version = "v1.4.2"
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  version = "v1.4.7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gomarkdown/markdown"
+  packages = [
+    ".",
+    "ast",
+    "html",
+    "parser"
+  ]
+  revision = "5d96569c5a0d3cd46d961eddbb61e936e627774c"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -92,16 +111,10 @@
   version = "v1.1"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/russross/blackfriday"
-  packages = ["."]
-  revision = "6d1ef893fcb01b4f50cb6e57ed7df3e2e627b6b2"
-
-[[projects]]
   name = "github.com/satori/go.uuid"
   packages = ["."]
-  revision = "879c5887cd475cd7864858769793b2ceb0d44feb"
-  version = "v1.1.0"
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
 
 [[projects]]
   name = "github.com/segmentio/ksuid"
@@ -130,8 +143,8 @@
 [[projects]]
   name = "github.com/stretchr/testify"
   packages = ["assert"]
-  revision = "69483b4bd14f5845b5a1e55bca19e954e827f1d0"
-  version = "v1.1.4"
+  revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
+  version = "v1.2.1"
 
 [[projects]]
   branch = "master"
@@ -142,18 +155,21 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["html","html/atom"]
-  revision = "d866cfc389cec985d6fda2859936a575a55a3ab6"
+  packages = [
+    "html",
+    "html/atom"
+  ]
+  revision = "309822c5b9b9f80db67f016069a12628d94fad34"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "83801418e1b59fb1880e363299581ee543af32ca"
+  revision = "3dbebcf8efb6a5011a60c2b4591c1022a759af8a"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ff66e04173abf47dede30ca30e3cd5f73a941b28d48d304b6ad28804facd9fd7"
+  inputs-digest = "308dde0ee6b345088b35f8d9bb35b835077a4a0861dab2baa8f37aa3b3e342d6"
   solver-name = "gps-cdcl"
   solver-version = 1
