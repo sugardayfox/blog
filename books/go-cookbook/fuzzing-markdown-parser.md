@@ -103,6 +103,6 @@ The fuzzer has advanced options like fuzzing using multiple machines.
 
 Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or entered infinite loop.
 
-They [are](https://github.com/gomarkdown/markdown/commit/5d96569c5a0d3cd46d961eddbb61e936e627774c) [now](https://github.com/gomarkdown/markdown/commit/e0fc813169b926a2182bc6554888eb37d12261f7) [fixed](https://github.com/gomarkdown/markdown/commit/5dd4b50fe81eda60f173e242ece05f24c5cc5cec) (and unit tests were extended to cover them).
+They [are](https://github.com/gomarkdown/markdown/commit/5d96569c5a0d3cd46d961eddbb61e936e627774c) [now](https://github.com/gomarkdown/markdown/commit/e0fc813169b926a2182bc6554888eb37d12261f7) [fixed](https://github.com/gomarkdown/markdown/commit/5dd4b50fe81eda60f173e242ece05f24c5cc5cec) and covered by unit tests.
 
 Go West and Fuzz!
