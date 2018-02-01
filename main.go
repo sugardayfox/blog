@@ -223,11 +223,6 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
 
-	if false {
-		adhocTestChroma()
-		return
-	}
-
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
 		return

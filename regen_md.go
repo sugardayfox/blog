@@ -84,7 +84,7 @@ func mdToHTML(mdFile, templateFile, htmlFile string) {
 	md, err := ioutil.ReadFile(mdFile)
 	u.PanicIfErr(err)
 	md, meta := parseMd(md)
-	body := markdownToHTML(md)
+	body := markdownToHTML(md, "")
 
 	model := make(map[string]interface{})
 	title := meta[keyTitle]
