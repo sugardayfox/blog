@@ -7,7 +7,6 @@ if ($args.Length -ne 1) {
     Write-Host "usage: ./s/newarticle.ps1 <title>"
     exit 1
 }
-$title = $args[0]
 
 $exe = ".\blog_app.exe"
 $plat = $PSVersionTable["Platform"]
@@ -16,6 +15,10 @@ if ($plat = "Unix") {
 }
 go build -o $exe
 exitIfFailed
-Start-Process -Wait -FilePath $exe -ArgumentList "-newarticle='$title'"
+
+$title = $args[0]
+$arglist = '-newarticle "' + $title + '"'
+Write-Host "arglist : $arglist"
+Start-Process -Wait -FilePath $exe -ArgumentList $arglist
 
 Remove-Item -Path $exe
