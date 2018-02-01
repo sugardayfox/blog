@@ -71,9 +71,10 @@ I used those to initialize the fuzzer:
 
 ```bash
 # create a working directory for the fuzzer
-$ mkdir -p fuzz-workdir/corpus
+$ mkdir -p fuzz-workdir
 
 # copy the files that seed fuzzing to corpus sub-directory of working directory
+$ mkdir -p fuzz-workdir/corpus
 $ cp testdata/*.text fuzz-workdir/corpus
 
 # generate the fuzzing program. This compiles fuzz.go we wrote earlier
