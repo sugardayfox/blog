@@ -632,6 +632,19 @@ li.L9 {
     font-size: 80%;
 }
 
+.github-link {
+    font-size: 0.8em;
+    position: fixed;
+    right: 4px;
+    top: 50px;
+    padding: 4px 8px;
+    border: 1px solid #666;
+}
+
+.github-link:hover {
+    background-color: #f1f1f1;
+}
+
 pre.chroma {
     display: block;
     overflow-x: auto;

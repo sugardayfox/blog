@@ -305,6 +305,7 @@ func netlifyBuild() {
 				ShareHTML      template.HTML
 				TagsDisplay    string
 				HeaderImageURL string
+				GitHubEditURL  string
 			}{
 				AnalyticsCode: analyticsCode,
 				Article:       article,
@@ -312,6 +313,7 @@ func netlifyBuild() {
 				CoverImage:    coverImage,
 				PageTitle:     article.Title,
 				ShareHTML:     template.HTML(shareHTML),
+				GitHubEditURL: "https://github.com/kjk/blog/edit/master/" + article.OrigPath,
 			}
 
 			path := fmt.Sprintf("/blog/%s.html", article.ID)
