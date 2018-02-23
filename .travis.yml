@@ -1,5 +1,10 @@
 language: go
 
+# https://github.com/GoogleCloudPlatform/golang-samples/blob/master/.travis.yml
+before_cache:
+  - rm -rf $GOPATH/src/github.com/kjk/blog
+  - rm -rf $GOPATH/pkg/**/github.com/kjk/blog
+
 branches:
   only:
     - master
