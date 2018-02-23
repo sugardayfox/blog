@@ -13,9 +13,9 @@ import (
 
 	"github.com/kennygrant/sanitize"
 	"github.com/kjk/u"
-	"github.com/mvdan/xurls"
 	"github.com/rs/xid"
 	"github.com/sourcegraph/syntaxhighlight"
+	"mvdan.cc/xurls"
 )
 
 const (

@@ -7,10 +7,35 @@
     ".",
     "formatters/html",
     "lexers",
+    "lexers/a",
+    "lexers/b",
+    "lexers/c",
+    "lexers/d",
+    "lexers/e",
+    "lexers/f",
+    "lexers/g",
+    "lexers/h",
+    "lexers/i",
+    "lexers/internal",
+    "lexers/j",
+    "lexers/k",
+    "lexers/l",
+    "lexers/m",
+    "lexers/n",
+    "lexers/o",
+    "lexers/p",
+    "lexers/q",
+    "lexers/r",
+    "lexers/s",
+    "lexers/t",
+    "lexers/v",
+    "lexers/w",
+    "lexers/x",
+    "lexers/y",
     "styles"
   ]
-  revision = "e0f32fbcb59bc99c521910291b7ba8ecdb17ca34"
-  version = "v0.2.1"
+  revision = "563aadc53c53292c4c1def1b0a547be498bba83e"
+  version = "v0.3.0"
 
 [[projects]]
   branch = "master"
@@ -54,7 +79,7 @@
     "html",
     "parser"
   ]
-  revision = "5d96569c5a0d3cd46d961eddbb61e936e627774c"
+  revision = "9059a41742a293f6d971a28795bd18a0815fc15f"
 
 [[projects]]
   name = "github.com/kennygrant/sanitize"
@@ -85,12 +110,6 @@
   name = "github.com/microcosm-cc/bluemonday"
   packages = ["."]
   revision = "542fd4642604d0d0c26112396ce5b1a9d01eee0b"
-
-[[projects]]
-  name = "github.com/mvdan/xurls"
-  packages = ["."]
-  revision = "d315b61cf6727664f310fa87b3197e9faf2a8513"
-  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/oklog/ulid"
@@ -159,17 +178,23 @@
     "html",
     "html/atom"
   ]
-  revision = "309822c5b9b9f80db67f016069a12628d94fad34"
+  revision = "cbe0f9307d0156177f9dd5dc85da1a31abc5f2fb"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "3dbebcf8efb6a5011a60c2b4591c1022a759af8a"
+  revision = "88d2dcc510266da9f7f8c7f34e1940716cab5f5c"
+
+[[projects]]
+  name = "mvdan.cc/xurls"
+  packages = ["."]
+  revision = "d315b61cf6727664f310fa87b3197e9faf2a8513"
+  version = "v1.1.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "308dde0ee6b345088b35f8d9bb35b835077a4a0861dab2baa8f37aa3b3e342d6"
+  inputs-digest = "45f2edc5f9a1cea96d15d8489bffd8eb0c3dc36160bfa75bffaa1863c24ffde3"
   solver-name = "gps-cdcl"
   solver-version = 1

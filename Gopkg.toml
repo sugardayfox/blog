@@ -1,6 +1,6 @@
 # Gopkg.toml example
 #
-# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
 # for detailed Gopkg.toml documentation.
 #
 # required = ["github.com/user/thing/cmd/thing"]
@@ -27,7 +27,7 @@
 
 [[constraint]]
   name = "github.com/alecthomas/chroma"
-  version = "0.2.1"
+  version = "0.3.0"
 
 [[constraint]]
   branch = "master"
@@ -62,10 +62,6 @@
   name = "github.com/microcosm-cc/bluemonday"
 
 [[constraint]]
-  name = "github.com/mvdan/xurls"
-  version = "1.1.0"
-
-[[constraint]]
   name = "github.com/oklog/ulid"
   version = "0.3.0"
 
@@ -96,6 +92,10 @@
 [[constraint]]
   branch = "master"
   name = "github.com/thomas11/atomgenerator"
+
+[[constraint]]
+  name = "mvdan.cc/xurls"
+  version = "1.1.0"
 
 [prune]
   go-tests = true
