@@ -222,6 +222,7 @@ func runCaddyAndWatch() {
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	parseCmdLineFlags()
+	os.MkdirAll("netlify_static", 0755)
 
 	if flgNewArticleTitle != "" {
 		genNewArticle(flgNewArticleTitle)
