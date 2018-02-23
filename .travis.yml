@@ -1,0 +1,17 @@
+language: go
+
+branches:
+  only:
+    - master
+
+
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
+
+install:
+  - ./s/travis_install.sh
+
+script:
+  - ./s/travis_build.sh
