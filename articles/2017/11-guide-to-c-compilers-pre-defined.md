@@ -75,7 +75,7 @@ Notice the chack has to be: `major > 5 || (major == 5 && minor >= 1)`. If you on
 
 ### clang
 
-`__clang_major__`, `__clang_minar__`, `__clang_patchlevel__`
+`__clang_major__`, `__clang_minor__`, `__clang_patchlevel__`
 
 ### Visual Studio
 
