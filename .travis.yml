@@ -1,18 +1,15 @@
 language: go
-
-# https://github.com/GoogleCloudPlatform/golang-samples/blob/master/.travis.yml
-before_cache:
-  - rm -rf $GOPATH/src/github.com/kjk/blog
-  - rm -rf $GOPATH/pkg/**/github.com/kjk/blog
+go:
+  - "1.10"
 
 branches:
   only:
     - master
 
-cache:
-  directories:
-    - $GOPATH/src
-    - $GOPATH/pkg
+# this downloads and unpacks netlifyctl
+before_install:
+  - wget https://github.com/netlify/netlifyctl/releases/download/v0.3.2/netlifyctl-linux-amd64-0.3.2.tar.gz
+  - tar -xvf netlifyctl-linux-amd64-0.3.2.tar.gz
 
 install:
   - ./s/travis_install.sh
