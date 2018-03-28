@@ -222,7 +222,7 @@ func netlifyBuild() {
 	netlifyAddRewrite("/articles/index.html", "/documents.html")
 	//netlifyAddRewrite("/book/", "/static/documents.html")
 	//netflifyAddTempRedirect("/book/*", "/article/:splat")
-	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org:splat")
+	netflifyAddTempRedirect("/software/sumatrapdf*", "https://www.sumatrapdfreader.org/:splat")
 
 	netlifyExecTemplate("/documents.html", tmplDocuments, nil)
 	netflifyAddTempRedirect("/static/documents.html", "/documents.html")
