@@ -544,45 +544,45 @@ var articleRedirectsTxt = `3|article/Diet.html
 346001|article/Which-technology-for-writing-desktop-software.html
 `
 
-var redirects = map[string]string{
-	"/index.html":                               "/",
-	"/blog":                                     "/",
-	"/blog/":                                    "/",
-	"/kb/serialization-in-c#.html":              "/article/Serialization-in-C.html",
-	"/extremeoptimizations":                     "/extremeoptimizations/index.html",
-	"/extremeoptimizations/":                    "/extremeoptimizations/index.html",
-	"/feed/rss2/atom.xml":                       "/atom.xml",
-	"/feed/rss2/":                               "/atom.xml",
-	"/feed/rss2":                                "/atom.xml",
-	"/feed/":                                    "/atom.xml",
-	"/feed":                                     "/atom.xml",
-	"/feedburner.xml":                           "/atom.xml",
-	"/articles/cocoa-objectivec-reference.html": "/articles/cocoa-reference.html",
-	"/forum_sumatra":                            "https://forum.sumatrapdfreader.org/",
-	"/google6dba371684d43cd6.html":              "/static/google6dba371684d43cd6.html",
-	"/software/15minutes/index.html":            "/software/15minutes.html",
-	"/software/15minutes/":                      "/software/15minutes.html",
-	"/software/fofou":                           "/software/fofou/index.html",
-	"/software/patheditor":                      "/software/patheditor/for-windows.html",
-	"/software/patheditor/":                     "/software/patheditor/for-windows.html",
-	"/software/scdiff/":                         "/software/scdiff.html",
-	"/software/scdiff/index.html":               "/software/scdiff.html",
-	"/free-pdf-reader.html":                     "https://www.sumatrapdfreader.org/free-pdf-reader.html",
-	"/software/sumatra":                         "https://www.sumatrapdfreader.org/free-pdf-reader.html",
-	"/software/sumatrapdf":                      "https://www.sumatrapdfreader.org/free-pdf-reader.html",
-	"/software/sumatrapdf/":                     "https://www.sumatrapdfreader.org/free-pdf-reader.html",
-	"/software/sumatrapdf/index.html":           "https://www.sumatrapdfreader.org/free-pdf-reader.html",
-	"/software/sumatrapdf/download.html":        "https://www.sumatrapdfreader.org/download-free-pdf-viewer.html",
-	"/software/sumatrapdf/prerelase.html":       "https://www.sumatrapdfreader.org/prerelease.html",
-	"/software/volante":                         "/software/volante/database.html",
-	"/software/volante/":                        "/software/volante/database.html",
-	"/software/volante/index.html":              "/software/volante/database.html",
-	"/software/fotofi":                          "/software/fotofi/free-stock-photos.html",
-	"/software/fotofi/":                         "/software/fotofi/free-stock-photos.html",
-	"/software/fotofi/index.html":               "/software/fotofi/free-stock-photos.html",
-	"/static/software.html":                     "/software/index.html",
-	"/static/krzysztof.html":                    "/resume.html",
-	"/static/resume.html":                       "/resume.html",
+var redirects = [][]string{
+	{"/index.html", "/"},
+	{"/blog", "/"},
+	{"/blog/", "/"},
+	{"/kb/serialization-in-c#.html", "/article/Serialization-in-C.html"},
+	{"/extremeoptimizations", "/extremeoptimizations/index.html"},
+	{"/extremeoptimizations/", "/extremeoptimizations/index.html"},
+	{"/feed/rss2/atom.xml", "/atom.xml"},
+	{"/feed/rss2/", "/atom.xml"},
+	{"/feed/rss2", "/atom.xml"},
+	{"/feed/", "/atom.xml"},
+	{"/feed", "/atom.xml"},
+	{"/feedburner.xml", "/atom.xml"},
+	{"/articles/cocoa-objectivec-reference.html", "/articles/cocoa-reference.html"},
+	{"/forum_sumatra", "https://forum.sumatrapdfreader.org/"},
+	{"/google6dba371684d43cd6.html", "/static/google6dba371684d43cd6.html"},
+	{"/software/15minutes/index.html", "/software/15minutes.html"},
+	{"/software/15minutes/", "/software/15minutes.html"},
+	{"/software/fofou", "/software/fofou/index.html"},
+	{"/software/patheditor", "/software/patheditor/for-windows.html"},
+	{"/software/patheditor/", "/software/patheditor/for-windows.html"},
+	{"/software/scdiff/", "/software/scdiff.html"},
+	{"/software/scdiff/index.html", "/software/scdiff.html"},
+	{"/free-pdf-reader.html", "https://www.sumatrapdfreader.org/free-pdf-reader.html"},
+	{"/software/sumatra", "https://www.sumatrapdfreader.org/free-pdf-reader.html"},
+	{"/software/sumatrapdf", "https://www.sumatrapdfreader.org/free-pdf-reader.html"},
+	{"/software/sumatrapdf/", "https://www.sumatrapdfreader.org/free-pdf-reader.html"},
+	{"/software/sumatrapdf/index.html", "https://www.sumatrapdfreader.org/free-pdf-reader.html"},
+	{"/software/sumatrapdf/download.html", "https://www.sumatrapdfreader.org/download-free-pdf-viewer.html"},
+	{"/software/sumatrapdf/prerelase.html", "https://www.sumatrapdfreader.org/prerelease.html"},
+	{"/software/volante", "/software/volante/database.html"},
+	{"/software/volante/", "/software/volante/database.html"},
+	{"/software/volante/index.html", "/software/volante/database.html"},
+	{"/software/fotofi", "/software/fotofi/free-stock-photos.html"},
+	{"/software/fotofi/", "/software/fotofi/free-stock-photos.html"},
+	{"/software/fotofi/index.html", "/software/fotofi/free-stock-photos.html"},
+	{"/static/software.html", "/software/index.html"},
+	{"/static/krzysztof.html", "/resume.html"},
+	{"/static/resume.html", "/resume.html"},
 }
 
 var articleRedirects = make(map[string]string)
@@ -643,7 +643,9 @@ func netflifyAddPermRedirect(from, to string) {
 }
 
 func netlifyAddStaticRedirects() {
-	for from, to := range redirects {
+	for _, redirect := range redirects {
+		from := redirect[0]
+		to := redirect[1]
 		netflifyAddTempRedirect(from, to)
 	}
 }
