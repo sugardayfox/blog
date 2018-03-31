@@ -10,7 +10,7 @@ Collection: go-cookbook
 Description: Survey of 7 libraries for generating good, unique ids in Go.
 ---
 
-Imagine you're writing a [note taking](http://quicknotes.io) application.
+Imagine you're writing a [note taking](https://github.com/kjk/quicknotes) application.
 
 Each note needs a unique id.
 

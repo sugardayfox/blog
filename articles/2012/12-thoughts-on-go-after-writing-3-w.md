@@ -24,7 +24,7 @@ Of the 4 websites, [AppTranslator](http://www.apptranslator.org) is a
 web service for crowd-sourcing translations for software. It was written
 completely from scratch.
 
-[QuickNotes](http://quicknotes.io/) is a note-taking application. Also
+[QuickNotes](https://github.com/kjk/quicknotes) is a note-taking application. Also
 written from scratch.
 
 [Fofou](http://forums.fofou.org) is a simple forum. It is a port of an

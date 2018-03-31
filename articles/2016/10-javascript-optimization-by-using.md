@@ -11,7 +11,7 @@ Best optimizations are achievied by thinking about a problem holistically.
 
 In this article I describe an optimization that uses arrays instead of classes while providing a class API for accessing data.
 
-Imagine you're building a web-based [note taking application](https://quicknotes.io).
+Imagine you're building a web-based [note taking application](https://github.com/kjk/quicknotes).
 
 It uses modern, single-page architecture. Front-end is written in React and backend provides JSON data to React.
 
@@ -68,7 +68,7 @@ If you know how gzip compression works you might protest that our effort to
 remove property names is mostly futile because gzip is very good at removing
 such redundancies.
 
-I benchmarked [quicknotes.io](http://quicknotes.io) using my
+I benchmarked [QuickNotes](https://github.com/kjk/quicknotes) using my
 own notes and found that even after compression the size difference of two
 versions is ~50%. This might be a difference between a browser
 downloading 150 kB of data vs. 300 kB.

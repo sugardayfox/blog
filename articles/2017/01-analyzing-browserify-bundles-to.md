@@ -90,7 +90,7 @@ How does it help in practice? Here are 2 examples of how I reduced JavaScript bu
 
 ### bloated highlight.js
 
-In [QuickNotes](https://quicknotes.io) I use [highlight.js](https://highlightjs.org/) library to do syntax highlighting for code snippets.
+In [QuickNotes](https://github.com/kjk/quicknotes) I use [highlight.js](https://highlightjs.org/) library to do syntax highlighting for code snippets.
 
 Looking at output of source-map-explorer I noticed that highlight.js is
 476 kB in size. That seemed excessive.

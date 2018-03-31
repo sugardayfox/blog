@@ -298,14 +298,12 @@ Id: b5i0apm41rb0009ik8f0
 2017-07-09
 Id: b5h9oa1642d0009t1pq0
 #did
-* polished https://quicknotes.io/n/1Ll7-rotate-log-files-daily-in-go
 * testing https://github.com/lxn/walk for writing Windows programs in Go. Rewrote indexing part of Find Files
 
 2017-07-08
 Id: b5gjb3ck1jqg00a74m6g
 
 #did
-* more or less finished https://quicknotes.io/n/vEja-embedding-build-number-in-go-executable
 * have draft articles on the blog so that I can link to them and they are indexed but not shown on index page
 * seriously improved serialization speed of https://github.com/kjk/siser
 
@@ -313,7 +311,6 @@ Id: b5gjb3ck1jqg00a74m6g
 Id: b5g73k4k1jqg00a74lm0
 
 #did
-* worked on https://quicknotes.io/n/w4re-using-mysql-in-docker-for-local-testing-in-go
 * tweaked https://blog.kowalczyk.info/article/5/blueprint-for-deploying-web-apps-on-coreos.html
 
 2017-07-06
@@ -814,7 +811,7 @@ Id: b4vlaqf8m63000aqbjog
 * posted https://www.reddit.com/r/golang/comments/6gtt61/advanced_command_execution_in_go_with_osexec/
 * tweaked blog css to be readable on mobile. Still not great on my Nexus 5. I suck at CSS.
 * https://audienceops.com/resources/videos/sell-to-strangers/ #watched
-* quicknotes.io: fixed a bug of updating CreatedAt of note when updating existing note
+* https://github.com/kjk/quicknotes: fixed a bug of updating CreatedAt of note when updating existing note
 
 2017-06-11
 Id: b4uufok4qnvg00eh2kbg
@@ -871,8 +868,8 @@ Good example of upselling to a better version: https://www.spyfu.com
 
 Id: b4uuffk4qnvg00eh2kb0
 #did
-* https://quicknotes.io: add Id: and Tag: when exporting /raw/n raw note
-* https://quicknotes.io: redirect http => https
+* https://github.com/kjk/quicknotes: add Id: and Tag: when exporting /raw/n raw note
+* https://github.com/kjk/quicknotes: redirect http => https
 * posted https://www.indiehackers.com/forum/post/-KmAWdcuUKZ0d3WjQTw1?commentId=-KmODyuvCnN_0ibCoIe-
 * updated https://github.com/sumatrapdfreader/sumatrapdf/wiki to point to sumatra website, not notion
 * posted https://news.ycombinator.com/item?id=14534154
