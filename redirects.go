@@ -563,7 +563,7 @@ var redirects = [][]string{
 	{"/software/15minutes/index.html", "/software/15minutes.html"},
 	{"/software/15minutes/", "/software/15minutes.html"},
 	{"/software/fofou", "/software/fofou/index.html"},
-	{"/software/dbhero", "/software/dbhero/"},
+	{"/software/dbhero", "/software/dbhero/index.html"},
 	{"/software/patheditor", "/software/patheditor/for-windows.html"},
 	{"/software/patheditor/", "/software/patheditor/for-windows.html"},
 	{"/software/scdiff/", "/software/scdiff.html"},
