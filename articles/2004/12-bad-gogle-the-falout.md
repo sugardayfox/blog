@@ -3,9 +3,7 @@ Title: Bad Google - the fallout
 Date: 2004-12-30T23:32:08-08:00
 Format: Markdown
 --------------
-The good thing about using [bloglines.com](http://bloglines.com/) is
-that you can easily track who's commenting on your piece. There are
-quite a few and my bloglines subscription count jumped from 58 to 66.
+The good thing about using Bloglines is that you can easily track who's commenting on your piece. There are quite a few and my bloglines subscription count jumped from 58 to 66.
 
 I probably owe [Dare](http://www.25hoursaday.com/weblog/) the popularity
 of this post. He [mentioned it on his
@@ -55,5 +53,3 @@ describe.
 
 The reason for incredible growth of open source is not yet understood
 and usually misrepresented.
-
-
