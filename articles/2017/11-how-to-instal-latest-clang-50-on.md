@@ -1,6 +1,6 @@
 ---
 Id: 20
-Title: How to install latest clang (5.0) on Ubuntu 16.04 (xenial) / WSL
+Title: How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL
 Date: 2017-11-20T20:37:02-08:00
 Tags: unix
 Format: Markdown
@@ -10,16 +10,16 @@ This article describes installing latest clang (llvm) on Ubuntu 16.04 (Xenial), 
 
 Ubuntu 16.04 ships with relatively old clang. Running `sudo apt-get install clang` installs version 3.8.
 
-To install latest version (currently 5.0) run:
+To install latest version (currently 6.0) run:
 
 ```bash
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
-sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main"
+sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main"
 sudo apt-get update
-sudo apt-get install -y clang-5.0
+sudo apt-get install -y clang-6.0
 ```
 
-`clang-5.0` is the name of the executable (and so is `lldb-5.0` etc.).
+`clang-6.0` is the name of the executable (and so is `lldb-6.0` etc.).
 
 ## How it works
 
@@ -40,7 +40,7 @@ deb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe 
 
 Ubuntu only provides a relatively old clang 3.8. Luckily, Apple creates deb packages and maintains a server for all llvm/clang releases and most Ubuntu distros.
 
-`sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main"` adds llvm's server for Ubuntu 16.04 to `/etc/apt/sources.list`.
+`sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main"` adds llvm's server for Ubuntu 16.04 to `/etc/apt/sources.list`.
 
 `sudo apt-get update` downloads the latest list of packages from all servers, including the one we just added
 
@@ -48,7 +48,7 @@ For security, packages are signed with private keys. You need public key to veri
 
 `wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -` downloads llvm's server public key.
 
-`sudo apt-get -y clang-5.0` installs newly available package `clang-5.0`.
+`sudo apt-get -y install clang-6.0` installs newly available package `clang-6.0`.
 
 Flag `-y` disables confirmation prompt.
 
@@ -56,20 +56,20 @@ Flag `-y` disables confirmation prompt.
 
 There is a new llvm/clang release every 6 months. What to do for newer version?
 
-Visit https://apt.llvm.org/ and locate the equivalent of `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main` for desired combo of clang/Ubuntu and correspondingly update `apt-add-repository ...` line in the above instructions.
+Visit https://apt.llvm.org/ and locate the equivalent of `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main` for desired combo of clang/Ubuntu and correspondingly update `apt-add-repository ...` line in the above instructions.
 
 ## Making latest version available as clang
 
-This version is installed side-by-side with the default clang 3.8. To run it, you have to explicitly say `clang-5.0`. `clang` will either refer to 3.8 (if you've installed it) or nothing at all.
+This version is installed side-by-side with the default clang 3.8. To run it, you have to explicitly say `clang-6.0`. `clang` will either refer to 3.8 (if you've installed it) or nothing at all.
 
-You can reconfigure the system so that `clang` refers to clang 5:
+You can reconfigure the system so that `clang` refers to clang 6:
 
 ```bash
 update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100
-update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-5.0 1000
+update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-6.0 1000
 update-alternatives --install /usr/bin/clang++ clang /usr/bin/clang-3.8 100
 update-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 100
-update-alternatives --install /usr/bin/clang clang /usr/bin/clang-5.0 1000
+update-alternatives --install /usr/bin/clang clang /usr/bin/clang-6.0 1000
 update-alternatives --config clang
 update-alternatives --config clang++
 ```
