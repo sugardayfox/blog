@@ -7,7 +7,7 @@ Woody Allen said that 90% of success is showing up. [This
 article](http://www.nytimes.com/2011/05/08/technology/08class.html) is a
 proof of that.
 
-In 2007 a Standford professor gave his student a taks: build a Facebook
+In 2007 a Standford professor gave his student a task: build a Facebook
 application and get people to use it.
 
 The result? Some applications became so popular that students made good
