@@ -20,11 +20,11 @@ My desired features were:
 * allows for simple and efficient implementation
 
 Here are some most popular available options and why they don't exactly fit the bill:
-* csv - efficient but uses fixed records and not very readable if there are many fields on a single line
+* csv - efficient but uses fixed records; not very readable if there are many fields on a single line
 * json - not very readable
-* protocol buffers - binary so not human readable, needs up-front scheme
+* protocol buffers - binary so unreadable; needs up-front scheme
 
-I designed and implemented my own format in [siser](https://github.com/kjk/siser) library.
+I designed and implemented my own format in package [siser](https://github.com/kjk/siser) (which stands for Simple Serialization).
 
 You'll not be surprised by how it looks:
 
@@ -36,17 +36,17 @@ this is large data, 13789 bytes in size...
 ---
 ```
 
-It's your standard key/value serialization with one neat feature: support for large data (e.g. an image or long text).
+It's a typical key/value serialization with one neat feature: support for large data (e.g. an image or long text).
 
 The format is line oriented. Each line is `${key}: ${value}\n`.
 
-If the value is larger than 120 bytes or is not ascii text (bytes are outside of 32-127 range), we serialize it as large value:
+If the value is larger than 120 bytes or is not ascii text (with bytes outside of 32-127 range), I serialize it as large value:
 ```
 ${key}:+${value_length}\n
 ${value}\n
 ```
 
-To separate records, we use `---\n`.
+To separate records I use `---\n`.
 
 I use this format for 2 main purposes:
 * structured logging to help in debugging
