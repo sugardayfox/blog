@@ -1,10 +1,9 @@
----
 Id: 9
 Title: Tutorial for github.com/kjk/flex Go package (implementation of CSS flexbox algorithm)
 Date: 2017-08-04T18:32:51-07:00
 Format: Markdown
 Tags: go
----
+--------------
 
 Package [github.com/kjk/flex](https://github.com/kjk/flex) implements [CSS flexbox](https://www.w3.org/TR/css-flexbox-1/) layout algorithm in Go.
 

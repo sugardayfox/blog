@@ -1,10 +1,9 @@
----
 Id: 3
 Title: Analyzing browserify bundles to minimize JavaScript bundle size
 Date: 2017-01-04T22:02:27-08:00
 Format: Markdown
 Tags: programming, javascript
----
+--------------
 When building web apps, it's important to keep the size of JavaScript code delivered to the browser as small as possible.
 
 I write in ES6 or TypeScript then use browserify to combine all JavaScript code

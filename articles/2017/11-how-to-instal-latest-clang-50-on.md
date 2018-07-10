@@ -1,10 +1,9 @@
----
 Id: 20
 Title: How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL
 Date: 2017-11-20T20:37:02-08:00
 Tags: unix
 Format: Markdown
----
+--------------
 
 This article describes installing latest clang (llvm) on Ubuntu 16.04 (Xenial), which is also the default distro for [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about) (WSL).
 

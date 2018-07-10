@@ -1,4 +1,3 @@
----
 Id: wjRD
 Title: Solo founders with profitable businesses, collected stories
 Format: Markdown
@@ -6,7 +5,7 @@ Tags: published, business
 CreatedAt: 2017-06-23T23:44:19Z
 UpdatedAt: 2017-07-03T02:10:34Z
 HeaderImage: gfx/headers/header-03.jpg
----
+--------------
 
 People sometimes wonder: can I have a successful business as a single founder?
 

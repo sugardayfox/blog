@@ -1,10 +1,9 @@
----
 Id: 19
 Title: Guide to predefined macros in C++ compilers (gcc, clang, msvc etc.)
 Date: 2017-11-07T17:07:45-08:00
 Format: Markdown
 Tags: programming, c++
----
+--------------
 
 When writing portable C++ code you need to write conditional code that depends on compiler used or the OS for which the code is written.
 

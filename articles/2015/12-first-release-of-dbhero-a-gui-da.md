@@ -1,10 +1,9 @@
----
 Id: 17
 Title: First release of dbHero - a GUI database client
 Date: 2015-12-17T12:10:02-08:00
 Format: Markdown
 Tags: dbhero
----
+--------------
 
 Releasing a first version of a new program is a first step in a hopefully
 long journey.

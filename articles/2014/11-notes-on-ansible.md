@@ -1,11 +1,11 @@
----
 Id: 10000
 Title: Notes on Ansible
 Date: 2014-11-27T22:59:50-08:00
 Tags: programming
 Status: hidden
 Format: Markdown
----
+--------------
+
 Ansible is a system for provisioning servers and automatic deployments.
 
 I recently used it for deploying a website written in Go and it worked well for

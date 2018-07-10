@@ -1,11 +1,10 @@
----
 Id: 18
 Title: Optimizing JavaScript by using arrays instead of objects
 Date: 2016-10-23T00:43:56-07:00
 Tags: programming, javascript
 Format: Markdown
 HeaderImage: gfx/headers/header-05.jpg
----
+--------------
 
 Best optimizations are achievied by thinking about a problem holistically.
 

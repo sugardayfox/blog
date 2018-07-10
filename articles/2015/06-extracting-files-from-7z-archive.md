@@ -1,11 +1,10 @@
----
 Id: 16
 Title: Extracting files from .7z archives in Go
 Date: 2015-06-03T17:45:57-07:00
 Format: Markdown
 Tags: go, programming
 Collection: go-cookbook
----
+--------------
 
 For a project written in Go I needed to access files inside .7z archive.
 

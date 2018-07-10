@@ -1,4 +1,3 @@
----
 Id: 13
 Title: Improving speed of SMAZ compressor by 2.6x/1.5x
 Date: 2014-12-11T00:19:49-08:00
@@ -6,7 +5,7 @@ Format: Markdown
 Tags: go, programming
 HeaderImage: gfx/headers/header-08.jpg
 Collection: go-cookbook
----
+--------------
 
 I was testing fast compressors in pure Go. One of them was [Go implementation](https://github.com/kjk/smaz)
 of [SMAZ algorithm](https://github.com/antirez/smaz) for compressing small

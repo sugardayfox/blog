@@ -1,10 +1,9 @@
----
 Id: 14
 Title: Go package for better guid generation
 Date: 2015-02-12T17:17:01-08:00
 Tags: go, programming
 Format: Markdown
----
+--------------
 The need to generate a globally unique identifier comes up often.
 
 The way described in [RFC 4122](https://tools.ietf.org/html/rfc4122) is popular but it can be done better.

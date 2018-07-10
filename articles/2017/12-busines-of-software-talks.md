@@ -1,11 +1,10 @@
----
 Id: 22
 Title: Business of Software talks
 Date: 2017-12-26T13:40:16-08:00
 Format: Markdown
 Status: notimportant
 Tags: business
----
+--------------
 # Business of Software videos
 
 Business of Software is a [conference](http://businessofsoftware.org/) for people interested in running software businesses.

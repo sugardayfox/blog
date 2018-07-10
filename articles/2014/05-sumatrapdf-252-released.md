@@ -1,10 +1,9 @@
----
 Id: 10
 Title: SumatraPDF 2.5.2 released
 Tags: releasenotes,sumatra
 Date: 2014-05-14T22:42:55-07:00
 Format: Markdown
----
+--------------
 We, [the SumatraPDF developers](http://www.ohloh.net/p/4623/contributors?sort=latest_commit&time_span=30+days) have released a version 2.5.2 of Sumatra, a PDF and ebook reader for Windows.
 
 Changes in this release:

@@ -1,10 +1,9 @@
----
 Id: 21
 Title: 57 MicroConf videos for self-funded software businesses
 Date: 2017-12-24T20:09:15-08:00
 Format: Markdown
 Tags: business
----
+--------------
 
 [MicroConf](http://www.microconf.com/) is a conference for small/indie/self-funded software businesses. Many of their talks are [available on Vimeo](https://vimeo.com/user12790628) but not well indexed. They have a [better index](http://www.microconf.com/past-videos/) (and [another here](http://www.microconf.com/growth/past-videos/)) on their website, but also not great.
 
