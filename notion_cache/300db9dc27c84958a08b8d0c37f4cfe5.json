@@ -392,8 +392,8 @@
     },
     "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531736997385,
-    "parent_id": "cf9fa7dd-b245-42a0-b929-d5a276b3afe0",
+    "last_edited_time": 1531879194612,
+    "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
     "parent_table": "space",
     "permissions": [
       {
@@ -402,19 +402,19 @@
         "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
       },
       {
-        "role": "reader",
+        "role": "comment_only",
         "type": "public_permission"
       }
     ],
     "properties": {
       "title": [
         [
-          "blog"
+          "blog posts"
         ]
       ]
     },
     "type": "page",
-    "version": 1333,
+    "version": 1362,
     "content_resolved": [
       {
         "alive": true,
@@ -25161,7 +25161,7 @@
         "version": 5
       }
     ],
-    "title": "blog",
+    "title": "blog posts",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -25182,7 +25182,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 9
+      "version": 10
     }
   ],
   "Collections": null,
