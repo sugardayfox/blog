@@ -1,0 +1,295 @@
+{
+  "ID": "2bb774c0-845f-438a-a586-82f628e23829",
+  "Page": {
+    "alive": true,
+    "content": [
+      "913cf672-a7b3-491a-8adf-c9974144a1e0",
+      "82e1d60c-9e49-48f2-aab8-76e0ae08ba35",
+      "b7f9737a-90af-476d-a2df-60fcf67746df",
+      "38a4c011-4c03-42ce-9c42-923308c02c8e",
+      "eeef46e2-9b80-459b-9256-586759833871",
+      "d8ab675a-6d29-47a6-8f80-673869505fbd",
+      "d405f693-5dcd-4f56-a135-d5de40b667a7"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1509588696144,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "2bb774c0-845f-438a-a586-82f628e23829",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1520294664396,
+    "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Cross-compiling from mac"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 2,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509588705500,
+        "id": "913cf672-a7b3-491a-8adf-c9974144a1e0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509588705500,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use mingw on mac: "
+            ],
+            [
+              "brew install mingw-w64",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Use mingw on mac: "
+          },
+          {
+            "Text": "brew install mingw-w64",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509588722529,
+        "id": "82e1d60c-9e49-48f2-aab8-76e0ae08ba35",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509588722529,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Other options:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Other options:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509588731184,
+        "id": "b7f9737a-90af-476d-a2df-60fcf67746df",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509588731184,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://stackoverflow.com/questions/23248989/clang-c-cross-compiler-generating-windows-executable-from-mac-os-x",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/23248989/clang-c-cross-compiler-generating-windows-executable-from-mac-os-x"
+                ]
+              ]
+            ],
+            [
+              " : describes llvm setup"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://stackoverflow.com/questions/23248989/clang-c-cross-compiler-generating-windows-executable-from-mac-os-x",
+            "Link": "https://stackoverflow.com/questions/23248989/clang-c-cross-compiler-generating-windows-executable-from-mac-os-x"
+          },
+          {
+            "Text": " : describes llvm setup"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509588739025,
+        "id": "38a4c011-4c03-42ce-9c42-923308c02c8e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509588739025,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://stackoverflow.com/questions/7708156/cross-compiling-on-mac-for-windows",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/7708156/cross-compiling-on-mac-for-windows"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://stackoverflow.com/questions/7708156/cross-compiling-on-mac-for-windows",
+            "Link": "https://stackoverflow.com/questions/7708156/cross-compiling-on-mac-for-windows"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509588815822,
+        "id": "eeef46e2-9b80-459b-9256-586759833871",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509588815822,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/dockcross/dockcross",
+              [
+                [
+                  "a",
+                  "https://github.com/dockcross/dockcross"
+                ]
+              ]
+            ],
+            [
+              " : cross-compiler docker image that includes windows cross-compiler"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/dockcross/dockcross",
+            "Link": "https://github.com/dockcross/dockcross"
+          },
+          {
+            "Text": " : cross-compiler docker image that includes windows cross-compiler"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509589810400,
+        "id": "d8ab675a-6d29-47a6-8f80-673869505fbd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509589810400,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://mxe.cc/",
+              [
+                [
+                  "a",
+                  "http://mxe.cc/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://mxe.cc/",
+            "Link": "http://mxe.cc/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1520294664396,
+        "id": "d405f693-5dcd-4f56-a135-d5de40b667a7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1520294664981,
+        "parent_id": "2bb774c0-845f-438a-a586-82f628e23829",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/martell/mingw-w64-clang",
+              [
+                [
+                  "a",
+                  "https://github.com/martell/mingw-w64-clang"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://github.com/martell/mingw-w64-clang",
+            "Link": "https://github.com/martell/mingw-w64-clang"
+          }
+        ]
+      }
+    ],
+    "title": "Cross-compiling from mac",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

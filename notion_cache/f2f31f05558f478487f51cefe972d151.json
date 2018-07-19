@@ -1,0 +1,297 @@
+{
+  "ID": "f2f31f05-558f-4784-87f5-1cefe972d151",
+  "Page": {
+    "alive": true,
+    "content": [
+      "54bcd211-76c4-407d-a7b4-dfb0d301a49b",
+      "bf3fe775-580a-46ba-bf81-a75c69ba0a8b",
+      "b14fa7a5-8ffc-4221-b48e-4218d9733496",
+      "a15fd58f-65bf-465a-9de4-bef15d310360",
+      "55336fa1-31be-470b-bc07-b5eae5ffbe5f",
+      "4aaf5941-59d1-44ea-85b7-962586775f90",
+      "a5c26030-c824-4382-8dfd-31a81d936d3d",
+      "6fbafafa-cd82-43f4-8a20-72937c8c24e1"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1503651368221,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530068733995,
+    "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "djvu format"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 6,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503651368221,
+        "id": "54bcd211-76c4-407d-a7b4-dfb0d301a49b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503651368221,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503651369873,
+        "id": "bf3fe775-580a-46ba-bf81-a75c69ba0a8b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503651369873,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/RussCoder/djvujs",
+              [
+                [
+                  "a",
+                  "https://github.com/RussCoder/djvujs"
+                ]
+              ]
+            ],
+            [
+              " : pure JS implementation, unknown license"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/RussCoder/djvujs",
+            "Link": "https://github.com/RussCoder/djvujs"
+          },
+          {
+            "Text": " : pure JS implementation, unknown license"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503651377142,
+        "id": "b14fa7a5-8ffc-4221-b48e-4218d9733496",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503651377142,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/DjvuNet/DjvuNet",
+              [
+                [
+                  "a",
+                  "https://github.com/DjvuNet/DjvuNet"
+                ]
+              ]
+            ],
+            [
+              " : C# implementation, MIT license"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/DjvuNet/DjvuNet",
+            "Link": "https://github.com/DjvuNet/DjvuNet"
+          },
+          {
+            "Text": " : C# implementation, MIT license"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512369286833,
+        "id": "a15fd58f-65bf-465a-9de4-bef15d310360",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512369286833,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://djvu.sourceforge.net/",
+              [
+                [
+                  "a",
+                  "http://djvu.sourceforge.net/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://djvu.sourceforge.net/",
+            "Link": "http://djvu.sourceforge.net/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512369300504,
+        "id": "55336fa1-31be-470b-bc07-b5eae5ffbe5f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512369300504,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Telavian/DjvuNet",
+              [
+                [
+                  "a",
+                  "https://github.com/Telavian/DjvuNet"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/Telavian/DjvuNet",
+            "Link": "https://github.com/Telavian/DjvuNet"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512369306992,
+        "id": "4aaf5941-59d1-44ea-85b7-962586775f90",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512369306992,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/barak/djvulibre",
+              [
+                [
+                  "a",
+                  "https://github.com/barak/djvulibre"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/barak/djvulibre",
+            "Link": "https://github.com/barak/djvulibre"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512369312672,
+        "id": "a5c26030-c824-4382-8dfd-31a81d936d3d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512369312672,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/ccxvii/djvudec",
+              [
+                [
+                  "a",
+                  "https://github.com/ccxvii/djvudec"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/ccxvii/djvudec",
+            "Link": "https://github.com/ccxvii/djvudec"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503651384300,
+        "id": "6fbafafa-cd82-43f4-8a20-72937c8c24e1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503651384300,
+        "parent_id": "f2f31f05-558f-4784-87f5-1cefe972d151",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "djvu format",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

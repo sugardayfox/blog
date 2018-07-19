@@ -1,0 +1,228 @@
+{
+  "ID": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+  "Page": {
+    "alive": true,
+    "content": [
+      "4556c7df-e3de-415e-bb23-91315250a691",
+      "b94a3c4f-9ba3-466b-825f-d9726cd6a470",
+      "1e253dfe-7fd9-4ee8-ac00-a4599b90f648",
+      "07990fa9-bbeb-4616-8e7c-b520019b348a",
+      "8248ecd0-b93b-466c-a08f-22ee9a077ec4"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512531668874,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1512531668874,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "broken link checking"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512531683006,
+        "id": "4556c7df-e3de-415e-bb23-91315250a691",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512531683006,
+        "parent_id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Using broken-link-checker from npm"
+            ]
+          ]
+        },
+        "type": "header",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Using broken-link-checker from npm"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512531741135,
+        "id": "b94a3c4f-9ba3-466b-825f-d9726cd6a470",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512531741135,
+        "parent_id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "To install: "
+            ],
+            [
+              "npm install -g broken-link-checker",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "To install: "
+          },
+          {
+            "Text": "npm install -g broken-link-checker",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512531748313,
+        "id": "1e253dfe-7fd9-4ee8-ac00-a4599b90f648",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512531748313,
+        "parent_id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "To run: "
+            ],
+            [
+              "broken-link-checker -ro ",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "https://blog.kowalczyk.info",
+              [
+                [
+                  "c"
+                ],
+                [
+                  "a",
+                  "https://blog.kowalczyk.info"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "To run: "
+          },
+          {
+            "Text": "broken-link-checker -ro ",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "https://blog.kowalczyk.info",
+            "AttrFlags": 2,
+            "Link": "https://blog.kowalczyk.info"
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512531767712,
+        "id": "07990fa9-bbeb-4616-8e7c-b520019b348a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512531767712,
+        "parent_id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.npmjs.com/package/broken-link-checker",
+              [
+                [
+                  "a",
+                  "https://www.npmjs.com/package/broken-link-checker"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://www.npmjs.com/package/broken-link-checker",
+            "Link": "https://www.npmjs.com/package/broken-link-checker"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512531807182,
+        "id": "8248ecd0-b93b-466c-a08f-22ee9a077ec4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512531807182,
+        "parent_id": "921e0268-afd1-4d8c-8d00-630d0a4056ff",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "broken link checking",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

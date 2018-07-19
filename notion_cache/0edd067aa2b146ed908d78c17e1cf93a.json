@@ -1,0 +1,265 @@
+{
+  "ID": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+  "Page": {
+    "alive": true,
+    "content": [
+      "feea79c9-3d72-4844-b51a-75557ff71fdf",
+      "45e2ce3e-7743-4737-a4cb-8080d44fbef1",
+      "16bb8266-985a-4422-abae-9503efeb8691",
+      "35501c56-1493-47f5-a674-42af535dcfd7",
+      "e9d23bc8-37c8-4d0b-bd54-8494ab5f50c4",
+      "75c4c9ab-f774-4ddc-aab6-422ef7d7c2ae",
+      "0e100cbb-9d2e-4780-a014-b7b4bd4238f6",
+      "b82e66be-57e3-4def-a116-c408e3f42c55"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512294836659,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1522051963462,
+    "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "compression"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 2,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294859486,
+        "id": "feea79c9-3d72-4844-b51a-75557ff71fdf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294859486,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294860294,
+        "id": "45e2ce3e-7743-4737-a4cb-8080d44fbef1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294860294,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Libraries related to compression:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Libraries related to compression:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294860294,
+        "id": "16bb8266-985a-4422-abae-9503efeb8691",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294860294,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/maxogden/extract-zip",
+              [
+                [
+                  "a",
+                  "https://github.com/maxogden/extract-zip"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/maxogden/extract-zip",
+            "Link": "https://github.com/maxogden/extract-zip"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294860294,
+        "id": "35501c56-1493-47f5-a674-42af535dcfd7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294860294,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/zenparsing/ziptar",
+              [
+                [
+                  "a",
+                  "https://github.com/zenparsing/ziptar"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/zenparsing/ziptar",
+            "Link": "https://github.com/zenparsing/ziptar"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1522051963462,
+        "id": "e9d23bc8-37c8-4d0b-bd54-8494ab5f50c4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1522051970444,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/imaya/zlib.js",
+              [
+                [
+                  "a",
+                  "https://github.com/imaya/zlib.js"
+                ]
+              ]
+            ],
+            [
+              " : zip extractor"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 48,
+        "inline_content": [
+          {
+            "Text": "https://github.com/imaya/zlib.js",
+            "Link": "https://github.com/imaya/zlib.js"
+          },
+          {
+            "Text": " : zip extractor"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294860294,
+        "id": "75c4c9ab-f774-4ddc-aab6-422ef7d7c2ae",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294860294,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Node only:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Node only:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294860294,
+        "id": "0e100cbb-9d2e-4780-a014-b7b4bd4238f6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294860294,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/thejoshwolfe/yauzl",
+              [
+                [
+                  "a",
+                  "https://github.com/thejoshwolfe/yauzl"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/thejoshwolfe/yauzl",
+            "Link": "https://github.com/thejoshwolfe/yauzl"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294861709,
+        "id": "b82e66be-57e3-4def-a116-c408e3f42c55",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294861709,
+        "parent_id": "0edd067a-a2b1-46ed-908d-78c17e1cf93a",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "compression",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

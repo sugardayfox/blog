@@ -1,0 +1,821 @@
+{
+  "ID": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+  "Page": {
+    "alive": true,
+    "content": [
+      "3db74fd6-ce6c-47f6-b627-489746b7aa64",
+      "56ba4239-08f8-4c33-8089-727af09f72e7",
+      "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+      "18a57cde-1e5e-44fe-8cee-6c658b0afc8e",
+      "e1afa8aa-a0af-4226-bcbc-85417095460e",
+      "5b3c8405-0954-4f52-a47a-870caebcd9a8",
+      "3be6f7c8-c6ff-4055-b796-0a404ee22f30",
+      "2d23437e-7fe5-4a9e-860e-5fcdf58fbaf7",
+      "d38a5bee-aaf7-4f05-8352-1cecaec67b6d",
+      "f657a2b0-a494-4ed5-9b18-3b9c03c47fbb",
+      "20fb5c1b-76bd-4091-be25-46cf09323a47"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531880232819,
+    "format": {
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531887650327,
+    "parent_id": "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "devlog 2017-12 • 10 d"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 106,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531880238039,
+        "id": "3db74fd6-ce6c-47f6-b627-489746b7aa64",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880238051,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      },
+      {
+        "alive": true,
+        "content": [
+          "3b92e78c-6514-4940-8f3e-1f9a8554bc23"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194213,
+        "id": "56ba4239-08f8-4c33-8089-727af09f72e7",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880247763,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-22"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 16,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204214782,
+            "id": "3b92e78c-6514-4940-8f3e-1f9a8554bc23",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879705402,
+            "parent_id": "56ba4239-08f8-4c33-8089-727af09f72e7",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog: added -watch option that rebuilds netlify_static when source files change. Makes easier to test changes locally."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "blog: added -watch option that rebuilds netlify_static when source files change. Makes easier to test changes locally."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-22"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "df4184cf-b66e-44ae-8c34-1257d122a30f",
+          "6297979c-02ac-4505-a9e5-2236270f56c3",
+          "53021fd2-beea-47ce-aa1c-f0af87aa254d",
+          "dd699c2a-d1db-44b1-863e-552947a393e3",
+          "81a3ce97-5ad6-4d73-97bf-2d48e05da07b",
+          "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
+          "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194220,
+        "id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880247763,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-18"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 27,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204229565,
+            "id": "df4184cf-b66e-44ae-8c34-1257d122a30f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "#idea"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "#idea"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194221,
+            "id": "6297979c-02ac-4505-a9e5-2236270f56c3",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887597848,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Self-hosted blog on "
+                ],
+                [
+                  "https://firebase.google.com/",
+                  [
+                    [
+                      "a",
+                      "https://firebase.google.com/"
+                    ]
+                  ]
+                ],
+                [
+                  "."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "Self-hosted blog on "
+              },
+              {
+                "Text": "https://firebase.google.com/",
+                "Link": "https://firebase.google.com/"
+              },
+              {
+                "Text": "."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194221,
+            "id": "53021fd2-beea-47ce-aa1c-f0af87aa254d",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194221,
+            "id": "dd699c2a-d1db-44b1-863e-552947a393e3",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "One could build a single page app that includes all the important functionality of a blog."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "One could build a single page app that includes all the important functionality of a blog."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194221,
+            "id": "81a3ce97-5ad6-4d73-97bf-2d48e05da07b",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194221,
+            "id": "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Written in Vue."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Written in Vue."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194222,
+            "id": "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204329703,
+            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Unfortunately, there’s no money in it."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Unfortunately, there’s no money in it."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-18"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "381de040-2f94-4768-85b2-689f812b5adb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "18a57cde-1e5e-44fe-8cee-6c658b0afc8e",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880247763,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-13"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 21,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204270388,
+            "id": "381de040-2f94-4768-85b2-689f812b5adb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879756612,
+            "parent_id": "18a57cde-1e5e-44fe-8cee-6c658b0afc8e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sumatra code cleanups."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Sumatra code cleanups."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-13"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "7a6c7f9d-7d1e-402a-b916-d7130f61278a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "e1afa8aa-a0af-4226-bcbc-85417095460e",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880247763,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-12"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 21,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204267108,
+            "id": "7a6c7f9d-7d1e-402a-b916-d7130f61278a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879763399,
+            "parent_id": "e1afa8aa-a0af-4226-bcbc-85417095460e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sumatra code cleanups."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Sumatra code cleanups."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-12"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "3b8953b2-ee11-43da-9e76-22590710c8ba"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "5b3c8405-0954-4f52-a47a-870caebcd9a8",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880247763,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-10"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 21,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204264316,
+            "id": "3b8953b2-ee11-43da-9e76-22590710c8ba",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879774518,
+            "parent_id": "5b3c8405-0954-4f52-a47a-870caebcd9a8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sumatra code cleanups."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Sumatra code cleanups."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-10"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "947ccd74-cbc1-40c5-ac2b-421472e4803f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "3be6f7c8-c6ff-4055-b796-0a404ee22f30",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887614468,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-09"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 26,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204261043,
+            "id": "947ccd74-cbc1-40c5-ac2b-421472e4803f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887618228,
+            "parent_id": "3be6f7c8-c6ff-4055-b796-0a404ee22f30",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sumatra code cleanups."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Sumatra code cleanups."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-09"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "6219ce17-66a7-40fe-bd2e-71b84b06c7ec"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "2d23437e-7fe5-4a9e-860e-5fcdf58fbaf7",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887624325,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-08"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 21,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204257828,
+            "id": "6219ce17-66a7-40fe-bd2e-71b84b06c7ec",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887627147,
+            "parent_id": "2d23437e-7fe5-4a9e-860e-5fcdf58fbaf7",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sumatra code cleanups."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Sumatra code cleanups."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-08"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "8ea0a7eb-eb89-4dfe-ace5-85787c34ffff",
+          "ce050334-52f5-4024-a921-6447511f9c71"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194222,
+        "id": "d38a5bee-aaf7-4f05-8352-1cecaec67b6d",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887639573,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-07"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 23,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887635480,
+            "id": "8ea0a7eb-eb89-4dfe-ace5-85787c34ffff",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887635901,
+            "parent_id": "d38a5bee-aaf7-4f05-8352-1cecaec67b6d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog: replaced use of highlight.js for syntax-highlighting with chroma Go library. It’s even more static."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "blog: replaced use of highlight.js for syntax-highlighting with chroma Go library. It’s even more static."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194222,
+            "id": "ce050334-52f5-4024-a921-6447511f9c71",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887642087,
+            "parent_id": "d38a5bee-aaf7-4f05-8352-1cecaec67b6d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog: rewriting regen.py in Go."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 11,
+            "inline_content": [
+              {
+                "Text": "blog: rewriting regen.py in Go."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-07"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "1f33ea45-bf9f-4b3f-9c13-af2774244e9b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194223,
+        "id": "f657a2b0-a494-4ed5-9b18-3b9c03c47fbb",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887649760,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-06"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 18,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204487374,
+            "id": "1f33ea45-bf9f-4b3f-9c13-af2774244e9b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887654119,
+            "parent_id": "f657a2b0-a494-4ed5-9b18-3b9c03c47fbb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "deployed blog to netlify. Removed the code not related to netlify."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 36,
+            "inline_content": [
+              {
+                "Text": "deployed blog to netlify. Removed the code not related to netlify."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-06"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "9fa80234-a01e-4e7e-ae3f-20580eeb8aaf"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194223,
+        "id": "20fb5c1b-76bd-4091-be25-46cf09323a47",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887662422,
+        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-12-02"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 25,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194223,
+            "id": "9fa80234-a01e-4e7e-ae3f-20580eeb8aaf",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887664822,
+            "parent_id": "20fb5c1b-76bd-4091-be25-46cf09323a47",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "porting blog to netlify."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "porting blog to netlify."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-12-02"
+          }
+        ]
+      }
+    ],
+    "title": "devlog 2017-12 • 10 d",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

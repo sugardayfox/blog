@@ -1,0 +1,132 @@
+{
+  "ID": "6f7a3240-5fb0-4720-9c2c-fc0195de32a2",
+  "Page": {
+    "alive": true,
+    "content": [
+      "82eb8928-8e9a-4190-b7bb-3f38f0c803e5",
+      "3731b665-b258-4bf8-aca1-845690d4630e"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1515212194549,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "6f7a3240-5fb0-4720-9c2c-fc0195de32a2",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1515212240674,
+    "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Building static, dynamic libs with clang"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 171,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515212221241,
+        "id": "82eb8928-8e9a-4190-b7bb-3f38f0c803e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515212237525,
+        "parent_id": "6f7a3240-5fb0-4720-9c2c-fc0195de32a2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "From "
+            ],
+            [
+              "https://www.youtube.com/watch?v=xVT1y0xWgww",
+              [
+                [
+                  "a",
+                  "https://www.youtube.com/watch?v=xVT1y0xWgww"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 19,
+        "inline_content": [
+          {
+            "Text": "From "
+          },
+          {
+            "Text": "https://www.youtube.com/watch?v=xVT1y0xWgww",
+            "Link": "https://www.youtube.com/watch?v=xVT1y0xWgww"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515212240669,
+        "id": "3731b665-b258-4bf8-aca1-845690d4630e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515212313125,
+        "parent_id": "6f7a3240-5fb0-4720-9c2c-fc0195de32a2",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "clang++ -std=c++14 -c -fpic static.cpp\nar rcs libstatic.a static.o\nclagn++ -std=c++14 -c -fpic dynamic.cpp\nclang++ -shared -o "
+            ],
+            [
+              "libdynamic.so",
+              [
+                [
+                  "a",
+                  "http://libdynamic.so"
+                ]
+              ]
+            ],
+            [
+              " dynamic.o -L./ -lstatic\nclang++ -std=c++14 -c main.x.cpp\nclang++ -L./ -Wl,-rpath=./ main.x.o -lstatic -ldynamic\n"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 533,
+        "code": "clang++ -std=c++14 -c -fpic static.cpp\nar rcs libstatic.a static.o\nclagn++ -std=c++14 -c -fpic dynamic.cpp\nclang++ -shared -o ",
+        "code_language": "Shell"
+      }
+    ],
+    "title": "Building static, dynamic libs with clang",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

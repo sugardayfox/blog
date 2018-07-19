@@ -1,0 +1,538 @@
+{
+  "ID": "7a79482f-9383-4c99-b7ad-70d33303882b",
+  "Page": {
+    "alive": true,
+    "content": [
+      "2660a651-3b2f-44c3-9081-d00b51d3ba86",
+      "40030aad-d9ba-47d5-85b1-a4d9ec8912eb",
+      "4df54da6-6173-486b-b844-22eba0714942",
+      "7e169f24-0327-4817-b054-65b85fc55b58",
+      "29c1e48f-f313-44a5-bb5b-276fb6f5981d",
+      "3bd071ee-3764-4f04-91ae-78637f179b9f",
+      "be4b5e5f-15d1-45d9-8143-aef5aa36c5a9",
+      "93af07dc-727e-4897-a759-770103608bca",
+      "d8e51531-0d08-45c4-9b4e-85fddff74d0e",
+      "ed1adb0d-ad3c-43a8-8d9b-bd50cb0f13ae",
+      "18c4c179-e589-4044-9772-2169ed1e5717",
+      "1c176572-ad5d-4224-993f-1664afa88bff",
+      "fc012995-d076-425b-9eaa-a9ced49b3e9e",
+      "3c9965a7-d57b-4826-8f48-ff7faefb1733"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1503107897807,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1503107897807,
+    "parent_id": "53485f8e-b0c1-4c49-b174-8995a9e38d4c",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "UI definition syntax"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503107923660,
+        "id": "2660a651-3b2f-44c3-9081-d00b51d3ba86",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503107923660,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This is an experiment in defining a syntax for UI definitions. This replicates Dart sample from "
+            ],
+            [
+              "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md",
+              [
+                [
+                  "a",
+                  "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "This is an experiment in defining a syntax for UI definitions. This replicates Dart sample from "
+          },
+          {
+            "Text": "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md",
+            "Link": "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108086031,
+        "id": "40030aad-d9ba-47d5-85b1-a4d9ec8912eb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108086031,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The big picture is:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "The big picture is:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108112451,
+        "id": "4df54da6-6173-486b-b844-22eba0714942",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108112451,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "indentation defines nesting"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "indentation defines nesting"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108134187,
+        "id": "7e169f24-0327-4817-b054-65b85fc55b58",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108134187,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "for clean look, we don't use separators (, or ;), like in css. Create a new line"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "for clean look, we don't use separators (, or ;), like in css. Create a new line"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108188836,
+        "id": "29c1e48f-f313-44a5-bb5b-276fb6f5981d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108188836,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Foo [ properties ]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", Foo defines type of the object and  we can have multiple properties in "
+            ],
+            [
+              "[]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " ."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Foo [ properties ]",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", Foo defines type of the object and  we can have multiple properties in "
+          },
+          {
+            "Text": "[]",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " ."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108345953,
+        "id": "3bd071ee-3764-4f04-91ae-78637f179b9f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108345953,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "properties are "
+            ],
+            [
+              "foo: bar",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "properties are "
+          },
+          {
+            "Text": "foo: bar",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "  "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503107906170,
+        "id": "be4b5e5f-15d1-45d9-8143-aef5aa36c5a9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503107906170,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "Material [\n  child: Column [\n    children: [\n      MyAppBar\n        title: Text [\n          text: \"Example title\"\n          style: myStyle\n        ]\n      Expanded [\n        child: Center [\n          child: Text [ \"hello world\"]\n        ]\n      ]\n    ]\n  ]\n]"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "Material [\n  child: Column [\n    children: [\n      MyAppBar\n        title: Text [\n          text: \"Example title\"\n          style: myStyle\n        ]\n      Expanded [\n        child: Center [\n          child: Text [ \"hello world\"]\n        ]\n      ]\n    ]\n  ]\n]",
+        "code_language": "Plain Text"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108359576,
+        "id": "93af07dc-727e-4897-a759-770103608bca",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108359576,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Below is an improvement where we introduce an implicit property. Each type can have one property that is implicit and doesn't need to be specified e.g. if "
+            ],
+            [
+              "foo",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  is implicit property, then "
+            ],
+            [
+              "foo: bar",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  can be shortened to "
+            ],
+            [
+              "bar",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " . Below most implicit properties are "
+            ],
+            [
+              "child",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  and "
+            ],
+            [
+              "children",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Below is an improvement where we introduce an implicit property. Each type can have one property that is implicit and doesn't need to be specified e.g. if "
+          },
+          {
+            "Text": "foo",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "  is implicit property, then "
+          },
+          {
+            "Text": "foo: bar",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "  can be shortened to "
+          },
+          {
+            "Text": "bar",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " . Below most implicit properties are "
+          },
+          {
+            "Text": "child",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "  and "
+          },
+          {
+            "Text": "children",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108056508,
+        "id": "d8e51531-0d08-45c4-9b4e-85fddff74d0e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108056508,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "Material\n  Column\n    MyAppBar\n      title: Text\n        \"Example title\"\n        style: main-style          \n    Expanded [ Center [ Text [ \"hello world\" ] ] ]\n\nStyle\n  id: main-style\n  font: Courier 12\n  color: #ffaadd\n  background-color: #aaddff\n"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "Material\n  Column\n    MyAppBar\n      title: Text\n        \"Example title\"\n        style: main-style          \n    Expanded [ Center [ Text [ \"hello world\" ] ] ]\n\nStyle\n  id: main-style\n  font: Courier 12\n  color: #ffaadd\n  background-color: #aaddff\n",
+        "code_language": "Plain Text"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108767325,
+        "id": "ed1adb0d-ad3c-43a8-8d9b-bd50cb0f13ae",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108767325,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Mixing tabs and spaces for indentation is error prone so we should settle on only one (e.g. 2 spaces for indentation level) and disallow the other one."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Mixing tabs and spaces for indentation is error prone so we should settle on only one (e.g. 2 spaces for indentation level) and disallow the other one."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503454797065,
+        "id": "18c4c179-e589-4044-9772-2169ed1e5717",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503454797065,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Implementation notes"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Implementation notes"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503454803962,
+        "id": "1c176572-ad5d-4224-993f-1664afa88bff",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503454803962,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "type Font struct {\n  Name string `csf:\"\"`\n  Size int\n}\n\ntype Value struct {\n  Type string\n  Props []*Prop\n}\n\ntype Prop struct {\n  Name string // if empty\n  Value string\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "type Font struct {\n  Name string `csf:\"\"`\n  Size int\n}\n\ntype Value struct {\n  Type string\n  Props []*Prop\n}\n\ntype Prop struct {\n  Name string // if empty\n  Value string\n}",
+        "code_language": "Javascript"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108950743,
+        "id": "fc012995-d076-425b-9eaa-a9ced49b3e9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108950743,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503108941295,
+        "id": "3c9965a7-d57b-4826-8f48-ff7faefb1733",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503108941295,
+        "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "UI definition syntax",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

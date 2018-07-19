@@ -1,0 +1,182 @@
+{
+  "ID": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+  "Page": {
+    "alive": true,
+    "content": [
+      "00f5395b-f921-4ff4-b70e-6f820fe48cf5",
+      "82896df5-9360-407e-8572-f775f01f5a72",
+      "11105dc0-2b5f-45c5-aec7-a97307fb5fd6",
+      "a0b2208a-eac4-45c3-8a03-075de7b713f9",
+      "079ce11d-f34e-4bdc-88f7-7f11728589a1"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1508697122041,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530046844953,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "homebrew"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 15,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1508697127537,
+        "id": "00f5395b-f921-4ff4-b70e-6f820fe48cf5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530046818800,
+        "parent_id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530046818800,
+        "id": "82896df5-9360-407e-8572-f775f01f5a72",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530046821581,
+        "parent_id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://kev.inburke.com/kevin/install-homebrew-go/",
+              [
+                [
+                  "a",
+                  "https://kev.inburke.com/kevin/install-homebrew-go/"
+                ]
+              ]
+            ],
+            [
+              " : making Go binaries installable via Homebrew"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "https://kev.inburke.com/kevin/install-homebrew-go/",
+            "Link": "https://kev.inburke.com/kevin/install-homebrew-go/"
+          },
+          {
+            "Text": " : making Go binaries installable via Homebrew"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530046806118,
+        "id": "11105dc0-2b5f-45c5-aec7-a97307fb5fd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530046837909,
+        "parent_id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/FiloSottile/mkcert",
+              [
+                [
+                  "a",
+                  "https://github.com/FiloSottile/mkcert"
+                ]
+              ]
+            ],
+            [
+              " : another example of a homebrew formula for a Go program"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 153,
+        "inline_content": [
+          {
+            "Text": "https://github.com/FiloSottile/mkcert",
+            "Link": "https://github.com/FiloSottile/mkcert"
+          },
+          {
+            "Text": " : another example of a homebrew formula for a Go program"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530046844953,
+        "id": "a0b2208a-eac4-45c3-8a03-075de7b713f9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530046849901,
+        "parent_id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+        "parent_table": "block",
+        "type": "text",
+        "version": 8
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530046804328,
+        "id": "079ce11d-f34e-4bdc-88f7-7f11728589a1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530046804328,
+        "parent_id": "d773aa82-9dae-4e5c-91fd-5df9bf00b506",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "homebrew",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

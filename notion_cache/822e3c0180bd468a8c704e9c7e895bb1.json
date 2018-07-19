@@ -1,0 +1,76 @@
+{
+  "ID": "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+  "Page": {
+    "alive": true,
+    "content": [
+      "64145f01-b3c3-47e7-b515-a0dabaead01e"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512355958893,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120467476,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "lsof"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 9,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512355983914,
+        "id": "64145f01-b3c3-47e7-b515-a0dabaead01e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512355983914,
+        "parent_id": "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "sudo lsof -iTCP -sTCP:LISTEN : to list processes that list on ports\n\n-i : show all connections\n-i : show all TCP connections\n-sTCP:LISTEN : show TCP connections in LISTEN state\n-t : output only pid (useful as kill -9 `lsof -t ...` arg)\n-n : no dans resolution\n-P : no port resolution\n\nAlternative:\nnetstat -an | grep 5432 : show open ports 5432"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "sudo lsof -iTCP -sTCP:LISTEN : to list processes that list on ports\n\n-i : show all connections\n-i : show all TCP connections\n-sTCP:LISTEN : show TCP connections in LISTEN state\n-t : output only pid (useful as kill -9 `lsof -t ...` arg)\n-n : no dans resolution\n-P : no port resolution\n\nAlternative:\nnetstat -an | grep 5432 : show open ports 5432"
+      }
+    ],
+    "title": "lsof",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

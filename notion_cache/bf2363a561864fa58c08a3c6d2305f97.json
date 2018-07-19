@@ -1,0 +1,864 @@
+{
+  "ID": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+  "Page": {
+    "alive": true,
+    "content": [
+      "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
+      "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
+      "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
+      "4d551f13-830e-479c-84bf-0f889bb0eca3",
+      "5be23634-424f-46a7-85a6-71d828b0a141",
+      "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
+      "acce5f8a-d06d-425b-a886-bdccd3f9df02",
+      "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
+      "f7e75216-d48d-4989-88d3-a733c9e81711",
+      "edde199f-c166-495d-b00a-b2fcee292d12",
+      "cf584cd0-a776-483e-8b57-c2cb1580bd74",
+      "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
+      "535be14c-e514-4fa2-bbed-cdc529989e55",
+      "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
+      "d7995392-c218-4c52-920f-4ee6b33844c8",
+      "5de98585-cd65-44c4-8cbe-04f462283b61",
+      "76d649da-f850-425c-a9fb-c9c07071e4f2",
+      "03def337-f6b7-4847-8034-6544bbae72f6",
+      "df44289a-2bf7-4b34-b081-dc256273976f",
+      "5ff38682-b20e-44e4-87f2-6c635c1070cb",
+      "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1530253989400,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530683413996,
+    "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Building Go from source on Windows"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 158,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530253998123,
+        "id": "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254028721,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Pre-requisties:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 44,
+        "inline_content": [
+          {
+            "Text": "Pre-requisties:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254028939,
+        "id": "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254046632,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "must have Go installed (by default to "
+            ],
+            [
+              "C:\\Go",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 133,
+        "inline_content": [
+          {
+            "Text": "must have Go installed (by default to "
+          },
+          {
+            "Text": "C:\\Go",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ")"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254056359,
+        "id": "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254094725,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "must have Git installed (from "
+            ],
+            [
+              "https://git-scm.com/downloads",
+              [
+                [
+                  "a",
+                  "https://git-scm.com/downloads"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 78,
+        "inline_content": [
+          {
+            "Text": "must have Git installed (from "
+          },
+          {
+            "Text": "https://git-scm.com/downloads",
+            "Link": "https://git-scm.com/downloads"
+          },
+          {
+            "Text": ")"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254046853,
+        "id": "4d551f13-830e-479c-84bf-0f889bb0eca3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530255241065,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "install gcc from "
+            ],
+            [
+              "https://nuwen.net/mingw.html",
+              [
+                [
+                  "a",
+                  "https://nuwen.net/mingw.html"
+                ]
+              ]
+            ],
+            [
+              ". I used "
+            ],
+            [
+              "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe",
+              [
+                [
+                  "a",
+                  "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe"
+                ]
+              ]
+            ],
+            [
+              " and extracted to c:\\MinGW"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 166,
+        "inline_content": [
+          {
+            "Text": "install gcc from "
+          },
+          {
+            "Text": "https://nuwen.net/mingw.html",
+            "Link": "https://nuwen.net/mingw.html"
+          },
+          {
+            "Text": ". I used "
+          },
+          {
+            "Text": "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe",
+            "Link": "https://nuwen.net/files/mingw/mingw-15.4-without-git.exe"
+          },
+          {
+            "Text": " and extracted to c:\\MinGW"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254131467,
+        "id": "5be23634-424f-46a7-85a6-71d828b0a141",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530255248277,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "In a "
+            ],
+            [
+              "cmd.exe",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " (not PowerShell, because it screws things up):"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 146,
+        "inline_content": [
+          {
+            "Text": "In a "
+          },
+          {
+            "Text": "cmd.exe",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " (not PowerShell, because it screws things up):"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254149443,
+        "id": "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530255267403,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "checkout latest Go sources "
+            ],
+            [
+              "git checkout https://github.com/golang/go.git",
+              [
+                [
+                  "a",
+                  "https://github.com/golang/go.git"
+                ],
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 155,
+        "inline_content": [
+          {
+            "Text": "checkout latest Go sources "
+          },
+          {
+            "Text": "git checkout https://github.com/golang/go.git",
+            "AttrFlags": 2,
+            "Link": "https://github.com/golang/go.git"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254174676,
+        "id": "acce5f8a-d06d-425b-a886-bdccd3f9df02",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254179901,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cd go\\src",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 52,
+        "inline_content": [
+          {
+            "Text": "cd go\\src",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254180499,
+        "id": "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254253175,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "add gcc to PATH by running "
+            ],
+            [
+              "c:\\MinGW\\set_distro_paths.bat",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 126,
+        "inline_content": [
+          {
+            "Text": "add gcc to PATH by running "
+          },
+          {
+            "Text": "c:\\MinGW\\set_distro_paths.bat",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "1b7bddac-5520-4dec-9cf0-a56907c4013e",
+          "be8e234c-d7bf-4d0e-8917-726b133f99fb"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530300449695,
+        "id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530300463935,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "set "
+            ],
+            [
+              "GOROOT_BOOTSTRAP",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ":"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 68,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530254218145,
+            "id": "1b7bddac-5520-4dec-9cf0-a56907c4013e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530300463501,
+            "parent_id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "set GOROOT_BOOTSTRAP=C:\\Go",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " in cmd.exe"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 41,
+            "inline_content": [
+              {
+                "Text": "set GOROOT_BOOTSTRAP=C:\\Go",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " in cmd.exe"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530300437648,
+            "id": "be8e234c-d7bf-4d0e-8917-726b133f99fb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530300466188,
+            "parent_id": "f7e75216-d48d-4989-88d3-a733c9e81711",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "$env:GOROOT_BOOTSTRAP = \"c:\\Go\"",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " in powershell"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 65,
+            "inline_content": [
+              {
+                "Text": "$env:GOROOT_BOOTSTRAP = \"c:\\Go\"",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " in powershell"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "set "
+          },
+          {
+            "Text": "GOROOT_BOOTSTRAP",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ":"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254257100,
+        "id": "edde199f-c166-495d-b00a-b2fcee292d12",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530254303698,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "all.bat",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : this builds Go and runs the tests"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 46,
+        "inline_content": [
+          {
+            "Text": "all.bat",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : this builds Go and runs the tests"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301519941,
+        "id": "cf584cd0-a776-483e-8b57-c2cb1580bd74",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301519941,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530254305038,
+        "id": "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301558449,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Running just runtime tests, in powershell:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 108,
+        "inline_content": [
+          {
+            "Text": "Running just runtime tests, in powershell:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301526738,
+        "id": "535be14c-e514-4fa2-bbed-cdc529989e55",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301550895,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$env:GOROOT = \"C:\\Users\\kjk\\src\\go\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 23,
+        "inline_content": [
+          {
+            "Text": "$env:GOROOT = \"C:\\Users\\kjk\\src\\go\"",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530305693164,
+        "id": "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530305693556,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              ". \"${env:GOROOT}\\bin\\go\" test -c runtime",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301560324,
+        "id": "d7995392-c218-4c52-920f-4ee6b33844c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530306019285,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              ". \"${env:GOROOT}\\bin\\go\" test -c runtime -ldflags=-linkmode=external",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 25,
+        "inline_content": [
+          {
+            "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime -ldflags=-linkmode=external",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307062555,
+        "id": "5de98585-cd65-44c4-8cbe-04f462283b61",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307077167,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$env:TEST_G0_STACK_OVERFLOW = \"1\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 58,
+        "inline_content": [
+          {
+            "Text": "$env:TEST_G0_STACK_OVERFLOW = \"1\"",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530305699068,
+        "id": "76d649da-f850-425c-a9fb-c9c07071e4f2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307100438,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gdb --args .\\runtime.test.exe \"-test.run\" TestG0StackOverflow",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 134,
+        "inline_content": [
+          {
+            "Text": "gdb --args .\\runtime.test.exe \"-test.run\" TestG0StackOverflow",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530683413996,
+        "id": "03def337-f6b7-4847-8034-6544bbae72f6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530683438873,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              ".\\runtime.test.exe \"-test.run\" TestRuntimePanic",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 56,
+        "inline_content": [
+          {
+            "Text": ".\\runtime.test.exe \"-test.run\" TestRuntimePanic",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
+          "f98f156e-75e0-4872-80f5-74cc65c8c568"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530305727768,
+        "id": "df44289a-2bf7-4b34-b081-dc256273976f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530309262620,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "In gdb:"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 24,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530303756308,
+            "id": "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530305731204,
+            "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "br runtime.badmorestackg0",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 19,
+            "inline_content": [
+              {
+                "Text": "br runtime.badmorestackg0",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530309262620,
+            "id": "f98f156e-75e0-4872-80f5-74cc65c8c568",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530309262620,
+            "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "In gdb:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530303766337,
+        "id": "5ff38682-b20e-44e4-87f2-6c635c1070cb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530305697481,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "type": "text",
+        "version": 8
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301569087,
+        "id": "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301569087,
+        "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "Building Go from source on Windows",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

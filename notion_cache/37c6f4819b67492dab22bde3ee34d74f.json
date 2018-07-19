@@ -1,0 +1,693 @@
+{
+  "ID": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+  "Page": {
+    "alive": true,
+    "content": [
+      "5422710f-1de6-49de-b381-74dab01d9cd9",
+      "890ae523-9393-4771-99ba-7ab04c3ef64c",
+      "35737a57-c75a-46d5-91f8-4011ff637218",
+      "9039c6aa-2d8d-4cfb-9cf1-dee5bd5207b8",
+      "7e221d32-d391-4b19-9ab7-a1de251faf9e",
+      "84f887a1-d248-4ce5-bad2-1a099890fbb5",
+      "f1836b13-a351-4cd1-a320-d6dd72415b57",
+      "d445a90c-582b-42fb-9867-878f58d3ddad",
+      "3afb3ccf-5347-4bd9-a865-353c11ee6029",
+      "ff862bb6-d99e-4514-9427-13b8a3c4cad7",
+      "8b8ef382-ab87-4c17-9b3d-fbdfa64d04bb",
+      "66f55f7b-9849-43b3-8661-ddac92a4246c",
+      "5e60e25c-074b-47d8-bd5a-d70ba8df5b0e",
+      "ea67680a-f73a-4c70-9833-dd084ff18270",
+      "394a019d-df0c-4f4f-adbf-7d9451703f6d",
+      "67395af4-d707-456f-829f-8d5283701605"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1513131566301,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1513730850471,
+    "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "C++ casts"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 75,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131570991,
+        "id": "5422710f-1de6-49de-b381-74dab01d9cd9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131802567,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "const_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : removes const ("
+            ],
+            [
+              "const char* s = \"foo\"; char* s2 = const_cast\u003cchar*\u003e(s);",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " )"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 244,
+        "inline_content": [
+          {
+            "Text": "const_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : removes const ("
+          },
+          {
+            "Text": "const char* s = \"foo\"; char* s2 = const_cast\u003cchar*\u003e(s);",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " )"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131597934,
+        "id": "890ae523-9393-4771-99ba-7ab04c3ef64c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131619454,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "static_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : int → double, pointer → void* etc."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 168,
+        "inline_content": [
+          {
+            "Text": "static_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : int → double, pointer → void* etc."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131620901,
+        "id": "35737a57-c75a-46d5-91f8-4011ff637218",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131649889,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "reinterpret_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : \"trust me\" cast"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 116,
+        "inline_content": [
+          {
+            "Text": "reinterpret_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : \"trust me\" cast"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131653042,
+        "id": "9039c6aa-2d8d-4cfb-9cf1-dee5bd5207b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529438823237,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "dynamic_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : only for polymorphic types (those that have virtual functions) and when rtti is enabled. Used to cast up\u0026down inheritance hierarchy. Returns null if cast can't be done on a pointer. Throws exception if cast fails on reference type."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 682,
+        "inline_content": [
+          {
+            "Text": "dynamic_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : only for polymorphic types (those that have virtual functions) and when rtti is enabled. Used to cast up\u0026down inheritance hierarchy. Returns null if cast can't be done on a pointer. Throws exception if cast fails on reference type."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131856126,
+        "id": "7e221d32-d391-4b19-9ab7-a1de251faf9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131950079,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Unclear: when casting "
+            ],
+            [
+              "Foo* \u003c-\u003e void*",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " should I use "
+            ],
+            [
+              "static_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "  or "
+            ],
+            [
+              "reinterpret_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " ?"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 362,
+        "inline_content": [
+          {
+            "Text": "Unclear: when casting "
+          },
+          {
+            "Text": "Foo* \u003c-\u003e void*",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " should I use "
+          },
+          {
+            "Text": "static_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "  or "
+          },
+          {
+            "Text": "reinterpret_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " ?"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730784442,
+        "id": "84f887a1-d248-4ce5-bad2-1a099890fbb5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730818703,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Google rules"
+            ]
+          ]
+        },
+        "type": "sub_header",
+        "version": 55,
+        "inline_content": [
+          {
+            "Text": "Google rules"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730788718,
+        "id": "f1836b13-a351-4cd1-a320-d6dd72415b57",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730812458,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Do not use C-style casts. Instead, use these C++-style casts when explicit type conversion is necessary."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Do not use C-style casts. Instead, use these C++-style casts when explicit type conversion is necessary."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730788721,
+        "id": "d445a90c-582b-42fb-9867-878f58d3ddad",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730812458,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use brace initialization to convert arithmetic types (e.g. "
+            ],
+            [
+              "int64{x}",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "). This is the safest approach because code will not compile if conversion can result in information loss. The syntax is also concise."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Use brace initialization to convert arithmetic types (e.g. "
+          },
+          {
+            "Text": "int64{x}",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "). This is the safest approach because code will not compile if conversion can result in information loss. The syntax is also concise."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730788722,
+        "id": "3afb3ccf-5347-4bd9-a865-353c11ee6029",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730812458,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use "
+            ],
+            [
+              "static_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " as the equivalent of a C-style cast that does value conversion, when you need to explicitly up-cast a pointer from a class to its superclass, or when you need to explicitly cast a pointer from a superclass to a subclass. In this last case, you must be sure your object is actually an instance of the subclass."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Use "
+          },
+          {
+            "Text": "static_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " as the equivalent of a C-style cast that does value conversion, when you need to explicitly up-cast a pointer from a class to its superclass, or when you need to explicitly cast a pointer from a superclass to a subclass. In this last case, you must be sure your object is actually an instance of the subclass."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730788723,
+        "id": "ff862bb6-d99e-4514-9427-13b8a3c4cad7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730812458,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use "
+            ],
+            [
+              "const_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to remove the "
+            ],
+            [
+              "const",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " qualifier (see "
+            ],
+            [
+              "const",
+              [
+                [
+                  "a",
+                  "https://google.github.io/styleguide/cppguide.html#Use_of_const"
+                ]
+              ]
+            ],
+            [
+              ")."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Use "
+          },
+          {
+            "Text": "const_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to remove the "
+          },
+          {
+            "Text": "const",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " qualifier (see "
+          },
+          {
+            "Text": "const",
+            "Link": "https://google.github.io/styleguide/cppguide.html#Use_of_const"
+          },
+          {
+            "Text": ")."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730788723,
+        "id": "8b8ef382-ab87-4c17-9b3d-fbdfa64d04bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730812458,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use "
+            ],
+            [
+              "reinterpret_cast",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to do unsafe conversions of pointer types to and from integer and other pointer types. Use this only if you know what you are doing and you understand the aliasing issues."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Use "
+          },
+          {
+            "Text": "reinterpret_cast",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to do unsafe conversions of pointer types to and from integer and other pointer types. Use this only if you know what you are doing and you understand the aliasing issues."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131755537,
+        "id": "66f55f7b-9849-43b3-8661-ddac92a4246c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131808729,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131808926,
+        "id": "5e60e25c-074b-47d8-bd5a-d70ba8df5b0e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513131826671,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used",
+              [
+                [
+                  "a",
+                  "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used",
+            "Link": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513131827823,
+        "id": "ea67680a-f73a-4c70-9833-dd084ff18270",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730848871,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1",
+              [
+                [
+                  "a",
+                  "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1",
+            "Link": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513730850471,
+        "id": "394a019d-df0c-4f4f-adbf-7d9451703f6d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513730850763,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://google.github.io/styleguide/cppguide.html#Casting",
+              [
+                [
+                  "a",
+                  "https://google.github.io/styleguide/cppguide.html#Casting"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9,
+        "inline_content": [
+          {
+            "Text": "https://google.github.io/styleguide/cppguide.html#Casting",
+            "Link": "https://google.github.io/styleguide/cppguide.html#Casting"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513132097912,
+        "id": "67395af4-d707-456f-829f-8d5283701605",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513132097912,
+        "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "C++ casts",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

@@ -1,0 +1,518 @@
+{
+  "ID": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+  "Page": {
+    "alive": true,
+    "content": [
+      "074014b1-8269-4f48-9810-bf8af23272dd",
+      "aa9840f6-599c-468f-8aeb-1c206486af72",
+      "186ca88c-925c-46bc-bffd-33bbd717b320",
+      "19707c25-0014-4e10-b051-8c812fcebcf5",
+      "62d4f4aa-d7bf-4819-89d7-dfd50f0761db",
+      "8361aee7-1e01-46ed-a3a5-965aa0aed69c",
+      "0ab03882-dd23-4485-b756-2e0aee287fde",
+      "c186c258-fc03-4509-8693-4abfbbcdcaf3",
+      "061f2bf1-fb26-4529-86f0-d82f80bb50b0",
+      "51d18aad-8c3f-443d-bed9-121b2a4015e8",
+      "9bccc596-5795-4338-89df-bee1588ad0d5",
+      "ac96adb5-f148-4fd1-ab3c-ce55644dc2d4",
+      "b978f91f-2e7f-44a8-915a-b80cfecafeb6",
+      "7e6f6a6d-6922-4bb9-a8ef-5b17a702a4fe",
+      "6f30e2bf-24ae-4941-beac-841ebf0ef834",
+      "ee6c56f1-72f1-4fe6-a050-ec9d66b19a32"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1492760796206,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530068370276,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Windbg"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 11,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492760799970,
+        "id": "074014b1-8269-4f48-9810-bf8af23272dd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492760799970,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Download: "
+            ],
+            [
+              "https://developer.microsoft.com/en-us/windows/hardware/download-windbg",
+              [
+                [
+                  "a",
+                  "https://developer.microsoft.com/en-us/windows/hardware/download-windbg"
+                ]
+              ]
+            ],
+            [
+              " (https://go.microsoft.com/fwlink/p/?LinkId=845298 is direct download of winsdksetup.exe)"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Download: "
+          },
+          {
+            "Text": "https://developer.microsoft.com/en-us/windows/hardware/download-windbg",
+            "Link": "https://developer.microsoft.com/en-us/windows/hardware/download-windbg"
+          },
+          {
+            "Text": " (https://go.microsoft.com/fwlink/p/?LinkId=845298 is direct download of winsdksetup.exe)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493951781413,
+        "id": "aa9840f6-599c-468f-8aeb-1c206486af72",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493951781413,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Alternatively, if SDK is already installed (e.g. as a result of installing Visual Studio), find latest \"Windows Softwre Development Kit\"in \"add/remove programs\", click modify and select \"Debugging Tools For Windows\""
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Alternatively, if SDK is already installed (e.g. as a result of installing Visual Studio), find latest \"Windows Softwre Development Kit\"in \"add/remove programs\", click modify and select \"Debugging Tools For Windows\""
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492762116182,
+        "id": "186ca88c-925c-46bc-bffd-33bbd717b320",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492762116182,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Location of Windbg:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Location of Windbg:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492762123394,
+        "id": "19707c25-0014-4e10-b051-8c812fcebcf5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492762123394,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "\u0026 \"C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x64\\windbg.exe\" .\\dbg64\\SumatraPDF-no-MUPDF.exe"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "\u0026 \"C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x64\\windbg.exe\" .\\dbg64\\SumatraPDF-no-MUPDF.exe"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492762124918,
+        "id": "62d4f4aa-d7bf-4819-89d7-dfd50f0761db",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492762124918,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "\u0026 \"C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x86\\windbg.exe\" .\\dbg64\\SumatraPDF-no-MUPDF.exe"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "\u0026 \"C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x86\\windbg.exe\" .\\dbg64\\SumatraPDF-no-MUPDF.exe"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492762142379,
+        "id": "8361aee7-1e01-46ed-a3a5-965aa0aed69c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492762142379,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954686703,
+        "id": "0ab03882-dd23-4485-b756-2e0aee287fde",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954686703,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tutorials:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Tutorials:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954694112,
+        "id": "c186c258-fc03-4509-8693-4abfbbcdcaf3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954694112,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/",
+              [
+                [
+                  "a",
+                  "https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/",
+            "Link": "https://briolidz.wordpress.com/2013/11/17/windbg-some-debugging-commands/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954708003,
+        "id": "061f2bf1-fb26-4529-86f0-d82f80bb50b0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954708003,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://theartofdev.com/windbg-cheat-sheet/",
+              [
+                [
+                  "a",
+                  "https://theartofdev.com/windbg-cheat-sheet/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://theartofdev.com/windbg-cheat-sheet/",
+            "Link": "https://theartofdev.com/windbg-cheat-sheet/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493955816496,
+        "id": "51d18aad-8c3f-443d-bed9-121b2a4015e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493955816496,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://windbg.info/doc/1-common-cmds.html",
+              [
+                [
+                  "a",
+                  "http://windbg.info/doc/1-common-cmds.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://windbg.info/doc/1-common-cmds.html",
+            "Link": "http://windbg.info/doc/1-common-cmds.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954734309,
+        "id": "9bccc596-5795-4338-89df-bee1588ad0d5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954734309,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://msdn.microsoft.com/en-us/library/windows/hardware/ff539170(v=vs.85).aspx",
+              [
+                [
+                  "a",
+                  "https://msdn.microsoft.com/en-us/library/windows/hardware/ff539170(v=vs.85).aspx"
+                ]
+              ]
+            ],
+            [
+              " : list of commands"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://msdn.microsoft.com/en-us/library/windows/hardware/ff539170(v=vs.85).aspx",
+            "Link": "https://msdn.microsoft.com/en-us/library/windows/hardware/ff539170(v=vs.85).aspx"
+          },
+          {
+            "Text": " : list of commands"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954755412,
+        "id": "ac96adb5-f148-4fd1-ab3c-ce55644dc2d4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954755412,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://msdn.microsoft.com/en-us/library/windows/hardware/ff552199(v=vs.85).aspx",
+              [
+                [
+                  "a",
+                  "https://msdn.microsoft.com/en-us/library/windows/hardware/ff552199(v=vs.85).aspx"
+                ]
+              ]
+            ],
+            [
+              " : list of meta-commands"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://msdn.microsoft.com/en-us/library/windows/hardware/ff552199(v=vs.85).aspx",
+            "Link": "https://msdn.microsoft.com/en-us/library/windows/hardware/ff552199(v=vs.85).aspx"
+          },
+          {
+            "Text": " : list of meta-commands"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501828239865,
+        "id": "b978f91f-2e7f-44a8-915a-b80cfecafeb6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501828239865,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://blog.morlad.at/blah/mingw_postmortem",
+              [
+                [
+                  "a",
+                  "http://blog.morlad.at/blah/mingw_postmortem"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://blog.morlad.at/blah/mingw_postmortem",
+            "Link": "http://blog.morlad.at/blah/mingw_postmortem"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368316374,
+        "id": "7e6f6a6d-6922-4bb9-a8ef-5b17a702a4fe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368316374,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://firstclassthoughts.co.uk/Articles/Programming/DebuggingWithWindbg.html",
+              [
+                [
+                  "a",
+                  "http://firstclassthoughts.co.uk/Articles/Programming/DebuggingWithWindbg.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://firstclassthoughts.co.uk/Articles/Programming/DebuggingWithWindbg.html",
+            "Link": "http://firstclassthoughts.co.uk/Articles/Programming/DebuggingWithWindbg.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515542892183,
+        "id": "6f30e2bf-24ae-4941-beac-841ebf0ef834",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515542892490,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://faithlife.codes/blog/2018/01/using-sos/",
+              [
+                [
+                  "a",
+                  "http://faithlife.codes/blog/2018/01/using-sos/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9,
+        "inline_content": [
+          {
+            "Text": "http://faithlife.codes/blog/2018/01/using-sos/",
+            "Link": "http://faithlife.codes/blog/2018/01/using-sos/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493954706543,
+        "id": "ee6c56f1-72f1-4fe6-a050-ec9d66b19a32",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493954706543,
+        "parent_id": "fa7762b1-1c56-4a80-8562-88d08fbfa145",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "Windbg",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

@@ -1,0 +1,369 @@
+{
+  "ID": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+  "Page": {
+    "alive": true,
+    "content": [
+      "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+      "e4c3f15e-cd6d-4997-b73a-e59c9170b737",
+      "5703fc64-35b7-4dd8-a4b3-54f882701dad"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1501875589843,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1501875589843,
+    "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "wmi (Windows Management Instrumentation)"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "c9e111a8-a578-46c1-8a32-f1a01c85405f",
+          "6f95c3f0-5087-4efa-b2cc-d221f136aad8",
+          "3360b6ed-9cab-41a0-a0f5-6ae68f9549a9",
+          "cc99c5c0-3b5c-4329-a305-f5df13349ab7",
+          "68c6769b-48e7-427d-a287-f2d9d2f16222",
+          "bd383d5c-52d6-4e20-8d40-a97135048674"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501875601676,
+        "id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501875601676,
+        "parent_id": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1501875603573,
+            "id": "c9e111a8-a578-46c1-8a32-f1a01c85405f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1501875603573,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/cavaliercoder/wmilab",
+                  [
+                    [
+                      "a",
+                      "https://github.com/cavaliercoder/wmilab"
+                    ]
+                  ]
+                ],
+                [
+                  " : C# app to introspect wmi information"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/cavaliercoder/wmilab",
+                "Link": "https://github.com/cavaliercoder/wmilab"
+              },
+              {
+                "Text": " : C# app to introspect wmi information"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1502411929203,
+            "id": "6f95c3f0-5087-4efa-b2cc-d221f136aad8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1502411929203,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/StackExchange/wmi",
+                  [
+                    [
+                      "a",
+                      "https://github.com/StackExchange/wmi"
+                    ]
+                  ]
+                ],
+                [
+                  " : Go library for wmi"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/StackExchange/wmi",
+                "Link": "https://github.com/StackExchange/wmi"
+              },
+              {
+                "Text": " : Go library for wmi"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1502414990822,
+            "id": "3360b6ed-9cab-41a0-a0f5-6ae68f9549a9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1502414990822,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/go-ole/go-ole",
+                  [
+                    [
+                      "a",
+                      "https://github.com/go-ole/go-ole"
+                    ]
+                  ]
+                ],
+                [
+                  " : used by wmi library"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/go-ole/go-ole",
+                "Link": "https://github.com/go-ole/go-ole"
+              },
+              {
+                "Text": " : used by wmi library"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1502436906157,
+            "id": "cc99c5c0-3b5c-4329-a305-f5df13349ab7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1502436906157,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html",
+                  [
+                    [
+                      "a",
+                      "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html",
+                "Link": "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1510882836978,
+            "id": "68c6769b-48e7-427d-a287-f2d9d2f16222",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1510882836978,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp",
+                  [
+                    [
+                      "a",
+                      "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp",
+                "Link": "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512370330253,
+            "id": "bd383d5c-52d6-4e20-8d40-a97135048674",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512370330253,
+            "parent_id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://wmie.codeplex.com/",
+                  [
+                    [
+                      "a",
+                      "http://wmie.codeplex.com/"
+                    ]
+                  ]
+                ],
+                [
+                  " : gui explorer"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://wmie.codeplex.com/",
+                "Link": "http://wmie.codeplex.com/"
+              },
+              {
+                "Text": " : gui explorer"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Links"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "41123914-e922-480a-8669-adae5c576fc1"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1502436344618,
+        "id": "e4c3f15e-cd6d-4997-b73a-e59c9170b737",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1502436344618,
+        "parent_id": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Using in powershell"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1502436361843,
+            "id": "41123914-e922-480a-8669-adae5c576fc1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1502436361843,
+            "parent_id": "e4c3f15e-cd6d-4997-b73a-e59c9170b737",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Shell"
+                ]
+              ],
+              "title": [
+                [
+                  "# list all wmi classes\nGet-WmiObject -list\n# list all wmi namespaces\ngwmi -namespace \"root\" -class \"__Namespace\" | Select Name\n# list wmi classes in a given namespace\ngwmi -namespace root\\cimv2 -list\n# list all members of a class\nGet-WmiObject Win32_OperatingSystem | Format-List *\n# lists name and type of each property of a class\nGet-WmiObject win32_bios | get-member"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "# list all wmi classes\nGet-WmiObject -list\n# list all wmi namespaces\ngwmi -namespace \"root\" -class \"__Namespace\" | Select Name\n# list wmi classes in a given namespace\ngwmi -namespace root\\cimv2 -list\n# list all members of a class\nGet-WmiObject Win32_OperatingSystem | Format-List *\n# lists name and type of each property of a class\nGet-WmiObject win32_bios | get-member",
+            "code_language": "Shell"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Using in powershell"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501876092142,
+        "id": "5703fc64-35b7-4dd8-a4b3-54f882701dad",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501876092142,
+        "parent_id": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "wmi (Windows Management Instrumentation)",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

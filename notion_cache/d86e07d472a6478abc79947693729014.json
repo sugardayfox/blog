@@ -1,0 +1,1173 @@
+{
+  "ID": "d86e07d4-72a6-478a-bc79-947693729014",
+  "Page": {
+    "alive": true,
+    "content": [
+      "4fce6a44-3921-46c9-806b-d6c9c055346d",
+      "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
+      "4377e227-5a23-4903-9360-49464d9598d5",
+      "4fb2c06d-401f-4526-a3f5-e80deba1bcbe"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531880253130,
+    "format": {
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "d86e07d4-72a6-478a-bc79-947693729014",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531880918431,
+    "parent_id": "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "devlog 2017-11 • 04 d"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 81,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "a9b27088-89b6-4ae0-a169-46e4d1f6d9af",
+          "e7ee5b06-5707-4e2f-9e51-c09d86bfd9ea",
+          "80a72a20-c28f-4eee-83d7-bf2c8b3badd7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194223,
+        "id": "4fce6a44-3921-46c9-806b-d6c9c055346d",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887831726,
+        "parent_id": "d86e07d4-72a6-478a-bc79-947693729014",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-11-29"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 27,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194223,
+            "id": "a9b27088-89b6-4ae0-a169-46e4d1f6d9af",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204581001,
+            "parent_id": "4fce6a44-3921-46c9-806b-d6c9c055346d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "In Sumatra, fixed a regression due careless coding and not running changed code at all."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "In Sumatra, fixed a regression due careless coding and not running changed code at all."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194223,
+            "id": "e7ee5b06-5707-4e2f-9e51-c09d86bfd9ea",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204581001,
+            "parent_id": "4fce6a44-3921-46c9-806b-d6c9c055346d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "For easier tracking of mem leaks, added ./scripts/valgrind_rel.sh scripts that builds the unix version and runs valgrind with mem leak detection. Gave me a pointer for TxtParser leak location. Unfortunately requires redoing by removing TxtParser::children std::vector because in one code path we allocate nodes from pool allocator and in another path with new. It was fine when we used Vec, which used the same allocator for internal allocations, but now std::vector uses new() and in one code path it’s intermixed with allocator."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "For easier tracking of mem leaks, added ./scripts/valgrind_rel.sh scripts that builds the unix version and runs valgrind with mem leak detection. Gave me a pointer for TxtParser leak location. Unfortunately requires redoing by removing TxtParser::children std::vector because in one code path we allocate nodes from pool allocator and in another path with new. It was fine when we used Vec, which used the same allocator for internal allocations, but now std::vector uses new() and in one code path it’s intermixed with allocator."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194223,
+            "id": "80a72a20-c28f-4eee-83d7-bf2c8b3badd7",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204581001,
+            "parent_id": "4fce6a44-3921-46c9-806b-d6c9c055346d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "We should get rid of TxtParser::children and instead keep child list as pointers TxtNode, either first child or sibling for n-th child."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "We should get rid of TxtParser::children and instead keep child list as pointers TxtNode, either first child or sibling for n-th child."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-11-29"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "94a03e47-d017-4285-954b-947bb782d8f0",
+          "19055ebe-ecc6-4c2f-accf-8f917461171e",
+          "ce81c2d5-3ede-4dec-8cc0-cc72b2f98608"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194223,
+        "id": "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887851047,
+        "parent_id": "d86e07d4-72a6-478a-bc79-947693729014",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-11-28"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 27,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194224,
+            "id": "94a03e47-d017-4285-954b-947bb782d8f0",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204615470,
+            "parent_id": "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Converting Sumatra’s unix build from premake5.unix.lua to a Go program."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Converting Sumatra’s unix build from premake5.unix.lua to a Go program."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194224,
+            "id": "19055ebe-ecc6-4c2f-accf-8f917461171e",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204615470,
+            "parent_id": "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "This is my second attempt at such a tool. Before I was too ambitious and tried to abstract too much from start."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "This is my second attempt at such a tool. Before I was too ambitious and tried to abstract too much from start."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194224,
+            "id": "ce81c2d5-3ede-4dec-8cc0-cc72b2f98608",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531204615470,
+            "parent_id": "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "This time I did it in a straightforward, sequential way and it seems to be working."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "This time I did it in a straightforward, sequential way and it seems to be working."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-11-28"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "104e2321-550a-4b78-951d-0068c2dd7b35",
+          "fbcc6b3a-d390-49dc-855e-8d61542db771",
+          "4be1d9ee-af2a-4309-983b-e7bf9382a0b3",
+          "8eccc08e-56e8-4583-b5d8-fdc705031060",
+          "956c561e-392e-4c9d-8554-3308d70d49a2",
+          "3ac0f0f7-9595-4fb1-b090-603f9c0ef8b6",
+          "64d5a736-97a0-4189-be53-3b7bbf279326",
+          "757c7de0-1789-4029-a0cf-7c5cd533f143",
+          "69c62756-baf3-44b1-945c-cfaacd48878f",
+          "1fcddd35-20a2-4c69-9978-039e8e72ce44",
+          "8c59b378-c3a7-4468-ab2b-fa038690f66a",
+          "b73a6666-9b25-486d-9fb3-fee887129289",
+          "b35ca48a-2a04-4b42-991f-cd00dfadd219",
+          "3e8d6eb7-4303-4d8f-95f7-fbc830c12a71",
+          "a3c86865-9261-4d49-addb-19b065f61382",
+          "85edd391-876a-445f-aec3-f9972089136c",
+          "1aec13e8-6363-4422-88e8-97cb4fc01e1f",
+          "f2c3460a-9649-475b-a041-58f886196005",
+          "7f7e236e-217c-4775-8c56-2f5b54baeee0"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194225,
+        "id": "4377e227-5a23-4903-9360-49464d9598d5",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887860661,
+        "parent_id": "d86e07d4-72a6-478a-bc79-947693729014",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-11-24"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 39,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204626009,
+            "id": "104e2321-550a-4b78-951d-0068c2dd7b35",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887859839,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "#programming"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "#programming"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887859839,
+            "id": "fbcc6b3a-d390-49dc-855e-8d61542db771",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887859851,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Title: Typo-resistant way of using #define in C++. "
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 6,
+            "inline_content": [
+              {
+                "Text": "Title: Typo-resistant way of using #define in C++. "
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204623454,
+            "id": "4be1d9ee-af2a-4309-983b-e7bf9382a0b3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887860661,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Sometimes you just have to use #ifdef. Let’s say you’re writing cross-platform code and your "
+                ],
+                [
+                  "read_file",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " function needs different implementation for mac and windows. You would do it like this:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "Sometimes you just have to use #ifdef. Let’s say you’re writing cross-platform code and your "
+              },
+              {
+                "Text": "read_file",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " function needs different implementation for mac and windows. You would do it like this:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194226,
+            "id": "8eccc08e-56e8-4583-b5d8-fdc705031060",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#if defined(_WIN32)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(__APPLE__)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#if defined(_WIN32)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(__APPLE__)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194227,
+            "id": "956c561e-392e-4c9d-8554-3308d70d49a2",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Using "
+                ],
+                [
+                  "_WIN32",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " and "
+                ],
+                [
+                  "__APPLE__",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " is a bit ugly. Let’s do something more uniform:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Using "
+              },
+              {
+                "Text": "_WIN32",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " and "
+              },
+              {
+                "Text": "__APPLE__",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " is a bit ugly. Let’s do something more uniform:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194227,
+            "id": "3ac0f0f7-9595-4fb1-b090-603f9c0ef8b6",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#if defined(_WIN32)\n#define OS_WIN 1\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#endif\n\n#if defined(OS_WIN)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(OS_MAC)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#endif\n\n#if defined(OS_WIN)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(OS_MAC)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194227,
+            "id": "64d5a736-97a0-4189-be53-3b7bbf279326",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "It looks better but has a problem: typos are silent bugs:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "It looks better but has a problem: typos are silent bugs:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194227,
+            "id": "757c7de0-1789-4029-a0cf-7c5cd533f143",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#if defined(OS_MAP)\n...\n#endif"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#if defined(OS_MAP)\n...\n#endif",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194227,
+            "id": "69c62756-baf3-44b1-945c-cfaacd48878f",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Thankfully newer versions of gcc and clang have a useful option "
+                ],
+                [
+                  "-Wundef",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " which produces a warning when you do "
+                ],
+                [
+                  "#if FOO",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " and "
+                ],
+                [
+                  "FOO",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " is not defined."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Thankfully newer versions of gcc and clang have a useful option "
+              },
+              {
+                "Text": "-Wundef",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " which produces a warning when you do "
+              },
+              {
+                "Text": "#if FOO",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " and "
+              },
+              {
+                "Text": "FOO",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " is not defined."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "1fcddd35-20a2-4c69-9978-039e8e72ce44",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Knowing that, the final version of our code is:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Knowing that, the final version of our code is:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "8c59b378-c3a7-4468-ab2b-fa038690f66a",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#if defined(_WIN32)\n#define OS_WIN 1\n#else\n#define OS_WIN 0\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#else\n#define OS_MAC 0\n#endif\n\n#if OS_WIN\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if OS_MAC\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#else\n#define OS_WIN 0\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#else\n#define OS_MAC 0\n#endif\n\n#if OS_WIN\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if OS_MAC\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "b73a6666-9b25-486d-9fb3-fee887129289",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "It’s not without downsides: now "
+                ],
+                [
+                  "#ifdef OS_MAC",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " is always true, so you need the discipline to use "
+                ],
+                [
+                  "#if",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  ". That discipline can be enforced with a regex over your code base."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "It’s not without downsides: now "
+              },
+              {
+                "Text": "#ifdef OS_MAC",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " is always true, so you need the discipline to use "
+              },
+              {
+                "Text": "#if",
+                "AttrFlags": 2
+              },
+              {
+                "Text": ". That discipline can be enforced with a regex over your code base."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "b35ca48a-2a04-4b42-991f-cd00dfadd219",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "On Windows, msvc has a similar warning 4668. Unfortunately, system headers produce a lot of those warnings."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "On Windows, msvc has a similar warning 4668. Unfortunately, system headers produce a lot of those warnings."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "3e8d6eb7-4303-4d8f-95f7-fbc830c12a71",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "There are 2 solutions."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "There are 2 solutions."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "a3c86865-9261-4d49-addb-19b065f61382",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "You can enable this warning globally and disable when including system headers:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "You can enable this warning globally and disable when including system headers:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194228,
+            "id": "85edd391-876a-445f-aec3-f9972089136c",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#pragma warning(push)\n#pragma warning(disable : 4668) // silence /analyze: de-referencing a nullptr pointer\n#endif\n#include \u003cwindows.h\u003e\n... and other system headers\n#pragma warning(pop)"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#pragma warning(push)\n#pragma warning(disable : 4668) // silence /analyze: de-referencing a nullptr pointer\n#endif\n#include \u003cwindows.h\u003e\n... and other system headers\n#pragma warning(pop)",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194229,
+            "id": "1aec13e8-6363-4422-88e8-97cb4fc01e1f",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Another option is to have the warning off by default but enable it after including system headers:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "Another option is to have the warning off by default but enable it after including system headers:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194229,
+            "id": "f2c3460a-9649-475b-a041-58f886196005",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "#include \u003cwindows.h\u003e\n....\n\n#pragma warning(default : 4668)\n\n... now only your code"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "#include \u003cwindows.h\u003e\n....\n\n#pragma warning(default : 4668)\n\n... now only your code",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194229,
+            "id": "7f7e236e-217c-4775-8c56-2f5b54baeee0",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531879845918,
+            "parent_id": "4377e227-5a23-4903-9360-49464d9598d5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "I use a variation of second method. To avoid enabling that warning in each .cpp file, I have a "
+                ],
+                [
+                  "common.h",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " header files which includes most of the system headers and enables the warning. You can re-use "
+                ],
+                [
+                  "stdafx.h",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " for that."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 4,
+            "inline_content": [
+              {
+                "Text": "I use a variation of second method. To avoid enabling that warning in each .cpp file, I have a "
+              },
+              {
+                "Text": "common.h",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " header files which includes most of the system headers and enables the warning. You can re-use "
+              },
+              {
+                "Text": "stdafx.h",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " for that."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-11-24"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "f176a08e-4e60-4a4b-8684-438de37d52a2",
+          "ec0d1e9d-8ea5-404d-afa8-2e22a306c166",
+          "9941b231-d37e-4f39-a984-a36940ac7986",
+          "0e93de1e-2ff8-4ee2-ba1b-7ca417cc0fdb",
+          "23d808d6-2cf0-4ae2-9652-523863464918",
+          "9b22e2bb-b20d-4f27-99f2-dc1f1228c60c"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194229,
+        "id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887907367,
+        "parent_id": "d86e07d4-72a6-478a-bc79-947693729014",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-11-23 "
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 28,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204661062,
+            "id": "f176a08e-4e60-4a4b-8684-438de37d52a2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887876543,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Reading "
+                ],
+                [
+                  "http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf",
+                  [
+                    [
+                      "a",
+                      "http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf"
+                    ]
+                  ]
+                ],
+                [
+                  " about history of PowerPoint software."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "Reading "
+              },
+              {
+                "Text": "http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf",
+                "Link": "http://www.robertgaskins.com/powerpoint-history/sweating-bullets/gaskins-sweating-bullets-webpdf-isbn-9780985142414.pdf"
+              },
+              {
+                "Text": " about history of PowerPoint software."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194229,
+            "id": "ec0d1e9d-8ea5-404d-afa8-2e22a306c166",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887881048,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Some thoughts:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 6,
+            "inline_content": [
+              {
+                "Text": "Some thoughts:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887881048,
+            "id": "9941b231-d37e-4f39-a984-a36940ac7986",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887897084,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "I never understood how big the market was for PowerPoint and why it was so big. It shows that we all are blind to problems we don’t encounter ourselves. PowerPoint, the software, worked because the person who designed it understood that in businesses a lot of people give presentation, they were already spending a lot of money on making slides and a computer with a GUI would be a good tool to make making slides easier and give people more control over the process"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 21,
+            "inline_content": [
+              {
+                "Text": "I never understood how big the market was for PowerPoint and why it was so big. It shows that we all are blind to problems we don’t encounter ourselves. PowerPoint, the software, worked because the person who designed it understood that in businesses a lot of people give presentation, they were already spending a lot of money on making slides and a computer with a GUI would be a good tool to make making slides easier and give people more control over the process"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887897084,
+            "id": "0e93de1e-2ff8-4ee2-ba1b-7ca417cc0fdb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887902101,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "the success of Windows over Mac OS was not at all guaranteed. Mac shipped earlier and Microsoft had to do a lot of catching up, technologically"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "the success of Windows over Mac OS was not at all guaranteed. Mac shipped earlier and Microsoft had to do a lot of catching up, technologically"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887902101,
+            "id": "23d808d6-2cf0-4ae2-9652-523863464918",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887902929,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "even the best market analysis is not guaranteed. They had pick on which OS to bet (Windows or Mac) before any of them shipped. They picked the right strategy (target Mac first, as it shipped first, but keep Windows in mind and ship for Windows as quickly as they could)."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "even the best market analysis is not guaranteed. They had pick on which OS to bet (Windows or Mac) before any of them shipped. They picked the right strategy (target Mac first, as it shipped first, but keep Windows in mind and ship for Windows as quickly as they could)."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531887907367,
+            "id": "9b22e2bb-b20d-4f27-99f2-dc1f1228c60c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887907755,
+            "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
+            "parent_table": "block",
+            "type": "text",
+            "version": 8
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-11-23 "
+          }
+        ]
+      }
+    ],
+    "title": "devlog 2017-11 • 04 d",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

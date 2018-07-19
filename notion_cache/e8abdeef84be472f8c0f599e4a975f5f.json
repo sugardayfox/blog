@@ -1,0 +1,522 @@
+{
+  "ID": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+  "Page": {
+    "alive": true,
+    "content": [
+      "84441476-d1e5-4f52-87e4-ca5bae2e91bd",
+      "bd229cc8-89d3-47a3-a106-7aea93d9417c",
+      "fc9c1adc-09a4-4e56-b748-933c0575af46",
+      "32a50436-1dad-4c89-b5e2-3530b9f69d1b",
+      "5a82b82e-ad5e-44bf-a40a-6970aa115308",
+      "51b69adf-db55-4784-8e00-e3705521eab1",
+      "849d2d04-7171-43fc-a094-62f12c3f3646",
+      "50182fd5-e635-4ea9-9721-15be63d76e10",
+      "165ef5d5-2e77-4a71-942e-7a0a1dc98362",
+      "c907e757-799b-4d3d-a169-3b543aa77fd6",
+      "5524aca2-87ff-4b4f-be51-3798db62cd27",
+      "c9288bc6-1d75-43a4-ba1b-f3b71884d296",
+      "70e33179-58e8-43fa-b313-d5e645a5ecd1",
+      "d8395ba2-d657-41bf-a650-0a001ede6d8d",
+      "465972f3-d68e-4dbb-a36d-211077008888"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512458107957,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530049079763,
+    "parent_id": "2bcf1198-2d49-48a6-9185-82b06f66eee1",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "png optimization"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 3,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458115987,
+        "id": "84441476-d1e5-4f52-87e4-ca5bae2e91bd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458115987,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "On mac:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "On mac:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458147197,
+        "id": "bd229cc8-89d3-47a3-a106-7aea93d9417c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458147197,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "brew install optipng",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "brew install optipng",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458151226,
+        "id": "fc9c1adc-09a4-4e56-b748-933c0575af46",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458151226,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "To run: "
+            ],
+            [
+              "optipng foo.png",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " . It updates the file in-place"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "To run: "
+          },
+          {
+            "Text": "optipng foo.png",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " . It updates the file in-place"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458137394,
+        "id": "32a50436-1dad-4c89-b5e2-3530b9f69d1b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458137394,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "In my test opting was better than pngcrush -brute"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "In my test opting was better than pngcrush -brute"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458170906,
+        "id": "5a82b82e-ad5e-44bf-a40a-6970aa115308",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458170906,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "51b69adf-db55-4784-8e00-e3705521eab1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458188021,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Others:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Others:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "849d2d04-7171-43fc-a094-62f12c3f3646",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094312145,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://pnggauntlet.com/",
+              [
+                [
+                  "a",
+                  "http://pnggauntlet.com/"
+                ]
+              ]
+            ],
+            [
+              " - windows front-end"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://pnggauntlet.com/",
+            "Link": "http://pnggauntlet.com/"
+          },
+          {
+            "Text": " - windows front-end"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "50182fd5-e635-4ea9-9721-15be63d76e10",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094314154,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://advsys.net/ken/util/pngout.htm",
+              [
+                [
+                  "a",
+                  "http://advsys.net/ken/util/pngout.htm"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://advsys.net/ken/util/pngout.htm",
+            "Link": "http://advsys.net/ken/util/pngout.htm"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "165ef5d5-2e77-4a71-942e-7a0a1dc98362",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094316161,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://optipng.sourceforge.net/",
+              [
+                [
+                  "a",
+                  "http://optipng.sourceforge.net/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://optipng.sourceforge.net/",
+            "Link": "http://optipng.sourceforge.net/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "c907e757-799b-4d3d-a169-3b543aa77fd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094317929,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://optipng.sourceforge.net/pngtech/optipng.html",
+              [
+                [
+                  "a",
+                  "http://optipng.sourceforge.net/pngtech/optipng.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://optipng.sourceforge.net/pngtech/optipng.html",
+            "Link": "http://optipng.sourceforge.net/pngtech/optipng.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "5524aca2-87ff-4b4f-be51-3798db62cd27",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094320459,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://imageoptim.com/ - mac front-end"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 4,
+        "inline_content": [
+          {
+            "Text": "http://imageoptim.com/ - mac front-end"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "c9288bc6-1d75-43a4-ba1b-f3b71884d296",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094322065,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://trimage.org/",
+              [
+                [
+                  "a",
+                  "http://trimage.org/"
+                ]
+              ]
+            ],
+            [
+              " - unix front-end"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://trimage.org/",
+            "Link": "http://trimage.org/"
+          },
+          {
+            "Text": " - unix front-end"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "70e33179-58e8-43fa-b313-d5e645a5ecd1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094323585,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://pmt.sourceforge.net/pngcrush/",
+              [
+                [
+                  "a",
+                  "http://pmt.sourceforge.net/pngcrush/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://pmt.sourceforge.net/pngcrush/",
+            "Link": "http://pmt.sourceforge.net/pngcrush/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "d8395ba2-d657-41bf-a650-0a001ede6d8d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094325264,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://advancemame.sourceforge.net/comp-readme.html",
+              [
+                [
+                  "a",
+                  "http://advancemame.sourceforge.net/comp-readme.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://advancemame.sourceforge.net/comp-readme.html",
+            "Link": "http://advancemame.sourceforge.net/comp-readme.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458188021,
+        "id": "465972f3-d68e-4dbb-a36d-211077008888",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530094332026,
+        "parent_id": "e8abdeef-84be-472f-8c0f-599e4a975f5f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.kokkonen.net/tjko/projects.html",
+              [
+                [
+                  "a",
+                  "http://www.kokkonen.net/tjko/projects.html"
+                ]
+              ]
+            ],
+            [
+              " - jpegoptim"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 6,
+        "inline_content": [
+          {
+            "Text": "http://www.kokkonen.net/tjko/projects.html",
+            "Link": "http://www.kokkonen.net/tjko/projects.html"
+          },
+          {
+            "Text": " - jpegoptim"
+          }
+        ]
+      }
+    ],
+    "title": "png optimization",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

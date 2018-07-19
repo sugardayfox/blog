@@ -1,0 +1,173 @@
+{
+  "ID": "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+  "Page": {
+    "alive": true,
+    "content": [
+      "63e3782b-4b9b-4a71-83a4-a280615d305e",
+      "f3593e67-9053-4d64-8cb3-6883858e12c6"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1530301265109,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530301341546,
+    "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "html to pdf"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 38,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301268035,
+        "id": "63e3782b-4b9b-4a71-83a4-a280615d305e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301308304,
+        "parent_id": "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://weasyprint.org/",
+              [
+                [
+                  "a",
+                  "https://weasyprint.org/"
+                ]
+              ]
+            ],
+            [
+              " is a Python program and Library to convert HTML to PDF, seems to support multiple HTML → single PDF, custom css"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 256,
+        "inline_content": [
+          {
+            "Text": "https://weasyprint.org/",
+            "Link": "https://weasyprint.org/"
+          },
+          {
+            "Text": " is a Python program and Library to convert HTML to PDF, seems to support multiple HTML → single PDF, custom css"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "42cfaa5f-a803-4f72-bb39-337712404d43"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530301309533,
+        "id": "f3593e67-9053-4d64-8cb3-6883858e12c6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530301351605,
+        "parent_id": "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/danielwestendorf/breezy-pdf-lite",
+              [
+                [
+                  "a",
+                  "https://github.com/danielwestendorf/breezy-pdf-lite"
+                ]
+              ]
+            ],
+            [
+              " : uses chrome headless"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 68,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530301341232,
+            "id": "42cfaa5f-a803-4f72-bb39-337712404d43",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530301358132,
+            "parent_id": "f3593e67-9053-4d64-8cb3-6883858e12c6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://news.ycombinator.com/item?id=17422057",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=17422057"
+                    ]
+                  ]
+                ],
+                [
+                  " : discussion "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 39,
+            "inline_content": [
+              {
+                "Text": "https://news.ycombinator.com/item?id=17422057",
+                "Link": "https://news.ycombinator.com/item?id=17422057"
+              },
+              {
+                "Text": " : discussion "
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "https://github.com/danielwestendorf/breezy-pdf-lite",
+            "Link": "https://github.com/danielwestendorf/breezy-pdf-lite"
+          },
+          {
+            "Text": " : uses chrome headless"
+          }
+        ]
+      }
+    ],
+    "title": "html to pdf",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

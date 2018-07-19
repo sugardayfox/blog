@@ -1,0 +1,356 @@
+{
+  "ID": "0e931590-f27c-40fc-8710-5626a4ad6324",
+  "Page": {
+    "alive": true,
+    "content": [
+      "fdf0db47-eed7-4402-b896-09c1bf67ec21",
+      "999f43ba-c18c-4ff9-99f5-7f6f4fb5cba5",
+      "d514ca1f-2f6c-4e69-9087-56da656e8229",
+      "e2321ca8-41ef-459a-85be-7c1cb8444dde",
+      "b033ba1a-8901-404c-8530-45843ad43280",
+      "c9698d77-ef50-4bc2-a609-6c4349b0a4c8"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1492670766252,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530048822113,
+    "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Systemd"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 9,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492670769039,
+        "id": "fdf0db47-eed7-4402-b896-09c1bf67ec21",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492670769039,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Useful commands:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Useful commands:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492670792643,
+        "id": "999f43ba-c18c-4ff9-99f5-7f6f4fb5cba5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492670792643,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl status \u003cservice\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "systemctl status \u003cservice\u003e",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "a1d63fbe-e89c-4caf-887b-e9d3c35e227f",
+          "2abfb9d3-4994-4848-87e5-77fcc4b5888f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492670807242,
+        "id": "d514ca1f-2f6c-4e69-9087-56da656e8229",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492670807242,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "journalctl -f -u \u003cservice\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492670883444,
+            "id": "a1d63fbe-e89c-4caf-887b-e9d3c35e227f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492670883444,
+            "parent_id": "d514ca1f-2f6c-4e69-9087-56da656e8229",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "-r",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : reverse"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "-r",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : reverse"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492670892917,
+            "id": "2abfb9d3-4994-4848-87e5-77fcc4b5888f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492670892917,
+            "parent_id": "d514ca1f-2f6c-4e69-9087-56da656e8229",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "-f",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : follow"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "-f",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : follow"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "journalctl -f -u \u003cservice\u003e",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "8426ce16-8f16-4d72-9168-66a4b6d0d7ef"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368672193,
+        "id": "e2321ca8-41ef-459a-85be-7c1cb8444dde",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368672193,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "notes"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512368684463,
+            "id": "8426ce16-8f16-4d72-9168-66a4b6d0d7ef",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516343175734,
+            "parent_id": "e2321ca8-41ef-459a-85be-7c1cb8444dde",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "On Ubuntu, systemd is used starting with 15.04\n/etc/systemd/system\n\nsystemctl enable dbhero\nsystemctl daemon-reload\nsystemctl start dbhero\nsystemctl stop dbhero\n\njournalctl -u website : to see logs from unit website\n\nhttp://0pointer.de/blog/projects/socket-activation.html\nhttps://wiki.ubuntu.com/SystemdForUpstartUsers\nhttps://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 4,
+            "code": "On Ubuntu, systemd is used starting with 15.04\n/etc/systemd/system\n\nsystemctl enable dbhero\nsystemctl daemon-reload\nsystemctl start dbhero\nsystemctl stop dbhero\n\njournalctl -u website : to see logs from unit website\n\nhttp://0pointer.de/blog/projects/socket-activation.html\nhttps://wiki.ubuntu.com/SystemdForUpstartUsers\nhttps://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units",
+            "code_language": "Plain Text"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "notes"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "355ca2ac-c943-49be-a944-364141b07af4"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1521136712995,
+        "id": "b033ba1a-8901-404c-8530-45843ad43280",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1521136716435,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "links"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 18,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1521136715421,
+            "id": "355ca2ac-c943-49be-a944-364141b07af4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1521136721050,
+            "parent_id": "b033ba1a-8901-404c-8530-45843ad43280",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://vincent.bernat.im/en/blog/2017-systemd-golang",
+                  [
+                    [
+                      "a",
+                      "https://vincent.bernat.im/en/blog/2017-systemd-golang"
+                    ]
+                  ]
+                ],
+                [
+                  " : go and systemd"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 54,
+            "inline_content": [
+              {
+                "Text": "https://vincent.bernat.im/en/blog/2017-systemd-golang",
+                "Link": "https://vincent.bernat.im/en/blog/2017-systemd-golang"
+              },
+              {
+                "Text": " : go and systemd"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "links"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368681199,
+        "id": "c9698d77-ef50-4bc2-a609-6c4349b0a4c8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368681199,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "Systemd",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

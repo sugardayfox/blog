@@ -1,0 +1,914 @@
+{
+  "ID": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+  "Page": {
+    "alive": true,
+    "content": [
+      "5ef63264-a229-4362-b35a-10a9f61d57a8",
+      "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+      "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+      "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+      "069cd5e2-ec07-412c-9f34-9951a1043c60",
+      "d8cac563-43a0-4363-9a37-9c2f5453e410",
+      "f07e9302-e504-49a5-b768-4c567049f7b4",
+      "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+      "81548827-ae30-485b-9f2d-ee7c17539c93",
+      "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+      "70e44195-6141-4b3e-a783-d408a1246114",
+      "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+      "14dca5f7-596b-4949-8b91-18fe82a38866",
+      "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+      "9fabdd72-e388-4e7b-ad79-1284311441a3",
+      "9e650fed-b56e-4564-8160-b412c1de1500",
+      "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+      "734f5831-b443-4e4a-818c-361951428378",
+      "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+      "480eb536-ff2c-494d-83b5-09fab81cea5f",
+      "a204a4c6-e209-4c27-bd8e-3acf78e5bd45"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1517354271723,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531194562272,
+    "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
+    "parent_table": "block",
+    "permissions": [
+      {
+        "role": "reader",
+        "type": "public_permission"
+      }
+    ],
+    "properties": {
+      "title": [
+        [
+          "Tesla watch"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 89,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523422789827,
+        "id": "5ef63264-a229-4362-b35a-10a9f61d57a8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422831390,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Batter cost based on Power Pack 2 price: $437 per kWh"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 132,
+        "inline_content": [
+          {
+            "Text": "Batter cost based on Power Pack 2 price: $437 per kWh"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "a5802a6b-efb1-4543-818b-60fef5789094",
+          "8f6d46da-f48c-449b-afe1-5e98cf9a3490",
+          "6f1c8bd3-a447-4e5d-842b-8fd949f8f06c",
+          "b45c7405-1c1a-446b-8bd7-77c07d70a8ef",
+          "4d778a4f-3731-4b66-8a89-1623f5250941"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1523421961110,
+        "id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1523422421287,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "PowerPack orders"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 55,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1523422186553,
+            "id": "a5802a6b-efb1-4543-818b-60fef5789094",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1523422586066,
+            "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "PowerPack : ~250 kWh ("
+                ],
+                [
+                  "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/",
+                  [
+                    [
+                      "a",
+                      "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/"
+                    ]
+                  ]
+                ],
+                [
+                  ")"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 90,
+            "inline_content": [
+              {
+                "Text": "PowerPack : ~250 kWh ("
+              },
+              {
+                "Text": "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/",
+                "Link": "https://www.energymatters.com.au/commercial-solar/battery-energy-storage/tesla-powerpack/"
+              },
+              {
+                "Text": ")"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1523422421287,
+            "id": "8f6d46da-f48c-449b-afe1-5e98cf9a3490",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1523422463262,
+            "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018: 150 MWh per quarter, doubling per year ("
+                ],
+                [
+                  "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+                  [
+                    [
+                      "a",
+                      "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+                    ]
+                  ]
+                ],
+                [
+                  ")"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 125,
+            "inline_content": [
+              {
+                "Text": "2018: 150 MWh per quarter, doubling per year ("
+              },
+              {
+                "Text": "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+                "Link": "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+              },
+              {
+                "Text": ")"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1523421969002,
+            "id": "6f1c8bd3-a447-4e5d-842b-8fd949f8f06c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1523422632242,
+            "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-04-10 840 kWh (4 PowerPacks) "
+                ],
+                [
+                  "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/",
+                  [
+                    [
+                      "a",
+                      "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/"
+                    ]
+                  ]
+                ],
+                [
+                  ", small pilot program for BP"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 208,
+            "inline_content": [
+              {
+                "Text": "2018-04-10 840 kWh (4 PowerPacks) "
+              },
+              {
+                "Text": "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/",
+                "Link": "https://electrek.co/2018/04/10/tesla-powerpack-bp-wind-farm/"
+              },
+              {
+                "Text": ", small pilot program for BP"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1523422134650,
+            "id": "b45c7405-1c1a-446b-8bd7-77c07d70a8ef",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1523422630214,
+            "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-03-22 50 MWh (200 PowerPacks) "
+                ],
+                [
+                  "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+                  [
+                    [
+                      "a",
+                      "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 106,
+            "inline_content": [
+              {
+                "Text": "2018-03-22 50 MWh (200 PowerPacks) "
+              },
+              {
+                "Text": "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/",
+                "Link": "https://electrek.co/2018/03/22/tesla-large-powerpack-australia/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1523422278498,
+            "id": "4d778a4f-3731-4b66-8a89-1623f5250941",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1523422706378,
+            "parent_id": "ba011b9b-6e26-4cda-b5b8-1e3fb565f0e5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2017-12-01 129 MWh (516 PowerPacks)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 136,
+            "inline_content": [
+              {
+                "Text": "2017-12-01 129 MWh (516 PowerPacks)"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "PowerPack orders"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354274252,
+        "id": "3f9399c9-790b-4089-a7a8-5b3b0f301fc6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354279462,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Giga factory:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 40,
+        "inline_content": [
+          {
+            "Text": "Giga factory:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354609525,
+        "id": "dbd1723b-d2a4-4619-8089-8d846f59e1cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517356698122,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "sources: "
+            ],
+            [
+              "https://www.tesla.com/gigafactory",
+              [
+                [
+                  "a",
+                  "https://www.tesla.com/gigafactory"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://en.wikipedia.org/wiki/Gigafactory_1",
+              [
+                [
+                  "a",
+                  "https://en.wikipedia.org/wiki/Gigafactory_1"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/",
+              [
+                [
+                  "a",
+                  "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 45,
+        "inline_content": [
+          {
+            "Text": "sources: "
+          },
+          {
+            "Text": "https://www.tesla.com/gigafactory",
+            "Link": "https://www.tesla.com/gigafactory"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://en.wikipedia.org/wiki/Gigafactory_1",
+            "Link": "https://en.wikipedia.org/wiki/Gigafactory_1"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/",
+            "Link": "https://insideevs.com/elon-musk-says-gigafactory-output-could-soar-to-150-gwh-annually/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354279834,
+        "id": "069cd5e2-ec07-412c-9f34-9951a1043c60",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354453489,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "construction began June 2014, estimated completion 2020"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 167,
+        "inline_content": [
+          {
+            "Text": "construction began June 2014, estimated completion 2020"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354464958,
+        "id": "d8cac563-43a0-4363-9a37-9c2f5453e410",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354543190,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "estimated cost $5 billion, shared with Panasonic ($1.6 billion originally, upped to ~$3 billion)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 222,
+        "inline_content": [
+          {
+            "Text": "estimated cost $5 billion, shared with Panasonic ($1.6 billion originally, upped to ~$3 billion)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354522707,
+        "id": "f07e9302-e504-49a5-b768-4c567049f7b4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354561606,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tesla spent $608 million by September 2016"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 110,
+        "inline_content": [
+          {
+            "Text": "Tesla spent $608 million by September 2016"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354363129,
+        "id": "3dfcc36c-8b19-445c-9df4-abd43c32a900",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354635405,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "started making powerwalls and powerpack in Q1 2016"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 142,
+        "inline_content": [
+          {
+            "Text": "started making powerwalls and powerpack in Q1 2016"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354328422,
+        "id": "81548827-ae30-485b-9f2d-ee7c17539c93",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517356616218,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "planned capacity 50 GW in 2018, 150 GW in 2020, half for car batteries, enabling ~1 million cars / year (assuming average 70kw battery per car)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 464,
+        "inline_content": [
+          {
+            "Text": "planned capacity 50 GW in 2018, 150 GW in 2020, half for car batteries, enabling ~1 million cars / year (assuming average 70kw battery per car)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354578262,
+        "id": "aeeeb581-f827-4d68-8b13-c8a0ad5842dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517354735016,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Factories from others:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 60,
+        "inline_content": [
+          {
+            "Text": "Factories from others:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517354735251,
+        "id": "70e44195-6141-4b3e-a783-d408a1246114",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517356107399,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "SK Innovations (provides Kia Soul EV, some cars made in China, will supply Mercedes), increasing production capacity to 4 GW/year by end of 2018 (capacity on March 2016 is 1.9) "
+            ],
+            [
+              "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 417,
+        "inline_content": [
+          {
+            "Text": "SK Innovations (provides Kia Soul EV, some cars made in China, will supply Mercedes), increasing production capacity to 4 GW/year by end of 2018 (capacity on March 2016 is 1.9) "
+          },
+          {
+            "Text": "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/",
+            "Link": "https://electrek.co/2017/03/06/sk-innovation-expanding-battery/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517356100177,
+        "id": "00e66e65-7758-4d35-ba45-b2a03c9efe7e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517356224693,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "CATLS (supplies NEVS), plans 50 GW by 2020 "
+            ],
+            [
+              "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 102,
+        "inline_content": [
+          {
+            "Text": "CATLS (supplies NEVS), plans 50 GW by 2020 "
+          },
+          {
+            "Text": "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+            "Link": "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517355809123,
+        "id": "14dca5f7-596b-4949-8b91-18fe82a38866",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517355824765,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Predictions:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 36,
+        "inline_content": [
+          {
+            "Text": "Predictions:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517355825067,
+        "id": "f14f80b5-77ff-430f-8a75-d43add3e29e6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517355866435,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Panasonic predicts 3 million cars / year in 2026"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 137,
+        "inline_content": [
+          {
+            "Text": "Panasonic predicts 3 million cars / year in 2026"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517356219201,
+        "id": "9fabdd72-e388-4e7b-ad79-1284311441a3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517356329078,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Total world battery production 174 GW by 2020. China: 108 GW, US: 38GW, Korea: 23GW, Poland: 5GW ("
+            ],
+            [
+              "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 348,
+        "inline_content": [
+          {
+            "Text": "Total world battery production 174 GW by 2020. China: 108 GW, US: 38GW, Korea: 23GW, Poland: 5GW ("
+          },
+          {
+            "Text": "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/",
+            "Link": "https://electrek.co/2017/03/01/chinese-battery-maker-catl-nevs-gigafactory/"
+          },
+          {
+            "Text": ")"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517425347644,
+        "id": "9e650fed-b56e-4564-8160-b412c1de1500",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517425358384,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Other car makers EV plans:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 68,
+        "inline_content": [
+          {
+            "Text": "Other car makers EV plans:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517425358580,
+        "id": "030307e5-bd89-4aa2-8a02-6d61968e08c6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517425388453,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Volswagen to build 1500 ev cars a day (~500k / year) in Zwickau factory "
+            ],
+            [
+              "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/",
+              [
+                [
+                  "a",
+                  "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 195,
+        "inline_content": [
+          {
+            "Text": "Volswagen to build 1500 ev cars a day (~500k / year) in Zwickau factory "
+          },
+          {
+            "Text": "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/",
+            "Link": "https://electrek.co/2018/01/31/vw-electric-car-production-zwickau-factory/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517357423162,
+        "id": "734f5831-b443-4e4a-818c-361951428378",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517357427867,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Misc numbers:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 30,
+        "inline_content": [
+          {
+            "Text": "Misc numbers:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517357428054,
+        "id": "b9d3bba9-214b-4bb6-80c7-c88e0e26e605",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517357441629,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "BMW makes 2 million cars a year ("
+            ],
+            [
+              "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory",
+              [
+                [
+                  "a",
+                  "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 92,
+        "inline_content": [
+          {
+            "Text": "BMW makes 2 million cars a year ("
+          },
+          {
+            "Text": "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory",
+            "Link": "https://www.fastcompany.com/3052889/elon-musk-powers-up-inside-teslas-5-billion-gigafactory"
+          },
+          {
+            "Text": ")"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517359953104,
+        "id": "480eb536-ff2c-494d-83b5-09fab81cea5f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517360017154,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "growth of electric cars (including hybrids) up to 2016 "
+            ],
+            [
+              "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/",
+              [
+                [
+                  "a",
+                  "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 146,
+        "inline_content": [
+          {
+            "Text": "growth of electric cars (including hybrids) up to 2016 "
+          },
+          {
+            "Text": "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/",
+            "Link": "https://www.titleproloans.com/discovery-center/travel-touring-and-transportation/electric-vehicle-sales-and-usage/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1517425335395,
+        "id": "a204a4c6-e209-4c27-bd8e-3acf78e5bd45",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1517425335395,
+        "parent_id": "4bed70ed-b73b-46c3-80e2-762a0bdafcb1",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "Tesla watch",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

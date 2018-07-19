@@ -1,0 +1,112 @@
+{
+  "ID": "44be8df9-6823-49e9-bb8c-a7077124b674",
+  "Page": {
+    "alive": true,
+    "content": [
+      "8b4dcf3b-c253-420f-a0b9-ce4716ccaaf2",
+      "6cda3056-0a4d-4990-8883-8805a324db23"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1515927901373,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "44be8df9-6823-49e9-bb8c-a7077124b674",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1515927926600,
+    "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "build systems"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 41,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515927904379,
+        "id": "8b4dcf3b-c253-420f-a0b9-ce4716ccaaf2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515927906897,
+        "parent_id": "44be8df9-6823-49e9-bb8c-a7077124b674",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 26,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1515927907162,
+        "id": "6cda3056-0a4d-4990-8883-8805a324db23",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1515927907980,
+        "parent_id": "44be8df9-6823-49e9-bb8c-a7077124b674",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/ubisoftinc/Sharpmake",
+              [
+                [
+                  "a",
+                  "https://github.com/ubisoftinc/Sharpmake"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "https://github.com/ubisoftinc/Sharpmake",
+            "Link": "https://github.com/ubisoftinc/Sharpmake"
+          }
+        ]
+      }
+    ],
+    "title": "build systems",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

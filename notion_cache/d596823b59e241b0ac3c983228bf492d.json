@@ -1,0 +1,70 @@
+{
+  "ID": "d596823b-59e2-41b0-ac3c-983228bf492d",
+  "Page": {
+    "alive": true,
+    "content": [
+      "a096a12e-28af-45b8-b23d-cf52e6845f9f"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512369667028,
+    "id": "d596823b-59e2-41b0-ac3c-983228bf492d",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1512369667028,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "iptables"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512369700631,
+        "id": "a096a12e-28af-45b8-b23d-cf52e6845f9f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512369700631,
+        "parent_id": "d596823b-59e2-41b0-ac3c-983228bf492d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "iptables -I INPUT 3 -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\nsudo iptables -n -L -v --line-numbers\nsudo iptables -I INPUT -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\n-m : extended match ???\n\nAllow postgresql connections:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\nTo delete a rule: replace -A with -D"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "iptables -I INPUT 3 -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\nsudo iptables -n -L -v --line-numbers\nsudo iptables -I INPUT -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\n-m : extended match ???\n\nAllow postgresql connections:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\nTo delete a rule: replace -A with -D",
+        "code_language": "Plain Text"
+      }
+    ],
+    "title": "iptables"
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

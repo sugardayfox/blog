@@ -1,0 +1,169 @@
+{
+  "ID": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+  "Page": {
+    "alive": true,
+    "content": [
+      "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
+      "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
+      "8bd94450-130f-43af-827c-585c10f3269c",
+      "f10eae20-028c-4cc4-b618-ed0a2eeab783"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1476994093045,
+    "id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1476994093045,
+    "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Writing micro-benchmarks"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1476994103317,
+        "id": "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1476994103317,
+        "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use "
+            ],
+            [
+              "benchmark",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " package ("
+            ],
+            [
+              "npm install benchmark",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", https://benchmarkjs.com/). "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Use "
+          },
+          {
+            "Text": "benchmark",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " package ("
+          },
+          {
+            "Text": "npm install benchmark",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", https://benchmarkjs.com/). "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1476994149688,
+        "id": "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1476994149688,
+        "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A simple benchmark in node:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "A simple benchmark in node:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1476994161266,
+        "id": "8bd94450-130f-43af-827c-585c10f3269c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1476994161266,
+        "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "var Benchmark = require('benchmark');\n\nvar suite = new Benchmark.Suite;\n\nfunction f1() {\n\treturn ['foo', 'bar'].includes('zeta');\n}\n\nvar known = ['foo', 'bar'];\nfunction f2() {\n\treturn known.includes('zeta');\n}\n\nsuite.add('f1', f1);\nsuite.add('f2', f2);\nsuite.on('cycle', function(event) {\n  console.log(String(event.target));\n})\nsuite.on('complete', function() {\n  console.log('Fastest is ' + this.filter('fastest').map('name'));\n})\nsuite.run({ 'async': true });"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "var Benchmark = require('benchmark');\n\nvar suite = new Benchmark.Suite;\n\nfunction f1() {\n\treturn ['foo', 'bar'].includes('zeta');\n}\n\nvar known = ['foo', 'bar'];\nfunction f2() {\n\treturn known.includes('zeta');\n}\n\nsuite.add('f1', f1);\nsuite.add('f2', f2);\nsuite.on('cycle', function(event) {\n  console.log(String(event.target));\n})\nsuite.on('complete', function() {\n  console.log('Fastest is ' + this.filter('fastest').map('name'));\n})\nsuite.run({ 'async': true });",
+        "code_language": "Javascript"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1476994178747,
+        "id": "f10eae20-028c-4cc4-b618-ed0a2eeab783",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1476994178747,
+        "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "Writing micro-benchmarks"
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

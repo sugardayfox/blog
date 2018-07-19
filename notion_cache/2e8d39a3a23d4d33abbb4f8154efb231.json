@@ -1,0 +1,254 @@
+{
+  "ID": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+  "Page": {
+    "alive": true,
+    "content": [
+      "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
+      "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
+      "cd13037d-cbf3-4737-8886-99dc21e1b545",
+      "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+      "bd63faec-f750-4421-aeb6-937c2b2ddd54"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512455139144,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120456638,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "vscode, visual studio code"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 12,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455165009,
+        "id": "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512455165009,
+        "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455165009,
+        "id": "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512455165009,
+        "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
+              [
+                [
+                  "a",
+                  "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
+            "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "ca75cd3e-b884-448c-804d-1179446d4739",
+          "8838cd33-8852-440b-8d11-cae8b3cda085"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1518165792182,
+        "id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518166246786,
+        "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "extensions to install"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 73,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1518165803914,
+            "id": "ca75cd3e-b884-448c-804d-1179446d4739",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1518193419037,
+            "parent_id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "c/c++, c#, Code Runner, Dart Code, Docker, EditorConfig for VS Code, ESLint, Go, HTMLHint, jsx, PowerShell, Prettier, Prettify JSON, Terminal Here, TSLint, vetur"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 472,
+            "inline_content": [
+              {
+                "Text": "c/c++, c#, Code Runner, Dart Code, Docker, EditorConfig for VS Code, ESLint, Go, HTMLHint, jsx, PowerShell, Prettier, Prettify JSON, Terminal Here, TSLint, vetur"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "fa7cd01f-cf08-4768-a8da-4855d0d0050d"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1518166241082,
+            "id": "8838cd33-8852-440b-8d11-cae8b3cda085",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1518166246786,
+            "parent_id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "abandoned:"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 28,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1518166246362,
+                "id": "fa7cd01f-cf08-4768-a8da-4855d0d0050d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1518166250492,
+                "parent_id": "8838cd33-8852-440b-8d11-cae8b3cda085",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Git History"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 31,
+                "inline_content": [
+                  {
+                    "Text": "Git History"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "abandoned:"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "extensions to install"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455165009,
+        "id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518165904076,
+        "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "parent_table": "block",
+        "type": "text",
+        "version": 2
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512455165009,
+        "id": "bd63faec-f750-4421-aeb6-937c2b2ddd54",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1518165933081,
+        "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 3,
+        "code": "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}"
+      }
+    ],
+    "title": "vscode, visual studio code",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

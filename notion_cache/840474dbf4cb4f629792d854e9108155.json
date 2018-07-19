@@ -1,0 +1,76 @@
+{
+  "ID": "840474db-f4cb-4f62-9792-d854e9108155",
+  "Page": {
+    "alive": true,
+    "content": [
+      "fb2c0c20-42c6-48cc-aa49-2634b09147e8"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512356053424,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "840474db-f4cb-4f62-9792-d854e9108155",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120351883,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "find"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 10,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512356073366,
+        "id": "fb2c0c20-42c6-48cc-aa49-2634b09147e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512356073366,
+        "parent_id": "840474db-f4cb-4f62-9792-d854e9108155",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists"
+      }
+    ],
+    "title": "find",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

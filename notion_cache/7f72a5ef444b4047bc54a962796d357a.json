@@ -1,0 +1,217 @@
+{
+  "ID": "7f72a5ef-444b-4047-bc54-a962796d357a",
+  "Page": {
+    "alive": true,
+    "content": [
+      "1baa01d4-12e7-459c-a5b2-c7c6e0fc4fc5",
+      "500b34f2-5f1f-452e-8b21-ad140923effd",
+      "c1730a82-0ab4-4a9a-a811-1ad8c68e2747"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1531880270402,
+    "format": {
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "7f72a5ef-444b-4047-bc54-a962796d357a",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1531880928342,
+    "parent_id": "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "devlog 2017-09 • 02 d"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 68,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531880274536,
+        "id": "1baa01d4-12e7-459c-a5b2-c7c6e0fc4fc5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531880274550,
+        "parent_id": "7f72a5ef-444b-4047-bc54-a962796d357a",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      },
+      {
+        "alive": true,
+        "content": [
+          "42f2979d-c83f-4279-9a75-f936a248a176"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194230,
+        "id": "500b34f2-5f1f-452e-8b21-ad140923effd",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887931507,
+        "parent_id": "7f72a5ef-444b-4047-bc54-a962796d357a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-09-27"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 24,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204747818,
+            "id": "42f2979d-c83f-4279-9a75-f936a248a176",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887933037,
+            "parent_id": "500b34f2-5f1f-452e-8b21-ad140923effd",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "started on parsing of the html"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 20,
+            "inline_content": [
+              {
+                "Text": "started on parsing of the html"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-09-27"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "633a1bd2-e7f1-4f21-93c2-df824c445b05",
+          "93aa52f3-079f-4850-802f-3f063668147f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194230,
+        "id": "c1730a82-0ab4-4a9a-a811-1ad8c68e2747",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531887937166,
+        "parent_id": "7f72a5ef-444b-4047-bc54-a962796d357a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2017-09-26"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 26,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204737769,
+            "id": "633a1bd2-e7f1-4f21-93c2-df824c445b05",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887941427,
+            "parent_id": "c1730a82-0ab4-4a9a-a811-1ad8c68e2747",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "tweaked API of "
+                ],
+                [
+                  "https://github.com/kjk/siser",
+                  [
+                    [
+                      "a",
+                      "https://github.com/kjk/siser"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 34,
+            "inline_content": [
+              {
+                "Text": "tweaked API of "
+              },
+              {
+                "Text": "https://github.com/kjk/siser",
+                "Link": "https://github.com/kjk/siser"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204740642,
+            "id": "93aa52f3-079f-4850-802f-3f063668147f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1531887943401,
+            "parent_id": "c1730a82-0ab4-4a9a-a811-1ad8c68e2747",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "started on winapigen"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 20,
+            "inline_content": [
+              {
+                "Text": "started on winapigen"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2017-09-26"
+          }
+        ]
+      }
+    ],
+    "title": "devlog 2017-09 • 02 d",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "mono",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

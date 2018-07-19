@@ -1,0 +1,578 @@
+{
+  "ID": "896a9d12-f40c-44da-924b-b4979993cef3",
+  "Page": {
+    "alive": true,
+    "content": [
+      "feb5521a-7903-4cef-8047-a0cd340a4286",
+      "e799f3c3-6515-45e0-a6a6-acb79dbf35bf",
+      "cdd66100-5f84-4d19-afac-0dccd04f617f",
+      "ce78e74e-fd9c-4c08-9d3d-7f29df3cffb2",
+      "6f4daff2-8c7e-4ea1-af8a-4baf9bd5dff7",
+      "9c1b29e5-1ec1-47a9-99df-5d851840f95d",
+      "9d893132-43ea-47a6-9116-856653d94bb7",
+      "a1c6b1af-f062-455e-8047-94523be443d5",
+      "979b11f2-54f8-4d68-b1d1-a52c63e362cc",
+      "53f47bb1-1d20-4929-abf2-c120ba0ccc9b",
+      "98d106a6-b1a6-46ec-9380-599379b60fb9",
+      "00df0af5-c3bc-4e08-9c06-57bb6cf766d1",
+      "2716af4e-b9d6-4894-99d5-c02d62e233eb",
+      "2dd78490-116a-4c2f-91f9-ec2bdce3c2ba",
+      "ebaeac46-db7b-446d-926e-37480ed235d7",
+      "a48f948b-28b9-4967-bb75-eb9b4bbe65b1"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512457478865,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "896a9d12-f40c-44da-924b-b4979993cef3",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120456638,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "ulimit"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 3,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457486095,
+        "id": "feb5521a-7903-4cef-8047-a0cd340a4286",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457486095,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "File description limit"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "File description limit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "e799f3c3-6515-45e0-a6a6-acb79dbf35bf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Things that can be done:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Things that can be done:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "cdd66100-5f84-4d19-afac-0dccd04f617f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "sysctl -w fs.file-max=100000",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : set system-wide limit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "sysctl -w fs.file-max=100000",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : set system-wide limit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "ce78e74e-fd9c-4c08-9d3d-7f29df3cffb2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cat /proc/sys/fs/file-nr",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows number of opened files by all processes"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "cat /proc/sys/fs/file-nr",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows number of opened files by all processes"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "6f4daff2-8c7e-4ea1-af8a-4baf9bd5dff7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cat /proc/sys/fs/file-max",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows system-level max number of opened files"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "cat /proc/sys/fs/file-max",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows system-level max number of opened files"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "9c1b29e5-1ec1-47a9-99df-5d851840f95d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cat /proc/5/limits | grep files",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows file limits for a process with pid 3"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "cat /proc/5/limits | grep files",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows file limits for a process with pid 3"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "9d893132-43ea-47a6-9116-856653d94bb7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ls -la /proc/5/fd | wc -l",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows opened files by process with pid 3"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "ls -la /proc/5/fd | wc -l",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows opened files by process with pid 3"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "a1c6b1af-f062-455e-8047-94523be443d5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "lsof -p 5 | wc -l",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : another way to see files opened by process"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "lsof -p 5 | wc -l",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : another way to see files opened by process"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "979b11f2-54f8-4d68-b1d1-a52c63e362cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ulimit -n",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows soft limit, must be less than hard limit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "ulimit -n",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows soft limit, must be less than hard limit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "53f47bb1-1d20-4929-abf2-c120ba0ccc9b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ulimit -Hn",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : shows hard limit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "ulimit -Hn",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : shows hard limit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "98d106a6-b1a6-46ec-9380-599379b60fb9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ulimit -n \u003cn\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : sets soft limit for current process"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "ulimit -n \u003cn\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : sets soft limit for current process"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "00df0af5-c3bc-4e08-9c06-57bb6cf766d1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "ulimit -Hn \u003cn\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : sets hard limit for current process"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "ulimit -Hn \u003cn\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : sets hard limit for current process"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "2716af4e-b9d6-4894-99d5-c02d62e233eb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "cat /etc/sysctl.conf",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "cat /etc/sysctl.conf",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "2dd78490-116a-4c2f-91f9-ec2bdce3c2ba",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/soldair/docker-alpine-elasticsearch/blob/master/start.sh",
+              [
+                [
+                  "a",
+                  "https://github.com/soldair/docker-alpine-elasticsearch/blob/master/start.sh"
+                ]
+              ]
+            ],
+            [
+              " : shows how set limits"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/soldair/docker-alpine-elasticsearch/blob/master/start.sh",
+            "Link": "https://github.com/soldair/docker-alpine-elasticsearch/blob/master/start.sh"
+          },
+          {
+            "Text": " : shows how set limits"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457514708,
+        "id": "ebaeac46-db7b-446d-926e-37480ed235d7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457514708,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512457480200,
+        "id": "a48f948b-28b9-4967-bb75-eb9b4bbe65b1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512457480200,
+        "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000"
+      }
+    ],
+    "title": "ulimit",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

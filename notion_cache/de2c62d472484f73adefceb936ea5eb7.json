@@ -1,0 +1,311 @@
+{
+  "ID": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+  "Page": {
+    "alive": true,
+    "content": [
+      "818ff641-b07a-4fe0-846f-42b7b553a1c4",
+      "01265282-d86f-43fa-925b-f37288052188",
+      "78575440-41ab-453e-8d88-3648a0089735",
+      "ec7c9b88-e545-4df7-9618-b5e618e0deaf",
+      "8329211a-24a0-4277-9f67-b9fb8613aca3",
+      "b9c9c8d0-feb1-4b87-9d63-00683f1732d7",
+      "2e7d7e9c-71d4-41bb-9eb9-898483d33261"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1511323475543,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120332494,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "bash"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 7,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336557740,
+        "id": "818ff641-b07a-4fe0-846f-42b7b553a1c4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336557740,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336559846,
+        "id": "01265282-d86f-43fa-925b-f37288052188",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336559846,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://wiki.bash-hackers.org/syntax/quoting",
+              [
+                [
+                  "a",
+                  "http://wiki.bash-hackers.org/syntax/quoting"
+                ]
+              ]
+            ],
+            [
+              " : notes on quoting"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://wiki.bash-hackers.org/syntax/quoting",
+            "Link": "http://wiki.bash-hackers.org/syntax/quoting"
+          },
+          {
+            "Text": " : notes on quoting"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336570623,
+        "id": "78575440-41ab-453e-8d88-3648a0089735",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336570623,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html",
+              [
+                [
+                  "a",
+                  "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html",
+            "Link": "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336576890,
+        "id": "ec7c9b88-e545-4df7-9618-b5e618e0deaf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512336576890,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://news.ycombinator.com/item?id=7595499",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=7595499"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://news.ycombinator.com/item?id=7595499",
+            "Link": "https://news.ycombinator.com/item?id=7595499"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1526429440073,
+        "id": "8329211a-24a0-4277-9f67-b9fb8613aca3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1526429451051,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://google.github.io/styleguide/shell.xml",
+              [
+                [
+                  "a",
+                  "https://google.github.io/styleguide/shell.xml"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "https://google.github.io/styleguide/shell.xml",
+            "Link": "https://google.github.io/styleguide/shell.xml"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/",
+            "Link": "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1526429491524,
+        "id": "b9c9c8d0-feb1-4b87-9d63-00683f1732d7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1526429506873,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md",
+              [
+                [
+                  "a",
+                  "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/",
+              [
+                [
+                  "a",
+                  "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md",
+            "Link": "https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/",
+            "Link": "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1511323498461,
+        "id": "2e7d7e9c-71d4-41bb-9eb9-898483d33261",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1511323498461,
+        "parent_id": "de2c62d4-7248-4f73-adef-ceb936ea5eb7",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "#!/bin/bash\nset -u -e -o pipefail -o verbose\n\nV=\"this is a variable\"\nthis_is_function() {\n\tV=\"${V} and we added to V\"\n}\n\nprint_v() {\n\techo \"V: $V\"\n}\n\nprint_v\nthis_is_function\nprint_v\n\ncd cygpath $(echo $USERPROFILE)/src\n.\nalias cdsrc=\"cd cygpath $(echo $USERPROFILE)/src\"\n\nmy_func\n\nBuilt-In Variables:\n\n$0   name of the script\n\n$#   number of parameters to script/function\n$@  all parameters to script/function (sees arguments as separate word)\n$*    all parameters to script/function (sees arguments as single word)\n$n   positional parameters to script/function\n\n$$   PID of the script\n$!   PID of the last command executed (and run in the background)\n$?   exit status of the last command  (${PIPESTATUS} for pipelined commands)\n\nNote\n$*   is rarely the right choice.\n$@ handles empty parameter list and white-space within parameters correctly\n$@ should usually be quoted like so \"$@\"\n\nEXIT_STATUS=$?\nvagrant halt\nif [ \"$EXIT_STATUS\" != 0]; then\n`    exit $EXIT_STATUS\nfi\n\nredirect stderr to stdout and append stdout to a file\ncmd 2\u003e\u00261\n\nredirect (via append) both stderr and stdout to to a file:\ncmd \u0026\u003e\u003e out.log\n\nDefault function arguments:\n\nfoo()\n{\n    default_arg=${1:-default_value} # doesn't include '-'\n}\n\n\nif [ -z \"$FOO\" ]; then\n...\nfi\n\n-z : true if empty string (http://linuxcommand.org/man_pages/bash1.html)"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "#!/bin/bash\nset -u -e -o pipefail -o verbose\n\nV=\"this is a variable\"\nthis_is_function() {\n\tV=\"${V} and we added to V\"\n}\n\nprint_v() {\n\techo \"V: $V\"\n}\n\nprint_v\nthis_is_function\nprint_v\n\ncd cygpath $(echo $USERPROFILE)/src\n.\nalias cdsrc=\"cd cygpath $(echo $USERPROFILE)/src\"\n\nmy_func\n\nBuilt-In Variables:\n\n$0   name of the script\n\n$#   number of parameters to script/function\n$@  all parameters to script/function (sees arguments as separate word)\n$*    all parameters to script/function (sees arguments as single word)\n$n   positional parameters to script/function\n\n$$   PID of the script\n$!   PID of the last command executed (and run in the background)\n$?   exit status of the last command  (${PIPESTATUS} for pipelined commands)\n\nNote\n$*   is rarely the right choice.\n$@ handles empty parameter list and white-space within parameters correctly\n$@ should usually be quoted like so \"$@\"\n\nEXIT_STATUS=$?\nvagrant halt\nif [ \"$EXIT_STATUS\" != 0]; then\n`    exit $EXIT_STATUS\nfi\n\nredirect stderr to stdout and append stdout to a file\ncmd 2\u003e\u00261\n\nredirect (via append) both stderr and stdout to to a file:\ncmd \u0026\u003e\u003e out.log\n\nDefault function arguments:\n\nfoo()\n{\n    default_arg=${1:-default_value} # doesn't include '-'\n}\n\n\nif [ -z \"$FOO\" ]; then\n...\nfi\n\n-z : true if empty string (http://linuxcommand.org/man_pages/bash1.html)",
+        "code_language": "Shell"
+      }
+    ],
+    "title": "bash",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

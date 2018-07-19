@@ -1,0 +1,89 @@
+{
+  "ID": "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+  "Page": {
+    "alive": true,
+    "content": [
+      "cb5eae3f-0674-4536-972a-262219645ae5",
+      "99b370b1-d081-4a2c-9819-dc4783898e42"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512294053016,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120456638,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "rsync"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 6,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294059133,
+        "id": "cb5eae3f-0674-4536-972a-262219645ae5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294059133,
+        "parent_id": "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294071022,
+        "id": "99b370b1-d081-4a2c-9819-dc4783898e42",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294071022,
+        "parent_id": "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "rsync --verbose --compress --recursive --perms username@hostname:/from/dir/ /to/dir\nrsync -Pav -e \"ssh -i $HOME/.ssh/somekey\" username@hostname:/from/dir/ /to/dir/\n\n# -e : ssh command e.g. -e \"ssh -i $HOME/.ssh/somkey\"\n# -z : compress\n# -v : verbose\n# -h : human-readable numbers\n# -r : recursive\n# -P, --progress : show progress\n# -a, --archive : archive mode; equals -rlptgoD (no -H,-A,-X)"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "rsync --verbose --compress --recursive --perms username@hostname:/from/dir/ /to/dir\nrsync -Pav -e \"ssh -i $HOME/.ssh/somekey\" username@hostname:/from/dir/ /to/dir/\n\n# -e : ssh command e.g. -e \"ssh -i $HOME/.ssh/somkey\"\n# -z : compress\n# -v : verbose\n# -h : human-readable numbers\n# -r : recursive\n# -P, --progress : show progress\n# -a, --archive : archive mode; equals -rlptgoD (no -H,-A,-X)"
+      }
+    ],
+    "title": "rsync",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

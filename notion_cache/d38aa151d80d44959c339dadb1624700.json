@@ -1,0 +1,339 @@
+{
+  "ID": "d38aa151-d80d-4495-9c33-9dadb1624700",
+  "Page": {
+    "alive": true,
+    "content": [
+      "a5c0e532-910d-431c-9423-cc2d561eddb8",
+      "7e7ed2ce-ca39-4a30-b9a0-88809736091f",
+      "54dcb7f3-ae53-4219-b13f-8518271e0e32",
+      "eddd6c9e-29ab-46f3-9172-185459cfca9e",
+      "79a011d0-4717-45d0-aaf8-a6e0a7ade8e6",
+      "d48c0740-32db-467d-b685-773fb6578501",
+      "5bd3f8fa-7215-4faa-bffe-ba237fc0d411",
+      "737b12c3-cde3-478b-9087-4c9f34eb7c18"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1475466894634,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1475466894634,
+    "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Optimizing v8"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475466900356,
+        "id": "a5c0e532-910d-431c-9423-cc2d561eddb8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475466900356,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Running Chrome with profiling flags: "
+            ],
+            [
+              "open \"/Applications/Google Chrome Canary.app\" —args —no-sandbox —js-flags=\"—trace-deopt —logfile=/Users/kjk/v8.log\"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Running Chrome with profiling flags: "
+          },
+          {
+            "Text": "open \"/Applications/Google Chrome Canary.app\" —args —no-sandbox —js-flags=\"—trace-deopt —logfile=/Users/kjk/v8.log\"",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475466934727,
+        "id": "7e7ed2ce-ca39-4a30-b9a0-88809736091f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475466934727,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Note: doesn't seem to create log file. It did create with —prof flag."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Note: doesn't seem to create log file. It did create with —prof flag."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475466956600,
+        "id": "54dcb7f3-ae53-4219-b13f-8518271e0e32",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475466956600,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475467009704,
+        "id": "eddd6c9e-29ab-46f3-9172-185459cfca9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475467009704,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md",
+              [
+                [
+                  "a",
+                  "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md",
+            "Link": "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512354872853,
+        "id": "79a011d0-4717-45d0-aaf8-a6e0a7ade8e6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512354872853,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/",
+              [
+                [
+                  "a",
+                  "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/",
+            "Link": "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512354872853,
+        "id": "d48c0740-32db-467d-b685-773fb6578501",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512354872853,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gamealchemist.wordpress.com/",
+              [
+                [
+                  "a",
+                  "https://gamealchemist.wordpress.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://gamealchemist.wordpress.com/",
+            "Link": "https://gamealchemist.wordpress.com/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512354872853,
+        "id": "5bd3f8fa-7215-4faa-bffe-ba237fc0d411",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512354872853,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://media.tojicode.com/sfjs-vectors/#1",
+              [
+                [
+                  "a",
+                  "http://media.tojicode.com/sfjs-vectors/#1"
+                ]
+              ]
+            ],
+            [
+              " : writing efficient Vector math in JavaScript, from author of glMatrix"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://media.tojicode.com/sfjs-vectors/#1",
+            "Link": "http://media.tojicode.com/sfjs-vectors/#1"
+          },
+          {
+            "Text": " : writing efficient Vector math in JavaScript, from author of glMatrix"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512354872853,
+        "id": "737b12c3-cde3-478b-9087-4c9f34eb7c18",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512354872853,
+        "parent_id": "d38aa151-d80d-4495-9c33-9dadb1624700",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://glmatrix.net/",
+              [
+                [
+                  "a",
+                  "http://glmatrix.net/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://github.com/toji/gl-matrix",
+              [
+                [
+                  "a",
+                  "https://github.com/toji/gl-matrix"
+                ]
+              ]
+            ],
+            [
+              " : fast vector math library"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://glmatrix.net/",
+            "Link": "http://glmatrix.net/"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://github.com/toji/gl-matrix",
+            "Link": "https://github.com/toji/gl-matrix"
+          },
+          {
+            "Text": " : fast vector math library"
+          }
+        ]
+      }
+    ],
+    "title": "Optimizing v8",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

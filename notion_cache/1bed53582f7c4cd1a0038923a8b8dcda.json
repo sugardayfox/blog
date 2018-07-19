@@ -1,0 +1,1415 @@
+{
+  "ID": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+  "Page": {
+    "alive": true,
+    "content": [
+      "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
+      "7b956832-731b-48cd-8a05-5408b6b2f5c5",
+      "fc1a8906-20cd-442d-babd-38929fb5c6be",
+      "16e49a37-5d68-45ba-a2bf-947f75febe04",
+      "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+      "7531b056-deb3-4888-9afc-65f6740e4495"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512294173304,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530070263888,
+    "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "postgresql"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 5,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294190060,
+        "id": "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512294190060,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512294204689,
+        "id": "7b956832-731b-48cd-8a05-5408b6b2f5c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530070263888,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
+              [
+                [
+                  "a",
+                  "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 2,
+        "inline_content": [
+          {
+            "Text": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
+            "Link": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "867bf47d-adfe-40ec-a128-f4d151bdd59f",
+          "e5ea9908-2ec3-4c65-962b-eff325a7092c",
+          "53816801-0b68-4546-a49d-654cf897f4a8",
+          "b8f77d36-105e-4d90-877f-3a1c8763a2d6",
+          "5e9819e1-37f6-4974-9af2-a4a62095347f",
+          "00221af2-a56f-4460-a813-a71f8f64ca2e",
+          "1bb9869b-fa6c-412d-8bea-59c1750d43c3",
+          "66ad40a9-b958-4e21-b1ef-f5b332d4b0e0",
+          "be8ad94b-0701-49a1-a1fd-b45ca5554660",
+          "84966fd7-3a44-4efa-95b3-5f76f99381e0",
+          "db0b8c9c-f69a-4fd3-9921-a2e7ecda368a",
+          "b403cd94-9317-42c5-96bb-0d166e8a60bc",
+          "e6ec78ae-2fdb-4cb8-9bdd-fa100a604fcc",
+          "c759a2a8-d4b2-4ecf-92da-79bf0422b458",
+          "20f2c217-f210-4a64-96a3-ff0863847196",
+          "fbc28efa-7451-426c-8f7e-13b4251037cc"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336305897,
+        "id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530070256659,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Libraries for Go"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 2,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "867bf47d-adfe-40ec-a128-f4d151bdd59f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/mc2soft/pq-types",
+                  [
+                    [
+                      "a",
+                      "https://github.com/mc2soft/pq-types"
+                    ]
+                  ]
+                ],
+                [
+                  " : decoders for more PostgreSQL types"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/mc2soft/pq-types",
+                "Link": "https://github.com/mc2soft/pq-types"
+              },
+              {
+                "Text": " : decoders for more PostgreSQL types"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "e5ea9908-2ec3-4c65-962b-eff325a7092c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/go-reform/reform",
+                  [
+                    [
+                      "a",
+                      "https://github.com/go-reform/reform"
+                    ]
+                  ]
+                ],
+                [
+                  " : ORM for go, supports postgres"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/go-reform/reform",
+                "Link": "https://github.com/go-reform/reform"
+              },
+              {
+                "Text": " : ORM for go, supports postgres"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "53816801-0b68-4546-a49d-654cf897f4a8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/galeone/igor",
+                  [
+                    [
+                      "a",
+                      "https://github.com/galeone/igor"
+                    ]
+                  ]
+                ],
+                [
+                  " : GORM-like ORM for postgres"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/galeone/igor",
+                "Link": "https://github.com/galeone/igor"
+              },
+              {
+                "Text": " : GORM-like ORM for postgres"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "b8f77d36-105e-4d90-877f-3a1c8763a2d6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/jmoiron/sqlx",
+                  [
+                    [
+                      "a",
+                      "https://github.com/jmoiron/sqlx"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "http://jmoiron.github.io/sqlx/",
+                  [
+                    [
+                      "a",
+                      "http://jmoiron.github.io/sqlx/"
+                    ]
+                  ]
+                ],
+                [
+                  " : sqlx provides a bit more functionality than sql package"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/jmoiron/sqlx",
+                "Link": "https://github.com/jmoiron/sqlx"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "http://jmoiron.github.io/sqlx/",
+                "Link": "http://jmoiron.github.io/sqlx/"
+              },
+              {
+                "Text": " : sqlx provides a bit more functionality than sql package"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "5e9819e1-37f6-4974-9af2-a4a62095347f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/mgutz/dat",
+                  [
+                    [
+                      "a",
+                      "https://github.com/mgutz/dat"
+                    ]
+                  ]
+                ],
+                [
+                  " : based on sqlx, has postgres-specific additions, query builder"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/mgutz/dat",
+                "Link": "https://github.com/mgutz/dat"
+              },
+              {
+                "Text": " : based on sqlx, has postgres-specific additions, query builder"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "00221af2-a56f-4460-a813-a71f8f64ca2e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/elgris/sqrl",
+                  [
+                    [
+                      "a",
+                      "https://github.com/elgris/sqrl"
+                    ]
+                  ]
+                ],
+                [
+                  " : query builder"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/elgris/sqrl",
+                "Link": "https://github.com/elgris/sqrl"
+              },
+              {
+                "Text": " : query builder"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "1bb9869b-fa6c-412d-8bea-59c1750d43c3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/achiku/dgw",
+                  [
+                    [
+                      "a",
+                      "https://github.com/achiku/dgw"
+                    ]
+                  ]
+                ],
+                [
+                  " : generates Golang struct from PostgreSQL metadata"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/achiku/dgw",
+                "Link": "https://github.com/achiku/dgw"
+              },
+              {
+                "Text": " : generates Golang struct from PostgreSQL metadata"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "66ad40a9-b958-4e21-b1ef-f5b332d4b0e0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/knq/xo",
+                  [
+                    [
+                      "a",
+                      "https://github.com/knq/xo"
+                    ]
+                  ]
+                ],
+                [
+                  " : generate Golang structs and helper functions"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/knq/xo",
+                "Link": "https://github.com/knq/xo"
+              },
+              {
+                "Text": " : generate Golang structs and helper functions"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "be8ad94b-0701-49a1-a1fd-b45ca5554660",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/oelmekki/pgrebase",
+                  [
+                    [
+                      "a",
+                      "https://github.com/oelmekki/pgrebase"
+                    ]
+                  ]
+                ],
+                [
+                  " : mange postgres codebase for functions, triggers and views"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/oelmekki/pgrebase",
+                "Link": "https://github.com/oelmekki/pgrebase"
+              },
+              {
+                "Text": " : mange postgres codebase for functions, triggers and views"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "84966fd7-3a44-4efa-95b3-5f76f99381e0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/vattle/sqlboiler",
+                  [
+                    [
+                      "a",
+                      "https://github.com/vattle/sqlboiler"
+                    ]
+                  ]
+                ],
+                [
+                  " : generates Go code from existing postgres database by querying the schema"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/vattle/sqlboiler",
+                "Link": "https://github.com/vattle/sqlboiler"
+              },
+              {
+                "Text": " : generates Go code from existing postgres database by querying the schema"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "db0b8c9c-f69a-4fd3-9921-a2e7ecda368a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/Tebro/gopsql",
+                  [
+                    [
+                      "a",
+                      "https://github.com/Tebro/gopsql"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/Tebro/gopsql",
+                "Link": "https://github.com/Tebro/gopsql"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "b403cd94-9317-42c5-96bb-0d166e8a60bc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/russross/meddler",
+                  [
+                    [
+                      "a",
+                      "https://github.com/russross/meddler"
+                    ]
+                  ]
+                ],
+                [
+                  " Libraries for JavaScript:"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/russross/meddler",
+                "Link": "https://github.com/russross/meddler"
+              },
+              {
+                "Text": " Libraries for JavaScript:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "e6ec78ae-2fdb-4cb8-9bdd-fa100a604fcc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/holdfenytolvaj/pogi/",
+                  [
+                    [
+                      "a",
+                      "https://github.com/holdfenytolvaj/pogi/"
+                    ]
+                  ]
+                ],
+                [
+                  " : high-level wrapper over pg.js, written in TypeScript"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/holdfenytolvaj/pogi/",
+                "Link": "https://github.com/holdfenytolvaj/pogi/"
+              },
+              {
+                "Text": " : high-level wrapper over pg.js, written in TypeScript"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "c759a2a8-d4b2-4ecf-92da-79bf0422b458",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/sweetiq/schemats",
+                  [
+                    [
+                      "a",
+                      "https://github.com/sweetiq/schemats"
+                    ]
+                  ]
+                ],
+                [
+                  " : generates TypeScript definitions from schema"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/sweetiq/schemats",
+                "Link": "https://github.com/sweetiq/schemats"
+              },
+              {
+                "Text": " : generates TypeScript definitions from schema"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "20f2c217-f210-4a64-96a3-ff0863847196",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/russross/meddler",
+                  [
+                    [
+                      "a",
+                      "https://github.com/russross/meddler"
+                    ]
+                  ]
+                ],
+                [
+                  " : sql \u003c-\u003e struct helpers"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/russross/meddler",
+                "Link": "https://github.com/russross/meddler"
+              },
+              {
+                "Text": " : sql \u003c-\u003e struct helpers"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "fbc28efa-7451-426c-8f7e-13b4251037cc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "fc1a8906-20cd-442d-babd-38929fb5c6be",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/go-pg/pg",
+                  [
+                    [
+                      "a",
+                      "https://github.com/go-pg/pg"
+                    ]
+                  ]
+                ],
+                [
+                  " : ORM focusing on Postgres"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/go-pg/pg",
+                "Link": "https://github.com/go-pg/pg"
+              },
+              {
+                "Text": " : ORM focusing on Postgres"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Libraries for Go"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "6d818b40-e95d-41ca-b2a2-36cd8595b56e",
+          "73b99cac-0762-4c4a-b032-4a14ff231940"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336305897,
+        "id": "16e49a37-5d68-45ba-a2bf-947f75febe04",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530070261649,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "GUI browsers"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 2,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "6d818b40-e95d-41ca-b2a2-36cd8595b56e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "16e49a37-5d68-45ba-a2bf-947f75febe04",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://dbglass.web-pal.com/",
+                  [
+                    [
+                      "a",
+                      "http://dbglass.web-pal.com/"
+                    ]
+                  ]
+                ],
+                [
+                  " : an ok db browser, electron"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://dbglass.web-pal.com/",
+                "Link": "http://dbglass.web-pal.com/"
+              },
+              {
+                "Text": " : an ok db browser, electron"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "73b99cac-0762-4c4a-b032-4a14ff231940",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "16e49a37-5d68-45ba-a2bf-947f75febe04",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.sqltabs.com/",
+                  [
+                    [
+                      "a",
+                      "http://www.sqltabs.com/"
+                    ]
+                  ]
+                ],
+                [
+                  " : electron app, react + node, a janky db explorer but a good start"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://www.sqltabs.com/",
+                "Link": "http://www.sqltabs.com/"
+              },
+              {
+                "Text": " : electron app, react + node, a janky db explorer but a good start"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "GUI browsers"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "c591b15d-353b-46d3-bb0f-806a796d9c8a",
+          "53c32af2-733c-4783-be6c-27a4164d37db",
+          "de09cea3-1fb8-4b3e-9af3-b8c1b4ae2503",
+          "32680caa-e932-4951-9740-b8583cc599a0",
+          "32adba97-d48f-454e-8416-48f30bd2d6cd",
+          "3b9750c8-06b2-47ec-89e6-054cccf0f630",
+          "99cb2b6d-977b-4e02-a1a2-d6c2cb934cdc",
+          "756aa655-fd6e-4ffb-b459-b4cd995a86df",
+          "382dba2c-0f26-4b97-88a6-13256acf598f",
+          "eba29c32-0aeb-4a9c-b9d9-51060b09df15",
+          "e3e62b25-12b6-4ee9-a865-77b56d19b3c2",
+          "ba512368-cb4a-4f5d-b6f6-8b388cf6973a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512336305897,
+        "id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530070251310,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tools"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 2,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "c591b15d-353b-46d3-bb0f-806a796d9c8a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/ankane/pghero",
+                  [
+                    [
+                      "a",
+                      "https://github.com/ankane/pghero"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://pghero.herokuapp.com/",
+                  [
+                    [
+                      "a",
+                      "https://pghero.herokuapp.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/ankane/pghero",
+                "Link": "https://github.com/ankane/pghero"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://pghero.herokuapp.com/",
+                "Link": "https://pghero.herokuapp.com/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "53c32af2-733c-4783-be6c-27a4164d37db",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.depesz.com/projects/",
+                  [
+                    [
+                      "a",
+                      "https://www.depesz.com/projects/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://www.depesz.com/projects/",
+                "Link": "https://www.depesz.com/projects/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "de09cea3-1fb8-4b3e-9af3-b8c1b4ae2503",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.yohz.com/dbdoc_details.htm",
+                  [
+                    [
+                      "a",
+                      "http://www.yohz.com/dbdoc_details.htm"
+                    ]
+                  ]
+                ],
+                [
+                  " : generates docs (PDF, HTML etc.) describing the schema of the database, easy to replicate"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://www.yohz.com/dbdoc_details.htm",
+                "Link": "http://www.yohz.com/dbdoc_details.htm"
+              },
+              {
+                "Text": " : generates docs (PDF, HTML etc.) describing the schema of the database, easy to replicate"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "32680caa-e932-4951-9740-b8583cc599a0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.yohz.com/siv_details.htm",
+                  [
+                    [
+                      "a",
+                      "http://www.yohz.com/siv_details.htm"
+                    ]
+                  ]
+                ],
+                [
+                  " : SQL Image Viewer, easy to replicate"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://www.yohz.com/siv_details.htm",
+                "Link": "http://www.yohz.com/siv_details.htm"
+              },
+              {
+                "Text": " : SQL Image Viewer, easy to replicate"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "32adba97-d48f-454e-8416-48f30bd2d6cd",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/lukasmartinelli/pgfutter",
+                  [
+                    [
+                      "a",
+                      "https://github.com/lukasmartinelli/pgfutter"
+                    ]
+                  ]
+                ],
+                [
+                  " : import csv and json into Postgres, in Go"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/lukasmartinelli/pgfutter",
+                "Link": "https://github.com/lukasmartinelli/pgfutter"
+              },
+              {
+                "Text": " : import csv and json into Postgres, in Go"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "3b9750c8-06b2-47ec-89e6-054cccf0f630",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/oelmekki/pgrebase",
+                  [
+                    [
+                      "a",
+                      "https://github.com/oelmekki/pgrebase"
+                    ]
+                  ]
+                ],
+                [
+                  " : in Go, management of stored procedures"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/oelmekki/pgrebase",
+                "Link": "https://github.com/oelmekki/pgrebase"
+              },
+              {
+                "Text": " : in Go, management of stored procedures"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "99cb2b6d-977b-4e02-a1a2-d6c2cb934cdc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/SweetIQ/schemats",
+                  [
+                    [
+                      "a",
+                      "https://github.com/SweetIQ/schemats"
+                    ]
+                  ]
+                ],
+                [
+                  " : generates TypeScript definition for db schema"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/SweetIQ/schemats",
+                "Link": "https://github.com/SweetIQ/schemats"
+              },
+              {
+                "Text": " : generates TypeScript definition for db schema"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "756aa655-fd6e-4ffb-b459-b4cd995a86df",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/nuveo/prest",
+                  [
+                    [
+                      "a",
+                      "https://github.com/nuveo/prest"
+                    ]
+                  ]
+                ],
+                [
+                  " : REST api access to postgres db e.g. "
+                ],
+                [
+                  "/databases",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " returns list of databases, written in Go"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/nuveo/prest",
+                "Link": "https://github.com/nuveo/prest"
+              },
+              {
+                "Text": " : REST api access to postgres db e.g. "
+              },
+              {
+                "Text": "/databases",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " returns list of databases, written in Go"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "382dba2c-0f26-4b97-88a6-13256acf598f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/ozum/pg-structure",
+                  [
+                    [
+                      "a",
+                      "https://github.com/ozum/pg-structure"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/ozum/pg-structure",
+                "Link": "https://github.com/ozum/pg-structure"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "eba29c32-0aeb-4a9c-b9d9-51060b09df15",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://joelonsql.com/2016/12/10/pg_catalog-visualized/",
+                  [
+                    [
+                      "a",
+                      "https://joelonsql.com/2016/12/10/pg_catalog-visualized/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://joelonsql.com/2016/12/10/pg_catalog-visualized/",
+                "Link": "https://joelonsql.com/2016/12/10/pg_catalog-visualized/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "e3e62b25-12b6-4ee9-a865-77b56d19b3c2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/facetoe/pgtransform",
+                  [
+                    [
+                      "a",
+                      "https://github.com/facetoe/pgtransform"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/facetoe/pgtransform",
+                "Link": "https://github.com/facetoe/pgtransform"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336305897,
+            "id": "ba512368-cb4a-4f5d-b6f6-8b388cf6973a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512336305897,
+            "parent_id": "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/djrobstep/migra",
+                  [
+                    [
+                      "a",
+                      "https://github.com/djrobstep/migra"
+                    ]
+                  ]
+                ],
+                [
+                  " : in python, generates sql to change schema form db A to db B"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/djrobstep/migra",
+                "Link": "https://github.com/djrobstep/migra"
+              },
+              {
+                "Text": " : in python, generates sql to change schema form db A to db B"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Tools"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "758105c4-87f4-4d07-85a7-9a4023549582"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512456648565,
+        "id": "7531b056-deb3-4888-9afc-65f6740e4495",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512456648565,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "notes"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512456655581,
+            "id": "758105c4-87f4-4d07-85a7-9a4023549582",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512456655581,
+            "parent_id": "7531b056-deb3-4888-9afc-65f6740e4495",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "default port: 5432\n\nConfig file on Ubuntu:\n/etc/postgresql/9.3/main/postgresql.conf - Ubuntu 14.04\n/etc/postgresql/9.4/main/postgresql.conf - Ubuntu 15.04\n\nAccess config file on Ubuntu:\n/etc/postgresql/9.3/main/pg_hba.conf\n\nTo enable those ports on ubuntu:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\n\nhttp://rob.conery.io/2015/03/01/document-storage-gymnastics-in-postgres/\nhttp://big-elephants.com/2012-10/aggregations-with-pg-hstore/\n\nhttp://russ.garrett.co.uk/talks/postgres-gds/#/\n\nhttps://blog.lateral.io/2015/05/full-text-search-in-milliseconds-with-postgresql/, https://news.ycombinator.com/item?id=9512360\n\nhttps://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2\n\npsql commands:\n\\l : list database\n\\c $db : connect to database\n\\dt : list tables\n\nhttp://www.postgresql.org/about/news/1587/ - 9.4.2, 9.3.7 have important fixes\n\nhttps://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/, https://news.ycombinator.com/item?id=9611434\n\nhttp://www.postgresql.org/docs/9.3/static/populate.html\nhttps://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps\nhttps://www.digitalocean.com/community/tutorials/how-to-backup-postgresql-databases-on-an-ubuntu-vps\n\npsql [option] [dbname [username]]\n-U $user : default is os user name\n-h $host\n-d $dbname : default is os user name\n-W : force password\n-w : no password\n\nLocation of config files:\n/etc/postgresql/9.3/main - in Ubuntu 14.04\n\nhttp://www.postgresonline.com/journal/archives/20-The-Anatomy-of-PostgreSQL-Part-2-Database-Objects.html\n\nhttp://blog.andrebarbosa.co/upsert-on-postgres-9-5/\nhttp://www.craigkerstiens.com/2015/12/27/postgres-9-5-feature-rundown/\nhttp://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/\nhttp://rachbelaid.com/postgres-full-text-search-is-good-enough/\n\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate database pagila_demo;\n\\q\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-schema.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-insert-data.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-data.sql\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate role pagila_demo_user login password 'pagila_demo_user_pwd';\nGRANT CONNECT ON DATABASE pagila_demo TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA public TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA public TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA information_schema TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA information_schema TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA pg_catalog TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA pg_catalog TO pagila_demo_user;\n\n\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nselect table_catalog, table_schema, table_name, table_type from information_schema.tables;\n\n\nSELECT datname, pid, usename, application_name FROM pg_stat_activity;\nSELECT pg_terminate_backend(12786);\n\nhttp://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/\nhttp://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/\nhttps://github.com/MediaMath/keryxlib\nhttp://www.monkeyandcrow.com/blog/hierarchies_with_postgres/, https://news.ycombinator.com/item?id=10875076\nhttps://github.com/joncrlsn/pgdiff\nhttps://pgexercises.com/\nhttp://bpicolo.github.io/docker/testing/2016/06/01/welcome-to-jekyll.html\nhttp://schinckel.net/2014/05/25/querying-json-in-postgres/\nhttps://www.postgresql.org/docs/9.4/static/functions-json.html\nhttp://stackoverflow.com/questions/24944347/postgresql-nested-json-querying\nhttps://wiki.duraspace.org/display/DSPACE/Idle+In+Transaction+Problem\nhttps://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/\nhttp://www.calhoun.io/connecting-to-a-postgresql-database-with-gos-database-sql-package/ : postgresql and Go tutorial\nhttp://cs.mcgill.ca/~mxia3/2016/11/18/Statically-typed-PostgreSQL-queries-and-typescript-schemats/ : postgres and typescript"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "default port: 5432\n\nConfig file on Ubuntu:\n/etc/postgresql/9.3/main/postgresql.conf - Ubuntu 14.04\n/etc/postgresql/9.4/main/postgresql.conf - Ubuntu 15.04\n\nAccess config file on Ubuntu:\n/etc/postgresql/9.3/main/pg_hba.conf\n\nTo enable those ports on ubuntu:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\n\nhttp://rob.conery.io/2015/03/01/document-storage-gymnastics-in-postgres/\nhttp://big-elephants.com/2012-10/aggregations-with-pg-hstore/\n\nhttp://russ.garrett.co.uk/talks/postgres-gds/#/\n\nhttps://blog.lateral.io/2015/05/full-text-search-in-milliseconds-with-postgresql/, https://news.ycombinator.com/item?id=9512360\n\nhttps://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2\n\npsql commands:\n\\l : list database\n\\c $db : connect to database\n\\dt : list tables\n\nhttp://www.postgresql.org/about/news/1587/ - 9.4.2, 9.3.7 have important fixes\n\nhttps://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/, https://news.ycombinator.com/item?id=9611434\n\nhttp://www.postgresql.org/docs/9.3/static/populate.html\nhttps://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps\nhttps://www.digitalocean.com/community/tutorials/how-to-backup-postgresql-databases-on-an-ubuntu-vps\n\npsql [option] [dbname [username]]\n-U $user : default is os user name\n-h $host\n-d $dbname : default is os user name\n-W : force password\n-w : no password\n\nLocation of config files:\n/etc/postgresql/9.3/main - in Ubuntu 14.04\n\nhttp://www.postgresonline.com/journal/archives/20-The-Anatomy-of-PostgreSQL-Part-2-Database-Objects.html\n\nhttp://blog.andrebarbosa.co/upsert-on-postgres-9-5/\nhttp://www.craigkerstiens.com/2015/12/27/postgres-9-5-feature-rundown/\nhttp://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/\nhttp://rachbelaid.com/postgres-full-text-search-is-good-enough/\n\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate database pagila_demo;\n\\q\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-schema.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-insert-data.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-data.sql\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate role pagila_demo_user login password 'pagila_demo_user_pwd';\nGRANT CONNECT ON DATABASE pagila_demo TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA public TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA public TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA information_schema TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA information_schema TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA pg_catalog TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA pg_catalog TO pagila_demo_user;\n\n\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nselect table_catalog, table_schema, table_name, table_type from information_schema.tables;\n\n\nSELECT datname, pid, usename, application_name FROM pg_stat_activity;\nSELECT pg_terminate_backend(12786);\n\nhttp://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/\nhttp://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/\nhttps://github.com/MediaMath/keryxlib\nhttp://www.monkeyandcrow.com/blog/hierarchies_with_postgres/, https://news.ycombinator.com/item?id=10875076\nhttps://github.com/joncrlsn/pgdiff\nhttps://pgexercises.com/\nhttp://bpicolo.github.io/docker/testing/2016/06/01/welcome-to-jekyll.html\nhttp://schinckel.net/2014/05/25/querying-json-in-postgres/\nhttps://www.postgresql.org/docs/9.4/static/functions-json.html\nhttp://stackoverflow.com/questions/24944347/postgresql-nested-json-querying\nhttps://wiki.duraspace.org/display/DSPACE/Idle+In+Transaction+Problem\nhttps://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/\nhttp://www.calhoun.io/connecting-to-a-postgresql-database-with-gos-database-sql-package/ : postgresql and Go tutorial\nhttp://cs.mcgill.ca/~mxia3/2016/11/18/Statically-typed-PostgreSQL-queries-and-typescript-schemats/ : postgres and typescript",
+            "code_language": "Plain Text"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "notes"
+          }
+        ]
+      }
+    ],
+    "title": "postgresql",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

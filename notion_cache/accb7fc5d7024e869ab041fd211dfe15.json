@@ -1,0 +1,114 @@
+{
+  "ID": "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+  "Page": {
+    "alive": true,
+    "content": [
+      "c3c48ce4-174b-44c3-8f5a-1f8bafb383d7",
+      "cdb001f5-4696-4e42-ae57-1b9ecc664748"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512363494531,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1512363494531,
+    "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "html templating"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512363591969,
+        "id": "c3c48ce4-174b-44c3-8f5a-1f8bafb383d7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512363591969,
+        "parent_id": "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://andlabs.lostsig.com/blog/go-templates/",
+              [
+                [
+                  "a",
+                  "http://andlabs.lostsig.com/blog/go-templates/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://andlabs.lostsig.com/blog/go-templates/",
+            "Link": "http://andlabs.lostsig.com/blog/go-templates/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512363521279,
+        "id": "cdb001f5-4696-4e42-ae57-1b9ecc664748",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512363521279,
+        "parent_id": "accb7fc5-d702-4e86-9ab0-41fd211dfe15",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "## if\nif returns false for false booleans, empty strings, empty slices\n\n{{ if .Foo }} ... {{ end }}\n\n{{ if not .Foo }} ... {{ end }}\n\n## Slices: iterate, get length\n\n{{ range .Slice }} ... {{ end }}\n\n{{ len .Slice }}\n\n## Variables\n\n{{ $isAdmin := .IsAdmin }}\n\n{{ if $isAdmin }} ... {{ end }}\n\n## Include another template\n\n{{ template \"foo.html\" }}\n\nThis includes a template named \"foo\"."
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "## if\nif returns false for false booleans, empty strings, empty slices\n\n{{ if .Foo }} ... {{ end }}\n\n{{ if not .Foo }} ... {{ end }}\n\n## Slices: iterate, get length\n\n{{ range .Slice }} ... {{ end }}\n\n{{ len .Slice }}\n\n## Variables\n\n{{ $isAdmin := .IsAdmin }}\n\n{{ if $isAdmin }} ... {{ end }}\n\n## Include another template\n\n{{ template \"foo.html\" }}\n\nThis includes a template named \"foo\".",
+        "code_language": "Plain Text"
+      }
+    ],
+    "title": "html templating",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

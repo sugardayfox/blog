@@ -1,0 +1,112 @@
+{
+  "ID": "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+  "Page": {
+    "alive": true,
+    "content": [
+      "db36dee6-082a-40d0-b9fc-d8d149a8ea82",
+      "d2a21fbc-f6cc-4c1c-8342-9498790fd54c"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1503174953019,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1503174953019,
+    "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "reflection in go"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503174962681,
+        "id": "db36dee6-082a-40d0-b9fc-d8d149a8ea82",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503174962681,
+        "parent_id": "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1503174964550,
+        "id": "d2a21fbc-f6cc-4c1c-8342-9498790fd54c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1503174964550,
+        "parent_id": "98890a03-3ba4-445c-8d2a-3bcd3894ceea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three",
+              [
+                [
+                  "a",
+                  "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three",
+            "Link": "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three"
+          }
+        ]
+      }
+    ],
+    "title": "reflection in go",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

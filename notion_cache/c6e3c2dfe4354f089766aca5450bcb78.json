@@ -1,0 +1,131 @@
+{
+  "ID": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
+  "Page": {
+    "alive": true,
+    "content": [
+      "5f4a807c-f2c6-4a1b-8a84-9afc50c0ba27",
+      "8563f714-8af8-4e70-995b-10596f606485",
+      "c79684a3-7c61-4bfc-9c3f-bd94c0a89dd2"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512352615907,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530070558379,
+    "parent_id": "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "bindings"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 2,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512352629969,
+        "id": "5f4a807c-f2c6-4a1b-8a84-9afc50c0ba27",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512352629969,
+        "parent_id": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512352630559,
+        "id": "8563f714-8af8-4e70-995b-10596f606485",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530070558379,
+        "parent_id": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For Node:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 2,
+        "inline_content": [
+          {
+            "Text": "For Node:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512352630559,
+        "id": "c79684a3-7c61-4bfc-9c3f-bd94c0a89dd2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512352630559,
+        "parent_id": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://stackoverflow.com/questions/14799035/node-webkit-winapi",
+              [
+                [
+                  "a",
+                  "http://stackoverflow.com/questions/14799035/node-webkit-winapi"
+                ]
+              ]
+            ],
+            [
+              " - example of binding win32 api"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://stackoverflow.com/questions/14799035/node-webkit-winapi",
+            "Link": "http://stackoverflow.com/questions/14799035/node-webkit-winapi"
+          },
+          {
+            "Text": " - example of binding win32 api"
+          }
+        ]
+      }
+    ],
+    "title": "bindings",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

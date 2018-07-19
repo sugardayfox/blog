@@ -1,0 +1,148 @@
+{
+  "ID": "7992e194-348d-481c-89d2-082f6a945b3c",
+  "Page": {
+    "alive": true,
+    "content": [
+      "a6adec63-153a-49c9-b508-dbac0beb72af"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1501873013019,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "7992e194-348d-481c-89d2-082f6a945b3c",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1501873013019,
+    "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "python"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "4e175be0-df8f-489e-b178-bc7e09809f64",
+          "74db74c7-f427-4d7c-a9a1-346462a38e0e"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501873018275,
+        "id": "a6adec63-153a-49c9-b508-dbac0beb72af",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1501873018275,
+        "parent_id": "7992e194-348d-481c-89d2-082f6a945b3c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "installing pip on mac os x"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1501873038792,
+            "id": "4e175be0-df8f-489e-b178-bc7e09809f64",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1501873038792,
+            "parent_id": "a6adec63-153a-49c9-b508-dbac0beb72af",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "sudo easy_install pip\nsudo pip install \u003cpackage\u003e"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "sudo easy_install pip\nsudo pip install \u003cpackage\u003e"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1501873086166,
+            "id": "74db74c7-f427-4d7c-a9a1-346462a38e0e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1501873086166,
+            "parent_id": "a6adec63-153a-49c9-b508-dbac0beb72af",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "This is for python that comes with mac. Could also install python via "
+                ],
+                [
+                  "brew install python",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  "  in which case pip should came with it."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "This is for python that comes with mac. Could also install python via "
+              },
+              {
+                "Text": "brew install python",
+                "AttrFlags": 2
+              },
+              {
+                "Text": "  in which case pip should came with it."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "installing pip on mac os x"
+          }
+        ]
+      }
+    ],
+    "title": "python",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

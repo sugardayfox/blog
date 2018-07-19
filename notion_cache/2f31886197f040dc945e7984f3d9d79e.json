@@ -1,0 +1,112 @@
+{
+  "ID": "2f318861-97f0-40dc-945e-7984f3d9d79e",
+  "Page": {
+    "alive": true,
+    "content": [
+      "dc7cabff-207b-4765-9faf-2eb4b21b808e",
+      "8cf205c8-e919-49de-b528-9b1061f3fc26"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1513761442328,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "2f318861-97f0-40dc-945e-7984f3d9d79e",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1514537091814,
+    "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "babel"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 25,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513761445786,
+        "id": "dc7cabff-207b-4765-9faf-2eb4b21b808e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513761449105,
+        "parent_id": "2f318861-97f0-40dc-945e-7984f3d9d79e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1513761449672,
+        "id": "8cf205c8-e919-49de-b528-9b1061f3fc26",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1513761452447,
+        "parent_id": "2f318861-97f0-40dc-945e-7984f3d9d79e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://philipwalton.com/articles/deploying-es2015-code-in-production-today/",
+              [
+                [
+                  "a",
+                  "https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "https://philipwalton.com/articles/deploying-es2015-code-in-production-today/",
+            "Link": "https://philipwalton.com/articles/deploying-es2015-code-in-production-today/"
+          }
+        ]
+      }
+    ],
+    "title": "babel",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

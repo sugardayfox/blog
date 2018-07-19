@@ -1,0 +1,253 @@
+{
+  "ID": "5356e399-fb23-4985-8ee6-2e32baaf7664",
+  "Page": {
+    "alive": true,
+    "content": [
+      "b7e77cb4-4a26-40b3-858b-e434752704e8",
+      "539b44aa-929d-4ce1-8c9e-277ca0d2d569"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1529193108177,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "5356e399-fb23-4985-8ee6-2e32baaf7664",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529193289888,
+    "parent_id": "15d82dd0-634d-4572-84a0-e60d847575dd",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "ListView"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 92,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "1ac8fbd5-c3d1-4b9a-89eb-e6077855f812",
+          "23d02bed-009b-4ccc-a73e-d6125bb3dbc3",
+          "3dd1089f-0d59-4033-b81f-766daadd76b7",
+          "c16c1eae-9684-4775-8e77-7a9d1832263c"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529193274672,
+        "id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529193287262,
+        "parent_id": "5356e399-fb23-4985-8ee6-2e32baaf7664",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Spacing between items"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 60,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1529193118255,
+            "id": "1ac8fbd5-c3d1-4b9a-89eb-e6077855f812",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1529193287262,
+            "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "To remove ridiculously large spacing between items, set "
+                ],
+                [
+                  "MinHeight",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " to "
+                ],
+                [
+                  "0:",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 287,
+            "inline_content": [
+              {
+                "Text": "To remove ridiculously large spacing between items, set "
+              },
+              {
+                "Text": "MinHeight",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " to "
+              },
+              {
+                "Text": "0:",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1529193162308,
+            "id": "23d02bed-009b-4ccc-a73e-d6125bb3dbc3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1529193287262,
+            "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "XML"
+                ]
+              ],
+              "title": [
+                [
+                  "\u003cListView Grid.Row=\"0\" Name=\"listView\" Background=\"AliceBlue\" HorizontalAlignment=\"Stretch\" SelectionChanged=\"ListView_SelectionChanged\" VerticalAlignment=\"Stretch\" FontSize=\"8\" VerticalContentAlignment=\"Top\"\u003e\n\t\u003cListView.ItemContainerStyle\u003e\n\t  \u003cStyle TargetType=\"ListViewItem\"\u003e\n\t    \u003cSetter Property=\"MinHeight\" Value=\"0\"/\u003e\n    \u003c/Style\u003e\n  \u003c/ListView.ItemContainerStyle\u003e\n\u003c/ListView\u003e"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 247,
+            "code": "\u003cListView Grid.Row=\"0\" Name=\"listView\" Background=\"AliceBlue\" HorizontalAlignment=\"Stretch\" SelectionChanged=\"ListView_SelectionChanged\" VerticalAlignment=\"Stretch\" FontSize=\"8\" VerticalContentAlignment=\"Top\"\u003e\n\t\u003cListView.ItemContainerStyle\u003e\n\t  \u003cStyle TargetType=\"ListViewItem\"\u003e\n\t    \u003cSetter Property=\"MinHeight\" Value=\"0\"/\u003e\n    \u003c/Style\u003e\n  \u003c/ListView.ItemContainerStyle\u003e\n\u003c/ListView\u003e",
+            "code_language": "XML"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1529193249999,
+            "id": "3dd1089f-0d59-4033-b81f-766daadd76b7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1529193287262,
+            "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Other properties: "
+                ],
+                [
+                  "Margin",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "Padding",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  "."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 103,
+            "inline_content": [
+              {
+                "Text": "Other properties: "
+              },
+              {
+                "Text": "Margin",
+                "AttrFlags": 2
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "Padding",
+                "AttrFlags": 2
+              },
+              {
+                "Text": "."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1529193265896,
+            "id": "c16c1eae-9684-4775-8e77-7a9d1832263c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1529193287262,
+            "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
+            "parent_table": "block",
+            "type": "text",
+            "version": 9
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Spacing between items"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529193289888,
+        "id": "539b44aa-929d-4ce1-8c9e-277ca0d2d569",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529193289888,
+        "parent_id": "5356e399-fb23-4985-8ee6-2e32baaf7664",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "ListView",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

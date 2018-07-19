@@ -1,0 +1,180 @@
+{
+  "ID": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+  "Page": {
+    "alive": true,
+    "content": [
+      "2d1d1c83-e099-4d9f-af7a-cf3a92bba554",
+      "30685bea-a2cb-44b4-ba51-bc4ddf2e78c1",
+      "25ec5c33-31e9-45e0-acd9-3709c2d87ad2",
+      "80c189e5-585d-44ca-a5b0-f277eac52bea",
+      "892ebb86-4688-4ae7-91a7-e8dc8d5a48fb"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1514449885007,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1514450967716,
+    "parent_id": "22e633a2-e172-43b4-bc54-4cfef0f774b2",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Firebase Cloud Messaging"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 66,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514449889987,
+        "id": "2d1d1c83-e099-4d9f-af7a-cf3a92bba554",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514450047774,
+        "parent_id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "FCM is new version of Google Cloud Messaging."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 96,
+        "inline_content": [
+          {
+            "Text": "FCM is new version of Google Cloud Messaging."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514450048142,
+        "id": "30685bea-a2cb-44b4-ba51-bc4ddf2e78c1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514450873576,
+        "parent_id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Can send messages to:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 52,
+        "inline_content": [
+          {
+            "Text": "Can send messages to:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514450873807,
+        "id": "25ec5c33-31e9-45e0-acd9-3709c2d87ad2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514450875224,
+        "parent_id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "topics"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 24,
+        "inline_content": [
+          {
+            "Text": "topics"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514450875575,
+        "id": "80c189e5-585d-44ca-a5b0-f277eac52bea",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514450907583,
+        "parent_id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "registration tokens, for small number of devices"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 106,
+        "inline_content": [
+          {
+            "Text": "registration tokens, for small number of devices"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514450967716,
+        "id": "892ebb86-4688-4ae7-91a7-e8dc8d5a48fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514451031308,
+        "parent_id": "591fa849-6591-41a1-8609-3d59e8d0dc05",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Client can register for messages but in the browser it requires user permissions."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 206,
+        "inline_content": [
+          {
+            "Text": "Client can register for messages but in the browser it requires user permissions."
+          }
+        ]
+      }
+    ],
+    "title": "Firebase Cloud Messaging",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

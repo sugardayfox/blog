@@ -1,0 +1,973 @@
+{
+  "ID": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+  "Page": {
+    "alive": true,
+    "content": [
+      "42993dd8-add5-40d4-bd4b-517a18dbd778",
+      "194ab6ea-3367-4fad-9556-00152d7445cc",
+      "74c5a4c7-a3ce-49ab-a26c-612c79beb4e2",
+      "754a2830-8f4e-4f37-8e49-ecfc602b959d",
+      "70bd4b2c-f370-4e06-936d-eea9be61644c",
+      "5ca1eb16-d4b4-40c4-9812-5ea4e3b6043e",
+      "d0d9d661-b61e-48a4-9386-4c2b5dd2e8d0",
+      "5b7aa474-5dde-4490-8943-73ecd613260b",
+      "097816eb-49d4-401e-bc2e-f3d7e30d8993",
+      "27549fba-7519-43cf-abd4-e4b7d95c70d8",
+      "bc3b724e-b7df-4270-82b3-1eab14ad9cd0",
+      "a312481d-2ed6-4c20-bfba-af93ab559a56",
+      "b665ef3c-991d-4284-9d21-6a6683e64322",
+      "ab5b73a4-78f5-46f9-b555-d5002a724b6e",
+      "a16c43be-47ab-4813-8142-0278acf8455f",
+      "e8dd5014-7f91-46ce-a0f1-774e8381c3fe",
+      "674e630d-4b9e-4a1d-a4ab-64afc3fbf7f0",
+      "b4a15294-cb57-4b7a-8cfa-6bed498611bd",
+      "9bf78ed0-2663-43f9-bc98-fd94046b6264",
+      "dfb3bdb0-90af-4b4e-9f07-af9ac085d615",
+      "7dd16f60-f99f-4ddb-9d1a-d05d605b2168",
+      "260a027d-21f1-493b-b31f-1429683e5179",
+      "04e4cb5b-7f87-4aec-808c-8c488b379e4c",
+      "0d39179a-9cf9-4355-bf27-d0a58d4141e8",
+      "ffd889de-135a-4079-b5cb-f70fdb23b812",
+      "40edc440-7081-4d01-ae88-310dfaf29fb0",
+      "de466449-ec8c-4a13-8eff-348c6a842c24"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512338170838,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529120456638,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "tmux"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 6,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "42993dd8-add5-40d4-bd4b-517a18dbd778",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " is the default shortcut to start"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " is the default shortcut to start"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "194ab6ea-3367-4fad-9556-00152d7445cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Sessions:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Sessions:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "74c5a4c7-a3ce-49ab-a26c-612c79beb4e2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux list-sessions",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux list-sessions",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "754a2830-8f4e-4f37-8e49-ecfc602b959d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux new -s $session-name",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux new -s $session-name",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "70bd4b2c-f370-4e06-936d-eea9be61644c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux new",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux new",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "5ca1eb16-d4b4-40c4-9812-5ea4e3b6043e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux a [-t $session-name]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : attach to existing session"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux a [-t $session-name]",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : attach to existing session"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "d0d9d661-b61e-48a4-9386-4c2b5dd2e8d0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux detach",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " or "
+            ],
+            [
+              "Ctrl-b d",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : detach (keeps the session running)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux detach",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " or "
+          },
+          {
+            "Text": "Ctrl-b d",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : detach (keeps the session running)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "5b7aa474-5dde-4490-8943-73ecd613260b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tmux kill-session -t $session-name",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "tmux kill-session -t $session-name",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "097816eb-49d4-401e-bc2e-f3d7e30d8993",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Managing panes:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Managing panes:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "27549fba-7519-43cf-abd4-e4b7d95c70d8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b %",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : new vertical pane"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b %",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : new vertical pane"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "bc3b724e-b7df-4270-82b3-1eab14ad9cd0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b \"",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : new horizontal pane"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b \"",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : new horizontal pane"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "a312481d-2ed6-4c20-bfba-af93ab559a56",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b n",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : go to next pane"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b n",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : go to next pane"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "b665ef3c-991d-4284-9d21-6a6683e64322",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b x",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : close pane"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b x",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : close pane"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "ab5b73a4-78f5-46f9-b555-d5002a724b6e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b :resize-p -D 4",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : 4 lines less down (other options: -U, -L, -R (up, left, right)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b :resize-p -D 4",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : 4 lines less down (other options: -U, -L, -R (up, left, right)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "a16c43be-47ab-4813-8142-0278acf8455f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Window management:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Window management:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "e8dd5014-7f91-46ce-a0f1-774e8381c3fe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b c",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : create new window"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b c",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : create new window"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "674e630d-4b9e-4a1d-a4ab-64afc3fbf7f0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b n",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : go to next window"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b n",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : go to next window"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "b4a15294-cb57-4b7a-8cfa-6bed498611bd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : go to prev window"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b p",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : go to prev window"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "9bf78ed0-2663-43f9-bc98-fd94046b6264",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b \u0026",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : close window"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b \u0026",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : close window"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "dfb3bdb0-90af-4b4e-9f07-af9ac085d615",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Scrolling:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Scrolling:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "7dd16f60-f99f-4ddb-9d1a-d05d605b2168",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b [",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " then up/down, page up/down, "
+            ],
+            [
+              "q",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to quit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b [",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " then up/down, page up/down, "
+          },
+          {
+            "Text": "q",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to quit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "260a027d-21f1-493b-b31f-1429683e5179",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Help about keymap:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Help about keymap:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "04e4cb5b-7f87-4aec-808c-8c488b379e4c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ctrl-b ?",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Ctrl-b ?",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "0d39179a-9cf9-4355-bf27-d0a58d4141e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "ffd889de-135a-4079-b5cb-f70fdb23b812",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/",
+              [
+                [
+                  "a",
+                  "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/",
+            "Link": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "40edc440-7081-4d01-ae88-310dfaf29fb0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.danielmiessler.com/study/tmux/",
+              [
+                [
+                  "a",
+                  "http://www.danielmiessler.com/study/tmux/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "http://www.danielmiessler.com/study/tmux/",
+            "Link": "http://www.danielmiessler.com/study/tmux/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338172034,
+        "id": "de466449-ec8c-4a13-8eff-348c6a842c24",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512338172034,
+        "parent_id": "2b312d2d-6cc7-48e1-bc0b-ba1d061f88fe",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://robots.thoughtbot.com/a-tmux-crash-course",
+              [
+                [
+                  "a",
+                  "https://robots.thoughtbot.com/a-tmux-crash-course"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://robots.thoughtbot.com/a-tmux-crash-course",
+            "Link": "https://robots.thoughtbot.com/a-tmux-crash-course"
+          }
+        ]
+      }
+    ],
+    "title": "tmux",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

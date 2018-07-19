@@ -1,0 +1,580 @@
+{
+  "ID": "d7d08da8-d2c6-4334-9463-292a051293b5",
+  "Page": {
+    "alive": true,
+    "content": [
+      "574c39af-dcaa-4b83-b581-e33043df8220",
+      "11c2e2eb-3755-4589-a696-f9b7fb84cb86",
+      "039d3619-606b-45bc-a32c-4787e658c110",
+      "b478c23b-4921-4be0-a966-98deaf1266cd",
+      "d14809ad-3e44-4e4b-a845-769a4f951c78",
+      "6f327d18-a680-4591-a9c2-2189bceb301d",
+      "41216ac2-0651-412d-989e-f57180aefa21",
+      "9c294475-6f8b-43de-88fa-6ff16828aaea",
+      "bcf3c490-b22d-4d46-a2ed-f4c087c56dd6",
+      "e5134d80-49e0-4c85-987c-d9e6744aa11e",
+      "a16e0a8b-d4ce-4368-bbde-37e6951e401f",
+      "b83b9ca2-3a61-4f1f-9aa0-f8c990058b0e",
+      "31393a5f-81e1-4766-a180-2d015b55645d",
+      "abe3aa3e-a68c-48b7-8f0e-851ddc3f26b4",
+      "2f81c8cb-1f7b-438b-8aeb-5b43a7465e06",
+      "03689abe-5b55-472c-8ac1-f46cc48c0239",
+      "e3d5c1c3-52c6-4247-8725-35a93df21841"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1529896698833,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529897944676,
+    "parent_id": "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Embed dll in an exe"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 96,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529896709426,
+        "id": "574c39af-dcaa-4b83-b581-e33043df8220",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529896749354,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Investigating techniques for embedding dlls in .exe so that I can distribute a single .exe file even if the app consists of multiple dlls."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 396,
+        "inline_content": [
+          {
+            "Text": "Investigating techniques for embedding dlls in .exe so that I can distribute a single .exe file even if the app consists of multiple dlls."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897179190,
+        "id": "11c2e2eb-3755-4589-a696-f9b7fb84cb86",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897184089,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Potential solutions:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 50,
+        "inline_content": [
+          {
+            "Text": "Potential solutions:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897184310,
+        "id": "039d3619-606b-45bc-a32c-4787e658c110",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897186408,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A simple solution would be to unpack those libraries at startup (before they are used) to a fixed directory and set the load library path. Mark them as delay loaded."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "A simple solution would be to unpack those libraries at startup (before they are used) to a fixed directory and set the load library path. Mark them as delay loaded."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897007184,
+        "id": "b478c23b-4921-4be0-a966-98deaf1266cd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897190702,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "hook LoadLibraryA (W?) at startup, and special case it for the libraries we want to load. Potentially difficult "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 375,
+        "inline_content": [
+          {
+            "Text": "hook LoadLibraryA (W?) at startup, and special case it for the libraries we want to load. Potentially difficult "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897042759,
+        "id": "d14809ad-3e44-4e4b-a845-769a4f951c78",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897206225,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "hook CreateFile/Read/Close at startup. This is idea similar to LoadLibrary but works at a lower level (I assume LoadLibrary would call CreateFile/Read/Close to do its job)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 417,
+        "inline_content": [
+          {
+            "Text": "hook CreateFile/Read/Close at startup. This is idea similar to LoadLibrary but works at a lower level (I assume LoadLibrary would call CreateFile/Read/Close to do its job)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897206477,
+        "id": "6f327d18-a680-4591-a9c2-2189bceb301d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897284788,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "use "
+            ],
+            [
+              "https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/",
+              [
+                [
+                  "a",
+                  "https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/"
+                ]
+              ]
+            ],
+            [
+              " which is MemoryLoadLibrary(), "
+            ],
+            [
+              "https://github.com/fancycode/MemoryModule",
+              [
+                [
+                  "a",
+                  "https://github.com/fancycode/MemoryModule"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 84,
+        "inline_content": [
+          {
+            "Text": "use "
+          },
+          {
+            "Text": "https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/",
+            "Link": "https://www.joachim-bauch.de/tutorials/loading-a-dll-from-memory/"
+          },
+          {
+            "Text": " which is MemoryLoadLibrary(), "
+          },
+          {
+            "Text": "https://github.com/fancycode/MemoryModule",
+            "Link": "https://github.com/fancycode/MemoryModule"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897441077,
+        "id": "41216ac2-0651-412d-989e-f57180aefa21",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897442156,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "use "
+            ],
+            [
+              "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary",
+              [
+                [
+                  "a",
+                  "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "use "
+          },
+          {
+            "Text": "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary",
+            "Link": "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897560451,
+        "id": "9c294475-6f8b-43de-88fa-6ff16828aaea",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897560451,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897559549,
+        "id": "bcf3c490-b22d-4d46-a2ed-f4c087c56dd6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897563963,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Ways of hooking:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 40,
+        "inline_content": [
+          {
+            "Text": "Ways of hooking:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897564177,
+        "id": "e5134d80-49e0-4c85-987c-d9e6744aa11e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897567087,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "IAT hooks "
+            ],
+            [
+              "https://github.com/hMihaiDavid/hooks/tree/master/Hooks",
+              [
+                [
+                  "a",
+                  "https://github.com/hMihaiDavid/hooks/tree/master/Hooks"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 35,
+        "inline_content": [
+          {
+            "Text": "IAT hooks "
+          },
+          {
+            "Text": "https://github.com/hMihaiDavid/hooks/tree/master/Hooks",
+            "Link": "https://github.com/hMihaiDavid/hooks/tree/master/Hooks"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529896749905,
+        "id": "a16e0a8b-d4ce-4368-bbde-37e6951e401f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529896751426,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529896751609,
+        "id": "b83b9ca2-3a61-4f1f-9aa0-f8c990058b0e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529896768513,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/rwfpl/rewolf-dllpackager/tree/master/src",
+              [
+                [
+                  "a",
+                  "https://github.com/rwfpl/rewolf-dllpackager/tree/master/src"
+                ]
+              ]
+            ],
+            [
+              " : a tool that packs dlls, hooks LoadLibraryA etc. functions"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 147,
+        "inline_content": [
+          {
+            "Text": "https://github.com/rwfpl/rewolf-dllpackager/tree/master/src",
+            "Link": "https://github.com/rwfpl/rewolf-dllpackager/tree/master/src"
+          },
+          {
+            "Text": " : a tool that packs dlls, hooks LoadLibraryA etc. functions"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529896768889,
+        "id": "31393a5f-81e1-4766-a180-2d015b55645d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897701427,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://nisdom.com/blog/2014/02/11/embedding-64-bit-binary-in-a-32-bit-windows-c-plus-plus-app/",
+              [
+                [
+                  "a",
+                  "https://nisdom.com/blog/2014/02/11/embedding-64-bit-binary-in-a-32-bit-windows-c-plus-plus-app/"
+                ]
+              ]
+            ],
+            [
+              " : this is about including 64-bit version in 32-bit version and extracting it on startup"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 210,
+        "inline_content": [
+          {
+            "Text": "https://nisdom.com/blog/2014/02/11/embedding-64-bit-binary-in-a-32-bit-windows-c-plus-plus-app/",
+            "Link": "https://nisdom.com/blog/2014/02/11/embedding-64-bit-binary-in-a-32-bit-windows-c-plus-plus-app/"
+          },
+          {
+            "Text": " : this is about including 64-bit version in 32-bit version and extracting it on startup"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897701876,
+        "id": "abe3aa3e-a68c-48b7-8f0e-851ddc3f26b4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897704897,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443",
+              [
+                [
+                  "a",
+                  "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17,
+        "inline_content": [
+          {
+            "Text": "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443",
+            "Link": "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897763146,
+        "id": "2f81c8cb-1f7b-438b-8aeb-5b43a7465e06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897763455,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/",
+              [
+                [
+                  "a",
+                  "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/",
+            "Link": "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897808010,
+        "id": "03689abe-5b55-472c-8ac1-f46cc48c0239",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897808343,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://ikriv.com/blog/?p=1650",
+              [
+                [
+                  "a",
+                  "https://ikriv.com/blog/?p=1650"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://ikriv.com/blog/?p=1650",
+            "Link": "https://ikriv.com/blog/?p=1650"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529897944676,
+        "id": "e3d5c1c3-52c6-4247-8725-35a93df21841",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529897944991,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/",
+              [
+                [
+                  "a",
+                  "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/",
+            "Link": "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/"
+          }
+        ]
+      }
+    ],
+    "title": "Embed dll in an exe",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

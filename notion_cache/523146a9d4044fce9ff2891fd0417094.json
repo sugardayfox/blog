@@ -1,0 +1,335 @@
+{
+  "ID": "523146a9-d404-4fce-9ff2-891fd0417094",
+  "Page": {
+    "alive": true,
+    "content": [
+      "362e10b8-8f83-42c5-be6a-b9f3b148850b",
+      "9e8ba2d7-41ff-4aa1-b3cd-a35c45ea625f",
+      "f5d47225-0bd4-4185-9ac6-46a0c82e663f",
+      "3b339893-9e65-48c6-a028-7ef1eed5a26d",
+      "20bd7671-c9a1-4035-868b-8b0b042aa837",
+      "b195afea-0075-4949-95b6-42d71bb9ade6",
+      "9831d3a3-16a0-444c-8f35-7a235e5a36d8",
+      "2f8d2e01-258c-46e2-bb9a-a8533dca9bc8",
+      "4c9ab1bc-c99b-4637-ac6f-bbc3b6225e99",
+      "fe43f2c3-98b1-4471-bdb0-2741401eaf36",
+      "02267930-5d9e-4b98-a40c-04389eacbb66",
+      "a4984cf7-cf14-451e-a820-0163ae53052c"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512337339511,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "523146a9-d404-4fce-9ff2-891fd0417094",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1512337339511,
+    "parent_id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "electron auto-update system"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337347726,
+        "id": "362e10b8-8f83-42c5-be6a-b9f3b148850b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337347726,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "9e8ba2d7-41ff-4aa1-b3cd-a35c45ea625f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "High-level overview:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "High-level overview:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "f5d47225-0bd4-4185-9ac6-46a0c82e663f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "you specify a url to check for update"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "you specify a url to check for update"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "3b339893-9e65-48c6-a028-7ef1eed5a26d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "url needs to specify current version"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "url needs to specify current version"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "20bd7671-c9a1-4035-868b-8b0b042aa837",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "need different urls for different OS (windows, mac etc.) and architecture (32-bit, 64-bit) combinations"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "need different urls for different OS (windows, mac etc.) and architecture (32-bit, 64-bit) combinations"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "b195afea-0075-4949-95b6-42d71bb9ade6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "When there's a version newer than the one in the url, the server returns json like:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "When there's a version newer than the one in the url, the server returns json like:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "9831d3a3-16a0-444c-8f35-7a235e5a36d8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "{\n  \"url\":\"http://your-server.com/download/version/0.1.4/windows_32?filetype=zip\",\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "{\n  \"url\":\"http://your-server.com/download/version/0.1.4/windows_32?filetype=zip\",\n}"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "2f8d2e01-258c-46e2-bb9a-a8533dca9bc8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "There might be more fields but only url is necessary."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "There might be more fields but only url is necessary."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "4c9ab1bc-c99b-4637-ac6f-bbc3b6225e99",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "If there is no version newer than the one provided, return empty response with 204 (no content) status code."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "If there is no version newer than the one provided, return empty response with 204 (no content) status code."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "fe43f2c3-98b1-4471-bdb0-2741401eaf36",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This is bad because you need a server that returns different responses depending on the version provided in the url so you can't use a static server like s3."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "This is bad because you need a server that returns different responses depending on the version provided in the url so you can't use a static server like s3."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "02267930-5d9e-4b98-a40c-04389eacbb66",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A skeleton of the client code:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "A skeleton of the client code:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512337352775,
+        "id": "a4984cf7-cf14-451e-a820-0163ae53052c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512337352775,
+        "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "var electron = require(\"electron\");\nvar app = electron.app;\nvar autoUpdater = electron.autoUpdater;\nvar ipcMain = electron.ipcMain;\nvar os = require(\"os\");\n\n// win32 for windows, darwin for mac\n// https://nodejs.org/api/os.html#os_os_platform\nvar platform = os.platform() + '_' + os.arch();\nvar version = app.getVersion(); // comes from package.json\n\nvar updateIsReady = false;\n\nipcMain.on(\"my-program:install-update\", function () {\n    if (updateIsReady) {\n        autoUpdater.quitAndInstall();\n    }\n    else {\n        app.relaunch();\n        app.quit();\n    }\n});\n\nautoUpdater.on(\"update-downloaded\", function () {\n    updateIsReady = true;\n    mainWindow.webContents.send(\"my-program:update-ready\");\n});\n\nautoUpdater.setFeedURL('http://your-server.com/update/' + platform + '/' + version);\n\n// check for updates after 2 minutes\nsetTimeout(autoUpdater.checkForUpdates, 2 * 60 * 1000);"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "var electron = require(\"electron\");\nvar app = electron.app;\nvar autoUpdater = electron.autoUpdater;\nvar ipcMain = electron.ipcMain;\nvar os = require(\"os\");\n\n// win32 for windows, darwin for mac\n// https://nodejs.org/api/os.html#os_os_platform\nvar platform = os.platform() + '_' + os.arch();\nvar version = app.getVersion(); // comes from package.json\n\nvar updateIsReady = false;\n\nipcMain.on(\"my-program:install-update\", function () {\n    if (updateIsReady) {\n        autoUpdater.quitAndInstall();\n    }\n    else {\n        app.relaunch();\n        app.quit();\n    }\n});\n\nautoUpdater.on(\"update-downloaded\", function () {\n    updateIsReady = true;\n    mainWindow.webContents.send(\"my-program:update-ready\");\n});\n\nautoUpdater.setFeedURL('http://your-server.com/update/' + platform + '/' + version);\n\n// check for updates after 2 minutes\nsetTimeout(autoUpdater.checkForUpdates, 2 * 60 * 1000);"
+      }
+    ],
+    "title": "electron auto-update system",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

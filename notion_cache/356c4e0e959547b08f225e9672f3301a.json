@@ -1,0 +1,163 @@
+{
+  "ID": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+  "Page": {
+    "alive": true,
+    "content": [
+      "6edaf40c-51b7-41b5-befa-118e9eccaed2",
+      "c1861cab-7cc1-4d3d-89b7-e9f01e03141c",
+      "8671e488-6285-46f7-8ba6-12224c85c1f8",
+      "cc065806-d7bd-4f1e-aa65-47947f55e72c"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1514072648298,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530045930312,
+    "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "IndexedDB"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 63,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514072655644,
+        "id": "6edaf40c-51b7-41b5-befa-118e9eccaed2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514072656841,
+        "parent_id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514072657061,
+        "id": "c1861cab-7cc1-4d3d-89b7-e9f01e03141c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514072666399,
+        "parent_id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://dexie.org/",
+              [
+                [
+                  "a",
+                  "http://dexie.org/"
+                ]
+              ]
+            ],
+            [
+              " : minimalistic wrapper for IndexedDB"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 89,
+        "inline_content": [
+          {
+            "Text": "http://dexie.org/",
+            "Link": "http://dexie.org/"
+          },
+          {
+            "Text": " : minimalistic wrapper for IndexedDB"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514873684163,
+        "id": "8671e488-6285-46f7-8ba6-12224c85c1f8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514873706357,
+        "parent_id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/jakearchibald/idb",
+              [
+                [
+                  "a",
+                  "https://github.com/jakearchibald/idb"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "https://github.com/jakearchibald/idb",
+            "Link": "https://github.com/jakearchibald/idb"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514072676036,
+        "id": "cc065806-d7bd-4f1e-aa65-47947f55e72c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1514072676036,
+        "parent_id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "IndexedDB",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

@@ -1,0 +1,2950 @@
+{
+  "ID": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+  "Page": {
+    "alive": true,
+    "content": [
+      "17a5823b-d8ea-4eaf-9e83-3696ac26a54f",
+      "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+      "e25fcb3c-6410-45ed-9c44-6e1ab924f4f1",
+      "1c3d6a50-734d-4529-a0b2-11775afc9986",
+      "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
+      "08f92405-3431-4d02-9dbf-8dd553784099",
+      "b1268def-9ddb-4061-af66-83f7aa48e152",
+      "bb7dff69-ebd9-4eee-803b-ff68adbe02a2",
+      "6340b10d-9732-4645-87cd-d60f22ba1eca",
+      "f016ae95-c7ca-4024-b306-6b4d1258b643",
+      "305702f0-d107-4a43-8a75-2d34b145f34e"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1473637932738,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530064312823,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Docker"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 78,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512338086159,
+        "id": "17a5823b-d8ea-4eaf-9e83-3696ac26a54f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530063903029,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Cheatsheet: "
+            ],
+            [
+              "https://github.com/wsargent/docker-cheat-sheet",
+              [
+                [
+                  "a",
+                  "https://github.com/wsargent/docker-cheat-sheet"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "Cheatsheet: "
+          },
+          {
+            "Text": "https://github.com/wsargent/docker-cheat-sheet",
+            "Link": "https://github.com/wsargent/docker-cheat-sheet"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "73af8736-0862-42b3-82e8-90698fd49bf2",
+          "f055572e-ef48-407f-919d-d82c08d3518c",
+          "7eb8a182-6baf-4276-8c03-d592c3088d77",
+          "32a42a71-9fd6-4d32-ac0e-505633b6ffe2",
+          "e36b6630-a7c3-4e0c-ad17-9d0a3e1ee384",
+          "070905be-2b78-47a6-8e03-ee972b26a2a5",
+          "f9b5190c-51ab-479d-9065-a13fb2f6b0aa",
+          "c720c788-e90a-4af4-bff1-eaacc3295754",
+          "201b105c-e15c-418a-98b7-9e6c80887839",
+          "3d6fcb1c-a349-4e96-99a1-dfd49190abc9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530063602067,
+        "id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530064056070,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "docker commands"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 71,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "0a55fcf5-fa1d-4b32-8312-fbed287662f7",
+              "c9edda04-a02e-4fc6-baf5-b84627c3231d",
+              "680d8360-1013-409f-9659-241c12bb6f63",
+              "05e2be3e-2868-4408-b320-4ce423936b04",
+              "fc7d9e6c-f748-484d-9521-b7f75cb2fa37",
+              "7417395e-794c-48e5-a388-506d1a072ac5",
+              "d4ea20a5-fe8b-4fce-a617-44509eeed691",
+              "0b01b974-3305-4b64-8743-1591c4ece46c",
+              "7800a2d1-a89e-45f5-ba5b-0a57cd400f3e",
+              "769c9115-a468-4f29-a0f0-cb12101baf3d",
+              "399d98ab-9bcc-41fe-8106-1d6ebd961cb1"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1473637955287,
+            "id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063836747,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "run"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 11,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473637963406,
+                "id": "0a55fcf5-fa1d-4b32-8312-fbed287662f7",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473637963406,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker run --rm -it --name=name -p \u003chost\u003e:\u003ccontainer\u003e -v \u003chost\u003e:\u003ccontainer\u003e \u003cimage\u003e \u003ccmd\u003e",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "docker run --rm -it --name=name -p \u003chost\u003e:\u003ccontainer\u003e -v \u003chost\u003e:\u003ccontainer\u003e \u003cimage\u003e \u003ccmd\u003e",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638017881,
+                "id": "c9edda04-a02e-4fc6-baf5-b84627c3231d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638017881,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Options:"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "Options:"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638063693,
+                "id": "680d8360-1013-409f-9659-241c12bb6f63",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638063693,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "—rm",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : delete when finished running"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "—rm",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : delete when finished running"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638763758,
+                "id": "05e2be3e-2868-4408-b320-4ce423936b04",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063737394,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-it",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : interactive and allocate tty (needed when running interactive commands like bash)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 134,
+                "inline_content": [
+                  {
+                    "Text": "-it",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : interactive and allocate tty (needed when running interactive commands like bash)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638880179,
+                "id": "fc7d9e6c-f748-484d-9521-b7f75cb2fa37",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638880179,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-d",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : run in background"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "-d",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : run in background"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638782211,
+                "id": "7417395e-794c-48e5-a388-506d1a072ac5",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638782211,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-p",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : expose port inside container to host e.g. "
+                    ],
+                    [
+                      "-p 3333:80",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " exposes port 80 inside the container as port 3333 in the host"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "-p",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : expose port inside container to host e.g. "
+                  },
+                  {
+                    "Text": "-p 3333:80",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " exposes port 80 inside the container as port 3333 in the host"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "content": [
+                  "7c73265d-890a-45da-a82b-d0931f2c7440"
+                ],
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638844037,
+                "id": "d4ea20a5-fe8b-4fce-a617-44509eeed691",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063781411,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-v",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : mount a host directory inside the container e.g. "
+                    ],
+                    [
+                      "-v $(pwd)/..:/opt/script:ro",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 38,
+                "content_resolved": [
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1530063780873,
+                    "id": "7c73265d-890a-45da-a82b-d0931f2c7440",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1530063795458,
+                    "parent_id": "d4ea20a5-fe8b-4fce-a617-44509eeed691",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "ro",
+                          [
+                            [
+                              "c"
+                            ]
+                          ]
+                        ],
+                        [
+                          " stands for read-only; can also be "
+                        ],
+                        [
+                          "rw",
+                          [
+                            [
+                              "c"
+                            ]
+                          ]
+                        ],
+                        [
+                          " for read-write"
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 137,
+                    "inline_content": [
+                      {
+                        "Text": "ro",
+                        "AttrFlags": 2
+                      },
+                      {
+                        "Text": " stands for read-only; can also be "
+                      },
+                      {
+                        "Text": "rw",
+                        "AttrFlags": 2
+                      },
+                      {
+                        "Text": " for read-write"
+                      }
+                    ]
+                  }
+                ],
+                "inline_content": [
+                  {
+                    "Text": "-v",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : mount a host directory inside the container e.g. "
+                  },
+                  {
+                    "Text": "-v $(pwd)/..:/opt/script:ro",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530063345492,
+                "id": "0b01b974-3305-4b64-8743-1591c4ece46c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063353763,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "--privileged=true",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : run as root"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 44,
+                "inline_content": [
+                  {
+                    "Text": "--privileged=true",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : run as root"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638895445,
+                "id": "7800a2d1-a89e-45f5-ba5b-0a57cd400f3e",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638895445,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Notes:"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "Notes:"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638898031,
+                "id": "769c9115-a468-4f29-a0f0-cb12101baf3d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638898031,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "—rm",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " and "
+                    ],
+                    [
+                      "-it",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " are often used to run ad-hoc commands"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "—rm",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " and "
+                  },
+                  {
+                    "Text": "-it",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " are often used to run ad-hoc commands"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1473638964356,
+                "id": "399d98ab-9bcc-41fe-8106-1d6ebd961cb1",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1473638964356,
+                "parent_id": "73af8736-0862-42b3-82e8-90698fd49bf2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-d",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " is used for running long-lived containers (e.g. a database). those can be stopped with "
+                    ],
+                    [
+                      "docker stop \u003ccontainer\u003e",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "-d",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " is used for running long-lived containers (e.g. a database). those can be stopped with "
+                  },
+                  {
+                    "Text": "docker stop \u003ccontainer\u003e",
+                    "AttrFlags": 2
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "run"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "00db62f8-2119-44b4-9fd0-097bd20a43a0"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063746083,
+            "id": "f055572e-ef48-407f-919d-d82c08d3518c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063838972,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "start"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 50,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "00db62f8-2119-44b4-9fd0-097bd20a43a0",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063811753,
+                "parent_id": "f055572e-ef48-407f-919d-d82c08d3518c",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker start ${containerId}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : start a container that exited/is stopped"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker start ${containerId}",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : start a container that exited/is stopped"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "start"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "40158d54-bf7f-4fd8-a93c-141134dce833"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063813151,
+            "id": "7eb8a182-6baf-4276-8c03-d592c3088d77",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063840322,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "stop"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 44,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "40158d54-bf7f-4fd8-a93c-141134dce833",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063822170,
+                "parent_id": "7eb8a182-6baf-4276-8c03-d592c3088d77",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker stop ${containerId}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : stops a container"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker stop ${containerId}",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : stops a container"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "stop"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "f83cda84-d5e1-4bf1-8df7-c8fd3c4b834d",
+              "125d7aff-f56c-45c8-81e6-4ef82b333818",
+              "705d6bff-507a-4719-a84a-b57d018740a7"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1473637959157,
+            "id": "32a42a71-9fd6-4d32-ac0e-505633b6ffe2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063841924,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "exec"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 21,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1492900211672,
+                "id": "f83cda84-d5e1-4bf1-8df7-c8fd3c4b834d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1492900211672,
+                "parent_id": "32a42a71-9fd6-4d32-ac0e-505633b6ffe2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker exec -it \u003ccontainer\u003e /bin/bash",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "docker exec -it \u003ccontainer\u003e /bin/bash",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530063309008,
+                "id": "125d7aff-f56c-45c8-81e6-4ef82b333818",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063320270,
+                "parent_id": "32a42a71-9fd6-4d32-ac0e-505633b6ffe2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-t",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : allocate tty (needed for interactive programs like bash)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 45,
+                "inline_content": [
+                  {
+                    "Text": "-t",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : allocate tty (needed for interactive programs like bash)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530063313301,
+                "id": "705d6bff-507a-4719-a84a-b57d018740a7",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063323380,
+                "parent_id": "32a42a71-9fd6-4d32-ac0e-505633b6ffe2",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-i",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : interactive mode"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 18,
+                "inline_content": [
+                  {
+                    "Text": "-i",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : interactive mode"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "exec"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "e765dd67-a9e6-47a0-9c2b-b58fde757894",
+              "c70e7233-dbb8-4939-b2e2-ce156010a51b"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063634257,
+            "id": "e36b6630-a7c3-4e0c-ad17-9d0a3e1ee384",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063843106,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "images"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 49,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "e765dd67-a9e6-47a0-9c2b-b58fde757894",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063647904,
+                "parent_id": "e36b6630-a7c3-4e0c-ad17-9d0a3e1ee384",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker images",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : list images"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker images",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : list images"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "c70e7233-dbb8-4939-b2e2-ce156010a51b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063647904,
+                "parent_id": "e36b6630-a7c3-4e0c-ad17-9d0a3e1ee384",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-a",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : include intermediary containers"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "-a",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : include intermediary containers"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "images"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "c0686254-828b-4b03-b834-893c94e92e46",
+              "3afe1148-5d75-4f2e-b989-6515434d4574",
+              "9451d515-2a02-4da4-91a5-a47ac864ec9f"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063654935,
+            "id": "070905be-2b78-47a6-8e03-ee972b26a2a5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063844246,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "build"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 52,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "c0686254-828b-4b03-b834-893c94e92e46",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063666951,
+                "parent_id": "070905be-2b78-47a6-8e03-ee972b26a2a5",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker build",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : build an image from Dockerfile description"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker build",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : build an image from Dockerfile description"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "3afe1148-5d75-4f2e-b989-6515434d4574",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063666951,
+                "parent_id": "070905be-2b78-47a6-8e03-ee972b26a2a5",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-f",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : name of docker file (Dockerfile by default)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "-f",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : name of docker file (Dockerfile by default)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "9451d515-2a02-4da4-91a5-a47ac864ec9f",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063666951,
+                "parent_id": "070905be-2b78-47a6-8e03-ee972b26a2a5",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-t",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : tag with ${repository}:${tag}, ${tag} is optional"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "-t",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : tag with ${repository}:${tag}, ${tag} is optional"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "build"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "2c013270-ba4f-44b1-806d-607796f067f3",
+              "d2922bb2-18b1-4e0d-b7cc-449eda9aa8d3"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063670125,
+            "id": "f9b5190c-51ab-479d-9065-a13fb2f6b0aa",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063845304,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ps"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 103,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "2c013270-ba4f-44b1-806d-607796f067f3",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063685591,
+                "parent_id": "f9b5190c-51ab-479d-9065-a13fb2f6b0aa",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker ps",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : list containers"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker ps",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : list containers"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "d2922bb2-18b1-4e0d-b7cc-449eda9aa8d3",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063685591,
+                "parent_id": "f9b5190c-51ab-479d-9065-a13fb2f6b0aa",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-a",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : list exited containers"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "-a",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : list exited containers"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "ps"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "a7f681ed-f784-47e5-9407-4cdbd7b40a92"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063687279,
+            "id": "c720c788-e90a-4af4-bff1-eaacc3295754",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063847104,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "rm"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 40,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "a7f681ed-f784-47e5-9407-4cdbd7b40a92",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063692710,
+                "parent_id": "c720c788-e90a-4af4-bff1-eaacc3295754",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker rm ${containerId}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : remove a container"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker rm ${containerId}",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : remove a container"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "rm"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "eefb9096-cb4d-486c-b888-14f4633a0f02"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063826389,
+            "id": "201b105c-e15c-418a-98b7-9e6c80887839",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063851420,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "rmi"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 42,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "eefb9096-cb4d-486c-b888-14f4633a0f02",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063833145,
+                "parent_id": "201b105c-e15c-418a-98b7-9e6c80887839",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker rmi ${image}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : remove an image"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker rmi ${image}",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : remove an image"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "rmi"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "b14ffda1-0341-4354-b45b-5c4bb1895eb0"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063693829,
+            "id": "3d6fcb1c-a349-4e96-99a1-dfd49190abc9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530064056591,
+            "parent_id": "b196d6bd-5a4b-4653-bac1-6df7ac6d5153",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "inspect"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 52,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "b14ffda1-0341-4354-b45b-5c4bb1895eb0",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063700336,
+                "parent_id": "3d6fcb1c-a349-4e96-99a1-dfd49190abc9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "docker inspect ${containerId}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " : list info about a container as json"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "docker inspect ${containerId}",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " : list info about a container as json"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "inspect"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "docker commands"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "bd7ee128-7733-4efa-af41-a174c70fec54",
+          "020de522-9de9-43be-a737-ced97693633a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530063883629,
+        "id": "e25fcb3c-6410-45ed-9c44-6e1ab924f4f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530064125122,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "docker concepts"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 52,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "0cf8aca1-6a75-4139-9d6f-d145fbaa362a",
+              "f3eeb54d-d05e-4130-8725-ad63256b9b4d",
+              "59a23b9a-0b3d-47a9-8b2c-05cc4eadf6fd",
+              "b90b7c6e-5a8f-420b-ac28-a0184ddda0d7",
+              "87652b01-17cd-4d78-b104-0783093bc0a0",
+              "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512338086159,
+            "id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530064083189,
+            "parent_id": "e25fcb3c-6410-45ed-9c44-6e1ab924f4f1",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "image"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 46,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "0cf8aca1-6a75-4139-9d6f-d145fbaa362a",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063923189,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "is built from description in Dockerfile, e.g.: "
+                    ],
+                    [
+                      "docker build -t ${imageTag} -f Dockerfile .",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "is built from description in Dockerfile, e.g.: "
+                  },
+                  {
+                    "Text": "docker build -t ${imageTag} -f Dockerfile .",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530063972513,
+                "id": "f3eeb54d-d05e-4130-8725-ad63256b9b4d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530064196640,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "if specified by name and not present locally, will be downloaded from docker store e.g. "
+                    ],
+                    [
+                      "docker run ubuntu:18:04",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ],
+                    [
+                      " will download ubuntu image  from "
+                    ],
+                    [
+                      "https://store.docker.com/images/ubuntu",
+                      [
+                        [
+                          "a",
+                          "https://store.docker.com/images/ubuntu"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 351,
+                "inline_content": [
+                  {
+                    "Text": "if specified by name and not present locally, will be downloaded from docker store e.g. "
+                  },
+                  {
+                    "Text": "docker run ubuntu:18:04",
+                    "AttrFlags": 2
+                  },
+                  {
+                    "Text": " will download ubuntu image  from "
+                  },
+                  {
+                    "Text": "https://store.docker.com/images/ubuntu",
+                    "Link": "https://store.docker.com/images/ubuntu"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530064041107,
+                "id": "59a23b9a-0b3d-47a9-8b2c-05cc4eadf6fd",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530064068141,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "list local images: "
+                    ],
+                    [
+                      "docker images",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 78,
+                "inline_content": [
+                  {
+                    "Text": "list local images: "
+                  },
+                  {
+                    "Text": "docker images",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "b90b7c6e-5a8f-420b-ac28-a0184ddda0d7",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063960284,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "delete with "
+                    ],
+                    [
+                      "docker rmi ${imageTag}",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 25,
+                "inline_content": [
+                  {
+                    "Text": "delete with "
+                  },
+                  {
+                    "Text": "docker rmi ${imageTag}",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530064083189,
+                "id": "87652b01-17cd-4d78-b104-0783093bc0a0",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530064091592,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "delete untagged (likely stale) images: "
+                    ],
+                    [
+                      "docker rmi $(docker images | grep none | awk '{print $3}')",
+                      [
+                        [
+                          "c"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 98,
+                "inline_content": [
+                  {
+                    "Text": "delete untagged (likely stale) images: "
+                  },
+                  {
+                    "Text": "docker rmi $(docker images | grep none | awk '{print $3}')",
+                    "AttrFlags": 2
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "content": [
+                  "b42a6378-30ce-456d-9032-114cb23216a0",
+                  "821a7f32-861e-456d-a2e0-4a356b7c2f65",
+                  "60ab8882-f8b9-401f-b0ce-567589ded5c2",
+                  "149dc9ae-66e0-43a7-bc23-31a3209005a5"
+                ],
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530064155148,
+                "parent_id": "bd7ee128-7733-4efa-af41-a174c70fec54",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "interesting images"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 32,
+                "content_resolved": [
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1512338086159,
+                    "id": "b42a6378-30ce-456d-9032-114cb23216a0",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1530064216101,
+                    "parent_id": "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "golang:1.4.2 : for building go programs, "
+                        ],
+                        [
+                          "https://store.docker.com/images/golang",
+                          [
+                            [
+                              "a",
+                              "https://store.docker.com/images/golang"
+                            ]
+                          ]
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 6,
+                    "inline_content": [
+                      {
+                        "Text": "golang:1.4.2 : for building go programs, "
+                      },
+                      {
+                        "Text": "https://store.docker.com/images/golang",
+                        "Link": "https://store.docker.com/images/golang"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1512338086159,
+                    "id": "821a7f32-861e-456d-a2e0-4a356b7c2f65",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1530063951957,
+                    "parent_id": "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "ubuntu:16:04"
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 3,
+                    "inline_content": [
+                      {
+                        "Text": "ubuntu:16:04"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1512338086159,
+                    "id": "60ab8882-f8b9-401f-b0ce-567589ded5c2",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1530064155148,
+                    "parent_id": "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "debian:latest"
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 7,
+                    "inline_content": [
+                      {
+                        "Text": "debian:latest"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1530064155148,
+                    "id": "149dc9ae-66e0-43a7-bc23-31a3209005a5",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1530064182135,
+                    "parent_id": "1c5f9dc9-ccda-4fc9-a26e-727603fbc3f1",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "buildpack-deps :"
+                        ],
+                        [
+                          "https://store.docker.com/images/buildpack-deps",
+                          [
+                            [
+                              "a",
+                              "https://store.docker.com/images/buildpack-deps"
+                            ]
+                          ]
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 13,
+                    "inline_content": [
+                      {
+                        "Text": "buildpack-deps :"
+                      },
+                      {
+                        "Text": "https://store.docker.com/images/buildpack-deps",
+                        "Link": "https://store.docker.com/images/buildpack-deps"
+                      }
+                    ]
+                  }
+                ],
+                "inline_content": [
+                  {
+                    "Text": "interesting images"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "image"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "9cbd626b-5ec1-4374-ac43-f02178aedaf4"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512338086159,
+            "id": "020de522-9de9-43be-a737-ced97693633a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530064125795,
+            "parent_id": "e25fcb3c-6410-45ed-9c44-6e1ab924f4f1",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 22,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512338086159,
+                "id": "9cbd626b-5ec1-4374-ac43-f02178aedaf4",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530063931773,
+                "parent_id": "020de522-9de9-43be-a737-ced97693633a",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "an image that is running"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 3,
+                "inline_content": [
+                  {
+                    "Text": "an image that is running"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "container"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "docker concepts"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "045120a8-27e2-494c-b6cb-9abb058b1adb",
+          "4b9c6f18-f678-4cd2-b212-4aefabeaceaf",
+          "04a067cd-b4df-415f-855e-2d4436e48952",
+          "c8173a89-e896-43e9-ac41-61ff1d933f1b"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1493457386113,
+        "id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1493457386113,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "multi-stage builds for smaller images"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1493457415280,
+            "id": "045120a8-27e2-494c-b6cb-9abb058b1adb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1493457415280,
+            "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a",
+                  [
+                    [
+                      "a",
+                      "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a",
+                "Link": "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1493457416952,
+            "id": "4b9c6f18-f678-4cd2-b212-4aefabeaceaf",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1493457416952,
+            "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Basically a single docker file can have stages, first stage builds the thing, second stage copies only needed files to a fresh image. Available since 17.05.0 (currently requires beta channel on Mac)"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "Basically a single docker file can have stages, first stage builds the thing, second stage copies only needed files to a fresh image. Available since 17.05.0 (currently requires beta channel on Mac)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1493457467141,
+            "id": "04a067cd-b4df-415f-855e-2d4436e48952",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1493457467141,
+            "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "# build stage\nFROM golang:alpine AS build-env\nADD . /src\nRUN cd /src \u0026\u0026 go build -o goapp\n\n# final stage\nFROM alpine\nWORKDIR /app\nCOPY --from=build-env /src/goapp /app/\nEXPOSE 80\nENTRYPOINT ./goapp"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "# build stage\nFROM golang:alpine AS build-env\nADD . /src\nRUN cd /src \u0026\u0026 go build -o goapp\n\n# final stage\nFROM alpine\nWORKDIR /app\nCOPY --from=build-env /src/goapp /app/\nEXPOSE 80\nENTRYPOINT ./goapp",
+            "code_language": "Plain Text"
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1500010030704,
+            "id": "c8173a89-e896-43e9-ac41-61ff1d933f1b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1500010030704,
+            "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "multi-stage builds for smaller images"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "d32f6d3d-31d9-4f8a-b54c-befa663405bd",
+          "376d2a07-dcfc-4ad7-9cb8-7c3ccdcf6e3f"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496264325254,
+        "id": "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496264325254,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "smallest image for Go (scratch)"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1496264338510,
+            "id": "d32f6d3d-31d9-4f8a-b54c-befa663405bd",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1496264338510,
+            "parent_id": "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/OpenBazaar/openbazaar-go/blob/98c9ac8ff6ad4b84674134398e890d3dc8912bb6/Dockerfile",
+                  [
+                    [
+                      "a",
+                      "https://github.com/OpenBazaar/openbazaar-go/blob/98c9ac8ff6ad4b84674134398e890d3dc8912bb6/Dockerfile"
+                    ]
+                  ]
+                ],
+                [
+                  " is an example of using 2 stage to build in golang image and run in scratch image"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://github.com/OpenBazaar/openbazaar-go/blob/98c9ac8ff6ad4b84674134398e890d3dc8912bb6/Dockerfile",
+                "Link": "https://github.com/OpenBazaar/openbazaar-go/blob/98c9ac8ff6ad4b84674134398e890d3dc8912bb6/Dockerfile"
+              },
+              {
+                "Text": " is an example of using 2 stage to build in golang image and run in scratch image"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1510532956822,
+            "id": "376d2a07-dcfc-4ad7-9cb8-7c3ccdcf6e3f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1510532956822,
+            "parent_id": "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://ops.tips/blog/dockerfile-golang/",
+                  [
+                    [
+                      "a",
+                      "https://ops.tips/blog/dockerfile-golang/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://ops.tips/blog/dockerfile-golang/",
+                "Link": "https://ops.tips/blog/dockerfile-golang/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "smallest image for Go (scratch)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "f95c015e-ab7b-44e2-8ffb-5856781dc448"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1496787798909,
+        "id": "08f92405-3431-4d02-9dbf-8dd553784099",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1496787798909,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "networking"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1496787809682,
+            "id": "f95c015e-ab7b-44e2-8ffb-5856781dc448",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1496787809682,
+            "parent_id": "08f92405-3431-4d02-9dbf-8dd553784099",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://scene-si.org/2016/03/12/networking-basics-with-docker/",
+                  [
+                    [
+                      "a",
+                      "https://scene-si.org/2016/03/12/networking-basics-with-docker/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "https://scene-si.org/2016/03/12/networking-basics-with-docker/",
+                "Link": "https://scene-si.org/2016/03/12/networking-basics-with-docker/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "networking"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "cd85c556-9b94-457a-b952-a428e990afb6",
+          "02742841-6279-4a04-be0e-7dc414956850"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1506117864712,
+        "id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530605012054,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "articles"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 2,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1506117873092,
+            "id": "cd85c556-9b94-457a-b952-a428e990afb6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530605011527,
+            "parent_id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://jonathan.bergknoff.com/journal/building-better-docker-images",
+                  [
+                    [
+                      "a",
+                      "http://jonathan.bergknoff.com/journal/building-better-docker-images"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 2,
+            "inline_content": [
+              {
+                "Text": "http://jonathan.bergknoff.com/journal/building-better-docker-images",
+                "Link": "http://jonathan.bergknoff.com/journal/building-better-docker-images"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530605012054,
+            "id": "02742841-6279-4a04-be0e-7dc414956850",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530605013333,
+            "parent_id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://advancedweb.hu/2018/07/03/supervisor_docker/",
+                  [
+                    [
+                      "a",
+                      "https://advancedweb.hu/2018/07/03/supervisor_docker/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://advancedweb.hu/2018/07/03/supervisor_docker/",
+                "Link": "https://advancedweb.hu/2018/07/03/supervisor_docker/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "articles"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "5c2a0538-469b-4393-9ef3-b9da8f3fa868"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530063246635,
+        "id": "bb7dff69-ebd9-4eee-803b-ff68adbe02a2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530063621218,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "delete untagged images"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 67,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530063277504,
+            "id": "5c2a0538-469b-4393-9ef3-b9da8f3fa868",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530063279942,
+            "parent_id": "bb7dff69-ebd9-4eee-803b-ff68adbe02a2",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "docker rmi $(docker images | grep none | awk '{print $3}')",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 16,
+            "inline_content": [
+              {
+                "Text": "docker rmi $(docker images | grep none | awk '{print $3}')",
+                "AttrFlags": 2
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "delete untagged images"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "4bfd2263-ca07-4a0a-bdd8-e78fa5a5b5fb",
+          "3a4daae6-782c-4e61-858c-6e6cbde01eac"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1506117869182,
+        "id": "6340b10d-9732-4645-87cd-d60f22ba1eca",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530064299501,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tips"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 97,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512338086159,
+            "id": "4bfd2263-ca07-4a0a-bdd8-e78fa5a5b5fb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530064282180,
+            "parent_id": "6340b10d-9732-4645-87cd-d60f22ba1eca",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "To keep docker running if desired process goes into background, add "
+                ],
+                [
+                  "\u0026\u0026 tail -f /dev/null",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  ". That will keep container alive"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "To keep docker running if desired process goes into background, add "
+              },
+              {
+                "Text": "\u0026\u0026 tail -f /dev/null",
+                "AttrFlags": 2
+              },
+              {
+                "Text": ". That will keep container alive"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530064284061,
+            "id": "3a4daae6-782c-4e61-858c-6e6cbde01eac",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530064300013,
+            "parent_id": "6340b10d-9732-4645-87cd-d60f22ba1eca",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "my docker store account: kjksf, "
+                ],
+                [
+                  "https://store.docker.com/profiles/kjksf/content",
+                  [
+                    [
+                      "a",
+                      "https://store.docker.com/profiles/kjksf/content"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 98,
+            "inline_content": [
+              {
+                "Text": "my docker store account: kjksf, "
+              },
+              {
+                "Text": "https://store.docker.com/profiles/kjksf/content",
+                "Link": "https://store.docker.com/profiles/kjksf/content"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "tips"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "a1ec07a6-2c5b-48ec-9922-3b3c7e00dd9b",
+          "597bf480-29df-4e3a-842a-29ab0a5fb6d5",
+          "6389e8e3-ad66-4017-8d95-8b864217cf6a",
+          "4c1ea8f6-d196-4ce3-bbfc-475f6c58ebf0",
+          "cd8ab348-3ed0-40f0-9ba8-1a0b89b45d92",
+          "00b45954-e19e-4c3c-b0a2-97395444c654",
+          "4eb5840c-4662-4e89-85a7-4f1e75d166af",
+          "08db6851-8f17-4dbb-a470-6eb93115c810",
+          "c4879fe3-3ead-426a-bc3d-a7e6c6cf90ed",
+          "5cffbe36-144e-4b77-99ce-ccf217a7084a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1516348187845,
+        "id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530064310892,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "allowing 2 containers to communicate i.e. networking"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 235,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348289982,
+            "id": "a1ec07a6-2c5b-48ec-9922-3b3c7e00dd9b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348347907,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Scenario: container-2 needs to talk to a port exposed by container-1"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 170,
+            "inline_content": [
+              {
+                "Text": "Scenario: container-2 needs to talk to a port exposed by container-1"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348205012,
+            "id": "597bf480-29df-4e3a-842a-29ab0a5fb6d5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348233934,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Version 1:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 32,
+            "inline_content": [
+              {
+                "Text": "Version 1:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348232447,
+            "id": "6389e8e3-ad66-4017-8d95-8b864217cf6a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348429424,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container-1: expose its port to host with "
+                ],
+                [
+                  "-p ${port}:${port}",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 261,
+            "inline_content": [
+              {
+                "Text": "container-1: expose its port to host with "
+              },
+              {
+                "Text": "-p ${port}:${port}",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " "
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348278584,
+            "id": "4c1ea8f6-d196-4ce3-bbfc-475f6c58ebf0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348386961,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container-2: "
+                ],
+                [
+                  "docker run --network=\"host\"",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " which shares "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 145,
+            "inline_content": [
+              {
+                "Text": "container-2: "
+              },
+              {
+                "Text": "docker run --network=\"host\"",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " which shares "
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516357844435,
+            "id": "cd8ab348-3ed0-40f0-9ba8-1a0b89b45d92",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516357849143,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/",
+                  [
+                    [
+                      "a",
+                      "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 17,
+            "inline_content": [
+              {
+                "Text": "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/",
+                "Link": "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348386961,
+            "id": "00b45954-e19e-4c3c-b0a2-97395444c654",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348389716,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Version 2:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 31,
+            "inline_content": [
+              {
+                "Text": "Version 2:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348389716,
+            "id": "4eb5840c-4662-4e89-85a7-4f1e75d166af",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348433220,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container-1: expose the port with "
+                ],
+                [
+                  "--expose ${port}",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 235,
+            "inline_content": [
+              {
+                "Text": "container-1: expose the port with "
+              },
+              {
+                "Text": "--expose ${port}",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " "
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348433220,
+            "id": "08db6851-8f17-4dbb-a470-6eb93115c810",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348543146,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container-2: "
+                ],
+                [
+                  "docker run --link=\"container-1\"",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " . This adds "
+                ],
+                [
+                  "/etc/hosts",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " entry for "
+                ],
+                [
+                  "container-1",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  "  with the right ip address so that container-2 can use "
+                ],
+                [
+                  "container1:${port}",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  "  as ip address"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 532,
+            "inline_content": [
+              {
+                "Text": "container-2: "
+              },
+              {
+                "Text": "docker run --link=\"container-1\"",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " . This adds "
+              },
+              {
+                "Text": "/etc/hosts",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " entry for "
+              },
+              {
+                "Text": "container-1",
+                "AttrFlags": 2
+              },
+              {
+                "Text": "  with the right ip address so that container-2 can use "
+              },
+              {
+                "Text": "container1:${port}",
+                "AttrFlags": 2
+              },
+              {
+                "Text": "  as ip address"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348546371,
+            "id": "c4879fe3-3ead-426a-bc3d-a7e6c6cf90ed",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516348903335,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Version 3:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 26,
+            "inline_content": [
+              {
+                "Text": "Version 3:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1516348903542,
+            "id": "5cffbe36-144e-4b77-99ce-ccf217a7084a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1516349073290,
+            "parent_id": "f016ae95-c7ca-4024-b306-6b4d1258b643",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "container-1: "
+                ],
+                [
+                  "docker run --expose ${port} --net-alias=\"container-1\"",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  ". This exposes container ip under name "
+                ],
+                [
+                  "container-1",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " in the network so container-2 can use it. Only valid in  "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 460,
+            "inline_content": [
+              {
+                "Text": "container-1: "
+              },
+              {
+                "Text": "docker run --expose ${port} --net-alias=\"container-1\"",
+                "AttrFlags": 2
+              },
+              {
+                "Text": ". This exposes container ip under name "
+              },
+              {
+                "Text": "container-1",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " in the network so container-2 can use it. Only valid in  "
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "allowing 2 containers to communicate i.e. networking"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530064312823,
+        "id": "305702f0-d107-4a43-8a75-2d34b145f34e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530064312823,
+        "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "Docker",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

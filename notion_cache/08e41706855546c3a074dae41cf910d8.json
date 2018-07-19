@@ -1,0 +1,82 @@
+{
+  "ID": "08e41706-8555-46c3-a074-dae41cf910d8",
+  "Page": {
+    "alive": true,
+    "content": [
+      "9ba6ee45-3b13-46e8-8b71-3567cbf938fb"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512364098416,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "08e41706-8555-46c3-a074-dae41cf910d8",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1512364098416,
+    "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "slice tricks"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364120289,
+        "id": "9ba6ee45-3b13-46e8-8b71-3567cbf938fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512364120289,
+        "parent_id": "08e41706-8555-46c3-a074-dae41cf910d8",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "https://code.google.com/p/go-wiki/wiki/SliceTricks\n\nAppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "https://code.google.com/p/go-wiki/wiki/SliceTricks\n\nAppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)",
+        "code_language": "Go"
+      }
+    ],
+    "title": "slice tricks",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

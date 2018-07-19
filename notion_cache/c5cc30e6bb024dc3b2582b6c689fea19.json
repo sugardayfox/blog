@@ -1,0 +1,293 @@
+{
+  "ID": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+  "Page": {
+    "alive": true,
+    "content": [
+      "8a28793a-a09c-4871-979a-5e3abe776fea",
+      "63e66ef6-00d3-4506-982b-2e6ab73ae4cf",
+      "4f2f7e0c-42d4-406c-9e5a-cb95c1af089e",
+      "856d2145-72a3-4473-b2bc-3b9026fb73f4",
+      "4123c0bc-e11f-4939-b624-be70ab6dde7b",
+      "7777c8cb-0072-48e4-b58f-e9febeb444ca",
+      "a951c12a-715d-4675-b510-b34f7775d89a"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512458428133,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530048943543,
+    "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "google depot"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 3,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458440786,
+        "id": "8a28793a-a09c-4871-979a-5e3abe776fea",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458440786,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458441752,
+        "id": "63e66ef6-00d3-4506-982b-2e6ab73ae4cf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458441752,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Download "
+            ],
+            [
+              "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up",
+              [
+                [
+                  "a",
+                  "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Download "
+          },
+          {
+            "Text": "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up",
+            "Link": "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up"
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458441752,
+        "id": "4f2f7e0c-42d4-406c-9e5a-cb95c1af089e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458441752,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Extract to "
+            ],
+            [
+              "c:\\depot_tools",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Extract to "
+          },
+          {
+            "Text": "c:\\depot_tools",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458441752,
+        "id": "856d2145-72a3-4473-b2bc-3b9026fb73f4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458441752,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Add to "
+            ],
+            [
+              "$profile",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " (e.g. "
+            ],
+            [
+              "code c:\\depot_tools",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "):"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Add to "
+          },
+          {
+            "Text": "$profile",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " (e.g. "
+          },
+          {
+            "Text": "code c:\\depot_tools",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "):"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458441752,
+        "id": "4123c0bc-e11f-4939-b624-be70ab6dde7b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458441752,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458441752,
+        "id": "7777c8cb-0072-48e4-b58f-e9febeb444ca",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458441752,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Run "
+            ],
+            [
+              "gclient",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " once."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Run "
+          },
+          {
+            "Text": "gclient",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " once."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512458443446,
+        "id": "a951c12a-715d-4675-b510-b34f7775d89a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512458443446,
+        "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "google depot",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

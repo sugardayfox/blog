@@ -1,0 +1,219 @@
+{
+  "ID": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+  "Page": {
+    "alive": true,
+    "content": [
+      "eea0b564-afb6-4e2d-9d81-afb3fbda6f47",
+      "c6818619-9d63-4fd7-8e56-d63f8ce73db5",
+      "6d544085-600a-432a-9918-9f5c0948dc5b",
+      "60bb12c9-8a3b-4930-ac49-57eed5595746",
+      "2f71d9a5-e2b9-4684-9c9b-9c584b950c9a"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1529220224126,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1529220333269,
+    "parent_id": "15d82dd0-634d-4572-84a0-e60d847575dd",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Tab"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 32,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529220226893,
+        "id": "eea0b564-afb6-4e2d-9d81-afb3fbda6f47",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529220234966,
+        "parent_id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "UWP doesn't have an official tab control."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 88,
+        "inline_content": [
+          {
+            "Text": "UWP doesn't have an official tab control."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529220235716,
+        "id": "c6818619-9d63-4fd7-8e56-d63f8ce73db5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529220237125,
+        "parent_id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529220237348,
+        "id": "6d544085-600a-432a-9918-9f5c0948dc5b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529220252976,
+        "parent_id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://code.msdn.microsoft.com/windowsapps/Multiple-windows-in-UWP-ac1b2f89#content",
+              [
+                [
+                  "a",
+                  "https://code.msdn.microsoft.com/windowsapps/Multiple-windows-in-UWP-ac1b2f89#content"
+                ]
+              ]
+            ],
+            [
+              " : sample that shows how to implement tabs like in Edge"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 133,
+        "inline_content": [
+          {
+            "Text": "https://code.msdn.microsoft.com/windowsapps/Multiple-windows-in-UWP-ac1b2f89#content",
+            "Link": "https://code.msdn.microsoft.com/windowsapps/Multiple-windows-in-UWP-ac1b2f89#content"
+          },
+          {
+            "Text": " : sample that shows how to implement tabs like in Edge"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529220261469,
+        "id": "60bb12c9-8a3b-4930-ac49-57eed5595746",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529220332941,
+        "parent_id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/WindowsCommunityToolkit/issues/353",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/WindowsCommunityToolkit/issues/353"
+                ]
+              ]
+            ],
+            [
+              " : it might get implemented in community toolkit"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 126,
+        "inline_content": [
+          {
+            "Text": "https://github.com/Microsoft/WindowsCommunityToolkit/issues/353",
+            "Link": "https://github.com/Microsoft/WindowsCommunityToolkit/issues/353"
+          },
+          {
+            "Text": " : it might get implemented in community toolkit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1529220333269,
+        "id": "2f71d9a5-e2b9-4684-9c9b-9c584b950c9a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1529220349510,
+        "parent_id": "9732f4db-42f2-4e31-8e9b-3d986092b97e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Raamakrishnan/UWP-Styles-Library/tree/master/Pivot/PivotTabbedStyle",
+              [
+                [
+                  "a",
+                  "https://github.com/Raamakrishnan/UWP-Styles-Library/tree/master/Pivot/PivotTabbedStyle"
+                ]
+              ]
+            ],
+            [
+              " : tabs look for pivot control"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 68,
+        "inline_content": [
+          {
+            "Text": "https://github.com/Raamakrishnan/UWP-Styles-Library/tree/master/Pivot/PivotTabbedStyle",
+            "Link": "https://github.com/Raamakrishnan/UWP-Styles-Library/tree/master/Pivot/PivotTabbedStyle"
+          },
+          {
+            "Text": " : tabs look for pivot control"
+          }
+        ]
+      }
+    ],
+    "title": "Tab",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

@@ -1,0 +1,753 @@
+{
+  "ID": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+  "Page": {
+    "alive": true,
+    "content": [
+      "301623d2-fe0a-4144-a197-1f303a8bc1dc",
+      "bd8933d4-7618-439a-b8d5-abbd75158c6d",
+      "138c118d-17fd-4448-a009-049ef2a3a3fd",
+      "84ed0428-4a02-45fc-899a-a08b6da4430b",
+      "be2ffbb8-36b2-4ab8-b7ac-b8bd87788102",
+      "0345da62-ac1e-49bf-a810-fb79366dcfe1",
+      "d18bf04d-40bd-4ad3-b10f-a76f1d763791",
+      "852be8fa-f085-48a7-897f-eecd974d7892",
+      "ee7a49ce-b1b9-465f-8a58-52998e28ed33",
+      "e2c17770-ec85-4595-875b-52c906e64831",
+      "a5b6c04a-36df-40eb-a294-8d2121b23faa",
+      "0373ada3-35b4-4102-a056-e47119b8146a",
+      "c58e4acf-2146-4e44-9e91-75fb08e961fb",
+      "e01477a7-7aae-407b-ab42-ec99e5264a05",
+      "cce64f16-d4f6-436a-bcf9-f39a4ed91ba4",
+      "dcf550fe-5188-4c2a-9d06-11ed540e0c57",
+      "5bd0c01f-05c2-4da0-a703-d147fa16a490",
+      "80d7fab6-8354-4d61-9c68-c72dd4ec45c1",
+      "67a65fe3-07aa-4eb4-9a72-14aa80096e89"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1512370675523,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530689352585,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "gdb"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 50,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307343773,
+        "id": "301623d2-fe0a-4144-a197-1f303a8bc1dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307347085,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Basics:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 20,
+        "inline_content": [
+          {
+            "Text": "Basics:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307348025,
+        "id": "bd8933d4-7618-439a-b8d5-abbd75158c6d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307358605,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "gdb —args foo.exe rest args",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 80,
+        "inline_content": [
+          {
+            "Text": "gdb —args foo.exe rest args",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307359514,
+        "id": "138c118d-17fd-4448-a009-049ef2a3a3fd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307371730,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "br function",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : set a breakpoint"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 74,
+        "inline_content": [
+          {
+            "Text": "br function",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : set a breakpoint"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530685937305,
+        "id": "84ed0428-4a02-45fc-899a-a08b6da4430b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530685952232,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "delete function",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : delete a breakpoint. No argument ⇒ delete all"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 145,
+        "inline_content": [
+          {
+            "Text": "delete function",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : delete a breakpoint. No argument ⇒ delete all"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307372235,
+        "id": "be2ffbb8-36b2-4ab8-b7ac-b8bd87788102",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307677234,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "r",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : run"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 32,
+        "inline_content": [
+          {
+            "Text": "r",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : run"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307677538,
+        "id": "0345da62-ac1e-49bf-a810-fb79366dcfe1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307682067,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "c",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : continue running"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54,
+        "inline_content": [
+          {
+            "Text": "c",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : continue running"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307682216,
+        "id": "d18bf04d-40bd-4ad3-b10f-a76f1d763791",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307688168,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "bt",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : show backtrace"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 56,
+        "inline_content": [
+          {
+            "Text": "bt",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : show backtrace"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307688560,
+        "id": "852be8fa-f085-48a7-897f-eecd974d7892",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307748487,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "step",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : executes next line, goes into functions"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 134,
+        "inline_content": [
+          {
+            "Text": "step",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : executes next line, goes into functions"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307748980,
+        "id": "ee7a49ce-b1b9-465f-8a58-52998e28ed33",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530685011685,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "stepi",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : executes next assembly instruction, goes into functions"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 144,
+        "inline_content": [
+          {
+            "Text": "stepi",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : executes next assembly instruction, goes into functions"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530307760528,
+        "id": "e2c17770-ec85-4595-875b-52c906e64831",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530307782092,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "next",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "nexti",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : like step, but skips over functions"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 58,
+        "inline_content": [
+          {
+            "Text": "next",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "nexti",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : like step, but skips over functions"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530684992851,
+        "id": "a5b6c04a-36df-40eb-a294-8d2121b23faa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530685021211,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "set disassemble-next-line on",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : show disassembly when stepping"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 93,
+        "inline_content": [
+          {
+            "Text": "set disassemble-next-line on",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : show disassembly when stepping"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530308570132,
+        "id": "0373ada3-35b4-4102-a056-e47119b8146a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530308581753,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "info threads",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : print info about threads"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 112,
+        "inline_content": [
+          {
+            "Text": "info threads",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : print info about threads"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530308581996,
+        "id": "c58e4acf-2146-4e44-9e91-75fb08e961fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530311543504,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "info reg",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : print info about registers print a register"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 138,
+        "inline_content": [
+          {
+            "Text": "info reg",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : print info about registers print a register"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530311524597,
+        "id": "e01477a7-7aae-407b-ab42-ec99e5264a05",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530311549848,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "p $xmm0",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " print a register"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 50,
+        "inline_content": [
+          {
+            "Text": "p $xmm0",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " print a register"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530685259685,
+        "id": "cce64f16-d4f6-436a-bcf9-f39a4ed91ba4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530685273330,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "p/x $rcx",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : print register in hex"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 82,
+        "inline_content": [
+          {
+            "Text": "p/x $rcx",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : print register in hex"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530311551346,
+        "id": "dcf550fe-5188-4c2a-9d06-11ed540e0c57",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530311584159,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "x/4 \u003caddr\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : display memory 4 words at a given "
+            ],
+            [
+              "\u003caddr\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 216,
+        "inline_content": [
+          {
+            "Text": "x/4 \u003caddr\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : display memory 4 words at a given "
+          },
+          {
+            "Text": "\u003caddr\u003e",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530689352585,
+        "id": "5bd0c01f-05c2-4da0-a703-d147fa16a490",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530689366409,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "set {int}0xaddr = 4",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : write to memory"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 80,
+        "inline_content": [
+          {
+            "Text": "set {int}0xaddr = 4",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : write to memory"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512370686804,
+        "id": "80d7fab6-8354-4d61-9c68-c72dd4ec45c1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512370686804,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512370704235,
+        "id": "67a65fe3-07aa-4eb4-9a72-14aa80096e89",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512370704235,
+        "parent_id": "d79f6a5f-2804-40f6-a396-13ede3b6f4fd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should",
+              [
+                [
+                  "a",
+                  "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should",
+            "Link": "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should"
+          }
+        ]
+      }
+    ],
+    "title": "gdb",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

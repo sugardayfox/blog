@@ -1,0 +1,865 @@
+{
+  "ID": "a0918966-943e-427c-8f9f-0171a6f52745",
+  "Page": {
+    "alive": true,
+    "content": [
+      "340fc157-bb16-4f81-8f5a-500c8d49282d",
+      "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+      "6b5063af-7abd-4539-a96d-ab83c659a923",
+      "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+      "9728ba34-06ce-430d-b1be-daa3048f857b",
+      "d022d37e-a67d-4cb6-b0bd-d42ab63302bb"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1492900705407,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "a0918966-943e-427c-8f9f-0171a6f52745",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530089787499,
+    "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "MySQL"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 9,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "2b67bb04-b2b1-49e3-ac10-46216c586ccf",
+          "073e2c47-6722-4d11-ac1d-b7e006c71af8",
+          "037abc27-dc81-40b7-9333-4720ec321186",
+          "6bfb93d0-0c39-4a36-b024-6f2876705421",
+          "53a81843-2670-4bdf-bb41-fe83cd1bc7aa"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900709635,
+        "id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900709635,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "connecting to the database with "
+            ],
+            [
+              "mysql",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " executable"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900731741,
+            "id": "2b67bb04-b2b1-49e3-ac10-46216c586ccf",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900731741,
+            "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "/usr/bin/mysql -u root@localhost --password=\u003cpwd\u003e \u003cdbname\u003e",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " "
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "/usr/bin/mysql -u root@localhost --password=\u003cpwd\u003e \u003cdbname\u003e",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " "
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900749140,
+            "id": "073e2c47-6722-4d11-ac1d-b7e006c71af8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900749140,
+            "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "-p",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : will ask for password"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "-p",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : will ask for password"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492996803589,
+            "id": "037abc27-dc81-40b7-9333-4720ec321186",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492996803589,
+            "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "--password",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : provide password"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "--password",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : provide password"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492901124275,
+            "id": "6bfb93d0-0c39-4a36-b024-6f2876705421",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492901124275,
+            "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "--port=3307",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : connect to non-standard port (3306 is default)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "--port=3307",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : connect to non-standard port (3306 is default)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900811393,
+            "id": "53a81843-2670-4bdf-bb41-fe83cd1bc7aa",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900811393,
+            "parent_id": "340fc157-bb16-4f81-8f5a-500c8d49282d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Can connect to remote servers, but the server might be configured to not allow remote connections (per user)."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "Can connect to remote servers, but the server might be configured to not allow remote connections (per user)."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "connecting to the database with "
+          },
+          {
+            "Text": "mysql",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " executable"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "fc2c96bc-e4e8-432c-8008-308b9fdabb5d",
+          "dbbd1456-2791-4af2-a4ca-b87ccb252919",
+          "939ac4d9-adc9-4c99-b1e0-73e6607b0f20",
+          "519e7a3b-fe0f-4638-bfba-e771ac8b6061",
+          "998be927-53f2-46c6-9361-723902a9d577"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492996905855,
+        "id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1530089786390,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "using "
+            ],
+            [
+              "mysqlsh [OPTIONS] [URI] -f \u003cpath\u003e [script args...]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " "
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 2,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492996916526,
+            "id": "fc2c96bc-e4e8-432c-8008-308b9fdabb5d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492996916526,
+            "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "on mac use "
+                ],
+                [
+                  "brew install Caskroom/cask/mysql-shell",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " to install"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "on mac use "
+              },
+              {
+                "Text": "brew install Caskroom/cask/mysql-shell",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " to install"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492997091130,
+            "id": "dbbd1456-2791-4af2-a4ca-b87ccb252919",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492997091130,
+            "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "--sql",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : run in sql mode (JavaScript is default)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "--sql",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : run in sql mode (JavaScript is default)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492996966870,
+            "id": "939ac4d9-adc9-4c99-b1e0-73e6607b0f20",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492996966870,
+            "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "-f \u003cpath\u003e",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : process a file"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "-f \u003cpath\u003e",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : process a file"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492997010851,
+            "id": "519e7a3b-fe0f-4638-bfba-e771ac8b6061",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492997010851,
+            "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "--port=\u003cport\u003e",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : connect to port"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "--port=\u003cport\u003e",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : connect to port"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492997039711,
+            "id": "998be927-53f2-46c6-9361-723902a9d577",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1530089787499,
+            "parent_id": "b600d302-84b2-4c3e-8ab2-8a87c33d260e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "--dbuser=\u003cuser\u003e",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : user"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 2,
+            "inline_content": [
+              {
+                "Text": "--dbuser=\u003cuser\u003e",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : user"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "using "
+          },
+          {
+            "Text": "mysqlsh [OPTIONS] [URI] -f \u003cpath\u003e [script args...]",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "d836f2b8-0829-425f-8f9e-1123dd90e6be",
+          "f9c5c40f-68b1-42b6-b4c2-efa16a91a192",
+          "8796e13b-cd4e-46bd-92f9-92366539a446",
+          "d173c4c9-760f-49a4-9b02-077d64066075"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492900865077,
+        "id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492900865077,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "mysql cmd-line ui"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900924016,
+            "id": "d836f2b8-0829-425f-8f9e-1123dd90e6be",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900924016,
+            "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "show databases;",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "show databases;",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900946631,
+            "id": "f9c5c40f-68b1-42b6-b4c2-efa16a91a192",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900946631,
+            "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "use \u003cdb\u003e;",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "use \u003cdb\u003e;",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492900949285,
+            "id": "8796e13b-cd4e-46bd-92f9-92366539a446",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492900949285,
+            "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "show tables;",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "show tables;",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492901018190,
+            "id": "d173c4c9-760f-49a4-9b02-077d64066075",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492901018190,
+            "parent_id": "6b5063af-7abd-4539-a96d-ab83c659a923",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "describe \u003ctable\u003e;",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "describe \u003ctable\u003e;",
+                "AttrFlags": 2
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "mysql cmd-line ui"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "ce66ac80-93c9-4f82-9d7d-78dbb92aa0c2",
+          "6acae330-c93b-462a-a531-01379db2b7f4",
+          "c01f2e9f-c225-4265-a0ba-54ae39c7655d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492912265282,
+        "id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1492912265282,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "default config for mysql:5.6 docker image"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492912280769,
+            "id": "ce66ac80-93c9-4f82-9d7d-78dbb92aa0c2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492912280769,
+            "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "/var/lib/mysql",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : data directory"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "/var/lib/mysql",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : data directory"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492912331389,
+            "id": "6acae330-c93b-462a-a531-01379db2b7f4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492912331389,
+            "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "/etc/mysql/my.cnf",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : configuration file"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 0,
+            "inline_content": [
+              {
+                "Text": "/etc/mysql/my.cnf",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : configuration file"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492912302662,
+            "id": "c01f2e9f-c225-4265-a0ba-54ae39c7655d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1492912302662,
+            "parent_id": "0586f9d3-24fc-4cd6-a951-c323895c7ef5",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Go"
+                ]
+              ],
+              "title": [
+                [
+                  "[client]\nport\t\t= 3306\nsocket\t\t= /var/run/mysqld/mysqld.sock\n\n[mysqld_safe]\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nnice\t\t= 0\n\n[mysqld]\nskip-host-cache\nskip-name-resolve\nuser\t\t= mysql\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nport\t\t= 3306\nbasedir\t\t= /usr\ndatadir\t\t= /var/lib/mysql\ntmpdir\t\t= /tmp\nlc-messages-dir\t= /usr/share/mysql\nexplicit_defaults_for_timestamp\n\n# Instead of skip-networking the default is now to listen only on\n# localhost which is more compatible and is not less secure.\n#bind-address\t= 127.0.0.1\n\n#log-error\t= /var/log/mysql/error.log\n\n# Recommended in standard MySQL setup\nsql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\n\n# Disabling symbolic-links is recommended to prevent assorted security risks\nsymbolic-links=0\n\n# * IMPORTANT: Additional settings that can override those from this file!\n#   The files must end with '.cnf', otherwise they'll be ignored.\n#\n!includedir /etc/mysql/conf.d/"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "[client]\nport\t\t= 3306\nsocket\t\t= /var/run/mysqld/mysqld.sock\n\n[mysqld_safe]\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nnice\t\t= 0\n\n[mysqld]\nskip-host-cache\nskip-name-resolve\nuser\t\t= mysql\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nport\t\t= 3306\nbasedir\t\t= /usr\ndatadir\t\t= /var/lib/mysql\ntmpdir\t\t= /tmp\nlc-messages-dir\t= /usr/share/mysql\nexplicit_defaults_for_timestamp\n\n# Instead of skip-networking the default is now to listen only on\n# localhost which is more compatible and is not less secure.\n#bind-address\t= 127.0.0.1\n\n#log-error\t= /var/log/mysql/error.log\n\n# Recommended in standard MySQL setup\nsql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\n\n# Disabling symbolic-links is recommended to prevent assorted security risks\nsymbolic-links=0\n\n# * IMPORTANT: Additional settings that can override those from this file!\n#   The files must end with '.cnf', otherwise they'll be ignored.\n#\n!includedir /etc/mysql/conf.d/",
+            "code_language": "Go"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "default config for mysql:5.6 docker image"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "b9935de3-67f0-4327-97f3-1fa8e028020c"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368447358,
+        "id": "9728ba34-06ce-430d-b1be-daa3048f857b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368447358,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "notes"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 0,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512368455469,
+            "id": "b9935de3-67f0-4327-97f3-1fa8e028020c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1512368455469,
+            "parent_id": "9728ba34-06ce-430d-b1be-daa3048f857b",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "brew install homebrew/versions/mysql55 : so that it matches version on gce\nbrew link --force homebrew/versions/mysql55\n\nimport (\n_ \"github.com/go-sql-driver/mysql\"\n)\n\nTypes:\nint, integer - 4 bytes\nbigint - 8 bytes\nfloat - 4 bytes\ndouble - 8 bytes\n\ndate - 3 bytes\ntime - 3 bytes\ndatetime - 8 bytes\ntimestamp - 4 bytes\nvarchar(n) - L + 1 bytes if n \u003c= 255, L + 2 bytes i n \u003e 255, max is 65535 \ntext\nvarbinary(n)\nblob\n\nNotes:\nvarchar is stored inline, size limited to max row size (65k)\ntext is stored on the size, not max row limit, slower than varchar\n\nCREATE [UNIQUE] INDEX idx_name ON table(column,...) using [HASH | BTREE]\n\nHomebrew:\nTo connect:\n    mysql -uroot\n\nTo have launchd start mysql at login:\n    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents\nThen to load mysql now:\n    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist\nOr, if you don't want/need launchctl, you can just run:\n    mysql.server start\n==\u003e /usr/local/\n\nhttp://blog.ionelmc.ro/2014/12/28/terrible-choices-mysql/\n\n\nSELECT @@GLOBAL.sql_mode;\nSELECT @@SESSION.sql_mode;\nlocal:\nSTRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION\non gce is empty\n\nVersion:\nlocal: 5.6.22\ngce: 5.5.38-log\n\nhttps://github.com/yahoo/mysql_perf_analyzer\nhttp://githubengineering.com/using-mysql-performance-schema-for-workload-analysis/\nhttp://stackoverflow.com/questions/3499372/get-list-of-mysql-databases-and-server-version\nhttps://github.com/pubnative/mysqldriver-go"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 0,
+            "code": "brew install homebrew/versions/mysql55 : so that it matches version on gce\nbrew link --force homebrew/versions/mysql55\n\nimport (\n_ \"github.com/go-sql-driver/mysql\"\n)\n\nTypes:\nint, integer - 4 bytes\nbigint - 8 bytes\nfloat - 4 bytes\ndouble - 8 bytes\n\ndate - 3 bytes\ntime - 3 bytes\ndatetime - 8 bytes\ntimestamp - 4 bytes\nvarchar(n) - L + 1 bytes if n \u003c= 255, L + 2 bytes i n \u003e 255, max is 65535 \ntext\nvarbinary(n)\nblob\n\nNotes:\nvarchar is stored inline, size limited to max row size (65k)\ntext is stored on the size, not max row limit, slower than varchar\n\nCREATE [UNIQUE] INDEX idx_name ON table(column,...) using [HASH | BTREE]\n\nHomebrew:\nTo connect:\n    mysql -uroot\n\nTo have launchd start mysql at login:\n    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents\nThen to load mysql now:\n    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist\nOr, if you don't want/need launchctl, you can just run:\n    mysql.server start\n==\u003e /usr/local/\n\nhttp://blog.ionelmc.ro/2014/12/28/terrible-choices-mysql/\n\n\nSELECT @@GLOBAL.sql_mode;\nSELECT @@SESSION.sql_mode;\nlocal:\nSTRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION\non gce is empty\n\nVersion:\nlocal: 5.6.22\ngce: 5.5.38-log\n\nhttps://github.com/yahoo/mysql_perf_analyzer\nhttp://githubengineering.com/using-mysql-performance-schema-for-workload-analysis/\nhttp://stackoverflow.com/questions/3499372/get-list-of-mysql-databases-and-server-version\nhttps://github.com/pubnative/mysqldriver-go",
+            "code_language": "Plain Text"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "notes"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512368450814,
+        "id": "d022d37e-a67d-4cb6-b0bd-d42ab63302bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1512368450814,
+        "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "MySQL",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

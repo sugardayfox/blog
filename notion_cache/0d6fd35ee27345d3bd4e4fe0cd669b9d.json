@@ -1,0 +1,203 @@
+{
+  "ID": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+  "Page": {
+    "alive": true,
+    "content": [
+      "17014343-c6a4-438f-a105-7adf54033812",
+      "f3fe67b9-9024-45b8-95f2-ef99931687fc",
+      "7a3dfa0f-842d-4974-9dcd-98bb565deeef",
+      "947c9ab1-4874-4461-8b6e-1a0450f027b6",
+      "98dffc9a-3440-4c5e-a2c1-5469f844f27a",
+      "0028443a-e1da-4205-9704-a1e097bf5538"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1474618468403,
+    "id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1474618468403,
+    "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "gulp"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1474618483383,
+        "id": "17014343-c6a4-438f-a105-7adf54033812",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1474618483383,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "How to see which files are being processed:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "How to see which files are being processed:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475121834777,
+        "id": "f3fe67b9-9024-45b8-95f2-ef99931687fc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475121834777,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "var debug = require('gulp-debug');\n\ngulp.task('css', function() {\n  return gulp.src('./sass/*.scss')\n    .pipe(debug())\n    .pipe(sourcemaps.init())"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "var debug = require('gulp-debug');\n\ngulp.task('css', function() {\n  return gulp.src('./sass/*.scss')\n    .pipe(debug())\n    .pipe(sourcemaps.init())",
+        "code_language": "Javascript"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1474618518435,
+        "id": "7a3dfa0f-842d-4974-9dcd-98bb565deeef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1474618518435,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It's more complicated for browserify:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "It's more complicated for browserify:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475121834801,
+        "id": "947c9ab1-4874-4461-8b6e-1a0450f027b6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475121834801,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "var browserify = require('browserify');\n\ngulp.task('js', function() {\n  var opts = {\n    entries: ['js/App.tsx'],\n    debug: true\n  };\n  browserify(opts)\n    .on('dep', function(dep) {\n      console.log(dep.file);\n    })\n    .plugin(\"tsify\", tsify_opts)\n    .transform(babelify, babelify_opts)\n    .bundle()\n    .pipe(exorcist('s/dist/bundle.js.map'))\n    .pipe(source('bundle.js'))\n    .pipe(gulp.dest('s/dist'));\n});"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "var browserify = require('browserify');\n\ngulp.task('js', function() {\n  var opts = {\n    entries: ['js/App.tsx'],\n    debug: true\n  };\n  browserify(opts)\n    .on('dep', function(dep) {\n      console.log(dep.file);\n    })\n    .plugin(\"tsify\", tsify_opts)\n    .transform(babelify, babelify_opts)\n    .bundle()\n    .pipe(exorcist('s/dist/bundle.js.map'))\n    .pipe(source('bundle.js'))\n    .pipe(gulp.dest('s/dist'));\n});",
+        "code_language": "Javascript"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1474618604202,
+        "id": "98dffc9a-3440-4c5e-a2c1-5469f844f27a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1474618604202,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The magic is in "
+            ],
+            [
+              ".on()",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " pipe."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "The magic is in "
+          },
+          {
+            "Text": ".on()",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " pipe."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1474618614481,
+        "id": "0028443a-e1da-4205-9704-a1e097bf5538",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1474618614481,
+        "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
+        "parent_table": "block",
+        "type": "text",
+        "version": 0
+      }
+    ],
+    "title": "gulp"
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

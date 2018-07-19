@@ -1,0 +1,112 @@
+{
+  "ID": "90b32ed5-e082-4cfd-8add-b045b12cec93",
+  "Page": {
+    "alive": true,
+    "content": [
+      "d1754c3a-39d3-467f-8ad8-d78306af3311",
+      "7ad1888b-bb6f-49cc-8593-52f621349de5"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1509488119784,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "90b32ed5-e082-4cfd-8add-b045b12cec93",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1530045850739,
+    "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "charts and plots"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 12,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509488131842,
+        "id": "d1754c3a-39d3-467f-8ad8-d78306af3311",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509488131842,
+        "parent_id": "90b32ed5-e082-4cfd-8add-b045b12cec93",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Libraries:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "Libraries:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1509488129068,
+        "id": "7ad1888b-bb6f-49cc-8593-52f621349de5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1509488129068,
+        "parent_id": "90b32ed5-e082-4cfd-8add-b045b12cec93",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://frappe.github.io/charts/",
+              [
+                [
+                  "a",
+                  "https://frappe.github.io/charts/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 0,
+        "inline_content": [
+          {
+            "Text": "https://frappe.github.io/charts/",
+            "Link": "https://frappe.github.io/charts/"
+          }
+        ]
+      }
+    ],
+    "title": "charts and plots",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}

@@ -1,0 +1,70 @@
+{
+  "ID": "73b8a31c-ff4b-4a70-9f4e-55b67cacf2ce",
+  "Page": {
+    "alive": true,
+    "content": [
+      "350a4f3d-2ada-43a8-aafe-495784a115aa"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1474616711584,
+    "id": "73b8a31c-ff4b-4a70-9f4e-55b67cacf2ce",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1474616711584,
+    "parent_id": "bf0571fb-b139-4519-80b3-642fc7ca90f4",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Counters"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 0,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1475806392446,
+        "id": "350a4f3d-2ada-43a8-aafe-495784a115aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1475806392446,
+        "parent_id": "73b8a31c-ff4b-4a70-9f4e-55b67cacf2ce",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Javascript"
+            ]
+          ],
+          "title": [
+            [
+              "\nclass Counters {\n\treset() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tthis[key] = 0;\n\t\t}\n\t}\n\n\tinc(key) {\n\t\tif (!this[key]) {\n\t\t\tthis[key] = 1;\n\t\t} else {\n\t\t\tthis[key] = this[key] + 1;\n\t\t}\n\t}\n\n\tprint() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tconst v = this[key];\n\t\t\tconsole.log(`${key}: ${v}`);\n\t\t}\n\t}\n}\n\nexport const counters = new Counters();\n"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 0,
+        "code": "\nclass Counters {\n\treset() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tthis[key] = 0;\n\t\t}\n\t}\n\n\tinc(key) {\n\t\tif (!this[key]) {\n\t\t\tthis[key] = 1;\n\t\t} else {\n\t\t\tthis[key] = this[key] + 1;\n\t\t}\n\t}\n\n\tprint() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tconst v = this[key];\n\t\t\tconsole.log(`${key}: ${v}`);\n\t\t}\n\t}\n}\n\nexport const counters = new Counters();\n",
+        "code_language": "Javascript"
+      }
+    ],
+    "title": "Counters"
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Collections": null,
+  "CollectionViews": null
+}
