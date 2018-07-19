@@ -7,7 +7,6 @@
       "fbf105cf-624f-4be4-ac64-4b5072f064ee",
       "f82635b8-a34c-4052-8e0d-280fef37d308",
       "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
-      "abf9c525-6e9c-47d4-89ad-5a0cfa44c61d",
       "42731c70-db54-4db9-bff7-d0389fe4ac8c",
       "641cb6c4-0f7d-43e3-b975-066be86eb3c8",
       "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2",
@@ -22,18 +21,18 @@
     },
     "id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531736828315,
+    "last_edited_time": 1531971630599,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "Tip for verbose logging in Go"
+          "Tip for per-test verbose logging in Go"
         ]
       ]
     },
     "type": "page",
-    "version": 5,
+    "version": 25,
     "content_resolved": [
       {
         "alive": true,
@@ -113,35 +112,11 @@
         "created_time": 1531736828315,
         "id": "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736828315,
+        "last_edited_time": 1531971630599,
         "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
         "parent_table": "block",
         "type": "text",
-        "version": 1
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531736828315,
-        "id": "abf9c525-6e9c-47d4-89ad-5a0cfa44c61d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736828315,
-        "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Go lacks a good ad-hoc debugging tool (i.e. a competent debugger)."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "Go lacks a good ad-hoc debugging tool (i.e. a competent debugger)."
-          }
-        ]
+        "version": 3
       },
       {
         "alive": true,
@@ -149,13 +124,13 @@
         "created_time": 1531736828315,
         "id": "42731c70-db54-4db9-bff7-d0389fe4ac8c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736828315,
+        "last_edited_time": 1531971725532,
         "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "For that reason we have to revert to caveman-style debugging: sprinkling the code with "
+              "One way to narrow down a problem when debugging a test is to add logging with e.g. "
             ],
             [
               "fmt.Printf()",
@@ -171,10 +146,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 733,
         "inline_content": [
           {
-            "Text": "For that reason we have to revert to caveman-style debugging: sprinkling the code with "
+            "Text": "One way to narrow down a problem when debugging a test is to add logging with e.g. "
           },
           {
             "Text": "fmt.Printf()",
@@ -302,7 +277,7 @@
         "code_language": "Go"
       }
     ],
-    "title": "Tip for verbose logging in Go",
+    "title": "Tip for per-test verbose logging in Go",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

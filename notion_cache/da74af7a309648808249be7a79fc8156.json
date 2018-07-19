@@ -93,14 +93,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888786810,
+    "file_ids": [
+      "c4bfc136-2fdb-4e47-bc21-51698592fd00"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4bfc136-2fdb-4e47-bc21-51698592fd00/header-09.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "da74af7a-3096-4880-8249-be7a79fc8156",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531889077925,
+    "last_edited_time": 1531971312614,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -111,7 +116,7 @@
       ]
     },
     "type": "page",
-    "version": 48,
+    "version": 59,
     "content_resolved": [
       {
         "alive": true,
@@ -2959,29 +2964,42 @@
         "id": "116b7b6b-ff9c-471b-a841-177fca9c4fa4",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786810,
+        "last_edited_time": 1531971207421,
         "parent_id": "da74af7a-3096-4880-8249-be7a79fc8156",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate"
+              "Code for this chapter: "
+            ],
+            [
+              "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate",
+              [
+                [
+                  "a",
+                  "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate"
+                ]
+              ]
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 7,
         "inline_content": [
           {
-            "Text": "Code for this chapter: https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate"
+            "Text": "Code for this chapter: "
+          },
+          {
+            "Text": "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate",
+            "Link": "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate"
           }
         ]
       }
     ],
     "title": "3 ways to iterate in Go",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4bfc136-2fdb-4e47-bc21-51698592fd00/header-09.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",

@@ -348,13 +348,13 @@
         "created_time": 1531736754018,
         "id": "ad889e1a-e9fb-4935-ae73-c59a3015ff07",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531816785652,
+        "last_edited_time": 1531972483613,
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "JSON"
+              "Javascript"
             ]
           ],
           "title": [
@@ -364,9 +364,9 @@
           ]
         },
         "type": "code",
-        "version": 3,
+        "version": 5,
         "code": "{\n  \"notes\": [\n    {\n      \"id\": 1,\n      \"title\": \"first note\",\n      \"createdAt\": \"2016-08-14 15:34:32Z\",\n      // ... more properties\n    },\n    {\n      \"id\": 2,\n      \"title\": \"second note\",\n      \"createdAt\": \"2016-08-14 16:03:12Z\"\n      // ... more properties\n    },\n    // ... more notes\n  ]\n}",
-        "code_language": "JSON"
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -422,13 +422,13 @@
         "created_time": 1531736754018,
         "id": "13432b38-97c0-4740-9143-58bed6d5459d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531816790503,
+        "last_edited_time": 1531972487090,
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "JSON"
+              "Javascript"
             ]
           ],
           "title": [
@@ -438,9 +438,9 @@
           ]
         },
         "type": "code",
-        "version": 3,
+        "version": 5,
         "code": "{\n  \"notes\": [\n    [1, \"first note\", \"2016-08-14 15:34:32Z\", ... more properties],\n    [2, \"second note\", \"2016-08-14 16:03:12Z\", ... more properties],\n    // ... more notes\n  ]\n}",
-        "code_language": "JSON"
+        "code_language": "Javascript"
       },
       {
         "alive": true,
