@@ -262,25 +262,25 @@
         "created_time": 1531195926155,
         "id": "94c8ed69-eccd-49de-a81e-2940f11d4af3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926155,
+        "last_edited_time": 1531951313317,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
             [
-              "valgrind \\${prog-to-run} ${arg1} ${arg2} …"
+              "valgrind ${prog-to-run} ${arg1} ${arg2} ..."
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "valgrind \\${prog-to-run} ${arg1} ${arg2} …",
-        "code_language": "Plain Text"
+        "version": 13,
+        "code": "valgrind ${prog-to-run} ${arg1} ${arg2} ...",
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -324,25 +324,25 @@
         "created_time": 1531195926155,
         "id": "ea7a8d32-2f22-43c8-800d-dbde4cb740c6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926155,
+        "last_edited_time": 1531951334341,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
             [
-              "valgrind —tool=memcheck —leak-check=full —show-reachable=yes\n—num-callers=16 ${prog-to-run}"
+              "valgrind --tool=memcheck --leak-check=full --show-reachable=yes\n--num-callers=16 ${prog-to-run}"
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "valgrind —tool=memcheck —leak-check=full —show-reachable=yes\n—num-callers=16 ${prog-to-run}",
-        "code_language": "Plain Text"
+        "version": 27,
+        "code": "valgrind --tool=memcheck --leak-check=full --show-reachable=yes\n--num-callers=16 ${prog-to-run}",
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -380,25 +380,25 @@
         "created_time": 1531195926155,
         "id": "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926155,
+        "last_edited_time": 1531951342169,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
             [
-              "valgrind —tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt"
+              "valgrind --tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt"
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "valgrind —tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt",
-        "code_language": "Plain Text"
+        "version": 9,
+        "code": "valgrind --tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt",
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -436,25 +436,25 @@
         "created_time": 1531195926155,
         "id": "09f9b39c-e607-454d-ab82-16a232ab4449",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926155,
+        "last_edited_time": 1531951354822,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
             [
-              "valgrind —tool=callgrind ${prog-to-run}"
+              "valgrind --tool=callgrind ${prog-to-run}"
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "valgrind —tool=callgrind ${prog-to-run}",
-        "code_language": "Plain Text"
+        "version": 9,
+        "code": "valgrind --tool=callgrind ${prog-to-run}",
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -486,25 +486,25 @@
         "created_time": 1531195926155,
         "id": "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926155,
+        "last_edited_time": 1531951363022,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
             [
-              "valgrind —tool=callgrind —instr-atstart=no ${prog-to-run}"
+              "valgrind --tool=callgrind --instr-atstart=no ${prog-to-run}"
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "valgrind —tool=callgrind —instr-atstart=no ${prog-to-run}",
-        "code_language": "Plain Text"
+        "version": 15,
+        "code": "valgrind --tool=callgrind --instr-atstart=no ${prog-to-run}",
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -536,13 +536,13 @@
         "created_time": 1531195926156,
         "id": "85b76676-22a9-4cb1-8e01-0ac475ff87d9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926156,
+        "last_edited_time": 1531951365638,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
@@ -552,9 +552,9 @@
           ]
         },
         "type": "code",
-        "version": 1,
+        "version": 3,
         "code": "callgrind_control -i on\ncallgrind_control -i off",
-        "code_language": "Plain Text"
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -820,25 +820,25 @@
         "created_time": 1531195926157,
         "id": "77b8b474-f6ef-4ac4-9d82-865e125ce559",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195926157,
+        "last_edited_time": 1531951379141,
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Java/C/C++/C#"
             ]
           ],
           "title": [
             [
-              "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND\\_TOGGLE\\_COLLECT\nfoo();\nCALLGRIND\\_TOGGLE\\_COLLECT"
+              "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND_TOGGLE_COLLECT\nfoo();\nCALLGRIND_TOGGLE_COLLECT"
             ]
           ]
         },
         "type": "code",
-        "version": 1,
-        "code": "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND\\_TOGGLE\\_COLLECT\nfoo();\nCALLGRIND\\_TOGGLE\\_COLLECT",
-        "code_language": "Plain Text"
+        "version": 11,
+        "code": "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND_TOGGLE_COLLECT\nfoo();\nCALLGRIND_TOGGLE_COLLECT",
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
