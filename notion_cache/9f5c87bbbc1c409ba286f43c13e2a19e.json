@@ -7,10 +7,12 @@
       "bc65f51f-ec0c-4790-999c-9d79b1a076a1",
       "a852ecd8-73f2-41c3-9435-af0b04dfe1c8",
       "9fc879d1-2e8a-4374-8266-b829888fdf62",
+      "2cf20d96-4bdc-4a1d-bf79-5b0b2bbe272d",
       "6c099d10-d30e-4cb1-9b08-dc539733bc80",
       "40017152-6fc5-4b44-8260-9c9886c8028f",
       "cb1c1244-0c34-419b-9124-8599c12b3edd",
-      "f3d76f21-6ddc-48f3-890e-7bdc12fe4a71"
+      "f3d76f21-6ddc-48f3-890e-7bdc12fe4a71",
+      "6788658b-c8ed-4c6d-a321-c35f13877d62"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157292298,
@@ -21,7 +23,7 @@
     "id": "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531383114098,
+    "last_edited_time": 1531979467706,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -32,7 +34,7 @@
       ]
     },
     "type": "page",
-    "version": 53,
+    "version": 57,
     "content_resolved": [
       {
         "alive": true,
@@ -65,21 +67,21 @@
         "created_time": 1531122131050,
         "id": "bc65f51f-ec0c-4790-999c-9d79b1a076a1",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531128326989,
+        "last_edited_time": 1531979502082,
         "parent_id": "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Date: 2002-11-05T06:35:25-08:00"
+              "Date: 2002-11-05"
             ]
           ]
         },
         "type": "text",
-        "version": 12,
+        "version": 14,
         "inline_content": [
           {
-            "Text": "Date: 2002-11-05T06:35:25-08:00"
+            "Text": "Date: 2002-11-05"
           }
         ]
       },
@@ -102,7 +104,7 @@
         "id": "9fc879d1-2e8a-4374-8266-b829888fdf62",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157292283,
+        "last_edited_time": 1531979461708,
         "parent_id": "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
         "parent_table": "block",
         "properties": {
@@ -120,12 +122,12 @@
               ]
             ],
             [
-              " in Joel On Software discussion forums. A guy asks how to sell software. Suggested links:"
+              " in Joel On Software discussion forums. A guy asks how to sell software."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
             "Text": "Interesting "
@@ -135,7 +137,31 @@
             "Link": "http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show\u0026ixPost=18721\u0026ixReplies=4"
           },
           {
-            "Text": " in Joel On Software discussion forums. A guy asks how to sell software. Suggested links:"
+            "Text": " in Joel On Software discussion forums. A guy asks how to sell software."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531979461708,
+        "id": "2cf20d96-4bdc-4a1d-bf79-5b0b2bbe272d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531979464179,
+        "parent_id": "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Suggested links:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Suggested links:"
           }
         ]
       },
@@ -290,6 +316,18 @@
             "Link": "http://www.hackvan.com/pub/stig/articles/why-do-people-register-shareware.html"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531979467706,
+        "id": "6788658b-c8ed-4c6d-a321-c35f13877d62",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1531979467706,
+        "parent_id": "9f5c87bb-bc1c-409b-a286-f43c13e2a19e",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "How to sell software",
