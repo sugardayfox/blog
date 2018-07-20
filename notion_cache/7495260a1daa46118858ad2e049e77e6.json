@@ -117,14 +117,19 @@
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786627,
+        "file_ids": [
+          "629ba763-27bc-462f-9a07-639c0b0bad58"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/629ba763-27bc-462f-9a07-639c0b0bad58/header-21.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889811147,
+        "last_edited_time": 1532074999174,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -135,15 +140,16 @@
           ]
         },
         "type": "page",
-        "version": 29,
+        "version": 36,
         "title": "Fuzzing Markdown parser written in Go",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/629ba763-27bc-462f-9a07-639c0b0bad58/header-21.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F629ba763-27bc-462f-9a07-639c0b0bad58%2Fheader-21.jpg"
         }
       },
       {
@@ -181,7 +187,8 @@
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc4bfc136-2fdb-4e47-bc21-51698592fd00%2Fheader-09.jpg"
         }
       },
       {
