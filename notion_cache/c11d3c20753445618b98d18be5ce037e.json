@@ -331,52 +331,6 @@
           }
         ]
       },
-      "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
-      "name": [
-        [
-          "zopfli vs. brotli vs. gzip"
-        ]
-      ],
-      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
-      "parent_table": "block",
-      "schema": {
-        "\u003erZZ": {
-          "name": "saved",
-          "options": null,
-          "type": "number"
-        },
-        "E?-i": {
-          "name": "saved %",
-          "options": null,
-          "type": "number"
-        },
-        "ca[`": {
-          "name": "size",
-          "options": null,
-          "type": "number"
-        },
-        "title": {
-          "name": "Name",
-          "options": null,
-          "type": "title"
-        }
-      },
-      "version": 6
-    },
-    {
-      "alive": true,
-      "format": {
-        "collection_page_properties": [
-          {
-            "property": "ca[`",
-            "visible": true
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true
-          }
-        ]
-      },
       "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
       "name": [
         [
@@ -408,64 +362,55 @@
         }
       },
       "version": 56
-    }
-  ],
-  "CollectionViews": [
+    },
     {
       "alive": true,
       "format": {
-        "table_properties": [
-          {
-            "property": "title",
-            "visible": true,
-            "width": 276
-          },
+        "collection_page_properties": [
           {
             "property": "ca[`",
-            "visible": true,
-            "width": 100
+            "visible": true
           },
           {
             "property": "\u003erZZ",
-            "visible": true,
-            "width": 200
-          },
-          {
-            "property": "E?-i",
-            "visible": true,
-            "width": 124
-          }
-        ],
-        "table_wrap": true
-      },
-      "id": "374e0842-ef46-43e3-a837-65b035400a5c",
-      "name": "Default View",
-      "page_sort": [
-        "4793bdca-62b9-4aff-adde-d0dec0da6e8d",
-        "79f1da87-7ae4-4c50-890b-a310cac52cb4",
-        "10ff528c-06ce-43fb-9607-1eaa7566ee69",
-        "f481fcac-b820-4e11-9910-426c890a5893",
-        "b669031d-553a-4724-87e7-5efb1e189cfd",
-        "d04429fc-f262-46c1-abe2-ff85832d1900",
-        "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
-        "cb2a7b1b-1841-4622-ab17-82780cf4ccc0"
-      ],
-      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
-      "parent_table": "block",
-      "query": {
-        "aggregate": [
-          {
-            "aggregation_type": "count",
-            "id": "count",
-            "property": "title",
-            "type": "title",
-            "view_type": "table"
+            "visible": true
           }
         ]
       },
-      "type": "table",
-      "version": 3
-    },
+      "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+      "name": [
+        [
+          "zopfli vs. brotli vs. gzip"
+        ]
+      ],
+      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
+      "parent_table": "block",
+      "schema": {
+        "\u003erZZ": {
+          "name": "saved",
+          "options": null,
+          "type": "number"
+        },
+        "E?-i": {
+          "name": "saved %",
+          "options": null,
+          "type": "number"
+        },
+        "ca[`": {
+          "name": "size",
+          "options": null,
+          "type": "number"
+        },
+        "title": {
+          "name": "Name",
+          "options": null,
+          "type": "title"
+        }
+      },
+      "version": 6
+    }
+  ],
+  "CollectionViews": [
     {
       "alive": true,
       "format": {
@@ -521,6 +466,61 @@
       },
       "type": "table",
       "version": 40
+    },
+    {
+      "alive": true,
+      "format": {
+        "table_properties": [
+          {
+            "property": "title",
+            "visible": true,
+            "width": 276
+          },
+          {
+            "property": "ca[`",
+            "visible": true,
+            "width": 100
+          },
+          {
+            "property": "\u003erZZ",
+            "visible": true,
+            "width": 200
+          },
+          {
+            "property": "E?-i",
+            "visible": true,
+            "width": 124
+          }
+        ],
+        "table_wrap": true
+      },
+      "id": "374e0842-ef46-43e3-a837-65b035400a5c",
+      "name": "Default View",
+      "page_sort": [
+        "4793bdca-62b9-4aff-adde-d0dec0da6e8d",
+        "79f1da87-7ae4-4c50-890b-a310cac52cb4",
+        "10ff528c-06ce-43fb-9607-1eaa7566ee69",
+        "f481fcac-b820-4e11-9910-426c890a5893",
+        "b669031d-553a-4724-87e7-5efb1e189cfd",
+        "d04429fc-f262-46c1-abe2-ff85832d1900",
+        "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
+        "cb2a7b1b-1841-4622-ab17-82780cf4ccc0"
+      ],
+      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
+      "parent_table": "block",
+      "query": {
+        "aggregate": [
+          {
+            "aggregation_type": "count",
+            "id": "count",
+            "property": "title",
+            "type": "title",
+            "view_type": "table"
+          }
+        ]
+      },
+      "type": "table",
+      "version": 3
     }
   ]
 }
