@@ -43,13 +43,15 @@
           "822848c6-d4f3-4496-a2fb-d0c839e2ed41",
           "e506454c-ad92-47dd-8dc6-41422baa4242",
           "acd21668-c6f7-4d6d-a654-d1c660c0612f",
-          "17412f34-a722-4c95-9fb4-443928dd5f4a"
+          "17412f34-a722-4c95-9fb4-443928dd5f4a",
+          "f1349e63-fc8a-4123-ad33-d596f95c6303",
+          "589330b6-be9d-48dd-84be-14db1e8989bd"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1516490681903,
         "id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1516490695734,
+        "last_edited_time": 1532159030501,
         "parent_id": "5a832dad-dc7e-45c9-9025-807c013cfa8b",
         "parent_table": "block",
         "properties": {
@@ -60,7 +62,7 @@
           ]
         },
         "type": "toggle",
-        "version": 47,
+        "version": 55,
         "content_resolved": [
           {
             "alive": true,
@@ -279,6 +281,116 @@
             "inline_content": [
               {
                 "Text": "read file line by line with string.Split()"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "50e4f1ef-8543-4573-8d9f-0301bd11ea8f"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532153489783,
+            "id": "f1349e63-fc8a-4123-ad33-d596f95c6303",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532153497667,
+            "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "copy file"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 45,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532153497662,
+                "id": "50e4f1ef-8543-4573-8d9f-0301bd11ea8f",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532153502233,
+                "parent_id": "f1349e63-fc8a-4123-ad33-d596f95c6303",
+                "parent_table": "block",
+                "properties": {
+                  "language": [
+                    [
+                      "Go"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "func mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc copyFile(dst string, src string) error {\n\terr := mkdirForFile(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfin, err := os.Open(src)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer fin.Close()\n\tfout, err := os.Create(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\t_, err = io.Copy(fout, fin)\n\terr2 := fout.Close()\n\tif err != nil || err2 != nil {\n\t\tos.Remove(dst)\n\t}\n\n\treturn err\n}"
+                    ]
+                  ]
+                },
+                "type": "code",
+                "version": 11,
+                "code": "func mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc copyFile(dst string, src string) error {\n\terr := mkdirForFile(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfin, err := os.Open(src)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer fin.Close()\n\tfout, err := os.Create(dst)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\t_, err = io.Copy(fout, fin)\n\terr2 := fout.Close()\n\tif err != nil || err2 != nil {\n\t\tos.Remove(dst)\n\t}\n\n\treturn err\n}",
+                "code_language": "Go"
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "copy file"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "5d42acd0-57ab-4933-8b4d-ecb1c0b14a31"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532159027087,
+            "id": "589330b6-be9d-48dd-84be-14db1e8989bd",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532159032524,
+            "parent_id": "fcb0f40c-8780-410d-ba69-1cb3ad3280a3",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "combine.go"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 31,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532159032518,
+                "id": "5d42acd0-57ab-4933-8b4d-ecb1c0b14a31",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532159044038,
+                "parent_id": "589330b6-be9d-48dd-84be-14db1e8989bd",
+                "parent_table": "block",
+                "properties": {
+                  "language": [
+                    [
+                      "Go"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "package main\n\nimport (\n\t\"bufio\"\n\t\"io/ioutil\"\n\t\"os\"\n\t\"path/filepath\"\n\t\"strings\"\n)\n\nvar (\n\tdestDir = \"out\"\n)\n\nfunc panicIfErr(err error) {\n\tif err != nil {\n\t\tpanic(err.Error())\n\t}\n}\n\nfunc getDirs() []string {\n\tfileInfos, err := ioutil.ReadDir(\".\")\n\tpanicIfErr(err)\n\tres := []string{}\n\tfor _, fi := range fileInfos {\n\t\tif !fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tres = append(res, fi.Name())\n\t}\n\treturn res\n}\n\nfunc mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc readLines(filePath string) ([]string, error) {\n\tfile, err := os.OpenFile(filePath, os.O_RDONLY, 0666)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\tdefer file.Close()\n\tscanner := bufio.NewScanner(file)\n\tres := make([]string, 0)\n\tfor scanner.Scan() {\n\t\tline := scanner.Bytes()\n\t\tres = append(res, string(line))\n\t}\n\tif err = scanner.Err(); err != nil {\n\t\treturn nil, err\n\t}\n\treturn res, nil\n}\n\nfunc tweakAndCopyFile(dst string, src string) {\n\terr := mkdirForFile(dst)\n\tpanicIfErr(err)\n\n\tlines, err := readLines(src)\n\tpanicIfErr(err)\n\tif lines[0] == \"---\" {\n\t\tlines = lines[1:]\n\t}\n\n\td := strings.Join(lines, \"\\n\")\n\terr = ioutil.WriteFile(dst, []byte(d), 0644)\n\tpanicIfErr(err)\n}\n\nfunc copyMdFilesFromDir(dir string) {\n\tfileInfos, err := ioutil.ReadDir(dir)\n\tpanicIfErr(err)\n\tparts := strings.Split(dir, \"-\")\n\tsuffix := parts[0]\n\tfor _, fi := range fileInfos {\n\t\tif fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tname := fi.Name()\n\t\tif !strings.HasSuffix(name, \".md\") {\n\t\t\tcontinue\n\t\t}\n\t\tsrc := filepath.Join(dir, name)\n\t\tdstName := suffix + \"-\" + name\n\t\tdst := filepath.Join(destDir, dstName)\n\t\ttweakAndCopyFile(dst, src)\n\t}\n}\n\nfunc main() {\n\tdirs := getDirs()\n\tfor _, dir := range dirs {\n\t\tcopyMdFilesFromDir(dir)\n\t}\n}"
+                    ]
+                  ]
+                },
+                "type": "code",
+                "version": 11,
+                "code": "package main\n\nimport (\n\t\"bufio\"\n\t\"io/ioutil\"\n\t\"os\"\n\t\"path/filepath\"\n\t\"strings\"\n)\n\nvar (\n\tdestDir = \"out\"\n)\n\nfunc panicIfErr(err error) {\n\tif err != nil {\n\t\tpanic(err.Error())\n\t}\n}\n\nfunc getDirs() []string {\n\tfileInfos, err := ioutil.ReadDir(\".\")\n\tpanicIfErr(err)\n\tres := []string{}\n\tfor _, fi := range fileInfos {\n\t\tif !fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tres = append(res, fi.Name())\n\t}\n\treturn res\n}\n\nfunc mkdirForFile(filePath string) error {\n\tdir := filepath.Dir(filePath)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc readLines(filePath string) ([]string, error) {\n\tfile, err := os.OpenFile(filePath, os.O_RDONLY, 0666)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\tdefer file.Close()\n\tscanner := bufio.NewScanner(file)\n\tres := make([]string, 0)\n\tfor scanner.Scan() {\n\t\tline := scanner.Bytes()\n\t\tres = append(res, string(line))\n\t}\n\tif err = scanner.Err(); err != nil {\n\t\treturn nil, err\n\t}\n\treturn res, nil\n}\n\nfunc tweakAndCopyFile(dst string, src string) {\n\terr := mkdirForFile(dst)\n\tpanicIfErr(err)\n\n\tlines, err := readLines(src)\n\tpanicIfErr(err)\n\tif lines[0] == \"---\" {\n\t\tlines = lines[1:]\n\t}\n\n\td := strings.Join(lines, \"\\n\")\n\terr = ioutil.WriteFile(dst, []byte(d), 0644)\n\tpanicIfErr(err)\n}\n\nfunc copyMdFilesFromDir(dir string) {\n\tfileInfos, err := ioutil.ReadDir(dir)\n\tpanicIfErr(err)\n\tparts := strings.Split(dir, \"-\")\n\tsuffix := parts[0]\n\tfor _, fi := range fileInfos {\n\t\tif fi.IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tname := fi.Name()\n\t\tif !strings.HasSuffix(name, \".md\") {\n\t\t\tcontinue\n\t\t}\n\t\tsrc := filepath.Join(dir, name)\n\t\tdstName := suffix + \"-\" + name\n\t\tdst := filepath.Join(destDir, dstName)\n\t\ttweakAndCopyFile(dst, src)\n\t}\n}\n\nfunc main() {\n\tdirs := getDirs()\n\tfor _, dir := range dirs {\n\t\tcopyMdFilesFromDir(dir)\n\t}\n}",
+                "code_language": "Go"
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "combine.go"
               }
             ]
           }
