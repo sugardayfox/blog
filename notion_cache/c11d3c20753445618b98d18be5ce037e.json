@@ -331,52 +331,6 @@
           }
         ]
       },
-      "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
-      "name": [
-        [
-          "zopfli vs. brotli vs. gzip"
-        ]
-      ],
-      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
-      "parent_table": "block",
-      "schema": {
-        "\u003erZZ": {
-          "name": "saved",
-          "options": null,
-          "type": "number"
-        },
-        "E?-i": {
-          "name": "saved %",
-          "options": null,
-          "type": "number"
-        },
-        "ca[`": {
-          "name": "size",
-          "options": null,
-          "type": "number"
-        },
-        "title": {
-          "name": "Name",
-          "options": null,
-          "type": "title"
-        }
-      },
-      "version": 6
-    },
-    {
-      "alive": true,
-      "format": {
-        "collection_page_properties": [
-          {
-            "property": "ca[`",
-            "visible": true
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true
-          }
-        ]
-      },
       "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
       "name": [
         [
@@ -408,6 +362,52 @@
         }
       },
       "version": 56
+    },
+    {
+      "alive": true,
+      "format": {
+        "collection_page_properties": [
+          {
+            "property": "ca[`",
+            "visible": true
+          },
+          {
+            "property": "\u003erZZ",
+            "visible": true
+          }
+        ]
+      },
+      "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+      "name": [
+        [
+          "zopfli vs. brotli vs. gzip"
+        ]
+      ],
+      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
+      "parent_table": "block",
+      "schema": {
+        "\u003erZZ": {
+          "name": "saved",
+          "options": null,
+          "type": "number"
+        },
+        "E?-i": {
+          "name": "saved %",
+          "options": null,
+          "type": "number"
+        },
+        "ca[`": {
+          "name": "size",
+          "options": null,
+          "type": "number"
+        },
+        "title": {
+          "name": "Name",
+          "options": null,
+          "type": "title"
+        }
+      },
+      "version": 6
     }
   ],
   "CollectionViews": [

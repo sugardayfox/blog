@@ -7,7 +7,6 @@
       "164136f5-89a0-4533-8350-44a048a5866d",
       "69db6183-dbad-4b1c-a8e9-d76e6bba168c",
       "dda3db1e-7086-422b-bea3-036ee3139cbc",
-      "c55d2928-1054-4a96-8231-052f13d06ca7",
       "0d59d1c8-2546-4db8-b2be-75f8cefd95e7",
       "dda9e4a5-22d8-48e7-a6de-a981c9943b37",
       "2c249c6c-3a8d-45a7-9275-e1cfba7d2ed5",
@@ -309,13 +308,18 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531204097318,
+    "file_ids": [
+      "7a621cf9-85f5-4787-88bb-ed9b19a093c4"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a621cf9-85f5-4787-88bb-ed9b19a093c4/header-03.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "431295a5-4f7e-4208-869f-4763862c1f05",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531816538970,
+    "last_edited_time": 1532406301159,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -326,7 +330,7 @@
       ]
     },
     "type": "page",
-    "version": 203,
+    "version": 212,
     "content_resolved": [
       {
         "alive": true,
@@ -358,21 +362,21 @@
         "created_time": 1531204097318,
         "id": "164136f5-89a0-4533-8350-44a048a5866d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204097318,
+        "last_edited_time": 1532406321243,
         "parent_id": "431295a5-4f7e-4208-869f-4763862c1f05",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Tags: published, business"
+              "Tags: business"
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 7,
         "inline_content": [
           {
-            "Text": "Tags: published, business"
+            "Text": "Tags: business"
           }
         ]
       },
@@ -406,7 +410,7 @@
         "created_time": 1531204097318,
         "id": "dda3db1e-7086-422b-bea3-036ee3139cbc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204097318,
+        "last_edited_time": 1532406301159,
         "parent_id": "431295a5-4f7e-4208-869f-4763862c1f05",
         "parent_table": "block",
         "properties": {
@@ -417,34 +421,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "UpdatedAt: 2017-07-03T02:10:34Z"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531204097318,
-        "id": "c55d2928-1054-4a96-8231-052f13d06ca7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531724068065,
-        "parent_id": "431295a5-4f7e-4208-869f-4763862c1f05",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-03.jpg"
-            ]
-          ]
-        },
-        "type": "text",
         "version": 3,
         "inline_content": [
           {
-            "Text": "HeaderImage: gfx/headers/header-03.jpg"
+            "Text": "UpdatedAt: 2017-07-03T02:10:34Z"
           }
         ]
       },
@@ -8759,12 +8739,13 @@
     ],
     "title": "Solo founders with profitable businesses, collected stories",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a621cf9-85f5-4787-88bb-ed9b19a093c4/header-03.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7a621cf9-85f5-4787-88bb-ed9b19a093c4%2Fheader-03.jpg"
     }
   },
   "Users": [

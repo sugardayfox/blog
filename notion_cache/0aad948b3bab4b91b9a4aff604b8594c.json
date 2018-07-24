@@ -6,7 +6,6 @@
       "8aa3c1d0-6cbd-48e9-8bd4-20240323b81d",
       "1899e494-bbd1-40cd-8f9b-993a112fc386",
       "3a4b7d68-ee85-44d6-990f-16c48f48ecd9",
-      "f4f4557c-1ee6-4735-a4b1-01974a3307c6",
       "7536e085-61fd-44de-acc3-30310de4ec80",
       "21482447-a8dc-439a-bdcc-e590973168fc",
       "d73c910e-1da8-4bcf-a2b8-77eaa12e2b3f",
@@ -51,13 +50,18 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736754016,
+    "file_ids": [
+      "35a48372-ddfa-4e42-9be2-a0981298dd54"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35a48372-ddfa-4e42-9be2-a0981298dd54/header-05.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531736754016,
+    "last_edited_time": 1532406377715,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "permissions": [
@@ -75,7 +79,7 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 15,
     "content_resolved": [
       {
         "alive": true,
@@ -107,21 +111,21 @@
         "created_time": 1531736754017,
         "id": "1899e494-bbd1-40cd-8f9b-993a112fc386",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736754017,
+        "last_edited_time": 1532406384024,
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Date: 2016-10-23T00:43:56-07:00"
+              "Date: 2016-10-23"
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
-            "Text": "Date: 2016-10-23T00:43:56-07:00"
+            "Text": "Date: 2016-10-23"
           }
         ]
       },
@@ -131,7 +135,7 @@
         "created_time": 1531736754017,
         "id": "3a4b7d68-ee85-44d6-990f-16c48f48ecd9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736754017,
+        "last_edited_time": 1532406377715,
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "properties": {
@@ -142,34 +146,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
             "Text": "Tags: programming, javascript"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531736754017,
-        "id": "f4f4557c-1ee6-4735-a4b1-01974a3307c6",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736754017,
-        "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-05.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-05.jpg"
           }
         ]
       },
@@ -1503,12 +1483,13 @@
     ],
     "title": "Optimizing JavaScript by using arrays instead of objects",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35a48372-ddfa-4e42-9be2-a0981298dd54/header-05.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F35a48372-ddfa-4e42-9be2-a0981298dd54%2Fheader-05.jpg"
     }
   },
   "Users": [
