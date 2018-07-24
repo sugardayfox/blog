@@ -66,8 +66,6 @@
       "e34f314f-7bf2-4575-8121-9d258748b0fd",
       "63608bf6-fedc-45de-bc83-2ab507a16b14",
       "382228e4-92e8-45bc-9920-1fc30d0a56cc",
-      "137412f0-d2e0-4497-94de-a9a829a7493d",
-      "845e710a-733e-4a91-a557-2759f03f6c74",
       "a3d0343e-2dc8-4ee1-a8c3-dd761d2312d3"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -78,7 +76,7 @@
     },
     "id": "e79db1cb-2fcf-4329-ac37-591bfbb00782",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532322379751,
+    "last_edited_time": 1532414746044,
     "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
     "parent_table": "block",
     "permissions": [
@@ -95,7 +93,7 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 10,
     "content_resolved": [
       {
         "alive": true,
@@ -1970,7 +1968,7 @@
         "created_time": 1494269237461,
         "id": "382228e4-92e8-45bc-9920-1fc30d0a56cc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1494269237461,
+        "last_edited_time": 1532414742774,
         "parent_id": "e79db1cb-2fcf-4329-ac37-591bfbb00782",
         "parent_table": "block",
         "properties": {
@@ -1987,68 +1985,13 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 0,
+        "version": 2,
         "inline_content": [
           {
             "Text": "https://static1.squarespace.com/static/585c3439be65942f022bbf9b/t/590a650de4fcb5f1d7b6d96b/1493853480288/Rethinking+Transportation_May_FINAL.pdf",
             "Link": "https://static1.squarespace.com/static/585c3439be65942f022bbf9b/t/590a650de4fcb5f1d7b6d96b/1493853480288/Rethinking+Transportation_May_FINAL.pdf"
           }
         ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1493232724327,
-        "id": "137412f0-d2e0-4497-94de-a9a829a7493d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1493232724327,
-        "parent_id": "e79db1cb-2fcf-4329-ac37-591bfbb00782",
-        "parent_table": "block",
-        "type": "divider",
-        "version": 0
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1493193868543,
-        "format": {
-          "block_color": "gray"
-        },
-        "id": "845e710a-733e-4a91-a557-2759f03f6c74",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1493193868543,
-        "parent_id": "e79db1cb-2fcf-4329-ac37-591bfbb00782",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Written by Krzysztof Kowalczyk "
-            ],
-            [
-              "https://blog.kowalczyk.info/",
-              [
-                [
-                  "a",
-                  "https://blog.kowalczyk.info/"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "Written by Krzysztof Kowalczyk "
-          },
-          {
-            "Text": "https://blog.kowalczyk.info/",
-            "Link": "https://blog.kowalczyk.info/"
-          }
-        ],
-        "format_text": {
-          "block_color": "gray"
-        }
       },
       {
         "alive": true,
