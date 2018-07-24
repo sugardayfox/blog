@@ -7,7 +7,6 @@
       "8f242f81-9893-4700-b117-2cf88da5a547",
       "e2d7bda5-24cf-4ea2-96c0-04e3989ea4bc",
       "c28cbe50-f36a-4225-939d-37439fea94f1",
-      "cfe106a3-5170-48ba-aef0-7e0fbe4a2b7b",
       "4ef4815b-fc8f-49e6-9696-9bf7296a4f97",
       "fd65f03b-dac0-4424-851d-344cd27ac1d7",
       "3059e4cc-d3b9-4f6e-b7d3-b021a917828e",
@@ -55,14 +54,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888786468,
+    "file_ids": [
+      "e83e7781-2988-4003-8343-21f307f7d124"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83e7781-2988-4003-8343-21f307f7d124/header-01.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531889639735,
+    "last_edited_time": 1532405743232,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -73,7 +77,7 @@
       ]
     },
     "type": "page",
-    "version": 190,
+    "version": 199,
     "content_resolved": [
       {
         "alive": true,
@@ -153,7 +157,7 @@
         "created_time": 1531889133738,
         "id": "c28cbe50-f36a-4225-939d-37439fea94f1",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889133751,
+        "last_edited_time": 1532405743232,
         "parent_id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
         "parent_table": "block",
         "properties": {
@@ -164,34 +168,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "UpdatedAt: 2017-07-09T01:56:50Z"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531889133738,
-        "id": "cfe106a3-5170-48ba-aef0-7e0fbe4a2b7b",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889133751,
-        "parent_id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-01.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-01.jpg"
           }
         ]
       },
@@ -1538,12 +1518,13 @@
     ],
     "title": "Generating good unique ids in Go",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83e7781-2988-4003-8343-21f307f7d124/header-01.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe83e7781-2988-4003-8343-21f307f7d124%2Fheader-01.jpg"
     }
   },
   "Users": [

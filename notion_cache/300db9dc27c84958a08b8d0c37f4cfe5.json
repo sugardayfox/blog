@@ -604,13 +604,18 @@
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
+        "file_ids": [
+          "bea09464-9216-4198-ac8b-b4909027c558"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bea09464-9216-4198-ac8b-b4909027c558/header-00.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736728118,
+        "last_edited_time": 1532405574753,
         "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
         "parent_table": "block",
         "properties": {
@@ -621,15 +626,16 @@
           ]
         },
         "type": "page",
-        "version": 15,
+        "version": 24,
         "title": "Blueprint for deploying web apps on CoreOS",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bea09464-9216-4198-ac8b-b4909027c558/header-00.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbea09464-9216-4198-ac8b-b4909027c558%2Fheader-00.jpg"
         }
       },
       {

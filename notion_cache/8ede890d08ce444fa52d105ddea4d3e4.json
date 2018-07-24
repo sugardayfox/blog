@@ -7,7 +7,6 @@
       "6138d828-027b-4efe-a9b9-cf57870a8267",
       "ed30a6db-29bd-4f2d-9f9d-e51faeef56bd",
       "5cc51ead-f091-4be2-b6d8-ab2f5d4f80b5",
-      "05559cf3-adb0-4cc0-a32a-011c809c54ed",
       "4d5c13a3-2fe5-4385-8715-25723d66c459",
       "890a7bd3-fd7d-4b65-93ee-fe4e03695bf5",
       "b671023b-f971-44dc-ab74-5320a4a353cd",
@@ -66,14 +65,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888787047,
+    "file_ids": [
+      "bd740d50-d936-4bcf-92b9-f7bf0211cc57"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd740d50-d936-4bcf-92b9-f7bf0211cc57/header-02.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531889048868,
+    "last_edited_time": 1532405889441,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -84,7 +88,7 @@
       ]
     },
     "type": "page",
-    "version": 30,
+    "version": 39,
     "content_resolved": [
       {
         "alive": true,
@@ -164,7 +168,7 @@
         "created_time": 1531888986213,
         "id": "5cc51ead-f091-4be2-b6d8-ab2f5d4f80b5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888986220,
+        "last_edited_time": 1532405889441,
         "parent_id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
         "parent_table": "block",
         "properties": {
@@ -175,34 +179,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "UpdatedAt: 2017-07-09T01:52:50Z"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531888986213,
-        "id": "05559cf3-adb0-4cc0-a32a-011c809c54ed",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888986220,
-        "parent_id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-02.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-02.jpg"
           }
         ]
       },
@@ -2256,12 +2236,13 @@
     ],
     "title": "Advanced command execution in Go with os/exec",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd740d50-d936-4bcf-92b9-f7bf0211cc57/header-02.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbd740d50-d936-4bcf-92b9-f7bf0211cc57%2Fheader-02.jpg"
     }
   },
   "Users": [

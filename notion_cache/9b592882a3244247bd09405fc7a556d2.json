@@ -6,7 +6,6 @@
       "435daa67-a784-42d5-9b92-888c5df774b6",
       "bac1c65b-6614-434e-a046-532e185b7db8",
       "3c47268f-944d-4c19-a58a-0ef5a90515c0",
-      "ce917edb-c02e-4e7e-a059-6e5524e52c8b",
       "177d4d7d-4baa-40b5-9974-caec466bafb3",
       "17daafdd-d651-46fc-b56b-ff64857fe193",
       "53e6de13-9d6d-46c2-8342-28c7dda2ca6b",
@@ -63,13 +62,18 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531204099818,
+    "file_ids": [
+      "bea09464-9216-4198-ac8b-b4909027c558"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bea09464-9216-4198-ac8b-b4909027c558/header-00.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "9b592882-a324-4247-bd09-405fc7a556d2",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531736728118,
+    "last_edited_time": 1532405574753,
     "parent_id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "parent_table": "block",
     "properties": {
@@ -80,7 +84,7 @@
       ]
     },
     "type": "page",
-    "version": 15,
+    "version": 24,
     "content_resolved": [
       {
         "alive": true,
@@ -136,7 +140,7 @@
         "created_time": 1531204099818,
         "id": "3c47268f-944d-4c19-a58a-0ef5a90515c0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099818,
+        "last_edited_time": 1532405574753,
         "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "parent_table": "block",
         "properties": {
@@ -147,34 +151,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
             "Text": "Tags: devops, go"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531204099818,
-        "id": "ce917edb-c02e-4e7e-a059-6e5524e52c8b",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531204099818,
-        "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-00.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-00.jpg"
           }
         ]
       },
@@ -2108,12 +2088,13 @@
     ],
     "title": "Blueprint for deploying web apps on CoreOS",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bea09464-9216-4198-ac8b-b4909027c558/header-00.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbea09464-9216-4198-ac8b-b4909027c558%2Fheader-00.jpg"
     }
   },
   "Users": [

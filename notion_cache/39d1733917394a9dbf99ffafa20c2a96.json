@@ -8,7 +8,6 @@
       "d0e62926-14b7-4fa3-b59b-5ba598b8a54b",
       "25c1db05-c969-4578-ac53-ce75d36b0a17",
       "f196a6e8-1c1e-4747-8afd-212ed940dd03",
-      "f1eaee48-9942-4728-bffb-64398026432f",
       "7321acea-a131-4a4e-a3a6-f9ef3b2714aa",
       "98e566b8-ce89-4094-85c2-54ae1741ecc6",
       "9f00cff5-fb43-4541-83df-91d45f1ae4f5",
@@ -37,14 +36,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888786897,
+    "file_ids": [
+      "f4649414-a80a-475f-92bf-dfda91b0689a"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531889738467,
+    "last_edited_time": 1532405771089,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -55,7 +59,7 @@
       ]
     },
     "type": "page",
-    "version": 41,
+    "version": 50,
     "content_resolved": [
       {
         "alive": true,
@@ -159,7 +163,7 @@
         "created_time": 1531889723048,
         "id": "f196a6e8-1c1e-4747-8afd-212ed940dd03",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889723055,
+        "last_edited_time": 1532405771089,
         "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
         "parent_table": "block",
         "properties": {
@@ -170,34 +174,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "PublishedOn: 2017-07-13"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531889723048,
-        "id": "f1eaee48-9942-4728-bffb-64398026432f",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889723055,
-        "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-10.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-10.jpg"
           }
         ]
       },
@@ -1084,12 +1064,13 @@
     ],
     "title": "Embedding build number in Go executable",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff4649414-a80a-475f-92bf-dfda91b0689a%2Fheader-10.jpg"
     }
   },
   "Users": [

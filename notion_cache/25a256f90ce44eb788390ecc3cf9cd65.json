@@ -3,10 +3,10 @@
   "Page": {
     "alive": true,
     "content": [
-      "4d625835-41be-43c9-b94b-a87da9feeee7",
       "ea07db1b-9bff-415a-b180-b0525f3898f6",
       "ac23f6cd-d3b5-43b3-b89d-9f68e00435b8",
-      "e79db1cb-2fcf-4329-ac37-591bfbb00782"
+      "e79db1cb-2fcf-4329-ac37-591bfbb00782",
+      "4d625835-41be-43c9-b94b-a87da9feeee7"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530921610129,
@@ -16,7 +16,7 @@
     },
     "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532323909379,
+    "last_edited_time": 1532324804620,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -27,40 +27,8 @@
       ]
     },
     "type": "page",
-    "version": 147,
+    "version": 150,
     "content_resolved": [
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1528608991758,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "4d625835-41be-43c9-b94b-a87da9feeee7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531194453295,
-        "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Why Tesla will win"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 121,
-        "title": "Why Tesla will win",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -160,6 +128,38 @@
         "type": "page",
         "version": 6,
         "title": "How profitable can Waymo be?",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1528608991758,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "4d625835-41be-43c9-b94b-a87da9feeee7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532324804620,
+        "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Why Tesla will win"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 124,
+        "title": "Why Tesla will win",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,

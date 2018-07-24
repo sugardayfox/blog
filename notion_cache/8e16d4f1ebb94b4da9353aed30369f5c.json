@@ -8,7 +8,6 @@
       "25db16de-392d-49fe-8b39-f47a9210d47e",
       "5fe5f95e-38e4-41cc-85e8-970c4cdf7d2f",
       "78df39eb-2cf5-4917-850a-40617be1138e",
-      "da3ca74e-69fe-4f1b-817d-7dbcfed4f5e8",
       "9344d3c5-5032-4c10-b32b-f222c71ef5ef",
       "b465de66-e2db-4dd8-bfdc-661d00856340",
       "9daa6b59-7f3d-45e1-a97c-9fff3ad3eb14",
@@ -59,14 +58,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888792416,
+    "file_ids": [
+      "0f48d897-88a6-4289-b6cd-6154fbe8312c"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f48d897-88a6-4289-b6cd-6154fbe8312c/header-14.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531889945829,
+    "last_edited_time": 1532405909241,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -77,7 +81,7 @@
       ]
     },
     "type": "page",
-    "version": 55,
+    "version": 64,
     "content_resolved": [
       {
         "alive": true,
@@ -181,7 +185,7 @@
         "created_time": 1531889927431,
         "id": "78df39eb-2cf5-4917-850a-40617be1138e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889927438,
+        "last_edited_time": 1532405909241,
         "parent_id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
         "parent_table": "block",
         "properties": {
@@ -192,34 +196,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "PublishedOn: 2017-07-17"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531889927431,
-        "id": "da3ca74e-69fe-4f1b-817d-7dbcfed4f5e8",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889927438,
-        "parent_id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-14.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-14.jpg"
           }
         ]
       },
@@ -1684,12 +1664,13 @@
     ],
     "title": "Simple serialization format for logging and analytics in Go",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f48d897-88a6-4289-b6cd-6154fbe8312c/header-14.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0f48d897-88a6-4289-b6cd-6154fbe8312c%2Fheader-14.jpg"
     }
   },
   "Users": [

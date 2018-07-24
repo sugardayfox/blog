@@ -51,14 +51,19 @@
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786468,
+        "file_ids": [
+          "e83e7781-2988-4003-8343-21f307f7d124"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83e7781-2988-4003-8343-21f307f7d124/header-01.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889639735,
+        "last_edited_time": 1532405743232,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -69,29 +74,35 @@
           ]
         },
         "type": "page",
-        "version": 190,
+        "version": 199,
         "title": "Generating good unique ids in Go",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83e7781-2988-4003-8343-21f307f7d124/header-01.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe83e7781-2988-4003-8343-21f307f7d124%2Fheader-01.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786897,
+        "file_ids": [
+          "f4649414-a80a-475f-92bf-dfda91b0689a"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889738467,
+        "last_edited_time": 1532405771089,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -102,15 +113,16 @@
           ]
         },
         "type": "page",
-        "version": 41,
+        "version": 50,
         "title": "Embedding build number in Go executable",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4649414-a80a-475f-92bf-dfda91b0689a/header-10.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff4649414-a80a-475f-92bf-dfda91b0689a%2Fheader-10.jpg"
         }
       },
       {
@@ -129,7 +141,7 @@
         "id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532074999174,
+        "last_edited_time": 1532405814773,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -140,7 +152,7 @@
           ]
         },
         "type": "page",
-        "version": 36,
+        "version": 38,
         "title": "Fuzzing Markdown parser written in Go",
         "format_page": {
           "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/629ba763-27bc-462f-9a07-639c0b0bad58/header-21.jpg",
@@ -168,7 +180,7 @@
         "id": "da74af7a-3096-4880-8249-be7a79fc8156",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531971312614,
+        "last_edited_time": 1532405822077,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -179,7 +191,7 @@
           ]
         },
         "type": "page",
-        "version": 59,
+        "version": 61,
         "title": "3 ways to iterate in Go",
         "format_page": {
           "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4bfc136-2fdb-4e47-bc21-51698592fd00/header-09.jpg",
@@ -195,14 +207,19 @@
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787047,
+        "file_ids": [
+          "bd740d50-d936-4bcf-92b9-f7bf0211cc57"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd740d50-d936-4bcf-92b9-f7bf0211cc57/header-02.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889048868,
+        "last_edited_time": 1532405889441,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -213,29 +230,35 @@
           ]
         },
         "type": "page",
-        "version": 30,
+        "version": 39,
         "title": "Advanced command execution in Go with os/exec",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd740d50-d936-4bcf-92b9-f7bf0211cc57/header-02.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbd740d50-d936-4bcf-92b9-f7bf0211cc57%2Fheader-02.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888792416,
+        "file_ids": [
+          "0f48d897-88a6-4289-b6cd-6154fbe8312c"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f48d897-88a6-4289-b6cd-6154fbe8312c/header-14.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889945829,
+        "last_edited_time": 1532405909241,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -246,29 +269,35 @@
           ]
         },
         "type": "page",
-        "version": 55,
+        "version": 64,
         "title": "Simple serialization format for logging and analytics in Go",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f48d897-88a6-4289-b6cd-6154fbe8312c/header-14.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0f48d897-88a6-4289-b6cd-6154fbe8312c%2Fheader-14.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888792694,
+        "file_ids": [
+          "3ac06551-56b5-4876-896a-1a0af628d4ed"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ac06551-56b5-4876-896a-1a0af628d4ed/header-17.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "15b069ab-c983-4dce-b2a4-32d05c46e2e2",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889993740,
+        "last_edited_time": 1532405925679,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -279,29 +308,35 @@
           ]
         },
         "type": "page",
-        "version": 35,
+        "version": 44,
         "title": "Rotate log files daily in Go",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ac06551-56b5-4876-896a-1a0af628d4ed/header-17.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3ac06551-56b5-4876-896a-1a0af628d4ed%2Fheader-17.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888792750,
+        "file_ids": [
+          "63013876-3b00-45d3-b813-3f94f25ca919"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63013876-3b00-45d3-b813-3f94f25ca919/header-04.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "e1f2db06-a96a-413a-a10e-e0723f6802ab",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890087213,
+        "last_edited_time": 1532405941614,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -312,29 +347,35 @@
           ]
         },
         "type": "page",
-        "version": 37,
+        "version": 46,
         "title": "HTTPS for free in Go, with little help of Let's Encrypt",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63013876-3b00-45d3-b813-3f94f25ca919/header-04.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F63013876-3b00-45d3-b813-3f94f25ca919%2Fheader-04.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888792668,
+        "file_ids": [
+          "93736f85-fcb4-4042-8f62-898557db7db2"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93736f85-fcb4-4042-8f62-898557db7db2/header-11.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "1c001c20-740f-492d-9ca4-79ae9334a67f",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890151439,
+        "last_edited_time": 1532405956268,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -345,29 +386,35 @@
           ]
         },
         "type": "page",
-        "version": 39,
+        "version": 48,
         "title": "Using MySQL in Docker for local testing In Go",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93736f85-fcb4-4042-8f62-898557db7db2/header-11.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F93736f85-fcb4-4042-8f62-898557db7db2%2Fheader-11.jpg"
         }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888792511,
+        "file_ids": [
+          "32f18692-56e5-4c85-a2dd-ccabb5c3d537"
+        ],
         "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32f18692-56e5-4c85-a2dd-ccabb5c3d537/header-18.jpg",
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.5
         },
         "id": "4a5192a1-8aeb-40da-a8f5-6b1236435340",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890263547,
+        "last_edited_time": 1532405971754,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -378,15 +425,16 @@
           ]
         },
         "type": "page",
-        "version": 55,
+        "version": 64,
         "title": "Experience porting 4.5k loc of C to Go (Facebook's CSS flexbox implementation Yoga)",
         "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32f18692-56e5-4c85-a2dd-ccabb5c3d537/header-18.jpg",
+          "page_cover_position": 0.5,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F32f18692-56e5-4c85-a2dd-ccabb5c3d537%2Fheader-18.jpg"
         }
       },
       {

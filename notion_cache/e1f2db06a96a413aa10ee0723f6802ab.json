@@ -8,7 +8,6 @@
       "62063cd2-424c-4644-9f3c-aecdbe9ba42f",
       "d3e8e8a4-f3e5-4a73-bd51-4c3edf36e1c2",
       "bc4e032b-47d6-4859-9b3a-57480b8b46f2",
-      "5ce0e6ec-848b-4ebe-9cc8-55370e544bfe",
       "da059eba-b1eb-46a8-b197-13f88d916e5b",
       "46992a1c-5c14-4811-8b02-34e43e92dc58",
       "0ed8412e-89be-453c-8137-558f0a702149",
@@ -80,14 +79,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888792750,
+    "file_ids": [
+      "63013876-3b00-45d3-b813-3f94f25ca919"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63013876-3b00-45d3-b813-3f94f25ca919/header-04.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "e1f2db06-a96a-413a-a10e-e0723f6802ab",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531890087213,
+    "last_edited_time": 1532405941614,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -98,7 +102,7 @@
       ]
     },
     "type": "page",
-    "version": 37,
+    "version": 46,
     "content_resolved": [
       {
         "alive": true,
@@ -202,7 +206,7 @@
         "created_time": 1531890071893,
         "id": "bc4e032b-47d6-4859-9b3a-57480b8b46f2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890071901,
+        "last_edited_time": 1532405941614,
         "parent_id": "e1f2db06-a96a-413a-a10e-e0723f6802ab",
         "parent_table": "block",
         "properties": {
@@ -213,34 +217,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "PublishedOn: 2017-07-02"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531890071893,
-        "id": "5ce0e6ec-848b-4ebe-9cc8-55370e544bfe",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890071901,
-        "parent_id": "e1f2db06-a96a-413a-a10e-e0723f6802ab",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-04.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-04.jpg"
           }
         ]
       },
@@ -2233,12 +2213,13 @@
     ],
     "title": "HTTPS for free in Go, with little help of Let's Encrypt",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63013876-3b00-45d3-b813-3f94f25ca919/header-04.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F63013876-3b00-45d3-b813-3f94f25ca919%2Fheader-04.jpg"
     }
   },
   "Users": [

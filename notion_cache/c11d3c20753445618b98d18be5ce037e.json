@@ -331,52 +331,6 @@
           }
         ]
       },
-      "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
-      "name": [
-        [
-          "uncompressed vs. zopfli vs. brotli vs. gzip"
-        ]
-      ],
-      "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
-      "parent_table": "block",
-      "schema": {
-        "\u003erZZ": {
-          "name": "saved",
-          "options": null,
-          "type": "number"
-        },
-        "E?-i": {
-          "name": "saved %",
-          "options": null,
-          "type": "number"
-        },
-        "ca[`": {
-          "name": "size",
-          "options": null,
-          "type": "number"
-        },
-        "title": {
-          "name": "Name",
-          "options": null,
-          "type": "title"
-        }
-      },
-      "version": 56
-    },
-    {
-      "alive": true,
-      "format": {
-        "collection_page_properties": [
-          {
-            "property": "ca[`",
-            "visible": true
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true
-          }
-        ]
-      },
       "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
       "name": [
         [
@@ -408,6 +362,52 @@
         }
       },
       "version": 6
+    },
+    {
+      "alive": true,
+      "format": {
+        "collection_page_properties": [
+          {
+            "property": "ca[`",
+            "visible": true
+          },
+          {
+            "property": "\u003erZZ",
+            "visible": true
+          }
+        ]
+      },
+      "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+      "name": [
+        [
+          "uncompressed vs. zopfli vs. brotli vs. gzip"
+        ]
+      ],
+      "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
+      "parent_table": "block",
+      "schema": {
+        "\u003erZZ": {
+          "name": "saved",
+          "options": null,
+          "type": "number"
+        },
+        "E?-i": {
+          "name": "saved %",
+          "options": null,
+          "type": "number"
+        },
+        "ca[`": {
+          "name": "size",
+          "options": null,
+          "type": "number"
+        },
+        "title": {
+          "name": "Name",
+          "options": null,
+          "type": "title"
+        }
+      },
+      "version": 56
     }
   ],
   "CollectionViews": [

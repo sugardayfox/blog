@@ -6,7 +6,6 @@
       "b55ae2ad-f565-46a7-8960-cefb115153c4",
       "6ac5b79a-ff20-41c0-8a3c-627e64b1bb70",
       "b49d3e5e-0f84-4e11-b0f6-9efc9922a759",
-      "d444e322-8143-4203-8c86-f67d45224803",
       "70562d9f-50ee-4000-86a8-ee916644b0ce",
       "d955d757-1527-4422-97ad-89838c11c619",
       "04b41038-a160-45a5-a882-dc20f4d64b9a",
@@ -62,7 +61,7 @@
     "id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532074999174,
+    "last_edited_time": 1532405814773,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -73,7 +72,7 @@
       ]
     },
     "type": "page",
-    "version": 36,
+    "version": 38,
     "content_resolved": [
       {
         "alive": true,
@@ -129,7 +128,7 @@
         "created_time": 1531889799188,
         "id": "b49d3e5e-0f84-4e11-b0f6-9efc9922a759",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889811147,
+        "last_edited_time": 1532405814773,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
@@ -140,34 +139,10 @@
           ]
         },
         "type": "text",
-        "version": 4,
+        "version": 6,
         "inline_content": [
           {
             "Text": "Tags: go, programming"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531889799188,
-        "id": "d444e322-8143-4203-8c86-f67d45224803",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889799196,
-        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-21.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-21.jpg"
           }
         ]
       },

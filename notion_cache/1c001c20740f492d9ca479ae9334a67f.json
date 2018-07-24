@@ -8,7 +8,6 @@
       "05dd7ed3-9029-40d1-be2e-1284a23fe71c",
       "f8a0f245-4b38-4446-934a-c454b9d30786",
       "3b335976-7c14-41c2-b4c8-3c7c29ec635d",
-      "0753e3eb-1b67-4116-a8b1-f5d314a5c651",
       "ed582fac-e0ca-4f9d-946c-d8f151a9248b",
       "60ae729e-665b-4be3-9a28-3db1766d5c79",
       "ad37e417-536f-4782-80c2-55588f55d2dc",
@@ -44,14 +43,19 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888792668,
+    "file_ids": [
+      "93736f85-fcb4-4042-8f62-898557db7db2"
+    ],
     "format": {
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93736f85-fcb4-4042-8f62-898557db7db2/header-11.jpg",
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.5
     },
     "id": "1c001c20-740f-492d-9ca4-79ae9334a67f",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531890151439,
+    "last_edited_time": 1532405956268,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -62,7 +66,7 @@
       ]
     },
     "type": "page",
-    "version": 39,
+    "version": 48,
     "content_resolved": [
       {
         "alive": true,
@@ -166,7 +170,7 @@
         "created_time": 1531890113355,
         "id": "3b335976-7c14-41c2-b4c8-3c7c29ec635d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890113363,
+        "last_edited_time": 1532405956268,
         "parent_id": "1c001c20-740f-492d-9ca4-79ae9334a67f",
         "parent_table": "block",
         "properties": {
@@ -177,34 +181,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "PublishedOn: 2017-07-23"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531890113355,
-        "id": "0753e3eb-1b67-4116-a8b1-f5d314a5c651",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531890113363,
-        "parent_id": "1c001c20-740f-492d-9ca4-79ae9334a67f",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-11.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-11.jpg"
           }
         ]
       },
@@ -1214,12 +1194,13 @@
     ],
     "title": "Using MySQL in Docker for local testing In Go",
     "format_page": {
-      "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93736f85-fcb4-4042-8f62-898557db7db2/header-11.jpg",
+      "page_cover_position": 0.5,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F93736f85-fcb4-4042-8f62-898557db7db2%2Fheader-11.jpg"
     }
   },
   "Users": [

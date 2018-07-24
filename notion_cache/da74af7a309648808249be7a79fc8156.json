@@ -7,7 +7,6 @@
       "f11a8066-ce93-4180-952b-f8b435d21163",
       "506685a6-7509-4097-a9ee-9adfdfc8998f",
       "601f7b7a-777d-499f-b626-5df64e9af795",
-      "ce80d0a1-e442-4c81-9808-bafb95a37160",
       "97648eb6-056b-456c-9e3b-4145b4959605",
       "75a65864-7b93-46e3-b973-28e614034094",
       "6f8c15ad-ab2f-485f-b505-022c55f3c942",
@@ -105,7 +104,7 @@
     "id": "da74af7a-3096-4880-8249-be7a79fc8156",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531971312614,
+    "last_edited_time": 1532405822077,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -116,7 +115,7 @@
       ]
     },
     "type": "page",
-    "version": 59,
+    "version": 61,
     "content_resolved": [
       {
         "alive": true,
@@ -196,7 +195,7 @@
         "created_time": 1531888834073,
         "id": "601f7b7a-777d-499f-b626-5df64e9af795",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888834083,
+        "last_edited_time": 1532405822077,
         "parent_id": "da74af7a-3096-4880-8249-be7a79fc8156",
         "parent_table": "block",
         "properties": {
@@ -207,34 +206,10 @@
           ]
         },
         "type": "text",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "UpdatedAt: 2017-07-10T22:52:13Z"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531888834073,
-        "id": "ce80d0a1-e442-4c81-9808-bafb95a37160",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888834083,
-        "parent_id": "da74af7a-3096-4880-8249-be7a79fc8156",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "HeaderImage: gfx/headers/header-09.jpg"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "HeaderImage: gfx/headers/header-09.jpg"
           }
         ]
       },
