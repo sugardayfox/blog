@@ -18,7 +18,6 @@
       "615419e7-a815-4e5a-855d-d02f394d4094"
     ],
     "copied_from": "73a78c9b-7cc3-4e1f-9c94-9abd46eb023d",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195944693,
     "format": {
@@ -42,7 +41,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "676abad4-9a76-44ba-9a87-c22325d6527f",
@@ -63,12 +61,10 @@
           {
             "Text": "Id: 8003"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "60fdd6a9-3437-43f3-9966-f9dc8463eade",
@@ -89,12 +85,10 @@
           {
             "Text": "Tags: prog lang, programming"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "f0aa7697-4fce-4997-805a-fc9516b113aa",
@@ -115,12 +109,10 @@
           {
             "Text": "Date: 2009-02-21T14:38:25-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531623583292,
         "id": "d409c44d-ffd7-47bd-a694-b3881d61b141",
@@ -141,12 +133,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "a066d9a8-a836-4dfd-8ff9-f60b6654d644",
@@ -155,12 +145,10 @@
         "parent_id": "0d9dec58-66c0-4d02-a14c-571afd6d50e3",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "1c147679-1528-416f-8364-670037787a62",
@@ -194,12 +182,10 @@
           {
             "Text": "- a course teaching compiling python. Has assignments and links to resources (like info about x86 etc.)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "8380d152-bfd5-41dc-a32e-f94c2b96e3b7",
@@ -233,12 +219,10 @@
           {
             "Text": " - small python implementation. register-based vm inspired by lua, own gc"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "4237c2cd-0ad7-4c86-bea3-fcfe2d1ce031",
@@ -272,12 +256,10 @@
           {
             "Text": " - small ruby implementation, boehm gc"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "037273d2-3060-4944-b3ef-59a5bb011758",
@@ -311,12 +293,10 @@
           {
             "Text": " - v8, fast JavaScript implementation, compiling directly to native code from parse trees, own gc, C++, embeddable, New BSD license"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "d73f5cb3-1e4b-4487-8bb7-a72fe73ad188",
@@ -350,12 +330,10 @@
           {
             "Text": " - really small lisp implementation, boehm gc or its own, MIT license"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "538627a7-3170-4dbe-97a6-ed311b5ab330",
@@ -389,12 +367,10 @@
           {
             "Text": " - potion, jit compilation, vm based on lua, used ‘id’ object model, gc is reference counting, MIT license"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "786f9d1f-5ed0-4254-a2eb-c5cb10f9483c",
@@ -428,12 +404,10 @@
           {
             "Text": " - compiles FSM from regexpes, can be used for lexical parsing, used by tinyrb"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944693,
         "id": "615419e7-a815-4e5a-855d-d02f394d4094",
@@ -467,12 +441,10 @@
           {
             "Text": " - lalr(1) parser generator, like yacc, used by tinyrb"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Resources related to implementing programming languages",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

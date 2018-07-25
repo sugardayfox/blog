@@ -8,7 +8,6 @@
       "4377e227-5a23-4903-9360-49464d9598d5",
       "4fb2c06d-401f-4526-a3f5-e80deba1bcbe"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531880253130,
     "format": {
@@ -38,7 +37,6 @@
           "e7ee5b06-5707-4e2f-9e51-c09d86bfd9ea",
           "80a72a20-c28f-4eee-83d7-bf2c8b3badd7"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194223,
         "id": "4fce6a44-3921-46c9-806b-d6c9c055346d",
@@ -59,7 +57,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194223,
             "id": "a9b27088-89b6-4ae0-a169-46e4d1f6d9af",
@@ -81,12 +78,10 @@
               {
                 "Text": "In Sumatra, fixed a regression due careless coding and not running changed code at all."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194223,
             "id": "e7ee5b06-5707-4e2f-9e51-c09d86bfd9ea",
@@ -108,12 +103,10 @@
               {
                 "Text": "For easier tracking of mem leaks, added ./scripts/valgrind_rel.sh scripts that builds the unix version and runs valgrind with mem leak detection. Gave me a pointer for TxtParser leak location. Unfortunately requires redoing by removing TxtParser::children std::vector because in one code path we allocate nodes from pool allocator and in another path with new. It was fine when we used Vec, which used the same allocator for internal allocations, but now std::vector uses new() and in one code path it’s intermixed with allocator."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194223,
             "id": "80a72a20-c28f-4eee-83d7-bf2c8b3badd7",
@@ -135,16 +128,14 @@
               {
                 "Text": "We should get rid of TxtParser::children and instead keep child list as pointers TxtNode, either first child or sibling for n-th child."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-29"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -153,7 +144,6 @@
           "19055ebe-ecc6-4c2f-accf-8f917461171e",
           "ce81c2d5-3ede-4dec-8cc0-cc72b2f98608"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194223,
         "id": "93eaf1a0-ce9f-41df-851c-b526d8b83af8",
@@ -174,7 +164,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194224,
             "id": "94a03e47-d017-4285-954b-947bb782d8f0",
@@ -196,12 +185,10 @@
               {
                 "Text": "Converting Sumatra’s unix build from premake5.unix.lua to a Go program."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194224,
             "id": "19055ebe-ecc6-4c2f-accf-8f917461171e",
@@ -223,12 +210,10 @@
               {
                 "Text": "This is my second attempt at such a tool. Before I was too ambitious and tried to abstract too much from start."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194224,
             "id": "ce81c2d5-3ede-4dec-8cc0-cc72b2f98608",
@@ -250,16 +235,14 @@
               {
                 "Text": "This time I did it in a straightforward, sequential way and it seems to be working."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-28"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -284,7 +267,6 @@
           "f2c3460a-9649-475b-a041-58f886196005",
           "7f7e236e-217c-4775-8c56-2f5b54baeee0"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194225,
         "id": "4377e227-5a23-4903-9360-49464d9598d5",
@@ -305,7 +287,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204626009,
             "id": "104e2321-550a-4b78-951d-0068c2dd7b35",
@@ -326,12 +307,10 @@
               {
                 "Text": "#programming"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887859839,
             "id": "fbcc6b3a-d390-49dc-855e-8d61542db771",
@@ -352,12 +331,10 @@
               {
                 "Text": "Title: Typo-resistant way of using #define in C++. "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204623454,
             "id": "4be1d9ee-af2a-4309-983b-e7bf9382a0b3",
@@ -396,12 +373,10 @@
               {
                 "Text": " function needs different implementation for mac and windows. You would do it like this:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194226,
             "id": "8eccc08e-56e8-4583-b5d8-fdc705031060",
@@ -425,12 +400,10 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(__APPLE__)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194227,
             "id": "956c561e-392e-4c9d-8554-3308d70d49a2",
@@ -488,12 +461,10 @@
               {
                 "Text": " is a bit ugly. Let’s do something more uniform:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194227,
             "id": "3ac0f0f7-9595-4fb1-b090-603f9c0ef8b6",
@@ -517,12 +488,10 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#endif\n\n#if defined(OS_WIN)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(OS_MAC)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194227,
             "id": "64d5a736-97a0-4189-be53-3b7bbf279326",
@@ -544,12 +513,10 @@
               {
                 "Text": "It looks better but has a problem: typos are silent bugs:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194227,
             "id": "757c7de0-1789-4029-a0cf-7c5cd533f143",
@@ -573,12 +540,10 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(OS_MAP)\n...\n#endif",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194227,
             "id": "69c62756-baf3-44b1-945c-cfaacd48878f",
@@ -654,12 +619,10 @@
               {
                 "Text": " is not defined."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "1fcddd35-20a2-4c69-9978-039e8e72ce44",
@@ -681,12 +644,10 @@
               {
                 "Text": "Knowing that, the final version of our code is:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "8c59b378-c3a7-4468-ab2b-fa038690f66a",
@@ -710,12 +671,10 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#else\n#define OS_WIN 0\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#else\n#define OS_MAC 0\n#endif\n\n#if OS_WIN\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if OS_MAC\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "b73a6666-9b25-486d-9fb3-fee887129289",
@@ -773,12 +732,10 @@
               {
                 "Text": ". That discipline can be enforced with a regex over your code base."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "b35ca48a-2a04-4b42-991f-cd00dfadd219",
@@ -800,12 +757,10 @@
               {
                 "Text": "On Windows, msvc has a similar warning 4668. Unfortunately, system headers produce a lot of those warnings."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "3e8d6eb7-4303-4d8f-95f7-fbc830c12a71",
@@ -827,12 +782,10 @@
               {
                 "Text": "There are 2 solutions."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "a3c86865-9261-4d49-addb-19b065f61382",
@@ -854,12 +807,10 @@
               {
                 "Text": "You can enable this warning globally and disable when including system headers:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194228,
             "id": "85edd391-876a-445f-aec3-f9972089136c",
@@ -883,12 +834,10 @@
             "type": "code",
             "version": 4,
             "code": "#pragma warning(push)\n#pragma warning(disable : 4668) // silence /analyze: de-referencing a nullptr pointer\n#endif\n#include \u003cwindows.h\u003e\n... and other system headers\n#pragma warning(pop)",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194229,
             "id": "1aec13e8-6363-4422-88e8-97cb4fc01e1f",
@@ -910,12 +859,10 @@
               {
                 "Text": "Another option is to have the warning off by default but enable it after including system headers:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194229,
             "id": "f2c3460a-9649-475b-a041-58f886196005",
@@ -939,12 +886,10 @@
             "type": "code",
             "version": 4,
             "code": "#include \u003cwindows.h\u003e\n....\n\n#pragma warning(default : 4668)\n\n... now only your code",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194229,
             "id": "7f7e236e-217c-4775-8c56-2f5b54baeee0",
@@ -1002,16 +947,14 @@
               {
                 "Text": " for that."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-24"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1023,7 +966,6 @@
           "23d808d6-2cf0-4ae2-9652-523863464918",
           "9b22e2bb-b20d-4f27-99f2-dc1f1228c60c"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194229,
         "id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
@@ -1044,7 +986,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204661062,
             "id": "f176a08e-4e60-4a4b-8684-438de37d52a2",
@@ -1084,12 +1025,10 @@
               {
                 "Text": " about history of PowerPoint software."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194229,
             "id": "ec0d1e9d-8ea5-404d-afa8-2e22a306c166",
@@ -1111,12 +1050,10 @@
               {
                 "Text": "Some thoughts:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887881048,
             "id": "9941b231-d37e-4f39-a984-a36940ac7986",
@@ -1137,12 +1074,10 @@
               {
                 "Text": "I never understood how big the market was for PowerPoint and why it was so big. It shows that we all are blind to problems we don’t encounter ourselves. PowerPoint, the software, worked because the person who designed it understood that in businesses a lot of people give presentation, they were already spending a lot of money on making slides and a computer with a GUI would be a good tool to make making slides easier and give people more control over the process"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887897084,
             "id": "0e93de1e-2ff8-4ee2-ba1b-7ca417cc0fdb",
@@ -1163,12 +1098,10 @@
               {
                 "Text": "the success of Windows over Mac OS was not at all guaranteed. Mac shipped earlier and Microsoft had to do a lot of catching up, technologically"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887902101,
             "id": "23d808d6-2cf0-4ae2-9652-523863464918",
@@ -1189,12 +1122,10 @@
               {
                 "Text": "even the best market analysis is not guaranteed. They had pick on which OS to bet (Windows or Mac) before any of them shipped. They picked the right strategy (target Mac first, as it shipped first, but keep Windows in mind and ship for Windows as quickly as they could)."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887907367,
             "id": "9b22e2bb-b20d-4f27-99f2-dc1f1228c60c",
@@ -1203,20 +1134,17 @@
             "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
             "parent_table": "block",
             "type": "text",
-            "version": 8,
-            "CollectionViews": null
+            "version": 8
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-23 "
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "devlog 2017-11 • 04 d",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

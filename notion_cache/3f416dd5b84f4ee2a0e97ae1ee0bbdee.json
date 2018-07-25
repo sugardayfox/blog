@@ -8,7 +8,6 @@
       "d2041e3f-9d1d-4fc6-8d12-422e630f4bb3",
       "6f55e003-10ac-4d36-96eb-3900d2d1558d"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496211517560,
     "format": {
@@ -36,7 +35,6 @@
           "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
           "5a89bd2b-d956-4a3a-8de0-46bd23c8e579"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512364375635,
         "id": "72fe70d4-05e7-418d-85c4-a925ca7a7ae5",
@@ -56,7 +54,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
@@ -73,12 +70,10 @@
             },
             "type": "code",
             "version": 0,
-            "code": ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}",
-            "CollectionViews": null
+            "code": ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "5a89bd2b-d956-4a3a-8de0-46bd23c8e579",
@@ -95,16 +90,14 @@
             },
             "type": "code",
             "version": 0,
-            "code": ".items {\n    align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}",
-            "CollectionViews": null
+            "code": ".items {\n    align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}"
           }
         ],
         "inline_content": [
           {
             "Text": "basic info"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -150,7 +143,6 @@
           "109fb638-7ade-455d-a4ec-2af279204f20",
           "de7b0351-9915-4807-bff3-ad5db52b59ee"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496211523610,
         "id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
@@ -170,7 +162,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530406047810,
             "id": "0371a72f-caf0-4e51-b89d-5f15e9d47b81",
@@ -198,12 +189,10 @@
                 "Text": "https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-alignment--cms-30183",
                 "Link": "https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-alignment--cms-30183"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1515890205071,
             "id": "6f367a1c-4fe5-492e-9943-d9c80e1bf490",
@@ -231,12 +220,10 @@
                 "Text": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=frontendfocus\u0026utm_medium=email",
                 "Link": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=frontendfocus\u0026utm_medium=email"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496211527924,
             "id": "12a93c9f-f9c2-455a-a120-8c0670f42060",
@@ -264,12 +251,10 @@
                 "Text": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b",
                 "Link": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496619081306,
             "id": "3587c892-20e3-4d53-9551-c9595fdb3e02",
@@ -303,12 +288,10 @@
               {
                 "Text": " : visual showcase of flexbox properties"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496785637708,
             "id": "f207b286-1123-493d-9b1e-2e03bef5a7e0",
@@ -336,12 +319,10 @@
                 "Text": "https://css-tricks.com/flex-grow-is-weird/",
                 "Link": "https://css-tricks.com/flex-grow-is-weird/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1498020812724,
             "id": "956f85ba-5fb7-4dcb-b382-1af1d6f43126",
@@ -388,12 +369,10 @@
                 "Text": "https://news.ycombinator.com/item?id=13877926",
                 "Link": "https://news.ycombinator.com/item?id=13877926"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "0dea51a1-3cd3-4394-a7c6-7731e2e5ade6",
@@ -421,12 +400,10 @@
                 "Text": "https://www.isotoma.com/blog/2016/09/07/going-all-in-on-flexbox/",
                 "Link": "https://www.isotoma.com/blog/2016/09/07/going-all-in-on-flexbox/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "9162baf1-3a42-4a49-91c3-944dba9b0e1f",
@@ -454,12 +431,10 @@
                 "Text": "https://github.com/afonsopacifer/awesome-flexbox",
                 "Link": "https://github.com/afonsopacifer/awesome-flexbox"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "b9c98669-3520-433a-8e08-99a3e67e6b02",
@@ -487,12 +462,10 @@
                 "Text": "http://www.flexboxpatterns.com/home",
                 "Link": "http://www.flexboxpatterns.com/home"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "b53be1fd-c061-4de7-89af-81a7366764f9",
@@ -520,12 +493,10 @@
                 "Text": "http://codepen.io/enxaneta/full/adLPwv/",
                 "Link": "http://codepen.io/enxaneta/full/adLPwv/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "d2b3038f-400e-4baa-a234-84416dc71b91",
@@ -553,12 +524,10 @@
                 "Text": "https://github.com/afonsopacifer/awesome-flexbox",
                 "Link": "https://github.com/afonsopacifer/awesome-flexbox"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "dac61386-f90e-4196-89bd-0f2dc36906d0",
@@ -605,12 +574,10 @@
                 "Text": "https://news.ycombinator.com/item?id=8782752",
                 "Link": "https://news.ycombinator.com/item?id=8782752"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "8eb1e477-636b-4bde-b4ce-f0d63804bbd6",
@@ -638,12 +605,10 @@
                 "Text": "http://chriswrightdesign.com/experiments/using-flexbox-today/",
                 "Link": "http://chriswrightdesign.com/experiments/using-flexbox-today/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "ffd95832-7f33-4466-9248-947d5fb3092a",
@@ -671,12 +636,10 @@
                 "Text": "http://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                 "Link": "http://css-tricks.com/snippets/css/a-guide-to-flexbox/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "a8d6449e-2600-44b5-94fb-96dab227b51d",
@@ -704,12 +667,10 @@
                 "Text": "http://philipwalton.github.io/solved-by-flexbox/",
                 "Link": "http://philipwalton.github.io/solved-by-flexbox/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "bc918242-b802-49a3-a82a-0ca8b690387b",
@@ -737,12 +698,10 @@
                 "Text": "http://css-tricks.com/snippets/css/complete-guide-grid/",
                 "Link": "http://css-tricks.com/snippets/css/complete-guide-grid/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "e817889f-6074-4993-afe8-d8d70d38fd1e",
@@ -789,12 +748,10 @@
                 "Text": "https://news.ycombinator.com/item?id=9137515",
                 "Link": "https://news.ycombinator.com/item?id=9137515"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "0bda604b-d8d8-4a89-9825-7df965904a02",
@@ -822,12 +779,10 @@
                 "Text": "http://codepen.io/team/lincolnloop/blog/flexboxfridays",
                 "Link": "http://codepen.io/team/lincolnloop/blog/flexboxfridays"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "619f8e78-d7af-42d2-9bc0-0a4a2e0c2cde",
@@ -855,12 +810,10 @@
                 "Text": "http://www.slideshare.net/zomigi/leveling-up-with-flexbox-smashing-conference",
                 "Link": "http://www.slideshare.net/zomigi/leveling-up-with-flexbox-smashing-conference"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "c878e6fd-4a28-4f1d-985e-57fbc77075c7",
@@ -888,12 +841,10 @@
                 "Text": "http://jonibologna.com/flexbox-cheatsheet/",
                 "Link": "http://jonibologna.com/flexbox-cheatsheet/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "c26a0659-bc1e-436b-9c9c-3dd266a14a86",
@@ -921,12 +872,10 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes#Flex_item_considerations",
                 "Link": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes#Flex_item_considerations"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "f1aa88db-6eeb-4e9f-8653-98a6b81a61d0",
@@ -954,12 +903,10 @@
                 "Text": "http://bocoup.com/weblog/dive-into-flexbox/",
                 "Link": "http://bocoup.com/weblog/dive-into-flexbox/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "1f81fd1a-c434-44a4-a722-6858a0c4d05c",
@@ -987,12 +934,10 @@
                 "Text": "http://dundalek.com/css3-flexbox-reference/",
                 "Link": "http://dundalek.com/css3-flexbox-reference/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "af22591f-eb80-4b65-87cd-6ab6e3019aae",
@@ -1020,12 +965,10 @@
                 "Text": "http://flexbox.io/#/",
                 "Link": "http://flexbox.io/#/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "c0caf482-f3b7-4edb-8a95-dcca35ea8928",
@@ -1053,12 +996,10 @@
                 "Text": "http://book.mixu.net/css/",
                 "Link": "http://book.mixu.net/css/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "946045de-c221-4a90-978b-7732167fab9c",
@@ -1086,12 +1027,10 @@
                 "Text": "http://jonibologna.com/flexbox-cheatsheet/",
                 "Link": "http://jonibologna.com/flexbox-cheatsheet/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "5240c46d-f052-47a1-8c88-5a6808bc1c5d",
@@ -1119,12 +1058,10 @@
                 "Text": "https://github.com/corysimmons/lost",
                 "Link": "https://github.com/corysimmons/lost"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "3aad82e6-8855-4a18-98b6-dad8176cfbbb",
@@ -1152,12 +1089,10 @@
                 "Text": "http://gridlex.devlint.fr",
                 "Link": "http://gridlex.devlint.fr/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "c5c6e68e-caf8-4d4d-a971-d7728cdd534c",
@@ -1185,12 +1120,10 @@
                 "Text": "http://www.flexboxpatterns.com/",
                 "Link": "http://www.flexboxpatterns.com/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "8ec968d2-9e23-40e6-b4c0-499aa7347e37",
@@ -1218,12 +1151,10 @@
                 "Text": "https://github.com/philipwalton/flexbugs",
                 "Link": "https://github.com/philipwalton/flexbugs"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "ec334ccd-b692-4358-b742-6276541b30f9",
@@ -1251,12 +1182,10 @@
                 "Text": "https://davidwalsh.name/flexbox-layouts",
                 "Link": "https://davidwalsh.name/flexbox-layouts"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "5e39bbbb-acf4-48e0-9392-e87182070a00",
@@ -1284,12 +1213,10 @@
                 "Text": "http://www.sketchingwithcss.com/samplechapter/",
                 "Link": "http://www.sketchingwithcss.com/samplechapter/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "d0bc26b3-b9eb-4997-b62f-bcef70f5ba2b",
@@ -1317,12 +1244,10 @@
                 "Text": "https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout/",
                 "Link": "https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "59087ba7-747e-4b5a-8aa0-c219034c7bd4",
@@ -1350,12 +1275,10 @@
                 "Text": "https://www.smashingmagazine.com/2015/12/website-layout-tools-compared-flexbox-vs-susy/",
                 "Link": "https://www.smashingmagazine.com/2015/12/website-layout-tools-compared-flexbox-vs-susy/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "542096ab-9bae-4c47-97b1-8efc3e403db8",
@@ -1389,12 +1312,10 @@
               {
                 "Text": " : a responsive table using flexbox"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "b7fa2fa5-7a40-4426-9c66-2ead0e5f62ec",
@@ -1422,12 +1343,10 @@
                 "Text": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                 "Link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "6edf1864-c4d9-4046-9aaf-587be2de9105",
@@ -1455,12 +1374,10 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes",
                 "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "65b4680c-2eea-419a-ad07-57d655c20ba7",
@@ -1488,12 +1405,10 @@
                 "Text": "https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.ivfv9kbuo",
                 "Link": "https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.ivfv9kbuo"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "109fb638-7ade-455d-a4ec-2af279204f20",
@@ -1521,12 +1436,10 @@
                 "Text": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.4rjmcrfmh",
                 "Link": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.4rjmcrfmh"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512364361490,
             "id": "de7b0351-9915-4807-bff3-ad5db52b59ee",
@@ -1580,16 +1493,14 @@
                 "Text": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.qhof2xv5d",
                 "Link": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.qhof2xv5d"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1597,7 +1508,6 @@
           "d86f8bf5-f361-4169-81ae-45a1d31dc722",
           "1d65ea87-e11e-4339-aa30-f2f6774b52d7"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1500699172327,
         "id": "d2041e3f-9d1d-4fc6-8d12-422e630f4bb3",
@@ -1617,7 +1527,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1500699175319,
             "id": "d86f8bf5-f361-4169-81ae-45a1d31dc722",
@@ -1651,12 +1560,10 @@
               {
                 "Text": " : simple, in Java"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1500699189445,
             "id": "1d65ea87-e11e-4339-aa30-f2f6774b52d7",
@@ -1690,20 +1597,17 @@
               {
                 "Text": " : Google's for Android"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Implementations"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496619078149,
         "id": "6f55e003-10ac-4d36-96eb-3900d2d1558d",
@@ -1712,12 +1616,10 @@
         "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       }
     ],
     "title": "css flexbox",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

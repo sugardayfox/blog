@@ -61,7 +61,6 @@
       "c948db15-6b62-4c78-8f74-eb905e8edd61"
     ],
     "copied_from": "8077f489-1c90-49cf-a796-7486b08e0771",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531204099818,
     "file_ids": [
@@ -90,7 +89,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "435daa67-a784-42d5-9b92-888c5df774b6",
@@ -111,12 +109,10 @@
           {
             "Text": "Id: 5"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "bac1c65b-6614-434e-a046-532e185b7db8",
@@ -137,12 +133,10 @@
           {
             "Text": "Date: 2017-02-11T19:18:21-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "3c47268f-944d-4c19-a58a-0ef5a90515c0",
@@ -163,12 +157,10 @@
           {
             "Text": "Tags: devops, go"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "177d4d7d-4baa-40b5-9974-caec466bafb3",
@@ -177,12 +169,10 @@
         "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "17daafdd-d651-46fc-b56b-ff64857fe193",
@@ -222,12 +212,10 @@
           {
             "Text": " instead of Ubuntu."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "53e6de13-9d6d-46c2-8342-28c7dda2ca6b",
@@ -248,12 +236,10 @@
           {
             "Text": "For a while I didn’t understand CoreOS; a linux distro without package manager? How do I install more software on this thing?"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "8ec3e910-9f18-43a7-9b24-26b0714395c0",
@@ -274,12 +260,10 @@
           {
             "Text": "Now I am a convert. CoreOS is not a Linux distro for end users. It’s a distro for deploying applications packaged as docker containers."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "0a8316c3-8d85-4f59-a2d1-611f972f0300",
@@ -300,12 +284,10 @@
           {
             "Text": "The benefit of using CoreOS is less configuration needed compared to e.g. Ubuntu."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "070333ff-98bd-4818-8498-1808ce1b7082",
@@ -326,12 +308,10 @@
           {
             "Text": "I used to deploy multiple apps per server but for operational simplicity I moved to using one server per app. At $5 per server (my apps are written in Go, so they run comfortably on the smallest servers) it’s a reasonable cost."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "e86988da-a269-4c6c-8da4-4e704d9117fb",
@@ -371,12 +351,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "fdbd2b12-2bf2-4bac-923b-286f185d4b8d",
@@ -403,12 +381,10 @@
             "Text": "1. Create a unique ssh key for the machine",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "86287e82-48f4-42a2-8039-d6f194ec2ed0",
@@ -429,12 +405,10 @@
           {
             "Text": "For security it’s good to have a unique ssh key for each machine:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "38b08fa1-10f2-4a6f-9b3a-8fa579cc128b",
@@ -479,12 +453,10 @@
             "Text": "id_rsa",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "3c7daee6-a5cf-4b22-b8b9-13d636f324a7",
@@ -523,12 +495,10 @@
           {
             "Text": " is what you give DigitalOcean as ssh key when creating a server"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "2ac1d620-c688-4ea4-b02a-08e5c1942b58",
@@ -567,12 +537,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "d05d00fa-813c-4572-99e1-c4a4b2fa2b05",
@@ -599,12 +567,10 @@
             "Text": "2. Initial server setup",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "907f05fe-1d2a-4d7a-8e75-741b539df085",
@@ -643,12 +609,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "da478122-0a51-4729-ba92-2099b842c00f",
@@ -671,12 +635,10 @@
         "type": "code",
         "version": 3,
         "code": "# e.g. IPADDR=137.63.26.193\nIPADDR=\u003cip address of the server\u003e\n# git likes to loose non-standard permissions. This is always called from\n# scripts so a good place to ensure right permissions on id_rsa\nchmod 0600 id_rsa",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099818,
         "id": "0e3212fe-e2dc-4546-a48e-f7b7ada55fcf",
@@ -715,12 +677,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "aadbd65f-30fc-43b5-8b65-548571329b50",
@@ -743,12 +703,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n. ./ipaddr.sh\nssh -i ./id_rsa core@${IPADDR}",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "27f1410b-7d6e-4fe9-a7d2-8c0db51bf509",
@@ -792,12 +750,10 @@
           {
             "Text": " to run startup script and adjust kernel parameters. We need several files. files on the server:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "1bd4e81b-f532-45ea-a32c-1e89b9c24584",
@@ -848,12 +804,10 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "c88fc227-563f-4e28-9779-dd778709dc57",
@@ -876,12 +830,10 @@
         "type": "code",
         "version": 1,
         "code": "# http://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet\n# https://coreos.com/os/docs/latest/other-settings.html\nnet.netfilter.nf_conntrack_max=131072\n# in seconds, default value was 600 == 5 mins\nnet.netfilter.nf_conntrack_generic_timeout = 60\n# in seconds, default value was 432000 i.e. 5 days\nnet.netfilter.nf_conntrack_tcp_timeout_established = 54000\n# was 46992\nfs.file-max = 131072",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "46cfb1ef-5f34-4abf-9f96-4433474efb81",
@@ -914,12 +866,10 @@
           {
             "Text": " contains the settings. Default values for connection tracking are so low that it’s easy for a malicious person to DoS your server just by opening a small number of connections to your http server."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "e3776def-5a91-4186-87ba-129b54849659",
@@ -940,12 +890,10 @@
           {
             "Text": "This is for the smallest server with 512 MB of RAM. Increase for larger servers."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "23734325-0b50-44af-ae00-33d84bd36b68",
@@ -996,12 +944,10 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "9d91465f-1d71-4026-86be-52b8837bdd68",
@@ -1024,12 +970,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n# reload values from /etc/sysctl.d/startup.conf\nsysctl --system\n# make hashsize match net.netfilter.nf_conntrack_max (should be nf_conntrack_max / 4)\n# https://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet\necho 32768 \u003e /sys/module/nf_conntrack/parameters/hashsize",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "7c1520d6-42e8-4393-87ed-f1d40522cfe3",
@@ -1050,12 +994,10 @@
           {
             "Text": "This script makes the changes. Now we need to make sure it gets called at startup."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "75db8ce5-2f18-4678-822b-58756583d7e6",
@@ -1106,12 +1048,10 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "dff6c880-d7a0-4d7c-a896-5983966d9f1f",
@@ -1134,12 +1074,10 @@
         "type": "code",
         "version": 1,
         "code": "# http://unix.stackexchange.com/questions/47695/how-to-write-startup-script-for-systemd\n[Unit]\nDescription=things to do after each reboot\n# just to be safe, run it after docker started\nAfter=docker.service\nRequires=docker.service\n\n[Service]\nType=oneshot\n# per https://www.digitalocean.com/community/tutorials/how-to-create-and-run-a-service-on-a-coreos-cluster\nEnvironmentFile=/etc/environment\n# '=-' means it can fail\nExecStart=-/etc/systemd/system/startup_script.sh\n\n[Install]\nWantedBy=multi-user.target",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "106ac49c-d77a-4248-a584-364937ce8de1",
@@ -1196,12 +1134,10 @@
           {
             "Text": " to notice it."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "bb4c5e03-c4ac-4a61-b68f-58a668046203",
@@ -1224,12 +1160,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\nscp -i ./id_rsa ./startup.conf ./startup.service ./startup_script.sh core@${IPADDR}:/home/core/\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\nsudo cp startup.conf /etc/sysctl.d/startup.conf\nsudo chmod 0644 /etc/sysctl.d/startup.conf\nsudo cp startup.service /etc/systemd/system\nsudo cp startup_script.sh /etc/systemd/system\nsudo chmod 0750 /etc/systemd/system/startup_script.sh\nsudo systemctl daemon-reload\nsudo systemctl enable /etc/systemd/system/startup.service\n\nsudo bash -c \"echo 32768 \u003e /sys/module/nf_conntrack/parameters/hashsize\"\nsudo sysctl --system\nrm startup.conf startup.service startup_script.sh\nENDSSH",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "10b6dd9b-deff-413d-ba14-c9f72dee38ad",
@@ -1268,12 +1202,10 @@
           {
             "Text": " and test that the changes are applied:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "7fbdbb45-8965-4e9e-8bca-98bcafaebd27",
@@ -1306,12 +1238,10 @@
             "Text": "./login.sh",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "54c59578-3cd7-4009-9b56-7c9565f12a9a",
@@ -1344,12 +1274,10 @@
             "Text": "sudo shutdown -r now",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "f31da754-20f8-453f-bfd3-ce690d7153fd",
@@ -1370,12 +1298,10 @@
           {
             "Text": "login again"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "f5f0e491-8666-438b-8e39-6c9fcea79a1e",
@@ -1402,12 +1328,10 @@
             "Text": "sudo sysctl -a | grep nf_conntrack_max",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "8ad6c064-0e0d-4d59-bfda-ff08f390505d",
@@ -1434,12 +1358,10 @@
             "Text": "3. Use systemctld to automatically restart the app",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "e453bf9e-cd10-4976-b9b0-9dd6e7021bf8",
@@ -1460,12 +1382,10 @@
           {
             "Text": "When the server reboots we want the app to start automatically."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "a11ba7f8-9cb9-490e-b380-f45e4ebe466e",
@@ -1486,12 +1406,10 @@
           {
             "Text": "We also want the app to automatically restart if it crashes."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "38fa9dc6-9088-43cc-91ee-29412242c5dc",
@@ -1530,12 +1448,10 @@
           {
             "Text": " again as it comes with CoreOS."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "340068da-c064-4f19-b8e8-ccba2bcf8e75",
@@ -1628,12 +1544,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "0a3ae148-90a8-4421-9e95-9ec8962d1c65",
@@ -1656,12 +1570,10 @@
         "type": "code",
         "version": 1,
         "code": "[Unit]\nDescription=blog\n# this unit will only start after docker.service\nAfter=docker.service\nRequires=docker.service\n\n[Service]\nTimeoutStartSec=0\n# per https://www.digitalocean.com/community/tutorials/how-to-create-and-run-a-service-on-a-coreos-cluster\nEnvironmentFile=/etc/environment\n# before starting make sure it doesn't exist\n# '=-' means it can fail\nExecStartPre=-/usr/bin/docker rm blog\nExecStart=/usr/bin/docker run --rm -p 80:80 -v /data-blog:/data --name blog blog:latest\nExecStop=/usr/bin/docker stop blog\n# restart if it crashes or is killed e.g. by oom\nRestart=on-failure\nRestartSec=5\n\n[Install]\nWantedBy=multi-user.target",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099819,
         "id": "d2258e42-328c-4b99-a22c-b51c690f9bfe",
@@ -1700,12 +1612,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "9ecb6751-e8ab-4ed9-be59-b07e2ebe050a",
@@ -1728,12 +1638,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\nscp -i ./id_rsa ./blog.service core@${IPADDR}:/home/core/blog.service\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\nsudo cp blog.service /etc/systemd/system\nsudo systemctl enable /etc/systemd/system/blog.service\nrm blog.service\nENDSSH",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "916009cc-5175-474a-bf52-c9954253206c",
@@ -1772,12 +1680,10 @@
           {
             "Text": " file."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "433ec005-3528-48b6-9bd4-198327c1e498",
@@ -1804,12 +1710,10 @@
             "Text": "4. Package the app as a Docker image and upload to the server",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "196a134a-b60f-40e0-85a0-d50debf94f24",
@@ -1830,12 +1734,10 @@
           {
             "Text": "A script to build the app, package as Docker image and upload latest version to the server."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "6d8a667c-ad1a-4aab-bf5f-e367f82ddab1",
@@ -1910,12 +1812,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "63c86da0-584d-4972-8cf1-c6a6ab1ff5c8",
@@ -1954,12 +1854,10 @@
           {
             "Text": " script:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "4d0286be-ad4a-4944-aba1-2942d838c989",
@@ -1982,12 +1880,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n# build latest version of the app, upload to the server packaged as\n# blog:latest docker image\n\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\ndir=`pwd`\nblog_dir=${GOPATH}/src/github.com/kjk/blog\n\necho \"building\"\ncp config.json \"${blog_dir}\"\ncd \"${blog_dir}\"\nGOOS=linux GOARCH=amd64 go build -o blog_linux\ndocker build --no-cache --tag blog:latest .\nrm blog_linux\ncd \"${dir}\"\n\necho \"docker save\"\ndocker save blog:latest | bzip2 \u003e blog-latest.tar.bz2\nls -lah blog-latest.tar.bz2\n\necho \"uploading to the server\"\nscp -i ./id_rsa blog-latest.tar.bz2 core@${IPADDR}:/home/core/blog-latest.tar.bz2\n\necho \"extracting on the server\"\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\nbunzip2 --stdout blog-latest.tar.bz2 | docker load\nrm blog-latest.tar.bz2\nsudo systemctl restart blog\nENDSSH\n\nrm -rf blog-latest.tar.bz2",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "29f99681-9e73-4f96-8865-ddc917a1c515",
@@ -2048,12 +1944,10 @@
             "AttrFlags": 2,
             "Link": "https://github.com/kjk/blog/blob/master/s/docker_build.sh"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "67387344-bf90-41a8-9743-0c34bc57fcbf",
@@ -2092,12 +1986,10 @@
           {
             "Text": ") to verify that the app will start up after reboot."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "ac16832d-4cb6-4c3c-8b96-adfdfff1d3b0",
@@ -2154,12 +2046,10 @@
           {
             "Text": "):"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204099820,
         "id": "e50fe697-6221-4030-951d-e0697bfc6d7f",
@@ -2182,12 +2072,10 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n. ./ipaddr.sh\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\ndocker logs -f blog\nENDSSH",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531383503973,
         "id": "c948db15-6b62-4c78-8f74-eb905e8edd61",
@@ -2196,12 +2084,10 @@
         "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       }
     ],
     "title": "Blueprint for deploying web apps on CoreOS",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bea09464-9216-4198-ac8b-b4909027c558/header-00.jpg",
       "page_cover_position": 0.5,

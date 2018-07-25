@@ -21,7 +21,6 @@
       "fce45f55-3733-43d1-982c-12fccc5c5b4f"
     ],
     "copied_from": "0c22b67e-5183-4aab-88cb-6db3b36c3628",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926121,
     "format": {
@@ -45,7 +44,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "66da6f42-f088-440d-bf52-fd1ef6f87973",
@@ -66,12 +64,10 @@
           {
             "Text": "Id: 3002"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "bd4f31ce-f2ae-42a7-a344-d8357c151fca",
@@ -92,12 +88,10 @@
           {
             "Text": "Tags: programming, optimization"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "5231a63a-e46a-490a-b04b-ada680e6bfe2",
@@ -118,12 +112,10 @@
           {
             "Text": "Date: 2008-07-27T06:31:00-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "c34c8d80-e691-4d8b-891c-ac93dc792512",
@@ -132,12 +124,10 @@
         "parent_id": "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "e0bf9f3f-5bb3-4fc4-a7e0-598d318437fd",
@@ -158,12 +148,10 @@
           {
             "Text": "Short version: realloc() on Windows can have much worse performance than on Linux/Mac."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "823f99eb-d708-443a-8f3b-4af5fce68255",
@@ -222,12 +210,10 @@
           {
             "Text": ", underlying PDF parsing/rendering engine. I’m not an expert on that code but I try to fix bugs and try to improve performance."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "64540732-0074-425c-bc57-15ab623b7926",
@@ -248,12 +234,10 @@
           {
             "Text": "In testing I noticed that on some PDFs it’s pathetically slow, so I profiled the code and that told me that 99% of the time was spent in realloc(). Also, the same PDF was rendered almost instantaneously on Linux."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "1abac9dc-92f9-474c-9c60-38d687130634",
@@ -274,12 +258,10 @@
           {
             "Text": "The code was reading a stream of unknown (a priori) length and the way it worked was by reading 4k chunks of data into a buffer that was grown with realloc() call."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "e3adbb17-0fe1-40d0-8be4-e0bf021699dc",
@@ -300,12 +282,10 @@
           {
             "Text": "If you’re lucky, realloc() will return the original block of memory and just fiddle with internal allocator structures to make it bigger."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "09917ad2-8cb8-4a93-9d91-055152e3c7cd",
@@ -326,12 +306,10 @@
           {
             "Text": "If you’re unlucky, realloc() will have to allocate a new block of memory and copy the date from old memory."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "99ce0252-924a-44a7-a7e3-b53db19dd629",
@@ -352,12 +330,10 @@
           {
             "Text": "If you’re reading 1MB file and growing file data buffer by 4k, you’ll have to call realloc() 256 times and each time the buffer will be bigger. If you’re unlucky and realloc() has to copy the data every time, that’s a lot of cpu time spent data copying."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "9097df96-1cf4-4bd4-9524-40dd6d48ff99",
@@ -397,12 +373,10 @@
           {
             "Text": ")."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "71641760-05b9-4de2-ab69-ff912e6fa969",
@@ -423,12 +397,10 @@
           {
             "Text": "Once I knew what the problem was, the fix was simple."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "8142ac68-e804-4950-acb5-19d810b49e11",
@@ -462,12 +434,10 @@
           {
             "Text": " would read into separate 4k buffers and at the end allocate the result buffer and copy the data just once."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "48b6efd9-85c8-4261-b673-806d9c321428",
@@ -501,12 +471,10 @@
           {
             "Text": " was even simpler: it would grow the buffer size by doubling it, instead of just increasing by 4k. It was slower than first implementation (more copying) but simpler and fast enough."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926121,
         "id": "fce45f55-3733-43d1-982c-12fccc5c5b4f",
@@ -527,12 +495,10 @@
           {
             "Text": "A side note: a simple and incorrect conclusion would be that memory allocator implementation on Linux is much better than on Windows. Things aren’t that simple, though. It’s easy to write an allocator that has excellent performance for realloc() but is terrible for everything else. Engineering is an art of compromises and optimizing realloc() apparently wasn’t high on Microsoft’s list of things to shoot for when they were designing allocator in Windows, which is, btw, comparable in performance to allocator in Linux or Mac."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "realloc() on Windows vs. Linux",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

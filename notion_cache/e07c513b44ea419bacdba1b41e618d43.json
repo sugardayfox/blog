@@ -38,7 +38,6 @@
       "a19a8e35-add8-4d2c-a739-908b5b03b7a6"
     ],
     "copied_from": "f228ea8d-45aa-4806-80f7-155de90955c3",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531200907600,
     "format": {
@@ -62,7 +61,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "c010d01b-d9e8-41ac-be00-d8d7c0ab7a18",
@@ -83,12 +81,10 @@
           {
             "Text": "Id: 204001"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "ef21f7cd-6c58-4349-8fd5-565cbe5d7db2",
@@ -109,12 +105,10 @@
           {
             "Text": "Tags: python, go"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "a761fd2b-0cee-440b-a865-7505f93ea575",
@@ -135,12 +129,10 @@
           {
             "Text": "Date: 2010-06-13T22:13:12-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "bd8ebe2b-05ac-4a36-8631-2c0fa17c0242",
@@ -149,12 +141,10 @@
         "parent_id": "e07c513b-44ea-419b-acdb-a1b41e618d43",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "145af203-c4bd-44ae-9562-2194bed61fa3",
@@ -194,12 +184,10 @@
           {
             "Text": " was announced, I liked what I saw. However, to make an informed opinion about a programming language you really have to implement something in it, and that’s what I did."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "de667796-e876-42cf-90ef-34f44ed9564e",
@@ -220,12 +208,10 @@
           {
             "Text": "The app"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "b648475a-ff19-493c-b73b-c20578a40e46",
@@ -265,12 +251,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "738fb407-ec23-40ce-b9cd-c5fa6810c496",
@@ -291,12 +275,10 @@
           {
             "Text": "The app is relatively simple: it implements 5 REST points, each returning JSON-formatted data that it gets by executing other applications and converting their output to a data structure."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "68dc84ce-65d1-4309-8043-6122c3427f96",
@@ -317,12 +299,10 @@
           {
             "Text": "Concurrency"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "05385fcb-2872-499a-a15a-cf26c996ef73",
@@ -362,12 +342,10 @@
           {
             "Text": ")."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "286b7595-b60a-4f7e-8106-a9ffe27c5362",
@@ -388,12 +366,10 @@
           {
             "Text": "If there’s one feature where Go easily beats Python it’s concurrency. Mainstream languages, including Python, use threads for concurrency and locking for protecting shared data, which is error prone. In addition, threading in Python performs poorly due to GIL."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "88770b5c-e984-4cc6-8f5f-a29a827af06e",
@@ -414,12 +390,10 @@
           {
             "Text": "In web serving context, thread-per-connection way of handling HTTP requests is resource intensive so efficient Python web servers (like Tornado) are event driven."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "b60cd9a7-5de0-4620-9a6c-4dc8eb9725f4",
@@ -440,12 +414,10 @@
           {
             "Text": "The downside of that is that at any given time Tornado can process only one HTTP request. If that processing takes a long time, it blocks all other requests."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "39c2e41a-74ca-475c-a347-76a3a0ee703a",
@@ -466,12 +438,10 @@
           {
             "Text": "To fix the single-threaded nature of event driven web servers, people run several server processes behind an efficient, proxying web server like nginx, which increases the complexity of the overall solution."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "56b10515-8e22-433b-a553-b139dcaa0e21",
@@ -492,12 +462,10 @@
           {
             "Text": "In Go, writing concurrent code is more natural and efficiency of goroutines is much better than threads. That makes goroutine-per-connection way of handling HTTP requests more applicable even in heavily stressed applications."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "75ad85d1-81e3-46b2-a10b-7d6eccf3777b",
@@ -518,12 +486,10 @@
           {
             "Text": "Source code size"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "7e3e5633-28b8-4a96-8bef-f5d8a7d1024b",
@@ -544,12 +510,10 @@
           {
             "Text": "Go is remarkably concise for a strongly typed language with C-like syntax. "
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907600,
         "id": "41ff1423-8529-4634-9aa4-b40cb841ccbc",
@@ -570,12 +534,10 @@
           {
             "Text": "Python code was about 1000 lines, Go rewrite about 1300 lines. I consider that a great result."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "92479033-3666-4067-8054-013d4ea40ece",
@@ -596,12 +558,10 @@
           {
             "Text": "There are some things, like sorting vectors of structs, that require more code than in Python (one case where dynamic typing helps) but overall you can write very compact code in Go."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "f942d422-4998-40ec-b760-e40d884e175f",
@@ -622,12 +582,10 @@
           {
             "Text": "Speed and memory efficiency"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "0214fc64-9ce1-4582-a933-ec6957813ca3",
@@ -648,12 +606,10 @@
           {
             "Text": "I haven’t measured. Generally speaking, Go is compiled to assembly code and its data structures don’t suffer Python’s terrible per-object overhead, so it should be more efficient in both speed and memory usage."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "00dfc6f3-2d01-4f8a-8971-7bff2a957292",
@@ -674,12 +630,10 @@
           {
             "Text": "Other things I like about Go"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "52505b24-3150-49fc-8dd3-bb5e245282ce",
@@ -700,12 +654,10 @@
           {
             "Text": "Go’s syntax is very C-like but it cleverly gets rid of one source of noise in C: semicolons. They are still there but they can be omitted in most cases (Go compiler figures out where a semicolon is supposed to be). It makes Go code look cleaner."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "eb4c7165-495f-474d-8fb6-0c4c687a6a97",
@@ -726,12 +678,10 @@
           {
             "Text": "I like how classes were replaced by interfaces. They especially shine in i/o code and layered streams (e.g. a compressed stream that wraps encrypted stream that wraps stream from a file or network or memory). They’re easy to use from the client point of view and it’s easy to implement a new type of wrapper (e.g. using a new encryption algorithm or new compression scheme)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "2414002d-d9ad-4fb1-b0ea-92c6741c22e0",
@@ -752,12 +702,10 @@
           {
             "Text": "Another nice property of Go is how it minimizes indentation (compared to e.g. C++ code or Java code)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "7b9ac858-f1e9-4d5a-bd9c-47569964c423",
@@ -778,12 +726,10 @@
           {
             "Text": "C and C++ suffer from big variations in programming style which makes combining two code bases written in different styles or reading code in a different style that you’re used to hard."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "0a2cbab4-c024-4a83-8d88-4c367ee43128",
@@ -804,12 +750,10 @@
           {
             "Text": "Python solved this problem well by requiring white space for indentation instead of free-form braces."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "efeb6415-f45b-4308-9c93-0f1dd64f19ad",
@@ -848,12 +792,10 @@
           {
             "Text": " program, which will reformat the code in a way consistent with official Go style. Go’s standard library code uses this style and most developers writing their own libraries seem to have adopted that as well, to play nice with the ecosystem."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "504ba5a9-d2de-4532-a946-b7bd37e6c5df",
@@ -874,12 +816,10 @@
           {
             "Text": "Conclusion"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "5913fd09-e2fd-4755-b46f-c558d91b08cc",
@@ -900,12 +840,10 @@
           {
             "Text": "Overall, the experience was positive and I would seriously consider using Go for writing server side of web applications. It provides a right balance between speed and memory efficiency of the running code (much closer to C than to e.g. Python) and speed of development (much closer to Python than to C)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "add9dfdb-ba1a-496b-8a5e-039c36a6167a",
@@ -926,12 +864,10 @@
           {
             "Text": "It’s also reasonable to expect that it’ll only get better in the future. While Google doesn’t devote a huge team to Go, those who are on the team have demonstrated in the past that they know how to get things done."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "f8d1850f-1ae9-448a-80cd-20359d890ee1",
@@ -952,12 +888,10 @@
           {
             "Text": "Go is used internally at Google, so it won’t be abandoned."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907601,
         "id": "a19a8e35-add8-4d2c-a739-908b5b03b7a6",
@@ -978,12 +912,10 @@
           {
             "Text": "As far as open-source projects go, this one is well managed i.e. Go team encourages outside code contributions and is quite speedy in reviewing and committing external patches."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Go vs. Python for a simple web server ",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

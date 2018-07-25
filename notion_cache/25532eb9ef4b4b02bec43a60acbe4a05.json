@@ -11,7 +11,6 @@
       "7811b998-aeac-4824-ac34-50b690fd71a5"
     ],
     "copied_from": "d7304f1b-ef86-4b80-9318-b9f6c4a6b6a5",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926180,
     "format": {
@@ -35,7 +34,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "0d376796-efd7-4609-88be-100169b6df15",
@@ -56,12 +54,10 @@
           {
             "Text": "Id: 1231"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "db623090-21bd-4b1a-994d-9ea3e34404ba",
@@ -82,12 +78,10 @@
           {
             "Text": "Tags: unix, networking"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "9b2bd99e-8d7a-4636-b5ca-6d65be0d4860",
@@ -108,12 +102,10 @@
           {
             "Text": "Date: 2008-03-20T11:51:20-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "8d464978-de4e-45c0-85ed-9da68edb1690",
@@ -122,12 +114,10 @@
         "parent_id": "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "cbc7a6de-f17e-4b7a-9128-fb4394cedb9f",
@@ -161,12 +151,10 @@
             "Text": "http://www.cocoadev.com/index.pl?GettingHostnameFromIPAddress",
             "Link": "http://www.cocoadev.com/index.pl?GettingHostnameFromIPAddress"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926180,
         "id": "7811b998-aeac-4824-ac34-50b690fd71a5",
@@ -189,12 +177,10 @@
         "type": "code",
         "version": 1,
         "code": "dig -x 17.149.160.49\n\nListing all conections and who holds them:\nnetstat -p -n | grep tcp | wc -l\n-p : show pid/name of the process\n-n : don't resolve name (much faster)",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Reverse DNS lookup",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

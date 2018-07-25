@@ -24,7 +24,6 @@
       "33e3be11-8c54-45ab-b348-a44124bc32fa"
     ],
     "copied_from": "f5155d59-e0e3-43d6-a42c-52d192379c34",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926390,
     "format": {
@@ -48,7 +47,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "70f64995-dfa3-4cb0-b081-44be4f32da5a",
@@ -69,12 +67,10 @@
           {
             "Text": "Id: 1203"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "15b9b9bb-30d4-44f3-9de3-74ff3cfca9e6",
@@ -95,12 +91,10 @@
           {
             "Text": "Tags: objective c, cocoa"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "d8a0db3a-8588-456c-af02-252d2f40ba38",
@@ -121,12 +115,10 @@
           {
             "Text": "Date: 2008-03-15T15:42:10-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "6ba3cc80-a340-4810-b944-07d9a1078e3c",
@@ -135,12 +127,10 @@
         "parent_id": "6568863d-9f85-4eca-ae74-28d2d86e9d34",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "84c18897-fc79-4cad-ae95-9da5e4ae4f0d",
@@ -161,12 +151,10 @@
           {
             "Text": "MVC:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "fcdfc005-9c11-4901-b9e4-d72002f84e97",
@@ -187,12 +175,10 @@
           {
             "Text": "model is the data. gives the data to view. view reads the data. controller changes data"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "52da3f79-f5d1-49a5-849b-27216da1e27b",
@@ -213,12 +199,10 @@
           {
             "Text": "view is the display. reads data from model. reports user interaction to controller"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "0019ad37-b4c8-41da-b799-2cf0548b8528",
@@ -239,12 +223,10 @@
           {
             "Text": "controller changes the data based on user interaction in the view"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "5b4ba393-1a3d-4576-8f6c-086847ca605b",
@@ -265,12 +247,10 @@
           {
             "Text": "Target/Action (command):"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "7197f231-c481-4125-aae3-8a851793b713",
@@ -291,12 +271,10 @@
           {
             "Text": "in cocoa, this is how responding to actions from controls is implemented"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "fff81c17-d2f1-4987-bc85-a1ddc039fc2a",
@@ -317,12 +295,10 @@
           {
             "Text": "e.g. when button is pressed, framework sends a message to application code"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "34848bf6-3d4f-436e-9a50-16a6217184d8",
@@ -343,12 +319,10 @@
           {
             "Text": "general way in which object (e.g. button) can send messages to undetermined object (part of application code you write)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "18b5809f-5eb9-47a8-b458-9fb879ad0b18",
@@ -369,12 +343,10 @@
           {
             "Text": "IB (Interface Builder) does that when you create new control, class and instance and ctrl-drag defines target action"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "5aa03758-7055-40e1-a4e7-4b50897c35dd",
@@ -395,12 +367,10 @@
           {
             "Text": "Delegation:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "095c7590-477a-4c0f-aafe-864f7cdaf223",
@@ -421,12 +391,10 @@
           {
             "Text": "messages send to Holder object are forwarded to Delegate"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "780c517a-e3eb-4eb5-ad32-88886263e47f",
@@ -447,12 +415,10 @@
           {
             "Text": "Holder needs an instance of Delegate and a way to set it"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "12f30dfd-5f8c-4aa8-ab55-32b89df2f864",
@@ -473,12 +439,10 @@
           {
             "Text": "Chain of responsibility:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "7dcc77cc-97f0-4a20-9983-82604c5e8fdb",
@@ -499,12 +463,10 @@
           {
             "Text": "a message is handled by the most appropriate object out of many"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926390,
         "id": "33e3be11-8c54-45ab-b348-a44124bc32fa",
@@ -525,12 +487,10 @@
           {
             "Text": "used in cocoa for handling events. An event message is sent to a first responder object (e.g. if clicked on a button, button objects is the first responder). If the object doesn’t know how to handle the message, it sends it to the next object in chain etc."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Objective-C patterns",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

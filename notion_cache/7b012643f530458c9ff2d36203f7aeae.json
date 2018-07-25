@@ -6,7 +6,6 @@
       "ab416a80-1f9a-49d8-85e2-aff025ad4856",
       "4aa6b22c-0882-4b9f-bdb4-ec3e65f271fd"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512370727054,
     "format": {
@@ -33,7 +32,6 @@
         "content": [
           "fa94a4c3-7a68-4b6d-8a90-291fc0f4d4b7"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512370740483,
         "id": "ab416a80-1f9a-49d8-85e2-aff025ad4856",
@@ -53,7 +51,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512370782065,
             "id": "fa94a4c3-7a68-4b6d-8a90-291fc0f4d4b7",
@@ -76,16 +73,14 @@
             "type": "code",
             "version": 0,
             "code": "Running ffprobe:\n\n./ffprobe -show_format -show_streams -print_format json ${file}\n\n7570 files\n\nFormat stats:\nmp3: 1\ngif: 1\nsrt: 3\nmatroska,webm: 10\ntty: 13\nimage2: 60\nflv: 97\nmpeg: 116\navi: 467\nmov,mp4,m4a,3gp,3g2,mj2: 3085\nasf: 3648\n\nAudio codec stats:\npcm_u8: 1\nvorbis: 1\ndca: 1\npcm_mulaw: 1\npcm_s16be: 3\nwmav1: 4\npcm_s16le: 6\nac3: 36\nmp2: 121\nwmapro: 369\nmp3: 460\naac: 3148\nwmav2: 3272\n\nVideo codec stats:\nmpeg2video: 1\nvp8: 1\ngif: 1\nflv: 1\nmsmpeg4v2: 2\nvc1: 6\nvp6f: 6\nmsmpeg4: 9\nwmv1: 12\nansi: 13\nmjpeg: 65\nmpeg1video: 115\nwmv2: 153\nmpeg4: 463\nh264: 3146\nwmv3: 3507\n\n\nSample result:\n\n{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"wmav2\",\n            \"codec_long_name\": \"Windows Media Audio 2\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/44100\",\n            \"codec_tag_string\": \"a[1][0][0]\",\n            \"codec_tag\": \"0x0161\",\n            \"sample_fmt\": \"fltp\",\n            \"sample_rate\": \"44100\",\n            \"channels\": 2,\n            \"bits_per_sample\": 0,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/1000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1491250,\n            \"duration\": \"1491.250000\",\n            \"bit_rate\": \"48024\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"wmv3\",\n            \"codec_long_name\": \"Windows Media Video 9\",\n            \"profile\": \"Main\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1/1000\",\n            \"codec_tag_string\": \"WMV3\",\n            \"codec_tag\": \"0x33564d57\",\n            \"width\": 640,\n            \"height\": 480,\n            \"has_b_frames\": 0,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"4:3\",\n            \"pix_fmt\": \"yuv420p\",\n            \"level\": -99,\n            \"r_frame_rate\": \"24/1\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/1000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1491250,\n            \"duration\": \"1491.250000\",\n            \"bit_rate\": \"1000000\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/Store/v/01.04.08.Rebecca.wmv\",\n        \"nb_streams\": 2,\n        \"nb_programs\": 0,\n        \"format_name\": \"asf\",\n        \"format_long_name\": \"ASF (Advanced / Active Streaming Format)\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1491.250000\",\n        \"size\": \"196382414\",\n        \"bit_rate\": \"1053518\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"WMFSDKVersion\": \"10.00.00.4357\",\n            \"WMFSDKNeeded\": \"0.0.0.0000\",\n            \"IsVBR\": \"0\",\n            \"DeviceConformanceTemplate\": \"MP@ML\",\n            \"WM/WMADRCPeakReference\": \"13693\",\n            \"WM/WMADRCAverageReference\": \"659\"\n        }\n    }\n}",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "ffprobe"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -97,7 +92,6 @@
           "6b28e708-1349-435c-a4e9-ba985c77df44",
           "4e35b52d-194c-45ed-b826-a4924aef755c"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512370777657,
         "id": "4aa6b22c-0882-4b9f-bdb4-ec3e65f271fd",
@@ -120,7 +114,6 @@
             "content": [
               "5e4ecf10-8c88-4162-872f-dd3de3207672"
             ],
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475132313,
             "id": "21619df3-133d-404e-8b27-a356fa54fe19",
@@ -146,7 +139,6 @@
             "content_resolved": [
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1516475244256,
                 "id": "5e4ecf10-8c88-4162-872f-dd3de3207672",
@@ -174,8 +166,7 @@
                     "Text": "https://news.ycombinator.com/item?id=16192813",
                     "Link": "https://news.ycombinator.com/item?id=16192813"
                   }
-                ],
-                "CollectionViews": null
+                ]
               }
             ],
             "inline_content": [
@@ -183,12 +174,10 @@
                 "Text": "https://github.com/leandromoreira/ffmpeg-libav-tutorial",
                 "Link": "https://github.com/leandromoreira/ffmpeg-libav-tutorial"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475145738,
             "id": "2c8d87dd-8bad-4e0c-8f99-5b51da41e57b",
@@ -222,12 +211,10 @@
               {
                 "Text": " - windows builds"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475159623,
             "id": "2659659d-91b9-4ffe-98b1-020ea46bc818",
@@ -261,12 +248,10 @@
               {
                 "Text": " - C# wrapper"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475168113,
             "id": "0761ad53-6b43-4ddf-a735-cf667dae8974",
@@ -300,12 +285,10 @@
               {
                 "Text": " - $149 c# wrapper"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475180857,
             "id": "6b28e708-1349-435c-a4e9-ba985c77df44",
@@ -339,12 +322,10 @@
               {
                 "Text": " - auto-generated c# wrapper"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516475189041,
             "id": "4e35b52d-194c-45ed-b826-a4924aef755c",
@@ -378,20 +359,17 @@
               {
                 "Text": " - has cmd-line args that Dropbox uses to transcode using ffmpeg\n"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "links"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "ffmpeg",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

@@ -6,7 +6,6 @@
       "b7e77cb4-4a26-40b3-858b-e434752704e8",
       "539b44aa-929d-4ce1-8c9e-277ca0d2d569"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529193108177,
     "format": {
@@ -36,7 +35,6 @@
           "3dd1089f-0d59-4033-b81f-766daadd76b7",
           "c16c1eae-9684-4775-8e77-7a9d1832263c"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529193274672,
         "id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
@@ -56,7 +54,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529193118255,
             "id": "1ac8fbd5-c3d1-4b9a-89eb-e6077855f812",
@@ -107,12 +104,10 @@
                 "Text": "0:",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529193162308,
             "id": "23d02bed-009b-4ccc-a73e-d6125bb3dbc3",
@@ -135,12 +130,10 @@
             "type": "code",
             "version": 247,
             "code": "\u003cListView Grid.Row=\"0\" Name=\"listView\" Background=\"AliceBlue\" HorizontalAlignment=\"Stretch\" SelectionChanged=\"ListView_SelectionChanged\" VerticalAlignment=\"Stretch\" FontSize=\"8\" VerticalContentAlignment=\"Top\"\u003e\n\t\u003cListView.ItemContainerStyle\u003e\n\t  \u003cStyle TargetType=\"ListViewItem\"\u003e\n\t    \u003cSetter Property=\"MinHeight\" Value=\"0\"/\u003e\n    \u003c/Style\u003e\n  \u003c/ListView.ItemContainerStyle\u003e\n\u003c/ListView\u003e",
-            "code_language": "XML",
-            "CollectionViews": null
+            "code_language": "XML"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529193249999,
             "id": "3dd1089f-0d59-4033-b81f-766daadd76b7",
@@ -197,12 +190,10 @@
               {
                 "Text": "."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529193265896,
             "id": "c16c1eae-9684-4775-8e77-7a9d1832263c",
@@ -211,20 +202,17 @@
             "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
             "parent_table": "block",
             "type": "text",
-            "version": 9,
-            "CollectionViews": null
+            "version": 9
           }
         ],
         "inline_content": [
           {
             "Text": "Spacing between items"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529193289888,
         "id": "539b44aa-929d-4ce1-8c9e-277ca0d2d569",
@@ -233,12 +221,10 @@
         "parent_id": "5356e399-fb23-4985-8ee6-2e32baaf7664",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       }
     ],
     "title": "ListView",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

@@ -25,7 +25,6 @@
       "b6c4ad96-b802-4154-9a01-91390502278e"
     ],
     "copied_from": "5b8fb8b1-aa16-4c47-849d-8f70f559a433",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195845526,
     "format": {
@@ -49,7 +48,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845526,
         "id": "db4c419f-f8ff-48be-a986-7cb0647d03e9",
@@ -70,12 +68,10 @@
           {
             "Text": "Id: 304"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845526,
         "id": "935cc845-094b-4d6c-9001-1af9eac42a47",
@@ -96,12 +92,10 @@
           {
             "Text": "Date: 2006-01-02T16:00:00-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845526,
         "id": "93a31257-720d-4704-a94d-7ba466dc9e10",
@@ -122,12 +116,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845526,
         "id": "117592d3-eb35-4b9f-b228-5acb9939d0eb",
@@ -136,12 +128,10 @@
         "parent_id": "5094f3ac-18ed-4d98-8e2f-716bb4d74e66",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "70bb0177-b0f8-46d8-9fbc-f8d7f71ede0a",
@@ -174,12 +164,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "4a31055a-e80d-45f6-8c56-586a9cfd1215",
@@ -212,12 +200,10 @@
             "Text": "usermod -G apache,svn apache",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "56ecfd44-0a05-4479-b7e4-2c01d2650832",
@@ -268,12 +254,10 @@
             "Text": "chmod g+rwx /home/svn",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "d9f6af98-4d5f-4cee-b6c2-9ae39ad8b9f1",
@@ -300,12 +284,10 @@
             "Text": "Backup and restore a repo:",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "10b977e2-69ad-43d8-86cc-afabf395da73",
@@ -332,12 +314,10 @@
             "Text": "svnadmin dump repo \u003erepo_svn_dump; bzip2 -9 repo_svn_dump",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "36aba0bb-96ca-4396-9dba-3a447023778d",
@@ -370,12 +350,10 @@
             "Text": "svnadmin dump repo | bzip2 -c -9 \u003erepo_svn_dump.bz2",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "6f8c8152-5204-4edb-a8f6-d34273399fa1",
@@ -402,12 +380,10 @@
             "Text": "Recreate a repo:",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "00d0f4b0-c8ca-437a-a085-54231e00d700",
@@ -434,12 +410,10 @@
             "Text": "svnadmin create repo",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "172913ae-e31e-409a-ad2f-73b674c3ec0f",
@@ -466,12 +440,10 @@
             "Text": "sudo -u svn bzip2 -d -d repo.bz2 | svnadmin load repo",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "f0a31f1a-03f3-435b-8b20-c9b172b0c6e5",
@@ -504,12 +476,10 @@
             "Text": "/etc/httpd/conf.d/repo-svn-authzfile",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "35972d1b-5c42-4255-9627-847ddf12f8ad",
@@ -542,12 +512,10 @@
             "Text": "/etc/rc.d/init.d/httpd restart",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "b4f81f8d-c054-4048-bdec-bab4ca37c570",
@@ -568,12 +536,10 @@
           {
             "Text": "This assumes Apache2 and a particular setup found on RedHat Enterprise."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "db4c9816-b394-4fc8-9d0f-9688e0cd3d76",
@@ -618,12 +584,10 @@
             "Text": "svn resolved $file",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "9604c2a7-0000-4b2e-8b54-f22b958cf33b",
@@ -668,12 +632,10 @@
             "Text": "svn update -r {2004-04-04}",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "637647a0-380f-4574-9ca0-52b5e0140386",
@@ -700,12 +662,10 @@
             "Text": "Create a tag:",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845527,
         "id": "b6c4ad96-b802-4154-9a01-91390502278e",
@@ -732,12 +692,10 @@
             "Text": "svn copy https://sumatrapdf.googlecode.com/svn/trunk/ https://sumatrapdf.googlecode.com/svn/tags/release-0.7 -m \"Tagging release 0.7.\"",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Subversion basics",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

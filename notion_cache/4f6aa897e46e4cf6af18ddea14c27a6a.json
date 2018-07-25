@@ -12,7 +12,6 @@
       "b06254fb-b83c-4632-bf96-a2455c2661b0"
     ],
     "copied_from": "73cf28f8-ddec-48e8-b0f0-b5276678a96e",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195941638,
     "format": {
@@ -36,7 +35,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "64090ac0-d40c-40a8-b636-a99c4604e27c",
@@ -57,12 +55,10 @@
           {
             "Text": "Id: 14007"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "49350b21-a0c2-4ef5-bb07-b1f7abdadad1",
@@ -83,12 +79,10 @@
           {
             "Text": "Tags: .net, c#"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "bd10da50-d65a-4efc-b9ca-888e2dc7ad84",
@@ -109,12 +103,10 @@
           {
             "Text": "Date: 2009-03-14T16:12:55-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "80956cec-ef7d-431a-9b10-d8ff85269edf",
@@ -123,12 +115,10 @@
         "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "e32f7d6e-f345-4808-98e4-2f64f14df2b8",
@@ -149,12 +139,10 @@
           {
             "Text": "HttpWebRequest is a handy .NET class for doing HTTP requests. It has built-in support for HTTP basic authentication via credentials. However, it doesn’t work the way I expected: supplying credentials doesn’t send Authorization HTTP header with the request but only in response to server’s challenge. It often breaks in real world, where servers might not issue a challenge and simply not authenticate a request."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941638,
         "id": "c7b209eb-b8ff-4443-9b62-66f13007fc73",
@@ -175,12 +163,10 @@
           {
             "Text": "Fortunately fixing it by manually adding Authorization HTTP header to the request is simple and this code snippet shows how to do it:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941639,
         "id": "b06254fb-b83c-4632-bf96-a2455c2661b0",
@@ -203,12 +189,10 @@
         "type": "code",
         "version": 1,
         "code": "public void SetBasicAuthHeader(WebRequest req, String userName, String\nuserPassword)\n{\n string authInfo = userName + “:” + userPassword;\n authInfo = Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));\n req.Headers[“Authorization”] = “Basic ” + authInfo;\n}",
-        "code_language": "Java/C/C++/C#",
-        "CollectionViews": null
+        "code_language": "Java/C/C++/C#"
       }
     ],
     "title": "Forcing basic http authentication for HttpWebRequest (in .NET/C#)",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

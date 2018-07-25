@@ -39,7 +39,6 @@
       "4efcfa0e-f229-446c-9c1f-11d8cf7aae84"
     ],
     "copied_from": "93b6f9ac-ad24-4171-8825-c2fa0fafd280",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531200903749,
     "format": {
@@ -63,7 +62,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "9995e690-013e-4551-8d6c-7b787bf356cb",
@@ -84,12 +82,10 @@
           {
             "Text": "Id: 229002"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "732febd5-a9aa-4507-87b8-1d208778c75e",
@@ -110,12 +106,10 @@
           {
             "Text": "Tags: .net"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "f3ec1d04-5d65-4432-9360-2f2ee8ba3728",
@@ -136,12 +130,10 @@
           {
             "Text": "Date: 2010-07-23T16:51:34-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531623135791,
         "id": "f4cab455-1be3-4af7-bdf3-e1126756442a",
@@ -150,12 +142,10 @@
         "parent_id": "edc47cc3-5219-4309-afe1-1cd91b2e1533",
         "parent_table": "block",
         "type": "text",
-        "version": 6,
-        "CollectionViews": null
+        "version": 6
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "a05d4f45-4372-4e4d-97fe-9b20168c674f",
@@ -176,12 +166,10 @@
           {
             "Text": "What is PartCover"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "e8fdb918-abfb-4eca-a2a0-e51da1d7f842",
@@ -234,12 +222,10 @@
           {
             "Text": " with a bit more recent work."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "ad965d54-b4b6-413e-9e68-bab7fbe7a29d",
@@ -279,12 +265,10 @@
           {
             "Text": " for basics of PartCover usage."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "6e77fd3f-fe45-42fe-b791-8e9d874566cf",
@@ -305,12 +289,10 @@
           {
             "Text": "Why use code coverage?"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "e79dccc1-ae9e-498c-9d82-c7127e9d73c0",
@@ -350,12 +332,10 @@
           {
             "Text": " for Java and .NET. The code wasn’t written by me, it’s quite mature but it doesn’t have many tests, so I’m quite apprehensive about modifying subtle code and clearly would like to avoid introducing bugs."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "41a2be1a-10de-453e-9de5-01dd803f36e7",
@@ -376,12 +356,10 @@
           {
             "Text": "A test suite is a good way to detect newly introduced regressions but sadly while the code is quite brilliant, its tests are rudimentary. I decided that the first thing I will work on is improving and extending test suite."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "bf6e7f3a-4acf-4ddf-8ead-94af540aba98",
@@ -402,12 +380,10 @@
           {
             "Text": "However, the space of all possible tests is infinite and since I don’t have infinite amount of time to write tests, I should write a minimal amount of tests that cover maximum amount of code. Writing duplicate tests is not productive."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "79aad220-97b1-4e28-85e5-bcbcc4a5c217",
@@ -428,12 +404,10 @@
           {
             "Text": "Code coverage can be used to guide creation of new tests. Code coverage tools can tell you which parts of the code where executed so the algorithm for generating new tests is as follows:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "4eef0c80-99f7-406a-a8ac-be3c44c09bc8",
@@ -454,12 +428,10 @@
           {
             "Text": "run current tests suite under code coverage tool"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "c84f31e5-c4be-4694-b29d-16df98988dca",
@@ -480,12 +452,10 @@
           {
             "Text": "check the results to see which parts of the code are not yet exercised by current tests"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "996ed8f7-c297-4551-9c00-0a534cb01606",
@@ -506,12 +476,10 @@
           {
             "Text": "devise a test that exercise those parts"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "9b3fffa7-1d41-4f0b-8e99-d9a769ccb0be",
@@ -532,12 +500,10 @@
           {
             "Text": "re-run the test suite under code coverage tool to verify that the new test really causes the code to be executed"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "754acdfc-bd90-4074-ae9d-1a15cc9882e4",
@@ -558,12 +524,10 @@
           {
             "Text": "repeat until yet get close to 100% code coverage"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903749,
         "id": "33a0baf4-208a-42ac-a12a-4adb16245cd1",
@@ -584,12 +548,10 @@
           {
             "Text": "Why use PartCover"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "0fd6d1ba-404f-4358-9fe9-a3740d09c96e",
@@ -610,12 +572,10 @@
           {
             "Text": "PartCover isn’t that great but all other alternatives (code coverage built into more expensive editions of Visual Studio and NCover) are expensive. PartCover is at least free (and open-source)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "92186ce4-f812-4ab8-8196-714fd1917dc0",
@@ -636,12 +596,10 @@
           {
             "Text": "Examining PartCover results"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "583908d4-abea-4e18-ba96-7697f906f724",
@@ -662,12 +620,10 @@
           {
             "Text": "PartCover produces an XML file with the results of code coverage. There is a PartCover.Browse GUI app that shows the results but it’s rather clunky. Here’s how it looks like:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "33799945-06d8-4613-a588-61f5181725d4",
@@ -685,12 +641,10 @@
         "type": "image",
         "version": 1,
         "source": "//kjkpub.s3.amazonaws.com/blog/img/partcover-browse.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fimg%2Fpartcover-browse.png",
-        "CollectionViews": null
+        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fimg%2Fpartcover-browse.png"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "92d7c375-6e7e-4560-927e-1cb10bd15696",
@@ -711,12 +665,10 @@
           {
             "Text": "PartCover GUI browser"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "e40d08eb-62c3-473d-b53f-8c32091ab84c",
@@ -737,12 +689,10 @@
           {
             "Text": "There’s also XSLT files to convert XML to html file, but the result is very basic and not very useful."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "79945b38-a774-4904-b207-cf847d40e657",
@@ -782,12 +732,10 @@
           {
             "Text": " that converts XML file to a set of HTML files with easy to browse results of code coverage."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "416a0247-8c14-4879-a520-23202b1fbed7",
@@ -827,12 +775,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "e64db6e1-cc23-4f30-8ac6-2a35f3fde812",
@@ -853,12 +799,10 @@
           {
             "Text": "I took me a day to write so I decided to share it to hopefully save others some effort."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "c6911d10-9e10-4682-9e74-3624c10fbc57",
@@ -879,12 +823,10 @@
           {
             "Text": "Using partcover-to-html.py"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "dbb70022-4464-457b-bdc4-bb076c4e9581",
@@ -917,12 +859,10 @@
             "Text": "partcover-to-html.py \u003cpartcover-output.xml\u003e \u003coutdir\u003e",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "cd34b7ab-6e98-442c-b163-c27c8f92ad09",
@@ -955,12 +895,10 @@
           {
             "Text": " is an XML file with code coverage information generated by PartCover."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "7629bf42-2aaf-41fa-9b4b-183a592b9dac",
@@ -1029,12 +967,10 @@
           {
             "Text": " being the starting point."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "d7deddad-42ec-46a1-86e1-3da62dab6953",
@@ -1055,12 +991,10 @@
           {
             "Text": "The reason for creating a new directory is to not overwrite results of previous analysis, so that it’s possible to compare coverage before and after a change in the code. ${NNN} is a unique, increasing integer (i.e. 000, 001, 002 etc.)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "52972f49-9d4c-4b61-b4e3-5ed5bd218d08",
@@ -1094,12 +1028,10 @@
             "Text": "look like this",
             "Link": "/articles/coverhtml/index.html"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200903750,
         "id": "4efcfa0e-f229-446c-9c1f-11d8cf7aae84",
@@ -1138,12 +1070,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Converting PartCover results to html",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

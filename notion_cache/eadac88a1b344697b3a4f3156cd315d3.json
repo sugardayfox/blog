@@ -9,7 +9,6 @@
       "968ef07a-1c6c-4821-b285-3052f8eaf9e0",
       "4b887696-7ca9-4d7c-84e0-25a5bf5234f6"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157283276,
     "format": {
@@ -34,7 +33,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157283276,
         "id": "d9156d59-1856-426e-bb50-aecc315ea636",
@@ -56,12 +54,10 @@
           {
             "Text": "Id: 422"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121696045,
         "id": "6c9c8021-c17e-416a-86b0-95fa2cf4e99c",
@@ -82,12 +78,10 @@
           {
             "Text": "Date: 2002-09-15T20:27:53-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121700629,
         "id": "81e77f6b-e1aa-4a16-9189-5e60e69e958e",
@@ -108,12 +102,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121703796,
         "id": "968ef07a-1c6c-4821-b285-3052f8eaf9e0",
@@ -122,12 +114,10 @@
         "parent_id": "eadac88a-1b34-4697-b3a4-f3156cd315d3",
         "parent_table": "block",
         "type": "text",
-        "version": 12,
-        "CollectionViews": null
+        "version": 12
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121708270,
         "id": "4b887696-7ca9-4d7c-84e0-25a5bf5234f6",
@@ -167,12 +157,10 @@
           {
             "Text": " just did. Merging is something that sometimes programmers need to do. People using source version control system like CVS sometimes start developing code on a new branch. At some point changes made on the branch need to be merged into the mainline code. The fun begins when there are merge conflicts that cannot be resolved automatically, i.e. if since branching the same piece of code has been modified both in mainline and on a branch. Someone has to intelligently decide which changes will survive and which ones will be dropped. Araxis Merge does an excellent job of helping doing the merge by superbly visualizing the code. Well worth it if you need to do merges."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Three-way merge",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

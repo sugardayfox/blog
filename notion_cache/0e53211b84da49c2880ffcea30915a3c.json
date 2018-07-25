@@ -16,7 +16,6 @@
       "5bd74faa-c9a3-4257-bbf3-04903d550773",
       "226c9ba9-2bc0-4449-95ba-994701c1d020"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1494365546923,
     "format": {
@@ -40,7 +39,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365553880,
         "id": "8f56a665-c0de-4657-b037-2051dca95446",
@@ -74,12 +72,10 @@
             "Text": "https://docs.google.com/spreadsheets/d/1tAX5ZJzluilhoYKjra-uHbMCZraaQkqIHl3RIQ8mVkM/htmlview?sle=true#gid=0",
             "Link": "https://docs.google.com/spreadsheets/d/1tAX5ZJzluilhoYKjra-uHbMCZraaQkqIHl3RIQ8mVkM/htmlview?sle=true#gid=0"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365560966,
         "id": "94c9d20d-0fc7-47b3-88eb-f15980be2c88",
@@ -88,8 +84,7 @@
         "parent_id": "0e53211b-84da-49c2-880f-fcea30915a3c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       },
       {
         "alive": true,
@@ -111,7 +106,6 @@
           "f128e4cb-a14e-4ec0-ac6c-89c37929e6b4",
           "4a8d1dbe-3db0-46fd-8fd5-91096687d57b"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365575510,
         "id": "b7a292b0-3234-404b-a0c6-f2551502d317",
@@ -131,7 +125,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "256e6275-0a84-4400-b124-7774d51fa0e9",
@@ -164,12 +157,10 @@
               {
                 "Text": " Pass username and password with every request."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "7bf88b2f-0db3-46cd-b00f-b17589ba2683",
@@ -202,12 +193,10 @@
               {
                 "Text": " For internal APIs that are used from server side only, and are low-value."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "19f217ea-9d2f-404c-9615-a15910ba1768",
@@ -240,12 +229,10 @@
               {
                 "Text": "Server side. The username is passed in the request, the server validates it using the provided password, and then looks up whatever information it wants from it's database."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "e0b7a73e-b02e-427b-9581-774f3508ba62",
@@ -278,12 +265,10 @@
               {
                 "Text": " Not relevant. Up to the server to manage."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "bc93bf75-49b3-4718-a7a3-c5df3ba21521",
@@ -316,12 +301,10 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "b8ec4c18-f92e-4291-9a2e-dd1b67256623",
@@ -354,12 +337,10 @@
               {
                 "Text": " Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "f94db182-d959-46c2-aa01-efa358cbd2b4",
@@ -392,12 +373,10 @@
               {
                 "Text": "Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "fc64265a-bcff-4b51-b4af-f2e83125221a",
@@ -430,12 +409,10 @@
               {
                 "Text": " Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "a0ed52a6-e5b9-4a47-a2d7-59aa3190334e",
@@ -468,12 +445,10 @@
               {
                 "Text": " Passed in Authorization header"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365839213,
             "id": "e267d5c1-5d51-451f-ae66-c2364dcc3abb",
@@ -494,12 +469,10 @@
               {
                 "Text": "Example:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365839213,
             "id": "eec82598-6117-4b42-9b19-6a25af2e8724",
@@ -520,12 +493,10 @@
               {
                 "Text": "Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365839213,
             "id": "27d0c2e8-5728-4169-a38a-6ae11f42e61b",
@@ -546,12 +517,10 @@
               {
                 "Text": "Username and password are NOT encrypted"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "4c7d3ccf-87f4-4d2e-afe6-7114c3aaedd4",
@@ -584,12 +553,10 @@
               {
                 "Text": " Vulnerable. Do not use basic authentication for web apps, unless it is a low value internal web application"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "dcd8ed5a-7082-4ea9-b17e-a6e9d509bc19",
@@ -622,12 +589,10 @@
               {
                 "Text": " Don't use basic authentication. Mobile apps cannot store the credentials safely, and users will not want to enter credentials for every request."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "f128e4cb-a14e-4ec0-ac6c-89c37929e6b4",
@@ -660,12 +625,10 @@
               {
                 "Text": " If you use HTTPS, then basic authentication is a good choice for server side only applications. It is the easiest to get started, and is well supported by clients and server frameworks."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "4a8d1dbe-3db0-46fd-8fd5-91096687d57b",
@@ -698,16 +661,14 @@
               {
                 "Text": " Definitely possible."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "HTTP Basic Auth"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -726,7 +687,6 @@
           "d4d4704a-9987-456d-980d-b697d90ef689",
           "c39b577e-0458-40c1-b87e-06d0d4bfe5c6"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365946508,
         "id": "2a438ae5-045d-4223-8abe-4b9efa80955c",
@@ -746,7 +706,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "c7302cc7-8f94-44d3-bd28-c0d6405946a5",
@@ -779,12 +738,10 @@
               {
                 "Text": " Signed or encrypted cookie with user information. Usually handled by web framework."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "81806d35-9842-4ca2-82ce-7c1dd7d6ccc3",
@@ -817,12 +774,10 @@
               {
                 "Text": " If you are building a web application only, and your framework supports it, and you do not have a distributed cache like redis/memcached. Don't implement this on your own."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "cf6e9c91-6cb0-43ce-83fd-56727e8cc85b",
@@ -855,12 +810,10 @@
               {
                 "Text": " In the cookie"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "e4396cf1-957a-4698-972a-3ccb2113b4bb",
@@ -893,12 +846,10 @@
               {
                 "Text": " Stored in the cookie"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "786f7742-5330-4072-9694-23e6a993be69",
@@ -931,12 +882,10 @@
               {
                 "Text": "Yes, but usually handled by mature library"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "b2911bba-ead9-4ddc-af5d-01e1b69613a5",
@@ -969,12 +918,10 @@
               {
                 "Text": " Server has to overwrite the cookie with every request, setting a new expiry time. If the framework doesn't handle this already, this can be painful"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "1775140b-46c5-4f04-bb61-9e96694d426d",
@@ -1025,12 +972,10 @@
               {
                 "Text": "You have to maintain a separate revocation list in a distributed store. Again, you lose the benefits of being stateless"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "b3d2a25f-5fb6-4514-9cec-2add59cf884c",
@@ -1063,12 +1008,10 @@
               {
                 "Text": " Implicit. Browser handles this automatically, no effort on part of the programmer"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "49d0cd97-e06f-41f1-81a1-afff96e63d9f",
@@ -1101,12 +1044,10 @@
               {
                 "Text": " As cookie. Browser automatically sends this to the server"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "748a3418-9681-4a27-b9b4-c64eadcd6d56",
@@ -1139,12 +1080,10 @@
               {
                 "Text": " Vulnerable. Programmers need to be careful to prevent CSRF"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "316919c1-8384-4697-8ef4-8d1df1c9dae5",
@@ -1177,12 +1116,10 @@
               {
                 "Text": " Native mobile apps will find session based auth painful. Avoid session based auth if mobile apps are expected to use API"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "d4d4704a-9987-456d-980d-b697d90ef689",
@@ -1215,12 +1152,10 @@
               {
                 "Text": " Server side apps will find session based auth painful. Avoid if server side apps are expected to use API"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "c39b577e-0458-40c1-b87e-06d0d4bfe5c6",
@@ -1253,16 +1188,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Stateless Session Cookie"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1287,7 +1220,6 @@
           "d1266053-8320-4986-81a1-a2a2b0bcb6bd",
           "365e0481-94db-4563-82b7-dc6caee7482b"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365957511,
         "id": "d43a98bf-f547-4082-a78b-1bf45ac0751a",
@@ -1307,7 +1239,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "4e9aeefc-b901-4013-afc0-46e5935936ed",
@@ -1340,12 +1271,10 @@
               {
                 "Text": " Signed or encrypted user info in an encoded json string. Handled by well tested libraries in every language"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "1506a5e1-405f-4094-ba1d-f65a847b09cd",
@@ -1378,12 +1307,10 @@
               {
                 "Text": " Mobile, Web, Server side apps. Only if you are okay to forego revocation and inactivity based timeout."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "586869ba-bbcf-4456-928c-dcae38c46511",
@@ -1416,12 +1343,10 @@
               {
                 "Text": " In the token."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "cb4c6ebe-91ad-42dc-9330-cb11babe28c9",
@@ -1454,12 +1379,10 @@
               {
                 "Text": " Stored in the token"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "988c68fe-12d1-4d58-bf9f-3f06ed169822",
@@ -1492,12 +1415,10 @@
               {
                 "Text": "Yes, but usually handled by mature library"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "56519beb-6526-457c-9d3c-d4b734f13b3a",
@@ -1530,12 +1451,10 @@
               {
                 "Text": " Painful.  You have to use refresh tokens, which is added work for the client."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366349614,
             "id": "a325046d-d8c6-4ce8-9809-46ba2c56d831",
@@ -1556,12 +1475,10 @@
               {
                 "Text": "You can maintain a last_seen_at flag in a database/cache, and use that to expire, but then you lose the benefits of being stateless"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "0b8c6399-b96a-4dc8-94ff-3c73484758f6",
@@ -1594,12 +1511,10 @@
               {
                 "Text": "Painful. You have to maintain a separate revocation list in a distributed store. Again, you lose the benefits of being stateless."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "2c022b84-dd95-4c99-b880-f0f4d7078c24",
@@ -1632,12 +1547,10 @@
               {
                 "Text": " Explicit. Programmer has to store the token somewhere. Usually sessionStorage or localStorage."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "5298fa4f-4a74-4297-8244-8f211ad3a19e",
@@ -1670,12 +1583,10 @@
               {
                 "Text": " As request header -"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366409727,
             "id": "a8b90fb8-06f7-4c16-849e-669f2d9dd1e8",
@@ -1696,12 +1607,10 @@
               {
                 "Text": "Authorization: Bearer \u003ctoken\u003e"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366409727,
             "id": "f4d21731-ca18-4984-93ad-16196d77889d",
@@ -1722,12 +1631,10 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "a38c26cb-da13-4211-bf54-d8de6a2afae2",
@@ -1760,12 +1667,10 @@
               {
                 "Text": " Not vulnerable, because token is passed explicitly as a request header"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "57b525ba-bf17-44ca-a0af-9801633eed5a",
@@ -1798,12 +1703,10 @@
               {
                 "Text": " Mobile app users expect to login just once, and don't ever login again. JWT with a long expiry can work, but a better strategy is to use a secure random token with no information in it."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "9992663e-8336-4fe6-88a8-9cf39d864a46",
@@ -1836,12 +1739,10 @@
               {
                 "Text": " Create a private-public key pair, and let the client create the JWT with the private key and the server validate it using the public key."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366441179,
             "id": "af718b52-a483-41a3-b591-b2509df91128",
@@ -1862,12 +1763,10 @@
               {
                 "Text": "Alternatively, maintain a shared secret and use that to create the JWT."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366441179,
             "id": "7b6f5de1-8014-4749-a0f7-2c1ac65374e0",
@@ -1888,12 +1787,10 @@
               {
                 "Text": "Prefer private/public key pair instead of shared secret."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366441179,
             "id": "d1266053-8320-4986-81a1-a2a2b0bcb6bd",
@@ -1914,12 +1811,10 @@
               {
                 "Text": "Create JWT on every request, and keep expiry very low."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "365e0481-94db-4563-82b7-dc6caee7482b",
@@ -1952,16 +1847,14 @@
               {
                 "Text": " Possible only if the expiry is high. If every request generates a new JWT (like in case of server side apps), then replay attacks becomes very difficult."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "JWT"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1980,7 +1873,6 @@
           "32de4c63-a4c4-48fb-8fbd-afc70ec187b8",
           "8edbb407-553d-4dda-a0ce-11cdda4471ad"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365959890,
         "id": "27f18aa2-aef0-4a86-b6d5-72f1ef7e7a25",
@@ -2000,7 +1892,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "a7800c76-cd14-41ea-8621-419d5bb700ba",
@@ -2033,12 +1924,10 @@
               {
                 "Text": " Standard session cookie, supported by most web frameworks and browsers."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "19f319e0-ae04-4446-9db5-8e017f375e9f",
@@ -2071,12 +1960,10 @@
               {
                 "Text": " If you are building a web application only, and can store sessions in database or a distributed cache."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "d4b78f86-c298-4f7a-94fc-19ca835b981c",
@@ -2109,12 +1996,10 @@
               {
                 "Text": "Stored server side either in memory or in database or in distributed cache or in file system."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "4b1b8d7a-4d66-4a0b-969c-ead3b9e468c5",
@@ -2147,12 +2032,10 @@
               {
                 "Text": " Stored server side"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "91ba7b68-5c93-4664-af27-567aa9e6990c",
@@ -2185,12 +2068,10 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "6fd3a105-026f-4092-9a9c-cee81722241e",
@@ -2223,12 +2104,10 @@
               {
                 "Text": " Yes. Easily handled out of the box in every web framework"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "a28e9f3d-ca81-40ef-83e6-b2af6a04cd7e",
@@ -2261,12 +2140,10 @@
               {
                 "Text": "Possible, but exact capabilities depends on web framework"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "b4e0dc13-af34-4637-b123-803d13f1bb83",
@@ -2299,12 +2176,10 @@
               {
                 "Text": " Implicit. Browser handles this automatically, no effort on part of the programmer"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "5bb19318-2b20-4515-a16f-f9c9efb4bf17",
@@ -2337,12 +2212,10 @@
               {
                 "Text": " As cookie. Browser automatically sends this to the server"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "2b6b2e94-a52e-4399-95c9-1e84f33023ba",
@@ -2375,12 +2248,10 @@
               {
                 "Text": " Vulnerable. Programmers need to be careful to prevent CSRF"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "76a07345-558a-4b7c-a460-fe0be3c2974c",
@@ -2413,12 +2284,10 @@
               {
                 "Text": " Native mobile apps will find session based auth painful. Avoid session based auth if mobile apps are expected to use API"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "32de4c63-a4c4-48fb-8fbd-afc70ec187b8",
@@ -2451,12 +2320,10 @@
               {
                 "Text": " Server side apps will find session based auth painful. Avoid if server side apps are expected to use API"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "8edbb407-553d-4dda-a0ce-11cdda4471ad",
@@ -2489,16 +2356,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Stateful Session Cookie"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -2520,7 +2385,6 @@
           "731ccff7-dc93-472c-b089-a5f100a4f818",
           "f1beccc6-988a-4eb9-824f-7d68e296e4a9"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365965471,
         "id": "d1883b7a-e7fe-46b0-b51f-39f0f4bb8f9b",
@@ -2540,7 +2404,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "5fd0814c-eefe-46d3-bc39-caac2807a69e",
@@ -2573,12 +2436,10 @@
               {
                 "Text": " A strong, secure random token that does not have any data in it, and cannot be guessed. This is equivalent to session id."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "105ed089-2b2b-4225-a479-e94a7462213b",
@@ -2611,12 +2472,10 @@
               {
                 "Text": " For web and mobile apps when you already have a distributed cache like redis/memcached. For server side apps, prefer JWT with per-request token."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "8d55391e-06af-4823-8ca2-f4e0e678b87e",
@@ -2649,12 +2508,10 @@
               {
                 "Text": "Stored server side either in memory or in database or in distributed cache or in file system."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "7dd3e89f-4d89-4838-a3c5-6e465530d09a",
@@ -2687,12 +2544,10 @@
               {
                 "Text": " Stored server side"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "d550a8fd-b0d9-4282-b234-307da20e2a9b",
@@ -2725,12 +2580,10 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "07346b60-a561-46a4-a73a-903d60456023",
@@ -2763,12 +2616,10 @@
               {
                 "Text": " Yes. With every request, increment the timeout on the server side."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "ec6bc19a-db71-44a8-a763-ecd1e957e750",
@@ -2801,12 +2652,10 @@
               {
                 "Text": " Yes. Simply delete the session data on the server side, and next request will be considered unauthenticated."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "3acfc682-ce66-46f8-8ff4-3e87c52da2c3",
@@ -2839,12 +2688,10 @@
               {
                 "Text": " Explicit. Programmer has to store the token somewhere. Usually sessionStorage or localStorage."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "1f4741c8-8e9f-4886-bb69-1ab0d32d0350",
@@ -2877,12 +2724,10 @@
               {
                 "Text": " As request header -"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366715449,
             "id": "a1546140-a45b-4f2a-bcd9-bd4767e57f05",
@@ -2903,12 +2748,10 @@
               {
                 "Text": "Authorization: Bearer \u003ctoken\u003e"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366715449,
             "id": "d8f9aa77-46ce-4658-8a96-6af328ff0db8",
@@ -2929,12 +2772,10 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "819e7a31-1b67-4563-8fe4-1df87074f918",
@@ -2967,12 +2808,10 @@
               {
                 "Text": " Not vulnerable, because token is passed explicitly as a request header"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "02113ff7-aae7-47f1-9880-78ab21bea371",
@@ -3005,12 +2844,10 @@
               {
                 "Text": " Create the random token during first installation/login, and use that token throughout the life of the app."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "4ecb9ae0-7273-43c9-985e-cd6d61fa7721",
@@ -3043,12 +2880,10 @@
               {
                 "Text": " This becomes similar to an API key that is passed by the client. Replay attacks are possible if someone gets the API key."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366739042,
             "id": "731ccff7-dc93-472c-b089-a5f100a4f818",
@@ -3069,12 +2904,10 @@
               {
                 "Text": "For server to server apps, prefer JWT with public/private key pair"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "f1beccc6-988a-4eb9-824f-7d68e296e4a9",
@@ -3107,16 +2940,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Random Token"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -3143,7 +2974,6 @@
           "1ec26398-94e5-44ad-80a0-2004d506c1a6",
           "629573ce-aa39-4347-b471-0782178dcb8a"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365967552,
         "id": "3a7a54a3-aea9-45ad-b145-1fa4d467a026",
@@ -3163,7 +2993,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "8c7d1927-6d2f-4dbf-8bef-2c971b497b7a",
@@ -3196,12 +3025,10 @@
               {
                 "Text": " Popularized by AWS authentication."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366760273,
             "id": "bd1f1b78-16a0-45c5-b708-d11647cba817",
@@ -3222,12 +3049,10 @@
               {
                 "Text": "Shared secret between server and client. Client signs the complete request using the shared secret, server verifies it."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366760273,
             "id": "2e9abdd5-0e23-4014-95b8-8f6d5b476317",
@@ -3248,12 +3073,10 @@
               {
                 "Text": "See http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "7fc87c1f-46a2-4fa6-9984-09285842a400",
@@ -3286,12 +3109,10 @@
               {
                 "Text": " Only for server side applications when you provide your clients a library to manage the cryptography, and only if you are concerned about replay attacks."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366769898,
             "id": "9d72e990-b1e2-4fd1-a4d5-0deb35a49ce6",
@@ -3312,12 +3133,10 @@
               {
                 "Text": "In practice, using JWT for every request, and including the url and key request parameters in the JWT achieves most of the benefits of this approach without implementing the complex canonicalization algorithm"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "e2e3e767-b845-43f0-ac4b-cf5114e4f2ae",
@@ -3350,12 +3169,10 @@
               {
                 "Text": "Server side. The \"userid\" is passed in the request, the signature tells the server it is indeed that user. The server can then look up whatever information it wants from it's database."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "11fec995-b349-4536-bd30-8f8ce8cf53d9",
@@ -3388,12 +3205,10 @@
               {
                 "Text": " Passed in the request, and usually valid for a very short time only."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "06fc2aa9-ffee-41b4-b64b-a008127c5c4c",
@@ -3426,12 +3241,10 @@
               {
                 "Text": "Yes. Outside of AWS libraries, there isn't a good standard implementation, so it will be painful to use if you don't provide client libraries"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "0e3982e8-048a-475a-9f9a-00bbebc47384",
@@ -3464,12 +3277,10 @@
               {
                 "Text": " Doesn't make sense."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366938097,
             "id": "7c76b17c-97a3-4f24-88aa-8afd58d933c7",
@@ -3490,12 +3301,10 @@
               {
                 "Text": "This approach only makes sense for server side applications, and in such applications inactivity based timeout does not make sense"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "b85d0583-4f63-4769-b19c-5f27daf709c5",
@@ -3528,12 +3337,10 @@
               {
                 "Text": "Yes. The server can easily deny the request."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "6434359c-1ee3-44ea-ae67-60e2b3b95417",
@@ -3566,12 +3373,10 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "1a2b672b-5ee6-4bdc-9f34-67df996a29d8",
@@ -3604,12 +3409,10 @@
               {
                 "Text": " Passed in the Authorization header, but instead of \"bearer\", it will be some other custom scheme. AWS uses AWS4-HMAC-SHA256."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366871870,
             "id": "14032af3-2ee1-41d9-b383-6259f5854cc8",
@@ -3630,12 +3433,10 @@
               {
                 "Text": "Example:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366871870,
             "id": "b991a7be-735b-4937-bef7-6c2dd574b40b",
@@ -3656,12 +3457,10 @@
               {
                 "Text": "Authorization: AWS4-HMAC-SHA256 Credential=AKIDEXAMPLE/20150830/us-east-1/iam/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=5d672d79c15b13162d9279b0855cfba6789a8edb4c82c400e06b5924a6f2b5d7"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366871870,
             "id": "8756bc92-e0a7-40bf-baf1-e2bf91daee71",
@@ -3682,12 +3481,10 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "d7f78a08-3989-4d25-82e3-d490a6e9a580",
@@ -3720,12 +3517,10 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "f93d21cf-f154-4c4c-97f6-65628dd67a40",
@@ -3758,12 +3553,10 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications - because the mobile app cannot keep secrets."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "857172f3-fbce-492e-a548-dc65b1605fc0",
@@ -3796,12 +3589,10 @@
               {
                 "Text": " This is a preferred approach for server side applications where higher security is needed."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494366986634,
             "id": "1ec26398-94e5-44ad-80a0-2004d506c1a6",
@@ -3822,12 +3613,10 @@
               {
                 "Text": "In principle, it is similar to JWT with shared keys, except that in this approach everything is signed - the url, the parameters, the request headers and the request body."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "629573ce-aa39-4347-b471-0782178dcb8a",
@@ -3860,16 +3649,14 @@
               {
                 "Text": " Because everything is signed, this makes replay attacks impossible"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Full Request Signature"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -3890,7 +3677,6 @@
           "04641f48-0943-485b-ab60-752233521072",
           "a37b91f3-2fd7-40d1-8b7a-bc0e41cca0eb"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1494365974631,
         "id": "f2c2bf66-b586-4783-980b-830b3005b4c1",
@@ -3910,7 +3696,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365584693,
             "id": "fca6adfd-98cf-408a-864c-1bb6bee5c029",
@@ -3943,12 +3728,10 @@
               {
                 "Text": " Only use this when you have three parties - you, your users, and third party app developers that need your user data."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494367003729,
             "id": "ab37df30-63ed-4e84-aa78-555bcace2c65",
@@ -3969,12 +3752,10 @@
               {
                 "Text": "If you don't have third party developers, OAuth is overkill"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365590443,
             "id": "198a5b5d-69b8-4093-b747-b96def3835ec",
@@ -4007,12 +3788,10 @@
               {
                 "Text": " Only if you have external third party developers who want user specific data, and you need permission from your users before sharing their data with the third party."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494367011409,
             "id": "1ea0001b-8185-410a-865c-8c059ebc1524",
@@ -4033,12 +3812,10 @@
               {
                 "Text": "For anything else, OAuth is overkill."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365621958,
             "id": "f3473d59-2696-43f5-b5aa-b44608d455ab",
@@ -4065,12 +3842,10 @@
                 "Text": "Where is data stored? ",
                 "AttrFlags": 1
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365654852,
             "id": "8f40030b-9f3f-49b4-9f97-d2ba8f6e7a36",
@@ -4103,12 +3878,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365682732,
             "id": "33798c0e-de0c-4c47-934e-742d32d22820",
@@ -4135,12 +3908,10 @@
                 "Text": "Use Crypto?",
                 "AttrFlags": 1
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365696654,
             "id": "0aa04864-b451-4af6-a607-5cdc6778510a",
@@ -4173,12 +3944,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365606986,
             "id": "4b708cd8-c6da-4c46-b9c2-504e07c87eeb",
@@ -4205,12 +3974,10 @@
                 "Text": "Revocation. ",
                 "AttrFlags": 1
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365769894,
             "id": "5807cea5-789d-4f4b-807f-24a121b9529a",
@@ -4243,12 +4010,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365830034,
             "id": "b9e236ae-fe04-4284-a208-00149e6c9076",
@@ -4281,12 +4046,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365850117,
             "id": "921430c0-cf2d-47f5-9e30-e848ce36adb5",
@@ -4319,12 +4082,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365886913,
             "id": "28f44f1d-d7af-443e-bff1-1b571f1ff89f",
@@ -4357,12 +4118,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365899854,
             "id": "04641f48-0943-485b-ab60-752233521072",
@@ -4395,12 +4154,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494365914030,
             "id": "a37b91f3-2fd7-40d1-8b7a-bc0e41cca0eb",
@@ -4433,20 +4190,17 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Oauth"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501968720593,
         "id": "5a37d4e9-921c-4450-92d6-042722a4fb8f",
@@ -4455,12 +4209,10 @@
         "parent_id": "0e53211b-84da-49c2-880f-fcea30915a3c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501968719537,
         "id": "5bd74faa-c9a3-4257-bbf3-04903d550773",
@@ -4481,12 +4233,10 @@
           {
             "Text": "csrf:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501968723361,
         "id": "226c9ba9-2bc0-4449-95ba-994701c1d020",
@@ -4514,12 +4264,10 @@
             "Text": "https://medium.com/@zarkopafilis/gorilla-csrf-explained-843c9957800d",
             "Link": "https://medium.com/@zarkopafilis/gorilla-csrf-explained-843c9957800d"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Authentication methods",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

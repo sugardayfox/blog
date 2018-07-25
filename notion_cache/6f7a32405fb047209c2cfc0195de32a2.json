@@ -6,7 +6,6 @@
       "82eb8928-8e9a-4190-b7bb-3f38f0c803e5",
       "3731b665-b258-4bf8-aca1-845690d4630e"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1515212194549,
     "format": {
@@ -30,7 +29,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515212221241,
         "id": "82eb8928-8e9a-4190-b7bb-3f38f0c803e5",
@@ -64,12 +62,10 @@
             "Text": "https://www.youtube.com/watch?v=xVT1y0xWgww",
             "Link": "https://www.youtube.com/watch?v=xVT1y0xWgww"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515212240669,
         "id": "3731b665-b258-4bf8-aca1-845690d4630e",
@@ -104,12 +100,10 @@
         "type": "code",
         "version": 533,
         "code": "clang++ -std=c++14 -c -fpic static.cpp\nar rcs libstatic.a static.o\nclagn++ -std=c++14 -c -fpic dynamic.cpp\nclang++ -shared -o ",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       }
     ],
     "title": "Building static, dynamic libs with clang",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

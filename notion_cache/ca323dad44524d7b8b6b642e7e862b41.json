@@ -14,7 +14,6 @@
       "a1b29e17-b1f2-4492-b871-5a5058c1a959"
     ],
     "copied_from": "dfd3a3c7-1670-40f9-a036-6f87490d8cb0",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736828315,
     "format": {
@@ -38,7 +37,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "546b33b3-b118-474c-b2ef-810a48ce39c8",
@@ -59,12 +57,10 @@
           {
             "Text": "Id: 12"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "fbf105cf-624f-4be4-ac64-4b5072f064ee",
@@ -85,12 +81,10 @@
           {
             "Text": "Date: 2014-12-03T18:21:29-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "f82635b8-a34c-4052-8e0d-280fef37d308",
@@ -111,12 +105,10 @@
           {
             "Text": "Tags: programming, go"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "0bdccd2c-9a17-4b72-a6c4-0ac11ee9be1c",
@@ -125,12 +117,10 @@
         "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "42731c70-db54-4db9-bff7-d0389fe4ac8c",
@@ -169,12 +159,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "641cb6c4-0f7d-43e3-b975-066be86eb3c8",
@@ -195,12 +183,10 @@
           {
             "Text": "The problem with this approach is lack of selectivity: imagine you have 100 tests and only 1 test fails. For debugging the issue you only need to see logs when executing that 1 test but you’ll drown in log output from all 100 tests."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "bcffa560-6dfa-43e6-b107-ce5fbd12e0f2",
@@ -239,12 +225,10 @@
           {
             "Text": " and allow toggling this flag per test."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "3e48ff78-2261-4ef0-9c96-3d8eb34bba58",
@@ -265,12 +249,10 @@
           {
             "Text": "Something like this:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828315,
         "id": "a1b29e17-b1f2-4492-b871-5a5058c1a959",
@@ -293,12 +275,10 @@
         "type": "code",
         "version": 1,
         "code": "var (\n    verboseLog = false\n)\n\nfunc myCodeWithBugs(s string) {\n    if verboseLog {\n        fmt.Printf(\"s: %s\\n\", s)\n    }\n    ...\n}\n\nfunc TestMyCode(t *testing.T) {\n    var tests = []struct {\n        ... test fields\n        debug bool\n    }{\n        { ..., false }, // without verbose logging\n        { ..., true },  // with verbose logging\n    }\n    for _, test := range tests {\n        verboseLog = test.debug\n        ...\n    }\n}",
-        "code_language": "Go",
-        "CollectionViews": null
+        "code_language": "Go"
       }
     ],
     "title": "Tip for per-test verbose logging in Go",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

@@ -6,7 +6,6 @@
       "c3c48ce4-174b-44c3-8f5a-1f8bafb383d7",
       "cdb001f5-4696-4e42-ae57-1b9ecc664748"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512363494531,
     "format": {
@@ -30,7 +29,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512363591969,
         "id": "c3c48ce4-174b-44c3-8f5a-1f8bafb383d7",
@@ -58,12 +56,10 @@
             "Text": "http://andlabs.lostsig.com/blog/go-templates/",
             "Link": "http://andlabs.lostsig.com/blog/go-templates/"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512363521279,
         "id": "cdb001f5-4696-4e42-ae57-1b9ecc664748",
@@ -86,12 +82,10 @@
         "type": "code",
         "version": 0,
         "code": "## if\nif returns false for false booleans, empty strings, empty slices\n\n{{ if .Foo }} ... {{ end }}\n\n{{ if not .Foo }} ... {{ end }}\n\n## Slices: iterate, get length\n\n{{ range .Slice }} ... {{ end }}\n\n{{ len .Slice }}\n\n## Variables\n\n{{ $isAdmin := .IsAdmin }}\n\n{{ if $isAdmin }} ... {{ end }}\n\n## Include another template\n\n{{ template \"foo.html\" }}\n\nThis includes a template named \"foo\".",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "html templating",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

@@ -16,7 +16,6 @@
       "8f13c8e0-5193-49ab-a717-ea5c98bf16f8",
       "1048195e-2735-48e0-b2a2-8f21f3bbcac9"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492378440043,
     "format": {
@@ -46,7 +45,6 @@
           "5aa1503f-9b60-4730-9e0c-a13790357d6f",
           "292e1bea-a3f8-4615-8c21-b04d80cd3539"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1520495445816,
         "id": "fb2dcd1a-906b-4a38-8128-bf2321b5b03e",
@@ -66,7 +64,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1520495453615,
             "id": "028b32a2-67ec-4ee7-a3e8-21185d7eb9ef",
@@ -99,12 +96,10 @@
                 "Text": "core.autocrlf = true",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1520495517899,
             "id": "a949a8f5-e5fa-4555-9e3e-5cfbab7e78a0",
@@ -137,12 +132,10 @@
                 "Text": "core.autocrlf = input",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1520495577393,
             "id": "5aa1503f-9b60-4730-9e0c-a13790357d6f",
@@ -175,12 +168,10 @@
                 "Text": "core.autocrlf = false",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493624728630,
             "id": "292e1bea-a3f8-4615-8c21-b04d80cd3539",
@@ -208,16 +199,14 @@
                 "Text": "https://help.github.com/articles/dealing-with-line-endings/",
                 "Link": "https://help.github.com/articles/dealing-with-line-endings/"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "CRLF conversion, line endings"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -238,7 +227,6 @@
           "0bae3665-fff8-42b3-8dfc-42e1ba59aef4",
           "681757e1-1637-45c3-908f-a81410080d72"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492378505061,
         "id": "4f5f2384-e781-474c-8dee-1b40eeab2838",
@@ -258,7 +246,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492565381236,
             "id": "58997931-d3ea-441e-b36f-2083f01d31d7",
@@ -292,12 +279,10 @@
                 "Text": "https://chrisjean.com/git-submodules-adding-using-removing-and-updating/",
                 "Link": "https://chrisjean.com/git-submodules-adding-using-removing-and-updating/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492561104880,
             "id": "616d75ec-03db-4657-b5a9-37b433e777b2",
@@ -330,12 +315,10 @@
               {
                 "Text": " : checkout with submodules"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587784985,
             "id": "08858438-e245-4b3c-b9f7-b555ebdc9d8a",
@@ -404,12 +387,10 @@
               {
                 "Text": " flag, you can do this instead"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492561134481,
             "id": "731b901e-539f-47ca-aa8e-f7dd99014793",
@@ -442,12 +423,10 @@
               {
                 "Text": " : initialize submodules"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587828536,
             "id": "bbd68958-9969-4555-b65b-7a39c9d9d31f",
@@ -480,12 +459,10 @@
               {
                 "Text": " : update local submodules to what the server says"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492561435468,
             "id": "7289e4d8-b646-4d7e-8849-fc6e64cd6c5b",
@@ -541,12 +518,10 @@
                 "Text": " ext2/openjpeg",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493588139215,
             "id": "f7c4e9cd-b0a3-4127-9241-94a8bb86051e",
@@ -579,12 +554,10 @@
               {
                 "Text": " : check status of submodules"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587762857,
             "id": "209bdf29-3826-4a6b-aa00-f0b01ddab588",
@@ -605,12 +578,10 @@
               {
                 "Text": "To point submodule to a different version:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587901486,
             "id": "a49f6d5a-6f43-449e-88d2-3f26220f6c4e",
@@ -643,12 +614,10 @@
               {
                 "Text": " : go to submodule repository pointed by ext2/openjpeg"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587908618,
             "id": "96dd007d-36ab-4159-a551-f1da0016c331",
@@ -681,12 +650,10 @@
               {
                 "Text": " : submodules are in detached head state by default so in order to do something you need to switch to master (or whatever) branch"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587992452,
             "id": "d0eed289-c66d-4fd0-8028-e912f1665a4c",
@@ -719,12 +686,10 @@
               {
                 "Text": " : let's say that in the simplest case we want to point to latest version"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493588239951,
             "id": "d8d0a23b-3ee5-482f-8e05-c0defd5fdc57",
@@ -757,12 +722,10 @@
               {
                 "Text": " : back to main repo"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493588253622,
             "id": "a67f1111-e1f6-4402-a19d-3e714f7b731c",
@@ -795,12 +758,10 @@
               {
                 "Text": " : verify ext2/openjpeg shows as modified"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493588291978,
             "id": "0bae3665-fff8-42b3-8dfc-42e1ba59aef4",
@@ -833,12 +794,10 @@
               {
                 "Text": " : commit the changes"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493588014930,
             "id": "681757e1-1637-45c3-908f-a81410080d72",
@@ -872,16 +831,14 @@
                 "Text": "https://chrisjean.com/git-submodules-adding-using-removing-and-updating/",
                 "Link": "https://chrisjean.com/git-submodules-adding-using-removing-and-updating/"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Using submodules"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -891,7 +848,6 @@
           "ec23ff1b-ebc2-4c28-b478-a13e6bc249ae",
           "010c3913-96fd-4626-b741-068b88f3d441"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492561158315,
         "id": "a9bc96e8-41d8-4c04-987f-ff17cf776d7f",
@@ -911,7 +867,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587634847,
             "id": "96729221-e35c-4ff0-bef5-9043d55280e3",
@@ -956,12 +911,10 @@
                 "Text": "v1",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587671276,
             "id": "884c1193-d1f7-4ab8-9919-a11ec31663ac",
@@ -1012,12 +965,10 @@
               {
                 "Text": " to the server. On GitHub it shows up in tags/releases tab"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587699477,
             "id": "ec23ff1b-ebc2-4c28-b478-a13e6bc249ae",
@@ -1050,12 +1001,10 @@
               {
                 "Text": " : pushes all local tags to the server"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493587747503,
             "id": "010c3913-96fd-4626-b741-068b88f3d441",
@@ -1064,16 +1013,14 @@
             "parent_id": "a9bc96e8-41d8-4c04-987f-ff17cf776d7f",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "CollectionViews": null
+            "version": 0
           }
         ],
         "inline_content": [
           {
             "Text": "Tagging"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1085,7 +1032,6 @@
           "7fdd8592-bf84-4b87-a358-8869a0aba1cb",
           "4b350488-f0b0-4bad-a560-f4b8ea5f0dd0"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499735369070,
         "id": "359e33f0-f6db-4f60-8df1-f55a8d172488",
@@ -1105,7 +1051,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735385774,
             "id": "0cb0eced-3b15-429f-ae27-e10f0d517e09",
@@ -1133,12 +1078,10 @@
                 "Text": "https://stackoverflow.com/questions/11266478/git-add-remote-branch",
                 "Link": "https://stackoverflow.com/questions/11266478/git-add-remote-branch"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735390398,
             "id": "c09876e2-bc99-4a00-bb7b-0f23d137b54c",
@@ -1172,12 +1115,10 @@
                 "Text": "https://github.com/lxn/walk.git",
                 "Link": "https://github.com/lxn/walk.git"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735429996,
             "id": "34d459f6-1b7e-4fc5-8190-3a96b9d92c9c",
@@ -1198,12 +1139,10 @@
               {
                 "Text": "git fetch lxn-walk"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735547360,
             "id": "d8c7727c-2220-439a-a7da-38c99d52f21a",
@@ -1224,12 +1163,10 @@
               {
                 "Text": "To apply his commits: git cherry-pick \u003csha1\u003e"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735563875,
             "id": "7fdd8592-bf84-4b87-a358-8869a0aba1cb",
@@ -1250,12 +1187,10 @@
               {
                 "Text": "Synced to:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1502148345620,
             "id": "4b350488-f0b0-4bad-a560-f4b8ea5f0dd0",
@@ -1283,16 +1218,14 @@
                 "Text": "https://github.com/lxn/walk/commit/62d01dffd55c241b6eb01989a879b48ce154bf6c",
                 "Link": "https://github.com/lxn/walk/commit/62d01dffd55c241b6eb01989a879b48ce154bf6c"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "tracking remote branch on kjk\\walk"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1302,7 +1235,6 @@
           "68e01411-a25d-4c5b-8c06-e832f9db0c28",
           "ca05610d-c52f-45cc-a37a-bbf694127e64"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502151201568,
         "id": "0e677c6d-6f36-43db-afcf-7bca57ff6650",
@@ -1322,7 +1254,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735390398,
             "id": "f2e91988-09c9-4ede-b2db-7c8cc3ec4175",
@@ -1356,12 +1287,10 @@
                 "Text": "https://github.com/lxn/win.git",
                 "Link": "https://github.com/lxn/walk.git"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735429996,
             "id": "6b83a18b-a01a-4070-a72a-598bee6163de",
@@ -1382,12 +1311,10 @@
               {
                 "Text": "git fetch lxn-win"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735547360,
             "id": "68e01411-a25d-4c5b-8c06-e832f9db0c28",
@@ -1408,12 +1335,10 @@
               {
                 "Text": "To apply his commits: git cherry-pick \u003csha1\u003e"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1499735563875,
             "id": "ca05610d-c52f-45cc-a37a-bbf694127e64",
@@ -1434,23 +1359,20 @@
               {
                 "Text": "Synced to:"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "tracking remote branch on kjk\\win"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "f8113ab6-315b-4a61-814c-39d0e9724339"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352840875,
         "id": "4d20225f-09e9-459a-9e3f-efbcc0c10512",
@@ -1470,7 +1392,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512352853972,
             "id": "f8113ab6-315b-4a61-814c-39d0e9724339",
@@ -1493,16 +1414,14 @@
             "type": "code",
             "version": 0,
             "code": "#!/bin/bash\n\nset -o nounset\nset -o errexit\nset -o pipefail\n\n# stale local branch is one that no longer exists on the server\n\ngit checkout master\necho \"\"\necho \"Local stale branches and commands to delete them:\"\necho \"\"\nfor r in $(git for-each-ref refs/heads --format='%(refname:short)')\ndo\n  if [ x$(git merge-base master \"$r\") = x$(git rev-parse --verify \"$r\") ]\n  then\n    if [ \"$r\" != \"master\" ]\n    then\n      echo \"git branch -d $r\"\n    fi\n  fi\ndone",
-            "code_language": "Shell",
-            "CollectionViews": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "list local stale branches"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -1511,7 +1430,6 @@
           "ef56b05b-27cf-49ab-ade2-834ae4a23359",
           "eb1da52c-37a4-4c88-90af-7c89178ed9a3"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515366516412,
         "id": "7cb8d4fb-b5fa-491d-96d1-9862abfa5575",
@@ -1531,7 +1449,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1515366523285,
             "id": "55315ea3-9bce-4544-ac89-e60d735bfd20",
@@ -1565,12 +1482,10 @@
                 "Text": "https://rtyley.github.io/bfg-repo-cleaner/",
                 "Link": "https://rtyley.github.io/bfg-repo-cleaner/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1515366526450,
             "id": "ef56b05b-27cf-49ab-ade2-834ae4a23359",
@@ -1603,12 +1518,10 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1515366532897,
             "id": "eb1da52c-37a4-4c88-90af-7c89178ed9a3",
@@ -1641,23 +1554,20 @@
               {
                 "Text": " "
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "remove files from history"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "431cea1b-e285-4ad5-aa5f-b304c4387441"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352883674,
         "id": "97d0a1bc-0055-4509-8fcf-1763fc3d6a10",
@@ -1677,7 +1587,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512352888793,
             "id": "431cea1b-e285-4ad5-aa5f-b304c4387441",
@@ -1700,23 +1609,20 @@
             "type": "code",
             "version": 0,
             "code": "https://github.com/AGWA/git-crypt - selectively encrypt files in git repo, has brew package, has a windows build in https://github.com/ccleaud/git-crypt\n\nRename a branch locally and remotely: (from https://gist.github.com/lttlrck/9628955)\ngit branch -m old_branch new_branch         # Rename branch locally\ngit push origin :old_branch                 # Delete the old branch\ngit push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "tips"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "7e840bf9-2db1-44c5-a7e7-1d3fb4886f09"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352925161,
         "id": "6c40c02e-debb-4057-a5b4-4b7cdb2f52f2",
@@ -1736,7 +1642,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512352930591,
             "id": "7e840bf9-2db1-44c5-a7e7-1d3fb4886f09",
@@ -1759,23 +1664,20 @@
             "type": "code",
             "version": 2,
             "code": "http://justinhileman.info/article/git-pretty/\n\nDmitri's script to list status of local vs. remote branches:\n# Local branches vs. local master Behind/Ahead\ngoe --quiet 'github.com/shurcooL/go/exp/12' 'd := LookupDirectory(\".\"); d.Update(); d.Repo.VcsLocal.Update(); fmt.Print(u6.Branches(d.Repo))' | markdownfmt\n\n# Local vs. Upstream branches behind/ahead\ngit remote update 2\u003e\u00261 \u003e/dev/null \u0026\u0026 goe --quiet 'github.com/shurcooL/go/exp/12' 'd := LookupDirectory(\".\"); d.Update(); d.Repo.VcsLocal.Update(); fmt.Print(u6.BranchesRemote(d.Repo))' | markdownfmt\n\nPre-requistes:\ngo get -u github.com/shurcooL/{goe,markdownfmt,go}\n\nContributing to someone else's Go project: https://blog.splice.com/contributing-open-source-git-repositories-go/\n\nsquashing commits:\ngit rebase --interactive HEAD~5 : this will open editor with info for last 5 checkins; \n\ngit commit --amend -m \"new commit message\"",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "350bf9f6-b76d-43d8-a724-17d182832cb6"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352942167,
         "id": "08152f23-2300-4bd5-be0f-af62a28c6ffc",
@@ -1795,7 +1697,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512352948591,
             "id": "350bf9f6-b76d-43d8-a724-17d182832cb6",
@@ -1818,23 +1719,20 @@
             "type": "code",
             "version": 0,
             "code": "git fetch\ngit rebase origin/master\n# then push with force, e.g. if I was on branch cassandra2\ngit push --force origin cassandra2\n\nHow to rebase interactively:\ngit rebase --interactive master : rebases current branch based on master",
-            "code_language": "Plain Text",
-            "CollectionViews": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "rebasing"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "3d1d6bdf-20f7-46e9-bf9d-7df2be06cdfe"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352943776,
         "id": "8f13c8e0-5193-49ab-a717-ea5c98bf16f8",
@@ -1854,7 +1752,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1517257125396,
             "id": "3d1d6bdf-20f7-46e9-bf9d-7df2be06cdfe",
@@ -1888,20 +1785,17 @@
               {
                 "Text": " : On undoing, fixing, or removing commits in git"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "links"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493624736828,
         "id": "1048195e-2735-48e0-b2a2-8f21f3bbcac9",
@@ -1910,12 +1804,10 @@
         "parent_id": "c45ea742-c768-4df4-90ff-81e015598690",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       }
     ],
     "title": "git",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

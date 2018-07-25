@@ -19,7 +19,6 @@
       "041aefae-be72-49f9-ae62-dad28bef04b8"
     ],
     "copied_from": "fa7399ab-9a0b-4ef5-9db4-b3eb95398d81",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923326,
     "format": {
@@ -43,7 +42,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "cd3eced7-d221-4345-87ef-3de8347a5e2f",
@@ -64,12 +62,10 @@
           {
             "Text": "Id: 2007"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "a9ac9feb-4bdc-40da-9d74-2518513e3519",
@@ -90,12 +86,10 @@
           {
             "Text": "Tags: sumatra"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "a0a9e311-517d-49b9-8203-f1d50cb03d45",
@@ -116,12 +110,10 @@
           {
             "Text": "Date: 2008-10-02T05:22:00-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "09bc24c2-ee8f-46bb-bdff-81a3a2a64ef4",
@@ -130,12 +122,10 @@
         "parent_id": "e61f8b9a-55ee-4bde-8f9f-c6e86105a422",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "160b9c83-8327-4ff9-b9f5-ff45cc975e76",
@@ -156,12 +146,10 @@
           {
             "Text": "Yet another update to Sumatra. Changes in this version:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "773578c2-124e-4a5e-9ab0-3a01b7f7b4d2",
@@ -182,12 +170,10 @@
           {
             "Text": "ability to disable auto-update check"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "ddf60c07-4059-4b59-a297-e312bdbcbed3",
@@ -208,12 +194,10 @@
           {
             "Text": "improved text rendering - should fix problems with overlapping text"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "c2b32b4f-819d-4283-9933-0077d0beb3ea",
@@ -234,12 +218,10 @@
           {
             "Text": "improved font substitution for fonts not present in PDF file"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "34bacf33-c39c-47e6-849a-fa7fd0e0598d",
@@ -260,12 +242,10 @@
           {
             "Text": "can now open PDF files with non-ascii names"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "0ba96c1d-b1fc-45b3-9813-dd0c053476c8",
@@ -286,12 +266,10 @@
           {
             "Text": "improvements to DDE (contributed by Danilo Roascio)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "aee2c31b-f354-48a1-86c0-f579a88138fa",
@@ -312,12 +290,10 @@
           {
             "Text": "SyncTex improvements"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "0ad45e42-616e-4994-9006-e7019b29024a",
@@ -338,12 +314,10 @@
           {
             "Text": "improve persistence of state (contributed by Robert Liu)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "c6a1190b-4184-4a09-812e-9e63ebde2733",
@@ -364,12 +338,10 @@
           {
             "Text": "fix crash when pressing ‘Cancel’ when entering a password"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923326,
         "id": "041aefae-be72-49f9-ae62-dad28bef04b8",
@@ -390,12 +362,10 @@
           {
             "Text": "updated translations"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "SumatraPDF 0.9.3 released",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

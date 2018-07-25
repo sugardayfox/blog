@@ -11,7 +11,6 @@
       "d0bc1380-fd2e-4c61-af5b-8e46578bb311",
       "5f717aac-e160-4124-85a0-6e9e58f7bb67"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492638788233,
     "format": {
@@ -35,7 +34,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492638796494,
         "id": "fb641c10-da0a-4c41-ae09-b14196f97150",
@@ -56,12 +54,10 @@
           {
             "Text": "Storage: $5.12/TB"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492638887858,
         "id": "eb956f1d-a189-4e7d-9a5f-32dfdb8dea56",
@@ -82,8 +78,7 @@
           {
             "Text": "Download: $20.5/TB"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -93,7 +88,6 @@
           "1c9a44b2-8d61-4a3b-9c53-1f2f007b2ed1",
           "16ca4116-a773-4758-8425-1996a2689b38"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492638964869,
         "id": "c93122c0-2785-4dc4-ba98-9592bfc1b035",
@@ -113,7 +107,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492640529329,
             "id": "4087e853-b9c3-4839-a495-d3d1e35d771a",
@@ -134,12 +127,10 @@
               {
                 "Text": "For Go, the best ones first:"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492638989846,
             "id": "d849e545-0ce6-4ebd-b5c7-d8df5fd0199d",
@@ -186,12 +177,10 @@
                 "Text": "https://godoc.org/github.com/kurin/blazer/b2",
                 "Link": "https://godoc.org/github.com/kurin/blazer/b2"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492639058204,
             "id": "1c9a44b2-8d61-4a3b-9c53-1f2f007b2ed1",
@@ -238,12 +227,10 @@
                 "Text": "https://godoc.org/gopkg.in/kothar/go-backblaze.v0",
                 "Link": "https://godoc.org/gopkg.in/kothar/go-backblaze.v0"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492639007512,
             "id": "16ca4116-a773-4758-8425-1996a2689b38",
@@ -271,20 +258,17 @@
                 "Text": "https://github.com/kurin/blazer",
                 "Link": "https://github.com/kurin/blazer"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Libraries"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492640526685,
         "id": "4c67034b-a74d-421e-9eaf-b8fc81fb2553",
@@ -305,12 +289,10 @@
           {
             "Text": "Summary:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492640582052,
         "id": "c004d907-2111-40a6-9ebd-88002b03e5fa",
@@ -331,12 +313,10 @@
           {
             "Text": "create a bucket (max 100 buckets)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492640613960,
         "id": "d0bc1380-fd2e-4c61-af5b-8e46578bb311",
@@ -357,12 +337,10 @@
           {
             "Text": "bucket is fully public or fully private (unlike S3, where you can set per-file public/private state)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492640511582,
         "id": "5f717aac-e160-4124-85a0-6e9e58f7bb67",
@@ -371,12 +349,10 @@
         "parent_id": "595294dc-8be6-41ee-8aec-14a9b5d21ac7",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       }
     ],
     "title": "Backblaze service",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

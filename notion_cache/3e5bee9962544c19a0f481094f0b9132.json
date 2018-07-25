@@ -5,7 +5,6 @@
     "content": [
       "432449d0-8e11-48c8-af75-05a0a20aa9ca"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1516085521206,
     "format": {
@@ -34,7 +33,6 @@
           "aef3c8c2-f2c4-4887-9d5f-0b40355bdbcb",
           "c2c5dd19-4537-48fe-b729-0263579af95a"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1516085528390,
         "id": "432449d0-8e11-48c8-af75-05a0a20aa9ca",
@@ -54,7 +52,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516085549387,
             "id": "9b0d92f6-2f69-414e-8d32-1135673f12e6",
@@ -88,12 +85,10 @@
                 "Text": "https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/",
                 "Link": "https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516085556449,
             "id": "aef3c8c2-f2c4-4887-9d5f-0b40355bdbcb",
@@ -116,12 +111,10 @@
             "type": "code",
             "version": 10,
             "code": "function runDebounced(f) {\n  let timeout = null;\n  const f = function() {\n    if (timeout) {\n      window.cancelAnimationFrame(timeout);\n    }\n    timeout = window.requestAnimationFrame(f);\n  }\n  f();\n}\n\nwindow.addEventListener('resize', function(e) {\n  function f() {\n    console.log(\"resize:\", e);\n  }\n  runDebounced(f);\n}, false);",
-            "code_language": "Javascript",
-            "CollectionViews": null
+            "code_language": "Javascript"
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1517861603237,
             "id": "c2c5dd19-4537-48fe-b729-0263579af95a",
@@ -130,20 +123,17 @@
             "parent_id": "432449d0-8e11-48c8-af75-05a0a20aa9ca",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "CollectionViews": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "debounce resize event with requestAnimationFrame"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "javascript snippets",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

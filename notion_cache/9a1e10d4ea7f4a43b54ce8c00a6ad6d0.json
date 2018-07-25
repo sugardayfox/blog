@@ -6,7 +6,6 @@
       "5d08a301-79c1-4620-b121-33e6005840b0",
       "b565f1b8-57a9-4642-a684-fc51fd15f599"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1516237781025,
     "format": {
@@ -38,7 +37,6 @@
           "6ac31632-ace0-46db-b2a8-98a536169b65",
           "ec208332-1c72-4b7e-b79e-e4001b9c2806"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1516237829274,
         "id": "5d08a301-79c1-4620-b121-33e6005840b0",
@@ -58,7 +56,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516237837449,
             "id": "ec3655bb-f686-4f62-a47f-106296904689",
@@ -79,12 +76,10 @@
               {
                 "Text": "reads: $0.06 per 100k, $0.6 per 1mil, $6 per 10 mil"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516237860524,
             "id": "73213a63-47a2-464a-918e-4e9d489173c8",
@@ -105,12 +100,10 @@
               {
                 "Text": "writes: $0.18 per 100k, $1.8 per 1mil, $18 per 10 mil"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516237883948,
             "id": "c9ca1186-89a2-475b-b2ef-ec8a7db92c73",
@@ -131,12 +124,10 @@
               {
                 "Text": "deletes: $0.02 per 100k, $0.2 per 1mil, $2 per 10 mil"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516237910153,
             "id": "eddf379c-4795-42cf-b6b8-4b14219b38c7",
@@ -157,12 +148,10 @@
               {
                 "Text": "data: $0.18 per 1GB/mo, $1.8 per 10GB/mo, $18 per 100GB/mo"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516238135444,
             "id": "6ac31632-ace0-46db-b2a8-98a536169b65",
@@ -183,12 +172,10 @@
               {
                 "Text": "bandwidth: free inside Google Datacenter, $0.12 per GB, $1.2 per 10 GB, $12 per 100GB"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1516238196619,
             "id": "ec208332-1c72-4b7e-b79e-e4001b9c2806",
@@ -209,20 +196,17 @@
               {
                 "Text": "Free quotas: 50k reads/day, 20k writes/day, 20k deletes per day, 1 GB data and 10 GB bandwidth"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "pricing"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1516237834153,
         "id": "b565f1b8-57a9-4642-a684-fc51fd15f599",
@@ -231,12 +215,10 @@
         "parent_id": "9a1e10d4-ea7f-4a43-b54c-e8c00a6ad6d0",
         "parent_table": "block",
         "type": "text",
-        "version": 8,
-        "CollectionViews": null
+        "version": 8
       }
     ],
     "title": "firebase firestore",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

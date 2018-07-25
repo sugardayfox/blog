@@ -15,7 +15,6 @@
       "4e1b5c66-3f6c-4811-bba3-a21e235d4350"
     ],
     "copied_from": "e1cbd7a4-8a16-4037-96d3-5bc872cc8459",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195893742,
     "format": {
@@ -39,7 +38,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "8fdf536a-c3f1-4109-9e03-0c11b417ad5d",
@@ -60,12 +58,10 @@
           {
             "Text": "Id: 967"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "4ec1b8e4-f449-4562-ac56-4c104d59eef2",
@@ -86,12 +82,10 @@
           {
             "Text": "Tags: sumatra"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "97424f0f-c9d1-4f7e-94a6-6f01d2bb5a29",
@@ -112,12 +106,10 @@
           {
             "Text": "Date: 2007-03-04T20:08:15-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "b2453895-1a6a-4036-b924-3815013766eb",
@@ -126,12 +118,10 @@
         "parent_id": "4e3d3b4a-b3f4-4010-b267-6d6baab0da36",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "3815333b-4b31-4124-a3d3-35fedc76bea4",
@@ -152,12 +142,10 @@
           {
             "Text": "This release comes a little sooner that I planned but I wanted to fix rendering issues that cropped in version 0.4 when I switched the default rendering engine from poppler to mupdf. I fixed all the issues reported on the forums and in the bug tracker."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "7d969802-cf38-4c38-81b8-74bb8509977f",
@@ -178,12 +166,10 @@
           {
             "Text": "But I didn’t stop there. I’ve also made some bugfixes and speedups so the application should feel more snappy and you should see “please wait” message less often plus I re-enabled predictive rendering of the next page (which got lost in version 0.4), for even better and faster reading experience."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "1f8d807e-1360-4e06-a6d3-71e9806e7c8b",
@@ -204,12 +190,10 @@
           {
             "Text": "Caching has been improved so SumatraPDF shouldn’t consume as much memory as it used to in long reading sessions."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "f3a26277-903f-4636-bd98-f6cc23f0d4f7",
@@ -230,12 +214,10 @@
           {
             "Text": "I’ve added keyboard shortcuts for rotate clockwise and counter-clockwise (Ctrl-Shift-+ and Ctrl-Shift–, just like Acrobat Reader). This was suggested recently on the forums."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "af6dfabe-61ad-4cfd-8cf5-34bea264d523",
@@ -256,12 +238,10 @@
           {
             "Text": "And finally I added an About menu."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893743,
         "id": "4e1b5c66-3f6c-4811-bba3-a21e235d4350",
@@ -282,12 +262,10 @@
           {
             "Text": "Enjoy!"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "SumatraPDF 0.5 released",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

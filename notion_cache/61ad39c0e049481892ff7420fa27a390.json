@@ -6,7 +6,6 @@
       "e6f4a13b-f493-4216-8c4e-518099e41487",
       "6bb88584-3490-4390-a05f-7f98249889d7"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1495232569011,
     "id": "61ad39c0-e049-4818-92ff-7420fa27a390",
@@ -35,7 +34,6 @@
           "5255d396-d58e-446b-b1e0-1f4f6ba22528",
           "86d301a2-d3ec-4ba4-a5ba-f15f829b430c"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1495232571684,
         "id": "e6f4a13b-f493-4216-8c4e-518099e41487",
@@ -55,7 +53,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232608831,
             "id": "1e78e7eb-b8a8-4b97-ae75-980f36d7e770",
@@ -99,12 +96,10 @@
                 "AttrFlags": 2,
                 "Link": "http://example.org"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232621586,
             "id": "654c2d57-9a04-4cbd-90ea-a24fbed7831b",
@@ -137,12 +132,10 @@
               {
                 "Text": " – Makes (among other things) the download recursive."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232626927,
             "id": "9eff56a4-b7c7-4d73-9627-0539144ba8cc",
@@ -175,12 +168,10 @@
               {
                 "Text": " – convert all the links (also to stuff like CSS stylesheets) to relative, so it will be suitable for offline viewing."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232626927,
             "id": "de59248b-21aa-492c-aea1-6504506dbfdf",
@@ -213,12 +204,10 @@
               {
                 "Text": " – Adds suitable extensions to filenames (html or css) depending on their content-type."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232626927,
             "id": "28c212d3-071b-4023-b5b0-ec5e2a3c0ac8",
@@ -251,12 +240,10 @@
               {
                 "Text": " – Download things like CSS style-sheets and images required to properly display the page offline."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232626927,
             "id": "5255d396-d58e-446b-b1e0-1f4f6ba22528",
@@ -289,12 +276,10 @@
               {
                 "Text": " – When recursing do not ascend to the parent directory. It useful for restricting the download to only a portion of the site."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495232718686,
             "id": "86d301a2-d3ec-4ba4-a5ba-f15f829b430c",
@@ -303,16 +288,14 @@
             "parent_id": "e6f4a13b-f493-4216-8c4e-518099e41487",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "CollectionViews": null
+            "version": 0
           }
         ],
         "inline_content": [
           {
             "Text": "mirroring a website"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -325,7 +308,6 @@
           "1f1eb6d8-42f5-4f05-a451-1a2fdc7d74a1",
           "a1234eaf-808f-42fe-a245-f0d3279c402b"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512461528456,
         "id": "6bb88584-3490-4390-a05f-7f98249889d7",
@@ -345,7 +327,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "27e284d9-1245-4f76-864d-c3f96a4e2e0c",
@@ -396,12 +377,10 @@
               {
                 "Text": ", don't over-write if exist"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "398a4547-6559-4602-9f46-817434f584b5",
@@ -434,12 +413,10 @@
               {
                 "Text": " : recursive"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "4be3470a-58e2-4c61-8467-64e809ae817e",
@@ -490,12 +467,10 @@
               {
                 "Text": ", when recursive, don't download from parent directories"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "32361be0-7700-40ba-9f56-34ddd82444ba",
@@ -546,12 +521,10 @@
               {
                 "Text": ", disable generation of host-prefixed directories (don't put host name in directory name)"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "5648acae-c68a-47bd-b797-9940500a1a1c",
@@ -602,12 +575,10 @@
               {
                 "Text": ", follow relative links only"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "1f1eb6d8-42f5-4f05-a451-1a2fdc7d74a1",
@@ -640,12 +611,10 @@
               {
                 "Text": " : shorten final directory name by cutting 2 first element from source"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461528456,
             "id": "a1234eaf-808f-42fe-a245-f0d3279c402b",
@@ -708,20 +677,17 @@
                 "Text": "-q",
                 "AttrFlags": 2
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "options"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
-    "title": "wget",
-    "CollectionViews": null
+    "title": "wget"
   },
   "Users": [
     {

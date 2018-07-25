@@ -15,7 +15,6 @@
       "f657a2b0-a494-4ed5-9b18-3b9c03c47fbb",
       "20fb5c1b-76bd-4091-be25-46cf09323a47"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531880232819,
     "format": {
@@ -40,7 +39,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531880238039,
         "id": "3db74fd6-ce6c-47f6-b627-489746b7aa64",
@@ -49,15 +47,13 @@
         "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
         "parent_table": "block",
         "type": "text",
-        "version": 6,
-        "CollectionViews": null
+        "version": 6
       },
       {
         "alive": true,
         "content": [
           "3b92e78c-6514-4940-8f3e-1f9a8554bc23"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194213,
         "id": "56ba4239-08f8-4c33-8089-727af09f72e7",
@@ -78,7 +74,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204214782,
             "id": "3b92e78c-6514-4940-8f3e-1f9a8554bc23",
@@ -99,16 +94,14 @@
               {
                 "Text": "blog: added -watch option that rebuilds netlify_static when source files change. Makes easier to test changes locally."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-22"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -121,7 +114,6 @@
           "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
           "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194220,
         "id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
@@ -142,7 +134,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204229565,
             "id": "df4184cf-b66e-44ae-8c34-1257d122a30f",
@@ -163,12 +154,10 @@
               {
                 "Text": "#idea"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194221,
             "id": "6297979c-02ac-4505-a9e5-2236270f56c3",
@@ -209,12 +198,10 @@
               {
                 "Text": "."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194221,
             "id": "53021fd2-beea-47ce-aa1c-f0af87aa254d",
@@ -236,12 +223,10 @@
               {
                 "Text": "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194221,
             "id": "dd699c2a-d1db-44b1-863e-552947a393e3",
@@ -263,12 +248,10 @@
               {
                 "Text": "One could build a single page app that includes all the important functionality of a blog."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194221,
             "id": "81a3ce97-5ad6-4d73-97bf-2d48e05da07b",
@@ -290,12 +273,10 @@
               {
                 "Text": "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194221,
             "id": "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
@@ -317,12 +298,10 @@
               {
                 "Text": "Written in Vue."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194222,
             "id": "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad",
@@ -344,23 +323,20 @@
               {
                 "Text": "Unfortunately, there’s no money in it."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-18"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "381de040-2f94-4768-85b2-689f812b5adb"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "18a57cde-1e5e-44fe-8cee-6c658b0afc8e",
@@ -381,7 +357,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204270388,
             "id": "381de040-2f94-4768-85b2-689f812b5adb",
@@ -402,23 +377,20 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-13"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "7a6c7f9d-7d1e-402a-b916-d7130f61278a"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "e1afa8aa-a0af-4226-bcbc-85417095460e",
@@ -439,7 +411,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204267108,
             "id": "7a6c7f9d-7d1e-402a-b916-d7130f61278a",
@@ -460,23 +431,20 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-12"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "3b8953b2-ee11-43da-9e76-22590710c8ba"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "5b3c8405-0954-4f52-a47a-870caebcd9a8",
@@ -497,7 +465,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204264316,
             "id": "3b8953b2-ee11-43da-9e76-22590710c8ba",
@@ -518,23 +485,20 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-10"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "947ccd74-cbc1-40c5-ac2b-421472e4803f"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "3be6f7c8-c6ff-4055-b796-0a404ee22f30",
@@ -555,7 +519,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204261043,
             "id": "947ccd74-cbc1-40c5-ac2b-421472e4803f",
@@ -576,23 +539,20 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-09"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "6219ce17-66a7-40fe-bd2e-71b84b06c7ec"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "2d23437e-7fe5-4a9e-860e-5fcdf58fbaf7",
@@ -613,7 +573,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204257828,
             "id": "6219ce17-66a7-40fe-bd2e-71b84b06c7ec",
@@ -634,16 +593,14 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-08"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
@@ -651,7 +608,6 @@
           "8ea0a7eb-eb89-4dfe-ace5-85787c34ffff",
           "ce050334-52f5-4024-a921-6447511f9c71"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194222,
         "id": "d38a5bee-aaf7-4f05-8352-1cecaec67b6d",
@@ -672,7 +628,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887635480,
             "id": "8ea0a7eb-eb89-4dfe-ace5-85787c34ffff",
@@ -693,12 +648,10 @@
               {
                 "Text": "blog: replaced use of highlight.js for syntax-highlighting with chroma Go library. It’s even more static."
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194222,
             "id": "ce050334-52f5-4024-a921-6447511f9c71",
@@ -720,23 +673,20 @@
               {
                 "Text": "blog: rewriting regen.py in Go."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-07"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "1f33ea45-bf9f-4b3f-9c13-af2774244e9b"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194223,
         "id": "f657a2b0-a494-4ed5-9b18-3b9c03c47fbb",
@@ -757,7 +707,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204487374,
             "id": "1f33ea45-bf9f-4b3f-9c13-af2774244e9b",
@@ -778,23 +727,20 @@
               {
                 "Text": "deployed blog to netlify. Removed the code not related to netlify."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-06"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "9fa80234-a01e-4e7e-ae3f-20580eeb8aaf"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194223,
         "id": "20fb5c1b-76bd-4091-be25-46cf09323a47",
@@ -815,7 +761,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204194223,
             "id": "9fa80234-a01e-4e7e-ae3f-20580eeb8aaf",
@@ -837,20 +782,17 @@
               {
                 "Text": "porting blog to netlify."
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-02"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "devlog 2017-12 • 10 d",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

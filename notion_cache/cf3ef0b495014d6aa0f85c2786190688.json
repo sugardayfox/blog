@@ -13,7 +13,6 @@
       "c9009028-c22a-4d1c-bdea-d6f046312097"
     ],
     "copied_from": "9ac79758-4418-4f1e-aeb1-f3ae9860e243",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923173,
     "format": {
@@ -37,7 +36,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "7ee51fdd-9737-46b8-b98c-36e92b30802f",
@@ -58,12 +56,10 @@
           {
             "Text": "Id: 995"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "7cb22a6f-0ab6-456e-bfb2-28b01b6bf252",
@@ -84,12 +80,10 @@
           {
             "Text": "Tags: windbg, debugging"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "48da19dc-8107-42f6-a8ff-226f747a461f",
@@ -110,12 +104,10 @@
           {
             "Text": "Date: 2008-04-17T19:31:59-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "dbf38cbc-6bf7-4d0e-8ec7-a05a1cfa8ab1",
@@ -136,12 +128,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "7b5a8e99-de20-464c-9d30-cc58c61c8f08",
@@ -150,12 +140,10 @@
         "parent_id": "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "910f5275-ba02-4c15-bcf5-4915ca3aa9fa",
@@ -230,12 +218,10 @@
           {
             "Text": " to any directory on your hard-drive)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "01c63002-dace-4015-9c1e-2bc32db3720f",
@@ -256,12 +242,10 @@
           {
             "Text": "I was running such setup for some time but observed that starting up a debugging session too a long time. It was annoying and after a while it hit me that I’ve caused this: even the simplest Windows program implicitly links a lot of DLLs. Both Visual Studio and WinDBG feel the need to load up symbols for all those system DLLs and it turns out it takes a lot of time."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923173,
         "id": "c9009028-c22a-4d1c-bdea-d6f046312097",
@@ -354,12 +338,10 @@
           {
             "Text": " to force loading of symbols."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "_NT_SYMBOL_PATH considered harmful",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

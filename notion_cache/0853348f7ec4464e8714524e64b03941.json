@@ -16,7 +16,6 @@
       "d08a3c4f-bd55-4d0d-912a-fe8234f04ae2"
     ],
     "copied_from": "7dc2cf61-a97f-4fdb-9623-a2e3c19c1a05",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195826560,
     "format": {
@@ -40,7 +39,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "cfeb51f3-e712-4fb3-92f6-afe29c441a0d",
@@ -61,12 +59,10 @@
           {
             "Text": "Id: 1308"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "b1eac669-4574-41f1-9136-5c2ef7dec831",
@@ -87,12 +83,10 @@
           {
             "Text": "Tags: windows"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "ec9660fa-1f65-4172-832d-6b3655c9d2ca",
@@ -113,12 +107,10 @@
           {
             "Text": "Date: 2005-12-30T16:00:00-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "a751d460-89fe-49cf-91d2-05c145572bbf",
@@ -127,12 +119,10 @@
         "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "1a16fdeb-1381-436a-971b-b85bc8e548c0",
@@ -189,12 +179,10 @@
           {
             "Text": " (at least that’s the name on Windows XP)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "d32abeb7-a9f4-4e68-8870-3780cddbe962",
@@ -215,12 +203,10 @@
           {
             "Text": "What are possible uses for this file:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "11b31d6d-665f-4383-adec-087b075b278f",
@@ -241,12 +227,10 @@
           {
             "Text": "when I make changes to my blog, I develop and test the changes on my local Apache setup on windows. My config files are setup up so that they work correctly both on my local test server and deployed server. To make things easier, I use hosts file to map local loopback address 127.0.0.1 to blog.local.org"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "f843105e-3935-4c63-9dfb-758507683f73",
@@ -267,12 +251,10 @@
           {
             "Text": "changing hosts file can be used to fool local computer and simulate DNS changes (e.g. for testing before making real DNS changes)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "9d6e6f04-e642-4fc7-97ef-23695bdd6cf8",
@@ -293,12 +275,10 @@
           {
             "Text": "Changes to hosts file take place immediately after saving the file."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "617b2538-e1b4-40a9-a931-f6571cb5bde4",
@@ -319,12 +299,10 @@
           {
             "Text": "Here’s the simplest mapping from 127.0.0.1 to localhost and blog.local.org names:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195826560,
         "id": "d08a3c4f-bd55-4d0d-912a-fe8234f04ae2",
@@ -347,12 +325,10 @@
         "type": "code",
         "version": 1,
         "code": "127.0.0.1       localhost blog.local.org",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Local DNS modifications on Windows (/etc/hosts equivalent)",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

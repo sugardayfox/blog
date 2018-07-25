@@ -41,7 +41,6 @@
       "be097b80-565f-4a38-bee6-f2db6650dd0c"
     ],
     "copied_from": "a129d4c9-32da-4b82-8192-d03fe051b941",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736828298,
     "format": {
@@ -65,7 +64,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "b340c30c-754f-4881-b566-34544bd4daba",
@@ -86,12 +84,10 @@
           {
             "Text": "Id: 10000"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "f1270326-800c-495e-bfc9-cd80489ac667",
@@ -112,12 +108,10 @@
           {
             "Text": "Date: 2014-11-27T22:59:50-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "4857791c-073b-4bf8-80b6-a1e0be860307",
@@ -138,12 +132,10 @@
           {
             "Text": "Tags: programming"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "532a50ac-1234-4370-927e-80f0f90eb553",
@@ -164,12 +156,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "ff102d10-da4e-470f-992c-d7cd863afcb5",
@@ -178,12 +168,10 @@
         "parent_id": "d7277fb9-ef4c-4ad4-9858-d30c8c901fa7",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "387cea34-aace-496b-82ba-377b165c7644",
@@ -204,12 +192,10 @@
           {
             "Text": "Ansible is a system for provisioning servers and automatic deployments."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828298,
         "id": "20cf2e60-4b82-42ce-bf5e-4b8e52fc5423",
@@ -230,12 +216,10 @@
           {
             "Text": "I recently used it for deploying a website written in Go and it worked well for both provisioning and deployment."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "19edcf00-8dd8-48da-b99c-828f025d3636",
@@ -256,12 +240,10 @@
           {
             "Text": "Provisioning is about setting up pre-requisites that only have to be done once."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "b529946c-ab16-4681-9a8e-32dd6dc60d82",
@@ -282,12 +264,10 @@
           {
             "Text": "Deployment is about updating the project to the latest version. It happens as often as you update the project."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "abc84937-0c3b-48e6-8f2c-cc7a52bd1de6",
@@ -308,12 +288,10 @@
           {
             "Text": "In case of a simple website, provisioning Ubuntu 14.10 server involved the following steps:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "a14ce64f-b40e-47d0-8684-91b23c8664c1",
@@ -334,12 +312,10 @@
           {
             "Text": "making sure nginx is installed"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "82a37f82-2751-42d8-8f5a-fb10b8c67ad4",
@@ -360,12 +336,10 @@
           {
             "Text": "creating a user for the project. This is how I like to organize projects if more than one runs on a single server"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "8decc6a0-1165-4e77-b605-93f507ce63c6",
@@ -386,12 +360,10 @@
           {
             "Text": "add nginx configuration file so that it proxies a given server name to the port on which web server is running"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "787a5199-5162-42a6-a10e-2ec7b352c491",
@@ -412,12 +384,10 @@
           {
             "Text": "setup initd to watch and restart web server process"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "67f3fd25-8cd8-4454-bcde-d12ec07ae4ee",
@@ -438,12 +408,10 @@
           {
             "Text": "Deployment involves:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "82aec3e8-f278-4e70-9798-ad6b40c56289",
@@ -464,12 +432,10 @@
           {
             "Text": "cross-compiling the server"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "c629b57e-4730-4776-bf30-6501cb4b8e06",
@@ -490,12 +456,10 @@
           {
             "Text": "packaging all files that need to be copied to the server in a .zip file"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "9d21516e-a960-490c-961c-7d8fa9789f6d",
@@ -516,12 +480,10 @@
           {
             "Text": "copy the .zip file to the server"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "d49a8ff1-edfd-44e1-b84e-052b6362cabc",
@@ -542,12 +504,10 @@
           {
             "Text": "shutting down currently running web server instance"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "35517de1-8b47-4c92-941b-e0cf26417e4a",
@@ -568,12 +528,10 @@
           {
             "Text": "unpacking new version"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "551b844d-8c91-414b-bbae-1b1d65b22e69",
@@ -594,12 +552,10 @@
           {
             "Text": "starting up new version"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "f9217a0b-9eb6-463e-bbec-46fc8a06a6e1",
@@ -620,12 +576,10 @@
           {
             "Text": "Ansible process"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "b44c6057-0dc9-41a8-b518-fd26ff44c2f0",
@@ -664,12 +618,10 @@
           {
             "Text": ". For this project, mine was:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "1048ba9b-de9e-4837-a0da-f25a8904f823",
@@ -692,12 +644,10 @@
         "type": "code",
         "version": 1,
         "code": "[defaults]\nhostfile = inventory\nremote_user = root",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828299,
         "id": "b7108d31-686f-4c85-b0b7-3b6c00b479de",
@@ -736,12 +686,10 @@
           {
             "Text": " contains list of servers we’ll operate on:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "baf760f5-006c-42f9-956d-a4e1b951a300",
@@ -764,12 +712,10 @@
         "type": "code",
         "version": 1,
         "code": "sumatrawebsite-provision ansible_ssh_host=sumatrapdfreader.org ansible_ssh_user=root\nsumatrawebsite ansible_ssh_host=sumatrapdfreader.org ansible_ssh_user=sumatrawebsite",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "fc70496c-90ef-4912-9cca-d6ff377128ed",
@@ -790,12 +736,10 @@
           {
             "Text": "Notice that we only operate against a single server but we have 2 different configuration:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "a448ef23-6745-444b-8f07-360617f9f1d1",
@@ -846,12 +790,10 @@
           {
             "Text": " user. Provisioning actions must be executed by a user with root priviledges."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "15b0a0c2-bdc6-4dc7-afe3-fbc85bee68e7",
@@ -884,12 +826,10 @@
           {
             "Text": " is a user that owns the server project, so it’s easiest to use that user for deployment steps"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "f63c8f2e-9cc5-40ee-9572-09c9efe8857f",
@@ -928,12 +868,10 @@
           {
             "Text": " helper script:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "9a6dc17f-3b6a-416b-93ac-1e9b5ca11492",
@@ -956,12 +894,10 @@
         "type": "code",
         "version": 1,
         "code": "#!/bin/bash\nansible-playbook provisioning.yml",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "600cdf84-5e0c-4045-8445-a35bca1d91aa",
@@ -1000,12 +936,10 @@
           {
             "Text": " is:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "4fc4981b-7392-4ce8-941c-44bf97b3d7f0",
@@ -1028,12 +962,10 @@
         "type": "code",
         "version": 1,
         "code": "---\n- name: initial server setup\n  hosts: sumatrawebsite-initial\n  sudo: True\n  tasks:\n    - name: create a user\n      user: name=sumatrawebsite group=sumatrawebsite groups=\"sudo\" shell=/bin/bash\n    - name: make user a sudoer\n      lineinfile: dest=/etc/sudoers state=present regexp='^%sumatrawebsite' line='%sumatrawebsite ALL=(ALL) NOPASSWD:ALL'\n    - name: create user's .ssh directory\n      file: path=/home/sumatrawebsite/.ssh state=directory owner=sumatrawebsite group=sumatrawebsite mode=0755\n    - name: copy existing ssh key\n      command: cp /root/.ssh/authorized_keys /home/sumatrawebsite/.ssh/authorized_keys\n    - name: configure authorized_keys\n      file: path=/home/sumatrawebsite/.ssh/authorized_keys mode=0644 owner=sumatrawebsite group=sumatrawebsite\n    - name: create directory for nginx logs\n      file: \u003e\n        path=/var/log/nginx/sumatrawebsite/ state=directory mode=0755\n    - name: copy nginx config file\n      copy: src=nginx.conf dest=/etc/nginx/sites-available/sumatrawebsite\n    - name: enable website\n      file: \u003e\n        dest=/etc/nginx/sites-enabled/sumatrawebsite\n        src=/etc/nginx/sites-available/sumatrawebsite\n        state=link\n    - name: restart nginx\n      service: name=nginx state=restarted",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "0ebda47d-67a3-4102-9b0c-e91a8f4061f7",
@@ -1054,12 +986,10 @@
           {
             "Text": "If you know Unix, you can figure out what those commands do. Ansible playbook consists mostly of commands run on the server."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "c5c5019b-05e9-4cd0-aa82-636d36006b08",
@@ -1098,12 +1028,10 @@
           {
             "Text": " creates a new user with certain properties."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736828300,
         "id": "be097b80-565f-4a38-bee6-f2db6650dd0c",
@@ -1124,12 +1052,10 @@
           {
             "Text": "If a user already exists, Ansible is smart enough to not execute any commands."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Notes on Ansible",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

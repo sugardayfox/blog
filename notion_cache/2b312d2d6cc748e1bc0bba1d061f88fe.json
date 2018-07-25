@@ -31,7 +31,6 @@
       "40edc440-7081-4d01-ae88-310dfaf29fb0",
       "de466449-ec8c-4a13-8eff-348c6a842c24"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512338170838,
     "format": {
@@ -55,7 +54,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "42993dd8-add5-40d4-bd4b-517a18dbd778",
@@ -88,12 +86,10 @@
           {
             "Text": " is the default shortcut to start"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "194ab6ea-3367-4fad-9556-00152d7445cc",
@@ -114,12 +110,10 @@
           {
             "Text": "Sessions:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "74c5a4c7-a3ce-49ab-a26c-612c79beb4e2",
@@ -146,12 +140,10 @@
             "Text": "tmux list-sessions",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "754a2830-8f4e-4f37-8e49-ecfc602b959d",
@@ -178,12 +170,10 @@
             "Text": "tmux new -s $session-name",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "70bd4b2c-f370-4e06-936d-eea9be61644c",
@@ -210,12 +200,10 @@
             "Text": "tmux new",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "5ca1eb16-d4b4-40c4-9812-5ea4e3b6043e",
@@ -248,12 +236,10 @@
           {
             "Text": " : attach to existing session"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "d0d9d661-b61e-48a4-9386-4c2b5dd2e8d0",
@@ -304,12 +290,10 @@
           {
             "Text": " : detach (keeps the session running)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "5b7aa474-5dde-4490-8943-73ecd613260b",
@@ -336,12 +320,10 @@
             "Text": "tmux kill-session -t $session-name",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "097816eb-49d4-401e-bc2e-f3d7e30d8993",
@@ -362,12 +344,10 @@
           {
             "Text": "Managing panes:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "27549fba-7519-43cf-abd4-e4b7d95c70d8",
@@ -400,12 +380,10 @@
           {
             "Text": " : new vertical pane"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "bc3b724e-b7df-4270-82b3-1eab14ad9cd0",
@@ -438,12 +416,10 @@
           {
             "Text": " : new horizontal pane"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "a312481d-2ed6-4c20-bfba-af93ab559a56",
@@ -476,12 +452,10 @@
           {
             "Text": " : go to next pane"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "b665ef3c-991d-4284-9d21-6a6683e64322",
@@ -514,12 +488,10 @@
           {
             "Text": " : close pane"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "ab5b73a4-78f5-46f9-b555-d5002a724b6e",
@@ -552,12 +524,10 @@
           {
             "Text": " : 4 lines less down (other options: -U, -L, -R (up, left, right)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "a16c43be-47ab-4813-8142-0278acf8455f",
@@ -578,12 +548,10 @@
           {
             "Text": "Window management:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "e8dd5014-7f91-46ce-a0f1-774e8381c3fe",
@@ -616,12 +584,10 @@
           {
             "Text": " : create new window"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "674e630d-4b9e-4a1d-a4ab-64afc3fbf7f0",
@@ -654,12 +620,10 @@
           {
             "Text": " : go to next window"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "b4a15294-cb57-4b7a-8cfa-6bed498611bd",
@@ -692,12 +656,10 @@
           {
             "Text": " : go to prev window"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "9bf78ed0-2663-43f9-bc98-fd94046b6264",
@@ -730,12 +692,10 @@
           {
             "Text": " : close window"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "dfb3bdb0-90af-4b4e-9f07-af9ac085d615",
@@ -756,12 +716,10 @@
           {
             "Text": "Scrolling:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "7dd16f60-f99f-4ddb-9d1a-d05d605b2168",
@@ -812,12 +770,10 @@
           {
             "Text": " to quit"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "260a027d-21f1-493b-b31f-1429683e5179",
@@ -838,12 +794,10 @@
           {
             "Text": "Help about keymap:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "04e4cb5b-7f87-4aec-808c-8c488b379e4c",
@@ -870,12 +824,10 @@
             "Text": "Ctrl-b ?",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "0d39179a-9cf9-4355-bf27-d0a58d4141e8",
@@ -896,12 +848,10 @@
           {
             "Text": "Links:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "ffd889de-135a-4079-b5cb-f70fdb23b812",
@@ -929,12 +879,10 @@
             "Text": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/",
             "Link": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "40edc440-7081-4d01-ae88-310dfaf29fb0",
@@ -962,12 +910,10 @@
             "Text": "http://www.danielmiessler.com/study/tmux/",
             "Link": "http://www.danielmiessler.com/study/tmux/"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338172034,
         "id": "de466449-ec8c-4a13-8eff-348c6a842c24",
@@ -995,12 +941,10 @@
             "Text": "https://robots.thoughtbot.com/a-tmux-crash-course",
             "Link": "https://robots.thoughtbot.com/a-tmux-crash-course"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "tmux",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

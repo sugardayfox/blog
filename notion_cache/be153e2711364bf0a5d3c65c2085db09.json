@@ -27,7 +27,6 @@
       "baf9186a-21e4-4616-9927-b19dacfea479"
     ],
     "copied_from": "a0990645-08f9-44e0-ab0a-33233e38f578",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736998579,
     "format": {
@@ -51,7 +50,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "4e48eaf0-1a4c-4b0d-8b10-d795c9cd1bce",
@@ -72,12 +70,10 @@
           {
             "Text": "Id: 759002"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "7a48cf6c-c838-458c-9907-82c3d0af9d52",
@@ -98,12 +94,10 @@
           {
             "Text": "Tags: note, win32, programming"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "3b0a82d6-feed-463c-9f9b-923e27cfe43c",
@@ -124,12 +118,10 @@
           {
             "Text": "Date: 2011-11-30T04:30:12-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "192ae569-d64c-4671-ade2-bd5543d5282a",
@@ -138,12 +130,10 @@
         "parent_id": "be153e27-1136-4bf0-a5d3-c65c2085db09",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "4edb4222-ec06-46e7-aac8-c53a5a71ea82",
@@ -183,12 +173,10 @@
           {
             "Text": " and took me a while to figure out, so I’m documenting it for the posterity."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "0cb4ae07-593e-4821-82fa-55fd5bd0261b",
@@ -209,12 +197,10 @@
           {
             "Text": "The problem: an easy way to show HTML in a windows program is by hosting (embedding) a web browser COM control in win32 HWND. To display HTML that lives on some http server or is a file on disk is easy: call IWebBrowser2::Navigate2()."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "e8685647-d00c-48d3-8605-65cca5270499",
@@ -235,12 +221,10 @@
           {
             "Text": "What if the HTML is just a piece of data in memory? Easy, call IWebBrowser2::write(). But what happens if that HTML refers to other things e.g. a CSS file or a PNG image? Well, that becomes really complicated. Solution I’ve settled on can be summarized as:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "a34607f6-9a76-477b-8749-3dd230c46036",
@@ -261,12 +245,10 @@
           {
             "Text": "1. register custom IInternetProtocol/IInternetProtocolInfo/ via custom IClassFactory given to IInternetSession::RegisterNameSpace(). For reasons that seem like a bug to me, it has to be a protocol already known to IE (I’ve chosen “its”) even though it would be much better if it was my own, unique namespace."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "89c17bf5-16ba-462b-9f5e-bd5608c6b86f",
@@ -287,12 +269,10 @@
           {
             "Text": "2. feed html data via custom IMoniker through IPersistentMoniker::Load() and make sure that IMoniker::GetDisplayName() (which is a base url according to which relative links in provided html will be resolved) starts with that protocol scheme (in my case “its://”). That way relative link “foo.png” in the html data will be its://foo.png to IE which will make urlmon call IInternetProtocol::Start() and IInternetProtocol::Read() to ask for the data for that url."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998579,
         "id": "2864d763-a599-4d15-8b61-e6f02c54150e",
@@ -326,12 +306,10 @@
             "Text": "HtmlWindow.cpp",
             "Link": "http://code.google.com/p/sumatrapdf/source/browse/trunk/src/utils/HtmlWindow.cpp"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "9b5a2fe7-59ce-4c82-88e0-a3b72e7ad53d",
@@ -352,12 +330,10 @@
           {
             "Text": "And now a few related rants."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "9ecc6db7-7193-40db-b8ae-ab509e2b9379",
@@ -378,12 +354,10 @@
           {
             "Text": "Bad design, bad documentation from Microsoft."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "99ee1b8c-1694-40b7-85de-a5d4fc280617",
@@ -423,12 +397,10 @@
           {
             "Text": ", none of which allowed me to easily resolve linked resources. That’s just bad design."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "3b223fdc-2111-4eeb-949b-170b5d55c8e6",
@@ -449,12 +421,10 @@
           {
             "Text": "Microsoft wrote a bunch of documents documenting the basic usage of the embedded browser control but the documentation is far from satisfactory. They recognized the need to load HTML from memory (it’s well documented) but I just can’t believe that they didn’t consider the scenario of linked documents (HTML is, after all, a format based on links). Getting links to embedded resources is not easy (unless I missed the easy way to do it) and not documented at all."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "1e259190-ded9-4df9-81e6-d49083546c40",
@@ -475,12 +445,10 @@
           {
             "Text": "StackOverflow not so useful for involved question."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "a1bb0f31-7df7-4e7a-bd11-1f170c16d1bc",
@@ -520,12 +488,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "6a584957-f716-4098-8470-99539f0cfaf5",
@@ -565,12 +531,10 @@
           {
             "Text": " that I asked on StackOverflow, only one got what I consider to be complete, expert answer."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "add2413f-d92d-452d-8ba5-8c8eafaa2b92",
@@ -591,12 +555,10 @@
           {
             "Text": "I do tend refer to StackOverflow only after reaching the state of desperation and exhausting all my other options (i.e. web and code searches) so my questions are probably a bit harder than an average question but still 20% answer rate is bad."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "8068f426-97bb-4ed2-8a13-0691ecc605c4",
@@ -617,12 +579,10 @@
           {
             "Text": "StackOverflow can give you an answer to an easy question literally in minutes, but the hard ones are often not answered well at all."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "b26c4e43-6d16-4a9e-bc3d-b86cb2bf25b4",
@@ -643,12 +603,10 @@
           {
             "Text": "How will I live when Google’s code search is gone?"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "87a4d0e0-d9aa-4149-a74d-2250a112b213",
@@ -682,12 +640,10 @@
             "Text": "shutting it down",
             "Link": "http://googleblog.blogspot.com/2011/10/fall-sweep.html"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736998580,
         "id": "baf9186a-21e4-4616-9927-b19dacfea479",
@@ -708,12 +664,10 @@
           {
             "Text": "Not that I think it was a great service but it’s certainly better than anything else in that domain. What will I use the next time I have a hard time understanding someone’s clunky APIs?"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Showing html from memory in embedded web control on windows",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

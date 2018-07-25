@@ -7,7 +7,6 @@
       "81c42ede-23f7-4efa-84ba-775ec6ddfa87",
       "c5a8115d-568e-4bc9-bfca-706433689878"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531178482303,
     "id": "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
@@ -27,7 +26,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531178484950,
         "id": "ff1194fe-141e-45f6-a353-b25f0609eced",
@@ -48,12 +46,10 @@
           {
             "Text": "Keep caddy 0.10.12 because it doesn't have the rewrite regex bug:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531178511990,
         "id": "81c42ede-23f7-4efa-84ba-775ec6ddfa87",
@@ -76,12 +72,10 @@
         "type": "code",
         "version": 104,
         "code": "brew switch caddy 0.10.12\nbrew pin caddy",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531178532739,
         "id": "c5a8115d-568e-4bc9-bfca-706433689878",
@@ -90,12 +84,10 @@
         "parent_id": "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       }
     ],
-    "title": "caddy",
-    "CollectionViews": null
+    "title": "caddy"
   },
   "Users": [
     {

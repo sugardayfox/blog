@@ -23,7 +23,6 @@
       "80d7fab6-8354-4d61-9c68-c72dd4ec45c1",
       "67a65fe3-07aa-4eb4-9a72-14aa80096e89"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512370675523,
     "format": {
@@ -47,7 +46,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307343773,
         "id": "301623d2-fe0a-4144-a197-1f303a8bc1dc",
@@ -68,12 +66,10 @@
           {
             "Text": "Basics:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307348025,
         "id": "bd8933d4-7618-439a-b8d5-abbd75158c6d",
@@ -100,12 +96,10 @@
             "Text": "gdb —args foo.exe rest args",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307359514,
         "id": "138c118d-17fd-4448-a009-049ef2a3a3fd",
@@ -138,12 +132,10 @@
           {
             "Text": " : set a breakpoint"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530685937305,
         "id": "84ed0428-4a02-45fc-899a-a08b6da4430b",
@@ -176,12 +168,10 @@
           {
             "Text": " : delete a breakpoint. No argument ⇒ delete all"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307372235,
         "id": "be2ffbb8-36b2-4ab8-b7ac-b8bd87788102",
@@ -214,12 +204,10 @@
           {
             "Text": " : run"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307677538,
         "id": "0345da62-ac1e-49bf-a810-fb79366dcfe1",
@@ -252,12 +240,10 @@
           {
             "Text": " : continue running"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307682216,
         "id": "d18bf04d-40bd-4ad3-b10f-a76f1d763791",
@@ -290,12 +276,10 @@
           {
             "Text": " : show backtrace"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307688560,
         "id": "852be8fa-f085-48a7-897f-eecd974d7892",
@@ -328,12 +312,10 @@
           {
             "Text": " : executes next line, goes into functions"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307748980,
         "id": "ee7a49ce-b1b9-465f-8a58-52998e28ed33",
@@ -366,12 +348,10 @@
           {
             "Text": " : executes next assembly instruction, goes into functions"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307760528,
         "id": "e2c17770-ec85-4595-875b-52c906e64831",
@@ -422,12 +402,10 @@
           {
             "Text": " : like step, but skips over functions"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530684992851,
         "id": "a5b6c04a-36df-40eb-a294-8d2121b23faa",
@@ -460,12 +438,10 @@
           {
             "Text": " : show disassembly when stepping"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530308570132,
         "id": "0373ada3-35b4-4102-a056-e47119b8146a",
@@ -498,12 +474,10 @@
           {
             "Text": " : print info about threads"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530308581996,
         "id": "c58e4acf-2146-4e44-9e91-75fb08e961fb",
@@ -536,12 +510,10 @@
           {
             "Text": " : print info about registers print a register"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530311524597,
         "id": "e01477a7-7aae-407b-ab42-ec99e5264a05",
@@ -574,12 +546,10 @@
           {
             "Text": " print a register"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530685259685,
         "id": "cce64f16-d4f6-436a-bcf9-f39a4ed91ba4",
@@ -612,12 +582,10 @@
           {
             "Text": " : print register in hex"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530311551346,
         "id": "dcf550fe-5188-4c2a-9d06-11ed540e0c57",
@@ -662,12 +630,10 @@
             "Text": "\u003caddr\u003e",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530689352585,
         "id": "5bd0c01f-05c2-4da0-a703-d147fa16a490",
@@ -700,12 +666,10 @@
           {
             "Text": " : write to memory"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512370686804,
         "id": "80d7fab6-8354-4d61-9c68-c72dd4ec45c1",
@@ -726,12 +690,10 @@
           {
             "Text": "Links:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512370704235,
         "id": "67a65fe3-07aa-4eb4-9a72-14aa80096e89",
@@ -759,12 +721,10 @@
             "Text": "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should",
             "Link": "https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should"
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "gdb",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

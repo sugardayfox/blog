@@ -7,7 +7,6 @@
       "e4c3f15e-cd6d-4997-b73a-e59c9170b737",
       "5703fc64-35b7-4dd8-a4b3-54f882701dad"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501875589843,
     "format": {
@@ -39,7 +38,6 @@
           "68c6769b-48e7-427d-a287-f2d9d2f16222",
           "bd383d5c-52d6-4e20-8d40-a97135048674"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501875601676,
         "id": "9f09a89b-dd4b-435b-b63f-f069539cc3f0",
@@ -59,7 +57,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1501875603573,
             "id": "c9e111a8-a578-46c1-8a32-f1a01c85405f",
@@ -93,12 +90,10 @@
               {
                 "Text": " : C# app to introspect wmi information"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1502411929203,
             "id": "6f95c3f0-5087-4efa-b2cc-d221f136aad8",
@@ -132,12 +127,10 @@
               {
                 "Text": " : Go library for wmi"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1502414990822,
             "id": "3360b6ed-9cab-41a0-a0f5-6ae68f9549a9",
@@ -171,12 +164,10 @@
               {
                 "Text": " : used by wmi library"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1502436906157,
             "id": "cc99c5c0-3b5c-4329-a305-f5df13349ab7",
@@ -204,12 +195,10 @@
                 "Text": "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html",
                 "Link": "https://www.darkoperator.com/blog/2013/1/31/introduction-to-wmi-basics-with-powershell-part-1-what-it-is.html"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1510882836978,
             "id": "68c6769b-48e7-427d-a287-f2d9d2f16222",
@@ -237,12 +226,10 @@
                 "Text": "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp",
                 "Link": "https://github.com/facebook/osquery/blob/master/osquery/core/windows/wmi.cpp"
               }
-            ],
-            "CollectionViews": null
+            ]
           },
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512370330253,
             "id": "bd383d5c-52d6-4e20-8d40-a97135048674",
@@ -276,23 +263,20 @@
               {
                 "Text": " : gui explorer"
               }
-            ],
-            "CollectionViews": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
         "content": [
           "41123914-e922-480a-8669-adae5c576fc1"
         ],
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502436344618,
         "id": "e4c3f15e-cd6d-4997-b73a-e59c9170b737",
@@ -312,7 +296,6 @@
         "content_resolved": [
           {
             "alive": true,
-            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1502436361843,
             "id": "41123914-e922-480a-8669-adae5c576fc1",
@@ -335,20 +318,17 @@
             "type": "code",
             "version": 0,
             "code": "# list all wmi classes\nGet-WmiObject -list\n# list all wmi namespaces\ngwmi -namespace \"root\" -class \"__Namespace\" | Select Name\n# list wmi classes in a given namespace\ngwmi -namespace root\\cimv2 -list\n# list all members of a class\nGet-WmiObject Win32_OperatingSystem | Format-List *\n# lists name and type of each property of a class\nGet-WmiObject win32_bios | get-member",
-            "code_language": "Shell",
-            "CollectionViews": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "Using in powershell"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501876092142,
         "id": "5703fc64-35b7-4dd8-a4b3-54f882701dad",
@@ -357,12 +337,10 @@
         "parent_id": "23fb7531-5ee5-4b8b-a5b1-bd0c74c23756",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       }
     ],
     "title": "wmi (Windows Management Instrumentation)",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

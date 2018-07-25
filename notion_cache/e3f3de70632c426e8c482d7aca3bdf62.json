@@ -13,7 +13,6 @@
       "7add2bfd-a8c2-44d1-8429-7a2e8dd7e919"
     ],
     "copied_from": "dcd7d31f-0107-4a39-8f57-3e29873399fb",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195849678,
     "format": {
@@ -37,7 +36,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "fa0bc378-e395-495e-a9f4-c5ac416bbd66",
@@ -58,12 +56,10 @@
           {
             "Text": "Id: 1292"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "7f289ecb-9e41-45f0-beaa-c16dc1f8b16c",
@@ -84,12 +80,10 @@
           {
             "Text": "Date: 2006-03-02T16:00:00-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624081078,
         "id": "1fb7ced9-360f-42bc-9cad-d9b0384253cb",
@@ -110,12 +104,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "93cf0256-7af2-4f4a-8890-16fd5533c863",
@@ -124,12 +116,10 @@
         "parent_id": "e3f3de70-632c-426e-8c48-2d7aca3bdf62",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "76cf9ec9-420e-44ff-ba6d-5f5de81046ed",
@@ -163,12 +153,10 @@
             "Text": "this article",
             "Link": "http://technopedia.info/tech/2006/03/03/what-makes-a-cd-bootable.html"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "b98e6426-5f40-4a5d-9104-74e0020c0d4b",
@@ -189,12 +177,10 @@
           {
             "Text": "In order for a CD to be bootable, it must contain two files: BOOTCAT. BIN and BOOTIMG.BIN. BOOTCAT.BIN is a catalog file, and BOOTIMG.BIN is an image file an image of a bootable floppy disk. That’s why you need an existing bootable floppy in order to make a bootable CD."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "5bdd247b-c778-4e44-9e73-c1971177e5a4",
@@ -215,12 +201,10 @@
           {
             "Text": "When you browse the contents of a bootable CD in Windows or at a command prompt, you won’t see any of the files that you would find on a bootable floppy; that’s because they are all stored within BOOTIMG.BIN."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849678,
         "id": "7add2bfd-a8c2-44d1-8429-7a2e8dd7e919",
@@ -241,12 +225,10 @@
           {
             "Text": "When you boot from the bootable CD, everything in BOOTIMG.BIN and BOOTCAT.BIN shows up as being on the A: drive, while everything else on the CD shows up on the regular CD drive letter. It tricks the PC into thinking that there is actually a floppy in the A: drive."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "What makes a CD bootable",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

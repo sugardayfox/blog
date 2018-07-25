@@ -20,7 +20,6 @@
       "3253a166-3cc0-4b39-a77c-f026633221a7"
     ],
     "copied_from": "f3e03b07-e029-4039-868a-1179284d4019",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195891133,
     "format": {
@@ -44,7 +43,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "d71e0f42-569f-410d-9cd9-7ff991f25d4d",
@@ -65,12 +63,10 @@
           {
             "Text": "Id: 970"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "0e469e6b-6ea6-4c92-8959-c06c129a4ad6",
@@ -91,12 +87,10 @@
           {
             "Text": "Tags: debugging, windbg"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "620bf4b6-1274-4ad6-bd8c-1cd53b4e15dc",
@@ -117,12 +111,10 @@
           {
             "Text": "Date: 2007-04-29T14:38:15-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "c736757d-e180-4246-98ed-2958479ace51",
@@ -131,12 +123,10 @@
         "parent_id": "7ac06eee-d2c9-48bf-9357-abce5e77fd9e",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "e050dbb6-0475-4041-ab2f-2c28619e0801",
@@ -157,12 +147,10 @@
           {
             "Text": "Or how a debugger sometimes works against you."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "585f10fa-ca9b-4d0c-afa0-f9dc38a229cc",
@@ -215,12 +203,10 @@
           {
             "Text": ") when a program crashes but the clues I could get at the time of a crash (callstack and other current state of the program) were not enough to figure out the cause (especially given that it was in core PDF rendering code that I didn’t write)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "caba6579-1698-496a-8d03-bd1eac2b004a",
@@ -241,12 +227,10 @@
           {
             "Text": "Usually I would just set a breakpoint just before the place of the crash and work backwards from that. Unfortunately, when running under the debugger (either Visual Studio or WinDBG) the crash didn’t happen. The only good thing about that was that it offered another clue: apparently something about the system changes when the app is executed from within the debugger and it hides the problem."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "40716080-3780-4f2b-9662-fcda4d9499ec",
@@ -267,12 +251,10 @@
           {
             "Text": "That stumped me for a while until I made a breakthrough: I figured out that if I put DebugBreak() call in my app, it’ll break into the debugger after the app has started so I’ll be able to debug."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "30a98171-9839-4150-9f93-4a3eb31680b2",
@@ -293,12 +275,10 @@
           {
             "Text": "With a few well-placed conditional breakpoints I was able to figure out that the cause of the problem was uninitialized reference count on an object."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891133,
         "id": "c268918d-8028-434d-95db-234c14538d2a",
@@ -319,12 +299,10 @@
           {
             "Text": "My theory is that when an app was executed from within a debugger, memory allocator was using different flags and always zeroing malloc()ed memory (which masked the refcount problem) while without the debugger it was random data which exposed bad refcounting logic."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891134,
         "id": "a281ab19-2028-4be5-8a22-9e9f56f27538",
@@ -345,12 +323,10 @@
           {
             "Text": "Lessons learned:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891134,
         "id": "828b3b78-6ab5-48c7-af72-e17bfba0ad86",
@@ -371,12 +347,10 @@
           {
             "Text": "sometimes unexplained and very perplexing has an explanation"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891134,
         "id": "3291933f-548c-4337-986d-29e1703ccbae",
@@ -397,12 +371,10 @@
           {
             "Text": "the debugger can work against you"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891134,
         "id": "f248d576-47e0-4ca5-95c2-3128a67b17e6",
@@ -436,12 +408,10 @@
           {
             "Text": " is awesome - it puts to shame anything I’ve used on Unix, especially gdb. Learn how to use as it can come very handy when debugging hard problems. Visual Studio is also a good debugger - I use both depending on the kind of issue I’m debugging (for example WinDBG is faster to launch, has good support for conditional breakpoints and an array of useful extensions)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891134,
         "id": "3253a166-3cc0-4b39-a77c-f026633221a7",
@@ -462,12 +432,10 @@
           {
             "Text": "refcounting is evil and don’t let anyone tell you otherwise. You’ll meet people telling you that “refcounting makes programming easier”. “Ha, ha, ha” should be your response."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "A debugging story",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

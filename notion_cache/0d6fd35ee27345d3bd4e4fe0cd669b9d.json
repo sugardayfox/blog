@@ -10,7 +10,6 @@
       "98dffc9a-3440-4c5e-a2c1-5469f844f27a",
       "0028443a-e1da-4205-9704-a1e097bf5538"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1474618468403,
     "id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
@@ -30,7 +29,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1474618483383,
         "id": "17014343-c6a4-438f-a105-7adf54033812",
@@ -51,12 +49,10 @@
           {
             "Text": "How to see which files are being processed:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475121834777,
         "id": "f3fe67b9-9024-45b8-95f2-ef99931687fc",
@@ -79,12 +75,10 @@
         "type": "code",
         "version": 0,
         "code": "var debug = require('gulp-debug');\n\ngulp.task('css', function() {\n  return gulp.src('./sass/*.scss')\n    .pipe(debug())\n    .pipe(sourcemaps.init())",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1474618518435,
         "id": "7a3dfa0f-842d-4974-9dcd-98bb565deeef",
@@ -105,12 +99,10 @@
           {
             "Text": "It's more complicated for browserify:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475121834801,
         "id": "947c9ab1-4874-4461-8b6e-1a0450f027b6",
@@ -133,12 +125,10 @@
         "type": "code",
         "version": 0,
         "code": "var browserify = require('browserify');\n\ngulp.task('js', function() {\n  var opts = {\n    entries: ['js/App.tsx'],\n    debug: true\n  };\n  browserify(opts)\n    .on('dep', function(dep) {\n      console.log(dep.file);\n    })\n    .plugin(\"tsify\", tsify_opts)\n    .transform(babelify, babelify_opts)\n    .bundle()\n    .pipe(exorcist('s/dist/bundle.js.map'))\n    .pipe(source('bundle.js'))\n    .pipe(gulp.dest('s/dist'));\n});",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1474618604202,
         "id": "98dffc9a-3440-4c5e-a2c1-5469f844f27a",
@@ -177,12 +167,10 @@
           {
             "Text": " pipe."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1474618614481,
         "id": "0028443a-e1da-4205-9704-a1e097bf5538",
@@ -191,12 +179,10 @@
         "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "CollectionViews": null
+        "version": 0
       }
     ],
-    "title": "gulp",
-    "CollectionViews": null
+    "title": "gulp"
   },
   "Users": [
     {

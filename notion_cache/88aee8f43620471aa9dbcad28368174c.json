@@ -67,7 +67,6 @@
       "f7c435c6-1f57-42f1-b73f-30aa3ab582a7",
       "17e322a9-be5a-457c-b05e-a47e4578ae8c"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531001589044,
     "file_ids": [
@@ -96,7 +95,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532407160226,
         "id": "01b48c7d-1b43-4db3-8bb3-648aec008b14",
@@ -117,12 +115,10 @@
           {
             "Text": "Date: 2018-07-23"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532474047904,
         "id": "756d4f00-3342-4eaa-b55a-a72f6eef5153",
@@ -143,12 +139,10 @@
           {
             "Text": "Description: A tale of how I reverse engineered Notion API and wrote a Go library for it."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532407169949,
         "id": "bf4171ce-ccb0-40dc-bb02-b4740369cc56",
@@ -157,12 +151,10 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 6,
-        "CollectionViews": null
+        "version": 6
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001598656,
         "id": "b3bb6c55-3ad2-4b38-9f0f-fd42366105f9",
@@ -196,12 +188,10 @@
           {
             "Text": " is a great tool for writing but the content is trapped inside the web app."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001623826,
         "id": "22aad22c-e1b8-4c8e-bcaa-ee5d699cae61",
@@ -222,12 +212,10 @@
           {
             "Text": "The company is working on an official API but I'm impatient."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001643578,
         "id": "750d31b6-2d14-42bd-a8ea-069c35244db2",
@@ -267,12 +255,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001668422,
         "id": "f97ccfc4-fbe2-4dd7-9571-caf6c56b5a1f",
@@ -293,12 +279,10 @@
           {
             "Text": "It all began with a failure."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001691520,
         "id": "5351e604-7556-4c12-9090-057500fd9251",
@@ -319,12 +303,10 @@
           {
             "Text": "My first attempt at extracting notion content was traditional web scraping."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001717044,
         "id": "4fa7289a-2886-4ca8-9016-e1abd0be739b",
@@ -364,12 +346,10 @@
           {
             "Text": " that uses Selenium to recursively spider a Notion page and publish it to Firebase Hosting."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001849673,
         "id": "7edac8dd-067f-4503-94af-f0e9dfc1c23c",
@@ -409,12 +389,10 @@
           {
             "Text": " (better technology than Selenium)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001875819,
         "id": "5a7eb4a1-add5-4dcf-83c9-7effa04211ff",
@@ -435,12 +413,10 @@
           {
             "Text": "While it worked this approach is limited to getting a verbatim HTML of the pages as they are rendered by the Notion application."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002083983,
         "id": "785b173c-9617-44a2-95e7-ec2747ea3d42",
@@ -461,12 +437,10 @@
           {
             "Text": "I wanted to be able to change the look of the page, add elements like footers and headers and navigation bar."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002115136,
         "id": "72918988-57bb-474e-889f-44cf5f5477b9",
@@ -487,12 +461,10 @@
           {
             "Text": "I briefly considered trying to reconstruct the structure of the page from rendered HTML but at best that would be a lot of ugly guesswork."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002188754,
         "id": "7bd8bb4e-7ce8-4269-9a5f-099d8b59e190",
@@ -513,12 +485,10 @@
           {
             "Text": "The lightbulb moment"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002214747,
         "id": "c7a407c8-02b9-4c88-86bd-78fb23c603ba",
@@ -539,12 +509,10 @@
           {
             "Text": "The way modern SPA application like Notion usually work is that they render most of the HTML on the client with JavaScript using the data they request from the server."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002380279,
         "id": "4ff747e4-3871-45f0-8bca-1387313882a3",
@@ -565,12 +533,10 @@
           {
             "Text": "A quick trip to Chrome Dev Tools confirmed that theory."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002397052,
         "id": "9c818728-c54d-4499-a209-04e1167c6cf7",
@@ -627,12 +593,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532323060906,
         "file_ids": [
@@ -662,7 +626,6 @@
         "version": 11,
         "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac8d3f32-48a8-4040-a963-fa13a93eeeba/ScreenShot2018-07-22at10.16.52PM.png",
         "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fac8d3f32-48a8-4040-a963-fa13a93eeeba%2FScreenShot2018-07-22at10.16.52PM.png",
-        "CollectionViews": null,
         "format_image": {
           "block_aspect_ratio": 0.5327004219409283,
           "block_full_width": false,
@@ -675,7 +638,6 @@
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532323004119,
         "id": "c0aa3e6b-1046-46d9-b155-a196ad6d1404",
@@ -696,12 +658,10 @@
           {
             "Text": "Lucky for me the API is not obfuscated. It returns responses as JSON data and it isn't hard to figure out the meaning of fields."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002486869,
         "id": "5fa1f731-792a-4bd6-b3cb-92fff1b7232a",
@@ -722,12 +682,10 @@
           {
             "Text": "Instead of deducing structure from HTML I can just ask the server for the structure."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531002581285,
         "id": "0ca3a424-52a5-4a2d-9a09-5ad192987042",
@@ -748,12 +706,10 @@
           {
             "Text": "Building tools"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003687285,
         "id": "85e4b259-df34-49cb-b5ab-b0d6dd267426",
@@ -774,12 +730,10 @@
           {
             "Text": "I could have looked at API requests between client and server in Chrome dev tools but it's not the best workflow."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003756774,
         "id": "5938dbdd-d137-48aa-b16a-67a496996822",
@@ -800,12 +754,10 @@
           {
             "Text": "My first step was to write node.js script that logs all XHR requests that the client invokes when rendering a given page."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003836373,
         "id": "51e9c09f-b47f-4f8c-a200-ae4a0d40825d",
@@ -826,12 +778,10 @@
           {
             "Text": "That has several advantages over using dev tools:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003884631,
         "id": "c34e6bab-79a5-46b4-a6c4-cfbc26b189e6",
@@ -852,12 +802,10 @@
           {
             "Text": "I could filter out requests to third-party services like amplitude, fullstory and intercom"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003908102,
         "id": "02f239d8-a7de-4e1a-9c0f-e2fcb98ddff9",
@@ -890,12 +838,10 @@
             "Text": "/api/v3/ping",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003941522,
         "id": "20954411-68de-48d1-816c-573c1f061452",
@@ -916,12 +862,10 @@
           {
             "Text": "I could pretty-print JSON"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531003950787,
         "id": "e449fd0e-70ca-4d5d-a12a-b5147fcb4f29",
@@ -942,12 +886,10 @@
           {
             "Text": "I could write captured traffic to a file for further analysis"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532330308527,
         "id": "dba18e4e-07c4-4f48-9d7b-49dc786bafd6",
@@ -956,12 +898,10 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004604875,
         "id": "4c3cdc96-b0ca-46e4-b930-e73dada54975",
@@ -982,12 +922,10 @@
           {
             "Text": "Here's the script:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532330293215,
         "id": "b0383230-ebf0-49ac-9a75-20ae15165a6d",
@@ -1004,12 +942,10 @@
         },
         "type": "gist",
         "version": 8,
-        "source": "https://gist.github.com/kjk/f33bc37d6ca8282b5c52b17391384693",
-        "CollectionViews": null
+        "source": "https://gist.github.com/kjk/f33bc37d6ca8282b5c52b17391384693"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004040929,
         "id": "da60d8a5-8581-445a-826f-c56a8b82a1a3",
@@ -1030,12 +966,10 @@
           {
             "Text": "The big picture analysis"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004198726,
         "id": "7048fb98-5033-4009-8728-11be9a9450d4",
@@ -1056,12 +990,10 @@
           {
             "Text": "After looking at captured data, the structure of Notion content is not complicated."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004229170,
         "id": "5a5a3ce1-afc7-43eb-9bec-e84ea6d8d6de",
@@ -1082,12 +1014,10 @@
           {
             "Text": "Everything, including a top-level page, is a block."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004297527,
         "id": "d246dd26-4895-4fa9-b401-d17bf1c20a02",
@@ -1108,12 +1038,10 @@
           {
             "Text": "Blocks are identified by a unique id which looks like a standard UUID format."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004239512,
         "id": "a6bb5b68-e502-4ede-b6e3-3fa2ad1c4156",
@@ -1134,12 +1062,10 @@
           {
             "Text": "Blocks are arranged into a tree i.e. some blocks have children."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004294603,
         "id": "7fd915f0-277e-4dbd-b53b-019a5b675350",
@@ -1160,12 +1086,10 @@
           {
             "Text": "Blocks have metadata, like creation time, last edit time, version etc."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004436300,
         "id": "52b272f6-c24c-454f-8cc4-859465af6f21",
@@ -1186,12 +1110,10 @@
           {
             "Text": "There are different kinds of blocks: a page, text, todo item, list item etc."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004348320,
         "id": "458cd17b-4fb7-4da7-91df-fabab504a177",
@@ -1230,12 +1152,10 @@
           {
             "Text": " property."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004484476,
         "id": "bcfbafb0-0560-48a1-b53d-c4d0281389e6",
@@ -1256,12 +1176,10 @@
           {
             "Text": "To get the content of a page we start with its UUID which we can find out because it's last part of the url of the page."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004513876,
         "id": "31e8428b-e194-405f-bd01-018b0a7e4cb3",
@@ -1318,12 +1236,10 @@
           {
             "Text": " to get content of those blocks."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004585150,
         "id": "c9bf8931-34d5-4cc5-8aa2-f237537bde28",
@@ -1344,12 +1260,10 @@
           {
             "Text": "The rest of the work is figuring out what kinds of blocks there are, how are they represented and writing some code to help in retrieving the data and presenting it in a format that is easier to consume for the purpose of generating output e.g. a customized HTML."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532404086105,
         "id": "c2a2f4ab-1b09-4746-ba68-d42295380ca9",
@@ -1370,12 +1284,10 @@
           {
             "Text": "Testing different kinds of blocks"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532404103787,
         "id": "b61346c1-7d78-4f9b-b976-f5ce15288da0",
@@ -1396,12 +1308,10 @@
           {
             "Text": "Notion page consist of different kinds of blocks and we need to know how each block is represented in JSON response."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532404563486,
         "id": "8567db60-4c5c-40dc-ad91-c01101537b13",
@@ -1422,12 +1332,10 @@
           {
             "Text": "To investigate it systematically, I've created a test page for each kind of block and used the request logging script to look at JSON returned by the server for that block."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004878003,
         "id": "03863875-d766-42f9-a8d3-47b77c5367a8",
@@ -1448,12 +1356,10 @@
           {
             "Text": "Writing Go library"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004883123,
         "id": "f6301331-c8b0-4aca-a905-9a0e9e0bd242",
@@ -1474,12 +1380,10 @@
           {
             "Text": "Next step was writing a Go library."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532330494881,
         "id": "f8d31404-caf4-43c6-80ae-eed44fdd3b7d",
@@ -1555,12 +1459,10 @@
           {
             "Text": " to generate Go structures."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532330775671,
         "id": "fc1a9595-79e6-4f59-9796-410d0fb982b0",
@@ -1581,12 +1483,10 @@
           {
             "Text": "I had to tweak them a bit to accommodate response variations."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532330935289,
         "id": "cdbc0e3c-c4c2-4bcd-bc92-b4324f058908",
@@ -1607,12 +1507,10 @@
           {
             "Text": "The rest of the effort was writing a helper function that abstracts the details of HTTP requests and returns an easy to use struct describing a notion page."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532331499110,
         "id": "4006f874-f8c5-45e9-a9d0-dbf8741be349",
@@ -1652,12 +1550,10 @@
           {
             "Text": " Go package."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001774334,
         "id": "0a9f2c11-56f5-42b3-9a1d-df3880e1a43e",
@@ -1678,12 +1574,10 @@
           {
             "Text": "Using the library in practice"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532471981770,
         "id": "3f5e9bd7-2334-4ce8-a349-2cfe652d85a0",
@@ -1704,12 +1598,10 @@
           {
             "Text": "This was not just an academic exercise."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472136060,
         "id": "950e8502-4677-4a98-8157-d2d67aa94389",
@@ -1730,12 +1622,10 @@
           {
             "Text": "This blog was powered by markdown files I stored in GitHub repository."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472147746,
         "id": "6cf58618-ecdd-4713-8f42-d4936150f8a9",
@@ -1756,12 +1646,10 @@
           {
             "Text": "My goal was to move the content to Notion, so that I can edit it more easily, convert it to HTML and publish as my website/blog."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472303536,
         "id": "a4f2ce69-1eaa-420a-8f66-6e90804d365c",
@@ -1801,12 +1689,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472389129,
         "id": "7ece10da-fabc-47b5-b96d-d2eb82a09be7",
@@ -1827,12 +1713,10 @@
           {
             "Text": "The high-level structure of the code:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472419767,
         "id": "87dba394-93a8-4e41-9199-58d55a82d34b",
@@ -1872,12 +1756,10 @@
           {
             "Text": " library to download the content from Notion"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472469703,
         "id": "fcc086c0-5c68-4f98-8d69-5fabe25e5a9b",
@@ -1898,12 +1780,10 @@
           {
             "Text": "I cache downloaded data and store them in git repository. This is to make sure I have a copy of data even if Notion disappears, to make it faster to tweak publishing code (no need to re-download) and to be nicer to Notion server (no re-downloads unless I absolutely have to)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472590596,
         "id": "3ce40b3e-a24d-4d62-bc76-2403f093a32d",
@@ -1924,12 +1804,10 @@
           {
             "Text": "I convert Notion data to HTML, wrap it in templates for my pages and write HTML files to disk"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472652290,
         "id": "cb49589d-76bc-4958-9626-a8e5b0186808",
@@ -1963,12 +1841,10 @@
             "Text": "Netlify",
             "Link": "https://www.netlify.com/"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472662473,
         "id": "f7c435c6-1f57-42f1-b73f-30aa3ab582a7",
@@ -1977,12 +1853,10 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 8,
-        "CollectionViews": null
+        "version": 8
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532472459745,
         "id": "17e322a9-be5a-457c-b05e-a47e4578ae8c",
@@ -1991,12 +1865,10 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       }
     ],
     "title": "How I reverse engineered Notion API",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd96d967-248e-4000-9d4e-aafebb234177/header-25.jpg",
       "page_cover_position": 0.5,

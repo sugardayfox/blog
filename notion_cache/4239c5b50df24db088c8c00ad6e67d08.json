@@ -15,7 +15,6 @@
       "87a83764-6698-4e52-be64-c32d4d2064c2"
     ],
     "copied_from": "88551d91-42cc-4e41-9ece-2db67eeb5f2c",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736917129,
     "format": {
@@ -39,7 +38,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917129,
         "id": "99140e7a-acc4-457e-b095-928242732242",
@@ -60,12 +58,10 @@
           {
             "Text": "Id: 238002"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917129,
         "id": "7e63e2da-aa23-4ffb-b85a-78c1e5b22e03",
@@ -86,12 +82,10 @@
           {
             "Text": "Date: 2012-10-22T01:43:33-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917129,
         "id": "2cd8bcc9-1735-4e30-8b06-3b7b9239c97e",
@@ -112,12 +106,10 @@
           {
             "Text": "Tags: webdev"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917129,
         "id": "f9c956d9-f0ef-4b8c-bf91-39b42a01bcc6",
@@ -126,12 +118,10 @@
         "parent_id": "4239c5b5-0df2-4db0-88c8-c00ad6e67d08",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917130,
         "id": "9049205d-5a4c-498f-86cb-970080591208",
@@ -171,12 +161,10 @@
           {
             "Text": " duplicate the content of individual posts, they just show them in a different way (a couple of posts per page, as opposed to a single post per page)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917130,
         "id": "13333d91-40c9-4ff5-94af-9a670d47ead7",
@@ -216,12 +204,10 @@
           {
             "Text": ") leads people to individual blog posts about it and not to aggregate pages with random other content."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917131,
         "id": "c07d0813-e785-4336-9625-e44a1ec0ad88",
@@ -280,12 +266,10 @@
           {
             "Text": " for my site:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917131,
         "id": "04f4c7d2-c136-4e04-a976-eccf4e5e41c1",
@@ -308,12 +292,10 @@
         "type": "code",
         "version": 1,
         "code": "User-agent: *\nDisallow: /page/\nDisallow: /tag/\nDisallow: /notes/",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917132,
         "id": "66205ca0-987f-41e4-8955-841e23f4621d",
@@ -388,12 +370,10 @@
           {
             "Text": " is another namespace with duplicate content (shows a list of articles with a given tag)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736917132,
         "id": "87a83764-6698-4e52-be64-c32d4d2064c2",
@@ -433,12 +413,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Hiding duplicate content from your site via robots.txt",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

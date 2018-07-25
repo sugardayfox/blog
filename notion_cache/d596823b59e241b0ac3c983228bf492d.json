@@ -5,7 +5,6 @@
     "content": [
       "a096a12e-28af-45b8-b23d-cf52e6845f9f"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512369667028,
     "id": "d596823b-59e2-41b0-ac3c-983228bf492d",
@@ -25,7 +24,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512369700631,
         "id": "a096a12e-28af-45b8-b23d-cf52e6845f9f",
@@ -48,12 +46,10 @@
         "type": "code",
         "version": 0,
         "code": "iptables -I INPUT 3 -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\nsudo iptables -n -L -v --line-numbers\nsudo iptables -I INPUT -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\n-m : extended match ???\n\nAllow postgresql connections:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\nTo delete a rule: replace -A with -D",
-        "code_language": "Plain Text",
-        "CollectionViews": null
+        "code_language": "Plain Text"
       }
     ],
-    "title": "iptables",
-    "CollectionViews": null
+    "title": "iptables"
   },
   "Users": [
     {

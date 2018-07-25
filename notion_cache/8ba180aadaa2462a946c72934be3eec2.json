@@ -13,7 +13,6 @@
       "59316367-369f-4864-b49a-5302909bb899"
     ],
     "copied_from": "45ebc5b8-5229-4bae-ab59-9d6363ea23bd",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195805831,
     "format": {
@@ -37,7 +36,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805831,
         "id": "5633e845-dc10-4d1b-a38a-4ac3491a22c9",
@@ -58,12 +56,10 @@
           {
             "Text": "Id: 1853"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805831,
         "id": "596b04cd-1f1d-4831-b511-46c7f0c979b5",
@@ -84,12 +80,10 @@
           {
             "Text": "Date: 2004-07-22T10:20:45-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624725583,
         "id": "aba9875c-e18e-41fe-825e-146564e37ec7",
@@ -110,12 +104,10 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805831,
         "id": "19b181ea-5a27-4259-b59e-496005363fa2",
@@ -124,12 +116,10 @@
         "parent_id": "8ba180aa-daa2-462a-946c-72934be3eec2",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805831,
         "id": "eaae7ca8-6093-446e-95c9-d7b245b0166f",
@@ -169,12 +159,10 @@
           {
             "Text": ": using 0 (instead of NULL) to denote a null pointer is wrong:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805832,
         "id": "a0acb5ed-053e-4ce0-8d19-ad55140e4baf",
@@ -208,12 +196,10 @@
         "type": "code",
         "version": 1,
         "code": "char *p = 0;  /* IS WRONG! DAMMIT! *",
-        "code_language": "Java/C/C++/C#",
-        "CollectionViews": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805832,
         "id": "d8542491-cf54-43c5-b5bc-57634582787a",
@@ -234,12 +220,10 @@
           {
             "Text": "I concur."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805832,
         "id": "59316367-369f-4864-b49a-5302909bb899",
@@ -248,12 +232,10 @@
         "parent_id": "8ba180aa-daa2-462a-946c-72934be3eec2",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       }
     ],
     "title": "Don’t use 0 instead of NULL",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

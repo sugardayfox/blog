@@ -31,7 +31,6 @@
       "6c1647e3-5bff-4050-85f2-712ce4d5042a"
     ],
     "copied_from": "bcd69690-1501-488d-9799-89f39372af2d",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926154,
     "format": {
@@ -55,7 +54,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926154,
         "id": "ef476255-bbc6-47d2-a430-4d89463eba5e",
@@ -76,12 +74,10 @@
           {
             "Text": "Id: 1043"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926154,
         "id": "d656e362-9af3-4e9f-a8eb-fc3b0f44ca58",
@@ -102,12 +98,10 @@
           {
             "Text": "Tags: unix, debugging, programming"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926154,
         "id": "ce1949a5-b7c0-49a1-ba12-18f3c32b8c1a",
@@ -128,12 +122,10 @@
           {
             "Text": "Date: 2008-03-13T17:19:08-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926154,
         "id": "5912ce93-ab1b-480e-92c5-d08b0b0b14fc",
@@ -142,12 +134,10 @@
         "parent_id": "78ca396b-e38a-45f0-9f97-2e030fbac0e5",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "f6f45de2-fa76-471d-ab23-385decaa25c1",
@@ -235,12 +225,10 @@
           {
             "Text": ")."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "439be2bf-e891-48b4-9a88-195f0dee2a49",
@@ -267,12 +255,10 @@
             "Text": "Basic usage",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "94c8ed69-eccd-49de-a81e-2940f11d4af3",
@@ -295,12 +281,10 @@
         "type": "code",
         "version": 13,
         "code": "valgrind ${prog-to-run} ${arg1} ${arg2} ...",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "c8f4152d-14cb-42b7-a266-a4a84d738fc7",
@@ -333,12 +317,10 @@
           {
             "Text": ":"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "ea7a8d32-2f22-43c8-800d-dbde4cb740c6",
@@ -361,12 +343,10 @@
         "type": "code",
         "version": 27,
         "code": "valgrind --tool=memcheck --leak-check=full --show-reachable=yes\n--num-callers=16 ${prog-to-run}",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "add39dc0-8fc9-4aa6-b388-f1ac067a91a9",
@@ -393,12 +373,10 @@
             "Text": "Profiling memory usage:",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "43d23d8a-8ea8-4c51-b0f3-3f4e133efb17",
@@ -421,12 +399,10 @@
         "type": "code",
         "version": 9,
         "code": "valgrind --tool=massif ${prog-to-run}\ngv massif.${pid}.ps\nmost massif.${pid}.txt",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "0146615a-4eae-404a-9d93-35000a45adb1",
@@ -453,12 +429,10 @@
             "Text": "Profiling CPU usage:",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "09f9b39c-e607-454d-ab82-16a232ab4449",
@@ -481,12 +455,10 @@
         "type": "code",
         "version": 9,
         "code": "valgrind --tool=callgrind ${prog-to-run}",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "aa781e08-897e-4fae-9c51-953cbbb15498",
@@ -507,12 +479,10 @@
           {
             "Text": "or:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "ad72cc04-f5ab-43b2-b3f7-8057e525a6d7",
@@ -535,12 +505,10 @@
         "type": "code",
         "version": 15,
         "code": "valgrind --tool=callgrind --instr-atstart=no ${prog-to-run}",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926155,
         "id": "755f77bb-5fc7-4816-988d-9c05b78a9b22",
@@ -561,12 +529,10 @@
           {
             "Text": "and then:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "85b76676-22a9-4cb1-8e01-0ac475ff87d9",
@@ -589,12 +555,10 @@
         "type": "code",
         "version": 3,
         "code": "callgrind_control -i on\ncallgrind_control -i off",
-        "code_language": "Shell",
-        "CollectionViews": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "ff654a66-1dce-4eb2-bf90-791abc30cc2e",
@@ -669,12 +633,10 @@
           {
             "Text": " GUI tool to view the results."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "61003c17-b319-4cd8-90f5-2c3392ef66ad",
@@ -701,12 +663,10 @@
             "Text": "Profiling sections of the code",
             "AttrFlags": 1
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "0756a9a9-c10d-43bd-a441-2d66bde12af2",
@@ -733,12 +693,10 @@
             "Text": "#include \u003cvalgrind/callgrind.h\u003e",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "eacc1237-4901-46a2-842a-1cdc5acaa05e",
@@ -777,12 +735,10 @@
           {
             "Text": " macros"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "26780fd2-1e47-4828-b377-51925a613814",
@@ -833,12 +789,10 @@
             "Text": "CALLGRIND_TOGGLE_COLLECT",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926156,
         "id": "0c853063-c0e5-46e5-80cb-048d6e777e26",
@@ -859,12 +813,10 @@
           {
             "Text": "In other words, if your code looks like:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926157,
         "id": "77b8b474-f6ef-4ac4-9d82-865e125ce559",
@@ -887,12 +839,10 @@
         "type": "code",
         "version": 11,
         "code": "#include \u003cvalgrind/callgrind.h\u003e\n\nCALLGRIND_TOGGLE_COLLECT\nfoo();\nCALLGRIND_TOGGLE_COLLECT",
-        "code_language": "Java/C/C++/C#",
-        "CollectionViews": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926157,
         "id": "afafe1ce-c29c-4422-9b21-1bf71bb5a89e",
@@ -913,12 +863,10 @@
           {
             "Text": "your program is profiled only when foo() function is running."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926157,
         "id": "6c1647e3-5bff-4050-85f2-712ce4d5042a",
@@ -993,12 +941,10 @@
           {
             "Text": " macros. In theory you can use this option and insert those 2 macros into the code to speedup profiling (instrumentation slows down valgrind) but in practice valgrind 3.2 crashed when I was using this option."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "Valgrind basics",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

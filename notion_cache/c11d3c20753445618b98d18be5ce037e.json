@@ -18,7 +18,6 @@
       "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
       "479dc35a-f6a3-431d-b0cb-e382d7defa19"
     ],
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512355040748,
     "format": {
@@ -42,7 +41,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066161773,
         "id": "f0225690-7aa8-4a88-98f7-eb07c64bfc9c",
@@ -51,12 +49,10 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066161452,
         "id": "aaed106f-a6e3-4ffa-a688-147ce286ebfb",
@@ -77,12 +73,10 @@
           {
             "Text": "I wanted to see a real-life performance of different compressors:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066195640,
         "id": "fdc4769a-a208-4995-94d0-5bb9d07f52bf",
@@ -115,12 +109,10 @@
             "Text": "gzip -9",
             "AttrFlags": 2
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066214832,
         "id": "c66bfe53-9a08-41aa-8b44-723c53021b45",
@@ -141,12 +133,10 @@
           {
             "Text": "zopfli generates gzip compatible streams but achieves better compression by taking much longer to compress data"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066279218,
         "id": "48148c37-d765-4af5-b3bf-d53107bb778a",
@@ -167,12 +157,10 @@
           {
             "Text": "brotli is a new compressor that aims to be comparable in speed to gzip but with better compression"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066310608,
         "id": "719b2498-a305-40f1-8323-745b3f8c8bc1",
@@ -181,12 +169,10 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066310107,
         "id": "a2c247c8-3265-4763-a66b-73f5b8e941ec",
@@ -207,12 +193,10 @@
           {
             "Text": "I ran the compressor on a minified JavaScript code from one of my projects."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066371775,
         "id": "1b8ded4c-144b-4e85-a34a-efa1737f5230",
@@ -221,8 +205,7 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       },
       {
         "alive": true,
@@ -239,7 +222,7 @@
         "view_ids": [
           "f2b47a38-115d-41b0-a345-88958fdf315b"
         ],
-        "CollectionViews": [
+        "collection_views": [
           {
             "CollectionView": {
               "id": "f2b47a38-115d-41b0-a345-88958fdf315b",
@@ -346,7 +329,6 @@
             "CollectionRows": [
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530065886782,
                 "id": "93ae9003-103f-4eee-bb05-da8b2e18d181",
@@ -377,12 +359,10 @@
                   ]
                 },
                 "type": "page",
-                "version": 14,
-                "CollectionViews": null
+                "version": 14
               },
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530065884862,
                 "id": "916f0795-69e2-4038-a1c3-e97baa3d3cb8",
@@ -413,12 +393,10 @@
                   ]
                 },
                 "type": "page",
-                "version": 8,
-                "CollectionViews": null
+                "version": 8
               },
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530065884862,
                 "id": "aa33e59d-6bd9-432d-bc4c-3f904b7ffad4",
@@ -449,12 +427,10 @@
                   ]
                 },
                 "type": "page",
-                "version": 8,
-                "CollectionViews": null
+                "version": 8
               },
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530065884862,
                 "id": "cfc48de7-8022-4dbd-b848-f15050e3628a",
@@ -485,8 +461,7 @@
                   ]
                 },
                 "type": "page",
-                "version": 8,
-                "CollectionViews": null
+                "version": 8
               }
             ]
           }
@@ -494,7 +469,6 @@
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066383944,
         "id": "cea6c12b-0fa0-459b-a58a-de20f3c5fe35",
@@ -503,12 +477,10 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066383517,
         "id": "ee4e13fe-f543-4672-83c1-b1160b6a84e9",
@@ -529,12 +501,10 @@
           {
             "Text": "This is the same data as above but comparing only compressed versions, to  see relative differences between compressed content:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066160992,
         "id": "7d1d4caf-5c6b-404d-afc3-72648d680059",
@@ -543,8 +513,7 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 9,
-        "CollectionViews": null
+        "version": 9
       },
       {
         "alive": true,
@@ -562,7 +531,7 @@
         "view_ids": [
           "374e0842-ef46-43e3-a837-65b035400a5c"
         ],
-        "CollectionViews": [
+        "collection_views": [
           {
             "CollectionView": {
               "id": "374e0842-ef46-43e3-a837-65b035400a5c",
@@ -668,7 +637,6 @@
             "CollectionRows": [
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530066093063,
                 "id": "d04429fc-f262-46c1-abe2-ff85832d1900",
@@ -699,12 +667,10 @@
                   ]
                 },
                 "type": "page",
-                "version": 1,
-                "CollectionViews": null
+                "version": 1
               },
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530066093063,
                 "id": "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
@@ -735,12 +701,10 @@
                   ]
                 },
                 "type": "page",
-                "version": 1,
-                "CollectionViews": null
+                "version": 1
               },
               {
                 "alive": true,
-                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1530066093063,
                 "id": "cb2a7b1b-1841-4622-ab17-82780cf4ccc0",
@@ -771,8 +735,7 @@
                   ]
                 },
                 "type": "page",
-                "version": 1,
-                "CollectionViews": null
+                "version": 1
               }
             ]
           }
@@ -780,7 +743,6 @@
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066447649,
         "id": "479dc35a-f6a3-431d-b0cb-e382d7defa19",
@@ -789,12 +751,10 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "CollectionViews": null
+        "version": 4
       }
     ],
     "title": "zopfli vs. brotli vs. gzip",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

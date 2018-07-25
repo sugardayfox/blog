@@ -35,7 +35,6 @@
       "d7397fc1-3046-4434-928a-f90df9607251"
     ],
     "copied_from": "c2e1561a-9710-481f-8780-3d6b809dec86",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195845805,
     "format": {
@@ -59,7 +58,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "1534e801-f60d-40bb-993e-91c6dd1b9954",
@@ -80,12 +78,10 @@
           {
             "Text": "Id: 1966"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "29b25d30-be28-456d-b80e-2165b199c03d",
@@ -106,12 +102,10 @@
           {
             "Text": "Tags: sumatra, optimization, programming, profiling"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "61e5b4f9-bc6c-4949-92e2-135b72b4ade3",
@@ -132,12 +126,10 @@
           {
             "Text": "Date: 2006-09-02T18:01:53-07:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "11e12036-2779-42ef-82cf-7e2f6ae51089",
@@ -146,12 +138,10 @@
         "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "e2f1afad-e47d-444c-b985-974d8710b10b",
@@ -191,12 +181,10 @@
           {
             "Text": " and improve performance by ~7%. It doesn’t happen often, but when it does happen, it feels good."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "4eec4bbc-3ce4-44fe-b651-3afa6e88e6a7",
@@ -249,12 +237,10 @@
           {
             "Text": " library for most of its work (parsing and rendering PDF files). Almost all execution time is spent in poppler code. I didn’t write the code yet I was able to improve some specific scenario (loading of a PDF file) by about ~60% using rather small and un-intrusive changes (i.e. without rewriting a lot of code)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "8e0d095b-2b33-4aa7-927f-54d148f891b1",
@@ -275,12 +261,10 @@
           {
             "Text": "This post describes mechanics of performance improvement process I used."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "811c9b6e-30e5-4bcd-a5ac-687e0d8435ba",
@@ -320,12 +304,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "4f9bf66e-5910-4554-ac8e-ee43a79bf393",
@@ -346,12 +328,10 @@
           {
             "Text": "In Sumatra case that was obvious. The things that people care about are: how long does it take to load the PDF file and how long does it take to render a given page."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "c27dd059-7358-47fa-a3a9-27489c9708fd",
@@ -372,12 +352,10 @@
           {
             "Text": "Another thing you need before even starting to improve the performance is to have a way to reliably measure changes in performance. In my case I had to write a test program that would take name of PDF file as input and dump statistics about how much time, in milliseconds, did it take to load the file and to render each page."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845805,
         "id": "1569f977-e751-40f4-a8da-e6a060c149af",
@@ -398,12 +376,10 @@
           {
             "Text": "In order to see how my changes affect performance I would build a reference version of test program without any changes, build a version with my changes (making sure I use the same compiler settings for both versions), run them on the same PDF file and compare results."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "add2c99b-6bc5-42c4-869b-fba755d03af8",
@@ -424,12 +400,10 @@
           {
             "Text": "Getting results from a single run is not good enough. Given multi-tasking nature of Windows, running time is only an approximation of performance. Also, some parts of the code heavily depend on cache. For example, loading PDF for the second time takes only a fraction of time because the file is most likely cached in memory and memory access is orders of magnitude faster than reading from disk."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "86c51a43-5bac-4e39-88bd-171a125464ca",
@@ -450,12 +424,10 @@
           {
             "Text": "Therefore it’s important to run the same test serveral (say 10) times and calculate averages, rejecting values that fall too much outside of average. Rather arbitrarily I decided to do a two-pass filtering when calculating averages. In first pass I reject all values that differ more than 45% from average and in second pass I reject all values that differ more than 10% from the average. I don’t have justification for those values, they seem to work for me. The reason for two-pass filtering is that one really outrages value in a short run might skew average so much that all values differ from average a lot (e.g. \u003e20%)."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "4190b238-c489-4ba2-b660-7bec1eb87157",
@@ -476,12 +448,10 @@
           {
             "Text": "Even with multiple runs I see 1-1.5% changes when running the same executable so I don’t get excited when I see 1.5% improvement with my changes - those fall into line noise."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "9100c0d1-8d61-47f6-aefd-55ab6fd9190f",
@@ -502,12 +472,10 @@
           {
             "Text": "Another trap are CPUs with dynamically adjustable frequency (standard on laptops since they save power). They completely ruin ability to use execution time for comparison. Don’t use laptops for running tests or turn off this CPU feature."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "2cb465e1-e904-45da-bd52-fef55bf87da9",
@@ -528,12 +496,10 @@
           {
             "Text": "I used to run tests manually, copy data to spreadsheet and making analysis there. That got old fast, so I wrote a python script to automate the process. The script takes as arguments names of 2 executables to compare, name of PDF file, runs both tests programs on this PDF multiple times (interleaved, to help even out possible CPU load changes from other activity on the computer) and just gives me the summary of results."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "6742b78c-05c3-4a96-b87b-9f40ed14fe1c",
@@ -630,12 +596,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "2bfb4c67-977e-4653-852f-71a426e598eb",
@@ -656,12 +620,10 @@
           {
             "Text": "The profiler will show you which functions take most of the time, how many times they are called, call trees etc. This information is not only useful to identify which code needs work but also can help you understand how the code works. If code is algorithms + data then software is code + execution paths."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "0d44f0a9-a621-41e6-8d71-d8a252350ad4",
@@ -682,12 +644,10 @@
           {
             "Text": "Then there is the hard (but most fun) part of figuring out how to change the code to get speedups."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "10ba986a-529c-4de6-bc24-28877d5ffbdd",
@@ -727,12 +687,10 @@
           {
             "Text": ")."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "fecba320-3b52-4780-bd18-b6d38cb557f2",
@@ -753,12 +711,10 @@
           {
             "Text": "On the bright side, it also happened that I had improvements ideas that would require extensive changes but after staring more at the code and profiler results, I found much smaller change with a similar speedup potential."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "f6370d22-47d5-485b-8d35-8eec4e24b84b",
@@ -779,12 +735,10 @@
           {
             "Text": "Summary of important points about performance optimization:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "809d9978-595f-4589-8b13-5f4311d15eed",
@@ -805,12 +759,10 @@
           {
             "Text": "optimize scenarios that matters to your users"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "c3cd29fc-1061-4621-bb30-f0633f859d5e",
@@ -831,12 +783,10 @@
           {
             "Text": "write tools to make evaluating performance changes possible"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "d79374a4-3909-4f46-8b33-14e0dafccc25",
@@ -857,12 +807,10 @@
           {
             "Text": "write tools to automate performance evaluation"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "c75a2d29-ea87-4e33-b99d-e16fd308f805",
@@ -883,12 +831,10 @@
           {
             "Text": "use profiler to see which code needs to be optimized"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "d244bfee-6a96-4696-80a8-dfb36fa654a3",
@@ -909,12 +855,10 @@
           {
             "Text": "use profiler to understand how code works"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "98af360c-8485-4ac2-a6f4-e5ab8dc6df4a",
@@ -935,12 +879,10 @@
           {
             "Text": "use your brain to make changes to the code"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "f5ef788f-8c4f-416e-a3aa-f941a8c4f144",
@@ -961,12 +903,10 @@
           {
             "Text": "make sure your changes do improve performance. Flying blind is not good enough"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845806,
         "id": "d7397fc1-3046-4434-928a-f90df9607251",
@@ -1063,12 +1003,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "On how I improved Sumatra performance by ~60%",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

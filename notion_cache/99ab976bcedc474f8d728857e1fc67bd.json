@@ -25,7 +25,6 @@
       "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51"
     ],
     "copied_from": "11a03240-c799-4a3d-975d-4d6ae9634668",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195941703,
     "format": {
@@ -49,7 +48,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941703,
         "id": "83ab48b4-c656-4d59-855d-8aa0b6ea9a8b",
@@ -70,12 +68,10 @@
           {
             "Text": "Id: 8074"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941703,
         "id": "bbe10fff-9573-4ce9-a489-ba31189154a7",
@@ -96,12 +92,10 @@
           {
             "Text": "Date: 2009-03-05T16:54:31-08:00"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941703,
         "id": "ba0f1cde-7908-44fb-ac89-145ca16f31d4",
@@ -110,12 +104,10 @@
         "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "CollectionViews": null
+        "version": 3
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941703,
         "id": "7ad719c9-a4f7-4cce-af50-e3eee251033b",
@@ -136,12 +128,10 @@
           {
             "Text": "The problem with HTTP caching"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "49346a28-7471-40ed-8c3f-fa6e393e1691",
@@ -162,12 +152,10 @@
           {
             "Text": "Currently an HTTP resource (e.g. an image, a JavaScript file, a CSS script) is uniquely identified by a uri. Unfortunately a web browser doesn’t know if a given resource has changed, so in the simplest case, it has to re-download it over and over again. This is very inefficient, so we came up with ways to tell the browser to avoid re-downloading content."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "312d1208-6564-4c41-beb5-6817f18fff31",
@@ -188,12 +176,10 @@
           {
             "Text": "One method is by setting Expires HTTP header by which a web server can tell the browser for how long can it cache a given resource. The problem with this approach is that if the resource is changed before the expiration date, the browser will see an outdated version."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "651d731d-c65a-4e38-a143-490c1f5d8d40",
@@ -233,12 +219,10 @@
           {
             "Text": ". When returning a resource web server also returns an ETag header which uniquely identifies the resource. If subsequent response contains the same etag, the browser might skip downloading the content. This still requires making a small request."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "74f04883-bfd0-4507-9120-daa4266c4cf3",
@@ -278,12 +262,10 @@
           {
             "Text": " is an attempt to solve this problem for the most popular web libraries."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "07dfea08-48e4-4e80-ba1e-e6131d1476cc",
@@ -304,12 +286,10 @@
           {
             "Text": "What if there was a backwards-compatible way, efficient way of caching popular resources that worked globally (across multiple websites)? In theory it’s possible and not that hard."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "90718b89-fb9a-4597-b308-f5a72bf50634",
@@ -330,12 +310,10 @@
           {
             "Text": "Enter content-addressable resources"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "c299e8ae-74f9-4dc9-8a61-e762bd639c19",
@@ -394,12 +372,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "bd149781-67de-4c4e-b188-bd7c8d270bbd",
@@ -420,12 +396,10 @@
           {
             "Text": "The idea is simple: we can uniquely identify any piece of data by calculating sha1 (or some other cryptographically secure hash) of its content."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "912b74a0-1025-42fe-b875-821557a1d714",
@@ -446,12 +420,10 @@
           {
             "Text": "All we need is a way to tell the browser the sha1 hash of a resource. If a resource with this hash is already cached locally, the browser doesn’t need to re-download it."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "5d96bd13-988b-4ac1-b429-9125a0d6a744",
@@ -472,12 +444,10 @@
           {
             "Text": "Compared to existing solutions, it has following advantages:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "45027384-8218-4fe0-be9b-91d1249fba66",
@@ -498,12 +468,10 @@
           {
             "Text": "it works globally. If 10 websites host the same version of jQuery library, the browser only need to download it once"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "80cf105f-966c-4e1d-89d2-a6a7991ce12e",
@@ -524,12 +492,10 @@
           {
             "Text": "it doesn’t have the ‘oops, we set the expiration date too far into future’ problem that setting Expires header"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "c82d65a3-7c25-4275-a732-ea5531010dea",
@@ -550,12 +516,10 @@
           {
             "Text": "it’s more efficient than ETag because it doesn’t require making any requests"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "932ec6fe-cb97-4c72-9520-db70cd2f5c31",
@@ -576,12 +540,10 @@
           {
             "Text": "How to tell the browser about the hash"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "b070850c-7b17-4512-a492-d5d2d1945a7c",
@@ -602,12 +564,10 @@
           {
             "Text": "The simplest way would be to define another attribute e.g. sha1hash that could be added tags that refer to resources, like script, a, link etc."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941704,
         "id": "5b69a8ed-bbe0-48cb-9a89-7449ed1daa51",
@@ -628,12 +588,10 @@
           {
             "Text": "I’m not a web technologist and I don’t know this particular solution would be acceptable, but I’m sure there is a way."
           }
-        ],
-        "CollectionViews": null
+        ]
       }
     ],
     "title": "How content-based addressing can help web performance",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,

@@ -49,7 +49,6 @@
       "09b9d7df-1694-4a31-9c88-20bd66e5b5d3"
     ],
     "copied_from": "94a89b6d-d5c1-41fe-80da-bc1ba39ea014",
-    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736754016,
     "file_ids": [
@@ -85,7 +84,6 @@
     "content_resolved": [
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "8aa3c1d0-6cbd-48e9-8bd4-20240323b81d",
@@ -106,12 +104,10 @@
           {
             "Text": "Id: 18"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "1899e494-bbd1-40cd-8f9b-993a112fc386",
@@ -132,12 +128,10 @@
           {
             "Text": "Date: 2016-10-23"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "3a4b7d68-ee85-44d6-990f-16c48f48ecd9",
@@ -158,12 +152,10 @@
           {
             "Text": "Tags: programming, javascript"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "7536e085-61fd-44de-acc3-30310de4ec80",
@@ -172,12 +164,10 @@
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "21482447-a8dc-439a-bdcc-e590973168fc",
@@ -198,12 +188,10 @@
           {
             "Text": "Best optimizations are achievied by thinking about a problem holistically."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "d73c910e-1da8-4bcf-a2b8-77eaa12e2b3f",
@@ -224,12 +212,10 @@
           {
             "Text": "In this article I describe an optimization that uses arrays instead of classes while providing a class API for accessing data."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754017,
         "id": "510a5b93-f086-41f3-8250-290dec9d4198",
@@ -269,12 +255,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "459757bc-f43f-449a-991b-5bf772badbe6",
@@ -295,12 +279,10 @@
           {
             "Text": "It uses modern, single-page architecture. Front-end is written in React and backend provides JSON data to React."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "84d316c9-a44c-4a37-8357-52dbb600a6e6",
@@ -339,12 +321,10 @@
           {
             "Text": " call which returns JSON response that looks like:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "ad889e1a-e9fb-4935-ae73-c59a3015ff07",
@@ -367,12 +347,10 @@
         "type": "code",
         "version": 5,
         "code": "{\n  \"notes\": [\n    {\n      \"id\": 1,\n      \"title\": \"first note\",\n      \"createdAt\": \"2016-08-14 15:34:32Z\",\n      // ... more properties\n    },\n    {\n      \"id\": 2,\n      \"title\": \"second note\",\n      \"createdAt\": \"2016-08-14 16:03:12Z\"\n      // ... more properties\n    },\n    // ... more notes\n  ]\n}",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "44b4b4b8-1e99-4fb5-a3aa-a72e09cbce87",
@@ -393,12 +371,10 @@
           {
             "Text": "You notice there’s a lot of redundancy as we repeat property names in every note object."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "001b8488-4c37-47bd-b16d-3affcd5c1a79",
@@ -419,12 +395,10 @@
           {
             "Text": "In our case the structure of the note is fixed i.e. it always has the same properties. We can encode this data more efficiently:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "13432b38-97c0-4740-9143-58bed6d5459d",
@@ -447,12 +421,10 @@
         "type": "code",
         "version": 5,
         "code": "{\n  \"notes\": [\n    [1, \"first note\", \"2016-08-14 15:34:32Z\", ... more properties],\n    [2, \"second note\", \"2016-08-14 16:03:12Z\", ... more properties],\n    // ... more notes\n  ]\n}",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "587152db-71a6-4317-8436-fea290f3e3df",
@@ -473,12 +445,10 @@
           {
             "Text": "This is a holistic optimization that achieves several speedups at once:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "11391d68-24e3-4624-8f87-f45be202e72a",
@@ -499,12 +469,10 @@
           {
             "Text": "backend generates less text (JSON response)"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "90a88aff-7c93-4297-b4c4-98b2644e3caf",
@@ -525,12 +493,10 @@
           {
             "Text": "backend compresses less data"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "a5bd9f95-5b94-4003-94ca-3775c7765f17",
@@ -551,12 +517,10 @@
           {
             "Text": "browser downloads less data"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "a84a6427-4807-41d0-b079-5e5c2ee009b3",
@@ -577,12 +541,10 @@
           {
             "Text": "browser decompresses less data"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "1b55583b-e2db-4ddf-9faf-77d15141c3db",
@@ -603,12 +565,10 @@
           {
             "Text": "browser parsers less JSON text"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "9db1f1d2-a5c5-44ef-afdb-bec90c20b306",
@@ -629,12 +589,10 @@
           {
             "Text": "JavaScript arrays are most likely more memory efficient that objects, so the data uses less memory"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754018,
         "id": "8edbc812-1606-481f-81e7-f2d051bcfaaf",
@@ -655,12 +613,10 @@
           {
             "Text": "If you know how gzip compression works you might protest that our effort to remove property names is mostly futile because gzip is very good at removing such redundancies."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "dc5c7198-adce-4326-9a84-a4234251d45a",
@@ -700,12 +656,10 @@
           {
             "Text": " using my own notes and found that even after compression the size difference of two versions is ~50%. This might be a difference between a browser downloading 150 kB of data vs. 300 kB."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "8e0a3b8c-0b85-4f77-8021-4624c7c62551",
@@ -726,12 +680,10 @@
           {
             "Text": "This representation comes at a cost of programmer’s convenience."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "551c84ad-12be-4a26-b408-9c8f8cba801d",
@@ -770,12 +722,10 @@
           {
             "Text": ". With array representation it’s more work:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "9d1c5acd-ab0b-48c7-b005-836bbb87b8f9",
@@ -798,12 +748,10 @@
         "type": "code",
         "version": 3,
         "code": "const noteIdIdx = 0;\nconst noteTitleIdx = 1;\n// ... constants for more properties\n\nconst title = note[noteTitleIdx];",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "f22cb4cc-8b7b-4009-90c9-e7a3fe365b27",
@@ -824,12 +772,10 @@
           {
             "Text": "This is not great. We can improve this by writing accessor functions:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "87cca7fd-d891-4369-bf6c-35c352e96495",
@@ -852,12 +798,10 @@
         "type": "code",
         "version": 3,
         "code": "function getTitle(note) {\n  return note[noteTitleIdx];\n}",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754019,
         "id": "a032e0e4-f9ef-4b99-a9b2-51b5c9daaf05",
@@ -878,12 +822,10 @@
           {
             "Text": "JavaScript is a pliable language and we can get the best of both worlds: array representation with class API."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "6fe31627-b22f-4148-9dde-7504d2727efe",
@@ -922,12 +864,10 @@
           {
             "Text": " and extends it with accessor functions."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "02189660-13a2-44bc-969d-ca6d6cd57d82",
@@ -948,12 +888,10 @@
           {
             "Text": "This example uses TypeScript, because static typing rocks, but will also work in pure JavaScript."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "b8b1a4d5-a90b-4bb2-a94e-2065caa42609",
@@ -976,12 +914,10 @@
         "type": "code",
         "version": 3,
         "code": "class Note extends Array {\n  constructor() {\n    super();\n  }\n\n  ID(): int {\n    return this[noteIdIdx];\n  }\n\n  Title(): string {\n    return this[noteTitleIdx];\n  }\n  // .. more accessor functions\n}\n\n// this \"upgrades\" rawArray object from being Array instance\n// to Note instance by patching prototype chain.\n// Beware: if rawAray is not Array instance, bad things will happen\nfunction toNote(rawArray: any): Note {\n  Object.setPrototypeOf(rawArray, Note.prototype);\n  return rawArray as Note;\n}\n\n// one way to convert raw array to object\nconst rawNote = [1, \"first note\", ... more properties];\nconst note = toNote(rawNote);\nconst title = note.Title();\n\n// a less efficient but also less hacky way is by constructing a new Note object\nconst note = new Note(rawNote);\nconst title = note.Title();",
-        "code_language": "Javascript",
-        "CollectionViews": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "4c704299-4bb5-4a4e-961e-0e4a8736d346",
@@ -1038,12 +974,10 @@
           {
             "Text": " so it’s as efficient as an array and inherits all its functionality."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "2e2d26b4-004f-4f75-a7eb-525fcf9e2095",
@@ -1064,12 +998,10 @@
           {
             "Text": "We add a couple of functions for getting/setting note data for a better API."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754022,
         "id": "b16ef279-492f-41df-93c4-cc297145bb3e",
@@ -1108,12 +1040,10 @@
           {
             "Text": " function."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754023,
         "id": "c6e4747e-6d3b-4c1b-a6b3-550a14a178c5",
@@ -1200,12 +1130,10 @@
           {
             "Text": " instances."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754023,
         "id": "f7618179-e8dd-4698-8908-a4c140cf88bf",
@@ -1298,12 +1226,10 @@
           {
             "Text": " functions and gets our additional functions."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754023,
         "id": "2b32394d-8e61-4ad8-973f-f7a3dc34a8a8",
@@ -1360,12 +1286,10 @@
           {
             "Text": "."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754024,
         "id": "c186e338-dfec-481c-b98c-a9510f5553e8",
@@ -1404,12 +1328,10 @@
           {
             "Text": ", bad things will happen. It’s not a technique that should be overused."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754024,
         "id": "e654e2c4-3f09-428c-8626-1911a7d2ffc1",
@@ -1430,12 +1352,10 @@
           {
             "Text": "Upgrading the object in place should be more efficient than creating a new object as it avoids an allocation."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754025,
         "id": "e74be971-af23-4302-ad47-e7c7e740ee1d",
@@ -1475,12 +1395,10 @@
           {
             "Text": " changing prototype of an object makes for slowera access, so it can go either way."
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754025,
         "id": "c4e7f793-455f-4401-89f5-fb0d401366c6",
@@ -1501,12 +1419,10 @@
           {
             "Text": "To summarize:"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754025,
         "id": "0a7db16e-84a5-423c-8f8f-0bdda0cd25e1",
@@ -1527,12 +1443,10 @@
           {
             "Text": "optimization is often achieved by looking at a problem as a whole"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754025,
         "id": "0c7fde8d-0886-4fe2-92f5-34413514be9c",
@@ -1553,12 +1467,10 @@
           {
             "Text": "thanks to flexibility of JavaScript we can implement a micro-optimization where we represent objects as arrays but add convenient class-like API"
           }
-        ],
-        "CollectionViews": null
+        ]
       },
       {
         "alive": true,
-        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736754025,
         "id": "09b9d7df-1694-4a31-9c88-20bd66e5b5d3",
@@ -1567,12 +1479,10 @@
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "CollectionViews": null
+        "version": 1
       }
     ],
     "title": "Optimizing JavaScript by using arrays instead of objects",
-    "CollectionViews": null,
     "format_page": {
       "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35a48372-ddfa-4e42-9be2-a0981298dd54/header-05.jpg",
       "page_cover_position": 0.5,
