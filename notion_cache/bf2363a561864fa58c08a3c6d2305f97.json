@@ -25,6 +25,7 @@
       "5ff38682-b20e-44e4-87f2-6c635c1070cb",
       "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530253989400,
     "format": {
@@ -48,6 +49,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530253998123,
         "id": "eac0734b-5dd4-4ea9-8f9b-6c9b21c64b10",
@@ -68,10 +70,12 @@
           {
             "Text": "Pre-requisties:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254028939,
         "id": "528ab837-97cb-4a46-ac5e-9c83fa275d1b",
@@ -110,10 +114,12 @@
           {
             "Text": ")"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254056359,
         "id": "86b4c5cc-1dfb-4cb3-84cb-e1cd511bafee",
@@ -153,10 +159,12 @@
           {
             "Text": ")"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254046853,
         "id": "4d551f13-830e-479c-84bf-0f889bb0eca3",
@@ -215,10 +223,12 @@
           {
             "Text": " and extracted to c:\\MinGW"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254131467,
         "id": "5be23634-424f-46a7-85a6-71d828b0a141",
@@ -257,10 +267,12 @@
           {
             "Text": " (not PowerShell, because it screws things up):"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254149443,
         "id": "029fd97e-ebdf-427e-a15b-30deb57ff2dc",
@@ -298,10 +310,12 @@
             "AttrFlags": 2,
             "Link": "https://github.com/golang/go.git"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254174676,
         "id": "acce5f8a-d06d-425b-a886-bdccd3f9df02",
@@ -328,10 +342,12 @@
             "Text": "cd go\\src",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254180499,
         "id": "787e1dc0-1afb-4a07-a9c7-944f73b25edf",
@@ -364,7 +380,8 @@
             "Text": "c:\\MinGW\\set_distro_paths.bat",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -372,6 +389,7 @@
           "1b7bddac-5520-4dec-9cf0-a56907c4013e",
           "be8e234c-d7bf-4d0e-8917-726b133f99fb"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530300449695,
         "id": "f7e75216-d48d-4989-88d3-a733c9e81711",
@@ -402,6 +420,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530254218145,
             "id": "1b7bddac-5520-4dec-9cf0-a56907c4013e",
@@ -434,10 +453,12 @@
               {
                 "Text": " in cmd.exe"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530300437648,
             "id": "be8e234c-d7bf-4d0e-8917-726b133f99fb",
@@ -470,7 +491,8 @@
               {
                 "Text": " in powershell"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -484,10 +506,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254257100,
         "id": "edde199f-c166-495d-b00a-b2fcee292d12",
@@ -520,10 +544,12 @@
           {
             "Text": " : this builds Go and runs the tests"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301519941,
         "id": "cf584cd0-a776-483e-8b57-c2cb1580bd74",
@@ -532,10 +558,12 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530254305038,
         "id": "2ea6c538-25b7-41c7-aacc-23fa301cbe60",
@@ -556,10 +584,12 @@
           {
             "Text": "Running just runtime tests, in powershell:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301526738,
         "id": "535be14c-e514-4fa2-bbed-cdc529989e55",
@@ -586,10 +616,12 @@
             "Text": "$env:GOROOT = \"C:\\Users\\kjk\\src\\go\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530305693164,
         "id": "386ce37b-19f5-455c-8b13-12bc6ff45fd6",
@@ -616,10 +648,12 @@
             "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301560324,
         "id": "d7995392-c218-4c52-920f-4ee6b33844c8",
@@ -646,10 +680,12 @@
             "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime -ldflags=-linkmode=external",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530307062555,
         "id": "5de98585-cd65-44c4-8cbe-04f462283b61",
@@ -676,10 +712,12 @@
             "Text": "$env:TEST_G0_STACK_OVERFLOW = \"1\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530305699068,
         "id": "76d649da-f850-425c-a9fb-c9c07071e4f2",
@@ -706,10 +744,12 @@
             "Text": "gdb --args .\\runtime.test.exe \"-test.run\" TestG0StackOverflow",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530683413996,
         "id": "03def337-f6b7-4847-8034-6544bbae72f6",
@@ -736,7 +776,8 @@
             "Text": ".\\runtime.test.exe \"-test.run\" TestRuntimePanic",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -744,6 +785,7 @@
           "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
           "f98f156e-75e0-4872-80f5-74cc65c8c568"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530305727768,
         "id": "df44289a-2bf7-4b34-b081-dc256273976f",
@@ -763,6 +805,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530303756308,
             "id": "817bdedf-5d7c-42f3-a7ba-221d4eadc3a9",
@@ -789,10 +832,12 @@
                 "Text": "br runtime.badmorestackg0",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530309262620,
             "id": "f98f156e-75e0-4872-80f5-74cc65c8c568",
@@ -801,17 +846,20 @@
             "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
             "parent_table": "block",
             "type": "text",
-            "version": 4
+            "version": 4,
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "In gdb:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530303766337,
         "id": "5ff38682-b20e-44e4-87f2-6c635c1070cb",
@@ -820,10 +868,12 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301569087,
         "id": "d8e1c76b-6cde-4bbd-bf24-e95a1d35e6e7",
@@ -832,10 +882,12 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "Building Go from source on Windows",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -859,6 +911,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -8,6 +8,7 @@
       "6b3d6dfa-3848-4626-ae7e-7dd9ca93ae8b",
       "0e02ee6d-4471-48f9-832d-8634602f63e6"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512458470163,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458500395,
         "id": "e12eeb68-de5b-42d6-b3f9-704f15bfc1b6",
@@ -51,10 +53,12 @@
           {
             "Text": "Common headers:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458500395,
         "id": "a5c72207-0828-4622-8cc7-b0e5abccab36",
@@ -77,10 +81,12 @@
         "type": "code",
         "version": 2,
         "code": "Referer: http://www.reddit.com/r/netsec/search?q=homakov\nAccept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31\nConnection: keep-alive\nCookie: session=\"x1yc3OWM2ZTdhNNzk1YWY5NDk0MTczNTEKc==\"; csrftoken=\"6QjAl18WY3NyZgpNsHpEKotZNfEtzSLocHRm\";\nHost: homakov.blogspot.ru\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\nAccept-Language: en-US,en;q=0.8\nAccept-Encoding: gzip,deflate,sdch",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458500395,
         "id": "6b3d6dfa-3848-4626-ae7e-7dd9ca93ae8b",
@@ -132,10 +138,12 @@
           {
             "Text": " header."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458486343,
         "id": "0e02ee6d-4471-48f9-832d-8634602f63e6",
@@ -144,10 +152,12 @@
         "parent_id": "99074a86-31df-4401-b42c-90eed46c48b1",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "http protocol",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -171,6 +181,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

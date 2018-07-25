@@ -19,6 +19,8 @@
       "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd",
       "b0d3af17-7c3f-4034-9ac9-a3f937d116fe"
     ],
+    "copied_from": "0e8edfd2-2646-4f07-be53-8eee06429a43",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531200907050,
     "format": {
@@ -42,6 +44,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907050,
         "id": "3343ec01-5052-4f1b-9484-4800622eeac1",
@@ -62,10 +65,12 @@
           {
             "Text": "Id: 336001"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907050,
         "id": "4819d3e3-298d-46a9-a886-5258b7eb2957",
@@ -86,10 +91,12 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907050,
         "id": "2311d8c1-4bed-4a57-a2f2-4c93e73ccb73",
@@ -110,10 +117,12 @@
           {
             "Text": "Date: 2010-10-26T21:25:39-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907050,
         "id": "74a27651-7d0a-4e26-ba94-91d5d80a644a",
@@ -122,10 +131,12 @@
         "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "fceb05dd-0cbc-4501-953e-fd1b4f46cf1a",
@@ -146,10 +157,12 @@
           {
             "Text": "Mistakes happen"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "d18b82ba-bb76-4b70-a2ff-42e09f15226d",
@@ -189,10 +202,12 @@
           {
             "Text": " the other day and some article had 3 identical comments from the same person."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "972b41b0-adaf-44bc-b751-755d83656bbc",
@@ -213,10 +228,12 @@
           {
             "Text": "A mistake, obviously."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "57fc72c4-d7ad-49f3-af0b-8af29c37d1ab",
@@ -237,10 +254,12 @@
           {
             "Text": "What is less obvious, at least to the authors of that commenting system, is that such mistakes can be easily prevented with a bit of programming."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "4dfc4426-da4b-4802-8c73-78d257ce70d9",
@@ -280,10 +299,12 @@
           {
             "Text": ". They run on App Engine but the technique applies to any web development platform."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "ddb0ccc7-ee6c-4322-bb68-1c189d2d74d0",
@@ -304,10 +325,12 @@
           {
             "Text": "Duplication detection, the easy way"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "f615f2b8-8efd-4800-8aa1-92b177598078",
@@ -328,10 +351,12 @@
           {
             "Text": "The idea is simple: before inserting an article/post/comment into a database, check if an entry with exactly the same content already exists. In most storage systems (like SQL database) doing this against large text column is difficult and slow. To make it easy and fast we can calculate SHA1 hash of the text, store it as part of the data describing the post and check for duplicate hash."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "1b8d2a59-247e-4c2d-acd2-e1dec2f1347d",
@@ -352,10 +377,12 @@
           {
             "Text": "SHA1 keys are short. They are a perfect match for key-value stores. With a proper index they’re also very fast to check for in a SQL database."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "9dca517c-fcac-43e5-8bbb-e3c03e05bfdd",
@@ -376,10 +403,12 @@
           {
             "Text": "For added robustness you can trim whitespace from the beginning and end of text before calculating the hash."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "e0b0e572-1e88-41eb-98c5-ba1d4d9bf9dd",
@@ -400,10 +429,12 @@
           {
             "Text": "This method doesn’t prevent malicious people (it only takes changing one character to change the hash) but it does fix the common problem of people submitting the same content twice because due to network connection problems they were not properly notified that the post has been successfully submitted. It happens more often that you might think."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907051,
         "id": "b0d3af17-7c3f-4034-9ac9-a3f937d116fe",
@@ -424,10 +455,12 @@
           {
             "Text": "Using other hash function, like MD5, will work too. SHA1 has better properties but if your programming language provides MD5 but not SHA1, use MD5."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Simple duplicate post detection for your blog, forum or commenting software ",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -451,6 +484,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

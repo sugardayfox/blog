@@ -14,6 +14,8 @@
       "4ce59e83-6b9c-4c31-812e-394ff20ee40f",
       "e3451601-d58b-4ce4-a77b-13b19d7e21d9"
     ],
+    "copied_from": "99ea9231-5b74-464c-877e-ef12443bd987",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531200907336,
     "format": {
@@ -37,6 +39,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "1a5b21a1-c635-4ff5-ab19-0bf5f4963338",
@@ -57,10 +60,12 @@
           {
             "Text": "Id: 319001"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "2e929b2d-a797-4633-893f-f28c19533ce3",
@@ -81,10 +86,12 @@
           {
             "Text": "Date: 2010-08-22T15:46:25-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "247efbf5-9e6b-4c96-866f-84fd4c3fe42b",
@@ -105,10 +112,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "cf2173a5-d985-4224-a8fd-6a265ec840b8",
@@ -117,10 +126,12 @@
         "parent_id": "afe30f39-1257-4383-ae09-8d9e978af697",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "ceed35af-269e-4a9b-a73c-83af1d2c0b84",
@@ -154,10 +165,12 @@
           {
             "Text": " is a time-tracking web application that I just found. You can use it to measure how much time you spend on tasks."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "42fc0022-26bb-453b-ac10-5f11987d0f22",
@@ -178,10 +191,12 @@
           {
             "Text": "They also have a desktop client for Mac, Windows and Linux, which is a nice touch."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907336,
         "id": "a9a898ab-5a17-4589-b727-4000505978d8",
@@ -202,10 +217,12 @@
           {
             "Text": "Except… the teeny-tiny desktop client, which has about 20k worth of logic in it, is 114 MB big. It’s an obscene amount of code even in today’s world, where neither programmers nor users care that much about overhead. 106 MB of that is used by 9 Qt libraries."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907337,
         "id": "385af5f0-e0a3-4721-ba78-b15ea52cd9c9",
@@ -226,10 +243,12 @@
           {
             "Text": "The tragic thing is: with a little more (or even less) effort, it could have been a tiny application. I understand the difficulty of delivering a desktop app for 3 different OSes and the allure of using a framework that promises to “write once deploy everywhere”, but Qt is not easy to learn or easy to write code in (being a C++ monster that it is)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907337,
         "id": "4ce59e83-6b9c-4c31-812e-394ff20ee40f",
@@ -250,10 +269,12 @@
           {
             "Text": "As far as I can tell Toggl’s desktop client is a window that embeds a web browser and the UI is implemented in HTML with a bit of native logic driven from it. Writing an application like that in C# on Windows or Cocoa on Mac is a weekend effort even by someone who doesn’t know those platforms very well. The complexity of such program is at the level of an introductory example for beginners."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531200907337,
         "id": "e3451601-d58b-4ce4-a77b-13b19d7e21d9",
@@ -274,10 +295,12 @@
           {
             "Text": "Someone who knows what they’re doing would spend less time writing 2 apps using the best technologies on a given platform than it takes to setup a build environment for Qt. If written in Cocoa or C# they would end up being tens of kilobytes in size, not hundreds of megabytes."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Why you shouldn’t write Mac programs in QT",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -301,6 +324,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

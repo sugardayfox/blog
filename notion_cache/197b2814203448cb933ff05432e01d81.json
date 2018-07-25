@@ -9,6 +9,8 @@
       "c2af16bf-5630-47d8-87e9-2769d1e50135",
       "538a4ea7-f373-47a0-8c07-2ad9e325bd71"
     ],
+    "copied_from": "f19ab29a-f532-4612-b156-02e660643005",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926006,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926006,
         "id": "19962a01-13ad-4504-93e1-799a671aa530",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 1122"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926006,
         "id": "7d5ee67d-81cf-4280-a508-cb4b3384ec81",
@@ -76,10 +81,12 @@
           {
             "Text": "Tags: unix, debugging"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926006,
         "id": "69a648fc-216e-4379-b0b8-6eb25653e6f8",
@@ -100,10 +107,12 @@
           {
             "Text": "Date: 2008-03-13T17:12:37-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926006,
         "id": "c2af16bf-5630-47d8-87e9-2769d1e50135",
@@ -112,10 +121,12 @@
         "parent_id": "197b2814-2034-48cb-933f-f05432e01d81",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926006,
         "id": "538a4ea7-f373-47a0-8c07-2ad9e325bd71",
@@ -148,10 +159,12 @@
             "Text": "ulimit -S -c unlimited \u003e /dev/null 2\u003e\u00261",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "enabling coredumps",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -175,6 +188,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

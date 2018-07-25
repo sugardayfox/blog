@@ -7,6 +7,7 @@
       "500b34f2-5f1f-452e-8b21-ad140923effd",
       "c1730a82-0ab4-4a9a-a811-1ad8c68e2747"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531880270402,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531880274536,
         "id": "1baa01d4-12e7-459c-a5b2-c7c6e0fc4fc5",
@@ -39,13 +41,15 @@
         "parent_id": "7f72a5ef-444b-4047-bc54-a962796d357a",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "42f2979d-c83f-4279-9a75-f936a248a176"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194230,
         "id": "500b34f2-5f1f-452e-8b21-ad140923effd",
@@ -66,6 +70,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204747818,
             "id": "42f2979d-c83f-4279-9a75-f936a248a176",
@@ -86,14 +91,16 @@
               {
                 "Text": "started on parsing of the html"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-09-27"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -101,6 +108,7 @@
           "633a1bd2-e7f1-4f21-93c2-df824c445b05",
           "93aa52f3-079f-4850-802f-3f063668147f"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194230,
         "id": "c1730a82-0ab4-4a9a-a811-1ad8c68e2747",
@@ -121,6 +129,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204737769,
             "id": "633a1bd2-e7f1-4f21-93c2-df824c445b05",
@@ -154,10 +163,12 @@
                 "Text": "https://github.com/kjk/siser",
                 "Link": "https://github.com/kjk/siser"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531204740642,
             "id": "93aa52f3-079f-4850-802f-3f063668147f",
@@ -178,17 +189,20 @@
               {
                 "Text": "started on winapigen"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-09-26"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "devlog 2017-09 • 02 d",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -212,6 +226,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

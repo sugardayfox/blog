@@ -19,6 +19,8 @@
       "2a8a5517-769e-4095-8f02-283249a48518",
       "79cd84b8-53c9-460a-bac8-88a34972ee24"
     ],
+    "copied_from": "a74af5ff-1717-4862-8f81-237563ba1e6b",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195849640,
     "format": {
@@ -42,6 +44,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "f9fa64b6-9008-426a-8a02-a591d7f3fe72",
@@ -62,10 +65,12 @@
           {
             "Text": "Id: 953"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "969903aa-e40c-4a44-aff6-27bd628656d1",
@@ -86,10 +91,12 @@
           {
             "Text": "Date: 2006-08-16T13:11:46-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "2f4f7353-b10f-415f-b06f-b977f50787a2",
@@ -98,10 +105,12 @@
         "parent_id": "d9eef152-f793-4ff8-96c0-d78744527a3e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "91049246-ea2d-4ffc-935c-3cd5e1e244b8",
@@ -122,10 +131,12 @@
           {
             "Text": "Bad comments are worse than no having comments at all. Given that writing comments (good or bad) takes time, you would think that obviously bad comments would be very rare."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "acbc309d-3338-40fb-b593-073f71735848",
@@ -146,10 +157,12 @@
           {
             "Text": "In my experience, they’re not. Hence a paradox of bad comments."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "357e6424-7e4e-4843-88df-0ddccec0a16e",
@@ -170,10 +183,12 @@
           {
             "Text": "I often see comments stating blindingly obvious things i.e. comments of the kind:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "99db5ec4-07d0-41a1-b0dc-67dde66cadbc",
@@ -196,10 +211,12 @@
         "type": "code",
         "version": 1,
         "code": "class Foo {\n // constructor for Foo\n Foo();\n};",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "85ede984-8e9c-4325-8fca-0ad9dad6c2bf",
@@ -220,10 +237,12 @@
           {
             "Text": "or:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "db1ea581-6bdb-44df-8e2b-bfd88e3811b8",
@@ -246,10 +265,12 @@
         "type": "code",
         "version": 1,
         "code": "/* returns width */\nint getWidth();",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "44e94f73-cb36-4c88-89e3-beb964f389a4",
@@ -270,10 +291,12 @@
           {
             "Text": "So why do people write such useless comments if they could get their job done more quickly without spending time to write them?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "b4d11cc7-3603-42c6-b799-76f6672a904f",
@@ -294,10 +317,12 @@
           {
             "Text": "My theory: guilt."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "330181be-7fbc-447e-924d-9d5b957add9b",
@@ -318,10 +343,12 @@
           {
             "Text": "It’s not that those programmers don’t know that useless comments are, well, useless, or that they couldn’t, given enough time to reflect, classify such comments as useless."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "bb2499ea-f3a0-4e45-9f94-fc8ec3fcf793",
@@ -342,10 +369,12 @@
           {
             "Text": "Programmers know that writing good comments is important. However, writing good comments is hard. By nature, good comments only explain tricky, unexpected behavior of the code and those things are hard to explain well."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "2a8a5517-769e-4095-8f02-283249a48518",
@@ -366,10 +395,12 @@
           {
             "Text": "On top of that, writing comments often has to be postponed until code has been written and tested at which point there’s little incentive to add them."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849641,
         "id": "79cd84b8-53c9-460a-bac8-88a34972ee24",
@@ -390,10 +421,12 @@
           {
             "Text": "Writing good comments is hard (which is why they’re rarely written) but\nprogrammers feel guilty when programs have no comments at all, so they kill that guilty feeling by writing the easy, but useless, comments."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Paradox of bad comments",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -417,6 +450,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

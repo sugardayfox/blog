@@ -9,6 +9,7 @@
       "a144f012-4879-4d4a-826a-2bc334259675",
       "721e8163-5b2a-4f36-99e6-d4f4e08685f5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1528752773008,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528752777567,
         "id": "d488322b-6416-4cc8-810d-03a3738d7ca6",
@@ -52,10 +54,12 @@
           {
             "Text": "June 2018:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528752790401,
         "id": "95b211e5-ec44-45b8-9f7b-4a6b1275dd37",
@@ -76,10 +80,12 @@
           {
             "Text": "884k people"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528752796679,
         "id": "4a3b16b4-88ae-4dc8-9bf3-f4fb8fb3bd43",
@@ -100,10 +106,12 @@
           {
             "Text": "496k cars"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528752801573,
         "id": "a144f012-4879-4d4a-826a-2bc334259675",
@@ -124,10 +132,12 @@
           {
             "Text": "275k on-street parking spaces"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528752847055,
         "id": "721e8163-5b2a-4f36-99e6-d4f4e08685f5",
@@ -136,10 +146,12 @@
         "parent_id": "ef5d3105-090f-453e-aa8d-aa628a76837a",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "San Francisco facts",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -163,6 +175,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

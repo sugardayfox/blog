@@ -6,6 +6,7 @@
       "c87bc015-88fc-4f6c-b43f-6f9b9975867e",
       "bc99b830-21a4-40d0-9bed-51314a3d949c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529455041799,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529455053101,
         "format": {
@@ -50,6 +52,7 @@
         "type": "page",
         "version": 322,
         "title": "Apartments",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -70,6 +73,7 @@
           "98f80dcd-e896-4622-8e59-455e107d0591",
           "14e803ef-f38a-462e-9f6d-ae561ad18427"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529561442894,
         "id": "bc99b830-21a4-40d0-9bed-51314a3d949c",
@@ -89,6 +93,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561445639,
             "id": "310fb754-56f0-49ea-8298-e8601a1fcadb",
@@ -128,10 +133,12 @@
               {
                 "Text": "`"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561448894,
             "id": "267e1af3-3833-4546-b295-24fe7b29e9eb",
@@ -165,10 +172,12 @@
                 "Text": "https://www.ofo.com/us/en",
                 "Link": "https://www.ofo.com/us/en"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561450350,
             "id": "b510945d-4c09-42ce-9df9-910e651bc8dd",
@@ -196,10 +205,12 @@
                 "Text": "http://www.discoverbikesandiego.com/",
                 "Link": "http://www.discoverbikesandiego.com/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561755708,
             "id": "086e615f-1bda-4f2d-807f-1903ac935198",
@@ -233,10 +244,12 @@
                 "Text": "https://mobike.com/us/",
                 "Link": "https://mobike.com/us/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561763650,
             "id": "af553073-80b5-4c90-a3c3-5d0038955b50",
@@ -270,10 +283,12 @@
                 "Text": "https://www.spin.pm/",
                 "Link": "https://www.spin.pm/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561765675,
             "id": "98f80dcd-e896-4622-8e59-455e107d0591",
@@ -307,10 +322,12 @@
                 "Text": "https://www.bird.co/",
                 "Link": "https://www.bird.co/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529561768898,
             "id": "14e803ef-f38a-462e-9f6d-ae561ad18427",
@@ -319,17 +336,20 @@
             "parent_id": "bc99b830-21a4-40d0-9bed-51314a3d949c",
             "parent_table": "block",
             "type": "text",
-            "version": 11
+            "version": 11,
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Bike sharing"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "San Diego",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -353,6 +373,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -63,6 +63,7 @@
       "d80b3225-046c-4c85-a480-4990e25288de",
       "32bece2b-8c41-402c-9ea0-902ba88f23e3"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888787047,
     "file_ids": [
@@ -92,6 +93,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "94924502-ec8b-4d3c-8a8b-c293d79cbaf4",
@@ -112,10 +114,12 @@
           {
             "Text": "Id: wOYk"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "6138d828-027b-4efe-a9b9-cf57870a8267",
@@ -136,10 +140,12 @@
           {
             "Text": "Tags: go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "ed30a6db-29bd-4f2d-9f9d-e51faeef56bd",
@@ -160,10 +166,12 @@
           {
             "Text": "CreatedAt: 2017-06-23T09:43:49Z"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "5cc51ead-f091-4be2-b6d8-ab2f5d4f80b5",
@@ -184,10 +192,12 @@
           {
             "Text": "UpdatedAt: 2017-07-09T01:52:50Z"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "4d5c13a3-2fe5-4385-8715-25723d66c459",
@@ -208,10 +218,12 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888986213,
         "id": "890a7bd3-fd7d-4b65-93ee-fe4e03695bf5",
@@ -232,10 +244,12 @@
           {
             "Text": "Description: Examples of using os/exec library to execute external programs in Go."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888991592,
         "id": "b671023b-f971-44dc-ab74-5320a4a353cd",
@@ -244,10 +258,12 @@
         "parent_id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787031,
         "id": "07114496-4589-4361-b32a-8fc2c2c3c896",
@@ -269,10 +285,12 @@
           {
             "Text": "Go has excellent support for executing external programs. Let’s start at the beginning."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787032,
         "id": "fae6738d-4737-4d6f-b9fb-1d56e8957af3",
@@ -294,10 +312,12 @@
           {
             "Text": "Running a command and capturing the output"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787032,
         "id": "a750c4fc-9321-4277-8836-1c53eb9310e3",
@@ -337,10 +357,12 @@
           {
             "Text": " and capture its combined stdout/stderr."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787032,
         "id": "5cf0ee19-e9b9-4456-b7cb-b9bbf83aca13",
@@ -364,10 +386,12 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    out, err := cmd.CombinedOutput()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    fmt.Printf(\"combined out:\\n%s\\n\", string(out))\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787033,
         "id": "44000b71-6317-4048-b48a-f85290b8df4c",
@@ -408,10 +432,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787033,
         "id": "ca6597d7-e802-4d4e-9522-0e6197de19c9",
@@ -433,10 +459,12 @@
           {
             "Text": "Capture stdout and stderr separately"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787033,
         "id": "8b4e28cb-cedb-4feb-a50f-34e72dcb0a6b",
@@ -458,10 +486,12 @@
           {
             "Text": "What if you want to do the same but capture stdout and stderr separately?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787033,
         "id": "18821237-1276-43c2-8ae5-83adc78cadbd",
@@ -485,10 +515,12 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    var stdout, stderr bytes.Buffer\n    cmd.Stdout = \u0026stdout\n    cmd.Stderr = \u0026stderr\n    err := cmd.Run()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    outStr, errStr := string(stdout.Bytes()), string(stderr.Bytes())\n    fmt.Printf(\"out:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787034,
         "id": "4bff7ef7-8685-4cfc-bd76-df674abeecce",
@@ -529,10 +561,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787034,
         "id": "5c2d3535-7e9a-47f4-9c00-9188f8e1d500",
@@ -554,10 +588,12 @@
           {
             "Text": "Capture output but also show progress"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787034,
         "id": "0990f2db-dcb6-4990-91c8-3d4616371c8f",
@@ -579,10 +615,12 @@
           {
             "Text": "What if the command takes a long time to finish?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787035,
         "id": "49b26db8-4cfc-4b91-81d4-982e2d145581",
@@ -604,10 +642,12 @@
           {
             "Text": "It would be nice to see its progress on the console as it happens in addition to capturing stdout/stderr."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787035,
         "id": "c2f0b8fa-a241-4701-be71-59c4a01fd702",
@@ -629,10 +669,12 @@
           {
             "Text": "It’s a little bit more involved, but not terribly so."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787035,
         "id": "05cf719b-ad39-4c31-bfa1-d5c13e397f39",
@@ -656,10 +698,12 @@
         "type": "code",
         "version": 3,
         "code": "func copyAndCapture(w io.Writer, r io.Reader) ([]byte, error) {\n    var out []byte\n    buf := make([]byte, 1024, 1024)\n    for {\n        n, err := r.Read(buf[:])\n        if n \u003e 0 {\n            d := buf[:n]\n            out = append(out, d...)\n            _, err := w.Write(d)\n            if err != nil {\n                return out, err\n            }\n        }\n        if err != nil {\n            // Read returns io.EOF at the end of file, which is not an error for us\n            if err == io.EOF {\n                err = nil\n            }\n            return out, err\n        }\n    }\n    // never reached\n    panic(true)\n    return nil, nil\n}\n\nfunc main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    var stdout, stderr []byte\n    var errStdout, errStderr error\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n    cmd.Start()\n\n    go func() {\n        stdout, errStdout = copyAndCapture(os.Stdout, stdoutIn)\n    }()\n\n    go func() {\n        stderr, errStderr = copyAndCapture(os.Stderr, stderrIn)\n    }()\n\n    err := cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatalf(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdout), string(stderr)\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787036,
         "id": "0df25a72-ea93-4ce3-8d0f-8ecd5272b78b",
@@ -700,10 +744,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787036,
         "id": "009fb3c0-9bcf-4b51-ab0e-5a459d5c4fbb",
@@ -725,10 +771,12 @@
           {
             "Text": "Capture output but also show progress #2"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787036,
         "id": "901f5f2a-7bb4-49ff-9197-1b1b5c0728a5",
@@ -804,10 +852,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787036,
         "id": "478b1717-c394-4a0d-8800-da0bdb075f56",
@@ -883,10 +933,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787036,
         "id": "3d1d8976-3059-43b3-8cf1-2b0beafb8a46",
@@ -910,10 +962,12 @@
         "type": "code",
         "version": 3,
         "code": "// CapturingPassThroughWriter is a writer that remembers\n// data written to it and passes it to w\ntype CapturingPassThroughWriter struct {\n    buf bytes.Buffer\n    w io.Writer\n}\n\n// NewCapturingPassThroughWriter creates new CapturingPassThroughWriter\nfunc NewCapturingPassThroughWriter(w io.Writer) *CapturingPassThroughWriter {\n    return \u0026CapturingPassThroughWriter{\n        w: w,\n    }\n}\n\nfunc (w *CapturingPassThroughWriter) Write(d []byte) (int, error) {\n    w.buf.Write(d)\n    return w.w.Write(d)\n}\n\n// Bytes returns bytes written to the writer\nfunc (w *CapturingPassThroughWriter) Bytes() []byte {\n    return w.buf.Bytes()\n}\n\nfunc main() {\n    var errStdout, errStderr error\n    cmd := exec.Command(\"ls\", \"-lah\")\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n    stdout := NewCapturingPassThroughWriter(os.Stdout)\n    stderr := NewCapturingPassThroughWriter(os.Stderr)\n    err := cmd.Start()\n    if err != nil {\n        log.Fatalf(\"cmd.Start() failed with '%s'\\n\", err)\n    }\n\n    go func() {\n        _, errStdout = io.Copy(stdout, stdoutIn)\n    }()\n\n    go func() {\n        _, errStderr = io.Copy(stderr, stderrIn)\n    }()\n\n    err = cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatalf(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdout.Bytes()), string(stderr.Bytes())\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787037,
         "id": "6ad283ca-7aa8-4946-9f16-3d539fa4d7f1",
@@ -954,10 +1008,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787037,
         "id": "9e022514-5381-40b1-8266-6dee52beb6e4",
@@ -979,10 +1035,12 @@
           {
             "Text": "Capture output but also show progress #3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787039,
         "id": "1d034284-e1de-4b45-bb53-a1a296009351",
@@ -1041,10 +1099,12 @@
           {
             "Text": ". Let’s use that instead:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787039,
         "id": "c84705cc-162f-4379-a8ae-21b747535043",
@@ -1068,10 +1128,12 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    var stdoutBuf, stderrBuf bytes.Buffer\n    cmd := exec.Command(\"ls\", \"-lah\")\n\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n\n    var errStdout, errStderr error\n    stdout := io.MultiWriter(os.Stdout, \u0026stdoutBuf)\n    stderr := io.MultiWriter(os.Stderr, \u0026stderrBuf)\n    err := cmd.Start()\n    if err != nil {\n        log.Fatalf(\"cmd.Start() failed with '%s'\\n\", err)\n    }\n\n    go func() {\n        _, errStdout = io.Copy(stdout, stdoutIn)\n    }()\n\n    go func() {\n        _, errStderr = io.Copy(stderr, stderrIn)\n    }()\n\n    err = cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatal(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdoutBuf.Bytes()), string(stderrBuf.Bytes())\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787040,
         "id": "fb00d227-c213-42e5-ae62-b1ecffb73474",
@@ -1112,10 +1174,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787040,
         "id": "a240e550-3121-4174-a906-3f65fae2b893",
@@ -1137,10 +1201,12 @@
           {
             "Text": "It’s good to be able to write the code ourselves, but it’s even better to know standard library well!"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787040,
         "id": "1371cb02-dbb9-41ea-a924-21602fd4bc32",
@@ -1162,10 +1228,12 @@
           {
             "Text": "Writing to program’s stdin"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787040,
         "id": "9b018102-234d-4afa-8e42-b6d686743a5a",
@@ -1187,10 +1255,12 @@
           {
             "Text": "We know how to read program’s stdout but we can also write to its stdin."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787040,
         "id": "b953c2a9-cdca-4c5a-b39b-39581e875977",
@@ -1212,10 +1282,12 @@
           {
             "Text": "There is no Go library to do bzip2 compression (only decompression is available in standard library)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "9b1c6406-4fc2-4548-b5fe-e597005a1bae",
@@ -1273,10 +1345,12 @@
           {
             "Text": " and capture its stdout"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "c6b596cd-7b85-4c51-b12f-620e3e14a323",
@@ -1298,10 +1372,12 @@
           {
             "Text": "It would be even better if we didn’t have to create a temporary file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "46d64ccd-26f4-4674-a2cd-c18120475ce2",
@@ -1323,10 +1399,12 @@
           {
             "Text": "Most compression programs accept data to compress/decompress on stdin."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "a6edeaf3-c247-44c6-a26c-dcf73d50f0f1",
@@ -1366,10 +1444,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "89e8e4d2-2982-43b5-9d4c-ec60ae8cc94b",
@@ -1391,10 +1471,12 @@
           {
             "Text": "Here’s the same thing in Go:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787041,
         "id": "e7c194ab-12ac-4f6a-a1ec-e66bef8bb572",
@@ -1418,10 +1500,12 @@
         "type": "code",
         "version": 3,
         "code": "// compress data using bzip2 without creating temporary files\nfunc bzipCompress(d []byte) ([]byte, error) {\n    var out bytes.Buffer\n    // -c : compress\n    // -9 : select the highest level of compresion\n    cmd := exec.Command(\"bzip2\", \"-c\", \"-9\")\n    cmd.Stdin = bytes.NewBuffer(d)\n    cmd.Stdout = \u0026out\n    err := cmd.Run()\n    if err != nil {\n        return nil, err\n    }\n    return out.Bytes(), nil\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787042,
         "id": "e2d047c6-0690-44a3-bd69-437eebcfcc13",
@@ -1462,10 +1546,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787042,
         "id": "7a67b357-56d6-4229-adfa-b0556ab71118",
@@ -1523,10 +1609,12 @@
           {
             "Text": ". It’s more complicated but gives more control over writing."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787043,
         "id": "65d3adb0-6112-47bd-8da6-5599f412382c",
@@ -1548,10 +1636,12 @@
           {
             "Text": "Changing environment of executed program"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787043,
         "id": "d04ce5f2-15bb-4c86-8ed0-62dda0c3b87e",
@@ -1681,10 +1771,12 @@
           {
             "Text": " returns the value of environment variable."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787043,
         "id": "28a50d22-1b58-4223-becf-be424dfd4b1b",
@@ -1706,10 +1798,12 @@
           {
             "Text": "Sometimes you need to modify the environment of the executed program."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787043,
         "id": "83a21b74-0111-42ba-a2e7-8bf11eb3581d",
@@ -1785,10 +1879,12 @@
           {
             "Text": ". Usually you don’t want to construct a completely new environment but pass your own environment augmented with more variables:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787043,
         "id": "49640c88-34a7-4e6b-ac22-d23fe1199b01",
@@ -1812,10 +1908,12 @@
         "type": "code",
         "version": 3,
         "code": "cmd := exec.Command(\"programToExecute\")\n    additionalEnv := \"FOO=bar\"\n    newEnv := append(os.Environ(), additionalEnv))\n    cmd.Env = newEnv\n    out, err := cmd.CombinedOutput()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    fmt.Printf(\"%s\", out)",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787044,
         "id": "91aaf832-8a5e-46e8-a848-7711322128bf",
@@ -1856,10 +1954,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787045,
         "id": "9e6c2a6d-e870-4be6-9ea6-ba9dbb0e9255",
@@ -1900,10 +2000,12 @@
           {
             "Text": " offers slightly more civilized way of manipulating environment variables."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787045,
         "id": "2ebc0f3d-a88e-40f0-84de-6c993e903ff1",
@@ -1925,10 +2027,12 @@
           {
             "Text": "Check early that a program is installed"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787045,
         "id": "1035bcf7-6b37-441f-b62c-592857beb23f",
@@ -1968,10 +2072,12 @@
           {
             "Text": " at the end to perform some essential task."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787045,
         "id": "33cd90f1-cfec-4d49-b708-d7060fdddf9c",
@@ -2011,10 +2117,12 @@
           {
             "Text": " executable is not present, the call will fail."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787046,
         "id": "72ae64d7-0e49-44dc-8f13-65620bf34cec",
@@ -2036,10 +2144,12 @@
           {
             "Text": "It’s a good idea to detect that at the beginning of the program and fail early with descriptive error message."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787046,
         "id": "27a1a6ad-dbcd-4738-a927-6caa9a28361d",
@@ -2079,10 +2189,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787046,
         "id": "84b62d1c-b119-4a37-b727-c408e9760398",
@@ -2106,10 +2218,12 @@
         "type": "code",
         "version": 3,
         "code": "func checkLsExists() {\n    path, err := exec.LookPath(\"ls\")\n    if err != nil {\n        fmt.Printf(\"didn't find 'ls' executable\\n\")\n    } else {\n        fmt.Printf(\"'ls' executable is in '%s'\\n\", path)\n    }\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787047,
         "id": "d67aaa93-a374-4ab4-8efd-2f03c352d071",
@@ -2150,10 +2264,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787047,
         "id": "d80b3225-046c-4c85-a480-4990e25288de",
@@ -2193,10 +2309,12 @@
           {
             "Text": " option)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888787047,
         "id": "32bece2b-8c41-402c-9ea0-902ba88f23e3",
@@ -2231,10 +2349,12 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/advanced-exec",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/advanced-exec"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Advanced command execution in Go with os/exec",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd740d50-d936-4bcf-92b9-f7bf0211cc57/header-02.jpg",
       "page_cover_position": 0.5,
@@ -2259,6 +2379,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

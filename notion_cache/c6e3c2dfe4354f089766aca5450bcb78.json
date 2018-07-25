@@ -7,6 +7,7 @@
       "8563f714-8af8-4e70-995b-10596f606485",
       "c79684a3-7c61-4bfc-9c3f-bd94c0a89dd2"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512352615907,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352629969,
         "id": "5f4a807c-f2c6-4a1b-8a84-9afc50c0ba27",
@@ -38,10 +40,12 @@
         "parent_id": "c6e3c2df-e435-4f08-9766-aca5450bcb78",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352630559,
         "id": "8563f714-8af8-4e70-995b-10596f606485",
@@ -62,10 +66,12 @@
           {
             "Text": "For Node:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352630559,
         "id": "c79684a3-7c61-4bfc-9c3f-bd94c0a89dd2",
@@ -99,10 +105,12 @@
           {
             "Text": " - example of binding win32 api"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "bindings",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -126,6 +134,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

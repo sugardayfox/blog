@@ -12,6 +12,7 @@
       "c2d28e1a-fb9b-415a-9620-7fc802340c36",
       "caa145b6-426c-4227-815a-d89e7085e63d"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157275336,
     "format": {
@@ -36,6 +37,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157275329,
         "id": "49722f04-0b00-4671-887c-78ea4d9db2c0",
@@ -57,10 +59,12 @@
           {
             "Text": "Id: 421"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121176501,
         "id": "c6e67788-df66-48ac-a1d3-d515c59b68f4",
@@ -81,10 +85,12 @@
           {
             "Text": "Date: 2002-09-12T08:32:26-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121186822,
         "id": "c2a3546c-1588-47c6-a5fb-f0ac9016c02b",
@@ -105,10 +111,12 @@
           {
             "Text": "Tags: quote"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121183637,
         "id": "cc64928a-6a9a-4e42-8e09-e1b8e0643180",
@@ -129,10 +137,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121189149,
         "id": "0889d7d4-c8d4-4589-b9a0-26ec7662ed5f",
@@ -141,10 +151,12 @@
         "parent_id": "7e2191f1-54fe-4a23-93bd-49fefbbe7d53",
         "parent_table": "block",
         "type": "text",
-        "version": 10
+        "version": 10,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121191159,
         "id": "9437ccc5-ebc3-416f-a7cd-1b9de13c583d",
@@ -178,10 +190,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157275330,
         "id": "c2d28e1a-fb9b-415a-9620-7fc802340c36",
@@ -203,10 +217,12 @@
           {
             "Text": "Company Name withheld (1995-1998)successfully mismanaged multiple projects for clients including Hewlett Packard, Intel, Compaq, Sony, and Toshiba. Poorly documented project status with Microsoft Project, Microsoft Excel, and Task Tracker. Communicated false and/or useless information to top-level management with PowerPoint. Accepted full responsibility to save Top level management the embarrassment of failure."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531382789905,
         "id": "caa145b6-426c-4227-815a-d89e7085e63d",
@@ -215,10 +231,12 @@
         "parent_id": "7e2191f1-54fe-4a23-93bd-49fefbbe7d53",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "High tech martyr",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -242,6 +260,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

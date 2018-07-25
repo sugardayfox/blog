@@ -13,6 +13,8 @@
       "3c411ee1-9cb7-4c2c-aae0-2befbc3e5458",
       "ecc415ba-a33c-4880-989b-f20620e32ab3"
     ],
+    "copied_from": "817983ba-252d-4b8c-8bae-7d607af5da7c",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195944526,
     "format": {
@@ -36,6 +38,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "33057af1-3915-4c51-8d5b-b99015f3eec3",
@@ -56,10 +59,12 @@
           {
             "Text": "Id: 2015"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "f9e4cdbb-4355-4bef-b0ff-67cc7512398a",
@@ -80,10 +85,12 @@
           {
             "Text": "Date: 2009-02-20T01:33:37-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "84144335-3339-405a-9f23-a30868f20471",
@@ -92,10 +99,12 @@
         "parent_id": "4dfe2435-8ba9-4edf-b4d8-1f7c08b35ed8",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "e8dd20f1-e8ba-441b-9a03-beb391392f91",
@@ -135,10 +144,12 @@
           {
             "Text": " for some time. It’s good piece of software, but for me it lacked some unnamed quality."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "0b6f7074-3093-4453-8a39-2b7a3cecb0fb",
@@ -159,10 +170,12 @@
           {
             "Text": "I decided to use my own website for this kind of note-taking, with additional benefit of my notes being published on the web, hopefully for the benefit of others as well."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "b74535db-c713-4274-8385-c44cdf408e5b",
@@ -202,10 +215,12 @@
           {
             "Text": " to extract the notes and then import them as posts to this site."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "93f73704-1706-4f91-842c-5b2a8b0eb5a5",
@@ -245,10 +260,12 @@
           {
             "Text": " revealed that the author liked the letter Z and that the schema is straightforward."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "3c411ee1-9cb7-4c2c-aae0-2befbc3e5458",
@@ -269,10 +286,12 @@
           {
             "Text": "If you plan to use the script beware that it’s more a template from which to start your own thing than a complete solution. It only dumps the data I was interested in (note title, creation date, tags and content) in a format that was simple for me to use."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944526,
         "id": "ecc415ba-a33c-4880-989b-f20620e32ab3",
@@ -293,10 +312,12 @@
           {
             "Text": "EverNote also has well-documented server API, but using it seemed more complicated than digging things out of sqlite database. And would be many, many times slower."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Exporting data from EverNote",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -320,6 +341,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

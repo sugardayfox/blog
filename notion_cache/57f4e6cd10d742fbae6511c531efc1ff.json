@@ -6,6 +6,7 @@
       "37be224d-b593-4592-8195-5a9614e97f37",
       "63ddd71b-424d-4a9f-9bde-d604002fcc5e"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529221140344,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529221144157,
         "id": "37be224d-b593-4592-8195-5a9614e97f37",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529221147109,
         "id": "63ddd71b-424d-4a9f-9bde-d604002fcc5e",
@@ -80,10 +84,12 @@
             "Text": "https://csharp.christiannagel.com/2018/05/05/treeview/",
             "Link": "https://csharp.christiannagel.com/2018/05/05/treeview/"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "TreeView",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -107,6 +113,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

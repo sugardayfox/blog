@@ -12,6 +12,7 @@
       "5bd3f8fa-7215-4faa-bffe-ba237fc0d411",
       "737b12c3-cde3-478b-9087-4c9f34eb7c18"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1475466894634,
     "format": {
@@ -35,6 +36,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475466900356,
         "id": "a5c0e532-910d-431c-9423-cc2d561eddb8",
@@ -73,10 +75,12 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475466934727,
         "id": "7e7ed2ce-ca39-4a30-b9a0-88809736091f",
@@ -97,10 +101,12 @@
           {
             "Text": "Note: doesn't seem to create log file. It did create with —prof flag."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475466956600,
         "id": "54dcb7f3-ae53-4219-b13f-8518271e0e32",
@@ -121,10 +127,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1475467009704,
         "id": "eddd6c9e-29ab-46f3-9172-185459cfca9e",
@@ -152,10 +160,12 @@
             "Text": "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md",
             "Link": "https://github.com/thlorenz/v8-perf/blob/master/performance-profiling.md"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354872853,
         "id": "79a011d0-4717-45d0-aaf8-a6e0a7ade8e6",
@@ -183,10 +193,12 @@
             "Text": "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/",
             "Link": "https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354872853,
         "id": "d48c0740-32db-467d-b685-773fb6578501",
@@ -214,10 +226,12 @@
             "Text": "https://gamealchemist.wordpress.com/",
             "Link": "https://gamealchemist.wordpress.com/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354872853,
         "id": "5bd3f8fa-7215-4faa-bffe-ba237fc0d411",
@@ -251,10 +265,12 @@
           {
             "Text": " : writing efficient Vector math in JavaScript, from author of glMatrix"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354872853,
         "id": "737b12c3-cde3-478b-9087-4c9f34eb7c18",
@@ -307,10 +323,12 @@
           {
             "Text": " : fast vector math library"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Optimizing v8",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -334,6 +352,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -5,6 +5,7 @@
     "content": [
       "fb2c0c20-42c6-48cc-aa49-2634b09147e8"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512356053424,
     "format": {
@@ -28,6 +29,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356073366,
         "id": "fb2c0c20-42c6-48cc-aa49-2634b09147e8",
@@ -44,10 +46,12 @@
         },
         "type": "code",
         "version": 0,
-        "code": "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists"
+        "code": "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists",
+        "CollectionViews": null
       }
     ],
     "title": "find",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -71,6 +75,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

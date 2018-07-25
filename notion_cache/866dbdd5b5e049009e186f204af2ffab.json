@@ -9,6 +9,8 @@
       "2027d108-2612-48e7-a5ad-923b22c5ac95",
       "31f53e82-f0f4-4219-9ed9-a97aaa3ef573"
     ],
+    "copied_from": "f2b71ec7-e5a8-47ea-947e-c5db16b0ff27",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195781639,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781639,
         "id": "5dbc8fc1-da5a-4dc5-83f6-9529be68f616",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 1530"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781640,
         "id": "996c5553-b42f-474f-8342-045a8cab7b3f",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-01-31T00:18:39-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781640,
         "id": "66ca1d70-4e47-4057-9433-53416d28ab01",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781640,
         "id": "2027d108-2612-48e7-a5ad-923b22c5ac95",
@@ -112,10 +121,12 @@
         "parent_id": "866dbdd5-b5e0-4900-9e18-6f204af2ffab",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781640,
         "id": "31f53e82-f0f4-4219-9ed9-a97aaa3ef573",
@@ -174,10 +185,12 @@
           {
             "Text": " with documents related to ArsDigita (check out the mission statement, it’s as interesting and inspiring as it ever was)."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Old ArsDigita content",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -201,6 +214,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

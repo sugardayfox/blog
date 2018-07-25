@@ -10,6 +10,8 @@
       "a11c77bb-7ae0-4077-a1b0-54f16ab973f6",
       "97686657-2f7c-4627-933b-cb27de513d8a"
     ],
+    "copied_from": "8eb3b6be-cb3c-487e-9f5a-ad49a7d60d89",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195823551,
     "format": {
@@ -33,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195823552,
         "id": "bffc067b-f863-4e14-9567-2b277682f750",
@@ -53,10 +56,12 @@
           {
             "Text": "Id: 895"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195823552,
         "id": "9a9338c9-3065-46aa-9211-1af33201dbb2",
@@ -77,10 +82,12 @@
           {
             "Text": "Date: 2005-02-09T01:12:23-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624505846,
         "id": "253c6d08-dcc9-419f-99e5-9fae97304c48",
@@ -101,10 +108,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195823552,
         "id": "69d1d4db-5ea5-4507-9d58-ff97e5468d2b",
@@ -113,10 +122,12 @@
         "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195823552,
         "id": "a11c77bb-7ae0-4077-a1b0-54f16ab973f6",
@@ -155,10 +166,12 @@
           {
             "Text": ". To increase security SSH calculates a checksum for the server you’re trying to connect to (so that e.g. if someone hi-jacks DNS server and redirects your SSH connection to their own server with the intent of capturing your login/password, SSH will warn you that server’s signature doesn’t match previously seen signature). The problem is that it’s an interactive process i.e. SSH displays a warning and waits for you to accept the new server signature. It also does that when the signature doesn’t exist (i.e. this is the first time you connect to a given server via SSH). Subversion doesn’t show that message but still waits for user’s confirmation which looks like it hung."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195823552,
         "id": "97686657-2f7c-4627-933b-cb27de513d8a",
@@ -179,10 +192,12 @@
           {
             "Text": "I’ve just spent an hour trying to figure out such problem."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Subversion with SSH on Windows tip",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -206,6 +221,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -10,6 +10,7 @@
       "63a9ff89-e1ca-4ed3-a40f-a57003d77931",
       "61678f50-86f5-4665-a47c-45df7cebbb33"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157278700,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157278699,
         "id": "a481120e-9cfd-4c14-aa88-45c513e6e2eb",
@@ -55,10 +57,12 @@
           {
             "Text": "Id: 411"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121454337,
         "id": "ff4f11e2-81be-460b-a6e9-f47959da6dd3",
@@ -79,10 +83,12 @@
           {
             "Text": "Date: 2002-09-08T00:37:43-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121468010,
         "id": "e1d768a3-ee03-46b3-9b3c-3a91eb311777",
@@ -103,10 +109,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121470162,
         "id": "0c210c1a-a3bd-40be-a23b-cc6c3c4c8971",
@@ -115,10 +123,12 @@
         "parent_id": "24780da2-5fa7-4180-a3e0-f509d9b60eda",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121471817,
         "id": "63a9ff89-e1ca-4ed3-a40f-a57003d77931",
@@ -158,10 +168,12 @@
           {
             "Text": ". Important lesson in their story: they always were low-budget."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121477710,
         "id": "61678f50-86f5-4665-a47c-45df7cebbb33",
@@ -170,10 +182,12 @@
         "parent_id": "24780da2-5fa7-4180-a3e0-f509d9b60eda",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "The history of bookfinder",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -197,6 +211,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

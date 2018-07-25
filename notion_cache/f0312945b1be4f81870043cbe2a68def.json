@@ -6,6 +6,7 @@
       "cb357f1a-1d98-4cd4-965b-3f21a909ea4b",
       "453735d7-6b04-4faf-9aa5-af88f96d7719"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1515721054602,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515721057954,
         "id": "cb357f1a-1d98-4cd4-965b-3f21a909ea4b",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515721059578,
         "id": "453735d7-6b04-4faf-9aa5-af88f96d7719",
@@ -80,10 +84,12 @@
             "Text": "https://github.com/mmcco/sljit",
             "Link": "https://github.com/mmcco/sljit"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "jit engines",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -107,6 +113,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -10,6 +10,7 @@
       "559d54db-a407-4d08-b01d-d830d52c59eb",
       "41dfcb6b-be7c-458d-87f3-ca55d8d9494d"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157294110,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157294109,
         "id": "a8445d50-0fca-4cc6-b780-97059b752b78",
@@ -55,10 +57,12 @@
           {
             "Text": "Id: 1466"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531122217877,
         "id": "ad08a8b7-9544-474f-86df-2eed97cf962a",
@@ -79,10 +83,12 @@
           {
             "Text": "Date: 2002-11-11T05:18:50-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531122223854,
         "id": "f63f1260-2a54-4aed-8311-f627cfd609e8",
@@ -103,10 +109,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531122226549,
         "id": "4f9254d4-924d-455d-9f62-d8d315e11b7a",
@@ -115,10 +123,12 @@
         "parent_id": "1d20d3ec-fbfe-4724-b755-aab576d5c2b8",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531122228654,
         "id": "559d54db-a407-4d08-b01d-d830d52c59eb",
@@ -196,10 +206,12 @@
           {
             "Text": "). Talks from LL1 actually interest me more. LL1 had talks about Arc, Rebol, Parrot, Goo. Good stuff."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531122233172,
         "id": "41dfcb6b-be7c-458d-87f3-ca55d8d9494d",
@@ -208,10 +220,12 @@
         "parent_id": "1d20d3ec-fbfe-4724-b755-aab576d5c2b8",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "LL1 Videos",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -235,6 +249,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

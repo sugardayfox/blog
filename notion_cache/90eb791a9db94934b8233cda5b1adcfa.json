@@ -9,6 +9,7 @@
       "3c39bb81-2801-42cb-9d69-4b304c5c9f93",
       "6cc056c3-82a7-496d-9965-13d67bf60734"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1515652526939,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515652531448,
         "id": "5f469e66-47a9-4215-819b-50636d1d6b1a",
@@ -52,10 +54,12 @@
           {
             "Text": "Go libraries:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515652541231,
         "id": "e4e698dc-889b-4dce-bdcb-be7f90bda669",
@@ -83,13 +87,15 @@
             "Text": "https://github.com/xenolf/lego",
             "Link": "https://github.com/xenolf/lego"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "20694071-1261-4c09-ab95-09f630a89fbd"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515794618707,
         "id": "a894bb27-5c53-4ea3-9ee4-191db11751ff",
@@ -115,6 +121,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1515875898420,
             "id": "20694071-1261-4c09-ab95-09f630a89fbd",
@@ -142,7 +149,8 @@
                 "Text": "https://goenning.net/2017/11/08/free-and-automated-ssl-certificates-with-go/",
                 "Link": "https://goenning.net/2017/11/08/free-and-automated-ssl-certificates-with-go/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -150,10 +158,12 @@
             "Text": "https://godoc.org/golang.org/x/crypto/acme/autocert#example-Manager",
             "Link": "https://godoc.org/golang.org/x/crypto/acme/autocert#example-Manager"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515652717888,
         "id": "3c39bb81-2801-42cb-9d69-4b304c5c9f93",
@@ -181,10 +191,12 @@
             "Text": "https://github.com/hlandau/acme",
             "Link": "https://github.com/hlandau/acme"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515653083005,
         "id": "6cc056c3-82a7-496d-9965-13d67bf60734",
@@ -212,10 +224,12 @@
             "Text": "https://godoc.org/golang.org/x/crypto/acme/autocert",
             "Link": "https://godoc.org/golang.org/x/crypto/acme/autocert"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Let's encrypt",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -239,6 +253,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

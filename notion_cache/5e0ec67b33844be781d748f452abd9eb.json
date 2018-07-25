@@ -20,6 +20,8 @@
       "ab6c8cf5-cac3-47c5-a83c-be4b3520e973",
       "80dcfbe4-7912-4e31-8b77-5c57e4df55c2"
     ],
+    "copied_from": "fe0c5e8d-3326-4e53-8417-52251e179eba",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195824061,
     "format": {
@@ -43,6 +45,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "24521cf7-a040-48b3-9525-c2e2925cc852",
@@ -63,10 +66,12 @@
           {
             "Text": "Id: 306"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "4660b540-dd0f-40cd-b1c5-25dae3ab531e",
@@ -87,10 +92,12 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "7f981681-6264-46e9-8a24-f72c6dabd94b",
@@ -111,10 +118,12 @@
           {
             "Text": "Date: 2005-12-31T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "da56ddf8-c747-4c1b-ac1e-d7a866711e0d",
@@ -123,10 +132,12 @@
         "parent_id": "5e0ec67b-3384-4be7-81d7-48f452abd9eb",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "86993bf9-33f6-4660-b861-ad21660617b1",
@@ -147,10 +158,12 @@
           {
             "Text": "Timing of code fragments is simple:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "59a8b688-ab12-4692-9228-b44c2bbf2952",
@@ -171,10 +184,12 @@
           {
             "Text": "record the start time"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "342fcb19-f4a0-4475-b5bf-9425db6f4366",
@@ -195,10 +210,12 @@
           {
             "Text": "execute the code"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "4503545f-2970-440b-80b1-6ffd0522f881",
@@ -219,10 +236,12 @@
           {
             "Text": "record the end time"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "072c5351-e306-4e50-8283-476111f5dadd",
@@ -243,10 +262,12 @@
           {
             "Text": "calucate the difference between end and start"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "f3b4b0fd-dbfd-40c9-a90c-25d9079045e4",
@@ -303,10 +324,12 @@
           {
             "Text": " API calls."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "b1109356-76e0-4ea0-a5f2-90a202d585a2",
@@ -327,10 +350,12 @@
           {
             "Text": "Here’s a simple implementation in C:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "72c2c714-b8d3-48c7-b287-3801f70300b5",
@@ -353,10 +378,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct prof_timer_t {\n    LARGE_INTEGER time_start;\n    LARGE_INTEGER time_stop;\n} prof_timer_t;\n\nvoid prof_timer_start(prof_timer_t *timer) {\n    QueryPerformanceCounter(\u0026timer-\u003etime_start);\n}\n\nvoid prof_timer_stop(prof_timer_t *timer) {\n    QueryPerformanceCounter(\u0026timer-\u003etime_stop);\n}\n\ndouble prof_timer_get_duration_in_secs(prof_timer_t *timer) {\n    LARGE_INTEGER freq;\n    double duration;\n    QueryPerformanceFrequency(\u0026freq);\n    duration = (double)(timer-\u003etime_stop.QuadPart-timer-\u003etime_start.QuadPart)/(double)freq.QuadPart;\n    return duration;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "5c463f87-b897-405b-b6c6-18495b00b186",
@@ -377,10 +404,12 @@
           {
             "Text": "And in C++:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "2074631c-e2ef-4169-8633-0804431c4097",
@@ -403,10 +432,12 @@
         "type": "code",
         "version": 1,
         "code": "// very simple, high-precision (at least in theory) timer for timing API calls\nstruct ProfTimer {\n    void Start(void) {\n        QueryPerformanceCounter(\u0026mTimeStart);\n    };\n    void Stop(void) {\n        QueryPerformanceCounter(\u0026mTimeStop);\n    };\n    double GetDurationInSecs(void)\n    {\n        LARGE_INTEGER freq;\n        QueryPerformanceFrequency(\u0026freq);\n        double duration = (double)(mTimeStop.QuadPart-mTimeStart.QuadPart)/(double)freq.QuadPart;\n        return duration;\n    }\n\n    LARGE_INTEGER mTimeStart;\n    LARGE_INTEGER mTimeStop;\n};",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "ab6c8cf5-cac3-47c5-a83c-be4b3520e973",
@@ -427,10 +458,12 @@
           {
             "Text": "And here’s an example of using the C++ version:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824061,
         "id": "80dcfbe4-7912-4e31-8b77-5c57e4df55c2",
@@ -453,10 +486,12 @@
         "type": "code",
         "version": 1,
         "code": "ProfTimer t;\nt.Start();\nfoo();\nt.Stop();\ndouble dur = t.GetDurationInSecs();\nprintf(“executing foo() took %f seconds” , dur);",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       }
     ],
     "title": "High-resolution timer for timing code fragments",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -480,6 +515,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

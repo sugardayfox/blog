@@ -9,6 +9,8 @@
       "847521c8-14d8-40aa-8168-2fb88d5a4509",
       "89633c77-3768-43a8-aa69-3fcd0b5b90a0"
     ],
+    "copied_from": "05de65e7-4e6a-4034-ad80-206f4caeb3cd",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195845653,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845653,
         "id": "b4237de0-c046-46af-b6b5-300060696f43",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 1970"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845653,
         "id": "493bc846-4353-42d0-bb86-714da9625997",
@@ -76,10 +81,12 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845653,
         "id": "fe3db672-73c7-4181-8faf-92b5c97f3ca9",
@@ -100,10 +107,12 @@
           {
             "Text": "Date: 2006-11-22T15:13:29-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845653,
         "id": "847521c8-14d8-40aa-8168-2fb88d5a4509",
@@ -112,10 +121,12 @@
         "parent_id": "281d8b5e-dce2-403b-802f-91c2b2700bf5",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845653,
         "id": "89633c77-3768-43a8-aa69-3fcd0b5b90a0",
@@ -155,10 +166,12 @@
           {
             "Text": " by Joshua Bloch on designing good APIs. It has a Java slant, since Joshua is one of designers of Java APIs, but the advice is generic enough to apply to other languages.\nBeware the video: it’s in flash but uses a bad player that cannot be paused (well, it can, I just couldn’t unpause it) so be prepared to sit through all 70 minutes of it at once. To all video providers: please also provide a version that I can download and watch in my favorite player at my leisure."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Talk on designing good APIs",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -182,6 +195,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

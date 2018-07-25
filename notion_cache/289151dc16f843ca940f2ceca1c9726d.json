@@ -9,6 +9,7 @@
       "2d2b928c-4cf3-41fb-8e5a-e343a1c968ea",
       "c9a605ce-e9d6-427d-b7c9-c6fcb6b4b15c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512462497133,
     "format": {
@@ -35,6 +36,7 @@
         "content": [
           "00c2bc84-51f9-4ddb-b9a7-886abbf93941"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530068853780,
         "id": "a606f594-8b48-4907-ae62-426730e830e1",
@@ -63,6 +65,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530068861576,
             "id": "00c2bc84-51f9-4ddb-b9a7-886abbf93941",
@@ -90,7 +93,8 @@
                 "Text": "https://news.ycombinator.com/item?id=6946354",
                 "Link": "https://news.ycombinator.com/item?id=6946354"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -101,13 +105,15 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "b93b080e-ed56-44c7-8cb8-84b9fe799e27"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530068881646,
         "id": "38804604-ebf2-4590-b472-e3e8dc4b5eea",
@@ -133,6 +139,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530068919297,
             "id": "b93b080e-ed56-44c7-8cb8-84b9fe799e27",
@@ -160,7 +167,8 @@
                 "Text": "http://www.reddit.com/r/programming/comments/1rk50f/cmder_windows_console_emulator/",
                 "Link": "http://www.reddit.com/r/programming/comments/1rk50f/cmder_windows_console_emulator/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -168,10 +176,12 @@
             "Text": "http://bliker.github.io/cmder",
             "Link": "http://bliker.github.io/cmder"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530068927033,
         "id": "d9aa4af8-a134-4aed-9b19-57819bb8baf3",
@@ -205,10 +215,12 @@
           {
             "Text": " : everything, a fast file finder, but with confusing UI"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530068938555,
         "id": "2d2b928c-4cf3-41fb-8e5a-e343a1c968ea",
@@ -242,10 +254,12 @@
           {
             "Text": " : list of tools for windows"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530068989920,
         "id": "c9a605ce-e9d6-427d-b7c9-c6fcb6b4b15c",
@@ -279,10 +293,12 @@
           {
             "Text": " : better cygwin-like library for porting Unix code to Windows\n"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "dev tools",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -306,6 +322,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

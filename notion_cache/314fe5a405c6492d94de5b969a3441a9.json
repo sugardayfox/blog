@@ -19,6 +19,8 @@
       "2e2e60d5-da7e-42ff-9077-bf9a01f23ea8",
       "3e8f92cb-9712-4996-9c9c-fd07969e35e8"
     ],
+    "copied_from": "633df0b1-2c50-4f06-a709-628c8ed83595",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195802661,
     "format": {
@@ -42,6 +44,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "63ed7995-7d97-4c9c-8bef-19e25f8639ae",
@@ -62,10 +65,12 @@
           {
             "Text": "Id: 1877"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "a823db55-3201-43e2-ba3f-5d6473ae5fa3",
@@ -86,10 +91,12 @@
           {
             "Text": "Date: 2004-12-13T04:06:27-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "da3733a9-b95c-48ed-bf18-8ab1d5800083",
@@ -110,10 +117,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "bafe6423-12bd-40df-be46-a5f11470e29d",
@@ -122,10 +131,12 @@
         "parent_id": "314fe5a4-05c6-492d-94de-5b969a3441a9",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "9c1ddd53-1a0d-4acc-9754-34ace2d292d1",
@@ -146,10 +157,12 @@
           {
             "Text": "I’ve made a small, but tragic in consequences, mistake. I have my biggest hard-drive in a removable hard-drive bay. It got disconnected, the drive vanished from Windows, so I pushed it to connect it. The drive didn’t immediately show up in so I thought Windows XP just needs a little push in recognizing it. I used Computer Management console, saw the drive there but not mounted. And that’s when I made fatal mistake: I’ve added it as a new disk. The fatal mistake was the fact, that this causes initializing the disk, which is almost as bad as formatting it. In retrospect, I think I should have just rebooted the computer and Windows should detect the drive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "040d58fd-8015-4c89-9408-1f00a9488056",
@@ -170,10 +183,12 @@
           {
             "Text": "So the data was on the drive, I just destroyed the crucial data that allowed Windows to actually see it. The only option at this point is formatting. But before that I wanted to recover the files from that hard-drive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "271a8166-1b02-41bc-96df-fb4e21441175",
@@ -213,10 +228,12 @@
           {
             "Text": " ($50) and I’m happy to say that it worked."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "a981e22c-9e60-4f7c-ab2d-c3ca966e2049",
@@ -237,10 +254,12 @@
           {
             "Text": "Restorer2000 scans the whole hard-drive looking for partitions and file systems and is able to reconstruct files from file system info (in my case the disk used NTFS)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802661,
         "id": "c94ccdc6-dfdc-4fa7-88da-86983568a1d4",
@@ -261,10 +280,12 @@
           {
             "Text": "The are a few gotchas."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "8081de90-605f-4104-bdbf-436706402e21",
@@ -285,10 +306,12 @@
           {
             "Text": "First, the process takes a long time, directly proportional to the size of the disk. First, Restorer2000 has to scan the whole hard-drive (read every sector on it) to detect all the files. Then, during actual recovery, it has to read the files again. We’re looking at countless hours for big hard-drives (mine was \u003e200 GB)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "5d8a1991-af27-46de-b4a5-86e5fde4e504",
@@ -309,10 +332,12 @@
           {
             "Text": "The other thing is that it cannot recover files in-place i.e. you need as much free space on other hard-drives as the size of files you want to recover. I wanted to recover everything so that was a bit of a problem."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "610026d6-10ff-4186-ba5a-4fb35ead107c",
@@ -333,10 +358,12 @@
           {
             "Text": "Actually, you need more free space than that since Restorer2000 often detects more than one file with the same file name. I guess it makes sense since its first purpose is to detect deleted files and moving files around or defragmenting hard-drives might leave the file system info that Restorer2000 picks up. During recovery you can either tell Restorer2000 to skip duplicate files or rename them. The second option requires more hard-drive space."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "05a4337d-9d26-4513-96b5-713cea60f2eb",
@@ -357,10 +384,12 @@
           {
             "Text": "I can recommend Restorer2000 since it did what it was supposed to do. I have no idea how it compares to other software of this type since that’s the only one I’ve tried and I hope I won’t have to try anything else in the future."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "2e2e60d5-da7e-42ff-9077-bf9a01f23ea8",
@@ -381,10 +410,12 @@
           {
             "Text": "I wish it had two more options, though."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195802662,
         "id": "3e8f92cb-9712-4996-9c9c-fd07969e35e8",
@@ -405,10 +436,12 @@
           {
             "Text": "First, I would like it to be able to pause and restart the hard-drive scan and recovery process. Those can be very long so it would be nice to be able to e.g. exit the program in the middle of recover, restart it and have it start where it left off."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Recovering data from formatted drives",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -432,6 +465,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

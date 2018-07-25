@@ -11,6 +11,7 @@
       "7777c8cb-0072-48e4-b58f-e9febeb444ca",
       "a951c12a-715d-4675-b510-b34f7775d89a"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512458428133,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458440786,
         "id": "8a28793a-a09c-4871-979a-5e3abe776fea",
@@ -42,10 +44,12 @@
         "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458441752,
         "id": "63e66ef6-00d3-4506-982b-2e6ab73ae4cf",
@@ -85,10 +89,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458441752,
         "id": "4f2f7e0c-42d4-406c-9e5a-cb95c1af089e",
@@ -127,10 +133,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458441752,
         "id": "856d2145-72a3-4473-b2bc-3b9026fb73f4",
@@ -187,10 +195,12 @@
           {
             "Text": "):"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458441752,
         "id": "4123c0bc-e11f-4939-b624-be70ab6dde7b",
@@ -207,10 +217,12 @@
         },
         "type": "code",
         "version": 0,
-        "code": "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}"
+        "code": "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458441752,
         "id": "7777c8cb-0072-48e4-b58f-e9febeb444ca",
@@ -249,10 +261,12 @@
           {
             "Text": " once."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458443446,
         "id": "a951c12a-715d-4675-b510-b34f7775d89a",
@@ -261,10 +275,12 @@
         "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "google depot",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -288,6 +304,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -6,6 +6,7 @@
       "7c0d2376-d8a1-49a0-8388-71ae7db1a0c6",
       "71e61c9d-02c9-4db1-9f12-94b5089767a7"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1518503728964,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1518503731429,
         "id": "7c0d2376-d8a1-49a0-8388-71ae7db1a0c6",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1518503734492,
         "id": "71e61c9d-02c9-4db1-9f12-94b5089767a7",
@@ -86,10 +90,12 @@
           {
             "Text": " : JavaScript parser and renderer of wmf format"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "wmf format",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -113,6 +119,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

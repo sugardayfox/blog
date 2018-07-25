@@ -7,6 +7,7 @@
       "7d045b14-02a7-4f25-a5f7-98957b54fd78",
       "b1564931-0ef4-4f68-b30c-34d0c637aef8"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501698544722,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501698544722,
         "id": "20787ea5-a3a5-4f29-9768-26cc88d7df76",
@@ -50,10 +52,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501698547129,
         "id": "7d045b14-02a7-4f25-a5f7-98957b54fd78",
@@ -81,10 +85,12 @@
             "Text": "https://github.com/esimov/dithergo",
             "Link": "https://github.com/esimov/dithergo"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501698548690,
         "id": "b1564931-0ef4-4f68-b30c-34d0c637aef8",
@@ -93,10 +99,12 @@
         "parent_id": "fe3aac0b-2171-4dd8-8a69-f6889f05a8ac",
         "parent_table": "block",
         "type": "text",
-        "version": 78
+        "version": 78,
+        "CollectionViews": null
       }
     ],
     "title": "graphics in go",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -120,6 +128,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

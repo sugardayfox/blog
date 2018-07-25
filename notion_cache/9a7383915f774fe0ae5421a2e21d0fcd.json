@@ -6,6 +6,7 @@
       "e61b0fb9-6077-4641-8912-0d52b9a8cc37",
       "96bfd472-32ec-4e44-8ddd-231d04312163"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1509253111591,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509253125347,
         "id": "e61b0fb9-6077-4641-8912-0d52b9a8cc37",
@@ -56,10 +58,12 @@
             "Text": "https://gethead.info/",
             "Link": "https://gethead.info/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530420418940,
         "id": "96bfd472-32ec-4e44-8ddd-231d04312163",
@@ -87,10 +91,12 @@
             "Text": "https://github.com/joshbuchea/HEAD",
             "Link": "https://github.com/joshbuchea/HEAD"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "\u003chead\u003e info",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -114,6 +120,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -8,6 +8,7 @@
       "75cb3355-1fe2-456d-8989-2ca12dc98e02",
       "c9c92bd4-c838-4b1e-91e4-d7e185606876"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512462579640,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516020009,
         "id": "9a17397e-9edd-4e17-bc1e-42adb24be830",
@@ -64,10 +66,12 @@
           {
             "Text": " : pure C implementation of Cassowary"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512462579640,
         "id": "b86b498c-7a34-4d9f-bf38-773412d5f484",
@@ -120,10 +124,12 @@
           {
             "Text": " : in javascript"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512462592379,
         "id": "75cb3355-1fe2-456d-8989-2ca12dc98e02",
@@ -157,10 +163,12 @@
           {
             "Text": " : fast re-implementation of caccowary in C++ and typescript"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512462655401,
         "id": "c9c92bd4-c838-4b1e-91e4-d7e185606876",
@@ -169,10 +177,12 @@
         "parent_id": "0dc31cc7-8d09-4258-8f92-f44cbb61d180",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "constraint solver",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -196,6 +206,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

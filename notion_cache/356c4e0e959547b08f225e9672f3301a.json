@@ -9,6 +9,7 @@
       "2d823dff-8241-4a62-b558-6f34946b175c",
       "cc065806-d7bd-4f1e-aa65-47947f55e72c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1514072648298,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514072655644,
         "id": "6edaf40c-51b7-41b5-befa-118e9eccaed2",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514072657061,
         "id": "c1861cab-7cc1-4d3d-89b7-e9f01e03141c",
@@ -89,10 +93,12 @@
           {
             "Text": " : minimalistic wrapper for IndexedDB"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514873684163,
         "id": "8671e488-6285-46f7-8ba6-12224c85c1f8",
@@ -120,10 +126,12 @@
             "Text": "https://github.com/jakearchibald/idb",
             "Link": "https://github.com/jakearchibald/idb"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532049169864,
         "id": "2d823dff-8241-4a62-b558-6f34946b175c",
@@ -151,10 +159,12 @@
             "Text": "https://www.tutorialdocs.com/article/indexeddb-tutorial.html",
             "Link": "https://www.tutorialdocs.com/article/indexeddb-tutorial.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514072676036,
         "id": "cc065806-d7bd-4f1e-aa65-47947f55e72c",
@@ -163,10 +173,12 @@
         "parent_id": "356c4e0e-9595-47b0-8f22-5e9672f3301a",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "IndexedDB",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -190,6 +202,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

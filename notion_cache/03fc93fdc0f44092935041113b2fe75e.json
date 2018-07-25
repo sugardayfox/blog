@@ -10,6 +10,8 @@
       "bd02f8d5-fc0b-418f-a01f-758d70f6514d",
       "32b6d719-32f6-429e-b002-cecb0070c1ef"
     ],
+    "copied_from": "b1847653-f4aa-4557-b763-16a93f182776",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195845729,
     "format": {
@@ -33,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "fd4dbc53-3115-4637-9f1d-f55160612025",
@@ -53,10 +56,12 @@
           {
             "Text": "Id: 955"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "0a39792c-41a2-4190-9796-3f1284ee2c3e",
@@ -77,10 +82,12 @@
           {
             "Text": "Date: 2006-08-20T14:32:45-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "2186b8e5-6657-4e45-8987-50d089bd4118",
@@ -101,10 +108,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "d40a0e89-d312-4b52-98e0-0da1c790c6ae",
@@ -113,10 +122,12 @@
         "parent_id": "03fc93fd-c0f4-4092-9350-41113b2fe75e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "bd02f8d5-fc0b-418f-a01f-758d70f6514d",
@@ -213,10 +224,12 @@
           {
             "Text": " is the best for projects that don’t generate too much discussion (and that’s a majority; for those that do generate a lot of discussion regular mailing list could be better).\nEven if Google Code developers shared my opinion, I’ve worked at too many companies to believe that they wouldn’t be pressured to push for Google Groups integration. I just wish that Groups team would fix their RSS feeds so that:\n- they have full text in the body, so that I don’t have to go back to a web page to read every message. Kinds of defeats the purpose of RSS if I have to do that. - they actually work in Bloglines. Currently they update as frequently and erratically as U.S. is starting a new war. They should update within 24 hr, to keep conversation fluid"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845730,
         "id": "32b6d719-32f6-429e-b002-cecb0070c1ef",
@@ -256,10 +269,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "What I love about Google open-source project hosting",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -283,6 +298,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

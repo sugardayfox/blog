@@ -9,6 +9,8 @@
       "afb0beb5-e73e-4422-b55b-59514405dc3c",
       "4aa7a7af-c22c-4acc-bdb1-0129e64b6857"
     ],
+    "copied_from": "c1d93b27-5989-44c7-93de-165f32fab8dd",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195785677,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195785677,
         "id": "24794cce-b34d-45ba-bc93-951a2208d8ba",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 1672"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195785678,
         "id": "7f6ae1b7-70c4-4fcd-bc05-c390bac3ea02",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-07-24T08:42:32-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195785678,
         "id": "281ff9b0-5218-4424-8646-7d867a061105",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195785678,
         "id": "afb0beb5-e73e-4422-b55b-59514405dc3c",
@@ -112,10 +121,12 @@
         "parent_id": "a726fefe-0c1b-4829-b53c-361bdb347359",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195785678,
         "id": "4aa7a7af-c22c-4acc-bdb1-0129e64b6857",
@@ -168,10 +179,12 @@
           {
             "Text": " - another indexing/searching library."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Lucene for searching source code",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -195,6 +208,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

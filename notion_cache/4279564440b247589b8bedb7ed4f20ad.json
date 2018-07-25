@@ -17,6 +17,8 @@
       "9977381c-2ecb-4689-8c64-c08f98aba823",
       "3f8119f6-3ad8-4c1d-bd3f-efeaa662886f"
     ],
+    "copied_from": "d130e596-8d72-43f0-8064-5b28ec4ddb87",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195851714,
     "format": {
@@ -40,6 +42,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851714,
         "id": "ff97f882-f503-45b0-a385-61570085d8d6",
@@ -60,10 +63,12 @@
           {
             "Text": "Id: 296"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851714,
         "id": "a8ce1039-3002-4208-9879-7503889b8582",
@@ -84,10 +89,12 @@
           {
             "Text": "Tags: c, c++, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851714,
         "id": "ba23d79c-2ade-4c51-8247-c73fd977af69",
@@ -108,10 +115,12 @@
           {
             "Text": "Date: 2006-01-25T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851714,
         "id": "e7f11ba0-3592-48d1-bb3f-2afcac0703eb",
@@ -120,10 +129,12 @@
         "parent_id": "42795644-40b2-4758-9b8b-edb7ed4f20ad",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851714,
         "id": "7df083a1-05a3-443a-a845-57a2e92e89e9",
@@ -180,10 +191,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "e4a19042-1b34-4e74-ab3a-4fbabfd7b65d",
@@ -204,10 +217,12 @@
           {
             "Text": "C++ name mangling are much more complicated since C++ has to support classes, overloaded functions etc."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "5233f26a-486d-45bf-ace8-5a817e38219b",
@@ -228,10 +243,12 @@
           {
             "Text": "It’s also incompatible with C compiler’s name mangling. It can be a problem."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "361df2e6-b5b6-4086-9f31-c697bfc080c3",
@@ -252,10 +269,12 @@
           {
             "Text": "If a header file for functions compiled by C compiler is included in a file compiled by C++ compiler, the linker won’t be able to link those object files since the names of functions won’t match due to different name mangling."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "49c9b1b2-d36e-4a76-9e1e-3f1ec828f2dc",
@@ -276,10 +295,12 @@
           {
             "Text": "There is a solution to this problem."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "e219eb8a-c1a7-44a3-8f6b-4880d004ecbe",
@@ -318,10 +339,12 @@
           {
             "Text": " statement to compile parts of the code only by C++ compiler."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "cf64268b-5e4a-4088-90f8-f3c703cca1ba",
@@ -360,10 +383,12 @@
           {
             "Text": " tells C++ compiler to interpret a given block of code as C compiler would i.e. use C compiler’s name mangling for those functions."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "9977381c-2ecb-4689-8c64-c08f98aba823",
@@ -384,10 +409,12 @@
           {
             "Text": "All this boring explanation means that in order to make your C code safe for C++, you need to wrap the code in header file with those statements:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195851715,
         "id": "3f8119f6-3ad8-4c1d-bd3f-efeaa662886f",
@@ -410,10 +437,12 @@
         "type": "code",
         "version": 1,
         "code": "#ifdef __cplusplus\nextern \"C\"\n{\n#endif\n\n/* ... your C code ... */\n\n#ifdef __cplusplus\n}\n#endif",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Make C code safe for C++",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -437,6 +466,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

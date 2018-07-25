@@ -5,8 +5,10 @@
     "content": [
       "943f9255-a27b-472d-8d24-169797f4f780",
       "62b80980-1615-4854-be6e-a27b1af66960",
-      "4ea4d79a-628a-446b-bbd9-fe437cae5f84"
+      "4ea4d79a-628a-446b-bbd9-fe437cae5f84",
+      "bab69789-a5d8-4a92-8067-5b6a950e01cc"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492378440043,
     "format": {
@@ -15,7 +17,7 @@
     },
     "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532407294256,
+    "last_edited_time": 1532497803036,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -33,10 +35,11 @@
       ]
     },
     "type": "page",
-    "version": 32,
+    "version": 34,
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512461082495,
         "id": "943f9255-a27b-472d-8d24-169797f4f780",
@@ -64,7 +67,8 @@
             "Text": "http://kkovacs.eu/cool-but-obscure-unix-tools",
             "Link": "http://kkovacs.eu/cool-but-obscure-unix-tools"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -72,6 +76,7 @@
           "66c160f5-e60e-4aa2-8683-c9dce71188bc",
           "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512456410501,
         "id": "62b80980-1615-4854-be6e-a27b1af66960",
@@ -108,8 +113,9 @@
               "d596823b-59e2-41b0-ac3c-983228bf492d",
               "56216027-c0e3-43b2-985d-35648b9c0891",
               "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
-              "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd"
+              "f511e438-4d54-4bf4-9b99-deee90438992"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512456410501,
             "format": {
@@ -117,14 +123,15 @@
             },
             "id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531943376960,
+            "last_edited_time": 1532497844053,
             "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
             "parent_table": "block",
             "type": "column",
-            "version": 130,
+            "version": 140,
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1510030989726,
                 "format": {
@@ -146,6 +153,7 @@
                 "type": "page",
                 "version": 4,
                 "title": "appveyor",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -157,6 +165,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1529120276743,
                 "format": {
@@ -178,6 +187,7 @@
                 "type": "page",
                 "version": 24,
                 "title": "awk",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -189,6 +199,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1511323475543,
                 "format": {
@@ -210,6 +221,7 @@
                 "type": "page",
                 "version": 7,
                 "title": "bash",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -221,6 +233,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512531668874,
                 "format": {
@@ -242,6 +255,7 @@
                 "type": "page",
                 "version": 0,
                 "title": "broken link checking",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -253,6 +267,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531178482303,
                 "id": "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
@@ -269,10 +284,12 @@
                 },
                 "type": "page",
                 "version": 23,
-                "title": "caddy"
+                "title": "caddy",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1501802798124,
                 "format": {
@@ -294,6 +311,7 @@
                 "type": "page",
                 "version": 2,
                 "title": "clang",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -305,6 +323,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1493937180823,
                 "format": {
@@ -326,6 +345,7 @@
                 "type": "page",
                 "version": 5,
                 "title": "cmake",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -337,6 +357,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1473637932738,
                 "format": {
@@ -358,6 +379,7 @@
                 "type": "page",
                 "version": 78,
                 "title": "Docker",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -369,6 +391,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512356053424,
                 "format": {
@@ -390,6 +413,7 @@
                 "type": "page",
                 "version": 10,
                 "title": "find",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -401,6 +425,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512370727054,
                 "format": {
@@ -422,6 +447,7 @@
                 "type": "page",
                 "version": 8,
                 "title": "ffmpeg",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -433,6 +459,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1493937588703,
                 "format": {
@@ -454,6 +481,7 @@
                 "type": "page",
                 "version": 0,
                 "title": "gcc",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -465,6 +493,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512370675523,
                 "format": {
@@ -486,6 +515,7 @@
                 "type": "page",
                 "version": 50,
                 "title": "gdb",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -497,6 +527,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1492378440043,
                 "format": {
@@ -518,6 +549,7 @@
                 "type": "page",
                 "version": 25,
                 "title": "git",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -529,6 +561,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512356006769,
                 "format": {
@@ -550,6 +583,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "grep",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -561,6 +595,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512369603578,
                 "id": "1912e300-19b2-480f-acc4-47baae12b454",
@@ -577,10 +612,12 @@
                 },
                 "type": "page",
                 "version": 0,
-                "title": "hexdump"
+                "title": "hexdump",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1508697122041,
                 "format": {
@@ -602,6 +639,7 @@
                 "type": "page",
                 "version": 15,
                 "title": "homebrew",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -613,6 +651,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512456553182,
                 "format": {
@@ -634,6 +673,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "hosted ci services",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -645,6 +685,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1517190755795,
                 "id": "d94e10ca-0a08-419e-8b02-79c832275207",
@@ -661,10 +702,12 @@
                 },
                 "type": "page",
                 "version": 23,
-                "title": "httpie"
+                "title": "httpie",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1517187688278,
                 "id": "db5ebfcd-5966-401f-8ba5-bd2f7c088730",
@@ -681,10 +724,12 @@
                 },
                 "type": "page",
                 "version": 36,
-                "title": "hyper.is"
+                "title": "hyper.is",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1493538912250,
                 "format": {
@@ -706,6 +751,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "InnoSetup",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -717,6 +763,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512369667028,
                 "id": "d596823b-59e2-41b0-ac3c-983228bf492d",
@@ -733,10 +780,12 @@
                 },
                 "type": "page",
                 "version": 0,
-                "title": "iptables"
+                "title": "iptables",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1505957118372,
                 "id": "56216027-c0e3-43b2-985d-35648b9c0891",
@@ -753,10 +802,12 @@
                 },
                 "type": "page",
                 "version": 9,
-                "title": "lldb"
+                "title": "lldb",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512355958893,
                 "format": {
@@ -778,6 +829,7 @@
                 "type": "page",
                 "version": 9,
                 "title": "lsof",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -789,27 +841,29 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1493754080930,
+                "created_time": 1532497806925,
                 "format": {
                   "page_full_width": true,
                   "page_small_text": true
                 },
-                "id": "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+                "id": "f511e438-4d54-4bf4-9b99-deee90438992",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1529120469945,
+                "last_edited_time": 1532497836149,
                 "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
                 "parent_table": "block",
                 "properties": {
                   "title": [
                     [
-                      "nodebb"
+                      "netstat"
                     ]
                   ]
                 },
                 "type": "page",
-                "version": 6,
-                "title": "nodebb",
+                "version": 29,
+                "title": "netstat",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -820,6 +874,7 @@
                 }
               }
             ],
+            "CollectionViews": null,
             "format_column": {
               "column_ratio": 0.5
             }
@@ -827,6 +882,7 @@
           {
             "alive": true,
             "content": [
+              "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
               "7097d0b0-6616-4177-9ea3-5929049be1c4",
               "c35e671a-9211-44dd-97e7-71325c4f8c61",
               "a518f0ec-d095-42b1-9aea-4034849fa37e",
@@ -853,6 +909,7 @@
               "93d8bbe9-6aef-4033-8ef8-fa47b7b73c17",
               "6b61a93e-5d8d-4fe8-8bab-f4e1dcd24679"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512456410501,
             "format": {
@@ -860,14 +917,49 @@
             },
             "id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531943376960,
+            "last_edited_time": 1532497844053,
             "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
             "parent_table": "block",
             "type": "column",
-            "version": 112,
+            "version": 114,
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1493754080930,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532497844053,
+                "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "nodebb"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 9,
+                "title": "nodebb",
+                "CollectionViews": null,
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
+              },
+              {
+                "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1528075297200,
                 "format": {
@@ -889,6 +981,7 @@
                 "type": "page",
                 "version": 49,
                 "title": "notion",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -900,6 +993,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1494637449029,
                 "id": "c35e671a-9211-44dd-97e7-71325c4f8c61",
@@ -916,10 +1010,12 @@
                 },
                 "type": "page",
                 "version": 6,
-                "title": "nsis"
+                "title": "nsis",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1510030723530,
                 "format": {
@@ -941,6 +1037,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "premake",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -952,6 +1049,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1492316308114,
                 "format": {
@@ -973,6 +1071,7 @@
                 "type": "page",
                 "version": 15,
                 "title": "PowerShell",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -984,6 +1083,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1496776428787,
                 "format": {
@@ -1005,6 +1105,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "Prometheus",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1016,6 +1117,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512460418047,
                 "format": {
@@ -1037,6 +1139,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "regel",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1048,6 +1151,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512294053016,
                 "format": {
@@ -1069,6 +1173,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "rsync",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1080,6 +1185,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512461382247,
                 "format": {
@@ -1101,6 +1207,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "spotlight, mdfind",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1112,6 +1219,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1510981209932,
                 "format": {
@@ -1133,6 +1241,7 @@
                 "type": "page",
                 "version": 87,
                 "title": "screenshots, video capture",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1144,6 +1253,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1492922226765,
                 "format": {
@@ -1165,6 +1275,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "ssh",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1176,6 +1287,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512462295305,
                 "format": {
@@ -1197,6 +1309,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "server monitoring services and info",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1208,6 +1321,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512338170838,
                 "format": {
@@ -1229,6 +1343,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "tmux",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1240,6 +1355,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512461723347,
                 "format": {
@@ -1261,6 +1377,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "transactional email services",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1272,6 +1389,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512338206455,
                 "format": {
@@ -1293,6 +1411,7 @@
                 "type": "page",
                 "version": 5,
                 "title": "tcpdump",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1304,6 +1423,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512457478865,
                 "format": {
@@ -1325,6 +1445,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "ulimit",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1336,6 +1457,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512455139144,
                 "format": {
@@ -1357,6 +1479,7 @@
                 "type": "page",
                 "version": 12,
                 "title": "vscode, visual studio code",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1368,6 +1491,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1493077477989,
                 "id": "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
@@ -1384,10 +1508,12 @@
                 },
                 "type": "page",
                 "version": 3,
-                "title": "valgrind"
+                "title": "valgrind",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1476993375898,
                 "format": {
@@ -1409,6 +1535,7 @@
                 "type": "page",
                 "version": 3,
                 "title": "yarn",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1420,6 +1547,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512368377513,
                 "format": {
@@ -1441,6 +1569,7 @@
                 "type": "page",
                 "version": 22,
                 "title": "xcode",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1452,6 +1581,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1492760796206,
                 "format": {
@@ -1473,6 +1603,7 @@
                 "type": "page",
                 "version": 11,
                 "title": "Windbg",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1484,6 +1615,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1495232569011,
                 "id": "61ad39c0-e049-4818-92ff-7420fa27a390",
@@ -1500,10 +1632,12 @@
                 },
                 "type": "page",
                 "version": 3,
-                "title": "wget"
+                "title": "wget",
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1511055631497,
                 "format": {
@@ -1525,6 +1659,7 @@
                 "type": "page",
                 "version": 6,
                 "title": "wine on mac",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1536,6 +1671,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1493937637483,
                 "format": {
@@ -1557,6 +1693,7 @@
                 "type": "page",
                 "version": 5,
                 "title": "wsl (Windows Subsystem For Linux)",
+                "CollectionViews": null,
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
@@ -1568,6 +1705,7 @@
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1529120444203,
                 "id": "93d8bbe9-6aef-4033-8ef8-fa47b7b73c17",
@@ -1576,10 +1714,12 @@
                 "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
                 "parent_table": "block",
                 "type": "text",
-                "version": 7
+                "version": 7,
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1517187684088,
                 "id": "6b61a93e-5d8d-4fe8-8bab-f4e1dcd24679",
@@ -1588,17 +1728,21 @@
                 "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
                 "parent_table": "block",
                 "type": "text",
-                "version": 4
+                "version": 4,
+                "CollectionViews": null
               }
             ],
+            "CollectionViews": null,
             "format_column": {
               "column_ratio": 0.5
             }
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301265109,
         "format": {
@@ -1620,6 +1764,7 @@
         "type": "page",
         "version": 38,
         "title": "html to pdf",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -1628,9 +1773,24 @@
           "page_icon": "",
           "page_small_text": true
         }
+      },
+      {
+        "alive": true,
+        "collection_id": "",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532497803036,
+        "id": "bab69789-a5d8-4a92-8067-5b6a950e01cc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532497803036,
+        "parent_id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "Tools",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1654,6 +1814,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

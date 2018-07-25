@@ -9,6 +9,7 @@
       "4d21fbb7-8087-4253-a362-6cbcdcbe6d3d",
       "c006a7fb-9118-4b14-a11f-407994471d13"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1515190225404,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515190227403,
         "id": "dccbc72c-d44a-4d5b-ab39-88761056a1a4",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515190229283,
         "id": "347ac9b2-e66f-4817-a338-e47b2a2860e9",
@@ -83,10 +87,12 @@
             "Text": "https://uppy.io/",
             "Link": "https://uppy.io/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530046535578,
         "id": "8a57c78b-86e7-4413-96bf-b82fee9761e1",
@@ -114,13 +120,15 @@
             "Text": "https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/",
             "Link": "https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "8df74682-79af-4945-b505-09e0b9a4daad"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531346666547,
         "id": "4d21fbb7-8087-4253-a362-6cbcdcbe6d3d",
@@ -146,6 +154,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531346677379,
             "id": "8df74682-79af-4945-b505-09e0b9a4daad",
@@ -179,7 +188,8 @@
               {
                 "Text": " : javascript library for file upload"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -187,10 +197,12 @@
             "Text": "https://itnext.io/filepond-frontend-trickery-a3073c934c77",
             "Link": "https://itnext.io/filepond-frontend-trickery-a3073c934c77"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530046534333,
         "id": "c006a7fb-9118-4b14-a11f-407994471d13",
@@ -199,10 +211,12 @@
         "parent_id": "00d91491-80e8-429e-9579-436281717fa7",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "file upload",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -226,6 +240,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

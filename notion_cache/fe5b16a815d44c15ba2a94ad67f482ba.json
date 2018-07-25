@@ -9,6 +9,8 @@
       "bd2ed370-c154-4db3-8fac-459e34bdf0a9",
       "f5e91812-4198-4dd3-b61e-5eaffb4ffb68"
     ],
+    "copied_from": "236873f4-b146-4da7-85f1-22e1b751b376",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195786447,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786447,
         "id": "6504b534-e763-4b84-95d2-51180c2632e7",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 596"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786447,
         "id": "e9df76ab-13ec-4e2a-9688-205448ddb9a4",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-04-21T21:35:19-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786447,
         "id": "141bfb8e-e9d2-4aa5-a5ba-95183f244a97",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786447,
         "id": "bd2ed370-c154-4db3-8fac-459e34bdf0a9",
@@ -112,10 +121,12 @@
         "parent_id": "fe5b16a8-15d4-4c15-ba2a-94ad67f482ba",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786447,
         "id": "f5e91812-4198-4dd3-b61e-5eaffb4ffb68",
@@ -168,10 +179,12 @@
           {
             "Text": " is one of them. It basically says that the popularity of Microsoft software is not, as many seem to believe, pure crap that is dominant only because Microsoft’s evil actions and good marketing."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Are Microsoft products any good?",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -195,6 +208,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

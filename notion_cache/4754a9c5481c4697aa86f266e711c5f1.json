@@ -26,6 +26,8 @@
       "1718cdf9-7b31-454c-bab4-42f0d1723eec",
       "2b87d709-e2c5-4de4-9c52-fb38ce973d44"
     ],
+    "copied_from": "e8c947e6-6cca-4a4e-9f54-cf1b58426fb2",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195941642,
     "format": {
@@ -49,6 +51,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "2d186ffd-d98f-4478-b4f1-0393f887801f",
@@ -69,10 +72,12 @@
           {
             "Text": "Id: 21002"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "af3aced9-9f3b-4ad4-9025-78abc86355ee",
@@ -93,10 +98,12 @@
           {
             "Text": "Tags: c#, .net, tenderbase"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "dad51a3e-6550-47f7-a36f-122621293bda",
@@ -117,10 +124,12 @@
           {
             "Text": "Date: 2009-04-22T00:10:19-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "23a5651d-67ab-492e-b43e-d117d07b7285",
@@ -141,10 +150,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "c3614104-ca35-4e24-b4ac-a83e80e0a87a",
@@ -153,10 +164,12 @@
         "parent_id": "4754a9c5-481c-4697-aa86-f266e711c5f1",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "cbaa4f50-94c6-4f87-84d7-60b5efdd743c",
@@ -177,10 +190,12 @@
           {
             "Text": "Recently I’ve been working on porting perst (a small, fast, object-oriented database) from Java to C#."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941642,
         "id": "9b1b1c79-01c8-4a14-b8b2-536e619cb07f",
@@ -201,10 +216,12 @@
           {
             "Text": "The thought of manually converting 10k+ lines of code was scary so I decided to give automatic translation a try."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "fe4ba39e-6879-4598-a18a-763d37c94b04",
@@ -262,10 +279,12 @@
           {
             "Text": ".cs files. What I got was an eclipse plugin. I can barely create a working project in eclipse so I failed to install it properly (even after trying to follow supposedly step-by-step instructions)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "c5b5c319-7eb2-4d16-8910-500d395528b5",
@@ -286,10 +305,12 @@
           {
             "Text": "Then I tried Microsoft’s JLCA (Java Language Conversion Assistant). It’s part of Visual Studio 2005. Sadly, it’s been discontinued (apparently Microsoft no longer considers Java to be threatening enough to continue investing in automatic java-to-c# conversion)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "58558725-11db-418a-b759-58df33c01d8b",
@@ -310,10 +331,12 @@
           {
             "Text": "Here are the exact commands I used to convert perst sources:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "ce7fa0b9-3954-43cb-883e-bb327abd72f8",
@@ -336,10 +359,12 @@
         "type": "code",
         "version": 1,
         "code": "mkdir c:\\kjk\\src\\nuperst-csharp\nmkdir c:\\kjk\\src\\nuperst15-csharp\ncd C:\\Program Files\\Microsoft Visual Studio 8\\JavaLanguageConversionAssistant\njconvert c:\\kjk\\src\\nuperst\\java\\src /JDK J2EE /OutDir c:\\kjk\\src\\nuperst-csharp\n\"C:\\Program Files\\Microsoft Visual Studio 8\\JavaLanguageConversionAssistant\\jconvert\" c:\\kjk\\src\\nuperst\\java\\src /JDK J2EE /Out c:\\kjk\\src\\nuperst-csharp\n\"C:\\Program Files\\Microsoft Visual Studio 8\\JavaLanguageConversionAssistant\\jconvert\" c:\\kjk\\src\\nuperst\\java\\src15 /JDK J2EE /Out c:\\kjk\\src\\nuperst15-csharp /ProjectType Library /ProjectName Nuperst /Verbose\n\"C:\\Program Files\\Microsoft Visual Studio 8\\JavaLanguageConversionAssistant\\jconvert\" c:\\kjk\\src\\nuperst\\java\\src15 /JDK J2EE /Out c:\\kjk\\src\\nuperst15-csharp",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "bb511300-b56b-4f0a-b7f4-3155c6b34fe3",
@@ -360,10 +385,12 @@
           {
             "Text": "The results are far from perfect but I’m certainly happy I tried it first. I’ve had to fix parts that were converted incorrectly, parts that were not converted at all, fix style issues (make the code more idiomatic C#) etc. It took me several days and there’s still plenty to do. It doesn’t change the fact that I probably saved lots of time compared to an alternative i.e. converting everything manually."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "aa2d03a6-1c0b-4204-839b-83b383fcc48d",
@@ -384,10 +411,12 @@
           {
             "Text": "Java and C# are remarkably similar but have enough dissimilarities to trip automatic conversion. There are many big and small, obvious and subtle differences. Parts where JLCA had problems:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "17380e7b-61d0-4a5f-a473-5ab64affc2b4",
@@ -408,10 +437,12 @@
           {
             "Text": "perst uses reflection heavily. JLCA couldn’t translate class loading by name Java idioms (that use ClassLoader) to .NET equivalent (which must fish out things from assemblies)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "fff93a56-f4ab-4d49-9eaa-c979e99fd061",
@@ -432,10 +463,12 @@
           {
             "Text": "Iterator in Java has remove(), IEnumerator in .NET doesn’t. JLCA doesn’t quite know what to do about it"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "bcb073a4-6f11-4587-b4b9-04ad50d7e024",
@@ -456,10 +489,12 @@
           {
             "Text": "classes implementing IO.Stream interfaces were not fully converted due to differences in interfaces"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "1f09b73d-bed3-4aab-b784-fc5239d9021a",
@@ -480,10 +515,12 @@
           {
             "Text": "some final values were translated as readonly, instead of const, and initialized at runtime (vs. compile time) which caused other values that dependent on it be incorrect"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "c993aa51-92da-407a-98af-a85a7d298e45",
@@ -504,10 +541,12 @@
           {
             "Text": "the code is littered with ‘internal’ keyword - it’s the most faithful translation but I don’t think internal is very idiomatic C#"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "df7d208c-d936-4a10-9a4b-fc32d1bab690",
@@ -528,10 +567,12 @@
           {
             "Text": "no attempt was made to fix translation naming conventions (e.g. Java has method() and C# should have Method()) other than when translating between corresponding, already existing classes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "17c9c1f7-babd-4d23-a124-2adf9769a1ce",
@@ -552,10 +593,12 @@
           {
             "Text": "Automatic Java to C# translation is promising. It is harder than it looks like at first but if an implementation abandoned several years ago can do a decent job, a better implementation should be possible."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "1718cdf9-7b31-454c-bab4-42f0d1723eec",
@@ -576,10 +619,12 @@
           {
             "Text": "GWT translates Java to JavaScript so it seems like it should be possible to do even better job converting to a language that is much similar."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941643,
         "id": "2b87d709-e2c5-4de4-9c52-fb38ce973d44",
@@ -600,10 +645,12 @@
           {
             "Text": "Sharpen might be doing a better job, but I would need extremely detailed, step-by-step-with-screenshots guide on how to use it. While I understand why it’s done this way (eclipse has built-in Java parser that sharpen uses), it’s a shame that mechanics of using a tool are prohibitively complex (at least for those who don’t know ins-and-outs of eclipse)"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Automatic Java to C# conversion - experience using Java Language Conversion Assistant",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -627,6 +674,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

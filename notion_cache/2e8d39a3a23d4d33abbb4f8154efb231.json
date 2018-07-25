@@ -9,6 +9,7 @@
       "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
       "bd63faec-f750-4421-aeb6-937c2b2ddd54"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512455139144,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512455165009,
         "id": "e80a0dd1-8458-4f22-ba4b-c65bd34bf5f7",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512455165009,
         "id": "db05c076-3ce4-40b6-bc79-29ee3703b7d8",
@@ -83,7 +87,8 @@
             "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
             "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -91,6 +96,7 @@
           "ca75cd3e-b884-448c-804d-1179446d4739",
           "8838cd33-8852-440b-8d11-cae8b3cda085"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1518165792182,
         "id": "cd13037d-cbf3-4737-8886-99dc21e1b545",
@@ -110,6 +116,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1518165803914,
             "id": "ca75cd3e-b884-448c-804d-1179446d4739",
@@ -130,13 +137,15 @@
               {
                 "Text": "c/c++, c#, Code Runner, Dart Code, Docker, EditorConfig for VS Code, ESLint, Go, HTMLHint, jsx, PowerShell, Prettier, Prettify JSON, Terminal Here, TSLint, vetur"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
             "content": [
               "fa7cd01f-cf08-4768-a8da-4855d0d0050d"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1518166241082,
             "id": "8838cd33-8852-440b-8d11-cae8b3cda085",
@@ -156,6 +165,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1518166246362,
                 "id": "fa7cd01f-cf08-4768-a8da-4855d0d0050d",
@@ -176,24 +186,28 @@
                   {
                     "Text": "Git History"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "abandoned:"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "extensions to install"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512455165009,
         "id": "5c10f51f-4af6-4cb6-b243-6090ef7ec4b7",
@@ -202,10 +216,12 @@
         "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
         "parent_table": "block",
         "type": "text",
-        "version": 2
+        "version": 2,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512455165009,
         "id": "bd63faec-f750-4421-aeb6-937c2b2ddd54",
@@ -222,10 +238,12 @@
         },
         "type": "code",
         "version": 3,
-        "code": "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}"
+        "code": "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}",
+        "CollectionViews": null
       }
     ],
     "title": "vscode, visual studio code",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -249,6 +267,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

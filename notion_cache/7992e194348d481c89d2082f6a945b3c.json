@@ -5,6 +5,7 @@
     "content": [
       "a6adec63-153a-49c9-b508-dbac0beb72af"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501873013019,
     "format": {
@@ -32,6 +33,7 @@
           "4e175be0-df8f-489e-b178-bc7e09809f64",
           "74db74c7-f427-4d7c-a9a1-346462a38e0e"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501873018275,
         "id": "a6adec63-153a-49c9-b508-dbac0beb72af",
@@ -51,6 +53,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1501873038792,
             "id": "4e175be0-df8f-489e-b178-bc7e09809f64",
@@ -67,10 +70,12 @@
             },
             "type": "code",
             "version": 0,
-            "code": "sudo easy_install pip\nsudo pip install \u003cpackage\u003e"
+            "code": "sudo easy_install pip\nsudo pip install \u003cpackage\u003e",
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1501873086166,
             "id": "74db74c7-f427-4d7c-a9a1-346462a38e0e",
@@ -109,17 +114,20 @@
               {
                 "Text": "  in which case pip should came with it."
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "installing pip on mac os x"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "python",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -143,6 +151,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

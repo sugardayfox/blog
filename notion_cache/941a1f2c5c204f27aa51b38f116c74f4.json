@@ -17,6 +17,8 @@
       "e5888823-bd95-4977-8682-b04137f3cf74",
       "a13996ea-4e3a-4b9d-aefe-52308b7add1c"
     ],
+    "copied_from": "66730e5b-1544-4344-bb03-5f605bd78c67",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195786387,
     "format": {
@@ -40,6 +42,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786387,
         "id": "59773883-be0f-4760-bfe9-48aed6440420",
@@ -60,10 +63,12 @@
           {
             "Text": "Id: 1640"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786387,
         "id": "aaff729b-059c-48da-b791-4cb1518f9747",
@@ -84,10 +89,12 @@
           {
             "Text": "Date: 2003-06-04T21:11:20-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531625400141,
         "id": "2f8a15a2-1900-4cea-bdc2-7d89bc7a6baf",
@@ -108,10 +115,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786387,
         "id": "63b9a26c-d1e6-4b64-9042-15b7a534d72a",
@@ -120,10 +129,12 @@
         "parent_id": "941a1f2c-5c20-4f27-aa51-b38f116c74f4",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "876ebdd6-e409-44d3-9e4e-272f67659508",
@@ -182,10 +193,12 @@
           {
             "Text": "” The argument goes like this: in open-source you get the source code to software so people can look at it and discover bugs. This kind of examination isn’t possible in closed source development therefore open source is better and leads to software of higher quality."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "dc53bea1-42f9-4a66-83f4-4136f8972ab0",
@@ -224,10 +237,12 @@
           {
             "Text": ", therefore the argument remains purely theoretical."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "068717ea-b9a7-4354-87e0-5bebd7ae92a0",
@@ -248,10 +263,12 @@
           {
             "Text": "Here’s a little story: I found an interesting (judging by screenshots), open-source software meld (which is a GUI for CVS). It only runs under Linux so I fired up my RedHat 8 (a mainstream Linux distribution) and tried to run it. I’ve downloaded the sources and tried to run it but failed because it depends on pygtk that I didn’t have installed. Looking for rpms for obscure packages is usually a waste of time so I just grabbed the latest sources for pygtk, compiled and installed it (at which point I did something that a majority of users isn’t capable of (and they shouldn’t be)). Then I run meld:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "82471899-a649-4d26-8fd9-040ddcf4c042",
@@ -274,10 +291,12 @@
         "type": "code",
         "version": 1,
         "code": "[kjk@localhost meld]$ ./meld\nSegmentation fault (core dumped)",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "ba9b9057-222a-4189-b155-ddcf97a86b18",
@@ -298,10 +317,12 @@
           {
             "Text": "Which basically says that there was something wrong with the software. I’m a software developer by profession and I’m capable of fixing the problem, whatever it might be. Segmentation fault is usually caused by trying to access memory you’re not allowed to access and, if you have things set up properly, you’ll get dumped into a debugger in a place in the program exactly where the problem happened. From that it’s usually simple to look up the callstack, see the sequence of calls and figure out why you’re playing with invalid pointer. The thing is: I won’t bother. This software is not crucial for me, I can live without it. If I had a machine set up for debugging, had everything compiled with debugging symbols and assuming that the debugger would work (which is not given at all, for a long time gdb didn’t support threads) it would probably take me a few hours to figure out the problem in the code I see for the first time. But I don’t have this so it would take me a few days to get to the point I can start useful debugging. So I give up without thinking."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "cd65c085-413b-4f10-b19f-e05e537915c6",
@@ -322,10 +343,12 @@
           {
             "Text": "In real life:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "6d914940-d17c-4c80-9cbe-6345da00f515",
@@ -346,10 +369,12 @@
           {
             "Text": "your environment isn’t comfortably set up for immediate debugging"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "e5888823-bd95-4977-8682-b04137f3cf74",
@@ -370,10 +395,12 @@
           {
             "Text": "getting started on any software project of decent size has a steep learning curve; in practice this means that no-one will do that just to fix a bug - too much work for too little gain"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786388,
         "id": "a13996ea-4e3a-4b9d-aefe-52308b7add1c",
@@ -394,10 +421,12 @@
           {
             "Text": "There’s no argument that having the source is better than not having it but I argue that, with a few exceptions, it doesn’t change the quality of open source software because no-one bothers to look at the source and contribute small fixes. Just look at any open source project that isn’t Linux or Apache (those are 2 examples of very few exceptions) - they are all desperately (and mostly in vain) looking for contributors."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Given enough eyeballs make all bugs shallow",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -421,6 +450,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

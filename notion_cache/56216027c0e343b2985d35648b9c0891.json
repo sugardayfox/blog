@@ -7,6 +7,7 @@
       "e02763be-e996-4099-ba96-beb5f21adf59",
       "ed8507d0-2182-480f-89d0-aea3152a2802"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1505957118372,
     "id": "56216027-c0e3-43b2-985d-35648b9c0891",
@@ -26,6 +27,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1505957127306,
         "id": "7af0dd02-4b0c-40b5-8cc6-9962d5b2487f",
@@ -46,10 +48,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1505957129105,
         "id": "e02763be-e996-4099-ba96-beb5f21adf59",
@@ -77,10 +81,12 @@
             "Text": "https://medium.com/flawless-app-stories/debugging-swift-code-with-lldb-b30c5cf2fd49",
             "Link": "https://medium.com/flawless-app-stories/debugging-swift-code-with-lldb-b30c5cf2fd49"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1506048950233,
         "id": "ed8507d0-2182-480f-89d0-aea3152a2802",
@@ -89,10 +95,12 @@
         "parent_id": "56216027-c0e3-43b2-985d-35648b9c0891",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
-    "title": "lldb"
+    "title": "lldb",
+    "CollectionViews": null
   },
   "Users": [
     {
@@ -108,6 +116,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -7,6 +7,7 @@
       "5788d46a-1ae5-4c2a-9945-dba5421f97ef",
       "26a2a729-be09-48d8-b438-07d69a6b01ff"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1500298213441,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1500298219984,
         "id": "bb8bf808-42ae-456a-9630-739b71112ecc",
@@ -76,10 +78,12 @@
             "Text": "https://deepstreamhub.com/tutorials/protocols/webrtc-intro/",
             "Link": "https://deepstreamhub.com/tutorials/protocols/webrtc-intro/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510003837081,
         "id": "5788d46a-1ae5-4c2a-9945-dba5421f97ef",
@@ -107,10 +111,12 @@
             "Text": "https://www.pkcsecurity.com/untangling-webrtc-flow.html",
             "Link": "https://www.pkcsecurity.com/untangling-webrtc-flow.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530092801969,
         "id": "26a2a729-be09-48d8-b438-07d69a6b01ff",
@@ -119,10 +125,12 @@
         "parent_id": "549b8840-1eb1-4bf8-a0fc-5adad64960cc",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "webrtc",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -146,6 +154,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

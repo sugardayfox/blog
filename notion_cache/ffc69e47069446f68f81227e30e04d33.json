@@ -6,6 +6,7 @@
       "41c53701-0849-46ae-99cd-2efa84b30d67",
       "0c9330bc-948e-4b2b-8b4b-dd343a5300e2"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529120276743,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529120278483,
         "id": "41c53701-0849-46ae-99cd-2efa84b30d67",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529120280928,
         "id": "0c9330bc-948e-4b2b-8b4b-dd343a5300e2",
@@ -80,10 +84,12 @@
             "Text": "https://gregable.com/2010/09/why-you-should-know-just-little-awk.html",
             "Link": "https://gregable.com/2010/09/why-you-should-know-just-little-awk.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "awk",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -107,6 +113,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

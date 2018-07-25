@@ -27,6 +27,8 @@
       "652f7178-dd46-41a6-9842-5c99e86bc025",
       "39c41a4e-25cb-418e-8454-944a573fa366"
     ],
+    "copied_from": "782c2ae1-eda3-4b7b-84a1-b805e6e8cd19",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736778231,
     "format": {
@@ -50,6 +52,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778232,
         "id": "7192397a-02a7-48f4-96c4-6be7043b8f93",
@@ -70,10 +73,12 @@
           {
             "Text": "Id: 16"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778232,
         "id": "abccc002-29cd-4d74-b2db-d0012feffe8e",
@@ -94,10 +99,12 @@
           {
             "Text": "Date: 2015-06-03T17:45:57-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778232,
         "id": "28dc0d40-6f31-4788-b724-76f85d202dd3",
@@ -118,10 +125,12 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778232,
         "id": "473f9064-e234-4405-936d-9229484a6728",
@@ -142,10 +151,12 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778233,
         "id": "079bad65-b077-4769-8676-8615cb190447",
@@ -154,10 +165,12 @@
         "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
         "parent_table": "block",
         "type": "text",
-        "version": 2
+        "version": 2,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778233,
         "id": "2ff75f6b-f7ea-4905-bcec-c0ae163d6c28",
@@ -178,10 +191,12 @@
           {
             "Text": "For a project written in Go I needed to access files inside .7z archive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778233,
         "id": "8be179b5-3afb-404d-b88e-ac6d2a9804a1",
@@ -202,10 +217,12 @@
           {
             "Text": "Unfortunately at this time there is no pure Go implementation for that."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778234,
         "id": "942a3ffa-8f50-4f14-b07d-bc2a231df383",
@@ -244,10 +261,12 @@
           {
             "Text": " executable to extract the file to disk and then proceed as usual."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778234,
         "id": "3ec0ddfe-7a1a-437a-93e8-81ed2591e1bd",
@@ -286,10 +305,12 @@
           {
             "Text": " stream for a file inside .7z archive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778234,
         "id": "2c04966c-19a7-49c8-803f-f146e9cd5a9e",
@@ -328,10 +349,12 @@
           {
             "Text": " executable for the functionality but it doesn’t create temporary file. Instead it streams decompressed data so it’s more efficient."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778234,
         "id": "b2b60238-e150-49ab-9bdf-475791aa991e",
@@ -371,10 +394,12 @@
           {
             "Text": " library and this article describes how to use it."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778234,
         "id": "08897eaf-0969-4963-a317-fa8f66e953bb",
@@ -395,10 +420,12 @@
           {
             "Text": "Pre-requisites:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778235,
         "id": "63c85c37-d187-4663-8118-9add6ee4b22e",
@@ -431,7 +458,8 @@
             "Text": "go get -u github.com/kjk/lzmadec",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -440,6 +468,7 @@
           "9e73ae8c-09da-468c-8082-2982f7031397",
           "e45b5b3c-9faa-4254-8d20-1a6c1be74fa5"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778235,
         "id": "521a716d-b4e5-4add-b4d9-1a40ea3bf5d7",
@@ -470,6 +499,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531736778235,
             "id": "6dbbcae2-0432-4658-be89-59f792f4f428",
@@ -502,10 +532,12 @@
                 "Text": "brew install p7zip",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531736778235,
             "id": "9e73ae8c-09da-468c-8082-2982f7031397",
@@ -538,10 +570,12 @@
                 "Text": "apt-get install p7zip",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531736778235,
             "id": "e45b5b3c-9faa-4254-8d20-1a6c1be74fa5",
@@ -575,7 +609,8 @@
                 "Text": "http://www.7-zip.org/",
                 "Link": "http://www.7-zip.org/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -589,10 +624,12 @@
           {
             "Text": " binary:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "492ed2d9-3da7-4e2f-a5a7-1ebd4d77a4f1",
@@ -613,10 +650,12 @@
           {
             "Text": "The library offers essentially 2 functions:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "ee2171a6-ab94-455f-9e7c-d88e86440dc3",
@@ -637,10 +676,12 @@
           {
             "Text": "get a list of all files and their metadata inside .7z archive"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "17eb3880-8fee-465d-b67b-bb36c0b80dd0",
@@ -679,10 +720,12 @@
           {
             "Text": " for a given file"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "e8529e03-2367-4282-b872-a0223b780ea6",
@@ -703,10 +746,12 @@
           {
             "Text": "and as a convenience a function to extract a file to disk"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "7bdfa3d0-8e31-42de-b815-fdbc85b3b53e",
@@ -727,10 +772,12 @@
           {
             "Text": "Here’s a skeleton of the code, error handling skipped for clarity:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "1837c212-59dd-4ea4-8d3f-a2971eb7dbc5",
@@ -753,10 +800,12 @@
         "type": "code",
         "version": 2,
         "code": "var archive *lzmadec.Archive\narchive, _ := lzmadec.NewArchive(\"foo.7z\")\n\n// list all files inside archive\nfor _, e := range archive.Entries {\n    fmt.Printf(\"name: %s, size: %d\\n\", e.Path, e.Size)\n}\nfirstFile := archive.Entries[0].Path\n\n// extract to a file\narchive.ExtractToFile(firstFile + \".extracted\", firstFile)\n\n// decompress to in-memory buffer\nr, _ := archive.GetFileReader(firstFile)\nvar buf bytes.Buffer\n_, _ = io.Copy(\u0026buf, r)\n// if not fully read, calling Close() ensures that sub-launched 7z executable\n// is terminated\nr.Close()\nfmt.Printf(\"size of file %s after decompression: %d\\n\", firstFile, len(buf.Bytes()))",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778236,
         "id": "1142e0e9-db1d-41e8-aa1c-1c4a81b39749",
@@ -790,10 +839,12 @@
             "Text": "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go",
             "Link": "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778237,
         "id": "652f7178-dd46-41a6-9842-5c99e86bc025",
@@ -899,10 +950,12 @@
             "Text": "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225",
             "Link": "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736778237,
         "id": "39c41a4e-25cb-418e-8454-944a573fa366",
@@ -942,10 +995,12 @@
           {
             "Text": " is quite advanced but not there yet."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Extracting files from .7z archives in Go",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -969,6 +1024,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

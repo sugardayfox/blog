@@ -8,6 +8,7 @@
       "aa4a3d4f-f468-4eb5-9e75-50dbdee2d258",
       "acbea1a5-858e-4794-a9eb-a9f804f2e85b"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1528075297200,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531001589044,
         "file_ids": [
@@ -44,7 +46,7 @@
         },
         "id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532472662473,
+        "last_edited_time": 1532474047904,
         "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
         "parent_table": "block",
         "properties": {
@@ -55,8 +57,9 @@
           ]
         },
         "type": "page",
-        "version": 308,
+        "version": 310,
         "title": "How I reverse engineered Notion API",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd96d967-248e-4000-9d4e-aafebb234177/header-25.jpg",
           "page_cover_position": 0.5,
@@ -69,6 +72,7 @@
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528075298995,
         "id": "c7d2afd0-5d4d-4e05-99bf-80246c5e590b",
@@ -89,10 +93,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528075300789,
         "id": "aa4a3d4f-f468-4eb5-9e75-50dbdee2d258",
@@ -126,10 +132,12 @@
           {
             "Text": " : scraps Notion public page and allows hosting on firebase"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528075324830,
         "id": "acbea1a5-858e-4794-a9eb-a9f804f2e85b",
@@ -138,10 +146,12 @@
         "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "notion",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -165,6 +175,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

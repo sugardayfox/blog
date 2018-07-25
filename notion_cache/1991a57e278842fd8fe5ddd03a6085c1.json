@@ -13,6 +13,7 @@
       "a5851219-06a9-4ca7-a86c-2097dd57ae42",
       "ed982aca-967f-4e6f-a262-ca603179404f"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492648524897,
     "format": {
@@ -36,6 +37,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492648524897,
         "id": "1aad4eac-e33c-4343-b97e-08c156d784dc",
@@ -56,10 +58,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492648527975,
         "id": "aa5cc3be-78ae-4a35-8484-bf089e145c79",
@@ -125,10 +129,12 @@
             "Text": "http://geekswithblogs.net/kobush/articles/CustomBorderForms3.aspx",
             "Link": "http://geekswithblogs.net/kobush/articles/CustomBorderForms3.aspx"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492648595066,
         "id": "f080986f-5250-4936-a00e-a0b5d80ce4c6",
@@ -156,10 +162,12 @@
             "Text": "https://github.com/pvginkel/CustomChrome",
             "Link": "https://github.com/pvginkel/CustomChrome"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516787372,
         "id": "2310e7df-9af2-4e35-ab3a-b369ef7c4023",
@@ -193,10 +201,12 @@
           {
             "Text": " : winforms library, "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516782817,
         "id": "cab555fb-fab4-4dfd-8cce-e99d0af21276",
@@ -230,10 +240,12 @@
           {
             "Text": " non-client drawing"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516805805,
         "id": "66e6ca77-d8c3-4ca2-9f05-0d595b7a6546",
@@ -261,10 +273,12 @@
             "Text": "http://stackoverflow.com/questions/745404/using-layered-windows-to-create-smooth-window-borders",
             "Link": "http://stackoverflow.com/questions/745404/using-layered-windows-to-create-smooth-window-borders"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516820188,
         "id": "5081a5c6-3263-4388-8924-e43e11e2679d",
@@ -298,10 +312,12 @@
           {
             "Text": ", parts and states of common controls for theming api"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516866699,
         "id": "a5851219-06a9-4ca7-a86c-2097dd57ae42",
@@ -335,10 +351,12 @@
           {
             "Text": " : Drawing Controls with Visual Styles"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516781328,
         "id": "ed982aca-967f-4e6f-a262-ca603179404f",
@@ -347,10 +365,12 @@
         "parent_id": "1991a57e-2788-42fd-8fe5-ddd03a6085c1",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "Custom window painting",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -374,6 +394,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

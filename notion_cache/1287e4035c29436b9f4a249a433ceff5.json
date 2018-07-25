@@ -21,6 +21,8 @@
       "3ecabfa3-7936-495a-b2b8-e125a1f1bcdd",
       "2f665e09-009e-4779-9dd3-1e015bca5fc3"
     ],
+    "copied_from": "5679b3bd-cc3e-4ffd-b11f-763e1bf672aa",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736996103,
     "format": {
@@ -44,6 +46,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "2f71ea21-a93b-4882-9a96-a2e45bb51b00",
@@ -64,10 +67,12 @@
           {
             "Text": "Id: 427002"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "3ae3bcf1-f120-42a3-99d2-810b92df65e0",
@@ -88,10 +93,12 @@
           {
             "Text": "Tags: sumatra, releasenotes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "55178e1b-f160-4a03-ad5d-f2c2faa49309",
@@ -112,10 +119,12 @@
           {
             "Text": "Date: 2011-03-12T16:18:46-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "7f448695-1003-477b-9f42-c47a9c2160dc",
@@ -124,10 +133,12 @@
         "parent_id": "1287e403-5c29-436b-9f4a-249a433ceff5",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "05342551-9858-439a-89cd-6f4d314d05fd",
@@ -167,10 +178,12 @@
           {
             "Text": ", a free, small, fast, open-source PDF viewer for Windows, is ready."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "22a6f67f-44f3-4450-83b8-d7ae0dacd326",
@@ -191,10 +204,12 @@
           {
             "Text": "What’s new in this version?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "9a68f813-4566-483d-ab5e-c4234ee8998a",
@@ -215,10 +230,12 @@
           {
             "Text": "We’ve added browser plugin for Firefox/Chrome/Opera (Internet Explorer is not supported)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "2b6d35d0-30a9-4a94-9903-5396b4c785f9",
@@ -239,10 +256,12 @@
           {
             "Text": "We’ve added IFilter that enables full-text search of PDF files in Windows Desktop Search (i.e. search from Windows Vista/7’s Start Menu)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "f95d088f-25f6-447e-bee2-7511524f33fd",
@@ -263,10 +282,12 @@
           {
             "Text": "Browser plugin and IFilter are not installed by default so you need to use options in the installer and check the appropriate checkboxes. You can uninstall them by re-running the installer and de-selecting the options."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996103,
         "id": "11115f08-2b87-4115-9655-5f90a753488c",
@@ -287,10 +308,12 @@
           {
             "Text": "In 1.3 we’ve improved text selection to use left mouse button. The downside of that was that left mouse button couldn’t be used for scrolling when mouse cursor is over text. To compensate for that, in 1.4 you can scroll with right mouse button."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "cc8133f6-1ac2-4938-9631-1b2d8fb8a2de",
@@ -311,10 +334,12 @@
           {
             "Text": "In 1.3 we’ve introduced a new installer. Some of you missed the ability of choosing a custom installation directory that was not implemented in 1.3. We’ve re-introduced support for non-standard installation directory in 1.4."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "8d6b3d16-f9e0-46de-95f4-5ce3cf53f1d3",
@@ -335,10 +360,12 @@
           {
             "Text": "SumatraPDF focuses on reading PDFs and doesn’t implement some more advanced functionality like filling out forms or making annotations. If you need this functionality, we’ve made it easy to re-open current document via File menu in Adobe Reader (if it’s installed). In 1.4 we also support Foxit and PDF-XChange."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "2136d641-72ed-4235-b140-3b66fa44ed1a",
@@ -359,10 +386,12 @@
           {
             "Text": "To make SumatraPDF files smaller, we used to compress the executable with mpress. Unfortunately that caused some anti-virus programs to falsely report Sumatra as a virus. We no longer compress the executables that ship with the installer version, so don’t be surprised that the files are now bigger. The portable, .zip version still ships as a single, compressed executable (so don’t be surprised if it’s flagged by some anti-virus software)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "3406e364-349f-4aea-bb64-148e2d90eedb",
@@ -383,10 +412,12 @@
           {
             "Text": "We’ve removed -title cmd-line option."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "e11e2060-88c4-4172-b259-1e91c92320d0",
@@ -407,10 +438,12 @@
           {
             "Text": "We’ve added support for AES-256 encrypted PDF files, fixed an integer overflow reported by Jeroen van der Gun and and made other fixes and improvements to PDF handling."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "3ecabfa3-7936-495a-b2b8-e125a1f1bcdd",
@@ -431,10 +464,12 @@
           {
             "Text": "If you wonder why we don’t have browser plugin for Internet Explorer, the explanation is simple: no-one has written the necessary code."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736996104,
         "id": "2f665e09-009e-4779-9dd3-1e015bca5fc3",
@@ -474,10 +509,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "SumatraPDF 1.4 released",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -501,6 +538,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

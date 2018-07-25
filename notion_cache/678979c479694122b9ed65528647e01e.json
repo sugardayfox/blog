@@ -8,6 +8,8 @@
       "d413f46a-696d-40e8-874a-e35a4d9720c9",
       "a82bad6e-c836-4012-9807-0704a1adb47c"
     ],
+    "copied_from": "471bfe40-b0bc-4242-9343-3f1fd33390c5",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195787106,
     "format": {
@@ -31,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195787106,
         "id": "bfbf9be8-9c46-46a4-9893-40b9326542e2",
@@ -51,10 +54,12 @@
           {
             "Text": "Id: 1656"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195787107,
         "id": "f425460e-57a2-4c1c-8c4d-d907a558f0ce",
@@ -75,10 +80,12 @@
           {
             "Text": "Date: 2003-07-03T13:48:22-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195787107,
         "id": "d413f46a-696d-40e8-874a-e35a4d9720c9",
@@ -87,10 +94,12 @@
         "parent_id": "678979c4-7969-4122-b9ed-65528647e01e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195787107,
         "id": "a82bad6e-c836-4012-9807-0704a1adb47c",
@@ -130,10 +139,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "O’Reilly on software",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -157,6 +168,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

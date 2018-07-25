@@ -6,6 +6,7 @@
       "63e3782b-4b9b-4a71-83a4-a280615d305e",
       "f3593e67-9053-4d64-8cb3-6883858e12c6"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530301265109,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301268035,
         "id": "63e3782b-4b9b-4a71-83a4-a280615d305e",
@@ -62,13 +64,15 @@
           {
             "Text": " is a Python program and Library to convert HTML to PDF, seems to support multiple HTML → single PDF, custom css"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "42cfaa5f-a803-4f72-bb39-337712404d43"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530301309533,
         "id": "f3593e67-9053-4d64-8cb3-6883858e12c6",
@@ -97,6 +101,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530301341232,
             "id": "42cfaa5f-a803-4f72-bb39-337712404d43",
@@ -130,7 +135,8 @@
               {
                 "Text": " : discussion "
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -141,10 +147,12 @@
           {
             "Text": " : uses chrome headless"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "html to pdf",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -168,6 +176,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

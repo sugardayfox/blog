@@ -8,6 +8,7 @@
       "d62cf69f-2341-4227-9eab-dec57ea75f42",
       "c46313cb-173d-40d9-97ac-a856d476c11b"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512352264224,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352278196,
         "id": "217814c8-ddb1-49ea-a2ea-8f18f8649eef",
@@ -58,10 +60,12 @@
             "Text": "http://stackoverflow.com/questions/4802744/adjust-listview-columns-to-fit-with-winforms",
             "Link": "http://stackoverflow.com/questions/4802744/adjust-listview-columns-to-fit-with-winforms"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530091461826,
         "id": "b9bc3967-bf71-48df-b8d2-e818e32218f3",
@@ -89,10 +93,12 @@
             "Text": "http://www.dotnetperls.com/listview",
             "Link": "http://www.dotnetperls.com/listview"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530091469384,
         "id": "d62cf69f-2341-4227-9eab-dec57ea75f42",
@@ -120,10 +126,12 @@
             "Text": "http://objectlistview.sourceforge.net/cs/index.html",
             "Link": "http://objectlistview.sourceforge.net/cs/index.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530091479744,
         "id": "c46313cb-173d-40d9-97ac-a856d476c11b",
@@ -132,10 +140,12 @@
         "parent_id": "e7b6f953-3788-4432-9929-43ffe27909cc",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "CollectionViews": null
       }
     ],
     "title": "ListView",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -159,6 +169,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

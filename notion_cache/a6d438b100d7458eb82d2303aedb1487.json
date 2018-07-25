@@ -32,6 +32,8 @@
       "098ab3cd-6df9-4941-b15a-257a37c3b805",
       "c9c536d3-a3c0-4b17-9207-018b8f47ecc9"
     ],
+    "copied_from": "372a648f-6aa3-496e-a6d7-6b2c0e6934a2",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195845659,
     "format": {
@@ -55,6 +57,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845659,
         "id": "93eb8379-5420-4589-bbd4-441608e8682a",
@@ -75,10 +78,12 @@
           {
             "Text": "Id: 1289"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "ba756723-d7d8-49bd-afef-4f2c30eb1ca2",
@@ -99,10 +104,12 @@
           {
             "Text": "Tags: gdb, unix, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "f7da508e-968c-4754-8771-5d084a7e12a2",
@@ -123,10 +130,12 @@
           {
             "Text": "Date: 2006-09-06T17:00:00-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "4562c4bd-88b9-4106-a025-f35298cb7cbf",
@@ -135,10 +144,12 @@
         "parent_id": "a6d438b1-00d7-458e-b82d-2303aedb1487",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "37e5684c-5381-4d00-ab19-f86263ccee64",
@@ -207,10 +218,12 @@
           {
             "Text": " in $HOME directory, then in current directory (if different than $HOME)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "3d6e4ac0-270f-4acc-9146-9e2605607013",
@@ -339,10 +352,12 @@
           {
             "Text": " file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "8dd519c3-32ab-4349-9e37-160e23e74e7e",
@@ -363,10 +378,12 @@
           {
             "Text": "Basics:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "3bfb6b98-3654-4a2c-b510-9990132caa5b",
@@ -399,10 +416,12 @@
           {
             "Text": " - run the program with (optional) arguments"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "e2015b10-cc03-495e-a168-f9be3bbf2ecd",
@@ -453,10 +472,12 @@
           {
             "Text": ") - continue execution"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "600a6a69-b906-4ba4-b257-cb88cde1197d",
@@ -489,10 +510,12 @@
           {
             "Text": " - print a stack trace"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "a4803755-688d-4423-a2fd-c087013e7a5a",
@@ -525,10 +548,12 @@
           {
             "Text": " - switch to frame"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "fd0f52e6-1419-4b42-aa0c-bf1d517b3b1b",
@@ -561,10 +586,12 @@
           {
             "Text": " - show local variables"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "712bef35-8ead-432a-959d-e0f025172dcf",
@@ -597,10 +624,12 @@
           {
             "Text": " - print the value of a variable"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "bdf60d9e-c3af-4d85-938c-bcd1e0faac26",
@@ -633,10 +662,12 @@
           {
             "Text": " - show data under a given addr using a given format"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "b8f4f813-83c5-41e4-a04a-1371f40cceda",
@@ -669,13 +700,15 @@
           {
             "Text": " - display current breakpoints"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "17ace902-7725-46b0-9c90-5999306ecf98"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845660,
         "id": "4ebbb411-4530-4219-b744-a0eb2741bda3",
@@ -703,6 +736,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531195845661,
             "id": "17ace902-7725-46b0-9c90-5999306ecf98",
@@ -735,7 +769,8 @@
                 "Text": "break 24",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -746,10 +781,12 @@
           {
             "Text": " - set breakpoint at a line number"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "e1a30464-aa76-4a88-8857-40ea1b035e4d",
@@ -800,10 +837,12 @@
           {
             "Text": " (set a breakpoint 24 bytes after the beginning of function foo"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "00bf7e60-74d1-4eb0-9299-c4a048e45535",
@@ -872,10 +911,12 @@
           {
             "Text": " - delete/disable/enable breakpoint"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "11366fba-a4b6-4dad-936b-78f2aac9e19b",
@@ -896,10 +937,12 @@
           {
             "Text": "Debugging at assembly level:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "9b5011d9-b798-4210-965f-d5615d733bcb",
@@ -932,10 +975,12 @@
           {
             "Text": " so that gdb prints the next assembly instruction"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "52851540-7716-40eb-9942-8910a1d072ea",
@@ -986,10 +1031,12 @@
           {
             "Text": " for stepping by one instruction"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "e47f1deb-e481-460d-a099-6197d7cf07b6",
@@ -1022,10 +1069,12 @@
           {
             "Text": " changes assembly syntax from awful AT\u0026T to less awful intel"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "578af852-4baf-470c-a678-786221c6a95c",
@@ -1058,10 +1107,12 @@
           {
             "Text": " - show content of registers"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "dfe029ff-37bf-4e98-9e74-6cee98e3f9d6",
@@ -1100,10 +1151,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "77d68da5-28db-4704-8c41-0092a2d67ef2",
@@ -1142,10 +1195,12 @@
           {
             "Text": " (or 24 if not given) bytes starting from current location."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "057fde09-b808-4e2e-890d-d574601e668f",
@@ -1168,10 +1223,12 @@
         "type": "code",
         "version": 1,
         "code": "define dpc\n  if $argc ==1\n    disass $pc $pc + $arg0\n  end\n  if $argc == 0\n    disass $pc $pc+24\n  end\nend",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "098ab3cd-6df9-4941-b15a-257a37c3b805",
@@ -1216,10 +1273,12 @@
             "Text": "addr",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195845661,
         "id": "c9c536d3-a3c0-4b17-9207-018b8f47ecc9",
@@ -1242,10 +1301,12 @@
         "type": "code",
         "version": 1,
         "code": "def pu\n  set $uni = $arg0\n  set $i = 0\n  while (*$uni \u0026\u0026 $i++\u003c100)\n    if (*$uni \u003c 0x80)\n      print *(char*)$uni++\n    else\n      print /x *(short*)$uni++\n    end\n  end\nend",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Gdb basics",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1269,6 +1330,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

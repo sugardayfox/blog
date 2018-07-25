@@ -10,6 +10,7 @@
       "6b83adc0-c4f1-49eb-9d10-c036d09075da",
       "4aac4bd4-51b5-4dce-bd59-ad834f51ad1c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157280389,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157280386,
         "id": "1c58186b-4059-4695-ba4e-2ef3394d09f0",
@@ -55,10 +57,12 @@
           {
             "Text": "Id: 430"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121591062,
         "id": "93c760e1-b360-4f0a-94a4-bfa4488cf728",
@@ -79,10 +83,12 @@
           {
             "Text": "Date: 2002-09-17T09:15:27-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121596020,
         "id": "5fe20aa8-aa45-489d-9e8e-32e7590f8db2",
@@ -103,10 +109,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121597781,
         "id": "3ef020f3-541f-4b2a-9ef3-123fb08b8b0e",
@@ -115,10 +123,12 @@
         "parent_id": "17f2bb79-7a63-483d-9045-8d4787547fde",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121600103,
         "id": "6b83adc0-c4f1-49eb-9d10-c036d09075da",
@@ -158,10 +168,12 @@
           {
             "Text": " that:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157280389,
         "id": "4aac4bd4-51b5-4dce-bd59-ad834f51ad1c",
@@ -183,10 +195,12 @@
           {
             "Text": "It’s actually a great time to start a company selling Web tools. The barriers to entry are low. You can find lots of great employees and lots of office space. And you can get noticed with a pretty low marketing budget."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Those are the good times",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -210,6 +224,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -15,6 +15,8 @@
       "ba3d66ec-ec9f-480a-a672-83ef2ea543b5",
       "cdc5c725-1c40-4e93-b013-ded3afa046bc"
     ],
+    "copied_from": "808b5221-0d16-4901-8644-ff7420f82382",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195941665,
     "format": {
@@ -38,6 +40,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "edde1eff-d7a6-4141-a311-51b0951bdd14",
@@ -58,10 +61,12 @@
           {
             "Text": "Id: 25011"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "ae1e409d-6361-4953-be47-2dbe58dfb83a",
@@ -82,10 +87,12 @@
           {
             "Text": "Tags: .net, c#"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "29b01a12-c076-4854-9fa7-c6c797991588",
@@ -106,10 +113,12 @@
           {
             "Text": "Date: 2009-06-04T23:28:28-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "92b24b39-ed35-4e0e-8c57-6b21c8686f1d",
@@ -118,10 +127,12 @@
         "parent_id": "40162557-4d1d-4685-b9a2-9403645c0c49",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "7a9401ab-5452-4a2c-a82f-d8bee884f6e9",
@@ -142,10 +153,12 @@
           {
             "Text": "I have Windows 7 installed on my MacBook under VirtualBox. To keep things simple, I keep my code on mac side, sharing the directory with Windows side."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "4fbaa70b-db3b-430b-b524-a8dca38cb242",
@@ -166,10 +179,12 @@
           {
             "Text": "Tip #1: VirtualBox 2.2.4 has weak implementation of shared folders. For example, Visual Studio 2008 sees the files on shared drive as write-protected (even though other applications don’t). Visual Studio 2010 doesn’t have this problem, but it can’t finish compilation, complaining it cannot write some intermediary build files to a shared folder. Also, trying to mark shared folder as trustworthy for .NET doesn’t seem to work (see below)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "ebeb7cb4-10cf-478c-a985-f9e11957f10e",
@@ -190,10 +205,12 @@
           {
             "Text": "Solution: use Mac’s built-in file sharing instead and shared things out using built-in samba (smb) sharing in System Preferences/Sharing."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "a919b5df-a904-40e4-9320-b8df926aebd3",
@@ -214,10 +231,12 @@
           {
             "Text": "Another problem is that .NET by default doesn’t trust code on network drives and Visual Studio will tell you that “The Project Location is Not Trusted” if you open a project from a network drive. The magic incantation to make a given shared folder (in my case it’s drive z:) trusted is:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "9eeca9d5-2767-4f3c-9460-b20ad9766234",
@@ -240,10 +259,12 @@
         "type": "code",
         "version": 1,
         "code": "caspol -q -machine -addgroup 1.2 -url file://z:/* FullTrust",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "ba3d66ec-ec9f-480a-a672-83ef2ea543b5",
@@ -264,10 +285,12 @@
           {
             "Text": "This command has to be executed as Administrator."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195941665,
         "id": "cdc5c725-1c40-4e93-b013-ded3afa046bc",
@@ -306,10 +329,12 @@
           {
             "Text": " available in the PATH is to start Visual Studio cmd-line (shortcut is installed in Start menu)."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Network drives, .net, security and virtualbox",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -333,6 +358,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

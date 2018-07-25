@@ -9,6 +9,8 @@
       "e0f5affe-cb03-4350-a517-7d1dfa1180df",
       "592d3edf-5b9b-4307-b8b7-4a8c46986732"
     ],
+    "copied_from": "a2203b6a-8cee-430a-bce4-12337086466f",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923161,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923161,
         "id": "e01375c6-4089-4343-910c-86864dc9c26c",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 217"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923161,
         "id": "60af34d1-4c16-4925-ba29-df708016b542",
@@ -76,10 +81,12 @@
           {
             "Text": "Tags: programming, mac, gcc"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923162,
         "id": "3217497e-86ac-4c40-ad29-001ce7fbe490",
@@ -100,10 +107,12 @@
           {
             "Text": "Date: 2008-03-19T14:28:23-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923162,
         "id": "e0f5affe-cb03-4350-a517-7d1dfa1180df",
@@ -112,10 +121,12 @@
         "parent_id": "6304b86f-fe53-42a2-bed0-07f2563a4230",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923162,
         "id": "592d3edf-5b9b-4307-b8b7-4a8c46986732",
@@ -136,10 +147,12 @@
           {
             "Text": "Need to compile with -rdynamic for backtrace_symbols() to be able to resolve address."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "backtrace_symbols() and -rdynamic in gcc",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -163,6 +176,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

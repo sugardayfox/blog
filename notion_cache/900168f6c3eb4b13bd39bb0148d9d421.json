@@ -9,6 +9,8 @@
       "f9f1572a-54de-4413-872c-fd6e5856ffb9",
       "fc2b63cd-5323-46c9-999b-c284fe57e20d"
     ],
+    "copied_from": "7885e1b7-c08c-4b18-a19e-ffdeef53cdd8",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195786462,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786462,
         "id": "86977aab-d753-49d7-b541-448c512f28b3",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 732"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786462,
         "id": "750e0db7-1eaf-48a9-a487-14a9760d1d53",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-11-12T09:10:17-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786462,
         "id": "84a5963b-02d6-4d23-8e8d-5fa18bf2eed2",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624909442,
         "id": "f9f1572a-54de-4413-872c-fd6e5856ffb9",
@@ -112,10 +121,12 @@
         "parent_id": "900168f6-c3eb-4b13-bd39-bb0148d9d421",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786462,
         "id": "fc2b63cd-5323-46c9-999b-c284fe57e20d",
@@ -149,10 +160,12 @@
           {
             "Text": " is a page listing TV stations from all over the world that can be watched via Internet."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Watch TV on the internet",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -176,6 +189,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

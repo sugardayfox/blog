@@ -8,6 +8,7 @@
       "8bd94450-130f-43af-827c-585c10f3269c",
       "f10eae20-028c-4cc4-b618-ed0a2eeab783"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1476994093045,
     "id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
@@ -27,6 +28,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1476994103317,
         "id": "1dc21c63-3bee-4170-8bfe-73d10b0bdf45",
@@ -83,10 +85,12 @@
           {
             "Text": ", https://benchmarkjs.com/). "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1476994149688,
         "id": "f64318d5-67e9-4cbe-90a2-bdaeaa45befb",
@@ -107,10 +111,12 @@
           {
             "Text": "A simple benchmark in node:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1476994161266,
         "id": "8bd94450-130f-43af-827c-585c10f3269c",
@@ -133,10 +139,12 @@
         "type": "code",
         "version": 0,
         "code": "var Benchmark = require('benchmark');\n\nvar suite = new Benchmark.Suite;\n\nfunction f1() {\n\treturn ['foo', 'bar'].includes('zeta');\n}\n\nvar known = ['foo', 'bar'];\nfunction f2() {\n\treturn known.includes('zeta');\n}\n\nsuite.add('f1', f1);\nsuite.add('f2', f2);\nsuite.on('cycle', function(event) {\n  console.log(String(event.target));\n})\nsuite.on('complete', function() {\n  console.log('Fastest is ' + this.filter('fastest').map('name'));\n})\nsuite.run({ 'async': true });",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1476994178747,
         "id": "f10eae20-028c-4cc4-b618-ed0a2eeab783",
@@ -145,10 +153,12 @@
         "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
-    "title": "Writing micro-benchmarks"
+    "title": "Writing micro-benchmarks",
+    "CollectionViews": null
   },
   "Users": [
     {
@@ -164,6 +174,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

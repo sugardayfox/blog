@@ -10,6 +10,7 @@
       "60ab840b-31b8-45b9-a40c-35e0c5532327",
       "2926b137-4d61-463e-a67f-0cfcb59074bb"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501875115107,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501875120967,
         "id": "9907d622-2690-4df4-9be0-622f3488704c",
@@ -53,10 +55,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501875122583,
         "id": "1a82bd60-2fee-4462-945c-5cd0fb6600e0",
@@ -84,10 +88,12 @@
             "Text": "http://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections",
             "Link": "http://eli.thegreenplace.net/2011/12/26/the-contents-of-dwarf-sections"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501875150026,
         "id": "4c138964-bf65-4aa8-b3b3-82ea90b6db24",
@@ -115,10 +121,12 @@
             "Text": "http://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf",
             "Link": "http://eli.thegreenplace.net/2011/09/29/an-interesting-tree-serialization-algorithm-from-dwarf"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501875165801,
         "id": "99c24a46-8e75-46ef-b43d-1f1b1ea5c4c1",
@@ -146,10 +154,12 @@
             "Text": "http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information",
             "Link": "http://eli.thegreenplace.net/2011/02/07/how-debuggers-work-part-3-debugging-information"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1503698039950,
         "id": "60ab840b-31b8-45b9-a40c-35e0c5532327",
@@ -177,10 +187,12 @@
             "Text": "https://backtrace.io/blog/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/",
             "Link": "https://backtrace.io/blog/compile-once-debug-twice-picking-a-compiler-for-debuggability-1of3/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1503698035370,
         "id": "2926b137-4d61-463e-a67f-0cfcb59074bb",
@@ -189,10 +201,12 @@
         "parent_id": "e55eb827-b092-4933-8c83-2c4892ef5108",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "DWARF format",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -216,6 +230,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -9,6 +9,7 @@
       "8ec4cb91-f033-4b8c-8615-c85a3be50287",
       "f293bb27-af90-462c-a96e-1c174aeea2a9"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512457672285,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457684030,
         "id": "00a60eee-72ff-468f-a98f-cef24f3b7f1e",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457689302,
         "id": "e557bc99-3e92-4aa3-b5e8-5ecbc01966e4",
@@ -83,10 +87,12 @@
             "Text": "https://github.com/mh-cbon/go-msi",
             "Link": "https://github.com/mh-cbon/go-msi"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1520495814613,
         "id": "72de502e-dcae-43f8-b2b0-db01a492df4a",
@@ -114,10 +120,12 @@
             "Text": "https://kevinmarquette.github.io/2016-10-21-powershell-installing-msi-files/",
             "Link": "https://kevinmarquette.github.io/2016-10-21-powershell-installing-msi-files/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1524523025945,
         "id": "8ec4cb91-f033-4b8c-8615-c85a3be50287",
@@ -145,10 +153,12 @@
             "Text": "https://gist.github.com/SheetJSDev/611a5f4fe82b90c69f91d5cecc6ba876",
             "Link": "https://gist.github.com/SheetJSDev/611a5f4fe82b90c69f91d5cecc6ba876"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1524523187144,
         "id": "f293bb27-af90-462c-a96e-1c174aeea2a9",
@@ -157,10 +167,12 @@
         "parent_id": "9ffa1c9a-b885-4860-8767-9318db3affdd",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "msi",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -184,6 +196,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

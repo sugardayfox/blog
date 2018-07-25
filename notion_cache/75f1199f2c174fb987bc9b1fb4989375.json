@@ -34,6 +34,8 @@
       "5f60ca0e-49eb-46c9-b549-89ccf0f59d18",
       "f51b0284-bd3a-4096-ad5f-01e08a73ddb3"
     ],
+    "copied_from": "8654348e-ac93-44cc-b41f-037d0d054b5c",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531204097271,
     "format": {
@@ -57,6 +59,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "575a2e81-9d03-4f16-9950-4dec7a7b5c20",
@@ -77,10 +80,12 @@
           {
             "Text": "Id: 20"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "2441bf2d-f1a6-44f8-b1c7-ed519cb493c6",
@@ -101,10 +106,12 @@
           {
             "Text": "Date: 2017-11-20T20:37:02-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "6f02cb17-5686-4fb5-a0a8-68f4f0df2aa4",
@@ -125,10 +132,12 @@
           {
             "Text": "Tags: unix"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531721860685,
         "id": "35a182c0-5d1f-4214-b4bc-c2976a70108a",
@@ -137,10 +146,12 @@
         "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "e196657f-8b5d-4e2d-986a-b5c202107231",
@@ -180,10 +191,12 @@
           {
             "Text": " (WSL)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "5484a575-a4ba-476f-a138-a36753302ef1",
@@ -222,10 +235,12 @@
           {
             "Text": " installs version 3.8."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097271,
         "id": "3c852935-52d9-43fa-b240-1aaf3e48438c",
@@ -246,10 +261,12 @@
           {
             "Text": "To install latest version (currently 6.0) run:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "68741c95-3379-49c5-a083-fe00e2cf7f10",
@@ -272,10 +289,12 @@
         "type": "code",
         "version": 3,
         "code": "wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -\nsudo apt-add-repository \"deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main\"\nsudo apt-get update\nsudo apt-get install -y clang-6.0",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "57cc2ffa-9c6c-4bfc-bbc0-83e70e2a664c",
@@ -326,10 +345,12 @@
           {
             "Text": " etc.)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "df10ac60-a2ef-4690-9b9b-7bb466979f4c",
@@ -350,10 +371,12 @@
           {
             "Text": "How it works"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "7d6573f6-0394-4392-9590-f05d647cd64e",
@@ -374,10 +397,12 @@
           {
             "Text": "Let’s deconstruct those commands so that you know what’s happening."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "bf291411-b73f-4e67-be60-004464302e49",
@@ -398,10 +423,12 @@
           {
             "Text": "How does apt know what packages are available?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "ce617085-2be7-4358-9b4c-433ff1df15c9",
@@ -422,10 +449,12 @@
           {
             "Text": "Apt queries package servers to get a list of available deb packages. Default Ubuntu installation knows about official Ubuntu servers but you can run your own server to provide additional packages."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "25b42e2d-4577-4cd4-aa84-486908153c50",
@@ -464,10 +493,12 @@
           {
             "Text": ". Here’s how it looks by default on Ubuntu 16.04:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "fdd6aa8e-5094-49b7-8f3d-6940b3cfd870",
@@ -490,10 +521,12 @@
         "type": "code",
         "version": 3,
         "code": "$ cat /etc/apt/sources.list\ndeb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse\ndeb http://archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse\ndeb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "0ee18d46-9577-4f6d-ad43-4472aa9c669e",
@@ -514,10 +547,12 @@
           {
             "Text": "Ubuntu only provides a relatively old clang 3.8. Luckily, Apple creates deb packages and maintains a server for all llvm/clang releases and most Ubuntu distros."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "b9ce976e-a1f9-4c61-aa97-3f09bccbca97",
@@ -568,10 +603,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "7306e452-1e12-4438-8ab2-3082b51e912a",
@@ -604,10 +641,12 @@
           {
             "Text": " downloads the latest list of packages from all servers, including the one we just added"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "1bc236d1-c16e-419c-b998-58f5c772d889",
@@ -628,10 +667,12 @@
           {
             "Text": "For security, packages are signed with private keys. You need public key to verify package signature."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "8966276b-4bb9-4c0b-be41-f263d5a6c381",
@@ -664,10 +705,12 @@
           {
             "Text": " downloads llvm’s server public key."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "aea3d3ff-eb1a-4bd5-9b67-78196a4f106c",
@@ -718,10 +761,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "0bb555a8-24ac-46fa-94a4-dd9a99e478ab",
@@ -760,10 +805,12 @@
           {
             "Text": " disables confirmation prompt."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "460f9d33-150f-44ae-9bf5-bb739349201c",
@@ -784,10 +831,12 @@
           {
             "Text": "What if there’s a newer version of clang or a different version of Ubuntu?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "3c28a100-750c-4bcb-b645-3aef754a6164",
@@ -808,10 +857,12 @@
           {
             "Text": "There is a new llvm/clang release every 6 months. What to do for newer version?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "464c0d5c-51ba-43e5-a8df-d42b3abc9ec4",
@@ -868,10 +919,12 @@
           {
             "Text": " line in the above instructions."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "7b76c7b9-62d7-4f0c-92b0-c475c0e0703c",
@@ -892,10 +945,12 @@
           {
             "Text": "Making latest version available as clang"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "2ab29c74-9a68-4cae-8144-372f01fe5a45",
@@ -952,10 +1007,12 @@
           {
             "Text": " will either refer to 3.8 (if you’ve installed it) or nothing at all."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "e02f9b78-53da-4e4a-9a42-d55a35c1bfa6",
@@ -994,10 +1051,12 @@
           {
             "Text": " refers to clang 6:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "5f60ca0e-49eb-46c9-b549-89ccf0f59d18",
@@ -1020,10 +1079,12 @@
         "type": "code",
         "version": 3,
         "code": "update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100\nupdate-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-6.0 1000\nupdate-alternatives --install /usr/bin/clang++ clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-6.0 1000\nupdate-alternatives --config clang\nupdate-alternatives --config clang++",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204097272,
         "id": "f51b0284-bd3a-4096-ad5f-01e08a73ddb3",
@@ -1044,10 +1105,12 @@
           {
             "Text": "This might help if you have scripts that hard-code name of the compiler and don’t allow over-writing it."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1071,6 +1134,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

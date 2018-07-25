@@ -6,6 +6,7 @@
       "7e7c8908-7ac8-4502-8635-58b880858c45",
       "54ce4829-cbd3-4cd4-89cd-6e96ef870d74"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512516946750,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516954058,
         "id": "7e7c8908-7ac8-4502-8635-58b880858c45",
@@ -56,10 +58,12 @@
             "Text": "https://www.codeproject.com/Articles/11253/See-through-Rich-Edit-control",
             "Link": "https://www.codeproject.com/Articles/11253/See-through-Rich-Edit-control"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512516963193,
         "id": "54ce4829-cbd3-4cd4-89cd-6e96ef870d74",
@@ -68,10 +72,12 @@
         "parent_id": "d17c46d3-77fd-4cd3-860a-f94b3cb88e0d",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "richedit control",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -95,6 +101,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

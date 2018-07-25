@@ -7,6 +7,7 @@
       "c597307f-c647-4c93-aba3-c2acdf3077c0",
       "f8944b9f-d0b1-40f0-8c32-c6149e06ddff"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1497039356095,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1497039370923,
         "id": "16660ab1-28be-427c-84d0-b1dbdb6c3e62",
@@ -50,10 +52,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1497039373133,
         "id": "c597307f-c647-4c93-aba3-c2acdf3077c0",
@@ -106,10 +110,12 @@
           {
             "Text": " : a bootstrap 4 theme, free with paid pro version"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530062960024,
         "id": "f8944b9f-d0b1-40f0-8c32-c6149e06ddff",
@@ -118,10 +124,12 @@
         "parent_id": "efb883cd-e681-4224-97c8-bcf4ee456521",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "Free css themes / ui frameworks",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -145,6 +153,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -16,6 +16,8 @@
       "5b0039dd-6d77-41a6-84d2-f9299b83cfe0",
       "335c4716-c674-4d6c-be27-5c47af65398c"
     ],
+    "copied_from": "11e93ed6-2adc-49e4-84ea-db510bf672a5",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195849586,
     "format": {
@@ -39,6 +41,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "5506d57e-5045-402c-827e-55b567a0efba",
@@ -59,10 +62,12 @@
           {
             "Text": "Id: 1294"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "cf81db91-ca53-4f65-91f1-90ef8d222bb0",
@@ -83,10 +88,12 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "36466ea7-81ac-4839-ae66-edfea9c2ac7f",
@@ -107,10 +114,12 @@
           {
             "Text": "Date: 2006-01-29T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "4b5749a3-0118-4791-91e3-9598b1c87176",
@@ -119,10 +128,12 @@
         "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "d9db5b12-5545-4cf8-b89b-af54dd4b923e",
@@ -143,10 +154,12 @@
           {
             "Text": "Windows binary can have resources embedded in them. Most resources are of predetermined type (e.g. a menu, an icon or a bitmap) but you can also embed arbitrary binary data (e.g. a text file). The proper syntax is hard to figure out just from reading msdn docs."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "2e13bd07-18d3-415b-93e0-5bc1d23ce78f",
@@ -167,10 +180,12 @@
           {
             "Text": "This snippet shows how to embed a binary resource from a file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "8ab4b163-6e20-4da1-bebd-3765bc1da4c3",
@@ -209,10 +224,12 @@
           {
             "Text": ") that will be used by both C compiler and resource compiler:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "2bc5a545-5492-4a29-8c17-d28488905000",
@@ -235,10 +252,12 @@
         "type": "code",
         "version": 1,
         "code": "#define MY_RESOURCE 300",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "4cbf1c64-db94-4efb-84cc-4b52386b0ff3",
@@ -277,10 +296,12 @@
           {
             "Text": "):"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "aaa7f7c3-e209-4f3f-84e7-7e68c1987c05",
@@ -303,10 +324,12 @@
         "type": "code",
         "version": 1,
         "code": "MY_RESOURCE RCDATA \"file-with-data.txt\"",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "5b0039dd-6d77-41a6-84d2-f9299b83cfe0",
@@ -327,10 +350,12 @@
           {
             "Text": "And finally, this is how you can get to this data:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849586,
         "id": "335c4716-c674-4d6c-be27-5c47af65398c",
@@ -353,10 +378,12 @@
         "type": "code",
         "version": 1,
         "code": "void WorkOnResource(void)\n{\n    HGLOBAL     res_handle = NULL;\n    HRSRC       res;\n    char *      res_data;\n    DWORD       res_size;\n\n    // NOTE: providing g_hInstance is important, NULL might not work\n    res = FindResource(g_hInstance, MAKEINTRESOURCE(MY_RESOURCE), RT_RCDATA);\n    if (!res)\n        return;\n    res_handle = LoadResource(NULL, res);\n    if (!res_handle)\n        return;\n    res_data = (char*)LockResource(res_handle);\n    res_size = SizeofResource(NULL, res);\n    /* you can now use the resource data */\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Embedding binary resources on Windows",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -380,6 +407,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -18,6 +18,7 @@
       "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
       "479dc35a-f6a3-431d-b0cb-e382d7defa19"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512355040748,
     "format": {
@@ -41,6 +42,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066161773,
         "id": "f0225690-7aa8-4a88-98f7-eb07c64bfc9c",
@@ -49,10 +51,12 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066161452,
         "id": "aaed106f-a6e3-4ffa-a688-147ce286ebfb",
@@ -73,10 +77,12 @@
           {
             "Text": "I wanted to see a real-life performance of different compressors:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066195640,
         "id": "fdc4769a-a208-4995-94d0-5bb9d07f52bf",
@@ -109,10 +115,12 @@
             "Text": "gzip -9",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066214832,
         "id": "c66bfe53-9a08-41aa-8b44-723c53021b45",
@@ -133,10 +141,12 @@
           {
             "Text": "zopfli generates gzip compatible streams but achieves better compression by taking much longer to compress data"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066279218,
         "id": "48148c37-d765-4af5-b3bf-d53107bb778a",
@@ -157,10 +167,12 @@
           {
             "Text": "brotli is a new compressor that aims to be comparable in speed to gzip but with better compression"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066310608,
         "id": "719b2498-a305-40f1-8323-745b3f8c8bc1",
@@ -169,10 +181,12 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066310107,
         "id": "a2c247c8-3265-4763-a66b-73f5b8e941ec",
@@ -193,10 +207,12 @@
           {
             "Text": "I ran the compressor on a minified JavaScript code from one of my projects."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066371775,
         "id": "1b8ded4c-144b-4e85-a34a-efa1737f5230",
@@ -205,10 +221,12 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530065884862,
         "id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
@@ -217,10 +235,266 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "collection_view",
-        "version": 4
+        "version": 4,
+        "view_ids": [
+          "f2b47a38-115d-41b0-a345-88958fdf315b"
+        ],
+        "CollectionViews": [
+          {
+            "CollectionView": {
+              "id": "f2b47a38-115d-41b0-a345-88958fdf315b",
+              "alive": true,
+              "format": {
+                "table_properties": [
+                  {
+                    "width": 276,
+                    "visible": true,
+                    "property": "title"
+                  },
+                  {
+                    "width": 100,
+                    "visible": true,
+                    "property": "ca[`"
+                  },
+                  {
+                    "width": 200,
+                    "visible": true,
+                    "property": "\u003erZZ"
+                  },
+                  {
+                    "width": 124,
+                    "visible": true,
+                    "property": "E?-i"
+                  }
+                ],
+                "table_wrap": true
+              },
+              "name": "Default View",
+              "page_sort": [
+                "93ae9003-103f-4eee-bb05-da8b2e18d181",
+                "916f0795-69e2-4038-a1c3-e97baa3d3cb8",
+                "aa33e59d-6bd9-432d-bc4c-3f904b7ffad4",
+                "cfc48de7-8022-4dbd-b848-f15050e3628a",
+                "829b1dad-c27c-4e45-9aad-6497bc77ca16",
+                "16eca9ea-86ca-41b5-ad8a-e24e6fca92a2",
+                "0c85beaf-1107-4029-8df2-eb3fb87315f8",
+                "69b9edb1-0b9a-4b19-bff4-6f6254f52cc2",
+                "14883871-163b-4d92-8448-882000e1a0c6"
+              ],
+              "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
+              "parent_table": "block",
+              "query": {
+                "aggregate": [
+                  {
+                    "aggregation_type": "count",
+                    "id": "count",
+                    "property": "title",
+                    "type": "title",
+                    "view_type": "table"
+                  }
+                ]
+              },
+              "type": "table",
+              "version": 40
+            },
+            "Collection": {
+              "alive": true,
+              "format": {
+                "collection_page_properties": [
+                  {
+                    "property": "ca[`",
+                    "visible": true
+                  },
+                  {
+                    "property": "\u003erZZ",
+                    "visible": true
+                  }
+                ]
+              },
+              "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+              "name": [
+                [
+                  "uncompressed vs. zopfli vs. brotli vs. gzip"
+                ]
+              ],
+              "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
+              "parent_table": "block",
+              "schema": {
+                "\u003erZZ": {
+                  "name": "saved",
+                  "options": null,
+                  "type": "number"
+                },
+                "E?-i": {
+                  "name": "saved %",
+                  "options": null,
+                  "type": "number"
+                },
+                "ca[`": {
+                  "name": "size",
+                  "options": null,
+                  "type": "number"
+                },
+                "title": {
+                  "name": "Name",
+                  "options": null,
+                  "type": "title"
+                }
+              },
+              "version": 56
+            },
+            "CollectionRows": [
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530065886782,
+                "id": "93ae9003-103f-4eee-bb05-da8b2e18d181",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530065941152,
+                "parent_id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "0"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "0"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "1,163,479"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 14,
+                "CollectionViews": null
+              },
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530065884862,
+                "id": "916f0795-69e2-4038-a1c3-e97baa3d3cb8",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530065941152,
+                "parent_id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "810,264"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "69.64%"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "353,215"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.gz"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 8,
+                "CollectionViews": null
+              },
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530065884862,
+                "id": "aa33e59d-6bd9-432d-bc4c-3f904b7ffad4",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530065941152,
+                "parent_id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "825,302"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "70.93%"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "338,177"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.zopfli"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 8,
+                "CollectionViews": null
+              },
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530065884862,
+                "id": "cfc48de7-8022-4dbd-b848-f15050e3628a",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530065941152,
+                "parent_id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "867,059"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "74.52%"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "296,420"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.brotli"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 8,
+                "CollectionViews": null
+              }
+            ]
+          }
+        ]
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066383944,
         "id": "cea6c12b-0fa0-459b-a58a-de20f3c5fe35",
@@ -229,10 +503,12 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066383517,
         "id": "ee4e13fe-f543-4672-83c1-b1160b6a84e9",
@@ -253,10 +529,12 @@
           {
             "Text": "This is the same data as above but comparing only compressed versions, to  see relative differences between compressed content:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066160992,
         "id": "7d1d4caf-5c6b-404d-afc3-72648d680059",
@@ -265,10 +543,13 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 9
+        "version": 9,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "copied_from": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
+        "collection_id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066093063,
         "id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
@@ -277,10 +558,229 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "collection_view",
-        "version": 5
+        "version": 5,
+        "view_ids": [
+          "374e0842-ef46-43e3-a837-65b035400a5c"
+        ],
+        "CollectionViews": [
+          {
+            "CollectionView": {
+              "id": "374e0842-ef46-43e3-a837-65b035400a5c",
+              "alive": true,
+              "format": {
+                "table_properties": [
+                  {
+                    "width": 276,
+                    "visible": true,
+                    "property": "title"
+                  },
+                  {
+                    "width": 100,
+                    "visible": true,
+                    "property": "ca[`"
+                  },
+                  {
+                    "width": 200,
+                    "visible": true,
+                    "property": "\u003erZZ"
+                  },
+                  {
+                    "width": 124,
+                    "visible": true,
+                    "property": "E?-i"
+                  }
+                ],
+                "table_wrap": true
+              },
+              "name": "Default View",
+              "page_sort": [
+                "4793bdca-62b9-4aff-adde-d0dec0da6e8d",
+                "79f1da87-7ae4-4c50-890b-a310cac52cb4",
+                "10ff528c-06ce-43fb-9607-1eaa7566ee69",
+                "f481fcac-b820-4e11-9910-426c890a5893",
+                "b669031d-553a-4724-87e7-5efb1e189cfd",
+                "d04429fc-f262-46c1-abe2-ff85832d1900",
+                "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
+                "cb2a7b1b-1841-4622-ab17-82780cf4ccc0"
+              ],
+              "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
+              "parent_table": "block",
+              "query": {
+                "aggregate": [
+                  {
+                    "aggregation_type": "count",
+                    "id": "count",
+                    "property": "title",
+                    "type": "title",
+                    "view_type": "table"
+                  }
+                ]
+              },
+              "type": "table",
+              "version": 3
+            },
+            "Collection": {
+              "alive": true,
+              "format": {
+                "collection_page_properties": [
+                  {
+                    "property": "ca[`",
+                    "visible": true
+                  },
+                  {
+                    "property": "\u003erZZ",
+                    "visible": true
+                  }
+                ]
+              },
+              "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+              "name": [
+                [
+                  "zopfli vs. brotli vs. gzip"
+                ]
+              ],
+              "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
+              "parent_table": "block",
+              "schema": {
+                "\u003erZZ": {
+                  "name": "saved",
+                  "options": null,
+                  "type": "number"
+                },
+                "E?-i": {
+                  "name": "saved %",
+                  "options": null,
+                  "type": "number"
+                },
+                "ca[`": {
+                  "name": "size",
+                  "options": null,
+                  "type": "number"
+                },
+                "title": {
+                  "name": "Name",
+                  "options": null,
+                  "type": "title"
+                }
+              },
+              "version": 6
+            },
+            "CollectionRows": [
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530066093063,
+                "id": "d04429fc-f262-46c1-abe2-ff85832d1900",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530066093063,
+                "parent_id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "0"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "0"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "353,215"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.gz"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 1,
+                "CollectionViews": null
+              },
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530066093063,
+                "id": "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530066093063,
+                "parent_id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "15,038"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "4.26%"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "338,177"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.zopfli"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 1,
+                "CollectionViews": null
+              },
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530066093063,
+                "id": "cb2a7b1b-1841-4622-ab17-82780cf4ccc0",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1530066093063,
+                "parent_id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
+                "parent_table": "collection",
+                "properties": {
+                  "\u003erZZ": [
+                    [
+                      "56,795"
+                    ]
+                  ],
+                  "E?-i": [
+                    [
+                      "16.08%"
+                    ]
+                  ],
+                  "ca[`": [
+                    [
+                      "296,420"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "bundle.min.js.brotli"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 1,
+                "CollectionViews": null
+              }
+            ]
+          }
+        ]
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530066447649,
         "id": "479dc35a-f6a3-431d-b0cb-e382d7defa19",
@@ -289,10 +789,12 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "zopfli vs. brotli vs. gzip",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -316,211 +818,5 @@
       "version": 10
     }
   ],
-  "Collections": [
-    {
-      "alive": true,
-      "format": {
-        "collection_page_properties": [
-          {
-            "property": "ca[`",
-            "visible": true
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true
-          }
-        ]
-      },
-      "id": "7e3c8ca3-3a9d-4a3f-9d75-54762b2d762e",
-      "name": [
-        [
-          "uncompressed vs. zopfli vs. brotli vs. gzip"
-        ]
-      ],
-      "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
-      "parent_table": "block",
-      "schema": {
-        "\u003erZZ": {
-          "name": "saved",
-          "options": null,
-          "type": "number"
-        },
-        "E?-i": {
-          "name": "saved %",
-          "options": null,
-          "type": "number"
-        },
-        "ca[`": {
-          "name": "size",
-          "options": null,
-          "type": "number"
-        },
-        "title": {
-          "name": "Name",
-          "options": null,
-          "type": "title"
-        }
-      },
-      "version": 56
-    },
-    {
-      "alive": true,
-      "format": {
-        "collection_page_properties": [
-          {
-            "property": "ca[`",
-            "visible": true
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true
-          }
-        ]
-      },
-      "id": "be13edd6-bf6e-4df0-a17c-62fbc336445f",
-      "name": [
-        [
-          "zopfli vs. brotli vs. gzip"
-        ]
-      ],
-      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
-      "parent_table": "block",
-      "schema": {
-        "\u003erZZ": {
-          "name": "saved",
-          "options": null,
-          "type": "number"
-        },
-        "E?-i": {
-          "name": "saved %",
-          "options": null,
-          "type": "number"
-        },
-        "ca[`": {
-          "name": "size",
-          "options": null,
-          "type": "number"
-        },
-        "title": {
-          "name": "Name",
-          "options": null,
-          "type": "title"
-        }
-      },
-      "version": 6
-    }
-  ],
-  "CollectionViews": [
-    {
-      "alive": true,
-      "format": {
-        "table_properties": [
-          {
-            "property": "title",
-            "visible": true,
-            "width": 276
-          },
-          {
-            "property": "ca[`",
-            "visible": true,
-            "width": 100
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true,
-            "width": 200
-          },
-          {
-            "property": "E?-i",
-            "visible": true,
-            "width": 124
-          }
-        ],
-        "table_wrap": true
-      },
-      "id": "f2b47a38-115d-41b0-a345-88958fdf315b",
-      "name": "Default View",
-      "page_sort": [
-        "93ae9003-103f-4eee-bb05-da8b2e18d181",
-        "916f0795-69e2-4038-a1c3-e97baa3d3cb8",
-        "aa33e59d-6bd9-432d-bc4c-3f904b7ffad4",
-        "cfc48de7-8022-4dbd-b848-f15050e3628a",
-        "829b1dad-c27c-4e45-9aad-6497bc77ca16",
-        "16eca9ea-86ca-41b5-ad8a-e24e6fca92a2",
-        "0c85beaf-1107-4029-8df2-eb3fb87315f8",
-        "69b9edb1-0b9a-4b19-bff4-6f6254f52cc2",
-        "14883871-163b-4d92-8448-882000e1a0c6"
-      ],
-      "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
-      "parent_table": "block",
-      "query": {
-        "aggregate": [
-          {
-            "aggregation_type": "count",
-            "id": "count",
-            "property": "title",
-            "type": "title",
-            "view_type": "table"
-          }
-        ]
-      },
-      "type": "table",
-      "version": 40
-    },
-    {
-      "alive": true,
-      "format": {
-        "table_properties": [
-          {
-            "property": "title",
-            "visible": true,
-            "width": 276
-          },
-          {
-            "property": "ca[`",
-            "visible": true,
-            "width": 100
-          },
-          {
-            "property": "\u003erZZ",
-            "visible": true,
-            "width": 200
-          },
-          {
-            "property": "E?-i",
-            "visible": true,
-            "width": 124
-          }
-        ],
-        "table_wrap": true
-      },
-      "id": "374e0842-ef46-43e3-a837-65b035400a5c",
-      "name": "Default View",
-      "page_sort": [
-        "4793bdca-62b9-4aff-adde-d0dec0da6e8d",
-        "79f1da87-7ae4-4c50-890b-a310cac52cb4",
-        "10ff528c-06ce-43fb-9607-1eaa7566ee69",
-        "f481fcac-b820-4e11-9910-426c890a5893",
-        "b669031d-553a-4724-87e7-5efb1e189cfd",
-        "d04429fc-f262-46c1-abe2-ff85832d1900",
-        "ebe90d4c-e694-483a-bfc1-ec4ce723961e",
-        "cb2a7b1b-1841-4622-ab17-82780cf4ccc0"
-      ],
-      "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
-      "parent_table": "block",
-      "query": {
-        "aggregate": [
-          {
-            "aggregation_type": "count",
-            "id": "count",
-            "property": "title",
-            "type": "title",
-            "view_type": "table"
-          }
-        ]
-      },
-      "type": "table",
-      "version": 3
-    }
-  ]
+  "Tables": null
 }

@@ -16,6 +16,8 @@
       "f6abb3c5-04d5-4864-99ed-85ebd580129c",
       "a36d4234-14fa-4458-b79f-d7a202759088"
     ],
+    "copied_from": "f09478e8-e9b2-4ab9-8a26-5a874414ea29",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926019,
     "format": {
@@ -39,6 +41,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "5bc7e8e0-4300-4096-ad24-2ad87fbf523c",
@@ -59,10 +62,12 @@
           {
             "Text": "Id: 1989"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "4257fe65-f332-41e5-bfc3-cbe82cd60dfc",
@@ -83,10 +88,12 @@
           {
             "Text": "Tags: programming, debugging, win32"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "df9753bc-b393-4ba4-a84c-3015512de199",
@@ -107,10 +114,12 @@
           {
             "Text": "Date: 2008-04-07T00:28:39-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "ca339080-2666-49f2-9767-567da5b4390d",
@@ -119,10 +128,12 @@
         "parent_id": "b15f453e-1878-4f56-8b35-0944b082dc5e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "718d0981-7873-4810-bcd3-a96dc45da5da",
@@ -143,10 +154,12 @@
           {
             "Text": "I hate crashes that disappear when run under the debugger and I had one when porting mupdf to Windows."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "11a72be8-54fa-4b2e-987b-9cfeb64005ce",
@@ -167,10 +180,12 @@
           {
             "Text": "It helps to know that there’s at least one reason for a changed behavior under the debugger: it automatically triggers using debugging heap. While debugging heap usually helps find problems, sometimes it does the opposite by changing the details of memory allocation."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "2bb4873e-287a-48e5-94b9-005aabf09062",
@@ -191,10 +206,12 @@
           {
             "Text": "One helpful tool when debugging memory problems on Windows is gflags which can enable page heap instrumentation for a given program. It works by putting each allocation into a separate region of memory and putting a non-readable page right after that. Also, upon freeing it makes the memory unreadable. That way an overwrite of memory block while it’s still being used or accessing the memory after it was freed will cause immediate crash."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "cf68a1e4-b22d-45b5-9bf0-2b2156e273df",
@@ -215,10 +232,12 @@
           {
             "Text": "The downside is that using gflags uses much more memory. But in those days of cheap gigabytes it’s not a problem that can’t be solved with a couple hundred bucks."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "b3a621d7-9cdc-4d9f-997a-8b9af955b2f1",
@@ -251,10 +270,12 @@
             "Text": "gflags /p /full /enable foo.exe",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "08342d46-9137-4383-97e6-48116aba9920",
@@ -287,10 +308,12 @@
             "Text": "gflags /p /disable foo.exe",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "f6abb3c5-04d5-4864-99ed-85ebd580129c",
@@ -347,10 +370,12 @@
           {
             "Text": ". If you run gflags without any options, you’ll get a (very confusing) GUI."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926019,
         "id": "a36d4234-14fa-4458-b79f-d7a202759088",
@@ -371,10 +396,12 @@
           {
             "Text": "It worked like a charm. I got a crash on accessing freed memory and all I had to do was to backtrack to where this memory was allocated to figure out the problem."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "gflags - a debugging story",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -398,6 +425,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

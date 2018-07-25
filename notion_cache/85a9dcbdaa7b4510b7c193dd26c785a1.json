@@ -23,6 +23,8 @@
       "d5f31a3e-9b8d-4f9c-9d9c-bfbb79d0e081",
       "4afea7ce-a52a-4172-9663-59651ec10328"
     ],
+    "copied_from": "54482ffa-4dbf-4300-bffa-690c574956e1",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195891184,
     "format": {
@@ -46,6 +48,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891185,
         "id": "cdbfffbb-3eaa-4035-a977-418f42c18054",
@@ -66,10 +69,12 @@
           {
             "Text": "Id: 1286"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891186,
         "id": "28d41e59-12c9-415d-ae75-94c23a166517",
@@ -90,10 +95,12 @@
           {
             "Text": "Tags: programming, c, c++"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891186,
         "id": "1189076b-065d-48d8-bfd3-ef2e37ed54ce",
@@ -114,10 +121,12 @@
           {
             "Text": "Date: 2007-06-24T17:00:00-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891186,
         "id": "1882d7ad-7cc0-410b-a98d-3a5afe044c1b",
@@ -126,10 +135,12 @@
         "parent_id": "85a9dcbd-aa7b-4510-b7c1-93dd26c785a1",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "66e791d2-24c5-42f7-bfe6-3e26f32c60f0",
@@ -150,10 +161,12 @@
           {
             "Text": "In one large C/C++ project I worked on #include files were so haphazard and complex that sometimes rearranging the order of #include statements would cause compilation error that no-one could comprehend and fix in any other way than reverting to previous order."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "4ca2dbe2-cd60-4b97-9734-dbe3e421536c",
@@ -174,10 +187,12 @@
           {
             "Text": "Every now and then an ambitious soul would set out to fix the problem once and for all. And fail miserably shortly after."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "2a97c4e8-9f06-420d-8dea-892871986f15",
@@ -198,10 +213,12 @@
           {
             "Text": "The code in this project was quite good - it’s just maintaining good include hierarchy requires a lot of effort and once you get into bad state, its hard to get out of it."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "dcb71b15-bdb9-4b42-800a-ada60ae4d83b",
@@ -222,10 +239,12 @@
           {
             "Text": "The best weapon is being anal-retentive from the very beginning of your project."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "90622153-e433-4f84-8ac1-4e66e28c32d1",
@@ -246,10 +265,12 @@
           {
             "Text": "It’s important to reduce number of dependencies between header files, especially circular dependencies."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "4b3b2d29-4743-400f-b3bd-450445ddfb4a",
@@ -289,10 +310,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "ff7e79e1-b0de-4762-8274-93fc412c5b54",
@@ -313,10 +336,12 @@
           {
             "Text": "All C/C++ files must #include “config.h” first"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "90c0d6b2-393b-4f71-8cfa-b5bda939b261",
@@ -337,10 +362,12 @@
           {
             "Text": "All files must #include the primary header second, just after “config.h”. So for example, Node.cpp should include Node.h first, before other files. This guarantees that each header’s completeness is tested, to make sure it can be compiled without requiring any other header files be included first."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "6918b1a8-3bd9-49da-8be6-867afb374ab7",
@@ -361,10 +388,12 @@
           {
             "Text": "Other #include statements should be in sorted order (case sensitive, as done by the command-line sort tool or the Xcode sort selection command). Don’t bother to organize them in a logical order."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "b7e325ca-4ffb-4bd1-9297-94c27160fa23",
@@ -403,10 +432,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "97e85f70-8f74-47b9-86df-1181aa1345a7",
@@ -429,10 +460,12 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef COMMON_H_\n#define COMMON_H_\n\n/* This is a header included by every single file.\n It should include definitions of most basic types and utilities\n (like asserts and simple templates. It usually means most common\n header files for C standard library like \u003cstdio.h\u003e etc. and\n \u003cwindows.h\u003e on Windows.\n Resist temptation to include too much in this file - it’ll lead\n to insanity.\n*/\n#endif",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "c698d638-eb5f-40d8-8354-f58b3ba9da97",
@@ -471,10 +504,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "4a8c2efc-d748-4420-ad7b-17e9e4e6e527",
@@ -497,10 +532,12 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef FOO_H_\n#define FOO_H_\n/* To speedup compilation times avoid #include’ing header files.\n You can use any definitions in config.h. If possible, use forward\n declarations instead of including header file with definitions */\n\n#endif",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "d5f31a3e-9b8d-4f9c-9d9c-bfbb79d0e081",
@@ -539,10 +576,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195891187,
         "id": "4afea7ce-a52a-4172-9663-59651ec10328",
@@ -565,10 +604,12 @@
         "type": "code",
         "version": 1,
         "code": "#include “config.h”\n#include “foo.h”\n/* rest of include files sorted alphabetically */",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       }
     ],
     "title": "Sane #include hierarchy for C and C++",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -592,6 +633,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

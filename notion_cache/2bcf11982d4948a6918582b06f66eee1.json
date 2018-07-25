@@ -7,6 +7,7 @@
       "9e08d91f-4af6-47d6-bc0b-dce0321d27c9",
       "e8abdeef-84be-472f-8c0f-599e4a975f5f"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1521963266896,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1521963269389,
         "id": "b55006f4-0440-41dd-a566-46b4128cd599",
@@ -50,10 +52,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1521963272469,
         "id": "9e08d91f-4af6-47d6-bc0b-dce0321d27c9",
@@ -81,10 +85,12 @@
             "Text": "https://parsiya.net/blog/2018-02-25-extracting-png-chunks-with-go/",
             "Link": "https://parsiya.net/blog/2018-02-25-extracting-png-chunks-with-go/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458107957,
         "format": {
@@ -106,6 +112,7 @@
         "type": "page",
         "version": 3,
         "title": "png optimization",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -117,6 +124,7 @@
       }
     ],
     "title": "png format",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -140,6 +148,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -6,6 +6,7 @@
       "c43b834d-7edc-49bb-bad0-b230bd49f223",
       "8c68570d-7a65-4904-89df-412450baba87"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530045958395,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530045964048,
         "id": "c43b834d-7edc-49bb-bad0-b230bd49f223",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530045968004,
         "id": "8c68570d-7a65-4904-89df-412450baba87",
@@ -99,10 +103,12 @@
             "Text": "https://github.com/nathancahill/Split.js",
             "Link": "https://github.com/nathancahill/Split.js"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "split, splitter",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -126,6 +132,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

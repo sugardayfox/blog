@@ -10,6 +10,8 @@
       "9368f8b2-668c-45a4-b132-2321bebb83cc",
       "3c5a0324-5fde-4e67-9bb8-1f5d9132d5c8"
     ],
+    "copied_from": "027f6b3a-8b9f-4b7f-93c1-8a4864cd8bbb",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195926210,
     "format": {
@@ -33,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "2da40b53-e7dd-4b82-9e7f-06cbdd08250f",
@@ -53,10 +56,12 @@
           {
             "Text": "Id: 1096"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "4beab41e-b20c-42f9-a54b-3c7a58ba4f55",
@@ -77,10 +82,12 @@
           {
             "Text": "Tags: debugging, windbg, win32"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "07d4f07a-af9a-40c9-8554-59b608a1d0c9",
@@ -101,10 +108,12 @@
           {
             "Text": "Date: 2008-03-13T07:48:23-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "ebf1cec6-7b91-4209-a3bf-d292e905c8d9",
@@ -125,10 +134,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "9368f8b2-668c-45a4-b132-2321bebb83cc",
@@ -137,10 +148,12 @@
         "parent_id": "e06c81e6-7666-490c-989b-7e7aeab8225c",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195926210,
         "id": "3c5a0324-5fde-4e67-9bb8-1f5d9132d5c8",
@@ -163,10 +176,12 @@
         "type": "code",
         "version": 1,
         "code": "k, kb, kp, kP\n\nbp - set breakpoint\n~1bp - set breakpoint only on thread 1\nbl - list breakpoints\nbd $n - disable breakpoint\nbc - clear breakpoint\nba w4 $addr - set write breakpoint for 4 bytes at $addr\n\ndv - display all local variables\ndv /i - show symbol type\ndv /V - show location of variable\ndv /V argv - display address of argv variable\n\ndt - display type\ndt MyClass $addr - display $addr as type MyClass\ndc @ecx l4 - display 4 longs at address ecx, showing hex + ascii\ndd $addr $addr-range - display as hex\ndu $addr - display as unicode string\nda $addr - display as ascii string\ndb $addr l4 - display 4 bytes as bytes\ndyb $addr l4 - display as binary\ndf $addr l4 - display as float\ndw $addr l4 - display as words (16-bit)\ndW $addr l4 - display as 4 words + ascii\n\ndps $addr l8 - try to resolve 8 pointer values at $addr as symbols\ndpu $addr L4 - try to resolve 4 pointer values at $addr as unicode\nstrings\n\nln $addr - list symbols near address\n\ng - go\ng $addr - go until $addr is reached\ngu - go until exit from function\n~0 gu - like gu but only current thread is executing\nt - trace (execute one assembly instruction)\np - like t but steps over functions\npc - trace until next call instruction\nwt - like p but also gathers stats about the function (how many\ninstructions, what has been called)\n\n.logopen c:\\log.txt\n.logclose\n\n(address [$addr] - what is the type of $addr. . is $pc, @esp\npeb, teb - show process/thread environment block\ngle - show last error (like GetLastError()) and NTSTATUS",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Windbg reference",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -190,6 +205,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

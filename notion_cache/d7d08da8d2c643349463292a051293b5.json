@@ -21,6 +21,7 @@
       "03689abe-5b55-472c-8ac1-f46cc48c0239",
       "e3d5c1c3-52c6-4247-8725-35a93df21841"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529896698833,
     "format": {
@@ -44,6 +45,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529896709426,
         "id": "574c39af-dcaa-4b83-b581-e33043df8220",
@@ -64,10 +66,12 @@
           {
             "Text": "Investigating techniques for embedding dlls in .exe so that I can distribute a single .exe file even if the app consists of multiple dlls."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897179190,
         "id": "11c2e2eb-3755-4589-a696-f9b7fb84cb86",
@@ -88,10 +92,12 @@
           {
             "Text": "Potential solutions:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897184310,
         "id": "039d3619-606b-45bc-a32c-4787e658c110",
@@ -112,10 +118,12 @@
           {
             "Text": "A simple solution would be to unpack those libraries at startup (before they are used) to a fixed directory and set the load library path. Mark them as delay loaded."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897007184,
         "id": "b478c23b-4921-4be0-a966-98deaf1266cd",
@@ -136,10 +144,12 @@
           {
             "Text": "hook LoadLibraryA (W?) at startup, and special case it for the libraries we want to load. Potentially difficult "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897042759,
         "id": "d14809ad-3e44-4e4b-a845-769a4f951c78",
@@ -160,10 +170,12 @@
           {
             "Text": "hook CreateFile/Read/Close at startup. This is idea similar to LoadLibrary but works at a lower level (I assume LoadLibrary would call CreateFile/Read/Close to do its job)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897206477,
         "id": "6f327d18-a680-4591-a9c2-2189bceb301d",
@@ -216,10 +228,12 @@
             "Text": "https://github.com/fancycode/MemoryModule",
             "Link": "https://github.com/fancycode/MemoryModule"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897441077,
         "id": "41216ac2-0651-412d-989e-f57180aefa21",
@@ -253,10 +267,12 @@
             "Text": "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary",
             "Link": "https://www.codeproject.com/tips/430684/loading-win-dlls-manually-without-loadlibrary"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897560451,
         "id": "9c294475-6f8b-43de-88fa-6ff16828aaea",
@@ -265,10 +281,12 @@
         "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897559549,
         "id": "bcf3c490-b22d-4d46-a2ed-f4c087c56dd6",
@@ -289,10 +307,12 @@
           {
             "Text": "Ways of hooking:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897564177,
         "id": "e5134d80-49e0-4c85-987c-d9e6744aa11e",
@@ -326,10 +346,12 @@
             "Text": "https://github.com/hMihaiDavid/hooks/tree/master/Hooks",
             "Link": "https://github.com/hMihaiDavid/hooks/tree/master/Hooks"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529896749905,
         "id": "a16e0a8b-d4ce-4368-bbde-37e6951e401f",
@@ -350,10 +372,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529896751609,
         "id": "b83b9ca2-3a61-4f1f-9aa0-f8c990058b0e",
@@ -387,10 +411,12 @@
           {
             "Text": " : a tool that packs dlls, hooks LoadLibraryA etc. functions"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529896768889,
         "id": "31393a5f-81e1-4766-a180-2d015b55645d",
@@ -424,10 +450,12 @@
           {
             "Text": " : this is about including 64-bit version in 32-bit version and extracting it on startup"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897701876,
         "id": "abe3aa3e-a68c-48b7-8f0e-851ddc3f26b4",
@@ -455,10 +483,12 @@
             "Text": "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443",
             "Link": "http://www.drdobbs.com/packing-dlls-in-your-exe/184416443"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897763146,
         "id": "2f81c8cb-1f7b-438b-8aeb-5b43a7465e06",
@@ -486,10 +516,12 @@
             "Text": "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/",
             "Link": "http://blog.aaronballman.com/2011/08/what-happens-when-you-load-a-library/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897808010,
         "id": "03689abe-5b55-472c-8ac1-f46cc48c0239",
@@ -517,10 +549,12 @@
             "Text": "https://ikriv.com/blog/?p=1650",
             "Link": "https://ikriv.com/blog/?p=1650"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529897944676,
         "id": "e3d5c1c3-52c6-4247-8725-35a93df21841",
@@ -548,10 +582,12 @@
             "Text": "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/",
             "Link": "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Embed dll in an exe",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -575,6 +611,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

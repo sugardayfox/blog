@@ -7,6 +7,7 @@
       "37a7321b-ccf0-44d4-9ea5-07c184725b29",
       "9da9fbe7-31b6-4aec-8703-ed5e085ecec6"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496213511315,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496213519271,
         "id": "2bcbdd57-b556-4e22-b9e0-c2c3042b5d28",
@@ -50,10 +52,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496213525682,
         "id": "37a7321b-ccf0-44d4-9ea5-07c184725b29",
@@ -81,10 +85,12 @@
             "Text": "https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d",
             "Link": "https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496213529578,
         "id": "9da9fbe7-31b6-4aec-8703-ed5e085ecec6",
@@ -93,10 +99,12 @@
         "parent_id": "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
         "parent_table": "block",
         "type": "text",
-        "version": 2
+        "version": 2,
+        "CollectionViews": null
       }
     ],
     "title": "Chrome dev tools",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -120,6 +128,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

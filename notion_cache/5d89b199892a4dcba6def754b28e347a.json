@@ -11,6 +11,8 @@
       "13dc17e6-18ed-4e94-af99-0357c6ea0460",
       "41aa4ca7-555c-4c6d-b022-bbc5ffaf63ba"
     ],
+    "copied_from": "9a259029-26f8-4731-ae8b-fe61d12748fb",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195850042,
     "format": {
@@ -34,6 +36,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "9ec83ae1-79a5-454d-8d61-8284b8872541",
@@ -54,10 +57,12 @@
           {
             "Text": "Id: 302"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "12990af4-d8bc-401b-9d4c-cb690bc916c8",
@@ -78,10 +83,12 @@
           {
             "Text": "Tags: c, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "aad602c9-72a6-4444-acaa-b8c701090dc6",
@@ -102,10 +109,12 @@
           {
             "Text": "Date: 2006-01-13T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "a6eb978c-87b8-4159-8dbc-78b39d45ccc1",
@@ -114,10 +123,12 @@
         "parent_id": "5d89b199-892a-4dcb-a6de-f754b28e347a",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "749a3d34-8c26-4a98-8397-41ff134d7d81",
@@ -138,10 +149,12 @@
           {
             "Text": "Asserts are good. Compile-time asserts are even better. Here’s how to define and use them in C."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "13dc17e6-18ed-4e94-af99-0357c6ea0460",
@@ -164,10 +177,12 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef CASSERT\n#define CASSERT( exp, name ) typedef int dummy##name [ (exp ) ? 1 : -1 ];\n#endif\nCASSERT( sizeof(int16_t) == 2, int16_t_is_two_bytes )",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850043,
         "id": "41aa4ca7-555c-4c6d-b022-bbc5ffaf63ba",
@@ -176,10 +191,12 @@
         "parent_id": "5d89b199-892a-4dcb-a6de-f754b28e347a",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       }
     ],
     "title": "Compile-time asserts in C",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -203,6 +220,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -9,6 +9,7 @@
       "4bba7cb2-423e-486e-ac71-cf16164e0c0a",
       "805578c0-67be-45f9-99df-ae69d4bd58f5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157267286,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157267284,
         "id": "0d1f4dae-2edb-41af-b36e-b0c6ab122356",
@@ -54,10 +56,12 @@
           {
             "Text": "Id: 393"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120654003,
         "id": "7f749277-42e4-42b6-bbcb-78f435a53276",
@@ -78,10 +82,12 @@
           {
             "Text": "Date: 2002-08-27T03:05:42-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531817810819,
         "id": "1a4fcbe6-860b-432c-b9a8-9d22cda839df",
@@ -102,10 +108,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120658474,
         "id": "4bba7cb2-423e-486e-ac71-cf16164e0c0a",
@@ -114,10 +122,12 @@
         "parent_id": "d5466dd9-73f9-426f-83f3-f6d2bebfd1b9",
         "parent_table": "block",
         "type": "text",
-        "version": 17
+        "version": 17,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120662643,
         "id": "805578c0-67be-45f9-99df-ae69d4bd58f5",
@@ -157,10 +167,12 @@
           {
             "Text": ". His analogy of information business and relationships is great."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Information business as a relationship",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -184,6 +196,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

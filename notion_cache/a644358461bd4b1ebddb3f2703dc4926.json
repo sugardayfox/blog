@@ -6,6 +6,7 @@
       "127ab259-aa25-4bd8-83ac-87b9a7a93eee",
       "12549af2-28a0-428a-8d86-f425f940935f"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531880449902,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531880454056,
         "id": "127ab259-aa25-4bd8-83ac-87b9a7a93eee",
@@ -38,7 +40,8 @@
         "parent_id": "a6443584-61bd-4b1e-bddb-3f2703dc4926",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -48,6 +51,7 @@
           "f85ce868-ef81-4a5a-b7d6-4488c80a1bfb",
           "4385978d-a835-4f51-b254-192477b04ae8"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194230,
         "id": "12549af2-28a0-428a-8d86-f425f940935f",
@@ -68,6 +72,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887951771,
             "id": "a04680b1-69ae-45a1-83c1-a0c680761b6d",
@@ -101,10 +106,12 @@
                 "Text": "https://blog.kowalczyk.info/article/9/tutorial-on-using-github.comkjkflex-go-package.html",
                 "Link": "https://blog.kowalczyk.info/article/9/tutorial-on-using-github.comkjkflex-go-package.html"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887961314,
             "id": "781062c9-9618-49ae-a511-e85419257001",
@@ -151,10 +158,12 @@
                 "Text": "https://github.com/facebook/yoga/commit/f45059e1e696727c1282742b89d2c8bf06345254",
                 "Link": "https://github.com/facebook/yoga/commit/f45059e1e696727c1282742b89d2c8bf06345254"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887972218,
             "id": "f85ce868-ef81-4a5a-b7d6-4488c80a1bfb",
@@ -188,10 +197,12 @@
               {
                 "Text": " landed on main page"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531887977179,
             "id": "4385978d-a835-4f51-b254-192477b04ae8",
@@ -200,17 +211,20 @@
             "parent_id": "12549af2-28a0-428a-8d86-f425f940935f",
             "parent_table": "block",
             "type": "text",
-            "version": 8
+            "version": 8,
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-08-04"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "devlog 2017-08 • 01 d",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -234,6 +248,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

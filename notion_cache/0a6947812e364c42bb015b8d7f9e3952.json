@@ -14,6 +14,8 @@
       "9d0d0bc7-beb9-4374-8f68-d088c4148cc5",
       "35f05119-a6e4-4573-938e-53f27c94862c"
     ],
+    "copied_from": "16d76940-fe32-40d0-88ba-95d95233434d",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736918989,
     "format": {
@@ -37,6 +39,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918989,
         "id": "2fcc78a5-34ab-46b9-a9c8-468789953f56",
@@ -57,10 +60,12 @@
           {
             "Text": "Id: 1"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918989,
         "id": "41918702-5136-4f2a-bed7-6e54b32e47dd",
@@ -81,10 +86,12 @@
           {
             "Text": "Tags: sumatra, releasenotes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918989,
         "id": "d2f07a13-a1f1-49aa-b440-c0833101a057",
@@ -105,10 +112,12 @@
           {
             "Text": "Date: 2012-12-25T20:50:12-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918989,
         "id": "7f6951a0-75f4-4486-9b5b-ffb800841320",
@@ -117,10 +126,12 @@
         "parent_id": "0a694781-2e36-4c42-bb01-5b8d7f9e3952",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918989,
         "id": "cd00ba4c-c8df-4221-82bd-4313351f6fca",
@@ -173,10 +184,12 @@
           {
             "Text": ", a multi-format PDF, XPS, ebook (ePub, MOBI), DjVu reader for Windows."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918990,
         "id": "c04872c6-1d94-4837-bc9a-34955f48af25",
@@ -216,10 +229,12 @@
           {
             "Text": " ebook format."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918990,
         "id": "5e8aa78e-84fd-475e-af27-cfbeff7d5762",
@@ -240,10 +255,12 @@
           {
             "Text": "We’ve added support for PDF documents encrypted with Acrobat X."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918990,
         "id": "66e402fc-74a9-42de-b094-11f8f914f228",
@@ -264,10 +281,12 @@
           {
             "Text": "In a rare case where printing looks different than display, you can now use “Print as image” compatibility option in print dialog."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918990,
         "id": "9d0d0bc7-beb9-4374-8f68-d088c4148cc5",
@@ -288,10 +307,12 @@
           {
             "Text": "For better viewing of manga comic books we now have a new command-line option: -manga-mode [1|true|0|false]."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918990,
         "id": "35f05119-a6e4-4573-938e-53f27c94862c",
@@ -312,10 +333,12 @@
           {
             "Text": "Finally, we’ve made many robustness fixes and improvements. Too small to describe them in detail but in aggregate they make a difference."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "SumatraPDF 2.2 released",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -339,6 +362,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

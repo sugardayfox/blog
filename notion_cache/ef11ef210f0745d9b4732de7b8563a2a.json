@@ -8,6 +8,7 @@
       "23321da8-9227-42d3-93f4-e86ce4b548c9",
       "5a238a70-a3eb-41c3-b38f-74e85ef30009"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512338206455,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338207330,
         "id": "46907438-3e04-46ac-a7ab-6613f7f9138d",
@@ -58,10 +60,12 @@
             "Text": "http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/",
             "Link": "http://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338207330,
         "id": "c79d1d9d-551f-4c45-81aa-66ab23bd71b3",
@@ -89,10 +93,12 @@
             "Text": "https://danielmiessler.com/study/tcpdump/",
             "Link": "https://danielmiessler.com/study/tcpdump/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1527653221909,
         "id": "23321da8-9227-42d3-93f4-e86ce4b548c9",
@@ -120,10 +126,12 @@
             "Text": "https://hackertarget.com/tcpdump-examples/",
             "Link": "https://hackertarget.com/tcpdump-examples/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512338208106,
         "id": "5a238a70-a3eb-41c3-b38f-74e85ef30009",
@@ -132,10 +140,12 @@
         "parent_id": "ef11ef21-0f07-45d9-b473-2de7b8563a2a",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "tcpdump",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -159,6 +169,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

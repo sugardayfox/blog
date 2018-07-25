@@ -9,6 +9,7 @@
       "2c5d11ab-6777-4423-963e-152a49bd134a",
       "c8d4ae40-c891-4eeb-9112-0179e5aa0a92"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501697837676,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697837676,
         "id": "a2489124-0428-451e-830e-d331ebf41112",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697840984,
         "id": "621e2ed4-4bb7-47ec-98ed-d590a7687201",
@@ -83,10 +87,12 @@
             "Text": "https://medium.com/the-guardian-mobile-innovation-lab/generating-images-in-javascript-without-using-the-canvas-api-77f3f4355fad",
             "Link": "https://medium.com/the-guardian-mobile-innovation-lab/generating-images-in-javascript-without-using-the-canvas-api-77f3f4355fad"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530406076779,
         "id": "ab1726c7-bdc2-4e4f-88ca-998f708cbf94",
@@ -114,10 +120,12 @@
             "Text": "https://css-tricks.com/manipulating-pixels-using-canvas/",
             "Link": "https://css-tricks.com/manipulating-pixels-using-canvas/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531082262096,
         "id": "2c5d11ab-6777-4423-963e-152a49bd134a",
@@ -145,10 +153,12 @@
             "Text": "https://www.edwardshu.com/web/angular/hammerjs/2018/07/06/Image-Annotation.html",
             "Link": "https://www.edwardshu.com/web/angular/hammerjs/2018/07/06/Image-Annotation.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697868743,
         "id": "c8d4ae40-c891-4eeb-9112-0179e5aa0a92",
@@ -157,10 +167,12 @@
         "parent_id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "canvas",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -184,6 +196,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -3,6 +3,7 @@
   "Page": {
     "alive": true,
     "content": [
+      "7e5ca6ed-1af5-4bef-b7bb-54bae521b985",
       "8f1cd1a0-0522-4a55-8946-273624357ec4",
       "4e9f2705-ee6a-49a0-867a-c04128d1be43",
       "b77acba9-e2a4-498b-a329-65a2a93ed4b7",
@@ -11,6 +12,7 @@
       "bcfcd216-d4e8-43c6-97db-583432347d5f",
       "58b2c1ab-8d95-490a-8f66-242fba2f62f5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531881113446,
     "format": {
@@ -20,7 +22,7 @@
     },
     "id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532403945743,
+    "last_edited_time": 1532483975274,
     "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "parent_table": "block",
     "properties": {
@@ -31,14 +33,130 @@
       ]
     },
     "type": "page",
-    "version": 99,
+    "version": 105,
     "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "1927264a-7eb1-4dc1-b19a-f63365332401",
+          "caf250a2-ad55-40b6-aa52-184cb3fd78b3"
+        ],
+        "collection_id": "",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532483968129,
+        "id": "7e5ca6ed-1af5-4bef-b7bb-54bae521b985",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532505970943,
+        "parent_id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-07-24 Tue"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 49,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "30e4db02-6d4d-486c-9a82-4551538f8e1b"
+            ],
+            "collection_id": "",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532483974024,
+            "id": "1927264a-7eb1-4dc1-b19a-f63365332401",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532505970943,
+            "parent_id": "7e5ca6ed-1af5-4bef-b7bb-54bae521b985",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog:"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 62,
+            "content_resolved": [
+              {
+                "alive": true,
+                "collection_id": "",
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532483979664,
+                "id": "30e4db02-6d4d-486c-9a82-4551538f8e1b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532484000489,
+                "parent_id": "1927264a-7eb1-4dc1-b19a-f63365332401",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "add social sharing icons (twitter, linkedin, facebook, G+) to articles"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 161,
+                "inline_content": [
+                  {
+                    "Text": "add social sharing icons (twitter, linkedin, facebook, G+) to articles"
+                  }
+                ],
+                "CollectionViews": null
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "blog:"
+              }
+            ],
+            "CollectionViews": null
+          },
+          {
+            "alive": true,
+            "collection_id": "",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532505969159,
+            "id": "caf250a2-ad55-40b6-aa52-184cb3fd78b3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532505981675,
+            "parent_id": "7e5ca6ed-1af5-4bef-b7bb-54bae521b985",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "notionapi: download collection view blocks"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 130,
+            "inline_content": [
+              {
+                "Text": "notionapi: download collection view blocks"
+              }
+            ],
+            "CollectionViews": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-07-24 Tue"
+          }
+        ],
+        "CollectionViews": null
+      },
       {
         "alive": true,
         "content": [
           "8baca940-78c2-4f31-bdd1-d94038bd9602",
           "80205c1b-0575-41b4-924c-fdddcbe5577f"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532403918941,
         "id": "8f1cd1a0-0522-4a55-8946-273624357ec4",
@@ -58,6 +176,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532403931345,
             "id": "8baca940-78c2-4f31-bdd1-d94038bd9602",
@@ -78,7 +197,8 @@
               {
                 "Text": "ravendb: more AbstractDocumentQuery"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -90,6 +210,7 @@
               "aada231a-6b6b-405f-be87-9f4b4f49f04c",
               "7c36ff15-97f7-4976-9f88-09f05028b409"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532403943169,
             "id": "80205c1b-0575-41b4-924c-fdddcbe5577f",
@@ -109,6 +230,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532407852383,
                 "id": "11ecddc1-53f7-43d6-a22e-a880d33c70c8",
@@ -129,10 +251,12 @@
                   {
                     "Text": "add captcha to the contact me form because of spam"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532407856381,
                 "id": "17cc5f98-e7c6-43ec-827e-b69c67a88a88",
@@ -153,10 +277,12 @@
                   {
                     "Text": "improve notion image block rendering in html"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532407861913,
                 "id": "d945b489-ba14-4f31-9f63-ad96ecb8b80e",
@@ -177,10 +303,12 @@
                   {
                     "Text": "add notion gist block rendering in html"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532408687935,
                 "id": "186cacb6-a125-4973-891e-e9cb2b2347bb",
@@ -201,10 +329,12 @@
                   {
                     "Text": "fix inter-notion links"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532414853311,
                 "id": "aada231a-6b6b-405f-be87-9f4b4f49f04c",
@@ -225,10 +355,12 @@
                   {
                     "Text": "improved twitter card"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1532416211702,
                 "id": "7c36ff15-97f7-4976-9f88-09f05028b409",
@@ -249,21 +381,24 @@
                   {
                     "Text": "setup travis cron job to update from notion daily"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "blog:"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-23 Mon"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -271,6 +406,7 @@
           "41f8ea78-624c-403c-8c95-2e8072193c81",
           "fc3cae5e-60b8-4f82-bf43-d1b58fd2f93c"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532294795429,
         "id": "4e9f2705-ee6a-49a0-867a-c04128d1be43",
@@ -290,6 +426,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532294802159,
             "id": "41f8ea78-624c-403c-8c95-2e8072193c81",
@@ -310,10 +447,12 @@
               {
                 "Text": "ravendb: progress on AbstractDocumentQuery"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532307934455,
             "id": "fc3cae5e-60b8-4f82-bf43-d1b58fd2f93c",
@@ -334,20 +473,23 @@
               {
                 "Text": "essential books: re-writing book generation based on Notion"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-22 Sun"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "56e2d35e-d2cd-42e1-921c-fda298f9e1d5"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532197020061,
         "id": "b77acba9-e2a4-498b-a329-65a2a93ed4b7",
@@ -367,6 +509,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532197024703,
             "id": "56e2d35e-d2cd-42e1-921c-fda298f9e1d5",
@@ -387,14 +530,16 @@
               {
                 "Text": "lots of editing of Essential Go in Notion"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-21 Sat"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -404,6 +549,7 @@
           "4f50ca47-17f2-41b4-8039-207b44ee0c99",
           "9116a9f4-6e5d-40d7-8c02-d88139115acb"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532123182623,
         "id": "a3e05717-eed4-46b7-97cb-1918ec1b7761",
@@ -423,6 +569,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532123191302,
             "id": "df8f5f44-fb14-4802-85b9-9929b13335c5",
@@ -443,10 +590,12 @@
               {
                 "Text": "blog:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532123192722,
             "id": "9adaad94-c14c-44e8-8ccc-5ae9b7005886",
@@ -467,10 +616,12 @@
               {
                 "Text": "handle cover page"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532197004132,
             "id": "4f50ca47-17f2-41b4-8039-207b44ee0c99",
@@ -491,10 +642,12 @@
               {
                 "Text": "ravendb:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532197011922,
             "id": "9116a9f4-6e5d-40d7-8c02-d88139115acb",
@@ -515,14 +668,16 @@
               {
                 "Text": "started on Query"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-20 Fri"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -532,6 +687,7 @@
           "d7585fc7-a531-4b15-a9d0-783cf5e64f8a",
           "3c3fd678-33ac-4e69-bf37-2f0b12c04f63"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532069984564,
         "id": "048fc8b8-75f0-487c-bf8a-030d1d0fffd2",
@@ -551,6 +707,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532069994005,
             "id": "22a6a527-5d33-4171-9b73-90b4c37caa61",
@@ -571,10 +728,12 @@
               {
                 "Text": "blog:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532070002906,
             "id": "8f9f74af-83cf-4220-b756-80c2efdd8812",
@@ -595,10 +754,12 @@
               {
                 "Text": "add full path to notion articles"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532070126531,
             "id": "d7585fc7-a531-4b15-a9d0-783cf5e64f8a",
@@ -619,10 +780,12 @@
               {
                 "Text": "show correct created on date on notion articles"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532074663446,
             "id": "3c3fd678-33ac-4e69-bf37-2f0b12c04f63",
@@ -643,20 +806,23 @@
               {
                 "Text": "handle monospace pages"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-19 Thu"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "3afb61b0-cb57-4d7c-a282-3ca5c61414a7"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531942219875,
         "id": "bcfcd216-d4e8-43c6-97db-583432347d5f",
@@ -683,6 +849,7 @@
               "06171e23-d81d-4bfe-bc06-ce54bf22abc6",
               "f83e9073-779f-44fe-a164-7328890a0bbd"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531963683060,
             "id": "3afb61b0-cb57-4d7c-a282-3ca5c61414a7",
@@ -702,6 +869,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531942234850,
                 "id": "401be4d9-c82a-4419-b1fd-7eaaa9ad0a9a",
@@ -722,10 +890,12 @@
                   {
                     "Text": "handle notion columns in html generation"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531945934445,
                 "id": "376bc777-c85a-4a0c-b943-640162555a6d",
@@ -746,10 +916,12 @@
                   {
                     "Text": "handle notion toggle in html generation"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531956039826,
                 "id": "bbb92214-32da-40a6-929c-feac73014406",
@@ -770,10 +942,12 @@
                   {
                     "Text": "made deploy more robust"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531989466145,
                 "id": "06171e23-d81d-4bfe-bc06-ce54bf22abc6",
@@ -794,10 +968,12 @@
                   {
                     "Text": "added website"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531973784155,
                 "id": "f83e9073-779f-44fe-a164-7328890a0bbd",
@@ -818,21 +994,24 @@
                   {
                     "Text": "removed obsolete code"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "blog:"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-18 Wed"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -841,6 +1020,7 @@
           "52917a2f-d088-470c-aa61-4fc5a773ab52",
           "4f5a6e5e-c2c1-49c5-833e-e70c3eda4cf3"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531881122011,
         "id": "58b2c1ab-8d95-490a-8f66-242fba2f62f5",
@@ -860,6 +1040,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531881145785,
             "id": "6bdb05bd-5e4c-4ae4-b290-396a80e6b67d",
@@ -880,7 +1061,8 @@
               {
                 "Text": "ravendb go client 2hr"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -893,6 +1075,7 @@
               "ab3a29e3-91e0-40ae-8b83-4f2a9afcb651",
               "179cb1a8-a4fa-41ec-8c44-36567a062450"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531906116989,
             "id": "52917a2f-d088-470c-aa61-4fc5a773ab52",
@@ -912,6 +1095,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906179283,
                 "id": "30931019-036c-40d1-b69e-6f5a83ff764b",
@@ -932,10 +1116,12 @@
                   {
                     "Text": "edited many articles in notion"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531881170156,
                 "id": "e7616469-5023-4d22-a335-fc18a8c4129d",
@@ -956,10 +1142,12 @@
                   {
                     "Text": "use notion pages instead of markdown for blog"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906102413,
                 "id": "f5f4dff3-c7b6-485a-9dd3-02df2733a19b",
@@ -980,10 +1168,12 @@
                   {
                     "Text": "use notion pages instead of markdown for go cookbook"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906172226,
                 "id": "6d1f8e9c-18b0-459b-bb57-41fde45bce0e",
@@ -1004,10 +1194,12 @@
                   {
                     "Text": "simplified article generating code"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906202980,
                 "id": "1d4b0358-5da6-44a1-a6ab-9ef3c7a1582a",
@@ -1028,10 +1220,12 @@
                   {
                     "Text": "shortened redirects for netfliy"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906259513,
                 "id": "ab3a29e3-91e0-40ae-8b83-4f2a9afcb651",
@@ -1052,10 +1246,12 @@
                   {
                     "Text": "shortened redirects for caddy"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1531906293600,
                 "id": "179cb1a8-a4fa-41ec-8c44-36567a062450",
@@ -1076,17 +1272,20 @@
                   {
                     "Text": "made progress on importing the website"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "blog"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1531906147980,
             "id": "4f5a6e5e-c2c1-49c5-833e-e70c3eda4cf3",
@@ -1107,17 +1306,20 @@
               {
                 "Text": "notionapi: fixed a bug with resolving pages discovered when importing notion for website"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "2018-07-17 Tue"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "devlog 2018-07",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1141,6 +1343,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

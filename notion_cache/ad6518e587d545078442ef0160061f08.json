@@ -11,6 +11,7 @@
       "40040f25-44cd-431b-9cf8-a9354847ebe0",
       "0658ae9f-e388-4c73-b5e4-68049c59009c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157273347,
     "format": {
@@ -35,6 +36,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157273346,
         "id": "f556c5a7-d9c2-4c2e-8ac9-f42eec55af42",
@@ -56,10 +58,12 @@
           {
             "Text": "Id: 406"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121035108,
         "id": "5ca0ee9b-a5bf-4f9b-b546-cdc07dfd0e19",
@@ -80,10 +84,12 @@
           {
             "Text": "Date: 2002-09-04T04:20:51-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121041313,
         "id": "52b62e1a-514c-45ac-b344-76865702d3c4",
@@ -104,10 +110,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121043693,
         "id": "63bc6dea-60ee-4e46-91aa-8af14067d4a0",
@@ -116,10 +124,12 @@
         "parent_id": "ad6518e5-87d5-4507-8442-ef0160061f08",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531121046202,
         "id": "12add372-1f5f-415d-9469-08a1500cb3ac",
@@ -182,10 +192,12 @@
             "Text": ":",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157273347,
         "id": "40040f25-44cd-431b-9cf8-a9354847ebe0",
@@ -207,10 +219,12 @@
           {
             "Text": "Most of the things that happen that are good or bad in the world, happen not because people are either asymmetrically virtuous or asymmetrically despicable, but rather just because people are in a system that encourages that they do the bad thing."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157273347,
         "id": "0658ae9f-e388-4c73-b5e4-68049c59009c",
@@ -250,10 +264,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Interview with MicroStrategy CEO",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -277,6 +293,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -11,6 +11,7 @@
       "536aabbf-7efc-46ba-aaaa-8ea25c78c099",
       "5a8ae781-b18a-47be-aa64-26708b863906"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501697603534,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697612601,
         "id": "fb8ebbef-1e49-44e1-a55a-d7f479f06375",
@@ -54,10 +56,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697614200,
         "id": "85ecf12b-1768-470d-949f-d91802f95926",
@@ -91,10 +95,12 @@
           {
             "Text": " : C#, Petzold"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697644715,
         "id": "585184ce-5b9e-4a50-acb6-c50a2b50af9c",
@@ -128,10 +134,12 @@
           {
             "Text": " : 3D Programming for Windows, WPF, Petzold"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697662429,
         "id": "e02c7a52-5bd5-4fcd-bc97-dff547053c64",
@@ -165,10 +173,12 @@
           {
             "Text": " : Programming Windows, Petzold, 6th edition, xaml"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697704423,
         "id": "310a71b0-5852-4fb5-ac32-ec1ff67cf345",
@@ -202,10 +212,12 @@
           {
             "Text": " : Programmin Microsoft Windows Forms, Petzold"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697743712,
         "id": "536aabbf-7efc-46ba-aaaa-8ea25c78c099",
@@ -239,10 +251,12 @@
           {
             "Text": " : Programming Windows, Petzold, 5th editin, C++"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501697661345,
         "id": "5a8ae781-b18a-47be-aa64-26708b863906",
@@ -251,10 +265,12 @@
         "parent_id": "06e18e67-4915-49c1-b54b-2ef8c78bd6bb",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "books",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -278,6 +294,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

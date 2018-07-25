@@ -5,6 +5,7 @@
     "content": [
       "f7b0bac4-4203-4ccf-aab5-186ce38a4373"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1515545447640,
     "format": {
@@ -28,6 +29,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1515545455815,
         "id": "f7b0bac4-4203-4ccf-aab5-186ce38a4373",
@@ -67,10 +69,12 @@
           {
             "Text": " is available"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Possible company names",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -94,6 +98,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

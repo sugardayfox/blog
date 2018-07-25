@@ -10,6 +10,8 @@
       "bb2068b9-2bb4-4d79-926e-5cccd62e4d29",
       "80be3fd4-3283-4e1f-be8a-bd0fa44f3b0e"
     ],
+    "copied_from": "d1fa197b-5939-4537-bba6-41c1f1991994",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195786967,
     "format": {
@@ -33,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786967,
         "id": "dfe23bcb-5eb8-48f3-bd27-cc28d872b8d5",
@@ -53,10 +56,12 @@
           {
             "Text": "Id: 538"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786968,
         "id": "1a0ee2ac-0e3f-4b6e-afab-3425573fc474",
@@ -77,10 +82,12 @@
           {
             "Text": "Tags: python"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786968,
         "id": "8f975adc-f7c6-4113-b55b-d7792a6fdd1e",
@@ -101,10 +108,12 @@
           {
             "Text": "Date: 2003-02-09T16:55:24-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786968,
         "id": "717f5503-5250-422f-93dc-b6a4837fd539",
@@ -125,10 +134,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786968,
         "id": "bb2068b9-2bb4-4d79-926e-5cccd62e4d29",
@@ -137,10 +148,12 @@
         "parent_id": "e87a3fdb-32c1-4d46-83d7-693a654485f3",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786968,
         "id": "80be3fd4-3283-4e1f-be8a-bd0fa44f3b0e",
@@ -180,10 +193,12 @@
           {
             "Text": " on comp.lang.python. Probably not news for Python-experienced people, but I’ve learned some stuff."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Python idioms",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -207,6 +222,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

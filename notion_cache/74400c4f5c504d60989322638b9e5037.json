@@ -10,6 +10,7 @@
       "58058f29-78c1-43c0-9c16-070d5b0cf24e",
       "88b9ae07-4351-435f-a591-383b5fb78426"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512356536520,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356549180,
         "id": "aaa2261b-56ce-47f9-ba77-3ac583d2f7a6",
@@ -41,10 +43,12 @@
         "parent_id": "74400c4f-5c50-4d60-9893-22638b9e5037",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356563212,
         "id": "fb1f28ba-4ec9-42fd-bf95-eba42225ea9b",
@@ -78,10 +82,12 @@
             "Text": "https://github.com/golang/go/issues/12933#issuecomment-199429151",
             "Link": "https://github.com/golang/go/issues/12933#issuecomment-199429151"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356563212,
         "id": "be2662ed-c5c5-40fe-a558-91c7912f43eb",
@@ -102,10 +108,12 @@
           {
             "Text": "My cookie:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356563212,
         "id": "37c9c2e0-71c8-4149-a27e-036fa426d21d",
@@ -122,10 +130,12 @@
         },
         "type": "code",
         "version": 0,
-        "code": "touch ~/.gitcookies\nchmod 0600 ~/.gitcookies\n\ngit config --global http.cookiefile ~/.gitcookies\n\ntr , \\\\t \u003c\u003c\\__END__ \u003e\u003e~/.gitcookies\n.googlesource.com,TRUE,/,TRUE,2147483647,o,git-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\n__END__"
+        "code": "touch ~/.gitcookies\nchmod 0600 ~/.gitcookies\n\ngit config --global http.cookiefile ~/.gitcookies\n\ntr , \\\\t \u003c\u003c\\__END__ \u003e\u003e~/.gitcookies\n.googlesource.com,TRUE,/,TRUE,2147483647,o,git-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\n__END__",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356563212,
         "id": "58058f29-78c1-43c0-9c16-070d5b0cf24e",
@@ -146,10 +156,12 @@
           {
             "Text": "On Windows:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512356563212,
         "id": "88b9ae07-4351-435f-a591-383b5fb78426",
@@ -166,10 +178,12 @@
         },
         "type": "code",
         "version": 0,
-        "code": "git config --global http.cookiefile \"%USERPROFILE%\\.gitcookies\"\npowershell -noprofile -nologo -command Write-Output \".googlesource.com`tTRUE`t/`tTRUE`t2147483647`to`tgit-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\" \u003e\u003e\"%USERPROFILE%\\.gitcookies\""
+        "code": "git config --global http.cookiefile \"%USERPROFILE%\\.gitcookies\"\npowershell -noprofile -nologo -command Write-Output \".googlesource.com`tTRUE`t/`tTRUE`t2147483647`to`tgit-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\" \u003e\u003e\"%USERPROFILE%\\.gitcookies\"",
+        "CollectionViews": null
       }
     ],
     "title": "prevent CI rate limiting for go get of go.googlesource.com",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -193,6 +207,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

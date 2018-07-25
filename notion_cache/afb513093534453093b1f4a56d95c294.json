@@ -11,6 +11,7 @@
       "6b885c35-ce06-44e3-896d-636188b6b844",
       "b13cc342-a357-4777-8a23-258db2deb9b5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493538912250,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493538912250,
         "id": "56ee1aa1-461c-4737-b881-e907bcbf12d8",
@@ -54,10 +56,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493538922665,
         "id": "2adeca62-ffb8-428a-895a-7ad965799633",
@@ -85,10 +89,12 @@
             "Text": "http://www.andrew-seaford.co.uk/check-dotnet-framework-installed-inno-setup/",
             "Link": "http://www.andrew-seaford.co.uk/check-dotnet-framework-installed-inno-setup/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493538929499,
         "id": "28c34d8a-f027-4363-973d-b616fb25ffa5",
@@ -116,10 +122,12 @@
             "Text": "https://innosetupnet.codeplex.com/",
             "Link": "https://innosetupnet.codeplex.com/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493538941323,
         "id": "ec99f550-e268-4e5e-9d78-e484f2641894",
@@ -153,10 +161,12 @@
           {
             "Text": " : install .net 4.6.1 if needed"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493538956124,
         "id": "01a27617-e1b2-43b1-9589-e55ac960ffbd",
@@ -184,10 +194,12 @@
             "Text": "http://stackoverflow.com/questions/4104011/inno-setup-verify-that-net-4-0-is-installed",
             "Link": "http://stackoverflow.com/questions/4104011/inno-setup-verify-that-net-4-0-is-installed"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493539006389,
         "id": "6b885c35-ce06-44e3-896d-636188b6b844",
@@ -215,10 +227,12 @@
             "Text": "https://blogs.msdn.microsoft.com/davidrickard/2015/07/17/installing-net-framework-4-5-automatically-with-inno-setup/",
             "Link": "https://blogs.msdn.microsoft.com/davidrickard/2015/07/17/installing-net-framework-4-5-automatically-with-inno-setup/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493539005084,
         "id": "b13cc342-a357-4777-8a23-258db2deb9b5",
@@ -227,10 +241,12 @@
         "parent_id": "afb51309-3534-4530-93b1-f4a56d95c294",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "InnoSetup",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -254,6 +270,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

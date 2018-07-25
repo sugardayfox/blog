@@ -9,6 +9,7 @@
       "95f7469e-d115-4a3a-9910-f8d14eff9493",
       "a843fbfb-36e7-4044-bf52-bf0840ef93b5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157267210,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157267207,
         "id": "fd035cb5-ab7b-4220-a606-94162c956519",
@@ -54,10 +56,12 @@
           {
             "Text": "Id: 1363"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120613187,
         "id": "17ddbdf8-7eda-4857-8049-d2f3766dd234",
@@ -78,10 +82,12 @@
           {
             "Text": "Date: 2002-08-04T00:00:06-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120618708,
         "id": "67c0ef5f-ef6c-4a84-9dfc-3d285f2b9e2f",
@@ -102,10 +108,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120620572,
         "id": "95f7469e-d115-4a3a-9910-f8d14eff9493",
@@ -114,10 +122,12 @@
         "parent_id": "bee99cd6-acaf-4820-8ed2-6bf0d3c20284",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120624028,
         "id": "a843fbfb-36e7-4044-bf52-bf0840ef93b5",
@@ -151,10 +161,12 @@
           {
             "Text": ". Simply amazing."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Life of Hellen Keller",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -178,6 +190,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

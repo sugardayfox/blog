@@ -10,6 +10,7 @@
       "b033ba1a-8901-404c-8530-45843ad43280",
       "c9698d77-ef50-4bc2-a609-6c4349b0a4c8"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492670766252,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492670769039,
         "id": "fdf0db47-eed7-4402-b896-09c1bf67ec21",
@@ -53,10 +55,12 @@
           {
             "Text": "Useful commands:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492670792643,
         "id": "999f43ba-c18c-4ff9-99f5-7f6f4fb5cba5",
@@ -83,7 +87,8 @@
             "Text": "systemctl status \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -91,6 +96,7 @@
           "a1d63fbe-e89c-4caf-887b-e9d3c35e227f",
           "2abfb9d3-4994-4848-87e5-77fcc4b5888f"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492670807242,
         "id": "d514ca1f-2f6c-4e69-9087-56da656e8229",
@@ -115,6 +121,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492670883444,
             "id": "a1d63fbe-e89c-4caf-887b-e9d3c35e227f",
@@ -147,10 +154,12 @@
               {
                 "Text": " : reverse"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1492670892917,
             "id": "2abfb9d3-4994-4848-87e5-77fcc4b5888f",
@@ -183,7 +192,8 @@
               {
                 "Text": " : follow"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -191,13 +201,15 @@
             "Text": "journalctl -f -u \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "8426ce16-8f16-4d72-9168-66a4b6d0d7ef"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512368672193,
         "id": "e2321ca8-41ef-459a-85be-7c1cb8444dde",
@@ -217,6 +229,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512368684463,
             "id": "8426ce16-8f16-4d72-9168-66a4b6d0d7ef",
@@ -239,20 +252,23 @@
             "type": "code",
             "version": 4,
             "code": "On Ubuntu, systemd is used starting with 15.04\n/etc/systemd/system\n\nsystemctl enable dbhero\nsystemctl daemon-reload\nsystemctl start dbhero\nsystemctl stop dbhero\n\njournalctl -u website : to see logs from unit website\n\nhttp://0pointer.de/blog/projects/socket-activation.html\nhttps://wiki.ubuntu.com/SystemdForUpstartUsers\nhttps://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "355ca2ac-c943-49be-a944-364141b07af4"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1521136712995,
         "id": "b033ba1a-8901-404c-8530-45843ad43280",
@@ -272,6 +288,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1521136715421,
             "id": "355ca2ac-c943-49be-a944-364141b07af4",
@@ -305,17 +322,20 @@
               {
                 "Text": " : go and systemd"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "links"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512368681199,
         "id": "c9698d77-ef50-4bc2-a609-6c4349b0a4c8",
@@ -324,10 +344,12 @@
         "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "Systemd",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -351,6 +373,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -10,6 +10,7 @@
       "a0ed35c4-554c-4bc0-8d75-6dbb516409a1",
       "02929438-8c16-4b95-8aeb-70e7c56822e7"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1499039495387,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499039508615,
         "id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
@@ -53,10 +55,12 @@
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499039514972,
         "id": "dc349e94-fee3-40ba-a41b-337ed1230d15",
@@ -84,10 +88,12 @@
             "Text": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
             "Link": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499039535221,
         "id": "a6643ebf-f9b4-45ac-a1eb-883073501f0a",
@@ -115,10 +121,12 @@
             "Text": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
             "Link": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354895565,
         "id": "71a499f1-8f1d-4fc2-ac3a-cd60d3226198",
@@ -146,10 +154,12 @@
             "Text": "https://davidwalsh.name/file-api",
             "Link": "https://davidwalsh.name/file-api"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512354895565,
         "id": "a0ed35c4-554c-4bc0-8d75-6dbb516409a1",
@@ -177,10 +187,12 @@
             "Text": "https://davidwalsh.name/filereader",
             "Link": "https://davidwalsh.name/filereader"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499039516808,
         "id": "02929438-8c16-4b95-8aeb-70e7c56822e7",
@@ -189,10 +201,12 @@
         "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "files, blobs, FileReader",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -216,6 +230,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

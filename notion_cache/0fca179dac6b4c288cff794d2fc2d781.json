@@ -143,6 +143,7 @@
       "ca8945e4-2a43-4a48-845a-e6331bbc530a",
       "23882655-d9fe-43be-b2a6-c3859a840533"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530072938453,
     "format": {
@@ -174,6 +175,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938393,
         "id": "2a7c651b-8163-4656-8f99-728a8674c4ae",
@@ -201,10 +203,12 @@
             "Text": "The Portable Executable File Format",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938403,
         "id": "0365d9be-1834-43e0-92c5-bddd6520d407",
@@ -226,10 +230,12 @@
           {
             "Text": "Introduction"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938403,
         "id": "57c4126d-b811-4a4f-9f6e-79741938aaf1",
@@ -251,10 +257,12 @@
           {
             "Text": "The recent addition of the Microsoft® Windows NT™ operating system to the family of Windows™ operating systems brought many changes to the development environment and more than a few changes to applications themselves. One of the more significant changes is the introduction of the Portable Executable (PE) file format. The new PE file format draws primarily from the COFF (Common Object File Format) specification that is common to UNIX® operating systems. Yet, to remain compatible with previous versions of the MS-DOS® and Windows operating systems, the PE file format also retains the old familiar MZ header from MS-DOS. This article discusses each of the components of the file as they occur when you traverse the file’s contents, starting at the top and working your way down through the file. Much of the definition of individual file components comes from the file WINNT.H, a file included in the Microsoft Win32™ Software Development Kit (SDK) for Windows NT. In it you will find structure type definitions for each of the file headers and data directories used to represent various components in the file. In other places in the file, WINNT.H lacks sufficient definition of the file structure. The PE file format for Windows NT introduces a completely new structure to developers familiar with the Windows and MS-DOS environments. Yet developers familiar with the UNIX environment will find that the PE file format is similar to, if not based on, the COFF specification. The entire format consists of an MS-DOS MZ header, followed by a real-mode stub program, the PE file signature, the PE file header, the PE optional header, all of the section headers, and finally, all of the section bodies. The optional header ends with an array of data directory entries that are relative virtual addresses to data directories contained within section bodies. Each data directory indicates how a specific section body’s data is structured. The PE file format has eleven predefined sections, as is common to applications for Windows NT, but each application can define its own unique sections for code and data. The .debug predefined section also has the capability of being stripped from the file into a separate debug file. If so, a special debug header is used to parse the debug file, and a flag is specified in the PE file header to indicate that the debug data has been stripped."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938403,
         "id": "2a8fe71f-0a37-406c-a155-212cebf35fbd",
@@ -276,10 +284,12 @@
           {
             "Text": "Structure of PE Files"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938403,
         "id": "b99f19ff-a5eb-4016-a93f-22895e44ceb2",
@@ -319,10 +329,12 @@
           {
             "Text": " Starting with the MS-DOS file header structure, each of the components in the PE file format is discussed below in the order in which it occurs in the file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938403,
         "id": "31d29079-15eb-4c71-868b-7c7686bf1606",
@@ -344,10 +356,12 @@
           {
             "Text": "MS-DOS/Real-Mode Header"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938404,
         "id": "253a866d-708e-4861-83b5-b4f2af575ec0",
@@ -381,10 +395,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938404,
         "id": "d25eff9a-8ec6-4ff0-af62-b3773b80eda2",
@@ -408,10 +424,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_DOS_HEADER {  // DOS .EXE header\n    USHORT e_magic;         // Magic number\n    USHORT e_cblp;          // Bytes on last page of file\n    USHORT e_cp;            // Pages in file\n    USHORT e_crlc;          // Relocations\n    USHORT e_cparhdr;       // Size of header in paragraphs\n    USHORT e_minalloc;      // Minimum extra paragraphs needed\n    USHORT e_maxalloc;      // Maximum extra paragraphs needed\n    USHORT e_ss;            // Initial (relative) SS value\n    USHORT e_sp;            // Initial SP value\n    USHORT e_csum;          // Checksum\n    USHORT e_ip;            // Initial IP value\n    USHORT e_cs;            // Initial (relative) CS value\n    USHORT e_lfarlc;        // File address of relocation table\n    USHORT e_ovno;          // Overlay number\n    USHORT e_res[4];        // Reserved words\n    USHORT e_oemid;         // OEM identifier (for e_oeminfo)\n    USHORT e_oeminfo;       // OEM information; e_oemid specific\n    USHORT e_res2[10];      // Reserved words\n    LONG   e_lfanew;        // File address of new exe header\n  } IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938404,
         "id": "7767b6ef-410c-4e54-af35-8fe95003ddc2",
@@ -487,10 +505,12 @@
           {
             "Text": ", is a 4-byte offset into the file where the PE file header is located. It is necessary to use this offset to locate the PE header in the file. For PE files in Windows NT, the PE file header occurs soon after the MS-DOS header with only the real-mode stub program between them."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938405,
         "id": "9e672e36-1ff8-43a1-b32c-574342157d5a",
@@ -512,10 +532,12 @@
           {
             "Text": "Real-Mode Stub Program"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938406,
         "id": "1c4bdb29-2bd6-4a9b-a9f4-c593a6962b59",
@@ -573,10 +595,12 @@
           {
             "Text": " option when linking the executable file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938406,
         "id": "397213c0-27f5-4aa2-b7be-91ae59406705",
@@ -598,10 +622,12 @@
           {
             "Text": "PE File Header and Signature"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938406,
         "id": "3db07116-434c-409e-a226-96d20695c3da",
@@ -659,10 +685,12 @@
           {
             "Text": " field simply gives the offset in the file, so add the file’s memory-mapped base address to determine the actual memory-mapped address"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938406,
         "id": "dce236d7-99ce-4eb4-bc92-4fad7e828f84",
@@ -686,10 +714,12 @@
         "type": "code",
         "version": 1,
         "code": "#define NTSIGNATURE(a) ((LPVOID)((BYTE *)a +    \\\n                        ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew))",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "eb6fc333-23b7-4905-bb98-ed7f075bbe3b",
@@ -711,10 +741,12 @@
           {
             "Text": "When manipulating PE file information, I found that there were several locations in the file that I needed to refer to often. Since these locations are merely offsets into the file, it is easier to implement these locations as macros because they provide much better performance than functions do. Notice that instead of retrieving the offset of the PE file header, this macro retrieves the location of the PE file signature. Starting with Windows and OS/2 executables, .EXE files were given file signatures to specify the intended target operating system. For the PE file format in Windows NT, this signature occurs immediately before the PE file header structure. In versions of Windows and OS/2, the signature is the first word of the file header. Also, for the PE file format, Windows NT uses a DWORD for the signature. The macro presented above returns the offset of where the file signature appears, regardless of which type of executable file it is. So depending on whether it’s a Windows NT file signature or not, the file header exists either after the signature DWORD or at the signature WORD."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "6cce83b7-41e9-403f-ac9a-72c43e51a7af",
@@ -738,10 +770,12 @@
         "type": "code",
         "version": 1,
         "code": "DWORD  WINAPI ImageFileType (\n    LPVOID    lpFile)\n{\n    /* DOS file signature comes first. */\n    if (*(USHORT *)lpFile == IMAGE_DOS_SIGNATURE)\n        {\n        /* Determine location of PE File header from\n           DOS header. */\n        if (LOWORD (*(DWORD *)NTSIGNATURE (lpFile)) ==\n                                IMAGE_OS2_SIGNATURE ||\n            LOWORD (*(DWORD *)NTSIGNATURE (lpFile)) ==\n                             IMAGE_OS2_SIGNATURE_LE)\n            return (DWORD)LOWORD(*(DWORD *)NTSIGNATURE (lpFile));\n\n        else if (*(DWORD *)NTSIGNATURE (lpFile) ==\n                            IMAGE_NT_SIGNATURE)\n            return IMAGE_NT_SIGNATURE;\n\n        else\n            return IMAGE_DOS_SIGNATURE;\n        }\n\n    else\n        /* unknown file type */\n        return 0;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "975165cc-545c-4dbf-827b-48f2b43e59a1",
@@ -793,10 +827,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "a968d966-3931-471f-bec4-cb69086b7cc4",
@@ -820,10 +856,12 @@
         "type": "code",
         "version": 1,
         "code": "#define IMAGE_DOS_SIGNATURE             0x5A4D      // MZ\n#define IMAGE_OS2_SIGNATURE             0x454E      // NE\n#define IMAGE_OS2_SIGNATURE_LE          0x454C      // LE\n#define IMAGE_NT_SIGNATURE              0x00004550  // PE00",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "8da760d2-e4ae-46c2-8179-461e0e559f6e",
@@ -845,10 +883,12 @@
           {
             "Text": "At first it seems curious that Windows executable file types do not appear on this list. But then, after a little investigation, the reason becomes clear: There really is no difference between Windows executables and OS/2 executables other than the operating system version specification. Both operating systems share the same executable file structure. Turning our attention back to the Windows NT PE file format, we find that once we have the location of the file signature, the PE file follows four bytes later. The next macro identifies the PE file header:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938407,
         "id": "14d752d3-f665-46c7-92cc-fe26cd989f5d",
@@ -872,10 +912,12 @@
         "type": "code",
         "version": 1,
         "code": "#define PEFHDROFFSET(a) ((LPVOID)((BYTE *)a +  \\\n    ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew + SIZE_OF_NT_SIGNATURE))",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938409,
         "id": "bd5efa63-6b3a-4aaa-9f96-de53b047cdcb",
@@ -897,10 +939,12 @@
           {
             "Text": "The only difference between this and the previous macro is that this one adds in the constant SIZE_OF_NT_SIGNATURE. Sad to say, this constant is not defined in WINNT.H. Now that we know the location of the PE file header, we can examine the data in the header simply by assigning this location to a structure, as in the following example:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938409,
         "id": "15528e76-928f-4644-a637-2eab07eebd90",
@@ -924,10 +968,12 @@
         "type": "code",
         "version": 1,
         "code": "PIMAGE_FILE_HEADER   pfh;\n\npfh = (PIMAGE_FILE_HEADER)PEFHDROFFSET (lpFile);",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938409,
         "id": "838b4b98-f452-4d82-890c-3aceacf5b840",
@@ -997,10 +1043,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938409,
         "id": "cda3803c-32d1-4376-bc72-ee8670c28f85",
@@ -1024,10 +1072,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_FILE_HEADER {\n    USHORT  Machine;\n    USHORT  NumberOfSections;\n    ULONG   TimeDateStamp;\n    ULONG   PointerToSymbolTable;\n    ULONG   NumberOfSymbols;\n    USHORT  SizeOfOptionalHeader;\n    USHORT  Characteristics;\n} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;\n\n#define IMAGE_SIZEOF_FILE_HEADER             20",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938410,
         "id": "aea665e6-472d-4c69-a894-5f9beeecfe69",
@@ -1103,10 +1153,12 @@
           {
             "Text": " field. It turns out that you need to know how many sections–more specifically, how many section headers and section bodies–are in the file in order to extract the information easily. Each section header and section body is laid out sequentially in the file, so the number of sections is necessary to determine where the section headers and bodies end. The following function extracts the number of sections from the PE file header:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938410,
         "id": "ab3d653f-c514-4684-92ae-69822fd07e12",
@@ -1130,10 +1182,12 @@
         "type": "code",
         "version": 1,
         "code": "int   WINAPI NumOfSections (\n    LPVOID    lpFile)\n{\n    /* Number of sections is indicated in file header. */\n    return (int)((PIMAGE_FILE_HEADER)\n                  PEFHDROFFSET (lpFile))-\u003eNumberOfSections);\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938410,
         "id": "f974dec3-a8cd-4260-a6c8-521b58b36c68",
@@ -1173,10 +1227,12 @@
           {
             "Text": " and the other macros are pretty handy to have around."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938410,
         "id": "5c7c6d2f-2f81-4df5-8ac1-42196c5d2e2e",
@@ -1198,10 +1254,12 @@
           {
             "Text": "PE Optional Header"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938411,
         "id": "8f57f678-72f9-41fc-8f15-1fee58141bd8",
@@ -1241,10 +1299,12 @@
           {
             "Text": " macro:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938411,
         "id": "767c583c-5f7a-4788-976d-d9e0dded00b1",
@@ -1268,10 +1328,12 @@
         "type": "code",
         "version": 1,
         "code": "#define OPTHDROFFSET(a) ((LPVOID)((BYTE *)a                 + \\\n    ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew + SIZE_OF_NT_SIGNATURE + \\\n    sizeof (IMAGE_FILE_HEADER)))",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938411,
         "id": "37cd6c22-7875-493c-9300-e4cbc117b6ec",
@@ -1323,10 +1385,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938411,
         "id": "fb4d8126-ab19-4411-9c2e-8925050a610e",
@@ -1350,10 +1414,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_OPTIONAL_HEADER {\n    //\n    // Standard fields.\n    //\n    USHORT  Magic;\n    UCHAR   MajorLinkerVersion;\n    UCHAR   MinorLinkerVersion;\n    ULONG   SizeOfCode;\n    ULONG   SizeOfInitializedData;\n    ULONG   SizeOfUninitializedData;\n    ULONG   AddressOfEntryPoint;\n    ULONG   BaseOfCode;\n    ULONG   BaseOfData;\n    //\n    // NT additional fields.\n    //\n    ULONG   ImageBase;\n    ULONG   SectionAlignment;\n    ULONG   FileAlignment;\n    USHORT  MajorOperatingSystemVersion;\n    USHORT  MinorOperatingSystemVersion;\n    USHORT  MajorImageVersion;\n    USHORT  MinorImageVersion;\n    USHORT  MajorSubsystemVersion;\n    USHORT  MinorSubsystemVersion;\n    ULONG   Reserved1;\n    ULONG   SizeOfImage;\n    ULONG   SizeOfHeaders;\n    ULONG   CheckSum;\n    USHORT  Subsystem;\n    USHORT  DllCharacteristics;\n    ULONG   SizeOfStackReserve;\n    ULONG   SizeOfStackCommit;\n    ULONG   SizeOfHeapReserve;\n    ULONG   SizeOfHeapCommit;\n    ULONG   LoaderFlags;\n    ULONG   NumberOfRvaAndSizes;\n    IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];\n} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938412,
         "id": "9725ccc7-acbe-45c6-9882-afead65135e2",
@@ -1375,10 +1441,12 @@
           {
             "Text": "As you can see, the list of fields in this structure is rather lengthy. Rather than bore you with descriptions of all of these fields, I’ll simply discuss the useful ones–that is, useful in the context of exploring the PE file format."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938412,
         "id": "7b7300fc-cc85-429e-a6fa-4335a3c42d2c",
@@ -1400,10 +1468,12 @@
           {
             "Text": "Standard Fields"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938412,
         "id": "37425840-3c95-4310-bb86-541dddcec88a",
@@ -1425,10 +1495,12 @@
           {
             "Text": "First, note that the structure is divided into “Standard fields” and “NT additional fields.” The standard fields are those common to the Common Object File Format (COFF), which most UNIX executable files use. Though the standard fields retain the names defined in COFF, Windows NT actually uses some of them for different purposes that would be better described with other names."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938413,
         "id": "2a28bd1f-4cee-487f-9821-a88f2b196cc3",
@@ -1462,10 +1534,12 @@
           {
             "Text": ". I was unable to track down what this field is used for."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938414,
         "id": "f6cabb8d-e406-4b70-8021-db6395942db8",
@@ -1517,10 +1591,12 @@
           {
             "Text": ". Indicates version of the linker that linked this image."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938414,
         "id": "94d88750-45de-40d4-9fb2-f7659bee4951",
@@ -1554,10 +1630,12 @@
           {
             "Text": ". Size of executable code."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938415,
         "id": "81cae7d8-9fb4-457e-bf13-f3f0c95d8901",
@@ -1591,10 +1669,12 @@
           {
             "Text": ". Size of initialized data."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938415,
         "id": "a07ed5ff-e9b6-4a2d-a32f-6b2c441c88b2",
@@ -1628,10 +1708,12 @@
           {
             "Text": ". Size of uninitialized data."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938416,
         "id": "8310de26-9916-4899-a02f-9229f02e47a1",
@@ -1683,10 +1765,12 @@
           {
             "Text": " field is the most interesting for the PE file format. This field indicates the location of the entry point for the application and, perhaps more importantly to system hackers, the location of the end of the Import Address Table (IAT). The following function demonstrates how to retrieve the entry point of a Windows NT executable image from the optional header."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938416,
         "id": "8730548a-9a83-4476-8599-1ac7d2d61886",
@@ -1710,10 +1794,12 @@
         "type": "code",
         "version": 1,
         "code": "LPVOID  WINAPI GetModuleEntryPoint (\n    LPVOID    lpFile)\n{\n    PIMAGE_OPTIONAL_HEADER   poh;\n\n    poh = (PIMAGE_OPTIONAL_HEADER)OPTHDROFFSET (lpFile);\n\n    if (poh != NULL)\n        return (LPVOID)poh-\u003eAddressOfEntryPoint;\n    else\n        return NULL;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938416,
         "id": "559b88e8-0e45-46d4-a46d-d9b83b0737ee",
@@ -1747,10 +1833,12 @@
           {
             "Text": ". Relative offset of code (“.text” section) in loaded image."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938416,
         "id": "8f4f2967-7037-490b-b739-e35ba4adfb61",
@@ -1784,10 +1872,12 @@
           {
             "Text": ". Relative offset of uninitialized data (“.bss” section) in loaded image."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938416,
         "id": "4fe77032-792d-4dc7-b3fc-506c1687465c",
@@ -1809,10 +1899,12 @@
           {
             "Text": "Windows NT Additional Fields"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938417,
         "id": "c26852ca-5658-4f9a-a414-8cc129414794",
@@ -1834,10 +1926,12 @@
           {
             "Text": "The additional fields added to the Windows NT PE file format provide loader support for much of the Windows NT-specific process behavior. Following is a summary of these fields."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938417,
         "id": "3422445e-7b32-4906-ba7a-414ffc09ddc2",
@@ -1889,10 +1983,12 @@
           {
             "Text": " switch."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938418,
         "id": "8a750732-8764-4bba-ac84-78f605b909ac",
@@ -2034,10 +2130,12 @@
           {
             "Text": " switch."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938419,
         "id": "002f0edc-e316-4722-a104-84c2a21e2d25",
@@ -2089,10 +2187,12 @@
           {
             "Text": " boundary in the file. This value is constrained to be a power of 2 between 512 and 65,535."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938419,
         "id": "0aeb092f-21a6-4167-84a4-c861a723f734",
@@ -2126,10 +2226,12 @@
           {
             "Text": ". Indicates the major version of the Windows NT operating system."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938420,
         "id": "6cc718e8-27f8-4baa-bf79-71ae746df9ea",
@@ -2163,10 +2265,12 @@
           {
             "Text": ". Indicates the minor version of the Windows NT operating system."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938420,
         "id": "b1b87bb3-8bd5-42b6-89c6-cdef6d822e4e",
@@ -2200,10 +2304,12 @@
           {
             "Text": ". Used to indicate the major version number of the application."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938420,
         "id": "2c4b59dc-6e5f-4ee9-834d-cb23807d7b38",
@@ -2237,10 +2343,12 @@
           {
             "Text": ". Used to indicate the minor version number of the application."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938421,
         "id": "5358f950-4ea2-4b35-b41d-45afc88e14ce",
@@ -2274,10 +2382,12 @@
           {
             "Text": ". Indicates the Windows NT Win32 subsystem major version number."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938421,
         "id": "f01421ea-50bb-4fe3-9c5d-712b76cfabd9",
@@ -2311,10 +2421,12 @@
           {
             "Text": ". Indicates the Windows NT Win32 subsystem minor version number."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938421,
         "id": "a307eae6-fd0b-42c3-950e-49dc2ed47df7",
@@ -2348,10 +2460,12 @@
           {
             "Text": ". Unknown purpose, currently not used by the system and set to zero by the linker."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938424,
         "id": "b5c61c57-a3f3-41b7-b61d-265b91ab2609",
@@ -2475,10 +2589,12 @@
           {
             "Text": " boundary. The total is then the sum of each section’s individual requirement."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938424,
         "id": "e3223ca4-e049-41b3-b1d9-ca904c71fb4d",
@@ -2512,10 +2628,12 @@
           {
             "Text": ". This field indicates how much space in the file is used for representing all the file headers, including the MS-DOS header, PE file header, PE optional header, and PE section headers. The section bodies begin at this location in the file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938424,
         "id": "875ebbf9-0d76-4f5e-8703-6603df878c18",
@@ -2549,10 +2667,12 @@
           {
             "Text": ". A checksum value is used to validate the executable file at load time. The value is set and verified by the linker. The algorithm used for creating these checksum values is proprietary information and will not be published."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938425,
         "id": "a03b662f-9248-4ec3-abf4-7037e2634079",
@@ -2604,10 +2724,12 @@
           {
             "Text": " structure."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938425,
         "id": "b0ddfc3f-1ee9-48a7-bfd3-1984b52528c3",
@@ -2641,10 +2763,12 @@
           {
             "Text": ". Flags used to indicate if a DLL image includes entry points for process and thread initialization and termination."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938426,
         "id": "244d3a6a-594d-4dcf-bc25-852b4d63f408",
@@ -2768,10 +2892,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938426,
         "id": "4f733808-840b-43ad-8451-df0dee012c95",
@@ -2805,10 +2931,12 @@
           {
             "Text": ". Tells the loader whether to break on load, debug on load, or the default, which is to let things run normally."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938427,
         "id": "4da12a54-38a6-48db-99db-42dff6d73ec0",
@@ -2860,10 +2988,12 @@
           {
             "Text": " array that follows. It is important to note that this field is used to identify the size of the array, not the number of valid entries in the array."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938427,
         "id": "b6633d65-8e57-4f5e-9fab-f292d942ba0d",
@@ -2915,10 +3045,12 @@
           {
             "Text": " structures that are located at the end of the optional header structure. The current PE file format defines 16 possible data directories, 11 of which are now being used."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938428,
         "id": "871b1b8b-1c37-41ff-af2f-e99aa8348693",
@@ -2940,10 +3072,12 @@
           {
             "Text": "Data Directories"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938428,
         "id": "9d0df0ea-fd97-44be-8cde-f7d584925a2e",
@@ -2977,10 +3111,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938428,
         "id": "80e61c4d-1a34-412a-9e70-530154235705",
@@ -3004,10 +3140,12 @@
         "type": "code",
         "version": 1,
         "code": "// Directory Entries\n\n// Export Directory\n#define IMAGE_DIRECTORY_ENTRY_EXPORT         0\n// Import Directory\n#define IMAGE_DIRECTORY_ENTRY_IMPORT         1\n// Resource Directory\n#define IMAGE_DIRECTORY_ENTRY_RESOURCE       2\n// Exception Directory\n#define IMAGE_DIRECTORY_ENTRY_EXCEPTION      3\n// Security Directory\n#define IMAGE_DIRECTORY_ENTRY_SECURITY       4\n// Base Relocation Table\n#define IMAGE_DIRECTORY_ENTRY_BASERELOC      5\n// Debug Directory\n#define IMAGE_DIRECTORY_ENTRY_DEBUG          6\n// Description String\n#define IMAGE_DIRECTORY_ENTRY_COPYRIGHT      7\n// Machine Value (MIPS GP)\n#define IMAGE_DIRECTORY_ENTRY_GLOBALPTR      8\n// TLS Directory\n#define IMAGE_DIRECTORY_ENTRY_TLS            9\n// Load Configuration Directory\n#define IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG    10",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938428,
         "id": "961ddacb-b8dd-43fe-88cc-e794a5fd324c",
@@ -3059,10 +3197,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938428,
         "id": "047bf3ad-855b-465e-91ef-acb6b094f156",
@@ -3086,10 +3226,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_DATA_DIRECTORY {\n    ULONG   VirtualAddress;\n    ULONG   Size;\n} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "11d3c228-bc01-4757-87b2-e8967b26b2a3",
@@ -3111,10 +3253,12 @@
           {
             "Text": "Each data directory entry specifies the size and relative virtual address of the directory. To locate a particular directory, you determine the relative address from the data directory array in the optional header. Then use the virtual address to determine which section the directory is in. Once you determine which section contains the directory, the section header for that section is then used to find the exact file offset location of the data directory. So to get a data directory, you first need to know about sections, which are described next. An example of how to locate data directories immediately follows this discussion."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "26a9e234-53d1-4140-be0a-bcfd9baae782",
@@ -3136,10 +3280,12 @@
           {
             "Text": "PE File Sections"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "190b7c4d-8228-4602-835a-dce7842b23fd",
@@ -3179,10 +3325,12 @@
           {
             "Text": ". Sections contain the content of the file, including code, data, resources, and other executable information. Each section has a header and a body (the raw data). Section headers are described below, but section bodies lack a rigid file structure. They can be organized in almost any way a linker wishes to organize them, as long as the header is filled with enough information to be able to decipher the data."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "df800f4d-e67b-41bd-984a-b8de6c6bbdb8",
@@ -3204,10 +3352,12 @@
           {
             "Text": "Section Headers"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "b8f46bd3-4e20-4723-99b6-0c53db94c896",
@@ -3241,10 +3391,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938429,
         "id": "ffa69c8b-f12d-4002-835e-3eac4fe5de7a",
@@ -3268,10 +3420,12 @@
         "type": "code",
         "version": 1,
         "code": "#define IMAGE_SIZEOF_SHORT_NAME              8\n\ntypedef struct _IMAGE_SECTION_HEADER {\n    UCHAR   Name[IMAGE_SIZEOF_SHORT_NAME];\n    union {\n            ULONG   PhysicalAddress;\n            ULONG   VirtualSize;\n    } Misc;\n    ULONG   VirtualAddress;\n    ULONG   SizeOfRawData;\n    ULONG   PointerToRawData;\n    ULONG   PointerToRelocations;\n    ULONG   PointerToLinenumbers;\n    USHORT  NumberOfRelocations;\n    USHORT  NumberOfLinenumbers;\n    ULONG   Characteristics;\n} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938430,
         "id": "763d2cfc-196a-492a-8094-c13f47b7f846",
@@ -3293,10 +3447,12 @@
           {
             "Text": "How do you go about getting section header information for a particular section? Since section headers are organized sequentially in no specific order, section headers must be located by name. The following function shows how to retrieve a section header from a PE image file given the name of the section:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938430,
         "id": "180a5fa3-6560-40ce-ae62-569d751dc529",
@@ -3320,10 +3476,12 @@
         "type": "code",
         "version": 1,
         "code": "BOOL    WINAPI GetSectionHdrByName (\n    LPVOID                   lpFile,\n    IMAGE_SECTION_HEADER     *sh,\n    char                     *szSection)\n{\n    PIMAGE_SECTION_HEADER    psh;\n    int                      nSections = NumOfSections (lpFile);\n    int                      i;\n\n\n    if ((psh = (PIMAGE_SECTION_HEADER)SECHDROFFSET (lpFile)) !=\n         NULL)\n        {\n        /* find the section by name */\n        for (i=0; i\u003cnSections; i++)\n            {\n            if (!strcmp (psh-\u003eName, szSection))\n                {\n                /* copy data to header */\n                CopyMemory ((LPVOID)sh,\n                            (LPVOID)psh,\n                            sizeof (IMAGE_SECTION_HEADER));\n                return TRUE;\n                }\n            else\n                psh++;\n            }\n        }\n\n    return FALSE;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938430,
         "id": "768a3e9e-805a-4ff6-bfed-3ccb8fc3b7ee",
@@ -3381,10 +3539,12 @@
           {
             "Text": " structure can then be accessed directly from the structure."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938430,
         "id": "b9e8bc84-5296-4bc1-aa4f-f9f1bd84bb6a",
@@ -3406,10 +3566,12 @@
           {
             "Text": "Section Header Fields"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938431,
         "id": "09ad2a20-61f2-4972-90c5-f4e1b81622bd",
@@ -3461,10 +3623,12 @@
           {
             "Text": " field up to eight characters long, for which the first character must be a period."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938431,
         "id": "e05c0c05-ecb4-489d-9227-a0e26680bf44",
@@ -3534,10 +3698,12 @@
           {
             "Text": ". The second field is a union field that is not currently used."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938432,
         "id": "aae320e6-d0a1-4e39-953c-ef9ecb4354f2",
@@ -3643,10 +3809,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938433,
         "id": "fc01b9b6-c0c1-4375-8979-06d7b97922af",
@@ -3734,10 +3902,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938433,
         "id": "e668209b-e298-40cb-9768-a2f0b7708666",
@@ -3771,10 +3941,12 @@
           {
             "Text": ". This is an offset to the location of the section body in the file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938435,
         "id": "fabc50a6-7f2e-46f4-a131-41aafe9b7489",
@@ -3862,10 +4034,12 @@
           {
             "Text": ". None of these fi elds are used in the PE file format."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938436,
         "id": "061b6ac3-7c0c-421c-8d22-ffd1421a2192",
@@ -3899,10 +4073,12 @@
           {
             "Text": ". Defines the section characteristics. These values are found both in WINNT.H and in the Portable Executable Format specification located on this CD."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938436,
         "id": "6604d525-8f4a-4eda-a0fb-16f98bfdb948",
@@ -4050,10 +4226,12 @@
           {
             "Text": "Writable section"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938438,
         "id": "f11db5aa-ce54-4aee-89bd-e69401a2883c",
@@ -4075,10 +4253,12 @@
           {
             "Text": "Locating Data Directories"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938438,
         "id": "8ea01b16-77cb-40a5-9b6e-f20d28252681",
@@ -4100,10 +4280,12 @@
           {
             "Text": "Data directories exist within the body of their corresponding data section. Typically, data directories are the first structure within the section body, but not out of necessity. For that reason, you need to retrieve information from both the section header and optional header to locate a specific data directory. To make this process easier, the following function was written to locate the data directory for any of the directories defined in WINNT.H:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938438,
         "id": "911413b2-ebbd-46e3-a75a-b9a1c0561370",
@@ -4127,10 +4309,12 @@
         "type": "code",
         "version": 1,
         "code": "LPVOID  WINAPI ImageDirectoryOffset (\n        LPVOID    lpFile,\n        DWORD     dwIMAGE_DIRECTORY)\n{\n    PIMAGE_OPTIONAL_HEADER   poh;\n    PIMAGE_SECTION_HEADER    psh;\n    int                      nSections = NumOfSections (lpFile);\n    int                      i = 0;\n    LPVOID                   VAImageDir;\n\n    /* Must be 0 thru (NumberOfRvaAndSizes-1). */\n    if (dwIMAGE_DIRECTORY \u003e= poh-\u003eNumberOfRvaAndSizes)\n        return NULL;\n\n    /* Retrieve offsets to optional and section headers. */\n    poh = (PIMAGE_OPTIONAL_HEADER)OPTHDROFFSET (lpFile);\n    psh = (PIMAGE_SECTION_HEADER)SECHDROFFSET (lpFile);\n\n    /* Locate image directory's relative virtual address. */\n    VAImageDir = (LPVOID)poh-\u003eDataDirectory\n                       [dwIMAGE_DIRECTORY].VirtualAddress;\n\n    /* Locate section containing image directory. */\n    while (i++\u003cnSections)\n        {\n        if (psh-\u003eVirtualAddress \u003c= (DWORD)VAImageDir \u0026\u0026\n            psh-\u003eVirtualAddress +\n                 psh-\u003eSizeOfRawData \u003e (DWORD)VAImageDir)\n            break;\n        psh++;\n        }\n\n    if (i \u003e nSections)\n        return NULL;\n\n    /* Return image import directory offset. */\n    return (LPVOID)(((int)lpFile +\n                     (int)VAImageDir. psh-\u003eVirtualAddress) +\n                    (int)psh-\u003ePointerToRawData);\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938438,
         "id": "e025a574-bade-4e9d-a8d0-287ffccb0017",
@@ -4152,10 +4336,12 @@
           {
             "Text": "The function begins by validating the requested data directory entry number. Then it retrieves pointers to the optional header and first section header. From the optional header, the function determines the data directory’s virtual address, and it uses this value to determine within which section body the data directory is located. Once the appropriate section body has been identified, the specific location of the data directory is found by translating the relative virtual address of the data directory to a specific address into the file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938439,
         "id": "a475f23c-5ce0-4f59-bae9-bc69537d19a7",
@@ -4177,10 +4363,12 @@
           {
             "Text": "Predefined Sections"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938440,
         "id": "cd8a7336-5bcf-4544-9115-312b05f19982",
@@ -4220,10 +4408,12 @@
           {
             "Text": "–exactly the same way in which applications defined unique code and data segments in Windows version 3.1. The following is a discussion of some of the more interesting sections common to typical Windows NT PE files."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938440,
         "id": "abdbe564-8ed9-4069-a75c-865c98f2b3ff",
@@ -4245,10 +4435,12 @@
           {
             "Text": "Executable code section, .text"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938440,
         "id": "0c14091c-a6ed-4540-8e84-ff27b8844a2e",
@@ -4270,10 +4462,12 @@
           {
             "Text": "One difference between Windows version 3.1 and Windows NT is that the default behavior combines all code segments (as they are referred to in Windows version 3.1) into a single section called “.text” in Windows NT. Since Windows NT uses a page-based virtual memory management system, there is no advantage to separating code into distinct code segments. Consequently, having one large code section is easier to manage for both the operating system and the application developer. The .text section also contains the entry point mentioned earlier. The IAT also lives in the .text section immediately before the module entry point. (The IAT’s presence in the .text section makes sense because the table is really a series of jump instructions, for which the specific location to jump to is the fixed-up address.) When Windows NT executable images are loaded into a process’s address space, the IAT is fixed up with the location of each imported function’s physical address. In order to find the IAT in the .text section, the loader simply locates the module entry point and relies on the fact that the IAT occurs immediately before the entry point. And since each entry is the same size, it is easy to walk backward in the table to find its beginning."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938440,
         "id": "c0bb88f8-acd1-4803-9b69-2b88ab90e0e7",
@@ -4295,10 +4489,12 @@
           {
             "Text": "Data sections, .bss, .rdata, .data"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938441,
         "id": "9fcfc93e-1dae-4f07-8263-0c62b7b9c74c",
@@ -4320,10 +4516,12 @@
           {
             "Text": "The .bss section represents uninitialized data for the application, including all variables declared as static within a function or source module. The .rdata section represents read-only data, such as literal strings, constants, and debug directory information. All other variables (except automatic variables, which appear on the stack) are stored in the .data section. Basically, these are application or module global variables."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938441,
         "id": "11b06fb6-9642-4e68-ada1-fa0360e53d95",
@@ -4345,10 +4543,12 @@
           {
             "Text": "Resources section, .rsrc"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938441,
         "id": "485e3a97-f021-4b9b-bd1b-a3c5a4b59f8e",
@@ -4400,10 +4600,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938441,
         "id": "5c3dc8e1-881c-4905-8213-6e93bc52f139",
@@ -4427,10 +4629,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_RESOURCE_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    USHORT  NumberOfNamedEntries;\n    USHORT  NumberOfIdEntries;\n} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938442,
         "id": "1af25c0c-a60f-4982-9bf2-1b6377ea7e8f",
@@ -4536,10 +4740,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938442,
         "id": "303e5758-e30b-4c91-a5f5-0f5b9c0ee7b9",
@@ -4563,10 +4769,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_RESOURCE_DIRECTORY_ENTRY {\n    ULONG   Name;\n    ULONG   OffsetToData;\n} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938442,
         "id": "029f189b-bf32-4ce7-82a4-ed9ac1503dec",
@@ -4654,10 +4862,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938442,
         "id": "b9a5164c-f689-4de1-bc3a-c31168cef26e",
@@ -4681,10 +4891,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_RESOURCE_DATA_ENTRY {\n    ULONG   OffsetToData;\n    ULONG   Size;\n    ULONG   CodePage;\n    ULONG   Reserved;\n} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938443,
         "id": "3b4ca90c-eceb-4f56-afe5-e5d7b094128b",
@@ -4790,10 +5002,12 @@
             "Text": "WINUSER.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938443,
         "id": "ff0a358b-0f5f-4a8d-84cc-6d5133ae1391",
@@ -4817,10 +5031,12 @@
         "type": "code",
         "version": 1,
         "code": "/*\n * Predefined Resource Types\n */\n#define RT_CURSOR           MAKEINTRESOURCE(1)\n#define RT_BITMAP           MAKEINTRESOURCE(2)\n#define RT_ICON             MAKEINTRESOURCE(3)\n#define RT_MENU             MAKEINTRESOURCE(4)\n#define RT_DIALOG           MAKEINTRESOURCE(5)\n#define RT_STRING           MAKEINTRESOURCE(6)\n#define RT_FONTDIR          MAKEINTRESOURCE(7)\n#define RT_FONT             MAKEINTRESOURCE(8)\n#define RT_ACCELERATOR      MAKEINTRESOURCE(9)\n#define RT_RCDATA           MAKEINTRESOURCE(10)\n#define RT_MESSAGETABLE     MAKEINTRESOURCE(11)",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938443,
         "id": "cbdec4d0-bcf5-4194-8e60-db3cc7b6db26",
@@ -4926,10 +5142,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938443,
         "id": "0ffc42d9-811b-446b-b5ea-82e0b45a6793",
@@ -4953,10 +5171,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_RESOURCE_DIR_STRING_U {\n    USHORT  Length;\n    WCHAR   NameString[ 1 ];\n} IMAGE_RESOURCE_DIR_STRING_U, *PIMAGE_RESOURCE_DIR_STRING_U;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938444,
         "id": "3beb8b30-dd1e-4e52-866c-d5454a26de61",
@@ -5122,10 +5342,12 @@
           {
             "Text": " structure mentioned earlier. Referring back to Figure 2, you can see one data entry node for each language directory entry. This node simply indicates the size of the resource data and the relative virtual address where the resource data is located. One advantage to having so much structure to the resource data section, .rsrc, is that you can glean a great deal of information from the section without accessing the resources themselves. For example, you can find out how many there are of each type of resource, what resources–if any–use a particular language ID, whether a particular resource exists or not, and the size of individual types of resources. To demonstrate how to make use of this information, the following function shows how to determine the different types of resources a file includes:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938444,
         "id": "0b499391-2bd2-4f9a-a2cd-342c6a006b4b",
@@ -5149,10 +5371,12 @@
         "type": "code",
         "version": 1,
         "code": "int     WINAPI GetListOfResourceTypes (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszResTypes)\n{\n    PIMAGE_RESOURCE_DIRECTORY          prdRoot;\n    PIMAGE_RESOURCE_DIRECTORY_ENTRY    prde;\n    char                               *pMem;\n    int                                nCnt, i;\n\n\n    /* Get root directory of resource tree. */\n    if ((prdRoot = PIMAGE_RESOURCE_DIRECTORY)ImageDirectoryOffset\n           (lpFile, IMAGE_DIRECTORY_ENTRY_RESOURCE)) == NULL)\n        return 0;\n\n    /* Allocate enough space from heap to cover all types. */\n    nCnt = prdRoot-\u003eNumberOfIdEntries * (MAXRESOURCENAME + 1);\n    *pszResTypes = (char *)HeapAlloc (hHeap,\n                                      HEAP_ZERO_MEMORY,\n                                      nCnt);\n    if ((pMem = *pszResTypes) == NULL)\n        return 0;\n\n    /* Set pointer to first resource type entry. */\n    prde = (PIMAGE_RESOURCE_DIRECTORY_ENTRY)((DWORD)prdRoot +\n               sizeof (IMAGE_RESOURCE_DIRECTORY));\n\n    /* Loop through all resource directory entry types. */\n    for (i=0; i\u003cprdRoot-\u003eNumberOfIdEntries; i++)\n        {\n        if (LoadString (hDll, prde-\u003eName, pMem, MAXRESOURCENAME))\n            pMem += strlen (pMem) + 1;\n\n        prde++;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938444,
         "id": "8332a297-3fb6-4e65-997f-eb475ee5c5aa",
@@ -5228,10 +5452,12 @@
           {
             "Text": " field of each resource type directory entry as the string ID.of resource type strings whose IDs are defined the same as the type specifiers in the directory entries.It would be rather easy to expand on these functions or write new functions that extracted other information from this section."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938445,
         "id": "48df2dc0-5c18-4af2-9d63-fa57e985eb6d",
@@ -5253,10 +5479,12 @@
           {
             "Text": "Export data section, .edata"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938445,
         "id": "78d7062b-6676-4c4c-b7af-1e9e0659204a",
@@ -5290,10 +5518,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938445,
         "id": "bab5ffc8-28d5-4e1b-8edf-58056b730a7e",
@@ -5317,10 +5547,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_EXPORT_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    ULONG   Name;\n    ULONG   Base;\n    ULONG   NumberOfFunctions;\n    ULONG   NumberOfNames;\n    PULONG  *AddressOfFunctions;\n    PULONG  *AddressOfNames;\n    PUSHORT *AddressOfNameOrdinals;\n} IMAGE_EXPORT_DIRECTORY, *PIMAGE_EXPORT_DIRECTORY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938445,
         "id": "00375ce4-bfd6-4e87-a615-ac825b05681e",
@@ -5504,10 +5736,12 @@
           {
             "Text": ") to the result, and then using this value as an offset into the image file. The following example illustrates this technique:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938446,
         "id": "a8bcdcaf-fd7a-4e48-b8e3-4fc2dc1cda2a",
@@ -5531,10 +5765,12 @@
         "type": "code",
         "version": 1,
         "code": "int  WINAPI GetExportFunctionNames (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszFunctions)\n{\n    IMAGE_SECTION_HEADER       sh;\n    PIMAGE_EXPORT_DIRECTORY    ped;\n    char                       *pNames, *pCnt;\n    int                        i, nCnt;\n\n    /* Get section header and pointer to data directory\n       for .edata section. */\n    if ((ped = (PIMAGE_EXPORT_DIRECTORY)ImageDirectoryOffset\n            (lpFile, IMAGE_DIRECTORY_ENTRY_EXPORT)) == NULL)\n        return 0;\n    GetSectionHdrByName (lpFile, \u0026sh, \".edata\");\n\n    /* Determine the offset of the export function names. */\n    pNames = (char *)(*(int *)((int)ped-\u003eAddressOfNames -\n                               (int)sh.VirtualAddress   +\n                               (int)sh.PointerToRawData +\n                               (int)lpFile)    -\n                      (int)sh.VirtualAddress   +\n                      (int)sh.PointerToRawData +\n                      (int)lpFile);\n\n    /* Figure out how much memory to allocate for all strings. */\n    pCnt = pNames;\n    for (i=0; i\u003c(int)ped-\u003eNumberOfNames; i++)\n        while (*pCnt++);\n    nCnt = (int)(pCnt. pNames);\n\n    /* Allocate memory off heap for function names. */\n    *pszFunctions = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nCnt);\n\n    /* Copy all strings to buffer. */\n    CopyMemory ((LPVOID)*pszFunctions, (LPVOID)pNames, nCnt);\n\n    return nCnt;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938446,
         "id": "658e4471-475d-4733-bf32-c40121fb036d",
@@ -5574,10 +5810,12 @@
           {
             "Text": " is assigned by determining first the address of the offset and then the actual offset location. Both the address of the offset and the offset itself are relative virtual addresses and must be translated before being used, as the function demonstrates. You could write a similar function to determine the ordinal values or entry points of the functions."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938447,
         "id": "35cb884e-b04b-473e-a777-36739d8937cf",
@@ -5599,10 +5837,12 @@
           {
             "Text": "Import data section, .idata"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938447,
         "id": "e275402e-12dc-4530-8843-c698dbdccaa6",
@@ -5642,10 +5882,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938448,
         "id": "bc7b7d16-73e6-4f1c-b546-a31dfb96de8e",
@@ -5669,10 +5911,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct tagImportDirectory\n    {\n    DWORD    dwRVAFunctionNameList;\n    DWORD    dwUseless1;\n    DWORD    dwUseless2;\n    DWORD    dwRVAModuleName;\n    DWORD    dwRVAFunctionAddressList;\n    }IMAGE_IMPORT_MODULE_DIRECTORY,\n     * PIMAGE_IMPORT_MODULE_DIRECTORY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938448,
         "id": "07929c62-2a4f-46d8-b1f5-d0873f77251d",
@@ -5748,10 +5992,12 @@
           {
             "Text": " parameters in the structure that serve as padding to keep the structure aligned properly within the section. The PE file format specification mentions something about import flags, a time/date stamp, and major/minor versions, but these two fields remained empty throughout my experimentation, so I still consider them useless. Based on the definition of this structure, you can retrieve the names of modules and all functions in each module that are imported by an executable file. The following function demonstrates how to retrieve all the module names imported by a particular PE file:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938448,
         "id": "9f73fa23-7096-4c21-a483-84303dc57b9b",
@@ -5775,10 +6021,12 @@
         "type": "code",
         "version": 1,
         "code": "int  WINAPI GetImportModuleNames (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszModules)\n{\n    PIMAGE_IMPORT_MODULE_DIRECTORY  pid;\n    IMAGE_SECTION_HEADER            idsh;\n    BYTE                            *pData;\n    int                             nCnt = 0, nSize = 0, i;\n    char                            *pModule[1024];\n    char                            *psz;\n\n    pid = (PIMAGE_IMPORT_MODULE_DIRECTORY)ImageDirectoryOffset\n             (lpFile, IMAGE_DIRECTORY_ENTRY_IMPORT);\n    pData = (BYTE *)pid;\n\n    /* Locate section header for \".idata\" section. */\n    if (!GetSectionHdrByName (lpFile, \u0026idsh, \".idata\"))\n        return 0;\n\n    /* Extract all import modules. */\n    while (pid-\u003edwRVAModuleName)\n        {\n        /* Allocate buffer for absolute string offsets. */\n        pModule[nCnt] = (char *)(pData +\n               (pid-\u003edwRVAModuleName-idsh.VirtualAddress));\n        nSize += strlen (pModule[nCnt]) + 1;\n\n        /* Increment to the next import directory entry. */\n        pid++;\n        nCnt++;\n        }\n\n    /* Copy all strings to one chunk of heap memory. */\n    *pszModules = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nSize);\n    psz = *pszModules;\n    for (i=0; i\u003cnCnt; i++)\n        {\n        strcpy (psz, pModule[i]);\n        psz += strlen (psz) + 1;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938448,
         "id": "1beaf7a6-f7f3-4878-a5fc-5e0fd69ee7bc",
@@ -5872,10 +6120,12 @@
           {
             "Text": ", is a relative virtual address to a list of relative virtual addresses that each point to the function names within the file. As shown in the following data, the module and function names of all imported modules are listed in the .idata section data:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938448,
         "id": "a5d8aea0-fc47-4b1a-bf06-3cbf9c9fce76",
@@ -5899,10 +6149,12 @@
         "type": "code",
         "version": 1,
         "code": "E6A7 0000 F6A7 0000  08A8 0000 1AA8 0000  ................\n28A8 0000 3CA8 0000  4CA8 0000 0000 0000  (...\u003c...L.......\n0000 4765 744F 7065  6E46 696C 654E 616D  ..GetOpenFileNam\n6541 0000 636F 6D64  6C67 3332 2E64 6C6C  eA..comdlg32.dll\n0000 2500 4372 6561  7465 466F 6E74 496E  ..%.CreateFontIn\n6469 7265 6374 4100  4744 4933 322E 646C  directA.GDI32.dl\n6C00 A000 4765 7444  6576 6963 6543 6170  l...GetDeviceCap\n7300 C600 4765 7453  746F 636B 4F62 6A65  s...GetStockObje\n6374 0000 D500 4765  7454 6578 744D 6574  ct....GetTextMet\n7269 6373 4100 1001  5365 6C65 6374 4F62  ricsA...SelectOb\n6A65 6374 0000 1601  5365 7442 6B43 6F6C  ject....SetBkCol\n6F72 0000 3501 5365  7454 6578 7443 6F6C  or..5.SetTextCol\n6F72 0000 4501 5465  7874 4F75 7441 0000  or..E.TextOutA..",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938449,
         "id": "5514cf2c-3efb-41a8-8e76-2d868d9c9629",
@@ -6014,10 +6266,12 @@
           {
             "Text": ", and so forth. This pattern repeats throughout the .idata section. The first module name is COMDLG32.DLL and the second is GDI32.DLL. Notice that only one function is imported from the first module, while many functions are imported from the second module. In both cases, the function names and the module name to which they belong are ordered such that a function name appears first, followed by the module name and then by the rest of the function names, if any. The following function demonstrates how to retrieve the function names for a specific module:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938449,
         "id": "1a854632-e9bf-4017-b075-d17c835c4557",
@@ -6041,10 +6295,12 @@
         "type": "code",
         "version": 1,
         "code": "int  WINAPI GetImportFunctionNamesByModule (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      *pszModule,\n    char      **pszFunctions)\n{\n    PIMAGE_IMPORT_MODULE_DIRECTORY  pid;\n    IMAGE_SECTION_HEADER     idsh;\n    DWORD                    dwBase;\n    int                      nCnt = 0, nSize = 0;\n    DWORD                    dwFunction;\n    char                     *psz;\n\n\n    /* Locate section header for \".idata\" section. */\n    if (!GetSectionHdrByName (lpFile, \u0026idsh, \".idata\"))\n        return 0;\n\n    pid = (PIMAGE_IMPORT_MODULE_DIRECTORY)ImageDirectoryOffset\n             (lpFile, IMAGE_DIRECTORY_ENTRY_IMPORT);\n\n    dwBase = ((DWORD)pid. idsh.VirtualAddress);\n\n    /* Find module's pid. */\n    while (pid-\u003edwRVAModuleName \u0026\u0026\n           strcmp (pszModule,\n                  (char *)(pid-\u003edwRVAModuleName+dwBase)))\n        pid++;\n\n    /* Exit if the module is not found. */\n    if (!pid-\u003edwRVAModuleName)\n        return 0;\n\n    /* Count number of function names and length of strings. */\n    dwFunction = pid-\u003edwRVAFunctionNameList;\n    while (dwFunction                      \u0026\u0026\n           *(DWORD *)(dwFunction + dwBase) \u0026\u0026\n           *(char *)((*(DWORD *)(dwFunction + dwBase)) +\n            dwBase+2))\n        {\n        nSize += strlen ((char *)((*(DWORD *)(dwFunction +\n             dwBase)) + dwBase+2)) + 1;\n        dwFunction += 4;\n        nCnt++;\n        }\n\n    /* Allocate memory off heap for function names. */\n    *pszFunctions = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nSize);\n    psz = *pszFunctions;\n\n    /* Copy function names to memory pointer. */\n    dwFunction = pid-\u003edwRVAFunctionNameList;\n    while (dwFunction                      \u0026\u0026\n           *(DWORD *)(dwFunction + dwBase) \u0026\u0026\n           *((char *)((*(DWORD *)(dwFunction + dwBase)) +\n            dwBase+2)))\n        {\n        strcpy (psz, (char *)((*(DWORD *)(dwFunction + dwBase)) +\n                dwBase+2));\n        psz += strlen((char *)((*(DWORD *)(dwFunction + dwBase))+\n                dwBase+2)) + 1;\n        dwFunction += 4;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938449,
         "id": "9f9b7a58-6d15-4d05-b8d1-5c8c2a822765",
@@ -6102,10 +6358,12 @@
           {
             "Text": ", is a relative virtual address to a list of virtual addresses that will be placed in the section data by the loader when the file is loaded. Before the file is loaded, however, these virtual addresses are replaced by relative virtual addresses that correspond exactly to the list of function names. So before the file is loaded, there are two identical lists of relative virtual addresses pointing to imported function names."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938449,
         "id": "ebcd215b-2d00-4487-b124-17add1e085b9",
@@ -6127,10 +6385,12 @@
           {
             "Text": "Debug information section, .debug"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938449,
         "id": "766d4fcf-3481-476e-9f11-981365cbc282",
@@ -6182,10 +6442,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938450,
         "id": "eb426ca0-e7a8-457c-b655-6dc9bdda64e1",
@@ -6209,10 +6471,12 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct _IMAGE_DEBUG_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    ULONG   Type;\n    ULONG   SizeOfData;\n    ULONG   AddressOfRawData;\n    ULONG   PointerToRawData;\n} IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY;",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938450,
         "id": "f7be3258-0896-4962-b936-8bd65e1ae044",
@@ -6246,10 +6510,12 @@
             "Text": "WINNT.H",
             "AttrFlags": 1
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938450,
         "id": "c84e3f15-9a6b-495c-ba1d-2c4e1038ac86",
@@ -6273,10 +6539,12 @@
         "type": "code",
         "version": 1,
         "code": "#define IMAGE_DEBUG_TYPE_UNKNOWN          0\n#define IMAGE_DEBUG_TYPE_COFF             1\n#define IMAGE_DEBUG_TYPE_CODEVIEW         2\n#define IMAGE_DEBUG_TYPE_FPO              3\n#define IMAGE_DEBUG_TYPE_MISC             4",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938450,
         "id": "9c55466e-2488-425a-8233-c28e5c3ceda5",
@@ -6406,10 +6674,12 @@
           {
             "Text": " structure:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938450,
         "id": "b8a34aa7-789e-461c-93f2-f7e789706a9d",
@@ -6433,10 +6703,12 @@
         "type": "code",
         "version": 1,
         "code": "int    WINAPI RetrieveModuleName (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszModule)\n{\n\n    PIMAGE_DEBUG_DIRECTORY    pdd;\n    PIMAGE_DEBUG_MISC         pdm = NULL;\n    int                       nCnt;\n\n    if (!(pdd = (PIMAGE_DEBUG_DIRECTORY)ImageDirectoryOffset\n               (lpFile, IMAGE_DIRECTORY_ENTRY_DEBUG)))\n        return 0;\n\n    while (pdd-\u003eSizeOfData)\n        {\n        if (pdd-\u003eType == IMAGE_DEBUG_TYPE_MISC)\n            {\n            pdm = (PIMAGE_DEBUG_MISC)\n                ((DWORD)pdd-\u003ePointerToRawData + (DWORD)lpFile);\n\n            nCnt = lstrlen (pdm-\u003eData)*(pdm-\u003eUnicode?2:1);\n            *pszModule = (char *)HeapAlloc (hHeap,\n                                            HEAP_ZERO_MEMORY,\n                                            nCnt+1;\n            CopyMemory (*pszModule, pdm-\u003eData, nCnt);\n\n            break;\n            }\n\n        pdd ++;\n        }\n\n    if (pdm != NULL)\n        return nCnt;\n    else\n        return 0;\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938451,
         "id": "670db396-dacf-4493-83de-7ef2b9272272",
@@ -6494,10 +6766,12 @@
           {
             "Text": " function. As mentioned above, debug information can be stripped into separate .DBG files. The Windows NT SDK includes a utility called REBASE.EXE that serves this purpose. For example, in the following statement an executable image named TEST.EXE is being stripped of debug information:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938451,
         "id": "1e9591ce-c73e-4d05-83f6-d240b8e6bcae",
@@ -6521,10 +6795,12 @@
         "type": "code",
         "version": 1,
         "code": "rebase -b 40000 -x c:\\samples\\testdir test.exe",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938451,
         "id": "ca8945e4-2a43-4a48-845a-e6331bbc530a",
@@ -6582,10 +6858,12 @@
           {
             "Text": " structures and their associated data. The debug information itself retains the same structure as described above for normal image file debug information."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530072938451,
         "id": "23882655-d9fe-43be-b2a6-c3859a840533",
@@ -6595,10 +6873,12 @@
         "parent_id": "0fca179d-ac6b-4c28-8cff-794d2fc2d781",
         "parent_table": "block",
         "type": "text",
-        "version": 11
+        "version": 11,
+        "CollectionViews": null
       }
     ],
     "title": "PE file format description",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -6622,6 +6902,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

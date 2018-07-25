@@ -11,6 +11,7 @@
       "4f6d7141-a1c8-461b-86c7-0b87cd732864",
       "e3ca3a8d-0065-467e-9599-d6df9d2c3912"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1502834506377,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502834541793,
         "id": "53d6c31f-8cf1-403b-b6cd-f8b427dfa0b2",
@@ -54,10 +56,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502834543674,
         "id": "3f8b1493-c259-4384-8746-58e1643032f9",
@@ -104,10 +108,12 @@
             "Text": "https://news.ycombinator.com/item?id=15017519",
             "Link": "https://news.ycombinator.com/item?id=15017519"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502835639935,
         "id": "637e76d1-e357-45aa-b7ad-3fe2fd65e3df",
@@ -135,10 +141,12 @@
             "Text": "https://golang.org/doc/asm",
             "Link": "https://golang.org/doc/asm"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093212976,
         "id": "e0a40f08-c474-4197-9a60-c44a614c8afb",
@@ -172,10 +180,12 @@
           {
             "Text": " - simple example"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093219391,
         "id": "5376089e-1770-4e86-9b91-c344ba48c15a",
@@ -203,10 +213,12 @@
             "Text": "http://blog.dbalan.in/blog/2015/03/29/notes-on-cgo-part-1",
             "Link": "http://blog.dbalan.in/blog/2015/03/29/notes-on-cgo-part-1"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093228311,
         "id": "4f6d7141-a1c8-461b-86c7-0b87cd732864",
@@ -215,10 +227,12 @@
         "parent_id": "56c7102b-120f-42a3-81ff-d4673507a0d3",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512363475193,
         "id": "e3ca3a8d-0065-467e-9599-d6df9d2c3912",
@@ -241,10 +255,12 @@
         "type": "code",
         "version": 10,
         "code": "\n==\u003e ./configure --prefix=/usr/local/Cellar/jpeg-turbo/1.3.1 --with-jpeg8 --mandir=/usr/local/Cellar/jpeg-turbo/1.3.1/share/man NASM=/usr/local/Cellar/nasm/2.11.05/bin/nasm\n==\u003e Caveats\nThis formula is keg-only, which means it was not symlinked into /usr/local.\n\nlibjpeg-turbo is not linked to prevent conflicts with the standard libjpeg.\n\n    LDFLAGS:  -L/usr/local/opt/jpeg-turbo/lib\n    CPPFLAGS: -I/usr/local/opt/jpeg-turbo/include\n    \n\nimage magick serializes libjpeg calls:\nhttp://www.imagemagick.org/discourse-server/viewtopic.php?f=2\u0026t=25495\n\nhttps://gowalker.org/github.com/jeremytorres/jpegextract#performance - this says that libjpeg-turbo is 8x faster than Go, libjpeg 3x faster\n\nhttp://dennisforbes.ca/index.php/2013/07/31/demonstrating-gos-easy-c-interop/\n\nCgo with pkg-config:\n/*\n#cgo pkg-config: vips\n#include \"vips.h\"\n*/\n\nCgo with explicit flags:\n// #cgo LDFLAGS: -L/usr/local/Cellar/jpeg-turbo/1.3.1/lib -ljpeg\n// #cgo CFLAGS: -I/usr/local/Cellar/jpeg-turbo/1.3.1/include\n\nCgo with different flags for different OSes:\n\n// #cgo linux LDFLAGS: -L/opt/irlibs/lib -ljpeg\n// #cgo linux CFLAGS: -I/opt/irlibs/include\n// #cgo darwin LDFLAGS: -L/usr/local/Cellar/jpeg-turbo/1.3.1/lib -ljpeg\n// #cgo darwin CFLAGS: -I/usr/local/Cellar/jpeg-turbo/1.3.1/include",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "cgo",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -268,6 +284,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

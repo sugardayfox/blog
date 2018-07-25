@@ -9,6 +9,7 @@
       "a25b046a-f9c3-4c4b-964d-a65da75c6356",
       "f3033e2e-2beb-49d0-89f6-ac90f261ceb8"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493534184542,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493534197407,
         "id": "7671d950-1eed-4c8b-af36-604156068112",
@@ -52,10 +54,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493534199014,
         "id": "c1a8f611-a455-4b48-91b3-85fb0d0130fd",
@@ -83,10 +87,12 @@
             "Text": "http://stackoverflow.com/questions/32178986/windows-10-equivalent-of-launchadvancedassociationui",
             "Link": "http://stackoverflow.com/questions/32178986/windows-10-equivalent-of-launchadvancedassociationui"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493534217717,
         "id": "1cc3608b-b3e2-4556-bbd9-168101f89b75",
@@ -114,10 +120,12 @@
             "Text": "https://msdn.microsoft.com/en-us/library/windows/desktop/hh127445(v=vs.85).aspx",
             "Link": "https://msdn.microsoft.com/en-us/library/windows/desktop/hh127445(v=vs.85).aspx"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493534209341,
         "id": "a25b046a-f9c3-4c4b-964d-a65da75c6356",
@@ -145,10 +153,12 @@
             "Text": "https://msdn.microsoft.com/en-us/library/windows/desktop/cc144148(v=vs.85).aspx#fa_optional_keys_attributes",
             "Link": "https://msdn.microsoft.com/en-us/library/windows/desktop/cc144148(v=vs.85).aspx#fa_optional_keys_attributes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493534229455,
         "id": "f3033e2e-2beb-49d0-89f6-ac90f261ceb8",
@@ -157,10 +167,12 @@
         "parent_id": "28d93112-37ac-4258-83d1-1770550a175e",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "associate a program with a file",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -184,6 +196,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

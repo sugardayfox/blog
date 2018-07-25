@@ -14,6 +14,8 @@
       "f3338f40-ac26-494f-a047-e19c221efee2",
       "5732ef96-5508-4f5f-b348-4f8955060897"
     ],
+    "copied_from": "076b4943-18b8-4585-ac40-f0d3a78f6025",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195849926,
     "format": {
@@ -37,6 +39,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "b2678dac-c087-4384-91d5-b468f60b0413",
@@ -57,10 +60,12 @@
           {
             "Text": "Id: 1954"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "02b841f8-03ce-4762-a928-a09b32fe6513",
@@ -81,10 +86,12 @@
           {
             "Text": "Tags: python"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "f9b02cbd-0713-473f-9aca-9aeadbb33067",
@@ -105,10 +112,12 @@
           {
             "Text": "Date: 2006-04-10T20:48:58-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624067603,
         "id": "413f6cf1-9199-459a-9aef-d339e780b577",
@@ -129,10 +138,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "7eeb7b6a-13f0-409b-8bc1-27bfaf2ca388",
@@ -141,10 +152,12 @@
         "parent_id": "f8aa7527-bd9a-42d6-aa33-399daa4bd612",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "213ed4c6-a064-4a96-9917-755208d4cc32",
@@ -165,10 +178,12 @@
           {
             "Text": "I needed to write a program to automatically cleanup some of ID3 information in my mp3 files. I also wanted to do it in Python, since of all languages that I know well, I’m most productive in python."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "b8beeabb-79c5-40bc-8277-825d0e50c08c",
@@ -208,10 +223,12 @@
           {
             "Text": " library."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "b0a25433-63f6-4051-927c-0743fa25eff9",
@@ -232,10 +249,12 @@
           {
             "Text": "It’s written in pure pyth0n, can both read and write ID3 tags as well as FLAC and Vorbis tags and has a nice API. It’s largely undocumented but you can figure things out by looking at its code and a sample program."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "f3338f40-ac26-494f-a047-e19c221efee2",
@@ -294,10 +313,12 @@
           {
             "Text": ", but it can only read and has just been abandoned."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195849926,
         "id": "5732ef96-5508-4f5f-b348-4f8955060897",
@@ -318,10 +339,12 @@
           {
             "Text": "According to Google mutagen isn’t a popular way to process id3 information in mp3 files, but it seems to be the best."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Python id3 library",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -345,6 +368,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

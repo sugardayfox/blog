@@ -6,6 +6,7 @@
       "db36dee6-082a-40d0-b9fc-d8d149a8ea82",
       "d2a21fbc-f6cc-4c1c-8342-9498790fd54c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1503174953019,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1503174962681,
         "id": "db36dee6-082a-40d0-b9fc-d8d149a8ea82",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1503174964550,
         "id": "d2a21fbc-f6cc-4c1c-8342-9498790fd54c",
@@ -80,10 +84,12 @@
             "Text": "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three",
             "Link": "https://about.sourcegraph.com/go/runtime-generated-typesafe-and-declarative-pick-any-three"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "reflection in go",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -107,6 +113,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

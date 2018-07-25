@@ -5,6 +5,7 @@
     "content": [
       "ca979f63-cd96-44c9-87f8-3ba74c26d2c3"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512369603578,
     "id": "1912e300-19b2-480f-acc4-47baae12b454",
@@ -24,6 +25,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512369627538,
         "id": "ca979f63-cd96-44c9-87f8-3ba74c26d2c3",
@@ -46,10 +48,12 @@
         "type": "code",
         "version": 0,
         "code": "A sane hexdump format:\n\nhexdump -n 32 -v -e '\"%010_ad  |\" 16/1 \"%_p\" \"|\\n\"' $file\nhexdump -C foo.txt",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
-    "title": "hexdump"
+    "title": "hexdump",
+    "CollectionViews": null
   },
   "Users": [
     {
@@ -65,6 +69,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

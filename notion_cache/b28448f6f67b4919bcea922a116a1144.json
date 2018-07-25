@@ -10,6 +10,7 @@
       "f95b56c4-56ac-4f3e-8de5-8875778e734c",
       "5be4bd72-5a6b-4143-b4b0-d37bd59845be"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512681763363,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681771176,
         "id": "16ba6ca6-4bef-481c-be5c-a2d419f32542",
@@ -54,10 +56,12 @@
           {
             "Text": "CR: 0x0d, 13, '\\r'"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681792318,
         "id": "4954e285-74b3-4cd1-9a13-9be7b4f3c716",
@@ -78,10 +82,12 @@
           {
             "Text": "LF: 0x0a, 10, '\\n'"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681807968,
         "id": "05742f29-ade5-4483-9c0a-27c3a11f92e9",
@@ -102,10 +108,12 @@
           {
             "Text": "Windows: CR LF (0x0d, 0x0a) (13 10)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681814544,
         "id": "97aff5ea-c1a6-40cc-90b4-51e6bc6ab9c9",
@@ -126,10 +134,12 @@
           {
             "Text": "Mac: CR (0x0d, 13)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681818968,
         "id": "f95b56c4-56ac-4f3e-8de5-8875778e734c",
@@ -150,10 +160,12 @@
           {
             "Text": "Unix: LF (0x0a, 10)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512681821960,
         "id": "5be4bd72-5a6b-4143-b4b0-d37bd59845be",
@@ -162,10 +174,12 @@
         "parent_id": "b28448f6-f67b-4919-bcea-922a116a1144",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "newlines, newline formats",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -189,6 +203,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

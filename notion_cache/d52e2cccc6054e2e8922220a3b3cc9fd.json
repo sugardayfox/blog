@@ -13,6 +13,7 @@
       "58af6d08-c60a-456a-b370-da8e6098c3fd",
       "a20ee926-0f31-4dae-a57c-d63b7699ebb1"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493754080930,
     "format": {
@@ -21,8 +22,8 @@
     },
     "id": "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529120469945,
-    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "last_edited_time": 1532497844053,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
     "parent_table": "block",
     "properties": {
       "title": [
@@ -32,10 +33,11 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 9,
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754084369,
         "id": "e2b59e01-4cbd-4cef-8cba-fa4a81e25432",
@@ -56,10 +58,12 @@
           {
             "Text": "A forum software that seems capable as discourse and maybe easier to self-host."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754114728,
         "id": "58d3fcf2-9026-4778-8c10-d43518b711aa",
@@ -80,10 +84,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754115953,
         "id": "426a2eec-8890-4cc9-99a7-cec274c7094d",
@@ -111,10 +117,12 @@
             "Text": "http://blog.doppioslash.com/how-to-deploy-nodebb-on-digital-ocean-with-docker/",
             "Link": "http://blog.doppioslash.com/how-to-deploy-nodebb-on-digital-ocean-with-docker/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754126147,
         "id": "25dcf67c-ca52-402d-96a7-5c0cc66ab9d5",
@@ -142,10 +150,12 @@
             "Text": "https://community.nodebb.org/topic/8201/nodebb-with-docker-full-chain-nginx-redis-mongodb/2",
             "Link": "https://community.nodebb.org/topic/8201/nodebb-with-docker-full-chain-nginx-redis-mongodb/2"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754132889,
         "id": "ab6bb8ed-a451-49e7-a159-d3274794391a",
@@ -173,10 +183,12 @@
             "Text": "https://github.com/qgp9/nodebb-docker-dev",
             "Link": "https://github.com/qgp9/nodebb-docker-dev"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754140092,
         "id": "c2df498d-a300-4533-ae40-a37ea032d1d7",
@@ -204,10 +216,12 @@
             "Text": "https://github.com/blezek/nodebb-docker",
             "Link": "https://github.com/blezek/nodebb-docker"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754153018,
         "id": "1e175264-e486-42ba-8ef1-dcd91282f8f2",
@@ -235,10 +249,12 @@
             "Text": "https://github.com/NodeBB/NodeBB",
             "Link": "https://github.com/NodeBB/NodeBB"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754189995,
         "id": "58af6d08-c60a-456a-b370-da8e6098c3fd",
@@ -266,10 +282,12 @@
             "Text": "https://nodebb.org/",
             "Link": "https://nodebb.org/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493754191434,
         "id": "a20ee926-0f31-4dae-a57c-d63b7699ebb1",
@@ -278,10 +296,12 @@
         "parent_id": "d52e2ccc-c605-4e2e-8922-220a3b3cc9fd",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "nodebb",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -305,6 +325,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

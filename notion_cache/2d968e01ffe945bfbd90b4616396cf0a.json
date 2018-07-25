@@ -10,6 +10,7 @@
       "30740c17-28d6-413c-b434-9479561bf22a",
       "fcee76c7-6b6f-4511-bbf1-b296bbee7719"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493937180823,
     "format": {
@@ -41,6 +42,7 @@
           "ef86557f-8248-4f8d-a5e2-7d1c89bcca83",
           "cfa681db-61ed-4369-86ff-daf3dfff9fbb"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509935393897,
         "id": "00076f06-7147-4205-b23d-16271790cde6",
@@ -60,6 +62,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509935464033,
             "id": "40381f6a-0083-4f57-a490-f7b8441640ae",
@@ -92,10 +95,12 @@
               {
                 "Text": "  is what describes cmake file"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509935440245,
             "id": "95a15304-f497-4273-a7dc-63d0eaa3c195",
@@ -164,10 +169,12 @@
               {
                 "Text": ") directory"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509935538984,
             "id": "a9e6cc20-08ea-46f9-961c-178522e9c703",
@@ -254,10 +261,12 @@
               {
                 "Text": " ,"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509936336653,
             "id": "1a453556-8f67-4f58-a17a-b8e494f73d19",
@@ -290,10 +299,12 @@
               {
                 "Text": "  : run trace, which shows all variables set (for debugging)"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509935653192,
             "id": "ef86557f-8248-4f8d-a5e2-7d1c89bcca83",
@@ -328,10 +339,12 @@
             "type": "code",
             "version": 0,
             "code": "# this is how to de-obfuscate build commands i.e. see what commands are being executed\n# ",
-            "code_language": "Shell"
+            "code_language": "Shell",
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509941400127,
             "id": "cfa681db-61ed-4369-86ff-daf3dfff9fbb",
@@ -406,14 +419,16 @@
               {
                 "Text": "  (or just the commends)"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Running cmake"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -426,6 +441,7 @@
           "8a776b44-12f0-4b1e-8731-d8e02a653eb3",
           "e26c76ae-f9d7-46b0-ae3f-c47787f70477"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1508990179695,
         "id": "6e49a22a-5e80-46d5-bf64-fe101f81824b",
@@ -448,6 +464,7 @@
             "content": [
               "ddad255c-d4e1-48f7-a39f-253056fd1fd6"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509937429256,
             "id": "d2619f34-9c57-4413-98a8-13f7040ad855",
@@ -467,6 +484,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509935863036,
                 "id": "ddad255c-d4e1-48f7-a39f-253056fd1fd6",
@@ -489,14 +507,16 @@
                 "type": "code",
                 "version": 0,
                 "code": "cmake_minimum_required (VERSION 3.8)\nproject (djvu)\nset(CMAKE_BUILD_TYPE Release)\ninclude_directories(\"libdjvu\")\nadd_executable(djvudump tools/djvudump.cpp)",
-                "code_language": "Plain Text"
+                "code_language": "Plain Text",
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "basic structure of CMakeLists.txt file"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -508,6 +528,7 @@
               "0eca7985-4798-43cf-a487-43d83cea82dd",
               "420ef4e4-18a9-4a0a-8e03-a75fc2671374"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509936526276,
             "id": "db1d60e0-f8d0-4e64-baef-c136c20a2555",
@@ -527,6 +548,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936532511,
                 "id": "3ecca2d2-3260-4b5c-87fe-4bfcefb4aceb",
@@ -566,10 +588,12 @@
                   {
                     "Text": " affect what happens. You can define your own variables (e.g. to define a list of files to compile)."
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936703799,
                 "id": "4a128735-eee6-4605-9ece-02eb76cac28c",
@@ -638,10 +662,12 @@
                   {
                     "Text": "."
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936770806,
                 "id": "f0160817-3580-478c-a94b-71955fdcc08a",
@@ -722,10 +748,12 @@
                     "Text": "*.cpp",
                     "AttrFlags": 2
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937761782,
                 "id": "e457b337-8282-4c8e-931b-eb7c11df372d",
@@ -758,10 +786,12 @@
                   {
                     "Text": "  refers to a variable."
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937671956,
                 "id": "0eca7985-4798-43cf-a487-43d83cea82dd",
@@ -800,10 +830,12 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937714799,
                 "id": "420ef4e4-18a9-4a0a-8e03-a75fc2671374",
@@ -812,20 +844,23 @@
                 "parent_id": "db1d60e0-f8d0-4e64-baef-c136c20a2555",
                 "parent_table": "block",
                 "type": "text",
-                "version": 0
+                "version": 0,
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "using variables"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
             "content": [
               "3ce416c2-bec9-4a55-85c6-f57052bf4733"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509937068217,
             "id": "e8b5b520-4cd4-4824-ae9f-bb7bbd0d5dc3",
@@ -845,6 +880,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937078993,
                 "id": "3ce416c2-bec9-4a55-85c6-f57052bf4733",
@@ -895,20 +931,23 @@
                   {
                     "Text": "directory to list of directories compiler will search for include files (.h etc.)."
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "C++ include directories"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
             "content": [
               "a31441fc-bac5-4b40-a864-db000a009970"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509937213509,
             "id": "cc51d9c2-ae14-4029-95f4-f8dea6155080",
@@ -928,6 +967,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937219662,
                 "id": "a31441fc-bac5-4b40-a864-db000a009970",
@@ -996,14 +1036,16 @@
                   {
                     "Text": " will build a static library."
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "building a library"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -1011,6 +1053,7 @@
               "13ac4085-ea63-44ac-9547-375eec34b907",
               "0fb709f1-8098-452c-b2c7-69c97fc7bcf0"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509936911702,
             "id": "33fb15ec-958c-4453-b162-66330ac68831",
@@ -1030,6 +1073,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936952433,
                 "id": "13ac4085-ea63-44ac-9547-375eec34b907",
@@ -1098,10 +1142,12 @@
                   {
                     "Text": " . Cmake figures out from .cpp extension that this is C++ binary and will use C++ rules to compile and link the executable."
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937300691,
                 "id": "0fb709f1-8098-452c-b2c7-69c97fc7bcf0",
@@ -1188,14 +1234,16 @@
                   {
                     "Text": " command)"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "building an executable"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -1205,6 +1253,7 @@
               "2cae3d39-fa5b-44f9-a503-52d0c998aeb7",
               "c2518bc5-263f-4925-8935-e5d65735bbc1"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509937904277,
             "id": "8a776b44-12f0-4b1e-8731-d8e02a653eb3",
@@ -1224,6 +1273,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937913181,
                 "id": "87b43234-53c6-4994-aca0-31d80222dcda",
@@ -1256,10 +1306,12 @@
                   {
                     "Text": "  "
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937951516,
                 "id": "5cf6a52b-ab35-4a8a-bddc-2360c3b223e7",
@@ -1292,10 +1344,12 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509937957979,
                 "id": "2cae3d39-fa5b-44f9-a503-52d0c998aeb7",
@@ -1328,10 +1382,12 @@
                   {
                     "Text": "  : only for a specific target (e.g. a specific library of executable)"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509938018266,
                 "id": "c2518bc5-263f-4925-8935-e5d65735bbc1",
@@ -1364,14 +1420,16 @@
                   {
                     "Text": "  : only for a specific file"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "setting C pre-processor defines"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -1380,6 +1438,7 @@
               "3a4d1d29-f383-4ad7-9c0b-32593371f238",
               "4500a202-01f1-427e-af85-6359140defcd"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509944832295,
             "id": "e26c76ae-f9d7-46b0-ae3f-c47787f70477",
@@ -1399,6 +1458,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509944856254,
                 "id": "7c324f16-7f18-48e1-9326-b875f4993df4",
@@ -1426,10 +1486,12 @@
                     "Text": "https://stackoverflow.com/questions/6594796/how-do-i-make-cmake-output-into-a-bin-dir",
                     "Link": "https://stackoverflow.com/questions/6594796/how-do-i-make-cmake-output-into-a-bin-dir"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509944840244,
                 "id": "3a4d1d29-f383-4ad7-9c0b-32593371f238",
@@ -1450,10 +1512,12 @@
                   {
                     "Text": "By default cmake creates libraries/executables in top-level directory. You can change it by setting those variables:"
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509944890964,
                 "id": "4500a202-01f1-427e-af85-6359140defcd",
@@ -1476,21 +1540,24 @@
                 "type": "code",
                 "version": 0,
                 "code": "set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)\nset(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)\nset(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)",
-                "code_language": "Javascript"
+                "code_language": "Javascript",
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "changing output directory"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Cmake basics"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -1499,6 +1566,7 @@
           "08417243-ca5c-4a01-a0eb-604b240214a5",
           "b1711d89-62ff-4ba8-8015-9c9dd7a1b982"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509936086624,
         "id": "cc9d4161-43a3-40dd-a9f9-3e46a0d934d1",
@@ -1518,6 +1586,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509949125608,
             "id": "a20c8af1-68f4-4dad-9cb1-d5f69a7acfb0",
@@ -1545,10 +1614,12 @@
                 "Text": "https://cmake.org/Wiki/CMake_Useful_Variables#Compilers_and_Tools",
                 "Link": "https://cmake.org/Wiki/CMake_Useful_Variables#Compilers_and_Tools"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509949128391,
             "id": "08417243-ca5c-4a01-a0eb-604b240214a5",
@@ -1576,7 +1647,8 @@
                 "Text": "https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html",
                 "Link": "https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
@@ -1584,6 +1656,7 @@
               "3d02c60c-1ea3-4d09-8b49-c71bd4afa638",
               "903f381c-1ce5-4bd9-9a82-485d0ccf464a"
             ],
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509936095666,
             "id": "b1711d89-62ff-4ba8-8015-9c9dd7a1b982",
@@ -1603,6 +1676,7 @@
             "content_resolved": [
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936104261,
                 "id": "3d02c60c-1ea3-4d09-8b49-c71bd4afa638",
@@ -1623,10 +1697,12 @@
                   {
                     "Text": "Only applies to single-configuration generators (e.g. make, ninja as opposed to e.g. msvc)."
                   }
-                ]
+                ],
+                "CollectionViews": null
               },
               {
                 "alive": true,
+                "collection_id": "",
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1509936246996,
                 "id": "903f381c-1ce5-4bd9-9a82-485d0ccf464a",
@@ -1647,21 +1723,24 @@
                   {
                     "Text": "Effect: e.g. if is Debug, CMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS"
                   }
-                ]
+                ],
+                "CollectionViews": null
               }
             ],
             "inline_content": [
               {
                 "Text": "CMAKE_BUILD_TYPE : empty, Debug, Release, RelWithDebInfo and MinSizeRel"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Important cmake variables"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -1687,6 +1766,7 @@
           "21a0d2ec-9110-4cbf-aefc-7baa2a55b535",
           "ec96ef18-5192-4c03-b94f-20ee152187d5"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493937182686,
         "id": "a5f977f4-d622-4717-ba55-90719374a423",
@@ -1706,6 +1786,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1527373253640,
             "id": "ec6550f0-5150-4ae6-b33b-1c68bd0cf752",
@@ -1733,10 +1814,12 @@
                 "Text": "https://codingnest.com/basic-cmake/#fnref6",
                 "Link": "https://codingnest.com/basic-cmake/#fnref6"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1527373256219,
             "id": "c83902de-10b6-433e-a979-08be521ef204",
@@ -1764,10 +1847,12 @@
                 "Text": "https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/",
                 "Link": "https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1527373275348,
             "id": "6b237d2e-df16-4743-89e3-6df72e726280",
@@ -1801,10 +1886,12 @@
               {
                 "Text": " : effective CMake"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1525383068009,
             "id": "c502e6f1-f160-4ae2-a1c3-ccb3b98f5af8",
@@ -1838,10 +1925,12 @@
               {
                 "Text": " : modern CMake template for C++ cross-platform apps"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493937185651,
             "id": "547bf60a-f7e1-43fc-af87-e4d860481d23",
@@ -1869,10 +1958,12 @@
                 "Text": "http://thetoeb.de/2016/08/30/modern-cmake-presentation/",
                 "Link": "http://thetoeb.de/2016/08/30/modern-cmake-presentation/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1509935822823,
             "id": "7839c9db-1c33-445a-bc87-5a0fa4ca6ab7",
@@ -1900,10 +1991,12 @@
                 "Text": "http://derekmolloy.ie/hello-world-introductions-to-cmake/",
                 "Link": "http://derekmolloy.ie/hello-world-introductions-to-cmake/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493937192404,
             "id": "c60ee913-592b-45b2-9741-11e17b4d7809",
@@ -1931,10 +2024,12 @@
                 "Text": "https://www.slideshare.net/DanielPfeifer1/cmake-48475415",
                 "Link": "https://www.slideshare.net/DanielPfeifer1/cmake-48475415"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1493937198812,
             "id": "2b1d5fca-e45c-4a96-b805-3ea0f1802f28",
@@ -1962,10 +2057,12 @@
                 "Text": "https://rix0r.nl/blog/2015/08/13/cmake-guide/",
                 "Link": "https://rix0r.nl/blog/2015/08/13/cmake-guide/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1494884215644,
             "id": "50f4a692-231a-46b5-9470-dcba56806759",
@@ -1993,10 +2090,12 @@
                 "Text": "http://preshing.com/20170511/how-to-build-a-cmake-based-project/",
                 "Link": "http://preshing.com/20170511/how-to-build-a-cmake-based-project/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1495486808890,
             "id": "9008d948-ea57-4d3c-ad22-ebb6b704eb98",
@@ -2024,10 +2123,12 @@
                 "Text": "http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/",
                 "Link": "http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496616770806,
             "id": "45f2758c-c5c7-4743-afe2-f331413d99cc",
@@ -2055,10 +2156,12 @@
                 "Text": "https://asmbits.blogspot.com/2017/06/idiomatic-cmake.html",
                 "Link": "https://asmbits.blogspot.com/2017/06/idiomatic-cmake.html"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1506369919581,
             "id": "c4ccd1fc-81b8-46c3-8608-4ec44f2320b0",
@@ -2086,10 +2189,12 @@
                 "Text": "http://www.goodbits.ca/index.php/2017/09/25/building-an-apple-osx-kernel-module-with-cmake-cc/",
                 "Link": "http://www.goodbits.ca/index.php/2017/09/25/building-an-apple-osx-kernel-module-with-cmake-cc/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1507697717122,
             "id": "471bc7b4-a5f0-4e1f-adec-cde3dec35c77",
@@ -2117,10 +2222,12 @@
                 "Text": "https://github.com/buggins/coolreader/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/buggins/coolreader/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1507697958919,
             "id": "817fae32-b40f-4a55-8690-4a8735ebcbe8",
@@ -2148,10 +2255,12 @@
                 "Text": "https://github.com/koreader/koreader-base/blob/e1974cbc8841dbdff2f837da1d2cde6ec6b107e3/thirdparty/djvulibre/CMakeLists.txt",
                 "Link": "https://github.com/koreader/koreader-base/blob/e1974cbc8841dbdff2f837da1d2cde6ec6b107e3/thirdparty/djvulibre/CMakeLists.txt"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508386580737,
             "id": "3ce3eae6-1783-4bd2-aa43-c39033db40c0",
@@ -2179,10 +2288,12 @@
                 "Text": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508387012746,
             "id": "466acb26-e842-4ddd-9836-4229ed3dc37b",
@@ -2210,10 +2321,12 @@
                 "Text": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
                 "Link": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508388357093,
             "id": "65d7557a-309e-474e-9840-6a3e5caca97e",
@@ -2241,10 +2354,12 @@
                 "Text": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508388419257,
             "id": "743409e7-9297-499d-badf-5c5c4c877dbf",
@@ -2272,10 +2387,12 @@
                 "Text": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
                 "Link": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508990182180,
             "id": "21a0d2ec-9110-4cbf-aefc-7baa2a55b535",
@@ -2303,10 +2420,12 @@
                 "Text": "https://github.com/webmproject/libwebm/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/webmproject/libwebm/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1527713394861,
             "id": "ec96ef18-5192-4c03-b94f-20ee152187d5",
@@ -2334,14 +2453,16 @@
                 "Text": "http://bastian.rieck.me/blog/posts/2018/cmake_tips/",
                 "Link": "http://bastian.rieck.me/blog/posts/2018/cmake_tips/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -2361,6 +2482,7 @@
           "d9acd4d6-d64e-4dac-865d-cb4aba93ade5",
           "14f3ec38-9c9d-4727-8d08-4fc2d6c94d88"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512296031469,
         "id": "30740c17-28d6-413c-b434-9479561bf22a",
@@ -2380,6 +2502,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "777e01ed-904d-4209-9528-d6e186842168",
@@ -2400,10 +2523,12 @@
               {
                 "Text": "Links:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "b759e89a-7a78-4467-9437-29f94e2184e8",
@@ -2431,10 +2556,12 @@
                 "Text": "http://stackoverflow.com/questions/2368811/how-to-set-warning-level-in-cmake",
                 "Link": "http://stackoverflow.com/questions/2368811/how-to-set-warning-level-in-cmake"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "ab91c835-807e-4c9a-8ed7-cc12541ab2ab",
@@ -2468,10 +2595,12 @@
               {
                 "Text": " : useful stuff for windows"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "06884bdb-3f93-4522-a24a-15aa324b7e3e",
@@ -2499,10 +2628,12 @@
                 "Text": "https://rix0r.nl/blog/2015/08/13/cmake-guide/",
                 "Link": "https://rix0r.nl/blog/2015/08/13/cmake-guide/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "d34fc716-e48f-4a06-b9c4-84ee7a11f752",
@@ -2530,10 +2661,12 @@
                 "Text": "http://www.slideshare.net/DanielPfeifer1/cmake-48475415",
                 "Link": "http://www.slideshare.net/DanielPfeifer1/cmake-48475415"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "7f183a57-03de-4796-89e0-62e486179b6f",
@@ -2550,10 +2683,12 @@
             },
             "type": "code",
             "version": 0,
-            "code": "# comment\ncmake_minimum_required(VERSION 2.8)\n\nmessage(STATUS \"this is a message, for debugging\")\n\n# in Visual Studio this is .sln solution. In Xcode, this is .xcodeproj\n# in make and ninja, this is a target\nproject(all)\n\n## building a static library\n\n# set LIB_SRC variable to list of files matching a list of file patterns\nfile (GLOB LIB_SRC\n    “lib/*.c”\n    “lib/*.h”\n    “lib/readme.txt”\n)\n\n# “mystaticlib” is the name of the library, STATIC it’s static and ${LIB_SRC}\n# is a list of source files to compile to build this library\nadd_library(mystaticlib STATIC ${LIB_SRC})\n\n## build an executable that links with static library\n\nfile (GLOB EXE_SRC\n    “src/*.cpp”\n    “src/*.h”\n)\n\n# so that #include can find mystaticlib header files\ninclude_directories(“lib”)\n\nadd_executable(my exe ${EXE_SRC})\n# the executable links my staticlib\ntarger_link_libraries(my_exe mystaticlib)\n# adds -DFOO -DBAR=3 only to target my_exe\nset_property(\n    TARGET my_exe\n    PROPERTY COMPILE_DEFINITIONS\n    FOO\n    BAR=3\n)\n\nIF(WIN32)\n    target_link_libraries(my_exe \"gdiplus\" \"comctl32\" \"shlwapi\" \"Version\")\nENDIF()"
+            "code": "# comment\ncmake_minimum_required(VERSION 2.8)\n\nmessage(STATUS \"this is a message, for debugging\")\n\n# in Visual Studio this is .sln solution. In Xcode, this is .xcodeproj\n# in make and ninja, this is a target\nproject(all)\n\n## building a static library\n\n# set LIB_SRC variable to list of files matching a list of file patterns\nfile (GLOB LIB_SRC\n    “lib/*.c”\n    “lib/*.h”\n    “lib/readme.txt”\n)\n\n# “mystaticlib” is the name of the library, STATIC it’s static and ${LIB_SRC}\n# is a list of source files to compile to build this library\nadd_library(mystaticlib STATIC ${LIB_SRC})\n\n## build an executable that links with static library\n\nfile (GLOB EXE_SRC\n    “src/*.cpp”\n    “src/*.h”\n)\n\n# so that #include can find mystaticlib header files\ninclude_directories(“lib”)\n\nadd_executable(my exe ${EXE_SRC})\n# the executable links my staticlib\ntarger_link_libraries(my_exe mystaticlib)\n# adds -DFOO -DBAR=3 only to target my_exe\nset_property(\n    TARGET my_exe\n    PROPERTY COMPILE_DEFINITIONS\n    FOO\n    BAR=3\n)\n\nIF(WIN32)\n    target_link_libraries(my_exe \"gdiplus\" \"comctl32\" \"shlwapi\" \"Version\")\nENDIF()",
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "5c49da51-8d8d-4c9a-b2f9-e896d0ea8ad4",
@@ -2574,10 +2709,12 @@
               {
                 "Text": "Cmake build types:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "bc948504-501f-461b-9a12-7ffc1cd29bda",
@@ -2594,10 +2731,12 @@
             },
             "type": "code",
             "version": 0,
-            "code": "CMAKE_BUILD_TYPE:  DEBUG RELEASE RELWITHDEBINFO MINSIZEREL\n\nSome variables are per-build type, e.g.:\nCMAKE_C_FLAGS_[DEBUG | RELEASE …]\n\nCMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS when generating DEBUG build"
+            "code": "CMAKE_BUILD_TYPE:  DEBUG RELEASE RELWITHDEBINFO MINSIZEREL\n\nSome variables are per-build type, e.g.:\nCMAKE_C_FLAGS_[DEBUG | RELEASE …]\n\nCMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS when generating DEBUG build",
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "a501393d-28c5-499f-b3a2-3902d981ea59",
@@ -2618,10 +2757,12 @@
               {
                 "Text": "Cmake variables"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "d5f1aa0d-6938-429c-b182-40bc64e57157",
@@ -2642,10 +2783,12 @@
               {
                 "Text": "Check if variable is true:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "c711a10d-235e-4747-96b0-4fcd1ec3f807",
@@ -2662,10 +2805,12 @@
             },
             "type": "code",
             "version": 0,
-            "code": "IF(WIN32)\n    ….\nENDIF()\n\nIF((MSVC_VERSION GREATER 1700) OR (MSVC_VERSION EQUAL 1700))\n    …\nENDIF()"
+            "code": "IF(WIN32)\n    ….\nENDIF()\n\nIF((MSVC_VERSION GREATER 1700) OR (MSVC_VERSION EQUAL 1700))\n    …\nENDIF()",
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "9728988d-f21a-4c7f-9945-868bdc5ec3a7",
@@ -2698,10 +2843,12 @@
                 "Text": "“${MSVC_VERSION}",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "d9acd4d6-d64e-4dac-865d-cb4aba93ade5",
@@ -2722,10 +2869,12 @@
               {
                 "Text": "Important variables:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512296059932,
             "id": "14f3ec38-9c9d-4727-8d08-4fc2d6c94d88",
@@ -2742,17 +2891,20 @@
             },
             "type": "code",
             "version": 0,
-            "code": "WIN32 - true for Windows (both 32 and 64 bit)\nUNIX - true for unix including mac and cygwin\nMSVC - true if using Visual Studio\nMSVC_VERSION :\n  1400 - VS 8 i.e. Visual Studio 2005\n  1500 - VS 9 i.e. Visual Studio 2008\n  1600 - VS 10 i.e. Visual Studio 2010\n  1700 - VS 11 i.e. Visual Studio 2012\n  1800 - VS 12 i.e. Visual Studio 2013\nCMAKE_CL_64 - 64bit of Visual Studio\n\nCMAKE_C_FLAGS\nCMAKE_CXX_FLAGS"
+            "code": "WIN32 - true for Windows (both 32 and 64 bit)\nUNIX - true for unix including mac and cygwin\nMSVC - true if using Visual Studio\nMSVC_VERSION :\n  1400 - VS 8 i.e. Visual Studio 2005\n  1500 - VS 9 i.e. Visual Studio 2008\n  1600 - VS 10 i.e. Visual Studio 2010\n  1700 - VS 11 i.e. Visual Studio 2012\n  1800 - VS 12 i.e. Visual Studio 2013\nCMAKE_CL_64 - 64bit of Visual Studio\n\nCMAKE_C_FLAGS\nCMAKE_CXX_FLAGS",
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "older"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1527713899705,
         "id": "fcee76c7-6b6f-4511-bbf1-b296bbee7719",
@@ -2761,10 +2913,12 @@
         "parent_id": "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "cmake",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -2788,6 +2942,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -7,6 +7,7 @@
       "ffcefdca-3a27-4fbe-aa1e-5e04808df4ea",
       "43b625a6-72e4-47b5-a977-18e498a55981"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1528229592118,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528229601456,
         "id": "3b915b95-9c3f-4aff-8760-ae10d2bb7ed0",
@@ -63,10 +65,12 @@
           {
             "Text": " : dashboard and more, based on bootstrap 4"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528229630340,
         "id": "ffcefdca-3a27-4fbe-aa1e-5e04808df4ea",
@@ -100,10 +104,12 @@
           {
             "Text": " : dashboard template"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1528229613749,
         "id": "43b625a6-72e4-47b5-a977-18e498a55981",
@@ -112,10 +118,12 @@
         "parent_id": "51e263b9-e569-4456-8b0f-881b050a1f07",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "CollectionViews": null
       }
     ],
     "title": "web ui templates",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -139,6 +147,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

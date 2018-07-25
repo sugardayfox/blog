@@ -14,6 +14,8 @@
       "2c1e3b7f-978a-4dc6-bb65-0a04aa8d80f1",
       "e0a1ff29-ae60-4ac6-ab68-b86fceb5528b"
     ],
+    "copied_from": "fbbd8ee2-3023-42f2-bc0e-26b6bdc807dd",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195805634,
     "format": {
@@ -37,6 +39,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "d6da5b37-be53-4cc2-be39-ebb841771a72",
@@ -57,10 +60,12 @@
           {
             "Text": "Id: 1863"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "b21d1288-8237-40a3-a244-97ebabc8836d",
@@ -81,10 +86,12 @@
           {
             "Text": "Date: 2004-10-02T21:43:39-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624655251,
         "id": "47638d0b-aeb5-46ad-978e-e06ff7d9b9c9",
@@ -105,10 +112,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "a89f2d6e-7946-4c30-83d6-9c3a15af84c8",
@@ -117,10 +126,12 @@
         "parent_id": "db591f51-b42f-43d7-bceb-18e14ed11a19",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "0198325e-7069-4682-a4fe-ab088e697c57",
@@ -160,10 +171,12 @@
           {
             "Text": ". "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "151a4c7f-a3be-40e0-9fc3-a2d9fbe84851",
@@ -184,10 +197,12 @@
           {
             "Text": "The fixes in this version:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "d73f4e61-5f28-465c-92ce-a0237f77f66d",
@@ -221,10 +236,12 @@
           {
             "Text": " fixed a bug handling directories in cvs"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "e0012e1a-3a9e-4295-ae8a-f4b3a590cf4f",
@@ -263,10 +280,12 @@
           {
             "Text": ". "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805634,
         "id": "2c1e3b7f-978a-4dc6-bb65-0a04aa8d80f1",
@@ -287,10 +306,12 @@
           {
             "Text": "Still, handling of deleting files is far from perfect (currently they are silently ignored while we should show appropriate diff) - properly handle file names with spaces. Fix suggested by Raman Gupta"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805635,
         "id": "e0a1ff29-ae60-4ac6-ab68-b86fceb5528b",
@@ -299,10 +320,12 @@
         "parent_id": "db591f51-b42f-43d7-bceb-18e14ed11a19",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       }
     ],
     "title": "scdiff 0.3 released",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -326,6 +349,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

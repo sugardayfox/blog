@@ -11,6 +11,7 @@
       "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
       "64593cee-e253-439a-b99c-b61f01f23b19"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1501808316944,
     "format": {
@@ -39,6 +40,7 @@
           "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
           "f188fad9-163a-4407-a3b5-14350b445afd"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510032519932,
         "id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
@@ -58,6 +60,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1510032542211,
             "id": "b02603ff-e21f-4dbd-8043-bc5c43463579",
@@ -85,10 +88,12 @@
                 "Text": "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38",
                 "Link": "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1510032557072,
             "id": "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
@@ -109,10 +114,12 @@
               {
                 "Text": "call \"%ProgramFiles(x86)%\\Microsoft Visual Studio\\Installer\\vswhere.exe\""
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1510033402027,
             "id": "f188fad9-163a-4407-a3b5-14350b445afd",
@@ -140,14 +147,16 @@
                 "Text": "https://github.com/Microsoft/vswhere",
                 "Link": "https://github.com/Microsoft/vswhere"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Finding where msvc is installed"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -162,6 +171,7 @@
           "f9d0cab5-268b-4fc7-82a3-2f9c644d36b8",
           "2df4e168-de0e-4ccf-9734-bc748e416010"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1501808326139,
         "id": "74f866e5-f16d-4e25-b0be-feb260291155",
@@ -181,6 +191,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1501808328284,
             "id": "98234dcd-29ba-414b-b8d4-2964d3ff60c3",
@@ -208,10 +219,12 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1501808388519,
             "id": "b0da4193-b430-4aaa-8402-9f10a6d42e06",
@@ -239,10 +252,12 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1503641557900,
             "id": "8e91c0ee-8e47-425b-b98c-39674a1043b1",
@@ -276,10 +291,12 @@
               {
                 "Text": " : talks about toolsets in 2015 and 2017 msvc versions"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1503779554663,
             "id": "63d9f45f-3410-4c5e-9f75-d9b709359f5f",
@@ -326,10 +343,12 @@
                 "Text": "https://aka.ms/vs/15/release/vs_community.exe",
                 "Link": "https://aka.ms/vs/15/release/vs_community.exe"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1503779809781,
             "id": "c4b7073a-b112-42d1-9823-27d9769966c9",
@@ -357,10 +376,12 @@
                 "Text": "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio",
                 "Link": "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1503779671325,
             "id": "a515ffe6-d8cb-4cc0-b69f-4b0ee48288fd",
@@ -394,10 +415,12 @@
               {
                 "Text": " : how to use layout response file to define what to install (instead of cmd-line args)"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1506392224076,
             "id": "0211c1d9-5193-43d6-9a10-13671312f394",
@@ -425,10 +448,12 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1506971690345,
             "id": "f9d0cab5-268b-4fc7-82a3-2f9c644d36b8",
@@ -456,10 +481,12 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508836781872,
             "id": "2df4e168-de0e-4ccf-9734-bc748e416010",
@@ -487,14 +514,16 @@
                 "Text": "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/",
                 "Link": "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -504,6 +533,7 @@
           "50a9a6ae-69b1-40d6-8060-1856722b753d",
           "948eae94-d3f1-419d-a4f1-8227dbe18244"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1503779596333,
         "id": "05030362-3dda-4726-aa5e-ec227e389be6",
@@ -523,6 +553,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508400694706,
             "id": "3ea9594a-c8a5-4d2b-a32b-24a4b304a6e5",
@@ -543,10 +574,12 @@
               {
                 "Text": "15 is 2017"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508400678830,
             "id": "db1ee049-5c60-4c8a-9193-9a3eaa2dcb8b",
@@ -567,10 +600,12 @@
               {
                 "Text": "15.0_a8883afc : 15.1 ? as in %USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\15.0_a8883afc"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508441688320,
             "id": "50a9a6ae-69b1-40d6-8060-1856722b753d",
@@ -591,10 +626,12 @@
               {
                 "Text": "15.0_40f18805 : 15.3.2 ?"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1508441719355,
             "id": "948eae94-d3f1-419d-a4f1-8227dbe18244",
@@ -603,20 +640,23 @@
             "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
             "parent_table": "block",
             "type": "text",
-            "version": 0
+            "version": 0,
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Versions"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "c4e84a85-d64f-47d8-8649-0f17462bdc7b"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459960907,
         "id": "92b5bd63-0419-464a-b71a-c3a835da0d17",
@@ -636,6 +676,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512459975919,
             "id": "c4e84a85-d64f-47d8-8649-0f17462bdc7b",
@@ -658,14 +699,16 @@
             "type": "code",
             "version": 0,
             "code": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\Folders is a list of dirs, including C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\Win32\\PlatformToolsets\\v120_xp\\\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\295292B04E66BBB3F8861D188DD56FC3\nhas:\n0C008876E49D315498BC74F8B287A1B0 =\u003e C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\x64\\PlatformToolsets\\v120_xp\\msbldver.dll\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files\n$ find . -name \"toolset.props\"\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files/MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets\n$ ls -lah\ntotal 8.0K\ndrwx------+ 1 SYSTEM         SYSTEM 0 Sep 13 12:52 .\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 ..\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013_xp\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120_xp\n\ntoolset.props is a bunch of MSBuild defines that specify additional flags\nv120 == VS 2013\n\nThere’s also:\nMSBuild/Microsoft.Cpp/v4.0/V110 (VS 2012?)\nand\nPlatforms/Win32/PlatformToolsets/LLVM_vs2010\nPlatforms/Win32/PlatformToolsets/v100\nPlatforms/Win32/PlatformToolsets/v90",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "toolsets"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
@@ -676,6 +719,7 @@
           "bd0ab5d6-281b-4d61-9eb7-400b91fbf236",
           "503a2e82-2387-4d35-9321-ca5fbccd5a8d"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459965688,
         "id": "77fd0131-6d91-4641-afc1-1057131ea890",
@@ -695,6 +739,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530090500154,
             "id": "b4fce1c0-da49-481f-9c8c-3e873d0046c4",
@@ -728,10 +773,12 @@
               {
                 "Text": " - list of Visual Studio tips"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530090505944,
             "id": "6d0b811b-a497-4c35-bd53-dc088bc675f1",
@@ -765,10 +812,12 @@
               {
                 "Text": " - detecting Visual Studio installations"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530090516790,
             "id": "23f393b2-abcc-46e1-9544-28fa380a91df",
@@ -796,10 +845,12 @@
                 "Text": "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530090534774,
             "id": "bd0ab5d6-281b-4d61-9eb7-400b91fbf236",
@@ -833,10 +884,12 @@
               {
                 "Text": " - using Visual Studio toolchains"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530090540926,
             "id": "503a2e82-2387-4d35-9321-ca5fbccd5a8d",
@@ -864,20 +917,23 @@
                 "Text": "http://visualgdb.com/news/vs-community/",
                 "Link": "http://visualgdb.com/news/vs-community/"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "misc"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "0e709db1-d3a2-4575-994e-a7d8e8c6103a"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530090565509,
         "id": "2ebd1be7-08b4-48a4-847a-e90fa2b8d42b",
@@ -897,6 +953,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512461356807,
             "id": "0e709db1-d3a2-4575-994e-a7d8e8c6103a",
@@ -919,17 +976,20 @@
             "type": "code",
             "version": 37,
             "code": "MSVC++ 14.0 _MSC_VER == 1900 (Visual Studio 2015)\nMSVC++ 12.0 _MSC_VER == 1800 (Visual Studio 2013)\nMSVC++ 11.0 _MSC_VER == 1700 (Visual Studio 2012)\nMSVC++ 10.0 _MSC_VER == 1600 (Visual Studio 2010)\nMSVC++ 9.0  _MSC_VER == 1500 (Visual Studio 2008)\nMSVC++ 8.0  _MSC_VER == 1400 (Visual Studio 2005)\nMSVC++ 7.1  _MSC_VER == 1310 (Visual Studio 2003)\nMSVC++ 7.0  _MSC_VER == 1300\nMSVC++ 6.0  _MSC_VER == 1200\nMSVC++ 5.0  _MSC_VER == 1100",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "msvc versions"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459928056,
         "id": "64593cee-e253-439a-b99c-b61f01f23b19",
@@ -938,10 +998,12 @@
         "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "Visual Studio, msvc",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -965,6 +1027,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -20,6 +20,8 @@
       "ce53aae5-c327-4d10-8a5c-8540a8bf0ebb",
       "9aabd643-4cb7-4633-a8f9-fc151f5e7338"
     ],
+    "copied_from": "96c275a6-ab75-4298-8362-b32b5d08cd31",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195824012,
     "format": {
@@ -43,6 +45,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "d3a5db24-7b0a-4026-bc8f-1b4ebc48b201",
@@ -63,10 +66,12 @@
           {
             "Text": "Id: 311"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "0df0abc9-a47e-44b6-b26c-d5314665aca4",
@@ -87,10 +92,12 @@
           {
             "Text": "Tags: c#, .net"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "3968fe36-3a5c-42cb-94f0-4c188a6b7621",
@@ -111,10 +118,12 @@
           {
             "Text": "Date: 2005-12-27T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "144d3083-8899-4467-b7b3-f62a83379cb6",
@@ -123,10 +132,12 @@
         "parent_id": "e6a984e7-1ec9-4753-bae7-b3482b3dab07",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "27595c50-331e-4718-9d83-44fe123818f6",
@@ -147,10 +158,12 @@
           {
             "Text": "Serialization (known as pickling in python) is an easy way to convert an object to a binary representation that can then be e.g. written to disk or sent over a wire."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "f57f6158-8d7a-4c15-a8dc-66fb424ff7cd",
@@ -171,10 +184,12 @@
           {
             "Text": "It’s useful e.g. for easy saving of settings to a file."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "25a77f25-647a-4e74-9ff6-eac78edf9ff9",
@@ -231,10 +246,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "8ae445a2-5dd3-446f-919f-38a349a774ae",
@@ -255,10 +272,12 @@
           {
             "Text": ".NET offers 2 serializers: binary, SOAP, XML. The difference between binary and SOAP is:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "d5a56cd9-3667-4363-b85e-c69eccbf30b8",
@@ -279,10 +298,12 @@
           {
             "Text": "binary is more efficient (time and memory used)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "a8b77c53-f3b9-446e-8c7a-11b538836537",
@@ -303,10 +324,12 @@
           {
             "Text": "binary is not human-readable. SOAP isn’t much better."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824013,
         "id": "40d45f9f-84b8-4625-a494-e4921b9dba7e",
@@ -327,10 +350,12 @@
           {
             "Text": "XML is slightly different:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824015,
         "id": "d8fbd532-3fd3-49ec-8ac4-e8b547262e87",
@@ -363,10 +388,12 @@
             "Text": "System.Xml.Serialization",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824015,
         "id": "575f782d-8426-4daf-b8e5-dc7c0e4ed815",
@@ -435,10 +462,12 @@
             "Text": "[Serializable]",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824015,
         "id": "b74de177-756c-471e-add1-00c0dae574e5",
@@ -459,10 +488,12 @@
           {
             "Text": "it doesn’t serialize private class members"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824015,
         "id": "ce53aae5-c327-4d10-8a5c-8540a8bf0ebb",
@@ -483,10 +514,12 @@
           {
             "Text": "An example of serialization/deserialization to a file:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195824015,
         "id": "9aabd643-4cb7-4633-a8f9-fc151f5e7338",
@@ -509,10 +542,12 @@
         "type": "code",
         "version": 1,
         "code": "using System.IO;\nusing System.Diagnostics;\nusing System.Runtime.Serialization;\nusing System.Runtime.Serialization.Formatters;\nusing System.Runtime.Serialization.Formatters.Binary;\n\n[Serializable]\npublic class MySettings {\n    public int screenDx;\n    public ArrayList recentlyOpenedFiles;\n    [NonSerialized]public string dummy;\n}\n\npublic class Settings {\n    const int VERSION = 1;\n    static void Save(MySettings settings, string fileName) {\n            Stream stream = null;\n            try {\n                IFormatter formatter = new BinaryFormatter();\n                stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);\n                formatter.Serialize(stream, VERSION);\n                formatter.Serialize(stream, settings);\n            } catch {\n                // do nothing, just ignore any possible errors\n            } finally {\n                if (null != stream)\n                    stream.Close();\n            }\n    }\n\n    static MySettings Load(string fileName) {\n        Stream stream = null;\n        MySettings settings = null;\n        try {\n            IFormatter formatter = new BinaryFormatter();\n            stream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.None);\n            int version = (int)formatter.Deserialize(stream);\n            Debug.Assert(version == VERSION);\n            settings = (MySettings)formatter.Deserialize(stream);\n        } catch {\n            // do nothing, just ignore any possible errors\n        } finally {\n            if (null != stream)\n                stream.Close();\n        }\n        return settings;\n    }\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       }
     ],
     "title": "Serialization in C#",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -536,6 +571,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

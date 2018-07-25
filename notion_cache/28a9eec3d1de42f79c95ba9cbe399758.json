@@ -8,6 +8,7 @@
       "c634ff48-ef36-4682-8fd3-9d34fcf54fb4",
       "e06c7d56-1726-42b0-847f-4fd1e32a7cf3"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1499390934047,
     "format": {
@@ -31,6 +32,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499390938689,
         "id": "db7ccb41-ce64-4e3a-968f-3cc8a771ab8b",
@@ -51,10 +53,12 @@
           {
             "Text": "Google's reCaptcha:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499390944447,
         "id": "ad538ba3-70dc-4d75-8215-01cc5484f7fb",
@@ -88,10 +92,12 @@
           {
             "Text": " : docs for invisible re-captcha"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499391029369,
         "id": "c634ff48-ef36-4682-8fd3-9d34fcf54fb4",
@@ -125,10 +131,12 @@
           {
             "Text": " : list of my captchas"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499391027034,
         "id": "e06c7d56-1726-42b0-847f-4fd1e32a7cf3",
@@ -137,10 +145,12 @@
         "parent_id": "28a9eec3-d1de-42f7-9c95-ba9cbe399758",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "recaptcha",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -164,6 +174,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

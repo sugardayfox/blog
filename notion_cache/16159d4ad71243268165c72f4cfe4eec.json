@@ -7,6 +7,7 @@
       "15749353-316e-42a9-9ff1-8626b43ceb9e",
       "9fe82467-18ee-40e4-95f9-649e38cc122a"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496776428787,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496776434416,
         "id": "474c24ba-fc08-4f31-9760-67ec18d68e9a",
@@ -50,10 +52,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496776435854,
         "id": "15749353-316e-42a9-9ff1-8626b43ceb9e",
@@ -81,10 +85,12 @@
             "Text": "http://mycodesmells.com/post/watching-metrics-with-prometheus",
             "Link": "http://mycodesmells.com/post/watching-metrics-with-prometheus"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499328361120,
         "id": "9fe82467-18ee-40e4-95f9-649e38cc122a",
@@ -112,10 +118,12 @@
             "Text": "https://blog.alexellis.io/prometheus-monitoring/",
             "Link": "https://blog.alexellis.io/prometheus-monitoring/"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Prometheus",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -139,6 +147,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

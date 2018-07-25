@@ -9,6 +9,7 @@
       "80c189e5-585d-44ca-a5b0-f277eac52bea",
       "892ebb86-4688-4ae7-91a7-e8dc8d5a48fb"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1514449885007,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514449889987,
         "id": "2d1d1c83-e099-4d9f-af7a-cf3a92bba554",
@@ -52,10 +54,12 @@
           {
             "Text": "FCM is new version of Google Cloud Messaging."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514450048142,
         "id": "30685bea-a2cb-44b4-ba51-bc4ddf2e78c1",
@@ -76,10 +80,12 @@
           {
             "Text": "Can send messages to:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514450873807,
         "id": "25ec5c33-31e9-45e0-acd9-3709c2d87ad2",
@@ -100,10 +106,12 @@
           {
             "Text": "topics"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514450875575,
         "id": "80c189e5-585d-44ca-a5b0-f277eac52bea",
@@ -124,10 +132,12 @@
           {
             "Text": "registration tokens, for small number of devices"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514450967716,
         "id": "892ebb86-4688-4ae7-91a7-e8dc8d5a48fb",
@@ -148,10 +158,12 @@
           {
             "Text": "Client can register for messages but in the browser it requires user permissions."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Firebase Cloud Messaging",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -175,6 +187,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

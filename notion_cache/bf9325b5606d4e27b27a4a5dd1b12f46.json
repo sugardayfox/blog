@@ -11,6 +11,7 @@
       "0679e9cd-a7ca-463c-a6cb-b676a1db218b",
       "01379015-be09-45c8-ab29-4864f45ae74b"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512461947222,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089915776,
         "id": "e531de7f-b288-4bb0-b83e-584bad463646",
@@ -67,10 +69,12 @@
           {
             "Text": " : 6 pgfoundry databases (world, usda, pagila, iso-3166, french-towns-communes-francis, dellstore2)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089923401,
         "id": "2fd0b555-0d24-4afd-a025-6d8ef14fb933",
@@ -104,10 +108,12 @@
           {
             "Text": " - list of databases"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089937777,
         "id": "8b3e5949-f3a3-4258-a0e5-cf06cfe3f7f7",
@@ -135,10 +141,12 @@
             "Text": "https://community.embarcadero.com/article/articles-database/1076-top-3-sample-databases-for-postgresql",
             "Link": "https://community.embarcadero.com/article/articles-database/1076-top-3-sample-databases-for-postgresql"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089942945,
         "id": "1dedf57b-d7ca-4170-bc91-f737eafb9633",
@@ -166,10 +174,12 @@
             "Text": "http://pgfoundry.org/frs/?group_id=1000150\u0026release_id=998#pagila-pagila-title-content",
             "Link": "http://pgfoundry.org/frs/?group_id=1000150\u0026release_id=998#pagila-pagila-title-content"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089952017,
         "id": "d34e6677-8bf8-47d6-8c24-abe9556a6c9e",
@@ -203,13 +213,15 @@
           {
             "Text": " pagila"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
         "content": [
           "22bf7918-3170-44b6-8980-7767fc69183e"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089962520,
         "id": "0679e9cd-a7ca-463c-a6cb-b676a1db218b",
@@ -259,6 +271,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1530089987104,
             "id": "22bf7918-3170-44b6-8980-7767fc69183e",
@@ -279,7 +292,8 @@
               {
                 "Text": "very large database, mbdump.tar.bz2 is the main thing (6GB uncompressed)"
               }
-            ]
+            ],
+            "CollectionViews": null
           }
         ],
         "inline_content": [
@@ -301,10 +315,12 @@
             "Text": "http://ftp.musicbrainz.org/pub/musicbrainz/data/fullexport/20151230-005629/",
             "Link": "http://ftp.musicbrainz.org/pub/musicbrainz/data/fullexport/20151230-005629/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530089988223,
         "id": "01379015-be09-45c8-ab29-4864f45ae74b",
@@ -338,10 +354,12 @@
           {
             "Text": "- info about works of shakespeare, needs additional data to be downloaded"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "sample databases",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -365,6 +383,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

@@ -28,6 +28,8 @@
       "4860b360-66a9-4e13-bb81-69499b8caf92",
       "8fb92408-6251-4e80-8415-143b3171f1d3"
     ],
+    "copied_from": "be92a5a9-76cf-4c16-9141-99a23611db9f",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736918975,
     "format": {
@@ -51,6 +53,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918975,
         "id": "f64c0fc8-02e1-4ff8-8d0b-0e8747a4ad70",
@@ -71,10 +74,12 @@
           {
             "Text": "Id: 1404040"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918975,
         "id": "d9d4f335-196b-4e4e-a06d-419a6ea33cb7",
@@ -95,10 +100,12 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918975,
         "id": "42746957-212a-4005-8501-71a35b191bbc",
@@ -119,10 +126,12 @@
           {
             "Text": "Date: 2012-09-16T01:55:48-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918975,
         "id": "6cce9077-05c9-4f20-83b7-4c3a79e04d05",
@@ -143,10 +152,12 @@
           {
             "Text": "The story of a faulty benchmark"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918975,
         "id": "4c134336-d285-4a99-9c02-9d3c573d1c10",
@@ -167,10 +178,12 @@
           {
             "Text": "I confess: I didn’t really speed up Go by 20%. However, if you were to believe simplistic arguments, I did."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918976,
         "id": "c6ccb468-def6-44d7-80c0-72e22bd1c48e",
@@ -210,10 +223,12 @@
           {
             "Text": " as proof."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918976,
         "id": "e605c781-9371-4777-9b2d-33b5164b9443",
@@ -234,10 +249,12 @@
           {
             "Text": "Indeed, every Go benchmark there is 2x to 10x slower than Java 7 program."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "6acb882f-81fa-4365-9420-af54f8c0c2b6",
@@ -258,10 +275,12 @@
           {
             "Text": "That seemed wrong to me - Go compiles to native code. Java, ultimately, does too, but compilation happens at runtime, which is an overhead that Go doesn’t have, so in principle Go should be faster."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "15af0f1d-1f75-4543-94af-7e81478687af",
@@ -301,10 +320,12 @@
           {
             "Text": ". I’m not an expert in implementing reverse-complement algorithm but I immediately noticed that the code does a lot of unnecessary memory allocations and copying."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "24e16a66-a2ce-4330-8fa8-0cb22f062f0d",
@@ -344,10 +365,12 @@
           {
             "Text": " and what do you know: it’s implemented more efficiently, without unnecessary memory allocations and copying. Plus it parallelizes the computation."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "aea82f37-8b6f-4afa-afa2-2356d1f6563a",
@@ -387,10 +410,12 @@
           {
             "Text": ", more similar to Java’s."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "e19b96e0-28f7-4e59-bc0f-0690990e75df",
@@ -411,10 +436,12 @@
           {
             "Text": "The result? On my Mac Pro I got about 20% speedup."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "1984a904-3fc0-4714-a35f-17bdf1583ead",
@@ -435,10 +462,12 @@
           {
             "Text": "The argument of HN commenter was: look at those benchmarks, Go is 2x slower than Java."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "cca4d561-8156-486a-a392-6b09fac1dcbe",
@@ -459,10 +488,12 @@
           {
             "Text": "It’s a simplistic but unfortunately powerful argument: most people won’t take the time to look at the code to determine that part of the issue is that Java implementation is simply better than Go one."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "8b28cebd-834a-442d-9b6a-f8e9cc94091e",
@@ -483,10 +514,12 @@
           {
             "Text": "By that simplistic argument I’ve improved speed of Go by 20% by writing a slightly better implementation of the benchmark."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "79267bad-e5aa-4bf6-b4b0-d9caaa7512b8",
@@ -526,10 +559,12 @@
           {
             "Text": ", Go actually wins on this and 2 other benchmarks."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "e6f90445-7525-4837-9033-677002a065d4",
@@ -550,10 +585,12 @@
           {
             "Text": "The explanation is simple: 64-bit Go compiler is a little bit smarter than 32-bit Go compiler."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918977,
         "id": "5d023c1f-fc84-488d-b38e-fd874a8ed27c",
@@ -574,10 +611,12 @@
           {
             "Text": "Is Go really slower than Java?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918978,
         "id": "d855b171-6fcd-4db2-a9de-55789af49ee7",
@@ -598,10 +637,12 @@
           {
             "Text": "There is no simplistic answer to this, but there are rules of thumb."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918978,
         "id": "2788531e-d1cf-4973-8bba-438d800ec41b",
@@ -622,10 +663,12 @@
           {
             "Text": "On equivalent programs, Go generates programs similar in speed or faster. 64-bit version will be slightly better than 32-bit version."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918979,
         "id": "0bd66ad7-551a-4213-8aa5-17fc45bc30dd",
@@ -646,10 +689,12 @@
           {
             "Text": "Java garbage collector is much better than Go’s which explains why allocation-heavy benchmarks (e.g. binary-trees) perform so much better (there’s almost no computation there, just allocation of a lot of tree nodes)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918980,
         "id": "b17e1408-266e-41f9-bfd6-a211a2229f0e",
@@ -670,10 +715,12 @@
           {
             "Text": "Those benchmarks aren’t currently representative of Go performance - from cursory look it seems that C++ and Java implementations are extremely optimized and Go implementations aren’t (I’ve submitted my improved version, hopefully it’ll get incorporated)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918980,
         "id": "4860b360-66a9-4e13-bb81-69499b8caf92",
@@ -694,10 +741,12 @@
           {
             "Text": "Go is already competitive with Java and will only get better. Let’s not forget that Java had over 20 years of investments in code generation and garbage collection. Go is only 5 years old. There already were compiler and garbage collection improvements since the latest released version."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736918980,
         "id": "8fb92408-6251-4e80-8415-143b3171f1d3",
@@ -718,10 +767,12 @@
           {
             "Text": "One area where Go wins undeniably is memory usage - the programs use at least order of magnitude less memory. Java is paying the cost of sophisticated virtual machine."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "How I sped up Go by 20% (or is Go really slower than Java?)",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -745,6 +796,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

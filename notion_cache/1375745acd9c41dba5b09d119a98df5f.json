@@ -25,6 +25,8 @@
       "04a91c93-978f-4e73-a0b0-260d6e4fd0e8",
       "f926221f-9877-422a-af3c-f775c63541eb"
     ],
+    "copied_from": "ab803011-fd21-49e2-b929-9068d338682b",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195944446,
     "format": {
@@ -48,6 +50,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "326f6305-1cf7-4828-bb85-7ff0c22ba797",
@@ -68,10 +71,12 @@
           {
             "Text": "Id: 12012"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "783ecc70-f042-48dc-951c-74ff6b502fc5",
@@ -92,10 +97,12 @@
           {
             "Text": "Tags: aws, python"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "d8cf27f3-6f9e-452e-bebf-9c65265c95f4",
@@ -116,10 +123,12 @@
           {
             "Text": "Date: 2009-03-07T18:39:07-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "1b5864a6-f85c-4dc7-a05e-d079b3fac054",
@@ -128,10 +137,12 @@
         "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "727da785-e942-4a54-9add-d78b174bd67e",
@@ -165,10 +176,12 @@
             "Text": "this official document",
             "Link": "http://docs.amazonwebservices.com/AmazonS3/latest/index.html?ServerLogs.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "5b4d07d4-5384-4753-9c06-77b97f982d0c",
@@ -189,10 +202,12 @@
           {
             "Text": "Unfortunately, standard s3 logs have a problem: they’re split among lots of files. Around 200 log files are generated for one day which leads to enormous number of files stored on s3 (e.g. merely 6 months of logs generated ~35k of log files)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "350d7623-fa93-49ad-ae39-a7b1f8db3d1a",
@@ -213,10 +228,12 @@
           {
             "Text": "To fix that I wrote a python script that compacts the logs so that we only get one file per day, which is a more reasonable number (35k files shrank to only 171 for me). As a bonus, it also compresses the log. Given very repetitive nature of log files, it’s a big win (the file shrinks by 94% when compressed with bzip2 algorithm)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "bdf3fdb6-59e4-4dc9-83b1-3ab14603b1ec",
@@ -237,10 +254,12 @@
           {
             "Text": "The logic of the script is simple:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "25e69eef-4945-492e-aa8a-29dc9a0fa364",
@@ -261,10 +280,12 @@
           {
             "Text": "download all the files for a given day locally"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "32c5e0b0-614d-4011-b05f-63bbedd9beb9",
@@ -285,10 +306,12 @@
           {
             "Text": "create one file that is compressed concatenation of those files"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "62525403-dd15-4c2b-8c0c-6db0b6593784",
@@ -309,10 +332,12 @@
           {
             "Text": "upload compressed file back to s3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "568fbd4b-3331-4e51-8ca8-8e5a925353bb",
@@ -333,10 +358,12 @@
           {
             "Text": "delete the original files"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "d47563ba-115d-4fcf-a174-dbf31a5ef4bf",
@@ -357,10 +384,12 @@
           {
             "Text": "repeat"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "f98dea76-cd69-4c5a-90b5-e79e16c73ee2",
@@ -400,10 +429,12 @@
           {
             "Text": ". You’ll have to change a few things in the source:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "b7e19fc3-ecc1-49a5-abc4-87f74e66df1b",
@@ -424,10 +455,12 @@
           {
             "Text": "s3 bucket name that stores the logs"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "612107a2-3d5e-47b0-a344-dbc5836fdfe7",
@@ -448,10 +481,12 @@
           {
             "Text": "where the logs are downloaded locally. I preserve them although they could be deleted if you’re short on space"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "435f7a57-f51c-469b-8bfd-c67b2d0bd9fa",
@@ -490,10 +525,12 @@
           {
             "Text": " file with access/secret key i.e.:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "56c0fe5d-c0a2-496b-ae97-25bacfd08242",
@@ -516,10 +553,12 @@
         "type": "code",
         "version": 1,
         "code": "access = “access key”\n    secret = “secret key”",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "917c14df-912c-4c70-8b70-41a907c49942",
@@ -540,10 +579,12 @@
           {
             "Text": "One unexpected thing I noticed is that apparently Amazon sometimes saves the log file with screwy permissions so that it can’t be read or even fixed by setting new acl (both those operations return 403 forbidden). The only operation that works is deleting the file from s3, so that’s what I do (it’s only a log file, after all)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944446,
         "id": "04a91c93-978f-4e73-a0b0-260d6e4fd0e8",
@@ -564,10 +605,12 @@
           {
             "Text": "Another thing I noticed is that boto sometimes hangs when talking to s3 (exception on timeout would be much better). If that happens, you can kill the script and restart it - it’s smart enough to not re-download files and only deletes the original log files on s3 after compressed log has been saved in s3."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944447,
         "id": "f926221f-9877-422a-af3c-f775c63541eb",
@@ -588,10 +631,12 @@
           {
             "Text": "Expected usage of the script is as a daily script followed by a script that analyzes the logs. Due to boto hanging it might not work well in such scenario, though."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Compacting s3 aws logs",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -615,6 +660,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

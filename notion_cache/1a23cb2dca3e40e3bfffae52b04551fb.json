@@ -11,6 +11,7 @@
       "66495b06-f208-473a-951b-505ef8a24e84",
       "129d770e-d82b-490d-af41-ea6f98026e23"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512458337863,
     "format": {
@@ -34,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "e8384172-315e-479a-96ca-de3d6a55b917",
@@ -54,10 +56,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "06374674-4bbd-4fc2-bd22-3c7d92305bee",
@@ -91,10 +95,12 @@
           {
             "Text": " - shows how to configure oauth for many services"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "e79f7267-2aa4-4b48-a71e-85381d97302a",
@@ -128,10 +134,12 @@
           {
             "Text": " - oauth library, supports facebook, google, github, soundcloud"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "bde6b335-70fe-4d21-ba52-ea6cd86da5ac",
@@ -159,10 +167,12 @@
             "Text": "http://pierrecaserta.com/go-oauth-facebook-github-twitter-google-plus/",
             "Link": "http://pierrecaserta.com/go-oauth-facebook-github-twitter-google-plus/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "1ae2f8b0-9f7e-45cc-ab77-3dd435e4a5a2",
@@ -196,10 +206,12 @@
           {
             "Text": " - describes a way for client-only github access (to save notes in gists)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458348336,
         "id": "66495b06-f208-473a-951b-505ef8a24e84",
@@ -227,10 +239,12 @@
             "Text": "https://jacobmartins.com/2016/02/29/getting-started-with-oauth2-in-go/",
             "Link": "https://jacobmartins.com/2016/02/29/getting-started-with-oauth2-in-go/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512458359370,
         "id": "129d770e-d82b-490d-af41-ea6f98026e23",
@@ -239,10 +253,12 @@
         "parent_id": "1a23cb2d-ca3e-40e3-bfff-ae52b04551fb",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "oauth",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -266,6 +282,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

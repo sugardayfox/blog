@@ -16,6 +16,8 @@
       "968dc350-10d3-42da-ae2c-b2193d99c278",
       "9aba29a7-1906-47b4-b530-3aa6a865b108"
     ],
+    "copied_from": "8c0cad58-92bb-4e72-a6ca-a761dee3571c",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923296,
     "format": {
@@ -39,6 +41,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "773bf221-d455-46d6-9698-d6d823d5c5fb",
@@ -59,10 +62,12 @@
           {
             "Text": "Id: 1253"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "5fa7f90c-4ba3-4a90-b368-e8f94edd8be4",
@@ -83,10 +88,12 @@
           {
             "Text": "Tags: visual studio, c++"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "eead5cbf-e86f-4d26-80b4-85f15724e9e5",
@@ -107,10 +114,12 @@
           {
             "Text": "Date: 2008-04-04T16:36:43-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "5a07b12e-9253-4040-8992-731ac6525207",
@@ -119,10 +128,12 @@
         "parent_id": "3a476938-a9f3-409a-9bd2-3cf2b1157986",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "eb32c916-eb05-40fe-ac1e-0fe4146526b8",
@@ -143,10 +154,12 @@
           {
             "Text": "Variadic macros are function-like macros that contain a variable number of arguments."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "50662e65-3210-4541-8fa8-dcd3f3d5732e",
@@ -203,10 +216,12 @@
           {
             "Text": " is replaced by all of the arguments that match the ellipsis, including commas between them."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "180182e1-13fc-4baf-b6af-64fe30bcc7a1",
@@ -227,10 +242,12 @@
           {
             "Text": "The C Standard specifies that at least one argument must be passed to the ellipsis, to ensure that the macro does not resolve to an expression with a trailing comma. The Visual C++ implementation will suppress a trailing comma if no arguments are passed to the ellipsis."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "ab16e94f-6777-4654-a5ef-df55f03f140c",
@@ -251,10 +268,12 @@
           {
             "Text": "Support for variadic macros was introduced in Visual C++ 2005."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "8eda2f7e-a39c-4032-9f07-00d96abf652b",
@@ -275,10 +294,12 @@
           {
             "Text": "Example:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "c9a50d4e-18ae-445f-af21-f36a22a9dc8c",
@@ -301,10 +322,12 @@
         "type": "code",
         "version": 1,
         "code": "// variadic_macros.cpp\n#include\n#define EMPTY\n\n#define CHECK1(x, ...) if (!(x)) { printf(__VA_ARGS__); }\n#define CHECK2(x, ...) if ((x)) { printf(__VA_ARGS__); }\n#define CHECK3(...) { printf(__VA_ARGS__); }\n#define MACRO(s, ...) printf(s, __VA_ARGS__)\n\nint main() {\n   CHECK1(0, \"here %s %s %s\", \"are\", \"some\", \"varargs1(1)\\n\");\n   CHECK1(1, \"here %s %s %s\", \"are\", \"some\", \"varargs1(2)\\n\");   // won't print\n\n   CHECK2(0, \"here %s %s %s\", \"are\", \"some\", \"varargs2(3)\\n\");   // won't print\n   CHECK2(1, \"here %s %s %s\", \"are\", \"some\", \"varargs2(4)\\n\");\n\n   // always invokes printf in the macro\n   CHECK3(\"here %s %s %s\", \"are\", \"some\", \"varargs3(5)\\n\");\n\n   MACRO(\"hello, world\\n\");\n   // MACRO(\"error\\n\", EMPTY);   would cause C2059\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "968dc350-10d3-42da-ae2c-b2193d99c278",
@@ -325,10 +348,12 @@
           {
             "Text": "Output"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923296,
         "id": "9aba29a7-1906-47b4-b530-3aa6a865b108",
@@ -351,10 +376,12 @@
         "type": "code",
         "version": 1,
         "code": "here are some varargs1(1)\n    here are some varargs2(4)\n    here are some varargs3(5)\n    hello, world",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Variadic Macros (C++)",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -378,6 +405,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

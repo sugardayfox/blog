@@ -88,6 +88,7 @@
       "00ef02cf-b679-49e8-883a-acd4ad1f5b7d",
       "20d8a138-58d9-477d-824f-542c2879f1e5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1509325076044,
     "format": {
@@ -114,6 +115,7 @@
         "content": [
           "728dc759-fd65-4a38-97c1-5116f89be23c"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512363721118,
         "id": "b89a6348-67d0-4d28-b2eb-81838c4a8ecd",
@@ -133,6 +135,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512363743883,
             "id": "728dc759-fd65-4a38-97c1-5116f89be23c",
@@ -155,17 +158,20 @@
             "type": "code",
             "version": 0,
             "code": "https://code.google.com/p/ftp4go/, http://godoc.org/code.google.com/p/ftp4go - worked for me\nhttps://github.com/jlaffaye/ftp, http://godoc.org/github.com/jlaffaye/ftp - didn't work for ftp.semtrack.de\nhttps://bitbucket.org/zombiezen/ftp/\nhttps://github.com/smallfish/ftp",
-            "code_language": "Go"
+            "code_language": "Go",
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "ftp libs"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509325050566,
         "id": "c176626b-ec03-405e-9b88-de5ae859f0ff",
@@ -186,10 +192,12 @@
           {
             "Text": "Useful libraries:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509325055256,
         "id": "e1ba5394-3e37-4c37-9cd1-479f12d5d772",
@@ -223,10 +231,12 @@
           {
             "Text": "  : debug-pring structs and values"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1509325195850,
         "id": "f480275a-19db-414a-aa1b-2b7dd520a618",
@@ -260,10 +270,12 @@
           {
             "Text": " : for getting stocks data"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510180971212,
         "id": "b5be7a6f-4dc5-44ab-bd79-0851abe29616",
@@ -297,10 +309,12 @@
           {
             "Text": " : oauth authentication library for web supporting tons of providers"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1511388844146,
         "id": "17988100-d0ee-4f5c-a3d7-a408cf6e8294",
@@ -334,10 +348,12 @@
           {
             "Text": " : drives chrome via chrome remote debugger interface"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512363917094,
         "id": "511b8828-2c86-488c-87b6-e868c4777a40",
@@ -371,10 +387,12 @@
           {
             "Text": " : alternative csv parsing library"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512364045830,
         "id": "61969b43-a60e-402d-83df-e7f429d2a29e",
@@ -421,10 +439,12 @@
             "Text": "http://openmymind.net/basic-micro-optimizations-part-2/",
             "Link": "http://openmymind.net/basic-micro-optimizations-part-2/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512364047309,
         "id": "d53e7e48-81d6-4ca3-b1e7-8308d94d3810",
@@ -452,10 +472,12 @@
             "Text": "http://openmymind.net/Condition-Variables/",
             "Link": "http://openmymind.net/Condition-Variables/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512679884114,
         "id": "67368b96-d85c-43a0-bbf9-360a749e2af9",
@@ -489,10 +511,12 @@
           {
             "Text": " : port of .net regexp engine"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093424204,
         "id": "b7f532fb-f2f6-44f4-a6ba-a8e01bafd98f",
@@ -526,10 +550,12 @@
           {
             "Text": " - encoding/decoding html forms (application/x-www-form-urlencoded). Easier decoding of args for html requests"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093431331,
         "id": "2cc246be-897e-49db-b530-4f0d57ec9381",
@@ -557,10 +583,12 @@
             "Text": "https://github.com/dchest/safefile/blob/master/safefile.go",
             "Link": "https://github.com/dchest/safefile/blob/master/safefile.go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093441098,
         "id": "f4860579-3a90-4cf9-9d7f-b386cc94478c",
@@ -594,10 +622,12 @@
           {
             "Text": " - could use on my blog and forum"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093445251,
         "id": "f324eb8a-856f-4f09-b59f-f39266c9102d",
@@ -625,10 +655,12 @@
             "Text": "https://github.com/gorilla/websocket",
             "Link": "https://github.com/gorilla/websocket"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093452233,
         "id": "a88a1568-21eb-4c87-a547-78e15a72086e",
@@ -656,10 +688,12 @@
             "Text": "https://github.com/gorilla/securecookie",
             "Link": "https://github.com/gorilla/securecookie"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093456442,
         "id": "dd51a1f9-8d01-44dc-8531-b4ffbfb8de53",
@@ -693,10 +727,12 @@
           {
             "Text": " - html content/article extraction"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093469874,
         "id": "04b0e115-01b2-48cc-8c9c-c1a4e821024f",
@@ -730,10 +766,12 @@
           {
             "Text": " - css selectors for querying html parsed with html package"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093473682,
         "id": "335623e8-9948-4c73-a31a-7925b9be75f3",
@@ -767,10 +805,12 @@
           {
             "Text": " - like jQuery, in Go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093478594,
         "id": "96823fb1-94e3-4b10-9e24-595e98e13910",
@@ -798,10 +838,12 @@
             "Text": "https://github.com/betamike/goinfo",
             "Link": "https://github.com/betamike/goinfo"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093485072,
         "id": "3a12e8bc-e969-44a9-b6ad-a67275f4330d",
@@ -835,10 +877,12 @@
           {
             "Text": " - github web api"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093522045,
         "id": "f72babc4-5cf4-4d3b-a53a-a58d56f2447c",
@@ -872,10 +916,12 @@
           {
             "Text": " - image manipulation in pure go (including resizing)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093531061,
         "id": "9366eb0e-c8bc-4210-88b5-09f4432fd706",
@@ -909,10 +955,12 @@
           {
             "Text": " - character encodings conversion"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093539196,
         "id": "7dc89385-f6b3-4948-9831-61339fae2c3d",
@@ -946,10 +994,12 @@
           {
             "Text": " - improved protobuf"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093545699,
         "id": "4665a72e-8c59-4c68-8e55-69acaf61d3a5",
@@ -983,10 +1033,12 @@
           {
             "Text": " - mini web framework, adds Context object"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093556740,
         "id": "6b6b08b2-4559-4824-b5ad-a18c89df44d8",
@@ -1020,10 +1072,12 @@
           {
             "Text": " - formats html"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093567282,
         "id": "9eb962f5-c8d5-48a0-bc03-1cbedfea9540",
@@ -1057,10 +1111,12 @@
           {
             "Text": " - formats numbers in human-readable way"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093575369,
         "id": "cbb3d7d5-8aed-4535-920c-c9ec5794fb96",
@@ -1094,10 +1150,12 @@
           {
             "Text": " - a nicer file-system walking interface"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093584754,
         "id": "a47032fc-432a-4983-892c-ec77a71f25cb",
@@ -1131,10 +1189,12 @@
           {
             "Text": " - charset conversions"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093594162,
         "id": "05637c70-403c-471c-89bb-11b37ccbced5",
@@ -1168,10 +1228,12 @@
           {
             "Text": " - web scraping library in Go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093602441,
         "id": "461b6a30-331a-47a7-92b0-e18f3106dd34",
@@ -1199,10 +1261,12 @@
             "Text": "https://github.com/johnsto/goserve/blob/master/handlers.go",
             "Link": "https://github.com/johnsto/goserve/blob/master/handlers.go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093612105,
         "id": "5695afcb-a0fd-4da9-9593-49dfdbe0929c",
@@ -1236,10 +1300,12 @@
           {
             "Text": " - ssh using ssh agent"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093616961,
         "id": "4235f749-e7a0-4153-8861-84d36bccfc32",
@@ -1267,10 +1333,12 @@
             "Text": "https://github.com/armon/mdns",
             "Link": "https://github.com/armon/mdns"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093623808,
         "id": "49233d45-1934-4a0c-85b6-b8f250403850",
@@ -1298,10 +1366,12 @@
             "Text": "https://github.com/armon/gomdb",
             "Link": "https://github.com/armon/gomdb"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093628417,
         "id": "21d785cb-fa22-4001-929c-8cc127aab83d",
@@ -1335,10 +1405,12 @@
           {
             "Text": " - send to statsd server"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093638760,
         "id": "515ad3f5-97ba-4b15-b4d8-19284c26b379",
@@ -1366,10 +1438,12 @@
             "Text": "https://github.com/shirou/gopsutil",
             "Link": "https://github.com/shirou/gopsutil"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093643592,
         "id": "e43ea34e-f605-4098-b8a9-8f82a1f5aa4b",
@@ -1403,10 +1477,12 @@
           {
             "Text": " - concurrent directory walking"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093649913,
         "id": "db1a88bd-5e8a-4555-8843-776244914eb1",
@@ -1440,10 +1516,12 @@
           {
             "Text": " - xml parsing"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093658551,
         "id": "a6a7a5c4-fb07-4aef-90e6-baf6bbb3acea",
@@ -1477,10 +1555,12 @@
           {
             "Text": " - pcap bindings and higher level functions on top of it"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093666007,
         "id": "460302e3-8dc8-4288-b7a9-0a83fa0bfbd4",
@@ -1514,10 +1594,12 @@
           {
             "Text": " - probably obsolete, as written by the same guy as go packet and last checkin in 2012"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093681446,
         "id": "6d5c65ea-168d-410d-ba54-0d6e9f321b5d",
@@ -1551,10 +1633,12 @@
           {
             "Text": " - Fast matching of multiple strings within a byte array or io.Reader stream"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093691062,
         "id": "549aca65-938f-4aaf-a888-44c0408d65c0",
@@ -1582,10 +1666,12 @@
             "Text": "https://github.com/facebookgo/atomicfile",
             "Link": "https://github.com/facebookgo/atomicfile"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093702391,
         "id": "4eaf76c2-8334-44ef-b517-7f419f63d1ac",
@@ -1613,10 +1699,12 @@
             "Text": "https://github.com/facebookgo/counting",
             "Link": "https://github.com/facebookgo/counting"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093706359,
         "id": "ddd9db01-cf34-498d-ab52-e34fb22e6f3f",
@@ -1650,10 +1738,12 @@
           {
             "Text": " - graceful http server shutdown"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093713574,
         "id": "762f0394-bb80-4b12-b0df-036bea110d26",
@@ -1681,10 +1771,12 @@
             "Text": "https://github.com/cratonica/2goarray",
             "Link": "https://github.com/cratonica/2goarray"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093724333,
         "id": "806938d8-f98d-4bc1-93f7-526a28d57870",
@@ -1712,10 +1804,12 @@
             "Text": "https://github.com/badgerodon/peg",
             "Link": "https://github.com/badgerodon/peg"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093728494,
         "id": "cf35c14e-7b97-4fd4-98ff-82ac54723e28",
@@ -1743,10 +1837,12 @@
             "Text": "https://github.com/avelino/awesome-go",
             "Link": "https://github.com/avelino/awesome-go"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093733548,
         "id": "3507c770-da7a-49dd-af54-0c44ce96f227",
@@ -1774,10 +1870,12 @@
             "Text": "https://github.com/hawx/img",
             "Link": "https://github.com/hawx/img"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093743429,
         "id": "93cefd3d-8057-46a2-93a7-16265451cea8",
@@ -1811,10 +1909,12 @@
           {
             "Text": " - port of xxhash to Go + cgo bindings to C version"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093748571,
         "id": "184c680c-e587-4600-a997-e8595a75af9b",
@@ -1842,10 +1942,12 @@
             "Text": "https://github.com/tv42/base58",
             "Link": "https://github.com/tv42/base58"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093754860,
         "id": "f43ee082-259c-443e-9ed1-ad6ba2a4d37b",
@@ -1873,10 +1975,12 @@
             "Text": "https://github.com/spaolacci/murmur3",
             "Link": "https://github.com/spaolacci/murmur3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093764220,
         "id": "72a0b5a4-59c1-4ac3-bb66-436ffe96b97c",
@@ -1904,10 +2008,12 @@
             "Text": "https://github.com/bkaradzic/go-lz4",
             "Link": "https://github.com/bkaradzic/go-lz4"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093768339,
         "id": "e83fbf0c-64cb-4ff2-8f34-d5cd10beb6d5",
@@ -1935,10 +2041,12 @@
             "Text": "https://github.com/vmihailenco/gforms",
             "Link": "https://github.com/vmihailenco/gforms"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093772164,
         "id": "7eb31c65-2519-4b27-b135-3ca9f4492a4b",
@@ -1966,10 +2074,12 @@
             "Text": "https://github.com/spf13/hugo",
             "Link": "https://github.com/spf13/hugo"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093777659,
         "id": "68079764-ac70-4dce-b006-0e12b1575ee4",
@@ -1997,10 +2107,12 @@
             "Text": "https://github.com/alecthomas/binary",
             "Link": "https://github.com/alecthomas/binary"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093784370,
         "id": "d9c9ee64-5eff-4c98-8ef3-c7d6261046e3",
@@ -2034,10 +2146,12 @@
           {
             "Text": " - Minimal Perfect Hashing"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093789963,
         "id": "f327ffc8-6728-4a95-a122-771f97585aa4",
@@ -2071,10 +2185,12 @@
           {
             "Text": " - mandrill and mail chimp library"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093800747,
         "id": "5b17f009-afcd-4b6e-bc4d-e49c96a5c040",
@@ -2108,10 +2224,12 @@
           {
             "Text": " - smaller just mandrill library"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093807810,
         "id": "2739caec-3b36-4aa9-bd69-ac6abcf9b3d5",
@@ -2145,10 +2263,12 @@
           {
             "Text": " - hackernes hn"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093813994,
         "id": "a414f28d-5d75-4a10-ac61-e56954f1a540",
@@ -2176,10 +2296,12 @@
             "Text": "https://github.com/dchest/siphash",
             "Link": "https://github.com/dchest/siphash"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093823962,
         "id": "d9941235-7a88-40b4-8b91-821c3282f41c",
@@ -2207,10 +2329,12 @@
             "Text": "https://github.com/dchest/jsmin",
             "Link": "https://github.com/dchest/jsmin"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093828826,
         "id": "c1b04005-1ab4-488b-b12d-169b17eb77ef",
@@ -2238,10 +2362,12 @@
             "Text": "https://github.com/dchest/htmlmin",
             "Link": "https://github.com/dchest/htmlmin"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093834715,
         "id": "1ebd5e47-43c2-4f95-8b76-40225a3daadb",
@@ -2269,10 +2395,12 @@
             "Text": "https://github.com/dchest/cssmin",
             "Link": "https://github.com/dchest/cssmin"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093841002,
         "id": "244020ab-6d71-4dc9-b94f-9d99951d65ae",
@@ -2300,10 +2428,12 @@
             "Text": "https://github.com/noraesae/orange-cat",
             "Link": "https://github.com/noraesae/orange-cat"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093845385,
         "id": "c72f90ea-5b18-420f-a253-ccc3682dd359",
@@ -2337,10 +2467,12 @@
           {
             "Text": " - generate random string that can be used in urls (a different kind of guid generator)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093849522,
         "id": "0d2d72bf-6c93-4df5-8450-39f26bb19ea3",
@@ -2374,10 +2506,12 @@
           {
             "Text": " - copy \u0026 sync between storage providers (s3, google drive, google storage etc.)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093856465,
         "id": "da8b6db7-d50c-44bf-88a4-efc1b6fb033f",
@@ -2411,10 +2545,12 @@
           {
             "Text": " - csv library"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093863729,
         "id": "54b7ffcd-2be6-4594-86ee-3b67f607ddcb",
@@ -2442,10 +2578,12 @@
             "Text": "https://github.com/gwenn/murmurhash3",
             "Link": "https://github.com/gwenn/murmurhash3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093870528,
         "id": "9684f822-500e-418f-8c63-d702c26d4f31",
@@ -2473,10 +2611,12 @@
             "Text": "https://github.com/BurntSushi/toml",
             "Link": "https://github.com/BurntSushi/toml"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093874504,
         "id": "4f25d34d-d666-44cc-9c10-b9df26004c8a",
@@ -2504,10 +2644,12 @@
             "Text": "https://github.com/andreaskoch/go-fswatch",
             "Link": "https://github.com/andreaskoch/go-fswatch"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093881656,
         "id": "7eacca50-c828-4b4b-8e00-a92849ab7cd8",
@@ -2535,10 +2677,12 @@
             "Text": "https://github.com/ttacon/tesseract",
             "Link": "https://github.com/ttacon/tesseract"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093887224,
         "id": "40a0110a-94a5-4a94-a648-15e169e17055",
@@ -2566,10 +2710,12 @@
             "Text": "https://github.com/b1lly/gob",
             "Link": "https://github.com/b1lly/gob"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093892423,
         "id": "0d39252b-38fb-41b3-a379-daa623d8a3ff",
@@ -2597,10 +2743,12 @@
             "Text": "https://bitbucket.org/rj/html2epub/overview",
             "Link": "https://bitbucket.org/rj/html2epub/overview"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093897192,
         "id": "b0645f4b-5b07-4f8b-aac1-a40b1da02a24",
@@ -2634,10 +2782,12 @@
           {
             "Text": " - build a static, high-speed, memory-efficient, Unicode-friendly set of strings"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093903169,
         "id": "86b0dc52-45fe-4344-8ffc-bd61aaca4c6f",
@@ -2665,10 +2815,12 @@
             "Text": "http://jmoiron.github.io/sqlx/",
             "Link": "http://jmoiron.github.io/sqlx/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093910023,
         "id": "d7c5d272-5604-4069-b13b-524260739cc9",
@@ -2696,10 +2848,12 @@
             "Text": "https://github.com/drbig/piratebay",
             "Link": "https://github.com/drbig/piratebay"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093913775,
         "id": "df21e9d1-2ae0-4ae4-884f-d478aacab443",
@@ -2727,10 +2881,12 @@
             "Text": "https://github.com/drone/go.stripe",
             "Link": "https://github.com/drone/go.stripe"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093919016,
         "id": "8c8312a1-eec6-4365-90c9-ed3887b46fdb",
@@ -2758,10 +2914,12 @@
             "Text": "https://github.com/orchestrate-io/dvr",
             "Link": "https://github.com/orchestrate-io/dvr"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093922774,
         "id": "fb00b73e-114c-4aeb-8f45-180f96c0bd80",
@@ -2789,10 +2947,12 @@
             "Text": "https://github.com/agonopol/readability",
             "Link": "https://github.com/agonopol/readability"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093929327,
         "id": "6158bbbf-016a-474a-b1bd-fb41ee32892c",
@@ -2820,10 +2980,12 @@
             "Text": "https://github.com/nelhage/gojit",
             "Link": "https://github.com/nelhage/gojit"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093935126,
         "id": "f7866e83-bef7-48f2-b81c-f30e421b5988",
@@ -2851,10 +3013,12 @@
             "Text": "https://github.com/nelhage/godis86",
             "Link": "https://github.com/nelhage/godis86"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093938846,
         "id": "4c6db836-9402-4c83-8b1b-28dfc83fb2e8",
@@ -2882,10 +3046,12 @@
             "Text": "https://godoc.org/github.com/codahale/safecookie",
             "Link": "https://godoc.org/github.com/codahale/safecookie"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093942422,
         "id": "dfe64491-6a7c-457a-84a1-964b0ad90587",
@@ -2913,10 +3079,12 @@
             "Text": "https://github.com/dustin/go-probably",
             "Link": "https://github.com/dustin/go-probably"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093948286,
         "id": "00ef02cf-b679-49e8-883a-acd4ad1f5b7d",
@@ -2937,10 +3105,12 @@
           {
             "Text": "https://github.com/zimmski/tirion"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530093963366,
         "id": "20d8a138-58d9-477d-824f-542c2879f1e5",
@@ -2961,10 +3131,12 @@
           {
             "Text": "https://github.com/dustin/diff"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "useful libraries",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -2988,6 +3160,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

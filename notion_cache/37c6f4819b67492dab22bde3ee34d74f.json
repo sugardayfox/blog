@@ -20,6 +20,7 @@
       "394a019d-df0c-4f4f-adbf-7d9451703f6d",
       "67395af4-d707-456f-829f-8d5283701605"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1513131566301,
     "format": {
@@ -43,6 +44,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131570991,
         "id": "5422710f-1de6-49de-b381-74dab01d9cd9",
@@ -93,10 +95,12 @@
           {
             "Text": " )"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131597934,
         "id": "890ae523-9393-4771-99ba-7ab04c3ef64c",
@@ -129,10 +133,12 @@
           {
             "Text": " : int → double, pointer → void* etc."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131620901,
         "id": "35737a57-c75a-46d5-91f8-4011ff637218",
@@ -165,10 +171,12 @@
           {
             "Text": " : \"trust me\" cast"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131653042,
         "id": "9039c6aa-2d8d-4cfb-9cf1-dee5bd5207b8",
@@ -201,10 +209,12 @@
           {
             "Text": " : only for polymorphic types (those that have virtual functions) and when rtti is enabled. Used to cast up\u0026down inheritance hierarchy. Returns null if cast can't be done on a pointer. Throws exception if cast fails on reference type."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131856126,
         "id": "7e221d32-d391-4b19-9ab7-a1de251faf9e",
@@ -279,10 +289,12 @@
           {
             "Text": " ?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730784442,
         "id": "84f887a1-d248-4ce5-bad2-1a099890fbb5",
@@ -303,10 +315,12 @@
           {
             "Text": "Google rules"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730788718,
         "id": "f1836b13-a351-4cd1-a320-d6dd72415b57",
@@ -327,10 +341,12 @@
           {
             "Text": "Do not use C-style casts. Instead, use these C++-style casts when explicit type conversion is necessary."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730788721,
         "id": "d445a90c-582b-42fb-9867-878f58d3ddad",
@@ -369,10 +385,12 @@
           {
             "Text": "). This is the safest approach because code will not compile if conversion can result in information loss. The syntax is also concise."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730788722,
         "id": "3afb3ccf-5347-4bd9-a865-353c11ee6029",
@@ -411,10 +429,12 @@
           {
             "Text": " as the equivalent of a C-style cast that does value conversion, when you need to explicitly up-cast a pointer from a class to its superclass, or when you need to explicitly cast a pointer from a superclass to a subclass. In this last case, you must be sure your object is actually an instance of the subclass."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730788723,
         "id": "ff862bb6-d99e-4514-9427-13b8a3c4cad7",
@@ -490,10 +510,12 @@
           {
             "Text": ")."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730788723,
         "id": "8b8ef382-ab87-4c17-9b3d-fbdfa64d04bb",
@@ -532,10 +554,12 @@
           {
             "Text": " to do unsafe conversions of pointer types to and from integer and other pointer types. Use this only if you know what you are doing and you understand the aliasing issues."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131755537,
         "id": "66f55f7b-9849-43b3-8661-ddac92a4246c",
@@ -556,10 +580,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131808926,
         "id": "5e60e25c-074b-47d8-bd5a-d70ba8df5b0e",
@@ -587,10 +613,12 @@
             "Text": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used",
             "Link": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513131827823,
         "id": "ea67680a-f73a-4c70-9833-dd084ff18270",
@@ -618,10 +646,12 @@
             "Text": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1",
             "Link": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513730850471,
         "id": "394a019d-df0c-4f4f-adbf-7d9451703f6d",
@@ -649,10 +679,12 @@
             "Text": "https://google.github.io/styleguide/cppguide.html#Casting",
             "Link": "https://google.github.io/styleguide/cppguide.html#Casting"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1513132097912,
         "id": "67395af4-d707-456f-829f-8d5283701605",
@@ -661,10 +693,12 @@
         "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "CollectionViews": null
       }
     ],
     "title": "C++ casts",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -688,6 +722,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

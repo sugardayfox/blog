@@ -8,6 +8,7 @@
       "2d4a165e-8814-4dc2-893f-f9a5b9b316fb",
       "a96f24a4-64fc-4e65-a763-1e5c007d88be"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493077477989,
     "id": "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
@@ -27,6 +28,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512024101394,
         "id": "c2e36c7c-030c-48db-94f4-4b53d35ca45b",
@@ -47,10 +49,12 @@
           {
             "Text": "Running with memleak detection:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512024111622,
         "id": "3b8be8aa-ac63-4e9e-a5d6-062c5d697c5e",
@@ -83,10 +87,12 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493077484545,
         "id": "2d4a165e-8814-4dc2-893f-f9a5b9b316fb",
@@ -120,10 +126,12 @@
             "Text": "https://eklitzke.org/an-introduction-to-valgrind-memcheck",
             "Link": "https://eklitzke.org/an-introduction-to-valgrind-memcheck"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493077488553,
         "id": "a96f24a4-64fc-4e65-a763-1e5c007d88be",
@@ -132,10 +140,12 @@
         "parent_id": "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
-    "title": "valgrind"
+    "title": "valgrind",
+    "CollectionViews": null
   },
   "Users": [
     {
@@ -151,6 +161,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

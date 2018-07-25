@@ -10,6 +10,7 @@
       "3a742d00-ddfd-4ebc-ade0-e36203c8beaa",
       "8a5ef93e-a76d-48ae-98de-4fccf3ad2ab3"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1510030989726,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510030989726,
         "id": "03a72411-5de1-46fd-b5df-19479f0a4547",
@@ -53,10 +55,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510031026272,
         "id": "bd8b28b4-c929-427c-b577-1eecd64cda0e",
@@ -84,10 +88,12 @@
             "Text": "https://github.com/henricj/audacity/blob/x64/appveyor.yml",
             "Link": "https://github.com/henricj/audacity/blob/x64/appveyor.yml"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510031013927,
         "id": "ac6b7ee3-aea9-424b-b43d-4a1df085d753",
@@ -115,10 +121,12 @@
             "Text": "https://github.com/coelckers/gzdoom/blob/master/.appveyor.yml",
             "Link": "https://github.com/coelckers/gzdoom/blob/master/.appveyor.yml"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1519518706047,
         "id": "bcb8fb7d-fb91-4a8b-b1d0-ad28d0fcaad7",
@@ -146,10 +154,12 @@
             "Text": "https://github.com/RPCS3/rpcs3/blob/master/appveyor.yml",
             "Link": "https://github.com/RPCS3/rpcs3/blob/master/appveyor.yml"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1519598440030,
         "id": "3a742d00-ddfd-4ebc-ade0-e36203c8beaa",
@@ -177,10 +187,12 @@
             "Text": "http://blog.tdwright.co.uk/2018/02/25/automating-nuget-deployment-with-appveyor/",
             "Link": "http://blog.tdwright.co.uk/2018/02/25/automating-nuget-deployment-with-appveyor/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510031012858,
         "id": "8a5ef93e-a76d-48ae-98de-4fccf3ad2ab3",
@@ -189,10 +201,12 @@
         "parent_id": "9733706b-8f79-42bd-9f80-c02690d40285",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       }
     ],
     "title": "appveyor",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -216,6 +230,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

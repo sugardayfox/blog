@@ -44,6 +44,8 @@
       "6fb29860-f39d-4a85-b89e-80023e73d0a9",
       "5e313093-fc2d-4e73-be29-654945f1792b"
     ],
+    "copied_from": "d12953fd-93dd-4f45-8195-1c391b27e533",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736870650,
     "format": {
@@ -67,6 +69,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870650,
         "id": "6c2dcfae-bbe4-48fd-a2d3-760fbbd4ca6f",
@@ -87,10 +90,12 @@
           {
             "Text": "Id: 1416002"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870650,
         "id": "de65bea9-7392-4571-8e3c-a9d694e7d064",
@@ -111,10 +116,12 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870650,
         "id": "211e46d1-07bb-4771-ab00-673f69a8c5b6",
@@ -135,10 +142,12 @@
           {
             "Text": "Date: 2013-10-30T18:34:49-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870650,
         "id": "9e470fd0-d41c-4631-a765-9696dcfc74d2",
@@ -147,10 +156,12 @@
         "parent_id": "e8cef214-c816-4ed4-bb21-59b136367b28",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870650,
         "id": "d74b7ad4-097b-4473-8238-8f8a18cf1b18",
@@ -171,10 +182,12 @@
           {
             "Text": "Fabric - a tool for writing deployment scripts"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "0fbb3515-defe-4d28-acc2-817ba703ed17",
@@ -214,10 +227,12 @@
           {
             "Text": " (written in Go) from my Mac dev computer to a production server:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "b0ff79f0-d692-437b-bc5f-b2bc70fde32e",
@@ -238,10 +253,12 @@
           {
             "Text": "compile the source .go files to an executable, on the server"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "d662a611-f0e5-496d-acf3-6acb8201637b",
@@ -262,10 +279,12 @@
           {
             "Text": "which means I have to copy the source files from my dev machine to a server"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "0905bc99-1a4c-4231-b2cb-c3800f718c79",
@@ -286,10 +305,12 @@
           {
             "Text": "ideally run tests to make sure I didn’t introduce regressions"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "8ff97aba-4c71-4788-80a6-c793c8b34426",
@@ -310,10 +331,12 @@
           {
             "Text": "shut-down the currently running version"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "b4353399-b14b-47b8-8c2a-858106a4f628",
@@ -334,10 +357,12 @@
           {
             "Text": "start the new version"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "f553656b-ad43-42e7-9b07-5b81e4b923c3",
@@ -377,10 +402,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870651,
         "id": "7e0f0601-5bb1-45d4-a480-de9f6107e778",
@@ -401,10 +428,12 @@
           {
             "Text": "The solution is automation, but that’s tricky since it involves operations both on the local machine (like prepare the source for upload) and remote server (like compiling the sources on the server)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "914811ba-fb64-4ed0-8a23-70cde902fe43",
@@ -444,10 +473,12 @@
           {
             "Text": " exists."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "6fe73a18-3aba-45fa-b360-fc52be8eab02",
@@ -468,10 +499,12 @@
           {
             "Text": "Fabric is both a tool written in Python and a library of Python code for writing automatic deployment scripts."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "baf2ee0a-13c0-4fd4-b379-088ed0964ffb",
@@ -492,10 +525,12 @@
           {
             "Text": "Installation"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "c58e65c4-984b-4cb6-853f-8b7619aecf3b",
@@ -528,10 +563,12 @@
             "Text": "sudo easy_install pip; sudo pip install fabric",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "0afed762-954a-4e4a-b731-6a71102bbfc8",
@@ -552,10 +589,12 @@
           {
             "Text": "Usage basics"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "73e7dc7b-be9b-417f-b52a-5552b1ccedfe",
@@ -576,10 +615,12 @@
           {
             "Text": "The basics of Fabric are:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "580d86e1-5262-4862-bcb0-43cbe6bb8b1a",
@@ -612,10 +653,12 @@
             "Text": "fabfile.py",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "22175d2e-5f34-4e8e-83d0-9524c46f7897",
@@ -654,10 +697,12 @@
           {
             "Text": " can be thought of as an action"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "14df2e30-eb45-4972-8f5f-4adb90363688",
@@ -708,10 +753,12 @@
             "Text": "fab action",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870652,
         "id": "c7e807d7-5bf1-46b2-8bf9-fce3f7c31e8f",
@@ -768,10 +815,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "d1137e7c-7f65-4654-a3fa-cd8dd23770c3",
@@ -792,10 +841,12 @@
           {
             "Text": "Remote execution is via ssh"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "285ad3d8-54a8-42e5-b661-0329912fc030",
@@ -816,10 +867,12 @@
           {
             "Text": "The code is deployed to Unix-based servers via ssh, so for convenience you can set up password-less (public key based) login for the account you use for deployment."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "7cb12dbf-2888-435d-9913-285d2939e204",
@@ -840,10 +893,12 @@
           {
             "Text": "The code running locally runs under your account."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "56544422-dc0a-42e1-b49b-ea7c18c8ff71",
@@ -864,10 +919,12 @@
           {
             "Text": "You need to specify which account on the server to use."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "92624dde-4c77-408d-9465-8538a62c6f0d",
@@ -888,10 +945,12 @@
           {
             "Text": "You can run an action against a single server or multiple servers at once."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "52303605-9f04-445a-acb6-95d29b3a8684",
@@ -912,10 +971,12 @@
           {
             "Text": "Possibilites"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "b8ba68b8-961a-4543-a275-d4f3206898ba",
@@ -936,10 +997,12 @@
           {
             "Text": "Fabric can run arbitrary code both locally and on the server, so the possibilities are, literally, limitless."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "edda20b6-0b3e-42d7-8b21-12c63cb5abef",
@@ -979,10 +1042,12 @@
           {
             "Text": " is an example of a fairly complex script."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870653,
         "id": "abd6bf3c-0c83-4bfe-91e0-51b9c2fa03ec",
@@ -1003,10 +1068,12 @@
           {
             "Text": "What you can learn from it:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "b3b325de-399e-4c0e-987b-275635fae0d4",
@@ -1057,10 +1124,12 @@
             "Text": "env.hosts",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "911ff3bd-be77-4fd9-b073-a38a5f1afbb3",
@@ -1081,10 +1150,12 @@
           {
             "Text": "how to create a zip file locally, upload it to the server and unzip it there"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "b8707637-33cf-43e0-9286-baad4801ed98",
@@ -1105,10 +1176,12 @@
           {
             "Text": "how to compile sources both locally (no point uploading if the code doesn’t compile) and on the server (to build the final executable)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "b0b6a5e3-a607-4126-be3a-ddd93f15a754",
@@ -1129,10 +1202,12 @@
           {
             "Text": "how to run tests both locally and remotely"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "7d0c8185-0c57-4823-b334-73d404abf9d5",
@@ -1153,10 +1228,12 @@
           {
             "Text": "how to safely deploy a new version while preserving a way to easily revert to previous version in case of problems"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "7a293395-0889-41ec-a95d-2cd632501998",
@@ -1177,10 +1254,12 @@
           {
             "Text": "how to do the the first-time setup (in case of deploying to a new server)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "6fb29860-f39d-4a85-b89e-80023e73d0a9",
@@ -1201,10 +1280,12 @@
           {
             "Text": "I’ve used Fabric in 3 of my projects and it does what it supposed to do well."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870654,
         "id": "5e313093-fc2d-4e73-be29-654945f1792b",
@@ -1225,10 +1306,12 @@
           {
             "Text": "If I was writing new project from scratch, I would automate essentially everything related to setting up a new instance (it doesn’t make sense to do it for existing projects since they’re already set up)."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Using Fabric for deploying server software",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1252,6 +1335,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

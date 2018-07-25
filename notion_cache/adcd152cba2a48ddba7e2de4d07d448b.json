@@ -9,6 +9,8 @@
       "ff77f133-7a8f-4791-8b4c-15b47a7a3e55",
       "c4bfc1a0-f691-4d03-901c-3b83ef4e64cf"
     ],
+    "copied_from": "1a5db821-3dec-44a6-a040-4d8fe6e5c40b",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195786211,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786212,
         "id": "e5f12058-b779-48b3-9ee4-2da187803275",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 578"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786212,
         "id": "4114bbe5-a44c-4365-82cb-7cf86c41e413",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-03-31T20:12:56-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531625547816,
         "id": "2c392746-8993-4cc9-bc16-fb8295b85954",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786212,
         "id": "ff77f133-7a8f-4791-8b4c-15b47a7a3e55",
@@ -112,10 +121,12 @@
         "parent_id": "adcd152c-ba2a-48dd-ba7e-2de4d07d448b",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195786212,
         "id": "c4bfc1a0-f691-4d03-901c-3b83ef4e64cf",
@@ -187,10 +198,12 @@
           {
             "Text": " and he just might have a chance at doing it right."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Asking the right question about language design",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -214,6 +227,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

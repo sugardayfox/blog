@@ -11,6 +11,8 @@
       "6b4e478f-dcb9-4688-a0b0-cd3e9bcc9e2a",
       "0189fe53-702e-4b8c-9afa-5d98a0b67f77"
     ],
+    "copied_from": "4e820a97-9320-4b5c-a5fd-a9baef513384",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531736870583,
     "format": {
@@ -34,6 +36,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870583,
         "id": "f40b9e33-08e6-47f8-beae-ab52c39f399d",
@@ -54,10 +57,12 @@
           {
             "Text": "Id: 8"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870583,
         "id": "49264c39-dc71-4c63-8215-cf459f76df7b",
@@ -78,10 +83,12 @@
           {
             "Text": "Tags: software, releasenotes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870583,
         "id": "a5dbaaf1-e815-4edc-9eb2-98df1748a9af",
@@ -102,10 +109,12 @@
           {
             "Text": "Date: 2013-10-29T23:19:15-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870583,
         "id": "ed4eb7e1-defc-4886-90b7-36e39988451a",
@@ -114,10 +123,12 @@
         "parent_id": "4ef21f46-006b-4691-b0b5-00b9981766df",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870583,
         "id": "adb57f1e-e67e-4bb7-aef1-64efd5e9159f",
@@ -151,10 +162,12 @@
           {
             "Text": " is a parallel gzip implementation. It recently got a new 2.3.1 version."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870584,
         "id": "6b4e478f-dcb9-4688-a0b0-cd3e9bcc9e2a",
@@ -194,10 +207,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531736870584,
         "id": "0189fe53-702e-4b8c-9afa-5d98a0b67f77",
@@ -206,10 +221,12 @@
         "parent_id": "4ef21f46-006b-4691-b0b5-00b9981766df",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "CollectionViews": null
       }
     ],
     "title": "Pigz windows port 2.3.1 released",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -233,6 +250,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

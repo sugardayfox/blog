@@ -13,6 +13,8 @@
       "e3ce8802-0e11-4c63-bdb5-1c3de72307b7",
       "25d9506a-b4ac-4b8c-bd80-f19d048ab2c8"
     ],
+    "copied_from": "8891f80c-f181-4855-b304-a65b2222e5d1",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923307,
     "format": {
@@ -36,6 +38,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "59048722-7a5f-4ee5-b4b9-4e9c9b7f25a4",
@@ -56,10 +59,12 @@
           {
             "Text": "Id: 1010"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "fd0abf3b-14f8-4153-bf9e-397fd8034c1d",
@@ -80,10 +85,12 @@
           {
             "Text": "Tags: unix"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "15397c4e-ba45-498a-a45d-481784c94bdc",
@@ -104,10 +111,12 @@
           {
             "Text": "Date: 2008-03-27T17:02:30-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "0eedb634-7fd3-4e72-aa8c-40912a914de6",
@@ -116,10 +125,12 @@
         "parent_id": "71497e6c-49d5-4fcc-889e-1b39fdd453da",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "adbccc73-9fc4-4184-8a29-a8f8a1443808",
@@ -140,10 +151,12 @@
           {
             "Text": "To make someone a sudoer:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "23554524-ec30-474c-a3dd-10c1f6e6c05a",
@@ -200,10 +213,12 @@
           {
             "Text": " and add:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "01a63c63-dd9c-4678-800e-df9d992a5460",
@@ -226,10 +241,12 @@
         "type": "code",
         "version": 1,
         "code": "%username ALL=(ALL) NOPASSWD: ALL",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "e3ce8802-0e11-4c63-bdb5-1c3de72307b7",
@@ -250,10 +267,12 @@
           {
             "Text": "e.g.:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923307,
         "id": "25d9506a-b4ac-4b8c-bd80-f19d048ab2c8",
@@ -276,10 +295,12 @@
         "type": "code",
         "version": 1,
         "code": "%kkowalczyk ALL=(ALL) NOPASSWD: ALL",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "making unix user a sudoer",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -303,6 +324,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

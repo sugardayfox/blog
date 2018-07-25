@@ -10,6 +10,8 @@
       "77862623-d188-44e8-bc6a-5b65df96f257",
       "43aa49ef-3c55-4f0d-9637-80110d5e00f8"
     ],
+    "copied_from": "af7059bc-9f69-4838-bc2d-aecbfde122e2",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195805900,
     "format": {
@@ -33,6 +35,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805901,
         "id": "e65a7017-86b5-4339-b33e-3c40f4f0ae3e",
@@ -53,10 +56,12 @@
           {
             "Text": "Id: 832"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805901,
         "id": "0647b21e-e352-49e7-abc5-abfdce88658b",
@@ -77,10 +82,12 @@
           {
             "Text": "Date: 2004-06-13T17:12:54-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531624763738,
         "id": "8a7f56df-607f-414b-9a45-eaa0fe94adfd",
@@ -101,10 +108,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805901,
         "id": "b8efc06a-615d-4e8a-b400-59016e6a4e84",
@@ -113,10 +122,12 @@
         "parent_id": "1cc14ab2-0ed4-495f-8356-fccc7a6c320b",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805901,
         "id": "77862623-d188-44e8-bc6a-5b65df96f257",
@@ -156,10 +167,12 @@
           {
             "Text": ". wTail does on Windows what tail does on Unix. You can monitor changes to a text file. Ideal for watching log files or Apache error logs during development. Requires .NET Framework 1.1."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195805901,
         "id": "43aa49ef-3c55-4f0d-9637-80110d5e00f8",
@@ -218,10 +231,12 @@
           {
             "Text": ")."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "wTail release",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -245,6 +260,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

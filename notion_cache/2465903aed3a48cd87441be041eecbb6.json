@@ -5,6 +5,7 @@
     "content": [
       "98bc68bb-846c-42eb-a8eb-e2386992ac5f"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1511412122115,
     "id": "2465903a-ed3a-48cd-8744-1be041eecbb6",
@@ -24,6 +25,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1502242584256,
         "id": "98bc68bb-846c-42eb-a8eb-e2386992ac5f",
@@ -51,10 +53,12 @@
             "Text": "http://luckypeach.com/recipes/hot-and-sour-soup-101-easy-asian-recipes/",
             "Link": "http://luckypeach.com/recipes/hot-and-sour-soup-101-easy-asian-recipes/"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
-    "title": "luckypeach.com"
+    "title": "luckypeach.com",
+    "CollectionViews": null
   },
   "Users": [
     {
@@ -70,6 +74,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

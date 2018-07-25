@@ -6,6 +6,7 @@
       "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
       "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1532381987679,
     "format": {
@@ -29,6 +30,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532381990610,
         "id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
@@ -49,10 +51,12 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532381993363,
         "id": "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51",
@@ -80,10 +84,12 @@
             "Text": "https://svelte.technology/guide",
             "Link": "https://svelte.technology/guide"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "svelte",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -107,6 +113,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

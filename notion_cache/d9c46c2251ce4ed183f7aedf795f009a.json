@@ -12,6 +12,8 @@
       "8ad8ad05-3262-4320-8686-c8ecec004bf7",
       "f42d9527-7f91-4c13-9f34-e6323cc82da6"
     ],
+    "copied_from": "532df9df-50ef-4313-88c8-8ddacd7c9ad7",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195944369,
     "format": {
@@ -35,6 +37,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "ee410c0b-9d70-474d-a993-1438ab53bf11",
@@ -55,10 +58,12 @@
           {
             "Text": "Id: 3081"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "59022cf5-7951-4289-b34a-5af4c78ef61f",
@@ -79,10 +84,12 @@
           {
             "Text": "Date: 2009-02-18T00:57:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "3ed99fe2-61ed-45d1-b792-f05c5cd1f240",
@@ -103,10 +110,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "338a9697-8336-473f-8ee1-a57a687d3a5d",
@@ -127,10 +136,12 @@
           {
             "Text": "Tags: objective c"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "64228b95-75f2-45f8-8395-4342a3347cad",
@@ -139,10 +150,12 @@
         "parent_id": "d9c46c22-51ce-4ed1-83f7-aedf795f009a",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944369,
         "id": "91c58482-46f6-4f28-98e8-7426fc17d977",
@@ -163,10 +176,12 @@
           {
             "Text": "If you get weird crashes that look as if some other Cocoa class is releasing your object prematurely and an access to instance variables crashes because object has already been freed, check what protocols your class’s superclass conforms to."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944370,
         "id": "8ad8ad05-3262-4320-8686-c8ecec004bf7",
@@ -277,10 +292,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195944370,
         "id": "f42d9527-7f91-4c13-9f34-e6323cc82da6",
@@ -319,10 +336,12 @@
           {
             "Text": " nor any of your other memory debug tricks trigger for it."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "NSCopying, NSMutableCopying or NSCoding",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -346,6 +365,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

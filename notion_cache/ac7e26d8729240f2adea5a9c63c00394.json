@@ -47,6 +47,7 @@
       "5e78ff31-58e8-4853-9d72-ad5bb637a61f",
       "8c0b0f33-006d-4e4a-a04a-4c23365c9ed0"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531888786627,
     "file_ids": [
@@ -76,6 +77,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889799187,
         "id": "b55ae2ad-f565-46a7-8960-cefb115153c4",
@@ -96,10 +98,12 @@
           {
             "Text": "Id: 23"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889799188,
         "id": "6ac5b79a-ff20-41c0-8a3c-627e64b1bb70",
@@ -120,10 +124,12 @@
           {
             "Text": "Date: 2018-01-31T15:32:55-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889799188,
         "id": "b49d3e5e-0f84-4e11-b0f6-9efc9922a759",
@@ -144,10 +150,12 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889799188,
         "id": "70562d9f-50ee-4000-86a8-ee916644b0ce",
@@ -168,10 +176,12 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889799188,
         "id": "d955d757-1527-4422-97ad-89838c11c619",
@@ -192,10 +202,12 @@
           {
             "Text": "Description: Fuzzing markdown parser written in Go with go-fuzz"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531889792606,
         "id": "04b41038-a160-45a5-a882-dc20f4d64b9a",
@@ -204,10 +216,12 @@
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786610,
         "id": "e0d12990-e40d-4608-be2e-60cf44ed7aa5",
@@ -248,10 +262,12 @@
           {
             "Text": " for Go."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786611,
         "id": "19e70f52-03ef-462a-8e3c-60aed1bf96e9",
@@ -273,10 +289,12 @@
           {
             "Text": "To make sure it’s robust (no crashes, no hangs) I decided to fuzz it."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786611,
         "id": "355410ff-cf06-4aa7-a50f-e5e825b083e4",
@@ -298,10 +316,12 @@
           {
             "Text": "What is fuzzing?"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786611,
         "id": "fdccf734-3265-4ef8-b939-4a831dfd9eb0",
@@ -323,10 +343,12 @@
           {
             "Text": "Parsing text or binary formats is notoriously tricky."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786611,
         "id": "500765f1-6978-4265-b991-5b3f37eb0949",
@@ -348,10 +370,12 @@
           {
             "Text": "It’s easy to make mistakes that can lead to security exploits."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786612,
         "id": "6bd2cbb6-7c99-4290-94f2-542534c54462",
@@ -386,10 +410,12 @@
           {
             "Text": " is one technique used to combat this."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786612,
         "id": "3333e025-1dde-4187-8e8d-92ae507d28aa",
@@ -411,10 +437,12 @@
           {
             "Text": "The idea is simple: * magic algorithm generates randomized input data * we feed this data to parsing code * code instrumentation detects if parsing code crashes or overwrites memory"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786613,
         "id": "e97cd1ee-64f0-4cff-8d13-f335a0bab318",
@@ -436,10 +464,12 @@
           {
             "Text": "Fuzzing in Go is simple"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786613,
         "id": "160d2e2c-13df-4e65-9445-aeaf0bda9d13",
@@ -461,10 +491,12 @@
           {
             "Text": "Writing a fuzzer for C or C++ code is hard."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786613,
         "id": "f84a814a-e775-4338-a68c-ce30e1d74545",
@@ -505,10 +537,12 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786614,
         "id": "f53d4d09-212b-49ee-9f88-217aba841e1c",
@@ -530,10 +564,12 @@
           {
             "Text": "It took me about an hour to write a fuzzer for my markdown parser."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786614,
         "id": "ac825fd1-5464-4125-b522-6ba8a38ff95a",
@@ -555,10 +591,12 @@
           {
             "Text": "Fuzzing step-by-step"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786614,
         "id": "fe9e3206-d147-4729-9567-55292ade872d",
@@ -580,10 +618,12 @@
           {
             "Text": "First we need to get the tools:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786614,
         "id": "ef90d0be-62c8-4d17-ad7d-9ca3a7bc4ae2",
@@ -607,10 +647,12 @@
         "type": "code",
         "version": 5,
         "code": "$ go get github.com/dvyukov/go-fuzz/go-fuzz\n$ go get github.com/dvyukov/go-fuzz/go-fuzz-build",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786615,
         "id": "bf937375-8f95-4ab9-becf-aae60c693cf4",
@@ -650,10 +692,12 @@
           {
             "Text": " function which takes markdown text as input and parses it into an abstract syntax tree."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786615,
         "id": "5ebb110d-d7bd-468a-a3bb-7877cf7162e2",
@@ -693,10 +737,12 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786616,
         "id": "85a071ae-8e22-49c3-89d4-1405224b07f2",
@@ -720,10 +766,12 @@
         "type": "code",
         "version": 3,
         "code": "// +build gofuzz\n\npackage markdown\n\n// Fuzz is to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786617,
         "id": "b6f69c97-5e8d-463f-bf56-18000233d1f6",
@@ -763,10 +811,12 @@
           {
             "Text": " function, which is an API that go-fuzz expects."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786617,
         "id": "f685ce1e-6a96-4f6c-a165-c1e206707baa",
@@ -806,10 +856,12 @@
           {
             "Text": " line."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786617,
         "id": "b4ec9bff-938a-4bfc-8360-6ce4435ca5e7",
@@ -849,10 +901,12 @@
           {
             "Text": " build tag."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "fd837fbc-b637-43cf-803b-d31970861f0c",
@@ -874,10 +928,12 @@
           {
             "Text": "Having the fuzzer generate completely random data is better than nothing but it’s much better if fuzzer can be seeded with sample valid content."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "59760f7e-0e24-4ff7-8f1a-63fdb463aec0",
@@ -917,10 +973,12 @@
           {
             "Text": " directory."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "a8cd6af5-917a-4171-a2b8-89c6fc858f04",
@@ -942,10 +1000,12 @@
           {
             "Text": "I used those to initialize the fuzzer:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "96bc2c45-eb11-47d4-be55-5e46ac223a9c",
@@ -969,10 +1029,12 @@
         "type": "code",
         "version": 5,
         "code": "# create a working directory for the fuzzer\n$ mkdir -p fuzz-workdir\n\n# copy the files that seed fuzzing to corpus sub-directory of working directory\n$ mkdir -p fuzz-workdir/corpus\n$ cp testdata/*.text fuzz-workdir/corpus\n\n# generate the fuzzing program. This compiles fuzz.go we wrote earlier\n# generates fuzzer executable and markdown-fuzz.zip that packages\n# data to drive fuzzing process\n$ go-fuzz-build github.com/gomarkdown/markdown",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "2f0dd7cc-fffa-4955-a2f7-67f820dfa642",
@@ -1012,10 +1074,12 @@
           {
             "Text": " step can take a while."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786618,
         "id": "4ea9affa-2721-4b58-bfa5-0ad74131260e",
@@ -1037,10 +1101,12 @@
           {
             "Text": "Finally we start fuzzing process:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786619,
         "id": "5766b859-1f4a-4ab6-aebd-288e9781fd24",
@@ -1064,10 +1130,12 @@
         "type": "code",
         "version": 3,
         "code": "$ go-fuzz -bin=./markdown-fuzz.zip -workdir=fuzz-workdir",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786619,
         "id": "7c740fd5-d704-4686-b00e-e119412387b5",
@@ -1089,10 +1157,12 @@
           {
             "Text": "This runs for as long as you let it. Fuzzing works by generating random input data so it can go forever."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786619,
         "id": "4a3bbddc-a0bd-44f3-af49-e9c410f1026a",
@@ -1132,10 +1202,12 @@
           {
             "Text": " and it’ll pick up where it left off."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786620,
         "id": "cb0ec3f3-5083-4142-aa54-a1fb35c79749",
@@ -1175,10 +1247,12 @@
           {
             "Text": " directory."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786622,
         "id": "a9b0f6f0-1cb6-4c74-b482-63f526f0b7ea",
@@ -1223,10 +1297,12 @@
           {
             "Text": " script."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786622,
         "id": "e0328cd3-afbd-441c-8008-67607d038751",
@@ -1248,10 +1324,12 @@
           {
             "Text": "That way I can re-run it easily after making changes to the parser to verify I didn’t introduce bugs."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786622,
         "id": "d641045c-91a1-4708-9877-db17e9f214e7",
@@ -1273,10 +1351,12 @@
           {
             "Text": "The fuzzer has advanced options like fuzzing using multiple machines."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786622,
         "id": "5395ca89-ff39-443f-bf69-678d97bd6ad4",
@@ -1298,10 +1378,12 @@
           {
             "Text": "The results"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786622,
         "id": "36003c51-85b6-442b-b2d4-b252bf6ea33d",
@@ -1323,10 +1405,12 @@
           {
             "Text": "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or entered infinite loop."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786627,
         "id": "5e78ff31-58e8-4853-9d72-ad5bb637a61f",
@@ -1405,10 +1489,12 @@
           {
             "Text": " and covered by unit tests."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531888786627,
         "id": "8c0b0f33-006d-4e4a-a04a-4c23365c9ed0",
@@ -1430,10 +1516,12 @@
           {
             "Text": "Go West and Fuzz!"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Fuzzing Markdown parser written in Go",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/629ba763-27bc-462f-9a07-639c0b0bad58/header-21.jpg",
       "page_cover_position": 0.5,
@@ -1458,6 +1546,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

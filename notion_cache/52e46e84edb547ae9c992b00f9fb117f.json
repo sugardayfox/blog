@@ -20,6 +20,8 @@
       "1dbc3132-2a3f-44c2-852b-96d24d3eb59c",
       "e6cc8ba5-744b-435e-8af6-653dac28d90e"
     ],
+    "copied_from": "4ca5996a-ac2d-45e7-a11d-896e9ead4c91",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195850020,
     "format": {
@@ -43,6 +45,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "9e48c215-bf6c-4214-8185-7941abb9206a",
@@ -63,10 +66,12 @@
           {
             "Text": "Id: 1293"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "405b5490-1c31-4c0a-8114-c652ca029e54",
@@ -87,10 +92,12 @@
           {
             "Text": "Tags: c, programming"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "d2cb4b21-0caf-47ef-a84c-42bc6ee522dd",
@@ -111,10 +118,12 @@
           {
             "Text": "Date: 2006-02-11T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "973bdc2e-8872-41b3-baff-9df8173ff99e",
@@ -123,10 +132,12 @@
         "parent_id": "52e46e84-edb5-47ae-9c99-2b00f9fb117f",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "32f98a90-b575-4fc9-b91d-d1d19eb3dfb9",
@@ -165,10 +176,12 @@
           {
             "Text": " is a sad necessity for portable C\\C++ programming. This is a list of a few symbols that are often used for writing really portable programs (those that run on Unix\\Windows\\MacOS\\Palm OS etc.). This list is meant as a quick reference, not an in-depth explanation."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "64fde52f-5b50-4ad6-9ec6-79d2c00fd248",
@@ -201,10 +214,12 @@
           {
             "Text": " - defines Windows CE version (i.e. if defined, this is Windows CE)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "b7913f67-7d78-4ec0-90b4-9dfe80816f7f",
@@ -255,10 +270,12 @@
           {
             "Text": " - usually mean compilation for Windows"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "bcfb3d3e-f1de-42c8-aaf2-5e4e4e87dec3",
@@ -291,10 +308,12 @@
           {
             "Text": " - compiled by gcc under CYGWIN (Unix emulation layer for Windows)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "a264f808-ef59-4d10-b9e8-098ad2b1e1c7",
@@ -327,10 +346,12 @@
           {
             "Text": " - compiled by gcc under Mingw32 - Unix portability layer for Windows"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "038cd61e-79b6-4d77-88df-7d63242a267f",
@@ -363,10 +384,12 @@
           {
             "Text": " - on Windows means that TCHAR is WCHAR (or wchar_t) i.e. 16-bit unicode character. On Windows CE this is the only option."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "d3794957-36ee-4f49-ac46-eb9cf7970732",
@@ -399,10 +422,12 @@
           {
             "Text": " - set if compiled with Borland C compiler"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "5afd990b-e671-48d1-a88f-9bf58e9e1d5f",
@@ -435,10 +460,12 @@
           {
             "Text": " - defines a version of Microsoft C compiler"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "3f094806-f8ab-4c4a-bbe5-394f003f695c",
@@ -471,10 +498,12 @@
           {
             "Text": " - defined when using gcc"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "b4286ccf-3852-48db-bdac-ddb0826c82c4",
@@ -507,10 +536,12 @@
           {
             "Text": " - defined if this is a release (i.e. not DEBUG) build"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "1dbc3132-2a3f-44c2-852b-96d24d3eb59c",
@@ -543,10 +574,12 @@
           {
             "Text": " - often defined for debug builds (opposite of NDEBUG)"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195850020,
         "id": "e6cc8ba5-744b-435e-8af6-653dac28d90e",
@@ -579,10 +612,12 @@
           {
             "Text": " - compilation for Palm OS"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "C portability notes",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -606,6 +641,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

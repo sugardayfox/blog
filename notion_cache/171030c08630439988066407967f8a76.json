@@ -18,6 +18,8 @@
       "eac5d2ba-a14a-4114-b2a7-403832a57edd",
       "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9"
     ],
+    "copied_from": "14bbcdfb-f9c1-43c9-a651-a5d3fbb0cf5f",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195848766,
     "format": {
@@ -41,6 +43,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848766,
         "id": "32d0a5f9-194c-4111-94ef-d32732a7d287",
@@ -61,10 +64,12 @@
           {
             "Text": "Id: 301"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "d4d6ce5e-ede9-41e0-ab73-936aa14c308c",
@@ -85,10 +90,12 @@
           {
             "Text": "Tags: reference"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "f791acfc-cfca-46bd-9df7-40cb4b3d72d6",
@@ -109,10 +116,12 @@
           {
             "Text": "Date: 2006-01-13T16:00:00-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "dd4c0ce8-201d-472b-a649-f0f844a77048",
@@ -121,10 +130,12 @@
         "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "94113210-c0f9-41d0-a312-3b0fbce23beb",
@@ -169,10 +180,12 @@
             "Text": "SET FOO=\"bar\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "99c86b4a-b74a-4f30-8687-cc427ccd2c1e",
@@ -217,10 +230,12 @@
             "Text": "echo %FOO%",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "bcf108b2-3da6-4fe1-81a5-b98b8b30a627",
@@ -277,10 +292,12 @@
           {
             "Text": " etc."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "ef4b95bc-1dd0-4ba9-9fa7-e617cd1b81a3",
@@ -331,10 +348,12 @@
           {
             "Text": ". Useful for testing command line arguments."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "c2c0e3a1-f9a6-4282-8827-a10abcff6c40",
@@ -403,10 +422,12 @@
           {
             "Text": " to $n, so to check for any failures use 1."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618",
@@ -451,10 +472,12 @@
             "Text": "FOR /L %A IN (1,1,10) DO @echo hello",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "22bcd48a-6990-49d0-873a-b9fe833e15b3",
@@ -499,10 +522,12 @@
             "Text": "call another.bat",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "28c76ebd-dbae-4ef1-9f5f-ea4732975f11",
@@ -547,10 +572,12 @@
             "Text": "IF EXIST e:\\directory GOTO USE_E",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "eac5d2ba-a14a-4114-b2a7-403832a57edd",
@@ -571,10 +598,12 @@
           {
             "Text": "Here’s an example of a batch file that does a few common things:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195848767,
         "id": "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
@@ -597,10 +626,12 @@
         "type": "code",
         "version": 1,
         "code": "@ECHO OFF\n@rem \"pushd $dir\" puts $dir on directory stack\npushd .\nSET COMMENT=%1\nIF NOT DEFINED COMMENT SET COMMENT=\"\"\n\nSET FOO=\"bar\"\n\nIF %FOO%==\"bar\" goto IS_BAR\necho The above should always be true\ngoto END\n\n:IS_BAR\nnmake -f Makefile.vc\nIF ERRORLEVEL 1 goto ERR_ONE_OR_HIGHER\necho Compilation successful!\ngoto END\n\n:ERR_ONE_OR_HIGHER\necho Compilation failed!\ngoto END\n\n:END\n@rem popd pops the directory name from the stack and does cd there\npopd",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "CollectionViews": null
       }
     ],
     "title": "Basics of writing DOS .bat batch files",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -624,6 +655,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

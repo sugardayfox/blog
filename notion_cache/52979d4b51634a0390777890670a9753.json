@@ -9,6 +9,8 @@
       "a96f3021-9f48-4eac-964a-32063ed25a52",
       "de491d6f-c016-49e4-9f64-888275a1cbcb"
     ],
+    "copied_from": "1619114b-b668-41fd-83d7-09e954b3033d",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195781645,
     "format": {
@@ -32,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781645,
         "id": "9fca5339-b258-4c82-9c4d-440463b93c12",
@@ -52,10 +55,12 @@
           {
             "Text": "Id: 1508"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781645,
         "id": "1da11a99-1d81-458d-a146-fb623ce7b7d4",
@@ -76,10 +81,12 @@
           {
             "Text": "Date: 2003-01-19T17:55:02-08:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781645,
         "id": "82876851-5497-49b3-84a2-e2ccadb69e03",
@@ -100,10 +107,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781645,
         "id": "a96f3021-9f48-4eac-964a-32063ed25a52",
@@ -112,10 +121,12 @@
         "parent_id": "52979d4b-5163-4a03-9077-7890670a9753",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195781645,
         "id": "de491d6f-c016-49e4-9f64-888275a1cbcb",
@@ -155,10 +166,12 @@
           {
             "Text": ". Source Insight is a programmer’s editor. If you code on a big C/C++, C# or Java projects - go check it out. I can’t live without it. If only they had support for Python."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Source Insight 3.5",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -182,6 +195,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

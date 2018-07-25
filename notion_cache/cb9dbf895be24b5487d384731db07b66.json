@@ -9,6 +9,7 @@
       "3e4a8db0-9b9f-4c8b-bb9a-b6c5a6ed32a0",
       "77820ba1-65ca-42de-acfa-dcafe10d813a"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157258248,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157258244,
         "id": "714441e6-b5a5-48a2-8eb7-6fe305fcf543",
@@ -54,10 +56,12 @@
           {
             "Text": "Id: 1345"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120244757,
         "id": "7101440e-245b-49bc-8214-3cd0b973a35d",
@@ -78,10 +82,12 @@
           {
             "Text": "Date: 2002-07-14T20:38:27-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120249189,
         "id": "3088054e-2222-4053-9ec7-7b02f78f722e",
@@ -90,10 +96,12 @@
         "parent_id": "cb9dbf89-5be2-4b54-87d3-84731db07b66",
         "parent_table": "block",
         "type": "text",
-        "version": 12
+        "version": 12,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531120254101,
         "id": "3e4a8db0-9b9f-4c8b-bb9a-b6c5a6ed32a0",
@@ -127,10 +135,12 @@
           {
             "Text": " says: failure is to be expected and accepted. Drop things that don’t work instead of trying to fix them. Don’t punish for failures (if you do people will stop taking risks)."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1530157258248,
         "id": "77820ba1-65ca-42de-acfa-dcafe10d813a",
@@ -165,10 +175,12 @@
             "Text": "Eric’s take",
             "Link": "http://www.ericsink.com/laws/Law_19.html"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Laws of marketing #19 (failure)",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -192,6 +204,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

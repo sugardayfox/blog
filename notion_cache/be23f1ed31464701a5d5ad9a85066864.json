@@ -5,6 +5,7 @@
     "content": [
       "5d3c495e-0ed3-41cb-ace1-a895be7f597a"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529736649048,
     "format": {
@@ -41,6 +42,7 @@
           "d33ab188-9c78-494c-ad04-6b22e8e77675",
           "da67beb0-e269-4889-8441-aea75e61c119"
         ],
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529736658044,
         "id": "5d3c495e-0ed3-41cb-ace1-a895be7f597a",
@@ -60,6 +62,7 @@
         "content_resolved": [
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529736668516,
             "id": "32c1c44f-15ea-41a9-ba7c-f8e47a8d5cd8",
@@ -118,10 +121,12 @@
               {
                 "Text": ") but with additional paid features:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737315042,
             "id": "fa41fc05-4017-4064-8483-220796f7666b",
@@ -142,10 +147,12 @@
               {
                 "Text": "allow paid accounts that retain files for longer"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737330297,
             "id": "2d7ab15d-c7bd-4f86-8f9d-fea74629148e",
@@ -166,10 +173,12 @@
               {
                 "Text": "Rundown of features:"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737370413,
             "id": "a2772da2-9e41-45ea-8718-eafbdfd5ed4e",
@@ -190,10 +199,12 @@
               {
                 "Text": "use Firebase for accounts"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737630877,
             "id": "d4c395a3-4b34-41cc-adb9-2e5e0be630cb",
@@ -214,10 +225,12 @@
               {
                 "Text": "do downloads on a separate domain to allow for load balancing / better caching setup"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737483351,
             "id": "1a810179-6237-4725-b0fd-4feba633c64c",
@@ -238,10 +251,12 @@
               {
                 "Text": "hook up cloudflare for downloads"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737384052,
             "id": "ccd6064b-3f10-4136-9866-c76e03745f46",
@@ -262,10 +277,12 @@
               {
                 "Text": "signed-in users can request upload tokens"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737435023,
             "id": "61f17058-bf87-41f5-ba9b-2c46451e1364",
@@ -286,10 +303,12 @@
               {
                 "Text": "file management for signed-in users"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529901752994,
             "id": "dbad9838-352f-4f81-877c-383a4a39fbf8",
@@ -310,10 +329,12 @@
               {
                 "Text": "track downloads / bandwidth used per file"
               }
-            ]
+            ],
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737692199,
             "id": "d33ab188-9c78-494c-ad04-6b22e8e77675",
@@ -322,10 +343,12 @@
             "parent_id": "5d3c495e-0ed3-41cb-ace1-a895be7f597a",
             "parent_table": "block",
             "type": "text",
-            "version": 8
+            "version": 8,
+            "CollectionViews": null
           },
           {
             "alive": true,
+            "collection_id": "",
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1529737469808,
             "id": "da67beb0-e269-4889-8441-aea75e61c119",
@@ -334,17 +357,20 @@
             "parent_id": "5d3c495e-0ed3-41cb-ace1-a895be7f597a",
             "parent_table": "block",
             "type": "text",
-            "version": 24
+            "version": 24,
+            "CollectionViews": null
           }
         ],
         "inline_content": [
           {
             "Text": "Idea"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "File transfer / upload",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -368,6 +394,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

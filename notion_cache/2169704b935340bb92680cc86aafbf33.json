@@ -12,6 +12,8 @@
       "996c02e1-7ea0-487b-8f4c-52f3f10b5b6c",
       "ada08e98-1949-4a05-8fab-b58f7eb7f7f1"
     ],
+    "copied_from": "22d512f0-8fc4-4984-83f9-a96fbcab0f97",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195893580,
     "format": {
@@ -35,6 +37,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "29c04fa1-6654-44cc-acee-f1c1cd9e94bb",
@@ -55,10 +58,12 @@
           {
             "Text": "Id: 1982"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "5828c094-5783-45e4-a59c-a7e10c1c101b",
@@ -79,10 +84,12 @@
           {
             "Text": "Date: 2007-07-29T18:16:27-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "fd652155-c7b2-477b-bba9-03e20a33dc4a",
@@ -91,10 +98,12 @@
         "parent_id": "2169704b-9353-40bb-9268-0cc86aafbf33",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "106b4936-82a3-4df6-86fe-1c524236b89d",
@@ -115,10 +124,12 @@
           {
             "Text": "Recently I’ve been spending a lot of time merging files (I need to merge translation files for Sumatra PDF that people send me) so a good merging tools is valuable."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "b3f8b745-95d6-4fa7-b369-7da620509069",
@@ -139,10 +150,12 @@
           {
             "Text": "On Windows, there are at least 3 good diff/merge tools."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "0a6005f5-10f3-4197-bcda-f53bb8d88900",
@@ -176,10 +189,12 @@
           {
             "Text": " is a really nice but expensive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "996c02e1-7ea0-487b-8f4c-52f3f10b5b6c",
@@ -213,10 +228,12 @@
           {
             "Text": " is token open-source product. It’s not as flashy as Araxis Merge but in some ways it’s better (more key bindings that speedup merging). I’ve used it with great success for merging source code but for dealing with translations it has deal-breaking limitation: it doesn’t support utf-8 encoded text."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195893580,
         "id": "ada08e98-1949-4a05-8fab-b58f7eb7f7f1",
@@ -256,10 +273,12 @@
           {
             "Text": ", which has been recently re-released with the price of $0. It might be not as flashy as Araxis Merge, but it has good merge workflow and support utf-8 encoded text."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Merge tools showdown",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -283,6 +302,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

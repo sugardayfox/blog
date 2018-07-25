@@ -15,6 +15,8 @@
       "389a650c-0713-4f21-9053-74cde70a6368",
       "728fe113-250c-4423-a9bf-46cd604db4e5"
     ],
+    "copied_from": "225f6399-8d72-48a5-a69a-2de265892d45",
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531195923151,
     "format": {
@@ -38,6 +40,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "364512f0-e316-4ed6-8ce2-a3cc7d580528",
@@ -58,10 +61,12 @@
           {
             "Text": "Id: 1994"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "14640a0c-b9f4-44f1-a0a8-091c5f0e34e8",
@@ -82,10 +87,12 @@
           {
             "Text": "Tags: software"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "ba2f2573-d15a-4787-9c3f-b8465b08f970",
@@ -106,10 +113,12 @@
           {
             "Text": "Date: 2008-04-15T18:47:17-07:00"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "b1d18f9b-16de-4013-91e5-bdcfde38c205",
@@ -130,10 +139,12 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "a2595fd8-1798-4f29-b5d6-a3a170077d0a",
@@ -142,10 +153,12 @@
         "parent_id": "1cf51fe5-cc69-42e8-b43b-31049aebe333",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "ddd035e8-7f3d-42ed-bebe-1c9399b64a3b",
@@ -198,10 +211,12 @@
           {
             "Text": " is really the same program, except named differently for different OSes. SftpDrive is for Windows and ExpanDrive is for Mac."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "116b7085-a379-40aa-aac6-60835e4f5794",
@@ -222,10 +237,12 @@
           {
             "Text": "It does one thing very well: it allows mounting any ssh accessible directory as a hard-drive/volume so that all programs running on your Mac/PC can access it as if it was a local drive."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "da0d5dc9-a5ac-4774-ba22-0d25b57160e8",
@@ -246,10 +263,12 @@
           {
             "Text": "One use for that is as a replacement for sftp GUI client."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923151,
         "id": "c1244b9e-3973-4fb4-917a-c788f75bd457",
@@ -270,10 +289,12 @@
           {
             "Text": "But what is really great is that it greatly improves interaction with remote servers, be it an Amazon EC2 instance or a co-located server. When I had to edit files on remote Linux servers, I used to ssh and use Emacs for editing. Despite investing many hours in learning Emacs and elisp (to the point that some of the keystrokes are hard-wired in my brain) but I’m definitely disgruntled Emacs user and in my love-and-hate relation with it I have much more hate than love. Not to mention that for editing C/C++ code nothing comes even close to Source Insight.\nNow I can just mount a directory and transparently edit remote files using my favorite, most familiar editor."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923152,
         "id": "389a650c-0713-4f21-9053-74cde70a6368",
@@ -294,10 +315,12 @@
           {
             "Text": "It’s a simple idea but the brilliance of SftpDrive is that it works really, really well and on sufficiently fast connection I can comfortably edit big projects. This might seem like an obvious property of such program but my experience with Samba (either when accessing my NAS over wireless Wi-Fi N network or accessing a filesystem exported from Linux running on Windows under VMWare) shows that this obvious property is lacking and trying to edit large code base in Source Insight on a samba-exported files is an exercise in restrain from chewing your own hand when Source Insight locks up for painful seconds when you’re in the middle of typing code."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531195923152,
         "id": "728fe113-250c-4423-a9bf-46cd604db4e5",
@@ -318,10 +341,12 @@
           {
             "Text": "Two thumbs up for SftpDrive/ExpanDrive. If only they also supported mounting S3 as a filesystem."
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "Software worth buying - SftpDrive and ExpanDrive",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -345,6 +370,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

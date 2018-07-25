@@ -8,6 +8,7 @@
       "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
       "e8c7c90c-9d55-4ecd-a2b5-5fca44bdb1d9"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531879647249,
     "format": {
@@ -32,6 +33,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531880405523,
         "id": "4e8a822e-0773-4208-b6af-a29fe1540d72",
@@ -52,10 +54,12 @@
           {
             "Text": "This developer's life."
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531881103374,
         "format": {
@@ -78,6 +82,7 @@
         "type": "page",
         "version": 37,
         "title": "devlog 2018",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -89,6 +94,7 @@
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531204194274,
         "format": {
@@ -119,6 +125,7 @@
         "type": "page",
         "version": 1072,
         "title": "devlog 2017",
+        "CollectionViews": null,
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -130,6 +137,7 @@
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531880409697,
         "id": "e8c7c90c-9d55-4ecd-a2b5-5fca44bdb1d9",
@@ -138,10 +146,12 @@
         "parent_id": "06bc64c9-117e-4ae8-bd53-eda3c2c41dfa",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "CollectionViews": null
       }
     ],
     "title": "Devlog",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -165,6 +175,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

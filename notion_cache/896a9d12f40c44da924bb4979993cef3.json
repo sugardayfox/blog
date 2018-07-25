@@ -20,6 +20,7 @@
       "ebaeac46-db7b-446d-926e-37480ed235d7",
       "a48f948b-28b9-4967-bb75-eb9b4bbe65b1"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512457478865,
     "format": {
@@ -43,6 +44,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457486095,
         "id": "feb5521a-7903-4cef-8047-a0cd340a4286",
@@ -63,10 +65,12 @@
           {
             "Text": "File description limit"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "e799f3c3-6515-45e0-a6a6-acb79dbf35bf",
@@ -87,10 +91,12 @@
           {
             "Text": "Things that can be done:"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "cdd66100-5f84-4d19-afac-0dccd04f617f",
@@ -123,10 +129,12 @@
           {
             "Text": " : set system-wide limit"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "ce78e74e-fd9c-4c08-9d3d-7f29df3cffb2",
@@ -159,10 +167,12 @@
           {
             "Text": " : shows number of opened files by all processes"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "6f4daff2-8c7e-4ea1-af8a-4baf9bd5dff7",
@@ -195,10 +205,12 @@
           {
             "Text": " : shows system-level max number of opened files"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "9c1b29e5-1ec1-47a9-99df-5d851840f95d",
@@ -231,10 +243,12 @@
           {
             "Text": " : shows file limits for a process with pid 3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "9d893132-43ea-47a6-9116-856653d94bb7",
@@ -267,10 +281,12 @@
           {
             "Text": " : shows opened files by process with pid 3"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "a1c6b1af-f062-455e-8047-94523be443d5",
@@ -303,10 +319,12 @@
           {
             "Text": " : another way to see files opened by process"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "979b11f2-54f8-4d68-b1d1-a52c63e362cc",
@@ -339,10 +357,12 @@
           {
             "Text": " : shows soft limit, must be less than hard limit"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "53f47bb1-1d20-4929-abf2-c120ba0ccc9b",
@@ -375,10 +395,12 @@
           {
             "Text": " : shows hard limit"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "98d106a6-b1a6-46ec-9380-599379b60fb9",
@@ -411,10 +433,12 @@
           {
             "Text": " : sets soft limit for current process"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "00df0af5-c3bc-4e08-9c06-57bb6cf766d1",
@@ -447,10 +471,12 @@
           {
             "Text": " : sets hard limit for current process"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "2716af4e-b9d6-4894-99d5-c02d62e233eb",
@@ -477,10 +503,12 @@
             "Text": "cat /etc/sysctl.conf",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "2dd78490-116a-4c2f-91f9-ec2bdce3c2ba",
@@ -514,10 +542,12 @@
           {
             "Text": " : shows how set limits"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457514708,
         "id": "ebaeac46-db7b-446d-926e-37480ed235d7",
@@ -526,10 +556,12 @@
         "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512457480200,
         "id": "a48f948b-28b9-4967-bb75-eb9b4bbe65b1",
@@ -546,10 +578,12 @@
         },
         "type": "code",
         "version": 0,
-        "code": "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000"
+        "code": "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000",
+        "CollectionViews": null
       }
     ],
     "title": "ulimit",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -573,6 +607,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

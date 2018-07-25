@@ -10,6 +10,7 @@
       "98bc8aab-fd39-4775-aaa7-43d61f4534e4",
       "9b9a0c4c-4a67-4844-a878-1df23e742ca5"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512459031176,
     "format": {
@@ -33,6 +34,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067473,
         "id": "62d0df2e-89b7-4c09-a4b5-bb097a390b09",
@@ -41,10 +43,12 @@
         "parent_id": "5122bd29-ef09-436b-a66f-8c3321a70e5c",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067948,
         "id": "87a27228-91c5-477d-8f02-71786036f319",
@@ -72,10 +76,12 @@
             "Text": "https://fuzzing-project.org/",
             "Link": "https://fuzzing-project.org/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067948,
         "id": "a57cc9ef-463f-4e72-9067-d7001f1390fa",
@@ -103,10 +109,12 @@
             "Text": "https://github.com/zimmski/tavor",
             "Link": "https://github.com/zimmski/tavor"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067948,
         "id": "837eaa2e-0147-4ad3-ab06-276fa343d0ad",
@@ -134,10 +142,12 @@
             "Text": "https://github.com/zimmski/fuzzer",
             "Link": "https://github.com/zimmski/fuzzer"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067948,
         "id": "98bc8aab-fd39-4775-aaa7-43d61f4534e4",
@@ -165,10 +175,12 @@
             "Text": "http://spin.atomicobject.com/2015/08/23/fuzz-testing-american-fuzzy-lop/",
             "Link": "http://spin.atomicobject.com/2015/08/23/fuzz-testing-american-fuzzy-lop/"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512459067948,
         "id": "9b9a0c4c-4a67-4844-a878-1df23e742ca5",
@@ -196,10 +208,12 @@
             "Text": "http://lwn.net/Articles/657959/",
             "Link": "http://lwn.net/Articles/657959/"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "fuzzing",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -223,6 +237,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }

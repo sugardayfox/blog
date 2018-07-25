@@ -7,6 +7,7 @@
       "28b11fa0-55bd-4543-977a-92083435e301",
       "f7801f0c-ca57-4412-acb1-8b54ffa99a3c"
     ],
+    "collection_id": "",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512352584261,
     "format": {
@@ -30,6 +31,7 @@
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352596194,
         "id": "12743913-bbfd-4b6c-a4ed-e4d2e04dca43",
@@ -38,10 +40,12 @@
         "parent_id": "36fecd75-b5a7-45b9-9214-12daf5e7c2a1",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352596768,
         "id": "28b11fa0-55bd-4543-977a-92083435e301",
@@ -75,10 +79,12 @@
           {
             "Text": " : How to Create an Internet Explorer-Style Menu Bar"
           }
-        ]
+        ],
+        "CollectionViews": null
       },
       {
         "alive": true,
+        "collection_id": "",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512352596768,
         "id": "f7801f0c-ca57-4412-acb1-8b54ffa99a3c",
@@ -112,10 +118,12 @@
           {
             "Text": " : custom menu in C"
           }
-        ]
+        ],
+        "CollectionViews": null
       }
     ],
     "title": "menu",
+    "CollectionViews": null,
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -139,6 +147,5 @@
       "version": 10
     }
   ],
-  "Collections": null,
-  "CollectionViews": null
+  "Tables": null
 }
