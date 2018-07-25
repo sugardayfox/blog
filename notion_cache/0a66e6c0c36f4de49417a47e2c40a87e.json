@@ -60,13 +60,14 @@
           {
             "alive": true,
             "content": [
-              "30e4db02-6d4d-486c-9a82-4551538f8e1b"
+              "30e4db02-6d4d-486c-9a82-4551538f8e1b",
+              "f667a2d7-df48-4db0-986c-220ce21ca460"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532483974024,
             "id": "1927264a-7eb1-4dc1-b19a-f63365332401",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1532505970943,
+            "last_edited_time": 1532511623491,
             "parent_id": "7e5ca6ed-1af5-4bef-b7bb-54bae521b985",
             "parent_table": "block",
             "properties": {
@@ -77,7 +78,7 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 62,
+            "version": 64,
             "content_resolved": [
               {
                 "alive": true,
@@ -100,6 +101,30 @@
                 "inline_content": [
                   {
                     "Text": "add social sharing icons (twitter, linkedin, facebook, G+) to articles"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532511623491,
+                "id": "f667a2d7-df48-4db0-986c-220ce21ca460",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532511634876,
+                "parent_id": "1927264a-7eb1-4dc1-b19a-f63365332401",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "generate HTML tables from notion collection view"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 102,
+                "inline_content": [
+                  {
+                    "Text": "generate HTML tables from notion collection view"
                   }
                 ]
               }
