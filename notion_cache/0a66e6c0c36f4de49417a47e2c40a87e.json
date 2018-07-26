@@ -1,6 +1,6 @@
 {
   "ID": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
-  "Page": {
+  "Root": {
     "alive": true,
     "content": [
       "701028a5-d0c3-4d16-b16d-784c4730b1ce",
@@ -39,13 +39,14 @@
       {
         "alive": true,
         "content": [
-          "80528d49-c5c9-4316-a336-ed22a645c71b"
+          "80528d49-c5c9-4316-a336-ed22a645c71b",
+          "579f0db3-275c-4b7a-9f6c-7fcd1496d9eb"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532565986089,
         "id": "701028a5-d0c3-4d16-b16d-784c4730b1ce",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532565996763,
+        "last_edited_time": 1532585110746,
         "parent_id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
         "parent_table": "block",
         "properties": {
@@ -56,7 +57,7 @@
           ]
         },
         "type": "toggle",
-        "version": 57,
+        "version": 63,
         "content_resolved": [
           {
             "alive": true,
@@ -79,6 +80,59 @@
             "inline_content": [
               {
                 "Text": "ravendb"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "ae975943-e1ad-416f-80bc-1392eba82b62"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532582404946,
+            "id": "579f0db3-275c-4b7a-9f6c-7fcd1496d9eb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532585110746,
+            "parent_id": "701028a5-d0c3-4d16-b16d-784c4730b1ce",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 28,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532585109626,
+                "id": "ae975943-e1ad-416f-80bc-1392eba82b62",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532585110746,
+                "parent_id": "579f0db3-275c-4b7a-9f6c-7fcd1496d9eb",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "handle page ID ⇒ short ID (redo how downloading from notion works: split in notion stage, ⇒ article stage, so that the notion part can be re-used more easily)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 9,
+                "inline_content": [
+                  {
+                    "Text": "handle page ID ⇒ short ID (redo how downloading from notion works: split in notion stage, ⇒ article stage, so that the notion part can be re-used more easily)"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "blog"
               }
             ]
           }
