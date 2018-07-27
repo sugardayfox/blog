@@ -194,13 +194,14 @@
           {
             "alive": true,
             "content": [
-              "ae975943-e1ad-416f-80bc-1392eba82b62"
+              "ae975943-e1ad-416f-80bc-1392eba82b62",
+              "19610222-e7c4-45e8-b7ff-932cfc0da6fd"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532582404946,
             "id": "579f0db3-275c-4b7a-9f6c-7fcd1496d9eb",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1532585110746,
+            "last_edited_time": 1532681331996,
             "parent_id": "701028a5-d0c3-4d16-b16d-784c4730b1ce",
             "parent_table": "block",
             "properties": {
@@ -211,7 +212,7 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 28,
+            "version": 30,
             "content_resolved": [
               {
                 "alive": true,
@@ -234,6 +235,30 @@
                 "inline_content": [
                   {
                     "Text": "handle page ID ⇒ short ID (redo how downloading from notion works: split in notion stage, ⇒ article stage, so that the notion part can be re-used more easily)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532681331996,
+                "id": "19610222-e7c4-45e8-b7ff-932cfc0da6fd",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1532681338531,
+                "parent_id": "579f0db3-275c-4b7a-9f6c-7fcd1496d9eb",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "moved some html files to notion"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 76,
+                "inline_content": [
+                  {
+                    "Text": "moved some html files to notion"
                   }
                 ]
               }
