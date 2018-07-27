@@ -9,14 +9,14 @@
       "e55eb827-b092-4933-8c83-2c4892ef5108",
       "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
       "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
-      "2bcf1198-2d49-48a6-9185-82b06f66eee1",
-      "298a5bdd-313d-46ba-947b-3c4197796b2c",
-      "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
       "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
-      "9ffa1c9a-b885-4860-8767-9318db3affdd",
-      "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
+      "4ac18b52-d1c4-4261-85d0-d69058ff9a62",
+      "298a5bdd-313d-46ba-947b-3c4197796b2c",
       "65db085c-d90f-45d2-a271-8f19a7566e1b",
-      "4ac18b52-d1c4-4261-85d0-d69058ff9a62"
+      "2bcf1198-2d49-48a6-9185-82b06f66eee1",
+      "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
+      "9ffa1c9a-b885-4860-8767-9318db3affdd",
+      "3bf6bc05-d375-4a59-9886-d79bd0eaa757"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530068688255,
@@ -26,7 +26,7 @@
     },
     "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530068839362,
+    "last_edited_time": 1532676932835,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -37,7 +37,7 @@
       ]
     },
     "type": "page",
-    "version": 67,
+    "version": 85,
     "content_resolved": [
       {
         "alive": true,
@@ -214,6 +214,141 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1514696732018,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532676915876,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "parsing binary files"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 59,
+        "title": "parsing binary files",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1492300215774,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "4ac18b52-d1c4-4261-85d0-d69058ff9a62",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532676912446,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "permissions": [
+          {
+            "role": "editor",
+            "type": "user_permission",
+            "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
+          }
+        ],
+        "properties": {
+          "title": [
+            [
+              "pdb format"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 24,
+        "title": "pdb format",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1501883015381,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "298a5bdd-313d-46ba-947b-3c4197796b2c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532676921411,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "pdf format"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 12,
+        "title": "pdf format",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1499681839080,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532677009406,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "pe format, pefile"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 33,
+        "title": "pe format, pefile",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1521963266896,
         "format": {
           "page_full_width": true,
@@ -246,90 +381,26 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1501883015381,
+        "created_time": 1513588150033,
         "format": {
           "page_full_width": true,
           "page_small_text": true
         },
-        "id": "298a5bdd-313d-46ba-947b-3c4197796b2c",
+        "id": "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068765355,
+        "last_edited_time": 1532676932835,
         "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "pdf format"
+              "minidump format"
             ]
           ]
         },
         "type": "page",
-        "version": 9,
-        "title": "pdf format",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1518503728964,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068778784,
-        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "wmf format"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 38,
-        "title": "wmf format",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1514696732018,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068799482,
-        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "parsing binary files"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 56,
-        "title": "parsing binary files",
+        "version": 50,
+        "title": "minidump format",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -374,97 +445,26 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1513588150033,
+        "created_time": 1518503728964,
         "format": {
           "page_full_width": true,
           "page_small_text": true
         },
-        "id": "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
+        "id": "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068831990,
+        "last_edited_time": 1532676907946,
         "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "minidump format"
+              "wmf format"
             ]
           ]
         },
         "type": "page",
-        "version": 47,
-        "title": "minidump format",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1499681839080,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530073023560,
-        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "pe format, pefile"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 24,
-        "title": "pe format, pefile",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1492300215774,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "4ac18b52-d1c4-4261-85d0-d69058ff9a62",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068839362,
-        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
-        "parent_table": "block",
-        "permissions": [
-          {
-            "role": "editor",
-            "type": "user_permission",
-            "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
-          }
-        ],
-        "properties": {
-          "title": [
-            [
-              "pdb format"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 21,
-        "title": "pdb format",
+        "version": 41,
+        "title": "wmf format",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,

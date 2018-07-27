@@ -37,8 +37,8 @@
     },
     "id": "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531195578289,
-    "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+    "last_edited_time": 1532671459226,
+    "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
     "parent_table": "block",
     "properties": {
       "title": [
@@ -48,7 +48,7 @@
       ]
     },
     "type": "page",
-    "version": 213,
+    "version": 230,
     "content_resolved": [
       {
         "alive": true,
@@ -174,11 +174,11 @@
         "created_time": 1530071223328,
         "id": "fc3dd1d3-25e4-439d-96e0-6e6adf8f98c8",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530071223328,
+        "last_edited_time": 1532656619917,
         "parent_id": "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
         "parent_table": "block",
         "type": "collection_view",
-        "version": 4,
+        "version": 9,
         "view_ids": [
           "e59f3c24-0093-43a8-a1c8-5088c398c597"
         ],
@@ -247,18 +247,10 @@
               "parent_id": "fc3dd1d3-25e4-439d-96e0-6e6adf8f98c8",
               "parent_table": "block",
               "query": {
-                "aggregate": [
-                  {
-                    "aggregation_type": "count",
-                    "id": "count",
-                    "property": "title",
-                    "type": "title",
-                    "view_type": "table"
-                  }
-                ]
+                "aggregate": null
               },
               "type": "table",
-              "version": 146
+              "version": 147
             },
             "Collection": {
               "alive": true,

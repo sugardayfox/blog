@@ -12,12 +12,10 @@
       "db9e9c03-e3e8-4287-a51d-4da5d507138b",
       "1077c159-5493-41df-b4d4-75571b1f99d3",
       "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
-      "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
-      "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
       "c5210d90-4251-437b-95d8-87da49bd8706",
+      "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
       "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
-      "06bc64c9-117e-4ae8-bd53-eda3c2c41dfa",
-      "2d62b760-3924-4eb6-9c3f-c94c83a655b5"
+      "06bc64c9-117e-4ae8-bd53-eda3c2c41dfa"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1528059171080,
@@ -27,7 +25,7 @@
     },
     "id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532409011181,
+    "last_edited_time": 1532676843085,
     "parent_id": "bc202e06-6caa-4e3f-81eb-f226ab5deef7",
     "parent_table": "space",
     "permissions": [
@@ -49,7 +47,7 @@
       ]
     },
     "type": "page",
-    "version": 310,
+    "version": 321,
     "content_resolved": [
       {
         "alive": true,
@@ -297,7 +295,7 @@
         },
         "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530068839362,
+        "last_edited_time": 1532676932835,
         "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
         "parent_table": "block",
         "properties": {
@@ -308,7 +306,7 @@
           ]
         },
         "type": "page",
-        "version": 67,
+        "version": 85,
         "title": "File formats",
         "format_page": {
           "page_cover": "",
@@ -444,70 +442,6 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530071194505,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195578289,
-        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Comparing prices of VPS servers"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 213,
-        "title": "Comparing prices of VPS servers",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530072473905,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530074559968,
-        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Online storage comparison"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 136,
-        "title": "Online storage comparison",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531194475639,
         "format": {
           "page_full_width": true,
@@ -515,7 +449,7 @@
         },
         "id": "c5210d90-4251-437b-95d8-87da49bd8706",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532409014482,
+        "last_edited_time": 1532671460998,
         "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
         "parent_table": "block",
         "properties": {
@@ -526,8 +460,40 @@
           ]
         },
         "type": "page",
-        "version": 89,
+        "version": 105,
         "title": "Research",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532669517099,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "ec1723d0-39f3-4a5c-a305-68a0deb2ad76",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532676868271,
+        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Documents"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 171,
+        "title": "Documents",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -601,18 +567,6 @@
           "page_icon": "",
           "page_small_text": true
         }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531881277853,
-        "id": "2d62b760-3924-4eb6-9c3f-c94c83a655b5",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531881277853,
-        "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
       }
     ],
     "title": "Website",
