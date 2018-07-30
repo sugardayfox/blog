@@ -117,8 +117,7 @@
               {
                 "Text": "Notes:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -148,8 +147,7 @@
                 "Text": "docker run -it ubuntu:16.04 /bin/bash",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -179,8 +177,7 @@
                 "Text": "apt-get update -y",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -210,8 +207,7 @@
                 "Text": "apt-get install git g++ make xorg-dev freeglut3-dev pkg-config",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -247,8 +243,7 @@
               {
                 "Text": " : optional"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -278,8 +273,7 @@
                 "Text": "git clone --recursive git://git.ghostscript.com/mupdf.git",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -309,8 +303,7 @@
                 "Text": "cd mupdf",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -340,8 +333,7 @@
                 "Text": "make",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -377,16 +369,14 @@
                 "Text": "build/release",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "compiling mupdf in docker"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -437,8 +427,7 @@
               {
                 "Text": "Install latest gcc and clang with brew:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -474,8 +463,7 @@
               {
                 "Text": " : using HEAD because the latest official is 3.6.2, which is old-ish (3.8 is the latest i.e. 1 year ahead)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -511,8 +499,7 @@
               {
                 "Text": " : 5.3.0 on 05-2016"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -536,8 +523,7 @@
               {
                 "Text": "Standard mupdf compile on mac:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -567,8 +553,7 @@
                 "Text": "make HAVE_X11=no",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -598,16 +583,14 @@
                 "Text": "make HAVE_X11=no verbose=yes",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "custom mupdf compile on mac"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -619,8 +602,7 @@
         "parent_id": "0d4f3842-99fc-4705-98d7-7ac595610b38",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -657,8 +639,7 @@
             "Text": "https://gitlab.com/kkowalczyk/mupdf/tree/kjk",
             "Link": "https://gitlab.com/kkowalczyk/mupdf/tree/kjk"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -682,8 +663,7 @@
           {
             "Text": "Branch with my changes: kjk"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -731,8 +711,7 @@
               {
                 "Text": "Had to remove $(RANLIB_CMD) from %.a rule because it fails under xcode and is not necessary."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -768,8 +747,7 @@
                 "Text": "make HAVE_GLFW=no",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -811,16 +789,14 @@
               {
                 "Text": " dir ("
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "building on macos"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -854,16 +830,14 @@
             "parent_id": "91e2f3c9-ed02-4885-b9eb-caa73724dda4",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "format_video": null
+            "version": 0
           }
         ],
         "inline_content": [
           {
             "Text": "mutool"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -887,8 +861,7 @@
           {
             "Text": "My changes to mupdf:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -912,8 +885,7 @@
           {
             "Text": "kjk/Makefile based on Makefile"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -937,8 +909,7 @@
           {
             "Text": "kjk/build.sh that uses kjk/Makefile"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -962,8 +933,7 @@
           {
             "Text": "kjk/gen_fonts.go to generate kjk/font_*.c"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -975,8 +945,7 @@
         "parent_id": "0d4f3842-99fc-4705-98d7-7ac595610b38",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -996,8 +965,7 @@
         },
         "type": "code",
         "version": 0,
-        "code": "irc logs: http://ghostscript.com/irclogs/current.html\nhttps://github.com/LiEo-HiDev/zReader-mupdf/tree/master/zPDFReader",
-        "format_video": null
+        "code": "irc logs: http://ghostscript.com/irclogs/current.html\nhttps://github.com/LiEo-HiDev/zReader-mupdf/tree/master/zPDFReader"
       },
       {
         "alive": true,
@@ -1021,8 +989,7 @@
           {
             "Text": "incbin info:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1053,8 +1020,7 @@
             "Text": "https://github.com/graphitemaster/incbin",
             "Link": "https://github.com/graphitemaster/incbin"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1085,8 +1051,7 @@
             "Text": "http://www.atari-forum.com/viewtopic.php?t=26393",
             "Link": "http://www.atari-forum.com/viewtopic.php?t=26393"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1117,8 +1082,7 @@
             "Text": "http://stackoverflow.com/questions/4864866/c-c-with-gcc-statically-add-resource-files-to-executable-library",
             "Link": "http://stackoverflow.com/questions/4864866/c-c-with-gcc-statically-add-resource-files-to-executable-library"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1130,8 +1094,7 @@
         "parent_id": "0d4f3842-99fc-4705-98d7-7ac595610b38",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -1155,8 +1118,7 @@
           {
             "Text": "GitHub only allows one fork of a given repo. How I forked second libLas:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1180,8 +1142,7 @@
           {
             "Text": "create empty repository"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1211,8 +1172,7 @@
             "Text": "git remote add upstream  git://git.ghostscript.com/mupdf.git",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1248,8 +1208,7 @@
             "Text": "git fetch upstream",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1285,8 +1244,7 @@
             "Text": "git merge upstream/master",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1298,8 +1256,7 @@
         "parent_id": "0d4f3842-99fc-4705-98d7-7ac595610b38",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -1323,8 +1280,7 @@
           {
             "Text": "To update to latest:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1354,8 +1310,7 @@
             "Text": "git fetch upstream",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1385,8 +1340,7 @@
             "Text": "git checkout master",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1416,8 +1370,7 @@
             "Text": "git merge upstream/master",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1429,8 +1382,7 @@
         "parent_id": "0d4f3842-99fc-4705-98d7-7ac595610b38",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -1454,8 +1406,7 @@
           {
             "Text": "Dealing with submodules:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1485,8 +1436,7 @@
             "Text": "git submodule init",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1516,8 +1466,7 @@
             "Text": "git submodule update --recursive",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1548,8 +1497,7 @@
             "Text": "http://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin",
             "Link": "http://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "mupdf",
@@ -1560,8 +1508,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

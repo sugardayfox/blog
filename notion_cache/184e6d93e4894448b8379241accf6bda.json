@@ -97,16 +97,14 @@
             "type": "code",
             "version": 0,
             "code": "# Variables\n# param defines -sha script argument and sets \"\" as default value\n\n$args, $args[0] : args passed to script, by position\n\nif ($sha -eq \"\") {\n\t$sha = (git rev-parse HEAD) | Out-String\n\t$sha = $sha.Trim()\n}\n\n# Variable expansion\nWrite-Host \"sha: $sha\" # writes the value of $sha\nWrite-Host 'sha: $sha is not expanded' # $sha is literal, not expanded inside ''",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "variables"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -172,8 +170,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -209,8 +206,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -246,8 +242,7 @@
               {
                 "Text": "  : list all PowerShell variables"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -283,8 +278,7 @@
               {
                 "Text": "  : list all env variables"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -320,8 +314,7 @@
               {
                 "Text": "  : get $PATH"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -357,8 +350,7 @@
               {
                 "Text": "  : find all *.chm files"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -424,8 +416,7 @@
                 "Text": "Invoke-WebRequest",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -479,8 +470,7 @@
               {
                 "Text": "  in unix, find full path of vscode executable"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -506,16 +496,14 @@
             "type": "code",
             "version": 0,
             "code": "# get PowerShell to inherit changes from .bat file:\ncmd.exe /k \"scripts\\vc.bat \u0026 powershell\"",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "useful functions"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -563,16 +551,14 @@
             "type": "code",
             "version": 0,
             "code": "# $path is dict Name/Value, where Name is \"Path\" and Value is value of PATH environment variable\n$path = gci env:PATH\n$dirs = $path.Value.Split(\";\")\n(gci env:Path).Value.Split(\";\")",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "path"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -633,8 +619,7 @@
               {
                 "Text": "  : split $line by \".\" and get the second part"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -670,8 +655,7 @@
               {
                 "Text": "  : show components of $PATH"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -707,8 +691,7 @@
               {
                 "Text": "  : return true if matches regular expression"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -744,16 +727,14 @@
               {
                 "Text": "  : call a function on $line "
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "strings"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -801,16 +782,14 @@
             "type": "code",
             "version": 0,
             "code": "function isFileOnList($list, $file) {\n\tforeach ($item in $list) {\n\t\t$inList = $item.ToLower().EndsWith($file)\n\t\tif ($inList) {\n\t\t\treturn $inList\n\t\t}\n\t}\n\treturn False\n}\n\n$list = @(\"foo\\bar.cpp\", \"foo.txt\")\n$in = isFileOnList($list, \".txt\")",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "functions, defining and calling"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -834,8 +813,7 @@
           {
             "Text": "booleans: $true/$false"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -911,16 +889,14 @@
               {
                 "Text": "  in descending order"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "sorting"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -968,16 +944,14 @@
             "type": "code",
             "version": 0,
             "code": "# execute 'git rev-parse HEAD' and assign to a variable\n$sha1 = (git rev-parse HEAD) | Out-String\n$sha1 = $sha1.Replace([System.Environment]::NewLine,\"\")",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "call external programs"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1025,16 +999,14 @@
             "type": "code",
             "version": 0,
             "code": "# single-line comment\n\u003c#\nmulti-line\ncomment\n#\u003e",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "comments"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1082,16 +1054,14 @@
             "type": "code",
             "version": 0,
             "code": "Set-StrictMode -Version Latest\n$ErrorActionPreference = \"Stop\"\n# call exitIfFailed after executing a command\nfunction exitIfFailed { if ($LASTEXITCODE -ne 0) { exit } }",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "stop script on errors"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1139,16 +1109,14 @@
             "type": "code",
             "version": 0,
             "code": "$DATE = [int][double]::Parse((Get-Date -UFormat %s))",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "dates"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1216,8 +1184,7 @@
                 "Text": "https://github.com/kjk/exp/blob/master/winstrap.ps1",
                 "Link": "https://github.com/kjk/exp/blob/master/winstrap.ps1"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1229,8 +1196,7 @@
             "parent_id": "84e243b4-9529-40ee-931e-7b00b9a44d77",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "format_video": null
+            "version": 0
           }
         ],
         "inline_content": [
@@ -1241,8 +1207,7 @@
             "Text": "$profile",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1266,8 +1231,7 @@
           {
             "Text": "Notes:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1309,8 +1273,7 @@
           {
             "Text": " (as admin)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1347,8 +1310,7 @@
           {
             "Text": " : list of functions"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1408,8 +1370,7 @@
                 "Text": "https://www.microsoft.com/en-us/download/details.aspx?id=49186",
                 "Link": "https://www.microsoft.com/en-us/download/details.aspx?id=49186"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1445,16 +1406,14 @@
               {
                 "Text": " to install PSReadLine"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Before Windows 10:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1466,8 +1425,7 @@
         "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -1503,8 +1461,7 @@
             "Text": "\u0026 \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\editbin.exe\" /stack:1048576 FindFilesGo.exe",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1516,8 +1473,7 @@
         "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -1541,8 +1497,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1573,8 +1528,7 @@
             "Text": "https://github.com/StackExchange/dnscontrol/blob/master/build.ps1",
             "Link": "https://github.com/StackExchange/dnscontrol/blob/master/build.ps1"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1605,8 +1559,7 @@
             "Text": "https://github.com/golang/build/blob/master/env/windows/startup.ps1",
             "Link": "https://github.com/golang/build/blob/master/env/windows/startup.ps1"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1637,8 +1590,7 @@
             "Text": "http://www.hanselman.com/blog/PromptsAndDirectoriesEvenBetterGitAndMercurialWithPowerShell.aspx",
             "Link": "http://www.hanselman.com/blog/PromptsAndDirectoriesEvenBetterGitAndMercurialWithPowerShell.aspx"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1688,8 +1640,7 @@
             "Text": "https://www.reddit.com/r/programming/comments/441do9/i_made_a_windows_powershell_script_that_puts_a/",
             "Link": "https://www.reddit.com/r/programming/comments/441do9/i_made_a_windows_powershell_script_that_puts_a/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1720,8 +1671,7 @@
             "Text": "https://github.com/ljw1004/pdb2github/blob/master/github-sourceindexer.ps1",
             "Link": "https://github.com/ljw1004/pdb2github/blob/master/github-sourceindexer.ps1"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1733,8 +1683,7 @@
         "parent_id": "184e6d93-e489-4448-b837-9241accf6bda",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "PowerShell",
@@ -1745,8 +1694,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

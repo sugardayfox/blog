@@ -93,8 +93,7 @@
           {
             "Text": " )"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -130,8 +129,7 @@
           {
             "Text": " : int → double, pointer → void* etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -167,8 +165,7 @@
           {
             "Text": " : \"trust me\" cast"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -204,8 +201,7 @@
           {
             "Text": " : only for polymorphic types (those that have virtual functions) and when rtti is enabled. Used to cast up\u0026down inheritance hierarchy. Returns null if cast can't be done on a pointer. Throws exception if cast fails on reference type."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -283,8 +279,7 @@
           {
             "Text": " ?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -308,8 +303,7 @@
           {
             "Text": "Google rules"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -333,8 +327,7 @@
           {
             "Text": "Do not use C-style casts. Instead, use these C++-style casts when explicit type conversion is necessary."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -376,8 +369,7 @@
           {
             "Text": "). This is the safest approach because code will not compile if conversion can result in information loss. The syntax is also concise."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -419,8 +411,7 @@
           {
             "Text": " as the equivalent of a C-style cast that does value conversion, when you need to explicitly up-cast a pointer from a class to its superclass, or when you need to explicitly cast a pointer from a superclass to a subclass. In this last case, you must be sure your object is actually an instance of the subclass."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -499,8 +490,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -542,8 +532,7 @@
           {
             "Text": " to do unsafe conversions of pointer types to and from integer and other pointer types. Use this only if you know what you are doing and you understand the aliasing issues."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -567,8 +556,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -599,8 +587,7 @@
             "Text": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used",
             "Link": "https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -631,8 +618,7 @@
             "Text": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1",
             "Link": "https://www.quora.com/How-do-you-explain-the-differences-among-static_cast-reinterpret_cast-const_cast-and-dynamic_cast-to-a-new-C++-programmer/answer/Dinesh-Khandelwal-1"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -663,8 +649,7 @@
             "Text": "https://google.github.io/styleguide/cppguide.html#Casting",
             "Link": "https://google.github.io/styleguide/cppguide.html#Casting"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -676,8 +661,7 @@
         "parent_id": "37c6f481-9b67-492d-ab22-bde3ee34d74f",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
     "title": "C++ casts",
@@ -688,8 +672,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

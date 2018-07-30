@@ -96,8 +96,7 @@
           {
             "Text": "Id: 19"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -121,8 +120,7 @@
           {
             "Text": "Date: 2017-11-07T17:07:45-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -146,8 +144,7 @@
           {
             "Text": "Tags: programming, c++"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -159,8 +156,7 @@
         "parent_id": "578cb0cc-6552-48ce-85a1-74ab9eda7ef3",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -184,8 +180,7 @@
           {
             "Text": "When writing portable C++ code you need to write conditional code that depends on compiler used or the OS for which the code is written."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -209,8 +204,7 @@
           {
             "Text": "Here’s a typical case:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -236,8 +230,7 @@
         "type": "code",
         "version": 3,
         "code": "#if defined (_MSC_VER)\n// code specific to Visual Studio compiler\n#endif",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -261,8 +254,7 @@
           {
             "Text": "To perform those checks you need to check pre-processor macros that various compilers set."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -322,8 +314,7 @@
           {
             "Text": " defines version of Visual Studio compiler)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -347,8 +338,7 @@
           {
             "Text": "This document describes macros set by various compilers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -372,8 +362,7 @@
           {
             "Text": "Other documentations: "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -416,8 +405,7 @@
           {
             "Text": " "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -448,8 +436,7 @@
             "Text": "https://sourceforge.net/p/predef/wiki/Compilers/",
             "Link": "https://sourceforge.net/p/predef/wiki/Compilers/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -485,8 +472,7 @@
             "Text": "clang -x c /dev/null -dM -E",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -528,8 +514,7 @@
           {
             "Text": " (not that on mac gcc is actually clang that ships with XCode)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -571,8 +556,7 @@
           {
             "Text": " also works for mingw (which is based on gcc)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -609,8 +593,7 @@
             "Text": "for other compilers",
             "Link": "http://nadeausoftware.com/articles/2011/12/c_c_tip_how_list_compiler_predefined_macros"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -634,8 +617,7 @@
           {
             "Text": "Checking for OS (platform)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -659,8 +641,7 @@
           {
             "Text": "To check for which OS the code is compiled:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -686,8 +667,7 @@
         "type": "code",
         "version": 1,
         "code": "Linux and Linux-derived           __linux__\nAndroid                           __ANDROID__ (implies __linux__)\nLinux (non-Android)               __linux__ \u0026\u0026 !__ANDROID__\nDarwin (Mac OS X and iOS)         __APPLE__\nAkaros (http://akaros.org)        __ros__\nWindows                           _WIN32\nWindows 64 bit                    _WIN64 (implies _WIN32)\nNaCL                              __native_client__\nAsmJS                             __asmjs__\nFuschia                           __Fuchsia__",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -711,8 +691,7 @@
           {
             "Text": "Checking the compiler:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -736,8 +715,7 @@
           {
             "Text": "To check which compiler is used:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -763,8 +741,7 @@
         "type": "code",
         "version": 1,
         "code": "Visual Studio       _MSC_VER\ngcc                 __GNUC__\nclang               __clang__\nemscripten          __EMSCRIPTEN__ (for asm.js and webassembly)\nMinGW 32            __MINGW32__\nMinGW-w64 32bit     __MINGW32__\nMinGW-w64 64bit     __MINGW64__",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -788,8 +765,7 @@
           {
             "Text": "Checking compiler version"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -813,8 +789,7 @@
           {
             "Text": "gcc"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -868,8 +843,7 @@
           {
             "Text": " (e.g. 1)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -893,8 +867,7 @@
           {
             "Text": "To check that this is gcc compiler version 5.1 or greater:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -920,8 +893,7 @@
         "type": "code",
         "version": 3,
         "code": "#if defined(__GNUC__) \u0026\u0026 (__GNUC___ \u003e 5 || (__GNUC__ == 5 \u0026\u0026 __GNUC_MINOR__ \u003e= 1))\n// this is gcc 5.1 or greater\n#endif",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -981,8 +953,7 @@
           {
             "Text": ", it won’t work for version 6.0."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1006,8 +977,7 @@
           {
             "Text": "clang"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1073,8 +1043,7 @@
             "Text": "__clang_patchlevel__",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1098,8 +1067,7 @@
           {
             "Text": "Visual Studio"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1153,8 +1121,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1180,8 +1147,7 @@
         "type": "code",
         "version": 1,
         "code": "VS                        _MSC_VER   _MSC_FULL_VER\n1                         800\n3                         900\n4                         1000\n4                         1020\n5                         1100\n6                         1200\n6 SP6                     1200    12008804\n7                         1300    13009466\n7.1 (2003)                1310    13103077\n8 (2005)                  1400    140050727\n9 (2008)                  1500    150021022\n9 SP1                     1500    150030729\n10 (2010)                 1600    160030319\n10 (2010) SP1             1600    160040219\n11 (2012)                 1700    170050727\n12 (2013)                 1800    180021005\n14 (2015)                 1900    190023026\n14 (2015 Update 1)        1900    190023506\n14 (2015 Update 2)        1900    190023918\n14 (2015 Update 3)        1900    190024210\n15 (2017 Update 1 \u0026 2)    1910    191025017\n15 (2017 Update 3 \u0026 4)    1911\n15 (2017 Update 5)        1912",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -1205,8 +1171,7 @@
           {
             "Text": "More information:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1237,8 +1202,7 @@
             "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/",
             "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/10/05/visual-c-compiler-version/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1269,8 +1233,7 @@
             "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525",
             "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/11/15/side-by-side-minor-version-msvc-toolsets-in-visual-studio-2017/#comment-467525"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1294,8 +1257,7 @@
           {
             "Text": "MinGW"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1349,8 +1311,7 @@
             "Text": "__MINGW32_MINOR_VERSION",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1404,8 +1365,7 @@
             "Text": "__MINGW64_VERSION_MINOR",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1429,8 +1389,7 @@
           {
             "Text": "Checking processor architecture"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1454,8 +1413,7 @@
           {
             "Text": "gcc"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1479,8 +1437,7 @@
           {
             "Text": "The meaning of those should be self-evident:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1510,8 +1467,7 @@
             "Text": "__i386__",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1541,8 +1497,7 @@
             "Text": "__x86_64__",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1603,8 +1558,7 @@
                 "Text": "__ARM_ARCH_5T__",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1634,8 +1588,7 @@
                 "Text": "__ARM_ARCH_7A__",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -1646,8 +1599,7 @@
           {
             "Text": ". If defined, you can further check:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1677,8 +1629,7 @@
             "Text": "__powerpc64__",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1708,8 +1659,7 @@
             "Text": "__aarch64__",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Guide to predefined macros in C++ compilers (gcc, clang, msvc etc.)",
@@ -1720,8 +1670,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

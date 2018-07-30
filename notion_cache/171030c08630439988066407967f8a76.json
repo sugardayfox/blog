@@ -62,8 +62,7 @@
           {
             "Text": "Id: 301"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -87,8 +86,7 @@
           {
             "Text": "Tags: reference"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -112,8 +110,7 @@
           {
             "Text": "Date: 2006-01-13T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -125,8 +122,7 @@
         "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -174,8 +170,7 @@
             "Text": "SET FOO=\"bar\"",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -223,8 +218,7 @@
             "Text": "echo %FOO%",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -284,8 +278,7 @@
           {
             "Text": " etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -339,8 +332,7 @@
           {
             "Text": ". Useful for testing command line arguments."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -412,8 +404,7 @@
           {
             "Text": " to $n, so to check for any failures use 1."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -461,8 +452,7 @@
             "Text": "FOR /L %A IN (1,1,10) DO @echo hello",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -510,8 +500,7 @@
             "Text": "call another.bat",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -559,8 +548,7 @@
             "Text": "IF EXIST e:\\directory GOTO USE_E",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -584,8 +572,7 @@
           {
             "Text": "Here’s an example of a batch file that does a few common things:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -611,8 +598,7 @@
         "type": "code",
         "version": 1,
         "code": "@ECHO OFF\n@rem \"pushd $dir\" puts $dir on directory stack\npushd .\nSET COMMENT=%1\nIF NOT DEFINED COMMENT SET COMMENT=\"\"\n\nSET FOO=\"bar\"\n\nIF %FOO%==\"bar\" goto IS_BAR\necho The above should always be true\ngoto END\n\n:IS_BAR\nnmake -f Makefile.vc\nIF ERRORLEVEL 1 goto ERR_ONE_OR_HIGHER\necho Compilation successful!\ngoto END\n\n:ERR_ONE_OR_HIGHER\necho Compilation failed!\ngoto END\n\n:END\n@rem popd pops the directory name from the stack and does cd there\npopd",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Basics of writing DOS .bat batch files",
@@ -623,8 +609,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

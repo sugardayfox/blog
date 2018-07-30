@@ -102,8 +102,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -139,8 +138,7 @@
               {
                 "Text": " : will ask for password"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -176,8 +174,7 @@
               {
                 "Text": " : provide password"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -213,8 +210,7 @@
               {
                 "Text": " : connect to non-standard port (3306 is default)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -238,8 +234,7 @@
               {
                 "Text": "Can connect to remote servers, but the server might be configured to not allow remote connections (per user)."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -253,8 +248,7 @@
           {
             "Text": " executable"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -333,8 +327,7 @@
               {
                 "Text": " to install"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -370,8 +363,7 @@
               {
                 "Text": " : run in sql mode (JavaScript is default)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -407,8 +399,7 @@
               {
                 "Text": " : process a file"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -444,8 +435,7 @@
               {
                 "Text": " : connect to port"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -481,8 +471,7 @@
               {
                 "Text": " : user"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -496,8 +485,7 @@
           {
             "Text": " "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -552,8 +540,7 @@
                 "Text": "show databases;",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -583,8 +570,7 @@
                 "Text": "use \u003cdb\u003e;",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -614,8 +600,7 @@
                 "Text": "show tables;",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -645,16 +630,14 @@
                 "Text": "describe \u003ctable\u003e;",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "mysql cmd-line ui"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -714,8 +697,7 @@
               {
                 "Text": " : data directory"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -751,8 +733,7 @@
               {
                 "Text": " : configuration file"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -778,16 +759,14 @@
             "type": "code",
             "version": 0,
             "code": "[client]\nport\t\t= 3306\nsocket\t\t= /var/run/mysqld/mysqld.sock\n\n[mysqld_safe]\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nnice\t\t= 0\n\n[mysqld]\nskip-host-cache\nskip-name-resolve\nuser\t\t= mysql\npid-file\t= /var/run/mysqld/mysqld.pid\nsocket\t\t= /var/run/mysqld/mysqld.sock\nport\t\t= 3306\nbasedir\t\t= /usr\ndatadir\t\t= /var/lib/mysql\ntmpdir\t\t= /tmp\nlc-messages-dir\t= /usr/share/mysql\nexplicit_defaults_for_timestamp\n\n# Instead of skip-networking the default is now to listen only on\n# localhost which is more compatible and is not less secure.\n#bind-address\t= 127.0.0.1\n\n#log-error\t= /var/log/mysql/error.log\n\n# Recommended in standard MySQL setup\nsql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\n\n# Disabling symbolic-links is recommended to prevent assorted security risks\nsymbolic-links=0\n\n# * IMPORTANT: Additional settings that can override those from this file!\n#   The files must end with '.cnf', otherwise they'll be ignored.\n#\n!includedir /etc/mysql/conf.d/",
-            "code_language": "Go",
-            "format_video": null
+            "code_language": "Go"
           }
         ],
         "inline_content": [
           {
             "Text": "default config for mysql:5.6 docker image"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -835,16 +814,14 @@
             "type": "code",
             "version": 0,
             "code": "brew install homebrew/versions/mysql55 : so that it matches version on gce\nbrew link --force homebrew/versions/mysql55\n\nimport (\n_ \"github.com/go-sql-driver/mysql\"\n)\n\nTypes:\nint, integer - 4 bytes\nbigint - 8 bytes\nfloat - 4 bytes\ndouble - 8 bytes\n\ndate - 3 bytes\ntime - 3 bytes\ndatetime - 8 bytes\ntimestamp - 4 bytes\nvarchar(n) - L + 1 bytes if n \u003c= 255, L + 2 bytes i n \u003e 255, max is 65535 \ntext\nvarbinary(n)\nblob\n\nNotes:\nvarchar is stored inline, size limited to max row size (65k)\ntext is stored on the size, not max row limit, slower than varchar\n\nCREATE [UNIQUE] INDEX idx_name ON table(column,...) using [HASH | BTREE]\n\nHomebrew:\nTo connect:\n    mysql -uroot\n\nTo have launchd start mysql at login:\n    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents\nThen to load mysql now:\n    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist\nOr, if you don't want/need launchctl, you can just run:\n    mysql.server start\n==\u003e /usr/local/\n\nhttp://blog.ionelmc.ro/2014/12/28/terrible-choices-mysql/\n\n\nSELECT @@GLOBAL.sql_mode;\nSELECT @@SESSION.sql_mode;\nlocal:\nSTRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION\non gce is empty\n\nVersion:\nlocal: 5.6.22\ngce: 5.5.38-log\n\nhttps://github.com/yahoo/mysql_perf_analyzer\nhttp://githubengineering.com/using-mysql-performance-schema-for-workload-analysis/\nhttp://stackoverflow.com/questions/3499372/get-list-of-mysql-databases-and-server-version\nhttps://github.com/pubnative/mysqldriver-go",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -856,8 +833,7 @@
         "parent_id": "a0918966-943e-427c-8f9f-0171a6f52745",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "MySQL",
@@ -868,8 +844,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

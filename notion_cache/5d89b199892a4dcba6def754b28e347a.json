@@ -55,8 +55,7 @@
           {
             "Text": "Id: 302"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -80,8 +79,7 @@
           {
             "Text": "Tags: c, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -105,8 +103,7 @@
           {
             "Text": "Date: 2006-01-13T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -118,8 +115,7 @@
         "parent_id": "5d89b199-892a-4dcb-a6de-f754b28e347a",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -143,8 +139,7 @@
           {
             "Text": "Asserts are good. Compile-time asserts are even better. Here’s how to define and use them in C."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -170,8 +165,7 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef CASSERT\n#define CASSERT( exp, name ) typedef int dummy##name [ (exp ) ? 1 : -1 ];\n#endif\nCASSERT( sizeof(int16_t) == 2, int16_t_is_two_bytes )",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -183,8 +177,7 @@
         "parent_id": "5d89b199-892a-4dcb-a6de-f754b28e347a",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       }
     ],
     "title": "Compile-time asserts in C",
@@ -195,8 +188,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

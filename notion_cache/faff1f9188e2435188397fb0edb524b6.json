@@ -76,8 +76,7 @@
           {
             "Text": "Id: 424001"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -101,8 +100,7 @@
           {
             "Text": "Tags: programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -126,8 +124,7 @@
           {
             "Text": "Date: 2011-03-10T18:25:56-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -139,8 +136,7 @@
         "parent_id": "faff1f91-88e2-4351-8839-7fb0edb524b6",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       },
       {
         "alive": true,
@@ -202,8 +198,7 @@
           {
             "Text": " (EXI). Back in the day we called it simply binary XML."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -227,8 +222,7 @@
           {
             "Text": "The money quote from the announcement:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -252,8 +246,7 @@
           {
             "Text": "They’ve achieved over 100-fold performance improvements…"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -277,8 +270,7 @@
           {
             "Text": "One way to interpret this is: wow, those guys are really smart."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -302,8 +294,7 @@
           {
             "Text": "There is much simpler explanation: XML is really, really slow."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -327,8 +318,7 @@
           {
             "Text": "Speed comes from architecture"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -352,8 +342,7 @@
           {
             "Text": "I’m somewhat performance oriented in my programming work. One of the reasons I disliked the popularity of XML was that I saw how often it blinded people to engineering realities. Choosing XML was often a reason for dramatic performance issues that then had to be heroically recovered."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -377,8 +366,7 @@
           {
             "Text": "Those performance problems were, however, mostly self inflicted. XML is only one of the possible ways to store or exchange data but it certainly is one of the slowest."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -402,8 +390,7 @@
           {
             "Text": "You cannot get 100x speed up over technology that wasn’t incredibly inefficient to begin with."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -427,8 +414,7 @@
           {
             "Text": "Sometimes you don’t have the choice (when you have to inter-operate with systems that only offer XML) but I’ve seen many cases where people did have the choice and made the wrong one."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -452,8 +438,7 @@
           {
             "Text": "XML isn’t such a hot buzzword anymore so I don’t see that problem as often but I still do see it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -477,8 +462,7 @@
           {
             "Text": "For example, more than one text editor decided to store the syntax highlighter definitions as XML while it can be trivially stored in simple text format that can be parsed much faster, using less memory and, as a bonus, can actually be edited by human beings."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -502,8 +486,7 @@
           {
             "Text": "A bigger point is: speed comes from architecture. It’s not that choosing the right architecture will make you dramatically better but choosing the wrong architecture will make you dramatically worse."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -527,8 +510,7 @@
           {
             "Text": "Choosing XML over more efficient ways of storing data is just one, but particularly frequent, example of that rule."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -552,8 +534,7 @@
           {
             "Text": "Binary XML (EXI) is too little too late"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -577,8 +558,7 @@
           {
             "Text": "As to the standard itself: don’t pay attention to it. It’s too little, way too late."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -602,8 +582,7 @@
           {
             "Text": "About 8 years ago I did my small part in expanding XML capabilities of SQL Server. At the time XML was hot so Oracle, Microsoft, IBM raced to add native XML handling to their databases. It was going to be the next big thing. Possibly even bigger than big."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -627,8 +606,7 @@
           {
             "Text": "Trust me, the ridiculous inefficiency of XML wasn’t lost on developers working on XML technologies 8 years ago. Coming up with a more efficient binary XML format is easy. Microsoft had its version (if not several of them) and other companies had theirs."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -652,8 +630,7 @@
           {
             "Text": "The real problem was: politics prevented people agreeing on a standard so no standard emerged."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -677,8 +654,7 @@
           {
             "Text": "There was an eruption of creating standards based on XML (SOAP, XML Schema, XQuery). If you don’t know what those terms mean it’s because they all failed (despite the fact that everyone was convinced they’re going to be the next big thing)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -702,8 +678,7 @@
           {
             "Text": "In hindsight it was a terrible mistake to work on those big standards of speculative value but not solve a real problem people already had: an efficient, binary, standard format for storing XML."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -727,8 +702,7 @@
           {
             "Text": "If W3C came up with EXI 8 years ago, maybe people wouldn’t feel the need to invent Protocol Buffers or Thrift and it would have won."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -752,8 +726,7 @@
           {
             "Text": "But solving this problem today is almost comically late. It has no chance of adoption."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -777,8 +750,7 @@
           {
             "Text": "If you’re planning to use a custom, binary way of storing XML, using EXI is probably better but there’s no way EXI will become so universally supported as XML and universal support (in software libraries, books etc.) is really the main thing XML has going for it (speed or human-readable syntax, on the other hand, are not XML’s strengths)."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "XML is really, really slow",
@@ -789,8 +761,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -128,8 +128,7 @@
                 "Text": "https://ci.appveyor.com/project/sandsmark/pdfium/build/64/job/clga1tp2v7j0ug8x/artifacts",
                 "Link": "https://ci.appveyor.com/project/sandsmark/pdfium/build/64/job/clga1tp2v7j0ug8x/artifacts"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -179,8 +178,7 @@
                 "Text": "https://assendelft.webathome.org/Pdfium/",
                 "Link": "https://assendelft.webathome.org/Pdfium/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -217,8 +215,7 @@
               {
                 "Text": " : Viewer based on PDFium, C# (Winforms and WPF)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -255,8 +252,7 @@
               {
                 "Text": " : SDK for PDFium for C#, $220, but doesn't have anything over pvginkel's"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -293,8 +289,7 @@
               {
                 "Text": " : appveyor script to build pdfium as a library"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -325,8 +320,7 @@
                 "Text": "https://github.com/pvginkel/PdfiumViewer",
                 "Link": "https://github.com/pvginkel/PdfiumViewer"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -376,8 +370,7 @@
                 "Text": "https://github.com/Patagames/Pdf.WinForms",
                 "Link": "https://github.com/Patagames/Pdf.WinForms"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -408,8 +401,7 @@
                 "Text": "https://bugs.chromium.org/p/pdfium/issues/list",
                 "Link": "https://bugs.chromium.org/p/pdfium/issues/list"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -440,8 +432,7 @@
                 "Text": "https://github.com/pvginkel/PdfiumViewer",
                 "Link": "https://github.com/pvginkel/PdfiumViewer"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -472,8 +463,7 @@
                 "Text": "https://github.com/rsippl/wxPDFView",
                 "Link": "https://github.com/rsippl/wxPDFView"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -504,8 +494,7 @@
                 "Text": "https://github.com/vmiklos/vmexam/tree/master/pdfium",
                 "Link": "https://github.com/vmiklos/vmexam/tree/master/pdfium"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -517,16 +506,14 @@
             "parent_id": "4f50cc8c-6ac3-4914-899b-a98ca068fc0f",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "format_video": null
+            "version": 0
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -580,8 +567,7 @@
               {
                 "Text": "Compiling pdfium on windows:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -618,8 +604,7 @@
                 "Text": "depot tools",
                 "Link": "http://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -661,8 +646,7 @@
               {
                 "Text": ")"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -692,8 +676,7 @@
                 "Text": "mkdir repo; cd repo",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -723,8 +706,7 @@
                 "Text": "fetch pdfium",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -754,8 +736,7 @@
                 "Text": "cd pdfium",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -791,8 +772,7 @@
                 "Text": "python.bat build\\gyp_pdfium",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -822,8 +802,7 @@
                 "Text": "cd .\\out\\Release",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -853,16 +832,14 @@
                 "Text": "ninja",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "compiling on windows"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -874,8 +851,7 @@
         "parent_id": "d09308ab-5a07-4f1d-b355-2af8b87f0210",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "PDFium",
@@ -886,8 +862,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

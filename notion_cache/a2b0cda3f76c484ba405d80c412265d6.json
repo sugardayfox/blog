@@ -83,8 +83,7 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
                 "Link": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -115,8 +114,7 @@
                 "Text": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
                 "Link": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -147,8 +145,7 @@
                 "Text": "https://davidwalsh.name/file-api",
                 "Link": "https://davidwalsh.name/file-api"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -179,16 +176,14 @@
                 "Text": "https://davidwalsh.name/filereader",
                 "Link": "https://davidwalsh.name/filereader"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "\u003e Links"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -200,8 +195,7 @@
         "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -227,8 +221,7 @@
         "type": "code",
         "version": 160,
         "code": "FileReader\n  event handlers:\n    onloadstart\n\t\tonprogress\n\t\tonloadend : failure or success\n\t\tonload : on success, (evt) =\u003e { evt.target.result is the data }\n\t\tonabort\n\t\tonerror\n\tmethods\n\t\tabort\n\t\treadAsArrayBuffer : result will be ArrayBuffer\n\t\treadAsBinaryString : result will be binary data as string\n\t\treadAsDataURL : result will be data: URL\n\t\treadAsText : result will be content as string",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -240,8 +233,7 @@
         "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
     "title": "files, blobs, FileReader",
@@ -252,8 +244,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

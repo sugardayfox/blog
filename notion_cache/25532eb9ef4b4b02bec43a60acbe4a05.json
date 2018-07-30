@@ -54,8 +54,7 @@
           {
             "Text": "Id: 1231"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -79,8 +78,7 @@
           {
             "Text": "Tags: unix, networking"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -104,8 +102,7 @@
           {
             "Text": "Date: 2008-03-20T11:51:20-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -117,8 +114,7 @@
         "parent_id": "25532eb9-ef4b-4b02-bec4-3a60acbe4a05",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -155,8 +151,7 @@
             "Text": "http://www.cocoadev.com/index.pl?GettingHostnameFromIPAddress",
             "Link": "http://www.cocoadev.com/index.pl?GettingHostnameFromIPAddress"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -182,8 +177,7 @@
         "type": "code",
         "version": 1,
         "code": "dig -x 17.149.160.49\n\nListing all conections and who holds them:\nnetstat -p -n | grep tcp | wc -l\n-p : show pid/name of the process\n-n : don't resolve name (much faster)",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Reverse DNS lookup",
@@ -194,8 +188,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -46,12 +46,10 @@
         "type": "code",
         "version": 0,
         "code": "A sane hexdump format:\n\nhexdump -n 32 -v -e '\"%010_ad  |\" 16/1 \"%_p\" \"|\\n\"' $file\nhexdump -C foo.txt",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
-    "title": "hexdump",
-    "format_video": null
+    "title": "hexdump"
   },
   "Users": [
     {

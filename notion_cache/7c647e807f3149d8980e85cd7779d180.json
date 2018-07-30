@@ -75,8 +75,7 @@
           {
             "Text": "Id: 7051"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -100,8 +99,7 @@
           {
             "Text": "Tags: ssh, unix, svn, reference"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -125,8 +123,7 @@
           {
             "Text": "Date: 2009-02-24T11:05:39-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -138,8 +135,7 @@
         "parent_id": "7c647e80-7f31-49d8-980e-85cd7779d180",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -169,8 +165,7 @@
             "Text": "Password-less authentication:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -230,8 +225,7 @@
           {
             "Text": ")"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -291,8 +285,7 @@
           {
             "Text": " (for dsa key), with 0600 permissions"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -334,8 +327,7 @@
           {
             "Text": " (also with 0600 permission)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -372,8 +364,7 @@
             "Text": "long version",
             "Link": "http://sial.org/howto/openssh/publickey-auth/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -403,8 +394,7 @@
             "Text": "Using a different username with svn+ssh:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -446,8 +436,7 @@
           {
             "Text": " and add the lines:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -473,8 +462,7 @@
         "type": "code",
         "version": 1,
         "code": "Host svn.yourserver.com\nUser jdoe",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -498,8 +486,7 @@
           {
             "Text": "That instructs ssh to use the username jdoe instead of your unix username when connecting to svn.youserver.com. If you use password-protected ssh keys, you will be prompted for a private key password, like this:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -529,8 +516,7 @@
             "Text": "Enter passphrase for key '/home/jdoe/.ssh/id_dsa':",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -572,8 +558,7 @@
           {
             "Text": " and when it prompts for a new passphrase, just hit enter."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -603,8 +588,7 @@
             "Text": "Using ssh agent:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -628,8 +612,7 @@
           {
             "Text": "Ssh agent remembers password for your private key, so you only have to type it once in a session, not every time it’s used."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -701,8 +684,7 @@
             "Text": "ssh-add -l",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -732,8 +714,7 @@
             "Text": "Cygwin and ssh agent:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -757,8 +738,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -789,8 +769,7 @@
             "Text": "http://holdenweb.blogspot.com/2007/12/cygwin-ssh-agent-control.html",
             "Link": "http://holdenweb.blogspot.com/2007/12/cygwin-ssh-agent-control.html"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -821,8 +800,7 @@
             "Text": "http://www.newmedialogic.com/node/55",
             "Link": "http://www.newmedialogic.com/node/55"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -864,8 +842,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -891,8 +868,7 @@
         "type": "code",
         "version": 1,
         "code": "## Enable ssh agent\nexport SSH_AUTH_SOCK=/tmp/.ssh-socket\n\nssh-add -l \\\u003e/dev/null 2\\\u003e\u00261\n\nif [ $? = 2 ]; then\n # Exit status 2 means couldn’t connect to ssh-agent; start one now\n rm -rf /tmp/.ssh*\n ssh-agent -a $SSH_AUTH_SOCK \u003e/tmp/.ssh-script\n . /tmp/.ssh-script\n echo $SSH_AGENT_PID \u003e/tmp/.ssh-agent-pid\nfi\n\nfunction kill-agent {\n pid=`cat /tmp/.ssh-agent-pid`\n kill $pid\n}\n\nfunction addkeys {\n ssh-add ~/.ssh/id_dsa*\n}",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -922,8 +898,7 @@
             "Text": "Set an alias for a hostname",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -965,8 +940,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -992,8 +966,7 @@
         "type": "code",
         "version": 1,
         "code": "Host dev30\n    HostName dev30.kowalczyk.info\n    User root\n    IdentityFile ~/.ssh/id_dsa_dev30",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "ssh tips",
@@ -1004,8 +977,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

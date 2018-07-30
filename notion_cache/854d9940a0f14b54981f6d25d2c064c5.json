@@ -44,8 +44,7 @@
         },
         "type": "code",
         "version": 0,
-        "code": "Invert grep:\ngrep -v\ngrep --invert-match\n\nGrep stderr: pipe via |\u0026, e.g.:\ngo vet ./... |\u0026 grep --invert-match \"unkeyed\" |\u0026 grep -v \"exit status\"",
-        "format_video": null
+        "code": "Invert grep:\ngrep -v\ngrep --invert-match\n\nGrep stderr: pipe via |\u0026, e.g.:\ngo vet ./... |\u0026 grep --invert-match \"unkeyed\" |\u0026 grep -v \"exit status\""
       }
     ],
     "title": "grep",
@@ -56,8 +55,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

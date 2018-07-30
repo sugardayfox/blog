@@ -72,8 +72,7 @@
             "Text": "https://docs.google.com/spreadsheets/d/1tAX5ZJzluilhoYKjra-uHbMCZraaQkqIHl3RIQ8mVkM/htmlview?sle=true#gid=0",
             "Link": "https://docs.google.com/spreadsheets/d/1tAX5ZJzluilhoYKjra-uHbMCZraaQkqIHl3RIQ8mVkM/htmlview?sle=true#gid=0"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -85,8 +84,7 @@
         "parent_id": "0e53211b-84da-49c2-880f-fcea30915a3c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -159,8 +157,7 @@
               {
                 "Text": " Pass username and password with every request."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -196,8 +193,7 @@
               {
                 "Text": " For internal APIs that are used from server side only, and are low-value."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -233,8 +229,7 @@
               {
                 "Text": "Server side. The username is passed in the request, the server validates it using the provided password, and then looks up whatever information it wants from it's database."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -270,8 +265,7 @@
               {
                 "Text": " Not relevant. Up to the server to manage."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -307,8 +301,7 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -344,8 +337,7 @@
               {
                 "Text": " Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -381,8 +373,7 @@
               {
                 "Text": "Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -418,8 +409,7 @@
               {
                 "Text": " Not relevant. Don't use this technique for web based clients"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -455,8 +445,7 @@
               {
                 "Text": " Passed in Authorization header"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -480,8 +469,7 @@
               {
                 "Text": "Example:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -505,8 +493,7 @@
               {
                 "Text": "Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -530,8 +517,7 @@
               {
                 "Text": "Username and password are NOT encrypted"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -567,8 +553,7 @@
               {
                 "Text": " Vulnerable. Do not use basic authentication for web apps, unless it is a low value internal web application"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -604,8 +589,7 @@
               {
                 "Text": " Don't use basic authentication. Mobile apps cannot store the credentials safely, and users will not want to enter credentials for every request."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -641,8 +625,7 @@
               {
                 "Text": " If you use HTTPS, then basic authentication is a good choice for server side only applications. It is the easiest to get started, and is well supported by clients and server frameworks."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -678,16 +661,14 @@
               {
                 "Text": " Definitely possible."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "HTTP Basic Auth"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -757,8 +738,7 @@
               {
                 "Text": " Signed or encrypted cookie with user information. Usually handled by web framework."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -794,8 +774,7 @@
               {
                 "Text": " If you are building a web application only, and your framework supports it, and you do not have a distributed cache like redis/memcached. Don't implement this on your own."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -831,8 +810,7 @@
               {
                 "Text": " In the cookie"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -868,8 +846,7 @@
               {
                 "Text": " Stored in the cookie"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -905,8 +882,7 @@
               {
                 "Text": "Yes, but usually handled by mature library"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -942,8 +918,7 @@
               {
                 "Text": " Server has to overwrite the cookie with every request, setting a new expiry time. If the framework doesn't handle this already, this can be painful"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -997,8 +972,7 @@
               {
                 "Text": "You have to maintain a separate revocation list in a distributed store. Again, you lose the benefits of being stateless"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1034,8 +1008,7 @@
               {
                 "Text": " Implicit. Browser handles this automatically, no effort on part of the programmer"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1071,8 +1044,7 @@
               {
                 "Text": " As cookie. Browser automatically sends this to the server"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1108,8 +1080,7 @@
               {
                 "Text": " Vulnerable. Programmers need to be careful to prevent CSRF"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1145,8 +1116,7 @@
               {
                 "Text": " Native mobile apps will find session based auth painful. Avoid session based auth if mobile apps are expected to use API"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1182,8 +1152,7 @@
               {
                 "Text": " Server side apps will find session based auth painful. Avoid if server side apps are expected to use API"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1219,16 +1188,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Stateless Session Cookie"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1304,8 +1271,7 @@
               {
                 "Text": " Signed or encrypted user info in an encoded json string. Handled by well tested libraries in every language"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1341,8 +1307,7 @@
               {
                 "Text": " Mobile, Web, Server side apps. Only if you are okay to forego revocation and inactivity based timeout."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1378,8 +1343,7 @@
               {
                 "Text": " In the token."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1415,8 +1379,7 @@
               {
                 "Text": " Stored in the token"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1452,8 +1415,7 @@
               {
                 "Text": "Yes, but usually handled by mature library"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1489,8 +1451,7 @@
               {
                 "Text": " Painful.  You have to use refresh tokens, which is added work for the client."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1514,8 +1475,7 @@
               {
                 "Text": "You can maintain a last_seen_at flag in a database/cache, and use that to expire, but then you lose the benefits of being stateless"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1551,8 +1511,7 @@
               {
                 "Text": "Painful. You have to maintain a separate revocation list in a distributed store. Again, you lose the benefits of being stateless."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1588,8 +1547,7 @@
               {
                 "Text": " Explicit. Programmer has to store the token somewhere. Usually sessionStorage or localStorage."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1625,8 +1583,7 @@
               {
                 "Text": " As request header -"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1650,8 +1607,7 @@
               {
                 "Text": "Authorization: Bearer \u003ctoken\u003e"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1675,8 +1631,7 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1712,8 +1667,7 @@
               {
                 "Text": " Not vulnerable, because token is passed explicitly as a request header"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1749,8 +1703,7 @@
               {
                 "Text": " Mobile app users expect to login just once, and don't ever login again. JWT with a long expiry can work, but a better strategy is to use a secure random token with no information in it."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1786,8 +1739,7 @@
               {
                 "Text": " Create a private-public key pair, and let the client create the JWT with the private key and the server validate it using the public key."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1811,8 +1763,7 @@
               {
                 "Text": "Alternatively, maintain a shared secret and use that to create the JWT."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1836,8 +1787,7 @@
               {
                 "Text": "Prefer private/public key pair instead of shared secret."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1861,8 +1811,7 @@
               {
                 "Text": "Create JWT on every request, and keep expiry very low."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1898,16 +1847,14 @@
               {
                 "Text": " Possible only if the expiry is high. If every request generates a new JWT (like in case of server side apps), then replay attacks becomes very difficult."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "JWT"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1977,8 +1924,7 @@
               {
                 "Text": " Standard session cookie, supported by most web frameworks and browsers."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2014,8 +1960,7 @@
               {
                 "Text": " If you are building a web application only, and can store sessions in database or a distributed cache."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2051,8 +1996,7 @@
               {
                 "Text": "Stored server side either in memory or in database or in distributed cache or in file system."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2088,8 +2032,7 @@
               {
                 "Text": " Stored server side"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2125,8 +2068,7 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2162,8 +2104,7 @@
               {
                 "Text": " Yes. Easily handled out of the box in every web framework"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2199,8 +2140,7 @@
               {
                 "Text": "Possible, but exact capabilities depends on web framework"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2236,8 +2176,7 @@
               {
                 "Text": " Implicit. Browser handles this automatically, no effort on part of the programmer"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2273,8 +2212,7 @@
               {
                 "Text": " As cookie. Browser automatically sends this to the server"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2310,8 +2248,7 @@
               {
                 "Text": " Vulnerable. Programmers need to be careful to prevent CSRF"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2347,8 +2284,7 @@
               {
                 "Text": " Native mobile apps will find session based auth painful. Avoid session based auth if mobile apps are expected to use API"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2384,8 +2320,7 @@
               {
                 "Text": " Server side apps will find session based auth painful. Avoid if server side apps are expected to use API"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2421,16 +2356,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Stateful Session Cookie"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2503,8 +2436,7 @@
               {
                 "Text": " A strong, secure random token that does not have any data in it, and cannot be guessed. This is equivalent to session id."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2540,8 +2472,7 @@
               {
                 "Text": " For web and mobile apps when you already have a distributed cache like redis/memcached. For server side apps, prefer JWT with per-request token."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2577,8 +2508,7 @@
               {
                 "Text": "Stored server side either in memory or in database or in distributed cache or in file system."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2614,8 +2544,7 @@
               {
                 "Text": " Stored server side"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2651,8 +2580,7 @@
               {
                 "Text": "No Cryptography"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2688,8 +2616,7 @@
               {
                 "Text": " Yes. With every request, increment the timeout on the server side."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2725,8 +2652,7 @@
               {
                 "Text": " Yes. Simply delete the session data on the server side, and next request will be considered unauthenticated."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2762,8 +2688,7 @@
               {
                 "Text": " Explicit. Programmer has to store the token somewhere. Usually sessionStorage or localStorage."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2799,8 +2724,7 @@
               {
                 "Text": " As request header -"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2824,8 +2748,7 @@
               {
                 "Text": "Authorization: Bearer \u003ctoken\u003e"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2849,8 +2772,7 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2886,8 +2808,7 @@
               {
                 "Text": " Not vulnerable, because token is passed explicitly as a request header"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2923,8 +2844,7 @@
               {
                 "Text": " Create the random token during first installation/login, and use that token throughout the life of the app."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2960,8 +2880,7 @@
               {
                 "Text": " This becomes similar to an API key that is passed by the client. Replay attacks are possible if someone gets the API key."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2985,8 +2904,7 @@
               {
                 "Text": "For server to server apps, prefer JWT with public/private key pair"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3022,16 +2940,14 @@
               {
                 "Text": " Possible"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Random Token"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3109,8 +3025,7 @@
               {
                 "Text": " Popularized by AWS authentication."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3134,8 +3049,7 @@
               {
                 "Text": "Shared secret between server and client. Client signs the complete request using the shared secret, server verifies it."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3159,8 +3073,7 @@
               {
                 "Text": "See http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3196,8 +3109,7 @@
               {
                 "Text": " Only for server side applications when you provide your clients a library to manage the cryptography, and only if you are concerned about replay attacks."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3221,8 +3133,7 @@
               {
                 "Text": "In practice, using JWT for every request, and including the url and key request parameters in the JWT achieves most of the benefits of this approach without implementing the complex canonicalization algorithm"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3258,8 +3169,7 @@
               {
                 "Text": "Server side. The \"userid\" is passed in the request, the signature tells the server it is indeed that user. The server can then look up whatever information it wants from it's database."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3295,8 +3205,7 @@
               {
                 "Text": " Passed in the request, and usually valid for a very short time only."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3332,8 +3241,7 @@
               {
                 "Text": "Yes. Outside of AWS libraries, there isn't a good standard implementation, so it will be painful to use if you don't provide client libraries"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3369,8 +3277,7 @@
               {
                 "Text": " Doesn't make sense."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3394,8 +3301,7 @@
               {
                 "Text": "This approach only makes sense for server side applications, and in such applications inactivity based timeout does not make sense"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3431,8 +3337,7 @@
               {
                 "Text": "Yes. The server can easily deny the request."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3468,8 +3373,7 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3505,8 +3409,7 @@
               {
                 "Text": " Passed in the Authorization header, but instead of \"bearer\", it will be some other custom scheme. AWS uses AWS4-HMAC-SHA256."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3530,8 +3433,7 @@
               {
                 "Text": "Example:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3555,8 +3457,7 @@
               {
                 "Text": "Authorization: AWS4-HMAC-SHA256 Credential=AKIDEXAMPLE/20150830/us-east-1/iam/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=5d672d79c15b13162d9279b0855cfba6789a8edb4c82c400e06b5924a6f2b5d7"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3580,8 +3481,7 @@
               {
                 "Text": "Programmer explicitly passes this with every request"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3617,8 +3517,7 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3654,8 +3553,7 @@
               {
                 "Text": " Not applicable. This technique is not suitable for web applications - because the mobile app cannot keep secrets."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3691,8 +3589,7 @@
               {
                 "Text": " This is a preferred approach for server side applications where higher security is needed."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3716,8 +3613,7 @@
               {
                 "Text": "In principle, it is similar to JWT with shared keys, except that in this approach everything is signed - the url, the parameters, the request headers and the request body."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3753,16 +3649,14 @@
               {
                 "Text": " Because everything is signed, this makes replay attacks impossible"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Full Request Signature"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3834,8 +3728,7 @@
               {
                 "Text": " Only use this when you have three parties - you, your users, and third party app developers that need your user data."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3859,8 +3752,7 @@
               {
                 "Text": "If you don't have third party developers, OAuth is overkill"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3896,8 +3788,7 @@
               {
                 "Text": " Only if you have external third party developers who want user specific data, and you need permission from your users before sharing their data with the third party."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3921,8 +3812,7 @@
               {
                 "Text": "For anything else, OAuth is overkill."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3952,8 +3842,7 @@
                 "Text": "Where is data stored? ",
                 "AttrFlags": 1
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -3989,8 +3878,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4020,8 +3908,7 @@
                 "Text": "Use Crypto?",
                 "AttrFlags": 1
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4057,8 +3944,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4088,8 +3974,7 @@
                 "Text": "Revocation. ",
                 "AttrFlags": 1
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4125,8 +4010,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4162,8 +4046,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4199,8 +4082,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4236,8 +4118,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4273,8 +4154,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -4310,16 +4190,14 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Oauth"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -4331,8 +4209,7 @@
         "parent_id": "0e53211b-84da-49c2-880f-fcea30915a3c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -4356,8 +4233,7 @@
           {
             "Text": "csrf:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -4388,8 +4264,7 @@
             "Text": "https://medium.com/@zarkopafilis/gorilla-csrf-explained-843c9957800d",
             "Link": "https://medium.com/@zarkopafilis/gorilla-csrf-explained-843c9957800d"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Authentication methods",
@@ -4400,8 +4275,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

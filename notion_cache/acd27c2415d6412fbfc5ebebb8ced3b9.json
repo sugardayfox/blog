@@ -84,8 +84,7 @@
           {
             "Text": "Id: 13"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -109,8 +108,7 @@
           {
             "Text": "Date: 2014-12-11T00:19:49-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -134,8 +132,7 @@
           {
             "Text": "Tags: go, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -159,8 +156,7 @@
           {
             "Text": "HeaderImage: gfx/headers/header-08.jpg"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -184,8 +180,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -197,8 +192,7 @@
         "parent_id": "acd27c24-15d6-412f-bfc5-ebebb8ced3b9",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       },
       {
         "alive": true,
@@ -260,8 +254,7 @@
           {
             "Text": " for compressing small strings. It’s simple, fast and works well for English text."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -285,8 +278,7 @@
           {
             "Text": "It wasn’t as fast as I expected so I looked at the code and with a few tweaks I managed to speed up decompression 2.61x times and compression 1.54x times:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -312,8 +304,7 @@
         "type": "code",
         "version": 1,
         "code": "kjkmacpro:smaz kjk$ benchcmp before.txt after.txt\nbenchmark                  old ns/op     new ns/op     delta\nBenchmarkCompression       3387936       2195304       -35.20%\nBenchmarkDecompression     2667583       1022908       -61.65%\n\nbenchmark                  old MB/s     new MB/s     speedup\nBenchmarkCompression       40.35        62.26        1.54x\nBenchmarkDecompression     28.34        73.90        2.61x",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -337,8 +328,7 @@
           {
             "Text": "The speed increase came from 3 micro-optimizations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -398,8 +388,7 @@
           {
             "Text": " will do."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -478,8 +467,7 @@
           {
             "Text": " slice."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -569,8 +557,7 @@
           {
             "Text": " etc. Decreased speed is the price of that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -594,8 +581,7 @@
           {
             "Text": "It doesn’t matter in most programs, but in a tight decompression loop even small wins do add up."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -619,8 +605,7 @@
           {
             "Text": "2. Re-using buffers is another common optimization trick in Go."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -644,8 +629,7 @@
           {
             "Text": "The original API was:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -671,8 +655,7 @@
         "type": "code",
         "version": 3,
         "code": "compressed := smaz.Compress(source)",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -708,8 +691,7 @@
           {
             "Text": " function has no option but to allocate a new buffer for the compressed data. Allocations are not free and they slow down the program by making garbage collector do more work."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -733,8 +715,7 @@
           {
             "Text": "Other compression libraries allow the caller to provide a buffer for the result:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -760,8 +741,7 @@
         "type": "code",
         "version": 3,
         "code": "compressed := make([]byte, 1024)\ncompressed = smaz.Encode(compressed, source)",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -803,8 +783,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -828,8 +807,7 @@
           {
             "Text": "3. Avoid un-necessary copies"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -853,8 +831,7 @@
           {
             "Text": "Compression and decompression involves reading data from memory, transforming it and writing the result to another memory location."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -897,8 +874,7 @@
           {
             "Text": " for one memory operation in L2 cache."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -941,8 +917,7 @@
           {
             "Text": " but also 1.14x faster."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -966,8 +941,7 @@
           {
             "Text": "Benchmarking tools in Go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -991,8 +965,7 @@
           {
             "Text": "Go includes tools for writing benchmarks and tests."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1016,8 +989,7 @@
           {
             "Text": "Writing benchmarks is straightforward. Here’s a benchmark for compression speed:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1043,8 +1015,7 @@
         "type": "code",
         "version": 3,
         "code": "func BenchmarkCompression(b *testing.B) {\n    b.StopTimer()\n    inputs, n := loadTestData(b)\n    b.SetBytes(n)\n    b.StartTimer()\n    var dst []byte\n    for i := 0; i \u003c b.N; i++ {\n        for _, input := range inputs {\n            dst = Encode(dst, input)\n        }\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1122,8 +1093,7 @@
           {
             "Text": " to run all of them)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1147,8 +1117,7 @@
           {
             "Text": "Go minimizes amount of work the programmer needs to do in several ways:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1208,8 +1177,7 @@
           {
             "Text": " file is a benchmark function"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1233,8 +1201,7 @@
           {
             "Text": "the results are in a standardized, human-readable form"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1276,8 +1243,7 @@
           {
             "Text": ". It’s a good metric for compression algorithms."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1301,8 +1267,7 @@
           {
             "Text": "There’s also a tool to compare benchmark results (before and after the change):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1328,8 +1293,7 @@
         "type": "code",
         "version": 3,
         "code": "\u003e go get -u golang.org/x/tools/cmd/benchcmp\n\u003e go test -bench=. \u003ebefore.txt\n\u003e ... make the changes\n\u003e go test -bench=. \u003eafter.txt\n\u003e benchcmp before.txt after.txt",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       }
     ],
     "title": "Improving speed of SMAZ compressor by 2.6x/1.5x",
@@ -1340,8 +1304,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

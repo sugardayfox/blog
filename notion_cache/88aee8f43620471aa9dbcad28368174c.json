@@ -115,8 +115,7 @@
           {
             "Text": "Date: 2018-07-23"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -140,8 +139,7 @@
           {
             "Text": "Description: A tale of how I reverse engineered Notion API and wrote a Go library for it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -153,8 +151,7 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 6,
-        "format_video": null
+        "version": 6
       },
       {
         "alive": true,
@@ -191,8 +188,7 @@
           {
             "Text": " is a great tool for writing but the content is trapped inside the web app."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -216,8 +212,7 @@
           {
             "Text": "The company is working on an official API but I'm impatient."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -260,8 +255,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -285,8 +279,7 @@
           {
             "Text": "It all began with a failure."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -310,8 +303,7 @@
           {
             "Text": "My first attempt at extracting notion content was traditional web scraping."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -354,8 +346,7 @@
           {
             "Text": " that uses Selenium to recursively spider a Notion page and publish it to Firebase Hosting."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -398,8 +389,7 @@
           {
             "Text": " (better technology than Selenium)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -423,8 +413,7 @@
           {
             "Text": "While it worked this approach is limited to getting a verbatim HTML of the pages as they are rendered by the Notion application."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -448,8 +437,7 @@
           {
             "Text": "I wanted to be able to change the look of the page, add elements like footers and headers and navigation bar."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -473,8 +461,7 @@
           {
             "Text": "I briefly considered trying to reconstruct the structure of the page from rendered HTML but at best that would be a lot of ugly guesswork."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -498,8 +485,7 @@
           {
             "Text": "The lightbulb moment"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -523,8 +509,7 @@
           {
             "Text": "The way modern SPA application like Notion usually work is that they render most of the HTML on the client with JavaScript using the data they request from the server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -548,8 +533,7 @@
           {
             "Text": "A quick trip to Chrome Dev Tools confirmed that theory."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -609,8 +593,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -651,8 +634,7 @@
           "block_width": 1896,
           "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac8d3f32-48a8-4040-a963-fa13a93eeeba/ScreenShot2018-07-22at10.16.52PM.png",
           "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fac8d3f32-48a8-4040-a963-fa13a93eeeba%2FScreenShot2018-07-22at10.16.52PM.png"
-        },
-        "format_video": null
+        }
       },
       {
         "alive": true,
@@ -676,8 +658,7 @@
           {
             "Text": "Lucky for me the API is not obfuscated. It returns responses as JSON data and it isn't hard to figure out the meaning of fields."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -701,8 +682,7 @@
           {
             "Text": "Instead of deducing structure from HTML I can just ask the server for the structure."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -726,8 +706,7 @@
           {
             "Text": "Building tools"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -751,8 +730,7 @@
           {
             "Text": "I could have looked at API requests between client and server in Chrome dev tools but it's not the best workflow."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -776,8 +754,7 @@
           {
             "Text": "My first step was to write node.js script that logs all XHR requests that the client invokes when rendering a given page."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -801,8 +778,7 @@
           {
             "Text": "That has several advantages over using dev tools:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -826,8 +802,7 @@
           {
             "Text": "I could filter out requests to third-party services like amplitude, fullstory and intercom"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -863,8 +838,7 @@
             "Text": "/api/v3/ping",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -888,8 +862,7 @@
           {
             "Text": "I could pretty-print JSON"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -913,8 +886,7 @@
           {
             "Text": "I could write captured traffic to a file for further analysis"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -926,8 +898,7 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -951,8 +922,7 @@
           {
             "Text": "Here's the script:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -972,8 +942,7 @@
         },
         "type": "gist",
         "version": 8,
-        "source": "https://gist.github.com/kjk/f33bc37d6ca8282b5c52b17391384693",
-        "format_video": null
+        "source": "https://gist.github.com/kjk/f33bc37d6ca8282b5c52b17391384693"
       },
       {
         "alive": true,
@@ -997,8 +966,7 @@
           {
             "Text": "The big picture analysis"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1022,8 +990,7 @@
           {
             "Text": "After looking at captured data, the structure of Notion content is not complicated."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1047,8 +1014,7 @@
           {
             "Text": "Everything, including a top-level page, is a block."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1072,8 +1038,7 @@
           {
             "Text": "Blocks are identified by a unique id which looks like a standard UUID format."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1097,8 +1062,7 @@
           {
             "Text": "Blocks are arranged into a tree i.e. some blocks have children."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1122,8 +1086,7 @@
           {
             "Text": "Blocks have metadata, like creation time, last edit time, version etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1147,8 +1110,7 @@
           {
             "Text": "There are different kinds of blocks: a page, text, todo item, list item etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1190,8 +1152,7 @@
           {
             "Text": " property."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1215,8 +1176,7 @@
           {
             "Text": "To get the content of a page we start with its UUID which we can find out because it's last part of the url of the page."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1276,8 +1236,7 @@
           {
             "Text": " to get content of those blocks."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1301,8 +1260,7 @@
           {
             "Text": "The rest of the work is figuring out what kinds of blocks there are, how are they represented and writing some code to help in retrieving the data and presenting it in a format that is easier to consume for the purpose of generating output e.g. a customized HTML."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1326,8 +1284,7 @@
           {
             "Text": "Testing different kinds of blocks"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1351,8 +1308,7 @@
           {
             "Text": "Notion page consist of different kinds of blocks and we need to know how each block is represented in JSON response."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1376,8 +1332,7 @@
           {
             "Text": "To investigate it systematically, I've created a test page for each kind of block and used the request logging script to look at JSON returned by the server for that block."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1401,8 +1356,7 @@
           {
             "Text": "Writing Go library"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1426,8 +1380,7 @@
           {
             "Text": "Next step was writing a Go library."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1506,8 +1459,7 @@
           {
             "Text": " to generate Go structures."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1531,8 +1483,7 @@
           {
             "Text": "I had to tweak them a bit to accommodate response variations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1556,8 +1507,7 @@
           {
             "Text": "The rest of the effort was writing a helper function that abstracts the details of HTTP requests and returns an easy to use struct describing a notion page."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1600,8 +1550,7 @@
           {
             "Text": " Go package."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1625,8 +1574,7 @@
           {
             "Text": "Using the library in practice"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1650,8 +1598,7 @@
           {
             "Text": "This was not just an academic exercise."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1675,8 +1622,7 @@
           {
             "Text": "This blog was powered by markdown files I stored in GitHub repository."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1700,8 +1646,7 @@
           {
             "Text": "My goal was to move the content to Notion, so that I can edit it more easily, convert it to HTML and publish as my website/blog."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1744,8 +1689,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1769,8 +1713,7 @@
           {
             "Text": "The high-level structure of the code:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1813,8 +1756,7 @@
           {
             "Text": " library to download the content from Notion"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1838,8 +1780,7 @@
           {
             "Text": "I cache downloaded data and store them in git repository. This is to make sure I have a copy of data even if Notion disappears, to make it faster to tweak publishing code (no need to re-download) and to be nicer to Notion server (no re-downloads unless I absolutely have to)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1863,8 +1804,7 @@
           {
             "Text": "I convert Notion data to HTML, wrap it in templates for my pages and write HTML files to disk"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1901,8 +1841,7 @@
             "Text": "Netlify",
             "Link": "https://www.netlify.com/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1914,8 +1853,7 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 8,
-        "format_video": null
+        "version": 8
       },
       {
         "alive": true,
@@ -1927,8 +1865,7 @@
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
     "title": "How I reverse engineered Notion API",
@@ -1940,8 +1877,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ffd96d967-248e-4000-9d4e-aafebb234177%2Fheader-25.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -60,8 +60,7 @@
           {
             "Text": "Id: 1294"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -85,8 +84,7 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -110,8 +108,7 @@
           {
             "Text": "Date: 2006-01-29T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -123,8 +120,7 @@
         "parent_id": "828c5dfe-b184-42a3-bf07-70cb2f430979",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -148,8 +144,7 @@
           {
             "Text": "Windows binary can have resources embedded in them. Most resources are of predetermined type (e.g. a menu, an icon or a bitmap) but you can also embed arbitrary binary data (e.g. a text file). The proper syntax is hard to figure out just from reading msdn docs."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -173,8 +168,7 @@
           {
             "Text": "This snippet shows how to embed a binary resource from a file."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -216,8 +210,7 @@
           {
             "Text": ") that will be used by both C compiler and resource compiler:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -243,8 +236,7 @@
         "type": "code",
         "version": 1,
         "code": "#define MY_RESOURCE 300",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -286,8 +278,7 @@
           {
             "Text": "):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -313,8 +304,7 @@
         "type": "code",
         "version": 1,
         "code": "MY_RESOURCE RCDATA \"file-with-data.txt\"",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -338,8 +328,7 @@
           {
             "Text": "And finally, this is how you can get to this data:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -365,8 +354,7 @@
         "type": "code",
         "version": 1,
         "code": "void WorkOnResource(void)\n{\n    HGLOBAL     res_handle = NULL;\n    HRSRC       res;\n    char *      res_data;\n    DWORD       res_size;\n\n    // NOTE: providing g_hInstance is important, NULL might not work\n    res = FindResource(g_hInstance, MAKEINTRESOURCE(MY_RESOURCE), RT_RCDATA);\n    if (!res)\n        return;\n    res_handle = LoadResource(NULL, res);\n    if (!res_handle)\n        return;\n    res_data = (char*)LockResource(res_handle);\n    res_size = SizeofResource(NULL, res);\n    /* you can now use the resource data */\n}",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Embedding binary resources on Windows",
@@ -377,8 +365,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

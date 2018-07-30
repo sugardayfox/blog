@@ -61,8 +61,7 @@
           {
             "Text": "Id: 296"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -86,8 +85,7 @@
           {
             "Text": "Tags: c, c++, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -111,8 +109,7 @@
           {
             "Text": "Date: 2006-01-25T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -124,8 +121,7 @@
         "parent_id": "42795644-40b2-4758-9b8b-edb7ed4f20ad",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -185,8 +181,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -210,8 +205,7 @@
           {
             "Text": "C++ name mangling are much more complicated since C++ has to support classes, overloaded functions etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -235,8 +229,7 @@
           {
             "Text": "It’s also incompatible with C compiler’s name mangling. It can be a problem."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -260,8 +253,7 @@
           {
             "Text": "If a header file for functions compiled by C compiler is included in a file compiled by C++ compiler, the linker won’t be able to link those object files since the names of functions won’t match due to different name mangling."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -285,8 +277,7 @@
           {
             "Text": "There is a solution to this problem."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -328,8 +319,7 @@
           {
             "Text": " statement to compile parts of the code only by C++ compiler."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -371,8 +361,7 @@
           {
             "Text": " tells C++ compiler to interpret a given block of code as C compiler would i.e. use C compiler’s name mangling for those functions."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -396,8 +385,7 @@
           {
             "Text": "All this boring explanation means that in order to make your C code safe for C++, you need to wrap the code in header file with those statements:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -423,8 +411,7 @@
         "type": "code",
         "version": 1,
         "code": "#ifdef __cplusplus\nextern \"C\"\n{\n#endif\n\n/* ... your C code ... */\n\n#ifdef __cplusplus\n}\n#endif",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Make C code safe for C++",
@@ -435,8 +422,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

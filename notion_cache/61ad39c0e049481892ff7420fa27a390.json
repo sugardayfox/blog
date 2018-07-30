@@ -96,8 +96,7 @@
                 "AttrFlags": 2,
                 "Link": "http://example.org"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -133,8 +132,7 @@
               {
                 "Text": " – Makes (among other things) the download recursive."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -170,8 +168,7 @@
               {
                 "Text": " – convert all the links (also to stuff like CSS stylesheets) to relative, so it will be suitable for offline viewing."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -207,8 +204,7 @@
               {
                 "Text": " – Adds suitable extensions to filenames (html or css) depending on their content-type."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -244,8 +240,7 @@
               {
                 "Text": " – Download things like CSS style-sheets and images required to properly display the page offline."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -281,8 +276,7 @@
               {
                 "Text": " – When recursing do not ascend to the parent directory. It useful for restricting the download to only a portion of the site."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -294,16 +288,14 @@
             "parent_id": "e6f4a13b-f493-4216-8c4e-518099e41487",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "format_video": null
+            "version": 0
           }
         ],
         "inline_content": [
           {
             "Text": "mirroring a website"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -385,8 +377,7 @@
               {
                 "Text": ", don't over-write if exist"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -422,8 +413,7 @@
               {
                 "Text": " : recursive"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -477,8 +467,7 @@
               {
                 "Text": ", when recursive, don't download from parent directories"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -532,8 +521,7 @@
               {
                 "Text": ", disable generation of host-prefixed directories (don't put host name in directory name)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -587,8 +575,7 @@
               {
                 "Text": ", follow relative links only"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -624,8 +611,7 @@
               {
                 "Text": " : shorten final directory name by cutting 2 first element from source"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -691,20 +677,17 @@
                 "Text": "-q",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "options"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
-    "title": "wget",
-    "format_video": null
+    "title": "wget"
   },
   "Users": [
     {

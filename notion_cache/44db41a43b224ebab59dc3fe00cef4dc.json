@@ -82,8 +82,7 @@
           {
             "Text": "Id: 950"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -107,8 +106,7 @@
           {
             "Text": "Tags: programming, optimization"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -132,8 +130,7 @@
           {
             "Text": "Date: 2006-08-14T12:27:26-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -145,8 +142,7 @@
         "parent_id": "44db41a4-3b22-4eba-b59d-c3fe00cef4dc",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -170,8 +166,7 @@
           {
             "Text": "The story you’re about to read makes those major points about optimizing software for speed:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -195,8 +190,7 @@
           {
             "Text": "it’s good to read other people’s sources. You will learn new tricks."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -220,8 +214,7 @@
           {
             "Text": "performance work is driven by data. Don’t guess what is slow, measure it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -245,8 +238,7 @@
           {
             "Text": "a good profiler is extremely helpful in getting the data"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -270,8 +262,7 @@
           {
             "Text": "lots of allocation of small objects isn’t good in a C/C++ program"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -314,8 +305,7 @@
           {
             "Text": " for Windows, I decided to take a look at the performance. I profiled the code to parse a rather large (~8MB) PDF. I found a rather surprising thing: a lot of time was spent inside malloc()/free() (they were in the top 10 most expensive functions in the profile) and a large portion of those allocations/frees was for strings. The code in question has it’s own, simple GooString class."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -339,8 +329,7 @@
           {
             "Text": "To get more data I instrumented GooString destructor to find out what are the typical sizes of the strings. An allocation histogram told me that about 90% of them is 16 bytes or less."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -364,8 +353,7 @@
           {
             "Text": "Then I looked at the implementation. GooString is a very typical implementation. It keeps track of the size of string and a pointer to\nallocated string i.e. (to paraphrase):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -391,8 +379,7 @@
         "type": "code",
         "version": 1,
         "code": "class GooString {\n int length;\n char * str;\n};",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -416,8 +403,7 @@
           {
             "Text": "It does have an interesting trick. Most typical implementations allocate more memory than strictly needed for the string, which avoids frequent re-allocation when you add data to string. So they also have to keep track of how big is the actual allocated area e.g.:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -443,8 +429,7 @@
         "type": "code",
         "version": 1,
         "code": "class DumberString {\n int allocated; /* the real size of ‘str’ buffer */\n int length;\n char *str;\n};",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -468,8 +453,7 @@
           {
             "Text": "GooString gets rid of ‘allocated’ variable by using a rounding function based on size e.g.:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -495,8 +479,7 @@
         "type": "code",
         "version": 1,
         "code": "static inline int rounded\\_size(int len) {\n int delta;\n delta = len \u003c 256 ? 7 : 255;\n return ((len + 1) + delta) \u0026 ~delta;\n}",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -538,8 +521,7 @@
           {
             "Text": " saves 4 bytes per object. Not that it usually matters, as we’ll find out very shortly, but it illustrates that reading other people’s code is useful. I’ve seen a couple of string implementation but this is the first time I noticed that particular trick and I would probably never have come up with that trick by myself."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -581,8 +563,7 @@
           {
             "Text": " is that creating an instance causes 2 allocations: one for the object and another for the str pointer."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -624,8 +605,7 @@
           {
             "Text": " i.e. 9 bytes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -649,8 +629,7 @@
           {
             "Text": "This is not so. First, most systems rounds allocation. You can find out a rounding of your system with:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -676,8 +655,7 @@
         "type": "code",
         "version": 1,
         "code": "int n = (char*)malloc(1) - (char*)malloc(1);\n  printf(“rounding: %d\\n”,n);",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -719,8 +697,7 @@
           {
             "Text": " uses 32 bytes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -744,8 +721,7 @@
           {
             "Text": "But that’s not all. The OS has to somehow keep track of each allocation. How it’s done and what’s the exact overhead are highly implementation dependent, but we can safely assume at least 8 bytes (that’s just 2 32-bit pointers). So the real cost of allocating a 1-byte GooString is at least 48 bytes. And we thought it was 9."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -769,8 +745,7 @@
           {
             "Text": "There is a better way. A trick used in dynamic string implementation in\nvenerable Tcl language uses a static buffer that is a part of the string:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -796,8 +771,7 @@
         "type": "code",
         "version": 1,
         "code": "#define STR_STATIC_SIZE 16\nclass BetterString {\n char sStatic[STR_STATIC_SIZE];\n int length;\n char * ‘s’;\n};",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -893,8 +867,7 @@
           {
             "Text": " we don’t have to allocate memory (halving the cost of allocations). It doesn’t even cost us more memory in most cases since for small strings we avoid the minimum 24 bytes cost of allocating at least 1 byte, and for larger strings the overhead is small compared to the total size."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -936,8 +909,7 @@
           {
             "Text": ". The bigger it is, the faster we’ll be (less cases where we need to allocate additional storage) but more memory we’ll use."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -998,8 +970,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1023,8 +994,7 @@
           {
             "Text": "So let’s recap the things we can learn from this story."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1048,8 +1018,7 @@
           {
             "Text": "The only way to know what is slow is to get data i.e. profile the app. Pdf parser and renderer I use is a complex piece of code. It would be pointless for me to try to guess which part of it is slow."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1073,8 +1042,7 @@
           {
             "Text": "A good profiler is essential to giving the right data. An hour spent profiling and reading the results pointed me in the right direction."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1116,8 +1084,7 @@
           {
             "Text": ". I’ve learn new tricks from reading Tcl’s implementation. In the end it’s much cheaper than trying to come up with those ideas on my own."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1141,8 +1108,7 @@
           {
             "Text": "And finally, as you can see, allocating small objects in C\\C++ has a huge overhead, so try not to do it. Unfortunately naive implementation of common data structures (strings, nodes in trees or lists) has a problem of requiring lots of small allocation. A good answer to this problem is custom allocator that pre-allocates large numbers of a given object and uses a bitmap to keep track of which ones are used (1-bit overhead per object as opposed to 8 + whatever rounding to 16 takes). And, if done right, they should be faster than a standard OS allocator. But that’s a story for another day."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Performance optimization story",
@@ -1153,8 +1119,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

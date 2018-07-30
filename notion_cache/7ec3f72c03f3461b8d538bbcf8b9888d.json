@@ -37,8 +37,7 @@
         "parent_id": "7ec3f72c-03f3-461b-8d53-8bbcf8b9888d",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -58,8 +57,7 @@
         },
         "type": "code",
         "version": 0,
-        "code": "rsync --verbose --compress --recursive --perms username@hostname:/from/dir/ /to/dir\nrsync -Pav -e \"ssh -i $HOME/.ssh/somekey\" username@hostname:/from/dir/ /to/dir/\n\n# -e : ssh command e.g. -e \"ssh -i $HOME/.ssh/somkey\"\n# -z : compress\n# -v : verbose\n# -h : human-readable numbers\n# -r : recursive\n# -P, --progress : show progress\n# -a, --archive : archive mode; equals -rlptgoD (no -H,-A,-X)",
-        "format_video": null
+        "code": "rsync --verbose --compress --recursive --perms username@hostname:/from/dir/ /to/dir\nrsync -Pav -e \"ssh -i $HOME/.ssh/somekey\" username@hostname:/from/dir/ /to/dir/\n\n# -e : ssh command e.g. -e \"ssh -i $HOME/.ssh/somkey\"\n# -z : compress\n# -v : verbose\n# -h : human-readable numbers\n# -r : recursive\n# -P, --progress : show progress\n# -a, --archive : archive mode; equals -rlptgoD (no -H,-A,-X)"
       }
     ],
     "title": "rsync",
@@ -70,8 +68,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

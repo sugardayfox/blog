@@ -69,8 +69,7 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        },
-        "format_video": null
+        }
       },
       {
         "alive": true,
@@ -82,8 +81,7 @@
         "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -107,8 +105,7 @@
           {
             "Text": "Ideas for software"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -140,8 +137,7 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        },
-        "format_video": null
+        }
       },
       {
         "alive": true,
@@ -210,8 +206,7 @@
               {
                 "Text": "). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome headless."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -235,8 +230,7 @@
               {
                 "Text": "It should aggressively cache the results to avoid re-crawling websites. Url should be /tools/build-submit-google-sitemap.html. Maybe use a domain like webtools.io/build-submit-google-sitemap.html"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -260,8 +254,7 @@
               {
                 "Text": "To make money limit web service to N links (100? 256?) and up-sell a $10-$30 windows/mac desktop app build on electron."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -304,16 +297,14 @@
               {
                 "Text": " but better."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "web service to build a sitemap"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -365,8 +356,7 @@
               {
                 "Text": "For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -390,8 +380,7 @@
               {
                 "Text": "Imagine a binary format that is designed for fast loading and one-time PDF =\u003e binary format compilation step. With the right format, parsing step could essentially be eliminated."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -415,8 +404,7 @@
               {
                 "Text": "We could even improve rendering time with some additional optimizations."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -440,8 +428,7 @@
               {
                 "Text": "For example, there are PDF documents with gigantic images (think 4000 x 4000 pixels) that could be resized to some reasonable value and saved in a format that is fastest to decode."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -465,8 +452,7 @@
               {
                 "Text": "I’m sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible)."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -478,16 +464,14 @@
             "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "faster PDF rendering"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -556,8 +540,7 @@
               {
                 "Text": "."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -581,8 +564,7 @@
               {
                 "Text": "Tig has 4.5k stars on github, which implies a significant interest."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -607,8 +589,7 @@
               {
                 "Text": "It could be implemented in JavaScript/HTML. It could have a web version that allows browsing any github repository and on desktop it could be done as Electron."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -633,16 +614,14 @@
               {
                 "Text": "Or it could be done with https://sciter.com/. Or Winforms on Windows and Swift/Cocoa on Mac."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "GUI version of tig"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -693,8 +672,7 @@
               {
                 "Text": "A website that allows comparing of poppler vs. mupdf vs. pdfium vs pdf.js rendering. Upload a PDF, render each page in each engine in both native size and down-scaled to a reasonably sized thumbnail for overview. The baisc layout would be:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -719,8 +697,7 @@
               {
                 "Text": "[page 1 mupdf] [page 1 pdfium] [page 1 poppler][page 2 mupdf] [page 2 pdfium] [page 2 poppler] …"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -745,8 +722,7 @@
               {
                 "Text": "Then one could click on the thumbnail to see comparison of the native size."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -771,8 +747,7 @@
               {
                 "Text": "Bonus feature: some type of overlay comparison."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -784,16 +759,14 @@
             "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "website for comparing poppler vs. mupdf vs. pdfium vs. pdf.js rendering"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -844,8 +817,7 @@
               {
                 "Text": "Write a tool to extract text from PDF files."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -870,8 +842,7 @@
               {
                 "Text": "Upload the file and get text in plain text file and json (augmented with position information) and maybe even xml."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -896,8 +867,7 @@
               {
                 "Text": "Limit size of PDF files. Upsell to $19 mac/windows. Write a command-line tool, maybe even open-sources, also upsell GUI version."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -935,8 +905,7 @@
                 "Text": "https://www.spyfu.com",
                 "Link": "https://www.spyfu.com"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -948,16 +917,14 @@
             "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "website / tool to extract text from PDF"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1032,8 +999,7 @@
               {
                 "Text": ". Do it either the hard way (pure win32) or C# or sciter."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -1044,8 +1010,7 @@
             "Text": "https://github.com/soheilpro/mon",
             "Link": "https://github.com/soheilpro/mon"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1098,8 +1063,7 @@
               {
                 "Text": "Write a simple source code indexer for C++ code. Use it for Sumatra code."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1124,8 +1088,7 @@
               {
                 "Text": "Others:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1157,8 +1120,7 @@
                 "Text": "http://free-electrons.com/blog/elixir/",
                 "Link": "http://free-electrons.com/blog/elixir/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1190,8 +1152,7 @@
                 "Text": "https://sourceforge.net/projects/lxr/",
                 "Link": "https://sourceforge.net/projects/lxr/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1229,8 +1190,7 @@
               {
                 "Text": " (in java)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1262,8 +1222,7 @@
                 "Text": "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/",
                 "Link": "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1288,16 +1247,14 @@
               {
                 "Text": "Combines searching with browsing."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "source code indexer"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1366,8 +1323,7 @@
               {
                 "Text": "The weakness of such cmd-line tools is that they require writing of the whole sequence of operations up-front. There are 3 problems with that:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1391,8 +1347,7 @@
               {
                 "Text": "the syntax is rather arcane"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1416,8 +1371,7 @@
               {
                 "Text": "the user doesn’t see the data he’s operating on"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1441,8 +1395,7 @@
               {
                 "Text": "mistakes are costly i.e. changing the operations has to redo all computation from scratch"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1467,8 +1420,7 @@
               {
                 "Text": "A better approach is to allow humans multi-step refinements of data in a UI that shows the preview of the operations."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1493,8 +1445,7 @@
               {
                 "Text": "For example, the operation:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1520,8 +1471,7 @@
             "type": "code",
             "version": 32,
             "code": "$ mlr --icsv --opprint --barred \\\n  put '$tiv_delta = $tiv_2012 - $tiv_2011; unset $tiv_2011, $tiv_2012' \\\n  then sort -nr tiv_delta flins.csv",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           },
           {
             "alive": true,
@@ -1546,8 +1496,7 @@
               {
                 "Text": "Would be done as sequence of steps"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1573,8 +1522,7 @@
             "type": "code",
             "version": 87,
             "code": "\u003e load flins.csv\n$1: 215 records\nshow first 10 records + headers\n\n\u003e add tiv_delta = $tiv_2012 - $tiv_2011\n$2: 215 records\n... 10 record preview\n\n\u003e remove tiv_2011 tiv_2012\n$3: 215 records\n... 10 record preview\n\n\u003e sort by tiv_delta\n$4: 215 records\n... 10 record preview\n\n\u003e save flins_sorted.csv",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           },
           {
             "alive": true,
@@ -1611,8 +1559,7 @@
                 "Text": "\u003e $2 save flins_sorted_2.csv",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -1626,8 +1573,7 @@
           {
             "Text": " (awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1683,8 +1629,7 @@
               {
                 "Text": "GitHub has wikis but they are merely passable, not good: "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1708,8 +1653,7 @@
               {
                 "Text": "the editing UI is very bare bones"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1733,8 +1677,7 @@
               {
                 "Text": "the way they are displayed could also be improved"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1815,8 +1758,7 @@
               {
                 "Text": ". It’s simple."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1853,8 +1795,7 @@
                 "Text": "github.com/foo/bar.wiki.git",
                 "Link": "http://github.com/foo/bar.wiki.git"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1878,8 +1819,7 @@
               {
                 "Text": "Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it’s possible to do from GitHub API."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1903,8 +1843,7 @@
               {
                 "Text": "Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for privet repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1928,8 +1867,7 @@
               {
                 "Text": "Free access for public repos would act as free advertisement."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1966,8 +1904,7 @@
                 "Text": "https://www.zenhub.com/",
                 "Link": "https://www.zenhub.com/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1979,16 +1916,14 @@
             "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "build a better editor and publisher for GitHub wikis"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2048,8 +1983,7 @@
               {
                 "Text": "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2073,8 +2007,7 @@
               {
                 "Text": "One could build a single page app that includes all the important functionality of a blog."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2098,8 +2031,7 @@
               {
                 "Text": "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2123,8 +2055,7 @@
               {
                 "Text": "Written in Vue."
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2148,8 +2079,7 @@
               {
                 "Text": "Unfortunately, there’s no money in it."
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -2160,8 +2090,7 @@
             "Text": "https://firebase.google.com/",
             "Link": "https://firebase.google.com/"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Ideas",
@@ -2172,8 +2101,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

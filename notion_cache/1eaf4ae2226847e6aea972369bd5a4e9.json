@@ -46,8 +46,7 @@
           {
             "Text": "Keep caddy 0.10.12 because it doesn't have the rewrite regex bug:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -73,8 +72,7 @@
         "type": "code",
         "version": 104,
         "code": "brew switch caddy 0.10.12\nbrew pin caddy",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -86,12 +84,10 @@
         "parent_id": "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
-    "title": "caddy",
-    "format_video": null
+    "title": "caddy"
   },
   "Users": [
     {

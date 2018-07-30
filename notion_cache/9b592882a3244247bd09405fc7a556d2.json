@@ -109,8 +109,7 @@
           {
             "Text": "Id: 5"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -134,8 +133,7 @@
           {
             "Text": "Date: 2017-02-11T19:18:21-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -159,8 +157,7 @@
           {
             "Text": "Tags: devops, go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -172,8 +169,7 @@
         "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -216,8 +212,7 @@
           {
             "Text": " instead of Ubuntu."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -241,8 +236,7 @@
           {
             "Text": "For a while I didn’t understand CoreOS; a linux distro without package manager? How do I install more software on this thing?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -266,8 +260,7 @@
           {
             "Text": "Now I am a convert. CoreOS is not a Linux distro for end users. It’s a distro for deploying applications packaged as docker containers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -291,8 +284,7 @@
           {
             "Text": "The benefit of using CoreOS is less configuration needed compared to e.g. Ubuntu."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -316,8 +308,7 @@
           {
             "Text": "I used to deploy multiple apps per server but for operational simplicity I moved to using one server per app. At $5 per server (my apps are written in Go, so they run comfortably on the smallest servers) it’s a reasonable cost."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -360,8 +351,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -391,8 +381,7 @@
             "Text": "1. Create a unique ssh key for the machine",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -416,8 +405,7 @@
           {
             "Text": "For security it’s good to have a unique ssh key for each machine:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -465,8 +453,7 @@
             "Text": "id_rsa",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -508,8 +495,7 @@
           {
             "Text": " is what you give DigitalOcean as ssh key when creating a server"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -551,8 +537,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -582,8 +567,7 @@
             "Text": "2. Initial server setup",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -625,8 +609,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -652,8 +635,7 @@
         "type": "code",
         "version": 3,
         "code": "# e.g. IPADDR=137.63.26.193\nIPADDR=\u003cip address of the server\u003e\n# git likes to loose non-standard permissions. This is always called from\n# scripts so a good place to ensure right permissions on id_rsa\nchmod 0600 id_rsa",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -695,8 +677,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -722,8 +703,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n. ./ipaddr.sh\nssh -i ./id_rsa core@${IPADDR}",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -770,8 +750,7 @@
           {
             "Text": " to run startup script and adjust kernel parameters. We need several files. files on the server:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -825,8 +804,7 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -852,8 +830,7 @@
         "type": "code",
         "version": 1,
         "code": "# http://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet\n# https://coreos.com/os/docs/latest/other-settings.html\nnet.netfilter.nf_conntrack_max=131072\n# in seconds, default value was 600 == 5 mins\nnet.netfilter.nf_conntrack_generic_timeout = 60\n# in seconds, default value was 432000 i.e. 5 days\nnet.netfilter.nf_conntrack_tcp_timeout_established = 54000\n# was 46992\nfs.file-max = 131072",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -889,8 +866,7 @@
           {
             "Text": " contains the settings. Default values for connection tracking are so low that it’s easy for a malicious person to DoS your server just by opening a small number of connections to your http server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -914,8 +890,7 @@
           {
             "Text": "This is for the smallest server with 512 MB of RAM. Increase for larger servers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -969,8 +944,7 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -996,8 +970,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n# reload values from /etc/sysctl.d/startup.conf\nsysctl --system\n# make hashsize match net.netfilter.nf_conntrack_max (should be nf_conntrack_max / 4)\n# https://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet\necho 32768 \u003e /sys/module/nf_conntrack/parameters/hashsize",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1021,8 +994,7 @@
           {
             "Text": "This script makes the changes. Now we need to make sure it gets called at startup."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1076,8 +1048,7 @@
           {
             "Text": " on the server):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1103,8 +1074,7 @@
         "type": "code",
         "version": 1,
         "code": "# http://unix.stackexchange.com/questions/47695/how-to-write-startup-script-for-systemd\n[Unit]\nDescription=things to do after each reboot\n# just to be safe, run it after docker started\nAfter=docker.service\nRequires=docker.service\n\n[Service]\nType=oneshot\n# per https://www.digitalocean.com/community/tutorials/how-to-create-and-run-a-service-on-a-coreos-cluster\nEnvironmentFile=/etc/environment\n# '=-' means it can fail\nExecStart=-/etc/systemd/system/startup_script.sh\n\n[Install]\nWantedBy=multi-user.target",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -1164,8 +1134,7 @@
           {
             "Text": " to notice it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1191,8 +1160,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\nscp -i ./id_rsa ./startup.conf ./startup.service ./startup_script.sh core@${IPADDR}:/home/core/\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\nsudo cp startup.conf /etc/sysctl.d/startup.conf\nsudo chmod 0644 /etc/sysctl.d/startup.conf\nsudo cp startup.service /etc/systemd/system\nsudo cp startup_script.sh /etc/systemd/system\nsudo chmod 0750 /etc/systemd/system/startup_script.sh\nsudo systemctl daemon-reload\nsudo systemctl enable /etc/systemd/system/startup.service\n\nsudo bash -c \"echo 32768 \u003e /sys/module/nf_conntrack/parameters/hashsize\"\nsudo sysctl --system\nrm startup.conf startup.service startup_script.sh\nENDSSH",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1234,8 +1202,7 @@
           {
             "Text": " and test that the changes are applied:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1271,8 +1238,7 @@
             "Text": "./login.sh",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1308,8 +1274,7 @@
             "Text": "sudo shutdown -r now",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1333,8 +1298,7 @@
           {
             "Text": "login again"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1364,8 +1328,7 @@
             "Text": "sudo sysctl -a | grep nf_conntrack_max",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1395,8 +1358,7 @@
             "Text": "3. Use systemctld to automatically restart the app",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1420,8 +1382,7 @@
           {
             "Text": "When the server reboots we want the app to start automatically."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1445,8 +1406,7 @@
           {
             "Text": "We also want the app to automatically restart if it crashes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1488,8 +1448,7 @@
           {
             "Text": " again as it comes with CoreOS."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1585,8 +1544,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1612,8 +1570,7 @@
         "type": "code",
         "version": 1,
         "code": "[Unit]\nDescription=blog\n# this unit will only start after docker.service\nAfter=docker.service\nRequires=docker.service\n\n[Service]\nTimeoutStartSec=0\n# per https://www.digitalocean.com/community/tutorials/how-to-create-and-run-a-service-on-a-coreos-cluster\nEnvironmentFile=/etc/environment\n# before starting make sure it doesn't exist\n# '=-' means it can fail\nExecStartPre=-/usr/bin/docker rm blog\nExecStart=/usr/bin/docker run --rm -p 80:80 -v /data-blog:/data --name blog blog:latest\nExecStop=/usr/bin/docker stop blog\n# restart if it crashes or is killed e.g. by oom\nRestart=on-failure\nRestartSec=5\n\n[Install]\nWantedBy=multi-user.target",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -1655,8 +1612,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1682,8 +1638,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\nscp -i ./id_rsa ./blog.service core@${IPADDR}:/home/core/blog.service\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\nsudo cp blog.service /etc/systemd/system\nsudo systemctl enable /etc/systemd/system/blog.service\nrm blog.service\nENDSSH",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1725,8 +1680,7 @@
           {
             "Text": " file."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1756,8 +1710,7 @@
             "Text": "4. Package the app as a Docker image and upload to the server",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1781,8 +1734,7 @@
           {
             "Text": "A script to build the app, package as Docker image and upload latest version to the server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1860,8 +1812,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1903,8 +1854,7 @@
           {
             "Text": " script:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1930,8 +1880,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n# build latest version of the app, upload to the server packaged as\n# blog:latest docker image\n\nset -u -e -o pipefail\n\n. ./ipaddr.sh\n\ndir=`pwd`\nblog_dir=${GOPATH}/src/github.com/kjk/blog\n\necho \"building\"\ncp config.json \"${blog_dir}\"\ncd \"${blog_dir}\"\nGOOS=linux GOARCH=amd64 go build -o blog_linux\ndocker build --no-cache --tag blog:latest .\nrm blog_linux\ncd \"${dir}\"\n\necho \"docker save\"\ndocker save blog:latest | bzip2 \u003e blog-latest.tar.bz2\nls -lah blog-latest.tar.bz2\n\necho \"uploading to the server\"\nscp -i ./id_rsa blog-latest.tar.bz2 core@${IPADDR}:/home/core/blog-latest.tar.bz2\n\necho \"extracting on the server\"\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\nbunzip2 --stdout blog-latest.tar.bz2 | docker load\nrm blog-latest.tar.bz2\nsudo systemctl restart blog\nENDSSH\n\nrm -rf blog-latest.tar.bz2",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1995,8 +1944,7 @@
             "AttrFlags": 2,
             "Link": "https://github.com/kjk/blog/blob/master/s/docker_build.sh"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2038,8 +1986,7 @@
           {
             "Text": ") to verify that the app will start up after reboot."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2099,8 +2046,7 @@
           {
             "Text": "):"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2126,8 +2072,7 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n. ./ipaddr.sh\n\nssh -i ./id_rsa core@${IPADDR} \u003c\u003c'ENDSSH'\ncd /home/core\ndocker logs -f blog\nENDSSH",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -2139,8 +2084,7 @@
         "parent_id": "9b592882-a324-4247-bd09-405fc7a556d2",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
     "title": "Blueprint for deploying web apps on CoreOS",
@@ -2152,8 +2096,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbea09464-9216-4198-ac8b-b4909027c558%2Fheader-00.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

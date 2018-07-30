@@ -82,8 +82,7 @@
           {
             "Text": "Id: 229002"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -107,8 +106,7 @@
           {
             "Text": "Tags: .net"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -132,8 +130,7 @@
           {
             "Text": "Date: 2010-07-23T16:51:34-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -145,8 +142,7 @@
         "parent_id": "edc47cc3-5219-4309-afe1-1cd91b2e1533",
         "parent_table": "block",
         "type": "text",
-        "version": 6,
-        "format_video": null
+        "version": 6
       },
       {
         "alive": true,
@@ -170,8 +166,7 @@
           {
             "Text": "What is PartCover"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -227,8 +222,7 @@
           {
             "Text": " with a bit more recent work."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -271,8 +265,7 @@
           {
             "Text": " for basics of PartCover usage."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -296,8 +289,7 @@
           {
             "Text": "Why use code coverage?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -340,8 +332,7 @@
           {
             "Text": " for Java and .NET. The code wasn’t written by me, it’s quite mature but it doesn’t have many tests, so I’m quite apprehensive about modifying subtle code and clearly would like to avoid introducing bugs."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -365,8 +356,7 @@
           {
             "Text": "A test suite is a good way to detect newly introduced regressions but sadly while the code is quite brilliant, its tests are rudimentary. I decided that the first thing I will work on is improving and extending test suite."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -390,8 +380,7 @@
           {
             "Text": "However, the space of all possible tests is infinite and since I don’t have infinite amount of time to write tests, I should write a minimal amount of tests that cover maximum amount of code. Writing duplicate tests is not productive."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -415,8 +404,7 @@
           {
             "Text": "Code coverage can be used to guide creation of new tests. Code coverage tools can tell you which parts of the code where executed so the algorithm for generating new tests is as follows:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -440,8 +428,7 @@
           {
             "Text": "run current tests suite under code coverage tool"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -465,8 +452,7 @@
           {
             "Text": "check the results to see which parts of the code are not yet exercised by current tests"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -490,8 +476,7 @@
           {
             "Text": "devise a test that exercise those parts"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -515,8 +500,7 @@
           {
             "Text": "re-run the test suite under code coverage tool to verify that the new test really causes the code to be executed"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -540,8 +524,7 @@
           {
             "Text": "repeat until yet get close to 100% code coverage"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -565,8 +548,7 @@
           {
             "Text": "Why use PartCover"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -590,8 +572,7 @@
           {
             "Text": "PartCover isn’t that great but all other alternatives (code coverage built into more expensive editions of Visual Studio and NCover) are expensive. PartCover is at least free (and open-source)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -615,8 +596,7 @@
           {
             "Text": "Examining PartCover results"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -640,8 +620,7 @@
           {
             "Text": "PartCover produces an XML file with the results of code coverage. There is a PartCover.Browse GUI app that shows the results but it’s rather clunky. Here’s how it looks like:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -662,8 +641,7 @@
         "type": "image",
         "version": 1,
         "source": "//kjkpub.s3.amazonaws.com/blog/img/partcover-browse.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fimg%2Fpartcover-browse.png",
-        "format_video": null
+        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fimg%2Fpartcover-browse.png"
       },
       {
         "alive": true,
@@ -687,8 +665,7 @@
           {
             "Text": "PartCover GUI browser"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -712,8 +689,7 @@
           {
             "Text": "There’s also XSLT files to convert XML to html file, but the result is very basic and not very useful."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -756,8 +732,7 @@
           {
             "Text": " that converts XML file to a set of HTML files with easy to browse results of code coverage."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -800,8 +775,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -825,8 +799,7 @@
           {
             "Text": "I took me a day to write so I decided to share it to hopefully save others some effort."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -850,8 +823,7 @@
           {
             "Text": "Using partcover-to-html.py"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -887,8 +859,7 @@
             "Text": "partcover-to-html.py \u003cpartcover-output.xml\u003e \u003coutdir\u003e",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -924,8 +895,7 @@
           {
             "Text": " is an XML file with code coverage information generated by PartCover."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -997,8 +967,7 @@
           {
             "Text": " being the starting point."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1022,8 +991,7 @@
           {
             "Text": "The reason for creating a new directory is to not overwrite results of previous analysis, so that it’s possible to compare coverage before and after a change in the code. ${NNN} is a unique, increasing integer (i.e. 000, 001, 002 etc.)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1060,8 +1028,7 @@
             "Text": "look like this",
             "Link": "/articles/coverhtml/index.html"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1103,8 +1070,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Converting PartCover results to html",
@@ -1115,8 +1081,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

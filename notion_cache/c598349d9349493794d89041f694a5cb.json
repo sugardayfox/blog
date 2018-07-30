@@ -58,8 +58,7 @@
           {
             "Text": "Id: 1964"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -83,8 +82,7 @@
           {
             "Text": "Date: 2006-08-22T13:56:32-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -96,8 +94,7 @@
         "parent_id": "c598349d-9349-4937-94d8-9041f694a5cb",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -121,8 +118,7 @@
           {
             "Text": "I dislike deeply nested C++ code. I.e. the code of the form:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -148,8 +144,7 @@
         "type": "code",
         "version": 1,
         "code": "if (foo) {\n  if (bar) {\n   if (anotherVariable) {\n   }\n  }\n}",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -173,8 +168,7 @@
           {
             "Text": "It’s a simplified example that doesn’t really show the problem with such code - when the logic within an if is long, such code becomes hard to read because it becomes difficult to figure out what logic condition is handled by a given part."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -255,8 +249,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -280,8 +273,7 @@
           {
             "Text": "The way to avoid deeply nesting is to do early exit as soon as possible. The trivial example could be rewritten as:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -307,8 +299,7 @@
         "type": "code",
         "version": 1,
         "code": "if (!foo) return;\n  if (!bar) return;\n  if (!anotherVariable) return;\n\n  ... and this is the logic",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       },
       {
         "alive": true,
@@ -332,8 +323,7 @@
           {
             "Text": "Of course trivial examples teach us nothing - this only shows the forest so that you don’t get lost in details. For a real-life example see how Stepanov refactors deeply nested logic expression (pages 4-13 in the paper above)."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Deeply nested if statements",
@@ -344,8 +334,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

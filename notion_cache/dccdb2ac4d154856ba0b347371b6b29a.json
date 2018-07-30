@@ -64,8 +64,7 @@
           {
             "Text": "Id: 3002"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -89,8 +88,7 @@
           {
             "Text": "Tags: programming, optimization"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -114,8 +112,7 @@
           {
             "Text": "Date: 2008-07-27T06:31:00-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -127,8 +124,7 @@
         "parent_id": "dccdb2ac-4d15-4856-ba0b-347371b6b29a",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -152,8 +148,7 @@
           {
             "Text": "Short version: realloc() on Windows can have much worse performance than on Linux/Mac."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -215,8 +210,7 @@
           {
             "Text": ", underlying PDF parsing/rendering engine. I’m not an expert on that code but I try to fix bugs and try to improve performance."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -240,8 +234,7 @@
           {
             "Text": "In testing I noticed that on some PDFs it’s pathetically slow, so I profiled the code and that told me that 99% of the time was spent in realloc(). Also, the same PDF was rendered almost instantaneously on Linux."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -265,8 +258,7 @@
           {
             "Text": "The code was reading a stream of unknown (a priori) length and the way it worked was by reading 4k chunks of data into a buffer that was grown with realloc() call."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -290,8 +282,7 @@
           {
             "Text": "If you’re lucky, realloc() will return the original block of memory and just fiddle with internal allocator structures to make it bigger."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -315,8 +306,7 @@
           {
             "Text": "If you’re unlucky, realloc() will have to allocate a new block of memory and copy the date from old memory."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -340,8 +330,7 @@
           {
             "Text": "If you’re reading 1MB file and growing file data buffer by 4k, you’ll have to call realloc() 256 times and each time the buffer will be bigger. If you’re unlucky and realloc() has to copy the data every time, that’s a lot of cpu time spent data copying."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -384,8 +373,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -409,8 +397,7 @@
           {
             "Text": "Once I knew what the problem was, the fix was simple."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -447,8 +434,7 @@
           {
             "Text": " would read into separate 4k buffers and at the end allocate the result buffer and copy the data just once."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -485,8 +471,7 @@
           {
             "Text": " was even simpler: it would grow the buffer size by doubling it, instead of just increasing by 4k. It was slower than first implementation (more copying) but simpler and fast enough."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -510,8 +495,7 @@
           {
             "Text": "A side note: a simple and incorrect conclusion would be that memory allocator implementation on Linux is much better than on Windows. Things aren’t that simple, though. It’s easy to write an allocator that has excellent performance for realloc() but is terrible for everything else. Engineering is an art of compromises and optimizing realloc() apparently wasn’t high on Microsoft’s list of things to shoot for when they were designing allocator in Windows, which is, btw, comparable in performance to allocator in Linux or Mac."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "realloc() on Windows vs. Linux",
@@ -522,8 +506,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

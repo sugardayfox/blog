@@ -80,8 +80,7 @@
           {
             "Text": "Id: 1Ll7"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -105,8 +104,7 @@
           {
             "Text": "Tags: go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -130,8 +128,7 @@
           {
             "Text": "CreatedAt: 2017-06-14T02:07:56Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -155,8 +152,7 @@
           {
             "Text": "UpdatedAt: 2017-07-09T20:35:12Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -180,8 +176,7 @@
           {
             "Text": "PublishedOn: 2017-07-20"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -205,8 +200,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -230,8 +224,7 @@
           {
             "Text": "Description: How to rotate a log file daily."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -243,8 +236,7 @@
         "parent_id": "15b069ab-c983-4dce-b2a4-32d05c46e2e2",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -269,8 +261,7 @@
           {
             "Text": "If you log to a file, it’s a good idea to rotate logs. That way they won’t become too large."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -295,8 +286,7 @@
           {
             "Text": "After rotation you can backup them up to online storage or delete them."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -321,8 +311,7 @@
           {
             "Text": "Rotating daily has a good balance of how often to rotate vs. how large the log file can become."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -366,8 +355,7 @@
           {
             "Text": ", to do the rotation."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -410,8 +398,7 @@
           {
             "Text": " interface makes it easy to implement a re-usable file ration code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -474,8 +461,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -500,8 +486,7 @@
           {
             "Text": "Here’s basic use:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -528,8 +513,7 @@
         "type": "code",
         "version": 3,
         "code": "import (\n    \"github.com/kjk/dailyrotate\"\n)\n\nvar (\n    rotatedFile *dailyrotate.File\n)\n\n// called when file is closed. If didRotate is true, it was closed due to rotation\n// at UTC midnight. Otherwise it was closed due to regular Close()\nfunc onCloseHappened(path string, didRotate bool) {\n    fmt.Printf(\"we just closed a file '%s', didRotate: %v\\n\", path, didRotate)\n    if !didRotate {\n        return\n    }\n    // we block writes until this returns so expensive processing should be done in\n    // background goroutine\n    go func() {\n        // here you can implement things like:\n        // - compressing rotated file\n        // - deleting old files to free up disk space\n        // - upload rotated file to backblaze/google storage/s3 for backup\n        // - analyze the content of the file\n    }()\n}\n\nfunc initRotatedFileMust() {\n    pathFormat := filepath.Join(\"dir\", \"2006-01-02.log\")\n    w, err := dailyrotate.NewFile(pathFormat, onCloseHappened)\n    panicIfErr(err)\n}\n\nfunc logString(s string) error {\n    _, err = io.WriteString(rotatedFile, s)\n    return err\n}\n\nfunc shutdownLogging() {\n    rotatedFile.Close()\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -573,8 +557,7 @@
           {
             "Text": " of processing rotated file:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -629,8 +612,7 @@
           {
             "Text": " and safe to use from multiple goroutines."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -709,8 +691,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -735,8 +716,7 @@
           {
             "Text": "allows to flush in a single call. Flushing after each write is slower but less likely to loose data or corrupt the file when program crashes"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -773,8 +753,7 @@
             "Text": "dailyrotate.File",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -799,8 +778,7 @@
           {
             "Text": "Other real-world uses"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -844,8 +822,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -907,8 +884,7 @@
           {
             "Text": " simple serialization format."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -952,8 +928,7 @@
           {
             "Text": " for backup and delete local files older than 7 days to free up space."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -978,8 +953,7 @@
           {
             "Text": "I also calculate basic daily statistics and e-mail a summary to myself."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1004,8 +978,7 @@
           {
             "Text": "I know, I could just use Google Analytics, and I do. My little system has advantages: * it tells me about missing pages (404). That alerts me if break something or if others link incorrectly to my website. Knowing bad links, I can add re-directs for them * by getting daily summaries via e-mail, I keep an eye on things with minimal effort"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Rotate log files daily in Go",
@@ -1017,8 +990,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3ac06551-56b5-4876-896a-1a0af628d4ed%2Fheader-17.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -90,8 +90,7 @@
           {
             "Text": "Id: 15"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -115,8 +114,7 @@
           {
             "Text": "Date: 2015-02-12T23:18:58-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -140,8 +138,7 @@
           {
             "Text": "Tags: go, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -165,8 +162,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -178,8 +174,7 @@
         "parent_id": "f9cb88d7-a6ce-4f8a-902f-d39210b9f56e",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       },
       {
         "alive": true,
@@ -260,8 +255,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -285,8 +279,7 @@
           {
             "Text": "Short intro to OAuth for GitHub"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -310,8 +303,7 @@
           {
             "Text": "To access private info about the user via the API in your web app you need to authenticate your app against GitHub website."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -354,8 +346,7 @@
           {
             "Text": " (under Developer applications). You provide description of the app, including a callback url (we’ll get back to that). GitHub creates client id and client secret that you’ll need to provide to OAuth libraries (and keep them secret)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -379,8 +370,7 @@
           {
             "Text": "The flow of OAuth is:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -404,8 +394,7 @@
           {
             "Text": "the user is on your website and clicks “login with GitHub” link"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -429,8 +418,7 @@
           {
             "Text": "you redirect the user to GitHub’s authorization page. In that url you specify desired access level and a random secret"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -454,8 +442,7 @@
           {
             "Text": "the user authorizes your app by clicking on a link"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -479,8 +466,7 @@
           {
             "Text": "GitHub redirects to a callback url on your website (which you provided when registering the app with GitHub)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -504,8 +490,7 @@
           {
             "Text": "in the url handler, extract “secret” and “code” args"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -529,8 +514,7 @@
           {
             "Text": "you have to check that the secret is the same as the one you sent to GitHub (security measure that prevents forgery)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -554,8 +538,7 @@
           {
             "Text": "you call another GitHub url to exchange code for access token"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -579,8 +562,7 @@
           {
             "Text": "Access token is what you use to authenticate your API calls."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -604,8 +586,7 @@
           {
             "Text": "Notes on callback url"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -666,8 +647,7 @@
           {
             "Text": " and doesn’t allow changing host."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -704,8 +684,7 @@
             "Text": "golang.org/x/oauth2",
             "Link": "http://golang.org/x/oauth2"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -729,8 +708,7 @@
           {
             "Text": "Create OAuth config object:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -756,8 +734,7 @@
         "type": "code",
         "version": 3,
         "code": "import (\n    \"fmt\"\n    \"net/http\"\n\n    \"github.com/google/go-github/github\"\n    \"golang.org/x/oauth2\"\n    githuboauth \"golang.org/x/oauth2/github\"\n)\n\nvar (\n    // You must register the app at https://github.com/settings/applications\n    // Set callback to http://127.0.0.1:7000/github_oauth_cb\n    // Set ClientId and ClientSecret to\n    oauthConf = \u0026oauth2.Config{\n        ClientID:     \"\",\n        ClientSecret: \"\",\n        // select level of access you want https://developer.github.com/v3/oauth/#scopes\n        Scopes:       []string{\"user:email\", \"repo\"},\n        Endpoint:     githuboauth.Endpoint,\n    }\n    // random string for oauth2 API calls to protect against CSRF\n    oauthStateString = \"thisshouldberandom\"\n)",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -781,8 +758,7 @@
           {
             "Text": "This is your main html page:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -808,8 +784,7 @@
         "type": "code",
         "version": 3,
         "code": "const htmlIndex = `\u003chtml\u003e\u003cbody\u003e\nLogged in with \u003ca href=\"/login\"\u003eGitHub\u003c/a\u003e\n\u003c/body\u003e\u003c/html\u003e\n`\n\n// /\nfunc handleMain(w http.ResponseWriter, r *http.Request) {\n    w.Header().Set(\"Content-Type\", \"text/html; charset=utf-8\")\n    w.WriteHeader(http.StatusOK)\n    w.Write([]byte(htmlIndex))\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -833,8 +808,7 @@
           {
             "Text": "In the handler for /login url, redirect to GitHub’s authorization page:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -860,8 +834,7 @@
         "type": "code",
         "version": 3,
         "code": "// /login\nfunc handleGitHubLogin(w http.ResponseWriter, r *http.Request) {\n    url := oauthConf.AuthCodeURL(oauthStateString, oauth2.AccessTypeOnline)\n    http.Redirect(w, r, url, http.StatusTemporaryRedirect)\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -885,8 +858,7 @@
           {
             "Text": "GitHub will show authorization page to your user. If the user authorizes your app, GitHub will re-direct to OAuth callback. Here’s how you can turn it into a token, token into http client and use that client to list GitHub information about user:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -912,8 +884,7 @@
         "type": "code",
         "version": 3,
         "code": "// /github_oauth_cb. Called by github after authorization is granted\nfunc handleGitHubCallback(w http.ResponseWriter, r *http.Request) {\n    state := r.FormValue(\"state\")\n    if state != oauthStateString {\n        fmt.Printf(\"invalid oauth state, expected '%s', got '%s'\\n\", oauthStateString, state)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n\n    code := r.FormValue(\"code\")\n    token, err := oauthConf.Exchange(oauth2.NoContext, code)\n    if err != nil {\n        fmt.Printf(\"oauthConf.Exchange() failed with '%s'\\n\", err)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n\n    oauthClient := oauthConf.Client(oauth2.NoContext, token)\n    client := github.NewClient(oauthClient)\n    user, _, err := client.Users.Get(\"\")\n    if err != nil {\n        fmt.Printf(\"client.Users.Get() faled with '%s'\\n\", err)\n        http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n        return\n    }\n    fmt.Printf(\"Logged in as GitHub user: %s\\n\", *user.Login)\n    http.Redirect(w, r, \"/\", http.StatusTemporaryRedirect)\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -937,8 +908,7 @@
           {
             "Text": "And finally this is how you tie everything together:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -964,8 +934,7 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    http.HandleFunc(\"/\", handleMain)\n    http.HandleFunc(\"/login\", handleGitHubLogin)\n    http.HandleFunc(\"/github_oauth_cb\", handleGitHubCallback)\n    fmt.Print(\"Started running on http://127.0.0.1:7000\\n\")\n    fmt.Println(http.ListenAndServe(\":7000\", nil))\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -989,8 +958,7 @@
           {
             "Text": "Remembering OAuth access token"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1014,8 +982,7 @@
           {
             "Text": "Once you retrieve the token, you need to remember it e.g. in a database. Here’s how to serialize/deserialize token to/from JSON:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1041,8 +1008,7 @@
         "type": "code",
         "version": 3,
         "code": "func tokenToJSON(token *oauth2.Token) (string, error) {\n    if d, err := json.Marshal(token); err != nil {\n        return \"\", err\n    } else {\n        return string(d), nil\n    }\n}\n\nfunc tokenFromJSON(jsonStr string) (*oauth2.Token, error) {\n    var token oauth2.Token\n    if err := json.Unmarshal([]byte(jsonStr), \u0026token); err != nil {\n        return nil, err\n    }\n    return \u0026token, nil\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1066,8 +1032,7 @@
           {
             "Text": "Using personal access token"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1110,8 +1075,7 @@
           {
             "Text": ". Here’s how to do it:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1137,8 +1101,7 @@
         "type": "code",
         "version": 3,
         "code": "package main\n\nimport (\n    \"encoding/json\"\n    \"fmt\"\n\n    \"github.com/google/go-github/github\"\n    \"golang.org/x/oauth2\"\n)\n\nvar (\n    // you need to generate personal access token at\n    // https://github.com/settings/applications#personal-access-tokens\n    personalAccessToken = \"\"\n)\n\ntype TokenSource struct {\n    AccessToken string\n}\n\nfunc (t *TokenSource) Token() (*oauth2.Token, error) {\n    token := \u0026oauth2.Token{\n        AccessToken: t.AccessToken,\n    }\n    return token, nil\n}\n\nfunc main() {\n    tokenSource := \u0026TokenSource{\n        AccessToken: personalAccessToken,\n    }\n    oauthClient := oauth2.NewClient(oauth2.NoContext, tokenSource)\n    client := github.NewClient(oauthClient)\n    user, _, err := client.Users.Get(\"\")\n    if err != nil {\n        fmt.Printf(\"client.Users.Get() faled with '%s'\\n\", err)\n        return\n    }\n    d, err := json.MarshalIndent(user, \"\", \"  \")\n    if err != nil {\n        fmt.Printf(\"json.MarshlIndent() failed with %s\\n\", err)\n        return\n    }\n    fmt.Printf(\"User:\\n%s\\n\", string(d))\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       }
     ],
     "title": "Accessing GitHub API from Go",
@@ -1150,8 +1113,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F86bd3ca0-53f5-4048-997a-78a19bd9ce21%2Fheader-06.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

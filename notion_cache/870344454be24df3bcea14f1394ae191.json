@@ -78,8 +78,7 @@
           {
             "Text": "Id: 1966"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -103,8 +102,7 @@
           {
             "Text": "Tags: sumatra, optimization, programming, profiling"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -128,8 +126,7 @@
           {
             "Text": "Date: 2006-09-02T18:01:53-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -141,8 +138,7 @@
         "parent_id": "87034445-4be2-4df3-bcea-14f1394ae191",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -185,8 +181,7 @@
           {
             "Text": " and improve performance by ~7%. It doesn’t happen often, but when it does happen, it feels good."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -242,8 +237,7 @@
           {
             "Text": " library for most of its work (parsing and rendering PDF files). Almost all execution time is spent in poppler code. I didn’t write the code yet I was able to improve some specific scenario (loading of a PDF file) by about ~60% using rather small and un-intrusive changes (i.e. without rewriting a lot of code)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -267,8 +261,7 @@
           {
             "Text": "This post describes mechanics of performance improvement process I used."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -311,8 +304,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -336,8 +328,7 @@
           {
             "Text": "In Sumatra case that was obvious. The things that people care about are: how long does it take to load the PDF file and how long does it take to render a given page."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -361,8 +352,7 @@
           {
             "Text": "Another thing you need before even starting to improve the performance is to have a way to reliably measure changes in performance. In my case I had to write a test program that would take name of PDF file as input and dump statistics about how much time, in milliseconds, did it take to load the file and to render each page."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -386,8 +376,7 @@
           {
             "Text": "In order to see how my changes affect performance I would build a reference version of test program without any changes, build a version with my changes (making sure I use the same compiler settings for both versions), run them on the same PDF file and compare results."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -411,8 +400,7 @@
           {
             "Text": "Getting results from a single run is not good enough. Given multi-tasking nature of Windows, running time is only an approximation of performance. Also, some parts of the code heavily depend on cache. For example, loading PDF for the second time takes only a fraction of time because the file is most likely cached in memory and memory access is orders of magnitude faster than reading from disk."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -436,8 +424,7 @@
           {
             "Text": "Therefore it’s important to run the same test serveral (say 10) times and calculate averages, rejecting values that fall too much outside of average. Rather arbitrarily I decided to do a two-pass filtering when calculating averages. In first pass I reject all values that differ more than 45% from average and in second pass I reject all values that differ more than 10% from the average. I don’t have justification for those values, they seem to work for me. The reason for two-pass filtering is that one really outrages value in a short run might skew average so much that all values differ from average a lot (e.g. \u003e20%)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -461,8 +448,7 @@
           {
             "Text": "Even with multiple runs I see 1-1.5% changes when running the same executable so I don’t get excited when I see 1.5% improvement with my changes - those fall into line noise."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -486,8 +472,7 @@
           {
             "Text": "Another trap are CPUs with dynamically adjustable frequency (standard on laptops since they save power). They completely ruin ability to use execution time for comparison. Don’t use laptops for running tests or turn off this CPU feature."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -511,8 +496,7 @@
           {
             "Text": "I used to run tests manually, copy data to spreadsheet and making analysis there. That got old fast, so I wrote a python script to automate the process. The script takes as arguments names of 2 executables to compare, name of PDF file, runs both tests programs on this PDF multiple times (interleaved, to help even out possible CPU load changes from other activity on the computer) and just gives me the summary of results."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -612,8 +596,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -637,8 +620,7 @@
           {
             "Text": "The profiler will show you which functions take most of the time, how many times they are called, call trees etc. This information is not only useful to identify which code needs work but also can help you understand how the code works. If code is algorithms + data then software is code + execution paths."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -662,8 +644,7 @@
           {
             "Text": "Then there is the hard (but most fun) part of figuring out how to change the code to get speedups."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -706,8 +687,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -731,8 +711,7 @@
           {
             "Text": "On the bright side, it also happened that I had improvements ideas that would require extensive changes but after staring more at the code and profiler results, I found much smaller change with a similar speedup potential."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -756,8 +735,7 @@
           {
             "Text": "Summary of important points about performance optimization:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -781,8 +759,7 @@
           {
             "Text": "optimize scenarios that matters to your users"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -806,8 +783,7 @@
           {
             "Text": "write tools to make evaluating performance changes possible"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -831,8 +807,7 @@
           {
             "Text": "write tools to automate performance evaluation"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -856,8 +831,7 @@
           {
             "Text": "use profiler to see which code needs to be optimized"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -881,8 +855,7 @@
           {
             "Text": "use profiler to understand how code works"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -906,8 +879,7 @@
           {
             "Text": "use your brain to make changes to the code"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -931,8 +903,7 @@
           {
             "Text": "make sure your changes do improve performance. Flying blind is not good enough"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1032,8 +1003,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "On how I improved Sumatra performance by ~60%",
@@ -1044,8 +1014,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

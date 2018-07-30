@@ -111,8 +111,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -124,8 +123,7 @@
             "parent_id": "713efcff-d6cd-4797-837c-23f2cbc8eabb",
             "parent_table": "block",
             "type": "text",
-            "version": 0,
-            "format_video": null
+            "version": 0
           },
           {
             "alive": true,
@@ -151,8 +149,7 @@
             "type": "code",
             "version": 0,
             "code": "# kjk modifications\nexport PATH=$PATH:/usr/local/go/bin\nexport GOPATH=$HOME/src/go\nexport PATH=$PATH:$GOPATH/bin\n\nalias cdsrc=\"cd /mnt/c/Users/kjk/src\"\ncdsrc",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
@@ -166,8 +163,7 @@
           {
             "Text": " "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -204,8 +200,7 @@
             "Text": "https://raw.githubusercontent.com/kjk/exp/master/bootstrap_ubuntu.sh",
             "Link": "https://raw.githubusercontent.com/kjk/exp/master/bootstrap_ubuntu.sh?token=AAAe_33bWYUlOroqfXxGgX8LsH-101zoks5aKguewA%3D%3D"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -259,8 +254,7 @@
                 "Text": "https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91",
                 "Link": "https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -286,16 +280,14 @@
             "type": "code",
             "version": 0,
             "code": "sudo apt-get update -y \u0026\u0026 \\\nsudo apt-get upgrade -y \u0026\u0026 \\\nsudo apt-get dist-upgrade -y \u0026\u0026 \\\nsudo apt-get install build-essential software-properties-common -y \u0026\u0026 \\\nsudo add-apt-repository ppa:ubuntu-toolchain-r/test -y \u0026\u0026 \\\nsudo apt-get update -y \u0026\u0026 \\\nsudo apt-get install gcc-7 g++-7 -y \u0026\u0026 \\\nsudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60 --slave /usr/bin/g++ g++ /usr/bin/g++-7 \u0026\u0026 \\\nsudo update-alternatives --config gcc",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "Installing gcc 7"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -345,8 +337,7 @@
               {
                 "Text": "Commands:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -372,8 +363,7 @@
             "type": "code",
             "version": 0,
             "code": "wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -\nsudo apt-add-repository \"deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main\"\nsudo apt-get update\nsudo apt-get install clang-5.0",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
@@ -397,8 +387,7 @@
               {
                 "Text": "Based on:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -429,8 +418,7 @@
                 "Text": "https://askubuntu.com/questions/787383/how-to-install-llvm-3-9",
                 "Link": "https://askubuntu.com/questions/787383/how-to-install-llvm-3-9"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -461,16 +449,14 @@
                 "Text": "http://apt.llvm.org/",
                 "Link": "http://apt.llvm.org/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "installing clang 5"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -581,16 +567,14 @@
             "type": "code",
             "version": 0,
             "code": "wget ",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "installing latest go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -656,8 +640,7 @@
               {
                 "Text": ":"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -683,16 +666,14 @@
             "type": "code",
             "version": 0,
             "code": "curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -\ncurl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /etc/apt/sources.list.d/microsoft.list\nsudo apt-get update\nsudo apt-get install -y powershell",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "installing powershell"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -826,16 +807,14 @@
             "type": "code",
             "version": 0,
             "code": "sudo apt-get install libc6-dbg",
-            "code_language": "Shell",
-            "format_video": null
+            "code_language": "Shell"
           }
         ],
         "inline_content": [
           {
             "Text": "installing latest valgrind"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -859,8 +838,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -891,8 +869,7 @@
             "Text": "https://blog.jessfraz.com/post/windows-for-linux-nerds/",
             "Link": "https://blog.jessfraz.com/post/windows-for-linux-nerds/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -923,8 +900,7 @@
             "Text": "https://www.hanselman.com/blog/TheYearOfLinuxOnTheWindowsDesktopWSLTipsAndTricks.aspx",
             "Link": "https://www.hanselman.com/blog/TheYearOfLinuxOnTheWindowsDesktopWSLTipsAndTricks.aspx"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -936,8 +912,7 @@
         "parent_id": "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "wsl (Windows Subsystem For Linux)",
@@ -948,8 +923,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -91,8 +91,7 @@
           {
             "Text": "Id: 1518013 "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -116,8 +115,7 @@
           {
             "Text": "Tags: programming, sumatra "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -141,8 +139,7 @@
           {
             "Text": "Date: 2012-12-16T18:50:28-08:00 "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -154,8 +151,7 @@
         "parent_id": "6a89b20b-0c0b-4fb6-98a3-8d0ca381dcf0",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       },
       {
         "alive": true,
@@ -179,8 +175,7 @@
           {
             "Text": "A web-based, crowd-sourced translation system"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -242,8 +237,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -286,8 +280,7 @@
           {
             "Text": ", so you can dig into code for more details."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -311,8 +304,7 @@
           {
             "Text": "The goals of translation system were to make it easy for me to add new strings for translations and easy for other people to contribute translations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -336,8 +328,7 @@
           {
             "Text": "I call it a “system” because it consists of several parts that are designed to act as a sensible whole."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -361,8 +352,7 @@
           {
             "Text": "How translations are stored in C++ code"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -386,8 +376,7 @@
           {
             "Text": "I try to design for simplicity of implementation to minimize the amount of code to write. Often it means that I reject popular solutions if I can design a simpler one."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -430,8 +419,7 @@
           {
             "Text": " API."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -455,8 +443,7 @@
           {
             "Text": "That would be very clumsy both for me (when adding new translations) and for potential translators (they have to edit files in a cryptic format). It also requires distributing multiple dlls (I prefer to ship my apps as single executables)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -480,8 +467,7 @@
           {
             "Text": "Managing translation strings in C++ code"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -505,8 +491,7 @@
           {
             "Text": "The first part of the system was therefore a new design for managing translation strings in the app."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -549,8 +534,7 @@
           {
             "Text": " in the code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -612,8 +596,7 @@
           {
             "Text": " that looks up a translation of a string given currently selected language."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -637,8 +620,7 @@
           {
             "Text": "How translations are contributed by users"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -662,8 +644,7 @@
           {
             "Text": "SumatraPDF is an open-source project so I rely on contributions from users to keep it translated."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -687,8 +668,7 @@
           {
             "Text": "The system for collecting contributions had 3 iterations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -712,8 +692,7 @@
           {
             "Text": "In first iteration, I had a single text file with all translations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -737,8 +716,7 @@
           {
             "Text": "It looked like this:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -764,8 +742,7 @@
         "type": "code",
         "version": 1,
         "code": "String to translate\nde:German translation\nfr:French translation\n\nAnother string to translate\nde:another German translation",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -789,8 +766,7 @@
           {
             "Text": "People would download the latest version of the file from svn, add missing translations and e-mail it to me. I would check-in that to svn and re-run the script that rebuilds C++ file with strings."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -814,8 +790,7 @@
           {
             "Text": "At some point the file became very big so I split it into multiple files, one per language."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -839,8 +814,7 @@
           {
             "Text": "It was working ok but the process of submitting translation was time consuming for translators and the process of updating the code was time consuming for me."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -883,8 +857,7 @@
           {
             "Text": " which makes it much easier to contribute a translation."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -908,8 +881,7 @@
           {
             "Text": "I also added the necessary API endpoints in the server to allow writing scripts for automating uploading strings to translate and downloading latest translations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -933,8 +905,7 @@
           {
             "Text": "The design of web-based UI"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -958,8 +929,7 @@
           {
             "Text": "A web-based UI for editing translation is not a novel idea. However, my brief research shows that few do it well."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -983,8 +953,7 @@
           {
             "Text": "I try to be pragmatic about things. If a decent 3rd party system with enough flexibility to meet my needs already did exist, I would rather use it than develop my own (writing code takes time)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1008,8 +977,7 @@
           {
             "Text": "I’m tempted to say that I designed for simplicity but, while being true, it’s also rather vague. More accurately: I designed for simplicity of the translator workflow."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1052,8 +1020,7 @@
           {
             "Text": " but let me point out few specific points:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1077,8 +1044,7 @@
           {
             "Text": "it takes 2 clicks from main page to a point where you can submit translation. The first click is to select the project (as AppTranslator is designed to support multiple projects) and the second click to select the language"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1102,8 +1068,7 @@
           {
             "Text": "on the page for a given language, the untranslated strings are at the top. The rest is sorted"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1127,8 +1092,7 @@
           {
             "Text": "I don’t require creating an account for AppTranslator but authenticate with Twitter"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1152,8 +1116,7 @@
           {
             "Text": "Those might seem like obvious points but I found that other systems I’ve surveyed were baroque enough to inspire Kafka."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1196,8 +1159,7 @@
           {
             "Text": " gets a special recognition for amount of bureaucracy, complicated workflows (joining a translation team to submit a translation?) and bad copy (they feel it’s important to inform you that in order to contribute a translation you need an internet connection, among many other useless bits of information)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1234,8 +1196,7 @@
             "Text": "is marginally better",
             "Link": "https://wiki.mozilla.org/L10n:Home_Page"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1259,8 +1220,7 @@
           {
             "Text": "Technical specs"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1303,8 +1263,7 @@
           {
             "Text": " (BSD license)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1347,8 +1306,7 @@
           {
             "Text": " to run your own instance."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1391,8 +1349,7 @@
           {
             "Text": ". The code is in C++ with a bunch of python helper scripts to automate interaction with AppTranslator server."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Design and implementation of translation system for desktop software",
@@ -1403,8 +1360,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

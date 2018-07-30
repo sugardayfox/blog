@@ -56,8 +56,7 @@
             "Text": "http://andlabs.lostsig.com/blog/go-templates/",
             "Link": "http://andlabs.lostsig.com/blog/go-templates/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -83,8 +82,7 @@
         "type": "code",
         "version": 0,
         "code": "## if\nif returns false for false booleans, empty strings, empty slices\n\n{{ if .Foo }} ... {{ end }}\n\n{{ if not .Foo }} ... {{ end }}\n\n## Slices: iterate, get length\n\n{{ range .Slice }} ... {{ end }}\n\n{{ len .Slice }}\n\n## Variables\n\n{{ $isAdmin := .IsAdmin }}\n\n{{ if $isAdmin }} ... {{ end }}\n\n## Include another template\n\n{{ template \"foo.html\" }}\n\nThis includes a template named \"foo\".",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "html templating",
@@ -95,8 +93,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

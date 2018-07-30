@@ -66,8 +66,7 @@
           {
             "Text": "Id: 1300"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -91,8 +90,7 @@
           {
             "Text": "Tags: sql, mysql"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -116,8 +114,7 @@
           {
             "Text": "Date: 2006-01-14T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -141,8 +138,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -154,8 +150,7 @@
         "parent_id": "c17c9bfe-9b64-48f3-a3ca-a4080de8527d",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -203,8 +198,7 @@
             "Text": "mysql",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -252,8 +246,7 @@
             "Text": "show databases;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -301,8 +294,7 @@
             "Text": "use $dbname;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -350,8 +342,7 @@
             "Text": "show tables;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -399,8 +390,7 @@
             "Text": "describe $tablename;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -448,8 +438,7 @@
             "Text": "GRANT SELECT ON $database.* TO '$user_name'@'%' IDENTIFIED BY '$password';",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -497,8 +486,7 @@
             "Text": "delete from $db.$table where $condition;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -546,8 +534,7 @@
             "Text": "select count(*) from $db.$table;",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -583,8 +570,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -610,8 +596,7 @@
         "type": "code",
         "version": 1,
         "code": "ALTER TABLE get_cookie_log ADD COLUMN log_id INT(10) NOT NULL auto_increment, ADD PRIMARY KEY(log_id);`\nALTER TABLE get_cookie_log ADD COLUMN log_id INT(10) NOT NULL auto_increment, ADD INDEX(log_id);`\nALTER TABLE verify_reg_code_log ADD COLUMN log_id INT(10) NOT NULL auto_increment, ADD INDEX(log_id);`",
-        "code_language": "SQL",
-        "format_video": null
+        "code_language": "SQL"
       },
       {
         "alive": true,
@@ -659,8 +644,7 @@
             "Text": "mysqldump $database [[-all] | [$table]]s \u003e$file-name.sql",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -696,8 +680,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -723,8 +706,7 @@
         "type": "code",
         "version": 1,
         "code": "mysql -e \"DROP DATABASE $db; CREATE DATABASE $db;\"\nmysql $databasename \u003c$file-name.sql",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       }
     ],
     "title": "Basics of mysql",
@@ -735,8 +717,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

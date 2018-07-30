@@ -52,8 +52,7 @@
           {
             "Text": "Useful commands:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -83,8 +82,7 @@
             "Text": "systemctl status \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -148,8 +146,7 @@
               {
                 "Text": " : reverse"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -185,8 +182,7 @@
               {
                 "Text": " : follow"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -194,8 +190,7 @@
             "Text": "journalctl -f -u \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -243,16 +238,14 @@
             "type": "code",
             "version": 4,
             "code": "On Ubuntu, systemd is used starting with 15.04\n/etc/systemd/system\n\nsystemctl enable dbhero\nsystemctl daemon-reload\nsystemctl start dbhero\nsystemctl stop dbhero\n\njournalctl -u website : to see logs from unit website\n\nhttp://0pointer.de/blog/projects/socket-activation.html\nhttps://wiki.ubuntu.com/SystemdForUpstartUsers\nhttps://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -313,8 +306,7 @@
               {
                 "Text": " : go and systemd"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -351,8 +343,7 @@
               {
                 "Text": " How to use systemd socket activation for for zero-downtime deployments"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -364,16 +355,14 @@
             "parent_id": "b033ba1a-8901-404c-8530-45843ad43280",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "links"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Systemd",
@@ -384,8 +373,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

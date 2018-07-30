@@ -78,8 +78,7 @@
           {
             "Text": "Id: 20"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -103,8 +102,7 @@
           {
             "Text": "Date: 2017-11-20T20:37:02-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -128,8 +126,7 @@
           {
             "Text": "Tags: unix"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -141,8 +138,7 @@
         "parent_id": "75f1199f-2c17-4fb9-87bc-9b1fb4989375",
         "parent_table": "block",
         "type": "text",
-        "version": 8,
-        "format_video": null
+        "version": 8
       },
       {
         "alive": true,
@@ -185,8 +181,7 @@
           {
             "Text": " (WSL)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -228,8 +223,7 @@
           {
             "Text": " installs version 3.8."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -253,8 +247,7 @@
           {
             "Text": "To install latest version (currently 6.0) run:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -280,8 +273,7 @@
         "type": "code",
         "version": 3,
         "code": "wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -\nsudo apt-add-repository \"deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main\"\nsudo apt-get update\nsudo apt-get install -y clang-6.0",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -335,8 +327,7 @@
           {
             "Text": " etc.)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -360,8 +351,7 @@
           {
             "Text": "How it works"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -385,8 +375,7 @@
           {
             "Text": "Let’s deconstruct those commands so that you know what’s happening."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -410,8 +399,7 @@
           {
             "Text": "How does apt know what packages are available?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -435,8 +423,7 @@
           {
             "Text": "Apt queries package servers to get a list of available deb packages. Default Ubuntu installation knows about official Ubuntu servers but you can run your own server to provide additional packages."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -478,8 +465,7 @@
           {
             "Text": ". Here’s how it looks by default on Ubuntu 16.04:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -505,8 +491,7 @@
         "type": "code",
         "version": 3,
         "code": "$ cat /etc/apt/sources.list\ndeb http://archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse\ndeb http://archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse\ndeb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -530,8 +515,7 @@
           {
             "Text": "Ubuntu only provides a relatively old clang 3.8. Luckily, Apple creates deb packages and maintains a server for all llvm/clang releases and most Ubuntu distros."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -585,8 +569,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -622,8 +605,7 @@
           {
             "Text": " downloads the latest list of packages from all servers, including the one we just added"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -647,8 +629,7 @@
           {
             "Text": "For security, packages are signed with private keys. You need public key to verify package signature."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -684,8 +665,7 @@
           {
             "Text": " downloads llvm’s server public key."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -739,8 +719,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -782,8 +761,7 @@
           {
             "Text": " disables confirmation prompt."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -807,8 +785,7 @@
           {
             "Text": "What if there’s a newer version of clang or a different version of Ubuntu?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -832,8 +809,7 @@
           {
             "Text": "There is a new llvm/clang release every 6 months. What to do for newer version?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -893,8 +869,7 @@
           {
             "Text": " line in the above instructions."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -918,8 +893,7 @@
           {
             "Text": "Making latest version available as clang"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -979,8 +953,7 @@
           {
             "Text": " will either refer to 3.8 (if you’ve installed it) or nothing at all."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1022,8 +995,7 @@
           {
             "Text": " refers to clang 6:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1049,8 +1021,7 @@
         "type": "code",
         "version": 3,
         "code": "update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-3.8 100\nupdate-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-6.0 1000\nupdate-alternatives --install /usr/bin/clang++ clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.8 100\nupdate-alternatives --install /usr/bin/clang clang /usr/bin/clang-6.0 1000\nupdate-alternatives --config clang\nupdate-alternatives --config clang++",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1074,8 +1045,7 @@
           {
             "Text": "This might help if you have scripts that hard-code name of the compiler and don’t allow over-writing it."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "How to install latest clang (6.0) on Ubuntu 16.04 (xenial) / WSL",
@@ -1086,8 +1056,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

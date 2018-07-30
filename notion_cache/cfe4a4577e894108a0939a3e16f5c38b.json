@@ -83,8 +83,7 @@
           {
             "Text": ", https://benchmarkjs.com/). "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -108,8 +107,7 @@
           {
             "Text": "A simple benchmark in node:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -135,8 +133,7 @@
         "type": "code",
         "version": 0,
         "code": "var Benchmark = require('benchmark');\n\nvar suite = new Benchmark.Suite;\n\nfunction f1() {\n\treturn ['foo', 'bar'].includes('zeta');\n}\n\nvar known = ['foo', 'bar'];\nfunction f2() {\n\treturn known.includes('zeta');\n}\n\nsuite.add('f1', f1);\nsuite.add('f2', f2);\nsuite.on('cycle', function(event) {\n  console.log(String(event.target));\n})\nsuite.on('complete', function() {\n  console.log('Fastest is ' + this.filter('fastest').map('name'));\n})\nsuite.run({ 'async': true });",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -148,12 +145,10 @@
         "parent_id": "cfe4a457-7e89-4108-a093-9a3e16f5c38b",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
-    "title": "Writing micro-benchmarks",
-    "format_video": null
+    "title": "Writing micro-benchmarks"
   },
   "Users": [
     {

@@ -91,8 +91,7 @@
             "Text": "https://view.officeapps.live.com/op/view.aspx?src=http%3a%2f%2fvideo.ch9.ms%2fsessions%2fc1f9c808-82bc-480a-a930-b340097f6cc1%2fbuild%2f2017%2fP4067.pptx",
             "Link": "https://view.officeapps.live.com/op/view.aspx?src=http%3a%2f%2fvideo.ch9.ms%2fsessions%2fc1f9c808-82bc-480a-a930-b340097f6cc1%2fbuild%2f2017%2fP4067.pptx"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -104,8 +103,7 @@
         "parent_id": "bde9a91e-2e40-4902-b2f5-58f3579a5d7c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -129,8 +127,7 @@
           {
             "Text": "rescap3 : restricted capability 3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -167,8 +164,7 @@
             "Text": "https://www.nuget.org/packages/DesktopBridge.Helpers/",
             "Link": "https://www.nuget.org/packages/DesktopBridge.Helpers/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -205,8 +201,7 @@
             "Text": "https://blogs.windows.com/buildingapps/2017/03/10/desktop-bridge-smooth-user-transition-data-migration/#YWvllMRwdd40rHlH.97",
             "Link": "https://blogs.windows.com/buildingapps/2017/03/10/desktop-bridge-smooth-user-transition-data-migration/#YWvllMRwdd40rHlH.97"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -218,8 +213,7 @@
         "parent_id": "bde9a91e-2e40-4902-b2f5-58f3579a5d7c",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -243,8 +237,7 @@
           {
             "Text": "Transition pins \u0026 tiles via manifest"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -270,8 +263,7 @@
         "type": "code",
         "version": 0,
         "code": "\u003crescap3:Extension Category=\"windows.desktopAppMigration\"\u003e\n  \u003crescap3:DesktopAppMigration\u003e\n    \u003crescape3:DesktopApp ShortcutPath=\"%USERPROFILE%\\Desktop\\[my_app].lnk /\u003e\n    \u003crescap3:DesktopApp ShortcutPath=\"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\[my_app].lnk\" /\u003e\n    \u003crescap3:DesktopApp ShortcutPath=\"%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\[my_app_folder]\\[my_app].lnk\" /\u003e\n  \u003c/rescap3:DesktopAppMigration\u003e\n\u003c/rescap3:Extension\u003e",
-        "code_language": "HTML",
-        "format_video": null
+        "code_language": "HTML"
       },
       {
         "alive": true,
@@ -295,8 +287,7 @@
           {
             "Text": "Transition File Type Association \u0026 Protocol Handler Transformation"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -322,8 +313,7 @@
         "type": "code",
         "version": 0,
         "code": "\u003cuap:Extension Category=\"windows.fileTypeAssociation\"\u003e\n \u003cuap3:FileTypeAssociation Name=“.foo”\u003e\n  \u003crescap3:MigrationProgIds\u003e\n   \u003crescap3:MigrationProgId\u003e[My_App_ProgId\u003c/rescap3:MigrationProgId\u003e  \n  \u003c/rescap3:MigrationProgIds\u003e\n... ...\n",
-        "code_language": "HTML",
-        "format_video": null
+        "code_language": "HTML"
       },
       {
         "alive": true,
@@ -360,8 +350,7 @@
             "Text": "https://msdn.microsoft.com/en-us/library/windows/desktop/dd542719(v=vs.85).aspx",
             "Link": "https://msdn.microsoft.com/en-us/library/windows/desktop/dd542719(v=vs.85).aspx"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -385,8 +374,7 @@
           {
             "Text": "Migrate program data"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -410,8 +398,7 @@
           {
             "Text": "Best practice: on first launch find data from desktop app and migrate"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -435,8 +422,7 @@
           {
             "Text": "Uninstall desktop app"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -460,8 +446,7 @@
           {
             "Text": "Best pratice:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -509,8 +494,7 @@
               {
                 "Text": "what is about to happen"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -534,8 +518,7 @@
               {
                 "Text": "why it is recommended"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -559,16 +542,14 @@
               {
                 "Text": "what's going to happen to their old data (or already happened)"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Create a new prompt, explaining to the user"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -614,16 +595,14 @@
               {
                 "Text": "You should know what your win32 app's uninstall string looks like and /or where it is located in the registry"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Launch the UninstallString to offer the uninstall experience"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -669,16 +648,14 @@
               {
                 "Text": "App needs to make a decision to block or allow side-by-side"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "User may choose to decline"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Transitioning desktop install to app store install",
@@ -689,8 +666,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

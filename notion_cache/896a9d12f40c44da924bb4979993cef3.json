@@ -63,8 +63,7 @@
           {
             "Text": "File description limit"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -88,8 +87,7 @@
           {
             "Text": "Things that can be done:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -125,8 +123,7 @@
           {
             "Text": " : set system-wide limit"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -162,8 +159,7 @@
           {
             "Text": " : shows number of opened files by all processes"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -199,8 +195,7 @@
           {
             "Text": " : shows system-level max number of opened files"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -236,8 +231,7 @@
           {
             "Text": " : shows file limits for a process with pid 3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -273,8 +267,7 @@
           {
             "Text": " : shows opened files by process with pid 3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -310,8 +303,7 @@
           {
             "Text": " : another way to see files opened by process"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -347,8 +339,7 @@
           {
             "Text": " : shows soft limit, must be less than hard limit"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -384,8 +375,7 @@
           {
             "Text": " : shows hard limit"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -421,8 +411,7 @@
           {
             "Text": " : sets soft limit for current process"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -458,8 +447,7 @@
           {
             "Text": " : sets hard limit for current process"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -489,8 +477,7 @@
             "Text": "cat /etc/sysctl.conf",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -527,8 +514,7 @@
           {
             "Text": " : shows how set limits"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -540,8 +526,7 @@
         "parent_id": "896a9d12-f40c-44da-924b-b4979993cef3",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -561,8 +546,7 @@
         },
         "type": "code",
         "version": 0,
-        "code": "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000",
-        "format_video": null
+        "code": "$ sysctl -a | grep fs.\nfs.file-max = 100000\nfs.file-nr = 1024          0       100000"
       }
     ],
     "title": "ulimit",
@@ -573,8 +557,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

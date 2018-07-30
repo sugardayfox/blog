@@ -85,8 +85,7 @@
                 "Text": "https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/",
                 "Link": "https://gomakethings.com/debouncing-events-with-requestanimationframe-for-better-performance/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -112,8 +111,7 @@
             "type": "code",
             "version": 10,
             "code": "function runDebounced(f) {\n  let timeout = null;\n  const f = function() {\n    if (timeout) {\n      window.cancelAnimationFrame(timeout);\n    }\n    timeout = window.requestAnimationFrame(f);\n  }\n  f();\n}\n\nwindow.addEventListener('resize', function(e) {\n  function f() {\n    console.log(\"resize:\", e);\n  }\n  runDebounced(f);\n}, false);",
-            "code_language": "Javascript",
-            "format_video": null
+            "code_language": "Javascript"
           },
           {
             "alive": true,
@@ -125,16 +123,14 @@
             "parent_id": "432449d0-8e11-48c8-af75-05a0a20aa9ca",
             "parent_table": "block",
             "type": "text",
-            "version": 4,
-            "format_video": null
+            "version": 4
           }
         ],
         "inline_content": [
           {
             "Text": "debounce resize event with requestAnimationFrame"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "javascript snippets",
@@ -145,8 +141,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

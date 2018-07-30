@@ -126,8 +126,7 @@
           {
             "Text": "Id: Jl3G"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -151,8 +150,7 @@
           {
             "Text": "Tags: go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -176,8 +174,7 @@
           {
             "Text": "CreatedAt: 2017-06-23T09:56:26Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -201,8 +198,7 @@
           {
             "Text": "UpdatedAt: 2017-07-09T21:00:18Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -226,8 +222,7 @@
           {
             "Text": "PublishedOn: 2017-07-02"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -251,8 +246,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -276,8 +270,7 @@
           {
             "Text": "Description: How to implement HTTPS in Go for free, using Let's Encrypt certificates. Redirecting HTTP to HTTPS."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -289,8 +282,7 @@
         "parent_id": "e1f2db06-a96a-413a-a10e-e0723f6802ab",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -315,8 +307,7 @@
           {
             "Text": "Why HTTPS?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -341,8 +332,7 @@
           {
             "Text": "Having HTTPS for your website is important:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -367,8 +357,7 @@
           {
             "Text": "HTTPS encrypts the traffic between browser and server. Passwords of your users are protected from traffic sniffing on naughty intermediary servers or miscreants sniffing wifi packets in a cafe."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -393,8 +382,7 @@
           {
             "Text": "new HTTP/2 protocol is faster than HTTP/1.1 but only works over HTTPS."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -419,8 +407,7 @@
           {
             "Text": "if you care about SEO, Google ranks HTTPS websites higher than HTTP ones."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -458,8 +445,7 @@
             "Text": "scare users of HTTP websites",
             "Link": "https://www.troyhunt.com/life-is-about-to-get-harder-for-websites-without-https/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -484,8 +470,7 @@
           {
             "Text": "Using someone else to provide HTTPS"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -510,8 +495,7 @@
           {
             "Text": "Before we learn how to support HTTPS directly in your Go web server, let’s talk about simpler options."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -555,8 +539,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -581,8 +564,7 @@
           {
             "Text": "Their free plan offers acting as HTTPS proxy to your HTTP-only website."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -607,8 +589,7 @@
           {
             "Text": "To use Cloudflare: * configure your domain to use CloudFlare’s DNS servers * in CloudFlare’s DNS settings point the domain to your server and set Status to “DNS and HTTP proxy (CDN)” * in CloudFlare’s Crypto settings, set SSL to “Flexible” (browser talks to CloudFlare via HTTPS, CloudFlare talks to * configure CloudFlare’s HTTPS proxy in their web interface by providing IP address of your server. * for good measure, also enable “Always use HTTPS”"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -633,8 +614,7 @@
           {
             "Text": "Browser talks to CloudFlare, which takes care of provisioning SSL certificate and proxies the traffic to your server. This might be slower due to additional traffic or faster due to CloudFlare servers being faster than yours (being faster is their business)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -659,8 +639,7 @@
           {
             "Text": "AWS, Google Cloud and some other hosting providers also provide free HTTPS for servers hosted on their infrastructures."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -704,8 +683,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -730,8 +708,7 @@
           {
             "Text": "Directly supporting HTTPS"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -756,8 +733,7 @@
           {
             "Text": "Not long ago, if you wanted a SSL certificate, you had to pay many dollars a year for each domain."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -795,8 +771,7 @@
           {
             "Text": " changed that. It’s a non-profit organization that provides certificates for free and offers HTTP API for obtaining certificates. API allows automating the process."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -821,8 +796,7 @@
           {
             "Text": "Before Let’s Encrypt you would buy a certificate, which is just a bunch of bytes. You would save certificate to a file and configure your web server to use it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -847,8 +821,7 @@
           {
             "Text": "With Let’s Encrypt you can use their API to obtain the certificate for free, automatically, when your server starts."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -873,8 +846,7 @@
           {
             "Text": "Thankfully all the hard work of talking to the API has already bee done by others. We just need to plug it in."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -899,8 +871,7 @@
           {
             "Text": "There are a couple of Go libraries that implement Let’s Encrypt support."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -944,8 +915,7 @@
           {
             "Text": ", which is developed by Go core developers. It’s been several months now and it works flawlessly."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -970,8 +940,7 @@
           {
             "Text": "Here’s how to start HTTPS web server that uses free SSL certificates from Let’s Encrypt."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -998,8 +967,7 @@
         "type": "code",
         "version": 3,
         "code": "const (\n    htmlIndex    = `\u003chtml\u003e\u003cbody\u003eWelcome!\u003c/body\u003e\u003c/html\u003e`\n    inProduction = true\n)\n\nfunc handleIndex(w http.ResponseWriter, r *http.Request) {\n    io.WriteString(w, htmlIndex)\n}\n\nfunc makeHTTPServer() *http.Server {\n    mux := \u0026http.ServeMux{}\n    mux.HandleFunc(\"/\", handleIndex)\n\n    // set timeouts so that a slow or malicious client doesn't\n    // hold resources forever\n    return \u0026http.Server{\n        ReadTimeout:  5 * time.Second,\n        WriteTimeout: 5 * time.Second,\n        IdleTimeout:  120 * time.Second,\n        Handler:      handler,\n    }\n}\n\nfunc main() {\n    var httpsSrv *http.Server\n    var m *autocert.Handler\n\n    // when testing locally it doesn't make sense to start\n    // HTTPS server, so only do it in production.\n    // In real code, I control this with -production cmd-line flag\n    if inProduction {\n        // Note: use a sensible value for data directory\n        // this is where cached certificates are stored\n        dataDir := \".\"\n        hostPolicy := func(ctx context.Context, host string) error {\n            // Note: change to your real domain\n            allowedHost := \"www.mydomain.com\"\n            if host == allowedHost {\n                return nil\n            }\n            return fmt.Errorf(\"acme/autocert: only %s host is allowed\", allowedHost)\n        }\n\n        httpsSrv = makeHTTPServer()\n        m := \u0026autocert.Manager{\n            Prompt:     autocert.AcceptTOS,\n            HostPolicy: hostPolicy,\n            Cache:      autocert.DirCache(dataDir),\n        }\n        httpsSrv.Addr = \":443\"\n        httpsSrv.TLSConfig = \u0026tls.Config{GetCertificate: m.GetCertificate}\n\n        go func() {\n            err := httpsSrv.ListenAndServeTLS(\"\", \"\")\n            if err != nil {\n                log.Fatalf(\"httpsSrv.ListendAndServeTLS() failed with %s\", err)\n            }\n        }()\n    }\n\n    httpSrv := makeHTTPServer()\n    if m != nil {\n        // allow autocert handle Let's Encrypt auth callbacks over HTTP.\n        // it'll pass all other urls to our hanlder\n        httpSrv.Handler = m.HTTPHandler(httpServ.Handler)\n    }\n    httpSrv.Addr = \":80\"\n    err := httpSrv.ListenAndServe()\n    if err != nil {\n        log.Fatalf(\"httpSrv.ListenAndServe() failed with %s\", err)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1043,8 +1011,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1069,8 +1036,7 @@
           {
             "Text": "There are some important things to note."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1107,8 +1073,7 @@
           {
             "Text": " The standard port for HTTPS is 443"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1145,8 +1110,7 @@
           {
             "Text": " You can run only HTTP, only HTTPS or both."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1183,8 +1147,7 @@
           {
             "Text": " If the server doesn’t have a certificate, it’ll use HTTP API to ask Let’s Encrypt servers for it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1209,8 +1172,7 @@
           {
             "Text": "Those requests are throttled to 20 per week to avoid over-loading Let’s Encrypt servers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1258,8 +1220,7 @@
           {
             "Text": " cache."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1284,8 +1245,7 @@
           {
             "Text": "Cache is an interface so you could implement your own storage e.g. in a SQL database or Redis."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1322,8 +1282,7 @@
           {
             "Text": " You must set up DNS correctly."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1348,8 +1307,7 @@
           {
             "Text": "To verify that you’re the owner of domain for which you want a certificate, Let’s Encrypt server calls back your server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1374,8 +1332,7 @@
           {
             "Text": "For that to work, DNS name must resolve to the IP address of your server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1400,8 +1357,7 @@
           {
             "Text": "This means that local testing of HTTPS code-path is hard. I usually don’t bother."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1445,8 +1401,7 @@
           {
             "Text": " to expose your local port to the internet, set DNS to resolve your domain to public DNS name that ngrok creates, wait a bit to make sure that DNS information propagates to Let’s Encrypt computers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1483,8 +1438,7 @@
           {
             "Text": " You might be wondering: what is this HostPolicy business?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1522,8 +1476,7 @@
             "Text": "explain this well",
             "Link": "https://github.com/golang/crypto/blob/5a033cc77e57eca05bdb50522851d29e03569cbe/acme/autocert/autocert.go#L104"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1548,8 +1501,7 @@
           {
             "Text": "Our example assumes most common case: a server that only responds to a single domain. You can easily change the logic."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1586,8 +1538,7 @@
           {
             "Text": " We’re not running HTTPS when testing locally."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1612,8 +1563,7 @@
           {
             "Text": "When testing locally on your laptop, there’s no point in running HTTPS version. Your computer most likely doesn’t have publicly visible IP address so Let’s Encrypt servers can’t reach you, so you won’t get the certificate."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1638,8 +1588,7 @@
           {
             "Text": "We also won’t be able to bind to HTTPS port 443 (only root processes can bind to ports lower than 1024)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1682,8 +1631,7 @@
           {
             "Text": " flag to decide if I should start HTTPS server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1726,8 +1674,7 @@
           {
             "Text": " cmd-line flag and use that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1752,8 +1699,7 @@
           {
             "Text": "Redirecting from HTTP to HTTPS"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1778,8 +1724,7 @@
           {
             "Text": "If you can do HTTPS there’s no point in providing plain HTTP."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1804,8 +1749,7 @@
           {
             "Text": "We can re-direct all HTTP request to HTTPS equivalent, for better security and SEO (Google doesn’t like duplicate content so your SEO rank will be better with a single version of the website)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1832,8 +1776,7 @@
         "type": "code",
         "version": 3,
         "code": "func makeServerFromMux(mux *http.ServeMux) *http.Server {\n    // set timeouts so that a slow or malicious client doesn't\n    // hold resources forever\n    return \u0026http.Server{\n        ReadTimeout:  5 * time.Second,\n        WriteTimeout: 5 * time.Second,\n        IdleTimeout:  120 * time.Second,\n        Handler:      mux,\n    }\n}\n\nfunc makeHTTPToHTTPSRedirectServer() *http.Server {\n    handleRedirect := func(w http.ResponseWriter, r *http.Request) {\n        newURI := \"https://\" + r.Host + r.URL.String()\n        http.Redirect(w, r, newURI, http.StatusFound)\n    }\n    mux := \u0026http.ServeMux{}\n    mux.HandleFunc(\"/\", handleRedirect)\n    return makeServerFromMux(mux)\n}\n\nfunc main() {\n    httpSrv := makeHTTPToHTTPSRedirectServer()\n    httpSrv.Handler = m.HTTPHandler(httpServ.Handler)\n    httpSrv.Addr = \":80\"\n    fmt.Printf(\"Starting HTTP server on %s\\n\", httpSrv.Addr)\n    err := httpSrv.ListenAndServe()\n    if err != nil {\n        log.Fatalf(\"httpSrv.ListenAndServe() failed with %s\", err)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1871,8 +1814,7 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/free-ssl-certificates",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/free-ssl-certificates"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1897,8 +1839,7 @@
           {
             "Text": "How certificates came to be free"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1923,8 +1864,7 @@
           {
             "Text": "Arguably due to a design mistake, SSL protocol not only encrypts but also proves site’s identity to the browser."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1949,8 +1889,7 @@
           {
             "Text": "It provides accountability so that we can trace the ownership of google.com and see that it is indeed owned by Google, Inc in US, and not Ivan The Hacker in Moscow."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1975,8 +1914,7 @@
           {
             "Text": "We implement that accountability by trusting a very small number of companies (Certificate Authorities) to issue certificates that prove the identity of the website owner."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2001,8 +1939,7 @@
           {
             "Text": "When you apply for a certificate, Certificate Authority has to verify your identity. They do it by checking your papers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2027,8 +1964,7 @@
           {
             "Text": "Verifying the papers requires labor. Keeping certificates safe requires labor. It’s reasonable that Certificate Authorities charge for the service of issuing certifcates."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2053,8 +1989,7 @@
           {
             "Text": "The trust doesn’t scale. Browser and OS vendors can trust 10 companies to not issue invalid certificates, but they can’t trust a thousand."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2079,8 +2014,7 @@
           {
             "Text": "We don’t want any random company to become a rogue certificate authority and start issuing certificates for google.com domains to Ivan The Hacker."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2105,8 +2039,7 @@
           {
             "Text": "It would be too much effort to continuosly audit thousands of Certificate Authority companies so as a result we ended up with just a few."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2131,8 +2064,7 @@
           {
             "Text": "A market controlled by small number of companies tends to become a cartel that keeps prices high due to lack of competition."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2157,8 +2089,7 @@
           {
             "Text": "That’s exactly what happened in SSL certificates market. You can have a low-end server for $60/year and a certificate alone would cost more than that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2183,8 +2114,7 @@
           {
             "Text": "That was a problem because the cost of SSL certificates was a significant barrier to adopting encryption by all websites."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2209,8 +2139,7 @@
           {
             "Text": "A few companies decided to pool their resources and solve that problem for the greater good of the web."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2254,8 +2183,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2280,8 +2208,7 @@
           {
             "Text": "And that’s how free certificates came to be."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "HTTPS for free in Go, with little help of Let's Encrypt",
@@ -2293,8 +2220,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F63013876-3b00-45d3-b813-3f94f25ca919%2Fheader-04.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -54,8 +54,7 @@
           {
             "Text": "Id: 1096"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -79,8 +78,7 @@
           {
             "Text": "Tags: debugging, windbg, win32"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -104,8 +102,7 @@
           {
             "Text": "Date: 2008-03-13T07:48:23-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -129,8 +126,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -142,8 +138,7 @@
         "parent_id": "e06c81e6-7666-490c-989b-7e7aeab8225c",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -169,8 +164,7 @@
         "type": "code",
         "version": 1,
         "code": "k, kb, kp, kP\n\nbp - set breakpoint\n~1bp - set breakpoint only on thread 1\nbl - list breakpoints\nbd $n - disable breakpoint\nbc - clear breakpoint\nba w4 $addr - set write breakpoint for 4 bytes at $addr\n\ndv - display all local variables\ndv /i - show symbol type\ndv /V - show location of variable\ndv /V argv - display address of argv variable\n\ndt - display type\ndt MyClass $addr - display $addr as type MyClass\ndc @ecx l4 - display 4 longs at address ecx, showing hex + ascii\ndd $addr $addr-range - display as hex\ndu $addr - display as unicode string\nda $addr - display as ascii string\ndb $addr l4 - display 4 bytes as bytes\ndyb $addr l4 - display as binary\ndf $addr l4 - display as float\ndw $addr l4 - display as words (16-bit)\ndW $addr l4 - display as 4 words + ascii\n\ndps $addr l8 - try to resolve 8 pointer values at $addr as symbols\ndpu $addr L4 - try to resolve 4 pointer values at $addr as unicode\nstrings\n\nln $addr - list symbols near address\n\ng - go\ng $addr - go until $addr is reached\ngu - go until exit from function\n~0 gu - like gu but only current thread is executing\nt - trace (execute one assembly instruction)\np - like t but steps over functions\npc - trace until next call instruction\nwt - like p but also gathers stats about the function (how many\ninstructions, what has been called)\n\n.logopen c:\\log.txt\n.logclose\n\n(address [$addr] - what is the type of $addr. . is $pc, @esp\npeb, teb - show process/thread environment block\ngle - show last error (like GetLastError()) and NTSTATUS",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Windbg reference",
@@ -181,8 +175,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

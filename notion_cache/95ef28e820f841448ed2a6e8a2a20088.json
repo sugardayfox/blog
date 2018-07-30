@@ -57,8 +57,7 @@
           {
             "Text": "Id: 303"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -82,8 +81,7 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -107,8 +105,7 @@
           {
             "Text": "Date: 2006-01-06T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -120,8 +117,7 @@
         "parent_id": "95ef28e8-20f8-4144-8ed2-a6e8a2a20088",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -145,8 +141,7 @@
           {
             "Text": "Windows doesn’t have an API to get a file size based on file name. This small function does that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -170,8 +165,7 @@
           {
             "Text": "It returns -1 if a file doesn’t exist."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -195,8 +189,7 @@
           {
             "Text": "It doesn’t handle files \u003e 2 GB (max positive number for 32 bit signed value). It’s quite easy to extend it to 64-bits if you know what is the 64 bit integer type in your compiler (unfortunately there’s no standard)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -256,8 +249,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -283,8 +275,7 @@
         "type": "code",
         "version": 1,
         "code": "long GetFileSize(const TCHAR *fileName)\n{\n    BOOL                        fOk;\n    WIN32_FILE_ATTRIBUTE_DATA   fileInfo;\n\n    if (NULL == fileName)\n        return -1;\n\n    fOk = GetFileAttributesEx(fileName, GetFileExInfoStandard, (void*)\u0026fileInfo);\n    if (!fOk)\n        return -1;\n    assert(0 == fileInfo.nFileSizeHigh);\n    return (long)fileInfo.nFileSizeLow;\n}",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       }
     ],
     "title": "Get file size under windows",
@@ -295,8 +286,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

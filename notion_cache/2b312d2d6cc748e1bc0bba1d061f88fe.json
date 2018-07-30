@@ -86,8 +86,7 @@
           {
             "Text": " is the default shortcut to start"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -111,8 +110,7 @@
           {
             "Text": "Sessions:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -142,8 +140,7 @@
             "Text": "tmux list-sessions",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -173,8 +170,7 @@
             "Text": "tmux new -s $session-name",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -204,8 +200,7 @@
             "Text": "tmux new",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -241,8 +236,7 @@
           {
             "Text": " : attach to existing session"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -296,8 +290,7 @@
           {
             "Text": " : detach (keeps the session running)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -327,8 +320,7 @@
             "Text": "tmux kill-session -t $session-name",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -352,8 +344,7 @@
           {
             "Text": "Managing panes:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -389,8 +380,7 @@
           {
             "Text": " : new vertical pane"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -426,8 +416,7 @@
           {
             "Text": " : new horizontal pane"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -463,8 +452,7 @@
           {
             "Text": " : go to next pane"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -500,8 +488,7 @@
           {
             "Text": " : close pane"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -537,8 +524,7 @@
           {
             "Text": " : 4 lines less down (other options: -U, -L, -R (up, left, right)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -562,8 +548,7 @@
           {
             "Text": "Window management:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -599,8 +584,7 @@
           {
             "Text": " : create new window"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -636,8 +620,7 @@
           {
             "Text": " : go to next window"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -673,8 +656,7 @@
           {
             "Text": " : go to prev window"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -710,8 +692,7 @@
           {
             "Text": " : close window"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -735,8 +716,7 @@
           {
             "Text": "Scrolling:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -790,8 +770,7 @@
           {
             "Text": " to quit"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -815,8 +794,7 @@
           {
             "Text": "Help about keymap:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -846,8 +824,7 @@
             "Text": "Ctrl-b ?",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -871,8 +848,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -903,8 +879,7 @@
             "Text": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/",
             "Link": "http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -935,8 +910,7 @@
             "Text": "http://www.danielmiessler.com/study/tmux/",
             "Link": "http://www.danielmiessler.com/study/tmux/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -967,8 +941,7 @@
             "Text": "https://robots.thoughtbot.com/a-tmux-crash-course",
             "Link": "https://robots.thoughtbot.com/a-tmux-crash-course"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "tmux",
@@ -979,8 +952,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

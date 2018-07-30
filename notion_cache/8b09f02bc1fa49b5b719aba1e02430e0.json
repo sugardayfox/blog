@@ -84,8 +84,7 @@
           {
             "Text": "Id: 338001"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -109,8 +108,7 @@
           {
             "Text": "Tags: programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -134,8 +132,7 @@
           {
             "Text": "Date: 2010-11-05T18:21:53-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -147,8 +144,7 @@
         "parent_id": "8b09f02b-c1fa-49b5-b719-aba1e02430e0",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -191,8 +187,7 @@
           {
             "Text": " “What habits made you a better programmer”."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -216,8 +211,7 @@
           {
             "Text": "All the habits described below stem from one realization: I’m too stupid to write bug free code so I need ways to compensate for my inevitable human fallibility."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -241,8 +235,7 @@
           {
             "Text": "Code reviews"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -266,8 +259,7 @@
           {
             "Text": "I welcome code reviews because a second pair of eyes might spot mistakes I’ve made."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -291,8 +283,7 @@
           {
             "Text": "Some people can’t stand their code being criticized. I avoid bruised ego by assuming from the start that I’m too stupid to write correct code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -316,8 +307,7 @@
           {
             "Text": "Using good tools"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -341,8 +331,7 @@
           {
             "Text": "I seek out and use tools that help me find bugs automatically and tools that help me understand my code better. Those tools include:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -417,8 +406,7 @@
             "Text": "pychecker",
             "Link": "http://pychecker.sourceforge.net/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -449,8 +437,7 @@
             "Text": "Valgrind",
             "Link": "http://www.valgrind.org/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -474,8 +461,7 @@
           {
             "Text": "memory and cpu profilers"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -499,8 +485,7 @@
           {
             "Text": "debuggers"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -537,8 +522,7 @@
           {
             "Text": " (a text editor)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -562,8 +546,7 @@
           {
             "Text": "Automated testing and continuous builds"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -587,8 +570,7 @@
           {
             "Text": "Continuous build quickly alerts to mistakes that break the build."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -612,8 +594,7 @@
           {
             "Text": "Automated tests (unit tests, system tests) increase my confidence in the correctness of the code and catch mistakes that cause regressions."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -637,8 +618,7 @@
           {
             "Text": "Stepping through all new code in the debugger"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -662,8 +642,7 @@
           {
             "Text": "I see a lot of macho anti-debugger posturing. The reasoning is: good debuggers make it too easy to fix problems which makes you a sloppier programmer. But this reasoning applies to unit tests as well (although I don’t see anyone criticizing unit tests for that reason)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -687,8 +666,7 @@
           {
             "Text": "Stepping through newly written code in the debugger to double-check that it behaves the way I expect is just another way to compensate for the inevitability of writing buggy code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -712,8 +690,7 @@
           {
             "Text": "Avoiding complexity"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -737,8 +714,7 @@
           {
             "Text": "Unnecessary, productivity sapping complexity is something that no one would defend but popularity of C++ or boost shows that a definition of unnecessary complexity is different for different people."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -762,8 +738,7 @@
           {
             "Text": "My bar for calling something complex is lower that many. I stay away from complexity, both self-inflicted (like trying to be too clever when implementing something, using multithreading when it’s not absolutely necessary) or inflicted by the tool (e.g. advanced features of C++)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -787,8 +762,7 @@
           {
             "Text": "Diagnostic code built into apps"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -812,8 +786,7 @@
           {
             "Text": "I add diagnostics to my code. Logging, asserts in debug builds, crash dump submission to my site for analyzing crashes that happen in the wild. They all help to figure out the inevitable problems that you don’t see in testing on your machine but happen on user’s computers due to different configurations."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -837,8 +810,7 @@
           {
             "Text": "Writing readable code"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -862,8 +834,7 @@
           {
             "Text": "No one has writing unreadable code as a goal but it does happen because writing readable code is harder and requires more care and attention that just writing some code that works."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -887,8 +858,7 @@
           {
             "Text": "Readable code is important because I know that bugs will happen despite my best efforts to prevent it. To fix them I will have to read my own code long after I wrote it. Therefore I try to make my code as readable as possible for my future self. The specific techniques involve:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -912,8 +882,7 @@
           {
             "Text": "balanced commenting. Not too much (so that it doesn’t detract from the code itself) but also not too little so that non-obvious decisions that are not captured in the code are explained."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -937,8 +906,7 @@
           {
             "Text": "no cryptic names for variables or functions"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -962,8 +930,7 @@
           {
             "Text": "no long functions with complex logic"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -987,8 +954,7 @@
           {
             "Text": "taking the time to make the code look consistent"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1012,8 +978,7 @@
           {
             "Text": "Re-use high-quality code"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1056,8 +1021,7 @@
           {
             "Text": " rather than writing my own persistence layer."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "8 habits for becoming a better programmer ",
@@ -1068,8 +1032,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

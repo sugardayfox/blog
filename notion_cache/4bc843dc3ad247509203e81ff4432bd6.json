@@ -71,8 +71,7 @@
           {
             "Text": "Id: 16"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -96,8 +95,7 @@
           {
             "Text": "Date: 2015-06-03T17:45:57-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -121,8 +119,7 @@
           {
             "Text": "Tags: go, programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -146,8 +143,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -159,8 +155,7 @@
         "parent_id": "4bc843dc-3ad2-4750-9203-e81ff4432bd6",
         "parent_table": "block",
         "type": "text",
-        "version": 2,
-        "format_video": null
+        "version": 2
       },
       {
         "alive": true,
@@ -184,8 +179,7 @@
           {
             "Text": "For a project written in Go I needed to access files inside .7z archive."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -209,8 +203,7 @@
           {
             "Text": "Unfortunately at this time there is no pure Go implementation for that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -252,8 +245,7 @@
           {
             "Text": " executable to extract the file to disk and then proceed as usual."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -295,8 +287,7 @@
           {
             "Text": " stream for a file inside .7z archive."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -338,8 +329,7 @@
           {
             "Text": " executable for the functionality but it doesn’t create temporary file. Instead it streams decompressed data so it’s more efficient."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -382,8 +372,7 @@
           {
             "Text": " library and this article describes how to use it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -407,8 +396,7 @@
           {
             "Text": "Pre-requisites:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -444,8 +432,7 @@
             "Text": "go get -u github.com/kjk/lzmadec",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -516,8 +503,7 @@
                 "Text": "brew install p7zip",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -553,8 +539,7 @@
                 "Text": "apt-get install p7zip",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -591,8 +576,7 @@
                 "Text": "http://www.7-zip.org/",
                 "Link": "http://www.7-zip.org/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
@@ -606,8 +590,7 @@
           {
             "Text": " binary:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -631,8 +614,7 @@
           {
             "Text": "The library offers essentially 2 functions:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -656,8 +638,7 @@
           {
             "Text": "get a list of all files and their metadata inside .7z archive"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -699,8 +680,7 @@
           {
             "Text": " for a given file"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -724,8 +704,7 @@
           {
             "Text": "and as a convenience a function to extract a file to disk"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -749,8 +728,7 @@
           {
             "Text": "Here’s a skeleton of the code, error handling skipped for clarity:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -776,8 +754,7 @@
         "type": "code",
         "version": 2,
         "code": "var archive *lzmadec.Archive\narchive, _ := lzmadec.NewArchive(\"foo.7z\")\n\n// list all files inside archive\nfor _, e := range archive.Entries {\n    fmt.Printf(\"name: %s, size: %d\\n\", e.Path, e.Size)\n}\nfirstFile := archive.Entries[0].Path\n\n// extract to a file\narchive.ExtractToFile(firstFile + \".extracted\", firstFile)\n\n// decompress to in-memory buffer\nr, _ := archive.GetFileReader(firstFile)\nvar buf bytes.Buffer\n_, _ = io.Copy(\u0026buf, r)\n// if not fully read, calling Close() ensures that sub-launched 7z executable\n// is terminated\nr.Close()\nfmt.Printf(\"size of file %s after decompression: %d\\n\", firstFile, len(buf.Bytes()))",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -814,8 +791,7 @@
             "Text": "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go",
             "Link": "https://github.com/kjk/lzmadec/blob/master/cmd/test/main.go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -924,8 +900,7 @@
             "Text": "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225",
             "Link": "https://github.com/kjk/lzmadec/blob/master/lzmadec.go#L225"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -968,8 +943,7 @@
           {
             "Text": " is quite advanced but not there yet."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Extracting files from .7z archives in Go",
@@ -980,8 +954,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -100,8 +100,7 @@
                   {
                     "Text": "created"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -125,8 +124,7 @@
                   {
                     "Text": "mounted"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -150,8 +148,7 @@
                   {
                     "Text": "updated"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -175,24 +172,21 @@
                   {
                     "Text": "destoryed"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "life cycle hooks"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Vue object"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -248,8 +242,7 @@
             "type": "code",
             "version": 7,
             "code": "div#app\n  p v-if=\"seen\"\n    {{ message | capitalize }}\n  p v-else\n    shown if not seen\n  span v-bind:title=\"message\"\n  span :title=\"message\"\n  ol\n    li v-for=\"todo in todos\"\n      {{ todo.text }}\n  button v-on:click=\"reverseMessage\"\n  button @click=\"reverseMessage\"\n  input v-model=\"message\"\n  div v-html=\"rawHtml\"\n  div v-for=\"(value, key, index) in object\"",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
@@ -276,8 +269,7 @@
             "type": "code",
             "version": 9,
             "code": "new Vue({\n  el: \"#app\",\n  data: {\n    seen: true,\n    message: \"my messge\",\n    todos: [\n      { text: \"todo 1\" },\n      { text: \"todo 2\" },\n    ],\n    rawHtml: \"\u003cp\u003eis html\u003c/p\u003e\",\n  },\n  methods: {\n    reverseMessage: function() {\n      this.message = reverse(this.message);\n    },\n  filters: {\n    capitalize: function (value) {\n      if (!value) return '';\n      value = value.toString();\n      return value.charAt(0).toUpperCase() + value.slice(1);\n    }\n  },\n  computed: {\n    reversedMessageComputed: function() {\n      return reverse(this.message);\n    }\n  },\n})",
-            "code_language": "Javascript",
-            "format_video": null
+            "code_language": "Javascript"
           },
           {
             "alive": true,
@@ -333,8 +325,7 @@
               {
                 "Text": "):"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -358,8 +349,7 @@
               {
                 "Text": "stop, prevent, capture, self, native, once"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -384,8 +374,7 @@
               {
                 "Text": "Links:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -416,8 +405,7 @@
                 "Text": "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/",
                 "Link": "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -448,8 +436,7 @@
                 "Text": "https://alligator.io/vuejs/vue-placeholders/",
                 "Link": "https://alligator.io/vuejs/vue-placeholders/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -480,16 +467,14 @@
                 "Text": "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77",
                 "Link": "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Vue.js notes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -576,8 +561,7 @@
                 "Text": "https://github.com/learn-vuejs/vue-patterns",
                 "Link": "https://github.com/learn-vuejs/vue-patterns"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -608,8 +592,7 @@
                 "Text": "https://blog.logrocket.com/submitting-html-forms-using-javascript-frameworks-vue-react-hyperapp-44664dba1218",
                 "Link": "https://blog.logrocket.com/submitting-html-forms-using-javascript-frameworks-vue-react-hyperapp-44664dba1218"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -640,8 +623,7 @@
                 "Text": "https://alligator.io/vuejs/implementing-infinite-scroll/",
                 "Link": "https://alligator.io/vuejs/implementing-infinite-scroll/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -672,8 +654,7 @@
                 "Text": "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/",
                 "Link": "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -704,8 +685,7 @@
                 "Text": "https://vuejs-tips.github.io/cheatsheet/",
                 "Link": "https://vuejs-tips.github.io/cheatsheet/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -736,8 +716,7 @@
                 "Text": "https://vuejs-tips.github.io/vuex-cheatsheet/",
                 "Link": "https://vuejs-tips.github.io/vuex-cheatsheet/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -768,8 +747,7 @@
                 "Text": "https://devhints.io/vue",
                 "Link": "https://devhints.io/vue"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -800,8 +778,7 @@
                 "Text": "https://www.getrevue.co/profile/vuenewsletter",
                 "Link": "https://www.getrevue.co/profile/vuenewsletter"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -832,8 +809,7 @@
                 "Text": "https://vuejsdevelopers.com/",
                 "Link": "https://vuejsdevelopers.com/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -864,8 +840,7 @@
                 "Text": "https://github.com/vuejs/awesome-vue",
                 "Link": "https://github.com/vuejs/awesome-vue"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -896,8 +871,7 @@
                 "Text": "https://www.vuejsradar.com/",
                 "Link": "https://www.vuejsradar.com/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -928,8 +902,7 @@
                 "Text": "https://github.com/Microsoft/TypeScript-Vue-Starter",
                 "Link": "https://github.com/Microsoft/TypeScript-Vue-Starter"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -960,8 +933,7 @@
                 "Text": "https://vuejs-templates.github.io/webpack/",
                 "Link": "https://vuejs-templates.github.io/webpack/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -992,8 +964,7 @@
                 "Text": "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/",
                 "Link": "https://css-tricks.com/intro-to-vue-1-rendering-directives-events/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1024,8 +995,7 @@
                 "Text": "https://designhammer.com/blog/reusable-vuejs-components-part-2-basic-drop-down-and-v-model",
                 "Link": "https://designhammer.com/blog/reusable-vuejs-components-part-2-basic-drop-down-and-v-model"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1056,8 +1026,7 @@
                 "Text": "https://alligator.io/vuejs/",
                 "Link": "https://alligator.io/vuejs/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1088,8 +1057,7 @@
                 "Text": "https://laracasts.com/series/learn-vue-2-step-by-step",
                 "Link": "https://laracasts.com/series/learn-vue-2-step-by-step"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1120,8 +1088,7 @@
                 "Text": "https://vuejsdevelopers.com/2017/03/24/vue-js-component-templates/",
                 "Link": "https://vuejsdevelopers.com/2017/03/24/vue-js-component-templates/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1158,8 +1125,7 @@
               {
                 "Text": " : vue + vuex"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1190,8 +1156,7 @@
                 "Text": "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77",
                 "Link": "https://medium.freecodecamp.com/vue-js-introduction-for-people-who-know-just-enough-jquery-to-get-by-eab5aa193d77"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1228,8 +1193,7 @@
               {
                 "Text": " : UI library"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1266,8 +1230,7 @@
               {
                 "Text": " : vue.js cookbook"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1304,8 +1267,7 @@
               {
                 "Text": " : vue + typescript template"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1342,8 +1304,7 @@
               {
                 "Text": " : VSCode tooling"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1380,8 +1341,7 @@
               {
                 "Text": " : setting up VS code for vue"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1418,8 +1378,7 @@
               {
                 "Text": " : nice UI toolkit"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1450,8 +1409,7 @@
                 "Text": "https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/",
                 "Link": "https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1482,8 +1440,7 @@
                 "Text": "http://meetupfeed.com/recorded-vuejs-talks-last-three-months-vuejs-talks-digest-q3-2017/",
                 "Link": "http://meetupfeed.com/recorded-vuejs-talks-last-three-months-vuejs-talks-digest-q3-2017/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1514,8 +1471,7 @@
                 "Text": "https://docs.gitlab.com/ee/development/fe_guide/vue.html",
                 "Link": "https://docs.gitlab.com/ee/development/fe_guide/vue.html"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1546,8 +1502,7 @@
                 "Text": "https://github.com/joshsaintjacque/awesome-vue-js",
                 "Link": "https://github.com/joshsaintjacque/awesome-vue-js"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1578,8 +1533,7 @@
                 "Text": "https://github.com/vuejs/awesome-vue",
                 "Link": "https://github.com/vuejs/awesome-vue"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1610,8 +1564,7 @@
                 "Text": "https://www.smashingmagazine.com/2017/08/creating-custom-inputs-vue-js/",
                 "Link": "https://www.smashingmagazine.com/2017/08/creating-custom-inputs-vue-js/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1642,8 +1595,7 @@
                 "Text": "https://blog.bitsrc.io/11-vue-js-component-libraries-you-should-know-in-2018-3d35ad0ae37f",
                 "Link": "https://blog.bitsrc.io/11-vue-js-component-libraries-you-should-know-in-2018-3d35ad0ae37f"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1674,8 +1626,7 @@
                 "Text": "https://www.thepolyglotdeveloper.com/2017/10/consume-api-data-http-vuejs-web-application/",
                 "Link": "https://www.thepolyglotdeveloper.com/2017/10/consume-api-data-http-vuejs-web-application/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1706,16 +1657,14 @@
                 "Text": "https://vuejsdevelopers.com/2017/10/23/vue-js-tree-menu-recursive-components/",
                 "Link": "https://vuejsdevelopers.com/2017/10/23/vue-js-tree-menu-recursive-components/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1772,8 +1721,7 @@
                 "Text": "https://github.com/vuejs/awesome-vue",
                 "Link": "https://github.com/vuejs/awesome-vue"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1804,8 +1752,7 @@
                 "Text": "https://github.com/lusaxweb/vuesax",
                 "Link": "https://github.com/lusaxweb/vuesax"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1836,8 +1783,7 @@
                 "Text": "http://sagalbot.github.io/vue-select/",
                 "Link": "http://sagalbot.github.io/vue-select/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1868,8 +1814,7 @@
                 "Text": "https://www.iviewui.com/",
                 "Link": "https://www.iviewui.com/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1900,16 +1845,14 @@
                 "Text": "https://github.com/alexsasharegan/vue-transmit",
                 "Link": "https://github.com/alexsasharegan/vue-transmit?utm_campaign=Revue%20newsletter\u0026utm_medium=Newsletter\u0026utm_source=Vue.js%20Newsletter"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Libraries"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1964,8 +1907,7 @@
                 "Text": "https://github.com/elialbert/bangerFM/tree/master/src/components",
                 "Link": "https://github.com/elialbert/bangerFM/tree/master/src/components"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1996,8 +1938,7 @@
                 "Text": "https://github.com/hparton/terminal.reddit",
                 "Link": "https://github.com/hparton/terminal.reddit"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2028,16 +1969,14 @@
                 "Text": "https://gitlab.com/gitlab-org/gitlab-ce/tree/master",
                 "Link": "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "Full apps in Vue"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2049,8 +1988,7 @@
         "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "vue.js",
@@ -2061,8 +1999,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

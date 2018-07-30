@@ -76,8 +76,7 @@
               {
                 "Text": "reads: $0.06 per 100k, $0.6 per 1mil, $6 per 10 mil"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -101,8 +100,7 @@
               {
                 "Text": "writes: $0.18 per 100k, $1.8 per 1mil, $18 per 10 mil"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -126,8 +124,7 @@
               {
                 "Text": "deletes: $0.02 per 100k, $0.2 per 1mil, $2 per 10 mil"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -151,8 +148,7 @@
               {
                 "Text": "data: $0.18 per 1GB/mo, $1.8 per 10GB/mo, $18 per 100GB/mo"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -176,8 +172,7 @@
               {
                 "Text": "bandwidth: free inside Google Datacenter, $0.12 per GB, $1.2 per 10 GB, $12 per 100GB"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -201,16 +196,14 @@
               {
                 "Text": "Free quotas: 50k reads/day, 20k writes/day, 20k deletes per day, 1 GB data and 10 GB bandwidth"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "pricing"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -222,8 +215,7 @@
         "parent_id": "9a1e10d4-ea7f-4a43-b54c-e8c00a6ad6d0",
         "parent_table": "block",
         "type": "text",
-        "version": 8,
-        "format_video": null
+        "version": 8
       }
     ],
     "title": "firebase firestore",
@@ -234,8 +226,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

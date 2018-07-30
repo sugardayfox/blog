@@ -74,8 +74,7 @@
             "Text": "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md",
             "Link": "https://github.com/dart-lang/sdk/blob/e6e8d35323dbc431d9b9aed32b20d5462702999f/docs/newsletter/20170818.md"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -99,8 +98,7 @@
           {
             "Text": "The big picture is:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -124,8 +122,7 @@
           {
             "Text": "indentation defines nesting"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -149,8 +146,7 @@
           {
             "Text": "for clean look, we don't use separators (, or ;), like in css. Create a new line"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -204,8 +200,7 @@
           {
             "Text": " ."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -247,8 +242,7 @@
           {
             "Text": "  "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -274,8 +268,7 @@
         "type": "code",
         "version": 0,
         "code": "Material [\n  child: Column [\n    children: [\n      MyAppBar\n        title: Text [\n          text: \"Example title\"\n          style: myStyle\n        ]\n      Expanded [\n        child: Center [\n          child: Text [ \"hello world\"]\n        ]\n      ]\n    ]\n  ]\n]",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -389,8 +382,7 @@
           {
             "Text": " "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -416,8 +408,7 @@
         "type": "code",
         "version": 0,
         "code": "Material\n  Column\n    MyAppBar\n      title: Text\n        \"Example title\"\n        style: main-style          \n    Expanded [ Center [ Text [ \"hello world\" ] ] ]\n\nStyle\n  id: main-style\n  font: Courier 12\n  color: #ffaadd\n  background-color: #aaddff\n",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -441,8 +432,7 @@
           {
             "Text": "Mixing tabs and spaces for indentation is error prone so we should settle on only one (e.g. 2 spaces for indentation level) and disallow the other one."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -466,8 +456,7 @@
           {
             "Text": "Implementation notes"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -493,8 +482,7 @@
         "type": "code",
         "version": 0,
         "code": "type Font struct {\n  Name string `csf:\"\"`\n  Size int\n}\n\ntype Value struct {\n  Type string\n  Props []*Prop\n}\n\ntype Prop struct {\n  Name string // if empty\n  Value string\n}",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -506,8 +494,7 @@
         "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -519,8 +506,7 @@
         "parent_id": "7a79482f-9383-4c99-b7ad-70d33303882b",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
     "title": "UI definition syntax",
@@ -531,8 +517,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -69,8 +69,7 @@
           {
             "Text": "Id: 12012"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -94,8 +93,7 @@
           {
             "Text": "Tags: aws, python"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -119,8 +117,7 @@
           {
             "Text": "Date: 2009-03-07T18:39:07-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -132,8 +129,7 @@
         "parent_id": "1375745a-cd9c-41db-a5b0-9d119a98df5f",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -170,8 +166,7 @@
             "Text": "this official document",
             "Link": "http://docs.amazonwebservices.com/AmazonS3/latest/index.html?ServerLogs.html"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -195,8 +190,7 @@
           {
             "Text": "Unfortunately, standard s3 logs have a problem: they’re split among lots of files. Around 200 log files are generated for one day which leads to enormous number of files stored on s3 (e.g. merely 6 months of logs generated ~35k of log files)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -220,8 +214,7 @@
           {
             "Text": "To fix that I wrote a python script that compacts the logs so that we only get one file per day, which is a more reasonable number (35k files shrank to only 171 for me). As a bonus, it also compresses the log. Given very repetitive nature of log files, it’s a big win (the file shrinks by 94% when compressed with bzip2 algorithm)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -245,8 +238,7 @@
           {
             "Text": "The logic of the script is simple:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -270,8 +262,7 @@
           {
             "Text": "download all the files for a given day locally"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -295,8 +286,7 @@
           {
             "Text": "create one file that is compressed concatenation of those files"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -320,8 +310,7 @@
           {
             "Text": "upload compressed file back to s3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -345,8 +334,7 @@
           {
             "Text": "delete the original files"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -370,8 +358,7 @@
           {
             "Text": "repeat"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -414,8 +401,7 @@
           {
             "Text": ". You’ll have to change a few things in the source:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -439,8 +425,7 @@
           {
             "Text": "s3 bucket name that stores the logs"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -464,8 +449,7 @@
           {
             "Text": "where the logs are downloaded locally. I preserve them although they could be deleted if you’re short on space"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -507,8 +491,7 @@
           {
             "Text": " file with access/secret key i.e.:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -534,8 +517,7 @@
         "type": "code",
         "version": 1,
         "code": "access = “access key”\n    secret = “secret key”",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -559,8 +541,7 @@
           {
             "Text": "One unexpected thing I noticed is that apparently Amazon sometimes saves the log file with screwy permissions so that it can’t be read or even fixed by setting new acl (both those operations return 403 forbidden). The only operation that works is deleting the file from s3, so that’s what I do (it’s only a log file, after all)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -584,8 +565,7 @@
           {
             "Text": "Another thing I noticed is that boto sometimes hangs when talking to s3 (exception on timeout would be much better). If that happens, you can kill the script and restart it - it’s smart enough to not re-download files and only deletes the original log files on s3 after compressed log has been saved in s3."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -609,8 +589,7 @@
           {
             "Text": "Expected usage of the script is as a daily script followed by a script that analyzes the logs. Due to boto hanging it might not work well in such scenario, though."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Compacting s3 aws logs",
@@ -621,8 +600,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

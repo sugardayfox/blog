@@ -139,8 +139,7 @@
           {
             "Text": "Id: 1Bkr"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -164,8 +163,7 @@
           {
             "Text": "Tags: go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -189,8 +187,7 @@
           {
             "Text": "CreatedAt: 2017-06-19T06:56:45Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -214,8 +211,7 @@
           {
             "Text": "UpdatedAt: 2017-07-10T22:52:13Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -239,8 +235,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -264,8 +259,7 @@
           {
             "Text": "PublishedOn: 2017-07-09"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -289,8 +283,7 @@
           {
             "Text": "Description: 3 different way to implement an iterator in Go: callbacks, channels, struct with Next() function."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -302,8 +295,7 @@
         "parent_id": "da74af7a-3096-4880-8249-be7a79fc8156",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -345,8 +337,7 @@
           {
             "Text": " SQL query or files in a directory."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -389,8 +380,7 @@
           {
             "Text": " method * channels"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -415,8 +405,7 @@
           {
             "Text": "Iteration mixed with processing"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -441,8 +430,7 @@
           {
             "Text": "Before discussing different ways of designing iteration API, let’s see how we would iterate without encapsulating iteration logic."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -485,8 +473,7 @@
           {
             "Text": " number (inclusive)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -529,8 +516,7 @@
           {
             "Text": " less than 0 to be invalid."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -555,8 +541,7 @@
           {
             "Text": "This is intentionally the simplest possible iterator so that we can focus on the implementation of the iterator API and not generating the values to iterate over."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -581,8 +566,7 @@
           {
             "Text": "Our processing is simple as well: we print the number."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -607,8 +591,7 @@
           {
             "Text": "Here’s an example of iteration intertwined with processing."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -635,8 +618,7 @@
         "type": "code",
         "version": 3,
         "code": "func printEvenNumbers(max int) {\n    if max \u003c 0 {\n        log.Fatalf(\"'max' is %d, should be \u003e= 0\", max)\n    }\n    for i := 2; i \u003c= max; i += 2 {\n        fmt.Printf(\"%d\\n\", i)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -680,8 +662,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -706,8 +687,7 @@
           {
             "Text": "This is fine if iteration logic is simple. If our iteration was complex, like iterating over lines in a file, every time we needed to do different processing of the lines, we would end up copy \u0026 pasteing a lot of code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -732,8 +712,7 @@
           {
             "Text": "For easy reuse we want to encapsulate complex iteration logic and provide simple API to callers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -758,8 +737,7 @@
           {
             "Text": "Iterating via callback"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -784,8 +762,7 @@
           {
             "Text": "The caller provides callback function to be called with each value."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -810,8 +787,7 @@
           {
             "Text": "Client side of iteration:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -838,8 +814,7 @@
         "type": "code",
         "version": 3,
         "code": "func printEvenNumbers(max int) {\n    err := iterateEvenNumbers(max, func(n int) error {\n        fmt.Printf(\"%d\\n\", n)\n        return nil\n    })\n    if err != nil {\n        log.Fatalf(\"error: %s\\n\", err)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -900,8 +875,7 @@
           {
             "Text": " from callback stops iteration."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -926,8 +900,7 @@
           {
             "Text": "Implementation of iterator:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -954,8 +927,7 @@
         "type": "code",
         "version": 3,
         "code": "func iterateEvenNumbers(max int, cb func(n int) error) error {\n    if max \u003c 0 {\n        return fmt.Errorf(\"'max' is %d, must be \u003e= 0\", max)\n    }\n    for i := 2; i \u003c= max; i += 2 {\n        err := cb(i)\n        if err != nil {\n            return err\n        }\n    }\n    return nil\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -999,8 +971,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1048,8 +1019,7 @@
           {
             "Text": " API in standard library."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1086,8 +1056,7 @@
             "Text": "Next()",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1166,8 +1135,7 @@
           {
             "Text": " function which returns iteration error"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1192,8 +1160,7 @@
           {
             "Text": "Client code:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1220,8 +1187,7 @@
         "type": "code",
         "version": 3,
         "code": "func printEvenNumbers(max int) {\n    iter := NewEvenNumberIterator(max)\n    for iter.Next() {\n        fmt.Printf(\"n: %d\\n\", iter.Value())\n    }\n    if iter.Err() != nil {\n        log.Fatalf(\"error: %s\\n\", iter.Err())\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1300,8 +1266,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1326,8 +1291,7 @@
           {
             "Text": "Unfortunately, the nice API on the caller side requires complicated implementation of the iterator."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1370,8 +1334,7 @@
           {
             "Text": " calls and remember iteration errors:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1398,8 +1361,7 @@
         "type": "code",
         "version": 3,
         "code": "// EvenNumberIterator generates even numbers\ntype EvenNumberIterator struct {\n    max       int\n    currValue int\n    err       error\n}\n\n// NewEvenNumberIterator creates new number iterator\nfunc NewEvenNumberIterator(max int) *EvenNumberIterator {\n    var err error\n    if max \u003c 0 {\n        err = fmt.Errorf(\"'max' is %d, should be \u003e= 0\", max)\n    }\n    return \u0026EvenNumberIterator{\n        max:       max,\n        currValue: 0,\n        err:       err,\n    }\n}\n\n// Next advances to next even number. Returns false on end of iteration.\nfunc (i *EvenNumberIterator) Next() bool {\n    if i.err != nil {\n        return false\n    }\n    i.currValue += 2\n    return i.currValue \u003c= i.max\n}\n\n// Value returns current even number\nfunc (i *EvenNumberIterator) Value() int {\n    if i.err != nil || i.currValue \u003e i.max {\n        panic(\"Value is not valid after iterator finished\")\n    }\n    return i.currValue\n}\n\n// Err returns iteration error.\nfunc (i *EvenNumberIterator) Err() error {\n    return i.err\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1443,8 +1405,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1469,8 +1430,7 @@
           {
             "Text": "Notes:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1494,8 +1454,7 @@
           {
             "Text": "this method requires the largest amount of boilerplate"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1549,8 +1508,7 @@
           {
             "Text": " if there was an error"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1586,8 +1544,7 @@
           {
             "Text": " panics if accessed after iteration has finished"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1612,8 +1569,7 @@
           {
             "Text": "This pattern is used in standard library:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1672,8 +1628,7 @@
           {
             "Text": " statement"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1714,8 +1669,7 @@
           {
             "Text": " to iterate over text"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1756,8 +1710,7 @@
           {
             "Text": " for XML parsing"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1798,8 +1751,7 @@
           {
             "Text": " in CSV reader"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1860,8 +1812,7 @@
           {
             "Text": " into a single function returning multiple values."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1886,8 +1837,7 @@
           {
             "Text": "Iterating with a channel"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1912,8 +1862,7 @@
           {
             "Text": "Channels and goroutines are Go’s banner features and can be used as iterators."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1938,8 +1887,7 @@
           {
             "Text": "Caller side:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1966,8 +1914,7 @@
         "type": "code",
         "version": 3,
         "code": "func printEvenNumbers(max int) {\n    for val := range generateEvenNumbers(max) {\n        if val.Err != nil {\n            log.Fatalf(\"Error: %s\\n\", val.Err)\n        }\n        fmt.Printf(\"%d\\n\", val.Int)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2022,8 +1969,7 @@
           {
             "Text": " loop."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2048,8 +1994,7 @@
           {
             "Text": "If there is no possibility of failing we can send just values over the channel."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2074,8 +2019,7 @@
           {
             "Text": "In our case a failure is possiblity, so we have to send a struct that packages the value and possible error:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2102,8 +2046,7 @@
         "type": "code",
         "version": 3,
         "code": "type IntWithError struct {\n    Int int\n    Err error\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2128,8 +2071,7 @@
           {
             "Text": "Generator side:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2156,8 +2098,7 @@
         "type": "code",
         "version": 1,
         "code": "func generateEvenNumbers(max int) chan IntWithError {\n    ch := make(chan IntWithError)\n    go func() {\n        defer close(ch)\n        if max \u003c 0 {\n            ch \u003c- IntWithError{\n                Err: fmt.Errorf(\"'max' is %d and should be \u003e= 0\", max),\n            }\n            return\n        }\n\n        for i := 2; i \u003c= max; i += 2 {\n            ch \u003c- IntWithError{\n                Int: i,\n            }\n        }\n    }()\n    return ch\n}",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -2201,8 +2142,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2245,8 +2185,7 @@
           {
             "Text": ". That would speed up things if both generation and processing are time consuming by parallelizing those 2 processes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2271,8 +2210,7 @@
           {
             "Text": "Adding cancellation to channel-based iterator"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2297,8 +2235,7 @@
           {
             "Text": "In the above example the client doesn’t have a way to stop the channel-based iterator."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2323,8 +2260,7 @@
           {
             "Text": "If it just stops processing values from the channel before it’s closed, the generator goroutine will be forever blocked trying to send on a channel no-one is reading from. The goroutine will leak."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2385,8 +2321,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2411,8 +2346,7 @@
           {
             "Text": "Here’s slightly modified generator function:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2439,8 +2373,7 @@
         "type": "code",
         "version": 3,
         "code": "func generateEvenNumbers(ctx context.Context, max int) chan IntWithError {\n    ch := make(chan IntWithError)\n    go func() {\n        defer close(ch)\n        if max \u003c 0 {\n            ch \u003c- IntWithError{\n                Err: fmt.Errorf(\"'max' is %d and should be \u003e= 0\", max),\n            }\n            return\n        }\n\n        for i := 2; i \u003c= max; i += 2 {\n            if ctx != nil {\n                // if context was cancelled, we stop early\n                select {\n                case \u003c-ctx.Done():\n                    return\n                default:\n                }\n            }\n            ch \u003c- IntWithError{\n                Int: i,\n            }\n        }\n    }()\n    return ch\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2484,8 +2417,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2510,8 +2442,7 @@
           {
             "Text": "Here’s a user of the above code that stops the generator a bit early:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2538,8 +2469,7 @@
         "type": "code",
         "version": 3,
         "code": "func printEvenNumbersCancellable(max int, stopAt int) {\n    ctx, cancel := context.WithCancel(context.Background())\n    defer cancel()\n    ch := generateEvenNumbers(ctx, max)\n    for val := range ch {\n        if val.Err != nil {\n            log.Fatalf(\"Error: %s\\n\", val.Err)\n        }\n        if val.Int \u003e stopAt {\n            cancel()\n            // notice we keep going in order to drain the channel\n            continue\n        }\n        // process the value\n        fmt.Printf(\"%d\\n\", val.Int)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2564,8 +2494,7 @@
           {
             "Text": "Important to note:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2626,8 +2555,7 @@
           {
             "Text": " or else it’ll leak"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2670,8 +2598,7 @@
           {
             "Text": " multiple times"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2708,8 +2635,7 @@
           {
             "Text": " asks for the generator to stop but cannot guarantee it. After cancelling we’ll get more values queued on the channel"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2734,8 +2660,7 @@
           {
             "Text": "It’s important to fully drain the channel or else we’ll leak the goroutine that is trying to write to it. In this example we skip processing after reaching stop value."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2760,8 +2685,7 @@
           {
             "Text": "Alternatively, we could break the processing loop and then have a loop just to drain the channel:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2788,8 +2712,7 @@
         "type": "code",
         "version": 11,
         "code": "for _ = range ch {\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2814,8 +2737,7 @@
           {
             "Text": "Which way is the best?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2840,8 +2762,7 @@
           {
             "Text": "The one that best fits your scenario."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2866,8 +2787,7 @@
           {
             "Text": "The callback pattern makes for a simple implementation of the iterator but callbacks in Go have akward syntax."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2910,8 +2830,7 @@
           {
             "Text": " is the hardest to implement but presents nice interface to the caller. It’s most commonly used in Go standard library for complex iterators."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2936,8 +2855,7 @@
           {
             "Text": "Channel-based iterator is easy to implent and use by the caller but most expensive. Only in exceptional circumstances the cost should be of concern."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2962,8 +2880,7 @@
           {
             "Text": "It’s also the only one that is concurrent by nature."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2988,8 +2905,7 @@
           {
             "Text": "At the same time, channels are heavy machinery. Don’t over-use them, don’t use channels for things that can be done without them."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3014,8 +2930,7 @@
           {
             "Text": "Channels are meant to serve as a coordination mechanism between goroutines. If you don’t need to launch a goroutine, then you probably don’t need to use channels."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3053,8 +2968,7 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/3-ways-to-iterate"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "3 ways to iterate in Go",
@@ -3066,8 +2980,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc4bfc136-2fdb-4e47-bc21-51698592fd00%2Fheader-09.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

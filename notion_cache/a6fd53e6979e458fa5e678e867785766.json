@@ -57,8 +57,7 @@
           {
             "Text": "Links:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -89,8 +88,7 @@
             "Text": "http://stackoverflow.com/questions/99880/generating-a-unique-machine-id",
             "Link": "http://stackoverflow.com/questions/99880/generating-a-unique-machine-id?rq=1"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -121,8 +119,7 @@
             "Text": "http://ntsblog.homedev.com.au/index.php/2012/06/28/unique-computer-identifier/",
             "Link": "http://ntsblog.homedev.com.au/index.php/2012/06/28/unique-computer-identifier/"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -153,8 +150,7 @@
             "Text": "https://serverfault.com/questions/93785/looking-for-a-unique-guid-to-identify-a-windows-installation",
             "Link": "https://serverfault.com/questions/93785/looking-for-a-unique-guid-to-identify-a-windows-installation"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -185,8 +181,7 @@
             "Text": "http://stackoverflow.com/questions/14213020/getting-windows-serial-number-was-getting-machineguid-from-registry",
             "Link": "http://stackoverflow.com/questions/14213020/getting-windows-serial-number-was-getting-machineguid-from-registry"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -217,8 +212,7 @@
             "Text": "http://stackoverflow.com/questions/3443093/what-is-a-good-unique-pc-identifier",
             "Link": "http://stackoverflow.com/questions/3443093/what-is-a-good-unique-pc-identifier"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -249,8 +243,7 @@
             "Text": "https://www.stev.org/post/csharpnumberofcoresandprocessors",
             "Link": "https://www.stev.org/post/csharpnumberofcoresandprocessors"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -281,8 +274,7 @@
             "Text": "https://msdn.microsoft.com/en-us/library/aa394072(v=vs.85).aspx",
             "Link": "https://msdn.microsoft.com/en-us/library/aa394072(v=vs.85).aspx"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -294,8 +286,7 @@
         "parent_id": "a6fd53e6-979e-458f-a5e6-78e867785766",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       },
       {
         "alive": true,
@@ -321,8 +312,7 @@
         "type": "code",
         "version": 0,
         "code": "// machine guid, possible to change?\nvar regpath = \"HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Cryptography\\\\MachineGuid\";\nvar oWSS = new ActiveXObject(\"WScript.Shell\");\nclientGUID = oWSS.RegRead(regpath);\n\n// processor info\nObjectQuery wql = new ObjectQuery(\"SELECT * FROM Win32_Processor\");\nManagementObjectSearcher searcher = new ManagementObjectSearcher(wql);\nManagementObjectCollection results = searcher.Get();\n\nforeach(ManagementObject result in results) {\n\t_NumberOfCores = int.Parse(result[\"NumberOfCores\"].ToString());\n  _NumberOfLogicalProcessors = int.Parse(result[\"NumberOfLogicalProcessors\"].ToString());\n  break;\n}\n\n// motherboard uuid, although apparently not all have unique id\nusing System.Management;\n...\n...\npublic static string UUID\n{\n    get\n    {\n        string uuid = string.Empty;\n \n        ManagementClass mc = new ManagementClass(\"Win32_ComputerSystemProduct\");\n        ManagementObjectCollection moc = mc.GetInstances();\n \n        foreach (ManagementObject mo in moc)\n        {\n            uuid = mo.Properties[\"UUID\"].Value.ToString();\n            break;\n        }\n \n        return uuid;\n    }\n}",
-        "code_language": "Java/C/C++/C#",
-        "format_video": null
+        "code_language": "Java/C/C++/C#"
       }
     ],
     "title": "os unique id",
@@ -333,8 +323,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

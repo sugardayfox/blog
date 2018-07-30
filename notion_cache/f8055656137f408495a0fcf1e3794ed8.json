@@ -58,8 +58,7 @@
           {
             "Text": "Id: 14005"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -83,8 +82,7 @@
           {
             "Text": "Tags: aws"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -108,8 +106,7 @@
           {
             "Text": "Date: 2009-03-13T22:19:22-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -121,8 +118,7 @@
         "parent_id": "f8055656-137f-4084-95a0-fcf1e3794ed8",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -146,8 +142,7 @@
           {
             "Text": "An example:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -183,8 +178,7 @@
             "Text": "s3curl.pl —id kjk — -s -v http://s3.amazonaws.com/kjklogs?acl",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -220,8 +214,7 @@
             "Text": "s3curl.pl —id kjk —put mylogs.acl — -s -v ‘http://s3.amazonaws.com/kjklogs?acl’",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -257,8 +250,7 @@
             "Text": "s3curl.pl —id kjk — -s -v http://s3.amazonaws.com/kjkpub?logging \u003ekjkpub.logging.xml",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -284,8 +276,7 @@
         "type": "code",
         "version": 1,
         "code": "\u003cGrant\u003e\n  \u003cGrantee xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"Group\"\u003e\n    \u003cURI\u003ehttp://acs.amazonaws.com/groups/s3/LogDelivery\u003c/URI\u003e\n  \u003c/Grantee\u003e\n  \u003cPermission\u003eWRITE\u003c/Permission\u003e\n\u003c/Grant\u003e\n\n\u003cGrant\u003e\n  \u003cGrantee xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"Group\"\u003e\n    \u003cURI\u003ehttp://acs.amazonaws.com/groups/s3/LogDelivery\u003c/URI\u003e\n  \u003c/Grantee\u003e\n  \u003cPermission\u003eREAD_ACP\u003c/Permission\u003e\n\u003c/Grant\u003e",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -364,8 +355,7 @@
           {
             "Text": " instead."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Setting up s3 logging",
@@ -376,8 +366,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

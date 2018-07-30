@@ -69,8 +69,7 @@
           {
             "Text": "Id: 912"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -94,8 +93,7 @@
           {
             "Text": "Date: 2005-10-12T20:19:18-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -119,8 +117,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -132,8 +129,7 @@
         "parent_id": "b61ddabd-4ebb-48bf-b285-b5715c9f2340",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -157,8 +153,7 @@
           {
             "Text": "Do you run an open-source project? Want it to support Windows? Wonder why windows programmers are not jumping in to help you?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -182,8 +177,7 @@
           {
             "Text": "It’s because you’re making it hard for them."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -226,8 +220,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -251,8 +244,7 @@
           {
             "Text": "Special mention needs to be given to the Windows-specific Inkscape bugs. This is probably the weakest area of our project right now; even the relatively new OSX port is advancing more rapidly. In part the trouble is simply lack of one or two coders to put attention into the port. If you’re on Windows, can code, and love Inkscape, then check out the bug tracker and wiki to see how you can lend a hand towards making the Windows port of Inkscape robust!"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -295,8 +287,7 @@
           {
             "Text": " and install several other packages, including MingW, a hack that turns gcc toolchain into something that can create windows executables."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -320,8 +311,7 @@
           {
             "Text": "It’s an easy cop-out for Unix developers, because they don’t have to worry about writing their code in a way that supports compilers other than gcc but it’s way too much trouble for windows developers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -345,8 +335,7 @@
           {
             "Text": "First, it requires them to take on a very steep learning curve of completely different, alien and complicated tool-chain (autotools, gcc, gdb etc.)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -370,8 +359,7 @@
           {
             "Text": "Assuming that they don’t shoot themselves out of despair in the process, even if they climb that hill it leaves them with primitive, under-powered toolchain that doesn’t play with other development windows tools like decent profilers and debuggers, mostly because MingW cannot generate *.pdb files which are required for debugging."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -395,8 +383,7 @@
           {
             "Text": "As an example, I once had a problem with Gaim on Windows - when gadu-gadu protocol was Gaim would crash from time to time. No biggie, I though, I’m a programmer so I can fix it myself, thanks to the greatness of open-source. I spent a day downloading all the necessary files, setting up build MingW environment and compiled a debug version. It had a buffer over-run that was probably a reason for the crash later on and visual c runtime (which MingW uses) was nice enough to point it out to me when I was running it under Microsoft’s free WinDBG debugger."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -420,8 +407,7 @@
           {
             "Text": "If I knew which memory was overwritten, it would have been an easy fix. If the binary was built with native Windows tools like Visual Studio, WinDBG would have told me what was overwritten. But since it was compiled with MingW I had no such luck. And due to the nature of memory corruption bugs, the crash whose callstack I could get happened in completely unrelated code. So instead of an easy fix I was faced with lots of work (trying to find a bug by eye-balling the code or instrumenting random pieces). Thanks, but no thanks."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -445,8 +431,7 @@
           {
             "Text": "I’ve looked at many open-source projects and found that those that have good Windows support usually have the windows development support on par with Unix one i.e. all a Windows developer needs to do in order to compile them natively on Windows is to:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -470,8 +455,7 @@
           {
             "Text": "checkout CVS"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -495,8 +479,7 @@
           {
             "Text": "open Visual Studio project"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -520,8 +503,7 @@
           {
             "Text": "hit go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -545,8 +527,7 @@
           {
             "Text": "There are a couple of very prominent open-source projects (Gaim, GIMP, Inkscape) that have very weak windows support and they’re also the ones that require a lot of hoop jumping in order to contribute."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -570,8 +551,7 @@
           {
             "Text": "This is more of an attitude problem than a technical problem. It’s possible to write code that compiles both under Visual C under Windows and gcc under Unix. It’s possible to maintain a parallel build system (Visual Studio project files and/or nmake makefiles and autotools/gmake makefiles). But often maintainers of open-source projects originated on Unix will FUD you to death with extreme exaggerations of how that will lead to messy code and, in consequence, end of the world."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -614,8 +594,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Open-source and windows",
@@ -626,8 +605,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

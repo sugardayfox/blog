@@ -62,8 +62,7 @@
             "Text": "https://www.youtube.com/watch?v=xVT1y0xWgww",
             "Link": "https://www.youtube.com/watch?v=xVT1y0xWgww"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -101,8 +100,7 @@
         "type": "code",
         "version": 533,
         "code": "clang++ -std=c++14 -c -fpic static.cpp\nar rcs libstatic.a static.o\nclagn++ -std=c++14 -c -fpic dynamic.cpp\nclang++ -shared -o ",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       }
     ],
     "title": "Building static, dynamic libs with clang",
@@ -113,8 +111,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

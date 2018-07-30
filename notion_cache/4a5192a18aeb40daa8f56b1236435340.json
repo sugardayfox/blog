@@ -147,8 +147,7 @@
           {
             "Text": "Id: wN9R"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -172,8 +171,7 @@
           {
             "Text": "Tags: go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -197,8 +195,7 @@
           {
             "Text": "CreatedAt: 2017-07-23T05:35:08Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -222,8 +219,7 @@
           {
             "Text": "UpdatedAt: 2017-08-02T18:02:19Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -247,8 +243,7 @@
           {
             "Text": "PublishedOn: 2017-08-02"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -272,8 +267,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -297,8 +291,7 @@
           {
             "Text": "Description: Porting Yoga (Facebook's CSS flexbox implementation) from C to Go."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -310,8 +303,7 @@
         "parent_id": "4a5192a1-8aeb-40da-a8f5-6b1236435340",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -336,8 +328,7 @@
           {
             "Text": "I’m working on desktop GUI apps for Windows in Go."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -362,8 +353,7 @@
           {
             "Text": "As it uses native win32 controls I don’t have to implement my own buttons, list boxes etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -388,8 +378,7 @@
           {
             "Text": "However, win32 doesn’t have anything to help you layout things on the screen. Manual positioning is painful."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -414,8 +403,7 @@
           {
             "Text": "I started looking into a writing a layout engine. There are many systems to be inspired by."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -440,8 +428,7 @@
           {
             "Text": "I did some work in Winforms so I could copy their ideas."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -466,8 +453,7 @@
           {
             "Text": "I could look into copying Android layout logic."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -492,8 +478,7 @@
           {
             "Text": "I could look into implementing constraint-based layout like in iOS."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -518,8 +503,7 @@
           {
             "Text": "The option I liked the best is CSS flexbox. It’s not the simplest, it’s not the most complicated, but the biggest win is that many people, including myself, are already familiar with it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -563,8 +547,7 @@
           {
             "Text": " project, but it’s simplified implementation."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -608,8 +591,7 @@
           {
             "Text": ", but it’s written in C (with bindings to many languages)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -634,8 +616,7 @@
           {
             "Text": "I could write cgo bindings but I prefer my Go pure so I decided to manually port C code to Go, all 4.5k lines of it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -679,8 +660,7 @@
           {
             "Text": " package."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -705,8 +685,7 @@
           {
             "Text": "Here’s how porting happened."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -731,8 +710,7 @@
           {
             "Text": "Phase zero - picking a name for the package"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -829,8 +807,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -873,8 +850,7 @@
           {
             "Text": " in package or repository name is bad (but unfortunately happens too often)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -899,8 +875,7 @@
           {
             "Text": "My rules for a good name for a Go library are:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -925,8 +900,7 @@
           {
             "Text": "it’s short"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -951,8 +925,7 @@
           {
             "Text": "it’s descriptive"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -977,8 +950,7 @@
           {
             "Text": "package name matches repository name"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1022,8 +994,7 @@
           {
             "Text": " was born."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1066,8 +1037,7 @@
           {
             "Text": ", to better higlight connection with original project, but it’s not descriptive."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1129,8 +1099,7 @@
           {
             "Text": ", but it’s a bit long."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1155,8 +1124,7 @@
           {
             "Text": "Phase one - getting Go port to compile"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1181,8 +1149,7 @@
           {
             "Text": "You can’t port 4.5k lines of code in one sitting so it was important to have a strategy that allows for making incremental progress."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1207,8 +1174,7 @@
           {
             "Text": "The important part was keeping track of porting progress. For that I cloned Yoga’s repository. After converting a piece of C code to Go I would delete it from my fork. That way I would keep track of code that still needs to be ported."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1252,8 +1218,7 @@
           {
             "Text": ": structures, enums."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1278,8 +1243,7 @@
           {
             "Text": "Porting process was boring but relatively uneventful."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1304,8 +1268,7 @@
           {
             "Text": "Some porting comments:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1359,8 +1322,7 @@
             "Text": "node *YGNode",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1438,8 +1400,7 @@
           {
             "Text": " for both cases (something that C++-28 should adopt)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1463,8 +1424,7 @@
           {
             "Text": "Go doesn’t support ternary operator and Yoga’s developers are infatuated with it. That was one part where I had to be extra careful as it was more than mechanical change"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1590,8 +1550,7 @@
             "Text": "if !a \u0026\u0026 b { a = true }",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1645,8 +1604,7 @@
           {
             "Text": " falls-through by default"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1724,8 +1682,7 @@
           {
             "Text": " versions of math functions. Missing functions were easy to write."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1749,8 +1706,7 @@
           {
             "Text": "Yoga code was relatively easy to port partly because of lack of string handling, which is where Go and C differ a lot"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1775,8 +1731,7 @@
           {
             "Text": "It took me 2 days to port C code to Go, get it compiling and passing some tests. But some tests were failing."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1801,8 +1756,7 @@
           {
             "Text": "Phase two - fixing bugs"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1827,8 +1781,7 @@
           {
             "Text": "Yoga has a lot of tests which gave me confidence that when the port is done, I’ll be able to verify its correctness by porting the tests."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1853,8 +1806,7 @@
           {
             "Text": "I ported the code, I started porting the tests and they were failing."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1879,8 +1831,7 @@
           {
             "Text": "I was in a pickle."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1905,8 +1856,7 @@
           {
             "Text": "2 days was enough to mechanically port the code but not even close enough to understand it."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1931,8 +1881,7 @@
           {
             "Text": "As far as I can tell you can’t step through tests in the debugger, so I converted a failing test into a test program."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1957,8 +1906,7 @@
           {
             "Text": "I was pleasently surprised that debugger in Visual Studio Code works decently."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1983,8 +1931,7 @@
           {
             "Text": "I found one porting mistake by stepping through the code but fixing it didn’t fix test failures."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2009,8 +1956,7 @@
           {
             "Text": "I spent a bit more time stepping through the code but not knowing what results to expect I decided that it’s not a promising approach."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2035,8 +1981,7 @@
           {
             "Text": "I decided to re-check every line of code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2061,8 +2006,7 @@
           {
             "Text": "Initially I ported the code in random order so I used re-checking time to also re-arrange the code in the same order as C code. That will help re-porting Yoga improvments in the future."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2087,8 +2031,7 @@
           {
             "Text": "It was predictably boring. It took another day, I found 2 more porting bugs."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2113,8 +2056,7 @@
           {
             "Text": "The tests were still failing and I was a bit stuck."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2139,8 +2081,7 @@
           {
             "Text": "I did another pass in the debugger and fortunately an inspiration struck."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2255,8 +2196,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2317,8 +2257,7 @@
           {
             "Text": " but the other one isn’t, it should return non-NaN value."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2343,8 +2282,7 @@
           {
             "Text": "It was easy to fix and that fixed all the tests."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2369,8 +2307,7 @@
           {
             "Text": "Phase three - Go-ifying the API"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2395,8 +2332,7 @@
           {
             "Text": "The code was working but it was far from idiomatic Go code."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2421,8 +2357,7 @@
           {
             "Text": "Next phase was tweaking the API to be more Go-like."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2447,8 +2382,7 @@
           {
             "Text": "The majority of changes were:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2473,8 +2407,7 @@
           {
             "Text": "making struct fields public"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2517,8 +2450,7 @@
           {
             "Text": " prefix as packages obviate the need for that"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2573,8 +2505,7 @@
             "Text": "func (node *Node) Foo()",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2599,8 +2530,7 @@
           {
             "Text": "It’s mechanical, boring process."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2625,8 +2555,7 @@
           {
             "Text": "Some transformations could be done with regex search \u0026 replace. The rest with manual labor."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2651,8 +2580,7 @@
           {
             "Text": "Having lots of tests really helped in making sure that the code is still correct."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2677,8 +2605,7 @@
           {
             "Text": "The status"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2703,8 +2630,7 @@
           {
             "Text": "The port is finished. It works and passes all Yoga tests."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2729,8 +2655,7 @@
           {
             "Text": "The API is still a bit awkward by Go standards. Too many methods, not enough direct access to variables."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2755,8 +2680,7 @@
           {
             "Text": "Partly it’s because I wanted to stay close to C code so that future changes to Yoga can be ported easily."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2781,8 +2705,7 @@
           {
             "Text": "Partly it’s because of implementation choices and the nature of the problem."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2807,8 +2730,7 @@
           {
             "Text": "There are many flexbox properties, only some are given for any given element. The rest is given default values, which might be undefined."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2851,8 +2773,7 @@
           {
             "Text": " and then we can set the properties that are non-default."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2877,8 +2798,7 @@
           {
             "Text": "Unfortunately, that doesn’t work well for properties that are numbers because zero might be a valid value."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2939,8 +2859,7 @@
           {
             "Text": " for undefined value of a CSS property."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3019,8 +2938,7 @@
           {
             "Text": ". Zero value of bool is false, so by default values start as invalid (undefined)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3045,8 +2963,7 @@
           {
             "Text": "This isn’t a great API either since it makes setting and reading values more awkward."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3071,8 +2988,7 @@
           {
             "Text": "At the end of the day it’s better to have solid, working code with awkward API than not having the code at all. Full flexbox implementation is not trivial to write."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3116,8 +3032,7 @@
           {
             "Text": " is the best option."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3142,8 +3057,7 @@
           {
             "Text": "Notes on automatic translation"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3168,8 +3082,7 @@
           {
             "Text": "Go is so close to C. Wouldn’t it be great if there was a program that could take C code and turn it into Go code?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3194,8 +3107,7 @@
           {
             "Text": "There are few attempts to do that:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3219,8 +3131,7 @@
           {
             "Text": "https://github.com/rsc/c2go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3244,8 +3155,7 @@
           {
             "Text": "https://github.com/elliotchance/c2go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3269,8 +3179,7 @@
           {
             "Text": "https://github.com/cznic/ccgo"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3308,8 +3217,7 @@
           {
             "Text": " seems to be the most promising."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3334,8 +3242,7 @@
           {
             "Text": "I didn’t try any of them as neither seems to be usable yet."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3360,8 +3267,7 @@
           {
             "Text": "It’s an approach worth keeping an eye on for the future but not yet viable today."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Experience porting 4.5k loc of C to Go (Facebook's CSS flexbox implementation Yoga)",
@@ -3373,8 +3279,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F32f18692-56e5-4c85-a2dd-ccabb5c3d537%2Fheader-18.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -68,8 +68,7 @@
           {
             "Text": "Id: 304"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -93,8 +92,7 @@
           {
             "Text": "Date: 2006-01-02T16:00:00-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -118,8 +116,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -131,8 +128,7 @@
         "parent_id": "5094f3ac-18ed-4d98-8e2f-716bb4d74e66",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -168,8 +164,7 @@
           {
             "Text": ":"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -205,8 +200,7 @@
             "Text": "usermod -G apache,svn apache",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -260,8 +254,7 @@
             "Text": "chmod g+rwx /home/svn",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -291,8 +284,7 @@
             "Text": "Backup and restore a repo:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -322,8 +314,7 @@
             "Text": "svnadmin dump repo \u003erepo_svn_dump; bzip2 -9 repo_svn_dump",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -359,8 +350,7 @@
             "Text": "svnadmin dump repo | bzip2 -c -9 \u003erepo_svn_dump.bz2",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -390,8 +380,7 @@
             "Text": "Recreate a repo:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -421,8 +410,7 @@
             "Text": "svnadmin create repo",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -452,8 +440,7 @@
             "Text": "sudo -u svn bzip2 -d -d repo.bz2 | svnadmin load repo",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -489,8 +476,7 @@
             "Text": "/etc/httpd/conf.d/repo-svn-authzfile",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -526,8 +512,7 @@
             "Text": "/etc/rc.d/init.d/httpd restart",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -551,8 +536,7 @@
           {
             "Text": "This assumes Apache2 and a particular setup found on RedHat Enterprise."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -600,8 +584,7 @@
             "Text": "svn resolved $file",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -649,8 +632,7 @@
             "Text": "svn update -r {2004-04-04}",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -680,8 +662,7 @@
             "Text": "Create a tag:",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -711,8 +692,7 @@
             "Text": "svn copy https://sumatrapdf.googlecode.com/svn/trunk/ https://sumatrapdf.googlecode.com/svn/tags/release-0.7 -m \"Tagging release 0.7.\"",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Subversion basics",
@@ -723,8 +703,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

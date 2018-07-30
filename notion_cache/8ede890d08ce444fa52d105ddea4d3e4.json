@@ -112,8 +112,7 @@
           {
             "Text": "Id: wOYk"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -137,8 +136,7 @@
           {
             "Text": "Tags: go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -162,8 +160,7 @@
           {
             "Text": "CreatedAt: 2017-06-23T09:43:49Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -187,8 +184,7 @@
           {
             "Text": "UpdatedAt: 2017-07-09T01:52:50Z"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -212,8 +208,7 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -237,8 +232,7 @@
           {
             "Text": "Description: Examples of using os/exec library to execute external programs in Go."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -250,8 +244,7 @@
         "parent_id": "8ede890d-08ce-444f-a52d-105ddea4d3e4",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       },
       {
         "alive": true,
@@ -276,8 +269,7 @@
           {
             "Text": "Go has excellent support for executing external programs. Let’s start at the beginning."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -302,8 +294,7 @@
           {
             "Text": "Running a command and capturing the output"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -346,8 +337,7 @@
           {
             "Text": " and capture its combined stdout/stderr."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -374,8 +364,7 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    out, err := cmd.CombinedOutput()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    fmt.Printf(\"combined out:\\n%s\\n\", string(out))\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -419,8 +408,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -445,8 +433,7 @@
           {
             "Text": "Capture stdout and stderr separately"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -471,8 +458,7 @@
           {
             "Text": "What if you want to do the same but capture stdout and stderr separately?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -499,8 +485,7 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    var stdout, stderr bytes.Buffer\n    cmd.Stdout = \u0026stdout\n    cmd.Stderr = \u0026stderr\n    err := cmd.Run()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    outStr, errStr := string(stdout.Bytes()), string(stderr.Bytes())\n    fmt.Printf(\"out:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -544,8 +529,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -570,8 +554,7 @@
           {
             "Text": "Capture output but also show progress"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -596,8 +579,7 @@
           {
             "Text": "What if the command takes a long time to finish?"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -622,8 +604,7 @@
           {
             "Text": "It would be nice to see its progress on the console as it happens in addition to capturing stdout/stderr."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -648,8 +629,7 @@
           {
             "Text": "It’s a little bit more involved, but not terribly so."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -676,8 +656,7 @@
         "type": "code",
         "version": 3,
         "code": "func copyAndCapture(w io.Writer, r io.Reader) ([]byte, error) {\n    var out []byte\n    buf := make([]byte, 1024, 1024)\n    for {\n        n, err := r.Read(buf[:])\n        if n \u003e 0 {\n            d := buf[:n]\n            out = append(out, d...)\n            _, err := w.Write(d)\n            if err != nil {\n                return out, err\n            }\n        }\n        if err != nil {\n            // Read returns io.EOF at the end of file, which is not an error for us\n            if err == io.EOF {\n                err = nil\n            }\n            return out, err\n        }\n    }\n    // never reached\n    panic(true)\n    return nil, nil\n}\n\nfunc main() {\n    cmd := exec.Command(\"ls\", \"-lah\")\n    var stdout, stderr []byte\n    var errStdout, errStderr error\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n    cmd.Start()\n\n    go func() {\n        stdout, errStdout = copyAndCapture(os.Stdout, stdoutIn)\n    }()\n\n    go func() {\n        stderr, errStderr = copyAndCapture(os.Stderr, stderrIn)\n    }()\n\n    err := cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatalf(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdout), string(stderr)\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -721,8 +700,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -747,8 +725,7 @@
           {
             "Text": "Capture output but also show progress #2"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -827,8 +804,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -907,8 +883,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -935,8 +910,7 @@
         "type": "code",
         "version": 3,
         "code": "// CapturingPassThroughWriter is a writer that remembers\n// data written to it and passes it to w\ntype CapturingPassThroughWriter struct {\n    buf bytes.Buffer\n    w io.Writer\n}\n\n// NewCapturingPassThroughWriter creates new CapturingPassThroughWriter\nfunc NewCapturingPassThroughWriter(w io.Writer) *CapturingPassThroughWriter {\n    return \u0026CapturingPassThroughWriter{\n        w: w,\n    }\n}\n\nfunc (w *CapturingPassThroughWriter) Write(d []byte) (int, error) {\n    w.buf.Write(d)\n    return w.w.Write(d)\n}\n\n// Bytes returns bytes written to the writer\nfunc (w *CapturingPassThroughWriter) Bytes() []byte {\n    return w.buf.Bytes()\n}\n\nfunc main() {\n    var errStdout, errStderr error\n    cmd := exec.Command(\"ls\", \"-lah\")\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n    stdout := NewCapturingPassThroughWriter(os.Stdout)\n    stderr := NewCapturingPassThroughWriter(os.Stderr)\n    err := cmd.Start()\n    if err != nil {\n        log.Fatalf(\"cmd.Start() failed with '%s'\\n\", err)\n    }\n\n    go func() {\n        _, errStdout = io.Copy(stdout, stdoutIn)\n    }()\n\n    go func() {\n        _, errStderr = io.Copy(stderr, stderrIn)\n    }()\n\n    err = cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatalf(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdout.Bytes()), string(stderr.Bytes())\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -980,8 +954,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1006,8 +979,7 @@
           {
             "Text": "Capture output but also show progress #3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1069,8 +1041,7 @@
           {
             "Text": ". Let’s use that instead:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1097,8 +1068,7 @@
         "type": "code",
         "version": 3,
         "code": "func main() {\n    var stdoutBuf, stderrBuf bytes.Buffer\n    cmd := exec.Command(\"ls\", \"-lah\")\n\n    stdoutIn, _ := cmd.StdoutPipe()\n    stderrIn, _ := cmd.StderrPipe()\n\n    var errStdout, errStderr error\n    stdout := io.MultiWriter(os.Stdout, \u0026stdoutBuf)\n    stderr := io.MultiWriter(os.Stderr, \u0026stderrBuf)\n    err := cmd.Start()\n    if err != nil {\n        log.Fatalf(\"cmd.Start() failed with '%s'\\n\", err)\n    }\n\n    go func() {\n        _, errStdout = io.Copy(stdout, stdoutIn)\n    }()\n\n    go func() {\n        _, errStderr = io.Copy(stderr, stderrIn)\n    }()\n\n    err = cmd.Wait()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    if errStdout != nil || errStderr != nil {\n        log.Fatal(\"failed to capture stdout or stderr\\n\")\n    }\n    outStr, errStr := string(stdoutBuf.Bytes()), string(stderrBuf.Bytes())\n    fmt.Printf(\"\\nout:\\n%s\\nerr:\\n%s\\n\", outStr, errStr)\n\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1142,8 +1112,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1168,8 +1137,7 @@
           {
             "Text": "It’s good to be able to write the code ourselves, but it’s even better to know standard library well!"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1194,8 +1162,7 @@
           {
             "Text": "Writing to program’s stdin"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1220,8 +1187,7 @@
           {
             "Text": "We know how to read program’s stdout but we can also write to its stdin."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1246,8 +1212,7 @@
           {
             "Text": "There is no Go library to do bzip2 compression (only decompression is available in standard library)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1308,8 +1273,7 @@
           {
             "Text": " and capture its stdout"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1334,8 +1298,7 @@
           {
             "Text": "It would be even better if we didn’t have to create a temporary file."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1360,8 +1323,7 @@
           {
             "Text": "Most compression programs accept data to compress/decompress on stdin."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1404,8 +1366,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1430,8 +1391,7 @@
           {
             "Text": "Here’s the same thing in Go:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1458,8 +1418,7 @@
         "type": "code",
         "version": 3,
         "code": "// compress data using bzip2 without creating temporary files\nfunc bzipCompress(d []byte) ([]byte, error) {\n    var out bytes.Buffer\n    // -c : compress\n    // -9 : select the highest level of compresion\n    cmd := exec.Command(\"bzip2\", \"-c\", \"-9\")\n    cmd.Stdin = bytes.NewBuffer(d)\n    cmd.Stdout = \u0026out\n    err := cmd.Run()\n    if err != nil {\n        return nil, err\n    }\n    return out.Bytes(), nil\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1503,8 +1462,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1565,8 +1523,7 @@
           {
             "Text": ". It’s more complicated but gives more control over writing."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1591,8 +1548,7 @@
           {
             "Text": "Changing environment of executed program"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1725,8 +1681,7 @@
           {
             "Text": " returns the value of environment variable."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1751,8 +1706,7 @@
           {
             "Text": "Sometimes you need to modify the environment of the executed program."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1831,8 +1785,7 @@
           {
             "Text": ". Usually you don’t want to construct a completely new environment but pass your own environment augmented with more variables:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1859,8 +1812,7 @@
         "type": "code",
         "version": 3,
         "code": "cmd := exec.Command(\"programToExecute\")\n    additionalEnv := \"FOO=bar\"\n    newEnv := append(os.Environ(), additionalEnv))\n    cmd.Env = newEnv\n    out, err := cmd.CombinedOutput()\n    if err != nil {\n        log.Fatalf(\"cmd.Run() failed with %s\\n\", err)\n    }\n    fmt.Printf(\"%s\", out)",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -1904,8 +1856,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1949,8 +1900,7 @@
           {
             "Text": " offers slightly more civilized way of manipulating environment variables."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1975,8 +1925,7 @@
           {
             "Text": "Check early that a program is installed"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2019,8 +1968,7 @@
           {
             "Text": " at the end to perform some essential task."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2063,8 +2011,7 @@
           {
             "Text": " executable is not present, the call will fail."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2089,8 +2036,7 @@
           {
             "Text": "It’s a good idea to detect that at the beginning of the program and fail early with descriptive error message."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2133,8 +2079,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2161,8 +2106,7 @@
         "type": "code",
         "version": 3,
         "code": "func checkLsExists() {\n    path, err := exec.LookPath(\"ls\")\n    if err != nil {\n        fmt.Printf(\"didn't find 'ls' executable\\n\")\n    } else {\n        fmt.Printf(\"'ls' executable is in '%s'\\n\", path)\n    }\n}",
-        "code_language": "Go",
-        "format_video": null
+        "code_language": "Go"
       },
       {
         "alive": true,
@@ -2206,8 +2150,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2250,8 +2193,7 @@
           {
             "Text": " option)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2289,8 +2231,7 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/advanced-exec",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/advanced-exec"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Advanced command execution in Go with os/exec",
@@ -2302,8 +2243,7 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbd740d50-d936-4bcf-92b9-f7bf0211cc57%2Fheader-02.jpg"
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

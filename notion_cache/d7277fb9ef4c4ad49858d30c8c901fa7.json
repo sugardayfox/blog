@@ -84,8 +84,7 @@
           {
             "Text": "Id: 10000"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -109,8 +108,7 @@
           {
             "Text": "Date: 2014-11-27T22:59:50-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -134,8 +132,7 @@
           {
             "Text": "Tags: programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -159,8 +156,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -172,8 +168,7 @@
         "parent_id": "d7277fb9-ef4c-4ad4-9858-d30c8c901fa7",
         "parent_table": "block",
         "type": "text",
-        "version": 1,
-        "format_video": null
+        "version": 1
       },
       {
         "alive": true,
@@ -197,8 +192,7 @@
           {
             "Text": "Ansible is a system for provisioning servers and automatic deployments."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -222,8 +216,7 @@
           {
             "Text": "I recently used it for deploying a website written in Go and it worked well for both provisioning and deployment."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -247,8 +240,7 @@
           {
             "Text": "Provisioning is about setting up pre-requisites that only have to be done once."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -272,8 +264,7 @@
           {
             "Text": "Deployment is about updating the project to the latest version. It happens as often as you update the project."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -297,8 +288,7 @@
           {
             "Text": "In case of a simple website, provisioning Ubuntu 14.10 server involved the following steps:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -322,8 +312,7 @@
           {
             "Text": "making sure nginx is installed"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -347,8 +336,7 @@
           {
             "Text": "creating a user for the project. This is how I like to organize projects if more than one runs on a single server"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -372,8 +360,7 @@
           {
             "Text": "add nginx configuration file so that it proxies a given server name to the port on which web server is running"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -397,8 +384,7 @@
           {
             "Text": "setup initd to watch and restart web server process"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -422,8 +408,7 @@
           {
             "Text": "Deployment involves:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -447,8 +432,7 @@
           {
             "Text": "cross-compiling the server"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -472,8 +456,7 @@
           {
             "Text": "packaging all files that need to be copied to the server in a .zip file"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -497,8 +480,7 @@
           {
             "Text": "copy the .zip file to the server"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -522,8 +504,7 @@
           {
             "Text": "shutting down currently running web server instance"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -547,8 +528,7 @@
           {
             "Text": "unpacking new version"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -572,8 +552,7 @@
           {
             "Text": "starting up new version"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -597,8 +576,7 @@
           {
             "Text": "Ansible process"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -640,8 +618,7 @@
           {
             "Text": ". For this project, mine was:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -667,8 +644,7 @@
         "type": "code",
         "version": 1,
         "code": "[defaults]\nhostfile = inventory\nremote_user = root",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -710,8 +686,7 @@
           {
             "Text": " contains list of servers we’ll operate on:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -737,8 +712,7 @@
         "type": "code",
         "version": 1,
         "code": "sumatrawebsite-provision ansible_ssh_host=sumatrapdfreader.org ansible_ssh_user=root\nsumatrawebsite ansible_ssh_host=sumatrapdfreader.org ansible_ssh_user=sumatrawebsite",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -762,8 +736,7 @@
           {
             "Text": "Notice that we only operate against a single server but we have 2 different configuration:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -817,8 +790,7 @@
           {
             "Text": " user. Provisioning actions must be executed by a user with root priviledges."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -854,8 +826,7 @@
           {
             "Text": " is a user that owns the server project, so it’s easiest to use that user for deployment steps"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -897,8 +868,7 @@
           {
             "Text": " helper script:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -924,8 +894,7 @@
         "type": "code",
         "version": 1,
         "code": "#!/bin/bash\nansible-playbook provisioning.yml",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -967,8 +936,7 @@
           {
             "Text": " is:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -994,8 +962,7 @@
         "type": "code",
         "version": 1,
         "code": "---\n- name: initial server setup\n  hosts: sumatrawebsite-initial\n  sudo: True\n  tasks:\n    - name: create a user\n      user: name=sumatrawebsite group=sumatrawebsite groups=\"sudo\" shell=/bin/bash\n    - name: make user a sudoer\n      lineinfile: dest=/etc/sudoers state=present regexp='^%sumatrawebsite' line='%sumatrawebsite ALL=(ALL) NOPASSWD:ALL'\n    - name: create user's .ssh directory\n      file: path=/home/sumatrawebsite/.ssh state=directory owner=sumatrawebsite group=sumatrawebsite mode=0755\n    - name: copy existing ssh key\n      command: cp /root/.ssh/authorized_keys /home/sumatrawebsite/.ssh/authorized_keys\n    - name: configure authorized_keys\n      file: path=/home/sumatrawebsite/.ssh/authorized_keys mode=0644 owner=sumatrawebsite group=sumatrawebsite\n    - name: create directory for nginx logs\n      file: \u003e\n        path=/var/log/nginx/sumatrawebsite/ state=directory mode=0755\n    - name: copy nginx config file\n      copy: src=nginx.conf dest=/etc/nginx/sites-available/sumatrawebsite\n    - name: enable website\n      file: \u003e\n        dest=/etc/nginx/sites-enabled/sumatrawebsite\n        src=/etc/nginx/sites-available/sumatrawebsite\n        state=link\n    - name: restart nginx\n      service: name=nginx state=restarted",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -1019,8 +986,7 @@
           {
             "Text": "If you know Unix, you can figure out what those commands do. Ansible playbook consists mostly of commands run on the server."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1062,8 +1028,7 @@
           {
             "Text": " creates a new user with certain properties."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1087,8 +1052,7 @@
           {
             "Text": "If a user already exists, Ansible is smart enough to not execute any commands."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Notes on Ansible",
@@ -1099,8 +1063,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -46,12 +46,10 @@
         "type": "code",
         "version": 0,
         "code": "\nclass Counters {\n\treset() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tthis[key] = 0;\n\t\t}\n\t}\n\n\tinc(key) {\n\t\tif (!this[key]) {\n\t\t\tthis[key] = 1;\n\t\t} else {\n\t\t\tthis[key] = this[key] + 1;\n\t\t}\n\t}\n\n\tprint() {\n\t\tconst keys = Object.keys(this);\n\t\tfor (let i = 0; i \u003c keys.length; i++) {\n\t\t\tconst key = keys[i];\n\t\t\tconst v = this[key];\n\t\t\tconsole.log(`${key}: ${v}`);\n\t\t}\n\t}\n}\n\nexport const counters = new Counters();\n",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       }
     ],
-    "title": "Counters",
-    "format_video": null
+    "title": "Counters"
   },
   "Users": [
     {

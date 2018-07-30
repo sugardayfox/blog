@@ -61,8 +61,7 @@
           {
             "Text": "Id: 179001"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -86,8 +85,7 @@
           {
             "Text": "Tags: reference, unix, note"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -111,8 +109,7 @@
           {
             "Text": "Date: 2010-05-11T10:39:16-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -136,8 +133,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -149,8 +145,7 @@
         "parent_id": "d4edeaa9-f442-4822-8a1f-6482821c927c",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -180,8 +175,7 @@
             "Text": "Script arguments",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -241,8 +235,7 @@
           {
             "Text": " (first argument) etc."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -296,8 +289,7 @@
           {
             "Text": "@ - all arguments, but each is seen as a separate word"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -327,8 +319,7 @@
             "Text": "Check if a given argument was provided",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -354,8 +345,7 @@
         "type": "code",
         "version": 1,
         "code": "if [ ! -n \"$1\" ]\nthen\n  echo \"First argument not given\"\nfi",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -385,8 +375,7 @@
             "Text": "Handling errors from launched programs.",
             "AttrFlags": 1
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -428,8 +417,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -455,8 +443,7 @@
         "type": "code",
         "version": 1,
         "code": "if [ \"$?\" -ne \"0\" ]; then\n  echo \"last command failed\"\n  exit 1\nfi",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       }
     ],
     "title": "Bash programming basics ",
@@ -467,8 +454,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

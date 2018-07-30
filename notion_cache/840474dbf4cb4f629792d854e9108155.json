@@ -44,8 +44,7 @@
         },
         "type": "code",
         "version": 0,
-        "code": "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists",
-        "format_video": null
+        "code": "find . -name \"*tif\" -type f -print0 | xargs -0 -n 1 -I file cp file ~/tmpimg/\n\nhttp://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/\nhttp://www.linuxplanet.com/linuxplanet/print/6522\n\nfind . -iname \"*foobar*\" -exec cp -n \"{}\" ~/foo/bar \\;\n\ncp:\n -n : don't overwrite if exists"
       }
     ],
     "title": "find",
@@ -56,8 +55,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -106,8 +106,7 @@
           {
             "Text": "Id: 3"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -131,8 +130,7 @@
           {
             "Text": "Date: 2017-01-04"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -156,8 +154,7 @@
           {
             "Text": "Tags: programming, javascript"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -169,8 +166,7 @@
         "parent_id": "4a034f05-012c-446b-a381-49b8ad2178ac",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -194,8 +190,7 @@
           {
             "Text": "When building web apps, it’s important to keep the size of JavaScript code delivered to the browser as small as possible."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -219,8 +214,7 @@
           {
             "Text": "I write in ES6 or TypeScript then use browserify to combine all JavaScript code into a single bundle file. For production builds I use uglify to make the bundle smaller."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -262,8 +256,7 @@
           {
             "Text": " can introduce surprising, unneeded dependencies."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -287,8 +280,7 @@
           {
             "Text": "First step of fixing bloat is to see what code ends up in the final bundle."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -312,8 +304,7 @@
           {
             "Text": "Disc"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -350,8 +341,7 @@
           {
             "Text": " is one tool that visualizes the content of JavaScript bundle."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -375,8 +365,7 @@
           {
             "Text": "To use it:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -406,8 +395,7 @@
             "Text": "npm install -g disc",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -467,8 +455,7 @@
           {
             "Text": " plugin (without it file paths are turned into opaque numbers)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -522,8 +509,7 @@
           {
             "Text": " is called in your setup)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -559,8 +545,7 @@
           {
             "Text": " (on mac, or open manually in the browser)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -584,8 +569,7 @@
           {
             "Text": "The visualization is very pretty but not very good for understanding."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -609,8 +593,7 @@
           {
             "Text": "source-map-explorer"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -647,8 +630,7 @@
           {
             "Text": " shows the same information but in a more useful way."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -672,8 +654,7 @@
           {
             "Text": "To use it:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -703,8 +684,7 @@
             "Text": "npm install -g source-map-explorer",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -728,8 +708,7 @@
           {
             "Text": "make sure that you generate JavaScript maps file"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -759,8 +738,7 @@
             "Text": "source-map-explorer dist/bundle.min.js dist/bundle.min.js.map",
             "AttrFlags": 2
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -784,8 +762,7 @@
           {
             "Text": "This will open the browser for you with the treemap visualization."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -809,8 +786,7 @@
           {
             "Text": "Analyzing dependency tree"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -834,8 +810,7 @@
           {
             "Text": "Disc and source-map-explorer can tell you what but not why."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -859,8 +834,7 @@
           {
             "Text": "When you see a JavaScript package that shouldn’t be there, you need to know why it’s there i.e. where it was imported from."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -884,8 +858,7 @@
           {
             "Text": "I haven’t found a tool that makes it easy, but it’s possible to create a primitive debug tool yourself."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -911,8 +884,7 @@
         "type": "code",
         "version": 1,
         "code": "var through = require('through2'),\n\nvar b = browserify(browserifyOpts);\nif (showDeps) {\n  // for debugging dump (flattened and inverted) dependency tree\n  // b is browserify instance\n  b.pipeline.get('deps').push(through.obj(\n  function(row, enc, next) {\n    // format of row is { id, file, source, entry, deps }\n    // deps is {} where key is module name and value is file it comes from\n    console.log(row.file || row.id);\n    for (let k in row.deps) {\n      const v = row.deps[k];\n      console.log('  ', k, ':', v);\n    }\n    next();\n  }));\n}",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -936,8 +908,7 @@
           {
             "Text": "This displays dependencies in the format:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -963,8 +934,7 @@
         "type": "code",
         "version": 1,
         "code": "/quicknotes/node_modules/react-dom/lib/LinkedValueUtils.js\n./reactProdInvariant : /quicknotes/node_modules/react-dom/lib/reactProdInvariant.js\n./ReactPropTypesSecret : /quicknotes/node_modules/react-dom/lib/ReactPropTypesSecret.js\nreact/lib/React : /quicknotes/node_modules/react/lib/React.js\nfbjs/lib/invariant : /quicknotes/node_modules/fbjs/lib/invariant.js\nfbjs/lib/warning : /quicknotes/node_modules/fbjs/lib/warning.js",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -988,8 +958,7 @@
           {
             "Text": "It’s not an ideal presentation but you can figure out who ultimately imports a given JavaScript file by chasing chain of imports."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1013,8 +982,7 @@
           {
             "Text": "Things I learned"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1038,8 +1006,7 @@
           {
             "Text": "How does it help in practice? Here are 2 examples of how I reduced JavaScript bundle bloat by using those tools."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1063,8 +1030,7 @@
           {
             "Text": "bloated highlight.js"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1126,8 +1092,7 @@
           {
             "Text": " library to do syntax highlighting for code snippets."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1151,8 +1116,7 @@
           {
             "Text": "Looking at output of source-map-explorer I noticed that highlight.js is 476 kB in size. That seemed excessive."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1194,8 +1158,7 @@
           {
             "Text": " would bundle all of."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1219,8 +1182,7 @@
           {
             "Text": "I only need to support small subset of most popular languages."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1244,8 +1206,7 @@
           {
             "Text": "One way to fix it would be to use https://highlightjs.org/download/ to generate a custom bundle. That would require repeating this manual step when I want to use the newer version."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1269,8 +1230,7 @@
           {
             "Text": "I settled on a hacky but more automated solution."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1330,8 +1290,7 @@
           {
             "Text": " which imports all languages."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1391,8 +1350,7 @@
           {
             "Text": " with my custom version."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1416,8 +1374,7 @@
           {
             "Text": "That way I can still use npm to manage the library and easily update to new version."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1441,8 +1398,7 @@
           {
             "Text": "The result? Saved 416 kB."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1466,8 +1422,7 @@
           {
             "Text": "bloated seedrandom.js"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1529,8 +1484,7 @@
           {
             "Text": " library."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1554,8 +1508,7 @@
           {
             "Text": "When inspecting our JavaScript bundle I noticed suspicious libraries in it, like asn1 decoder."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1579,8 +1532,7 @@
           {
             "Text": "I suspected our code doesn’t do asn1 decoding. Searching the codebase didn’t turn up any direct use."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1604,8 +1556,7 @@
           {
             "Text": "I speculated that it’s imported indirectly by some other library."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1647,8 +1598,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1672,8 +1622,7 @@
           {
             "Text": "This piece of code is a culprit:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1699,8 +1648,7 @@
         "type": "code",
         "version": 11,
         "code": "// When in node.js, try using crypto package for autoseeding.\n  try {\n    nodecrypto = require('crypto');\n  } catch (ex) {}",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -1724,8 +1672,7 @@
           {
             "Text": "Since node libraries are available during build step this line adds 294 kB of unneeded crypto code to our web app."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1749,8 +1696,7 @@
           {
             "Text": "The fix was to fork the repo and remove those lines."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1774,8 +1720,7 @@
           {
             "Text": "Automating things"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1817,8 +1762,7 @@
           {
             "Text": " I have in one of my projects:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1844,8 +1788,7 @@
         "type": "code",
         "version": 1,
         "code": "#!/usr/bin/env bash\nset -u -e -o pipefail\n\n# uses source-map-explorer (https://www.npmjs.com/package/source-map-explorer)\n# to visualize what modules end up in final javascript bundle.\n\ninstall_sme() {\n  if [ ! -f ./node_modules/.bin/source-map-explorer ]; then\n    npm install source-map-explorer\n  fi\n}\n\nanalyze_prod()\n{\n  rm -rf s/dist/*\n  install_sme\n\n  ./node_modules/.bin/gulp jsprod\n  ./node_modules/.bin/source-map-explorer s/dist/bundle.min.js s/dist/bundle.min.js.map\n}\n\nanalyze_prod",
-        "code_language": "Shell",
-        "format_video": null
+        "code_language": "Shell"
       },
       {
         "alive": true,
@@ -1923,8 +1866,7 @@
           {
             "Text": " for analysis."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Analyzing browserify bundles to minimize JavaScript bundle size",
@@ -1935,8 +1877,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

@@ -81,8 +81,7 @@
           {
             "Text": "Id: 204001"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -106,8 +105,7 @@
           {
             "Text": "Tags: python, go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -131,8 +129,7 @@
           {
             "Text": "Date: 2010-06-13T22:13:12-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -144,8 +141,7 @@
         "parent_id": "e07c513b-44ea-419b-acdb-a1b41e618d43",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -188,8 +184,7 @@
           {
             "Text": " was announced, I liked what I saw. However, to make an informed opinion about a programming language you really have to implement something in it, and that’s what I did."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -213,8 +208,7 @@
           {
             "Text": "The app"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -257,8 +251,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -282,8 +275,7 @@
           {
             "Text": "The app is relatively simple: it implements 5 REST points, each returning JSON-formatted data that it gets by executing other applications and converting their output to a data structure."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -307,8 +299,7 @@
           {
             "Text": "Concurrency"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -351,8 +342,7 @@
           {
             "Text": ")."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -376,8 +366,7 @@
           {
             "Text": "If there’s one feature where Go easily beats Python it’s concurrency. Mainstream languages, including Python, use threads for concurrency and locking for protecting shared data, which is error prone. In addition, threading in Python performs poorly due to GIL."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -401,8 +390,7 @@
           {
             "Text": "In web serving context, thread-per-connection way of handling HTTP requests is resource intensive so efficient Python web servers (like Tornado) are event driven."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -426,8 +414,7 @@
           {
             "Text": "The downside of that is that at any given time Tornado can process only one HTTP request. If that processing takes a long time, it blocks all other requests."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -451,8 +438,7 @@
           {
             "Text": "To fix the single-threaded nature of event driven web servers, people run several server processes behind an efficient, proxying web server like nginx, which increases the complexity of the overall solution."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -476,8 +462,7 @@
           {
             "Text": "In Go, writing concurrent code is more natural and efficiency of goroutines is much better than threads. That makes goroutine-per-connection way of handling HTTP requests more applicable even in heavily stressed applications."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -501,8 +486,7 @@
           {
             "Text": "Source code size"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -526,8 +510,7 @@
           {
             "Text": "Go is remarkably concise for a strongly typed language with C-like syntax. "
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -551,8 +534,7 @@
           {
             "Text": "Python code was about 1000 lines, Go rewrite about 1300 lines. I consider that a great result."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -576,8 +558,7 @@
           {
             "Text": "There are some things, like sorting vectors of structs, that require more code than in Python (one case where dynamic typing helps) but overall you can write very compact code in Go."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -601,8 +582,7 @@
           {
             "Text": "Speed and memory efficiency"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -626,8 +606,7 @@
           {
             "Text": "I haven’t measured. Generally speaking, Go is compiled to assembly code and its data structures don’t suffer Python’s terrible per-object overhead, so it should be more efficient in both speed and memory usage."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -651,8 +630,7 @@
           {
             "Text": "Other things I like about Go"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -676,8 +654,7 @@
           {
             "Text": "Go’s syntax is very C-like but it cleverly gets rid of one source of noise in C: semicolons. They are still there but they can be omitted in most cases (Go compiler figures out where a semicolon is supposed to be). It makes Go code look cleaner."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -701,8 +678,7 @@
           {
             "Text": "I like how classes were replaced by interfaces. They especially shine in i/o code and layered streams (e.g. a compressed stream that wraps encrypted stream that wraps stream from a file or network or memory). They’re easy to use from the client point of view and it’s easy to implement a new type of wrapper (e.g. using a new encryption algorithm or new compression scheme)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -726,8 +702,7 @@
           {
             "Text": "Another nice property of Go is how it minimizes indentation (compared to e.g. C++ code or Java code)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -751,8 +726,7 @@
           {
             "Text": "C and C++ suffer from big variations in programming style which makes combining two code bases written in different styles or reading code in a different style that you’re used to hard."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -776,8 +750,7 @@
           {
             "Text": "Python solved this problem well by requiring white space for indentation instead of free-form braces."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -819,8 +792,7 @@
           {
             "Text": " program, which will reformat the code in a way consistent with official Go style. Go’s standard library code uses this style and most developers writing their own libraries seem to have adopted that as well, to play nice with the ecosystem."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -844,8 +816,7 @@
           {
             "Text": "Conclusion"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -869,8 +840,7 @@
           {
             "Text": "Overall, the experience was positive and I would seriously consider using Go for writing server side of web applications. It provides a right balance between speed and memory efficiency of the running code (much closer to C than to e.g. Python) and speed of development (much closer to Python than to C)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -894,8 +864,7 @@
           {
             "Text": "It’s also reasonable to expect that it’ll only get better in the future. While Google doesn’t devote a huge team to Go, those who are on the team have demonstrated in the past that they know how to get things done."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -919,8 +888,7 @@
           {
             "Text": "Go is used internally at Google, so it won’t be abandoned."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -944,8 +912,7 @@
           {
             "Text": "As far as open-source projects go, this one is well managed i.e. Go team encourages outside code contributions and is quite speedy in reviewing and committing external patches."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Go vs. Python for a simple web server ",
@@ -956,8 +923,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

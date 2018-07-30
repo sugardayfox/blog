@@ -74,8 +74,7 @@
           {
             "Text": "Id: 928"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -99,8 +98,7 @@
           {
             "Text": "Tags: programming"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -124,8 +122,7 @@
           {
             "Text": "Date: 2006-01-13T15:42:02-08:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -149,8 +146,7 @@
           {
             "Text": "Status: hidden"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -162,8 +158,7 @@
         "parent_id": "35c1b26d-b48c-4de1-884d-b5f963a4bd93",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -187,8 +182,7 @@
           {
             "Text": "This is a debugging story and the lessons learned."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -249,8 +243,7 @@
           {
             "Text": "."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -274,8 +267,7 @@
           {
             "Text": "That’s how I called it:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -301,8 +293,7 @@
         "type": "code",
         "version": 1,
         "code": "hr = MailSwitchToAccount(_T(\"SMS\"));",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -326,8 +317,7 @@
           {
             "Text": "Visual Studio 2005 refused to link the app, claiming that:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -353,8 +343,7 @@
         "type": "code",
         "version": 1,
         "code": "TestDevice.obj : error LNK2019: unresolved external symbol\n\"long __cdecl MailSwitchToAccount(wchar_t const *,unsigned long)\"\n(?MailSwitchToAccount@@YAJPB_WK@Z) referenced in function \"void\n__cdecl OnMailSwitchToAccount(void)\" (?OnMailSwitchToAccount@@YAXXZ)",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -378,8 +367,7 @@
           {
             "Text": "My first thought was that this symbol is simply missing from cemapi.lib. So I used dumpbin.exe (part of Visual Studio tools) to dump all symbols exported from cemapi.lib:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -405,8 +393,7 @@
         "type": "code",
         "version": 1,
         "code": "dumpbin -exports cemapi.lib",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -430,8 +417,7 @@
           {
             "Text": "I found that it does have MailSwitchToAccount:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -457,8 +443,7 @@
         "type": "code",
         "version": 1,
         "code": "?MailSwitchToAccount@@YAJPBGK@Z (long __cdecl\nMailSwitchToAccount(unsigned short const *,unsigned long))",
-        "code_language": "Plain Text",
-        "format_video": null
+        "code_language": "Plain Text"
       },
       {
         "alive": true,
@@ -554,8 +539,7 @@
           {
             "Text": " which is also UNICODE char."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -615,8 +599,7 @@
           {
             "Text": " in Windows’ case)."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -640,8 +623,7 @@
           {
             "Text": "And indeed, there it was, in project properties, C/C++/Language there’s an option “Treat wchar_t as Built-in Type”, set by default to Yes."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -683,8 +665,7 @@
           {
             "Text": " to cl.exe."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -744,8 +725,7 @@
           {
             "Text": " which forces everyone who links to them also be compiled like that."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -769,8 +749,7 @@
           {
             "Text": "Lessons learned:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -794,8 +773,7 @@
           {
             "Text": "C++ is evil"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -819,8 +797,7 @@
           {
             "Text": "dumpbin.exe is your friend"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -844,8 +821,7 @@
           {
             "Text": "Visual Studio’s code browsing is your friend (it’s easy to find out what a given typedef or #define really is)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -869,8 +845,7 @@
           {
             "Text": "be aware of “wchar_t as built-in type or not” issue"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -925,8 +900,7 @@
           {
             "Text": ". Good news is that it will probably be fixed in future versions of Visual Studio."
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Debugging adventure",
@@ -937,8 +911,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

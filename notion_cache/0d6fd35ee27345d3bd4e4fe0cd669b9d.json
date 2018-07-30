@@ -49,8 +49,7 @@
           {
             "Text": "How to see which files are being processed:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -76,8 +75,7 @@
         "type": "code",
         "version": 0,
         "code": "var debug = require('gulp-debug');\n\ngulp.task('css', function() {\n  return gulp.src('./sass/*.scss')\n    .pipe(debug())\n    .pipe(sourcemaps.init())",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -101,8 +99,7 @@
           {
             "Text": "It's more complicated for browserify:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -128,8 +125,7 @@
         "type": "code",
         "version": 0,
         "code": "var browserify = require('browserify');\n\ngulp.task('js', function() {\n  var opts = {\n    entries: ['js/App.tsx'],\n    debug: true\n  };\n  browserify(opts)\n    .on('dep', function(dep) {\n      console.log(dep.file);\n    })\n    .plugin(\"tsify\", tsify_opts)\n    .transform(babelify, babelify_opts)\n    .bundle()\n    .pipe(exorcist('s/dist/bundle.js.map'))\n    .pipe(source('bundle.js'))\n    .pipe(gulp.dest('s/dist'));\n});",
-        "code_language": "Javascript",
-        "format_video": null
+        "code_language": "Javascript"
       },
       {
         "alive": true,
@@ -171,8 +167,7 @@
           {
             "Text": " pipe."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -184,12 +179,10 @@
         "parent_id": "0d6fd35e-e273-45d3-bd4e-4fe0cd669b9d",
         "parent_table": "block",
         "type": "text",
-        "version": 0,
-        "format_video": null
+        "version": 0
       }
     ],
-    "title": "gulp",
-    "format_video": null
+    "title": "gulp"
   },
   "Users": [
     {

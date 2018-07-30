@@ -71,8 +71,7 @@
             "Text": "https://github.com/wsargent/docker-cheat-sheet",
             "Link": "https://github.com/wsargent/docker-cheat-sheet"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -165,8 +164,7 @@
                     "Text": "docker run --rm -it --name=name -p \u003chost\u003e:\u003ccontainer\u003e -v \u003chost\u003e:\u003ccontainer\u003e \u003cimage\u003e \u003ccmd\u003e",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -190,8 +188,7 @@
                   {
                     "Text": "Options:"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -227,8 +224,7 @@
                   {
                     "Text": " : delete when finished running"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -264,8 +260,7 @@
                   {
                     "Text": " : interactive and allocate tty (needed when running interactive commands like bash)"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -301,8 +296,7 @@
                   {
                     "Text": " : run in background"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -356,8 +350,7 @@
                   {
                     "Text": " exposes port 80 inside the container as port 3333 in the host"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -449,8 +442,7 @@
                       {
                         "Text": " for read-write"
                       }
-                    ],
-                    "format_video": null
+                    ]
                   }
                 ],
                 "inline_content": [
@@ -465,8 +457,7 @@
                     "Text": "-v $(pwd)/..:/opt/script:ro",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -502,8 +493,7 @@
                   {
                     "Text": " : run as root"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -527,8 +517,7 @@
                   {
                     "Text": "Notes:"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -582,8 +571,7 @@
                   {
                     "Text": " are often used to run ad-hoc commands"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -631,16 +619,14 @@
                     "Text": "docker stop \u003ccontainer\u003e",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "run"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -698,16 +684,14 @@
                   {
                     "Text": " : start a container that exited/is stopped"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "start"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -765,16 +749,14 @@
                   {
                     "Text": " : stops a container"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "stop"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -828,8 +810,7 @@
                     "Text": "docker exec -it \u003ccontainer\u003e /bin/bash",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -865,8 +846,7 @@
                   {
                     "Text": " : allocate tty (needed for interactive programs like bash)"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -902,16 +882,14 @@
                   {
                     "Text": " : interactive mode"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "exec"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -970,8 +948,7 @@
                   {
                     "Text": " : list images"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1007,16 +984,14 @@
                   {
                     "Text": " : include intermediary containers"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "images"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1076,8 +1051,7 @@
                   {
                     "Text": " : build an image from Dockerfile description"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1113,8 +1087,7 @@
                   {
                     "Text": " : name of docker file (Dockerfile by default)"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1150,16 +1123,14 @@
                   {
                     "Text": " : tag with ${repository}:${tag}, ${tag} is optional"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "build"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1218,8 +1189,7 @@
                   {
                     "Text": " : list containers"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1255,16 +1225,14 @@
                   {
                     "Text": " : list exited containers"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "ps"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1322,16 +1290,14 @@
                   {
                     "Text": " : remove a container"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "rm"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1389,16 +1355,14 @@
                   {
                     "Text": " : remove an image"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "rmi"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1456,24 +1420,21 @@
                   {
                     "Text": " : list info about a container as json"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "inspect"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "docker commands"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -1559,8 +1520,7 @@
                     "Text": "docker build -t ${imageTag} -f Dockerfile .",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1615,8 +1575,7 @@
                     "Text": "https://store.docker.com/images/ubuntu",
                     "Link": "https://store.docker.com/images/ubuntu"
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1652,8 +1611,7 @@
                     "Text": "docker images",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1689,8 +1647,7 @@
                     "Text": "docker rmi ${imageTag}",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1726,8 +1683,7 @@
                     "Text": "docker rmi $(docker images | grep none | awk '{print $3}')",
                     "AttrFlags": 2
                   }
-                ],
-                "format_video": null
+                ]
               },
               {
                 "alive": true,
@@ -1789,8 +1745,7 @@
                         "Text": "https://store.docker.com/images/golang",
                         "Link": "https://store.docker.com/images/golang"
                       }
-                    ],
-                    "format_video": null
+                    ]
                   },
                   {
                     "alive": true,
@@ -1814,8 +1769,7 @@
                       {
                         "Text": "ubuntu:16:04"
                       }
-                    ],
-                    "format_video": null
+                    ]
                   },
                   {
                     "alive": true,
@@ -1839,8 +1793,7 @@
                       {
                         "Text": "debian:latest"
                       }
-                    ],
-                    "format_video": null
+                    ]
                   },
                   {
                     "alive": true,
@@ -1877,24 +1830,21 @@
                         "Text": "https://store.docker.com/images/buildpack-deps",
                         "Link": "https://store.docker.com/images/buildpack-deps"
                       }
-                    ],
-                    "format_video": null
+                    ]
                   }
                 ],
                 "inline_content": [
                   {
                     "Text": "interesting images"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "image"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -1940,24 +1890,21 @@
                   {
                     "Text": "an image that is running"
                   }
-                ],
-                "format_video": null
+                ]
               }
             ],
             "inline_content": [
               {
                 "Text": "container"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "docker concepts"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2013,8 +1960,7 @@
                 "Text": "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a",
                 "Link": "https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2038,8 +1984,7 @@
               {
                 "Text": "Basically a single docker file can have stages, first stage builds the thing, second stage copies only needed files to a fresh image. Available since 17.05.0 (currently requires beta channel on Mac)"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2065,8 +2010,7 @@
             "type": "code",
             "version": 0,
             "code": "# build stage\nFROM golang:alpine AS build-env\nADD . /src\nRUN cd /src \u0026\u0026 go build -o goapp\n\n# final stage\nFROM alpine\nWORKDIR /app\nCOPY --from=build-env /src/goapp /app/\nEXPOSE 80\nENTRYPOINT ./goapp",
-            "code_language": "Plain Text",
-            "format_video": null
+            "code_language": "Plain Text"
           },
           {
             "alive": true,
@@ -2090,16 +2034,14 @@
               {
                 "Text": "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "multi-stage builds for smaller images"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2159,8 +2101,7 @@
               {
                 "Text": " is an example of using 2 stage to build in golang image and run in scratch image"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2191,16 +2132,14 @@
                 "Text": "https://ops.tips/blog/dockerfile-golang/",
                 "Link": "https://ops.tips/blog/dockerfile-golang/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "smallest image for Go (scratch)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2253,16 +2192,14 @@
                 "Text": "https://scene-si.org/2016/03/12/networking-basics-with-docker/",
                 "Link": "https://scene-si.org/2016/03/12/networking-basics-with-docker/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "networking"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2316,8 +2253,7 @@
                 "Text": "http://jonathan.bergknoff.com/journal/building-better-docker-images",
                 "Link": "http://jonathan.bergknoff.com/journal/building-better-docker-images"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2348,16 +2284,14 @@
                 "Text": "https://advancedweb.hu/2018/07/03/supervisor_docker/",
                 "Link": "https://advancedweb.hu/2018/07/03/supervisor_docker/"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "articles"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2409,16 +2343,14 @@
                 "Text": "docker rmi $(docker images | grep none | awk '{print $3}')",
                 "AttrFlags": 2
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "delete untagged images"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2483,8 +2415,7 @@
               {
                 "Text": ". That will keep container alive"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2521,16 +2452,14 @@
                 "Text": "https://store.docker.com/profiles/kjksf/content",
                 "Link": "https://store.docker.com/profiles/kjksf/content"
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "tips"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -2585,8 +2514,7 @@
               {
                 "Text": "Scenario: container-2 needs to talk to a port exposed by container-1"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2610,8 +2538,7 @@
               {
                 "Text": "Version 1:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2653,8 +2580,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2696,8 +2622,7 @@
               {
                 "Text": " which shares "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2728,8 +2653,7 @@
                 "Text": "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/",
                 "Link": "http://www.dasblinkenlichten.com/docker-networking-101-host-mode/"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2753,8 +2677,7 @@
               {
                 "Text": "Version 2:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2796,8 +2719,7 @@
               {
                 "Text": " "
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2893,8 +2815,7 @@
               {
                 "Text": "  as ip address"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2918,8 +2839,7 @@
               {
                 "Text": "Version 3:"
               }
-            ],
-            "format_video": null
+            ]
           },
           {
             "alive": true,
@@ -2979,16 +2899,14 @@
               {
                 "Text": " in the network so container-2 can use it. Only valid in  "
               }
-            ],
-            "format_video": null
+            ]
           }
         ],
         "inline_content": [
           {
             "Text": "allowing 2 containers to communicate i.e. networking"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -3000,8 +2918,7 @@
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "type": "text",
-        "version": 4,
-        "format_video": null
+        "version": 4
       }
     ],
     "title": "Docker",
@@ -3012,8 +2929,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {

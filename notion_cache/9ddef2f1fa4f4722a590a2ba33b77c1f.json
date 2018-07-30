@@ -63,8 +63,7 @@
           {
             "Text": "Id: 256002"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -88,8 +87,7 @@
           {
             "Text": "Tags: programming, c#, python"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -113,8 +111,7 @@
           {
             "Text": "Date: 2010-07-25T17:48:00-07:00"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -126,8 +123,7 @@
         "parent_id": "9ddef2f1-fa4f-4722-a590-a2ba33b77c1f",
         "parent_table": "block",
         "type": "text",
-        "version": 3,
-        "format_video": null
+        "version": 3
       },
       {
         "alive": true,
@@ -151,8 +147,7 @@
           {
             "Text": "When you write an auto-update system for desktop software, you need code that compares two version numbers (given as strings) and tells you which version is greater."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -176,8 +171,7 @@
           {
             "Text": "This would be simple if we could stick with a simple version naming scheme e.g. we could say that a version number is just an integer (1, 2 etc.) in which case it would be as simple as converting a string to an integer and comparing those integers."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -201,8 +195,7 @@
           {
             "Text": "Version numbers in real life are more complicated. They can be multi-part (e.g. “1.2.32). We have notions of alpha and beta builds etc. Writing code to compare such program version numbers seem daunting."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -226,8 +219,7 @@
           {
             "Text": "There is, however, a relatively simple algorithm that supports multi-level version numbers and notions of alpha, beta and rc builds. Among other things, it knows the following relations between program numbers:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -251,8 +243,7 @@
           {
             "Text": "1.1 \u003e 1.0"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -276,8 +267,7 @@
           {
             "Text": "1.0.38 \u003e 1.0.5"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -301,8 +291,7 @@
           {
             "Text": "1.1 \u003e 1.1rc \u003e 1.1b \u003e 1.1a (‘a’ stands for alpha builds, ‘b’ for beta and ‘rc’ for, well, rc builds)"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -326,8 +315,7 @@
           {
             "Text": "The algorithm is quite clever but instead of describing it, I’ll just include the Python and C# implementations. I wrote them myself and I put the code into public domain, so you can use it any way you want. I use C# implementation in my desktop software."
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -351,8 +339,7 @@
           {
             "Text": "Go to:"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -383,8 +370,7 @@
             "Text": "Python implementation",
             "Link": "http://gist.github.com/458188"
           }
-        ],
-        "format_video": null
+        ]
       },
       {
         "alive": true,
@@ -415,8 +401,7 @@
             "Text": "C# implementation",
             "Link": "http://gist.github.com/458186"
           }
-        ],
-        "format_video": null
+        ]
       }
     ],
     "title": "Comparing program versions (in C# and Python) ",
@@ -427,8 +412,7 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    },
-    "format_video": null
+    }
   },
   "Users": [
     {
