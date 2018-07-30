@@ -60,7 +60,8 @@
           {
             "Text": "Id: 1307"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -84,7 +85,8 @@
           {
             "Text": "Tags: .net,c#,win32,winforms"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -108,7 +110,8 @@
           {
             "Text": "Date: 2005-12-31T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -132,7 +135,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -144,7 +148,8 @@
         "parent_id": "57c57c00-99f1-43c5-8a89-4847a3dda035",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -168,7 +173,8 @@
           {
             "Text": "Windows defines a number of directories for specific things."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +198,8 @@
           {
             "Text": "One of those directories is a directory that a well-behaved Windows application should use to store user-specific data (e.g. a list of recently open documents by this user, customization information etc.)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -252,7 +259,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -348,7 +356,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -372,7 +381,8 @@
           {
             "Text": "Adding version number is a mistake. When user upgrades the application, he doesn’t want to loose his settings and customizations."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -414,7 +424,8 @@
           {
             "Text": " and append your application name, like this:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -440,7 +451,8 @@
         "type": "code",
         "version": 1,
         "code": "class Util\n{\n    static public string GetUserDataPath()\n    {\n        string dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);\n        dir = System.IO.Path.Combine(dir, \"MySoftware\");\n        if (!Directory.Exists(dir))\n            Directory.CreateDirectory(dir);\n        return dir;\n    }\n}",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
     "title": "Getting user-specific application data directory for .NET WinForms apps",
@@ -451,7 +463,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

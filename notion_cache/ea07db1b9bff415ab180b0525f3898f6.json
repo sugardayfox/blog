@@ -76,7 +76,7 @@
     },
     "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532125676550,
+    "last_edited_time": 1532923513091,
     "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
     "parent_table": "block",
     "properties": {
@@ -87,7 +87,7 @@
       ]
     },
     "type": "page",
-    "version": 371,
+    "version": 374,
     "content_resolved": [
       {
         "alive": true,
@@ -111,7 +111,8 @@
           {
             "Text": "Date: 2018-07-18"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -123,7 +124,8 @@
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       },
       {
         "alive": true,
@@ -160,7 +162,8 @@
           {
             "Text": " is a node.js library that makes it easy to do advanced web scraping and spidering."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -184,7 +187,8 @@
           {
             "Text": "Older generation of web scraping and spidering tools would grab and analyze HTML pages as returned by a web server."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -208,7 +212,8 @@
           {
             "Text": "It doesn't work well anymore because less and less website are static HTML pages. Today websites are often applications written in JavaScript that generate HTML on the client, not the server."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -232,7 +237,8 @@
           {
             "Text": "To get the final HTML output your scraper needs to run that JavaScript."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -256,7 +262,8 @@
           {
             "Text": "That used to be very difficult but Puppeteer makes it easy."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -299,7 +306,8 @@
           {
             "Text": ") to access the webpage."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -323,7 +331,8 @@
           {
             "Text": "This article describes some more advanced techniques but let's start with basic example first."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -347,7 +356,8 @@
           {
             "Text": "Save web page to a file"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -371,7 +381,8 @@
           {
             "Text": "First  install the library: "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -407,7 +418,8 @@
           {
             "Text": " when using yarn"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -443,7 +455,8 @@
           {
             "Text": " when using npm"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -455,7 +468,8 @@
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "type": "text",
-        "version": 16
+        "version": 16,
+        "format_video": null
       },
       {
         "alive": true,
@@ -479,7 +493,8 @@
           {
             "Text": "This is the simplest possible usage of Puppeteer:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -503,7 +518,8 @@
           {
             "Text": "navigate to a page of interest"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -527,7 +543,8 @@
           {
             "Text": "get content of the webpage as HTML and save it to a file"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -553,7 +570,8 @@
         "type": "code",
         "version": 703,
         "code": "const puppeteer = require(\"puppeteer\");\nconst fs = require(\"fs\");\n\nasync function run() {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n\tawait page.goto(\"https://www.google.com/\", { waitUntil: \"networkidle2\" });\n\t// hacky defensive move but I don't know a better way:\n\t// wait a bit so that the browser finishes executing JavaScript\n\tawait page.waitFor(1 * 1000);\n\tconst html = await page.content();\n\tfs.writeFileSync(\"index.html\", html);\n\tawait browser.close();\n}\n\nrun();",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -565,7 +583,8 @@
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -589,7 +608,8 @@
           {
             "Text": "Handling failures"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -613,7 +633,8 @@
           {
             "Text": "What if a url you tried to load didn't exist?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -655,7 +676,8 @@
           {
             "Text": " in the response. The above script would treat such page as a perfectly valid response."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -679,7 +701,8 @@
           {
             "Text": "Most times you want to handle this as an error case. "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -739,7 +762,8 @@
           {
             "Text": " Ok response."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -835,7 +859,8 @@
           {
             "Text": " indicate successful redirection."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -877,7 +902,8 @@
           {
             "Text": " hook for intercepting HTTP requests before they happen as well as inspecting completed HTTP responses."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -901,7 +927,8 @@
           {
             "Text": "Here's a program that prints information about all HTTP requests and responses:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -927,7 +954,8 @@
         "type": "code",
         "version": 414,
         "code": "const puppeteer = require(\"puppeteer\");\n\nasync function run() {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n\tconst mainUrl = \"https://blog.kowalczyk.info/pas\"\n\tlet mainUrlStatus;\n  await page.setRequestInterception(true);\n  page.on(\"request\", request =\u003e {\n    const url = request.url();\n    console.log(\"request url:\", url);\n    request.continue();\n  });\n  page.on(\"requestfailed\", request =\u003e {\n    const url = request.url();\n    console.log(\"request failed url:\", url);\n  });\n  page.on(\"response\", response =\u003e {\n    const request = response.request();\n    const url = request.url();\n    const status = response.status();\n    console.log(\"response url:\", url, \"status:\", status);\n\t\tif (url === mainUrl) {\n\t\t\tmainUrlStatus = status;\n\t\t}\n  });\n  await page.goto(mainUrl);\n\tconsole.log(\"status for main url:\", mainUrlStatus);\n  const html = await page.content();\n  await browser.close();\n}\n\nrun();",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -951,7 +979,8 @@
           {
             "Text": "Here's what it'll print:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -977,7 +1006,8 @@
         "type": "code",
         "version": 24,
         "code": "$ node test.js\nrequest url: https://blog.kowalczyk.info/pas\nresponse url: https://blog.kowalczyk.info/pas status: 404\nrequest url: https://fonts.googleapis.com/css?family=Roboto:400,700\u0026subset=latin,latin-ext\nresponse url: https://fonts.googleapis.com/css?family=Roboto:400,700\u0026subset=latin,latin-ext status: 200\nrequest url: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc9AMP6lQ.ttf\nrequest url: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxPKTU1Kg.ttf\nresponse url: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxPKTU1Kg.ttf status: 200\nresponse url: https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc9AMP6lQ.ttf status: 200\nstatus for main url: 404",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1019,7 +1049,8 @@
           {
             "Text": " hook."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1055,7 +1086,8 @@
           {
             "Text": " hook is for errors on network connection level e.g. DNS resolution failed, there's not network at all, network connection got interrupted etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1097,7 +1129,8 @@
           {
             "Text": " from inside the browser"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1121,7 +1154,8 @@
           {
             "Text": "Your JavaScript code is executed in two different contexts:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1163,7 +1197,8 @@
           {
             "Text": " prints to shell"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1223,7 +1258,8 @@
           {
             "Text": " prints to browser console, which you can't see."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1265,7 +1301,8 @@
           {
             "Text": " prints in the browser, you can hook it and re-log to shell:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1291,7 +1328,8 @@
         "type": "code",
         "version": 508,
         "code": "const browser = await puppeteer.launch();\nconst page = await browser.newPage();\nconst url = \"https://blog.kowalczyk.info/\";\n\n// this hooks `console.log()` in the browser\npage.on(\"console\", msg =\u003e {\n  console.log(\"The whole message:\", msg.text());\n  console.log(\"\\nEach argument:\");\n  for (let arg of msg.args()) {\n    // arg is a Promise returning value of type JSHandle\n    // https://pptr.dev/#?product=Puppeteer\u0026show=api-class-jshandle\n    arg.jsonValue().then(v =\u003e {\n      console.log(v);\n    });\n  }\n});\nawait page.goto(url);\nawait page.evaluate(() =\u003e {\n  // This is executed inside the browser so not visible in our script\n  // unless we hook 'console' events\n  console.log(\"Message from the browser\", 5);\n});\nawait browser.close();",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1315,7 +1353,8 @@
           {
             "Text": "Quickly testing evaluate scripts"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1357,7 +1396,8 @@
           {
             "Text": " because you have to re-run the browser, load the page etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1381,7 +1421,8 @@
           {
             "Text": "To test scripts faster I test them directly in the browser, using excellent Chrome dev tools."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1405,7 +1446,8 @@
           {
             "Text": "My process is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1429,7 +1471,8 @@
           {
             "Text": "prepare the script, in IIFE form, in the editor"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1453,7 +1496,8 @@
           {
             "Text": "copy\u0026paste in console window in Chrome dev tools"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1477,7 +1521,8 @@
           {
             "Text": "What is IIFE form? To avoid conflicts with JavaScripts state from previous runs I wrap the code inside Immediately Invoked Function Expression:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1503,7 +1548,8 @@
         "type": "code",
         "version": 878,
         "code": "function() {\n  // code here is isolated from things outside this function\n  console.log(\"My script\");\n  // ... my script\n\n\t// when debugging I can trigger JavaScript debugger from inside the script\n\t// with debugger statement:\n\tdebugger;\n}() // immediately invoke the function\n",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1527,7 +1573,8 @@
           {
             "Text": "It's faster to iterate on code this way and I can also use JavaScript debugger."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1569,7 +1616,8 @@
           {
             "Text": " statement to the script."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1593,7 +1641,8 @@
           {
             "Text": "That's useful because it's impossible to set breakpoints manually in code pasted into console."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1617,7 +1666,8 @@
           {
             "Text": "Study Puppeteer API"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1641,7 +1691,8 @@
           {
             "Text": "Now that you've seen a few advanced uses of Puppeteer, you should study its API a bit to learn what else is possible. CDP is very powerful:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1678,7 +1729,8 @@
           {
             "Text": " allows hooking many other events, reading and setting cookies, simulating interaction like mouse clicks etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1715,7 +1767,8 @@
           {
             "Text": " allows creating a trace file for future inspection in Chrome DevTools"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1752,7 +1805,8 @@
           {
             "Text": " allows interacting with Web Workers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1789,7 +1843,8 @@
           {
             "Text": " allows getting JavaScript and CSS coverage"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1826,7 +1881,8 @@
           {
             "Text": " allows simulating keyboard events"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1850,7 +1906,8 @@
           {
             "Text": "Other CDP tools and libraries"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1893,7 +1950,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1905,7 +1963,8 @@
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       }
     ],
     "title": "Advanced web spidering with Puppeteer",
@@ -1917,7 +1976,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F33ab29b8-fd6f-455e-9b69-2912fb2b4b7a%2Fheader-22.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

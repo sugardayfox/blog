@@ -92,7 +92,8 @@
               {
                 "Text": "  is what describes cmake file"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -164,7 +165,8 @@
               {
                 "Text": ") directory"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -254,7 +256,8 @@
               {
                 "Text": " ,"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -290,7 +293,8 @@
               {
                 "Text": "  : run trace, which shows all variables set (for debugging)"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -328,7 +332,8 @@
             "type": "code",
             "version": 0,
             "code": "# this is how to de-obfuscate build commands i.e. see what commands are being executed\n# ",
-            "code_language": "Shell"
+            "code_language": "Shell",
+            "format_video": null
           },
           {
             "alive": true,
@@ -406,14 +411,16 @@
               {
                 "Text": "  (or just the commends)"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Running cmake"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -489,14 +496,16 @@
                 "type": "code",
                 "version": 0,
                 "code": "cmake_minimum_required (VERSION 3.8)\nproject (djvu)\nset(CMAKE_BUILD_TYPE Release)\ninclude_directories(\"libdjvu\")\nadd_executable(djvudump tools/djvudump.cpp)",
-                "code_language": "Plain Text"
+                "code_language": "Plain Text",
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "basic structure of CMakeLists.txt file"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -566,7 +575,8 @@
                   {
                     "Text": " affect what happens. You can define your own variables (e.g. to define a list of files to compile)."
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -638,7 +648,8 @@
                   {
                     "Text": "."
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -722,7 +733,8 @@
                     "Text": "*.cpp",
                     "AttrFlags": 2
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -758,7 +770,8 @@
                   {
                     "Text": "  refers to a variable."
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -800,7 +813,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -812,14 +826,16 @@
                 "parent_id": "db1d60e0-f8d0-4e64-baef-c136c20a2555",
                 "parent_table": "block",
                 "type": "text",
-                "version": 0
+                "version": 0,
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "using variables"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -895,14 +911,16 @@
                   {
                     "Text": "directory to list of directories compiler will search for include files (.h etc.)."
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "C++ include directories"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -996,14 +1014,16 @@
                   {
                     "Text": " will build a static library."
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "building a library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1098,7 +1118,8 @@
                   {
                     "Text": " . Cmake figures out from .cpp extension that this is C++ binary and will use C++ rules to compile and link the executable."
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1188,14 +1209,16 @@
                   {
                     "Text": " command)"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "building an executable"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1256,7 +1279,8 @@
                   {
                     "Text": "  "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1292,7 +1316,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1328,7 +1353,8 @@
                   {
                     "Text": "  : only for a specific target (e.g. a specific library of executable)"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1364,14 +1390,16 @@
                   {
                     "Text": "  : only for a specific file"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "setting C pre-processor defines"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1426,7 +1454,8 @@
                     "Text": "https://stackoverflow.com/questions/6594796/how-do-i-make-cmake-output-into-a-bin-dir",
                     "Link": "https://stackoverflow.com/questions/6594796/how-do-i-make-cmake-output-into-a-bin-dir"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1450,7 +1479,8 @@
                   {
                     "Text": "By default cmake creates libraries/executables in top-level directory. You can change it by setting those variables:"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1476,21 +1506,24 @@
                 "type": "code",
                 "version": 0,
                 "code": "set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)\nset(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)\nset(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)",
-                "code_language": "Javascript"
+                "code_language": "Javascript",
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "changing output directory"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Cmake basics"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1545,7 +1578,8 @@
                 "Text": "https://cmake.org/Wiki/CMake_Useful_Variables#Compilers_and_Tools",
                 "Link": "https://cmake.org/Wiki/CMake_Useful_Variables#Compilers_and_Tools"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1576,7 +1610,8 @@
                 "Text": "https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html",
                 "Link": "https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1623,7 +1658,8 @@
                   {
                     "Text": "Only applies to single-configuration generators (e.g. make, ninja as opposed to e.g. msvc)."
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1647,21 +1683,24 @@
                   {
                     "Text": "Effect: e.g. if is Debug, CMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "CMAKE_BUILD_TYPE : empty, Debug, Release, RelWithDebInfo and MinSizeRel"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Important cmake variables"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1733,7 +1772,8 @@
                 "Text": "https://codingnest.com/basic-cmake/#fnref6",
                 "Link": "https://codingnest.com/basic-cmake/#fnref6"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1764,7 +1804,8 @@
                 "Text": "https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/",
                 "Link": "https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1801,7 +1842,8 @@
               {
                 "Text": " : effective CMake"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1838,7 +1880,8 @@
               {
                 "Text": " : modern CMake template for C++ cross-platform apps"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1869,7 +1912,8 @@
                 "Text": "http://thetoeb.de/2016/08/30/modern-cmake-presentation/",
                 "Link": "http://thetoeb.de/2016/08/30/modern-cmake-presentation/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1900,7 +1944,8 @@
                 "Text": "http://derekmolloy.ie/hello-world-introductions-to-cmake/",
                 "Link": "http://derekmolloy.ie/hello-world-introductions-to-cmake/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1931,7 +1976,8 @@
                 "Text": "https://www.slideshare.net/DanielPfeifer1/cmake-48475415",
                 "Link": "https://www.slideshare.net/DanielPfeifer1/cmake-48475415"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1962,7 +2008,8 @@
                 "Text": "https://rix0r.nl/blog/2015/08/13/cmake-guide/",
                 "Link": "https://rix0r.nl/blog/2015/08/13/cmake-guide/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1993,7 +2040,8 @@
                 "Text": "http://preshing.com/20170511/how-to-build-a-cmake-based-project/",
                 "Link": "http://preshing.com/20170511/how-to-build-a-cmake-based-project/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2024,7 +2072,8 @@
                 "Text": "http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/",
                 "Link": "http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2055,7 +2104,8 @@
                 "Text": "https://asmbits.blogspot.com/2017/06/idiomatic-cmake.html",
                 "Link": "https://asmbits.blogspot.com/2017/06/idiomatic-cmake.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2086,7 +2136,8 @@
                 "Text": "http://www.goodbits.ca/index.php/2017/09/25/building-an-apple-osx-kernel-module-with-cmake-cc/",
                 "Link": "http://www.goodbits.ca/index.php/2017/09/25/building-an-apple-osx-kernel-module-with-cmake-cc/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2117,7 +2168,8 @@
                 "Text": "https://github.com/buggins/coolreader/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/buggins/coolreader/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2148,7 +2200,8 @@
                 "Text": "https://github.com/koreader/koreader-base/blob/e1974cbc8841dbdff2f837da1d2cde6ec6b107e3/thirdparty/djvulibre/CMakeLists.txt",
                 "Link": "https://github.com/koreader/koreader-base/blob/e1974cbc8841dbdff2f837da1d2cde6ec6b107e3/thirdparty/djvulibre/CMakeLists.txt"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2179,7 +2232,8 @@
                 "Text": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2210,7 +2264,8 @@
                 "Text": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
                 "Link": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2241,7 +2296,8 @@
                 "Text": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2272,7 +2328,8 @@
                 "Text": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
                 "Link": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2303,7 +2360,8 @@
                 "Text": "https://github.com/webmproject/libwebm/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/webmproject/libwebm/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2334,14 +2392,16 @@
                 "Text": "http://bastian.rieck.me/blog/posts/2018/cmake_tips/",
                 "Link": "http://bastian.rieck.me/blog/posts/2018/cmake_tips/"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2400,7 +2460,8 @@
               {
                 "Text": "Links:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2431,7 +2492,8 @@
                 "Text": "http://stackoverflow.com/questions/2368811/how-to-set-warning-level-in-cmake",
                 "Link": "http://stackoverflow.com/questions/2368811/how-to-set-warning-level-in-cmake"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2468,7 +2530,8 @@
               {
                 "Text": " : useful stuff for windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2499,7 +2562,8 @@
                 "Text": "https://rix0r.nl/blog/2015/08/13/cmake-guide/",
                 "Link": "https://rix0r.nl/blog/2015/08/13/cmake-guide/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2530,7 +2594,8 @@
                 "Text": "http://www.slideshare.net/DanielPfeifer1/cmake-48475415",
                 "Link": "http://www.slideshare.net/DanielPfeifer1/cmake-48475415"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2550,7 +2615,8 @@
             },
             "type": "code",
             "version": 0,
-            "code": "# comment\ncmake_minimum_required(VERSION 2.8)\n\nmessage(STATUS \"this is a message, for debugging\")\n\n# in Visual Studio this is .sln solution. In Xcode, this is .xcodeproj\n# in make and ninja, this is a target\nproject(all)\n\n## building a static library\n\n# set LIB_SRC variable to list of files matching a list of file patterns\nfile (GLOB LIB_SRC\n    “lib/*.c”\n    “lib/*.h”\n    “lib/readme.txt”\n)\n\n# “mystaticlib” is the name of the library, STATIC it’s static and ${LIB_SRC}\n# is a list of source files to compile to build this library\nadd_library(mystaticlib STATIC ${LIB_SRC})\n\n## build an executable that links with static library\n\nfile (GLOB EXE_SRC\n    “src/*.cpp”\n    “src/*.h”\n)\n\n# so that #include can find mystaticlib header files\ninclude_directories(“lib”)\n\nadd_executable(my exe ${EXE_SRC})\n# the executable links my staticlib\ntarger_link_libraries(my_exe mystaticlib)\n# adds -DFOO -DBAR=3 only to target my_exe\nset_property(\n    TARGET my_exe\n    PROPERTY COMPILE_DEFINITIONS\n    FOO\n    BAR=3\n)\n\nIF(WIN32)\n    target_link_libraries(my_exe \"gdiplus\" \"comctl32\" \"shlwapi\" \"Version\")\nENDIF()"
+            "code": "# comment\ncmake_minimum_required(VERSION 2.8)\n\nmessage(STATUS \"this is a message, for debugging\")\n\n# in Visual Studio this is .sln solution. In Xcode, this is .xcodeproj\n# in make and ninja, this is a target\nproject(all)\n\n## building a static library\n\n# set LIB_SRC variable to list of files matching a list of file patterns\nfile (GLOB LIB_SRC\n    “lib/*.c”\n    “lib/*.h”\n    “lib/readme.txt”\n)\n\n# “mystaticlib” is the name of the library, STATIC it’s static and ${LIB_SRC}\n# is a list of source files to compile to build this library\nadd_library(mystaticlib STATIC ${LIB_SRC})\n\n## build an executable that links with static library\n\nfile (GLOB EXE_SRC\n    “src/*.cpp”\n    “src/*.h”\n)\n\n# so that #include can find mystaticlib header files\ninclude_directories(“lib”)\n\nadd_executable(my exe ${EXE_SRC})\n# the executable links my staticlib\ntarger_link_libraries(my_exe mystaticlib)\n# adds -DFOO -DBAR=3 only to target my_exe\nset_property(\n    TARGET my_exe\n    PROPERTY COMPILE_DEFINITIONS\n    FOO\n    BAR=3\n)\n\nIF(WIN32)\n    target_link_libraries(my_exe \"gdiplus\" \"comctl32\" \"shlwapi\" \"Version\")\nENDIF()",
+            "format_video": null
           },
           {
             "alive": true,
@@ -2574,7 +2640,8 @@
               {
                 "Text": "Cmake build types:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2594,7 +2661,8 @@
             },
             "type": "code",
             "version": 0,
-            "code": "CMAKE_BUILD_TYPE:  DEBUG RELEASE RELWITHDEBINFO MINSIZEREL\n\nSome variables are per-build type, e.g.:\nCMAKE_C_FLAGS_[DEBUG | RELEASE …]\n\nCMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS when generating DEBUG build"
+            "code": "CMAKE_BUILD_TYPE:  DEBUG RELEASE RELWITHDEBINFO MINSIZEREL\n\nSome variables are per-build type, e.g.:\nCMAKE_C_FLAGS_[DEBUG | RELEASE …]\n\nCMAKE_C_FLAGS_DEBUG gets added to CMAKE_C_FLAGS when generating DEBUG build",
+            "format_video": null
           },
           {
             "alive": true,
@@ -2618,7 +2686,8 @@
               {
                 "Text": "Cmake variables"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2642,7 +2711,8 @@
               {
                 "Text": "Check if variable is true:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2662,7 +2732,8 @@
             },
             "type": "code",
             "version": 0,
-            "code": "IF(WIN32)\n    ….\nENDIF()\n\nIF((MSVC_VERSION GREATER 1700) OR (MSVC_VERSION EQUAL 1700))\n    …\nENDIF()"
+            "code": "IF(WIN32)\n    ….\nENDIF()\n\nIF((MSVC_VERSION GREATER 1700) OR (MSVC_VERSION EQUAL 1700))\n    …\nENDIF()",
+            "format_video": null
           },
           {
             "alive": true,
@@ -2698,7 +2769,8 @@
                 "Text": "“${MSVC_VERSION}",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2722,7 +2794,8 @@
               {
                 "Text": "Important variables:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2742,14 +2815,16 @@
             },
             "type": "code",
             "version": 0,
-            "code": "WIN32 - true for Windows (both 32 and 64 bit)\nUNIX - true for unix including mac and cygwin\nMSVC - true if using Visual Studio\nMSVC_VERSION :\n  1400 - VS 8 i.e. Visual Studio 2005\n  1500 - VS 9 i.e. Visual Studio 2008\n  1600 - VS 10 i.e. Visual Studio 2010\n  1700 - VS 11 i.e. Visual Studio 2012\n  1800 - VS 12 i.e. Visual Studio 2013\nCMAKE_CL_64 - 64bit of Visual Studio\n\nCMAKE_C_FLAGS\nCMAKE_CXX_FLAGS"
+            "code": "WIN32 - true for Windows (both 32 and 64 bit)\nUNIX - true for unix including mac and cygwin\nMSVC - true if using Visual Studio\nMSVC_VERSION :\n  1400 - VS 8 i.e. Visual Studio 2005\n  1500 - VS 9 i.e. Visual Studio 2008\n  1600 - VS 10 i.e. Visual Studio 2010\n  1700 - VS 11 i.e. Visual Studio 2012\n  1800 - VS 12 i.e. Visual Studio 2013\nCMAKE_CL_64 - 64bit of Visual Studio\n\nCMAKE_C_FLAGS\nCMAKE_CXX_FLAGS",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "older"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2761,7 +2836,8 @@
         "parent_id": "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "cmake",
@@ -2772,7 +2848,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

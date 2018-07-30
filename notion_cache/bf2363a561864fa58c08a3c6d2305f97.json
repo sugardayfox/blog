@@ -68,7 +68,8 @@
           {
             "Text": "Pre-requisties:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -110,7 +111,8 @@
           {
             "Text": ")"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -153,7 +155,8 @@
           {
             "Text": ")"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -215,7 +218,8 @@
           {
             "Text": " and extracted to c:\\MinGW"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -257,7 +261,8 @@
           {
             "Text": " (not PowerShell, because it screws things up):"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -298,7 +303,8 @@
             "AttrFlags": 2,
             "Link": "https://github.com/golang/go.git"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -328,7 +334,8 @@
             "Text": "cd go\\src",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -364,7 +371,8 @@
             "Text": "c:\\MinGW\\set_distro_paths.bat",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -434,7 +442,8 @@
               {
                 "Text": " in cmd.exe"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -470,7 +479,8 @@
               {
                 "Text": " in powershell"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
@@ -484,7 +494,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -520,7 +531,8 @@
           {
             "Text": " : this builds Go and runs the tests"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -532,7 +544,8 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -556,7 +569,8 @@
           {
             "Text": "Running just runtime tests, in powershell:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -586,7 +600,8 @@
             "Text": "$env:GOROOT = \"C:\\Users\\kjk\\src\\go\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -616,7 +631,8 @@
             "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -646,7 +662,8 @@
             "Text": ". \"${env:GOROOT}\\bin\\go\" test -c runtime -ldflags=-linkmode=external",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -676,7 +693,8 @@
             "Text": "$env:TEST_G0_STACK_OVERFLOW = \"1\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -706,7 +724,8 @@
             "Text": "gdb --args .\\runtime.test.exe \"-test.run\" TestG0StackOverflow",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -736,7 +755,8 @@
             "Text": ".\\runtime.test.exe \"-test.run\" TestRuntimePanic",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -789,7 +809,8 @@
                 "Text": "br runtime.badmorestackg0",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -801,14 +822,16 @@
             "parent_id": "df44289a-2bf7-4b34-b081-dc256273976f",
             "parent_table": "block",
             "type": "text",
-            "version": 4
+            "version": 4,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "In gdb:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -820,7 +843,8 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "format_video": null
       },
       {
         "alive": true,
@@ -832,7 +856,8 @@
         "parent_id": "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "Building Go from source on Windows",
@@ -843,7 +868,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

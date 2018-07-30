@@ -52,7 +52,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +84,8 @@
             "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/",
             "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/10/24/building-your-c-application-with-visual-studio-code/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -130,7 +132,8 @@
               {
                 "Text": "c/c++, c#, Code Runner, Dart Code, Docker, EditorConfig for VS Code, ESLint, Go, HTMLHint, jsx, PowerShell, Prettier, Prettify JSON, Terminal Here, TSLint, vetur"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -176,21 +179,24 @@
                   {
                     "Text": "Git History"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "abandoned:"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "extensions to install"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -202,7 +208,8 @@
         "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
         "parent_table": "block",
         "type": "text",
-        "version": 2
+        "version": 2,
+        "format_video": null
       },
       {
         "alive": true,
@@ -222,7 +229,8 @@
         },
         "type": "code",
         "version": 3,
-        "code": "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}"
+        "code": "Settings:\n// Place your settings in this file to overwrite the default settings\n{\n    \"editor.fontSize\": 11,\n    \"editor.tabSize\": 4,\n    \"editor.insertSpaces\": true,\n    \"editor.detectIndentation\": true,\n    \"editor.renderWhitespace\": \"boundary\",\n    \"editor.wordWrap\": \"on\",\n    \"editor.rulers\": [\n        80\n    ],\n    \"editor.formatOnSave\": false,\n    \"files.trimTrailingWhitespace\": true,\n    \"files.exclude\": {\n        \"**/*.pyc\": true,\n        \"**/*.o\": true,\n        \"**/*.obj\": true,\n        \"**/*.so\": true,\n        \"**/vendor\": true\n    },\n    \"search.exclude\": {\n        \"**/node_modules\": true,\n        \"**/Godeps\": true\n    },\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"workbench.iconTheme\": \"vs-seti\",\n    \"window.zoomLevel\": 0,\n    \"files.associations\": {\n        \"*.js\": \"javascript\"\n    },\n    \"workbench.startupEditor\": \"newUntitledFile\",\n    \"extensions.ignoreRecommendations\": false\n}",
+        "format_video": null
       }
     ],
     "title": "vscode, visual studio code",
@@ -233,7 +241,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

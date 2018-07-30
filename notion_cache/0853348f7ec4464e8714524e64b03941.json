@@ -59,7 +59,8 @@
           {
             "Text": "Id: 1308"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +84,8 @@
           {
             "Text": "Tags: windows"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -107,7 +109,8 @@
           {
             "Text": "Date: 2005-12-30T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -119,7 +122,8 @@
         "parent_id": "0853348f-7ec4-464e-8714-524e64b03941",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -179,7 +183,8 @@
           {
             "Text": " (at least that’s the name on Windows XP)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -203,7 +208,8 @@
           {
             "Text": "What are possible uses for this file:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -227,7 +233,8 @@
           {
             "Text": "when I make changes to my blog, I develop and test the changes on my local Apache setup on windows. My config files are setup up so that they work correctly both on my local test server and deployed server. To make things easier, I use hosts file to map local loopback address 127.0.0.1 to blog.local.org"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -251,7 +258,8 @@
           {
             "Text": "changing hosts file can be used to fool local computer and simulate DNS changes (e.g. for testing before making real DNS changes)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -275,7 +283,8 @@
           {
             "Text": "Changes to hosts file take place immediately after saving the file."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -299,7 +308,8 @@
           {
             "Text": "Here’s the simplest mapping from 127.0.0.1 to localhost and blog.local.org names:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -325,7 +335,8 @@
         "type": "code",
         "version": 1,
         "code": "127.0.0.1       localhost blog.local.org",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
     "title": "Local DNS modifications on Windows (/etc/hosts equivalent)",
@@ -336,7 +347,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

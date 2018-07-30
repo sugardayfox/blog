@@ -64,7 +64,8 @@
           {
             "Text": "Id: 306"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -88,7 +89,8 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -112,7 +114,8 @@
           {
             "Text": "Date: 2005-12-31T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -124,7 +127,8 @@
         "parent_id": "5e0ec67b-3384-4be7-81d7-48f452abd9eb",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -148,7 +152,8 @@
           {
             "Text": "Timing of code fragments is simple:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +177,8 @@
           {
             "Text": "record the start time"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -196,7 +202,8 @@
           {
             "Text": "execute the code"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -220,7 +227,8 @@
           {
             "Text": "record the end time"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -244,7 +252,8 @@
           {
             "Text": "calucate the difference between end and start"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -304,7 +313,8 @@
           {
             "Text": " API calls."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -328,7 +338,8 @@
           {
             "Text": "Here’s a simple implementation in C:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -354,7 +365,8 @@
         "type": "code",
         "version": 1,
         "code": "typedef struct prof_timer_t {\n    LARGE_INTEGER time_start;\n    LARGE_INTEGER time_stop;\n} prof_timer_t;\n\nvoid prof_timer_start(prof_timer_t *timer) {\n    QueryPerformanceCounter(\u0026timer-\u003etime_start);\n}\n\nvoid prof_timer_stop(prof_timer_t *timer) {\n    QueryPerformanceCounter(\u0026timer-\u003etime_stop);\n}\n\ndouble prof_timer_get_duration_in_secs(prof_timer_t *timer) {\n    LARGE_INTEGER freq;\n    double duration;\n    QueryPerformanceFrequency(\u0026freq);\n    duration = (double)(timer-\u003etime_stop.QuadPart-timer-\u003etime_start.QuadPart)/(double)freq.QuadPart;\n    return duration;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       },
       {
         "alive": true,
@@ -378,7 +390,8 @@
           {
             "Text": "And in C++:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -404,7 +417,8 @@
         "type": "code",
         "version": 1,
         "code": "// very simple, high-precision (at least in theory) timer for timing API calls\nstruct ProfTimer {\n    void Start(void) {\n        QueryPerformanceCounter(\u0026mTimeStart);\n    };\n    void Stop(void) {\n        QueryPerformanceCounter(\u0026mTimeStop);\n    };\n    double GetDurationInSecs(void)\n    {\n        LARGE_INTEGER freq;\n        QueryPerformanceFrequency(\u0026freq);\n        double duration = (double)(mTimeStop.QuadPart-mTimeStart.QuadPart)/(double)freq.QuadPart;\n        return duration;\n    }\n\n    LARGE_INTEGER mTimeStart;\n    LARGE_INTEGER mTimeStop;\n};",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       },
       {
         "alive": true,
@@ -428,7 +442,8 @@
           {
             "Text": "And here’s an example of using the C++ version:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -454,7 +469,8 @@
         "type": "code",
         "version": 1,
         "code": "ProfTimer t;\nt.Start();\nfoo();\nt.Stop();\ndouble dur = t.GetDurationInSecs();\nprintf(“executing foo() took %f seconds” , dur);",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       }
     ],
     "title": "High-resolution timer for timing code fragments",
@@ -465,7 +481,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

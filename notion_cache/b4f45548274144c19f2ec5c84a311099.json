@@ -58,7 +58,8 @@
           {
             "Text": "Id: 15004"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -82,7 +83,8 @@
           {
             "Text": "Tags: software"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -106,7 +108,8 @@
           {
             "Text": "Date: 2009-03-11T21:40:44-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -130,7 +133,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -142,7 +146,8 @@
         "parent_id": "b4f45548-2741-44c1-9f2e-c5c84a311099",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -185,7 +190,8 @@
           {
             "Text": " program and added git support."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -209,7 +215,8 @@
           {
             "Text": "If you work with git, Subversion or CVS from command line, scdiff is a handy program to preview your changes before committing them."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -233,7 +240,8 @@
           {
             "Text": "It works by creating before/after files in a temporary directory and launching a diff viewer (WinDiff by default, but can be configured) to show the diffs."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -275,7 +283,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -299,7 +308,8 @@
           {
             "Text": "It requires git/svn/cvs executable be in the path. There still is no decent windows build of git, so I use cygwin to get git."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "scdiff update (Windows git/subversion/cvs gui diff previewer)",
@@ -310,7 +320,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

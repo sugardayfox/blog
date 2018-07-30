@@ -67,7 +67,8 @@
           {
             "Text": "Id: 1203"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -91,7 +92,8 @@
           {
             "Text": "Tags: objective c, cocoa"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -115,7 +117,8 @@
           {
             "Text": "Date: 2008-03-15T15:42:10-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -127,7 +130,8 @@
         "parent_id": "6568863d-9f85-4eca-ae74-28d2d86e9d34",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -151,7 +155,8 @@
           {
             "Text": "MVC:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -175,7 +180,8 @@
           {
             "Text": "model is the data. gives the data to view. view reads the data. controller changes data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -199,7 +205,8 @@
           {
             "Text": "view is the display. reads data from model. reports user interaction to controller"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -223,7 +230,8 @@
           {
             "Text": "controller changes the data based on user interaction in the view"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -247,7 +255,8 @@
           {
             "Text": "Target/Action (command):"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -271,7 +280,8 @@
           {
             "Text": "in cocoa, this is how responding to actions from controls is implemented"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -295,7 +305,8 @@
           {
             "Text": "e.g. when button is pressed, framework sends a message to application code"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -319,7 +330,8 @@
           {
             "Text": "general way in which object (e.g. button) can send messages to undetermined object (part of application code you write)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -343,7 +355,8 @@
           {
             "Text": "IB (Interface Builder) does that when you create new control, class and instance and ctrl-drag defines target action"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -367,7 +380,8 @@
           {
             "Text": "Delegation:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -391,7 +405,8 @@
           {
             "Text": "messages send to Holder object are forwarded to Delegate"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -415,7 +430,8 @@
           {
             "Text": "Holder needs an instance of Delegate and a way to set it"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -439,7 +455,8 @@
           {
             "Text": "Chain of responsibility:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -463,7 +480,8 @@
           {
             "Text": "a message is handled by the most appropriate object out of many"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -487,7 +505,8 @@
           {
             "Text": "used in cocoa for handling events. An event message is sent to a first responder object (e.g. if clicked on a button, button objects is the first responder). If the object doesn’t know how to handle the message, it sends it to the next object in chain etc."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Objective-C patterns",
@@ -498,7 +517,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

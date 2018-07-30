@@ -109,14 +109,16 @@
               {
                 "Text": ". Making the code look more like Go code."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-23"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -163,14 +165,16 @@
               {
                 "Text": "more porting Yoga to Go https://github.com/kjk/flex. Things actually work."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-22"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -217,14 +221,16 @@
               {
                 "Text": "more porting Yoga to Go"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-21"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -284,14 +290,16 @@
                 "Text": "https://github.com/kjk/flex",
                 "Link": "https://github.com/kjk/flex"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-20"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -340,7 +348,8 @@
               {
                 "Text": "tweaked draft articles"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -377,7 +386,8 @@
                 "Text": "https://github.com/kjk/go-cookbook/tree/master/web-crawl",
                 "Link": "https://github.com/kjk/go-cookbook/tree/master/web-crawl"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -401,30 +411,20 @@
               {
                 "Text": "find files: started on a website"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-15 "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
         "content": [
-          "986ec930-badd-45ed-aeca-ec844de5ee24",
-          "b34d58fd-dc86-4e64-a04c-e35ece97975f",
-          "e89295bd-f165-4c9c-8980-28e906b8df1f",
-          "3dcd74fb-7b63-4f50-900b-244e708d53b8",
-          "f0409c84-b94d-4e71-bfb9-a33931df02ef",
-          "41684295-3ee8-46ec-9b52-ce150c461159",
-          "368d0853-6547-45e6-9921-09873f658a36",
-          "e3021383-eaf5-43b4-b84d-462abba46f81",
-          "32bb53f5-ffc0-4dd8-afbb-b0cc28446fcb",
-          "cb299975-1394-414f-bb85-e01be0195ced",
-          "38a2d9b8-3313-4e06-9e70-fbee872b73fc",
-          "a29e2770-9d89-4cc0-805d-37766a938f3d",
           "e4d3be52-7072-43f1-9665-dadff9ba66fb",
           "de37e424-5812-4c5d-9cef-9308c6f375ab"
         ],
@@ -433,7 +433,7 @@
         "id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888032079,
+        "last_edited_time": 1532924650766,
         "parent_id": "f05e5755-fc05-4faa-b7da-a2b8762ce5f3",
         "parent_table": "block",
         "properties": {
@@ -444,376 +444,8 @@
           ]
         },
         "type": "toggle",
-        "version": 94,
+        "version": 114,
         "content_resolved": [
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531879964067,
-            "id": "986ec930-badd-45ed-aeca-ec844de5ee24",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531888018946,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "#idea"
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 25,
-            "inline_content": [
-              {
-                "Text": "#idea"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "b34d58fd-dc86-4e64-a04c-e35ece97975f",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531880044111,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "GitHub has wikis but they are merely passable, not good: "
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 6,
-            "inline_content": [
-              {
-                "Text": "GitHub has wikis but they are merely passable, not good: "
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531880044111,
-            "id": "e89295bd-f165-4c9c-8980-28e906b8df1f",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531880048010,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "the editing UI is very bare bones"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 19,
-            "inline_content": [
-              {
-                "Text": "the editing UI is very bare bones"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531880048010,
-            "id": "3dcd74fb-7b63-4f50-900b-244e708d53b8",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531880049482,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "the way they are displayed could also be improved"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 12,
-            "inline_content": [
-              {
-                "Text": "the way they are displayed could also be improved"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "f0409c84-b94d-4e71-bfb9-a33931df02ef",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531879977787,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Idea: build a better editor and a better publishing for the wiki."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Idea: build a better editor and a better publishing for the wiki."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "41684295-3ee8-46ec-9b52-ce150c461159",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531880068803,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Technology: build a better markdown editor like "
-                ],
-                [
-                  "http://dillinger.io",
-                  [
-                    [
-                      "a",
-                      "http://dillinger.io"
-                    ]
-                  ]
-                ],
-                [
-                  " or "
-                ],
-                [
-                  "https://stackedit.io/",
-                  [
-                    [
-                      "a",
-                      "https://stackedit.io/"
-                    ]
-                  ]
-                ],
-                [
-                  " or "
-                ],
-                [
-                  "https://hackmd.io/",
-                  [
-                    [
-                      "a",
-                      "https://hackmd.io/"
-                    ]
-                  ]
-                ],
-                [
-                  ". It’s simple."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 32,
-            "inline_content": [
-              {
-                "Text": "Technology: build a better markdown editor like "
-              },
-              {
-                "Text": "http://dillinger.io",
-                "Link": "http://dillinger.io"
-              },
-              {
-                "Text": " or "
-              },
-              {
-                "Text": "https://stackedit.io/",
-                "Link": "https://stackedit.io/"
-              },
-              {
-                "Text": " or "
-              },
-              {
-                "Text": "https://hackmd.io/",
-                "Link": "https://hackmd.io/"
-              },
-              {
-                "Text": ". It’s simple."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "368d0853-6547-45e6-9921-09873f658a36",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531880072930,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "GitHub wiki is just a repository. If your project is foo/bar, main repo is github.com/foo/bar.git and wiki repo is "
-                ],
-                [
-                  "github.com/foo/bar.wiki.git",
-                  [
-                    [
-                      "a",
-                      "http://github.com/foo/bar.wiki.git"
-                    ]
-                  ]
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 10,
-            "inline_content": [
-              {
-                "Text": "GitHub wiki is just a repository. If your project is foo/bar, main repo is github.com/foo/bar.git and wiki repo is "
-              },
-              {
-                "Text": "github.com/foo/bar.wiki.git",
-                "Link": "http://github.com/foo/bar.wiki.git"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "e3021383-eaf5-43b4-b84d-462abba46f81",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531879977787,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it’s possible to do from GitHub API."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it’s possible to do from GitHub API."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194231,
-            "id": "32bb53f5-ffc0-4dd8-afbb-b0cc28446fcb",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531879977787,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for prive repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for prive repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194232,
-            "id": "cb299975-1394-414f-bb85-e01be0195ced",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531879977787,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Free access for public repos would act as free advertisement."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Free access for public repos would act as free advertisement."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194232,
-            "id": "38a2d9b8-3313-4e06-9e70-fbee872b73fc",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531888032079,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "The business idea is similar to other companies built on top of GitHub, like "
-                ],
-                [
-                  "https://www.zenhub.com/",
-                  [
-                    [
-                      "a",
-                      "https://www.zenhub.com/"
-                    ]
-                  ]
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 12,
-            "inline_content": [
-              {
-                "Text": "The business idea is similar to other companies built on top of GitHub, like "
-              },
-              {
-                "Text": "https://www.zenhub.com/",
-                "Link": "https://www.zenhub.com/"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194232,
-            "id": "a29e2770-9d89-4cc0-805d-37766a938f3d",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531879998919,
-            "parent_id": "00673ab8-c21c-4ed8-881c-07d00191ec6b",
-            "parent_table": "block",
-            "type": "divider",
-            "version": 4
-          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -837,7 +469,8 @@
               {
                 "Text": "find files: context menu for listbox"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -880,14 +513,16 @@
               {
                 "Text": " and did some minor cleanups"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-14"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -934,14 +569,16 @@
               {
                 "Text": "find files: working on search in Go version"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-13"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1004,7 +641,8 @@
                 "Text": "https://github.com/kjk/go-windows-programming",
                 "Link": "https://github.com/kjk/go-windows-programming"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1042,7 +680,8 @@
                 "Text": "https://github.com/kjk/go20975",
                 "Link": "https://github.com/kjk/go20975"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1080,14 +719,16 @@
                 "Text": "https://www.reddit.com/r/golang/comments/6n378e/embedding_build_number_in_go_executable/",
                 "Link": "https://www.reddit.com/r/golang/comments/6n378e/embedding_build_number_in_go_executable/"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-12"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1170,7 +811,8 @@
                 "Text": "https://diskprices.com/",
                 "Link": "https://diskprices.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1213,7 +855,8 @@
               {
                 "Text": " with cancellable channel"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1237,7 +880,8 @@
               {
                 "Text": "moved Go Cookbook articles from quicknotes to under /books/go-cookbook. Markdown preview is"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1261,7 +905,8 @@
               {
                 "Text": "find files: made Go version dpi-scalable"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1298,14 +943,16 @@
                 "Text": "https://www.springzo.com/saga/simple-organic-traffic-strategy-14",
                 "Link": "https://www.springzo.com/saga/simple-organic-traffic-strategy-14"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-11"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1375,7 +1022,8 @@
               {
                 "Text": " "
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1418,7 +1066,8 @@
               {
                 "Text": " for windows crash with mshtml"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1442,7 +1091,8 @@
               {
                 "Text": "fixed urls for og:url and og:image for blog articles"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1466,7 +1116,8 @@
               {
                 "Text": "find files: save index, load index"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1503,14 +1154,16 @@
                 "Text": "http://discuss.bootstrapped.fm/t/talk-to-business-owners-and-find-their-problems/5146/3?u=kjk",
                 "Link": "http://discuss.bootstrapped.fm/t/talk-to-business-owners-and-find-their-problems/5146/3?u=kjk"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-10"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1576,14 +1229,16 @@
               {
                 "Text": " for writing Windows programs in Go. Rewrote indexing part of Find Files"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-09"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1632,7 +1287,8 @@
               {
                 "Text": "have draft articles on the blog so that I can link to them and they are indexed but not shown on index page"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1670,14 +1326,16 @@
                 "Text": "https://github.com/kjk/siser",
                 "Link": "https://github.com/kjk/siser"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-08"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1738,14 +1396,16 @@
                 "Text": "https://blog.kowalczyk.info/article/5/blueprint-for-deploying-web-apps-on-coreos.htm",
                 "Link": "https://blog.kowalczyk.info/article/5/blueprint-for-deploying-web-apps-on-coreos.htm"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-07"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1816,7 +1476,8 @@
               {
                 "Text": " about good landing pages"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1841,7 +1502,8 @@
               {
                 "Text": "finished reading “Content Machine”"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1879,7 +1541,8 @@
                 "Text": "https://blog.kowalczyk.info/contactme.html",
                 "Link": "https://blog.kowalczyk.info/contactme.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1923,7 +1586,8 @@
               {
                 "Text": " : guy makes $10k/month by writing content and making money from Amazon affiliate fees"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1948,14 +1612,16 @@
               {
                 "Text": "improvement to the blog (draft status for articles, description of articles, added sitemap.xml, added mobile-friendly scaling meta tag)"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-06"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2019,7 +1685,8 @@
                 "Text": "https://www.indiehackers.com/forum/post/-KoKcDV2v00GSJJexkLB?commentId=-KoL4ixaUf_VxQvpE-DM",
                 "Link": "https://www.indiehackers.com/forum/post/-KoKcDV2v00GSJJexkLB?commentId=-KoL4ixaUf_VxQvpE-DM"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2057,7 +1724,8 @@
                 "Text": "https://www.reddit.com/r/javascript/comments/6lghvo/optimizing_javascript_by_using_arrays_instead_of/",
                 "Link": "https://www.reddit.com/r/javascript/comments/6lghvo/optimizing_javascript_by_using_arrays_instead_of/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2082,7 +1750,8 @@
               {
                 "Text": "continue reading “Content Machine”"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2120,14 +1789,16 @@
                 "Text": "https://blog.kowalczyk.info/book/go-cookbook.html",
                 "Link": "https://blog.kowalczyk.info/book/go-cookbook.html"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-05"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2195,7 +1866,8 @@
               {
                 "Text": " and announced on r/golang"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2232,7 +1904,8 @@
                 "Text": "https://dev.to/kjk/advanced-command-execution-in-go-with-osexec",
                 "Link": "https://dev.to/kjk/advanced-command-execution-in-go-with-osexec"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2256,14 +1929,16 @@
               {
                 "Text": "find files: progress on build script"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-03"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2312,7 +1987,8 @@
               {
                 "Text": "finished “3 ways to iterate in Go”"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2337,14 +2013,16 @@
               {
                 "Text": "blog: published “HTTPS for free in Go”"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-02"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2392,14 +2070,16 @@
               {
                 "Text": "find files: separate status line for each drive"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-07-01"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2411,7 +2091,8 @@
         "parent_id": "f05e5755-fc05-4faa-b7da-a2b8762ce5f3",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "devlog 2017-07 • 18 d",
@@ -2422,7 +2103,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

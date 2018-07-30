@@ -67,7 +67,8 @@
           {
             "Text": "Id: 1286"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -91,7 +92,8 @@
           {
             "Text": "Tags: programming, c, c++"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -115,7 +117,8 @@
           {
             "Text": "Date: 2007-06-24T17:00:00-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -127,7 +130,8 @@
         "parent_id": "85a9dcbd-aa7b-4510-b7c1-93dd26c785a1",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -151,7 +155,8 @@
           {
             "Text": "In one large C/C++ project I worked on #include files were so haphazard and complex that sometimes rearranging the order of #include statements would cause compilation error that no-one could comprehend and fix in any other way than reverting to previous order."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -175,7 +180,8 @@
           {
             "Text": "Every now and then an ambitious soul would set out to fix the problem once and for all. And fail miserably shortly after."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -199,7 +205,8 @@
           {
             "Text": "The code in this project was quite good - it’s just maintaining good include hierarchy requires a lot of effort and once you get into bad state, its hard to get out of it."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -223,7 +230,8 @@
           {
             "Text": "The best weapon is being anal-retentive from the very beginning of your project."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -247,7 +255,8 @@
           {
             "Text": "It’s important to reduce number of dependencies between header files, especially circular dependencies."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -290,7 +299,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -314,7 +324,8 @@
           {
             "Text": "All C/C++ files must #include “config.h” first"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -338,7 +349,8 @@
           {
             "Text": "All files must #include the primary header second, just after “config.h”. So for example, Node.cpp should include Node.h first, before other files. This guarantees that each header’s completeness is tested, to make sure it can be compiled without requiring any other header files be included first."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -362,7 +374,8 @@
           {
             "Text": "Other #include statements should be in sorted order (case sensitive, as done by the command-line sort tool or the Xcode sort selection command). Don’t bother to organize them in a logical order."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -404,7 +417,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -430,7 +444,8 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef COMMON_H_\n#define COMMON_H_\n\n/* This is a header included by every single file.\n It should include definitions of most basic types and utilities\n (like asserts and simple templates. It usually means most common\n header files for C standard library like \u003cstdio.h\u003e etc. and\n \u003cwindows.h\u003e on Windows.\n Resist temptation to include too much in this file - it’ll lead\n to insanity.\n*/\n#endif",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       },
       {
         "alive": true,
@@ -472,7 +487,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -498,7 +514,8 @@
         "type": "code",
         "version": 1,
         "code": "#ifndef FOO_H_\n#define FOO_H_\n/* To speedup compilation times avoid #include’ing header files.\n You can use any definitions in config.h. If possible, use forward\n declarations instead of including header file with definitions */\n\n#endif",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       },
       {
         "alive": true,
@@ -540,7 +557,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -566,7 +584,8 @@
         "type": "code",
         "version": 1,
         "code": "#include “config.h”\n#include “foo.h”\n/* rest of include files sorted alphabetically */",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       }
     ],
     "title": "Sane #include hierarchy for C and C++",
@@ -577,7 +596,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

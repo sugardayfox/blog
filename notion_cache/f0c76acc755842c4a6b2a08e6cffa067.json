@@ -60,7 +60,8 @@
           {
             "Text": "Id: 312"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -84,7 +85,8 @@
           {
             "Text": "Tags: python"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -108,7 +110,8 @@
           {
             "Text": "Date: 2005-12-30T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -132,7 +135,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -144,7 +148,8 @@
         "parent_id": "f0c76acc-7558-42c4-a6b2-a08e6cffa067",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -168,7 +173,8 @@
           {
             "Text": "Pickling is an easy way to serialize data in Python. One possible use for that is preserving the state across script executions (like saving preferences)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +198,8 @@
           {
             "Text": "There are few things worth knowing:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -288,7 +295,8 @@
           {
             "Text": " is faster)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -348,7 +356,8 @@
           {
             "Text": " - it’s the most efficient one"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -372,7 +381,8 @@
           {
             "Text": "the simplest thing to do is to stuff everything you want to serialize in a hash and serialize the hash"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -432,7 +442,8 @@
           {
             "Text": " might fail."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -458,7 +469,8 @@
         "type": "code",
         "version": 1,
         "code": "import sys, os, string, time, cPickle\n\nDATA_FILE_NAME = \"settings.dat\"\n\ndef saveData():\n    fo = open(DATA_FILE_NAME, \"wb\")\n    version = 1.0\n    aString = \"some data\"\n    cPickle.dump(version, fo, protocol = cPickle.HIGHEST_PROTOCOL)\n    cPickle.dump(aString, fo, protocol = cPickle.HIGHEST_PROTOCOL)\n    fo.close()\n\ndef loadData():\n    try:\n        fo = open(DATA_FILE_NAME, \"rb\")\n    except IOError:\n        # it's ok to not have the file\n        print \"didn't find file %s with data\" % DATA_FILE_NAME\n        return\n    try:\n        version = cPickle.load(fo)\n        aString = cPickle.load(fo)\n    except:\n        fo.close()\n        removeRetryCount = 0\n        while removeRetryCount \u003c 3:\n            try:\n                os.remove(filePath)\n                break\n            except:\n                time.sleep(1) # try to sleep to make the time for the file not be used anymore\n                print \"exception: n  %s, n  %s, n  %s n  when trying to remove file %s\" % (sys.exc_info()[0], sys.exc_info()[1], sys.exc_info()[2], filePath)\n            removeRetryCount += 1\n        return\n    fo.close()",
-        "code_language": "Python"
+        "code_language": "Python",
+        "format_video": null
       }
     ],
     "title": "Pickling (serialization) in Python",
@@ -469,7 +481,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -50,7 +50,8 @@
         "type": "code",
         "version": 0,
         "code": "https://code.google.com/p/go-wiki/wiki/SliceTricks\n\nAppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       }
     ],
     "title": "slice tricks",
@@ -61,7 +62,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -46,10 +46,12 @@
         "type": "code",
         "version": 0,
         "code": "iptables -I INPUT 3 -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\nsudo iptables -n -L -v --line-numbers\nsudo iptables -I INPUT -s 10.0.0.0/8 -p tcp --dport 6600 -j ACCEPT\n\n-m : extended match ???\n\nAllow postgresql connections:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\nTo delete a rule: replace -A with -D",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
-    "title": "iptables"
+    "title": "iptables",
+    "format_video": null
   },
   "Users": [
     {

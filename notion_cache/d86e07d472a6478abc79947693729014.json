@@ -78,7 +78,8 @@
               {
                 "Text": "In Sumatra, fixed a regression due careless coding and not running changed code at all."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -103,7 +104,8 @@
               {
                 "Text": "For easier tracking of mem leaks, added ./scripts/valgrind_rel.sh scripts that builds the unix version and runs valgrind with mem leak detection. Gave me a pointer for TxtParser leak location. Unfortunately requires redoing by removing TxtParser::children std::vector because in one code path we allocate nodes from pool allocator and in another path with new. It was fine when we used Vec, which used the same allocator for internal allocations, but now std::vector uses new() and in one code path it’s intermixed with allocator."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -128,14 +130,16 @@
               {
                 "Text": "We should get rid of TxtParser::children and instead keep child list as pointers TxtNode, either first child or sibling for n-th child."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-29"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -185,7 +189,8 @@
               {
                 "Text": "Converting Sumatra’s unix build from premake5.unix.lua to a Go program."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -210,7 +215,8 @@
               {
                 "Text": "This is my second attempt at such a tool. Before I was too ambitious and tried to abstract too much from start."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -235,14 +241,16 @@
               {
                 "Text": "This time I did it in a straightforward, sequential way and it seems to be working."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-28"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -307,7 +315,8 @@
               {
                 "Text": "#programming"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -331,7 +340,8 @@
               {
                 "Text": "Title: Typo-resistant way of using #define in C++. "
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -373,7 +383,8 @@
               {
                 "Text": " function needs different implementation for mac and windows. You would do it like this:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -400,7 +411,8 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(__APPLE__)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -461,7 +473,8 @@
               {
                 "Text": " is a bit ugly. Let’s do something more uniform:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -488,7 +501,8 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#endif\n\n#if defined(OS_WIN)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if defined(OS_MAC)\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -513,7 +527,8 @@
               {
                 "Text": "It looks better but has a problem: typos are silent bugs:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -540,7 +555,8 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(OS_MAP)\n...\n#endif",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -619,7 +635,8 @@
               {
                 "Text": " is not defined."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -644,7 +661,8 @@
               {
                 "Text": "Knowing that, the final version of our code is:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -671,7 +689,8 @@
             "type": "code",
             "version": 4,
             "code": "#if defined(_WIN32)\n#define OS_WIN 1\n#else\n#define OS_WIN 0\n#endif\n\n#if defined(__APPLE__)\n#define OS_MAC 1\n#else\n#define OS_MAC 0\n#endif\n\n#if OS_WIN\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif\n\n#if OS_MAC\nstd::vector\u003cchar\u003e read_file(std::string\u0026 path) { ... }\n#endif",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -732,7 +751,8 @@
               {
                 "Text": ". That discipline can be enforced with a regex over your code base."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -757,7 +777,8 @@
               {
                 "Text": "On Windows, msvc has a similar warning 4668. Unfortunately, system headers produce a lot of those warnings."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -782,7 +803,8 @@
               {
                 "Text": "There are 2 solutions."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -807,7 +829,8 @@
               {
                 "Text": "You can enable this warning globally and disable when including system headers:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -834,7 +857,8 @@
             "type": "code",
             "version": 4,
             "code": "#pragma warning(push)\n#pragma warning(disable : 4668) // silence /analyze: de-referencing a nullptr pointer\n#endif\n#include \u003cwindows.h\u003e\n... and other system headers\n#pragma warning(pop)",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -859,7 +883,8 @@
               {
                 "Text": "Another option is to have the warning off by default but enable it after including system headers:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -886,7 +911,8 @@
             "type": "code",
             "version": 4,
             "code": "#include \u003cwindows.h\u003e\n....\n\n#pragma warning(default : 4668)\n\n... now only your code",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           },
           {
             "alive": true,
@@ -947,14 +973,16 @@
               {
                 "Text": " for that."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-24"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1025,7 +1053,8 @@
               {
                 "Text": " about history of PowerPoint software."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1050,7 +1079,8 @@
               {
                 "Text": "Some thoughts:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1074,7 +1104,8 @@
               {
                 "Text": "I never understood how big the market was for PowerPoint and why it was so big. It shows that we all are blind to problems we don’t encounter ourselves. PowerPoint, the software, worked because the person who designed it understood that in businesses a lot of people give presentation, they were already spending a lot of money on making slides and a computer with a GUI would be a good tool to make making slides easier and give people more control over the process"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1098,7 +1129,8 @@
               {
                 "Text": "the success of Windows over Mac OS was not at all guaranteed. Mac shipped earlier and Microsoft had to do a lot of catching up, technologically"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1122,7 +1154,8 @@
               {
                 "Text": "even the best market analysis is not guaranteed. They had pick on which OS to bet (Windows or Mac) before any of them shipped. They picked the right strategy (target Mac first, as it shipped first, but keep Windows in mind and ship for Windows as quickly as they could)."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1134,14 +1167,16 @@
             "parent_id": "4fb2c06d-401f-4526-a3f5-e80deba1bcbe",
             "parent_table": "block",
             "type": "text",
-            "version": 8
+            "version": 8,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-11-23 "
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "devlog 2017-11 • 04 d",
@@ -1152,7 +1187,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

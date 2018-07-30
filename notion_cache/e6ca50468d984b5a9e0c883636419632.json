@@ -101,7 +101,8 @@
           {
             "Text": "Id: JyRZ"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -125,7 +126,8 @@
           {
             "Text": "Tags: go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -149,7 +151,8 @@
           {
             "Text": "CreatedAt: 2017-06-21T18:47:07Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -173,7 +176,8 @@
           {
             "Text": "UpdatedAt: 2017-07-09T01:56:50Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -197,7 +201,8 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -221,7 +226,8 @@
           {
             "Text": "Description: Survey of 7 libraries for generating good, unique ids in Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -233,7 +239,8 @@
         "parent_id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -277,7 +284,8 @@
           {
             "Text": " application."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -302,7 +310,8 @@
           {
             "Text": "Each note needs a unique id."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -327,7 +336,8 @@
           {
             "Text": "Generating unique ids is easy if you can coordinate."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -388,7 +398,8 @@
           {
             "Text": " row into a table."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -413,7 +424,8 @@
           {
             "Text": "What if you can’t coordinate?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -438,7 +450,8 @@
           {
             "Text": "For example, you want the app to also generate unique note id when offline, when it cannot talk to the database."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -463,7 +476,8 @@
           {
             "Text": "The requirement of non-coordinated generation of unique ids comes up often in distributed systems."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -488,7 +502,8 @@
           {
             "Text": "A simple solution is to generate a random id. If you give it 16 bytes of randomness, the chances of generating the same random number are non-existent."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -532,7 +547,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -557,7 +573,8 @@
           {
             "Text": "We can do better than GUID. A good random unique id:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -581,7 +598,8 @@
           {
             "Text": "is unique; we can’t skip the basics"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -605,7 +623,8 @@
           {
             "Text": "can be sorted by its string representation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -629,7 +648,8 @@
           {
             "Text": "is time-clustered i.e. ids generated at the same time are close to each other when sorted"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -653,7 +673,8 @@
           {
             "Text": "string representation can be used as part of URL without escaping"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -677,7 +698,8 @@
           {
             "Text": "the shorter, the better"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -702,7 +724,8 @@
           {
             "Text": "There are few Go implementation of such id, following the same basic idea:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -726,7 +749,8 @@
           {
             "Text": "use time as part of the id to achieve time-clustering"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -750,7 +774,8 @@
           {
             "Text": "fill rest of the id with random data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -774,7 +799,8 @@
           {
             "Text": "encode as a string in a way that allows lexicographic sorting and is url-safe"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -799,7 +825,8 @@
           {
             "Text": "Here are Go packages for generating unique id and how their ids look like in string format:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -947,7 +974,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 9
+                "version": 9,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -990,7 +1018,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 9
+                "version": 9,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1033,7 +1062,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 9
+                "version": 9,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1076,7 +1106,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 10
+                "version": 10,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1119,7 +1150,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 10
+                "version": 10,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1162,7 +1194,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 10
+                "version": 10,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1217,11 +1250,13 @@
                   ]
                 },
                 "type": "page",
-                "version": 10
+                "version": 10,
+                "format_video": null
               }
             ]
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1264,7 +1299,8 @@
           {
             "Text": " a couple of times."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1289,7 +1325,8 @@
           {
             "Text": "How to generate unique ids using different libraries:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1316,7 +1353,8 @@
         "type": "code",
         "version": 3,
         "code": "import (\n    \"github.com/chilts/sid\"\n    \"github.com/kjk/betterguid\"\n    \"github.com/oklog/ulid\"\n    \"github.com/rs/xid\"\n    \"github.com/satori/go.uuid\"\n    \"github.com/segmentio/ksuid\"\n    \"github.com/sony/sonyflake\"\n)\n\n// To run:\n// go run main.go\n\nfunc genXid() {\n    id := xid.New()\n    fmt.Printf(\"github.com/rs/xid:           %s\\n\", id.String())\n}\n\nfunc genKsuid() {\n    id := ksuid.New()\n    fmt.Printf(\"github.com/segmentio/ksuid:  %s\\n\", id.String())\n}\n\nfunc genBetterGUID() {\n    id := betterguid.New()\n    fmt.Printf(\"github.com/kjk/betterguid:   %s\\n\", id)\n}\n\nfunc genUlid() {\n    t := time.Now().UTC()\n    entropy := rand.New(rand.NewSource(t.UnixNano()))\n    id := ulid.MustNew(ulid.Timestamp(t), entropy)\n    fmt.Printf(\"github.com/oklog/ulid:       %s\\n\", id.String())\n}\n\nfunc genSonyflake() {\n    flake := sonyflake.NewSonyflake(sonyflake.Settings{})\n    id, err := flake.NextID()\n    if err != nil {\n        log.Fatalf(\"flake.NextID() failed with %s\\n\", err)\n    }\n    // Note: this is base16, could shorten by encoding as base62 string\n    fmt.Printf(\"github.com/sony/sonyflake:   %x\\n\", id)\n}\n\nfunc genSid() {\n    id := sid.Id()\n    fmt.Printf(\"github.com/chilts/sid:       %s\\n\", id)\n}\n\nfunc genUUIDv4() {\n    id := uuid.NewV4()\n    fmt.Printf(\"github.com/satori/go.uuid:   %s\\n\", id)\n}\n\nfunc main() {\n    genXid()\n    genKsuid()\n    genBetterGUID()\n    genUlid()\n    genSonyflake()\n    genSid()\n    genUUIDv4()\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1354,7 +1392,8 @@
             "Text": "generate-unique-id/main.go",
             "Link": "https://github.com/kjk/go-cookbook/blob/master/generate-unique-id/main.go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1379,7 +1418,8 @@
           {
             "Text": "Which one to use?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1404,7 +1444,8 @@
           {
             "Text": "All of them are good."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1465,7 +1506,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1502,7 +1544,8 @@
           {
             "Text": " allows custom entropy (randomness) source but pays for that with complex API."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1539,7 +1582,8 @@
           {
             "Text": " is the smallest but also the least random. It’s based on Twitter’s design for generating IDs for tweets."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1600,7 +1644,8 @@
           {
             "Text": " I would have to implement it myself."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1644,7 +1689,8 @@
           {
             "Text": ", for comparison."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1669,7 +1715,8 @@
           {
             "Text": "To learn more:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1706,7 +1753,8 @@
           {
             "Text": " : the history of ksuid"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1743,7 +1791,8 @@
           {
             "Text": " : inspiration for betterguid design"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1774,7 +1823,8 @@
             "Text": "http://antoniomo.com/blog/2017/05/21/unique-ids-in-golang-part-1/",
             "Link": "http://antoniomo.com/blog/2017/05/21/unique-ids-in-golang-part-1/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1805,7 +1855,8 @@
             "Text": "http://antoniomo.com/blog/2017/05/28/unique-ids-in-golang-part-2/",
             "Link": "http://antoniomo.com/blog/2017/05/28/unique-ids-in-golang-part-2/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1836,7 +1887,8 @@
             "Text": "http://antoniomo.com/blog/2017/06/03/unique-ids-in-golang-part-3/",
             "Link": "http://antoniomo.com/blog/2017/06/03/unique-ids-in-golang-part-3/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1873,7 +1925,8 @@
           {
             "Text": " : details of Twitter’s snowflake on which sonyflake is based"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1911,7 +1964,8 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/generate-unique-id",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/generate-unique-id"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1923,7 +1977,8 @@
         "parent_id": "e6ca5046-8d98-4b5a-9e0c-883636419632",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       }
     ],
     "title": "Generating good unique ids in Go",
@@ -1935,7 +1990,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe83e7781-2988-4003-8343-21f307f7d124%2Fheader-01.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

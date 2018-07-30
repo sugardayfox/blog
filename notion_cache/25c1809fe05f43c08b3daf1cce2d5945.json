@@ -61,7 +61,8 @@
           {
             "Text": "Linklog:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -98,7 +99,8 @@
           {
             "Text": " - scripting language integrated with Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -135,7 +137,8 @@
           {
             "Text": " : Go Language - Web Application Secure Coding Practices"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +175,8 @@
           {
             "Text": " : a nicer Go playground, uses official playground for actual code execution"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -234,7 +238,8 @@
               {
                 "Text": " : fabric-like api library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -271,7 +276,8 @@
               {
                 "Text": " : api library like fabric"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -308,7 +314,8 @@
               {
                 "Text": " : tool like ansible"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -345,14 +352,16 @@
               {
                 "Text": " : a tool like ansible"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "fabric/ansible type tool in go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -432,7 +441,8 @@
               {
                 "Text": " : compiles JavaScript to Go (written in JavaScript)"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -469,7 +479,8 @@
               {
                 "Text": " : better than otto"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -506,14 +517,16 @@
               {
                 "Text": " : JavaScript interpreter in Go"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "JavaScript in Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -544,7 +557,8 @@
             "Text": "https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/",
             "Link": "https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -581,7 +595,8 @@
           {
             "Text": " : shows cross-compiling Windows using CGO lib on unix using mingw"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -618,7 +633,8 @@
           {
             "Text": " : about grpc"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -655,7 +671,8 @@
           {
             "Text": " : memory profiling"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -686,7 +703,8 @@
             "Text": "http://www.integralist.co.uk/posts/profiling-go/",
             "Link": "http://www.integralist.co.uk/posts/profiling-go/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -723,7 +741,8 @@
           {
             "Text": " : generate go structs definition from xml"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -760,7 +779,8 @@
           {
             "Text": " - Go implementation of Bentley/McIlroy long string compression"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -853,7 +873,8 @@
                 "Text": "https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/",
                 "Link": "https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -890,7 +911,8 @@
               {
                 "Text": " : sortable universal id"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -927,7 +949,8 @@
               {
                 "Text": " : a dependency manager with ux similar to npm/bundler"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -958,7 +981,8 @@
                 "Text": "http://squirly.ca/blog/2016/07/19/golang-context-is-not-for-dependency-injection.html",
                 "Link": "http://squirly.ca/blog/2016/07/19/golang-context-is-not-for-dependency-injection.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -989,7 +1013,8 @@
                 "Text": "https://0value.com/throttled--guardian-of-the-web-server",
                 "Link": "https://0value.com/throttled--guardian-of-the-web-server"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1020,7 +1045,8 @@
                 "Text": "https://elithrar.github.io/article/testing-http-handlers-go/",
                 "Link": "https://elithrar.github.io/article/testing-http-handlers-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1051,7 +1077,8 @@
                 "Text": "https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/",
                 "Link": "https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1082,7 +1109,8 @@
                 "Text": "http://www.minaandrawos.com/2016/05/14/udp-vs-tcp-in-golang/",
                 "Link": "http://www.minaandrawos.com/2016/05/14/udp-vs-tcp-in-golang/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1113,7 +1141,8 @@
                 "Text": "http://attilaolah.eu/2013/11/29/json-decoding-in-go/",
                 "Link": "http://attilaolah.eu/2013/11/29/json-decoding-in-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1144,7 +1173,8 @@
                 "Text": "https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs",
                 "Link": "https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1175,7 +1205,8 @@
                 "Text": "http://golang-examples.tumblr.com/post/84804294099/gos-regexp-cheatsheet",
                 "Link": "http://golang-examples.tumblr.com/post/84804294099/gos-regexp-cheatsheet"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1206,7 +1237,8 @@
                 "Text": "https://github.com/serialx/hashring",
                 "Link": "https://github.com/serialx/hashring"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1237,7 +1269,8 @@
                 "Text": "https://medium.com/code-adventures/go-packages-8bb0d12ab12c",
                 "Link": "https://medium.com/code-adventures/go-packages-8bb0d12ab12c"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1268,7 +1301,8 @@
                 "Text": "https://medium.com/code-adventures/profiling-golang-851db2d9ae24",
                 "Link": "https://medium.com/code-adventures/profiling-golang-851db2d9ae24"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1299,7 +1333,8 @@
                 "Text": "http://www.darrencoxall.com/golang/executing-commands-in-go/",
                 "Link": "http://www.darrencoxall.com/golang/executing-commands-in-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1330,7 +1365,8 @@
                 "Text": "http://felixge.de/2014/08/26/tcp-keepalive-with-golang.html",
                 "Link": "http://felixge.de/2014/08/26/tcp-keepalive-with-golang.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1361,7 +1397,8 @@
                 "Text": "http://mholt.github.io/json-to-go/",
                 "Link": "http://mholt.github.io/json-to-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1398,7 +1435,8 @@
               {
                 "Text": " - object database in Go, uses disk or leveled as a backend"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1435,7 +1473,8 @@
               {
                 "Text": " - xml lib modeled after python's entree, implemented with encoding/xml"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1466,7 +1505,8 @@
                 "Text": "https://github.com/cloudflare/bm",
                 "Link": "https://github.com/cloudflare/bm"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1497,7 +1537,8 @@
                 "Text": "http://www.reddit.com/r/golang/comments/2hexil/parsing_binary_files_in_go/",
                 "Link": "http://www.reddit.com/r/golang/comments/2hexil/parsing_binary_files_in_go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1528,7 +1569,8 @@
                 "Text": "http://tmichel.github.io/2014/10/12/golang-send-test-email/",
                 "Link": "http://tmichel.github.io/2014/10/12/golang-send-test-email/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1565,7 +1607,8 @@
               {
                 "Text": " - html content / article extraction in golang"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1596,7 +1639,8 @@
                 "Text": "http://tschottdorf.github.io/linking-golang-go-statically-cgo-testing/",
                 "Link": "http://tschottdorf.github.io/linking-golang-go-statically-cgo-testing/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1627,7 +1671,8 @@
                 "Text": "http://kukuruku.co/hub/golang/ssh-commands-execution-on-hundreds-of-servers-via-go",
                 "Link": "http://kukuruku.co/hub/golang/ssh-commands-execution-on-hundreds-of-servers-via-go"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1658,7 +1703,8 @@
                 "Text": "https://www.kaihag.com/https-and-go/",
                 "Link": "https://www.kaihag.com/https-and-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1689,7 +1735,8 @@
                 "Text": "http://blog.saush.com/2015/03/18/html-forms-and-go/",
                 "Link": "http://blog.saush.com/2015/03/18/html-forms-and-go/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1720,7 +1767,8 @@
                 "Text": "https://github.com/mindreframer/golang-stuff/blob/master/github.com/VividCortex/go-database-sql-tutorial/README.md",
                 "Link": "https://github.com/mindreframer/golang-stuff/blob/master/github.com/VividCortex/go-database-sql-tutorial/README.md"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1751,7 +1799,8 @@
                 "Text": "http://biasedbit.com/blog/golang-custom-transports/",
                 "Link": "http://biasedbit.com/blog/golang-custom-transports/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1821,7 +1870,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1858,7 +1908,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1895,7 +1946,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1932,7 +1984,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -1969,7 +2022,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -2000,7 +2054,8 @@
                     "Text": "https://github.com/headzoo/surf",
                     "Link": "https://github.com/headzoo/surf"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
@@ -2008,7 +2063,8 @@
                 "Text": "https://github.com/yhat/scrape",
                 "Link": "https://github.com/yhat/scrape"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2039,7 +2095,8 @@
                 "Text": "https://github.com/kierdavis/dateparser",
                 "Link": "https://github.com/kierdavis/dateparser"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2089,7 +2146,8 @@
                 "Text": "https://news.ycombinator.com/item?id=9694070",
                 "Link": "https://news.ycombinator.com/item?id=9694070"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2120,7 +2178,8 @@
                 "Text": "http://www.doxsey.net/blog/go-and-assembly/index.htm",
                 "Link": "http://www.doxsey.net/blog/go-and-assembly/index.htm"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2151,7 +2210,8 @@
                 "Text": "https://stablelib.com/blog/securing-golang-web-apps/",
                 "Link": "https://stablelib.com/blog/securing-golang-web-apps/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2182,7 +2242,8 @@
                 "Text": "https://gist.github.com/dwbuiten/c9865c4afb38f482702e",
                 "Link": "https://gist.github.com/dwbuiten/c9865c4afb38f482702e"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2213,7 +2274,8 @@
                 "Text": "https://github.com/lunixbochs/struc",
                 "Link": "https://github.com/lunixbochs/struc"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2244,7 +2306,8 @@
                 "Text": "https://github.com/dghubble/gologin",
                 "Link": "https://github.com/dghubble/gologin"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2275,7 +2338,8 @@
                 "Text": "https://github.com/ericchiang/pup",
                 "Link": "https://github.com/ericchiang/pup"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2306,7 +2370,8 @@
                 "Text": "https://joshrendek.com/2015/09/golang-performance-tips/",
                 "Link": "https://joshrendek.com/2015/09/golang-performance-tips/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2337,7 +2402,8 @@
                 "Text": "https://github.com/rs/xid",
                 "Link": "https://github.com/rs/xid"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2374,14 +2440,16 @@
               {
                 "Text": " - check if a port is already used"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "older"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Go linklog",
@@ -2392,7 +2460,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

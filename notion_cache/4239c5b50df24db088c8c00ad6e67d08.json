@@ -58,7 +58,8 @@
           {
             "Text": "Id: 238002"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -82,7 +83,8 @@
           {
             "Text": "Date: 2012-10-22T01:43:33-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -106,7 +108,8 @@
           {
             "Text": "Tags: webdev"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -118,7 +121,8 @@
         "parent_id": "4239c5b5-0df2-4db0-88c8-c00ad6e67d08",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -161,7 +165,8 @@
           {
             "Text": " duplicate the content of individual posts, they just show them in a different way (a couple of posts per page, as opposed to a single post per page)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -204,7 +209,8 @@
           {
             "Text": ") leads people to individual blog posts about it and not to aggregate pages with random other content."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -266,7 +272,8 @@
           {
             "Text": " for my site:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -292,7 +299,8 @@
         "type": "code",
         "version": 1,
         "code": "User-agent: *\nDisallow: /page/\nDisallow: /tag/\nDisallow: /notes/",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -370,7 +378,8 @@
           {
             "Text": " is another namespace with duplicate content (shows a list of articles with a given tag)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -413,7 +422,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Hiding duplicate content from your site via robots.txt",
@@ -424,7 +434,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

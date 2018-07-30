@@ -42,7 +42,8 @@
         "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       },
       {
         "alive": true,
@@ -85,7 +86,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -127,7 +129,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -187,7 +190,8 @@
           {
             "Text": "):"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -207,7 +211,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}"
+        "code": "function setup_depot {\n    $env:Path = $env:Path + \";C:\\depot_tools\"\n}",
+        "format_video": null
       },
       {
         "alive": true,
@@ -249,7 +254,8 @@
           {
             "Text": " once."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -261,7 +267,8 @@
         "parent_id": "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
     "title": "google depot",
@@ -272,7 +279,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

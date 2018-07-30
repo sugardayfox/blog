@@ -4,9 +4,19 @@
     "alive": true,
     "content": [
       "fe43a3fd-a1b6-416b-a71b-7f1e2bb74657",
+      "56089223-2423-4350-a535-a8b1b7d1ef55",
       "f9e11ea9-24d3-468e-885a-94b2d72e0b30",
       "be23f1ed-3146-4701-a5d5-ad9a85066864",
-      "e20295f3-354a-4d27-9f85-e545ad77361d"
+      "9a87fc02-eeef-4fd8-a84a-5e960618939e",
+      "547a56ce-0942-4491-adbf-8fe40c728eb0",
+      "34eee913-7991-4082-a6a8-f92a6890b45d",
+      "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+      "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+      "de20644c-9978-4cb3-a512-429e24a05467",
+      "e175107d-92e1-47fc-9227-7f5681da7215",
+      "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+      "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+      "64d97f7d-787c-42fb-80ec-236b7ddd5f22"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531717846007,
@@ -16,7 +26,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531944729250,
+    "last_edited_time": 1532924800863,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -27,7 +37,7 @@
       ]
     },
     "type": "page",
-    "version": 43,
+    "version": 129,
     "content_resolved": [
       {
         "alive": true,
@@ -59,7 +69,21 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
+        },
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922196787,
+        "id": "56089223-2423-4350-a535-a8b1b7d1ef55",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922196787,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -67,23 +91,24 @@
         "created_time": 1531944638239,
         "id": "f9e11ea9-24d3-468e-885a-94b2d72e0b30",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531944727084,
+        "last_edited_time": 1532922290854,
         "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Ideas for software:"
+              "Ideas for software"
             ]
           ]
         },
         "type": "text",
-        "version": 116,
+        "version": 120,
         "inline_content": [
           {
-            "Text": "Ideas for software:"
+            "Text": "Ideas for software"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -115,19 +140,2028 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
+        },
+        "format_video": null
       },
       {
         "alive": true,
+        "content": [
+          "17964216-2ffd-4db1-9e69-1c61d460ae36",
+          "2e0cf094-63e8-4046-abec-2739987d4511",
+          "a5bbcc6d-3559-4e16-84cd-c4ee917ccc30",
+          "40a90334-1aed-41fb-ad4f-d793aa933725"
+        ],
+        "copied_from": "b6680da1-7860-4e8d-b0af-781433e4bb9b",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531944729250,
-        "id": "e20295f3-354a-4d27-9f85-e545ad77361d",
+        "created_time": 1532922269044,
+        "id": "9a87fc02-eeef-4fd8-a84a-5e960618939e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531944729250,
+        "last_edited_time": 1532924815542,
         "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
         "parent_table": "block",
-        "type": "text",
-        "version": 4
+        "properties": {
+          "title": [
+            [
+              "web service to build a sitemap"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 11,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922269045,
+            "id": "17964216-2ffd-4db1-9e69-1c61d460ae36",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922269045,
+            "parent_id": "9a87fc02-eeef-4fd8-a84a-5e960618939e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Build a web service that builds google sitemaps ("
+                ],
+                [
+                  "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190",
+                  [
+                    [
+                      "a",
+                      "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190"
+                    ]
+                  ]
+                ],
+                [
+                  "). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome headless."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Build a web service that builds google sitemaps ("
+              },
+              {
+                "Text": "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190",
+                "Link": "https://support.google.com/webmasters/answer/183668?hl=en\u0026ref_topic=4581190"
+              },
+              {
+                "Text": "). It crawls the website and builds .xml or .txt file with links, describes how to submit it to google etc. It should use chrome headless."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922269045,
+            "id": "2e0cf094-63e8-4046-abec-2739987d4511",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922269045,
+            "parent_id": "9a87fc02-eeef-4fd8-a84a-5e960618939e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "It should aggressively cache the results to avoid re-crawling websites. Url should be /tools/build-submit-google-sitemap.html. Maybe use a domain like webtools.io/build-submit-google-sitemap.html"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "It should aggressively cache the results to avoid re-crawling websites. Url should be /tools/build-submit-google-sitemap.html. Maybe use a domain like webtools.io/build-submit-google-sitemap.html"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922269045,
+            "id": "a5bbcc6d-3559-4e16-84cd-c4ee917ccc30",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922269045,
+            "parent_id": "9a87fc02-eeef-4fd8-a84a-5e960618939e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "To make money limit web service to N links (100? 256?) and up-sell a $10-$30 windows/mac desktop app build on electron."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "To make money limit web service to N links (100? 256?) and up-sell a $10-$30 windows/mac desktop app build on electron."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922269045,
+            "id": "40a90334-1aed-41fb-ad4f-d793aa933725",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922269045,
+            "parent_id": "9a87fc02-eeef-4fd8-a84a-5e960618939e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Basically, "
+                ],
+                [
+                  "https://www.xml-sitemaps.com",
+                  [
+                    [
+                      "a",
+                      "https://www.xml-sitemaps.com"
+                    ]
+                  ]
+                ],
+                [
+                  " but better."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Basically, "
+              },
+              {
+                "Text": "https://www.xml-sitemaps.com",
+                "Link": "https://www.xml-sitemaps.com"
+              },
+              {
+                "Text": " but better."
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "web service to build a sitemap"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "c03c290c-c113-4546-8b2c-81c516d37481",
+          "01edd635-0211-4d04-aafe-041edac2116a",
+          "e64df2cf-8efa-44c4-9010-945dc4c179fe",
+          "e81cddf2-981b-45d4-be5e-f18042ceea07",
+          "1dee72c7-5aa6-4d13-b707-0e1609f95987",
+          "63a20e72-fc9c-4559-898f-0dde36908e02"
+        ],
+        "copied_from": "82670582-c261-4c54-9ea1-b4b2b239caf2",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922408815,
+        "id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924814426,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "faster PDF rendering"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 11,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922408815,
+            "id": "c03c290c-c113-4546-8b2c-81c516d37481",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922408815,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "For faster PDF rendering, re-compile it. PDF format is rather complicated, mostly text format. A PDF renderer first has to parse it into in-memory representation and then renders it."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922408815,
+            "id": "01edd635-0211-4d04-aafe-041edac2116a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922408815,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Imagine a binary format that is designed for fast loading and one-time PDF =\u003e binary format compilation step. With the right format, parsing step could essentially be eliminated."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Imagine a binary format that is designed for fast loading and one-time PDF =\u003e binary format compilation step. With the right format, parsing step could essentially be eliminated."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922408815,
+            "id": "e64df2cf-8efa-44c4-9010-945dc4c179fe",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922408815,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "We could even improve rendering time with some additional optimizations."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "We could even improve rendering time with some additional optimizations."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922408815,
+            "id": "e81cddf2-981b-45d4-be5e-f18042ceea07",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922408815,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "For example, there are PDF documents with gigantic images (think 4000 x 4000 pixels) that could be resized to some reasonable value and saved in a format that is fastest to decode."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "For example, there are PDF documents with gigantic images (think 4000 x 4000 pixels) that could be resized to some reasonable value and saved in a format that is fastest to decode."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922408815,
+            "id": "1dee72c7-5aa6-4d13-b707-0e1609f95987",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922408815,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "I’m sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible)."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "I’m sure there are optimizations possible for complex vector graphics (e.g. removing stuff that we know will be invisible)."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922415278,
+            "id": "63a20e72-fc9c-4559-898f-0dde36908e02",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922415278,
+            "parent_id": "547a56ce-0942-4491-adbf-8fe40c728eb0",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4,
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "faster PDF rendering"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "7f2dcea9-3b0b-43f6-a33f-65e92b014273",
+          "f90bf537-4f10-4345-9bc0-d5bcbc40fc6b",
+          "fdbef7bf-dcde-4a27-a6b3-12ae23f5a0ce",
+          "4956bfd6-3bb7-472c-98a9-df72fc6b26b5"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922442032,
+        "id": "34eee913-7991-4082-a6a8-f92a6890b45d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922641363,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "GUI version of tig"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 58,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "3bd9e593-18f5-4ed3-a3af-9da18e59d179",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922621098,
+            "id": "7f2dcea9-3b0b-43f6-a33f-65e92b014273",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922637097,
+            "parent_id": "34eee913-7991-4082-a6a8-f92a6890b45d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Write a Mac and/or Windows GUI version of tig "
+                ],
+                [
+                  "https://github.com/jonas/tig",
+                  [
+                    [
+                      "a",
+                      "https://github.com/jonas/tig"
+                    ]
+                  ]
+                ],
+                [
+                  "."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 17,
+            "inline_content": [
+              {
+                "Text": "Write a Mac and/or Windows GUI version of tig "
+              },
+              {
+                "Text": "https://github.com/jonas/tig",
+                "Link": "https://github.com/jonas/tig"
+              },
+              {
+                "Text": "."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922637097,
+            "id": "f90bf537-4f10-4345-9bc0-d5bcbc40fc6b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922637588,
+            "parent_id": "34eee913-7991-4082-a6a8-f92a6890b45d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Tig has 4.5k stars on github, which implies a significant interest."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "Tig has 4.5k stars on github, which implies a significant interest."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "6f32cec1-a90e-49e1-9a2c-1dbb2804d3d3",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922621096,
+            "id": "fdbef7bf-dcde-4a27-a6b3-12ae23f5a0ce",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922621096,
+            "parent_id": "34eee913-7991-4082-a6a8-f92a6890b45d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "It could be implemented in JavaScript/HTML. It could have a web version that allows browsing any github repository and on desktop it could be done as Electron."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "It could be implemented in JavaScript/HTML. It could have a web version that allows browsing any github repository and on desktop it could be done as Electron."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "d0c46ce2-7b8e-471f-a037-e9729a380ef6",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922621101,
+            "id": "4956bfd6-3bb7-472c-98a9-df72fc6b26b5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922621101,
+            "parent_id": "34eee913-7991-4082-a6a8-f92a6890b45d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Or it could be done with https://sciter.com/. Or Winforms on Windows and Swift/Cocoa on Mac."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Or it could be done with https://sciter.com/. Or Winforms on Windows and Swift/Cocoa on Mac."
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "GUI version of tig"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "c0ccc2c0-ab16-4e0c-8fe3-0b71551f9f26",
+          "fcc5c66c-2b38-48fb-9063-07f26d4ac167",
+          "85753c04-7ebe-4138-b445-3de1fa1e8bf9",
+          "1b7886fd-ce70-4de3-a935-ea511d6f0b24",
+          "e6aa6bd8-7c68-4f46-86e3-7018158da01a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922658913,
+        "id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922686472,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "website for comparing poppler vs. mupdf vs. pdfium vs. pdf.js rendering"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 164,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "6f86fd5b-5a22-4186-9412-04c833ec48b7",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922684122,
+            "id": "c0ccc2c0-ab16-4e0c-8fe3-0b71551f9f26",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922684122,
+            "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "A website that allows comparing of poppler vs. mupdf vs. pdfium vs pdf.js rendering. Upload a PDF, render each page in each engine in both native size and down-scaled to a reasonably sized thumbnail for overview. The baisc layout would be:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "A website that allows comparing of poppler vs. mupdf vs. pdfium vs pdf.js rendering. Upload a PDF, render each page in each engine in both native size and down-scaled to a reasonably sized thumbnail for overview. The baisc layout would be:"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "43324e28-c44d-4f01-a6ed-824de97c1173",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922684147,
+            "id": "fcc5c66c-2b38-48fb-9063-07f26d4ac167",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922684147,
+            "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "[page 1 mupdf] [page 1 pdfium] [page 1 poppler][page 2 mupdf] [page 2 pdfium] [page 2 poppler] …"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "[page 1 mupdf] [page 1 pdfium] [page 1 poppler][page 2 mupdf] [page 2 pdfium] [page 2 poppler] …"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "5fb1a673-de34-4df2-84ea-c40f1c24dff0",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922684124,
+            "id": "85753c04-7ebe-4138-b445-3de1fa1e8bf9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922684124,
+            "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Then one could click on the thumbnail to see comparison of the native size."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Then one could click on the thumbnail to see comparison of the native size."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "63030981-393d-4ac1-9691-d12a85efd026",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922684121,
+            "id": "1b7886fd-ce70-4de3-a935-ea511d6f0b24",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922684121,
+            "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Bonus feature: some type of overlay comparison."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Bonus feature: some type of overlay comparison."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922686472,
+            "id": "e6aa6bd8-7c68-4f46-86e3-7018158da01a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922686472,
+            "parent_id": "9d3c8437-a6c8-4915-b0f4-490c4920510a",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4,
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "website for comparing poppler vs. mupdf vs. pdfium vs. pdf.js rendering"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "83892f8d-0980-41a6-9dbe-558591d6f346",
+          "990073f2-b40b-4d69-9d0a-9fc4ecd0d045",
+          "0d2c9128-8763-48a9-a14a-ddf7f7bbfe4c",
+          "a9c6da06-3632-4e87-bc87-a2feac28f153",
+          "cf6cb6ab-a689-4013-88c0-a606e918f5b0"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922696753,
+        "id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922720273,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "website / tool to extract text from PDF"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 152,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "9e86f9fe-b041-4564-b334-0e99fc37d1bb",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922718044,
+            "id": "83892f8d-0980-41a6-9dbe-558591d6f346",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922718044,
+            "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Write a tool to extract text from PDF files."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Write a tool to extract text from PDF files."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "c1fe69b1-e1de-49ec-b143-ade3d14b17c4",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922718053,
+            "id": "990073f2-b40b-4d69-9d0a-9fc4ecd0d045",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922718053,
+            "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Upload the file and get text in plain text file and json (augmented with position information) and maybe even xml."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Upload the file and get text in plain text file and json (augmented with position information) and maybe even xml."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "cb21ea76-9d7b-48a7-b26f-4f827a54b26d",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922718061,
+            "id": "0d2c9128-8763-48a9-a14a-ddf7f7bbfe4c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922718061,
+            "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Limit size of PDF files. Upsell to $19 mac/windows. Write a command-line tool, maybe even open-sources, also upsell GUI version."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Limit size of PDF files. Upsell to $19 mac/windows. Write a command-line tool, maybe even open-sources, also upsell GUI version."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "14267abe-eb68-4dae-af23-4ea25ccc9269",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922718052,
+            "id": "a9c6da06-3632-4e87-bc87-a2feac28f153",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922718052,
+            "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Good example of upselling to a better version: "
+                ],
+                [
+                  "https://www.spyfu.com",
+                  [
+                    [
+                      "a",
+                      "https://www.spyfu.com"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Good example of upselling to a better version: "
+              },
+              {
+                "Text": "https://www.spyfu.com",
+                "Link": "https://www.spyfu.com"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922720273,
+            "id": "cf6cb6ab-a689-4013-88c0-a606e918f5b0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922720273,
+            "parent_id": "ca30b565-c3df-484d-ab46-eb8078c0f60f",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4,
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "website / tool to extract text from PDF"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "8c9bf8fe-1c72-4852-ab4b-187a3240009e"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922794478,
+        "id": "de20644c-9978-4cb3-a512-429e24a05467",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922824327,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "write GUI version of "
+            ],
+            [
+              "https://github.com/soheilpro/mon",
+              [
+                [
+                  "a",
+                  "https://github.com/soheilpro/mon"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 121,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "94c0036d-9961-4670-8f04-116b739b96ef",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922822061,
+            "id": "8c9bf8fe-1c72-4852-ab4b-187a3240009e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922822061,
+            "parent_id": "de20644c-9978-4cb3-a512-429e24a05467",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Write windows desktop app like "
+                ],
+                [
+                  "https://github.com/soheilpro/mon",
+                  [
+                    [
+                      "a",
+                      "https://github.com/soheilpro/mon"
+                    ]
+                  ]
+                ],
+                [
+                  ". Do it either the hard way (pure win32) or C# or sciter."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Write windows desktop app like "
+              },
+              {
+                "Text": "https://github.com/soheilpro/mon",
+                "Link": "https://github.com/soheilpro/mon"
+              },
+              {
+                "Text": ". Do it either the hard way (pure win32) or C# or sciter."
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "write GUI version of "
+          },
+          {
+            "Text": "https://github.com/soheilpro/mon",
+            "Link": "https://github.com/soheilpro/mon"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "becfb85b-13a5-41f0-bd25-e959bf449ab1",
+          "ec8d2fa5-1738-4e46-ad9a-74e9b73e6399",
+          "61b83094-d7d6-4b40-9e32-991e4e24a7c5",
+          "788a670e-0670-487e-b8c5-cdae3afd96f2",
+          "be6fa250-00ed-4671-84f9-2c315616410f",
+          "d1e9ab7b-35d1-43aa-becd-bf791b56fad4",
+          "fd9ed276-0e58-4396-b188-2105eb23afd7"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923868636,
+        "id": "e175107d-92e1-47fc-9227-7f5681da7215",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923945105,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "source code indexer"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 63,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "9a5a10af-f5cf-4808-a00b-f0ed048690d1",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882072,
+            "id": "becfb85b-13a5-41f0-bd25-e959bf449ab1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882072,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Write a simple source code indexer for C++ code. Use it for Sumatra code."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Write a simple source code indexer for C++ code. Use it for Sumatra code."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "0b258bfd-ee04-48a4-b151-728186ae28e4",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882092,
+            "id": "ec8d2fa5-1738-4e46-ad9a-74e9b73e6399",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882092,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Others:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Others:"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "8629e6f9-6ab3-43ac-861b-5be11748e27e",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882057,
+            "id": "61b83094-d7d6-4b40-9e32-991e4e24a7c5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882057,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://free-electrons.com/blog/elixir/",
+                  [
+                    [
+                      "a",
+                      "http://free-electrons.com/blog/elixir/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "http://free-electrons.com/blog/elixir/",
+                "Link": "http://free-electrons.com/blog/elixir/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "16a2c4c1-70c3-49a2-8447-7f53491c7148",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882082,
+            "id": "788a670e-0670-487e-b8c5-cdae3afd96f2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882082,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://sourceforge.net/projects/lxr/",
+                  [
+                    [
+                      "a",
+                      "https://sourceforge.net/projects/lxr/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://sourceforge.net/projects/lxr/",
+                "Link": "https://sourceforge.net/projects/lxr/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "15949339-fa97-4730-abdf-49163186074e",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882091,
+            "id": "be6fa250-00ed-4671-84f9-2c315616410f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882091,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/OpenGrok/OpenGrok",
+                  [
+                    [
+                      "a",
+                      "https://github.com/OpenGrok/OpenGrok"
+                    ]
+                  ]
+                ],
+                [
+                  " (in java)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/OpenGrok/OpenGrok",
+                "Link": "https://github.com/OpenGrok/OpenGrok"
+              },
+              {
+                "Text": " (in java)"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "d3c7dbdf-100a-468f-a843-5536a8832b4e",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882093,
+            "id": "d1e9ab7b-35d1-43aa-becd-bf791b56fad4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882093,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/",
+                  [
+                    [
+                      "a",
+                      "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/",
+                "Link": "https://grokbit.com/sumatrapdfreader/sumatrapdf/ref/master/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "c99fc6d7-3c51-44cb-85fe-da96dc6dcbe5",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923882073,
+            "id": "fd9ed276-0e58-4396-b188-2105eb23afd7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923882073,
+            "parent_id": "e175107d-92e1-47fc-9227-7f5681da7215",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Combines searching with browsing."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "Combines searching with browsing."
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "source code indexer"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "a936f430-51a2-4bfa-a149-eca336854161",
+          "87ec8541-764e-4ae2-bf38-d071676c5b91",
+          "b5c91072-5542-443d-b2f0-1bdc8bc6041e",
+          "f4cf08ab-3aac-4037-8b40-797115a429fc",
+          "8f6b365b-dfda-4161-b5f2-104123a735b6",
+          "f5211dfd-8401-434a-b899-0ea7504fffc6",
+          "60b3ef58-23be-4c5a-a877-05b2d660abaa",
+          "90c40931-7cb0-48c1-bf2f-223b1bc09d5e",
+          "abec47dd-939f-4422-a3c1-830ae71b8e5e",
+          "90b7eab0-01f5-4707-bc98-6ac217229bf2"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531204194250,
+        "id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+        "ignore_block_count": true,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924607931,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "GUI version of "
+            ],
+            [
+              "https://github.com/johnkerl/miller",
+              [
+                [
+                  "a",
+                  "https://github.com/johnkerl/miller"
+                ]
+              ]
+            ],
+            [
+              " (awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON)"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 62,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194250,
+            "id": "a936f430-51a2-4bfa-a149-eca336854161",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "The weakness of such cmd-line tools is that they require writing of the whole sequence of operations up-front. There are 3 problems with that:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "The weakness of such cmd-line tools is that they require writing of the whole sequence of operations up-front. There are 3 problems with that:"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531888325127,
+            "id": "87ec8541-764e-4ae2-bf38-d071676c5b91",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "the syntax is rather arcane"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 24,
+            "inline_content": [
+              {
+                "Text": "the syntax is rather arcane"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531888329775,
+            "id": "b5c91072-5542-443d-b2f0-1bdc8bc6041e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "the user doesn’t see the data he’s operating on"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 17,
+            "inline_content": [
+              {
+                "Text": "the user doesn’t see the data he’s operating on"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531888334311,
+            "id": "f4cf08ab-3aac-4037-8b40-797115a429fc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "mistakes are costly i.e. changing the operations has to redo all computation from scratch"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "mistakes are costly i.e. changing the operations has to redo all computation from scratch"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194250,
+            "id": "8f6b365b-dfda-4161-b5f2-104123a735b6",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "A better approach is to allow humans multi-step refinements of data in a UI that shows the preview of the operations."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "A better approach is to allow humans multi-step refinements of data in a UI that shows the preview of the operations."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194250,
+            "id": "f5211dfd-8401-434a-b899-0ea7504fffc6",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "For example, the operation:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 16,
+            "inline_content": [
+              {
+                "Text": "For example, the operation:"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531888392486,
+            "id": "60b3ef58-23be-4c5a-a877-05b2d660abaa",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Shell"
+                ]
+              ],
+              "title": [
+                [
+                  "$ mlr --icsv --opprint --barred \\\n  put '$tiv_delta = $tiv_2012 - $tiv_2011; unset $tiv_2011, $tiv_2012' \\\n  then sort -nr tiv_delta flins.csv"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 32,
+            "code": "$ mlr --icsv --opprint --barred \\\n  put '$tiv_delta = $tiv_2012 - $tiv_2011; unset $tiv_2011, $tiv_2012' \\\n  then sort -nr tiv_delta flins.csv",
+            "code_language": "Shell",
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194250,
+            "id": "90c40931-7cb0-48c1-bf2f-223b1bc09d5e",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Would be done as sequence of steps"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 18,
+            "inline_content": [
+              {
+                "Text": "Would be done as sequence of steps"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531888431941,
+            "id": "abec47dd-939f-4422-a3c1-830ae71b8e5e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Shell"
+                ]
+              ],
+              "title": [
+                [
+                  "\u003e load flins.csv\n$1: 215 records\nshow first 10 records + headers\n\n\u003e add tiv_delta = $tiv_2012 - $tiv_2011\n$2: 215 records\n... 10 record preview\n\n\u003e remove tiv_2011 tiv_2012\n$3: 215 records\n... 10 record preview\n\n\u003e sort by tiv_delta\n$4: 215 records\n... 10 record preview\n\n\u003e save flins_sorted.csv"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 87,
+            "code": "\u003e load flins.csv\n$1: 215 records\nshow first 10 records + headers\n\n\u003e add tiv_delta = $tiv_2012 - $tiv_2011\n$2: 215 records\n... 10 record preview\n\n\u003e remove tiv_2011 tiv_2012\n$3: 215 records\n... 10 record preview\n\n\u003e sort by tiv_delta\n$4: 215 records\n... 10 record preview\n\n\u003e save flins_sorted.csv",
+            "code_language": "Shell",
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1531204194251,
+            "id": "90b7eab0-01f5-4707-bc98-6ac217229bf2",
+            "ignore_block_count": true,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923927790,
+            "parent_id": "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "“add”, “remove”, “sort by”, “save” are operations that work on list of records. If argument is not provided, it’s implicitly the last result. The argument can be explicitly provided e.g.: "
+                ],
+                [
+                  "\u003e $2 save flins_sorted_2.csv",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 23,
+            "inline_content": [
+              {
+                "Text": "“add”, “remove”, “sort by”, “save” are operations that work on list of records. If argument is not provided, it’s implicitly the last result. The argument can be explicitly provided e.g.: "
+              },
+              {
+                "Text": "\u003e $2 save flins_sorted_2.csv",
+                "AttrFlags": 2
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "GUI version of "
+          },
+          {
+            "Text": "https://github.com/johnkerl/miller",
+            "Link": "https://github.com/johnkerl/miller"
+          },
+          {
+            "Text": " (awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON)"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "bb7161d4-19fd-458e-9005-50f64a86b7d9",
+          "26a15c1a-41be-49ac-a9c4-221f08faf49c",
+          "2dfbdcd7-2e5d-42bb-97ea-a41385288469",
+          "9da75103-d30e-4ec2-900e-59068ce8c33e",
+          "3240a744-f9e0-4aac-aa96-4a277798e893",
+          "37c18e32-7bc3-4bf8-94fe-9b1ba0bfa017",
+          "6d6f516b-ad64-47b9-8ec5-c1271111e6d9",
+          "b103dfab-6c2d-4d7b-b519-d12524f1e760",
+          "3dadbce8-480c-45ad-a621-f4ca4d88d6b9",
+          "55b23655-6374-4437-8436-b15fb2089842"
+        ],
+        "copied_from": "b34d58fd-dc86-4e64-a04c-e35ece97975f",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924606065,
+        "id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924800863,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "build a better editor and publisher for GitHub wikis"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 14,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924628232,
+            "id": "bb7161d4-19fd-458e-9005-50f64a86b7d9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924628928,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "GitHub has wikis but they are merely passable, not good: "
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "GitHub has wikis but they are merely passable, not good: "
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606065,
+            "id": "26a15c1a-41be-49ac-a9c4-221f08faf49c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606065,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "the editing UI is very bare bones"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "the editing UI is very bare bones"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606065,
+            "id": "2dfbdcd7-2e5d-42bb-97ea-a41385288469",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606065,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "the way they are displayed could also be improved"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "the way they are displayed could also be improved"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606065,
+            "id": "9da75103-d30e-4ec2-900e-59068ce8c33e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606065,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Technology: build a better markdown editor like "
+                ],
+                [
+                  "http://dillinger.io",
+                  [
+                    [
+                      "a",
+                      "http://dillinger.io"
+                    ]
+                  ]
+                ],
+                [
+                  " or "
+                ],
+                [
+                  "https://stackedit.io/",
+                  [
+                    [
+                      "a",
+                      "https://stackedit.io/"
+                    ]
+                  ]
+                ],
+                [
+                  " or "
+                ],
+                [
+                  "https://hackmd.io/",
+                  [
+                    [
+                      "a",
+                      "https://hackmd.io/"
+                    ]
+                  ]
+                ],
+                [
+                  ". It’s simple."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Technology: build a better markdown editor like "
+              },
+              {
+                "Text": "http://dillinger.io",
+                "Link": "http://dillinger.io"
+              },
+              {
+                "Text": " or "
+              },
+              {
+                "Text": "https://stackedit.io/",
+                "Link": "https://stackedit.io/"
+              },
+              {
+                "Text": " or "
+              },
+              {
+                "Text": "https://hackmd.io/",
+                "Link": "https://hackmd.io/"
+              },
+              {
+                "Text": ". It’s simple."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606065,
+            "id": "3240a744-f9e0-4aac-aa96-4a277798e893",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606065,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "GitHub wiki is just a repository. If your project is foo/bar, main repo is github.com/foo/bar.git and wiki repo is "
+                ],
+                [
+                  "github.com/foo/bar.wiki.git",
+                  [
+                    [
+                      "a",
+                      "http://github.com/foo/bar.wiki.git"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "GitHub wiki is just a repository. If your project is foo/bar, main repo is github.com/foo/bar.git and wiki repo is "
+              },
+              {
+                "Text": "github.com/foo/bar.wiki.git",
+                "Link": "http://github.com/foo/bar.wiki.git"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606065,
+            "id": "37c18e32-7bc3-4bf8-94fe-9b1ba0bfa017",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606065,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it’s possible to do from GitHub API."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Unclear how to get commit rights. In the worst case scenario could fork the repo and provide instructions for how to manually merge into main repo. Hopefully it’s possible to do from GitHub API."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606066,
+            "id": "6d6f516b-ad64-47b9-8ec5-c1271111e6d9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924637647,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for privet repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "Business model: either charge individuals a little bit per month ($2-$10) for the editor or make public repos free and charge more for privet repos, like $30/month. The idea here is that private repos are used by companies, which can afford to pay more."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606066,
+            "id": "b103dfab-6c2d-4d7b-b519-d12524f1e760",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606066,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Free access for public repos would act as free advertisement."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Free access for public repos would act as free advertisement."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924606066,
+            "id": "3dadbce8-480c-45ad-a621-f4ca4d88d6b9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924606066,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "The business idea is similar to other companies built on top of GitHub, like "
+                ],
+                [
+                  "https://www.zenhub.com/",
+                  [
+                    [
+                      "a",
+                      "https://www.zenhub.com/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "The business idea is similar to other companies built on top of GitHub, like "
+              },
+              {
+                "Text": "https://www.zenhub.com/",
+                "Link": "https://www.zenhub.com/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924638798,
+            "id": "55b23655-6374-4437-8436-b15fb2089842",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924638798,
+            "parent_id": "ba5885bb-45b7-4fb7-b541-d8850b01c49d",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4,
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "build a better editor and publisher for GitHub wikis"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "content": [
+          "18da68e6-6312-4695-9a71-21d9f9d8ae52",
+          "dd5f645f-bfcd-43df-b0ba-59d7fe4cbd38",
+          "c591c236-6a27-4a10-9d0e-1da53f6a148c",
+          "795da486-6d70-4fc5-ac76-2037dd0d9daa",
+          "a988475a-ed79-4919-acbe-9992551bdc92"
+        ],
+        "copied_from": "6297979c-02ac-4505-a9e5-2236270f56c3",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924796083,
+        "id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924802392,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "self-hosted blog on "
+            ],
+            [
+              "https://firebase.google.com/",
+              [
+                [
+                  "a",
+                  "https://firebase.google.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 9,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924796083,
+            "id": "18da68e6-6312-4695-9a71-21d9f9d8ae52",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924796083,
+            "parent_id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924796083,
+            "id": "dd5f645f-bfcd-43df-b0ba-59d7fe4cbd38",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924796083,
+            "parent_id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "One could build a single page app that includes all the important functionality of a blog."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "One could build a single page app that includes all the important functionality of a blog."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924796083,
+            "id": "c591c236-6a27-4a10-9d0e-1da53f6a148c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924796083,
+            "parent_id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924796083,
+            "id": "795da486-6d70-4fc5-ac76-2037dd0d9daa",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924796083,
+            "parent_id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Written in Vue."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Written in Vue."
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532924796083,
+            "id": "a988475a-ed79-4919-acbe-9992551bdc92",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924796083,
+            "parent_id": "64d97f7d-787c-42fb-80ec-236b7ddd5f22",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Unfortunately, there’s no money in it."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 1,
+            "inline_content": [
+              {
+                "Text": "Unfortunately, there’s no money in it."
+              }
+            ],
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "self-hosted blog on "
+          },
+          {
+            "Text": "https://firebase.google.com/",
+            "Link": "https://firebase.google.com/"
+          }
+        ],
+        "format_video": null
       }
     ],
     "title": "Ideas",
@@ -138,7 +2172,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

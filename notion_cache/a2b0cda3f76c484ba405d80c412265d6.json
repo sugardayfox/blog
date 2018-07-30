@@ -4,11 +4,9 @@
     "alive": true,
     "content": [
       "35a525dc-deb2-49b1-8e48-72beabba02eb",
-      "dc349e94-fee3-40ba-a41b-337ed1230d15",
-      "a6643ebf-f9b4-45ac-a1eb-883073501f0a",
-      "71a499f1-8f1d-4fc2-ac3a-cd60d3226198",
-      "a0ed35c4-554c-4bc0-8d75-6dbb516409a1",
-      "02929438-8c16-4b95-8aeb-70e7c56822e7"
+      "02929438-8c16-4b95-8aeb-70e7c56822e7",
+      "50959cf0-3f0d-4697-a53e-4c6417ad8845",
+      "3fc7426b-6ebd-480a-b618-44c8822fe168"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1499039495387,
@@ -18,7 +16,7 @@
     },
     "id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530045877221,
+    "last_edited_time": 1532924077248,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -29,155 +27,168 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 15,
     "content_resolved": [
       {
         "alive": true,
+        "content": [
+          "dc349e94-fee3-40ba-a41b-337ed1230d15",
+          "a6643ebf-f9b4-45ac-a1eb-883073501f0a",
+          "71a499f1-8f1d-4fc2-ac3a-cd60d3226198",
+          "a0ed35c4-554c-4bc0-8d75-6dbb516409a1"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1499039508615,
         "id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1499039508615,
+        "last_edited_time": 1532924075236,
         "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Links"
+              "\u003e Links"
             ]
           ]
         },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
+        "type": "toggle",
+        "version": 12,
+        "content_resolved": [
           {
-            "Text": "Links"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1499039514972,
-        "id": "dc349e94-fee3-40ba-a41b-337ed1230d15",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1499039514972,
-        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1499039514972,
+            "id": "dc349e94-fee3-40ba-a41b-337ed1230d15",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924075236,
+            "parent_id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
+                  "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
+                  [
+                    [
+                      "a",
+                      "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
+                    ]
+                  ]
                 ]
               ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
+                "Link": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
+              }
+            ],
+            "format_video": null
+          },
           {
-            "Text": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications",
-            "Link": "https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1499039535221,
-        "id": "a6643ebf-f9b4-45ac-a1eb-883073501f0a",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1499039535221,
-        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1499039535221,
+            "id": "a6643ebf-f9b4-45ac-a1eb-883073501f0a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924075236,
+            "parent_id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
+                  "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
+                  [
+                    [
+                      "a",
+                      "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
+                    ]
+                  ]
                 ]
               ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
+                "Link": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
+              }
+            ],
+            "format_video": null
+          },
           {
-            "Text": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e",
-            "Link": "https://medium.com/the-everyday-developer/detect-file-mime-type-using-magic-numbers-and-javascript-16bc513d4e1e"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512354895565,
-        "id": "71a499f1-8f1d-4fc2-ac3a-cd60d3226198",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512354895565,
-        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://davidwalsh.name/file-api",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512354895565,
+            "id": "71a499f1-8f1d-4fc2-ac3a-cd60d3226198",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924075236,
+            "parent_id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "https://davidwalsh.name/file-api"
+                  "https://davidwalsh.name/file-api",
+                  [
+                    [
+                      "a",
+                      "https://davidwalsh.name/file-api"
+                    ]
+                  ]
                 ]
               ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://davidwalsh.name/file-api",
+                "Link": "https://davidwalsh.name/file-api"
+              }
+            ],
+            "format_video": null
+          },
           {
-            "Text": "https://davidwalsh.name/file-api",
-            "Link": "https://davidwalsh.name/file-api"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512354895565,
-        "id": "a0ed35c4-554c-4bc0-8d75-6dbb516409a1",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512354895565,
-        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://davidwalsh.name/filereader",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512354895565,
+            "id": "a0ed35c4-554c-4bc0-8d75-6dbb516409a1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532924075236,
+            "parent_id": "35a525dc-deb2-49b1-8e48-72beabba02eb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "https://davidwalsh.name/filereader"
+                  "https://davidwalsh.name/filereader",
+                  [
+                    [
+                      "a",
+                      "https://davidwalsh.name/filereader"
+                    ]
+                  ]
                 ]
               ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://davidwalsh.name/filereader",
+                "Link": "https://davidwalsh.name/filereader"
+              }
+            ],
+            "format_video": null
+          }
+        ],
         "inline_content": [
           {
-            "Text": "https://davidwalsh.name/filereader",
-            "Link": "https://davidwalsh.name/filereader"
+            "Text": "\u003e Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -189,7 +200,48 @@
         "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531886119276,
+        "id": "50959cf0-3f0d-4697-a53e-4c6417ad8845",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924063735,
+        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "FileReader\n  event handlers:\n    onloadstart\n\t\tonprogress\n\t\tonloadend : failure or success\n\t\tonload : on success, (evt) =\u003e { evt.target.result is the data }\n\t\tonabort\n\t\tonerror\n\tmethods\n\t\tabort\n\t\treadAsArrayBuffer : result will be ArrayBuffer\n\t\treadAsBinaryString : result will be binary data as string\n\t\treadAsDataURL : result will be data: URL\n\t\treadAsText : result will be content as string"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 160,
+        "code": "FileReader\n  event handlers:\n    onloadstart\n\t\tonprogress\n\t\tonloadend : failure or success\n\t\tonload : on success, (evt) =\u003e { evt.target.result is the data }\n\t\tonabort\n\t\tonerror\n\tmethods\n\t\tabort\n\t\treadAsArrayBuffer : result will be ArrayBuffer\n\t\treadAsBinaryString : result will be binary data as string\n\t\treadAsDataURL : result will be data: URL\n\t\treadAsText : result will be content as string",
+        "code_language": "Plain Text",
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924077248,
+        "id": "3fc7426b-6ebd-480a-b618-44c8822fe168",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924077248,
+        "parent_id": "a2b0cda3-f76c-484b-a405-d80c412265d6",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "files, blobs, FileReader",
@@ -200,7 +252,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

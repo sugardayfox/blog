@@ -64,7 +64,8 @@
           {
             "Text": "Id: 311"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -88,7 +89,8 @@
           {
             "Text": "Tags: c#, .net"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -112,7 +114,8 @@
           {
             "Text": "Date: 2005-12-27T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -124,7 +127,8 @@
         "parent_id": "e6a984e7-1ec9-4753-bae7-b3482b3dab07",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -148,7 +152,8 @@
           {
             "Text": "Serialization (known as pickling in python) is an easy way to convert an object to a binary representation that can then be e.g. written to disk or sent over a wire."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +177,8 @@
           {
             "Text": "It’s useful e.g. for easy saving of settings to a file."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -232,7 +238,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -256,7 +263,8 @@
           {
             "Text": ".NET offers 2 serializers: binary, SOAP, XML. The difference between binary and SOAP is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -280,7 +288,8 @@
           {
             "Text": "binary is more efficient (time and memory used)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -304,7 +313,8 @@
           {
             "Text": "binary is not human-readable. SOAP isn’t much better."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -328,7 +338,8 @@
           {
             "Text": "XML is slightly different:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -364,7 +375,8 @@
             "Text": "System.Xml.Serialization",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -436,7 +448,8 @@
             "Text": "[Serializable]",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -460,7 +473,8 @@
           {
             "Text": "it doesn’t serialize private class members"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -484,7 +498,8 @@
           {
             "Text": "An example of serialization/deserialization to a file:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -510,7 +525,8 @@
         "type": "code",
         "version": 1,
         "code": "using System.IO;\nusing System.Diagnostics;\nusing System.Runtime.Serialization;\nusing System.Runtime.Serialization.Formatters;\nusing System.Runtime.Serialization.Formatters.Binary;\n\n[Serializable]\npublic class MySettings {\n    public int screenDx;\n    public ArrayList recentlyOpenedFiles;\n    [NonSerialized]public string dummy;\n}\n\npublic class Settings {\n    const int VERSION = 1;\n    static void Save(MySettings settings, string fileName) {\n            Stream stream = null;\n            try {\n                IFormatter formatter = new BinaryFormatter();\n                stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);\n                formatter.Serialize(stream, VERSION);\n                formatter.Serialize(stream, settings);\n            } catch {\n                // do nothing, just ignore any possible errors\n            } finally {\n                if (null != stream)\n                    stream.Close();\n            }\n    }\n\n    static MySettings Load(string fileName) {\n        Stream stream = null;\n        MySettings settings = null;\n        try {\n            IFormatter formatter = new BinaryFormatter();\n            stream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.None);\n            int version = (int)formatter.Deserialize(stream);\n            Debug.Assert(version == VERSION);\n            settings = (MySettings)formatter.Deserialize(stream);\n        } catch {\n            // do nothing, just ignore any possible errors\n        } finally {\n            if (null != stream)\n                stream.Close();\n        }\n        return settings;\n    }\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       }
     ],
     "title": "Serialization in C#",
@@ -521,7 +537,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -4,7 +4,8 @@
     "alive": true,
     "content": [
       "127ab259-aa25-4bd8-83ac-87b9a7a93eee",
-      "12549af2-28a0-428a-8d86-f425f940935f"
+      "12549af2-28a0-428a-8d86-f425f940935f",
+      "2ac3c0e6-fbce-406d-86fa-9a5f741b2fa2"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531880449902,
@@ -15,7 +16,7 @@
     },
     "id": "a6443584-61bd-4b1e-bddb-3f2703dc4926",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531880936662,
+    "last_edited_time": 1532924672114,
     "parent_id": "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
     "parent_table": "block",
     "properties": {
@@ -26,7 +27,7 @@
       ]
     },
     "type": "page",
-    "version": 56,
+    "version": 58,
     "content_resolved": [
       {
         "alive": true,
@@ -38,7 +39,8 @@
         "parent_id": "a6443584-61bd-4b1e-bddb-3f2703dc4926",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       },
       {
         "alive": true,
@@ -101,7 +103,8 @@
                 "Text": "https://blog.kowalczyk.info/article/9/tutorial-on-using-github.comkjkflex-go-package.html",
                 "Link": "https://blog.kowalczyk.info/article/9/tutorial-on-using-github.comkjkflex-go-package.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -151,7 +154,8 @@
                 "Text": "https://github.com/facebook/yoga/commit/f45059e1e696727c1282742b89d2c8bf06345254",
                 "Link": "https://github.com/facebook/yoga/commit/f45059e1e696727c1282742b89d2c8bf06345254"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -188,7 +192,8 @@
               {
                 "Text": " landed on main page"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -200,14 +205,29 @@
             "parent_id": "12549af2-28a0-428a-8d86-f425f940935f",
             "parent_table": "block",
             "type": "text",
-            "version": 8
+            "version": 8,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-08-04"
           }
-        ]
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924672114,
+        "id": "2ac3c0e6-fbce-406d-86fa-9a5f741b2fa2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924672114,
+        "parent_id": "a6443584-61bd-4b1e-bddb-3f2703dc4926",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "devlog 2017-08 • 01 d",
@@ -218,7 +238,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

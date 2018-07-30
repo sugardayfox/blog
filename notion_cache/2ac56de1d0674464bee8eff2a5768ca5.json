@@ -65,7 +65,8 @@
           {
             "Text": "Id: 952"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -89,7 +90,8 @@
           {
             "Text": "Tags: programming, c++"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -113,7 +115,8 @@
           {
             "Text": "Date: 2006-08-15T09:23:28-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -137,7 +140,8 @@
           {
             "Text": "Status: notimportant"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -149,7 +153,8 @@
         "parent_id": "2ac56de1-d067-4464-bee8-eff2a5768ca5",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -173,7 +178,8 @@
           {
             "Text": "One thing I’ve learned: maintaining good #include hierarchy requires eternal vigilance."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -197,7 +203,8 @@
           {
             "Text": "It’s easy to slack off and end up with a mess like: * circular dependencies (you must include both files in order to compile any of them) * transitive inclusion. Files that compile only because some other file happened to have been included somewhere in #include chain."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -221,7 +228,8 @@
           {
             "Text": "This mess is not a theoretical problem: it bites you when you modify the code and suddenly it doesn’t compile because of bad of #include dependencies."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -245,7 +253,8 @@
           {
             "Text": "Compilation problems caused by messed up dependencies are hard to figure out."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -269,7 +278,8 @@
           {
             "Text": "One big project I’ve worked on had this problem and a running joke was that every couple of months some developer would get determined to fix it once and for all by cleaning up headers."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -293,7 +303,8 @@
           {
             "Text": "After all, how hard can it be? Turns out it was very hard and no-one succeeded."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -335,7 +346,8 @@
           {
             "Text": " - it’s a free ticket to future dependency hell."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -359,7 +371,8 @@
           {
             "Text": "A trick I recently settled upon helps to keep clean #include hierarchy. In the past (for no reason I can remember) I would put #include for system includes (like or ) first in my *.c files. Those days the first #include in module foo.c is for “foo.h”."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -383,7 +396,8 @@
           {
             "Text": "Why?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -443,7 +457,8 @@
           {
             "Text": " also include those system includes before foo.h, things will compile just fine but only by accident."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -467,7 +482,8 @@
           {
             "Text": "Which is not a problem until you forget to #include those system includes and are faced with weird (“it used to work just fine”) compiler errors."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -491,7 +507,8 @@
           {
             "Text": "Including it’s own #define as the first thing helps to spot those mistakes early."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Order of #include headers in C/C++",
@@ -502,7 +519,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

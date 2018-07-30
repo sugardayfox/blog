@@ -47,7 +47,8 @@
           {
             "Text": "Running with memleak detection:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +84,8 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -120,7 +122,8 @@
             "Text": "https://eklitzke.org/an-introduction-to-valgrind-memcheck",
             "Link": "https://eklitzke.org/an-introduction-to-valgrind-memcheck"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -132,10 +135,12 @@
         "parent_id": "282cd1fa-cbd7-40eb-a886-5a44bec4ccc3",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
-    "title": "valgrind"
+    "title": "valgrind",
+    "format_video": null
   },
   "Users": [
     {

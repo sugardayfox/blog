@@ -71,7 +71,8 @@
           {
             "Text": "Id: 686002"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -95,7 +96,8 @@
           {
             "Text": "Tags: software, volante, .net, c#"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -119,7 +121,8 @@
           {
             "Text": "Date: 2011-09-22T17:12:27-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -143,7 +146,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -155,7 +159,8 @@
         "parent_id": "0aaab80b-35fb-473e-af08-3c5c3f13b829",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +197,8 @@
           {
             "Text": " is a small, fast, object-oriented, embeddable database designed for seamless integration with C# (and other .NET languages). Today I’ve made a first public release."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -216,7 +222,8 @@
           {
             "Text": "Almost every program needs to persist some data. There are many ways to do that: serialize data as XML or JSON, use SQLite etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -240,7 +247,8 @@
           {
             "Text": "I’ve been recently writing desktop .NET applications in C# and existing (free) options didn’t meet my needs well."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -264,7 +272,8 @@
           {
             "Text": "The closest best solution is SQLite, but it doesn’t integrate with C# well: you have to convert your object to/from SQL tables."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -288,7 +297,8 @@
           {
             "Text": "If I was the world’s toughest programmer I would write an object-oriented database engine from scratch and it would be designed from the beginning for seamless integration with .NET framework."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -331,7 +341,8 @@
           {
             "Text": " project."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -355,7 +366,8 @@
           {
             "Text": "There was one wrinkle: while early versions of Perst were under BSD license, with version 2.50 the code was acquired by a company McObject and is now distributed under GPL and those who can’t use GPL can purchase commercial license from McObject."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -379,7 +391,8 @@
           {
             "Text": "Not so great for one person who doesn’t yet make money from his software."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -403,7 +416,8 @@
           {
             "Text": "I decided to adopt the Perst code base. I picked the latest 2.49 version that was still licensed under BSD (copyright cannot be change retroactively) and I’ve spent the last couple of months writing comprehensive documentation, writing tests, fixing bugs discovered by tests, modernizing the code base."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -427,7 +441,8 @@
           {
             "Text": "Today I’ve reached a point where I’m comfortable releasing this code publicly as version 0.9."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -451,7 +466,8 @@
           {
             "Text": "I’ve retained the BSD license of early Perst versions so the code is free to use in both open-source and commercial projects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -475,7 +491,8 @@
           {
             "Text": "Volante database serves the same niche as SQLite: an embedded database engine for your desktop C# applications. Like with SQLite, the database is in a single file."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -499,7 +516,8 @@
           {
             "Text": "There are significant differences from SQLite."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -523,7 +541,8 @@
           {
             "Text": ".NET is an object-oriented framework. Volante is an object-oriented database to offer the best integration with .NET. Volante uses B-Trees to implement indexes, which allows quickly finding objects with desired properties."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -547,7 +566,8 @@
           {
             "Text": "Volante is extremely small: Volante.dll is only 180 KB."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -571,7 +591,8 @@
           {
             "Text": "I distribute Volante.dll for Microsoft’s .NET (works in .NET 2.0 and later) but it can also be compiled from sources and used under Mono."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -595,7 +616,8 @@
           {
             "Text": "I was dogfooding Volante from day one in my three .NET applications and it’s been performing great."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -619,7 +641,8 @@
           {
             "Text": "I hope you’ll find it useful too."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Introducing Volante - a database for C# (.NET)",
@@ -630,7 +653,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

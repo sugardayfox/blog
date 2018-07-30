@@ -85,7 +85,8 @@
                 "Text": "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38",
                 "Link": "https://github.com/HaxeFoundation/hxcpp/blob/master/toolchain/msvc-setup.bat#L11:38"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -109,7 +110,8 @@
               {
                 "Text": "call \"%ProgramFiles(x86)%\\Microsoft Visual Studio\\Installer\\vswhere.exe\""
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -140,14 +142,16 @@
                 "Text": "https://github.com/Microsoft/vswhere",
                 "Link": "https://github.com/Microsoft/vswhere"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Finding where msvc is installed"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -208,7 +212,8 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/04/26/stay-up-to-date-with-the-visual-c-tools-on-nuget/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -239,7 +244,8 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/11/16/introducing-the-visual-studio-build-tools/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -276,7 +282,8 @@
               {
                 "Text": " : talks about toolsets in 2015 and 2017 msvc versions"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -326,7 +333,8 @@
                 "Text": "https://aka.ms/vs/15/release/vs_community.exe",
                 "Link": "https://aka.ms/vs/15/release/vs_community.exe"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -357,7 +365,8 @@
                 "Text": "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio",
                 "Link": "https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -394,7 +403,8 @@
               {
                 "Text": " : how to use layout response file to define what to install (instead of cmd-line args)"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -425,7 +435,8 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/09/11/two-phase-name-lookup-support-comes-to-msvc/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -456,7 +467,8 @@
                 "Text": "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/",
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2017/07/19/using-mingw-and-cygwin-with-visual-cpp-and-open-folder/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -487,14 +499,16 @@
                 "Text": "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/",
                 "Link": "http://aras-p.info/blog/2017/10/23/Best-unknown-MSVC-flag-d2cgsummary/"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -543,7 +557,8 @@
               {
                 "Text": "15 is 2017"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -567,7 +582,8 @@
               {
                 "Text": "15.0_a8883afc : 15.1 ? as in %USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\15.0_a8883afc"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -591,7 +607,8 @@
               {
                 "Text": "15.0_40f18805 : 15.3.2 ?"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -603,14 +620,16 @@
             "parent_id": "05030362-3dda-4726-aa5e-ec227e389be6",
             "parent_table": "block",
             "type": "text",
-            "version": 0
+            "version": 0,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Versions"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -658,14 +677,16 @@
             "type": "code",
             "version": 0,
             "code": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\Folders is a list of dirs, including C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\Win32\\PlatformToolsets\\v120_xp\\\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Components\\295292B04E66BBB3F8861D188DD56FC3\nhas:\n0C008876E49D315498BC74F8B287A1B0 =\u003e C:\\Program Files\\MSBuild\\Microsoft.Cpp\\v4.0\\V120\\Platforms\\x64\\PlatformToolsets\\v120_xp\\msbldver.dll\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files\n$ find . -name \"toolset.props\"\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013/toolset.props\n./MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/x64/PlatformToolsets/LLVM-vs2013_xp/toolset.props\n\nkkowalczyk@KRZYSZTOFKO3154 /cygdrive/c/Program Files/MSBuild/Microsoft.Cpp/v4.0/V120/Platforms/Win32/PlatformToolsets\n$ ls -lah\ntotal 8.0K\ndrwx------+ 1 SYSTEM         SYSTEM 0 Sep 13 12:52 .\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 ..\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013\ndrwx------+ 1 Administrators None   0 Sep 13 12:52 LLVM-vs2013_xp\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120\ndrwx------+ 1 SYSTEM         SYSTEM 0 Oct 17  2013 v120_xp\n\ntoolset.props is a bunch of MSBuild defines that specify additional flags\nv120 == VS 2013\n\nThere’s also:\nMSBuild/Microsoft.Cpp/v4.0/V110 (VS 2012?)\nand\nPlatforms/Win32/PlatformToolsets/LLVM_vs2010\nPlatforms/Win32/PlatformToolsets/v100\nPlatforms/Win32/PlatformToolsets/v90",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "toolsets"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -728,7 +749,8 @@
               {
                 "Text": " - list of Visual Studio tips"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -765,7 +787,8 @@
               {
                 "Text": " - detecting Visual Studio installations"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -796,7 +819,8 @@
                 "Text": "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt",
                 "Link": "https://github.com/lindenlab/3p-cef3/blob/master/CMakeLists.txt"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -833,7 +857,8 @@
               {
                 "Text": " - using Visual Studio toolchains"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -864,14 +889,16 @@
                 "Text": "http://visualgdb.com/news/vs-community/",
                 "Link": "http://visualgdb.com/news/vs-community/"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "misc"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -919,14 +946,16 @@
             "type": "code",
             "version": 37,
             "code": "MSVC++ 14.0 _MSC_VER == 1900 (Visual Studio 2015)\nMSVC++ 12.0 _MSC_VER == 1800 (Visual Studio 2013)\nMSVC++ 11.0 _MSC_VER == 1700 (Visual Studio 2012)\nMSVC++ 10.0 _MSC_VER == 1600 (Visual Studio 2010)\nMSVC++ 9.0  _MSC_VER == 1500 (Visual Studio 2008)\nMSVC++ 8.0  _MSC_VER == 1400 (Visual Studio 2005)\nMSVC++ 7.1  _MSC_VER == 1310 (Visual Studio 2003)\nMSVC++ 7.0  _MSC_VER == 1300\nMSVC++ 6.0  _MSC_VER == 1200\nMSVC++ 5.0  _MSC_VER == 1100",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "msvc versions"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -938,7 +967,8 @@
         "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
     "title": "Visual Studio, msvc",
@@ -949,7 +979,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

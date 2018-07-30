@@ -47,7 +47,8 @@
         "parent_id": "523146a9-d404-4fce-9ff2-891fd0417094",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       },
       {
         "alive": true,
@@ -71,7 +72,8 @@
           {
             "Text": "High-level overview:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -95,7 +97,8 @@
           {
             "Text": "you specify a url to check for update"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -119,7 +122,8 @@
           {
             "Text": "url needs to specify current version"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -143,7 +147,8 @@
           {
             "Text": "need different urls for different OS (windows, mac etc.) and architecture (32-bit, 64-bit) combinations"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -167,7 +172,8 @@
           {
             "Text": "When there's a version newer than the one in the url, the server returns json like:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -187,7 +193,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "{\n  \"url\":\"http://your-server.com/download/version/0.1.4/windows_32?filetype=zip\",\n}"
+        "code": "{\n  \"url\":\"http://your-server.com/download/version/0.1.4/windows_32?filetype=zip\",\n}",
+        "format_video": null
       },
       {
         "alive": true,
@@ -211,7 +218,8 @@
           {
             "Text": "There might be more fields but only url is necessary."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -235,7 +243,8 @@
           {
             "Text": "If there is no version newer than the one provided, return empty response with 204 (no content) status code."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -259,7 +268,8 @@
           {
             "Text": "This is bad because you need a server that returns different responses depending on the version provided in the url so you can't use a static server like s3."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -283,7 +293,8 @@
           {
             "Text": "A skeleton of the client code:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -303,7 +314,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "var electron = require(\"electron\");\nvar app = electron.app;\nvar autoUpdater = electron.autoUpdater;\nvar ipcMain = electron.ipcMain;\nvar os = require(\"os\");\n\n// win32 for windows, darwin for mac\n// https://nodejs.org/api/os.html#os_os_platform\nvar platform = os.platform() + '_' + os.arch();\nvar version = app.getVersion(); // comes from package.json\n\nvar updateIsReady = false;\n\nipcMain.on(\"my-program:install-update\", function () {\n    if (updateIsReady) {\n        autoUpdater.quitAndInstall();\n    }\n    else {\n        app.relaunch();\n        app.quit();\n    }\n});\n\nautoUpdater.on(\"update-downloaded\", function () {\n    updateIsReady = true;\n    mainWindow.webContents.send(\"my-program:update-ready\");\n});\n\nautoUpdater.setFeedURL('http://your-server.com/update/' + platform + '/' + version);\n\n// check for updates after 2 minutes\nsetTimeout(autoUpdater.checkForUpdates, 2 * 60 * 1000);"
+        "code": "var electron = require(\"electron\");\nvar app = electron.app;\nvar autoUpdater = electron.autoUpdater;\nvar ipcMain = electron.ipcMain;\nvar os = require(\"os\");\n\n// win32 for windows, darwin for mac\n// https://nodejs.org/api/os.html#os_os_platform\nvar platform = os.platform() + '_' + os.arch();\nvar version = app.getVersion(); // comes from package.json\n\nvar updateIsReady = false;\n\nipcMain.on(\"my-program:install-update\", function () {\n    if (updateIsReady) {\n        autoUpdater.quitAndInstall();\n    }\n    else {\n        app.relaunch();\n        app.quit();\n    }\n});\n\nautoUpdater.on(\"update-downloaded\", function () {\n    updateIsReady = true;\n    mainWindow.webContents.send(\"my-program:update-ready\");\n});\n\nautoUpdater.setFeedURL('http://your-server.com/update/' + platform + '/' + version);\n\n// check for updates after 2 minutes\nsetTimeout(autoUpdater.checkForUpdates, 2 * 60 * 1000);",
+        "format_video": null
       }
     ],
     "title": "electron auto-update system",
@@ -314,7 +326,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

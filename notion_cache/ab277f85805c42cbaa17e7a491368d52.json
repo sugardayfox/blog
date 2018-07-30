@@ -73,7 +73,8 @@
           {
             "Text": "Id: 4"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -97,7 +98,8 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -121,7 +123,8 @@
           {
             "Text": "Date: 2013-03-20T11:25:36-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -133,7 +136,8 @@
         "parent_id": "ab277f85-805c-42cb-aa17-e7a491368d52",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -214,7 +218,8 @@
           {
             "Text": "). This article describes how I did it."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -238,7 +243,8 @@
           {
             "Text": "Pigz was clearly written with Unix in mind, with no thought given to cross-platform portability."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -262,7 +268,8 @@
           {
             "Text": "Thankfully, it’s a relatively simple, command-line program that sticks to using standard C library."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -286,7 +293,8 @@
           {
             "Text": "Porting pthreads"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -329,7 +337,8 @@
           {
             "Text": " on top of Windows API, in only 20.000 lines of code. It seems to Just Work."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -353,7 +362,8 @@
           {
             "Text": "Porting dirent"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -415,7 +425,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -439,7 +450,8 @@
           {
             "Text": "Misc fixes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -553,7 +565,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -649,7 +662,8 @@
           {
             "Text": " there solves those problems."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -692,7 +706,8 @@
           {
             "Text": " file."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -752,7 +767,8 @@
           {
             "Text": " around those."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -776,7 +792,8 @@
           {
             "Text": "Build system"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -800,7 +817,8 @@
           {
             "Text": "Pigz uses standard Unix build tools: gcc and make."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -824,7 +842,8 @@
           {
             "Text": "While there are ports of GNU make to Windows and gcc-based compilers that can generate windows binaries (mingw), most Windows developers prefer using Visual Studio IDE."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -848,7 +867,8 @@
           {
             "Text": "Creating Visual Studio project files from scratch is time consuming and annoying, especially when you want to support multiple versions of Visual Studio."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -904,7 +924,8 @@
           {
             "Text": " that defines the project, which files to compile, compilation flags etc. and premake generates Visual Studio files from that description."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -928,7 +949,8 @@
           {
             "Text": "Premake supports Visual Studio 2008 and 2010 (and 2012 supports 2010 project files via conversion)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -952,7 +974,8 @@
           {
             "Text": "Conclusion"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -976,7 +999,8 @@
           {
             "Text": "As far as porting goes, this one was easy thanks to existing efforts that created compatibility shims for the hard parts."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1000,7 +1024,8 @@
           {
             "Text": "Premake is an interesting tool that allows to save time creating and maintaining Visual Studio projects."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "How I ported pigz from Unix to Windows",
@@ -1011,7 +1036,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

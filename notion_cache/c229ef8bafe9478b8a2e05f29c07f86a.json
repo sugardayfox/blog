@@ -58,7 +58,8 @@
           {
             "Text": "Id: 374001"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -82,7 +83,8 @@
           {
             "Text": "Tags: sumatra, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -106,7 +108,8 @@
           {
             "Text": "Date: 2010-12-19T18:17:15-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -118,7 +121,8 @@
         "parent_id": "c229ef8b-afe9-478b-8a2e-05f29c07f86a",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -142,7 +146,8 @@
           {
             "Text": "SumatraPDF executable is compressed with executable compressor. It makes the file smaller and faster to download. On the downside, it increases probability of false positive from virus scanners."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -240,7 +245,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -264,7 +270,8 @@
           {
             "Text": "Here’s a comparison using upx 3.07w and mpress 2.17 when compressing release version of r2466 (pre-release for 1.3):"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -290,7 +297,8 @@
         "type": "code",
         "version": 1,
         "code": "4598272 uncompressed\n4527104 stripreloc /b /c\n\n2205184 upx —best —compress-icons=0h\n1756160 upx —ultra-brute —compress-icons=0\n\n1725440 mpress -s (-s : find the best compression)\n1735168 mpress -s -r (-r : dont compress resources)\n1767424 mpress",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -333,7 +341,8 @@
           {
             "Text": ", which is not a compressor. It only removes unneeded .reloc section in exes. Mpress must already be doing that internally because compressing raw version and stripreloc’ed resulted in the same size."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -357,7 +366,8 @@
           {
             "Text": "There is a serious downside to executable compressors: many anti-virus program falsely report compressed executables as a virus or malware."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Executable compressors comparisons: upx 3.07w vs. mpress 2.17",
@@ -368,7 +378,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

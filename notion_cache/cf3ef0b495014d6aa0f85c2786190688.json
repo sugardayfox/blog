@@ -56,7 +56,8 @@
           {
             "Text": "Id: 995"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -80,7 +81,8 @@
           {
             "Text": "Tags: windbg, debugging"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -104,7 +106,8 @@
           {
             "Text": "Date: 2008-04-17T19:31:59-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -128,7 +131,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -140,7 +144,8 @@
         "parent_id": "cf3ef0b4-9501-4d6a-a0f8-5c2786190688",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -218,7 +223,8 @@
           {
             "Text": " to any directory on your hard-drive)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -242,7 +248,8 @@
           {
             "Text": "I was running such setup for some time but observed that starting up a debugging session too a long time. It was annoying and after a while it hit me that I’ve caused this: even the simplest Windows program implicitly links a lot of DLLs. Both Visual Studio and WinDBG feel the need to load up symbols for all those system DLLs and it turns out it takes a lot of time."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -338,7 +345,8 @@
           {
             "Text": " to force loading of symbols."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "_NT_SYMBOL_PATH considered harmful",
@@ -349,7 +357,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

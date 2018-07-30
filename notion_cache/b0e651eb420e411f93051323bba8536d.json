@@ -72,7 +72,8 @@
           {
             "Text": "Id: 1404040"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -96,7 +97,8 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -120,7 +122,8 @@
           {
             "Text": "Date: 2012-09-16T01:55:48-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -144,7 +147,8 @@
           {
             "Text": "The story of a faulty benchmark"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -168,7 +172,8 @@
           {
             "Text": "I confess: I didn’t really speed up Go by 20%. However, if you were to believe simplistic arguments, I did."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -211,7 +216,8 @@
           {
             "Text": " as proof."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -235,7 +241,8 @@
           {
             "Text": "Indeed, every Go benchmark there is 2x to 10x slower than Java 7 program."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -259,7 +266,8 @@
           {
             "Text": "That seemed wrong to me - Go compiles to native code. Java, ultimately, does too, but compilation happens at runtime, which is an overhead that Go doesn’t have, so in principle Go should be faster."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -302,7 +310,8 @@
           {
             "Text": ". I’m not an expert in implementing reverse-complement algorithm but I immediately noticed that the code does a lot of unnecessary memory allocations and copying."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -345,7 +354,8 @@
           {
             "Text": " and what do you know: it’s implemented more efficiently, without unnecessary memory allocations and copying. Plus it parallelizes the computation."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -388,7 +398,8 @@
           {
             "Text": ", more similar to Java’s."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -412,7 +423,8 @@
           {
             "Text": "The result? On my Mac Pro I got about 20% speedup."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -436,7 +448,8 @@
           {
             "Text": "The argument of HN commenter was: look at those benchmarks, Go is 2x slower than Java."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -460,7 +473,8 @@
           {
             "Text": "It’s a simplistic but unfortunately powerful argument: most people won’t take the time to look at the code to determine that part of the issue is that Java implementation is simply better than Go one."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -484,7 +498,8 @@
           {
             "Text": "By that simplistic argument I’ve improved speed of Go by 20% by writing a slightly better implementation of the benchmark."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -527,7 +542,8 @@
           {
             "Text": ", Go actually wins on this and 2 other benchmarks."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -551,7 +567,8 @@
           {
             "Text": "The explanation is simple: 64-bit Go compiler is a little bit smarter than 32-bit Go compiler."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -575,7 +592,8 @@
           {
             "Text": "Is Go really slower than Java?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -599,7 +617,8 @@
           {
             "Text": "There is no simplistic answer to this, but there are rules of thumb."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -623,7 +642,8 @@
           {
             "Text": "On equivalent programs, Go generates programs similar in speed or faster. 64-bit version will be slightly better than 32-bit version."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -647,7 +667,8 @@
           {
             "Text": "Java garbage collector is much better than Go’s which explains why allocation-heavy benchmarks (e.g. binary-trees) perform so much better (there’s almost no computation there, just allocation of a lot of tree nodes)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -671,7 +692,8 @@
           {
             "Text": "Those benchmarks aren’t currently representative of Go performance - from cursory look it seems that C++ and Java implementations are extremely optimized and Go implementations aren’t (I’ve submitted my improved version, hopefully it’ll get incorporated)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -695,7 +717,8 @@
           {
             "Text": "Go is already competitive with Java and will only get better. Let’s not forget that Java had over 20 years of investments in code generation and garbage collection. Go is only 5 years old. There already were compiler and garbage collection improvements since the latest released version."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -719,7 +742,8 @@
           {
             "Text": "One area where Go wins undeniably is memory usage - the programs use at least order of magnitude less memory. Java is paying the cost of sophisticated virtual machine."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "How I sped up Go by 20% (or is Go really slower than Java?)",
@@ -730,7 +754,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

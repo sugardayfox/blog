@@ -96,7 +96,8 @@
           {
             "Text": "Id: 23"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -120,7 +121,8 @@
           {
             "Text": "Date: 2018-01-31T15:32:55-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -144,7 +146,8 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -168,7 +171,8 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +196,8 @@
           {
             "Text": "Description: Fuzzing markdown parser written in Go with go-fuzz"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -204,7 +209,8 @@
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       },
       {
         "alive": true,
@@ -248,7 +254,8 @@
           {
             "Text": " for Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -273,7 +280,8 @@
           {
             "Text": "To make sure it’s robust (no crashes, no hangs) I decided to fuzz it."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -298,7 +306,8 @@
           {
             "Text": "What is fuzzing?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -323,7 +332,8 @@
           {
             "Text": "Parsing text or binary formats is notoriously tricky."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -348,7 +358,8 @@
           {
             "Text": "It’s easy to make mistakes that can lead to security exploits."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -386,7 +397,8 @@
           {
             "Text": " is one technique used to combat this."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -411,7 +423,8 @@
           {
             "Text": "The idea is simple: * magic algorithm generates randomized input data * we feed this data to parsing code * code instrumentation detects if parsing code crashes or overwrites memory"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -436,7 +449,8 @@
           {
             "Text": "Fuzzing in Go is simple"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -461,7 +475,8 @@
           {
             "Text": "Writing a fuzzer for C or C++ code is hard."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -505,7 +520,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -530,7 +546,8 @@
           {
             "Text": "It took me about an hour to write a fuzzer for my markdown parser."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -555,7 +572,8 @@
           {
             "Text": "Fuzzing step-by-step"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -580,7 +598,8 @@
           {
             "Text": "First we need to get the tools:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -607,7 +626,8 @@
         "type": "code",
         "version": 5,
         "code": "$ go get github.com/dvyukov/go-fuzz/go-fuzz\n$ go get github.com/dvyukov/go-fuzz/go-fuzz-build",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "format_video": null
       },
       {
         "alive": true,
@@ -650,7 +670,8 @@
           {
             "Text": " function which takes markdown text as input and parses it into an abstract syntax tree."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -693,7 +714,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -720,7 +742,8 @@
         "type": "code",
         "version": 3,
         "code": "// +build gofuzz\n\npackage markdown\n\n// Fuzz is to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -763,7 +786,8 @@
           {
             "Text": " function, which is an API that go-fuzz expects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -806,7 +830,8 @@
           {
             "Text": " line."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -849,7 +874,8 @@
           {
             "Text": " build tag."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -874,7 +900,8 @@
           {
             "Text": "Having the fuzzer generate completely random data is better than nothing but it’s much better if fuzzer can be seeded with sample valid content."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -917,7 +944,8 @@
           {
             "Text": " directory."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -942,7 +970,8 @@
           {
             "Text": "I used those to initialize the fuzzer:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -969,7 +998,8 @@
         "type": "code",
         "version": 5,
         "code": "# create a working directory for the fuzzer\n$ mkdir -p fuzz-workdir\n\n# copy the files that seed fuzzing to corpus sub-directory of working directory\n$ mkdir -p fuzz-workdir/corpus\n$ cp testdata/*.text fuzz-workdir/corpus\n\n# generate the fuzzing program. This compiles fuzz.go we wrote earlier\n# generates fuzzer executable and markdown-fuzz.zip that packages\n# data to drive fuzzing process\n$ go-fuzz-build github.com/gomarkdown/markdown",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1012,7 +1042,8 @@
           {
             "Text": " step can take a while."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1037,7 +1068,8 @@
           {
             "Text": "Finally we start fuzzing process:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1064,7 +1096,8 @@
         "type": "code",
         "version": 3,
         "code": "$ go-fuzz -bin=./markdown-fuzz.zip -workdir=fuzz-workdir",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1089,7 +1122,8 @@
           {
             "Text": "This runs for as long as you let it. Fuzzing works by generating random input data so it can go forever."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1132,7 +1166,8 @@
           {
             "Text": " and it’ll pick up where it left off."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1175,7 +1210,8 @@
           {
             "Text": " directory."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1223,7 +1259,8 @@
           {
             "Text": " script."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1248,7 +1285,8 @@
           {
             "Text": "That way I can re-run it easily after making changes to the parser to verify I didn’t introduce bugs."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1273,7 +1311,8 @@
           {
             "Text": "The fuzzer has advanced options like fuzzing using multiple machines."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1298,7 +1337,8 @@
           {
             "Text": "The results"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1323,7 +1363,8 @@
           {
             "Text": "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or entered infinite loop."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1405,7 +1446,8 @@
           {
             "Text": " and covered by unit tests."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1430,7 +1472,8 @@
           {
             "Text": "Go West and Fuzz!"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Fuzzing Markdown parser written in Go",
@@ -1442,7 +1485,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F629ba763-27bc-462f-9a07-639c0b0bad58%2Fheader-21.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

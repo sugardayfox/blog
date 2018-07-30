@@ -63,7 +63,8 @@
           {
             "Text": "Id: 336001"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -87,7 +88,8 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -111,7 +113,8 @@
           {
             "Text": "Date: 2010-10-26T21:25:39-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -123,7 +126,8 @@
         "parent_id": "b5f37ece-a4c5-48ef-a6e4-3b5ad36b4a87",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -147,7 +151,8 @@
           {
             "Text": "Mistakes happen"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -190,7 +195,8 @@
           {
             "Text": " the other day and some article had 3 identical comments from the same person."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -214,7 +220,8 @@
           {
             "Text": "A mistake, obviously."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -238,7 +245,8 @@
           {
             "Text": "What is less obvious, at least to the authors of that commenting system, is that such mistakes can be easily prevented with a bit of programming."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -281,7 +289,8 @@
           {
             "Text": ". They run on App Engine but the technique applies to any web development platform."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -305,7 +314,8 @@
           {
             "Text": "Duplication detection, the easy way"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -329,7 +339,8 @@
           {
             "Text": "The idea is simple: before inserting an article/post/comment into a database, check if an entry with exactly the same content already exists. In most storage systems (like SQL database) doing this against large text column is difficult and slow. To make it easy and fast we can calculate SHA1 hash of the text, store it as part of the data describing the post and check for duplicate hash."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -353,7 +364,8 @@
           {
             "Text": "SHA1 keys are short. They are a perfect match for key-value stores. With a proper index they’re also very fast to check for in a SQL database."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -377,7 +389,8 @@
           {
             "Text": "For added robustness you can trim whitespace from the beginning and end of text before calculating the hash."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -401,7 +414,8 @@
           {
             "Text": "This method doesn’t prevent malicious people (it only takes changing one character to change the hash) but it does fix the common problem of people submitting the same content twice because due to network connection problems they were not properly notified that the post has been successfully submitted. It happens more often that you might think."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -425,7 +439,8 @@
           {
             "Text": "Using other hash function, like MD5, will work too. SHA1 has better properties but if your programming language provides MD5 but not SHA1, use MD5."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Simple duplicate post detection for your blog, forum or commenting software ",
@@ -436,7 +451,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

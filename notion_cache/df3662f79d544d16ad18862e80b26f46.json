@@ -54,7 +54,8 @@
           {
             "Text": "Id: 895"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -78,7 +79,8 @@
           {
             "Text": "Date: 2005-02-09T01:12:23-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -102,7 +104,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -114,7 +117,8 @@
         "parent_id": "df3662f7-9d54-4d16-ad18-862e80b26f46",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -156,7 +160,8 @@
           {
             "Text": ". To increase security SSH calculates a checksum for the server you’re trying to connect to (so that e.g. if someone hi-jacks DNS server and redirects your SSH connection to their own server with the intent of capturing your login/password, SSH will warn you that server’s signature doesn’t match previously seen signature). The problem is that it’s an interactive process i.e. SSH displays a warning and waits for you to accept the new server signature. It also does that when the signature doesn’t exist (i.e. this is the first time you connect to a given server via SSH). Subversion doesn’t show that message but still waits for user’s confirmation which looks like it hung."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -180,7 +185,8 @@
           {
             "Text": "I’ve just spent an hour trying to figure out such problem."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Subversion with SSH on Windows tip",
@@ -191,7 +197,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

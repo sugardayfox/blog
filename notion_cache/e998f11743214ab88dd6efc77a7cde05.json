@@ -73,7 +73,8 @@
             "Text": "https://channel9.msdn.com/Events/Build/2017/P4099",
             "Link": "https://channel9.msdn.com/Events/Build/2017/P4099"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -97,7 +98,8 @@
           {
             "Text": "To see the events use traceview from SDK. "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -128,7 +130,8 @@
             "Text": "https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/tools-for-software-tracing",
             "Link": "https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/tools-for-software-tracing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -152,7 +155,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -183,7 +187,8 @@
             "Text": "https://blogs.msdn.microsoft.com/dcook/2015/09/30/etw-overview/",
             "Link": "https://blogs.msdn.microsoft.com/dcook/2015/09/30/etw-overview/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -214,7 +219,8 @@
             "Text": "https://blogs.msdn.microsoft.com/dcook/2015/09/24/tracelogging-background/",
             "Link": "https://blogs.msdn.microsoft.com/dcook/2015/09/24/tracelogging-background/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -245,7 +251,8 @@
             "Text": "https://blogs.msdn.microsoft.com/dcook/2015/09/08/etw-provider-names-and-guids/",
             "Link": "https://blogs.msdn.microsoft.com/dcook/2015/09/08/etw-provider-names-and-guids/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -282,7 +289,8 @@
           {
             "Text": " : a rant about ewt api"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -306,7 +314,8 @@
           {
             "Text": "Win 10 SDK has C++ headers for EWT generation."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -330,7 +339,8 @@
           {
             "Text": "Tools:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -354,7 +364,8 @@
           {
             "Text": "tracelog"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -378,7 +389,8 @@
           {
             "Text": "traceview : view ewt events from software live"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -402,7 +414,8 @@
           {
             "Text": "xperf : can capture traces to a file"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -426,7 +439,8 @@
           {
             "Text": "tracefmt : can dispaly events captured by xperf"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -450,7 +464,8 @@
           {
             "Text": "How to generate EWT in code:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -474,7 +489,8 @@
           {
             "Text": "c++ : TraceLoggingProvider.h"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -498,7 +514,8 @@
           {
             "Text": ".net: EventSource in 4.6 or later, there's nuget package for older"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -522,7 +539,8 @@
           {
             "Text": "Windows Framework: LoggingChannel"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -568,14 +586,16 @@
               {
                 "Text": "by default uses win8+ apis, to get 7/vista compat, #define _WIN32_WINNT _WIN32_WINNT_VISTA"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "TraceLoggingProvider.h:"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "ETW tracing",
@@ -586,7 +606,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

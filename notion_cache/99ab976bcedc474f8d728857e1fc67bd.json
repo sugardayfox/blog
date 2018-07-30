@@ -68,7 +68,8 @@
           {
             "Text": "Id: 8074"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -92,7 +93,8 @@
           {
             "Text": "Date: 2009-03-05T16:54:31-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -104,7 +106,8 @@
         "parent_id": "99ab976b-cedc-474f-8d72-8857e1fc67bd",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -128,7 +131,8 @@
           {
             "Text": "The problem with HTTP caching"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -152,7 +156,8 @@
           {
             "Text": "Currently an HTTP resource (e.g. an image, a JavaScript file, a CSS script) is uniquely identified by a uri. Unfortunately a web browser doesn’t know if a given resource has changed, so in the simplest case, it has to re-download it over and over again. This is very inefficient, so we came up with ways to tell the browser to avoid re-downloading content."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -176,7 +181,8 @@
           {
             "Text": "One method is by setting Expires HTTP header by which a web server can tell the browser for how long can it cache a given resource. The problem with this approach is that if the resource is changed before the expiration date, the browser will see an outdated version."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -219,7 +225,8 @@
           {
             "Text": ". When returning a resource web server also returns an ETag header which uniquely identifies the resource. If subsequent response contains the same etag, the browser might skip downloading the content. This still requires making a small request."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -262,7 +269,8 @@
           {
             "Text": " is an attempt to solve this problem for the most popular web libraries."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -286,7 +294,8 @@
           {
             "Text": "What if there was a backwards-compatible way, efficient way of caching popular resources that worked globally (across multiple websites)? In theory it’s possible and not that hard."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -310,7 +319,8 @@
           {
             "Text": "Enter content-addressable resources"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -372,7 +382,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -396,7 +407,8 @@
           {
             "Text": "The idea is simple: we can uniquely identify any piece of data by calculating sha1 (or some other cryptographically secure hash) of its content."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -420,7 +432,8 @@
           {
             "Text": "All we need is a way to tell the browser the sha1 hash of a resource. If a resource with this hash is already cached locally, the browser doesn’t need to re-download it."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -444,7 +457,8 @@
           {
             "Text": "Compared to existing solutions, it has following advantages:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -468,7 +482,8 @@
           {
             "Text": "it works globally. If 10 websites host the same version of jQuery library, the browser only need to download it once"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -492,7 +507,8 @@
           {
             "Text": "it doesn’t have the ‘oops, we set the expiration date too far into future’ problem that setting Expires header"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -516,7 +532,8 @@
           {
             "Text": "it’s more efficient than ETag because it doesn’t require making any requests"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -540,7 +557,8 @@
           {
             "Text": "How to tell the browser about the hash"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -564,7 +582,8 @@
           {
             "Text": "The simplest way would be to define another attribute e.g. sha1hash that could be added tags that refer to resources, like script, a, link etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -588,7 +607,8 @@
           {
             "Text": "I’m not a web technologist and I don’t know this particular solution would be acceptable, but I’m sure there is a way."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "How content-based addressing can help web performance",
@@ -599,7 +619,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

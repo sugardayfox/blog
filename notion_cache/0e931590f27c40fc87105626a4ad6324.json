@@ -7,8 +7,7 @@
       "999f43ba-c18c-4ff9-99f5-7f6f4fb5cba5",
       "d514ca1f-2f6c-4e69-9087-56da656e8229",
       "e2321ca8-41ef-459a-85be-7c1cb8444dde",
-      "b033ba1a-8901-404c-8530-45843ad43280",
-      "c9698d77-ef50-4bc2-a609-6c4349b0a4c8"
+      "b033ba1a-8901-404c-8530-45843ad43280"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492670766252,
@@ -18,7 +17,7 @@
     },
     "id": "0e931590-f27c-40fc-8710-5626a4ad6324",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530048822113,
+    "last_edited_time": 1532921613906,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -29,7 +28,7 @@
       ]
     },
     "type": "page",
-    "version": 9,
+    "version": 15,
     "content_resolved": [
       {
         "alive": true,
@@ -53,7 +52,8 @@
           {
             "Text": "Useful commands:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +83,8 @@
             "Text": "systemctl status \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -147,7 +148,8 @@
               {
                 "Text": " : reverse"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -183,7 +185,8 @@
               {
                 "Text": " : follow"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
@@ -191,7 +194,8 @@
             "Text": "journalctl -f -u \u003cservice\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -239,25 +243,29 @@
             "type": "code",
             "version": 4,
             "code": "On Ubuntu, systemd is used starting with 15.04\n/etc/systemd/system\n\nsystemctl enable dbhero\nsystemctl daemon-reload\nsystemctl start dbhero\nsystemctl stop dbhero\n\njournalctl -u website : to see logs from unit website\n\nhttp://0pointer.de/blog/projects/socket-activation.html\nhttps://wiki.ubuntu.com/SystemdForUpstartUsers\nhttps://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
         "content": [
-          "355ca2ac-c943-49be-a944-364141b07af4"
+          "355ca2ac-c943-49be-a944-364141b07af4",
+          "646a432a-69f6-436d-b5dc-987235ed25d7",
+          "5fb1b8bc-7210-499e-ad6c-4d4c714503cb"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1521136712995,
         "id": "b033ba1a-8901-404c-8530-45843ad43280",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1521136716435,
+        "last_edited_time": 1532921617009,
         "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
         "parent_table": "block",
         "properties": {
@@ -268,7 +276,7 @@
           ]
         },
         "type": "toggle",
-        "version": 18,
+        "version": 22,
         "content_resolved": [
           {
             "alive": true,
@@ -276,7 +284,7 @@
             "created_time": 1521136715421,
             "id": "355ca2ac-c943-49be-a944-364141b07af4",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1521136721050,
+            "last_edited_time": 1532921614381,
             "parent_id": "b033ba1a-8901-404c-8530-45843ad43280",
             "parent_table": "block",
             "properties": {
@@ -296,7 +304,7 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 54,
+            "version": 58,
             "inline_content": [
               {
                 "Text": "https://vincent.bernat.im/en/blog/2017-systemd-golang",
@@ -305,26 +313,67 @@
               {
                 "Text": " : go and systemd"
               }
-            ]
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532921614381,
+            "id": "646a432a-69f6-436d-b5dc-987235ed25d7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532921614393,
+            "parent_id": "b033ba1a-8901-404c-8530-45843ad43280",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/",
+                  [
+                    [
+                      "a",
+                      "https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/"
+                    ]
+                  ]
+                ],
+                [
+                  " How to use systemd socket activation for for zero-downtime deployments"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 6,
+            "inline_content": [
+              {
+                "Text": "https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/",
+                "Link": "https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation/"
+              },
+              {
+                "Text": " How to use systemd socket activation for for zero-downtime deployments"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532921617009,
+            "id": "5fb1b8bc-7210-499e-ad6c-4d4c714503cb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532921617009,
+            "parent_id": "b033ba1a-8901-404c-8530-45843ad43280",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "links"
           }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512368681199,
-        "id": "c9698d77-ef50-4bc2-a609-6c4349b0a4c8",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512368681199,
-        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
-        "parent_table": "block",
-        "type": "text",
-        "version": 0
+        ],
+        "format_video": null
       }
     ],
     "title": "Systemd",
@@ -335,7 +384,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

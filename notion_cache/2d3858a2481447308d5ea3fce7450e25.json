@@ -54,7 +54,8 @@
           {
             "Text": "Id: 305"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -78,7 +79,8 @@
           {
             "Text": "Tags: win32, c, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -102,7 +104,8 @@
           {
             "Text": "Date: 2006-01-01T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -114,7 +117,8 @@
         "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +196,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -218,7 +223,8 @@
         "type": "code",
         "version": 1,
         "code": "/* Return TRUE if file 'fileName' exists */\nbool FileExists(const TCHAR *fileName)\n{\n    DWORD       fileAttr;\n\n    fileAttr = GetFileAttributes(fileName);\n    if (0xFFFFFFFF == fileAttr)\n        return false;\n    return true;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       }
     ],
     "title": "Check if file exists on Windows",
@@ -229,7 +235,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

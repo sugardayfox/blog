@@ -66,7 +66,8 @@
           {
             "Text": "Id: 980"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -90,7 +91,8 @@
           {
             "Text": "Tags: debugging, windbg"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -114,7 +116,8 @@
           {
             "Text": "Date: 2008-01-06T17:57:52-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -126,7 +129,8 @@
         "parent_id": "16a651dd-4b01-4b73-8974-befd23ffe539",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -150,7 +154,8 @@
           {
             "Text": "Logging is often useful when debugging software to help understand its behavior."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -228,7 +233,8 @@
           {
             "Text": " so my plan of attack was to see who calls those functions and from that hopefully figure out why there is a mismatch."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -252,7 +258,8 @@
           {
             "Text": "If I had a logging system with ability to dump callstacks already built into the program, I could modify the program to add logging to those two functions, re-run and look at the logs."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -276,7 +283,8 @@
           {
             "Text": "But I didn’t so I used WinDBG as an ad-hoc logger."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -300,7 +308,8 @@
           {
             "Text": "The trick is to know the following:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -336,7 +345,8 @@
           {
             "Text": " WinDBG command"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -372,7 +382,8 @@
           {
             "Text": " WinDBG command"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -396,7 +407,8 @@
           {
             "Text": "conditional breakpoints"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -420,7 +432,8 @@
           {
             "Text": "Under WinDBG I set the following two breakpoints:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -450,7 +463,8 @@
             "Text": "bp SumatraPDF!fz_dropshade \"kb; g\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -480,7 +494,8 @@
             "Text": "bp SumatraPDF!fz_keepshade \"kb; g\"",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -558,7 +573,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -600,7 +616,8 @@
           {
             "Text": " so that everything WinDBG prints in output window also gets written to a file and voila - an ad-hoc logging without the need to modify and recompile the program."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -624,7 +641,8 @@
           {
             "Text": "And yes, after some staring at resulting log I fixed the crash."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Logging in WinDBG",
@@ -635,7 +653,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

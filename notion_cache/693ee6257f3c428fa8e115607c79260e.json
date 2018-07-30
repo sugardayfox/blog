@@ -86,7 +86,8 @@
           {
             "Text": "Id: 9"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -110,7 +111,8 @@
           {
             "Text": "Date: 2017-08-04T18:32:51-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -134,7 +136,8 @@
           {
             "Text": "Tags: go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -146,7 +149,8 @@
         "parent_id": "693ee625-7f3c-428f-a8e1-15607c79260e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -208,7 +212,8 @@
           {
             "Text": " layout algorithm in Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -270,7 +275,8 @@
           {
             "Text": " C library."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -294,7 +300,8 @@
           {
             "Text": "High-level API overview"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -318,7 +325,8 @@
           {
             "Text": "Despite implementing CSS flexbox spec, it isn’t tied to CSS/HTML in any way. Yoga, for example, can be integrated with iOS app and used to layout UIView hierarchy."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -396,7 +404,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -420,7 +429,8 @@
           {
             "Text": "When used on windows, it could represent a HWND-based control."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -444,7 +454,8 @@
           {
             "Text": "The high-level use is: "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -468,7 +479,8 @@
           {
             "Text": "create a tree of nodes that represents a layout you want to represent"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -523,7 +535,8 @@
             "Text": "functions",
             "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L58"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -559,7 +572,8 @@
             "Text": "flex.CalculateLayout(rootNode, parentWidth, parentHeight, direction)",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -614,7 +628,8 @@
             "Text": "functions",
             "Link": "https://github.com/kjk/flex/blob/master/yoga_props.go#L531"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -674,7 +689,8 @@
           {
             "Text": " to re-calculate new size/position of the nodes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -698,7 +714,8 @@
           {
             "Text": "An exmple"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -722,7 +739,8 @@
           {
             "Text": "Let’s assume that we want to re-create the following HTML layout:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -748,7 +766,8 @@
         "type": "code",
         "version": 3,
         "code": "\u003cdiv id=\"percentage_multiple_nested_with_padding_margin_and_percentage_values\" style=\"width: 200px; height: 200px; flex-direction: column;\"\u003e\n  \u003cdiv style=\"flex-grow: 1; flex-basis: 10%; min-width: 60%; margin: 5px; padding: 3px;\"\u003e\n    \u003cdiv style=\"width: 50%; margin: 5px; padding: 3%;\"\u003e\n      \u003cdiv style=\"width: 45%; margin: 5%; padding: 3px;\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv style=\"flex-grow: 4; flex-basis: 15%; min-width: 20%;\"\u003e\u003c/div\u003e\n\u003c/div\u003e",
-        "code_language": "HTML"
+        "code_language": "HTML",
+        "format_video": null
       },
       {
         "alive": true,
@@ -772,7 +791,8 @@
           {
             "Text": "The equivalent Go code is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -798,7 +818,8 @@
         "type": "code",
         "version": 1,
         "code": "config := flex.NewConfig()\n\nroot := flex.NewNodeWithConfig(config)\nroot.StyleSetWidth(200)\nroot.StyleSetHeight(200)\n\nrootChild0 := flex.NewNodeWithConfig(config)\nrootChild0.StyleSetFlexGrow(1)\nrootChild0.StyleSetFlexBasisPercent(10)\nrootChild0.StyleSetMargin(EdgeLeft, 5)\nrootChild0.StyleSetMargin(EdgeTop, 5)\nrootChild0.StyleSetMargin(EdgeRight, 5)\nrootChild0.StyleSetMargin(EdgeBottom, 5)\nrootChild0.StyleSetPadding(EdgeLeft, 3)\nrootChild0.StyleSetPadding(EdgeTop, 3)\nrootChild0.StyleSetPadding(EdgeRight, 3)\nrootChild0.StyleSetPadding(EdgeBottom, 3)\nrootChild0.StyleSetMinWidthPercent(60)\nroot.InsertChild(rootChild0, 0)\n\nrootChild0Child0 := flex.NewNodeWithConfig(config)\nrootChild0Child0.StyleSetMargin(EdgeLeft, 5)\nrootChild0Child0.StyleSetMargin(EdgeTop, 5)\nrootChild0Child0.StyleSetMargin(EdgeRight, 5)\nrootChild0Child0.StyleSetMargin(EdgeBottom, 5)\nrootChild0Child0.StyleSetPaddingPercent(EdgeLeft, 3)\nrootChild0Child0.StyleSetPaddingPercent(EdgeTop, 3)\nrootChild0Child0.StyleSetPaddingPercent(EdgeRight, 3)\nrootChild0Child0.StyleSetPaddingPercent(EdgeBottom, 3)\nrootChild0Child0.StyleSetWidthPercent(50)\nrootChild0.InsertChild(rootChild0Child0, 0)\n\nrootChild0Child0Child0 := flex.NewNodeWithConfig(config)\nrootChild0Child0Child0.StyleSetMarginPercent(EdgeLeft, 5)\nrootChild0Child0Child0.StyleSetMarginPercent(EdgeTop, 5)\nrootChild0Child0Child0.StyleSetMarginPercent(EdgeRight, 5)\nrootChild0Child0Child0.StyleSetMarginPercent(EdgeBottom, 5)\nrootChild0Child0Child0.StyleSetPadding(EdgeLeft, 3)\nrootChild0Child0Child0.StyleSetPadding(EdgeTop, 3)\nrootChild0Child0Child0.StyleSetPadding(EdgeRight, 3)\nrootChild0Child0Child0.StyleSetPadding(EdgeBottom, 3)\nrootChild0Child0Child0.StyleSetWidthPercent(45)\nrootChild0Child0.InsertChild(rootChild0Child0Child0, 0)\n\nrootChild1 := flex.NewNodeWithConfig(config)\nrootChild1.StyleSetFlexGrow(4)\nrootChild1.StyleSetFlexBasisPercent(15)\nrootChild1.StyleSetMinWidthPercent(20)\nroot.InsertChild(rootChild1, 1)\nflex.CalculateLayout(root, flex.Undefined, flex.Undefined, DirectionLTR)",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -840,7 +861,8 @@
           {
             "Text": " we can see the position of each node e.g.:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -866,7 +888,8 @@
         "type": "code",
         "version": 1,
         "code": "fmt.Printf(\"root left: %f\\n\", root.LayoutGetLeft()) // 0\nfmt.Printf\"root top: %f\\n\", root.LayoutGetTop()) // 0\nfmt.Printf(\"root width: %f\\n\", root.LayoutGetWidth()) // 200\nfmt.Printf(\"root height: %f\\n\", root.LayoutGetHeight()) // 200",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -909,7 +932,8 @@
           {
             "Text": ". Their names hint at which properties are being used."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -970,7 +994,8 @@
           {
             "Text": " directory which shows how to express it in Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -994,7 +1019,8 @@
           {
             "Text": "Size of root’s parent"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1036,7 +1062,8 @@
           {
             "Text": " as both height and width of the parent container."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1096,7 +1123,8 @@
           {
             "Text": " represents a control inside the window."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1120,7 +1148,8 @@
           {
             "Text": "Window is the parent of root node."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1162,7 +1191,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1204,7 +1234,8 @@
           {
             "Text": " as width/height of parent container and then use the size of root node as the size of the window, to size it to its content."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1228,7 +1259,8 @@
           {
             "Text": "Measure function"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1252,7 +1284,8 @@
           {
             "Text": "Imagine that a node represents an OS button. The button has some intrisic size dictated by its text."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1312,7 +1345,8 @@
           {
             "Text": ". It’s definition is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1338,7 +1372,8 @@
         "type": "code",
         "version": 1,
         "code": "type MeasureFunc func(node *Node, width float32, widthMode MeasureMode, height float32, heightMode MeasureMode) Size",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1362,7 +1397,8 @@
           {
             "Text": "The functions takes a hint width/height which is the size of parent container and returns intrinsic size of node."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1386,7 +1422,8 @@
           {
             "Text": "This is usefule e.g. when a node represents a paragraph of text. When you know width of the parent container, you can break it into multi-line text."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1428,7 +1465,8 @@
           {
             "Text": " to store it."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Tutorial for github.com/kjk/flex Go package (implementation of CSS flexbox algorithm)",
@@ -1439,7 +1477,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

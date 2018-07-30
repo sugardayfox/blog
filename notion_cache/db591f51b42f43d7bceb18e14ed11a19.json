@@ -58,7 +58,8 @@
           {
             "Text": "Id: 1863"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -82,7 +83,8 @@
           {
             "Text": "Date: 2004-10-02T21:43:39-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -106,7 +108,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -118,7 +121,8 @@
         "parent_id": "db591f51-b42f-43d7-bceb-18e14ed11a19",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -161,7 +165,8 @@
           {
             "Text": ". "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -185,7 +190,8 @@
           {
             "Text": "The fixes in this version:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -222,7 +228,8 @@
           {
             "Text": " fixed a bug handling directories in cvs"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -264,7 +271,8 @@
           {
             "Text": ". "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -288,7 +296,8 @@
           {
             "Text": "Still, handling of deleting files is far from perfect (currently they are silently ignored while we should show appropriate diff) - properly handle file names with spaces. Fix suggested by Raman Gupta"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -300,7 +309,8 @@
         "parent_id": "db591f51-b42f-43d7-bceb-18e14ed11a19",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       }
     ],
     "title": "scdiff 0.3 released",
@@ -311,7 +321,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -104,7 +104,8 @@
                 "Text": "0:",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -130,7 +131,8 @@
             "type": "code",
             "version": 247,
             "code": "\u003cListView Grid.Row=\"0\" Name=\"listView\" Background=\"AliceBlue\" HorizontalAlignment=\"Stretch\" SelectionChanged=\"ListView_SelectionChanged\" VerticalAlignment=\"Stretch\" FontSize=\"8\" VerticalContentAlignment=\"Top\"\u003e\n\t\u003cListView.ItemContainerStyle\u003e\n\t  \u003cStyle TargetType=\"ListViewItem\"\u003e\n\t    \u003cSetter Property=\"MinHeight\" Value=\"0\"/\u003e\n    \u003c/Style\u003e\n  \u003c/ListView.ItemContainerStyle\u003e\n\u003c/ListView\u003e",
-            "code_language": "XML"
+            "code_language": "XML",
+            "format_video": null
           },
           {
             "alive": true,
@@ -190,7 +192,8 @@
               {
                 "Text": "."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -202,14 +205,16 @@
             "parent_id": "b7e77cb4-4a26-40b3-858b-e434752704e8",
             "parent_table": "block",
             "type": "text",
-            "version": 9
+            "version": 9,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Spacing between items"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -221,7 +226,8 @@
         "parent_id": "5356e399-fb23-4985-8ee6-2e32baaf7664",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "ListView",
@@ -232,7 +238,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

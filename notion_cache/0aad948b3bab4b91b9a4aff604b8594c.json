@@ -104,7 +104,8 @@
           {
             "Text": "Id: 18"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -128,7 +129,8 @@
           {
             "Text": "Date: 2016-10-23"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -152,7 +154,8 @@
           {
             "Text": "Tags: programming, javascript"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -164,7 +167,8 @@
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -188,7 +192,8 @@
           {
             "Text": "Best optimizations are achievied by thinking about a problem holistically."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -212,7 +217,8 @@
           {
             "Text": "In this article I describe an optimization that uses arrays instead of classes while providing a class API for accessing data."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -255,7 +261,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -279,7 +286,8 @@
           {
             "Text": "It uses modern, single-page architecture. Front-end is written in React and backend provides JSON data to React."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -321,7 +329,8 @@
           {
             "Text": " call which returns JSON response that looks like:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -347,7 +356,8 @@
         "type": "code",
         "version": 5,
         "code": "{\n  \"notes\": [\n    {\n      \"id\": 1,\n      \"title\": \"first note\",\n      \"createdAt\": \"2016-08-14 15:34:32Z\",\n      // ... more properties\n    },\n    {\n      \"id\": 2,\n      \"title\": \"second note\",\n      \"createdAt\": \"2016-08-14 16:03:12Z\"\n      // ... more properties\n    },\n    // ... more notes\n  ]\n}",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -371,7 +381,8 @@
           {
             "Text": "You notice there’s a lot of redundancy as we repeat property names in every note object."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -395,7 +406,8 @@
           {
             "Text": "In our case the structure of the note is fixed i.e. it always has the same properties. We can encode this data more efficiently:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -421,7 +433,8 @@
         "type": "code",
         "version": 5,
         "code": "{\n  \"notes\": [\n    [1, \"first note\", \"2016-08-14 15:34:32Z\", ... more properties],\n    [2, \"second note\", \"2016-08-14 16:03:12Z\", ... more properties],\n    // ... more notes\n  ]\n}",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -445,7 +458,8 @@
           {
             "Text": "This is a holistic optimization that achieves several speedups at once:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -469,7 +483,8 @@
           {
             "Text": "backend generates less text (JSON response)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -493,7 +508,8 @@
           {
             "Text": "backend compresses less data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -517,7 +533,8 @@
           {
             "Text": "browser downloads less data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -541,7 +558,8 @@
           {
             "Text": "browser decompresses less data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -565,7 +583,8 @@
           {
             "Text": "browser parsers less JSON text"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -589,7 +608,8 @@
           {
             "Text": "JavaScript arrays are most likely more memory efficient that objects, so the data uses less memory"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -613,7 +633,8 @@
           {
             "Text": "If you know how gzip compression works you might protest that our effort to remove property names is mostly futile because gzip is very good at removing such redundancies."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -656,7 +677,8 @@
           {
             "Text": " using my own notes and found that even after compression the size difference of two versions is ~50%. This might be a difference between a browser downloading 150 kB of data vs. 300 kB."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -680,7 +702,8 @@
           {
             "Text": "This representation comes at a cost of programmer’s convenience."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -722,7 +745,8 @@
           {
             "Text": ". With array representation it’s more work:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -748,7 +772,8 @@
         "type": "code",
         "version": 3,
         "code": "const noteIdIdx = 0;\nconst noteTitleIdx = 1;\n// ... constants for more properties\n\nconst title = note[noteTitleIdx];",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -772,7 +797,8 @@
           {
             "Text": "This is not great. We can improve this by writing accessor functions:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -798,7 +824,8 @@
         "type": "code",
         "version": 3,
         "code": "function getTitle(note) {\n  return note[noteTitleIdx];\n}",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -822,7 +849,8 @@
           {
             "Text": "JavaScript is a pliable language and we can get the best of both worlds: array representation with class API."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -864,7 +892,8 @@
           {
             "Text": " and extends it with accessor functions."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -888,7 +917,8 @@
           {
             "Text": "This example uses TypeScript, because static typing rocks, but will also work in pure JavaScript."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -914,7 +944,8 @@
         "type": "code",
         "version": 3,
         "code": "class Note extends Array {\n  constructor() {\n    super();\n  }\n\n  ID(): int {\n    return this[noteIdIdx];\n  }\n\n  Title(): string {\n    return this[noteTitleIdx];\n  }\n  // .. more accessor functions\n}\n\n// this \"upgrades\" rawArray object from being Array instance\n// to Note instance by patching prototype chain.\n// Beware: if rawAray is not Array instance, bad things will happen\nfunction toNote(rawArray: any): Note {\n  Object.setPrototypeOf(rawArray, Note.prototype);\n  return rawArray as Note;\n}\n\n// one way to convert raw array to object\nconst rawNote = [1, \"first note\", ... more properties];\nconst note = toNote(rawNote);\nconst title = note.Title();\n\n// a less efficient but also less hacky way is by constructing a new Note object\nconst note = new Note(rawNote);\nconst title = note.Title();",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       },
       {
         "alive": true,
@@ -974,7 +1005,8 @@
           {
             "Text": " so it’s as efficient as an array and inherits all its functionality."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -998,7 +1030,8 @@
           {
             "Text": "We add a couple of functions for getting/setting note data for a better API."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1040,7 +1073,8 @@
           {
             "Text": " function."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1130,7 +1164,8 @@
           {
             "Text": " instances."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1226,7 +1261,8 @@
           {
             "Text": " functions and gets our additional functions."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1286,7 +1322,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1328,7 +1365,8 @@
           {
             "Text": ", bad things will happen. It’s not a technique that should be overused."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1352,7 +1390,8 @@
           {
             "Text": "Upgrading the object in place should be more efficient than creating a new object as it avoids an allocation."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1395,7 +1434,8 @@
           {
             "Text": " changing prototype of an object makes for slowera access, so it can go either way."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1419,7 +1459,8 @@
           {
             "Text": "To summarize:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1443,7 +1484,8 @@
           {
             "Text": "optimization is often achieved by looking at a problem as a whole"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1467,7 +1509,8 @@
           {
             "Text": "thanks to flexibility of JavaScript we can implement a micro-optimization where we represent objects as arrays but add convenient class-like API"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1479,7 +1522,8 @@
         "parent_id": "0aad948b-3bab-4b91-b9a4-aff604b8594c",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       }
     ],
     "title": "Optimizing JavaScript by using arrays instead of objects",
@@ -1491,7 +1535,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F35a48372-ddfa-4e42-9be2-a0981298dd54%2Fheader-05.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

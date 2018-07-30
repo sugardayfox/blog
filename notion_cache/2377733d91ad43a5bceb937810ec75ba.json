@@ -3,12 +3,14 @@
   "Root": {
     "alive": true,
     "content": [
+      "ea07db1b-9bff-415a-b180-b0525f3898f6",
       "fe8925d5-1dec-4f2f-824e-8b3be79f8d15",
       "8632887d-82fe-4016-bea0-c62c816076bd",
       "462467a3-1856-4cb6-9228-6936960414b6",
       "6b9460b3-cce6-4f2c-9652-c514399cfa84",
       "61ec6fb1-c595-4f23-b78b-8a81717bc916",
-      "ea07db1b-9bff-415a-b180-b0525f3898f6"
+      "c5709806-e8a7-4979-90c2-8419b93bb141",
+      "a5fa9a1c-ee36-483f-ae55-37f471bd7877"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1514447036319,
@@ -18,19 +20,58 @@
     },
     "id": "2377733d-91ad-43a5-bceb-937810ec75ba",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532125676550,
+    "last_edited_time": 1532923848607,
     "parent_id": "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "puppeteer"
+          "puppeteer, headless chrome, cdp"
         ]
       ]
     },
     "type": "page",
-    "version": 106,
+    "version": 222,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1530921622619,
+        "file_ids": [
+          "33ab29b8-fd6f-455e-9b69-2912fb2b4b7a"
+        ],
+        "format": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33ab29b8-fd6f-455e-9b69-2912fb2b4b7a/header-22.jpg",
+          "page_full_width": true,
+          "page_small_text": true,
+          "page_cover_position": 0.5
+        },
+        "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923513091,
+        "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Advanced web spidering with Puppeteer"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 374,
+        "title": "Advanced web spidering with Puppeteer",
+        "format_page": {
+          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33ab29b8-fd6f-455e-9b69-2912fb2b4b7a/header-22.jpg",
+          "page_cover_position": 0.5,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true,
+          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F33ab29b8-fd6f-455e-9b69-2912fb2b4b7a%2Fheader-22.jpg"
+        },
+        "format_video": null
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -66,7 +107,8 @@
             "Text": "https://pptr.dev/#?product=Puppeteer",
             "Link": "https://pptr.dev/#?product=Puppeteer"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -103,7 +145,8 @@
             "Text": "https://github.com/GoogleChrome/puppeteer/",
             "Link": "https://github.com/GoogleChrome/puppeteer/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -122,13 +165,23 @@
           "86e4f0b3-ae00-4d03-81a2-01d392d3ea9d",
           "51f967bc-41d0-4819-a38f-a2dc837061c5",
           "1dec0cf3-54a5-4cbf-b352-31b23b4cfb9d",
-          "24a98a6a-d104-4d60-99fa-d18198bbd6aa"
+          "24a98a6a-d104-4d60-99fa-d18198bbd6aa",
+          "4cc76a5c-6552-4885-a32d-00126657d4bc",
+          "d43198c2-8950-4370-a35f-276593177727",
+          "033601ff-b4ef-4319-ad39-0e559f301e5f",
+          "da28c3fb-8481-4eb2-a09b-7188ce972968",
+          "fc5c199e-6c37-4a30-9887-18a350cb0904",
+          "f9f294a5-8f9d-4d50-9983-705b28ce877b",
+          "e24e6acf-c6c0-4a6e-bee8-8004d31638a9",
+          "fb4fd79c-161c-4e88-bb89-dbfc85c607f0",
+          "d648f915-f6c8-4e96-9079-9bf2a3326da6",
+          "cb68fa92-550f-4a73-835a-3881d2c30df3"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531005005551,
         "id": "462467a3-1856-4cb6-9228-6936960414b6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531005072297,
+        "last_edited_time": 1532923829374,
         "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
         "parent_table": "block",
         "properties": {
@@ -139,7 +192,7 @@
           ]
         },
         "type": "toggle",
-        "version": 32,
+        "version": 53,
         "content_resolved": [
           {
             "alive": true,
@@ -170,7 +223,8 @@
                 "Text": "https://blog.lovemily.me/a-deep-dive-guide-for-crawling-spa-with-puppeteer-and-troubleshooting/",
                 "Link": "https://blog.lovemily.me/a-deep-dive-guide-for-crawling-spa-with-puppeteer-and-troubleshooting/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -201,7 +255,8 @@
                 "Text": "https://docs.browserless.io/blog/2018/06/04/puppeteer-best-practices.html",
                 "Link": "https://docs.browserless.io/blog/2018/06/04/puppeteer-best-practices.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -232,7 +287,8 @@
                 "Text": "https://nemethgergely.com/puppeteer-browser-automation/",
                 "Link": "https://nemethgergely.com/puppeteer-browser-automation/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -263,7 +319,8 @@
                 "Text": "https://blog.lovemily.me/a-deep-dive-guide-for-crawling-spa-with-puppeteer-and-troubleshooting/#get-async-ajax-data",
                 "Link": "https://blog.lovemily.me/a-deep-dive-guide-for-crawling-spa-with-puppeteer-and-troubleshooting/#get-async-ajax-data"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -294,7 +351,8 @@
                 "Text": "https://www.santoshsrinivas.com/puppeteer-api-to-control-headless-chrome/",
                 "Link": "https://www.santoshsrinivas.com/puppeteer-api-to-control-headless-chrome/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -325,7 +383,8 @@
                 "Text": "https://tutorialzine.com/2017/08/automating-google-chrome-with-node-js",
                 "Link": "https://tutorialzine.com/2017/08/automating-google-chrome-with-node-js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -356,7 +415,8 @@
                 "Text": "https://developers.google.com/web/updates/2017/04/headless-chrome",
                 "Link": "https://developers.google.com/web/updates/2017/04/headless-chrome"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -387,7 +447,8 @@
                 "Text": "https://github.com/yujiosaka/headless-chrome-crawler",
                 "Link": "https://github.com/yujiosaka/headless-chrome-crawler"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -418,7 +479,8 @@
                 "Text": "https://medium.com/@e_mad_ehsan/getting-started-with-puppeteer-and-chrome-headless-for-web-scrapping-6bf5979dee3e",
                 "Link": "https://medium.com/@e_mad_ehsan/getting-started-with-puppeteer-and-chrome-headless-for-web-scrapping-6bf5979dee3e"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -449,7 +511,8 @@
                 "Text": "https://codeburst.io/a-guide-to-automating-scraping-the-web-with-javascript-chrome-puppeteer-node-js-b18efb9e9921",
                 "Link": "https://codeburst.io/a-guide-to-automating-scraping-the-web-with-javascript-chrome-puppeteer-node-js-b18efb9e9921"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -480,7 +543,8 @@
                 "Text": "https://www.sitepen.com/blog/2017/10/04/browser-automation-with-puppeteer/",
                 "Link": "https://www.sitepen.com/blog/2017/10/04/browser-automation-with-puppeteer/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -511,7 +575,8 @@
                 "Text": "https://intoli.com/blog/saving-images/",
                 "Link": "https://intoli.com/blog/saving-images/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -542,7 +607,8 @@
                 "Text": "https://intoli.com/blog/making-chrome-headless-undetectable/",
                 "Link": "https://intoli.com/blog/making-chrome-headless-undetectable/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -573,7 +639,8 @@
                 "Text": "https://alligator.io/tooling/puppeteer/",
                 "Link": "https://alligator.io/tooling/puppeteer/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -581,7 +648,7 @@
             "created_time": 1526526651898,
             "id": "24a98a6a-d104-4d60-99fa-d18198bbd6aa",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531005031026,
+            "last_edited_time": 1532923541697,
             "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
             "parent_table": "block",
             "properties": {
@@ -601,7 +668,7 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 80,
+            "version": 82,
             "inline_content": [
               {
                 "Text": "https://www.youtube.com/watch?v=lhZOFUY1weo",
@@ -610,14 +677,365 @@
               {
                 "Text": " : 10 things to do with puppeteer"
               }
-            ]
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "d6804d45-0b2c-4a4d-be26-ac2c4b3733f8",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923539235,
+            "id": "4cc76a5c-6552-4885-a32d-00126657d4bc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923539235,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+                  [
+                    [
+                      "a",
+                      "https://github.com/ChromeDevTools/awesome-chrome-devtools"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+                "Link": "https://github.com/ChromeDevTools/awesome-chrome-devtools"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "d6ba7191-014a-4838-9e8c-26916f10ce32",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923539239,
+            "id": "d43198c2-8950-4370-a35f-276593177727",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923539239,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md",
+                  [
+                    [
+                      "a",
+                      "https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md",
+                "Link": "https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "7c6e114c-2941-4520-9e2c-62cc51656275",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923539237,
+            "id": "033601ff-b4ef-4319-ad39-0e559f301e5f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923539237,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://chromedevtools.github.io/devtools-protocol/",
+                  [
+                    [
+                      "a",
+                      "https://chromedevtools.github.io/devtools-protocol/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://chromedevtools.github.io/devtools-protocol/",
+                "Link": "https://chromedevtools.github.io/devtools-protocol/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "9bd8750a-e43b-4c2f-91b7-360d2bd1ea64",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923539238,
+            "id": "da28c3fb-8481-4eb2-a09b-7188ce972968",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923695956,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://developers.google.com/web/updates/2017/04/headless-chrome",
+                  [
+                    [
+                      "a",
+                      "https://developers.google.com/web/updates/2017/04/headless-chrome"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "https://developers.google.com/web/updates/2017/04/headless-chrome",
+                "Link": "https://developers.google.com/web/updates/2017/04/headless-chrome"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623511,
+            "id": "fc5c199e-6c37-4a30-9887-18a350cb0904",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923695956,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://developers.google.com/web/updates/2017/04/headless-chrome",
+                  [
+                    [
+                      "a",
+                      "https://developers.google.com/web/updates/2017/04/headless-chrome"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=14239194",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=14239194"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "https://developers.google.com/web/updates/2017/04/headless-chrome",
+                "Link": "https://developers.google.com/web/updates/2017/04/headless-chrome"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=14239194",
+                "Link": "https://news.ycombinator.com/item?id=14239194"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623512,
+            "id": "f9f294a5-8f9d-4d50-9983-705b28ce877b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923771657,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://adriftwith.me/coding/2017/04/21/headless-slimerjs-with-firefox/",
+                  [
+                    [
+                      "a",
+                      "https://adriftwith.me/coding/2017/04/21/headless-slimerjs-with-firefox/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 10,
+            "inline_content": [
+              {
+                "Text": "https://adriftwith.me/coding/2017/04/21/headless-slimerjs-with-firefox/",
+                "Link": "https://adriftwith.me/coding/2017/04/21/headless-slimerjs-with-firefox/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623512,
+            "id": "e24e6acf-c6c0-4a6e-bee8-8004d31638a9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923771657,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://levels.io/phantomjs-social-media-share-pictures/",
+                  [
+                    [
+                      "a",
+                      "https://levels.io/phantomjs-social-media-share-pictures/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "https://levels.io/phantomjs-social-media-share-pictures/",
+                "Link": "https://levels.io/phantomjs-social-media-share-pictures/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623513,
+            "id": "fb4fd79c-161c-4e88-bb89-dbfc85c607f0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923824369,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://riston.github.io/post/headless-chrome-scrape/",
+                  [
+                    [
+                      "a",
+                      "https://riston.github.io/post/headless-chrome-scrape/"
+                    ]
+                  ]
+                ],
+                [
+                  " : example of scraping links from r/programming, using node library"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 10,
+            "inline_content": [
+              {
+                "Text": "https://riston.github.io/post/headless-chrome-scrape/",
+                "Link": "https://riston.github.io/post/headless-chrome-scrape/"
+              },
+              {
+                "Text": " : example of scraping links from r/programming, using node library"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623513,
+            "id": "d648f915-f6c8-4e96-9079-9bf2a3326da6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923824369,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://riston.github.io/post/puppeteer-chrome-scrape/",
+                  [
+                    [
+                      "a",
+                      "https://riston.github.io/post/puppeteer-chrome-scrape/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "https://riston.github.io/post/puppeteer-chrome-scrape/",
+                "Link": "https://riston.github.io/post/puppeteer-chrome-scrape/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623513,
+            "id": "cb68fa92-550f-4a73-835a-3881d2c30df3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923829374,
+            "parent_id": "462467a3-1856-4cb6-9228-6936960414b6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://i-programmer.info/news/87-web-development/11344-headless-chrome-and-the-puppeteer-library-for-scraping-and-testing-the-web.html",
+                  [
+                    [
+                      "a",
+                      "http://i-programmer.info/news/87-web-development/11344-headless-chrome-and-the-puppeteer-library-for-scraping-and-testing-the-web.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 6,
+            "inline_content": [
+              {
+                "Text": "http://i-programmer.info/news/87-web-development/11344-headless-chrome-and-the-puppeteer-library-for-scraping-and-testing-the-web.html",
+                "Link": "http://i-programmer.info/news/87-web-development/11344-headless-chrome-and-the-puppeteer-library-for-scraping-and-testing-the-web.html"
+              }
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Articles"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -625,13 +1043,14 @@
           "c333ff9b-56d9-4a8a-abe3-2533e1bd0751",
           "ee24320a-e407-4a2b-99d9-654f56568b9e",
           "4dc0a991-d526-498e-9fe8-bb032b73d8a7",
-          "512b36d4-3d41-4620-8a16-0225f15b7853"
+          "a69f8518-d2bc-431c-9fe5-5c1582478629",
+          "aa873777-22a7-42df-835e-9abea89a5d61"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1531004954574,
         "id": "6b9460b3-cce6-4f2c-9652-c514399cfa84",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531004969807,
+        "last_edited_time": 1532923832167,
         "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
         "parent_table": "block",
         "properties": {
@@ -642,7 +1061,7 @@
           ]
         },
         "type": "toggle",
-        "version": 32,
+        "version": 38,
         "content_resolved": [
           {
             "alive": true,
@@ -666,7 +1085,8 @@
               {
                 "Text": "Note that both of those don't work more often than they do work."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -697,7 +1117,8 @@
                 "Text": "https://try-puppeteer.appspot.com/",
                 "Link": "https://try-puppeteer.appspot.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -705,7 +1126,7 @@
             "created_time": 1530838801672,
             "id": "4dc0a991-d526-498e-9fe8-bb032b73d8a7",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531004968236,
+            "last_edited_time": 1532923713843,
             "parent_id": "6b9460b3-cce6-4f2c-9652-c514399cfa84",
             "parent_table": "block",
             "properties": {
@@ -722,32 +1143,98 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 14,
+            "version": 18,
             "inline_content": [
               {
                 "Text": "https://puppeteersandbox.com/",
                 "Link": "https://puppeteersandbox.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531004959251,
-            "id": "512b36d4-3d41-4620-8a16-0225f15b7853",
+            "created_time": 1532923623511,
+            "id": "a69f8518-d2bc-431c-9fe5-5c1582478629",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531004959815,
+            "last_edited_time": 1532923725620,
             "parent_id": "6b9460b3-cce6-4f2c-9652-c514399cfa84",
             "parent_table": "block",
-            "type": "text",
-            "version": 11
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/adieuadieu/serverless-chrome",
+                  [
+                    [
+                      "a",
+                      "https://github.com/adieuadieu/serverless-chrome"
+                    ]
+                  ]
+                ],
+                [
+                  " : how to run headless chrome on AWS"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 113,
+            "inline_content": [
+              {
+                "Text": "https://github.com/adieuadieu/serverless-chrome",
+                "Link": "https://github.com/adieuadieu/serverless-chrome"
+              },
+              {
+                "Text": " : how to run headless chrome on AWS"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623513,
+            "id": "aa873777-22a7-42df-835e-9abea89a5d61",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923842033,
+            "parent_id": "6b9460b3-cce6-4f2c-9652-c514399cfa84",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/gajus/usus",
+                  [
+                    [
+                      "a",
+                      "https://github.com/gajus/usus"
+                    ]
+                  ]
+                ],
+                [
+                  " : Renders page using Chrome Debugging Protocol"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://github.com/gajus/usus",
+                "Link": "https://github.com/gajus/usus"
+              },
+              {
+                "Text": " : Renders page using Chrome Debugging Protocol"
+              }
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Tools"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -838,7 +1325,8 @@
                   {
                     "Text": ":"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -864,14 +1352,16 @@
                 "type": "code",
                 "version": 2,
                 "code": "const {Browser} = require('puppeteer');\nconst browser = new Browser({headless: false});\n\nbrowser.newPage().then(async page =\u003e {\n  page.on('load', () =\u003e console.log('LOADED: ' + page.url()));\n  await page.navigate('https://google.com');\n  await page.waitFor('input[name=q]');\n  await page.focus('input[name=q]');\n  await page.type('blin');\n  await page.press('Enter');\n  for (let i = 0; i \u003c 10; ++i) {\n    let searchResult = `div.g:nth-child(${i + 1}) h3 a`;\n    await page.waitFor(searchResult, {visible: true});\n    page.click(searchResult);\n    await page.waitForNavigation();\n    await page.screenshot({path: `screenshot-${i + 1}.png`});\n    await page.goBack();\n  }\n  browser.close();\n});",
-                "code_language": "Javascript"
+                "code_language": "Javascript",
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "pupeteer script to do google searches"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -919,14 +1409,16 @@
                 "type": "code",
                 "version": 2,
                 "code": "const browser = await puppeteer.launch();\nconst page = await browser.newPage();\nawait page.goto('https://google.com', {waitUntil: 'networkidle2'});\n\nawait page.waitFor('input[name=q]');\n// Type our query into the search bar\nawait page.type('input[name=q]', 'epub reader windows');\n\nawait page.click('input[type=\"submit\"]');\n\n// Wait for the results to show up\nawait page.waitForSelector('h3 a');\n\n// Extract the results from the page\nconst links = await page.evaluate(() =\u003e {\n  const anchors = Array.from(document.querySelectorAll('h3.r a'));\n  return anchors.map(anchor =\u003e anchor.href);\n});\nconsole.log(links.join('\\n'));\nawait browser.close();",
-                "code_language": "Javascript"
+                "code_language": "Javascript",
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "pupeteer script to extract urls for a given search query"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -974,14 +1466,16 @@
                 "type": "code",
                 "version": 2,
                 "code": "const browser = await puppeteer.launch();\nconst page = await browser.newPage();\n\n// https://www.google.com/search?q=epub+reader\u0026start=10\nfunction buildQuery(term, page=0) {\n  const q = encodeURIComponent(term).replace(\"%20\", \"+\");\n  let url = 'https://google.com/search?q=' + q;\n  if (page \u003e 0) {\n    const start = page * 10;\n    url += '\u0026start=' + start;\n  }\n  return url;\n}\n\nasync function extractLinks(url) {\n    console.log(`url: ${url}`);\n    await page.goto(url, {waitUntil: 'networkidle2'});\n    // Wait for the results to show up\n    await page.waitForSelector('h3 a');\n    // Extract the results from the page\n    const links = await page.evaluate(() =\u003e {\n        const anchors = Array.from(document.querySelectorAll('h3.r a'));\n        return anchors.map(anchor =\u003e anchor.href);\n    });\n    return links;\n}\n\nasync function extractFirst100(term) {\n    const maxPages = 1; // 10\n    for (var pageNo = 0; pageNo \u003c maxPages;  pageNo++) {\n        const url = buildQuery(term, pageNo);\n        links = await extractLinks(url);\n        console.log(links.join('\\n'));\n    }\n}\n\nasync function extractFirst100v2(term) {\n    const maxPages = 3; // 10\n    let a = Array(maxPages);\n    for (var pageNo = 0; pageNo \u003c maxPages;  pageNo++) {\n        const url = buildQuery(term, pageNo);\n        a[pageNo] = extractLinks(url);\n    }\n    const res = await Promise.all(a);\n    for (var pageNo = 0; pageNo \u003c maxPages; pageNo++) {\n        const links = res[pageNo];\n        console.log(links.join('\\n'));      \n    }\n}\n\nawait extractFirst100(\"epub reader\");\n\nawait browser.close();",
-                "code_language": "Javascript"
+                "code_language": "Javascript",
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "pupeteer script to extract first 100 search results for query"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1012,55 +1506,260 @@
                 "Text": "https://github.com/GoogleChromeLabs/puppeteer-examples",
                 "Link": "https://github.com/GoogleChromeLabs/puppeteer-examples"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "scripts"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530921622619,
-        "file_ids": [
-          "33ab29b8-fd6f-455e-9b69-2912fb2b4b7a"
+        "content": [
+          "d9beb28e-aadf-4f4c-96a9-b6328be8b94d",
+          "c966b196-4aac-4cf4-bf00-02d261f6daad",
+          "f62c277f-3ca0-42c0-943b-2f78cd6b252e",
+          "50c3e7b4-6bfe-4711-9811-a715880b6713",
+          "1fa5b87a-c27f-4ad7-9800-7b17c96f7853",
+          "166048d5-740b-422d-9e46-07bcaa89c7ea"
         ],
-        "format": {
-          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33ab29b8-fd6f-455e-9b69-2912fb2b4b7a/header-22.jpg",
-          "page_full_width": true,
-          "page_small_text": true,
-          "page_cover_position": 0.5
-        },
-        "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923634101,
+        "id": "c5709806-e8a7-4979-90c2-8419b93bb141",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532125676550,
+        "last_edited_time": 1532923779250,
         "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Advanced web spidering with Puppeteer"
+              "libraries"
             ]
           ]
         },
-        "type": "page",
-        "version": 371,
-        "title": "Advanced web spidering with Puppeteer",
-        "format_page": {
-          "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33ab29b8-fd6f-455e-9b69-2912fb2b4b7a/header-22.jpg",
-          "page_cover_position": 0.5,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true,
-          "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F33ab29b8-fd6f-455e-9b69-2912fb2b4b7a%2Fheader-22.jpg"
-        }
+        "type": "toggle",
+        "version": 40,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923654033,
+            "id": "d9beb28e-aadf-4f4c-96a9-b6328be8b94d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923655862,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "For Go:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 20,
+            "inline_content": [
+              {
+                "Text": "For Go:"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623512,
+            "id": "c966b196-4aac-4cf4-bf00-02d261f6daad",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923744116,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/knq/chromedp",
+                  [
+                    [
+                      "a",
+                      "https://github.com/knq/chromedp"
+                    ]
+                  ]
+                ],
+                [
+                  " : Go library to drive Chrome via debugger protocol"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 6,
+            "inline_content": [
+              {
+                "Text": "https://github.com/knq/chromedp",
+                "Link": "https://github.com/knq/chromedp"
+              },
+              {
+                "Text": " : Go library to drive Chrome via debugger protocol"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "fda9f72a-e6d6-44cd-b1a1-94dbac5a035f",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923648061,
+            "id": "f62c277f-3ca0-42c0-943b-2f78cd6b252e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923652816,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/mafredri/cdp",
+                  [
+                    [
+                      "a",
+                      "https://github.com/mafredri/cdp"
+                    ]
+                  ]
+                ],
+                [
+                  " : most high-level"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://github.com/mafredri/cdp",
+                "Link": "https://github.com/mafredri/cdp"
+              },
+              {
+                "Text": " : most high-level"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "3b5ec1c5-1d0b-41ff-9c0f-73c6e56938d5",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923648062,
+            "id": "50c3e7b4-6bfe-4711-9811-a715880b6713",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923652816,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/raff/godet",
+                  [
+                    [
+                      "a",
+                      "https://github.com/raff/godet"
+                    ]
+                  ]
+                ],
+                [
+                  " : low-level"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://github.com/raff/godet",
+                "Link": "https://github.com/raff/godet"
+              },
+              {
+                "Text": " : low-level"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "7bbb19f1-efa8-4945-8f92-492f3ffa277e",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923648058,
+            "id": "1fa5b87a-c27f-4ad7-9800-7b17c96f7853",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923779250,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/wirepair/gcd",
+                  [
+                    [
+                      "a",
+                      "https://github.com/wirepair/gcd"
+                    ]
+                  ]
+                ],
+                [
+                  " : low-level"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "https://github.com/wirepair/gcd",
+                "Link": "https://github.com/wirepair/gcd"
+              },
+              {
+                "Text": " : low-level"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923623512,
+            "id": "166048d5-740b-422d-9e46-07bcaa89c7ea",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923836331,
+            "parent_id": "c5709806-e8a7-4979-90c2-8419b93bb141",
+            "parent_table": "block",
+            "type": "text",
+            "version": 15,
+            "format_video": null
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "libraries"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923848607,
+        "id": "a5fa9a1c-ee36-483f-ae55-37f471bd7877",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923848607,
+        "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       }
     ],
-    "title": "puppeteer",
+    "title": "puppeteer, headless chrome, cdp",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -1068,7 +1767,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

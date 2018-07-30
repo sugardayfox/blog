@@ -49,7 +49,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -73,7 +74,8 @@
           {
             "Text": "I wanted to see a real-life performance of different compressors:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -109,7 +111,8 @@
             "Text": "gzip -9",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -133,7 +136,8 @@
           {
             "Text": "zopfli generates gzip compatible streams but achieves better compression by taking much longer to compress data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -157,7 +161,8 @@
           {
             "Text": "brotli is a new compressor that aims to be comparable in speed to gzip but with better compression"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -169,7 +174,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -193,7 +199,8 @@
           {
             "Text": "I ran the compressor on a minified JavaScript code from one of my projects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -205,7 +212,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -359,7 +367,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 14
+                "version": 14,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -393,7 +402,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 8
+                "version": 8,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -427,7 +437,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 8
+                "version": 8,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -461,11 +472,13 @@
                   ]
                 },
                 "type": "page",
-                "version": 8
+                "version": 8,
+                "format_video": null
               }
             ]
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -477,7 +490,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -501,7 +515,8 @@
           {
             "Text": "This is the same data as above but comparing only compressed versions, to  see relative differences between compressed content:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -513,7 +528,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 9
+        "version": 9,
+        "format_video": null
       },
       {
         "alive": true,
@@ -667,7 +683,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 1
+                "version": 1,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -701,7 +718,8 @@
                   ]
                 },
                 "type": "page",
-                "version": 1
+                "version": 1,
+                "format_video": null
               },
               {
                 "alive": true,
@@ -735,11 +753,13 @@
                   ]
                 },
                 "type": "page",
-                "version": 1
+                "version": 1,
+                "format_video": null
               }
             ]
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -751,7 +771,8 @@
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "zopfli vs. brotli vs. gzip",
@@ -762,7 +783,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

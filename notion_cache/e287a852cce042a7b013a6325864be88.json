@@ -69,7 +69,8 @@
           {
             "Text": "Id: 1002039"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -93,7 +94,8 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -117,7 +119,8 @@
           {
             "Text": "Date: 2012-04-15T22:28:01-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -129,7 +132,8 @@
         "parent_id": "e287a852-cce0-42a7-b013-a6325864be88",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +176,8 @@
           {
             "Text": " (I’m hoping it’ll reduce number of false positive from various anti-virus programs that claim that SumatraPDF is suspect)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -196,7 +201,8 @@
           {
             "Text": "There were some things that I wish I knew before starting the process, so I’m documenting the process here for posterity."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -239,7 +245,8 @@
           {
             "Text": " as they have low prices and there’s enough info on the internet to assure me that it’s the right kind of certificate for signing Windows apps. The certificate is actually issued by Comodo, K Software is only a reseller (but they have lower prices than Comodo - go figure)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -263,7 +270,8 @@
           {
             "Text": "I bought a certificate valid for 3 years ($245). The validity only affects whether you can use the certificate to sign. After you sign the app, its signature is valid forever."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -287,7 +295,8 @@
           {
             "Text": "After certificate expires, you can renew it. The shortest (and cheapest) validity period is 1 year. I opted for 3 years because it minimizes the hassle of renewing every year."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -311,7 +320,8 @@
           {
             "Text": "Important note before you start: you also need to have some internet domain registered in your name (or in your organization’s name) and to minimize the troubles make sure there is a valid e-mail address with that domain that you can receive (I use Google Apps for that domain and use it to forward e-mails for that domain to my personal gmail account)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -335,7 +345,8 @@
           {
             "Text": "The domain is necessary to complete verification process of your identity that Comodo does. It’s a strange requirement for a certificate for signing applications but I’m guessing it’s because certificate have roots in SSL/internet and in that case domain name is required."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -359,7 +370,8 @@
           {
             "Text": "Signing an app with a certificate basically serves as a stamp that says “this application has been signed by company/individual X”. For the system to work, X must be a legitimate company/person and not, say, a hacker."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -383,7 +395,8 @@
           {
             "Text": "For that reason the organization that issues certificates (in this case Comodo) needs to verify the identity of the person buying the certificate so that e.g. I can’t order a certificate that says my name is “Microsoft” and start signing my apps as coming from Microsoft."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -407,7 +420,8 @@
           {
             "Text": "The verification process starts after your purchase the certificate. The details depend on whether you’re a company or an individual. I ordered as an individual and the verification process was:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -431,7 +445,8 @@
           {
             "Text": "They asked for a copy of valid id. I e-mailed them a photo of my driver’s license (taken with iPhone)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -455,7 +470,8 @@
           {
             "Text": "Then they asked for a copy of a phone bill. I e-mailed them the PDF bill I downloaded from AT\u0026T’s website"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -479,7 +495,8 @@
           {
             "Text": "Then they called me on my phone to verify the phone number on the bill is my phone number"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -503,7 +520,8 @@
           {
             "Text": "All in all, the back and forth took the whole day."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -527,7 +545,8 @@
           {
             "Text": "After the certificate is issued you need to download it to a file. To do that you need to visit a web page that Comodo created for you in a supported browser (FireFox or IE, Chrome is not supported, I used FireFox) on the same computer that was used to order the certificate."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -570,7 +589,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -594,7 +614,8 @@
           {
             "Text": "As to actual signing, I use K Software’s ksign tool (the command-line version ksigncmd that I call from my build script)."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Buying a certificate for signing windows applications",
@@ -605,7 +626,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

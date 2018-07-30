@@ -56,7 +56,8 @@
           {
             "Text": "Id: 1292"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -80,7 +81,8 @@
           {
             "Text": "Date: 2006-03-02T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -104,7 +106,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -116,7 +119,8 @@
         "parent_id": "e3f3de70-632c-426e-8c48-2d7aca3bdf62",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -153,7 +157,8 @@
             "Text": "this article",
             "Link": "http://technopedia.info/tech/2006/03/03/what-makes-a-cd-bootable.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -177,7 +182,8 @@
           {
             "Text": "In order for a CD to be bootable, it must contain two files: BOOTCAT. BIN and BOOTIMG.BIN. BOOTCAT.BIN is a catalog file, and BOOTIMG.BIN is an image file an image of a bootable floppy disk. That’s why you need an existing bootable floppy in order to make a bootable CD."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -201,7 +207,8 @@
           {
             "Text": "When you browse the contents of a bootable CD in Windows or at a command prompt, you won’t see any of the files that you would find on a bootable floppy; that’s because they are all stored within BOOTIMG.BIN."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -225,7 +232,8 @@
           {
             "Text": "When you boot from the bootable CD, everything in BOOTIMG.BIN and BOOTCAT.BIN shows up as being on the A: drive, while everything else on the CD shows up on the regular CD drive letter. It tricks the PC into thinking that there is actually a floppy in the A: drive."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "What makes a CD bootable",
@@ -236,7 +244,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

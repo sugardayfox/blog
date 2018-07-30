@@ -51,7 +51,8 @@
           {
             "Text": "Google's reCaptcha:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -88,7 +89,8 @@
           {
             "Text": " : docs for invisible re-captcha"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -125,7 +127,8 @@
           {
             "Text": " : list of my captchas"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -137,7 +140,8 @@
         "parent_id": "28a9eec3-d1de-42f7-9c95-ba9cbe399758",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
     "title": "recaptcha",
@@ -148,7 +152,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

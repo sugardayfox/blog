@@ -5,7 +5,6 @@
     "content": [
       "3db74fd6-ce6c-47f6-b627-489746b7aa64",
       "56ba4239-08f8-4c33-8089-727af09f72e7",
-      "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
       "18a57cde-1e5e-44fe-8cee-6c658b0afc8e",
       "e1afa8aa-a0af-4226-bcbc-85417095460e",
       "5b3c8405-0954-4f52-a47a-870caebcd9a8",
@@ -24,18 +23,18 @@
     },
     "id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531887650327,
+    "last_edited_time": 1532924846229,
     "parent_id": "8109b6b0-435b-4a1a-bf30-6ebb7d9a4bbb",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "devlog 2017-12 • 10 d"
+          "devlog 2017-12 • 9 d"
         ]
       ]
     },
     "type": "page",
-    "version": 106,
+    "version": 114,
     "content_resolved": [
       {
         "alive": true,
@@ -47,7 +46,8 @@
         "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
         "parent_table": "block",
         "type": "text",
-        "version": 6
+        "version": 6,
+        "format_video": null
       },
       {
         "alive": true,
@@ -59,7 +59,7 @@
         "id": "56ba4239-08f8-4c33-8089-727af09f72e7",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531880247763,
+        "last_edited_time": 1532924831451,
         "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
         "parent_table": "block",
         "properties": {
@@ -70,7 +70,7 @@
           ]
         },
         "type": "toggle",
-        "version": 16,
+        "version": 18,
         "content_resolved": [
           {
             "alive": true,
@@ -94,243 +94,16 @@
               {
                 "Text": "blog: added -watch option that rebuilds netlify_static when source files change. Makes easier to test changes locally."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-22"
           }
-        ]
-      },
-      {
-        "alive": true,
-        "content": [
-          "df4184cf-b66e-44ae-8c34-1257d122a30f",
-          "6297979c-02ac-4505-a9e5-2236270f56c3",
-          "53021fd2-beea-47ce-aa1c-f0af87aa254d",
-          "dd699c2a-d1db-44b1-863e-552947a393e3",
-          "81a3ce97-5ad6-4d73-97bf-2d48e05da07b",
-          "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
-          "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad"
         ],
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531204194220,
-        "id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-        "ignore_block_count": true,
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531880247763,
-        "parent_id": "79cf284d-353a-455a-82ae-b1fd8eb45b49",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "2017-12-18"
-            ]
-          ]
-        },
-        "type": "toggle",
-        "version": 27,
-        "content_resolved": [
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204229565,
-            "id": "df4184cf-b66e-44ae-8c34-1257d122a30f",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "#idea"
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 9,
-            "inline_content": [
-              {
-                "Text": "#idea"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194221,
-            "id": "6297979c-02ac-4505-a9e5-2236270f56c3",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531887597848,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Self-hosted blog on "
-                ],
-                [
-                  "https://firebase.google.com/",
-                  [
-                    [
-                      "a",
-                      "https://firebase.google.com/"
-                    ]
-                  ]
-                ],
-                [
-                  "."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 15,
-            "inline_content": [
-              {
-                "Text": "Self-hosted blog on "
-              },
-              {
-                "Text": "https://firebase.google.com/",
-                "Link": "https://firebase.google.com/"
-              },
-              {
-                "Text": "."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194221,
-            "id": "53021fd2-beea-47ce-aa1c-f0af87aa254d",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Core insight: Cloud Firestore database has a free usage tier big enough to make hosting a personal blog essentially free. Firebase also provides enough of a backend functionality to implement a blog (authentication, database etc.)."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194221,
-            "id": "dd699c2a-d1db-44b1-863e-552947a393e3",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "One could build a single page app that includes all the important functionality of a blog."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "One could build a single page app that includes all the important functionality of a blog."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194221,
-            "id": "81a3ce97-5ad6-4d73-97bf-2d48e05da07b",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "USP (Unique Selling Proposition) would be: * cheap (almost free) to host * easy to deploy (follow a tutorial custom written for the software) * many themes (write it so that it can use e.g. Hugo or Jekyll themes)"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194221,
-            "id": "214c43d4-aef5-4b3f-bbc8-a59e22e355ae",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Written in Vue."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Written in Vue."
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1531204194222,
-            "id": "10ba193f-bfc4-4f0e-9b6c-5aae058a8dad",
-            "ignore_block_count": true,
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531204329703,
-            "parent_id": "fc5ded09-e7f2-47a6-a8b4-543d67fb50d9",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Unfortunately, there’s no money in it."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 4,
-            "inline_content": [
-              {
-                "Text": "Unfortunately, there’s no money in it."
-              }
-            ]
-          }
-        ],
-        "inline_content": [
-          {
-            "Text": "2017-12-18"
-          }
-        ]
+        "format_video": null
       },
       {
         "alive": true,
@@ -377,14 +150,16 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-13"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -431,14 +206,16 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-12"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -485,14 +262,16 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-10"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -539,14 +318,16 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-09"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -593,14 +374,16 @@
               {
                 "Text": "Sumatra code cleanups."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-08"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -648,7 +431,8 @@
               {
                 "Text": "blog: replaced use of highlight.js for syntax-highlighting with chroma Go library. It’s even more static."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -673,14 +457,16 @@
               {
                 "Text": "blog: rewriting regen.py in Go."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-07"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -727,14 +513,16 @@
               {
                 "Text": "deployed blog to netlify. Removed the code not related to netlify."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-06"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -782,17 +570,19 @@
               {
                 "Text": "porting blog to netlify."
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "2017-12-02"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
-    "title": "devlog 2017-12 • 10 d",
+    "title": "devlog 2017-12 • 9 d",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
@@ -800,7 +590,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -57,7 +57,8 @@
           {
             "Text": "Id: 1010"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -81,7 +82,8 @@
           {
             "Text": "Tags: unix"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -105,7 +107,8 @@
           {
             "Text": "Date: 2008-03-27T17:02:30-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -117,7 +120,8 @@
         "parent_id": "71497e6c-49d5-4fcc-889e-1b39fdd453da",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -141,7 +145,8 @@
           {
             "Text": "To make someone a sudoer:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -201,7 +206,8 @@
           {
             "Text": " and add:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -227,7 +233,8 @@
         "type": "code",
         "version": 1,
         "code": "%username ALL=(ALL) NOPASSWD: ALL",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -251,7 +258,8 @@
           {
             "Text": "e.g.:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -277,7 +285,8 @@
         "type": "code",
         "version": 1,
         "code": "%kkowalczyk ALL=(ALL) NOPASSWD: ALL",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
     "title": "making unix user a sudoer",
@@ -288,7 +297,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

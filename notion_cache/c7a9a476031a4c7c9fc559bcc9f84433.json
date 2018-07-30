@@ -84,7 +84,8 @@
                 "Text": "https://www.rapidtables.com/code/linux/gcc/gcc-l.html",
                 "Link": "https://www.rapidtables.com/code/linux/gcc/gcc-l.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -115,7 +116,8 @@
                 "Text": "https://blog.jessfraz.com/post/top-10-favorite-ldflags/",
                 "Link": "https://blog.jessfraz.com/post/top-10-favorite-ldflags/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -146,7 +148,8 @@
                 "Text": "https://solarianprogrammer.com/2017/05/04/building-gcc-wsl-windows-subsystem-linux/",
                 "Link": "https://solarianprogrammer.com/2017/05/04/building-gcc-wsl-windows-subsystem-linux/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -177,7 +180,8 @@
                 "Text": "https://kristerw.blogspot.com/2017/09/useful-gcc-warning-options-not-enabled.html",
                 "Link": "https://kristerw.blogspot.com/2017/09/useful-gcc-warning-options-not-enabled.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -208,7 +212,8 @@
                 "Text": "http://www.productive-cpp.com/hardening-cpp-programs-stack-protector/",
                 "Link": "http://www.productive-cpp.com/hardening-cpp-programs-stack-protector/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -258,7 +263,8 @@
                 "Text": "https://www.reddit.com/r/programming/comments/861ad8/recommended_compiler_and_linker_flags_for_gcc/",
                 "Link": "https://www.reddit.com/r/programming/comments/861ad8/recommended_compiler_and_linker_flags_for_gcc/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -270,14 +276,16 @@
             "parent_id": "f5961fec-00ec-43c3-8ebd-d7573b2386b0",
             "parent_table": "block",
             "type": "text",
-            "version": 0
+            "version": 0,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -325,14 +333,16 @@
             "type": "code",
             "version": 0,
             "code": "http://blog.httrack.com/blog/2014/03/09/what-are-your-gcc-flags/, https://news.ycombinator.com/item?id=7371806\n\ndump all defines:\ngcc -dM -E - \u003c /dev/null\n\ndump config (including build-in include paths):\ngcc -E -x c++ - -v \u003c /dev/null\n\nstatic linking: http://stackoverflow.com/questions/4156055/gcc-static-linking-only-some-libraries/17712841#17712841",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "misc"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "gcc",
@@ -343,7 +353,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

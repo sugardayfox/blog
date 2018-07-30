@@ -54,7 +54,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -91,7 +92,8 @@
           {
             "Text": " : notes on quoting"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -122,7 +124,8 @@
             "Text": "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html",
             "Link": "http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -153,7 +156,8 @@
             "Text": "https://news.ycombinator.com/item?id=7595499",
             "Link": "https://news.ycombinator.com/item?id=7595499"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -203,7 +207,8 @@
             "Text": "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/",
             "Link": "https://www.reddit.com/r/programming/comments/8jm85w/googles_bash_style_guide/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -253,7 +258,8 @@
             "Text": "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/",
             "Link": "https://www.reddit.com/r/programming/comments/8jke5b/safe_ways_to_do_things_in_bash/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -279,7 +285,8 @@
         "type": "code",
         "version": 0,
         "code": "#!/bin/bash\nset -u -e -o pipefail -o verbose\n\nV=\"this is a variable\"\nthis_is_function() {\n\tV=\"${V} and we added to V\"\n}\n\nprint_v() {\n\techo \"V: $V\"\n}\n\nprint_v\nthis_is_function\nprint_v\n\ncd cygpath $(echo $USERPROFILE)/src\n.\nalias cdsrc=\"cd cygpath $(echo $USERPROFILE)/src\"\n\nmy_func\n\nBuilt-In Variables:\n\n$0   name of the script\n\n$#   number of parameters to script/function\n$@  all parameters to script/function (sees arguments as separate word)\n$*    all parameters to script/function (sees arguments as single word)\n$n   positional parameters to script/function\n\n$$   PID of the script\n$!   PID of the last command executed (and run in the background)\n$?   exit status of the last command  (${PIPESTATUS} for pipelined commands)\n\nNote\n$*   is rarely the right choice.\n$@ handles empty parameter list and white-space within parameters correctly\n$@ should usually be quoted like so \"$@\"\n\nEXIT_STATUS=$?\nvagrant halt\nif [ \"$EXIT_STATUS\" != 0]; then\n`    exit $EXIT_STATUS\nfi\n\nredirect stderr to stdout and append stdout to a file\ncmd 2\u003e\u00261\n\nredirect (via append) both stderr and stdout to to a file:\ncmd \u0026\u003e\u003e out.log\n\nDefault function arguments:\n\nfoo()\n{\n    default_arg=${1:-default_value} # doesn't include '-'\n}\n\n\nif [ -z \"$FOO\" ]; then\n...\nfi\n\n-z : true if empty string (http://linuxcommand.org/man_pages/bash1.html)",
-        "code_language": "Shell"
+        "code_language": "Shell",
+        "format_video": null
       }
     ],
     "title": "bash",
@@ -290,7 +297,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

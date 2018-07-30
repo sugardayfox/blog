@@ -17,8 +17,7 @@
       "093c0812-bb31-4143-ae5d-16879a07e1aa",
       "505532f9-5def-4f13-99c1-bbe15ebf4e2e",
       "f1beffb1-f1b4-40ce-b9ba-42c020a06092",
-      "2377733d-91ad-43a5-bceb-937810ec75ba",
-      "7997cce4-d11f-43e6-b337-cb8287eade79"
+      "2377733d-91ad-43a5-bceb-937810ec75ba"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512459759115,
@@ -28,7 +27,7 @@
     },
     "id": "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1515971668472,
+    "last_edited_time": 1532923604663,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -39,7 +38,7 @@
       ]
     },
     "type": "page",
-    "version": 9,
+    "version": 11,
     "content_resolved": [
       {
         "alive": true,
@@ -63,7 +62,8 @@
           {
             "Text": "Go:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -94,7 +94,8 @@
             "Text": "https://github.com/zcrawl/zcrawl",
             "Link": "https://github.com/zcrawl/zcrawl"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -131,7 +132,8 @@
           {
             "Text": " : inspired by scrapy"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -155,7 +157,8 @@
           {
             "Text": "Links::"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -192,7 +195,8 @@
           {
             "Text": " : docker image for trunk of chrome for headless testing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -248,7 +252,8 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -279,7 +284,8 @@
             "Text": "https://github.com/scrapinghub/portia",
             "Link": "https://github.com/scrapinghub/portia"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -316,7 +322,8 @@
           {
             "Text": " "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -366,7 +373,8 @@
             "Text": "https://news.ycombinator.com/item?id=7903682",
             "Link": "https://news.ycombinator.com/item?id=7903682"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -397,7 +405,8 @@
             "Text": "http://medialab.github.io/artoo/",
             "Link": "http://medialab.github.io/artoo/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -428,7 +437,8 @@
             "Text": "https://github.com/drbig/grabber",
             "Link": "https://github.com/drbig/grabber"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -459,7 +469,8 @@
             "Text": "https://github.com/ruipgil/scraperjs",
             "Link": "https://github.com/ruipgil/scraperjs"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -496,7 +507,8 @@
           {
             "Text": " - doesn't do html conversion"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -527,7 +539,8 @@
             "Text": "http://blog.urx.com/urx-blog/2014/9/4/the-science-of-crawl-part-1-deduplication-of-web-content",
             "Link": "http://blog.urx.com/urx-blog/2014/9/4/the-science-of-crawl-part-1-deduplication-of-web-content"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -539,19 +552,19 @@
         },
         "id": "2377733d-91ad-43a5-bceb-937810ec75ba",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532125676550,
+        "last_edited_time": 1532923848607,
         "parent_id": "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "puppeteer"
+              "puppeteer, headless chrome, cdp"
             ]
           ]
         },
         "type": "page",
-        "version": 106,
-        "title": "puppeteer",
+        "version": 222,
+        "title": "puppeteer, headless chrome, cdp",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -559,39 +572,8 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1493077439109,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
         },
-        "id": "7997cce4-d11f-43e6-b337-cb8287eade79",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1515971650184,
-        "parent_id": "7c7c99c1-c933-44c8-8310-1e6dbbf80899",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "headless chrome, phantomjs, slimmerjs"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 3,
-        "title": "headless chrome, phantomjs, slimmerjs",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
+        "format_video": null
       }
     ],
     "title": "web scraping and crawling",
@@ -602,7 +584,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

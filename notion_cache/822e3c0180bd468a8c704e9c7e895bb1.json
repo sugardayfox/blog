@@ -44,7 +44,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "sudo lsof -iTCP -sTCP:LISTEN : to list processes that list on ports\n\n-i : show all connections\n-i : show all TCP connections\n-sTCP:LISTEN : show TCP connections in LISTEN state\n-t : output only pid (useful as kill -9 `lsof -t ...` arg)\n-n : no dans resolution\n-P : no port resolution\n\nAlternative:\nnetstat -an | grep 5432 : show open ports 5432"
+        "code": "sudo lsof -iTCP -sTCP:LISTEN : to list processes that list on ports\n\n-i : show all connections\n-i : show all TCP connections\n-sTCP:LISTEN : show TCP connections in LISTEN state\n-t : output only pid (useful as kill -9 `lsof -t ...` arg)\n-n : no dans resolution\n-P : no port resolution\n\nAlternative:\nnetstat -an | grep 5432 : show open ports 5432",
+        "format_video": null
       }
     ],
     "title": "lsof",
@@ -55,7 +56,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

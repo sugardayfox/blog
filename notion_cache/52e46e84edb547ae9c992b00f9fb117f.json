@@ -64,7 +64,8 @@
           {
             "Text": "Id: 1293"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -88,7 +89,8 @@
           {
             "Text": "Tags: c, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -112,7 +114,8 @@
           {
             "Text": "Date: 2006-02-11T16:00:00-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -124,7 +127,8 @@
         "parent_id": "52e46e84-edb5-47ae-9c99-2b00f9fb117f",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -166,7 +170,8 @@
           {
             "Text": " is a sad necessity for portable C\\C++ programming. This is a list of a few symbols that are often used for writing really portable programs (those that run on Unix\\Windows\\MacOS\\Palm OS etc.). This list is meant as a quick reference, not an in-depth explanation."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -202,7 +207,8 @@
           {
             "Text": " - defines Windows CE version (i.e. if defined, this is Windows CE)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -256,7 +262,8 @@
           {
             "Text": " - usually mean compilation for Windows"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -292,7 +299,8 @@
           {
             "Text": " - compiled by gcc under CYGWIN (Unix emulation layer for Windows)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -328,7 +336,8 @@
           {
             "Text": " - compiled by gcc under Mingw32 - Unix portability layer for Windows"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -364,7 +373,8 @@
           {
             "Text": " - on Windows means that TCHAR is WCHAR (or wchar_t) i.e. 16-bit unicode character. On Windows CE this is the only option."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -400,7 +410,8 @@
           {
             "Text": " - set if compiled with Borland C compiler"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -436,7 +447,8 @@
           {
             "Text": " - defines a version of Microsoft C compiler"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -472,7 +484,8 @@
           {
             "Text": " - defined when using gcc"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -508,7 +521,8 @@
           {
             "Text": " - defined if this is a release (i.e. not DEBUG) build"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -544,7 +558,8 @@
           {
             "Text": " - often defined for debug builds (opposite of NDEBUG)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -580,7 +595,8 @@
           {
             "Text": " - compilation for Palm OS"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "C portability notes",
@@ -591,7 +607,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -59,7 +59,8 @@
           {
             "Text": " is a cross-platform shell built on top of Electron."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +84,8 @@
           {
             "Text": "My hyper configuration:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -109,10 +111,12 @@
         "type": "code",
         "version": 8,
         "code": "plugins: [\n\t  \"hyper-statusline\",\n\t  \"hyperterm-mactabs\",\n\t  //'hyper-ayu-light',\n\t  'hyper-material-theme',\n\t  //\"hyperline\",\n  ],",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       }
     ],
-    "title": "hyper.is"
+    "title": "hyper.is",
+    "format_video": null
   },
   "Users": [
     {

@@ -7,6 +7,7 @@
       "621e2ed4-4bb7-47ec-98ed-d590a7687201",
       "ab1726c7-bdc2-4e4f-88ca-998f708cbf94",
       "2c5d11ab-6777-4423-963e-152a49bd134a",
+      "1ae483e2-60b0-4a6d-b769-08298473af13",
       "c8d4ae40-c891-4eeb-9112-0179e5aa0a92"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -17,7 +18,7 @@
     },
     "id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531082262096,
+    "last_edited_time": 1532924294623,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -28,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 13,
+    "version": 15,
     "content_resolved": [
       {
         "alive": true,
@@ -52,7 +53,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +85,8 @@
             "Text": "https://medium.com/the-guardian-mobile-innovation-lab/generating-images-in-javascript-without-using-the-canvas-api-77f3f4355fad",
             "Link": "https://medium.com/the-guardian-mobile-innovation-lab/generating-images-in-javascript-without-using-the-canvas-api-77f3f4355fad"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -114,7 +117,8 @@
             "Text": "https://css-tricks.com/manipulating-pixels-using-canvas/",
             "Link": "https://css-tricks.com/manipulating-pixels-using-canvas/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -145,7 +149,46 @@
             "Text": "https://www.edwardshu.com/web/angular/hammerjs/2018/07/06/Image-Annotation.html",
             "Link": "https://www.edwardshu.com/web/angular/hammerjs/2018/07/06/Image-Annotation.html"
           }
-        ]
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924294623,
+        "id": "1ae483e2-60b0-4a6d-b769-08298473af13",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924294806,
+        "parent_id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://chimera.labs.oreilly.com/books/1234000001654/index.html",
+              [
+                [
+                  "a",
+                  "http://chimera.labs.oreilly.com/books/1234000001654/index.html"
+                ]
+              ]
+            ],
+            [
+              " is a full book about HTML5 Canvas"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "http://chimera.labs.oreilly.com/books/1234000001654/index.html",
+            "Link": "http://chimera.labs.oreilly.com/books/1234000001654/index.html"
+          },
+          {
+            "Text": " is a full book about HTML5 Canvas"
+          }
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -157,7 +200,8 @@
         "parent_id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
     "title": "canvas",
@@ -168,7 +212,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

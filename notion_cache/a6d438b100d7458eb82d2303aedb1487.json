@@ -76,7 +76,8 @@
           {
             "Text": "Id: 1289"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -100,7 +101,8 @@
           {
             "Text": "Tags: gdb, unix, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -124,7 +126,8 @@
           {
             "Text": "Date: 2006-09-06T17:00:00-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -136,7 +139,8 @@
         "parent_id": "a6d438b1-00d7-458e-b82d-2303aedb1487",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -208,7 +212,8 @@
           {
             "Text": " in $HOME directory, then in current directory (if different than $HOME)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -340,7 +345,8 @@
           {
             "Text": " file."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -364,7 +370,8 @@
           {
             "Text": "Basics:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -400,7 +407,8 @@
           {
             "Text": " - run the program with (optional) arguments"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -454,7 +462,8 @@
           {
             "Text": ") - continue execution"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -490,7 +499,8 @@
           {
             "Text": " - print a stack trace"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -526,7 +536,8 @@
           {
             "Text": " - switch to frame"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -562,7 +573,8 @@
           {
             "Text": " - show local variables"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -598,7 +610,8 @@
           {
             "Text": " - print the value of a variable"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -634,7 +647,8 @@
           {
             "Text": " - show data under a given addr using a given format"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -670,7 +684,8 @@
           {
             "Text": " - display current breakpoints"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -736,7 +751,8 @@
                 "Text": "break 24",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
@@ -747,7 +763,8 @@
           {
             "Text": " - set breakpoint at a line number"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -801,7 +818,8 @@
           {
             "Text": " (set a breakpoint 24 bytes after the beginning of function foo"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -873,7 +891,8 @@
           {
             "Text": " - delete/disable/enable breakpoint"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -897,7 +916,8 @@
           {
             "Text": "Debugging at assembly level:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -933,7 +953,8 @@
           {
             "Text": " so that gdb prints the next assembly instruction"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -987,7 +1008,8 @@
           {
             "Text": " for stepping by one instruction"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1023,7 +1045,8 @@
           {
             "Text": " changes assembly syntax from awful AT\u0026T to less awful intel"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1059,7 +1082,8 @@
           {
             "Text": " - show content of registers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1101,7 +1125,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1143,7 +1168,8 @@
           {
             "Text": " (or 24 if not given) bytes starting from current location."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1169,7 +1195,8 @@
         "type": "code",
         "version": 1,
         "code": "define dpc\n  if $argc ==1\n    disass $pc $pc + $arg0\n  end\n  if $argc == 0\n    disass $pc $pc+24\n  end\nend",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1217,7 +1244,8 @@
             "Text": "addr",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1243,7 +1271,8 @@
         "type": "code",
         "version": 1,
         "code": "def pu\n  set $uni = $arg0\n  set $i = 0\n  while (*$uni \u0026\u0026 $i++\u003c100)\n    if (*$uni \u003c 0x80)\n      print *(char*)$uni++\n    else\n      print /x *(short*)$uni++\n    end\n  end\nend",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
     "title": "Gdb basics",
@@ -1254,7 +1283,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

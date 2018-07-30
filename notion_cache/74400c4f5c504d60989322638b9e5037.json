@@ -41,7 +41,8 @@
         "parent_id": "74400c4f-5c50-4d60-9893-22638b9e5037",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       },
       {
         "alive": true,
@@ -78,7 +79,8 @@
             "Text": "https://github.com/golang/go/issues/12933#issuecomment-199429151",
             "Link": "https://github.com/golang/go/issues/12933#issuecomment-199429151"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -102,7 +104,8 @@
           {
             "Text": "My cookie:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -122,7 +125,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "touch ~/.gitcookies\nchmod 0600 ~/.gitcookies\n\ngit config --global http.cookiefile ~/.gitcookies\n\ntr , \\\\t \u003c\u003c\\__END__ \u003e\u003e~/.gitcookies\n.googlesource.com,TRUE,/,TRUE,2147483647,o,git-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\n__END__"
+        "code": "touch ~/.gitcookies\nchmod 0600 ~/.gitcookies\n\ngit config --global http.cookiefile ~/.gitcookies\n\ntr , \\\\t \u003c\u003c\\__END__ \u003e\u003e~/.gitcookies\n.googlesource.com,TRUE,/,TRUE,2147483647,o,git-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\n__END__",
+        "format_video": null
       },
       {
         "alive": true,
@@ -146,7 +150,8 @@
           {
             "Text": "On Windows:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -166,7 +171,8 @@
         },
         "type": "code",
         "version": 0,
-        "code": "git config --global http.cookiefile \"%USERPROFILE%\\.gitcookies\"\npowershell -noprofile -nologo -command Write-Output \".googlesource.com`tTRUE`t/`tTRUE`t2147483647`to`tgit-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\" \u003e\u003e\"%USERPROFILE%\\.gitcookies\""
+        "code": "git config --global http.cookiefile \"%USERPROFILE%\\.gitcookies\"\npowershell -noprofile -nologo -command Write-Output \".googlesource.com`tTRUE`t/`tTRUE`t2147483647`to`tgit-kkowalczyk.gmail.com=1/-5d3lr2YzreAO2G3xP_MBA_97TtHaQNEbcycTv2DMME\" \u003e\u003e\"%USERPROFILE%\\.gitcookies\"",
+        "format_video": null
       }
     ],
     "title": "prevent CI rate limiting for go get of go.googlesource.com",
@@ -177,7 +183,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

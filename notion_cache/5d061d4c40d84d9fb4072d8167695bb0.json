@@ -103,7 +103,8 @@
           {
             "Text": "Id: 1407031"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -127,7 +128,8 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -151,7 +153,8 @@
           {
             "Text": "Date: 2012-11-26T12:17:53-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -175,7 +178,8 @@
           {
             "Text": "HeaderImage: gfx/headers/header-07.jpg"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -199,7 +203,8 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -223,7 +228,8 @@
           {
             "Text": "Description: Speeding up a well-known benchmark (construction of binary trees) ~4x by optimizing memory allocations. "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -235,7 +241,8 @@
         "parent_id": "5d061d4c-40d8-4d9f-b407-2d8167695bb0",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -290,7 +297,8 @@
           {
             "Text": ") ~4x."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -314,7 +322,8 @@
           {
             "Text": "Allocation is expensive. It holds true for all languages. At the time of this writing, Go (version 1.0.3) doesn’t have a garbage collector that is as sophisticated as, say, garbage collector in JVM. There’s work being done to improve Go’s GC but today allocations in Go are not as cheap as they could be."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -338,7 +347,8 @@
           {
             "Text": "This can be seen in binary-trees benchmark which has almost no computation but millions of allocations of small objects. As a result, Java implementation is about 7x faster."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -362,7 +372,8 @@
           {
             "Text": "I was able to speed up Go code by about 4x by using a custom allocator."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -386,7 +397,8 @@
           {
             "Text": "The benchmark builds a large binary tree composed of nodes:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -412,7 +424,8 @@
         "type": "code",
         "version": 3,
         "code": "type struct Node {\n int item\n left, right *Node\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -454,7 +467,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -478,7 +492,8 @@
           {
             "Text": "Improving allocation-heavy code"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -502,7 +517,8 @@
           {
             "Text": "First, a correction. When I said that allocation is expensive, I over-simplified."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -580,7 +596,8 @@
           {
             "Text": " can return it back to the OS."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -604,7 +621,8 @@
           {
             "Text": "More complicated reality is that it’s garbage collection phase that is expensive."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -628,7 +646,8 @@
           {
             "Text": "Garbage collection (gc) is triggered every once in a while. It recursively scans all the allocated objects, starting from known roots and chasing pointers. It figures out which objects are not referenced by any other object and frees them (this is the “garbage” in garbage collection that has just been collected)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -652,7 +671,8 @@
           {
             "Text": "There are 2 insights we get from knowing how garbage collection works internally:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -676,7 +696,8 @@
           {
             "Text": "the more objects there are, the more expensive garbage collection is"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -700,7 +721,8 @@
           {
             "Text": "the more pointers we need to chase, the more expensive gc is"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -724,7 +746,8 @@
           {
             "Text": "Knowing what the problem is, we know what the solution should be:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -748,7 +771,8 @@
           {
             "Text": "allocate less objects (e.g. by allocating them in bulk or re-using previously allocated objects)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -772,7 +796,8 @@
           {
             "Text": "don’t use pointers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -796,7 +821,8 @@
           {
             "Text": "As it happens, the majority of the 4x speedup I got in this particular benchmark came from not using pointers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -820,7 +846,8 @@
           {
             "Text": "Speeding binary-trees shootout benchmark"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -862,7 +889,8 @@
           {
             "Text": " struct is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -888,7 +916,8 @@
         "type": "code",
         "version": 3,
         "code": "type NodeId int\n\ntype struct Node {\n int item\n left, right NodeId\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -984,7 +1013,8 @@
           {
             "Text": ", which is just a unique integer representing a node."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1044,7 +1074,8 @@
           {
             "Text": " array. That array is the backing store (i.e. allocator) for our nodes."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1140,7 +1171,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1182,7 +1214,8 @@
           {
             "Text": " but it involves memory copy. We avoid that by pre-allocating nodes in buckets and using an array of arrays for storage. The code is still relatively simple:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1208,7 +1241,8 @@
         "type": "code",
         "version": 3,
         "code": "const nodes_per_bucket = 1024 * 1024\n\nvar (\n  all_nodes [][]Node = make([][]Node, 0)\n  nodes_left int = 0\n  curr_node_id int = 0\n)\n\nfunc NodeFromId(id NodeId) *Node {\n  n := int(id) - 1\n  bucket := n / nodes_per_bucket\n  el := n % nodes_per_bucket\n  return \u0026all_nodes[bucket][el]\n}\n\nfunc allocNode(item int, left, right NodeId) NodeId {\n  if 0 == nodes_left {\n    new_nodes := make([]Node, nodes_per_bucket, nodes_per_bucket)\n    all_nodes = append(all_nodes, new_nodes)\n    nodes_left = nodes_per_bucket\n  }\n  nodes_left -= 1\n  node := NodeFromId(NodeId(curr_node_id + 1))\n  node.item = item\n  node.left = left\n  node.right = right\n\n  curr_node_id += 1\n  return NodeId(curr_node_id)\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1250,7 +1284,8 @@
           {
             "Text": " call in a few places."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1312,7 +1347,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1336,7 +1372,8 @@
           {
             "Text": "Another minor advantage if using integers instead of pointers in Node struct is that on 64-bit machines we use only 4 bytes for an int vs. 8 bytes for a pointer."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1360,7 +1397,8 @@
           {
             "Text": "Drawbacks of custom allocators"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1384,7 +1422,8 @@
           {
             "Text": "The biggest drawback is that we lost ability to free objects. Memory we’ve allocated will never be returned to the OS until the program exits."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1408,7 +1447,8 @@
           {
             "Text": "It’s not a problem in this case, since the tree only grows and the program ends when it’s done."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1432,7 +1472,8 @@
           {
             "Text": "In different code this could be a much bigger issue. There are ways to free memory even with custom allocators but they require more complexity and evolve towards implementing a custom garbage collector at which point it might be better to go back to simple code and leave the work to built-in garbage collector."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1456,7 +1497,8 @@
           {
             "Text": "How come Java is so much faster?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1480,7 +1522,8 @@
           {
             "Text": "It’s a valid question: both Java and Go have garbage collectors, why is Java’s so much better on this benchmark?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1504,7 +1547,8 @@
           {
             "Text": "I can only speculate."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1528,7 +1572,8 @@
           {
             "Text": "Java, unlike Go, uses generational garbage collector, which has 2 arenas: one for young (newly allocated) objects (called nursery) and one for old objects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1552,7 +1597,8 @@
           {
             "Text": "It has been observed that most objects die young. Generational garbage collector allocates objects in nursery. Most collections only collect objects in nursery. Objects that survived collections in nursery are moved to the second arena for old objects, which is collected at a much lower rate."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1576,7 +1622,8 @@
           {
             "Text": "Go collector is a simpler mark-and-sweep collector which has to scan all allocated objects during every collection."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1600,7 +1647,8 @@
           {
             "Text": "Generational garbage collectors have overhead because they have to copy objects in memory and update references between objects when that happens. On the other hand they can also compact memory, improving caching and they scan a smaller number of objects during each collection."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1624,7 +1672,8 @@
           {
             "Text": "In this particular benchmark there are many Node objects and they never die, so they are promoted to rarely collected arena for old objects and each collection is cheaper because it only looks at a small number of recently allocated Node objects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1648,7 +1697,8 @@
           {
             "Text": "There’s hope for Go, though. The implementors are aware that garbage collector is not as good as it could be and there is an ongoing work on implementing a better one."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1672,7 +1722,8 @@
           {
             "Text": "A win in C++ as well"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1714,7 +1765,8 @@
           {
             "Text": " are relatively slow functions."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1770,7 +1822,8 @@
             "Text": "SumatraPDF code",
             "Link": "https://code.google.com/p/sumatrapdf/source/browse/trunk/src/utils/Vec.h"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1807,7 +1860,8 @@
             "Text": "custom allocator",
             "Link": "https://bugs.freedesktop.org/show_bug.cgi?id=7910"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1831,7 +1885,8 @@
           {
             "Text": "It’s a good trick to know."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Speeding up Go with custom allocators",
@@ -1842,7 +1897,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

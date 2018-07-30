@@ -155,14 +155,16 @@
             "type": "code",
             "version": 0,
             "code": "https://code.google.com/p/ftp4go/, http://godoc.org/code.google.com/p/ftp4go - worked for me\nhttps://github.com/jlaffaye/ftp, http://godoc.org/github.com/jlaffaye/ftp - didn't work for ftp.semtrack.de\nhttps://bitbucket.org/zombiezen/ftp/\nhttps://github.com/smallfish/ftp",
-            "code_language": "Go"
+            "code_language": "Go",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "ftp libs"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -186,7 +188,8 @@
           {
             "Text": "Useful libraries:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -223,7 +226,8 @@
           {
             "Text": "  : debug-pring structs and values"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -260,7 +264,8 @@
           {
             "Text": " : for getting stocks data"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -297,7 +302,8 @@
           {
             "Text": " : oauth authentication library for web supporting tons of providers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -334,7 +340,8 @@
           {
             "Text": " : drives chrome via chrome remote debugger interface"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -371,7 +378,8 @@
           {
             "Text": " : alternative csv parsing library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -421,7 +429,8 @@
             "Text": "http://openmymind.net/basic-micro-optimizations-part-2/",
             "Link": "http://openmymind.net/basic-micro-optimizations-part-2/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -452,7 +461,8 @@
             "Text": "http://openmymind.net/Condition-Variables/",
             "Link": "http://openmymind.net/Condition-Variables/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -489,7 +499,8 @@
           {
             "Text": " : port of .net regexp engine"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -526,7 +537,8 @@
           {
             "Text": " - encoding/decoding html forms (application/x-www-form-urlencoded). Easier decoding of args for html requests"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -557,7 +569,8 @@
             "Text": "https://github.com/dchest/safefile/blob/master/safefile.go",
             "Link": "https://github.com/dchest/safefile/blob/master/safefile.go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -594,7 +607,8 @@
           {
             "Text": " - could use on my blog and forum"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -625,7 +639,8 @@
             "Text": "https://github.com/gorilla/websocket",
             "Link": "https://github.com/gorilla/websocket"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -656,7 +671,8 @@
             "Text": "https://github.com/gorilla/securecookie",
             "Link": "https://github.com/gorilla/securecookie"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -693,7 +709,8 @@
           {
             "Text": " - html content/article extraction"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -730,7 +747,8 @@
           {
             "Text": " - css selectors for querying html parsed with html package"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -767,7 +785,8 @@
           {
             "Text": " - like jQuery, in Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -798,7 +817,8 @@
             "Text": "https://github.com/betamike/goinfo",
             "Link": "https://github.com/betamike/goinfo"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -835,7 +855,8 @@
           {
             "Text": " - github web api"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -872,7 +893,8 @@
           {
             "Text": " - image manipulation in pure go (including resizing)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -909,7 +931,8 @@
           {
             "Text": " - character encodings conversion"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -946,7 +969,8 @@
           {
             "Text": " - improved protobuf"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -983,7 +1007,8 @@
           {
             "Text": " - mini web framework, adds Context object"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1020,7 +1045,8 @@
           {
             "Text": " - formats html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1057,7 +1083,8 @@
           {
             "Text": " - formats numbers in human-readable way"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1094,7 +1121,8 @@
           {
             "Text": " - a nicer file-system walking interface"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1131,7 +1159,8 @@
           {
             "Text": " - charset conversions"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1168,7 +1197,8 @@
           {
             "Text": " - web scraping library in Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1199,7 +1229,8 @@
             "Text": "https://github.com/johnsto/goserve/blob/master/handlers.go",
             "Link": "https://github.com/johnsto/goserve/blob/master/handlers.go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1236,7 +1267,8 @@
           {
             "Text": " - ssh using ssh agent"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1267,7 +1299,8 @@
             "Text": "https://github.com/armon/mdns",
             "Link": "https://github.com/armon/mdns"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1298,7 +1331,8 @@
             "Text": "https://github.com/armon/gomdb",
             "Link": "https://github.com/armon/gomdb"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1335,7 +1369,8 @@
           {
             "Text": " - send to statsd server"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1366,7 +1401,8 @@
             "Text": "https://github.com/shirou/gopsutil",
             "Link": "https://github.com/shirou/gopsutil"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1403,7 +1439,8 @@
           {
             "Text": " - concurrent directory walking"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1440,7 +1477,8 @@
           {
             "Text": " - xml parsing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1477,7 +1515,8 @@
           {
             "Text": " - pcap bindings and higher level functions on top of it"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1514,7 +1553,8 @@
           {
             "Text": " - probably obsolete, as written by the same guy as go packet and last checkin in 2012"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1551,7 +1591,8 @@
           {
             "Text": " - Fast matching of multiple strings within a byte array or io.Reader stream"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1582,7 +1623,8 @@
             "Text": "https://github.com/facebookgo/atomicfile",
             "Link": "https://github.com/facebookgo/atomicfile"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1613,7 +1655,8 @@
             "Text": "https://github.com/facebookgo/counting",
             "Link": "https://github.com/facebookgo/counting"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1650,7 +1693,8 @@
           {
             "Text": " - graceful http server shutdown"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1681,7 +1725,8 @@
             "Text": "https://github.com/cratonica/2goarray",
             "Link": "https://github.com/cratonica/2goarray"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1712,7 +1757,8 @@
             "Text": "https://github.com/badgerodon/peg",
             "Link": "https://github.com/badgerodon/peg"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1743,7 +1789,8 @@
             "Text": "https://github.com/avelino/awesome-go",
             "Link": "https://github.com/avelino/awesome-go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1774,7 +1821,8 @@
             "Text": "https://github.com/hawx/img",
             "Link": "https://github.com/hawx/img"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1811,7 +1859,8 @@
           {
             "Text": " - port of xxhash to Go + cgo bindings to C version"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1842,7 +1891,8 @@
             "Text": "https://github.com/tv42/base58",
             "Link": "https://github.com/tv42/base58"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1873,7 +1923,8 @@
             "Text": "https://github.com/spaolacci/murmur3",
             "Link": "https://github.com/spaolacci/murmur3"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1904,7 +1955,8 @@
             "Text": "https://github.com/bkaradzic/go-lz4",
             "Link": "https://github.com/bkaradzic/go-lz4"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1935,7 +1987,8 @@
             "Text": "https://github.com/vmihailenco/gforms",
             "Link": "https://github.com/vmihailenco/gforms"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1966,7 +2019,8 @@
             "Text": "https://github.com/spf13/hugo",
             "Link": "https://github.com/spf13/hugo"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1997,7 +2051,8 @@
             "Text": "https://github.com/alecthomas/binary",
             "Link": "https://github.com/alecthomas/binary"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2034,7 +2089,8 @@
           {
             "Text": " - Minimal Perfect Hashing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2071,7 +2127,8 @@
           {
             "Text": " - mandrill and mail chimp library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2108,7 +2165,8 @@
           {
             "Text": " - smaller just mandrill library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2145,7 +2203,8 @@
           {
             "Text": " - hackernes hn"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2176,7 +2235,8 @@
             "Text": "https://github.com/dchest/siphash",
             "Link": "https://github.com/dchest/siphash"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2207,7 +2267,8 @@
             "Text": "https://github.com/dchest/jsmin",
             "Link": "https://github.com/dchest/jsmin"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2238,7 +2299,8 @@
             "Text": "https://github.com/dchest/htmlmin",
             "Link": "https://github.com/dchest/htmlmin"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2269,7 +2331,8 @@
             "Text": "https://github.com/dchest/cssmin",
             "Link": "https://github.com/dchest/cssmin"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2300,7 +2363,8 @@
             "Text": "https://github.com/noraesae/orange-cat",
             "Link": "https://github.com/noraesae/orange-cat"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2337,7 +2401,8 @@
           {
             "Text": " - generate random string that can be used in urls (a different kind of guid generator)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2374,7 +2439,8 @@
           {
             "Text": " - copy \u0026 sync between storage providers (s3, google drive, google storage etc.)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2411,7 +2477,8 @@
           {
             "Text": " - csv library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2442,7 +2509,8 @@
             "Text": "https://github.com/gwenn/murmurhash3",
             "Link": "https://github.com/gwenn/murmurhash3"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2473,7 +2541,8 @@
             "Text": "https://github.com/BurntSushi/toml",
             "Link": "https://github.com/BurntSushi/toml"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2504,7 +2573,8 @@
             "Text": "https://github.com/andreaskoch/go-fswatch",
             "Link": "https://github.com/andreaskoch/go-fswatch"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2535,7 +2605,8 @@
             "Text": "https://github.com/ttacon/tesseract",
             "Link": "https://github.com/ttacon/tesseract"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2566,7 +2637,8 @@
             "Text": "https://github.com/b1lly/gob",
             "Link": "https://github.com/b1lly/gob"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2597,7 +2669,8 @@
             "Text": "https://bitbucket.org/rj/html2epub/overview",
             "Link": "https://bitbucket.org/rj/html2epub/overview"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2634,7 +2707,8 @@
           {
             "Text": " - build a static, high-speed, memory-efficient, Unicode-friendly set of strings"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2665,7 +2739,8 @@
             "Text": "http://jmoiron.github.io/sqlx/",
             "Link": "http://jmoiron.github.io/sqlx/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2696,7 +2771,8 @@
             "Text": "https://github.com/drbig/piratebay",
             "Link": "https://github.com/drbig/piratebay"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2727,7 +2803,8 @@
             "Text": "https://github.com/drone/go.stripe",
             "Link": "https://github.com/drone/go.stripe"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2758,7 +2835,8 @@
             "Text": "https://github.com/orchestrate-io/dvr",
             "Link": "https://github.com/orchestrate-io/dvr"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2789,7 +2867,8 @@
             "Text": "https://github.com/agonopol/readability",
             "Link": "https://github.com/agonopol/readability"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2820,7 +2899,8 @@
             "Text": "https://github.com/nelhage/gojit",
             "Link": "https://github.com/nelhage/gojit"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2851,7 +2931,8 @@
             "Text": "https://github.com/nelhage/godis86",
             "Link": "https://github.com/nelhage/godis86"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2882,7 +2963,8 @@
             "Text": "https://godoc.org/github.com/codahale/safecookie",
             "Link": "https://godoc.org/github.com/codahale/safecookie"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2913,7 +2995,8 @@
             "Text": "https://github.com/dustin/go-probably",
             "Link": "https://github.com/dustin/go-probably"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2937,7 +3020,8 @@
           {
             "Text": "https://github.com/zimmski/tirion"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2961,7 +3045,8 @@
           {
             "Text": "https://github.com/dustin/diff"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "useful libraries",
@@ -2972,7 +3057,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

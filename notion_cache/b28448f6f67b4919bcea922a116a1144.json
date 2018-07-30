@@ -54,7 +54,8 @@
           {
             "Text": "CR: 0x0d, 13, '\\r'"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -78,7 +79,8 @@
           {
             "Text": "LF: 0x0a, 10, '\\n'"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -102,7 +104,8 @@
           {
             "Text": "Windows: CR LF (0x0d, 0x0a) (13 10)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -126,7 +129,8 @@
           {
             "Text": "Mac: CR (0x0d, 13)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -150,7 +154,8 @@
           {
             "Text": "Unix: LF (0x0a, 10)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -162,7 +167,8 @@
         "parent_id": "b28448f6-f67b-4919-bcea-922a116a1144",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       }
     ],
     "title": "newlines, newline formats",
@@ -173,7 +179,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

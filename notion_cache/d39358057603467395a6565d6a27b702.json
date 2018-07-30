@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "ca788a19-5163-42b4-9155-54d9d6985652",
+      "027a51fd-a41b-4748-a886-15847f2a5788",
       "c483d912-b960-4292-a9fc-dc5cfad7e922",
       "4da03125-737c-4774-8593-83229dcde703",
       "81335dab-6280-46e5-acfd-bedafcad5dbb",
@@ -54,7 +55,7 @@
     },
     "id": "d3935805-7603-4673-95a6-565d6a27b702",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530421392764,
+    "last_edited_time": 1532924323211,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -65,7 +66,7 @@
       ]
     },
     "type": "page",
-    "version": 76,
+    "version": 87,
     "content_resolved": [
       {
         "alive": true,
@@ -73,7 +74,7 @@
         "created_time": 1496214278136,
         "id": "ca788a19-5163-42b4-9155-54d9d6985652",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1496214278136,
+        "last_edited_time": 1532924323211,
         "parent_id": "d3935805-7603-4673-95a6-565d6a27b702",
         "parent_table": "block",
         "properties": {
@@ -84,12 +85,58 @@
           ]
         },
         "type": "text",
-        "version": 0,
+        "version": 2,
         "inline_content": [
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "copied_from": "a344eb39-8ade-4c95-ac31-4d0fbaff0c51",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532924316071,
+        "id": "027a51fd-a41b-4748-a886-15847f2a5788",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532924321712,
+        "parent_id": "d3935805-7603-4673-95a6-565d6a27b702",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "* "
+            ],
+            [
+              "https://github.com/dexteryy/spellbook-of-modern-webdev",
+              [
+                [
+                  "a",
+                  "https://github.com/dexteryy/spellbook-of-modern-webdev"
+                ]
+              ]
+            ],
+            [
+              " : large list of links for all web dev things"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17,
+        "inline_content": [
+          {
+            "Text": "* "
+          },
+          {
+            "Text": "https://github.com/dexteryy/spellbook-of-modern-webdev",
+            "Link": "https://github.com/dexteryy/spellbook-of-modern-webdev"
+          },
+          {
+            "Text": " : large list of links for all web dev things"
+          }
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -126,7 +173,8 @@
           {
             "Text": " : css reset"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -176,7 +224,8 @@
             "Text": "https://news.ycombinator.com/item?id=16728207",
             "Link": "https://news.ycombinator.com/item?id=16728207"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -207,7 +256,8 @@
             "Text": "https://bundlephobia.com/",
             "Link": "https://bundlephobia.com/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -238,7 +288,8 @@
             "Text": "https://nemethgergely.com/building-secure-javascript-applications/",
             "Link": "https://nemethgergely.com/building-secure-javascript-applications/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -269,7 +320,8 @@
             "Text": "https://philipwalton.com/articles/loading-polyfills-only-when-needed/",
             "Link": "https://philipwalton.com/articles/loading-polyfills-only-when-needed/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -300,7 +352,8 @@
             "Text": "https://philipwalton.com/articles/untangling-deeply-nested-promise-chains/",
             "Link": "https://philipwalton.com/articles/untangling-deeply-nested-promise-chains/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -331,7 +384,8 @@
             "Text": "https://philipwalton.com/articles/stop-copying-social-code-snippets/",
             "Link": "https://philipwalton.com/articles/stop-copying-social-code-snippets/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -362,7 +416,8 @@
             "Text": "https://github.com/alexjoverm/tslint-config-prettier",
             "Link": "https://github.com/alexjoverm/tslint-config-prettier"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -399,7 +454,8 @@
           {
             "Text": " : tutorial on DOM APIs"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -430,7 +486,8 @@
             "Text": "http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown",
             "Link": "http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -500,7 +557,8 @@
               {
                 "Text": " : examples"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -537,7 +595,8 @@
               {
                 "Text": " : example of using in jupyter"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -574,7 +633,8 @@
               {
                 "Text": " : used in Theia IDE"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
@@ -585,7 +645,8 @@
           {
             "Text": " : layout library and widgets for writing desktop-like apps (docking panels, tabs, context menu, main menu etc.)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -616,7 +677,8 @@
             "Text": "http://styleguide.cfapps.io/",
             "Link": "http://styleguide.cfapps.io/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -647,7 +709,8 @@
             "Text": "https://craig.is/writing/chrome-logger",
             "Link": "https://craig.is/writing/chrome-logger"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -678,7 +741,8 @@
             "Text": "http://www.intridea.com/blog/2013/11/7/json-web-token-the-useful-little-standard-you-haven-t-heard-about",
             "Link": "http://www.intridea.com/blog/2013/11/7/json-web-token-the-useful-little-standard-you-haven-t-heard-about"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -709,7 +773,8 @@
             "Text": "http://jwt.io/",
             "Link": "http://jwt.io/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -740,7 +805,8 @@
             "Text": "https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/",
             "Link": "https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -771,7 +837,8 @@
             "Text": "https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies/",
             "Link": "https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -802,7 +869,8 @@
             "Text": "https://aaronparecki.com/oauth-2-simplified/",
             "Link": "https://aaronparecki.com/oauth-2-simplified/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -852,7 +920,8 @@
             "Text": "https://news.ycombinator.com/item?id=8551724",
             "Link": "https://news.ycombinator.com/item?id=8551724"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -889,7 +958,8 @@
           {
             "Text": " - text editor"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -920,7 +990,8 @@
             "Text": "http://semantic-ui.com/",
             "Link": "http://semantic-ui.com/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -957,7 +1028,8 @@
           {
             "Text": " - chrome extension for easier debugging of css layout"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -988,7 +1060,8 @@
             "Text": "http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication",
             "Link": "http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1019,7 +1092,8 @@
             "Text": "http://sbstjn.github.io/timesheet.js/",
             "Link": "http://sbstjn.github.io/timesheet.js/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1056,7 +1130,8 @@
           {
             "Text": " - what causes layout trashing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1093,7 +1168,8 @@
           {
             "Text": " - on inline-block"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1130,7 +1206,8 @@
           {
             "Text": " - a bigger book"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1161,7 +1238,8 @@
             "Text": "http://www.barelyfitz.com/screencast/html-training/css/positioning/",
             "Link": "http://www.barelyfitz.com/screencast/html-training/css/positioning/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1192,7 +1270,8 @@
             "Text": "http://learn.shayhowe.com/html-css/opening-the-box-model/",
             "Link": "http://learn.shayhowe.com/html-css/opening-the-box-model/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1223,7 +1302,8 @@
             "Text": "http://hackr.io/tutorials/css",
             "Link": "http://hackr.io/tutorials/css"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1254,7 +1334,8 @@
             "Text": "http://fittextjs.com/",
             "Link": "http://fittextjs.com/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1304,7 +1385,8 @@
             "Text": "https://github.com/zachleat/BigText",
             "Link": "https://github.com/zachleat/BigText"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1335,7 +1417,8 @@
             "Text": "https://github.com/filamentgroup/tablesaw",
             "Link": "https://github.com/filamentgroup/tablesaw"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1366,7 +1449,8 @@
             "Text": "https://github.com/filamentgroup/loadCSS",
             "Link": "https://github.com/filamentgroup/loadCSS"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1397,7 +1481,8 @@
             "Text": "https://github.com/devinhunt/typebase.css",
             "Link": "https://github.com/devinhunt/typebase.css"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1428,7 +1513,8 @@
             "Text": "https://github.com/vasanthk/css-refresher-notes",
             "Link": "https://github.com/vasanthk/css-refresher-notes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1465,7 +1551,8 @@
           {
             "Text": " : jwt in Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1496,7 +1583,8 @@
             "Text": "http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication",
             "Link": "http://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1527,7 +1615,8 @@
             "Text": "https://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/",
             "Link": "https://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1558,7 +1647,8 @@
             "Text": "https://medium.freecodecamp.com/10-tips-to-maximize-your-javascript-debugging-experience-b69a75859329#.qlfr6jr9m",
             "Link": "https://medium.freecodecamp.com/10-tips-to-maximize-your-javascript-debugging-experience-b69a75859329#.qlfr6jr9m"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1595,7 +1685,8 @@
           {
             "Text": "/ : drag'n'drop file uploads with image previews"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "linklog",
@@ -1606,7 +1697,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

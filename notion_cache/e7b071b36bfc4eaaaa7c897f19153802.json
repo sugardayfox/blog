@@ -74,7 +74,8 @@
           {
             "Text": " : installs from yarn.lock or package.json"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -110,7 +111,8 @@
           {
             "Text": ": automatically adds to package.json as dependency, as dev dependency with "
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -146,7 +148,8 @@
           {
             "Text": " : list packages"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -182,7 +185,8 @@
           {
             "Text": " : upgrade to the latest versions"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -218,7 +222,8 @@
           {
             "Text": " : show dependency tree for a package (why was it installed)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -230,7 +235,8 @@
         "parent_id": "e7b071b3-6bfc-4eaa-aa7c-897f19153802",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 0,
+        "format_video": null
       },
       {
         "alive": true,
@@ -254,7 +260,8 @@
           {
             "Text": "npm to yarn:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -302,7 +309,8 @@
             "Text": "yarn",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -350,7 +358,8 @@
             "Text": "yarn add \u003cfoo\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -398,7 +407,8 @@
             "Text": "yarn add --dev \u003cfoo\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -446,7 +456,8 @@
             "Text": "yarn remove taco",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -494,7 +505,8 @@
             "Text": "yarn upgrade",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -542,7 +554,8 @@
             "Text": "yarn global add \u003cfoo\u003e",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -590,7 +603,8 @@
             "Text": "yarn outdated",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -638,7 +652,8 @@
             "Text": "yarn cache clean",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "yarn",
@@ -649,7 +664,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

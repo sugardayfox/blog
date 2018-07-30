@@ -110,7 +110,8 @@
           {
             "Text": "Id: 1441010"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -134,7 +135,8 @@
           {
             "Text": "Tags: go, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -158,7 +160,8 @@
           {
             "Text": "Date: 2012-12-31T15:30:45-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -170,7 +173,8 @@
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -194,7 +198,8 @@
           {
             "Text": "Go for writing web servers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -230,7 +235,8 @@
           {
             "Text": ": in my experience Go is a good language for building websites/web servers."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -254,7 +260,8 @@
           {
             "Text": "It’s easy to get excited about new technology like Go. The question is: how does it stand up to scrutiny after daily use?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -278,7 +285,8 @@
           {
             "Text": "I’ve written 4 web applications in Go, they’ve been running in production for several months so I feel justified in publishing my opinion."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -302,7 +310,8 @@
           {
             "Text": "In the past I wrote web applications in Perl, PHP, Python (web.py, Tornado, App Engine) so those are the technologies I campare Go to."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -345,7 +354,8 @@
           {
             "Text": " is a web service for crowd-sourcing translations for software. It was written completely from scratch."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -382,7 +392,8 @@
           {
             "Text": " is a note-taking application. Also written from scratch."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -438,7 +449,8 @@
           {
             "Text": " is a blog engine (also a port of an earlier App Engine version in Python)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -462,7 +474,8 @@
           {
             "Text": "One reason to migrate from App Engine to my own server was to save money. At my levels of traffic (~3 requests per second) I was paying ~$80/month, mostly for frontend instance hours."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -486,7 +499,8 @@
           {
             "Text": "Another reason was to do more complex processing. App Engine is great but being a fully managed service, it limits what you can do."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -510,7 +524,8 @@
           {
             "Text": "Finally, I wanted to see how Go will handle a real project."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -572,7 +587,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -596,7 +612,8 @@
           {
             "Text": "Things you need for building a web application"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -620,7 +637,8 @@
           {
             "Text": "What functionality is typically needed for writing a web application and how does Go support it?"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -644,7 +662,8 @@
           {
             "Text": "Http server"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -687,7 +706,8 @@
           {
             "Text": ")."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -711,7 +731,8 @@
           {
             "Text": "It parses incoming http requests and provides a way to send http responses back."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -735,7 +756,8 @@
           {
             "Text": "It supports http/2 out of the box."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -759,7 +781,8 @@
           {
             "Text": "Url routing"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -802,7 +825,8 @@
           {
             "Text": ", which is built on top of the built-in router."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -826,7 +850,8 @@
           {
             "Text": "Templates"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -869,7 +894,8 @@
           {
             "Text": " library for that. It’s roughly equivalent of Django or Tornado templates from Python world."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -893,7 +919,8 @@
           {
             "Text": "There are other templating libraries for Go but I found html/template good enough for my needs so I didn’t try the alternatives."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -917,7 +944,8 @@
           {
             "Text": "Cookies"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -960,7 +988,8 @@
           {
             "Text": " library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -984,7 +1013,8 @@
           {
             "Text": "Databases"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1084,7 +1114,8 @@
           {
             "Text": ")."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1108,7 +1139,8 @@
           {
             "Text": "Oauth"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1170,7 +1202,8 @@
           {
             "Text": ". They both work and I implemented login via Twitter, GitHub and Google."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1194,7 +1227,8 @@
           {
             "Text": "Generating atom (rss) feeds"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1231,7 +1265,8 @@
             "Text": "generating atom feeds",
             "Link": "https://github.com/kjk/atomgenerator"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1255,7 +1290,8 @@
           {
             "Text": "JSON and XML support"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1317,7 +1353,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1341,7 +1378,8 @@
           {
             "Text": "Modern web application are often implemented as JSON API server on the backend and Single Page Application on the front-end that generates HTML based on JSON returned from the server."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1365,7 +1403,8 @@
           {
             "Text": "Returning JSON responses based on data from Go structs is very easy."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1389,7 +1428,8 @@
           {
             "Text": "S3 access, support for zip files"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1413,7 +1453,8 @@
           {
             "Text": "This one is not universally needed. My web apps do backups by uploading data to s3, often as .zip archives."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1456,7 +1497,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1480,7 +1522,8 @@
           {
             "Text": "Unit tests"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1504,7 +1547,8 @@
           {
             "Text": "This is not specific to writing web server - all your important code should have unit tests."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1547,7 +1591,8 @@
           {
             "Text": " for writing and running tests."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1571,7 +1616,8 @@
           {
             "Text": "Deployment"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1595,7 +1641,8 @@
           {
             "Text": "Deploying a new version of your code to the server is a pain in the ass regardless of the language used but Go makes it relatively easy."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1619,7 +1666,8 @@
           {
             "Text": "I test my code locally on Mac but deploy to Linux-based server."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1643,7 +1691,8 @@
           {
             "Text": "Thanks to Go’s support for cross-compilation I can build a linux binary on mac."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1667,7 +1716,8 @@
           {
             "Text": "In the past I would copy the binary and other necesssary files to Linux server using Fabric or Ansible scripts."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1710,7 +1760,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1734,7 +1785,8 @@
           {
             "Text": "I find it crucial for productivity to quickly deploy new versions. THat’s why I write deploy scripts early in the process."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1758,7 +1810,8 @@
           {
             "Text": "Server config and misc thoughts"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1782,7 +1835,8 @@
           {
             "Text": "In the past I would run multiple services on a single Linux server, using nginx to multiplex."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1806,7 +1860,8 @@
           {
             "Text": "Those days for simplicity I use a single server for each program. That makes setup and deployment easier (no need for nginx anymore)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1830,7 +1885,8 @@
           {
             "Text": "Show me the code"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1905,7 +1961,8 @@
             "Text": "blog",
             "Link": "https://github.com/kjk/blog"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1929,7 +1986,8 @@
           {
             "Text": "Feel free to learn from the code or use it in your own projects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1953,7 +2011,8 @@
           {
             "Text": "Parting thoughts"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1977,7 +2036,8 @@
           {
             "Text": "I think writing non-trivial web services is a sweet spot for Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2001,7 +2061,8 @@
           {
             "Text": "Most of the needed functionality is part of standard library and 3rdp party libraries are plantiful for more esoteric functionality."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -2025,7 +2086,8 @@
           {
             "Text": "Writing in Go is almost as fast and fluent as writing in Python but the code is order of magnitude faster and uses less memory."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Thoughts on Go after writing 3 websites",
@@ -2036,7 +2098,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

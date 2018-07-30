@@ -83,7 +83,8 @@
           {
             "Text": "Id: vEja"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -107,7 +108,8 @@
           {
             "Text": "Tags: go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -131,7 +133,8 @@
           {
             "Text": "CreatedAt: 2017-07-07T09:01:20Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -155,7 +158,8 @@
           {
             "Text": "UpdatedAt: 2017-07-09T01:50:32Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -179,7 +183,8 @@
           {
             "Text": "PublishedOn: 2017-07-13"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -203,7 +208,8 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -227,7 +233,8 @@
           {
             "Text": "Description: How to embed build number in Go executable."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -239,7 +246,8 @@
         "parent_id": "39d17339-1739-4a9d-bf99-ffafa20c2a96",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -264,7 +272,8 @@
           {
             "Text": "So you’ve deployed your web application to production and it’s running on a server far, far away."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -289,7 +298,8 @@
           {
             "Text": "When debugging problems it’s good to know what version of the code is running."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -314,7 +324,8 @@
           {
             "Text": "If you’re using git, that would be sha1 of the revision used to build the program."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -357,7 +368,8 @@
           {
             "Text": " option which allows to change any variable in the program."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -382,7 +394,8 @@
           {
             "Text": "In our Go program we would have:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -409,7 +422,8 @@
         "type": "code",
         "version": 3,
         "code": "package main\n\nvar (\n    sha1ver   string // sha1 revision used to build the program\n    buildTime string // when the executable was built\n)",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -452,7 +466,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -479,7 +494,8 @@
         "type": "code",
         "version": 3,
         "code": "#!/bin/bash\n\n# notice how we avoid spaces in $now to avoid quotation hell in go build command\nnow=$(date +'%Y-%m-%d_%T')\ngo build -ldflags \"-X main.sha1ver=`git rev-parse HEAD` -X main.buildTime=$now\"",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -517,7 +533,8 @@
             "Text": "embed-build-number/build.sh",
             "Link": "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.sh"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -560,7 +577,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -587,7 +605,8 @@
         "type": "code",
         "version": 3,
         "code": "# notice how we avoid spaces in $now to avoid quotation hell in go build command\n$now = Get-Date -UFormat \"%Y-%m-%d_%T\"\n$sha1 = (git rev-parse HEAD).Trim()\n\ngo build -ldflags \"-X main.sha1ver=$sha1 -X main.buildTime=$now\"",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -625,7 +644,8 @@
             "Text": "embed-build-number/build.ps1",
             "Link": "https://github.com/kjk/go-cookbook/blob/master/embed-build-number/build.ps1"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -650,7 +670,8 @@
           {
             "Text": "Let’s deconstruct:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -698,7 +719,8 @@
             "Text": "e5ce06c1f604efb1de91d515d5de865e7e164d59",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -782,7 +804,8 @@
             "Text": "${foo}",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -836,7 +859,8 @@
           {
             "Text": " to go linker"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -898,7 +922,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -925,7 +950,8 @@
         "type": "code",
         "version": 3,
         "code": "var (\n    flgVersion bool\n)\n\nfunc parseCmdLineFlags() {\n    flag.BoolVar(\u0026flgVersion, \"version\", false, \"if true, print version and exit\")\n    flag.Parse()\n    if flgVersion {\n        fmt.Printf(\"Build on %s from sha1 %s\\n\", buildTime, sha1ver)\n        os.Exit(0)\n    }\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -969,7 +995,8 @@
           {
             "Text": ":"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -996,7 +1023,8 @@
         "type": "code",
         "version": 3,
         "code": "func servePlainText(w http.ResponseWriter, s string) {\n    w.Header().Set(\"Content-Type\", \"text/plain\")\n    w.Header().Set(\"Content-Length\", strconv.Itoa(len(s)))\n    w.WriteHeader(http.StatusOK)\n    w.Write([]byte(s))\n}\n\n// /app/debug\nfunc handleDebug(w http.ResponseWriter, r *http.Request) {\n    s := fmt.Sprintf(\"url: %s %s\", r.Method, r.RequestURI)\n    a := []string{s}\n\n    a = append(a, \"Headers:\")\n    for k, v := range r.Header {\n        if len(v) == 0 {\n            a = append(a, k)\n        } else if len(v) == 1 {\n            s = fmt.Sprintf(\"  %s: %v\", k, v[0])\n            a = append(a, s)\n        } else {\n            a = append(a, \"  \"+k+\":\")\n            for _, v2 := range v {\n                a = append(a, \"    \"+v2)\n            }\n        }\n    }\n\n    a = append(a, \"\")\n    a = append(a, fmt.Sprintf(\"ver: https://github.com/kjk/go-cookbook/commit/%s\", sha1ver))\n    a = append(a, fmt.Sprintf(\"built on: %s\", buildTime))\n\n    s = strings.Join(a, \"\\n\")\n    servePlainText(w, s)\n}\n\nfunc makeHTTPServer() *http.Server {\n    mux := \u0026http.ServeMux{}\n\n    mux.HandleFunc(\"/app/debug\", handleDebug)\n\n    return \u0026http.Server{\n        ReadTimeout:  5 * time.Second,\n        WriteTimeout: 5 * time.Second,\n        IdleTimeout:  120 * time.Second,\n        Handler:      mux,\n    }\n}\n\nfunc startHTTPServer() {\n    httpAddr := \"127.0.0.1:4040\"\n    httpSrv := makeHTTPServer()\n    httpSrv.Addr = httpAddr\n    fmt.Printf(\"Visit http://%s/app/debug\\n\", httpAddr)\n    err := httpSrv.ListenAndServe()\n    if err != nil {\n        log.Fatalf(\"httpSrv.ListendAndServe() failed with %s\\n\", err)\n    }\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1021,7 +1049,8 @@
           {
             "Text": "In addition to printing version of the code I also show HTTP headers. During debugging, the more information, the better."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1059,7 +1088,8 @@
             "Text": "https://github.com/kjk/go-cookbook/tree/master/embed-build-number",
             "Link": "https://github.com/kjk/go-cookbook/tree/master/embed-build-number"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Embedding build number in Go executable",
@@ -1071,7 +1101,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff4649414-a80a-475f-92bf-dfda91b0689a%2Fheader-10.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

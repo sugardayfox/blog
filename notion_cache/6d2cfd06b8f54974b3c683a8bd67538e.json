@@ -111,7 +111,8 @@
           {
             "Text": "Id: 8047"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -135,7 +136,8 @@
           {
             "Text": "Tags: talk, summary"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -159,7 +161,8 @@
           {
             "Text": "Date: 2009-02-22T18:12:55-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -171,7 +174,8 @@
         "parent_id": "6d2cfd06-b8f5-4974-b3c6-83a8bd67538e",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -214,7 +218,8 @@
           {
             "Text": " on binary translation."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -238,7 +243,8 @@
           {
             "Text": "David Ditzel: worked at Transmeta, now at Intel"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -262,7 +268,8 @@
           {
             "Text": "A 25 year perspective on binary translation: what worked, what didn’t work."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -286,7 +293,8 @@
           {
             "Text": "Examples of binary translation:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -310,7 +318,8 @@
           {
             "Text": "pentium pro and later: translates x86 into internal UOPS via hardware"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -334,7 +343,8 @@
           {
             "Text": "intel ia32el runs user level x86 programs on Itanium with ~60% perf of native machine"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -358,7 +368,8 @@
           {
             "Text": "Java JITs, .NET (MSIL), VmWare"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -382,7 +393,8 @@
           {
             "Text": "Apple’s Rosetta runs PowerPC user programs on x86"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -406,7 +418,8 @@
           {
             "Text": "Transmeta Crusoe and Efficeon processors - transparent, full system level translation of x86"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -430,7 +443,8 @@
           {
             "Text": "SYMBOL computer - implemented os, editor etc. in logic gates. Lessons: don’t do that. Use the right combination of software, hardware and micro-ops."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -454,7 +468,8 @@
           {
             "Text": "AT\u0026T Crisp:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -478,7 +493,8 @@
           {
             "Text": "1987, first CMOS superscalar chip (superscalar: multiple instructions per clock)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -502,7 +518,8 @@
           {
             "Text": "Reduced Instruction Set Processor targeted at C"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -526,7 +543,8 @@
           {
             "Text": "hw translated instructions from external, compact version into 180 bit wide UOP cache"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -550,7 +568,8 @@
           {
             "Text": "optimization tricks:\n* branch folding - make branches disappear from pipeline\n* “Stack Cache” as registers - to reduce memory references"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -574,7 +593,8 @@
           {
             "Text": "Lessons from AT\u0026T Crisp:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -598,7 +618,8 @@
           {
             "Text": "translation from external instruction set to internal instruction set works well"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -622,7 +643,8 @@
           {
             "Text": "Binary Instrumentation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -646,7 +668,8 @@
           {
             "Text": "MIPS had tools pixie and pixstats (~1987) to statically modify binaries to count instructions."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -670,7 +693,8 @@
           {
             "Text": "Sun followed (~1988) with spix, spixstats etc. Also were able to run MIPS on Sparc (at 1/3rd speed)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -694,7 +718,8 @@
           {
             "Text": "Sun tried to extend Sparc with instructions to help x86 emulation but decided that hw mismatch was too big - Sparc was not the right architecture for this."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -718,7 +743,8 @@
           {
             "Text": "Lessons realized in 1995:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -742,7 +768,8 @@
           {
             "Text": "dynamic translation was reaching 1/3 speed of native, static 1/2 of native"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -766,7 +793,8 @@
           {
             "Text": "processor designed from scratch for binary translation might improve efficiency of dynamic translation by 2-3x"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -790,7 +818,8 @@
           {
             "Text": "full system level binary translation might soon become practical and even exceed perf of standard microprocessor"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -814,7 +843,8 @@
           {
             "Text": "That led to Transmeta in 1995. Transmeta:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -838,7 +868,8 @@
           {
             "Text": "spent $600M over 12 years in R\u0026D"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -862,7 +893,8 @@
           {
             "Text": "5 generations of processors although only 3 announced"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -886,7 +918,8 @@
           {
             "Text": "Key challenges for hybrid processors:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -910,7 +943,8 @@
           {
             "Text": "must be 100% compatible. When doing binary translation between commodity processors (e.g. x86\u003c-\u003ePowerPC), there are corner cases where emulating things exactly is tricky due to hardware mismatch, which causes inefficiencies in translation =\u003e must design for translation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -934,7 +968,8 @@
           {
             "Text": "precise control over user visible state, including precise exception and interrupt semantics"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -958,7 +993,8 @@
           {
             "Text": "delivered performance, including overhead of translation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -982,7 +1018,8 @@
           {
             "Text": "Hardware support for hybrid processors:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1006,7 +1043,8 @@
           {
             "Text": "private, non-volatile storage (FLASH ROM), for storing translation software"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1030,7 +1068,8 @@
           {
             "Text": "private memory for storing translated code (stole 5% of DRAM during boot)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1054,7 +1093,8 @@
           {
             "Text": "software controlled state commit/rollback/abort"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1078,7 +1118,8 @@
           {
             "Text": "more registers than x86"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1102,7 +1143,8 @@
           {
             "Text": "alias detection under software control"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1126,7 +1168,8 @@
           {
             "Text": "fine grain detection of self-modifying code"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1150,7 +1193,8 @@
           {
             "Text": "auto-typing of pure memory vs I/O (because I/O can be memory-mapped which prohibits some optimizations)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1174,7 +1218,8 @@
           {
             "Text": "fast traps supported by underlying runtime system"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1198,7 +1243,8 @@
           {
             "Text": "instruction primitives for fast interpretation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1222,7 +1268,8 @@
           {
             "Text": "Software controlled atomic execution - execute in temporary space and ability to rollback to previous commit point. Used to perform not-always-safe optimization which are considered ok as long as we hit next commit point without problems. If not, rollback and re-execute without optimizations. Needed to be able to undo stores to memory."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1246,7 +1293,8 @@
           {
             "Text": "Transmeta’s code morphing:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1270,7 +1318,8 @@
           {
             "Text": "first level - interpreter"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1294,7 +1343,8 @@
           {
             "Text": "second compiler"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1318,7 +1368,8 @@
           {
             "Text": "translation - it can cost 10000 instructions to translate 1"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1342,7 +1393,8 @@
           {
             "Text": "Efficeon improvements used 4 levels (gears):"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1366,7 +1418,8 @@
           {
             "Text": "first level - interpreter 15 instruction per 1, gathers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1390,7 +1443,8 @@
           {
             "Text": "after executing basic block 50 uses quick translation (cost 500 instructions per 1 native), also gathers more information"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1414,7 +1468,8 @@
           {
             "Text": "after executing more than few hundred times - more optimized translation, more costly, classic optimization like common sub-expression elimination, memory re-ordering, critical path scheduling"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1438,7 +1493,8 @@
           {
             "Text": "for hot loops, optimize multiple code blocks and use more aggressive optimization"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1462,7 +1518,8 @@
           {
             "Text": "Lessons: optimization pay off. The bigger the blocks, the bigger optimization payoff."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1486,7 +1543,8 @@
           {
             "Text": "Binary translation myths:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1510,7 +1568,8 @@
           {
             "Text": "myth: translation is slow. It’s only ~20% overhead"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1534,7 +1593,8 @@
           {
             "Text": "myth: saving translation to disk is a good idea. In efficeon they improved translation so that it was faster to translate than read from disk"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1558,7 +1618,8 @@
           {
             "Text": "myth: static translation is faster. They compiled Linux kernel to run natively but it was slower than dynamic translation because dynamic translation could use runtime information to optimize."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1582,7 +1643,8 @@
           {
             "Text": "myth: software isn’t reliable. Doesn’t match transmeta’s nor Transiitive’s experience: they didn’t have any x86 compatibility bugs"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1606,7 +1668,8 @@
           {
             "Text": "Why binary translation now: power usage since increasing cores requires more power so we might not have enough power to light up all processors at full speed."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Summary of David Ditzel talk on binary translation",
@@ -1617,7 +1680,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

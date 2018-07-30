@@ -4,11 +4,11 @@
     "alive": true,
     "content": [
       "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
-      "7b956832-731b-48cd-8a05-5408b6b2f5c5",
       "fc1a8906-20cd-442d-babd-38929fb5c6be",
       "16e49a37-5d68-45ba-a2bf-947f75febe04",
       "cd0f64a3-cec4-41fb-a076-9a231cac81bb",
-      "7531b056-deb3-4888-9afc-65f6740e4495"
+      "7531b056-deb3-4888-9afc-65f6740e4495",
+      "3d469ecc-107a-49c0-b666-0820dbd5c2f1"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512294173304,
@@ -18,7 +18,7 @@
     },
     "id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530070263888,
+    "last_edited_time": 1532922484693,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -29,62 +29,102 @@
       ]
     },
     "type": "page",
-    "version": 5,
+    "version": 9,
     "content_resolved": [
       {
         "alive": true,
+        "content": [
+          "7b956832-731b-48cd-8a05-5408b6b2f5c5",
+          "32c0dfc6-6cd5-4bc2-a9c3-eb8558672099"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512294190060,
         "id": "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512294190060,
+        "last_edited_time": 1532922468144,
         "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Links:"
+              "Links"
             ]
           ]
         },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
+        "type": "toggle",
+        "version": 13,
+        "content_resolved": [
           {
-            "Text": "Links:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512294204689,
-        "id": "7b956832-731b-48cd-8a05-5408b6b2f5c5",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530070263888,
-        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512294204689,
+            "id": "7b956832-731b-48cd-8a05-5408b6b2f5c5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922459511,
+            "parent_id": "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+                  "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
+                  [
+                    [
+                      "a",
+                      "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+                    ]
+                  ]
                 ]
               ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 2,
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
+                "Link": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532922468144,
+            "id": "32c0dfc6-6cd5-4bc2-a9c3-eb8558672099",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532922468476,
+            "parent_id": "ba44f51a-9ed1-47ac-9d57-249fbb02e507",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/",
+                  [
+                    [
+                      "a",
+                      "http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/",
+                "Link": "http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/"
+              }
+            ],
+            "format_video": null
+          }
+        ],
         "inline_content": [
           {
-            "Text": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/",
-            "Link": "http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/"
+            "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -158,7 +198,8 @@
               {
                 "Text": " : decoders for more PostgreSQL types"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -195,7 +236,8 @@
               {
                 "Text": " : ORM for go, supports postgres"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -232,7 +274,8 @@
               {
                 "Text": " : GORM-like ORM for postgres"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -288,7 +331,8 @@
               {
                 "Text": " : sqlx provides a bit more functionality than sql package"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -325,7 +369,8 @@
               {
                 "Text": " : based on sqlx, has postgres-specific additions, query builder"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -362,7 +407,8 @@
               {
                 "Text": " : query builder"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -399,7 +445,8 @@
               {
                 "Text": " : generates Golang struct from PostgreSQL metadata"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -436,7 +483,8 @@
               {
                 "Text": " : generate Golang structs and helper functions"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -473,7 +521,8 @@
               {
                 "Text": " : mange postgres codebase for functions, triggers and views"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -510,7 +559,8 @@
               {
                 "Text": " : generates Go code from existing postgres database by querying the schema"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -541,7 +591,8 @@
                 "Text": "https://github.com/Tebro/gopsql",
                 "Link": "https://github.com/Tebro/gopsql"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -578,7 +629,8 @@
               {
                 "Text": " Libraries for JavaScript:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -615,7 +667,8 @@
               {
                 "Text": " : high-level wrapper over pg.js, written in TypeScript"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -652,7 +705,8 @@
               {
                 "Text": " : generates TypeScript definitions from schema"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -689,7 +743,8 @@
               {
                 "Text": " : sql \u003c-\u003e struct helpers"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -726,14 +781,16 @@
               {
                 "Text": " : ORM focusing on Postgres"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Libraries for Go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -793,7 +850,8 @@
               {
                 "Text": " : an ok db browser, electron"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -830,14 +888,16 @@
               {
                 "Text": " : electron app, react + node, a janky db explorer but a good start"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "GUI browsers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -920,7 +980,8 @@
                 "Text": "https://pghero.herokuapp.com/",
                 "Link": "https://pghero.herokuapp.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -951,7 +1012,8 @@
                 "Text": "https://www.depesz.com/projects/",
                 "Link": "https://www.depesz.com/projects/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -988,7 +1050,8 @@
               {
                 "Text": " : generates docs (PDF, HTML etc.) describing the schema of the database, easy to replicate"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1025,7 +1088,8 @@
               {
                 "Text": " : SQL Image Viewer, easy to replicate"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1062,7 +1126,8 @@
               {
                 "Text": " : import csv and json into Postgres, in Go"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1099,7 +1164,8 @@
               {
                 "Text": " : in Go, management of stored procedures"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1136,7 +1202,8 @@
               {
                 "Text": " : generates TypeScript definition for db schema"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1191,7 +1258,8 @@
               {
                 "Text": " returns list of databases, written in Go"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1222,7 +1290,8 @@
                 "Text": "https://github.com/ozum/pg-structure",
                 "Link": "https://github.com/ozum/pg-structure"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1253,7 +1322,8 @@
                 "Text": "https://joelonsql.com/2016/12/10/pg_catalog-visualized/",
                 "Link": "https://joelonsql.com/2016/12/10/pg_catalog-visualized/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1284,7 +1354,8 @@
                 "Text": "https://github.com/facetoe/pgtransform",
                 "Link": "https://github.com/facetoe/pgtransform"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1321,14 +1392,16 @@
               {
                 "Text": " : in python, generates sql to change schema form db A to db B"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Tools"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1376,14 +1449,29 @@
             "type": "code",
             "version": 0,
             "code": "default port: 5432\n\nConfig file on Ubuntu:\n/etc/postgresql/9.3/main/postgresql.conf - Ubuntu 14.04\n/etc/postgresql/9.4/main/postgresql.conf - Ubuntu 15.04\n\nAccess config file on Ubuntu:\n/etc/postgresql/9.3/main/pg_hba.conf\n\nTo enable those ports on ubuntu:\nsudo iptables -A INPUT -p tcp --dport 5432 -j ACCEPT\n\n\nhttp://rob.conery.io/2015/03/01/document-storage-gymnastics-in-postgres/\nhttp://big-elephants.com/2012-10/aggregations-with-pg-hstore/\n\nhttp://russ.garrett.co.uk/talks/postgres-gds/#/\n\nhttps://blog.lateral.io/2015/05/full-text-search-in-milliseconds-with-postgresql/, https://news.ycombinator.com/item?id=9512360\n\nhttps://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2\n\npsql commands:\n\\l : list database\n\\c $db : connect to database\n\\dt : list tables\n\nhttp://www.postgresql.org/about/news/1587/ - 9.4.2, 9.3.7 have important fixes\n\nhttps://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/, https://news.ycombinator.com/item?id=9611434\n\nhttp://www.postgresql.org/docs/9.3/static/populate.html\nhttps://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps\nhttps://www.digitalocean.com/community/tutorials/how-to-backup-postgresql-databases-on-an-ubuntu-vps\n\npsql [option] [dbname [username]]\n-U $user : default is os user name\n-h $host\n-d $dbname : default is os user name\n-W : force password\n-w : no password\n\nLocation of config files:\n/etc/postgresql/9.3/main - in Ubuntu 14.04\n\nhttp://www.postgresonline.com/journal/archives/20-The-Anatomy-of-PostgreSQL-Part-2-Database-Objects.html\n\nhttp://blog.andrebarbosa.co/upsert-on-postgres-9-5/\nhttp://www.craigkerstiens.com/2015/12/27/postgres-9-5-feature-rundown/\nhttp://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/\nhttp://rachbelaid.com/postgres-full-text-search-is-good-enough/\n\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate database pagila_demo;\n\\q\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-schema.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-insert-data.sql\npsql -h banana-pepper-468.db.databaselabs.io -U postgres -d pagila_demo \u003cpagila-data.sql\n\npsql -h banana-pepper-468.db.databaselabs.io -U postgres\ncreate role pagila_demo_user login password 'pagila_demo_user_pwd';\nGRANT CONNECT ON DATABASE pagila_demo TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA public TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA public TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA information_schema TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA information_schema TO pagila_demo_user;\n\nGRANT USAGE ON SCHEMA pg_catalog TO pagila_demo_user;\nGRANT SELECT ON ALL TABLES IN SCHEMA pg_catalog TO pagila_demo_user;\n\n\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT ON tables TO pagila_demo_user;\nALTER DEFAULT PRIVILEGES IN SCHEMA information_schema GRANT SELECT, USAGE ON sequences TO pagila_demo_user;\n\nselect table_catalog, table_schema, table_name, table_type from information_schema.tables;\n\n\nSELECT datname, pid, usename, application_name FROM pg_stat_activity;\nSELECT pg_terminate_backend(12786);\n\nhttp://www.craigkerstiens.com/2013/01/10/more-on-postgres-performance/\nhttp://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/\nhttps://github.com/MediaMath/keryxlib\nhttp://www.monkeyandcrow.com/blog/hierarchies_with_postgres/, https://news.ycombinator.com/item?id=10875076\nhttps://github.com/joncrlsn/pgdiff\nhttps://pgexercises.com/\nhttp://bpicolo.github.io/docker/testing/2016/06/01/welcome-to-jekyll.html\nhttp://schinckel.net/2014/05/25/querying-json-in-postgres/\nhttps://www.postgresql.org/docs/9.4/static/functions-json.html\nhttp://stackoverflow.com/questions/24944347/postgresql-nested-json-querying\nhttps://wiki.duraspace.org/display/DSPACE/Idle+In+Transaction+Problem\nhttps://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/\nhttp://www.calhoun.io/connecting-to-a-postgresql-database-with-gos-database-sql-package/ : postgresql and Go tutorial\nhttp://cs.mcgill.ca/~mxia3/2016/11/18/Statically-typed-PostgreSQL-queries-and-typescript-schemats/ : postgres and typescript",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "notes"
           }
-        ]
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532922484693,
+        "id": "3d469ecc-107a-49c0-b666-0820dbd5c2f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532922484693,
+        "parent_id": "1bed5358-2f7c-4cd1-a003-8923a8b8dcda",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "postgresql",
@@ -1394,7 +1482,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

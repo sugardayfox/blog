@@ -46,10 +46,12 @@
         "type": "code",
         "version": 0,
         "code": "    /**\n     * rotate around the Z-axis\n     */\n    rotateZ(degrees) {\n        const radians = toRadians(degrees);\n        const cos = Math.cos(radians);\n        const sin = Math.sin(radians);\n\n        const {x, y, z} = this;\n        return new Vector(\n            (x * cos) + (y * -sin),\n            (x * sin) + (y * cos),\n            z\n        );\n    }\n\n    rotateZSelf(degrees) {\n        const radians = toRadians(degrees);\n        const cos = Math.cos(radians);\n        const sin = Math.sin(radians);\n\n        const {x, y} = this;\n        this.x = (x * cos) + (y * -sin);\n        this.y = (x * sin) + (y * cos);\n    }",
-        "code_language": "Javascript"
+        "code_language": "Javascript",
+        "format_video": null
       }
     ],
-    "title": "faster vector"
+    "title": "faster vector",
+    "format_video": null
   },
   "Users": [
     {

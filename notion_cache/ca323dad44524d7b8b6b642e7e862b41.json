@@ -57,7 +57,8 @@
           {
             "Text": "Id: 12"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -81,7 +82,8 @@
           {
             "Text": "Date: 2014-12-03T18:21:29-08:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -105,7 +107,8 @@
           {
             "Text": "Tags: programming, go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -117,7 +120,8 @@
         "parent_id": "ca323dad-4452-4d7b-8b6b-642e7e862b41",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -159,7 +163,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -183,7 +188,8 @@
           {
             "Text": "The problem with this approach is lack of selectivity: imagine you have 100 tests and only 1 test fails. For debugging the issue you only need to see logs when executing that 1 test but you’ll drown in log output from all 100 tests."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -225,7 +231,8 @@
           {
             "Text": " and allow toggling this flag per test."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -249,7 +256,8 @@
           {
             "Text": "Something like this:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -275,7 +283,8 @@
         "type": "code",
         "version": 1,
         "code": "var (\n    verboseLog = false\n)\n\nfunc myCodeWithBugs(s string) {\n    if verboseLog {\n        fmt.Printf(\"s: %s\\n\", s)\n    }\n    ...\n}\n\nfunc TestMyCode(t *testing.T) {\n    var tests = []struct {\n        ... test fields\n        debug bool\n    }{\n        { ..., false }, // without verbose logging\n        { ..., true },  // with verbose logging\n    }\n    for _, test := range tests {\n        verboseLog = test.debug\n        ...\n    }\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       }
     ],
     "title": "Tip for per-test verbose logging in Go",
@@ -286,7 +295,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

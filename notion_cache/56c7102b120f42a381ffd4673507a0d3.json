@@ -54,7 +54,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -104,7 +105,8 @@
             "Text": "https://news.ycombinator.com/item?id=15017519",
             "Link": "https://news.ycombinator.com/item?id=15017519"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -135,7 +137,8 @@
             "Text": "https://golang.org/doc/asm",
             "Link": "https://golang.org/doc/asm"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +175,8 @@
           {
             "Text": " - simple example"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -203,7 +207,8 @@
             "Text": "http://blog.dbalan.in/blog/2015/03/29/notes-on-cgo-part-1",
             "Link": "http://blog.dbalan.in/blog/2015/03/29/notes-on-cgo-part-1"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -215,7 +220,8 @@
         "parent_id": "56c7102b-120f-42a3-81ff-d4673507a0d3",
         "parent_table": "block",
         "type": "text",
-        "version": 8
+        "version": 8,
+        "format_video": null
       },
       {
         "alive": true,
@@ -241,7 +247,8 @@
         "type": "code",
         "version": 10,
         "code": "\n==\u003e ./configure --prefix=/usr/local/Cellar/jpeg-turbo/1.3.1 --with-jpeg8 --mandir=/usr/local/Cellar/jpeg-turbo/1.3.1/share/man NASM=/usr/local/Cellar/nasm/2.11.05/bin/nasm\n==\u003e Caveats\nThis formula is keg-only, which means it was not symlinked into /usr/local.\n\nlibjpeg-turbo is not linked to prevent conflicts with the standard libjpeg.\n\n    LDFLAGS:  -L/usr/local/opt/jpeg-turbo/lib\n    CPPFLAGS: -I/usr/local/opt/jpeg-turbo/include\n    \n\nimage magick serializes libjpeg calls:\nhttp://www.imagemagick.org/discourse-server/viewtopic.php?f=2\u0026t=25495\n\nhttps://gowalker.org/github.com/jeremytorres/jpegextract#performance - this says that libjpeg-turbo is 8x faster than Go, libjpeg 3x faster\n\nhttp://dennisforbes.ca/index.php/2013/07/31/demonstrating-gos-easy-c-interop/\n\nCgo with pkg-config:\n/*\n#cgo pkg-config: vips\n#include \"vips.h\"\n*/\n\nCgo with explicit flags:\n// #cgo LDFLAGS: -L/usr/local/Cellar/jpeg-turbo/1.3.1/lib -ljpeg\n// #cgo CFLAGS: -I/usr/local/Cellar/jpeg-turbo/1.3.1/include\n\nCgo with different flags for different OSes:\n\n// #cgo linux LDFLAGS: -L/opt/irlibs/lib -ljpeg\n// #cgo linux CFLAGS: -I/opt/irlibs/include\n// #cgo darwin LDFLAGS: -L/usr/local/Cellar/jpeg-turbo/1.3.1/lib -ljpeg\n// #cgo darwin CFLAGS: -I/usr/local/Cellar/jpeg-turbo/1.3.1/include",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       }
     ],
     "title": "cgo",
@@ -252,7 +259,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

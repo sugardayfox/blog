@@ -88,7 +88,8 @@
           {
             "Text": "Id: 1416002"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -112,7 +113,8 @@
           {
             "Text": "Tags: programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -136,7 +138,8 @@
           {
             "Text": "Date: 2013-10-30T18:34:49-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -148,7 +151,8 @@
         "parent_id": "e8cef214-c816-4ed4-bb21-59b136367b28",
         "parent_table": "block",
         "type": "text",
-        "version": 1
+        "version": 1,
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +176,8 @@
           {
             "Text": "Fabric - a tool for writing deployment scripts"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -215,7 +220,8 @@
           {
             "Text": " (written in Go) from my Mac dev computer to a production server:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -239,7 +245,8 @@
           {
             "Text": "compile the source .go files to an executable, on the server"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -263,7 +270,8 @@
           {
             "Text": "which means I have to copy the source files from my dev machine to a server"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -287,7 +295,8 @@
           {
             "Text": "ideally run tests to make sure I didn’t introduce regressions"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -311,7 +320,8 @@
           {
             "Text": "shut-down the currently running version"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -335,7 +345,8 @@
           {
             "Text": "start the new version"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -378,7 +389,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -402,7 +414,8 @@
           {
             "Text": "The solution is automation, but that’s tricky since it involves operations both on the local machine (like prepare the source for upload) and remote server (like compiling the sources on the server)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -445,7 +458,8 @@
           {
             "Text": " exists."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -469,7 +483,8 @@
           {
             "Text": "Fabric is both a tool written in Python and a library of Python code for writing automatic deployment scripts."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -493,7 +508,8 @@
           {
             "Text": "Installation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -529,7 +545,8 @@
             "Text": "sudo easy_install pip; sudo pip install fabric",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -553,7 +570,8 @@
           {
             "Text": "Usage basics"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -577,7 +595,8 @@
           {
             "Text": "The basics of Fabric are:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -613,7 +632,8 @@
             "Text": "fabfile.py",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -655,7 +675,8 @@
           {
             "Text": " can be thought of as an action"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -709,7 +730,8 @@
             "Text": "fab action",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -769,7 +791,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -793,7 +816,8 @@
           {
             "Text": "Remote execution is via ssh"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -817,7 +841,8 @@
           {
             "Text": "The code is deployed to Unix-based servers via ssh, so for convenience you can set up password-less (public key based) login for the account you use for deployment."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -841,7 +866,8 @@
           {
             "Text": "The code running locally runs under your account."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -865,7 +891,8 @@
           {
             "Text": "You need to specify which account on the server to use."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -889,7 +916,8 @@
           {
             "Text": "You can run an action against a single server or multiple servers at once."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -913,7 +941,8 @@
           {
             "Text": "Possibilites"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -937,7 +966,8 @@
           {
             "Text": "Fabric can run arbitrary code both locally and on the server, so the possibilities are, literally, limitless."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -980,7 +1010,8 @@
           {
             "Text": " is an example of a fairly complex script."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1004,7 +1035,8 @@
           {
             "Text": "What you can learn from it:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1058,7 +1090,8 @@
             "Text": "env.hosts",
             "AttrFlags": 2
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1082,7 +1115,8 @@
           {
             "Text": "how to create a zip file locally, upload it to the server and unzip it there"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1106,7 +1140,8 @@
           {
             "Text": "how to compile sources both locally (no point uploading if the code doesn’t compile) and on the server (to build the final executable)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1130,7 +1165,8 @@
           {
             "Text": "how to run tests both locally and remotely"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1154,7 +1190,8 @@
           {
             "Text": "how to safely deploy a new version while preserving a way to easily revert to previous version in case of problems"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1178,7 +1215,8 @@
           {
             "Text": "how to do the the first-time setup (in case of deploying to a new server)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1202,7 +1240,8 @@
           {
             "Text": "I’ve used Fabric in 3 of my projects and it does what it supposed to do well."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1226,7 +1265,8 @@
           {
             "Text": "If I was writing new project from scratch, I would automate essentially everything related to setting up a new instance (it doesn’t make sense to do it for existing projects since they’re already set up)."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Using Fabric for deploying server software",
@@ -1237,7 +1277,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -90,7 +90,8 @@
                 "Text": "https://clang.llvm.org/docs/ClangCommandLineReference.html",
                 "Link": "https://clang.llvm.org/docs/ClangCommandLineReference.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -198,7 +199,8 @@
               {
                 "Text": " "
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -283,14 +285,16 @@
                 "Text": "https://stackoverflow.com/questions/14972425/should-i-use-libc-or-libstdc",
                 "Link": "https://stackoverflow.com/questions/14972425/should-i-use-libc-or-libstdc"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "cmd-line options"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -370,7 +374,8 @@
                     "Text": "https://clang.llvm.org/docs/AddressSanitizer.html",
                     "Link": "https://clang.llvm.org/docs/AddressSanitizer.html"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -412,7 +417,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -454,7 +460,8 @@
                   {
                     "Text": "  for better callstacks"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -496,7 +503,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -543,7 +551,8 @@
                       {
                         "Text": "It's good to verify that sanitizer is enabled and working. Add this snippet of code and call it from your code. It should trigger sanitizer"
                       }
-                    ]
+                    ],
+                    "format_video": null
                   },
                   {
                     "alive": true,
@@ -569,21 +578,24 @@
                     "type": "code",
                     "version": 0,
                     "code": "void trigger_address_sanitizer() {\n  char *a = (char*)malloc(4);\n  char c = a[5]; /* this line should trigger sanitizer */\n  printf(\"c: %d\\n\", (int)c);\n  free((void*)a);\n}",
-                    "code_language": "Java/C/C++/C#"
+                    "code_language": "Java/C/C++/C#",
+                    "format_video": null
                   }
                 ],
                 "inline_content": [
                   {
                     "Text": "testing sanitizer is enabled"
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "address sanitizer (memory corruptions), 2x slowdown"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -638,7 +650,8 @@
                     "Text": "https://clang.llvm.org/docs/MemorySanitizer.html",
                     "Link": "https://clang.llvm.org/docs/MemorySanitizer.html"
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -680,7 +693,8 @@
                   {
                     "Text": " "
                   }
-                ]
+                ],
+                "format_video": null
               },
               {
                 "alive": true,
@@ -722,21 +736,24 @@
                   {
                     "Text": "  "
                   }
-                ]
+                ],
+                "format_video": null
               }
             ],
             "inline_content": [
               {
                 "Text": "memory sanitizer (uninitialized reads), 3x slowdown"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "sanitizers"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -796,7 +813,8 @@
               {
                 "Text": "  installs latest version (currently 5.0)."
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -856,7 +874,8 @@
               {
                 "Text": " "
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -868,14 +887,16 @@
             "parent_id": "e87d8255-ed5f-4aa1-920b-22f40ae0c382",
             "parent_table": "block",
             "type": "text",
-            "version": 0
+            "version": 0,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "on mac"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -936,7 +957,8 @@
                 "Text": "https://arvid.io/2017/08/04/using-clang-on-windows/",
                 "Link": "https://arvid.io/2017/08/04/using-clang-on-windows/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -967,7 +989,8 @@
                 "Text": "https://metricpanda.com/rival-fortress-update-27-compiling-with-clang-on-windows",
                 "Link": "https://metricpanda.com/rival-fortress-update-27-compiling-with-clang-on-windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -998,7 +1021,8 @@
                 "Text": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/46553436/building-with-cmake-ninja-and-clang-on-windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1035,7 +1059,8 @@
               {
                 "Text": " : gcc \u0026 clang \u0026 VSCode"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1066,7 +1091,8 @@
                 "Text": "http://blog.johannesmp.com/2015/09/01/installing-clang-on-windows-pt2/",
                 "Link": "http://blog.johannesmp.com/2015/09/01/installing-clang-on-windows-pt2/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1097,7 +1123,8 @@
                 "Text": "https://bitsmaker.gitlab.io/post/clang-tidy-from-vs2015/",
                 "Link": "https://bitsmaker.gitlab.io/post/clang-tidy-from-vs2015/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1128,7 +1155,8 @@
                 "Text": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/",
                 "Link": "https://www.reddit.com/r/cpp/comments/67av0m/is_there_a_better_way_to_marry_cmake_clang_and_vs/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1159,7 +1187,8 @@
                 "Text": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows",
                 "Link": "https://stackoverflow.com/questions/38171878/how-do-i-tell-cmake-to-use-clang-on-windows"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1171,14 +1200,16 @@
             "parent_id": "1e84213a-b725-4b19-9999-f0403b149d84",
             "parent_table": "block",
             "type": "text",
-            "version": 0
+            "version": 0,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1226,14 +1257,16 @@
             "type": "code",
             "version": 0,
             "code": "http://stackoverflow.com/questions/28203937/installing-llvm-libraries-along-with-xcode\nhttp://llvm.org/releases/3.8.0/tools/clang/docs/\nhttps://github.com/tpoechtrager/wclang - allows cross-compiling Windows code on Linux using clang wrapper\nhttp://eli.thegreenplace.net/2014/05/01/modern-source-to-source-transformation-with-clang-and-libtooling/\nhttp://eli.thegreenplace.net/2011/07/03/parsing-c-in-python-with-clang/\nhttp://www.seethroughskin.com/blog/clang-ast-parsing-for-automated-code-generation/\nhttp://www.seethroughskin.com/blog/simplified-clang-python-bindings/\nhttp://seanhn.wordpress.com/2012/07/10/better-interpreter-fuzzing-with-clang/\nhttp://eli.thegreenplace.net/2014/07/29/ast-matchers-and-clang-refactoring-tools\n\nhttps://github.com/jeaye/color_coded\nhttps://github.com/Neopallium/lua-clang-cindex - luajit bindings\nhttps://github.com/llvm-mirror/clang/tree/master/bindings/python\nhttps://github.com/indygreg/clanalyze/\nhttps://github.com/sbinet/go-clang\n\nhttps://github.com/mjsabby/ClangSharp, http://www.clangsharp.org/\nhttps://github.com/SimonRichards/clang-sharp, https://github.com/SimonRichards/ClassMirror\n\nhttp://blog.quarkslab.com/clang-hardening-cheat-sheet.html\n\nASAN:\nhttps://gist.github.com/kwk/4171e37f4bcdf7705329\nhttp://btorpey.github.io/blog/2014/03/27/using-clangs-address-sanitizer/\n\n\nhttps://alastairs-place.net/blog/2016/05/20/code-coverage-from-the-command-line-with-clang/\n\nOn mac:\n\nbrew install llvm --with-clang --with-clang-extra-tool --with-compiler-rt --with-libcxx --with-lld --with-lld --with-python --with-rtti --with-utils --HEAD\n\n\n/usr/local/opt/llvm/bin/clang\n\nmkdir -p ~/Library/Python/2.7/lib/python/site-packages\necho '/usr/local/opt/llvm/lib/python2.7/site-packages' \u003e ~/Library/Python/2.7/lib/python/site-packages/homebrew.pth\n\nLD_LIBRARY_PATH=/usr/local/opt/llvm/lib ~/src/pyclang/cindex-dump.py draw_flood.c\n\nIn each *.py tool:\n    from clang.cindex import Config\n    Config.set_library_path(LLVM_LIB_DIR)\n\n-std=c++11\n-std=gnu++11\n-Weverything\n-Wall\n\n-stdlib=libc++  : use clang's C++ library (as opposed to OS's libstdc++)",
-            "code_language": "Plain Text"
+            "code_language": "Plain Text",
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "misc"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1286,14 +1319,16 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_Firefox_on_Windows_with_clang-cl",
                 "Link": "https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_Firefox_on_Windows_with_clang-cl"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "clang-cl for windows"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "clang",
@@ -1304,7 +1339,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

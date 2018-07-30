@@ -3,10 +3,21 @@
   "Root": {
     "alive": true,
     "content": [
-      "72fe70d4-05e7-418d-85c4-a925ca7a7ae5",
       "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
       "d2041e3f-9d1d-4fc6-8d12-422e630f4bb3",
-      "6f55e003-10ac-4d36-96eb-3900d2d1558d"
+      "4d108857-fb1a-4b9b-9356-142240971e11",
+      "3042b36d-f723-491a-b9f9-25bbeb1060c5",
+      "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
+      "3882748a-9435-4b80-9420-801989b22df3",
+      "5a89bd2b-d956-4a3a-8de0-46bd23c8e579",
+      "6bfcc167-4317-4190-8df8-84b2d3150a8b",
+      "6f55e003-10ac-4d36-96eb-3900d2d1558d",
+      "6eb15d58-1256-40ea-a181-3beaf6bbb429",
+      "4ea5c448-16bc-42d6-883a-fb47bc48ddfd",
+      "d5c0b6fb-58c1-4c64-9808-2259f22a84e5",
+      "6f785169-526b-41d0-a606-0b577d710d24",
+      "3e68750a-6df5-4066-b75c-b145de0f65ef",
+      "3073960e-8c92-45c3-bdd4-b1e2d2124835"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496211517560,
@@ -16,7 +27,7 @@
     },
     "id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1515890199555,
+    "last_edited_time": 1532923379407,
     "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "parent_table": "block",
     "properties": {
@@ -27,81 +38,20 @@
       ]
     },
     "type": "page",
-    "version": 8,
+    "version": 60,
     "content_resolved": [
       {
         "alive": true,
         "content": [
-          "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
-          "5a89bd2b-d956-4a3a-8de0-46bd23c8e579"
-        ],
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512364375635,
-        "id": "72fe70d4-05e7-418d-85c4-a925ca7a7ae5",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512364375635,
-        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "basic info"
-            ]
-          ]
-        },
-        "type": "toggle",
-        "version": 0,
-        "content_resolved": [
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1512364361490,
-            "id": "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512364361490,
-            "parent_id": "72fe70d4-05e7-418d-85c4-a925ca7a7ae5",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}"
-                ]
-              ]
-            },
-            "type": "code",
-            "version": 0,
-            "code": ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}"
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1512364361490,
-            "id": "5a89bd2b-d956-4a3a-8de0-46bd23c8e579",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512364361490,
-            "parent_id": "72fe70d4-05e7-418d-85c4-a925ca7a7ae5",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  ".items {\n    align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}"
-                ]
-              ]
-            },
-            "type": "code",
-            "version": 0,
-            "code": ".items {\n    align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}"
-          }
-        ],
-        "inline_content": [
-          {
-            "Text": "basic info"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "content": [
+          "3f8c7d9f-4e7a-4c93-9ff6-ec51b60ed090",
+          "017290df-5ab2-4466-822c-fa7066cf2449",
+          "5f580518-c197-428d-89a0-57ae7e4ef922",
+          "ecb656be-38a8-442e-9dde-9b8f18f79060",
+          "9306404c-3140-4d44-aeab-65227a335d0d",
+          "f6da7963-0533-49b7-b95f-37bb1130a515",
+          "2936935d-12b5-4415-a023-27e218f45cd2",
+          "718310a4-8e68-4778-8511-cf4d70a46772",
+          "42562139-2780-4cbe-97af-45bca6a402df",
           "0371a72f-caf0-4e51-b89d-5f15e9d47b81",
           "6f367a1c-4fe5-492e-9943-d9c80e1bf490",
           "12a93c9f-f9c2-455a-a120-8c0670f42060",
@@ -147,7 +97,7 @@
         "created_time": 1496211523610,
         "id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530406047810,
+        "last_edited_time": 1532923126543,
         "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
         "parent_table": "block",
         "properties": {
@@ -158,8 +108,315 @@
           ]
         },
         "type": "toggle",
-        "version": 6,
+        "version": 24,
         "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "5e60fa17-dee8-40d1-819f-ae3ba263a498",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099092,
+            "id": "3f8c7d9f-4e7a-4c93-9ff6-ec51b60ed090",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099092,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b",
+                  [
+                    [
+                      "a",
+                      "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b",
+                "Link": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923098355,
+            "id": "017290df-5ab2-4466-822c-fa7066cf2449",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923098365,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://codepen.io/enxaneta/full/adLPwv/",
+                  [
+                    [
+                      "a",
+                      "https://codepen.io/enxaneta/full/adLPwv/"
+                    ]
+                  ]
+                ],
+                [
+                  " : visual showcase of flexbox properties"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://codepen.io/enxaneta/full/adLPwv/",
+                "Link": "https://codepen.io/enxaneta/full/adLPwv/"
+              },
+              {
+                "Text": " : visual showcase of flexbox properties"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "dcc0aade-33d4-4324-b7ef-44dcd996886a",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099097,
+            "id": "5f580518-c197-428d-89a0-57ae7e4ef922",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099097,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://css-tricks.com/flex-grow-is-weird/",
+                  [
+                    [
+                      "a",
+                      "https://css-tricks.com/flex-grow-is-weird/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://css-tricks.com/flex-grow-is-weird/",
+                "Link": "https://css-tricks.com/flex-grow-is-weird/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923098356,
+            "id": "ecb656be-38a8-442e-9dde-9b8f18f79060",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923098365,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://flexbox.io/",
+                  [
+                    [
+                      "a",
+                      "https://flexbox.io/"
+                    ]
+                  ]
+                ],
+                [
+                  " : 20 video tutorials, from beginning to some advanced layouts"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "https://flexbox.io/",
+                "Link": "https://flexbox.io/"
+              },
+              {
+                "Text": " : 20 video tutorials, from beginning to some advanced layouts"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "c0ddf73f-aeb1-4044-9084-6e0882dbf1c3",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099115,
+            "id": "9306404c-3140-4d44-aeab-65227a335d0d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099115,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://chriswrightdesign.com/experiments/using-flexbox-today/",
+                  [
+                    [
+                      "a",
+                      "https://chriswrightdesign.com/experiments/using-flexbox-today/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://chriswrightdesign.com/experiments/using-flexbox-today/",
+                "Link": "https://chriswrightdesign.com/experiments/using-flexbox-today/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "d352ee89-2f29-4743-8e57-4d70ed0469d5",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099095,
+            "id": "f6da7963-0533-49b7-b95f-37bb1130a515",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099095,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/",
+                  [
+                    [
+                      "a",
+                      "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/",
+                "Link": "https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "2607c9c7-bc65-4b28-8bb2-df35b1697d20",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099090,
+            "id": "2936935d-12b5-4415-a023-27e218f45cd2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099090,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                  [
+                    [
+                      "a",
+                      "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                "Link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "e45a717b-9673-487e-8a7c-91bb4395ed9f",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099096,
+            "id": "718310a4-8e68-4778-8511-cf4d70a46772",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099096,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://www.flexboxpatterns.com/home",
+                  [
+                    [
+                      "a",
+                      "http://www.flexboxpatterns.com/home"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "http://www.flexboxpatterns.com/home",
+                "Link": "http://www.flexboxpatterns.com/home"
+              }
+            ],
+            "format_video": null
+          },
+          {
+            "alive": true,
+            "copied_from": "c2ba24be-5d59-4b2f-8c09-ef59607ae743",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1532923099089,
+            "id": "42562139-2780-4cbe-97af-45bca6a402df",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1532923099089,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://philipwalton.github.io/solved-by-flexbox/",
+                  [
+                    [
+                      "a",
+                      "https://philipwalton.github.io/solved-by-flexbox/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://philipwalton.github.io/solved-by-flexbox/",
+                "Link": "https://philipwalton.github.io/solved-by-flexbox/"
+              }
+            ],
+            "format_video": null
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -189,7 +446,8 @@
                 "Text": "https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-alignment--cms-30183",
                 "Link": "https://webdesign.tutsplus.com/tutorials/a-comprehensive-guide-to-flexbox-alignment--cms-30183"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -220,7 +478,8 @@
                 "Text": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=frontendfocus\u0026utm_medium=email",
                 "Link": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=frontendfocus\u0026utm_medium=email"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -251,7 +510,8 @@
                 "Text": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b",
                 "Link": "https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -288,7 +548,8 @@
               {
                 "Text": " : visual showcase of flexbox properties"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -319,7 +580,8 @@
                 "Text": "https://css-tricks.com/flex-grow-is-weird/",
                 "Link": "https://css-tricks.com/flex-grow-is-weird/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -369,7 +631,8 @@
                 "Text": "https://news.ycombinator.com/item?id=13877926",
                 "Link": "https://news.ycombinator.com/item?id=13877926"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -400,7 +663,8 @@
                 "Text": "https://www.isotoma.com/blog/2016/09/07/going-all-in-on-flexbox/",
                 "Link": "https://www.isotoma.com/blog/2016/09/07/going-all-in-on-flexbox/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -431,7 +695,8 @@
                 "Text": "https://github.com/afonsopacifer/awesome-flexbox",
                 "Link": "https://github.com/afonsopacifer/awesome-flexbox"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -462,7 +727,8 @@
                 "Text": "http://www.flexboxpatterns.com/home",
                 "Link": "http://www.flexboxpatterns.com/home"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -493,7 +759,8 @@
                 "Text": "http://codepen.io/enxaneta/full/adLPwv/",
                 "Link": "http://codepen.io/enxaneta/full/adLPwv/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -524,7 +791,8 @@
                 "Text": "https://github.com/afonsopacifer/awesome-flexbox",
                 "Link": "https://github.com/afonsopacifer/awesome-flexbox"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -574,7 +842,8 @@
                 "Text": "https://news.ycombinator.com/item?id=8782752",
                 "Link": "https://news.ycombinator.com/item?id=8782752"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -605,7 +874,8 @@
                 "Text": "http://chriswrightdesign.com/experiments/using-flexbox-today/",
                 "Link": "http://chriswrightdesign.com/experiments/using-flexbox-today/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -636,7 +906,8 @@
                 "Text": "http://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                 "Link": "http://css-tricks.com/snippets/css/a-guide-to-flexbox/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -667,7 +938,8 @@
                 "Text": "http://philipwalton.github.io/solved-by-flexbox/",
                 "Link": "http://philipwalton.github.io/solved-by-flexbox/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -698,7 +970,8 @@
                 "Text": "http://css-tricks.com/snippets/css/complete-guide-grid/",
                 "Link": "http://css-tricks.com/snippets/css/complete-guide-grid/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -748,7 +1021,8 @@
                 "Text": "https://news.ycombinator.com/item?id=9137515",
                 "Link": "https://news.ycombinator.com/item?id=9137515"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -779,7 +1053,8 @@
                 "Text": "http://codepen.io/team/lincolnloop/blog/flexboxfridays",
                 "Link": "http://codepen.io/team/lincolnloop/blog/flexboxfridays"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -810,7 +1085,8 @@
                 "Text": "http://www.slideshare.net/zomigi/leveling-up-with-flexbox-smashing-conference",
                 "Link": "http://www.slideshare.net/zomigi/leveling-up-with-flexbox-smashing-conference"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -841,7 +1117,8 @@
                 "Text": "http://jonibologna.com/flexbox-cheatsheet/",
                 "Link": "http://jonibologna.com/flexbox-cheatsheet/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -872,7 +1149,8 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes#Flex_item_considerations",
                 "Link": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes#Flex_item_considerations"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -903,7 +1181,8 @@
                 "Text": "http://bocoup.com/weblog/dive-into-flexbox/",
                 "Link": "http://bocoup.com/weblog/dive-into-flexbox/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -934,7 +1213,8 @@
                 "Text": "http://dundalek.com/css3-flexbox-reference/",
                 "Link": "http://dundalek.com/css3-flexbox-reference/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -965,7 +1245,8 @@
                 "Text": "http://flexbox.io/#/",
                 "Link": "http://flexbox.io/#/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -996,7 +1277,8 @@
                 "Text": "http://book.mixu.net/css/",
                 "Link": "http://book.mixu.net/css/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1027,7 +1309,8 @@
                 "Text": "http://jonibologna.com/flexbox-cheatsheet/",
                 "Link": "http://jonibologna.com/flexbox-cheatsheet/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1058,7 +1341,8 @@
                 "Text": "https://github.com/corysimmons/lost",
                 "Link": "https://github.com/corysimmons/lost"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1089,7 +1373,8 @@
                 "Text": "http://gridlex.devlint.fr",
                 "Link": "http://gridlex.devlint.fr/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1120,7 +1405,8 @@
                 "Text": "http://www.flexboxpatterns.com/",
                 "Link": "http://www.flexboxpatterns.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1151,7 +1437,8 @@
                 "Text": "https://github.com/philipwalton/flexbugs",
                 "Link": "https://github.com/philipwalton/flexbugs"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1182,7 +1469,8 @@
                 "Text": "https://davidwalsh.name/flexbox-layouts",
                 "Link": "https://davidwalsh.name/flexbox-layouts"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1213,7 +1501,8 @@
                 "Text": "http://www.sketchingwithcss.com/samplechapter/",
                 "Link": "http://www.sketchingwithcss.com/samplechapter/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1244,7 +1533,8 @@
                 "Text": "https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout/",
                 "Link": "https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1275,7 +1565,8 @@
                 "Text": "https://www.smashingmagazine.com/2015/12/website-layout-tools-compared-flexbox-vs-susy/",
                 "Link": "https://www.smashingmagazine.com/2015/12/website-layout-tools-compared-flexbox-vs-susy/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1312,7 +1603,8 @@
               {
                 "Text": " : a responsive table using flexbox"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1343,7 +1635,8 @@
                 "Text": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                 "Link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1374,7 +1667,8 @@
                 "Text": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes",
                 "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1405,7 +1699,8 @@
                 "Text": "https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.ivfv9kbuo",
                 "Link": "https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.ivfv9kbuo"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1436,7 +1731,8 @@
                 "Text": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.4rjmcrfmh",
                 "Link": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.4rjmcrfmh"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1493,14 +1789,16 @@
                 "Text": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.qhof2xv5d",
                 "Link": "https://medium.com/@samserif/flexbox-s-best-kept-secret-bd3d892826b6#.qhof2xv5d"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1512,7 +1810,7 @@
         "created_time": 1500699172327,
         "id": "d2041e3f-9d1d-4fc6-8d12-422e630f4bb3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1500699172327,
+        "last_edited_time": 1532923146309,
         "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
         "parent_table": "block",
         "properties": {
@@ -1523,7 +1821,7 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 5,
         "content_resolved": [
           {
             "alive": true,
@@ -1560,7 +1858,8 @@
               {
                 "Text": " : simple, in Java"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1597,14 +1896,146 @@
               {
                 "Text": " : Google's for Android"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Implementations"
           }
-        ]
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923176828,
+        "id": "4d108857-fb1a-4b9b-9356-142240971e11",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923176828,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923176018,
+        "id": "3042b36d-f723-491a-b9f9-25bbeb1060c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923188049,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Properties of flex containers:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 72,
+        "inline_content": [
+          {
+            "Text": "Properties of flex containers:"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364361490,
+        "id": "16b9c38b-7b11-42df-8eb8-8ff33b95ebbb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923146309,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "CSS"
+            ]
+          ],
+          "title": [
+            [
+              ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 4,
+        "code": ".container {\n  display: flex;\n  flex-direction: row | row-reverse | column | column-reverse;\n  flex-wrap: nowrap | wrap | wrap-reverse;\n  flex-flow: \u003c'flex-direction'\u003e || \u003c'flex-wrap'\u003e;\n  align-items: flex-start | flex-end | center | stretch | baseline;\n  justify-content: flex-start | flex-end | center | space-between | space-around;\n  align-content: flex-start | flex-end | center | stretch | space-between | space-around;\n}",
+        "code_language": "CSS",
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923195992,
+        "id": "3882748a-9435-4b80-9420-801989b22df3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923202140,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Properties of flex items:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 54,
+        "inline_content": [
+          {
+            "Text": "Properties of flex items:"
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1512364361490,
+        "id": "5a89bd2b-d956-4a3a-8de0-46bd23c8e579",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923146309,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "CSS"
+            ]
+          ],
+          "title": [
+            [
+              ".items {\n  align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 8,
+        "code": ".items {\n  align-self: flex-start | flex-end | center | baseline | stretch;\n  flex-grow: 1;\n  flex-shrink: 2;\n  flex-basis: 100px | 3em | 50%; // like min-width but for flex items only\n  order: 3;\n}",
+        "code_language": "CSS",
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923207025,
+        "id": "6bfcc167-4317-4190-8df8-84b2d3150a8b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923207025,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -1612,11 +2043,180 @@
         "created_time": 1496619078149,
         "id": "6f55e003-10ac-4d36-96eb-3900d2d1558d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1496619078149,
+        "last_edited_time": 1532923214377,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Example layouts",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 36,
+        "inline_content": [
+          {
+            "Text": "Example layouts",
+            "AttrFlags": 1
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923211604,
+        "id": "6eb15d58-1256-40ea-a181-3beaf6bbb429",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923281108,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "[ [left]          [right] ]",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 80,
+        "inline_content": [
+          {
+            "Text": "[ [left]          [right] ]",
+            "AttrFlags": 2
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923228246,
+        "id": "4ea5c448-16bc-42d6-883a-fb47bc48ddfd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923300673,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "div display:flex \n\tdiv \n\t\tleft \n\tdiv margin-left: auto  # this pushes right all the way to the right\n\t\tright"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 149,
+        "code": "div display:flex \n\tdiv \n\t\tleft \n\tdiv margin-left: auto  # this pushes right all the way to the right\n\t\tright",
+        "code_language": "Plain Text",
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923264248,
+        "id": "d5c0b6fb-58c1-4c64-9808-2259f22a84e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923379407,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A different version that uses "
+            ],
+            [
+              "justify-content: space-between",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 154,
+        "inline_content": [
+          {
+            "Text": "A different version that uses "
+          },
+          {
+            "Text": "justify-content: space-between",
+            "AttrFlags": 2
+          }
+        ],
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "copied_from": "e4175583-4a50-4d25-95ed-b392df9d3f89",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923330077,
+        "id": "6f785169-526b-41d0-a606-0b577d710d24",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923351195,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Plain Text"
+            ]
+          ],
+          "title": [
+            [
+              "div display:flex \n\tdiv \n\t\tleft \n\tdiv margin-left: auto\n\t\tright"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 55,
+        "code": "div display:flex \n\tdiv \n\t\tleft \n\tdiv margin-left: auto\n\t\tright",
+        "code_language": "Plain Text",
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "copied_from": "86a81cac-fb8e-4118-97ee-8bd9e283b010",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923330089,
+        "id": "3e68750a-6df5-4066-b75c-b145de0f65ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923377041,
         "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
         "parent_table": "block",
         "type": "text",
-        "version": 0
+        "version": 57,
+        "format_video": null
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532923356616,
+        "id": "3073960e-8c92-45c3-bdd4-b1e2d2124835",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532923373432,
+        "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6,
+        "format_video": null
       }
     ],
     "title": "css flexbox",
@@ -1627,7 +2227,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

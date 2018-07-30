@@ -59,7 +59,8 @@
           {
             "Text": "Id: 25011"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -83,7 +84,8 @@
           {
             "Text": "Tags: .net, c#"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -107,7 +109,8 @@
           {
             "Text": "Date: 2009-06-04T23:28:28-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -119,7 +122,8 @@
         "parent_id": "40162557-4d1d-4685-b9a2-9403645c0c49",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -143,7 +147,8 @@
           {
             "Text": "I have Windows 7 installed on my MacBook under VirtualBox. To keep things simple, I keep my code on mac side, sharing the directory with Windows side."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -167,7 +172,8 @@
           {
             "Text": "Tip #1: VirtualBox 2.2.4 has weak implementation of shared folders. For example, Visual Studio 2008 sees the files on shared drive as write-protected (even though other applications don’t). Visual Studio 2010 doesn’t have this problem, but it can’t finish compilation, complaining it cannot write some intermediary build files to a shared folder. Also, trying to mark shared folder as trustworthy for .NET doesn’t seem to work (see below)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -191,7 +197,8 @@
           {
             "Text": "Solution: use Mac’s built-in file sharing instead and shared things out using built-in samba (smb) sharing in System Preferences/Sharing."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -215,7 +222,8 @@
           {
             "Text": "Another problem is that .NET by default doesn’t trust code on network drives and Visual Studio will tell you that “The Project Location is Not Trusted” if you open a project from a network drive. The magic incantation to make a given shared folder (in my case it’s drive z:) trusted is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -241,7 +249,8 @@
         "type": "code",
         "version": 1,
         "code": "caspol -q -machine -addgroup 1.2 -url file://z:/* FullTrust",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -265,7 +274,8 @@
           {
             "Text": "This command has to be executed as Administrator."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -307,7 +317,8 @@
           {
             "Text": " available in the PATH is to start Visual Studio cmd-line (shortcut is installed in Start menu)."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Network drives, .net, security and virtualbox",
@@ -318,7 +329,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

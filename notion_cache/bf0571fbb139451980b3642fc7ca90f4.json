@@ -94,7 +94,8 @@
                 "Text": "let foo = []",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -124,7 +125,8 @@
                 "Text": "foo.push(\"3\")",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -154,7 +156,8 @@
                 "Text": "const el = foo.pop()",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -184,14 +187,16 @@
                 "Text": "const exists = foo.contains(3)",
                 "AttrFlags": 2
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "arrays"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -215,7 +220,8 @@
           {
             "Text": "Cheatsheets:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -246,7 +252,8 @@
             "Text": "http://overapi.com/javascript",
             "Link": "http://overapi.com/javascript"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -277,7 +284,8 @@
             "Text": "https://devhints.io/es6",
             "Link": "https://devhints.io/es6"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -314,7 +322,8 @@
           {
             "Text": " : a really good, deep book"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -334,7 +343,8 @@
         },
         "type": "page",
         "version": 0,
-        "title": "Counters"
+        "title": "Counters",
+        "format_video": null
       },
       {
         "alive": true,
@@ -354,7 +364,8 @@
         },
         "type": "page",
         "version": 0,
-        "title": "faster vector"
+        "title": "faster vector",
+        "format_video": null
       },
       {
         "alive": true,
@@ -374,7 +385,8 @@
         },
         "type": "page",
         "version": 0,
-        "title": "gulp"
+        "title": "gulp",
+        "format_video": null
       },
       {
         "alive": true,
@@ -406,7 +418,8 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
+        },
+        "format_video": null
       },
       {
         "alive": true,
@@ -426,7 +439,8 @@
         },
         "type": "page",
         "version": 0,
-        "title": "Writing micro-benchmarks"
+        "title": "Writing micro-benchmarks",
+        "format_video": null
       },
       {
         "alive": true,
@@ -458,7 +472,8 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
+        },
+        "format_video": null
       },
       {
         "alive": true,
@@ -586,7 +601,8 @@
                 "Text": "https://www.netlify.com/blog/2016/11/17/serverless-file-uploads/",
                 "Link": "https://www.netlify.com/blog/2016/11/17/serverless-file-uploads/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -617,7 +633,8 @@
                 "Text": "https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/",
                 "Link": "https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -654,7 +671,8 @@
               {
                 "Text": " : short js recipies"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -691,7 +709,8 @@
               {
                 "Text": " : explains proto chains"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -722,7 +741,8 @@
                 "Text": "https://github.com/mbeaudru/modern-js-cheatsheet",
                 "Link": "https://github.com/mbeaudru/modern-js-cheatsheet"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -753,7 +773,8 @@
                 "Text": "https://www.ag-grid.com/ag-grid-8-performance-hacks-for-javascript/",
                 "Link": "https://www.ag-grid.com/ag-grid-8-performance-hacks-for-javascript/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -784,7 +805,8 @@
                 "Text": "http://www.syntaxsuccess.com/viewarticle/using-the-closure-compiler—-advanced_optimizations",
                 "Link": "http://www.syntaxsuccess.com/viewarticle/using-the-closure-compiler—-advanced_optimizations"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -821,7 +843,8 @@
               {
                 "Text": " : service workers cookbook"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -852,7 +875,8 @@
                 "Text": "https://github.com/hustcc/timeago.js",
                 "Link": "https://github.com/hustcc/timeago.js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -889,7 +913,8 @@
               {
                 "Text": " : app UI framework (panels, tabs, menus), used by jupiter notebooks"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -920,7 +945,8 @@
                 "Text": "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/",
                 "Link": "http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -957,7 +983,8 @@
               {
                 "Text": " : tooltip / popup library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -988,7 +1015,8 @@
                 "Text": "https://www.igvita.com/2015/05/20/script-injected-async-scripts-considered-harmful/",
                 "Link": "https://www.igvita.com/2015/05/20/script-injected-async-scripts-considered-harmful/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1019,7 +1047,8 @@
                 "Text": "https://github.com/artsy/scroll-frame",
                 "Link": "https://github.com/artsy/scroll-frame"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1056,7 +1085,8 @@
               {
                 "Text": " - makes random, pleasing colors"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1093,7 +1123,8 @@
               {
                 "Text": " - crypto library in coffeescript"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1130,7 +1161,8 @@
               {
                 "Text": " - layout library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1167,7 +1199,8 @@
               {
                 "Text": " - template library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1204,7 +1237,8 @@
               {
                 "Text": " - data visualization in javascript"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1241,7 +1275,8 @@
               {
                 "Text": " - drag'n'drop library"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1272,7 +1307,8 @@
                 "Text": "http://learnjs.io/canvassing/read/",
                 "Link": "http://learnjs.io/canvassing/read/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1303,7 +1339,8 @@
                 "Text": "http://visjs.org/",
                 "Link": "http://visjs.org/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1334,7 +1371,8 @@
                 "Text": "http://www.chartjs.org/",
                 "Link": "http://www.chartjs.org/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1371,7 +1409,8 @@
               {
                 "Text": " - fast, in memory database"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1402,7 +1441,8 @@
                 "Text": "http://standardjavascript.info/",
                 "Link": "http://standardjavascript.info/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1439,7 +1479,8 @@
               {
                 "Text": " - tutorial showing how to read drag\u0026dropped ttf file in javascript"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1470,7 +1511,8 @@
                 "Text": "http://noraesae.github.io/perfect-scrollbar/",
                 "Link": "http://noraesae.github.io/perfect-scrollbar/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1501,7 +1543,8 @@
                 "Text": "http://0xdabbad00.com/2012/11/25/icebuddha-scrolling-javascript-infinite-scrolling-in-a-finite-area/",
                 "Link": "http://0xdabbad00.com/2012/11/25/icebuddha-scrolling-javascript-infinite-scrolling-in-a-finite-area/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1532,7 +1575,8 @@
                 "Text": "http://0xdabbad00.com/2012/07/15/icebuddha-generic-file-parser/",
                 "Link": "http://0xdabbad00.com/2012/07/15/icebuddha-generic-file-parser/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1563,7 +1607,8 @@
                 "Text": "http://mihailik.blogspot.com/2012/12/parsing-pe-binary-files-part-ii.html",
                 "Link": "http://mihailik.blogspot.com/2012/12/parsing-pe-binary-files-part-ii.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1600,7 +1645,8 @@
               {
                 "Text": " - advanced rendering of text on canvas"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1631,7 +1677,8 @@
                 "Text": "https://github.com/gka/chroma.js",
                 "Link": "https://github.com/gka/chroma.js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1668,7 +1715,8 @@
               {
                 "Text": " - csv parser"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1718,7 +1766,8 @@
                 "Text": "https://news.ycombinator.com/item?id=8607366",
                 "Link": "https://news.ycombinator.com/item?id=8607366"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1749,7 +1798,8 @@
                 "Text": "http://bdadam.com/blog/automatically-adapting-the-height-textarea.html",
                 "Link": "http://bdadam.com/blog/automatically-adapting-the-height-textarea.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1786,7 +1836,8 @@
               {
                 "Text": " - lightbox"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1817,7 +1868,8 @@
                 "Text": "http://viljamis.com/blog/2014/responsive-line-height/",
                 "Link": "http://viljamis.com/blog/2014/responsive-line-height/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1848,7 +1900,8 @@
                 "Text": "http://strapdownjs.com/",
                 "Link": "http://strapdownjs.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1885,7 +1938,8 @@
               {
                 "Text": " - small (9kb) jQuery subset"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1916,7 +1970,8 @@
                 "Text": "http://tristanedwards.me/sweetalert",
                 "Link": "http://tristanedwards.me/sweetalert"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1953,7 +2008,8 @@
               {
                 "Text": " - visualization toolkit"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -1984,7 +2040,8 @@
                 "Text": "http://ericprieto.com/freebie/simply-toast/",
                 "Link": "http://ericprieto.com/freebie/simply-toast/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2015,7 +2072,8 @@
                 "Text": "http://tympanus.net/Tutorials/OriginalHoverEffects/index2.html",
                 "Link": "http://tympanus.net/Tutorials/OriginalHoverEffects/index2.html"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2046,7 +2104,8 @@
                 "Text": "https://github.com/kpdecker/jsdiff",
                 "Link": "https://github.com/kpdecker/jsdiff"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2077,7 +2136,8 @@
                 "Text": "http://gionkunz.github.io/chartist-js/",
                 "Link": "http://gionkunz.github.io/chartist-js/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2108,7 +2168,8 @@
                 "Text": "http://julian.com/research/blast/",
                 "Link": "http://julian.com/research/blast/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2139,7 +2200,8 @@
                 "Text": "http://javierjulio.github.io/textarea-autosize/",
                 "Link": "http://javierjulio.github.io/textarea-autosize/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2170,7 +2232,8 @@
                 "Text": "http://ponyfoo.com/articles/building-high-quality-front-end-modules",
                 "Link": "http://ponyfoo.com/articles/building-high-quality-front-end-modules"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2201,7 +2264,8 @@
                 "Text": "https://github.com/bevacqua/dominus",
                 "Link": "https://github.com/bevacqua/dominus"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2232,7 +2296,8 @@
                 "Text": "https://github.com/bevacqua/ultramarked",
                 "Link": "https://github.com/bevacqua/ultramarked"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2263,7 +2328,8 @@
                 "Text": "http://semu.github.io/timesheet.js/",
                 "Link": "http://semu.github.io/timesheet.js/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2294,7 +2360,8 @@
                 "Text": "http://cjs.from.so/",
                 "Link": "http://cjs.from.so/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2325,7 +2392,8 @@
                 "Text": "https://github.com/bevacqua/rome",
                 "Link": "https://github.com/bevacqua/rome"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2356,7 +2424,8 @@
                 "Text": "http://ampersandjs.com/",
                 "Link": "http://ampersandjs.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2387,7 +2456,8 @@
                 "Text": "http://dimplejs.org/",
                 "Link": "http://dimplejs.org/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2418,7 +2488,8 @@
                 "Text": "http://hamlet.coffee/",
                 "Link": "http://hamlet.coffee/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2449,7 +2520,8 @@
                 "Text": "http://jcubic.wordpress.com/2014/06/16/40-javascript-libraries-you-may-not-know-about/",
                 "Link": "http://jcubic.wordpress.com/2014/06/16/40-javascript-libraries-you-may-not-know-about/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2480,7 +2552,8 @@
                 "Text": "http://fastly.github.io/epoch/",
                 "Link": "http://fastly.github.io/epoch/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2517,7 +2590,8 @@
               {
                 "Text": " - expensive ($3k) but looks very powerful"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2548,7 +2622,8 @@
                 "Text": "http://airbnb.github.io/infinity/",
                 "Link": "http://airbnb.github.io/infinity/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2579,7 +2654,8 @@
                 "Text": "https://github.com/html5cat/redactor-js",
                 "Link": "https://github.com/html5cat/redactor-js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2610,7 +2686,8 @@
                 "Text": "https://github.com/flowjs/flow.js",
                 "Link": "https://github.com/flowjs/flow.js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2647,7 +2724,8 @@
               {
                 "Text": " - filtering large amounts of data in the browser"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2678,7 +2756,8 @@
                 "Text": "http://www.funnyant.com/javascript-frameworks/",
                 "Link": "http://www.funnyant.com/javascript-frameworks/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2709,7 +2788,8 @@
                 "Text": "http://www.javascripture.com/",
                 "Link": "http://www.javascripture.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2746,7 +2826,8 @@
               {
                 "Text": " - grid component"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2777,7 +2858,8 @@
                 "Text": "https://leanpub.com/exploring-es6/read",
                 "Link": "https://leanpub.com/exploring-es6/read"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2808,7 +2890,8 @@
                 "Text": "http://faisalman.github.io/ua-parser-js/",
                 "Link": "http://faisalman.github.io/ua-parser-js/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2839,7 +2922,8 @@
                 "Text": "https://github.com/jcubic/jquery.terminal",
                 "Link": "https://github.com/jcubic/jquery.terminal"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2870,7 +2954,8 @@
                 "Text": "https://github.com/3nsoft/ecma-nacl",
                 "Link": "https://github.com/3nsoft/ecma-nacl"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2901,7 +2986,8 @@
                 "Text": "https://davidwalsh.name/essential-javascript-functions",
                 "Link": "https://davidwalsh.name/essential-javascript-functions"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2932,7 +3018,8 @@
                 "Text": "http://manos.malihu.gr/jquery-custom-content-scroller/",
                 "Link": "http://manos.malihu.gr/jquery-custom-content-scroller/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2963,7 +3050,8 @@
                 "Text": "https://github.com/selectize/selectize.js",
                 "Link": "https://github.com/selectize/selectize.js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -2994,7 +3082,8 @@
                 "Text": "https://github.com/ForbesLindesay/dehumanize-date",
                 "Link": "https://github.com/ForbesLindesay/dehumanize-date"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3031,7 +3120,8 @@
               {
                 "Text": " - test framework with built-in coverage support"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3062,14 +3152,16 @@
                 "Text": "https://atomiks.github.io/tippyjs/",
                 "Link": "https://atomiks.github.io/tippyjs/"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Links"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -3120,7 +3212,8 @@
               {
                 "Text": "Docs:"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3151,7 +3244,8 @@
                 "Text": "https://github.com/bevacqua/es6",
                 "Link": "https://github.com/bevacqua/es6"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3182,7 +3276,8 @@
                 "Text": "https://github.com/metagrover/ES6-for-humans#17-promises",
                 "Link": "https://github.com/metagrover/ES6-for-humans#17-promises"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3219,7 +3314,8 @@
               {
                 "Text": " : info about promises"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3250,7 +3346,8 @@
                 "Text": "https://ponyfoo.com/articles/es6-promises-in-depth",
                 "Link": "https://ponyfoo.com/articles/es6-promises-in-depth"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3281,14 +3378,16 @@
                 "Text": "http://exploringjs.com/es6/ch_promises.html",
                 "Link": "http://exploringjs.com/es6/ch_promises.html"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "es6"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -3347,7 +3446,8 @@
                 "Text": "https://github.com/sdecima/javascript-detect-element-resize",
                 "Link": "https://github.com/sdecima/javascript-detect-element-resize"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3378,7 +3478,8 @@
                 "Text": "http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/",
                 "Link": "http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3409,7 +3510,8 @@
                 "Text": "http://benalman.com/projects/jquery-resize-plugin/",
                 "Link": "http://benalman.com/projects/jquery-resize-plugin/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3440,7 +3542,8 @@
                 "Text": "http://manos.malihu.gr/event-based-jquery-element-resize/",
                 "Link": "http://manos.malihu.gr/event-based-jquery-element-resize/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3471,7 +3574,8 @@
                 "Text": "https://react.rocks/tag/Resize",
                 "Link": "https://react.rocks/tag/Resize"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3502,7 +3606,8 @@
                 "Text": "https://www.npmjs.com/package/react-component-resizable",
                 "Link": "https://www.npmjs.com/package/react-component-resizable"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3533,14 +3638,16 @@
                 "Text": "http://stackoverflow.com/questions/19014250/reactjs-rerender-on-browser-resize",
                 "Link": "http://stackoverflow.com/questions/19014250/reactjs-rerender-on-browser-resize"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "html element resize detection"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -3572,7 +3679,8 @@
           "page_full_width": true,
           "page_icon": "",
           "page_small_text": true
-        }
+        },
+        "format_video": null
       },
       {
         "alive": true,
@@ -3639,7 +3747,8 @@
               {
                 "Text": " : PDF parsing and construction, can be used for extracting info from PDF"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3676,7 +3785,8 @@
               {
                 "Text": " : zlib compression in browser and node"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3713,7 +3823,8 @@
               {
                 "Text": " : read and create zip files"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3750,7 +3861,8 @@
               {
                 "Text": " : tiff decoder/encoder"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3787,7 +3899,8 @@
               {
                 "Text": " : png decoder/encoder, can do lossy minification"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3824,7 +3937,8 @@
               {
                 "Text": " : for keyboard handling"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3874,7 +3988,8 @@
                 "Text": "https://scroll-into-view-if-needed.netlify.com/",
                 "Link": "https://scroll-into-view-if-needed.netlify.com/"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3905,7 +4020,8 @@
                 "Text": "https://github.com/Zaseth/ByteArray.js",
                 "Link": "https://github.com/Zaseth/ByteArray.js"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -3917,14 +4033,16 @@
             "parent_id": "364e0c20-a407-45d7-9863-36ce0e2503b2",
             "parent_table": "block",
             "type": "text",
-            "version": 4
+            "version": 4,
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "libraries"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "JavaScript",
@@ -3935,7 +4053,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

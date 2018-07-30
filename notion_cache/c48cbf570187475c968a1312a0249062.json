@@ -86,7 +86,8 @@
           {
             "Text": "Id: 919"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -110,7 +111,8 @@
           {
             "Text": "Date: 2005-10-24T21:06:19-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -134,7 +136,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -146,7 +149,8 @@
         "parent_id": "c48cbf57-0187-475c-968a-1312a0249062",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -170,7 +174,8 @@
           {
             "Text": "Recently there was an explosion of new source control programs: subversion, arch (and its many children), darcs, monotone, git, codeville, mercurial (and more)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -194,7 +199,8 @@
           {
             "Text": "One of the reasons for creating them was the fact that CVS, the king of the hill so far, lacks some basic features. Or, as a less cultured person might say, sucks."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -218,7 +224,8 @@
           {
             "Text": "Almost all those new programs also try to make open-source, distributed collaboration easier. Ironically, I don’t see any of them solving the problems that I’ve come across trying to make small contribution to various open-source projects so I don’t think that they are solving the right problems."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -242,7 +249,8 @@
           {
             "Text": "In open-source projects there are 2 sides:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -266,7 +274,8 @@
           {
             "Text": "project leader (or leaders) - those are the people who can commit changes\nto the repository"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -290,7 +299,8 @@
           {
             "Text": "contributors - a casual contributor didn’t earn enough street cred to get\nfull write access"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -314,7 +324,8 @@
           {
             "Text": "First problem I saw is that submitting patches, reviewing and accepting them is time consuming for both leaders and contributors which causes projects to suffer because contributions are ignored which discourages contributors from contributing more."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -338,7 +349,8 @@
           {
             "Text": "Ideally, the flow would be:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -362,7 +374,8 @@
           {
             "Text": "contributor does some code modifications"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -386,7 +399,8 @@
           {
             "Text": "contributor notifies the leader"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -410,7 +424,8 @@
           {
             "Text": "leader looks at modifications"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -434,7 +449,8 @@
           {
             "Text": "leader applies modification to the main tree or marks them as rejected,\nproviding explanation why they were rejected"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -458,7 +474,8 @@
           {
             "Text": "With CVS it’s all very painful. Contributor has to generate patches. He has to send them via e-mail or attach to a bug tracking system. Leader has to apply the patch to his tree (which might be out-of-sync wrt. to the tree against the patch was generated), preview the patch, respond via e-mail or by making a note in the bug tracker."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -482,7 +499,8 @@
           {
             "Text": "I went through this a couple of times and for small changes it’s just not worth the effort, especially if patches rot in the bug tracker for weeks. But if a small change is not accepted quickly, I’m not going to bother spending more time developing more extensive enhancements, therefore the project looses me as a potential contributor."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -506,7 +524,8 @@
           {
             "Text": "Now, it might be just a social problem (it’s hard to imagine a tool that would force project leaders to respond to submitted patches faster) but I believe that a better tool would help a lot."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -530,7 +549,8 @@
           {
             "Text": "One option would be to give repository write access to anyone who asks, but the cure could be worse than a disease."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -554,7 +574,8 @@
           {
             "Text": "Some systems (e.g. darcs, arch) say that they’ll solve this problem by making things more decentralized i.e. by making it easier to create your own repositories based on the main tree and making it easier to merge changes between different repositories. But this does have a few problems of its own:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -578,7 +599,8 @@
           {
             "Text": "not everyone can make their repositories available to other people (you need at least a web server)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -602,7 +624,8 @@
           {
             "Text": "I think that having one repository is better; another repository is a mini-fork and there’s no easy way to tell other people about it"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -626,7 +649,8 @@
           {
             "Text": "I think that all a source control system needs to make things better is:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -650,7 +674,8 @@
           {
             "Text": "anonymous users should be able to create a branch"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -674,7 +699,8 @@
           {
             "Text": "branch management should be easy (list all branches, preview changes in a given branch, merge a change from one branch to another)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -698,7 +724,8 @@
           {
             "Text": "ability to comment on changes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -722,7 +749,8 @@
           {
             "Text": "That way the work flow could be:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -746,7 +774,8 @@
           {
             "Text": "contributor creates a branch for his changes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -770,7 +799,8 @@
           {
             "Text": "contributor notifies the leader e.g. by e-mail “hey, I’ve made some changes in a branch foo”"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -794,7 +824,8 @@
           {
             "Text": "leader can issue one command that would show him the changes made on branch foo, as a diff or in some gui"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -818,7 +849,8 @@
           {
             "Text": "if leader likes the changes, he can merge them back to main tree with one command; if he doesn’t he can add a comment explaining why changes are not good"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -842,7 +874,8 @@
           {
             "Text": "if contributor sees the comment, he can modify the code according to comments and redo the process"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -866,7 +899,8 @@
           {
             "Text": "It’s almost like the full decentralized model but separate repositories would be replaced by branches in the main repository. Anyone could create a branch and make his changes on his own branch. Having everything in one place would make it easier for other contributors to discover interesting changes."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -890,7 +924,8 @@
           {
             "Text": "Currently the biggest problem with open-source development I see is that whoever leads the project has a strong-hold on what goes in and what’s not. Having a system that supports branches for everyone but maintains a restricted access to the mainline would hopefully encourage more experimentation, more people contributing to projects."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -914,7 +949,8 @@
           {
             "Text": "Which reminds me that I’m very disappointed by SourceForge. Did you notice that it hasn’t changed in ages? No new cool Web 2.0 AJAX-y interfaces."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -938,7 +974,8 @@
           {
             "Text": "It still only offers CVS. They don’t offer built-in wiki for projects. Their implementation of a mailing list and a bug tracker is terrible. And, ironically, the source code to the biggest open-source code repository in the world is closed."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -962,7 +999,8 @@
           {
             "Text": "SourceForge could be so much more…"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Unsolved source control problems",
@@ -973,7 +1011,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

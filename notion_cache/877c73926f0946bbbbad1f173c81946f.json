@@ -64,7 +64,8 @@
           {
             "Text": "Id: 19006"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -88,7 +89,8 @@
           {
             "Text": "Tags: win32, programming"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -112,7 +114,8 @@
           {
             "Text": "Date: 2009-04-14T23:36:41-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -136,7 +139,8 @@
           {
             "Text": "Status: hidden"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -148,7 +152,8 @@
         "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -172,7 +177,8 @@
           {
             "Text": "TODO: move to win32 section"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -184,7 +190,8 @@
         "parent_id": "877c7392-6f09-46bb-bbad-1f173c81946f",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -208,7 +215,8 @@
           {
             "Text": "Despite being around for thousands of years, win32 API is poorly documented in many areas."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -232,7 +240,8 @@
           {
             "Text": "Today I spent an hour battling a baffling problem with rich edit control."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -274,7 +283,8 @@
           {
             "Text": " message."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -298,7 +308,8 @@
           {
             "Text": "In non-unicode build, where text was ansi, it worked and the text showed up nicely formatted."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -322,7 +333,8 @@
           {
             "Text": "In unicode build, however, the text wasn’t parsed as rtf and showed verbatim."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -382,7 +394,8 @@
           {
             "Text": " code-page. I’m using WTL so the code ended up being:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -408,7 +421,8 @@
         "type": "code",
         "version": 1,
         "code": "#ifdef UNICODE\n // Don’t know why I have to do this, but SetWindowText() with unicode\n // doesn’t work (rtf codes are not being recognized)\n const char *sUtf = WstrToUtf8(s);\n m_statusMsgEdit.SetTextEx((LPCTSTR)sUtf, ST_DEFAULT, CP_UTF8);\n#else\n m_statusMsgEdit.SetWindowText(s);\n#endif",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -451,7 +465,8 @@
           {
             "Text": " I could have used code-page 1200 for unicode text, but that didn’t work either."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -475,7 +490,8 @@
           {
             "Text": "It’s quite possible I’ve botched something somewhere in my code and this work-around isn’t needed but I can hardly think of anything."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Setting unicode rtf text in rich edit control",
@@ -486,7 +502,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

@@ -81,7 +81,8 @@
           {
             "Text": "Id: 266001"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -105,7 +106,8 @@
           {
             "Text": "Tags: programming, c, c++"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -129,7 +131,8 @@
           {
             "Text": "Date: 2010-07-07T21:18:43-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -141,7 +144,8 @@
         "parent_id": "5b52b4a3-ce91-4794-995d-3a364ea1f443",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -165,7 +169,8 @@
           {
             "Text": " I love tools that help me write better code. C and C++ are especially hard on humans and provide the biggest amount of rope to hang yourself with so tools that can point problems in C/C++ code are especially useful. Static code analysis tools can analyze C/C++ code without running it (hence the “static” part) and find a multitude of issues, like memory leaks, using uninitialized variables, freeing memory twice etc."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -189,7 +194,8 @@
           {
             "Text": "Here are the tools that I recommend because I’ve used them and they worked."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -213,7 +219,8 @@
           {
             "Text": "cppcheck"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -275,7 +282,8 @@
           {
             "Text": " against Sumatra with a result of running a cppcheck scan. It’s free, open source and even has a GUI for Windows (it could be improved, though)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -299,7 +307,8 @@
           {
             "Text": "It’s very easy to use: you just give it a file name or a directory, it runs its magic on the C/C++ files and tells you what the problem is and file name/line number where it happens."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -323,7 +332,8 @@
           {
             "Text": "It tells you not only about incorrect code (like memory leaks or using uninitialized variables) but also about style issues (e.g. it will suggest making a C++ class member a const function if it can be const etc.)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -347,7 +357,8 @@
           {
             "Text": "I found error messages to be clear. Cppcheck complains about things that I don’t always consider problematic enough to fix, but it’s easy to just ignore them."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -371,7 +382,8 @@
           {
             "Text": "Since it’s (also) a cmd-line tool, it could be integrated with a build system."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -395,7 +407,8 @@
           {
             "Text": "A unique property of cppcheck is that it can be run on stand-alone files. The advantage is that it’s really easy to use (you can, for example, check unix or mac source code on windows (and vice-versa)). The disadvantage is that unlike other tools described here it probably can’t do as good of a job analyzing things since it has less information to use."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -419,7 +432,8 @@
           {
             "Text": "Given the price (free) and how easy it is to use, there’s no excuse for a C/C++ programmer to not run it from time to time over their code bases."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -443,7 +457,8 @@
           {
             "Text": "Clang Static Analyzer"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -499,7 +514,8 @@
           {
             "Text": " project."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -523,7 +539,8 @@
           {
             "Text": "Latest builds of Xcode (3.2 and later) have some version of CSA integrated so running it from inside XCode is super easy. After the run it annotates the source code with issues found."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -566,7 +583,8 @@
           {
             "Text": " which “hijacks” compiler invokations from a make or xcodebuild tools. This mode of operations has an advantage of being easy to use if your project is using makefiles (or Xcode) and that it compiles exactly the same code with the same flags as real compiler."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -590,7 +608,8 @@
           {
             "Text": "The disadvantage is that if you have a different build system, you can’t use it."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -614,7 +633,8 @@
           {
             "Text": "Stand alone tool produces html file which shows source code annotated with information about found issues."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -657,7 +677,8 @@
           {
             "Text": " (and is most likely newer than the copy that comes with Xcode). For other platforms it can be built from source."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -681,7 +702,8 @@
           {
             "Text": "Visual Studio"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -724,7 +746,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -767,7 +790,8 @@
           {
             "Text": " option to the compiler or configure it in UI via target settings properties (under Code Analysis)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -791,7 +815,8 @@
           {
             "Text": "Then you perform a build and Visual Studio tells you about problems it found."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -834,7 +859,8 @@
           {
             "Text": " on using Visual Studio’s static analyzer."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -858,7 +884,8 @@
           {
             "Text": "Coverity"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -895,7 +922,8 @@
           {
             "Text": " is one of the first static analyzers for C/C++ code. I used it at Palm and it works well. The problem is that it’s probably expensive (Coverity doesn’t even publish the prices on the website, you have to go through a sales person, which is never a good sign)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -919,7 +947,8 @@
           {
             "Text": "Also, I don’t know how easy it is to use. At Palm the integration with build system was done by the build team and I only interacted with the tool through (quite nice) web based ui."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -943,7 +972,8 @@
           {
             "Text": "How do they compare"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -967,7 +997,8 @@
           {
             "Text": "I don’t know because I haven’t run a comparative analysis."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -991,7 +1022,8 @@
           {
             "Text": "What I do know is that they all found issues with the code I was working on so they’re valuable."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1015,7 +1047,8 @@
           {
             "Text": "Given that cppcheck and Clang Static Analyzer are free and easy to use, they should be used by all C/C++ programmers, ideally integrated into the build process so that they’re easy to run. Preferably they should be run automatically after each checkin."
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "Tools that find bugs in c and c++ code via static code analysis ",
@@ -1026,7 +1059,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

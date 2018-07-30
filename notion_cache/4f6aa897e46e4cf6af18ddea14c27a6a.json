@@ -55,7 +55,8 @@
           {
             "Text": "Id: 14007"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -79,7 +80,8 @@
           {
             "Text": "Tags: .net, c#"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -103,7 +105,8 @@
           {
             "Text": "Date: 2009-03-14T16:12:55-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -115,7 +118,8 @@
         "parent_id": "4f6aa897-e46e-4cf6-af18-ddea14c27a6a",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -139,7 +143,8 @@
           {
             "Text": "HttpWebRequest is a handy .NET class for doing HTTP requests. It has built-in support for HTTP basic authentication via credentials. However, it doesn’t work the way I expected: supplying credentials doesn’t send Authorization HTTP header with the request but only in response to server’s challenge. It often breaks in real world, where servers might not issue a challenge and simply not authenticate a request."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -163,7 +168,8 @@
           {
             "Text": "Fortunately fixing it by manually adding Authorization HTTP header to the request is simple and this code snippet shows how to do it:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -189,7 +195,8 @@
         "type": "code",
         "version": 1,
         "code": "public void SetBasicAuthHeader(WebRequest req, String userName, String\nuserPassword)\n{\n string authInfo = userName + “:” + userPassword;\n authInfo = Convert.ToBase64String(Encoding.Default.GetBytes(authInfo));\n req.Headers[“Authorization”] = “Basic ” + authInfo;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "Java/C/C++/C#",
+        "format_video": null
       }
     ],
     "title": "Forcing basic http authentication for HttpWebRequest (in .NET/C#)",
@@ -200,7 +207,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

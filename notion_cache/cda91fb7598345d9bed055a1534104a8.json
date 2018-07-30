@@ -68,7 +68,8 @@
           {
             "Text": "Id: 148001"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -92,7 +93,8 @@
           {
             "Text": "Tags: business"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -116,7 +118,8 @@
           {
             "Text": "Date: 2010-05-05T00:33:33-07:00"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -128,7 +131,8 @@
         "parent_id": "cda91fb7-5983-45d9-bed0-55a1534104a8",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 3,
+        "format_video": null
       },
       {
         "alive": true,
@@ -171,7 +175,8 @@
           {
             "Text": " on how to accept online payments."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -195,7 +200,8 @@
           {
             "Text": "To accept credit cards you need an internet merchant account. Despite the name, it’s not like a bank account. It only allows you to process credit card transactions, but the money must be deposited to your real checking account."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -238,7 +244,8 @@
           {
             "Text": " to find a provider for internet merchant account. Don’t use regular banks for it (like Bank Of America etc.)"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -262,7 +269,8 @@
           {
             "Text": "TransFS merchant accounts are “interchange plus” i.e. to process your transaction they charge you interchange fee (fee that credit card companies like Visa charge) plus a little bit on top of that. It takes 3-4 weeks to get merchant account."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -286,7 +294,8 @@
           {
             "Text": "Then you need to find a payment gateway. Gateway takes credit card information that users input on your site and talk to the processors (First Data, Paymentech, Global Payments etc.) to get the money transfered to your merchant account (which then gets transfered to your regular bank account)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -310,7 +319,8 @@
           {
             "Text": "You need to write the code to talk to a gateway yourself."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -366,7 +376,8 @@
           {
             "Text": " has better API but costs more and your merchant account has to support First Data Nashville processor."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -422,7 +433,8 @@
             "Text": "Amazon Payments",
             "Link": "https://payments.amazon.com/sdui/sdui/about?nodeId=73479#suse_micro"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -446,7 +458,8 @@
           {
             "Text": "Or you can use PayPal, which has three offerings:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -493,7 +506,8 @@
               {
                 "Text": "combined merchant account and gateway"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -517,14 +531,16 @@
               {
                 "Text": "can only accept PayPal payments"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Website Payments standard:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -571,7 +587,8 @@
               {
                 "Text": "combined merchant account and gateway"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -595,14 +612,16 @@
               {
                 "Text": "can only accept credit card payments"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
           {
             "Text": "Website Payments pro:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -626,7 +645,8 @@
           {
             "Text": "PayFlow Pro - a standard gateway that works with any internet merchant account"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -650,7 +670,8 @@
           {
             "Text": "PayPal is simpler and can even be cheaper. Downside: they will oftentimes hold back up to 25% of your proceeds for three months as a fraud prevention/risk management effort"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -674,7 +695,8 @@
           {
             "Text": "Other options:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -711,7 +733,8 @@
           {
             "Text": " helps to outsource subscription billings. Doesn’t require merchant account or payment gateway."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -754,7 +777,8 @@
           {
             "Text": ")"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "How to accept online payments ",
@@ -765,7 +789,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

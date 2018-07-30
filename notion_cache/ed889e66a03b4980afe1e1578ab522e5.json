@@ -64,7 +64,8 @@
           {
             "Text": "Links:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -95,7 +96,8 @@
             "Text": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
             "Link": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -126,7 +128,8 @@
             "Text": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html",
             "Link": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -157,7 +160,8 @@
             "Text": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html",
             "Link": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -181,7 +185,8 @@
           {
             "Text": "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -205,7 +210,8 @@
           {
             "Text": "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -229,7 +235,8 @@
           {
             "Text": "http://blog.tjll.net/ssh-kung-fu/, https://news.ycombinator.com/item?id=7658459"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -253,7 +260,8 @@
           {
             "Text": "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/, https://news.ycombinator.com/item?id=7973202"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -309,7 +317,8 @@
               {
                 "Text": "-f : runs in background, have to then kill ssh process"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -333,7 +342,8 @@
               {
                 "Text": "-N : don't execute any commands"
               }
-            ]
+            ],
+            "format_video": null
           },
           {
             "alive": true,
@@ -357,7 +367,8 @@
               {
                 "Text": "\n\n\n—\nssh-add -K ~/.ssh/key_rsa : this makes openssh understand the key"
               }
-            ]
+            ],
+            "format_video": null
           }
         ],
         "inline_content": [
@@ -368,7 +379,8 @@
           {
             "Text": " : port forward local port 4406 to remote 3306"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -392,7 +404,8 @@
           {
             "Text": "A trick I learned recently: create .ssh/config\nFile format: as many of the following blocks as you like"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -416,7 +429,8 @@
           {
             "Text": "Host $ALIAS \u003c-- whatever you want here\nHostname www.example.com\nUser someuser\nPort 1234\nYou can now ssh to that server as that user by doing \"ssh $ALIAS\" on the command line, without needing to specify the port or user with the usual command line arguments, or necessarily spell out the entire host name."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -440,7 +454,8 @@
           {
             "Text": "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -464,7 +479,8 @@
           {
             "Text": "ssh-keygen -t rsa -N '' -f test_rsa_key"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -488,7 +504,8 @@
           {
             "Text": "ssh-keygen -t rsa -b 4096 -C \"kkowalczyk@gmail.com\" -f key_name"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -512,7 +529,8 @@
           {
             "Text": "Only send a specific key to the server. In .ssh/config:\nIgnore SSH keys unless specified in Host subsection\nIdentitiesOnly yes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -536,7 +554,8 @@
           {
             "Text": "Send your public key to github only"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -560,7 +579,8 @@
           {
             "Text": "Host github.com\nIdentityFile ~/.ssh/id_rsa"
           }
-        ]
+        ],
+        "format_video": null
       }
     ],
     "title": "ssh",
@@ -571,7 +591,8 @@
       "page_full_width": true,
       "page_icon": "",
       "page_small_text": true
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {

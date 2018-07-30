@@ -105,7 +105,8 @@
           {
             "Text": "Id: vkeR"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -129,7 +130,8 @@
           {
             "Text": "Tags: go"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -153,7 +155,8 @@
           {
             "Text": "CreatedAt: 2017-07-09T03:59:28Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -177,7 +180,8 @@
           {
             "Text": "UpdatedAt: 2017-07-09T20:46:20Z"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -201,7 +205,8 @@
           {
             "Text": "PublishedOn: 2017-07-17"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -225,7 +230,8 @@
           {
             "Text": "Collection: go-cookbook"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -249,7 +255,8 @@
           {
             "Text": "Description: Usage, design and implementation of simple serialization format for logging and analytics in Go."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -261,7 +268,8 @@
         "parent_id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       },
       {
         "alive": true,
@@ -286,7 +294,8 @@
           {
             "Text": "I was looking to save multiple records with somewhat flexible schema to a file. Go has plenty of options but I couldn’t find anything that was just right."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -311,7 +320,8 @@
           {
             "Text": "My desired features were:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -371,7 +381,8 @@
           {
             "Text": " to look at the file"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -395,7 +406,8 @@
           {
             "Text": "records are not fixed i.e. can have variable number of fields"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -419,7 +431,8 @@
           {
             "Text": "no need to support nested records"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -443,7 +456,8 @@
           {
             "Text": "allows for simple and efficient implementation"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -468,7 +482,8 @@
           {
             "Text": "Here are some most popular available options and why they don’t exactly fit the bill:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -492,7 +507,8 @@
           {
             "Text": "csv - efficient but uses fixed records; not very readable if there are many fields on a single line"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -516,7 +532,8 @@
           {
             "Text": "json - not very readable"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -540,7 +557,8 @@
           {
             "Text": "protocol buffers - binary so unreadable; needs up-front scheme"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -584,7 +602,8 @@
           {
             "Text": " (which stands for Simple Serialization)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -609,7 +628,8 @@
           {
             "Text": "You’ll not be surprised by how it looks:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -636,7 +656,8 @@
         "type": "code",
         "version": 1,
         "code": "url: http://blog.kowalczyk.info/index.html\ncode: 200\nlarge field:+13789\nthis is large data, 13789 bytes in size...\n---",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -661,7 +682,8 @@
           {
             "Text": "It’s a typical key/value serialization with one neat feature: support for large data (e.g. an image or long text)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -704,7 +726,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -729,7 +752,8 @@
           {
             "Text": "If the value is larger than 120 bytes or is not ascii text (with bytes outside of 32-127 range), I serialize it as large value:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -756,7 +780,8 @@
         "type": "code",
         "version": 1,
         "code": "${key}:+${value_length}\\n\n${value}\\n",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -799,7 +824,8 @@
           {
             "Text": "."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -824,7 +850,8 @@
           {
             "Text": "I use this format for 2 main purposes:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -848,7 +875,8 @@
           {
             "Text": "structured logging to help in debugging"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -872,7 +900,8 @@
           {
             "Text": "logging events for analytics"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -897,7 +926,8 @@
           {
             "Text": "Using the library"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -922,7 +952,8 @@
           {
             "Text": "When used for analytics, each record represents an event. I save the events to a file and later on process the whole file record-by-record and calculate desired statistics."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -947,7 +978,8 @@
           {
             "Text": "Here’s how we would log info about HTTP requests:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -974,7 +1006,8 @@
         "type": "code",
         "version": 3,
         "code": "func logHTTPRequest(w io.Writer, url string, ipAddr string, statusCode int) error {\n    var r siser.Record\n    // you can append multiple key/value pairs at once\n    r.Append(\"url\", url, \"ipaddr\", ipAddr)\n    // or assemble with multiple calls\n    r.Append(\"code\", strconv.Itoa(statusCode))\n    /// ... more fields\n    d := r.Marshal()\n    _, err := w.Write(d)\n    return err\n}",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1018,7 +1051,8 @@
           {
             "Text": " of logging HTTP requests."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1061,7 +1095,8 @@
           {
             "Text": " file. Here’s how we would process the records:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1088,7 +1123,8 @@
         "type": "code",
         "version": 3,
         "code": "f, err := os.Open(\"http_access.log\")\npanicIfErr(err)\ndefer f.Close()\nr := siser.NewReader(f)\nfor r.ReadNext() {\n    _, record := r.Record()\n    code, ok := r.Get(\"code\")\n    // get rest of values and do something with them\n}\npanicIfErr(r.Err())",
-        "code_language": "Go"
+        "code_language": "Go",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1132,7 +1168,8 @@
           {
             "Text": " of calculating basic daily statistics on HTTP requests (most frequently visited pages, most frequent 404s, most frequent referrers)."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1157,7 +1194,8 @@
           {
             "Text": "Annoyances"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1182,7 +1220,8 @@
           {
             "Text": "The library doesn’t offer marshaling directly to/from structs. Could be added with a bit of reflection."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1243,7 +1282,8 @@
           {
             "Text": ". You have to convert them to/from string yourself."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1268,7 +1308,8 @@
           {
             "Text": "Implementation notes"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1293,7 +1334,8 @@
           {
             "Text": "Some implementation decisions were made with performance in mind."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1336,7 +1378,8 @@
           {
             "Text": " as argument to encode/decode functions."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1397,7 +1440,8 @@
           {
             "Text": ". A slice can be reused across multiple records. We can clear by re-slicing as empty slice and reusing underlying array. A map would require allocating a new instance for each record, which would create a lot of work for garbage collector."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1440,7 +1484,8 @@
           {
             "Text": " method to get the benefit of efficient re-use of the record."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1483,7 +1528,8 @@
           {
             "Text": " uses this optimization internally."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1508,7 +1554,8 @@
           {
             "Text": "The format avoids the need for escaping keys and values, which helps in making encoding/decoding fast."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1570,7 +1617,8 @@
           {
             "Text": ". It’s about 30% faster:"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1597,7 +1645,8 @@
         "type": "code",
         "version": 1,
         "code": "$ go test -bench=.\nBenchmarkSiserMarshal-8          1000000          2108 ns/op\nBenchmarkJSONMarshal-8            500000          3181 ns/op\n\nBenchmarkSiserUnmarshal-8         500000          2908 ns/op\nBenchmarkJSONUnmarshal-8          200000          7482 ns/op",
-        "code_language": "Plain Text"
+        "code_language": "Plain Text",
+        "format_video": null
       },
       {
         "alive": true,
@@ -1622,7 +1671,8 @@
           {
             "Text": "The format is binary-safe and works for serializing large values e.g. you can serialize png image"
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1647,7 +1697,8 @@
           {
             "Text": "It’s also very easy to implement in any language."
           }
-        ]
+        ],
+        "format_video": null
       },
       {
         "alive": true,
@@ -1659,7 +1710,8 @@
         "parent_id": "8e16d4f1-ebb9-4b4d-a935-3aed30369f5c",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 4,
+        "format_video": null
       }
     ],
     "title": "Simple serialization format for logging and analytics in Go",
@@ -1671,7 +1723,8 @@
       "page_icon": "",
       "page_small_text": true,
       "page_cover_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0f48d897-88a6-4289-b6cd-6154fbe8312c%2Fheader-14.jpg"
-    }
+    },
+    "format_video": null
   },
   "Users": [
     {
