@@ -7,7 +7,6 @@
       "10f8932f-c31b-43d2-9d5b-d090ed096264",
       "bbf9507b-2ca7-4fc0-a0fd-583b40abbdfe",
       "a863c05b-9961-4fdb-9677-35ad0a52b6aa",
-      "a9db9a6e-9b77-401b-9bfd-c67c95bf031e",
       "ba51eda9-5969-496d-a45c-e52dad0e74a6",
       "9b86554d-a122-4b7f-b4d2-24ad97b0d775",
       "c3766a69-406c-482b-92ba-03246ade0277",
@@ -31,6 +30,7 @@
       "5f01d64e-e102-4ea8-ba6d-35731f0f5af3",
       "9401ecf0-dd7d-4251-887e-4b76cb00f880",
       "141ed7e7-bee3-4875-8f71-b80dc34eeab2",
+      "8c9925c4-32b9-41c7-a4b1-c9c2c14c0006",
       "790cf11e-f7e1-4d2d-b9ec-424a8e677314",
       "0766b60d-c1a8-4e4e-977f-c14edcfea2b7",
       "096fd318-5ae8-4e8a-9a5d-2c5b473bace7",
@@ -38,7 +38,6 @@
       "acd49162-335b-4c90-9afe-86dd0a42bd44",
       "0c430be9-1f4b-4bf7-9710-a17ed66846b2",
       "573d7116-684d-437c-bb60-232a9c545c65",
-      "9e5ace35-fc8e-47b0-ba21-d7032ea8bebd",
       "cfabbd2a-b98b-4b14-9fa8-9f11b335cf8a",
       "7b9cee5a-4e2c-44ef-8c7a-f0430960eafb",
       "efecd06c-b108-45c3-aa5f-1cd98a761364",
@@ -67,7 +66,7 @@
     },
     "id": "a8cf04d7-56ec-4963-9059-60822b004440",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996402379,
+    "last_edited_time": 1533002436977,
     "parent_id": "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
     "parent_table": "block",
     "properties": {
@@ -78,7 +77,7 @@
       ]
     },
     "type": "page",
-    "version": 492,
+    "version": 498,
     "content_resolved": [
       {
         "alive": true,
@@ -146,7 +145,7 @@
         "created_time": 1513641622189,
         "id": "a863c05b-9961-4fdb-9677-35ad0a52b6aa",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992356159,
+        "last_edited_time": 1533002436977,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
@@ -169,7 +168,7 @@
           ]
         },
         "type": "text",
-        "version": 746,
+        "version": 748,
         "inline_content": [
           {
             "Text": "The last iteration of this blog was a Go program running on "
@@ -182,18 +181,6 @@
             "Text": "'s cheapest VM ($5/month). "
           }
         ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532989422340,
-        "id": "a9db9a6e-9b77-401b-9bfd-c67c95bf031e",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532989422340,
-        "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
-        "parent_table": "block",
-        "type": "text",
-        "version": 6
       },
       {
         "alive": true,
@@ -225,13 +212,13 @@
         "created_time": 1532989440122,
         "id": "9b86554d-a122-4b7f-b4d2-24ad97b0d775",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532990662145,
+        "last_edited_time": 1533002486848,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I moved hosting to a static site hosted on "
+              "I converted it to a static site hosted on "
             ],
             [
               "Netlify",
@@ -245,10 +232,10 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 203,
+        "version": 269,
         "inline_content": [
           {
-            "Text": "I moved hosting to a static site hosted on "
+            "Text": "I converted it to a static site hosted on "
           },
           {
             "Text": "Netlify",
@@ -262,7 +249,7 @@
         "created_time": 1532989487185,
         "id": "c3766a69-406c-482b-92ba-03246ade0277",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532990673501,
+        "last_edited_time": 1533002460880,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
@@ -280,12 +267,12 @@
               ]
             ],
             [
-              " for writing the posts instead of editing markdown files"
+              " for writing the posts instead of writing markdown files in a text editor"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 230,
+        "version": 296,
         "inline_content": [
           {
             "Text": "I used "
@@ -295,7 +282,7 @@
             "Link": "https://notion.so"
           },
           {
-            "Text": " for writing the posts instead of editing markdown files"
+            "Text": " for writing the posts instead of writing markdown files in a text editor"
           }
         ]
       },
@@ -768,7 +755,7 @@
         "created_time": 1532990467702,
         "id": "5f01d64e-e102-4ea8-ba6d-35731f0f5af3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532990746045,
+        "last_edited_time": 1533002378813,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
@@ -822,12 +809,24 @@
               ]
             ],
             [
-              " etc."
+              " and "
+            ],
+            [
+              "many others",
+              [
+                [
+                  "a",
+                  "https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2"
+                ]
+              ]
+            ],
+            [
+              "."
             ]
           ]
         },
         "type": "text",
-        "version": 279,
+        "version": 315,
         "inline_content": [
           {
             "Text": "Luckily there are plenty of options to host a static website so even if Netlify goes under, it'll be easy to move somewhere else, like "
@@ -858,7 +857,14 @@
             "Link": "https://about.gitlab.com/features/pages/"
           },
           {
-            "Text": " etc."
+            "Text": " and "
+          },
+          {
+            "Text": "many others",
+            "Link": "https://www.notion.so/c674bebe8adf44d18c3a36cc18c131e2"
+          },
+          {
+            "Text": "."
           }
         ]
       },
@@ -892,23 +898,35 @@
         "created_time": 1532992565732,
         "id": "141ed7e7-bee3-4875-8f71-b80dc34eeab2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992579962,
+        "last_edited_time": 1533000912858,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The easier it is to write, the more I'll write. Therefore I put a lot of effort in making a custom publishing pipeline to make writing as easy as possible."
+              "The easier it is to write, the more I write."
             ]
           ]
         },
         "type": "text",
-        "version": 39,
+        "version": 49,
         "inline_content": [
           {
-            "Text": "The easier it is to write, the more I'll write. Therefore I put a lot of effort in making a custom publishing pipeline to make writing as easy as possible."
+            "Text": "The easier it is to write, the more I write."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533000911410,
+        "id": "8c9925c4-32b9-41c7-a4b1-c9c2c14c0006",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533000911410,
+        "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
       },
       {
         "alive": true,
@@ -916,21 +934,21 @@
         "created_time": 1532992580315,
         "id": "790cf11e-f7e1-4d2d-b9ec-424a8e677314",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992592849,
+        "last_edited_time": 1533000920253,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I failed."
+              "I failed the \"as easy as possible\" part."
             ]
           ]
         },
         "type": "text",
-        "version": 28,
+        "version": 106,
         "inline_content": [
           {
-            "Text": "I failed."
+            "Text": "I failed the \"as easy as possible\" part."
           }
         ]
       },
@@ -964,21 +982,21 @@
         "created_time": 1532992688674,
         "id": "096fd318-5ae8-4e8a-9a5d-2c5b473bace7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992721155,
+        "last_edited_time": 1533000969435,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "In real life it's enough of a friction to significantly deter me from writing. In my worst year I only wrote 1 new article."
+              "In practice it's enough friction to deter me from writing. In my worst year I only wrote 1 new blog post."
             ]
           ]
         },
         "type": "text",
-        "version": 226,
+        "version": 358,
         "inline_content": [
           {
-            "Text": "In real life it's enough of a friction to significantly deter me from writing. In my worst year I only wrote 1 new article."
+            "Text": "In practice it's enough friction to deter me from writing. In my worst year I only wrote 1 new blog post."
           }
         ]
       },
@@ -988,21 +1006,21 @@
         "created_time": 1532992721465,
         "id": "2f073a1a-df87-44f2-a0cd-8ede68019013",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992818331,
+        "last_edited_time": 1533000994536,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "In a perfect world I would open an app, start writing and publish with a click of a button."
+              "fIn a perfect world I would open an app and start writing. When I'm done writing I would publish with a click of a button."
             ]
           ]
         },
         "type": "text",
-        "version": 428,
+        "version": 518,
         "inline_content": [
           {
-            "Text": "In a perfect world I would open an app, start writing and publish with a click of a button."
+            "Text": "fIn a perfect world I would open an app and start writing. When I'm done writing I would publish with a click of a button."
           }
         ]
       },
@@ -1073,33 +1091,21 @@
         "created_time": 1532993915146,
         "id": "573d7116-684d-437c-bb60-232a9c545c65",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993915146,
-        "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
-        "parent_table": "block",
-        "type": "text",
-        "version": 6
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532992929698,
-        "id": "9e5ace35-fc8e-47b0-ba21-d7032ea8bebd",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532992999891,
+        "last_edited_time": 1533001030433,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The problem is: all that content is trapped in Notion. They have a way to publish a page but I want more flexibility that they offer:"
+              "The problem is: all that content is trapped in Notion. You can publish (publicly share) a page but I want more flexibility:"
             ]
           ]
         },
         "type": "text",
-        "version": 424,
+        "version": 196,
         "inline_content": [
           {
-            "Text": "The problem is: all that content is trapped in Notion. They have a way to publish a page but I want more flexibility that they offer:"
+            "Text": "The problem is: all that content is trapped in Notion. You can publish (publicly share) a page but I want more flexibility:"
           }
         ]
       },
@@ -1109,21 +1115,21 @@
         "created_time": 1532993000103,
         "id": "cfabbd2a-b98b-4b14-9fa8-9f11b335cf8a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993013263,
+        "last_edited_time": 1533001086154,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I want it hosted on my own domain"
+              "I want to host on my own domain; my website is partly a tool for marketing myself"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 91,
+        "version": 295,
         "inline_content": [
           {
-            "Text": "I want it hosted on my own domain"
+            "Text": "I want to host on my own domain; my website is partly a tool for marketing myself"
           }
         ]
       },
@@ -1133,21 +1139,21 @@
         "created_time": 1532993013632,
         "id": "7b9cee5a-4e2c-44ef-8c7a-f0430960eafb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993023008,
+        "last_edited_time": 1533001103274,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I want to plug Google Analytics"
+              "I want integration with Google Analytics"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 80,
+        "version": 130,
         "inline_content": [
           {
-            "Text": "I want to plug Google Analytics"
+            "Text": "I want integration with Google Analytics"
           }
         ]
       },
@@ -1205,21 +1211,21 @@
         "created_time": 1532993039431,
         "id": "44506055-483c-475b-9f3e-bd0671eddeba",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993117202,
+        "last_edited_time": 1533001121744,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Thankfully I'm a programmer. If something can be done with software, I can do it."
+              "Thankfully I'm a programmer: if something can be done with software, I can do it."
             ]
           ]
         },
         "type": "text",
-        "version": 182,
+        "version": 190,
         "inline_content": [
           {
-            "Text": "Thankfully I'm a programmer. If something can be done with software, I can do it."
+            "Text": "Thankfully I'm a programmer: if something can be done with software, I can do it."
           }
         ]
       },
@@ -1229,21 +1235,21 @@
         "created_time": 1532993117841,
         "id": "10ed8530-ee7d-4b96-a947-596cdf85438a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993147474,
+        "last_edited_time": 1533001147000,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I started a one-man Notion Liberation Front with the goal of liberating content trapped inside Notion."
+              "I started a one-man Notion Liberation Front. My goal: liberate content trapped inside Notion."
             ]
           ]
         },
         "type": "text",
-        "version": 230,
+        "version": 292,
         "inline_content": [
           {
-            "Text": "I started a one-man Notion Liberation Front with the goal of liberating content trapped inside Notion."
+            "Text": "I started a one-man Notion Liberation Front. My goal: liberate content trapped inside Notion."
           }
         ]
       },
@@ -1253,7 +1259,7 @@
         "created_time": 1532993147720,
         "id": "7eb7882f-4598-45f2-8ebe-9070dca720d9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532993344059,
+        "last_edited_time": 1533001187247,
         "parent_id": "a8cf04d7-56ec-4963-9059-60822b004440",
         "parent_table": "block",
         "properties": {
@@ -1283,10 +1289,10 @@
               ]
             ],
             [
-              " and after another round of code refactoring I had my blog powered by Notion thanks to a"
+              " and after another round of code refactoring I had my blog powered by Notion thanks to this "
             ],
             [
-              " Go program",
+              "Go program",
               [
                 [
                   "a",
@@ -1300,7 +1306,7 @@
           ]
         },
         "type": "text",
-        "version": 460,
+        "version": 474,
         "inline_content": [
           {
             "Text": "I "
@@ -1317,10 +1323,10 @@
             "Link": "https://github.com/kjk/notionapi"
           },
           {
-            "Text": " and after another round of code refactoring I had my blog powered by Notion thanks to a"
+            "Text": " and after another round of code refactoring I had my blog powered by Notion thanks to this "
           },
           {
-            "Text": " Go program",
+            "Text": "Go program",
             "Link": "https://github.com/kjk/blog"
           },
           {
