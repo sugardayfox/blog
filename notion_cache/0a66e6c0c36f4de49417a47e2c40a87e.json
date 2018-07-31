@@ -3,6 +3,7 @@
   "Root": {
     "alive": true,
     "content": [
+      "11ac3e8d-846e-4dd8-802d-6c064e69a86c",
       "c8a37419-87fb-4824-b3e7-4d849bfb6527",
       "39d2221f-99c5-488b-aa0c-e46f576d1c7c",
       "65f45408-89b8-4f38-a754-621f4f7878fc",
@@ -27,7 +28,7 @@
     },
     "id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532920605380,
+    "last_edited_time": 1533007665144,
     "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "parent_table": "block",
     "properties": {
@@ -38,19 +39,153 @@
       ]
     },
     "type": "page",
-    "version": 137,
+    "version": 147,
     "content_resolved": [
       {
         "alive": true,
         "content": [
+          "0078219e-7292-48ae-bb9e-dde6897e22a9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533007579439,
+        "id": "11ac3e8d-846e-4dd8-802d-6c064e69a86c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533007664392,
+        "parent_id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-07-30 Mon"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 51,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "072e2c5a-efa0-4fce-8fe4-a9fe64306629",
+              "c9da8076-0312-4d52-8070-fb5c27ee6a51"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533007584735,
+            "id": "0078219e-7292-48ae-bb9e-dde6897e22a9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533007663716,
+            "parent_id": "11ac3e8d-846e-4dd8-802d-6c064e69a86c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 58,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1533007591549,
+                "id": "072e2c5a-efa0-4fce-8fe4-a9fe64306629",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1533007605716,
+                "parent_id": "0078219e-7292-48ae-bb9e-dde6897e22a9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "wrote "
+                    ],
+                    [
+                      "https://blog.kowalczyk.info/article/a8cf04d756ec4963905960822b004440/powering-a-blog-with-notion-and-netlify.html",
+                      [
+                        [
+                          "a",
+                          "https://blog.kowalczyk.info/article/a8cf04d756ec4963905960822b004440/powering-a-blog-with-notion-and-netlify.html"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 23,
+                "inline_content": [
+                  {
+                    "Text": "wrote "
+                  },
+                  {
+                    "Text": "https://blog.kowalczyk.info/article/a8cf04d756ec4963905960822b004440/powering-a-blog-with-notion-and-netlify.html",
+                    "Link": "https://blog.kowalczyk.info/article/a8cf04d756ec4963905960822b004440/powering-a-blog-with-notion-and-netlify.html"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1533007620395,
+                "id": "c9da8076-0312-4d52-8070-fb5c27ee6a51",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1533007665144,
+                "parent_id": "0078219e-7292-48ae-bb9e-dde6897e22a9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "wrote "
+                    ],
+                    [
+                      "https://blog.kowalczyk.info/article/c674bebe8adf44d18c3a36cc18c131e2/web-services-for-hosting-static-websites.html",
+                      [
+                        [
+                          "a",
+                          "https://blog.kowalczyk.info/article/c674bebe8adf44d18c3a36cc18c131e2/web-services-for-hosting-static-websites.html"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 22,
+                "inline_content": [
+                  {
+                    "Text": "wrote "
+                  },
+                  {
+                    "Text": "https://blog.kowalczyk.info/article/c674bebe8adf44d18c3a36cc18c131e2/web-services-for-hosting-static-websites.html",
+                    "Link": "https://blog.kowalczyk.info/article/c674bebe8adf44d18c3a36cc18c131e2/web-services-for-hosting-static-websites.html"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "blog"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-07-30 Mon"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
           "8cf8cb47-f709-478a-8252-000601b8b6fa",
+          "8c3ea4b9-16c4-4692-9991-166f60272162",
           "c919e629-7977-4ece-8883-cc80ba2d1d72"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532920583937,
         "id": "c8a37419-87fb-4824-b3e7-4d849bfb6527",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532925291649,
+        "last_edited_time": 1533007667953,
         "parent_id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
         "parent_table": "block",
         "properties": {
@@ -61,7 +196,7 @@
           ]
         },
         "type": "toggle",
-        "version": 49,
+        "version": 51,
         "content_resolved": [
           {
             "alive": true,
@@ -84,6 +219,30 @@
             "inline_content": [
               {
                 "Text": "ravendb: ContainsTest"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533007667953,
+            "id": "8c3ea4b9-16c4-4692-9991-166f60272162",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533007674908,
+            "parent_id": "c8a37419-87fb-4824-b3e7-4d849bfb6527",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "blog: handle youtube embeds"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 60,
+            "inline_content": [
+              {
+                "Text": "blog: handle youtube embeds"
               }
             ]
           },
