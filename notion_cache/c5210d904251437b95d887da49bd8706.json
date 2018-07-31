@@ -9,7 +9,8 @@
       "b0555535-f112-41b6-90cb-4f48950aa805",
       "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
       "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
-      "faee2a22-caec-4431-aa56-72428399c78d"
+      "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
+      "a8dd73fc-6497-49e7-9378-6341a70e5f5a"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531194475639,
@@ -19,7 +20,7 @@
     },
     "id": "c5210d90-4251-437b-95d8-87da49bd8706",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532671460998,
+    "last_edited_time": 1532995165615,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -30,7 +31,7 @@
       ]
     },
     "type": "page",
-    "version": 105,
+    "version": 112,
     "content_resolved": [
       {
         "alive": true,
@@ -227,10 +228,42 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531194521162,
-        "id": "faee2a22-caec-4431-aa56-72428399c78d",
+        "created_time": 1532991467423,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531194521162,
+        "last_edited_time": 1532995904758,
+        "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Web services for hosting static websites"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 290,
+        "title": "Web services for hosting static websites",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532995162309,
+        "id": "a8dd73fc-6497-49e7-9378-6341a70e5f5a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1532995162309,
         "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
         "parent_table": "block",
         "type": "text",
