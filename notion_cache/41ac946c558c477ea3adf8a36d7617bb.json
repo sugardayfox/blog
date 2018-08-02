@@ -118,13 +118,14 @@
           "d11c9290-2cda-4e9f-a63b-bdf3f521584b",
           "fd2b80ef-7f26-4e1b-b612-749664275849",
           "a53f48bc-8e74-485a-936f-4b49e31488f4",
-          "9443d318-9dd7-4cdc-b45d-5b1f33e637c0"
+          "9443d318-9dd7-4cdc-b45d-5b1f33e637c0",
+          "e4fe57eb-1767-4bb4-8539-704481902a73"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514858026918,
         "id": "426bd02f-aacb-45bd-a0a6-d38876596ae0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531717990108,
+        "last_edited_time": 1533163075814,
         "parent_id": "41ac946c-558c-477e-a3ad-f8a36d7617bb",
         "parent_table": "block",
         "properties": {
@@ -135,7 +136,7 @@
           ]
         },
         "type": "toggle",
-        "version": 195,
+        "version": 197,
         "content_resolved": [
           {
             "alive": true,
@@ -636,6 +637,43 @@
               {
                 "Text": "https://www.serverdensity.com/",
                 "Link": "https://www.serverdensity.com/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533163075814,
+            "id": "e4fe57eb-1767-4bb4-8539-704481902a73",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533163114097,
+            "parent_id": "426bd02f-aacb-45bd-a0a6-d38876596ae0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.elementform.com/",
+                  [
+                    [
+                      "a",
+                      "https://www.elementform.com/"
+                    ]
+                  ]
+                ],
+                [
+                  " : simple landing page"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 100,
+            "inline_content": [
+              {
+                "Text": "https://www.elementform.com/",
+                "Link": "https://www.elementform.com/"
+              },
+              {
+                "Text": " : simple landing page"
               }
             ]
           }
