@@ -12,12 +12,15 @@
       "3ea80570-7068-45da-929b-d03f5a5c9e0c",
       "82087a27-1110-4386-b121-4e6ad349db46",
       "f3d71a9c-879d-4907-b954-72e0564f59be",
-      "8b1a1e99-5474-4f0c-8f41-726a9f79f5b2",
       "2b583337-592d-4a80-b479-59b30758bfca",
-      "8a51ad79-8217-4c8f-919a-412242e94419",
+      "9f3c9ff9-d228-4c39-9115-45ec2a309e80",
       "9b9709c5-1d5f-4fe8-bd56-893817660fbc",
       "350c1144-7a02-4b97-aa9b-9e5a5215312c",
-      "53f48de6-c267-4ee6-9019-9c403e887886"
+      "00d71e77-9409-472c-ba82-c45658c97da8",
+      "53f48de6-c267-4ee6-9019-9c403e887886",
+      "8bb14a30-1f4b-44a0-8a8f-214f32440153",
+      "78651cdd-bd7b-4abf-8ea1-3f24a6b1f77a",
+      "92eb6975-6711-4ca3-882e-529267db4d4e"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530157236118,
@@ -28,7 +31,7 @@
     "id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996254072,
+    "last_edited_time": 1533279874708,
     "parent_id": "7e948259-8dd7-4bf7-8f03-a7833279f444",
     "parent_table": "block",
     "properties": {
@@ -39,7 +42,7 @@
       ]
     },
     "type": "page",
-    "version": 67,
+    "version": 85,
     "content_resolved": [
       {
         "alive": true,
@@ -72,21 +75,21 @@
         "created_time": 1530347562359,
         "id": "e96fcda6-0c67-42a7-a192-5a304af84167",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531127726648,
+        "last_edited_time": 1533279589098,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Date: 2002-07-19T04:08:30-07:00"
+              "Date: 2002-07-19"
             ]
           ]
         },
         "type": "text",
-        "version": 12,
+        "version": 14,
         "inline_content": [
           {
-            "Text": "Date: 2002-07-19T04:08:30-07:00"
+            "Text": "Date: 2002-07-19"
           }
         ]
       },
@@ -132,13 +135,13 @@
         "created_time": 1530347571871,
         "id": "5ab8e94b-a203-4392-b9f3-d6e36eb9b96e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530347571888,
+        "last_edited_time": 1533279561774,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "One of the most popular open source myths is "
+              "One of the popular open source myths is "
             ],
             [
               "ESR’s oft-quoted statement",
@@ -155,10 +158,10 @@
           ]
         },
         "type": "text",
-        "version": 6,
+        "version": 16,
         "inline_content": [
           {
-            "Text": "One of the most popular open source myths is "
+            "Text": "One of the popular open source myths is "
           },
           {
             "Text": "ESR’s oft-quoted statement",
@@ -201,21 +204,21 @@
         "id": "3ea80570-7068-45da-929b-d03f5a5c9e0c",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236116,
+        "last_edited_time": 1533279460344,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "There are 2 issues with that sentiment."
+              "There are 2 problems with that sentiment."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 22,
         "inline_content": [
           {
-            "Text": "There are 2 issues with that sentiment."
+            "Text": "There are 2 problems with that sentiment."
           }
         ]
       },
@@ -251,46 +254,21 @@
         "id": "f3d71a9c-879d-4907-b954-72e0564f59be",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236117,
+        "last_edited_time": 1533279545426,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "It doesn’t matter how many accountants look at my code. Their eyeballs will not notice even a single bug."
+              "It doesn’t matter how many accountants look at my code. Their eyeballs will not find a single bug because accountants don't understand code."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 242,
         "inline_content": [
           {
-            "Text": "It doesn’t matter how many accountants look at my code. Their eyeballs will not notice even a single bug."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530157236117,
-        "id": "8b1a1e99-5474-4f0c-8f41-726a9f79f5b2",
-        "ignore_block_count": true,
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236117,
-        "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "They could just as well trying to read ancient Sumerian manuscript."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "They could just as well trying to read ancient Sumerian manuscript."
+            "Text": "It doesn’t matter how many accountants look at my code. Their eyeballs will not find a single bug because accountants don't understand code."
           }
         ]
       },
@@ -322,25 +300,24 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530157236117,
-        "id": "8a51ad79-8217-4c8f-919a-412242e94419",
-        "ignore_block_count": true,
+        "created_time": 1533279623638,
+        "id": "9f3c9ff9-d228-4c39-9115-45ec2a309e80",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236117,
+        "last_edited_time": 1533279685723,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Advocates could claim that open source is inherently better, more secure and has less bugs if majority of programmers were dying to look at the (open) source code and contribute code, bug fixes and documentation."
+              "The theory is that open source is better, more secure and has less bugs because many programmers read the code and contribute back more code, bug fixes and documentation."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 376,
         "inline_content": [
           {
-            "Text": "Advocates could claim that open source is inherently better, more secure and has less bugs if majority of programmers were dying to look at the (open) source code and contribute code, bug fixes and documentation."
+            "Text": "The theory is that open source is better, more secure and has less bugs because many programmers read the code and contribute back more code, bug fixes and documentation."
           }
         ]
       },
@@ -351,21 +328,21 @@
         "id": "9b9709c5-1d5f-4fe8-bd56-893817660fbc",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236118,
+        "last_edited_time": 1533279712001,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Back in the real world: lack of contributors is the biggest problem of every open source project I’ve ever seen."
+              "In reality lack of contributors is the biggest problem of every open source project I’ve ever seen."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 60,
         "inline_content": [
           {
-            "Text": "Back in the real world: lack of contributors is the biggest problem of every open source project I’ve ever seen."
+            "Text": "In reality lack of contributors is the biggest problem of every open source project I’ve ever seen."
           }
         ]
       },
@@ -376,21 +353,45 @@
         "id": "350c1144-7a02-4b97-aa9b-9e5a5215312c",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236118,
+        "last_edited_time": 1533279783537,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Even the most sexy, most visible projects like Linux kernel, Apache or FireFox, don’t have enough developers. The smaller the project, the more desperate the contributor situation."
+              "Even the most popular, most visible projects like Linux kernel, Apache or FireFox, don’t have enough developers."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 25,
         "inline_content": [
           {
-            "Text": "Even the most sexy, most visible projects like Linux kernel, Apache or FireFox, don’t have enough developers. The smaller the project, the more desperate the contributor situation."
+            "Text": "Even the most popular, most visible projects like Linux kernel, Apache or FireFox, don’t have enough developers."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533279783537,
+        "id": "00d71e77-9409-472c-ba82-c45658c97da8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533279796010,
+        "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The smaller the project, the worse it gets."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 38,
+        "inline_content": [
+          {
+            "Text": "The smaller the project, the worse it gets."
           }
         ]
       },
@@ -401,13 +402,61 @@
         "id": "53f48de6-c267-4ee6-9019-9c403e887886",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530157236118,
+        "last_edited_time": 1533279438164,
         "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "This has real life consequences: * commercial software does have programmers working full time on the software so the amount of eyeballing the code is usually higher in commercial software than in your average open source project * if you want eyeballs on "
+              "This has real life consequences: "
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "This has real life consequences: "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533279438164,
+        "id": "8bb14a30-1f4b-44a0-8a8f-214f32440153",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533279866323,
+        "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "commercial software has full-time programmers working on the code. There are more eyeballs looking at commercial code than looking at open-source code"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 362,
+        "inline_content": [
+          {
+            "Text": "commercial software has full-time programmers working on the code. There are more eyeballs looking at commercial code than looking at open-source code"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533279443809,
+        "id": "78651cdd-bd7b-4abf-8ea1-3f24a6b1f77a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533279874235,
+        "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "if you want eyeballs on "
             ],
             [
               "your",
@@ -422,11 +471,11 @@
             ]
           ]
         },
-        "type": "text",
-        "version": 1,
+        "type": "bulleted_list",
+        "version": 14,
         "inline_content": [
           {
-            "Text": "This has real life consequences: * commercial software does have programmers working full time on the software so the amount of eyeballing the code is usually higher in commercial software than in your average open source project * if you want eyeballs on "
+            "Text": "if you want eyeballs on "
           },
           {
             "Text": "your",
@@ -436,6 +485,18 @@
             "Text": " open source project, you have to plan for it"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533279874708,
+        "id": "92eb6975-6711-4ca3-882e-529267db4d4e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533279875354,
+        "parent_id": "e599e77a-5a51-4169-8af5-95272cc23fd2",
+        "parent_table": "block",
+        "type": "text",
+        "version": 8
       }
     ],
     "title": "Bugs and eyeballs",

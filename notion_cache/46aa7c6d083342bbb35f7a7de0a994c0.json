@@ -4,19 +4,19 @@
     "alive": true,
     "content": [
       "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
-      "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
-      "a9206a64-1b32-4622-af2f-f25c89133103"
+      "0a66e6c0-c36f-4de4-9417-a47e2c40a87e"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531881103374,
     "format": {
       "page_font": "mono",
+      "page_icon": "🗓",
       "page_full_width": true,
       "page_small_text": true
     },
     "id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533091368712,
+    "last_edited_time": 1533265842750,
     "parent_id": "06bc64c9-117e-4ae8-bd53-eda3c2c41dfa",
     "parent_table": "block",
     "properties": {
@@ -27,7 +27,7 @@
       ]
     },
     "type": "page",
-    "version": 47,
+    "version": 56,
     "content_resolved": [
       {
         "alive": true,
@@ -35,12 +35,13 @@
         "created_time": 1533091350009,
         "format": {
           "page_font": "mono",
+          "page_icon": "🗓",
           "page_full_width": true,
           "page_small_text": true
         },
         "id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533091367432,
+        "last_edited_time": 1533265747234,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
@@ -51,14 +52,14 @@
           ]
         },
         "type": "page",
-        "version": 51,
+        "version": 57,
         "title": "devlog 2018-08",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
           "page_font": "mono",
           "page_full_width": true,
-          "page_icon": "",
+          "page_icon": "🗓",
           "page_small_text": true
         }
       },
@@ -68,12 +69,13 @@
         "created_time": 1531881113446,
         "format": {
           "page_font": "mono",
+          "page_icon": "🗓",
           "page_full_width": true,
           "page_small_text": true
         },
         "id": "0a66e6c0-c36f-4de4-9417-a47e2c40a87e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533091314809,
+        "last_edited_time": 1533265823592,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
@@ -84,28 +86,16 @@
           ]
         },
         "type": "page",
-        "version": 153,
+        "version": 157,
         "title": "devlog 2018-07",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
           "page_font": "mono",
           "page_full_width": true,
-          "page_icon": "",
+          "page_icon": "🗓",
           "page_small_text": true
         }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1533091368712,
-        "id": "a9206a64-1b32-4622-af2f-f25c89133103",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533091368712,
-        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
       }
     ],
     "title": "devlog 2018",
@@ -114,7 +104,7 @@
       "page_cover_position": 0,
       "page_font": "mono",
       "page_full_width": true,
-      "page_icon": "",
+      "page_icon": "🗓",
       "page_small_text": true
     }
   },
