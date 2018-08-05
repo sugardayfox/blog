@@ -3,7 +3,9 @@
   "Root": {
     "alive": true,
     "content": [
-      "adc214d4-46e6-4d50-8038-5dcbd3028ddd"
+      "ef2eefdd-dd20-4213-9a06-e4b174944c10",
+      "adc214d4-46e6-4d50-8038-5dcbd3028ddd",
+      "aa61ae16-5ce6-4382-ab00-3d47fdf255ae"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1533091350009,
@@ -15,7 +17,7 @@
     },
     "id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533265747234,
+    "last_edited_time": 1533432305836,
     "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "parent_table": "block",
     "properties": {
@@ -26,19 +28,210 @@
       ]
     },
     "type": "page",
-    "version": 57,
+    "version": 73,
     "content_resolved": [
       {
         "alive": true,
+        "content": [
+          "6fab95e2-b735-4669-aa11-8908917e9395"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533432305836,
+        "id": "ef2eefdd-dd20-4213-9a06-e4b174944c10",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533432314044,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-08-04 Sat"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 43,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533432314044,
+            "id": "6fab95e2-b735-4669-aa11-8908917e9395",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533432330820,
+            "parent_id": "ef2eefdd-dd20-4213-9a06-e4b174944c10",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ravendb: more work on packet capture for investigating problems"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 193,
+            "inline_content": [
+              {
+                "Text": "ravendb: more work on packet capture for investigating problems"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-08-04 Sat"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "884cd9d2-9b5d-4ba8-bb88-548f6ec94e66",
+          "e5f5e284-ee8f-4270-a612-3cca37056051"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1533091355662,
         "id": "adc214d4-46e6-4d50-8038-5dcbd3028ddd",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533091355677,
+        "last_edited_time": 1533409257092,
         "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
         "parent_table": "block",
-        "type": "text",
-        "version": 6
+        "properties": {
+          "title": [
+            [
+              "2018-08-03 Fri"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 63,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533409172495,
+            "id": "884cd9d2-9b5d-4ba8-bb88-548f6ec94e66",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533409227780,
+            "parent_id": "adc214d4-46e6-4d50-8038-5dcbd3028ddd",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "more work on understanding pcap for http reassembly"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 144,
+            "inline_content": [
+              {
+                "Text": "more work on understanding pcap for http reassembly"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533409228045,
+            "id": "e5f5e284-ee8f-4270-a612-3cca37056051",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533409234806,
+            "parent_id": "adc214d4-46e6-4d50-8038-5dcbd3028ddd",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "opened "
+                ],
+                [
+                  "https://github.com/ga0/netgraph/issues/10",
+                  [
+                    [
+                      "a",
+                      "https://github.com/ga0/netgraph/issues/10"
+                    ]
+                  ]
+                ],
+                [
+                  ", got fixed"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 52,
+            "inline_content": [
+              {
+                "Text": "opened "
+              },
+              {
+                "Text": "https://github.com/ga0/netgraph/issues/10",
+                "Link": "https://github.com/ga0/netgraph/issues/10"
+              },
+              {
+                "Text": ", got fixed"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-08-03 Fri"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "b1300f89-76aa-458b-ba43-5267dd361b12"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533409242845,
+        "id": "aa61ae16-5ce6-4382-ab00-3d47fdf255ae",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533409259240,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-08-02 Thu"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 36,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533409259240,
+            "id": "b1300f89-76aa-458b-ba43-5267dd361b12",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533409311335,
+            "parent_id": "aa61ae16-5ce6-4382-ab00-3d47fdf255ae",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "learning gopacket for capturing packets and pretty-printing of html streams for ravendb"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 301,
+            "inline_content": [
+              {
+                "Text": "learning gopacket for capturing packets and pretty-printing of html streams for ravendb"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-08-02 Thu"
+          }
+        ]
       }
     ],
     "title": "devlog 2018-08",
