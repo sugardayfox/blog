@@ -1912,13 +1912,14 @@
           "045120a8-27e2-494c-b6cb-9abb058b1adb",
           "4b9c6f18-f678-4cd2-b212-4aefabeaceaf",
           "04a067cd-b4df-415f-855e-2d4436e48952",
-          "c8173a89-e896-43e9-ac41-61ff1d933f1b"
+          "c8173a89-e896-43e9-ac41-61ff1d933f1b",
+          "be178afd-d49f-4dd4-aa1e-1e0e6a5f07a4"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493457386113,
         "id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1493457386113,
+        "last_edited_time": 1533496980432,
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "properties": {
@@ -1929,7 +1930,7 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 2,
         "content_resolved": [
           {
             "alive": true,
@@ -2018,21 +2019,65 @@
             "created_time": 1500010030704,
             "id": "c8173a89-e896-43e9-ac41-61ff1d933f1b",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1500010030704,
+            "last_edited_time": 1533496980044,
             "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+                  "http://pliutau.com/multi-stage-dockerfile-for-golang-application/",
+                  [
+                    [
+                      "a",
+                      "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+                    ]
+                  ]
                 ]
               ]
             },
             "type": "text",
-            "version": 0,
+            "version": 6,
             "inline_content": [
               {
-                "Text": "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+                "Text": "http://pliutau.com/multi-stage-dockerfile-for-golang-application/",
+                "Link": "http://pliutau.com/multi-stage-dockerfile-for-golang-application/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533496980432,
+            "id": "be178afd-d49f-4dd4-aa1e-1e0e6a5f07a4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533497038526,
+            "parent_id": "1c3d6a50-734d-4529-a0b2-11775afc9986",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Example multi-stage docker for Go program that uses cgo: "
+                ],
+                [
+                  "https://github.com/h2non/imaginary/blob/master/Dockerfile",
+                  [
+                    [
+                      "a",
+                      "https://github.com/h2non/imaginary/blob/master/Dockerfile"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 186,
+            "inline_content": [
+              {
+                "Text": "Example multi-stage docker for Go program that uses cgo: "
+              },
+              {
+                "Text": "https://github.com/h2non/imaginary/blob/master/Dockerfile",
+                "Link": "https://github.com/h2non/imaginary/blob/master/Dockerfile"
               }
             ]
           }
@@ -2204,6 +2249,7 @@
       {
         "alive": true,
         "content": [
+          "0105b099-7b9b-4bc1-a4ac-096a2426c2b7",
           "cd85c556-9b94-457a-b952-a428e990afb6",
           "02742841-6279-4a04-be0e-7dc414956850"
         ],
@@ -2211,7 +2257,7 @@
         "created_time": 1506117864712,
         "id": "b1268def-9ddb-4061-af66-83f7aa48e152",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530605012054,
+        "last_edited_time": 1533497226946,
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "properties": {
@@ -2222,8 +2268,39 @@
           ]
         },
         "type": "toggle",
-        "version": 2,
+        "version": 4,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533497226946,
+            "id": "0105b099-7b9b-4bc1-a4ac-096a2426c2b7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533497227300,
+            "parent_id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://hakunin.com/docker-in-dev",
+                  [
+                    [
+                      "a",
+                      "http://hakunin.com/docker-in-dev"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "http://hakunin.com/docker-in-dev",
+                "Link": "http://hakunin.com/docker-in-dev"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
