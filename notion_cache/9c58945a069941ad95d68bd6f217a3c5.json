@@ -5,6 +5,7 @@
     "content": [
       "2bcbdd57-b556-4e22-b9e0-c2c3042b5d28",
       "37a7321b-ccf0-44d4-9ea5-07c184725b29",
+      "beca95fa-0e6f-4728-89f1-e0a1a68ebf08",
       "9da9fbe7-31b6-4aec-8703-ed5e085ecec6"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -15,7 +16,7 @@
     },
     "id": "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1513208457974,
+    "last_edited_time": 1533689125380,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -26,7 +27,7 @@
       ]
     },
     "type": "page",
-    "version": 3,
+    "version": 5,
     "content_resolved": [
       {
         "alive": true,
@@ -80,6 +81,37 @@
           {
             "Text": "https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d",
             "Link": "https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533689125380,
+        "id": "beca95fa-0e6f-4728-89f1-e0a1a68ebf08",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533689125857,
+        "parent_id": "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4",
+              [
+                [
+                  "a",
+                  "https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4",
+            "Link": "https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4"
           }
         ]
       },
