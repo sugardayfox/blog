@@ -2251,13 +2251,14 @@
         "content": [
           "0105b099-7b9b-4bc1-a4ac-096a2426c2b7",
           "cd85c556-9b94-457a-b952-a428e990afb6",
-          "02742841-6279-4a04-be0e-7dc414956850"
+          "02742841-6279-4a04-be0e-7dc414956850",
+          "9b175220-08de-4a69-ab57-49c1c1195043"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1506117864712,
         "id": "b1268def-9ddb-4061-af66-83f7aa48e152",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533497226946,
+        "last_edited_time": 1533771071773,
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "properties": {
@@ -2268,7 +2269,7 @@
           ]
         },
         "type": "toggle",
-        "version": 4,
+        "version": 6,
         "content_resolved": [
           {
             "alive": true,
@@ -2360,6 +2361,37 @@
               {
                 "Text": "https://advancedweb.hu/2018/07/03/supervisor_docker/",
                 "Link": "https://advancedweb.hu/2018/07/03/supervisor_docker/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533771071773,
+            "id": "9b175220-08de-4a69-ab57-49c1c1195043",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533771072052,
+            "parent_id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/",
+                  [
+                    [
+                      "a",
+                      "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/",
+                "Link": "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/"
               }
             ]
           }

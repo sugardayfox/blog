@@ -3,10 +3,14 @@
   "Root": {
     "alive": true,
     "content": [
+      "3412a616-d043-4387-afc2-3a90053bb345",
+      "4145d370-5169-4efd-b5e4-ae9802930264",
+      "cbdd392c-57dd-4fea-ab5d-e39eabe9bd8e",
       "9d4fd904-9fda-4c34-8540-010069189358",
       "ef2eefdd-dd20-4213-9a06-e4b174944c10",
       "adc214d4-46e6-4d50-8038-5dcbd3028ddd",
-      "aa61ae16-5ce6-4382-ab00-3d47fdf255ae"
+      "aa61ae16-5ce6-4382-ab00-3d47fdf255ae",
+      "ededebfe-985b-40ed-94ec-25c829d2d65b"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1533091350009,
@@ -18,7 +22,7 @@
     },
     "id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533618776249,
+    "last_edited_time": 1533779398976,
     "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "parent_table": "block",
     "properties": {
@@ -29,8 +33,126 @@
       ]
     },
     "type": "page",
-    "version": 79,
+    "version": 95,
     "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "2eff5dbf-22e8-45b2-bed4-d1bc38c989f9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533752889642,
+        "id": "3412a616-d043-4387-afc2-3a90053bb345",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533752895041,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-08-08 Wed"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 43,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533752893998,
+            "id": "2eff5dbf-22e8-45b2-bed4-d1bc38c989f9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533752901169,
+            "parent_id": "3412a616-d043-4387-afc2-3a90053bb345",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ravendb: made it work on Windows"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 82,
+            "inline_content": [
+              {
+                "Text": "ravendb: made it work on Windows"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-08-08 Wed"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533779398976,
+        "id": "4145d370-5169-4efd-b5e4-ae9802930264",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533779399836,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "type": "text",
+        "version": 8
+      },
+      {
+        "alive": true,
+        "content": [
+          "0baad36a-dbbf-4d15-bcc6-7d6be26aebd9"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533715059130,
+        "id": "cbdd392c-57dd-4fea-ab5d-e39eabe9bd8e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533715066666,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "2018-08-07 Tue"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 47,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533715066002,
+            "id": "0baad36a-dbbf-4d15-bcc6-7d6be26aebd9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533715083394,
+            "parent_id": "cbdd392c-57dd-4fea-ab5d-e39eabe9bd8e",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ravendb: porting QueryTest"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 98,
+            "inline_content": [
+              {
+                "Text": "ravendb: porting QueryTest"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "2018-08-07 Tue"
+          }
+        ]
+      },
       {
         "alive": true,
         "content": [
@@ -286,6 +408,18 @@
             "Text": "2018-08-02 Thu"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533715086328,
+        "id": "ededebfe-985b-40ed-94ec-25c829d2d65b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533715086328,
+        "parent_id": "aad8cfc1-84b0-4181-8ffe-6fabf2fada34",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "devlog 2018-08",

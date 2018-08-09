@@ -164,18 +164,10 @@
               "parent_id": "bd2f049d-b163-4416-8fdb-64d4187dc612",
               "parent_table": "block",
               "query": {
-                "aggregate": [
-                  {
-                    "aggregation_type": "count",
-                    "id": "count",
-                    "property": "title",
-                    "type": "title",
-                    "view_type": "table"
-                  }
-                ]
+                "aggregate": null
               },
               "type": "table",
-              "version": 468
+              "version": 470
             },
             "Collection": {
               "alive": true,
@@ -266,10 +258,15 @@
                 "created_time": 1530072486930,
                 "id": "a95ad27c-94da-47a5-8bcd-dd8818fd95cd",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1530073337425,
+                "last_edited_time": 1533779638723,
                 "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
                 "parent_table": "collection",
                 "properties": {
+                  "#UOR": [
+                    [
+                      "first 250 GB and 1 TB for $5"
+                    ]
+                  ],
                   "=%nE": [
                     [
                       "10.24"
@@ -287,7 +284,7 @@
                   ]
                 },
                 "type": "page",
-                "version": 205
+                "version": 273
               },
               {
                 "alive": true,
