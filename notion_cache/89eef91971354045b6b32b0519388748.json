@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "891240b5-4512-4294-b9de-54203f40f983",
+      "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
       "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
       "354e935f-c591-4c8b-8d4d-20d70e081818",
       "77f72963-3316-4dce-8aeb-cb59958cac1d",
@@ -36,7 +37,7 @@
     },
     "id": "89eef919-7135-4045-b6b3-2b0519388748",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1527300226377,
+    "last_edited_time": 1533877455166,
     "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "parent_table": "block",
     "properties": {
@@ -47,7 +48,7 @@
       ]
     },
     "type": "page",
-    "version": 70,
+    "version": 72,
     "content_resolved": [
       {
         "alive": true,
@@ -70,6 +71,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1533877455166,
+        "id": "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1533877463407,
+        "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://grid.malven.co/",
+              [
+                [
+                  "a",
+                  "http://grid.malven.co/"
+                ]
+              ]
+            ],
+            [
+              " : visual css layout"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 55,
+        "inline_content": [
+          {
+            "Text": "http://grid.malven.co/",
+            "Link": "http://grid.malven.co/"
+          },
+          {
+            "Text": " : visual css layout"
           }
         ]
       },

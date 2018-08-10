@@ -263,11 +263,36 @@
         "created_time": 1532995162309,
         "id": "a8dd73fc-6497-49e7-9378-6341a70e5f5a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532995162309,
+        "last_edited_time": 1533840263085,
         "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
         "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "CDN pricing comparison: "
+            ],
+            [
+              "https://www.cdnperf.com/tools/cdn-calculator",
+              [
+                [
+                  "a",
+                  "https://www.cdnperf.com/tools/cdn-calculator"
+                ]
+              ]
+            ]
+          ]
+        },
         "type": "text",
-        "version": 4
+        "version": 70,
+        "inline_content": [
+          {
+            "Text": "CDN pricing comparison: "
+          },
+          {
+            "Text": "https://www.cdnperf.com/tools/cdn-calculator",
+            "Link": "https://www.cdnperf.com/tools/cdn-calculator"
+          }
+        ]
       }
     ],
     "title": "Research",
