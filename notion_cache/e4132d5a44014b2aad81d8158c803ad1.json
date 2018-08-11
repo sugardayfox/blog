@@ -13128,13 +13128,15 @@
                   {
                     "alive": true,
                     "content": [
-                      "a9f981d8-5021-413c-9982-6d878146e3e5"
+                      "a9f981d8-5021-413c-9982-6d878146e3e5",
+                      "ffde39c7-7b64-4ba3-8979-d92e4e04c5d0",
+                      "f8395bdb-735d-4ff3-8027-3d6b1abb9f58"
                     ],
                     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                     "created_time": 1499373745852,
                     "id": "f66a04cb-4878-4a65-81ad-a2b59ebf8353",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1533802170691,
+                    "last_edited_time": 1533890873331,
                     "parent_id": "a4afbbc6-05d9-48c4-af26-cbc42559073b",
                     "parent_table": "block",
                     "properties": {
@@ -13145,7 +13147,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 9,
+                    "version": 13,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -13187,6 +13189,54 @@
                           },
                           {
                             "Text": " but as a web service. Allows dropping CSV file, stores it indexdb, uses web service workers to convert to a table, allows sharing by uploading to a server and generating a url that would then download the file locally if not already present, using sha1"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533890765243,
+                        "id": "ffde39c7-7b64-4ba3-8979-d92e4e04c5d0",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533890774209,
+                        "parent_id": "f66a04cb-4878-4a65-81ad-a2b59ebf8353",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "Names: ViewCSV, ShareCSV"
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 54,
+                        "inline_content": [
+                          {
+                            "Text": "Names: ViewCSV, ShareCSV"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533890873331,
+                        "id": "f8395bdb-735d-4ff3-8027-3d6b1abb9f58",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533890888197,
+                        "parent_id": "f66a04cb-4878-4a65-81ad-a2b59ebf8353",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "Could then add excel etc."
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 84,
+                        "inline_content": [
+                          {
+                            "Text": "Could then add excel etc."
                           }
                         ]
                       }
@@ -14586,7 +14636,11 @@
                       "d61768d1-8a17-4e7d-aedc-49936db067c5",
                       "3200aae9-ace0-48db-a7fb-e3128b41f4b8",
                       "283db154-b5c3-4d28-9766-8da379e4e10c",
+                      "fbf971c9-7185-4600-b85e-5bf723b270a4",
+                      "d294ec85-087d-4ac7-a984-1f28b5725b89",
+                      "1a108cb4-bc81-4379-8eb4-100837965dcc",
                       "8184fb52-fba4-4c1e-8ac6-9d70565b9701",
+                      "6c44d767-432a-4f0c-a979-7cce14d2d6b3",
                       "e480420e-e0f5-4924-ba1f-cbe69bdee522",
                       "dea4172d-92f7-407f-a5db-cede921c8bad",
                       "81225697-ae49-4069-899f-61895c3df542",
@@ -14596,7 +14650,7 @@
                     "created_time": 1531465999830,
                     "id": "c337addd-2c45-418b-b200-fd829b0b9324",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1533799882507,
+                    "last_edited_time": 1533943329527,
                     "parent_id": "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
                     "parent_table": "block",
                     "properties": {
@@ -14607,7 +14661,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 123,
+                    "version": 131,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -15272,6 +15326,99 @@
                       {
                         "alive": true,
                         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533943302455,
+                        "id": "fbf971c9-7185-4600-b85e-5bf723b270a4",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533943302761,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://hexo.io/",
+                              [
+                                [
+                                  "a",
+                                  "https://hexo.io/"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 8,
+                        "inline_content": [
+                          {
+                            "Text": "https://hexo.io/",
+                            "Link": "https://hexo.io/"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533943329527,
+                        "id": "d294ec85-087d-4ac7-a984-1f28b5725b89",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533943329833,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://www.gatsbyjs.org/",
+                              [
+                                [
+                                  "a",
+                                  "https://www.gatsbyjs.org/"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 8,
+                        "inline_content": [
+                          {
+                            "Text": "https://www.gatsbyjs.org/",
+                            "Link": "https://www.gatsbyjs.org/"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533943308143,
+                        "id": "1a108cb4-bc81-4379-8eb4-100837965dcc",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533943308522,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://v3.docute.org/#/",
+                              [
+                                [
+                                  "a",
+                                  "https://v3.docute.org/#/"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 8,
+                        "inline_content": [
+                          {
+                            "Text": "https://v3.docute.org/#/",
+                            "Link": "https://v3.docute.org/#/"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                         "created_time": 1532844164429,
                         "id": "8184fb52-fba4-4c1e-8ac6-9d70565b9701",
                         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -15303,6 +15450,43 @@
                           },
                           {
                             "Text": " : a nice design for documentation"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1533930849411,
+                        "id": "6c44d767-432a-4f0c-a979-7cce14d2d6b3",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1533930889692,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://forestry.io/#/",
+                              [
+                                [
+                                  "a",
+                                  "https://forestry.io/#/"
+                                ]
+                              ]
+                            ],
+                            [
+                              " : similar model but they provide editing. Could steal some of their workflows."
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 326,
+                        "inline_content": [
+                          {
+                            "Text": "https://forestry.io/#/",
+                            "Link": "https://forestry.io/#/"
+                          },
+                          {
+                            "Text": " : similar model but they provide editing. Could steal some of their workflows."
                           }
                         ]
                       },

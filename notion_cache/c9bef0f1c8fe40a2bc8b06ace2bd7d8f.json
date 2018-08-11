@@ -110,7 +110,7 @@
               "56216027-c0e3-43b2-985d-35648b9c0891",
               "822e3c01-80bd-468a-8c70-4e9c7e895bb1",
               "f511e438-4d54-4bf4-9b99-deee90438992",
-              "d9617725-1bac-433b-b708-e1fadc377488"
+              "bf1261dd-c29f-49de-9a9b-49611911a6da"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512456410501,
@@ -119,11 +119,11 @@
             },
             "id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1532923427052,
+            "last_edited_time": 1533933180281,
             "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
             "parent_table": "block",
             "type": "column",
-            "version": 142,
+            "version": 145,
             "content_resolved": [
               {
                 "alive": true,
@@ -824,14 +824,34 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1532923427052,
-                "id": "d9617725-1bac-433b-b708-e1fadc377488",
+                "created_time": 1533933180281,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "bf1261dd-c29f-49de-9a9b-49611911a6da",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1532923427052,
+                "last_edited_time": 1533933226055,
                 "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
                 "parent_table": "block",
-                "type": "text",
-                "version": 4
+                "properties": {
+                  "title": [
+                    [
+                      "perfview"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 30,
+                "title": "perfview",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               }
             ],
             "format_column": {

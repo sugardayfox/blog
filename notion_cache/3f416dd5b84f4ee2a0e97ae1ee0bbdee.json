@@ -43,6 +43,7 @@
       {
         "alive": true,
         "content": [
+          "aea77509-2bd0-40c4-bd9d-91da65730f50",
           "3f8c7d9f-4e7a-4c93-9ff6-ec51b60ed090",
           "017290df-5ab2-4466-822c-fa7066cf2449",
           "5f580518-c197-428d-89a0-57ae7e4ef922",
@@ -97,7 +98,7 @@
         "created_time": 1496211523610,
         "id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532923126543,
+        "last_edited_time": 1533894747006,
         "parent_id": "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
         "parent_table": "block",
         "properties": {
@@ -108,8 +109,39 @@
           ]
         },
         "type": "toggle",
-        "version": 24,
+        "version": 26,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1533894747006,
+            "id": "aea77509-2bd0-40c4-bd9d-91da65730f50",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1533894749504,
+            "parent_id": "279844cc-2cbc-440c-9bf4-53cfd075c7e4",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://flexbox.malven.co/",
+                  [
+                    [
+                      "a",
+                      "http://flexbox.malven.co/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "http://flexbox.malven.co/",
+                "Link": "http://flexbox.malven.co/"
+              }
+            ]
+          },
           {
             "alive": true,
             "copied_from": "5e60fa17-dee8-40d1-819f-ae3ba263a498",
