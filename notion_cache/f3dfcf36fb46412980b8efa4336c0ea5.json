@@ -142,10 +142,10 @@
               "page_sort": [
                 "b433e9cd-6f62-4885-ba48-dd8ab7603a74",
                 "a95ad27c-94da-47a5-8bcd-dd8818fd95cd",
-                "3e2d8a89-b6f9-42c5-b8f1-350a2fdb3bc9",
-                "2701d67e-433c-45eb-9c24-821be4ff0849",
                 "63a7a0b2-b2e5-4352-bfba-3098ba05b514",
                 "cfd5e6c9-f8bc-4440-aad8-8bc62ee642f3",
+                "2701d67e-433c-45eb-9c24-821be4ff0849",
+                "3e2d8a89-b6f9-42c5-b8f1-350a2fdb3bc9",
                 "d0d103cd-aa1c-4c35-8ec9-662b90fdcd9e",
                 "708bea8c-1d23-4675-93a5-3eab43f3f8c0",
                 "021c7b2e-2fc4-44e0-b5fd-1250ab7bffdc",
@@ -167,7 +167,7 @@
                 "aggregate": null
               },
               "type": "table",
-              "version": 470
+              "version": 538
             },
             "Collection": {
               "alive": true,
@@ -213,7 +213,7 @@
                   "type": "number"
                 }
               },
-              "version": 47
+              "version": 49
             },
             "CollectionRows": [
               {
@@ -258,7 +258,7 @@
                 "created_time": 1530072486930,
                 "id": "a95ad27c-94da-47a5-8bcd-dd8818fd95cd",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533779638723,
+                "last_edited_time": 1534044797322,
                 "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
                 "parent_table": "collection",
                 "properties": {
@@ -284,7 +284,104 @@
                   ]
                 },
                 "type": "page",
-                "version": 273
+                "version": 276
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530073523966,
+                "id": "63a7a0b2-b2e5-4352-bfba-3098ba05b514",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534044714551,
+                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
+                "parent_table": "collection",
+                "properties": {
+                  "#UOR": [
+                    [
+                      "$82 after 1 TB"
+                    ]
+                  ],
+                  "=%nE": [
+                    [
+                      "122.88"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "Google Cloud Storage Nearline"
+                    ]
+                  ],
+                  "z0e.": [
+                    [
+                      "10.24"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 116
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530073374725,
+                "id": "cfd5e6c9-f8bc-4440-aad8-8bc62ee642f3",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534044717521,
+                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
+                "parent_table": "collection",
+                "properties": {
+                  "#UOR": [
+                    [
+                      "$82 after 1 TB"
+                    ]
+                  ],
+                  "=%nE": [
+                    [
+                      "122.88"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "Google Cloud Storage Regional"
+                    ]
+                  ],
+                  "z0e.": [
+                    [
+                      "20.48"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 87
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1530074221787,
+                "id": "2701d67e-433c-45eb-9c24-821be4ff0849",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534044755106,
+                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
+                "parent_table": "collection",
+                "properties": {
+                  "=%nE": [
+                    [
+                      "51.2"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "Azure "
+                    ]
+                  ],
+                  "z0e.": [
+                    [
+                      "18.43"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 47
               },
               {
                 "alive": true,
@@ -314,103 +411,6 @@
                 },
                 "type": "page",
                 "version": 31
-              },
-              {
-                "alive": true,
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1530074221787,
-                "id": "2701d67e-433c-45eb-9c24-821be4ff0849",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1530074320683,
-                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
-                "parent_table": "collection",
-                "properties": {
-                  "=%nE": [
-                    [
-                      "51.2"
-                    ]
-                  ],
-                  "title": [
-                    [
-                      "Azure "
-                    ]
-                  ],
-                  "z0e.": [
-                    [
-                      "18.43"
-                    ]
-                  ]
-                },
-                "type": "page",
-                "version": 44
-              },
-              {
-                "alive": true,
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1530073523966,
-                "id": "63a7a0b2-b2e5-4352-bfba-3098ba05b514",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1530074350769,
-                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
-                "parent_table": "collection",
-                "properties": {
-                  "#UOR": [
-                    [
-                      "$82 after 1 TB"
-                    ]
-                  ],
-                  "=%nE": [
-                    [
-                      "122.88"
-                    ]
-                  ],
-                  "title": [
-                    [
-                      "Google Cloud Storage Nearline"
-                    ]
-                  ],
-                  "z0e.": [
-                    [
-                      "10.24"
-                    ]
-                  ]
-                },
-                "type": "page",
-                "version": 113
-              },
-              {
-                "alive": true,
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1530073374725,
-                "id": "cfd5e6c9-f8bc-4440-aad8-8bc62ee642f3",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1530074352840,
-                "parent_id": "01ea4c51-ecf3-400a-b53b-f3d62a62af57",
-                "parent_table": "collection",
-                "properties": {
-                  "#UOR": [
-                    [
-                      "$82 after 1 TB"
-                    ]
-                  ],
-                  "=%nE": [
-                    [
-                      "122.88"
-                    ]
-                  ],
-                  "title": [
-                    [
-                      "Google Cloud Storage Regional"
-                    ]
-                  ],
-                  "z0e.": [
-                    [
-                      "20.48"
-                    ]
-                  ]
-                },
-                "type": "page",
-                "version": 84
               },
               {
                 "alive": true,

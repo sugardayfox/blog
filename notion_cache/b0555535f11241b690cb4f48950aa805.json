@@ -4,7 +4,8 @@
     "alive": true,
     "content": [
       "c87bc015-88fc-4f6c-b43f-6f9b9975867e",
-      "bc99b830-21a4-40d0-9bed-51314a3d949c"
+      "bc99b830-21a4-40d0-9bed-51314a3d949c",
+      "a4945ab2-aa33-4098-8754-f1af32203a6f"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529455041799,
@@ -14,7 +15,7 @@
     },
     "id": "b0555535-f112-41b6-90cb-4f48950aa805",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531194510698,
+    "last_edited_time": 1534020885596,
     "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
     "parent_table": "block",
     "properties": {
@@ -25,7 +26,7 @@
       ]
     },
     "type": "page",
-    "version": 58,
+    "version": 60,
     "content_resolved": [
       {
         "alive": true,
@@ -327,6 +328,18 @@
             "Text": "Bike sharing"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1534020885596,
+        "id": "a4945ab2-aa33-4098-8754-f1af32203a6f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1534020918596,
+        "parent_id": "b0555535-f112-41b6-90cb-4f48950aa805",
+        "parent_table": "block",
+        "type": "text",
+        "version": 41
       }
     ],
     "title": "San Diego",

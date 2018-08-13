@@ -6,6 +6,7 @@
       "2e4d6ab1-54b5-4386-8a38-7c902d4096aa",
       "07be653e-d115-4102-9a48-374ad9fa7415",
       "5e92ee7d-8661-4dd6-b14f-a85aff499ad6",
+      "b510d585-f350-44dd-b271-23c40d4dffe8",
       "35a9de8d-191a-424b-a878-cfe271fd6cff",
       "d61ef4fc-7375-4ade-b7c0-b115a5232e6e",
       "2c32e04c-8e45-4d94-bb73-f6366e6a5e27"
@@ -19,7 +20,7 @@
     },
     "id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996329202,
+    "last_edited_time": 1534060232154,
     "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
     "parent_table": "block",
     "properties": {
@@ -30,7 +31,7 @@
       ]
     },
     "type": "page",
-    "version": 14,
+    "version": 16,
     "content_resolved": [
       {
         "alive": true,
@@ -86,21 +87,45 @@
         "created_time": 1531195845515,
         "id": "5e92ee7d-8661-4dd6-b14f-a85aff499ad6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195845515,
+        "last_edited_time": 1534060232154,
         "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Date: 2006-01-01T16:00:00-08:00"
+              "Date: 2006-01-01"
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
-            "Text": "Date: 2006-01-01T16:00:00-08:00"
+            "Text": "Date: 2006-01-01"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1534060232154,
+        "id": "b510d585-f350-44dd-b271-23c40d4dffe8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1534060240491,
+        "parent_id": "2d3858a2-4814-4730-8d5e-a3fce7450e25",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Status: hidden"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 57,
+        "inline_content": [
+          {
+            "Text": "Status: hidden"
           }
         ]
       },
