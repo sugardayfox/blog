@@ -129,11 +129,15 @@
         "content_resolved": [
           {
             "alive": true,
+            "content": [
+              "48020f5c-da0b-4b72-b84c-f642ac26a7b8",
+              "96ae6077-28d6-489b-bd1c-2693ae1307ed"
+            ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1534117995806,
             "id": "109734d9-9f6c-41e8-b777-fdfb78e686ca",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1534118008677,
+            "last_edited_time": 1534274739042,
             "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
             "parent_table": "block",
             "properties": {
@@ -144,7 +148,45 @@
               ]
             },
             "type": "toggle",
-            "version": 34,
+            "version": 38,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534274730543,
+                "id": "48020f5c-da0b-4b72-b84c-f642ac26a7b8",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534274733641,
+                "parent_id": "109734d9-9f6c-41e8-b777-fdfb78e686ca",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ravendb"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 25,
+                "inline_content": [
+                  {
+                    "Text": "ravendb"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534274739042,
+                "id": "96ae6077-28d6-489b-bd1c-2693ae1307ed",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534274739042,
+                "parent_id": "109734d9-9f6c-41e8-b777-fdfb78e686ca",
+                "parent_table": "block",
+                "type": "text",
+                "version": 4
+              }
+            ],
             "inline_content": [
               {
                 "Text": "2018-08-13 Mon"
