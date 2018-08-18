@@ -108,15 +108,17 @@
       {
         "alive": true,
         "content": [
-          "109734d9-9f6c-41e8-b777-fdfb78e686ca",
+          "96c0d6d0-d980-4f7a-830d-d523912a26cc",
+          "06ea9c30-e94c-4c64-85fd-5ccb07139244",
+          "3d3bfa24-1c5b-4026-999a-b3ef13d69c94",
           "fef4281c-bab1-4c47-a0e3-94d2003fe2c5",
-          "3d3bfa24-1c5b-4026-999a-b3ef13d69c94"
+          "109734d9-9f6c-41e8-b777-fdfb78e686ca"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1534117488671,
         "id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534403529141,
+        "last_edited_time": 1534557355625,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
@@ -127,8 +129,245 @@
           ]
         },
         "type": "toggle",
-        "version": 81,
+        "version": 102,
         "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "09281d92-64a8-44e9-9a27-b0f20535f46d",
+              "33a64be4-c981-4f23-999b-c82e189dec3b"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1534557349010,
+            "id": "96c0d6d0-d980-4f7a-830d-d523912a26cc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1534557364689,
+            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-08-17 Fri"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 45,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534557354987,
+                "id": "09281d92-64a8-44e9-9a27-b0f20535f46d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534557364314,
+                "parent_id": "96c0d6d0-d980-4f7a-830d-d523912a26cc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ravendb 4hr"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 48,
+                "inline_content": [
+                  {
+                    "Text": "ravendb 4hr"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534557364689,
+                "id": "33a64be4-c981-4f23-999b-c82e189dec3b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534557374102,
+                "parent_id": "96c0d6d0-d980-4f7a-830d-d523912a26cc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "sumatra: fixing CJK layout in epub"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 74,
+                "inline_content": [
+                  {
+                    "Text": "sumatra: fixing CJK layout in epub"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "2018-08-17 Fri"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "26cabda7-afce-434e-9d80-a1809d3d9068"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1534526810777,
+            "id": "06ea9c30-e94c-4c64-85fd-5ccb07139244",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1534526816621,
+            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-08-16 Thu"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 47,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534526816080,
+                "id": "26cabda7-afce-434e-9d80-a1809d3d9068",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534526826661,
+                "parent_id": "06ea9c30-e94c-4c64-85fd-5ccb07139244",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ravendb: first_class_patch_test.go"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 103,
+                "inline_content": [
+                  {
+                    "Text": "ravendb: first_class_patch_test.go"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "2018-08-16 Thu"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "26961c16-0587-4c74-83f0-2ad7aa9d65a4"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1534403524860,
+            "id": "3d3bfa24-1c5b-4026-999a-b3ef13d69c94",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1534526809630,
+            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-08-15 Wed"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 42,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534403528612,
+                "id": "26961c16-0587-4c74-83f0-2ad7aa9d65a4",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534403540133,
+                "parent_id": "3d3bfa24-1c5b-4026-999a-b3ef13d69c94",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ravendb: moving tests to tests/ directory"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 141,
+                "inline_content": [
+                  {
+                    "Text": "ravendb: moving tests to tests/ directory"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "2018-08-15 Wed"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "dad5a4fd-a044-4748-9e84-2d6f0efa5b78"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1534403521221,
+            "id": "fef4281c-bab1-4c47-a0e3-94d2003fe2c5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1534526805711,
+            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-08-14 Tue"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 39,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1534403625905,
+                "id": "dad5a4fd-a044-4748-9e84-2d6f0efa5b78",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1534403629862,
+                "parent_id": "fef4281c-bab1-4c47-a0e3-94d2003fe2c5",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ravendb: go-ify code"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 44,
+                "inline_content": [
+                  {
+                    "Text": "ravendb: go-ify code"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "2018-08-14 Tue"
+              }
+            ]
+          },
           {
             "alive": true,
             "content": [
@@ -192,112 +431,6 @@
             "inline_content": [
               {
                 "Text": "2018-08-13 Mon"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "content": [
-              "dad5a4fd-a044-4748-9e84-2d6f0efa5b78"
-            ],
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1534403521221,
-            "id": "fef4281c-bab1-4c47-a0e3-94d2003fe2c5",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1534403625905,
-            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "2018-08-14 Tue"
-                ]
-              ]
-            },
-            "type": "toggle",
-            "version": 36,
-            "content_resolved": [
-              {
-                "alive": true,
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1534403625905,
-                "id": "dad5a4fd-a044-4748-9e84-2d6f0efa5b78",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1534403629862,
-                "parent_id": "fef4281c-bab1-4c47-a0e3-94d2003fe2c5",
-                "parent_table": "block",
-                "properties": {
-                  "title": [
-                    [
-                      "ravendb: go-ify code"
-                    ]
-                  ]
-                },
-                "type": "text",
-                "version": 44,
-                "inline_content": [
-                  {
-                    "Text": "ravendb: go-ify code"
-                  }
-                ]
-              }
-            ],
-            "inline_content": [
-              {
-                "Text": "2018-08-14 Tue"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "content": [
-              "26961c16-0587-4c74-83f0-2ad7aa9d65a4"
-            ],
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1534403524860,
-            "id": "3d3bfa24-1c5b-4026-999a-b3ef13d69c94",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1534403529141,
-            "parent_id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "2018-08-15 Wed"
-                ]
-              ]
-            },
-            "type": "toggle",
-            "version": 36,
-            "content_resolved": [
-              {
-                "alive": true,
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1534403528612,
-                "id": "26961c16-0587-4c74-83f0-2ad7aa9d65a4",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1534403540133,
-                "parent_id": "3d3bfa24-1c5b-4026-999a-b3ef13d69c94",
-                "parent_table": "block",
-                "properties": {
-                  "title": [
-                    [
-                      "ravendb: moving tests to tests/ directory"
-                    ]
-                  ]
-                },
-                "type": "text",
-                "version": 141,
-                "inline_content": [
-                  {
-                    "Text": "ravendb: moving tests to tests/ directory"
-                  }
-                ]
-              }
-            ],
-            "inline_content": [
-              {
-                "Text": "2018-08-15 Wed"
               }
             ]
           }
