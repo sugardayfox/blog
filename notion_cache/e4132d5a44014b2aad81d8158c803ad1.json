@@ -16561,13 +16561,14 @@
                 "content": [
                   "df6b1528-dcf0-4014-873a-424e0f325553",
                   "dc68ed75-ada8-4ee1-8e28-09874f6fe638",
+                  "7ab34c72-4c0c-4788-b31f-4a883af74187",
                   "c9dc782c-a8bc-496e-a156-007fbf3d2306"
                 ],
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1533799993274,
                 "id": "dd297ee6-37f2-414a-b6da-fdb487275767",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533800904024,
+                "last_edited_time": 1534824206291,
                 "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
                 "parent_table": "block",
                 "properties": {
@@ -16583,7 +16584,7 @@
                   ]
                 },
                 "type": "toggle",
-                "version": 50,
+                "version": 52,
                 "content_resolved": [
                   {
                     "alive": true,
@@ -17086,6 +17087,78 @@
                     "inline_content": [
                       {
                         "Text": "desktop version of pgmetrics"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "content": [
+                      "4135f5f9-ee9a-4be9-85dd-8d6c3672a6e4"
+                    ],
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1534824206291,
+                    "id": "7ab34c72-4c0c-4788-b31f-4a883af74187",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1534824213059,
+                    "parent_id": "dd297ee6-37f2-414a-b6da-fdb487275767",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "desktop version of pgweb"
+                        ]
+                      ]
+                    },
+                    "type": "toggle",
+                    "version": 56,
+                    "content_resolved": [
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1534824213059,
+                        "id": "4135f5f9-ee9a-4be9-85dd-8d6c3672a6e4",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1534824221047,
+                        "parent_id": "7ab34c72-4c0c-4788-b31f-4a883af74187",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "Just wrap "
+                            ],
+                            [
+                              "https://github.com/sosedoff/pgweb",
+                              [
+                                [
+                                  "a",
+                                  "https://github.com/sosedoff/pgweb"
+                                ]
+                              ]
+                            ],
+                            [
+                              " in a Mac and Windows app"
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 76,
+                        "inline_content": [
+                          {
+                            "Text": "Just wrap "
+                          },
+                          {
+                            "Text": "https://github.com/sosedoff/pgweb",
+                            "Link": "https://github.com/sosedoff/pgweb"
+                          },
+                          {
+                            "Text": " in a Mac and Windows app"
+                          }
+                        ]
+                      }
+                    ],
+                    "inline_content": [
+                      {
+                        "Text": "desktop version of pgweb"
                       }
                     ]
                   },
