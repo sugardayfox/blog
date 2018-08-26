@@ -5,6 +5,7 @@
     "content": [
       "15d82dd0-634d-4572-84a0-e60d847575dd",
       "970f3ffb-2b2f-406b-abc1-ec5d4dd61bed",
+      "e75e22d2-d13b-46af-87ab-673f642ff4cb",
       "e4e1f42d-0eea-4c14-84c0-4a4964497c7b",
       "87f89fbd-55a7-499c-9990-d5496edb15d9",
       "efd5c608-22d2-4597-8419-07379279b950",
@@ -24,7 +25,7 @@
     },
     "id": "2b2b3c56-a0e5-4353-a94d-c19f548c871b",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529220891722,
+    "last_edited_time": 1535266302627,
     "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
     "parent_table": "block",
     "properties": {
@@ -35,7 +36,7 @@
       ]
     },
     "type": "page",
-    "version": 41,
+    "version": 43,
     "content_resolved": [
       {
         "alive": true,
@@ -90,6 +91,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535266302627,
+        "id": "e75e22d2-d13b-46af-87ab-673f642ff4cb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535266325551,
+        "parent_id": "2b2b3c56-a0e5-4353-a94d-c19f548c871b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-extend",
+              [
+                [
+                  "a",
+                  "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-extend"
+                ]
+              ]
+            ],
+            [
+              " : how to use UWP APIs from desktop apps"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 99,
+        "inline_content": [
+          {
+            "Text": "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-extend",
+            "Link": "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-extend"
+          },
+          {
+            "Text": " : how to use UWP APIs from desktop apps"
           }
         ]
       },

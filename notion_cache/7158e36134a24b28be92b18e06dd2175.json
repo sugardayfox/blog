@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "7444a3f9-08cb-4ec4-a20f-9d9a61f1479f",
+      "5c159f2c-2f0f-499d-8876-762950508d76",
       "3056f4f5-cad5-4fd4-b610-3e39c3c560de",
       "e3effe9b-054e-4ada-b287-3f25c7e2ebe3",
       "6fc6c359-ef6f-4e00-87cc-6dc39ee467e0",
@@ -23,7 +24,7 @@
     },
     "id": "7158e361-34a2-4b28-be92-b18e06dd2175",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1526946184859,
+    "last_edited_time": 1535266238244,
     "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
     "parent_table": "block",
     "properties": {
@@ -34,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 2,
+    "version": 4,
     "content_resolved": [
       {
         "alive": true,
@@ -57,6 +58,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535266238244,
+        "id": "5c159f2c-2f0f-499d-8876-762950508d76",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535266273840,
+        "parent_id": "7158e361-34a2-4b28-be92-b18e06dd2175",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/HelloWorldSample",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/HelloWorldSample"
+                ]
+              ]
+            ],
+            [
+              " : shows how to manually create AppxManifest.xml etc."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 189,
+        "inline_content": [
+          {
+            "Text": "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/HelloWorldSample",
+            "Link": "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/HelloWorldSample"
+          },
+          {
+            "Text": " : shows how to manually create AppxManifest.xml etc."
           }
         ]
       },
