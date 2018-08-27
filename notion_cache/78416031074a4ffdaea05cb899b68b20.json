@@ -1112,6 +1112,7 @@
       {
         "alive": true,
         "content": [
+          "6080894d-f117-40f6-8d04-452d693be5c1",
           "21beeeb5-3268-4382-8105-ca9d6b5eb5b1",
           "ae777659-fdfd-47f7-86a3-3dac8171120e",
           "83d8e313-20e6-48bc-8e28-8184b631af58"
@@ -1120,7 +1121,7 @@
         "created_time": 1529363134437,
         "id": "2d253658-a91d-4020-b39d-fa92fcea950c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530572044013,
+        "last_edited_time": 1535320683187,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -1131,8 +1132,64 @@
           ]
         },
         "type": "toggle",
-        "version": 38,
+        "version": 40,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535320683187,
+            "id": "6080894d-f117-40f6-8d04-452d693be5c1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535320699902,
+            "parent_id": "2d253658-a91d-4020-b39d-fa92fcea950c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/dave/wasmgo",
+                  [
+                    [
+                      "a",
+                      "https://github.com/dave/wasmgo"
+                    ]
+                  ]
+                ],
+                [
+                  " : compiles Go project and deploys to "
+                ],
+                [
+                  "jsgo.io",
+                  [
+                    [
+                      "a",
+                      "http://jsgo.io"
+                    ]
+                  ]
+                ],
+                [
+                  " CDN"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 155,
+            "inline_content": [
+              {
+                "Text": "https://github.com/dave/wasmgo",
+                "Link": "https://github.com/dave/wasmgo"
+              },
+              {
+                "Text": " : compiles Go project and deploys to "
+              },
+              {
+                "Text": "jsgo.io",
+                "Link": "http://jsgo.io"
+              },
+              {
+                "Text": " CDN"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
