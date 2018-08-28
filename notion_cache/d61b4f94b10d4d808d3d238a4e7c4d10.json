@@ -72,8 +72,9 @@
               "d61cd2f8-8e60-42d4-bb4d-3b782df87518",
               "5122bd29-ef09-436b-a66f-8c3321a70e5c",
               "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
+              "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
               "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
-              "040630a7-5e9f-4aae-83d0-1538bdc8f702"
+              "d05a0ba4-9d12-4f94-90c7-07dd5d0b0559"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496280773065,
@@ -82,11 +83,11 @@
             },
             "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1530087671512,
+            "last_edited_time": 1535411114038,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 162,
+            "version": 174,
             "content_resolved": [
               {
                 "alive": true,
@@ -732,6 +733,26 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1535410999729,
+                "id": "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1535411108676,
+                "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Google Cloud Services"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 53,
+                "title": "Google Cloud Services"
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512458428133,
                 "format": {
                   "page_full_width": true,
@@ -764,34 +785,14 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1512368847813,
-                "format": {
-                  "page_full_width": true,
-                  "page_small_text": true
-                },
-                "id": "040630a7-5e9f-4aae-83d0-1538bdc8f702",
+                "created_time": 1535411114038,
+                "id": "d05a0ba4-9d12-4f94-90c7-07dd5d0b0559",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1530070050944,
+                "last_edited_time": 1535411114038,
                 "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
                 "parent_table": "block",
-                "properties": {
-                  "title": [
-                    [
-                      "grpc"
-                    ]
-                  ]
-                },
-                "type": "page",
-                "version": 10,
-                "title": "grpc",
-                "format_page": {
-                  "page_cover": "",
-                  "page_cover_position": 0,
-                  "page_font": "",
-                  "page_full_width": true,
-                  "page_icon": "",
-                  "page_small_text": true
-                }
+                "type": "text",
+                "version": 4
               }
             ],
             "format_column": {
@@ -801,6 +802,7 @@
           {
             "alive": true,
             "content": [
+              "040630a7-5e9f-4aae-83d0-1538bdc8f702",
               "91b14d80-b9df-458c-ab7d-588a9f5dccec",
               "6325967d-6fab-488e-8882-a4b619ac90fc",
               "ba0bb283-71f2-42f2-a35b-781a8a668b3a",
@@ -831,12 +833,44 @@
             },
             "id": "515006ec-a4e4-48fa-af52-65dce7674e79",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1530070666779,
+            "last_edited_time": 1535411112623,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 98,
+            "version": 100,
             "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1512368847813,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "040630a7-5e9f-4aae-83d0-1538bdc8f702",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1535411112623,
+                "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "grpc"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 13,
+                "title": "grpc",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
+              },
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
