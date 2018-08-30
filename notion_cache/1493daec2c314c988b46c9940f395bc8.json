@@ -1,0 +1,324 @@
+{
+  "ID": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+  "Root": {
+    "alive": true,
+    "content": [
+      "fca04cc2-26dd-4f02-945f-e3716a8c2fa1",
+      "1fecd6f2-6136-4e75-90a2-e211489af387",
+      "ba2b30a7-f55a-4001-b875-49ef39321e73",
+      "35001168-d28a-4bf7-8e0f-74b602024833",
+      "567577e2-393c-4fce-bc19-546e351cd7b8",
+      "bd8eb52b-8cde-4007-84f8-1e4962f32500"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1535586604638,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1535587360005,
+    "parent_id": "5be79f93-59c2-454e-8181-e841e607c33e",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "Changing golang keybindings to vscode"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 102,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535586616715,
+        "id": "fca04cc2-26dd-4f02-945f-e3716a8c2fa1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535586648499,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Switching between editors is a pain when keybindings are different."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 176,
+        "inline_content": [
+          {
+            "Text": "Switching between editors is a pain when keybindings are different."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535586648746,
+        "id": "1fecd6f2-6136-4e75-90a2-e211489af387",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535586737902,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's how to configure some of golang keybindings to be more like visual code. In "
+            ],
+            [
+              "Keymap",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " preferences:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 272,
+        "inline_content": [
+          {
+            "Text": "Here's how to configure some of golang keybindings to be more like visual code. In "
+          },
+          {
+            "Text": "Keymap",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " preferences:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535586738100,
+        "id": "ba2b30a7-f55a-4001-b875-49ef39321e73",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535586830667,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "type "
+            ],
+            [
+              "navigate file",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", change to "
+            ],
+            [
+              "cmd-p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 131,
+        "inline_content": [
+          {
+            "Text": "type "
+          },
+          {
+            "Text": "navigate file",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", change to "
+          },
+          {
+            "Text": "cmd-p",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535586830667,
+        "id": "35001168-d28a-4bf7-8e0f-74b602024833",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535586992401,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "type "
+            ],
+            [
+              "declaration",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", add "
+            ],
+            [
+              "F12",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " shortcut"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 145,
+        "inline_content": [
+          {
+            "Text": "type "
+          },
+          {
+            "Text": "declaration",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", add "
+          },
+          {
+            "Text": "F12",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " shortcut"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535587360005,
+        "id": "567577e2-393c-4fce-bc19-546e351cd7b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535587377505,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "type "
+            ],
+            [
+              "refactor",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " change "
+            ],
+            [
+              "refactor / rename",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to "
+            ],
+            [
+              "F2",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 144,
+        "inline_content": [
+          {
+            "Text": "type "
+          },
+          {
+            "Text": "refactor",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " change "
+          },
+          {
+            "Text": "refactor / rename",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to "
+          },
+          {
+            "Text": "F2",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535586748102,
+        "id": "bd8eb52b-8cde-4007-84f8-1e4962f32500",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535586993311,
+        "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
+        "parent_table": "block",
+        "type": "text",
+        "version": 17
+      }
+    ],
+    "title": "Changing golang keybindings to vscode",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}

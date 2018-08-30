@@ -1,0 +1,498 @@
+{
+  "ID": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+  "Root": {
+    "alive": true,
+    "content": [
+      "ac4aba0a-94eb-4d38-9626-cff396e235f1",
+      "99966bba-fd93-4122-9f6c-fe21b3213551",
+      "a04084c0-18ec-4937-8f22-087cf69d77b5",
+      "1cae17a4-f4a9-4167-b482-849f36d22edd",
+      "242f6453-92a8-48ed-9dc5-8f2e7afdeab7",
+      "2b577a9a-7578-4068-89bd-bf3137e71866",
+      "6559550a-6468-4062-81e0-307cbf5dfb7a",
+      "bf91209e-c155-4d83-97b6-fac5f85d0024",
+      "3b24cf15-2cff-4ede-be9a-e05f5777055c",
+      "f61ed239-c8e9-4dea-9a70-55e1a65bd68c",
+      "8a2e19ad-2ea3-470d-ae8b-efef7bc5f786",
+      "84700a4d-1d9a-4e49-823f-3ad83fc938d3",
+      "9eb5d89a-51d1-44ac-9557-13cd8df1c804"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1535486637336,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1535486881304,
+    "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "gitpod bug report #1"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 89,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486647024,
+        "id": "ac4aba0a-94eb-4d38-9626-cff396e235f1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486683402,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Support for Go is insufficient. It doesn't support packages with sub-packages."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 178,
+        "inline_content": [
+          {
+            "Text": "Support for Go is insufficient. It doesn't support packages with sub-packages."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486683592,
+        "id": "99966bba-fd93-4122-9f6c-fe21b3213551",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486719520,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For example my markdown parser "
+            ],
+            [
+              "github.com/gomarkdown/markdown",
+              [
+                [
+                  "a",
+                  "http://github.com/gomarkdown/markdown"
+                ]
+              ]
+            ],
+            [
+              " has 3 sub-packages:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 150,
+        "inline_content": [
+          {
+            "Text": "For example my markdown parser "
+          },
+          {
+            "Text": "github.com/gomarkdown/markdown",
+            "Link": "http://github.com/gomarkdown/markdown"
+          },
+          {
+            "Text": " has 3 sub-packages:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486719520,
+        "id": "a04084c0-18ec-4937-8f22-087cf69d77b5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486721144,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "github.com/gomarkdown/markdown/ast",
+              [
+                [
+                  "a",
+                  "http://github.com/gomarkdown/markdown/ast"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 17,
+        "inline_content": [
+          {
+            "Text": "github.com/gomarkdown/markdown/ast",
+            "Link": "http://github.com/gomarkdown/markdown/ast"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486721692,
+        "id": "1cae17a4-f4a9-4167-b482-849f36d22edd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486726161,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "github.com/gomarkdown/markdown/html",
+              [
+                [
+                  "a",
+                  "http://github.com/gomarkdown/markdown/html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "github.com/gomarkdown/markdown/html",
+            "Link": "http://github.com/gomarkdown/markdown/html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486727215,
+        "id": "242f6453-92a8-48ed-9dc5-8f2e7afdeab7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486731983,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "github.com/gomarkdown/markdown/parser",
+              [
+                [
+                  "a",
+                  "http://github.com/gomarkdown/markdown/parser"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "github.com/gomarkdown/markdown/parser",
+            "Link": "http://github.com/gomarkdown/markdown/parser"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486780065,
+        "id": "2b577a9a-7578-4068-89bd-bf3137e71866",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486794419,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's the problem:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 62,
+        "inline_content": [
+          {
+            "Text": "Here's the problem:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486797744,
+        "id": "6559550a-6468-4062-81e0-307cbf5dfb7a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486805153,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Shell"
+            ]
+          ],
+          "title": [
+            [
+              "gitpod /workspace/markdown $ go test\nmarkdown.go:7:2: cannot find package \"github.com/gomarkdown/markdown/ast\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/ast (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/ast (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/ast\nmarkdown.go:8:2: cannot find package \"github.com/gomarkdown/markdown/html\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/html (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/html (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/html\nmarkdown.go:9:2: cannot find package \"github.com/gomarkdown/markdown/parser\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/parser (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/parser (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/parser"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 11,
+        "code": "gitpod /workspace/markdown $ go test\nmarkdown.go:7:2: cannot find package \"github.com/gomarkdown/markdown/ast\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/ast (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/ast (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/ast\nmarkdown.go:8:2: cannot find package \"github.com/gomarkdown/markdown/html\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/html (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/html (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/html\nmarkdown.go:9:2: cannot find package \"github.com/gomarkdown/markdown/parser\" in any of:\n        /usr/local/go/src/github.com/gomarkdown/markdown/parser (from $GOROOT)\n        /workspace/src/github.com/gomarkdown/markdown/parser (from $GOPATH)\n        /usr/local/go-packages/src/github.com/gomarkdown/markdown/parser",
+        "code_language": "Shell"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486733519,
+        "id": "bf91209e-c155-4d83-97b6-fac5f85d0024",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486846488,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Because the physical path of the package is "
+            ],
+            [
+              "/workspace/markdown",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", the tools (IDE, compiler) think that "
+            ],
+            [
+              "github.com/gomarkdown/markdown/ast",
+              [
+                [
+                  "a",
+                  "http://github.com/gomarkdown/markdown/ast"
+                ],
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " doesn't exist."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 358,
+        "inline_content": [
+          {
+            "Text": "Because the physical path of the package is "
+          },
+          {
+            "Text": "/workspace/markdown",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", the tools (IDE, compiler) think that "
+          },
+          {
+            "Text": "github.com/gomarkdown/markdown/ast",
+            "AttrFlags": 2,
+            "Link": "http://github.com/gomarkdown/markdown/ast"
+          },
+          {
+            "Text": " doesn't exist."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486847030,
+        "id": "3b24cf15-2cff-4ede-be9a-e05f5777055c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486850533,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Possible solutions:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 44,
+        "inline_content": [
+          {
+            "Text": "Possible solutions:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486850731,
+        "id": "f61ed239-c8e9-4dea-9a70-55e1a65bd68c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486941180,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "update go to 1.11 as it doesn't depend on "
+            ],
+            [
+              "GOPATH",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 179,
+        "inline_content": [
+          {
+            "Text": "update go to 1.11 as it doesn't depend on "
+          },
+          {
+            "Text": "GOPATH",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486881304,
+        "id": "8a2e19ad-2ea3-470d-ae8b-efef7bc5f786",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486956616,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "for Go projects, set "
+            ],
+            [
+              "GOPATH",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to "
+            ],
+            [
+              "/workspace/go",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " and checkout the code to "
+            ],
+            [
+              "$GOPATH/src/${GITPATH}",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 260,
+        "inline_content": [
+          {
+            "Text": "for Go projects, set "
+          },
+          {
+            "Text": "GOPATH",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to "
+          },
+          {
+            "Text": "/workspace/go",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " and checkout the code to "
+          },
+          {
+            "Text": "$GOPATH/src/${GITPATH}",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486716990,
+        "id": "84700a4d-1d9a-4e49-823f-3ad83fc938d3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535487031019,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "type": "text",
+        "version": 122
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535486658329,
+        "id": "9eb5d89a-51d1-44ac-9557-13cd8df1c804",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535486658340,
+        "parent_id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      }
+    ],
+    "title": "gitpod bug report #1",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}
