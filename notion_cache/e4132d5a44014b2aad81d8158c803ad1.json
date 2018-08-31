@@ -17479,13 +17479,14 @@
                   "0b6334ee-71cb-411f-b6a5-65a7dfd14b69",
                   "5cfa375f-2d7f-4b35-9fea-b029a5ad0488",
                   "a2cfc64a-c7f7-41f1-a16c-670c2af86d93",
-                  "28b520d5-9313-4fe0-bc76-103ceeababbf"
+                  "28b520d5-9313-4fe0-bc76-103ceeababbf",
+                  "64539033-1c95-4b29-93ce-293a9a10f269"
                 ],
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1533800034537,
                 "id": "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533801527005,
+                "last_edited_time": 1535655557981,
                 "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
                 "parent_table": "block",
                 "properties": {
@@ -17501,7 +17502,7 @@
                   ]
                 },
                 "type": "toggle",
-                "version": 72,
+                "version": 78,
                 "content_resolved": [
                   {
                     "alive": true,
@@ -19166,6 +19167,97 @@
                     "inline_content": [
                       {
                         "Text": "visidata on web or desktop"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "content": [
+                      "0675eb28-4d10-4840-b27d-1cd635bca7c4",
+                      "6df075ec-c999-4574-9b06-2a7f3377ee4b"
+                    ],
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1535655550595,
+                    "id": "64539033-1c95-4b29-93ce-293a9a10f269",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1535655672595,
+                    "parent_id": "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "tools from "
+                        ],
+                        [
+                          "https://remysharp.com/2018/08/23/cli-improved",
+                          [
+                            [
+                              "a",
+                              "https://remysharp.com/2018/08/23/cli-improved"
+                            ]
+                          ]
+                        ]
+                      ]
+                    },
+                    "type": "toggle",
+                    "version": 34,
+                    "content_resolved": [
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1535655557221,
+                        "id": "0675eb28-4d10-4840-b27d-1cd635bca7c4",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1535655672292,
+                        "parent_id": "64539033-1c95-4b29-93ce-293a9a10f269",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "Write GUI version of those tools. The simplest is a browser shell with xterm.js as front-end and just sub-launch the command and redirect output to xterm.js."
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 479,
+                        "inline_content": [
+                          {
+                            "Text": "Write GUI version of those tools. The simplest is a browser shell with xterm.js as front-end and just sub-launch the command and redirect output to xterm.js."
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1535655672595,
+                        "id": "6df075ec-c999-4574-9b06-2a7f3377ee4b",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1535655805856,
+                        "parent_id": "64539033-1c95-4b29-93ce-293a9a10f269",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "More sophisticated would be tools that do the functionality but re-imagined for GUI. Implemented with web UI."
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 288,
+                        "inline_content": [
+                          {
+                            "Text": "More sophisticated would be tools that do the functionality but re-imagined for GUI. Implemented with web UI."
+                          }
+                        ]
+                      }
+                    ],
+                    "inline_content": [
+                      {
+                        "Text": "tools from "
+                      },
+                      {
+                        "Text": "https://remysharp.com/2018/08/23/cli-improved",
+                        "Link": "https://remysharp.com/2018/08/23/cli-improved"
                       }
                     ]
                   }
