@@ -3,7 +3,8 @@
   "Root": {
     "alive": true,
     "content": [
-      "a2a77e23-fc56-4eee-95ed-1d42f1373419"
+      "3893b5b3-3e6f-4078-9afe-1df88729a08a",
+      "d51c0352-e843-4f90-8a52-4d4f56bc8f01"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1535486620389,
@@ -13,7 +14,7 @@
     },
     "id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1535587018677,
+    "last_edited_time": 1535707453128,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -24,39 +25,92 @@
       ]
     },
     "type": "page",
-    "version": 34,
+    "version": 40,
     "content_resolved": [
       {
         "alive": true,
+        "content": [
+          "5f4e205a-2444-43fc-8e14-068cc33d60fb",
+          "4920987a-92b8-4732-a8d1-417459511266"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1535486637336,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "id": "a2a77e23-fc56-4eee-95ed-1d42f1373419",
+        "created_time": 1535707429557,
+        "id": "3893b5b3-3e6f-4078-9afe-1df88729a08a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535486881304,
+        "last_edited_time": 1535707446410,
         "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "gitpod bug report #1"
+              "Working with Go"
             ]
           ]
         },
-        "type": "page",
-        "version": 89,
-        "title": "gitpod bug report #1",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
+        "type": "toggle",
+        "version": 49,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535707437485,
+            "id": "5f4e205a-2444-43fc-8e14-068cc33d60fb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535707439298,
+            "parent_id": "3893b5b3-3e6f-4078-9afe-1df88729a08a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://docs.gitpod.io/40_Configuration.html#working-with-go",
+                  [
+                    [
+                      "a",
+                      "https://docs.gitpod.io/40_Configuration.html#working-with-go"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "https://docs.gitpod.io/40_Configuration.html#working-with-go",
+                "Link": "https://docs.gitpod.io/40_Configuration.html#working-with-go"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535707446410,
+            "id": "4920987a-92b8-4732-a8d1-417459511266",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535707446410,
+            "parent_id": "3893b5b3-3e6f-4078-9afe-1df88729a08a",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Working with Go"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535707453128,
+        "id": "d51c0352-e843-4f90-8a52-4d4f56bc8f01",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535707453128,
+        "parent_id": "1ae71445-1f07-461d-bf6d-7932f4d43c51",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "gitpod.io",
