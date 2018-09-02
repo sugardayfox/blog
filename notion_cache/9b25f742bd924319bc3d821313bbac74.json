@@ -37,13 +37,14 @@
         "content": [
           "b02603ff-e21f-4dbd-8043-bc5c43463579",
           "bb9ac6db-a536-43b3-8a26-ad9cb04ee45b",
-          "f188fad9-163a-4407-a3b5-14350b445afd"
+          "f188fad9-163a-4407-a3b5-14350b445afd",
+          "217e9671-7522-470c-ab27-15ff924ab0fb"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1510032519932,
         "id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1510032519932,
+        "last_edited_time": 1535837118252,
         "parent_id": "9b25f742-bd92-4319-bc3d-821313bbac74",
         "parent_table": "block",
         "properties": {
@@ -54,7 +55,7 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 2,
         "content_resolved": [
           {
             "alive": true,
@@ -139,6 +140,62 @@
               {
                 "Text": "https://github.com/Microsoft/vswhere",
                 "Link": "https://github.com/Microsoft/vswhere"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535837118252,
+            "id": "217e9671-7522-470c-ab27-15ff924ab0fb",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535837679351,
+            "parent_id": "080a04a6-9baa-4c9c-aaa1-2f75f995e382",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://pastebin.com/3YvWQa5c",
+                  [
+                    [
+                      "a",
+                      "https://pastebin.com/3YvWQa5c"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a",
+                  [
+                    [
+                      "a",
+                      "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a"
+                    ]
+                  ]
+                ],
+                [
+                  " : a short program by JBlow"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 68,
+            "inline_content": [
+              {
+                "Text": "https://pastebin.com/3YvWQa5c",
+                "Link": "https://pastebin.com/3YvWQa5c"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a",
+                "Link": "https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a"
+              },
+              {
+                "Text": " : a short program by JBlow"
               }
             ]
           }
