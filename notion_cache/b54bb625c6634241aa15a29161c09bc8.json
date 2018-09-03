@@ -1,0 +1,487 @@
+{
+  "ID": "b54bb625-c663-4241-aa15-a29161c09bc8",
+  "Root": {
+    "alive": true,
+    "content": [
+      "b299849c-f1ca-457c-93a7-9410f8269e8e",
+      "32ad8206-3360-46d6-81d8-d48fcc9f3d11",
+      "d5e1248a-7f1c-4d84-9105-70312e68351e",
+      "06f6b16e-db74-45f9-896f-17caefc118b6",
+      "47b2d6fe-5be5-4b7f-8dc2-bbb4d34ae868",
+      "92cecc7c-040f-4b42-99b5-776e913ea2a5",
+      "bd7ac024-b2c6-40b2-91b3-8703a09e3d78",
+      "36bdc6ee-5482-450c-b639-54a9ed382356",
+      "ff21f402-04c4-458c-9aa8-af639145eab5",
+      "d44004d6-5859-414e-89c6-7b765a0b4ee2",
+      "20931999-901f-4965-bb7c-4be787c6fc8f",
+      "a52d2e89-d2bc-423a-8f1a-119bf3700ed7",
+      "e4031a31-2249-42f6-8aa6-8af8fe3e99a0"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1535875667946,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1535945043622,
+    "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "systemctl and journalctl"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 95,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875671109,
+        "id": "b299849c-f1ca-457c-93a7-9410f8269e8e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535941064734,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl --failed",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : lists failed services"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 131,
+        "inline_content": [
+          {
+            "Text": "systemctl --failed",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : lists failed services"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875742320,
+        "id": "32ad8206-3360-46d6-81d8-d48fcc9f3d11",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535875826895,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl reboot",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : reboots the server but doesn't work on my scaleway"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 168,
+        "inline_content": [
+          {
+            "Text": "systemctl reboot",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : reboots the server but doesn't work on my scaleway"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535941048485,
+        "id": "d5e1248a-7f1c-4d84-9105-70312e68351e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535941060567,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl status",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : status of all running services"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 112,
+        "inline_content": [
+          {
+            "Text": "systemctl status",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : status of all running services"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875842781,
+        "id": "06f6b16e-db74-45f9-896f-17caefc118b6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535875852485,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl status \u003cservice\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : status of a given service"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 122,
+        "inline_content": [
+          {
+            "Text": "systemctl status \u003cservice\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : status of a given service"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535944996070,
+        "id": "47b2d6fe-5be5-4b7f-8dc2-bbb4d34ae868",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535945028721,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "journalctl -u unit",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : show logs for a given unit"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 74,
+        "inline_content": [
+          {
+            "Text": "journalctl -u unit",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : show logs for a given unit"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875852651,
+        "id": "92cecc7c-040f-4b42-99b5-776e913ea2a5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535875898145,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl daemon-reload",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : run after adding a new service file in e.g. "
+            ],
+            [
+              "/etc/systemd/system",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 235,
+        "inline_content": [
+          {
+            "Text": "systemctl daemon-reload",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : run after adding a new service file in e.g. "
+          },
+          {
+            "Text": "/etc/systemd/system",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535876233205,
+        "id": "bd7ac024-b2c6-40b2-91b3-8703a09e3d78",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535876278121,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl start \u003cservice-file\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : runs a given service"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 152,
+        "inline_content": [
+          {
+            "Text": "systemctl start \u003cservice-file\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : runs a given service"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875921512,
+        "id": "36bdc6ee-5482-450c-b639-54a9ed382356",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535876226085,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl enable \u003cpath-to-service-file\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : enable a given service to run on startup"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 230,
+        "inline_content": [
+          {
+            "Text": "systemctl enable \u003cpath-to-service-file\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : enable a given service to run on startup"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535876008348,
+        "id": "ff21f402-04c4-458c-9aa8-af639145eab5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535876215160,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl disable \u003cservice-file\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 82,
+        "inline_content": [
+          {
+            "Text": "systemctl disable \u003cservice-file\u003e",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535940820279,
+        "id": "d44004d6-5859-414e-89c6-7b765a0b4ee2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535945042303,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl list-unit-files --state=enabled",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 25,
+        "inline_content": [
+          {
+            "Text": "systemctl list-unit-files --state=enabled",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535945043622,
+        "id": "20931999-901f-4965-bb7c-4be787c6fc8f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535945068122,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl cat \u003cunit\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : show content of Unit file"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 76,
+        "inline_content": [
+          {
+            "Text": "systemctl cat \u003cunit\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : show content of Unit file"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535940824769,
+        "id": "a52d2e89-d2bc-423a-8f1a-119bf3700ed7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535940824784,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535876215683,
+        "id": "e4031a31-2249-42f6-8aa6-8af8fe3e99a0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535876280402,
+        "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "parent_table": "block",
+        "type": "text",
+        "version": 8
+      }
+    ],
+    "title": "systemctl and journalctl",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}

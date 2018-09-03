@@ -1,0 +1,373 @@
+{
+  "ID": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+  "Root": {
+    "alive": true,
+    "content": [
+      "20e5a0b4-d8c4-47bf-82e8-902e047e29e8",
+      "182c176f-d6b9-4180-a2af-a296277b501e",
+      "bf7b2657-b9e1-4d01-b799-f2178feaee9d",
+      "e50cc259-311d-493c-8bee-ae785172ea74",
+      "cab0d952-ae84-455a-accf-7f56b30ab5c7",
+      "fd8f25f7-ec83-4fb5-aa56-94f2e75c269e",
+      "74402181-11f3-4904-90ab-5dc430806401"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1535937497553,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1535941217190,
+    "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "snap"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 37,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937500183,
+        "id": "20e5a0b4-d8c4-47bf-82e8-902e047e29e8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937535531,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "snap",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " is a way of installing software on Ubuntu (in addition to "
+            ],
+            [
+              "apt-get",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ")."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 230,
+        "inline_content": [
+          {
+            "Text": "snap",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " is a way of installing software on Ubuntu (in addition to "
+          },
+          {
+            "Text": "apt-get",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ")."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937536722,
+        "id": "182c176f-d6b9-4180-a2af-a296277b501e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937538945,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Commands:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 24,
+        "inline_content": [
+          {
+            "Text": "Commands:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937539163,
+        "id": "bf7b2657-b9e1-4d01-b799-f2178feaee9d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937620447,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "info \u003cpackage\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : info about a package"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 73,
+        "inline_content": [
+          {
+            "Text": "info \u003cpackage\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : info about a package"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937562031,
+        "id": "e50cc259-311d-493c-8bee-ae785172ea74",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937839040,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "install \u003cpackage\u003e --channel \u003cchan\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : install a package"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 142,
+        "inline_content": [
+          {
+            "Text": "install \u003cpackage\u003e --channel \u003cchan\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : install a package"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535941217190,
+        "id": "cab0d952-ae84-455a-accf-7f56b30ab5c7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535941266005,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "refresh \u003cpackage\u003e --channel \u003cchan\u003e",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : update a package, "
+            ],
+            [
+              "--channel",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " is optional"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 203,
+        "inline_content": [
+          {
+            "Text": "refresh \u003cpackage\u003e --channel \u003cchan\u003e",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : update a package, "
+          },
+          {
+            "Text": "--channel",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " is optional"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937622032,
+        "id": "fd8f25f7-ec83-4fb5-aa56-94f2e75c269e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937650847,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "start",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "stop",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "restart",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : start/stop/restart service (if a package is a service)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 268,
+        "inline_content": [
+          {
+            "Text": "start",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "stop",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "restart",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : start/stop/restart service (if a package is a service)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535937659974,
+        "id": "74402181-11f3-4904-90ab-5dc430806401",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937666242,
+        "parent_id": "f7d8b37f-6205-4d3e-9012-5b0d3ef44713",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "list",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : list installed packages"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 74,
+        "inline_content": [
+          {
+            "Text": "list",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : list installed packages"
+          }
+        ]
+      }
+    ],
+    "title": "snap",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}

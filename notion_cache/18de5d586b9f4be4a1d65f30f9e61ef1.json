@@ -1,0 +1,190 @@
+{
+  "ID": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+  "Root": {
+    "alive": true,
+    "content": [
+      "76d0eb54-8a0d-4298-b110-e303192a2811",
+      "8ea25660-9981-4f34-bd37-ddb9c86f85aa",
+      "df0d5323-8b6f-455a-a3f3-4a0a2ca9057d",
+      "cb7716bc-7913-44ef-ac37-a87900771c05"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1535939776129,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1535939810352,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "apt"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 22,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535939778154,
+        "id": "76d0eb54-8a0d-4298-b110-e303192a2811",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535939787093,
+        "parent_id": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Common commands:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 46,
+        "inline_content": [
+          {
+            "Text": "Common commands:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535939787280,
+        "id": "8ea25660-9981-4f34-bd37-ddb9c86f85aa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535939800010,
+        "parent_id": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "apt update",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : update list of available packages"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 125,
+        "inline_content": [
+          {
+            "Text": "apt update",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : update list of available packages"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535939801065,
+        "id": "df0d5323-8b6f-455a-a3f3-4a0a2ca9057d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535939809744,
+        "parent_id": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "apt upgrade",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : upgrade all packages to latest version"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 122,
+        "inline_content": [
+          {
+            "Text": "apt upgrade",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : upgrade all packages to latest version"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535939810352,
+        "id": "cb7716bc-7913-44ef-ac37-a87900771c05",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535939829144,
+        "parent_id": "18de5d58-6b9f-4be4-a1d6-5f30f9e61ef1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "apt list --upgradable",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " : list package that can be upgraded"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 123,
+        "inline_content": [
+          {
+            "Text": "apt list --upgradable",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " : list package that can be upgraded"
+          }
+        ]
+      }
+    ],
+    "title": "apt",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}

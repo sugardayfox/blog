@@ -5,10 +5,11 @@
     "content": [
       "97853da1-45ae-47be-9f8b-8d54fb4c8530",
       "f0a2aeed-c823-4e41-9b9e-ba22ad6d0178",
+      "74d43566-7c68-48d4-ab11-b51198141b5d",
       "9cd1f430-8a80-4e44-ac1c-d5fd7221161a",
-      "2e27a541-8f8b-4003-872c-0e903ed574e6",
       "8ab8a942-8f3a-4350-aafa-4772e44da629",
       "a36b9753-1781-42d9-86d6-9419e3d07d2d",
+      "2e27a541-8f8b-4003-872c-0e903ed574e6",
       "ff3f76b5-3fb5-47a3-8077-c6d0af30dadc",
       "fb0130f5-b364-4734-8e81-3d26cc57c451",
       "76c3178a-4503-4770-8c24-bf034ef68bab",
@@ -27,7 +28,7 @@
     },
     "id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1535603837761,
+    "last_edited_time": 1535937310086,
     "parent_id": "06bc64c9-117e-4ae8-bd53-eda3c2c41dfa",
     "parent_table": "block",
     "properties": {
@@ -38,7 +39,7 @@
       ]
     },
     "type": "page",
-    "version": 189,
+    "version": 194,
     "content_resolved": [
       {
         "alive": true,
@@ -98,10 +99,10 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1535603805745,
-        "id": "9cd1f430-8a80-4e44-ac1c-d5fd7221161a",
+        "created_time": 1535937274102,
+        "id": "74d43566-7c68-48d4-ab11-b51198141b5d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535603805745,
+        "last_edited_time": 1535937274102,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "type": "text",
@@ -109,26 +110,87 @@
       },
       {
         "alive": true,
-        "content": [
-          "131bfa0e-e9c4-4971-a886-2864d5ba4a91",
-          "1c65b640-01e0-49b4-93f4-2caf408a6bfa"
-        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1534803777798,
-        "id": "2e27a541-8f8b-4003-872c-0e903ed574e6",
+        "created_time": 1535603805745,
+        "id": "9cd1f430-8a80-4e44-ac1c-d5fd7221161a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535701140651,
+        "last_edited_time": 1535937295866,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 35 (08-27 : 09-02)"
+              "week 36 (09-03 - 09-09)"
             ]
           ]
         },
         "type": "toggle",
-        "version": 77,
+        "version": 73,
+        "inline_content": [
+          {
+            "Text": "week 36 (09-03 - 09-09)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1534118027259,
+        "id": "8ab8a942-8f3a-4350-aafa-4772e44da629",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1534118027259,
+        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1534118026203,
+        "id": "a36b9753-1781-42d9-86d6-9419e3d07d2d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1534118028469,
+        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Past:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Past:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "131bfa0e-e9c4-4971-a886-2864d5ba4a91",
+          "1c65b640-01e0-49b4-93f4-2caf408a6bfa",
+          "6dd329a8-bc53-4eea-b7a5-feb3eed117c0"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1534803777798,
+        "id": "2e27a541-8f8b-4003-872c-0e903ed574e6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535937310086,
+        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "week 35 (08-27 : 09-02) 3 d"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 90,
         "content_resolved": [
           {
             "alive": true,
@@ -235,47 +297,35 @@
                 "Text": "2018-08-30"
               }
             ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535937214306,
+            "id": "6dd329a8-bc53-4eea-b7a5-feb3eed117c0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535937219348,
+            "parent_id": "2e27a541-8f8b-4003-872c-0e903ed574e6",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-09-02"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 34,
+            "inline_content": [
+              {
+                "Text": "2018-09-02"
+              }
+            ]
           }
         ],
         "inline_content": [
           {
-            "Text": "week 35 (08-27 : 09-02)"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1534118027259,
-        "id": "8ab8a942-8f3a-4350-aafa-4772e44da629",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534118027259,
-        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1534118026203,
-        "id": "a36b9753-1781-42d9-86d6-9419e3d07d2d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534118028469,
-        "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Past:"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 18,
-        "inline_content": [
-          {
-            "Text": "Past:"
+            "Text": "week 35 (08-27 : 09-02) 3 d"
           }
         ]
       },
@@ -288,18 +338,18 @@
         "created_time": 1534117558555,
         "id": "ff3f76b5-3fb5-47a3-8077-c6d0af30dadc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535603837761,
+        "last_edited_time": 1535937223235,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 34 (08-20 : 08-26)"
+              "week 34 (08-20 : 08-26) 1 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 82,
+        "version": 90,
         "content_resolved": [
           {
             "alive": true,
@@ -357,7 +407,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 34 (08-20 : 08-26)"
+            "Text": "week 34 (08-20 : 08-26) 1 d"
           }
         ]
       },
@@ -376,18 +426,18 @@
         "created_time": 1534117488671,
         "id": "fb0130f5-b364-4734-8e81-3d26cc57c451",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534803813229,
+        "last_edited_time": 1535937260324,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 33 (08-13 : 08-19)"
+              "week 33 (08-13 : 08-19) 7 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 117,
+        "version": 125,
         "content_resolved": [
           {
             "alive": true,
@@ -826,7 +876,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 33 (08-13 : 08-19)"
+            "Text": "week 33 (08-13 : 08-19) 7 d"
           }
         ]
       },
@@ -846,18 +896,18 @@
         "created_time": 1534117295074,
         "id": "76c3178a-4503-4770-8c24-bf034ef68bab",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534117972236,
+        "last_edited_time": 1535937250438,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 32 (08-06 : 08-12)"
+              "week 32 (08-06 : 08-12) 5 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 123,
+        "version": 131,
         "content_resolved": [
           {
             "alive": true,
@@ -1285,7 +1335,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 32 (08-06 : 08-12)"
+            "Text": "week 32 (08-06 : 08-12) 5 d"
           }
         ]
       },
@@ -1302,18 +1352,18 @@
         "created_time": 1534117340227,
         "id": "04f44e45-c8ac-4b8d-b1e6-ddb90b51d48a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534117504883,
+        "last_edited_time": 1535937242607,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 31 (07-30 : 08-05)"
+              "week 31 (07-30 : 08-05) 5 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 83,
+        "version": 91,
         "content_resolved": [
           {
             "alive": true,
@@ -1712,7 +1762,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 31 (07-30 : 08-05)"
+            "Text": "week 31 (07-30 : 08-05) 5 d"
           }
         ]
       },
@@ -1731,18 +1781,18 @@
         "created_time": 1534117460155,
         "id": "2aa81913-657b-4e24-9cf5-9132ba8d852e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534117531072,
+        "last_edited_time": 1535937238150,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 30 (07-23 : 07-29)"
+              "week 30 (07-23 : 07-29) 7 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 89,
+        "version": 97,
         "content_resolved": [
           {
             "alive": true,
@@ -2610,7 +2660,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 30 (07-23 : 07-29)"
+            "Text": "week 30 (07-23 : 07-29) 7 d"
           }
         ]
       },
@@ -2628,18 +2678,18 @@
         "created_time": 1534117465287,
         "id": "73d91ae5-46f8-4bd0-b555-675211dec817",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1534117551617,
+        "last_edited_time": 1535937233127,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "week 29 (07-16 : 07-22)"
+              "week 29 (07-16 : 07-22) 6 d"
             ]
           ]
         },
         "type": "toggle",
-        "version": 80,
+        "version": 92,
         "content_resolved": [
           {
             "alive": true,
@@ -3501,7 +3551,7 @@
         ],
         "inline_content": [
           {
-            "Text": "week 29 (07-16 : 07-22)"
+            "Text": "week 29 (07-16 : 07-22) 6 d"
           }
         ]
       },

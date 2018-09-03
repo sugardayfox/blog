@@ -4,22 +4,11 @@
     "alive": true,
     "content": [
       "51142e9d-4c35-4640-9328-863443a9b50d",
-      "c611b30a-e88c-404f-9c1b-446fe2d4ea4e",
-      "f9c614c6-0443-4736-abde-2226a799afff",
-      "c73f8740-cb2c-448a-ba1a-30c0cd8e7a6e",
-      "e5d598f7-5f30-4451-b779-d2743f727be9",
-      "e4875d85-ca04-4979-8b08-92d8217758ba",
-      "a81c16b1-37d8-47b8-a448-63c728ad8fb6",
-      "acbeb983-8de8-4519-b75e-aa69d4161108",
-      "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
-      "7498cd9c-c1db-4a4a-bf4d-023ce9ea5eae",
-      "a49a0320-7050-40ad-bc24-4b5e5666107d",
-      "28efedf1-e5fa-4ca8-85f5-ae4ece78d55c",
-      "57475e6f-6870-41fe-8075-3358c47184c9",
-      "dd12a714-3f56-4909-8782-a68470e9c390",
-      "94d5c794-c9a1-4734-9a06-7cb83dbc4f39",
-      "137362f2-433d-484d-a615-c36c0f08c238",
-      "6aa25875-83e0-4a44-aa0b-dd00aa542ffe"
+      "6573225c-d3eb-4528-bac0-40a354c5dbc0",
+      "ea736457-e340-4b44-aa1a-5c1f74c435ee",
+      "c7a7496f-04be-4cab-a38a-5d4cf17679da",
+      "21a52246-f657-43f5-9236-fbbfbdae1e38",
+      "7498cd9c-c1db-4a4a-bf4d-023ce9ea5eae"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1492922226765,
@@ -29,7 +18,7 @@
     },
     "id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529120456638,
+    "last_edited_time": 1535944026389,
     "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
     "parent_table": "block",
     "properties": {
@@ -40,333 +29,701 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 68,
     "content_resolved": [
       {
         "alive": true,
+        "content": [
+          "c611b30a-e88c-404f-9c1b-446fe2d4ea4e",
+          "f9c614c6-0443-4736-abde-2226a799afff",
+          "c73f8740-cb2c-448a-ba1a-30c0cd8e7a6e",
+          "e5d598f7-5f30-4451-b779-d2743f727be9",
+          "e4875d85-ca04-4979-8b08-92d8217758ba",
+          "a81c16b1-37d8-47b8-a448-63c728ad8fb6",
+          "acbeb983-8de8-4519-b75e-aa69d4161108",
+          "2025fc67-c8ce-4bd4-b538-21a5f3fffa5e"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1492922229394,
         "id": "51142e9d-4c35-4640-9328-863443a9b50d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1492922229394,
+        "last_edited_time": 1535944006337,
         "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Links:"
+              "links"
             ]
           ]
         },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
+        "type": "toggle",
+        "version": 24,
+        "content_resolved": [
           {
-            "Text": "Links:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1492922234206,
-        "id": "c611b30a-e88c-404f-9c1b-446fe2d4ea4e",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1492922234206,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492922234206,
+            "id": "c611b30a-e88c-404f-9c1b-446fe2d4ea4e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html"
+                  "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
+                  [
+                    [
+                      "a",
+                      "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html"
+                    ]
+                  ]
                 ]
               ]
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
+                "Link": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html"
+              }
             ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+          },
           {
-            "Text": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
-            "Link": "http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1492998213167,
-        "id": "f9c614c6-0443-4736-abde-2226a799afff",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1492998213167,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492998213167,
+            "id": "f9c614c6-0443-4736-abde-2226a799afff",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html"
+                  "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html",
+                  [
+                    [
+                      "a",
+                      "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html"
+                    ]
+                  ]
                 ]
               ]
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html",
+                "Link": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html"
+              }
             ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+          },
           {
-            "Text": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html",
-            "Link": "http://www.augustcouncil.com/~tgibson/tutorial/tunneling_tutorial.html"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1492998148775,
-        "id": "c73f8740-cb2c-448a-ba1a-30c0cd8e7a6e",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1492998148775,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://www.revsys.com/writings/quicktips/ssh-tunnel.html",
-              [
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492998148775,
+            "id": "c73f8740-cb2c-448a-ba1a-30c0cd8e7a6e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
                 [
-                  "a",
-                  "http://www.revsys.com/writings/quicktips/ssh-tunnel.html"
+                  "http://www.revsys.com/writings/quicktips/ssh-tunnel.html",
+                  [
+                    [
+                      "a",
+                      "http://www.revsys.com/writings/quicktips/ssh-tunnel.html"
+                    ]
+                  ]
                 ]
               ]
+            },
+            "type": "bulleted_list",
+            "version": 3,
+            "inline_content": [
+              {
+                "Text": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html",
+                "Link": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html"
+              }
             ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
+          },
           {
-            "Text": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html",
-            "Link": "http://www.revsys.com/writings/quicktips/ssh-tunnel.html"
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336373716,
+            "id": "e5d598f7-5f30-4451-b779-d2743f727be9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html",
+                  [
+                    [
+                      "a",
+                      "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html",
+                "Link": "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336379650,
+            "id": "e4875d85-ca04-4979-8b08-92d8217758ba",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public",
+                  [
+                    [
+                      "a",
+                      "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public",
+                "Link": "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336385038,
+            "id": "a81c16b1-37d8-47b8-a448-63c728ad8fb6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://blog.tjll.net/ssh-kung-fu/",
+                  [
+                    [
+                      "a",
+                      "http://blog.tjll.net/ssh-kung-fu/"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=7658459",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=7658459"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "http://blog.tjll.net/ssh-kung-fu/",
+                "Link": "http://blog.tjll.net/ssh-kung-fu/"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=7658459",
+                "Link": "https://news.ycombinator.com/item?id=7658459"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512336390039,
+            "id": "acbeb983-8de8-4519-b75e-aa69d4161108",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/",
+                  [
+                    [
+                      "a",
+                      "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=7973202",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=7973202"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/",
+                "Link": "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=7973202",
+                "Link": "https://news.ycombinator.com/item?id=7973202"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535942593713,
+            "id": "2025fc67-c8ce-4bd4-b538-21a5f3fffa5e",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944002246,
+            "parent_id": "51142e9d-4c35-4640-9328-863443a9b50d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html",
+                  [
+                    [
+                      "a",
+                      "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 17,
+            "inline_content": [
+              {
+                "Text": "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html",
+                "Link": "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html"
+              }
+            ]
           }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336373716,
-        "id": "e5d598f7-5f30-4451-b779-d2743f727be9",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336373716,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
+        ],
         "inline_content": [
           {
-            "Text": "http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336379650,
-        "id": "e4875d85-ca04-4979-8b08-92d8217758ba",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336379650,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "http://superuser.com/questions/588591/how-to-make-ssh-tunnel-open-to-public"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336385038,
-        "id": "a81c16b1-37d8-47b8-a448-63c728ad8fb6",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336385038,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://blog.tjll.net/ssh-kung-fu/, https://news.ycombinator.com/item?id=7658459"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "http://blog.tjll.net/ssh-kung-fu/, https://news.ycombinator.com/item?id=7658459"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336390039,
-        "id": "acbeb983-8de8-4519-b75e-aa69d4161108",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336390039,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/, https://news.ycombinator.com/item?id=7973202"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "http://serversforhackers.com/editions/2014/07/01/ssh-tricks/, https://news.ycombinator.com/item?id=7973202"
+            "Text": "links"
           }
         ]
       },
       {
         "alive": true,
         "content": [
-          "526cc5e8-9644-42c5-9da4-4f5184fdea90",
-          "cfd72cb7-f58c-4cac-945c-a0ce2a036108",
-          "86e2cace-d968-41a7-9ce6-ff5a425d7e07"
+          "f67e494d-bf02-4803-8ee3-dd929b8dcf77",
+          "28f8cb4d-1858-4765-a62d-1b8934a820e7"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1492997281789,
-        "id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
+        "created_time": 1535942399226,
+        "id": "6573225c-d3eb-4528-bac0-40a354c5dbc0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1492997281789,
+        "last_edited_time": 1535942482195,
         "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "ssh -i ./id_rsa -f core@138.68.237.61 -L 4406:138.68.237.61:3306 -N",
-              [
-                [
-                  "c"
-                ]
-              ]
-            ],
-            [
-              " : port forward local port 4406 to remote 3306"
+              "ssh config file"
             ]
           ]
         },
-        "type": "bulleted_list",
-        "version": 0,
+        "type": "toggle",
+        "version": 52,
         "content_resolved": [
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1492998003042,
-            "id": "526cc5e8-9644-42c5-9da4-4f5184fdea90",
+            "created_time": 1535942454086,
+            "id": "f67e494d-bf02-4803-8ee3-dd929b8dcf77",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1492998003042,
-            "parent_id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
+            "last_edited_time": 1535942527254,
+            "parent_id": "6573225c-d3eb-4528-bac0-40a354c5dbc0",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "-f : runs in background, have to then kill ssh process"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 0,
-            "inline_content": [
-              {
-                "Text": "-f : runs in background, have to then kill ssh process"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1492998037946,
-            "id": "cfd72cb7-f58c-4cac-945c-a0ce2a036108",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1492998037946,
-            "parent_id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
-            "parent_table": "block",
-            "properties": {
-              "title": [
+                  "On Mac it's "
+                ],
                 [
-                  "-N : don't execute any commands"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 0,
-            "inline_content": [
-              {
-                "Text": "-N : don't execute any commands"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1512336362045,
-            "id": "86e2cace-d968-41a7-9ce6-ff5a425d7e07",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512336362045,
-            "parent_id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
-            "parent_table": "block",
-            "properties": {
-              "title": [
+                  "~/.ssh/config",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
                 [
-                  "\n\n\n—\nssh-add -K ~/.ssh/key_rsa : this makes openssh understand the key"
+                  " and can be used to set various parameters, for example"
                 ]
               ]
             },
             "type": "text",
-            "version": 0,
+            "version": 215,
             "inline_content": [
               {
-                "Text": "\n\n\n—\nssh-add -K ~/.ssh/key_rsa : this makes openssh understand the key"
+                "Text": "On Mac it's "
+              },
+              {
+                "Text": "~/.ssh/config",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " and can be used to set various parameters, for example"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535942482191,
+            "id": "28f8cb4d-1858-4765-a62d-1b8934a820e7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535942579104,
+            "parent_id": "6573225c-d3eb-4528-bac0-40a354c5dbc0",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ForwardAgent yes\n\nServerAliveInterval 60\nServerAliveCountMax 120\n\nHost github.com\n    IdentityFile ~/.ssh/dsa_github\n\nHost blog-ssh.kowalczyk.info\n    User blog\n\t\tPort 1355 # set custom port"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 69,
+            "code": "ForwardAgent yes\n\nServerAliveInterval 60\nServerAliveCountMax 120\n\nHost github.com\n    IdentityFile ~/.ssh/dsa_github\n\nHost blog-ssh.kowalczyk.info\n    User blog\n\t\tPort 1355 # set custom port"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "ssh config file"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "05fc17fe-81a9-4cf6-9bbb-5da6524243e8",
+          "447c0e27-b3bc-4dfe-8ec5-9a1cfe21b7ab"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535942383626,
+        "id": "ea736457-e340-4b44-aa1a-5c1f74c435ee",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535943976196,
+        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "prevent ssh timeouts"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 74,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535942406870,
+            "id": "05fc17fe-81a9-4cf6-9bbb-5da6524243e8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535942423681,
+            "parent_id": "ea736457-e340-4b44-aa1a-5c1f74c435ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "on mac, add to "
+                ],
+                [
+                  "~/.ssh/config",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " file:"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 103,
+            "inline_content": [
+              {
+                "Text": "on mac, add to "
+              },
+              {
+                "Text": "~/.ssh/config",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " file:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535942425530,
+            "id": "447c0e27-b3bc-4dfe-8ec5-9a1cfe21b7ab",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535942431303,
+            "parent_id": "ea736457-e340-4b44-aa1a-5c1f74c435ee",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "ServerAliveInterval 60\nServerAliveCountMax 120"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 11,
+            "code": "ServerAliveInterval 60\nServerAliveCountMax 120",
+            "code_language": "Plain Text"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "prevent ssh timeouts"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "4c1e7d05-8afe-4bde-80d5-617dd5f14925"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535942658519,
+        "id": "c7a7496f-04be-4cab-a38a-5d4cf17679da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535942673971,
+        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "port forwarding"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 52,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "526cc5e8-9644-42c5-9da4-4f5184fdea90",
+              "cfd72cb7-f58c-4cac-945c-a0ce2a036108"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1492997281789,
+            "id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535942668342,
+            "parent_id": "c7a7496f-04be-4cab-a38a-5d4cf17679da",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ssh -i ./id_rsa -f core@138.68.237.61 -L 4406:138.68.237.61:3306 -N",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : port forward local port 4406 to remote 3306"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1492998003042,
+                "id": "526cc5e8-9644-42c5-9da4-4f5184fdea90",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1492998003042,
+                "parent_id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-f : runs in background, have to then kill ssh process"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 0,
+                "inline_content": [
+                  {
+                    "Text": "-f : runs in background, have to then kill ssh process"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1492998037946,
+                "id": "cfd72cb7-f58c-4cac-945c-a0ce2a036108",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1535942376366,
+                "parent_id": "4c1e7d05-8afe-4bde-80d5-617dd5f14925",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "-N : don't execute any commands"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 4,
+                "inline_content": [
+                  {
+                    "Text": "-N : don't execute any commands"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "ssh -i ./id_rsa -f core@138.68.237.61 -L 4406:138.68.237.61:3306 -N",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : port forward local port 4406 to remote 3306"
               }
             ]
           }
         ],
         "inline_content": [
           {
-            "Text": "ssh -i ./id_rsa -f core@138.68.237.61 -L 4406:138.68.237.61:3306 -N",
-            "AttrFlags": 2
-          },
+            "Text": "port forwarding"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "5a5d07cd-6e36-4737-af29-5e73fbb1cf20"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535942377011,
+        "id": "21a52246-f657-43f5-9236-fbbfbdae1e38",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535944026389,
+        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "managing ssh keys"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 66,
+        "content_resolved": [
           {
-            "Text": " : port forward local port 4406 to remote 3306"
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1535942376366,
+            "id": "5a5d07cd-6e36-4737-af29-5e73fbb1cf20",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1535944030825,
+            "parent_id": "21a52246-f657-43f5-9236-fbbfbdae1e38",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ssh-add -K ~/.ssh/key_rsa",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " : this makes openssh understand the key"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 28,
+            "inline_content": [
+              {
+                "Text": "ssh-add -K ~/.ssh/key_rsa",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " : this makes openssh understand the key"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "managing ssh keys"
           }
         ]
       },
@@ -376,191 +733,11 @@
         "created_time": 1512336363207,
         "id": "7498cd9c-c1db-4a4a-bf4d-023ce9ea5eae",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
+        "last_edited_time": 1535942717706,
         "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
         "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "A trick I learned recently: create .ssh/config\nFile format: as many of the following blocks as you like"
-            ]
-          ]
-        },
         "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "A trick I learned recently: create .ssh/config\nFile format: as many of the following blocks as you like"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "a49a0320-7050-40ad-bc24-4b5e5666107d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Host $ALIAS \u003c-- whatever you want here\nHostname www.example.com\nUser someuser\nPort 1234\nYou can now ssh to that server as that user by doing \"ssh $ALIAS\" on the command line, without needing to specify the port or user with the usual command line arguments, or necessarily spell out the entire host name."
-            ]
-          ]
-        },
-        "type": "sub_header",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "Host $ALIAS \u003c-- whatever you want here\nHostname www.example.com\nUser someuser\nPort 1234\nYou can now ssh to that server as that user by doing \"ssh $ALIAS\" on the command line, without needing to specify the port or user with the usual command line arguments, or necessarily spell out the entire host name."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "28efedf1-e5fa-4ca8-85f5-ae4ece78d55c",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "http://thornelabs.net/2013/08/21/simple-ways-to-send-multiple-line-commands-over-ssh.html"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "57475e6f-6870-41fe-8075-3358c47184c9",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "ssh-keygen -t rsa -N '' -f test_rsa_key"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "ssh-keygen -t rsa -N '' -f test_rsa_key"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "dd12a714-3f56-4909-8782-a68470e9c390",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "ssh-keygen -t rsa -b 4096 -C \"kkowalczyk@gmail.com\" -f key_name"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "ssh-keygen -t rsa -b 4096 -C \"kkowalczyk@gmail.com\" -f key_name"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "94d5c794-c9a1-4734-9a06-7cb83dbc4f39",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Only send a specific key to the server. In .ssh/config:\nIgnore SSH keys unless specified in Host subsection\nIdentitiesOnly yes"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "Only send a specific key to the server. In .ssh/config:\nIgnore SSH keys unless specified in Host subsection\nIdentitiesOnly yes"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "137362f2-433d-484d-a615-c36c0f08c238",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Send your public key to github only"
-            ]
-          ]
-        },
-        "type": "header",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "Send your public key to github only"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512336363207,
-        "id": "6aa25875-83e0-4a44-aa0b-dd00aa542ffe",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512336363207,
-        "parent_id": "ed889e66-a03b-4980-afe1-e1578ab522e5",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Host github.com\nIdentityFile ~/.ssh/id_rsa"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "Host github.com\nIdentityFile ~/.ssh/id_rsa"
-          }
-        ]
+        "version": 20
       }
     ],
     "title": "ssh",

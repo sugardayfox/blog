@@ -734,9 +734,13 @@
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1535410999729,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
                 "id": "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1535411108676,
+                "last_edited_time": 1535917172180,
                 "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
                 "parent_table": "block",
                 "properties": {
@@ -747,8 +751,16 @@
                   ]
                 },
                 "type": "page",
-                "version": 53,
-                "title": "Google Cloud Services"
+                "version": 64,
+                "title": "Google Cloud Services",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               },
               {
                 "alive": true,
@@ -1362,7 +1374,7 @@
                 },
                 "id": "0e931590-f27c-40fc-8710-5626a4ad6324",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533528847583,
+                "last_edited_time": 1535875667946,
                 "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
                 "parent_table": "block",
                 "properties": {
@@ -1373,7 +1385,7 @@
                   ]
                 },
                 "type": "page",
-                "version": 17,
+                "version": 24,
                 "title": "Systemd",
                 "format_page": {
                   "page_cover": "",

@@ -5,7 +5,10 @@
     "content": [
       "474c24ba-fc08-4f31-9760-67ec18d68e9a",
       "15749353-316e-42a9-9ff1-8626b43ceb9e",
-      "9fe82467-18ee-40e4-95f9-649e38cc122a"
+      "9fe82467-18ee-40e4-95f9-649e38cc122a",
+      "383ec2bb-a867-4731-af2a-a2a79c5b3a77",
+      "75eb8bd2-28d2-4784-8328-0e5b485a0826",
+      "55f15c58-4372-4f6c-bc07-03f4a6e05dfd"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496776428787,
@@ -15,7 +18,7 @@
     },
     "id": "16159d4a-d712-4326-8165-c72f4cfe4eec",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529120456638,
+    "last_edited_time": 1535940051687,
     "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
     "parent_table": "block",
     "properties": {
@@ -26,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 3,
+    "version": 13,
     "content_resolved": [
       {
         "alive": true,
@@ -113,6 +116,66 @@
             "Link": "https://blog.alexellis.io/prometheus-monitoring/"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535940025338,
+        "id": "383ec2bb-a867-4731-af2a-a2a79c5b3a77",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535940025338,
+        "parent_id": "16159d4a-d712-4326-8165-c72f4cfe4eec",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535940024582,
+        "id": "75eb8bd2-28d2-4784-8328-0e5b485a0826",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535940045333,
+        "parent_id": "16159d4a-d712-4326-8165-c72f4cfe4eec",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Paths on Ubuntu 18.04: "
+            ],
+            [
+              "/snap/prometheus/21/bin/prometheus --config.file=/var/snap/prometheus/21/prometheus.yml --storage.tsdb.path=/var/snap/prometheus/common",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 62,
+        "inline_content": [
+          {
+            "Text": "Paths on Ubuntu 18.04: "
+          },
+          {
+            "Text": "/snap/prometheus/21/bin/prometheus --config.file=/var/snap/prometheus/21/prometheus.yml --storage.tsdb.path=/var/snap/prometheus/common",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535940051687,
+        "id": "55f15c58-4372-4f6c-bc07-03f4a6e05dfd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535940051703,
+        "parent_id": "16159d4a-d712-4326-8165-c72f4cfe4eec",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
       }
     ],
     "title": "Prometheus",

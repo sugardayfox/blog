@@ -3,6 +3,8 @@
   "Root": {
     "alive": true,
     "content": [
+      "92d6299b-bbd5-4d83-a471-0687ee2890ba",
+      "b54bb625-c663-4241-aa15-a29161c09bc8",
       "fdf0db47-eed7-4402-b896-09c1bf67ec21",
       "999f43ba-c18c-4ff9-99f5-7f6f4fb5cba5",
       "d514ca1f-2f6c-4e69-9087-56da656e8229",
@@ -18,7 +20,7 @@
     },
     "id": "0e931590-f27c-40fc-8710-5626a4ad6324",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533528847583,
+    "last_edited_time": 1535875667946,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -29,8 +31,64 @@
       ]
     },
     "type": "page",
-    "version": 17,
+    "version": 24,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875662750,
+        "id": "92d6299b-bbd5-4d83-a471-0687ee2890ba",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535875665207,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Commands:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 24,
+        "inline_content": [
+          {
+            "Text": "Commands:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1535875667946,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b54bb625-c663-4241-aa15-a29161c09bc8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1535945043622,
+        "parent_id": "0e931590-f27c-40fc-8710-5626a4ad6324",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "systemctl and journalctl"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 95,
+        "title": "systemctl and journalctl",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
