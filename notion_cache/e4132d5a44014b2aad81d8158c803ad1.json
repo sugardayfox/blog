@@ -10763,13 +10763,14 @@
                       "6f477889-789e-4384-a83c-ae518b5d5d6f",
                       "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
                       "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
-                      "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4"
+                      "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
+                      "7491f5db-419c-46a3-b3b9-8ebd3c15981a"
                     ],
                     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                     "created_time": 1512430101413,
                     "id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1531349201654,
+                    "last_edited_time": 1536000863680,
                     "parent_id": "a4afbbc6-05d9-48c4-af26-cbc42559073b",
                     "parent_table": "block",
                     "properties": {
@@ -10780,7 +10781,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 5,
+                    "version": 7,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -11133,6 +11134,43 @@
                           },
                           {
                             "Text": " : description of Google Photo layout and other implemenation details. Relevant for comic book viewer"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1536000863680,
+                        "id": "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1536000888906,
+                        "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://onedrive.live.com/?authkey=!ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2!17238\u0026cid=DC1D63D0C3D0B4A2",
+                              [
+                                [
+                                  "a",
+                                  "https://onedrive.live.com/?authkey=%21ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2%2117238\u0026cid=DC1D63D0C3D0B4A2"
+                                ]
+                              ]
+                            ],
+                            [
+                              " : decent UI for seeing multiple images"
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 86,
+                        "inline_content": [
+                          {
+                            "Text": "https://onedrive.live.com/?authkey=!ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2!17238\u0026cid=DC1D63D0C3D0B4A2",
+                            "Link": "https://onedrive.live.com/?authkey=%21ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2%2117238\u0026cid=DC1D63D0C3D0B4A2"
+                          },
+                          {
+                            "Text": " : decent UI for seeing multiple images"
                           }
                         ]
                       }
