@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "da91c187-74cc-4271-a144-87c5fed22187",
+      "07fb07f4-ea24-460a-9786-f5e26487ae63",
       "3abd314a-3aa1-4922-8a19-e30ed65fd037",
       "0fc674d9-b273-4acd-83dd-769997556fb4",
       "107237ec-4d98-4dd9-a2c8-6f4356ed94be",
@@ -18,7 +19,7 @@
     },
     "id": "9a2c2066-aee3-4427-95ed-c1c3c058741a",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1523482423489,
+    "last_edited_time": 1536097512649,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -29,7 +30,7 @@
       ]
     },
     "type": "page",
-    "version": 2,
+    "version": 4,
     "content_resolved": [
       {
         "alive": true,
@@ -52,6 +53,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1536097512649,
+        "id": "07fb07f4-ea24-460a-9786-f5e26487ae63",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1536097518331,
+        "parent_id": "9a2c2066-aee3-4427-95ed-c1c3c058741a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/",
+              [
+                [
+                  "a",
+                  "https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/"
+                ]
+              ]
+            ],
+            [
+              " : how to do svg icons"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 63,
+        "inline_content": [
+          {
+            "Text": "https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/",
+            "Link": "https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/"
+          },
+          {
+            "Text": " : how to do svg icons"
           }
         ]
       },

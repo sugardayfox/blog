@@ -110,11 +110,14 @@
       },
       {
         "alive": true,
+        "content": [
+          "440c33d4-4c0a-49a5-8e93-8714f65245d9"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1535603805745,
         "id": "9cd1f430-8a80-4e44-ac1c-d5fd7221161a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535937295866,
+        "last_edited_time": 1536130248075,
         "parent_id": "46aa7c6d-0833-42bb-b35f-7a7de0a994c0",
         "parent_table": "block",
         "properties": {
@@ -125,7 +128,75 @@
           ]
         },
         "type": "toggle",
-        "version": 73,
+        "version": 79,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "13a3f013-a1f8-40ab-b1ba-cf04db679a59"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1536130236906,
+            "id": "440c33d4-4c0a-49a5-8e93-8714f65245d9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1536130248075,
+            "parent_id": "9cd1f430-8a80-4e44-ac1c-d5fd7221161a",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "2018-09-04"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 33,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1536130246561,
+                "id": "13a3f013-a1f8-40ab-b1ba-cf04db679a59",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1536130261599,
+                "parent_id": "440c33d4-4c0a-49a5-8e93-8714f65245d9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Working on "
+                    ],
+                    [
+                      "https://www.onlinetool.io/gitoembed/",
+                      [
+                        [
+                          "a",
+                          "https://www.onlinetool.io/gitoembed/"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 46,
+                "inline_content": [
+                  {
+                    "Text": "Working on "
+                  },
+                  {
+                    "Text": "https://www.onlinetool.io/gitoembed/",
+                    "Link": "https://www.onlinetool.io/gitoembed/"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "2018-09-04"
+              }
+            ]
+          }
+        ],
         "inline_content": [
           {
             "Text": "week 36 (09-03 - 09-09)"
