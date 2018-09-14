@@ -1670,6 +1670,7 @@
         "alive": true,
         "content": [
           "68520915-8cc1-4158-b00e-f50d0ba96ab6",
+          "a9d7c623-9479-46cf-a04e-8c92de0760d7",
           "30aaad6c-2140-4eb4-9f27-cac109b1e032",
           "2bd93764-ab74-4c34-991f-5c4ad83f975a",
           "583c35e5-1c60-4dba-bc0f-72d9e8874054",
@@ -1680,7 +1681,7 @@
         "created_time": 1514110559964,
         "id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1536785019477,
+        "last_edited_time": 1536876542598,
         "parent_id": "7b96a8df-df45-418a-b397-1c0a1a467314",
         "parent_table": "block",
         "properties": {
@@ -1691,7 +1692,7 @@
           ]
         },
         "type": "toggle",
-        "version": 57,
+        "version": 59,
         "content_resolved": [
           {
             "alive": true,
@@ -1740,6 +1741,56 @@
               {
                 "Text": "https://news.ycombinator.com/item?id=17968510",
                 "Link": "https://news.ycombinator.com/item?id=17968510"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1536876542598,
+            "id": "a9d7c623-9479-46cf-a04e-8c92de0760d7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1536876549648,
+            "parent_id": "46f490e6-aa3d-4c12-9177-6cfec3949db2",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/designrevision/shards-vue",
+                  [
+                    [
+                      "a",
+                      "https://github.com/designrevision/shards-vue"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/",
+                  [
+                    [
+                      "a",
+                      "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 19,
+            "inline_content": [
+              {
+                "Text": "https://github.com/designrevision/shards-vue",
+                "Link": "https://github.com/designrevision/shards-vue"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/",
+                "Link": "https://www.reddit.com/r/vuejs/comments/9figiv/shards_vue_free_vue_ui_kit_with_a_sleek_modern/"
               }
             ]
           },
