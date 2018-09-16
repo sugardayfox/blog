@@ -63,13 +63,14 @@
           "e2f6c612-3941-4c57-add6-edb42da69571",
           "a8288d61-9617-409c-af6b-cdd0a0aa0cf7",
           "4b67c114-55a6-47e0-b6d0-5fc841db11a7",
-          "eaecebc6-ee97-4a82-8467-7b82f680144b"
+          "eaecebc6-ee97-4a82-8467-7b82f680144b",
+          "a594ed47-e045-4e47-b499-ef59da974da1"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1493148422871,
         "id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532930374802,
+        "last_edited_time": 1537060375646,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -80,7 +81,7 @@
           ]
         },
         "type": "toggle",
-        "version": 18,
+        "version": 20,
         "content_resolved": [
           {
             "alive": true,
@@ -1099,6 +1100,43 @@
               },
               {
                 "Text": " : vim ported to wasm"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1537060375646,
+            "id": "a594ed47-e045-4e47-b499-ef59da974da1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1537060392763,
+            "parent_id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://blog.codeisc.com/2018/08/28/xlnt-wasm-intro.html",
+                  [
+                    [
+                      "a",
+                      "https://blog.codeisc.com/2018/08/28/xlnt-wasm-intro.html"
+                    ]
+                  ]
+                ],
+                [
+                  " : excel parsing library ported"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 134,
+            "inline_content": [
+              {
+                "Text": "https://blog.codeisc.com/2018/08/28/xlnt-wasm-intro.html",
+                "Link": "https://blog.codeisc.com/2018/08/28/xlnt-wasm-intro.html"
+              },
+              {
+                "Text": " : excel parsing library ported"
               }
             ]
           }
