@@ -1,0 +1,219 @@
+{
+  "ID": "80a4483d-b747-4706-9898-363d53f16bf0",
+  "Root": {
+    "alive": true,
+    "content": [
+      "33204ae4-6028-41e0-afe0-cc8977e5718b",
+      "e524d14b-31d6-460f-8b77-f18cb29a11e7",
+      "7c7dfc6a-7610-4893-92ad-722ffa8b8039",
+      "508b04ec-ac0b-44ad-82a4-74e74ff17785",
+      "d8726f74-fe97-45e8-8cf2-2afee5237168"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1537164963898,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "80a4483d-b747-4706-9898-363d53f16bf0",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1537165026939,
+    "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "certificates, pem, pfx"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 65,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537164970690,
+        "id": "33204ae4-6028-41e0-afe0-cc8977e5718b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537164985618,
+        "parent_id": "80a4483d-b747-4706-9898-363d53f16bf0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Notes:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 18,
+        "inline_content": [
+          {
+            "Text": "Notes:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537165006816,
+        "id": "e524d14b-31d6-460f-8b77-f18cb29a11e7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537165026939,
+        "parent_id": "80a4483d-b747-4706-9898-363d53f16bf0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gist.github.com/Soarez/9688998",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/Soarez/9688998"
+                ]
+              ]
+            ],
+            [
+              " : How to setup your own CA with OpenSSL"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19,
+        "inline_content": [
+          {
+            "Text": "https://gist.github.com/Soarez/9688998",
+            "Link": "https://gist.github.com/Soarez/9688998"
+          },
+          {
+            "Text": " : How to setup your own CA with OpenSSL"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537164985840,
+        "id": "7c7dfc6a-7610-4893-92ad-722ffa8b8039",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537164986643,
+        "parent_id": "80a4483d-b747-4706-9898-363d53f16bf0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@raul_11817/export-import-pem-files-in-go-67614624adc7",
+              [
+                [
+                  "a",
+                  "https://medium.com/@raul_11817/export-import-pem-files-in-go-67614624adc7"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/@raul_11817/export-import-pem-files-in-go-67614624adc7",
+            "Link": "https://medium.com/@raul_11817/export-import-pem-files-in-go-67614624adc7"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537164987553,
+        "id": "508b04ec-ac0b-44ad-82a4-74e74ff17785",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537164998377,
+        "parent_id": "80a4483d-b747-4706-9898-363d53f16bf0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://gist.github.com/ukautz/cd118e298bbd8f0a88fc",
+              [
+                [
+                  "a",
+                  "https://gist.github.com/ukautz/cd118e298bbd8f0a88fc"
+                ]
+              ]
+            ],
+            [
+              " : Load all .pem files containing private key and certificate(s) from directory"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "https://gist.github.com/ukautz/cd118e298bbd8f0a88fc",
+            "Link": "https://gist.github.com/ukautz/cd118e298bbd8f0a88fc"
+          },
+          {
+            "Text": " : Load all .pem files containing private key and certificate(s) from directory"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537164992087,
+        "id": "d8726f74-fe97-45e8-8cf2-2afee5237168",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537165005582,
+        "parent_id": "80a4483d-b747-4706-9898-363d53f16bf0",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://wiki.hackzine.org/sysadmin/openssl-commands.html",
+              [
+                [
+                  "a",
+                  "https://wiki.hackzine.org/sysadmin/openssl-commands.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://wiki.hackzine.org/sysadmin/openssl-commands.html",
+            "Link": "https://wiki.hackzine.org/sysadmin/openssl-commands.html"
+          }
+        ]
+      }
+    ],
+    "title": "certificates, pem, pfx",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}

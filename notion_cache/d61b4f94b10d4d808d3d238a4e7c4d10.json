@@ -74,7 +74,7 @@
               "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
               "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
               "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
-              "d05a0ba4-9d12-4f94-90c7-07dd5d0b0559"
+              "80a4483d-b747-4706-9898-363d53f16bf0"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496280773065,
@@ -83,11 +83,11 @@
             },
             "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1535411114038,
+            "last_edited_time": 1537164963898,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 174,
+            "version": 177,
             "content_resolved": [
               {
                 "alive": true,
@@ -797,14 +797,34 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1535411114038,
-                "id": "d05a0ba4-9d12-4f94-90c7-07dd5d0b0559",
+                "created_time": 1537164963898,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "80a4483d-b747-4706-9898-363d53f16bf0",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1535411114038,
+                "last_edited_time": 1537165026939,
                 "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
                 "parent_table": "block",
-                "type": "text",
-                "version": 4
+                "properties": {
+                  "title": [
+                    [
+                      "certificates, pem, pfx"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 65,
+                "title": "certificates, pem, pfx",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               }
             ],
             "format_column": {

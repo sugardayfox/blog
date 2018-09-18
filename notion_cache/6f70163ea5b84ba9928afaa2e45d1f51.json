@@ -21,7 +21,8 @@
       "e3aa0199-ee36-492a-90fb-92aa3fe8ba25",
       "bc5ada73-f538-449e-91d3-61f6857e2ebc",
       "6435bf2e-2453-4c41-94bf-08cb397eeda3",
-      "bf2363a5-6186-4fa5-8c08-a3c6d2305f97"
+      "bf2363a5-6186-4fa5-8c08-a3c6d2305f97",
+      "9d54f7ea-1a6e-4b3c-b788-efc3cfcf9e92"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1474753820011,
@@ -31,7 +32,7 @@
     },
     "id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530253989400,
+    "last_edited_time": 1537164927987,
     "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
     "parent_table": "block",
     "properties": {
@@ -42,7 +43,7 @@
       ]
     },
     "type": "page",
-    "version": 25,
+    "version": 27,
     "content_resolved": [
       {
         "alive": true,
@@ -734,6 +735,18 @@
           "page_icon": "",
           "page_small_text": true
         }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537164927987,
+        "id": "9d54f7ea-1a6e-4b3c-b788-efc3cfcf9e92",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537164927987,
+        "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "Go",
