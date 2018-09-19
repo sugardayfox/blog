@@ -6,6 +6,7 @@
       "2bcbdd57-b556-4e22-b9e0-c2c3042b5d28",
       "37a7321b-ccf0-44d4-9ea5-07c184725b29",
       "beca95fa-0e6f-4728-89f1-e0a1a68ebf08",
+      "5ecb0dee-c530-42d8-97a0-ae449c0d7980",
       "9da9fbe7-31b6-4aec-8703-ed5e085ecec6"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -16,18 +17,18 @@
     },
     "id": "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533689125380,
+    "last_edited_time": 1537323144275,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "Chrome dev tools"
+          "Chrome dev tools, cdp, chrome debugger protocol"
         ]
       ]
     },
     "type": "page",
-    "version": 5,
+    "version": 69,
     "content_resolved": [
       {
         "alive": true,
@@ -118,6 +119,37 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537323094989,
+        "id": "5ecb0dee-c530-42d8-97a0-ae449c0d7980",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537323095260,
+        "parent_id": "9c58945a-0699-41ad-95d6-8bd6f217a3c5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.shapesecurity.com/2018/09/17/intercepting-and-modifying-responses-with-chrome-via-the-devtools-protocol/",
+              [
+                [
+                  "a",
+                  "https://blog.shapesecurity.com/2018/09/17/intercepting-and-modifying-responses-with-chrome-via-the-devtools-protocol/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://blog.shapesecurity.com/2018/09/17/intercepting-and-modifying-responses-with-chrome-via-the-devtools-protocol/",
+            "Link": "https://blog.shapesecurity.com/2018/09/17/intercepting-and-modifying-responses-with-chrome-via-the-devtools-protocol/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496213529578,
         "id": "9da9fbe7-31b6-4aec-8703-ed5e085ecec6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -128,7 +160,7 @@
         "version": 2
       }
     ],
-    "title": "Chrome dev tools",
+    "title": "Chrome dev tools, cdp, chrome debugger protocol",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
