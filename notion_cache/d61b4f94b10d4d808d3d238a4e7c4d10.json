@@ -74,7 +74,8 @@
               "ab8c1b1d-6a3f-4cc1-a25e-5349202407d3",
               "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
               "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
-              "80a4483d-b747-4706-9898-363d53f16bf0"
+              "80a4483d-b747-4706-9898-363d53f16bf0",
+              "b976b22b-66fe-4691-a0cb-d303d12d60aa"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496280773065,
@@ -83,11 +84,11 @@
             },
             "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1537164963898,
+            "last_edited_time": 1537397094116,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 177,
+            "version": 186,
             "content_resolved": [
               {
                 "alive": true,
@@ -825,6 +826,18 @@
                   "page_icon": "",
                   "page_small_text": true
                 }
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1537397094116,
+                "id": "b976b22b-66fe-4691-a0cb-d303d12d60aa",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1537397094116,
+                "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
+                "parent_table": "block",
+                "type": "text",
+                "version": 4
               }
             ],
             "format_column": {
@@ -836,6 +849,7 @@
             "content": [
               "040630a7-5e9f-4aae-83d0-1538bdc8f702",
               "91b14d80-b9df-458c-ab7d-588a9f5dccec",
+              "6a2aafdb-0faa-4881-ad72-a7c29d355691",
               "6325967d-6fab-488e-8882-a4b619ac90fc",
               "ba0bb283-71f2-42f2-a35b-781a8a668b3a",
               "4df7b812-4234-4e24-8135-1c3898254ba2",
@@ -865,11 +879,11 @@
             },
             "id": "515006ec-a4e4-48fa-af52-65dce7674e79",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1535411112623,
+            "last_edited_time": 1537397092484,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 100,
+            "version": 102,
             "content_resolved": [
               {
                 "alive": true,
@@ -926,6 +940,38 @@
                 "type": "page",
                 "version": 6,
                 "title": "hash functions",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1537397065009,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "6a2aafdb-0faa-4881-ad72-a7c29d355691",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1537397731774,
+                "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "ipfs"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 27,
+                "title": "ipfs",
                 "format_page": {
                   "page_cover": "",
                   "page_cover_position": 0,
