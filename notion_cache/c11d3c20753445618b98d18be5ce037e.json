@@ -13,8 +13,6 @@
       "1b8ded4c-144b-4e85-a34a-efa1737f5230",
       "d994faec-db8e-4a42-a6e4-3c7e5693055a",
       "cea6c12b-0fa0-459b-a58a-de20f3c5fe35",
-      "ee4e13fe-f543-4672-83c1-b1160b6a84e9",
-      "7d1d4caf-5c6b-404d-afc3-72648d680059",
       "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
       "479dc35a-f6a3-431d-b0cb-e382d7defa19"
     ],
@@ -26,7 +24,7 @@
     },
     "id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530066447649,
+    "last_edited_time": 1537549904684,
     "parent_id": "51b70cc4-6af0-4d6e-8f7c-272387e8a356",
     "parent_table": "block",
     "properties": {
@@ -37,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 49,
+    "version": 53,
     "content_resolved": [
       {
         "alive": true,
@@ -57,21 +55,21 @@
         "created_time": 1530066161452,
         "id": "aaed106f-a6e3-4ffa-a688-147ce286ebfb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530066195450,
+        "last_edited_time": 1537549830603,
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I wanted to see a real-life performance of different compressors:"
+              "I wanted to see a real-life performance of different compressors for web content:"
             ]
           ]
         },
         "type": "text",
-        "version": 290,
+        "version": 322,
         "inline_content": [
           {
-            "Text": "I wanted to see a real-life performance of different compressors:"
+            "Text": "I wanted to see a real-life performance of different compressors for web content:"
           }
         ]
       },
@@ -267,18 +265,10 @@
               "parent_id": "d994faec-db8e-4a42-a6e4-3c7e5693055a",
               "parent_table": "block",
               "query": {
-                "aggregate": [
-                  {
-                    "aggregation_type": "count",
-                    "id": "count",
-                    "property": "title",
-                    "type": "title",
-                    "view_type": "table"
-                  }
-                ]
+                "aggregate": null
               },
               "type": "table",
-              "version": 40
+              "version": 41
             },
             "Collection": {
               "alive": true,
@@ -473,47 +463,23 @@
         "created_time": 1530066383944,
         "id": "cea6c12b-0fa0-459b-a58a-de20f3c5fe35",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530066383944,
-        "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530066383517,
-        "id": "ee4e13fe-f543-4672-83c1-b1160b6a84e9",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530066444109,
+        "last_edited_time": 1537549980409,
         "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "This is the same data as above but comparing only compressed versions, to  see relative differences between compressed content:"
+              "Relative difference between compressed sizes:"
             ]
           ]
         },
         "type": "text",
-        "version": 322,
+        "version": 96,
         "inline_content": [
           {
-            "Text": "This is the same data as above but comparing only compressed versions, to  see relative differences between compressed content:"
+            "Text": "Relative difference between compressed sizes:"
           }
         ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1530066160992,
-        "id": "7d1d4caf-5c6b-404d-afc3-72648d680059",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530066377114,
-        "parent_id": "c11d3c20-7534-4561-8b98-d18be5ce037e",
-        "parent_table": "block",
-        "type": "text",
-        "version": 9
       },
       {
         "alive": true,
@@ -575,18 +541,10 @@
               "parent_id": "95d01747-45d4-41ff-b41f-e92e17cd3fd3",
               "parent_table": "block",
               "query": {
-                "aggregate": [
-                  {
-                    "aggregation_type": "count",
-                    "id": "count",
-                    "property": "title",
-                    "type": "title",
-                    "view_type": "table"
-                  }
-                ]
+                "aggregate": null
               },
               "type": "table",
-              "version": 3
+              "version": 4
             },
             "Collection": {
               "alive": true,

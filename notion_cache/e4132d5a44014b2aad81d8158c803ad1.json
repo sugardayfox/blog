@@ -70,7 +70,8 @@
               "84923208-e23b-442f-89af-a1542d99c221",
               "056cf732-a069-472d-961b-2effb9f5db23",
               "01cf1ba9-49da-44ba-a475-a2dcc9655856",
-              "060a4743-9322-4d94-ac60-bba8121581e3"
+              "060a4743-9322-4d94-ac60-bba8121581e3",
+              "e1cea37a-0533-4bf3-b148-badc4c486d32"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1533799287746,
@@ -79,11 +80,11 @@
             },
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1535445536832,
+            "last_edited_time": 1537550963624,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 209,
+            "version": 211,
             "content_resolved": [
               {
                 "alive": true,
@@ -10654,6 +10655,18 @@
                     "Text": "pandoc online"
                   }
                 ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1537550963624,
+                "id": "e1cea37a-0533-4bf3-b148-badc4c486d32",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1537550963624,
+                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+                "parent_table": "block",
+                "type": "text",
+                "version": 4
               }
             ],
             "format_column": {
