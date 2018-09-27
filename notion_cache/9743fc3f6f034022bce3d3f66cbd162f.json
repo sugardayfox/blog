@@ -2285,13 +2285,14 @@
           "0105b099-7b9b-4bc1-a4ac-096a2426c2b7",
           "cd85c556-9b94-457a-b952-a428e990afb6",
           "02742841-6279-4a04-be0e-7dc414956850",
-          "9b175220-08de-4a69-ab57-49c1c1195043"
+          "9b175220-08de-4a69-ab57-49c1c1195043",
+          "5f84aa2d-1957-4799-9ad2-83feff83238a"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1506117864712,
         "id": "b1268def-9ddb-4061-af66-83f7aa48e152",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1537561034233,
+        "last_edited_time": 1537998629913,
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "properties": {
@@ -2302,7 +2303,7 @@
           ]
         },
         "type": "toggle",
-        "version": 8,
+        "version": 10,
         "content_resolved": [
           {
             "alive": true,
@@ -2462,6 +2463,37 @@
               {
                 "Text": "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/",
                 "Link": "https://formapi.io/blog/posts/fast-docker-builds-for-rails-and-webpack/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1537998629913,
+            "id": "5f84aa2d-1957-4799-9ad2-83feff83238a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1537998630927,
+            "parent_id": "b1268def-9ddb-4061-af66-83f7aa48e152",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.com/lucjuggery/running-a-container-with-a-non-root-user-e35830d1f42a",
+                  [
+                    [
+                      "a",
+                      "https://medium.com/lucjuggery/running-a-container-with-a-non-root-user-e35830d1f42a"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://medium.com/lucjuggery/running-a-container-with-a-non-root-user-e35830d1f42a",
+                "Link": "https://medium.com/lucjuggery/running-a-container-with-a-non-root-user-e35830d1f42a"
               }
             ]
           }

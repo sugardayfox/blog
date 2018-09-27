@@ -493,13 +493,14 @@
             "alive": true,
             "content": [
               "084051b0-666d-453e-8d81-efafc02f90eb",
-              "e1ef27c4-58e0-475f-8f63-6ffe05269bff"
+              "e1ef27c4-58e0-475f-8f63-6ffe05269bff",
+              "aeecf3cb-fc0f-4876-bdad-cb3506df0856"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512369208267,
             "id": "129902ee-b0dc-42c0-b273-15b574f4fecf",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512369208267,
+            "last_edited_time": 1537998677546,
             "parent_id": "f66255bf-5b60-41a2-b995-8b37cafdc328",
             "parent_table": "block",
             "properties": {
@@ -510,7 +511,7 @@
               ]
             },
             "type": "toggle",
-            "version": 0,
+            "version": 2,
             "content_resolved": [
               {
                 "alive": true,
@@ -571,6 +572,37 @@
                   {
                     "Text": "https://github.com/mozilla/pdf.js",
                     "Link": "https://github.com/mozilla/pdf.js"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1537998677546,
+                "id": "aeecf3cb-fc0f-4876-bdad-cb3506df0856",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1537998677890,
+                "parent_id": "129902ee-b0dc-42c0-b273-15b574f4fecf",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "https://github.com/arkokoley/pdfvuer",
+                      [
+                        [
+                          "a",
+                          "https://github.com/arkokoley/pdfvuer"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 8,
+                "inline_content": [
+                  {
+                    "Text": "https://github.com/arkokoley/pdfvuer",
+                    "Link": "https://github.com/arkokoley/pdfvuer"
                   }
                 ]
               }

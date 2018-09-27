@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "c9147046-b782-42a0-bc71-ba8065090771",
+      "93a706f2-9dcf-4ca4-b12e-8d16c141e698",
       "8bafff9e-46cc-4f70-9e09-531d6a78bb4e",
       "86623b22-d64e-459f-a4b7-823dcddf0380",
       "0405d7ef-dd4e-4e79-a3a9-5a66b5fcb231",
@@ -45,7 +46,7 @@
     },
     "id": "8bba674f-b821-45d7-b654-ac75f711c31b",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530048919688,
+    "last_edited_time": 1537998657097,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -56,7 +57,7 @@
       ]
     },
     "type": "page",
-    "version": 33,
+    "version": 39,
     "content_resolved": [
       {
         "alive": true,
@@ -79,6 +80,50 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537998647251,
+        "id": "93a706f2-9dcf-4ca4-b12e-8d16c141e698",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1537998657987,
+        "parent_id": "8bba674f-b821-45d7-b654-ac75f711c31b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@armin.heller/using-parser-combinators-in-go-e63b3ad69c94, ",
+              [
+                [
+                  "a",
+                  "https://medium.com/@armin.heller/using-parser-combinators-in-go-e63b3ad69c94"
+                ]
+              ]
+            ],
+            [
+              "https://medium.com/@armin.heller/parser-combinator-gotchas-2792deac4531",
+              [
+                [
+                  "a",
+                  "https://medium.com/@armin.heller/parser-combinator-gotchas-2792deac4531"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 21,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/@armin.heller/using-parser-combinators-in-go-e63b3ad69c94, ",
+            "Link": "https://medium.com/@armin.heller/using-parser-combinators-in-go-e63b3ad69c94"
+          },
+          {
+            "Text": "https://medium.com/@armin.heller/parser-combinator-gotchas-2792deac4531",
+            "Link": "https://medium.com/@armin.heller/parser-combinator-gotchas-2792deac4531"
           }
         ]
       },
