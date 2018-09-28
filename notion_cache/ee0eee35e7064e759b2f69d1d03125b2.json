@@ -7,6 +7,7 @@
       "0ed634dd-4821-4ad1-8ba8-ff2bb262e35e",
       "f2f31f05-558f-4784-87f5-1cefe972d151",
       "e55eb827-b092-4933-8c83-2c4892ef5108",
+      "eb2fc10d-5893-41f9-82b2-ec8e1978acf5",
       "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
       "f45444d1-e56f-4fb4-a2d8-c85c645a3cce",
       "77f6bdee-ef41-4623-84fe-b1bc2c9b2ef7",
@@ -26,7 +27,7 @@
     },
     "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532676932835,
+    "last_edited_time": 1538039215762,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -37,7 +38,7 @@
       ]
     },
     "type": "page",
-    "version": 85,
+    "version": 93,
     "content_resolved": [
       {
         "alive": true,
@@ -138,6 +139,38 @@
         "type": "page",
         "version": 6,
         "title": "DWARF format",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538039191760,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "eb2fc10d-5893-41f9-82b2-ec8e1978acf5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538039215762,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "elf format"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 59,
+        "title": "elf format",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
