@@ -17,7 +17,8 @@
       "2bcf1198-2d49-48a6-9185-82b06f66eee1",
       "6d754539-e3d8-4e72-b4c2-89e6d84a74bc",
       "9ffa1c9a-b885-4860-8767-9318db3affdd",
-      "3bf6bc05-d375-4a59-9886-d79bd0eaa757"
+      "3bf6bc05-d375-4a59-9886-d79bd0eaa757",
+      "202ba373-0e91-4068-a6fc-18b602b1a955"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530068688255,
@@ -27,7 +28,7 @@
     },
     "id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1538039215762,
+    "last_edited_time": 1538219617432,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -38,7 +39,7 @@
       ]
     },
     "type": "page",
-    "version": 93,
+    "version": 95,
     "content_resolved": [
       {
         "alive": true,
@@ -506,6 +507,18 @@
           "page_icon": "",
           "page_small_text": true
         }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538219617432,
+        "id": "202ba373-0e91-4068-a6fc-18b602b1a955",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538219617432,
+        "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "File formats",
