@@ -5,6 +5,8 @@
     "content": [
       "891240b5-4512-4294-b9de-54203f40f983",
       "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
+      "66168900-29a4-4b49-98d6-a9af85807d8a",
+      "222676a7-9844-4d5d-a627-0cc98ff04bd4",
       "acf89490-3db1-4a9c-bd0d-ef7b4ee1a98d",
       "354e935f-c591-4c8b-8d4d-20d70e081818",
       "77f72963-3316-4dce-8aeb-cb59958cac1d",
@@ -37,7 +39,7 @@
     },
     "id": "89eef919-7135-4045-b6b3-2b0519388748",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1533877455166,
+    "last_edited_time": 1538600217413,
     "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "parent_table": "block",
     "properties": {
@@ -48,7 +50,7 @@
       ]
     },
     "type": "page",
-    "version": 72,
+    "version": 76,
     "content_resolved": [
       {
         "alive": true,
@@ -108,6 +110,68 @@
           },
           {
             "Text": " : visual css layout"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538600085583,
+        "id": "66168900-29a4-4b49-98d6-a9af85807d8a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538600085945,
+        "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.sitepoint.com/creating-css-grid-layouts/",
+              [
+                [
+                  "a",
+                  "https://www.sitepoint.com/creating-css-grid-layouts/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://www.sitepoint.com/creating-css-grid-layouts/",
+            "Link": "https://www.sitepoint.com/creating-css-grid-layouts/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538600217413,
+        "id": "222676a7-9844-4d5d-a627-0cc98ff04bd4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538600217754,
+        "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://css-tricks.com/preventing-a-grid-blowout/",
+              [
+                [
+                  "a",
+                  "https://css-tricks.com/preventing-a-grid-blowout/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://css-tricks.com/preventing-a-grid-blowout/",
+            "Link": "https://css-tricks.com/preventing-a-grid-blowout/"
           }
         ]
       },
