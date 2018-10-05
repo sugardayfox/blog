@@ -3,6 +3,7 @@
   "Root": {
     "alive": true,
     "content": [
+      "0915dfaf-3b47-48a8-9e45-9cdc972b8772",
       "9ba6ee45-3b13-46e8-8b71-3567cbf938fb"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -13,7 +14,7 @@
     },
     "id": "08e41706-8555-46c3-a074-dae41cf910d8",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1512364098416,
+    "last_edited_time": 1538698904527,
     "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
     "parent_table": "block",
     "properties": {
@@ -24,15 +25,52 @@
       ]
     },
     "type": "page",
-    "version": 0,
+    "version": 7,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538698899669,
+        "id": "0915dfaf-3b47-48a8-9e45-9cdc972b8772",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538698910540,
+        "parent_id": "08e41706-8555-46c3-a074-dae41cf910d8",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "From "
+            ],
+            [
+              "https://code.google.com/p/go-wiki/wiki/SliceTricks",
+              [
+                [
+                  "a",
+                  "https://code.google.com/p/go-wiki/wiki/SliceTricks"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 33,
+        "inline_content": [
+          {
+            "Text": "From "
+          },
+          {
+            "Text": "https://code.google.com/p/go-wiki/wiki/SliceTricks",
+            "Link": "https://code.google.com/p/go-wiki/wiki/SliceTricks"
+          }
+        ]
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512364120289,
         "id": "9ba6ee45-3b13-46e8-8b71-3567cbf938fb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512364120289,
+        "last_edited_time": 1538698913732,
         "parent_id": "08e41706-8555-46c3-a074-dae41cf910d8",
         "parent_table": "block",
         "properties": {
@@ -43,13 +81,13 @@
           ],
           "title": [
             [
-              "https://code.google.com/p/go-wiki/wiki/SliceTricks\n\nAppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)"
+              "AppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)"
             ]
           ]
         },
         "type": "code",
-        "version": 0,
-        "code": "https://code.google.com/p/go-wiki/wiki/SliceTricks\n\nAppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)",
+        "version": 6,
+        "code": "AppendVector: a = append(a, b...)\n\nCopy: b = make([]T, len(a))\ncopy(b, a)\n\nCut: a = append(a[:i], a[j:]...)\n\nDelete: a = append(a[:i], a[i+1:]...)\n// or\na = a[:i+copy(a[i:], a[i+1:])]\n\nDelete without preserving order: a[i], a = a[len(a)-1], a[:len(a)-1]\n\ngithub.com/bradfitz/slice\nfunc Sort(slice interface{}, less func(i, j int) bool)",
         "code_language": "Go"
       }
     ],
