@@ -6,6 +6,8 @@
       "7444a3f9-08cb-4ec4-a20f-9d9a61f1479f",
       "94509eca-3589-415b-b537-8dc151c40867",
       "5c159f2c-2f0f-499d-8876-762950508d76",
+      "bda52d6d-a20a-4a1c-bb85-912098939129",
+      "88ef495c-d131-49c8-9497-ba7d997e5fb5",
       "3056f4f5-cad5-4fd4-b610-3e39c3c560de",
       "e3effe9b-054e-4ada-b287-3f25c7e2ebe3",
       "6fc6c359-ef6f-4e00-87cc-6dc39ee467e0",
@@ -25,7 +27,7 @@
     },
     "id": "7158e361-34a2-4b28-be92-b18e06dd2175",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1538193578313,
+    "last_edited_time": 1538871546436,
     "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
     "parent_table": "block",
     "properties": {
@@ -36,7 +38,7 @@
       ]
     },
     "type": "page",
-    "version": 46,
+    "version": 50,
     "content_resolved": [
       {
         "alive": true,
@@ -127,6 +129,68 @@
           },
           {
             "Text": " : shows how to manually create AppxManifest.xml etc."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538871536383,
+        "id": "bda52d6d-a20a-4a1c-bb85-912098939129",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538871536910,
+        "parent_id": "7158e361-34a2-4b28-be92-b18e06dd2175",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/ridomin/backtothefuture",
+              [
+                [
+                  "a",
+                  "https://github.com/ridomin/backtothefuture"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://github.com/ridomin/backtothefuture",
+            "Link": "https://github.com/ridomin/backtothefuture"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1538871546436,
+        "id": "88ef495c-d131-49c8-9497-ba7d997e5fb5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1538871546836,
+        "parent_id": "7158e361-34a2-4b28-be92-b18e06dd2175",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net",
+              [
+                [
+                  "a",
+                  "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net",
+            "Link": "https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-packaging-dot-net"
           }
         ]
       },
