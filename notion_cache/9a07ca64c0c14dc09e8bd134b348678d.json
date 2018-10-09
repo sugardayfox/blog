@@ -17,6 +17,7 @@
       "11ee59ba-4a3b-405e-bde6-347286c0a9ca",
       "b725097a-bd79-48df-b36e-ad5f89e18654",
       "0a19229c-2a40-49c7-a3e7-99641e90cd30",
+      "f79996b1-a1a4-4467-8db0-1704748c3d8c",
       "81714acf-995e-4968-bb22-0684d95c9495",
       "1e4d6af9-2729-45a8-87f3-740805b8c583",
       "b97b3f74-e68d-410b-ac90-e965f6a524cd",
@@ -32,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532924427015,
+    "last_edited_time": 1539060979485,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -50,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 71,
+    "version": 77,
     "content_resolved": [
       {
         "alive": true,
@@ -4052,6 +4053,66 @@
         "inline_content": [
           {
             "Text": "keyword research"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "322e5db6-683c-441f-b3d5-11ff4f24af8a"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539060973569,
+        "id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539060979485,
+        "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "freelancing"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 30,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1539060978901,
+            "id": "322e5db6-683c-441f-b3d5-11ff4f24af8a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1539060980805,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://ryanwaggoner.com/articles/",
+                  [
+                    [
+                      "a",
+                      "https://ryanwaggoner.com/articles/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 20,
+            "inline_content": [
+              {
+                "Text": "https://ryanwaggoner.com/articles/",
+                "Link": "https://ryanwaggoner.com/articles/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "freelancing"
           }
         ]
       },
