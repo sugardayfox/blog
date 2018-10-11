@@ -75,7 +75,7 @@
               "d9f3baae-f292-4c74-a214-5bdbbf18ca8c",
               "c5cc30e6-bb02-4dc3-b258-2b6c689fea19",
               "80a4483d-b747-4706-9898-363d53f16bf0",
-              "b976b22b-66fe-4691-a0cb-d303d12d60aa"
+              "2deca6d7-09eb-4b54-9b1c-8397165d9972"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1496280773065,
@@ -84,11 +84,11 @@
             },
             "id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1537397094116,
+            "last_edited_time": 1539207361897,
             "parent_id": "f60311c9-c6ed-4678-a1e8-497fb0ab8545",
             "parent_table": "block",
             "type": "column",
-            "version": 186,
+            "version": 189,
             "content_resolved": [
               {
                 "alive": true,
@@ -830,14 +830,34 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1537397094116,
-                "id": "b976b22b-66fe-4691-a0cb-d303d12d60aa",
+                "created_time": 1539207361897,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "2deca6d7-09eb-4b54-9b1c-8397165d9972",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1537397094116,
+                "last_edited_time": 1539207375397,
                 "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
                 "parent_table": "block",
-                "type": "text",
-                "version": 4
+                "properties": {
+                  "title": [
+                    [
+                      "gvisor"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 26,
+                "title": "gvisor",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               }
             ],
             "format_column": {
