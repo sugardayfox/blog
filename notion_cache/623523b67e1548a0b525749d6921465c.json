@@ -10,6 +10,7 @@
       "9c1a2db7-78c2-4abd-a50d-0ad1a5cfb9a3",
       "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
       "416a638c-4506-44f6-a97e-e04a27275259",
+      "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
       "6abd05fb-fcea-4b3d-beac-7f0b12063df5",
       "64d13f24-c26b-4966-b8aa-10b134dfd9a6",
       "bc636291-0eb0-4e74-9c93-e7c020978836",
@@ -34,7 +35,7 @@
     },
     "id": "623523b6-7e15-48a0-b525-749d6921465c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1534389529879,
+    "last_edited_time": 1539497286295,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -45,7 +46,7 @@
       ]
     },
     "type": "page",
-    "version": 98,
+    "version": 100,
     "content_resolved": [
       {
         "alive": true,
@@ -264,6 +265,56 @@
           },
           {
             "Text": " - web-based tool for crowd-sourced translations"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539497286295,
+        "id": "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539497371496,
+        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Oembed Proxy for GitHub",
+              [
+                [
+                  "a",
+                  "https://www.onlinetool.io/gitoembed/"
+                ]
+              ]
+            ],
+            [
+              " - learn "
+            ],
+            [
+              "how I did it",
+              [
+                [
+                  "a",
+                  "https://www.notion.so/How-I-implemented-Oembed-Proxy-for-GitHub-7d25ad342c514a47a00f6e0c4ba84cbc"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 118,
+        "inline_content": [
+          {
+            "Text": "Oembed Proxy for GitHub",
+            "Link": "https://www.onlinetool.io/gitoembed/"
+          },
+          {
+            "Text": " - learn "
+          },
+          {
+            "Text": "how I did it",
+            "Link": "https://www.notion.so/How-I-implemented-Oembed-Proxy-for-GitHub-7d25ad342c514a47a00f6e0c4ba84cbc"
           }
         ]
       },
