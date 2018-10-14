@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539060979485,
+    "last_edited_time": 1539496130227,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 77,
+    "version": 81,
     "content_resolved": [
       {
         "alive": true,
@@ -2516,6 +2516,7 @@
       {
         "alive": true,
         "content": [
+          "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
           "cec790e0-1599-4636-942f-9a75258cb2c1",
           "d79eefde-74d6-449a-a350-8103d4a45061",
           "0a126737-b906-4dd8-b0a9-3a83b68f7731",
@@ -2535,7 +2536,7 @@
         "created_time": 1512368204910,
         "id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1521147005164,
+        "last_edited_time": 1539496130227,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -2546,8 +2547,40 @@
           ]
         },
         "type": "toggle",
-        "version": 30,
+        "version": 32,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1512456955593,
+            "format": {
+              "page_full_width": true,
+              "page_small_text": true
+            },
+            "id": "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1539496130227,
+            "parent_id": "a98dd27a-87ef-432f-b2f5-113e1a0584fe",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "A short guide to marketing for developers"
+                ]
+              ]
+            },
+            "type": "page",
+            "version": 10,
+            "title": "A short guide to marketing for developers",
+            "format_page": {
+              "page_cover": "",
+              "page_cover_position": 0,
+              "page_font": "",
+              "page_full_width": true,
+              "page_icon": "",
+              "page_small_text": true
+            }
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
