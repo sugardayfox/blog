@@ -1215,21 +1215,21 @@
         "created_time": 1539494287435,
         "id": "d5f0664f-9fdb-4355-b788-e335e4126505",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539494931998,
+        "last_edited_time": 1539546624524,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "For ~$30 I  get 8 core server with 32 GB of RAM, 250 GB SSD drive and 600 MBits/s unmetered bandwidth. It's a bare metal server, not a VPS, so it's all yours, eliminating risk of noisy neighbors."
+              "For ~$30 I  get 8 core server with 32 GB of RAM, 250 GB SSD drive and 600 MBits/s unmetered bandwidth. It's a bare metal server, not a VPS, so it's all mine, eliminating risk of noisy neighbors."
             ]
           ]
         },
         "type": "text",
-        "version": 500,
+        "version": 509,
         "inline_content": [
           {
-            "Text": "For ~$30 I  get 8 core server with 32 GB of RAM, 250 GB SSD drive and 600 MBits/s unmetered bandwidth. It's a bare metal server, not a VPS, so it's all yours, eliminating risk of noisy neighbors."
+            "Text": "For ~$30 I  get 8 core server with 32 GB of RAM, 250 GB SSD drive and 600 MBits/s unmetered bandwidth. It's a bare metal server, not a VPS, so it's all mine, eliminating risk of noisy neighbors."
           }
         ]
       },
@@ -1354,21 +1354,21 @@
         "created_time": 1539495152438,
         "id": "0f62515e-21c9-4513-a964-1aba53e88fd5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539495161126,
+        "last_edited_time": 1539546663074,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "It doesn't do much:"
+              "The service isn't very complicated:"
             ]
           ]
         },
         "type": "text",
-        "version": 48,
+        "version": 152,
         "inline_content": [
           {
-            "Text": "It doesn't do much:"
+            "Text": "The service isn't very complicated:"
           }
         ]
       },
@@ -1378,13 +1378,13 @@
         "created_time": 1539495161406,
         "id": "c35eb523-574e-422e-bfc9-f01048ac8f32",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539495290931,
+        "last_edited_time": 1539546674832,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "it downloads the file from GitHub's "
+              "it downloads the file via GitHub's "
             ],
             [
               "https://raw.githubusercontent.com",
@@ -1401,10 +1401,10 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 127,
+        "version": 134,
         "inline_content": [
           {
-            "Text": "it downloads the file from GitHub's "
+            "Text": "it downloads the file via GitHub's "
           },
           {
             "Text": "https://raw.githubusercontent.com",
@@ -1421,21 +1421,21 @@
         "created_time": 1539495379502,
         "id": "458ffa74-46cf-41e8-aa03-02ab181b9ba2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539495620161,
+        "last_edited_time": 1539546690412,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "to avoid over-loading GitHub servers (and exceeding their throttling limits) I cache downloaded files for a day. It's not infinitely long cache because files on GitHub can be changed and I don't want to cache outdated version forever"
+              "to avoid over-loading GitHub servers (and exceeding their throttling limits) I cache downloaded files for a day. It's not infinitely long cache because files on GitHub can  change and I don't want to cache outdated version forever"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 643,
+        "version": 647,
         "inline_content": [
           {
-            "Text": "to avoid over-loading GitHub servers (and exceeding their throttling limits) I cache downloaded files for a day. It's not infinitely long cache because files on GitHub can be changed and I don't want to cache outdated version forever"
+            "Text": "to avoid over-loading GitHub servers (and exceeding their throttling limits) I cache downloaded files for a day. It's not infinitely long cache because files on GitHub can  change and I don't want to cache outdated version forever"
           }
         ]
       },
@@ -1488,21 +1488,21 @@
         "created_time": 1539495006668,
         "id": "2615c1cb-f2f2-4e56-af63-54584959c31e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539495777746,
+        "last_edited_time": 1539546735737,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "There's not much front-end to speak of. Just information about the service a a way to test it implemented with a form and few lines of JavaScript."
+              "There's even less of front-end code. Explanation of the service and a way to test it implemented with a form and few lines of JavaScript."
             ]
           ]
         },
         "type": "text",
-        "version": 482,
+        "version": 671,
         "inline_content": [
           {
-            "Text": "There's not much front-end to speak of. Just information about the service a a way to test it implemented with a form and few lines of JavaScript."
+            "Text": "There's even less of front-end code. Explanation of the service and a way to test it implemented with a form and few lines of JavaScript."
           }
         ]
       },
