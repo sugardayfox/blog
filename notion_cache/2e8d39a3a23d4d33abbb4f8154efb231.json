@@ -244,6 +244,7 @@
       {
         "alive": true,
         "content": [
+          "09477015-8390-4d4c-b794-c9bf334808c6",
           "04c1b189-b10d-4f4b-bcfc-b6e3e852095f",
           "20039997-7531-4397-8553-04e4af55ec35",
           "7d5cae62-323f-4231-99ff-d366650f50fa",
@@ -253,13 +254,14 @@
           "47e52676-a03a-454c-b1f8-5e5450034978",
           "ac6979fa-f4b0-4470-bb88-7086f8833abc",
           "4411b625-6e49-4e0a-8afb-4fe6134a917b",
-          "4006244b-9828-444c-af64-8154717a4fe0"
+          "4006244b-9828-444c-af64-8154717a4fe0",
+          "5b5a3691-d141-4c65-989b-6ba3c476b49d"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1535264716124,
         "id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535265253314,
+        "last_edited_time": 1539661708603,
         "parent_id": "2e8d39a3-a23d-4d33-abbb-4f8154efb231",
         "parent_table": "block",
         "properties": {
@@ -270,8 +272,38 @@
           ]
         },
         "type": "toggle",
-        "version": 77,
+        "version": 81,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1539661702570,
+            "id": "09477015-8390-4d4c-b794-c9bf334808c6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1539661713488,
+            "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "call \"c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcvarsall.bat\" x64 \u0026 msbuild ALL_BUILD.vcxproj /m /property:Configuration=Release",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 23,
+            "inline_content": [
+              {
+                "Text": "call \"c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcvarsall.bat\" x64 \u0026 msbuild ALL_BUILD.vcxproj /m /property:Configuration=Release",
+                "AttrFlags": 2
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -581,6 +613,18 @@
                 "Link": "https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/#MSBuild"
               }
             ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1539661708603,
+            "id": "5b5a3691-d141-4c65-989b-6ba3c476b49d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1539661708603,
+            "parent_id": "f7d5b306-4481-45e7-b789-af03f5beff7f",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4
           }
         ],
         "inline_content": [
