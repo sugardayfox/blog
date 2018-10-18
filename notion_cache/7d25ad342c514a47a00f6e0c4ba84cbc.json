@@ -8,6 +8,7 @@
       "50ecc9bf-659d-4ab1-b41c-e39b96342586",
       "0342a078-44f3-485e-8a77-be67de7d4613",
       "9099794b-18ac-467c-ba50-b0218deafcbf",
+      "8cdeeb0e-c63d-41df-a7b6-f1e5e3ec0f36",
       "03781c8c-3321-4e0a-b873-3f6c8382d587",
       "3d05208b-8f89-4e34-8bac-94b5924c864c",
       "26019607-fd7e-4577-af9f-e9cc97cfb18d",
@@ -17,7 +18,6 @@
       "ee4dc7e9-1ca9-419a-be9c-31c823f39f26",
       "c8b1df28-f220-41f4-ae87-7b1328a67eaf",
       "b97ae744-9270-4ceb-9713-145bb11a70c7",
-      "06c1d2ab-b083-4691-9b9e-aee227a6dba1",
       "0f5fb71d-2698-4b58-ac25-f67e232c36d5",
       "9ac12dfb-e003-4bd9-b58d-4d3cfccb1620",
       "918b5b97-9413-480d-837c-0d11810ef6b9",
@@ -62,7 +62,7 @@
     },
     "id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539496919836,
+    "last_edited_time": 1539810381564,
     "parent_id": "f2b5a87e-5547-401f-9c18-62b0ca1986ab",
     "parent_table": "block",
     "properties": {
@@ -73,7 +73,7 @@
       ]
     },
     "type": "page",
-    "version": 273,
+    "version": 277,
     "content_resolved": [
       {
         "alive": true,
@@ -215,21 +215,45 @@
         "created_time": 1539490886849,
         "id": "9099794b-18ac-467c-ba50-b0218deafcbf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539493622025,
+        "last_edited_time": 1539810156196,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Notion has support for code blocks but it's not good enough for my use case. I want to make sure the code compiles so all code lives in files in GitHub repository and my custom book building script compiles and runs the code to ensure it works."
+              "Notion has support for code blocks but it's not good enough for my use case. "
             ]
           ]
         },
         "type": "text",
-        "version": 886,
+        "version": 888,
         "inline_content": [
           {
-            "Text": "Notion has support for code blocks but it's not good enough for my use case. I want to make sure the code compiles so all code lives in files in GitHub repository and my custom book building script compiles and runs the code to ensure it works."
+            "Text": "Notion has support for code blocks but it's not good enough for my use case. "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1539810156196,
+        "id": "8cdeeb0e-c63d-41df-a7b6-f1e5e3ec0f36",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1539810234887,
+        "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I want to make sure the code compiles so I write small programs and store them in GitHub repository. My custom book building script compiles and runs the programs to ensure the code is correct."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 293,
+        "inline_content": [
+          {
+            "Text": "I want to make sure the code compiles so I write small programs and store them in GitHub repository. My custom book building script compiles and runs the programs to ensure the code is correct."
           }
         ]
       },
@@ -239,21 +263,21 @@
         "created_time": 1539491081611,
         "id": "03781c8c-3321-4e0a-b873-3f6c8382d587",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539491248547,
+        "last_edited_time": 1539810270641,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Notion directly supports embedding GitHub's gists but not files from GitHub hosted git repositories."
+              "Notion supports embedding GitHub's gists but not files from git repositories hosted on GitHub."
             ]
           ]
         },
         "type": "text",
-        "version": 336,
+        "version": 428,
         "inline_content": [
           {
-            "Text": "Notion directly supports embedding GitHub's gists but not files from GitHub hosted git repositories."
+            "Text": "Notion supports embedding GitHub's gists but not files from git repositories hosted on GitHub."
           }
         ]
       },
@@ -263,7 +287,7 @@
         "created_time": 1539491251364,
         "id": "3d05208b-8f89-4e34-8bac-94b5924c864c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539493854708,
+        "last_edited_time": 1539810138163,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
@@ -281,12 +305,12 @@
               ]
             ],
             [
-              " that was created to enable embedding arbitrary content from one web site in another website. "
+              " that was created to enable embedding arbitrary content from one web site in another. "
             ]
           ]
         },
         "type": "text",
-        "version": 730,
+        "version": 734,
         "inline_content": [
           {
             "Text": "I researched things and turns out there's a standard called "
@@ -296,7 +320,7 @@
             "Link": "https://oembed.com/"
           },
           {
-            "Text": " that was created to enable embedding arbitrary content from one web site in another website. "
+            "Text": " that was created to enable embedding arbitrary content from one web site in another. "
           }
         ]
       },
@@ -464,21 +488,21 @@
         "created_time": 1539491685946,
         "id": "c8b1df28-f220-41f4-ae87-7b1328a67eaf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539491818496,
+        "last_edited_time": 1539810349813,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "You can add direct support for services you know about (and pray that they provide a stable way to get the necessary information) but it's not a scalable system. There's way too many web services out there and more are created every minute."
+              "You can add code to support each services you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There's way too many web services out there and more are created every day."
             ]
           ]
         },
         "type": "text",
-        "version": 560,
+        "version": 648,
         "inline_content": [
           {
-            "Text": "You can add direct support for services you know about (and pray that they provide a stable way to get the necessary information) but it's not a scalable system. There's way too many web services out there and more are created every minute."
+            "Text": "You can add code to support each services you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There's way too many web services out there and more are created every day."
           }
         ]
       },
@@ -488,45 +512,21 @@
         "created_time": 1539491818687,
         "id": "b97ae744-9270-4ceb-9713-145bb11a70c7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539491913828,
+        "last_edited_time": 1539810418729,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "It would be great if there was a standard protocol that allows embedding arbitrary content from other websites."
+              "Some people noticed the problem and created Oembed protocol that provides a standard way to expose content for embedding. Now you need to only write code to support Oembed."
             ]
           ]
         },
         "type": "text",
-        "version": 316,
+        "version": 692,
         "inline_content": [
           {
-            "Text": "It would be great if there was a standard protocol that allows embedding arbitrary content from other websites."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1539491914140,
-        "id": "06c1d2ab-b083-4691-9b9e-aee227a6dba1",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539491923436,
-        "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Oembed is such a protocol."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 58,
-        "inline_content": [
-          {
-            "Text": "Oembed is such a protocol."
+            "Text": "Some people noticed the problem and created Oembed protocol that provides a standard way to expose content for embedding. Now you need to only write code to support Oembed."
           }
         ]
       },
@@ -536,21 +536,21 @@
         "created_time": 1539491925451,
         "id": "0f5fb71d-2698-4b58-ac25-f67e232c36d5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539492055473,
+        "last_edited_time": 1539810134791,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Here's how it works, using Oembed Proxy for GitHub."
+              "Here's how it works, using Oembed Proxy for GitHub as an example."
             ]
           ]
         },
         "type": "text",
-        "version": 132,
+        "version": 164,
         "inline_content": [
           {
-            "Text": "Here's how it works, using Oembed Proxy for GitHub."
+            "Text": "Here's how it works, using Oembed Proxy for GitHub as an example."
           }
         ]
       },
