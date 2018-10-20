@@ -13,9 +13,11 @@
       "19e70f52-03ef-462a-8e3c-60aed1bf96e9",
       "355410ff-cf06-4aa7-a50f-e5e825b083e4",
       "fdccf734-3265-4ef8-b939-4a831dfd9eb0",
-      "500765f1-6978-4265-b991-5b3f37eb0949",
       "6bd2cbb6-7c99-4290-94f2-542534c54462",
       "3333e025-1dde-4187-8e8d-92ae507d28aa",
+      "d697728f-4030-4a2d-8b7c-61ed34c589f2",
+      "8cfbaea1-e177-4934-bba1-6452ad5cac9e",
+      "53a26629-b518-4b80-9080-1334adda6231",
       "e97cd1ee-64f0-4cff-8d13-f335a0bab318",
       "160d2e2c-13df-4e65-9445-aeaf0bda9d13",
       "f84a814a-e775-4338-a68c-ce30e1d74545",
@@ -28,7 +30,6 @@
       "85a071ae-8e22-49c3-89d4-1405224b07f2",
       "b6f69c97-5e8d-463f-bf56-18000233d1f6",
       "f685ce1e-6a96-4f6c-a165-c1e206707baa",
-      "b4ec9bff-938a-4bfc-8360-6ce4435ca5e7",
       "fd837fbc-b637-43cf-803b-d31970861f0c",
       "59760f7e-0e24-4ff7-8f1a-63fdb463aec0",
       "a8cd6af5-917a-4171-a2b8-89c6fc858f04",
@@ -61,7 +62,7 @@
     "id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
     "ignore_block_count": true,
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532405814773,
+    "last_edited_time": 1540010307327,
     "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "parent_table": "block",
     "properties": {
@@ -72,7 +73,7 @@
       ]
     },
     "type": "page",
-    "version": 38,
+    "version": 48,
     "content_resolved": [
       {
         "alive": true,
@@ -307,46 +308,21 @@
         "id": "fdccf734-3265-4ef8-b939-4a831dfd9eb0",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786611,
+        "last_edited_time": 1540010140150,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Parsing text or binary formats is notoriously tricky."
+              "Parsing text or binary formats is tricky. It’s easy to make mistakes that can lead to security exploits."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 9,
         "inline_content": [
           {
-            "Text": "Parsing text or binary formats is notoriously tricky."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531888786611,
-        "id": "500765f1-6978-4265-b991-5b3f37eb0949",
-        "ignore_block_count": true,
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786611,
-        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "It’s easy to make mistakes that can lead to security exploits."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "It’s easy to make mistakes that can lead to security exploits."
+            "Text": "Parsing text or binary formats is tricky. It’s easy to make mistakes that can lead to security exploits."
           }
         ]
       },
@@ -357,7 +333,7 @@
         "id": "6bd2cbb6-7c99-4290-94f2-542534c54462",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786612,
+        "last_edited_time": 1540010161503,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
@@ -372,19 +348,19 @@
               ]
             ],
             [
-              " is one technique used to combat this."
+              " helps to combat this."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 61,
         "inline_content": [
           {
             "Text": "Fuzzing",
             "Link": "https://security.googleblog.com/2016/08/guided-in-process-fuzzing-of-chrome.html"
           },
           {
-            "Text": " is one technique used to combat this."
+            "Text": " helps to combat this."
           }
         ]
       },
@@ -395,21 +371,93 @@
         "id": "3333e025-1dde-4187-8e8d-92ae507d28aa",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786612,
+        "last_edited_time": 1540010172856,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The idea is simple: * magic algorithm generates randomized input data * we feed this data to parsing code * code instrumentation detects if parsing code crashes or overwrites memory"
+              "The idea is simple:"
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 5,
         "inline_content": [
           {
-            "Text": "The idea is simple: * magic algorithm generates randomized input data * we feed this data to parsing code * code instrumentation detects if parsing code crashes or overwrites memory"
+            "Text": "The idea is simple:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540010172856,
+        "id": "d697728f-4030-4a2d-8b7c-61ed34c589f2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540010177911,
+        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "magic algorithm generates randomized input data"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 19,
+        "inline_content": [
+          {
+            "Text": "magic algorithm generates randomized input data"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540010177911,
+        "id": "8cfbaea1-e177-4934-bba1-6452ad5cac9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540010181910,
+        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "we feed this data to parsing code"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "we feed this data to parsing code"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540010181910,
+        "id": "53a26629-b518-4b80-9080-1334adda6231",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540010182725,
+        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "code instrumentation detects if parsing code crashes or overwrites memory"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 12,
+        "inline_content": [
+          {
+            "Text": "code instrumentation detects if parsing code crashes or overwrites memory"
           }
         ]
       },
@@ -470,13 +518,13 @@
         "id": "f84a814a-e775-4338-a68c-ce30e1d74545",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786613,
+        "last_edited_time": 1540010202927,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "For Go it’s trivial thanks to "
+              "It’s trivial for Go thanks to "
             ],
             [
               "go-fuzz",
@@ -493,10 +541,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 33,
         "inline_content": [
           {
-            "Text": "For Go it’s trivial thanks to "
+            "Text": "It’s trivial for Go thanks to "
           },
           {
             "Text": "go-fuzz",
@@ -702,7 +750,7 @@
         "id": "85a071ae-8e22-49c3-89d4-1405224b07f2",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531889772470,
+        "last_edited_time": 1540010275960,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
@@ -713,13 +761,13 @@
           ],
           "title": [
             [
-              "// +build gofuzz\n\npackage markdown\n\n// Fuzz is to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}"
+              "// +build gofuzz\n\npackage markdown\n\n// Fuzz function to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}"
             ]
           ]
         },
         "type": "code",
-        "version": 3,
-        "code": "// +build gofuzz\n\npackage markdown\n\n// Fuzz is to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}",
+        "version": 23,
+        "code": "// +build gofuzz\n\npackage markdown\n\n// Fuzz function to be used by https://github.com/dvyukov/go-fuzz\nfunc Fuzz(data []byte) int {\n    Parse(data, nil)\n    return 0\n}",
         "code_language": "Go"
       },
       {
@@ -729,7 +777,7 @@
         "id": "b6f69c97-5e8d-463f-bf56-18000233d1f6",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786617,
+        "last_edited_time": 1540010290469,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
@@ -746,12 +794,12 @@
               ]
             ],
             [
-              " function, which is an API that go-fuzz expects."
+              " function, which is an API expected by go-fuzz."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 41,
         "inline_content": [
           {
             "Text": "This implements "
@@ -761,7 +809,7 @@
             "AttrFlags": 2
           },
           {
-            "Text": " function, which is an API that go-fuzz expects."
+            "Text": " function, which is an API expected by go-fuzz."
           }
         ]
       },
@@ -772,7 +820,7 @@
         "id": "f685ce1e-6a96-4f6c-a165-c1e206707baa",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786617,
+        "last_edited_time": 1540010333619,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
@@ -789,39 +837,7 @@
               ]
             ],
             [
-              " line."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "Notice "
-          },
-          {
-            "Text": "// +build gofuzz",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " line."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531888786617,
-        "id": "b4ec9bff-938a-4bfc-8360-6ce4435ca5e7",
-        "ignore_block_count": true,
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786617,
-        "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "It means that this code will not be compiled by default but only when compiled with "
+              " line. It means that this code will not be compiled by default but only with "
             ],
             [
               "gofuzz",
@@ -837,10 +853,17 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 49,
         "inline_content": [
           {
-            "Text": "It means that this code will not be compiled by default but only when compiled with "
+            "Text": "Notice "
+          },
+          {
+            "Text": "// +build gofuzz",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " line. It means that this code will not be compiled by default but only with "
           },
           {
             "Text": "gofuzz",
@@ -1307,21 +1330,21 @@
         "id": "36003c51-85b6-442b-b2d4-b252bf6ea33d",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531888786622,
+        "last_edited_time": 1540010376044,
         "parent_id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or entered infinite loop."
+              "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or caused infinite loop."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 14,
         "inline_content": [
           {
-            "Text": "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or entered infinite loop."
+            "Text": "Fuzzing is magic. My library is derived from very popular and widely used blackfriday library (which in turn was derived from a popular C library) and yet the fuzzer found 3 separate issues that either crashed the parser or caused infinite loop."
           }
         ]
       },

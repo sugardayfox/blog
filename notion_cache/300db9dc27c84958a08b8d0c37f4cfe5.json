@@ -30,7 +30,7 @@
     },
     "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539496782452,
+    "last_edited_time": 1539978852246,
     "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
     "parent_table": "block",
     "permissions": [
@@ -38,10 +38,6 @@
         "role": "editor",
         "type": "user_permission",
         "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
-      },
-      {
-        "role": "comment_only",
-        "type": "public_permission"
       }
     ],
     "properties": {
@@ -52,7 +48,7 @@
       ]
     },
     "type": "page",
-    "version": 1950,
+    "version": 1952,
     "content_resolved": [
       {
         "alive": true,
@@ -170,7 +166,7 @@
             },
             "id": "88aee8f4-3620-471a-a9db-cad28368174c",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1532474047904,
+            "last_edited_time": 1540009788234,
             "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
             "parent_table": "block",
             "properties": {
@@ -181,7 +177,7 @@
               ]
             },
             "type": "page",
-            "version": 310,
+            "version": 312,
             "title": "How I reverse engineered Notion API",
             "format_page": {
               "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd96d967-248e-4000-9d4e-aafebb234177/header-25.jpg",
@@ -208,7 +204,7 @@
             },
             "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1532923513091,
+            "last_edited_time": 1540009772249,
             "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
             "parent_table": "block",
             "properties": {
@@ -219,7 +215,7 @@
               ]
             },
             "type": "page",
-            "version": 374,
+            "version": 376,
             "title": "Advanced web spidering with Puppeteer",
             "format_page": {
               "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33ab29b8-fd6f-455e-9b69-2912fb2b4b7a/header-22.jpg",

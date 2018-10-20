@@ -57,7 +57,7 @@
         },
         "id": "300db9dc-27c8-4958-a08b-8d0c37f4cfe5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539496782452,
+        "last_edited_time": 1539978852246,
         "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
         "parent_table": "block",
         "permissions": [
@@ -65,10 +65,6 @@
             "role": "editor",
             "type": "user_permission",
             "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
-          },
-          {
-            "role": "comment_only",
-            "type": "public_permission"
           }
         ],
         "properties": {
@@ -79,7 +75,7 @@
           ]
         },
         "type": "page",
-        "version": 1950,
+        "version": 1952,
         "title": "blog posts",
         "format_page": {
           "page_cover": "",
@@ -100,7 +96,7 @@
         },
         "id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539490107298,
+        "last_edited_time": 1539978870003,
         "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
         "parent_table": "block",
         "permissions": [
@@ -108,10 +104,6 @@
             "role": "editor",
             "type": "user_permission",
             "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
-          },
-          {
-            "role": "reader",
-            "type": "public_permission"
           }
         ],
         "properties": {
@@ -122,7 +114,7 @@
           ]
         },
         "type": "page",
-        "version": 55,
+        "version": 57,
         "title": "Go Cookbook",
         "format_page": {
           "page_cover": "",

@@ -23,7 +23,7 @@
     },
     "id": "7495260a-1daa-4611-8858-ad2e049e77e6",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539490107298,
+    "last_edited_time": 1539978870003,
     "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
     "parent_table": "block",
     "permissions": [
@@ -31,10 +31,6 @@
         "role": "editor",
         "type": "user_permission",
         "user_id": "bb760e2d-d679-4b64-b2a9-03005b21870a"
-      },
-      {
-        "role": "reader",
-        "type": "public_permission"
       }
     ],
     "properties": {
@@ -45,7 +41,7 @@
       ]
     },
     "type": "page",
-    "version": 55,
+    "version": 57,
     "content_resolved": [
       {
         "alive": true,
@@ -141,7 +137,7 @@
         "id": "ac7e26d8-7292-40f2-adea-5a9c63c00394",
         "ignore_block_count": true,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532405814773,
+        "last_edited_time": 1540010307327,
         "parent_id": "7495260a-1daa-4611-8858-ad2e049e77e6",
         "parent_table": "block",
         "properties": {
@@ -152,7 +148,7 @@
           ]
         },
         "type": "page",
-        "version": 38,
+        "version": 48,
         "title": "Fuzzing Markdown parser written in Go",
         "format_page": {
           "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/629ba763-27bc-462f-9a07-639c0b0bad58/header-21.jpg",

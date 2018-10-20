@@ -67,7 +67,7 @@
     },
     "id": "c87bc015-88fc-4f6c-b43f-6f9b9975867e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539146712830,
+    "last_edited_time": 1540013608221,
     "parent_id": "b0555535-f112-41b6-90cb-4f48950aa805",
     "parent_table": "block",
     "properties": {
@@ -78,7 +78,7 @@
       ]
     },
     "type": "page",
-    "version": 432,
+    "version": 436,
     "content_resolved": [
       {
         "alive": true,
@@ -848,14 +848,13 @@
         "content": [
           "fbf7577d-7864-4929-aa88-55a09bf77b61",
           "6fc673f6-6a53-46b3-9592-94aa2b66685d",
-          "43b68f88-436c-4866-876c-9d08ce70455f",
-          "e242025f-4324-430c-8970-f27568ca2781"
+          "43b68f88-436c-4866-876c-9d08ce70455f"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529477655950,
         "id": "945f0ef4-dd1d-4d4f-b6f2-b7375a50bdb3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1529479538736,
+        "last_edited_time": 1540013607431,
         "parent_id": "c87bc015-88fc-4f6c-b43f-6f9b9975867e",
         "parent_table": "block",
         "properties": {
@@ -866,7 +865,7 @@
           ]
         },
         "type": "toggle",
-        "version": 78,
+        "version": 80,
         "content_resolved": [
           {
             "alive": true,
@@ -929,7 +928,7 @@
             "created_time": 1529478410985,
             "id": "43b68f88-436c-4866-876c-9d08ce70455f",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1529478412374,
+            "last_edited_time": 1540013608221,
             "parent_id": "945f0ef4-dd1d-4d4f-b6f2-b7375a50bdb3",
             "parent_table": "block",
             "properties": {
@@ -940,24 +939,12 @@
               ]
             },
             "type": "text",
-            "version": 16,
+            "version": 18,
             "inline_content": [
               {
                 "Text": "$2900"
               }
             ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1529477903630,
-            "id": "e242025f-4324-430c-8970-f27568ca2781",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1529483882155,
-            "parent_id": "945f0ef4-dd1d-4d4f-b6f2-b7375a50bdb3",
-            "parent_table": "block",
-            "type": "text",
-            "version": 6
           }
         ],
         "inline_content": [

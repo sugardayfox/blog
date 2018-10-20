@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "2db3a899-dc3b-4719-a28f-0e6b28c51494",
+      "dd715b14-2b0f-47bb-abda-deb9a9de7c0b",
       "e3638533-605f-46bc-8a44-0da6e3f3218a",
       "5a9abf2d-cc20-45a2-90ec-9c393e6985bf",
       "dac71655-33a0-450a-9ed2-110119ad6597",
@@ -76,7 +77,7 @@
     },
     "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532923513091,
+    "last_edited_time": 1540009772249,
     "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
     "parent_table": "block",
     "properties": {
@@ -87,7 +88,7 @@
       ]
     },
     "type": "page",
-    "version": 374,
+    "version": 376,
     "content_resolved": [
       {
         "alive": true,
@@ -110,6 +111,30 @@
         "inline_content": [
           {
             "Text": "Date: 2018-07-18"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540009772249,
+        "id": "dd715b14-2b0f-47bb-abda-deb9a9de7c0b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540009776564,
+        "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Tags: programming"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 40,
+        "inline_content": [
+          {
+            "Text": "Tags: programming"
           }
         ]
       },
