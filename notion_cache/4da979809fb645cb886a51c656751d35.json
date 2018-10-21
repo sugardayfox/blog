@@ -62,7 +62,7 @@
               "4ff077ea-55d4-4db2-bea7-ad70751133f9",
               "99074a86-31df-4401-b42c-90eed46c48b1",
               "26c135f6-77cc-4486-bcae-68f7eb3190d5",
-              "cda3a0e4-adc5-43d8-9d46-a8a44038effa"
+              "09fcd255-8bc4-45aa-8dc4-80b402e08468"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1513208401787,
@@ -71,11 +71,11 @@
             },
             "id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1535411047338,
+            "last_edited_time": 1540025126276,
             "parent_id": "be4134c7-60ed-4b8f-9a53-11bc42fdc7bd",
             "parent_table": "block",
             "type": "column",
-            "version": 131,
+            "version": 134,
             "content_resolved": [
               {
                 "alive": true,
@@ -624,14 +624,34 @@
               {
                 "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1532382007729,
-                "id": "cda3a0e4-adc5-43d8-9d46-a8a44038effa",
+                "created_time": 1540025126276,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "09fcd255-8bc4-45aa-8dc4-80b402e08468",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1532382007729,
+                "last_edited_time": 1540025158827,
                 "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
                 "parent_table": "block",
-                "type": "text",
-                "version": 4
+                "properties": {
+                  "title": [
+                    [
+                      "monaco"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 37,
+                "title": "monaco",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               }
             ],
             "format_column": {

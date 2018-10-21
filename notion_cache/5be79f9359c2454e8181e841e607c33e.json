@@ -3,7 +3,8 @@
   "Root": {
     "alive": true,
     "content": [
-      "1493daec-2c31-4c98-8b46-c9940f395bc8"
+      "1493daec-2c31-4c98-8b46-c9940f395bc8",
+      "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1535586591127,
@@ -13,7 +14,7 @@
     },
     "id": "5be79f93-59c2-454e-8181-e841e607c33e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1535587008226,
+    "last_edited_time": 1540088622525,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -24,7 +25,7 @@
       ]
     },
     "type": "page",
-    "version": 28,
+    "version": 30,
     "content_resolved": [
       {
         "alive": true,
@@ -57,6 +58,66 @@
           "page_icon": "",
           "page_small_text": true
         }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540088622525,
+        "id": "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540088715560,
+        "parent_id": "5be79f93-59c2-454e-8181-e841e607c33e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Format go files on save: Preferences, Tools / File Watches. Click add '+' button at the bottom and pick "
+            ],
+            [
+              "go fmt",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " from the list. This adds pre-built watcher that runs "
+            ],
+            [
+              "go fmt",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " on the file after file save."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 558,
+        "inline_content": [
+          {
+            "Text": "Format go files on save: Preferences, Tools / File Watches. Click add '+' button at the bottom and pick "
+          },
+          {
+            "Text": "go fmt",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " from the list. This adds pre-built watcher that runs "
+          },
+          {
+            "Text": "go fmt",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " on the file after file save."
+          }
+        ]
       }
     ],
     "title": "goland",
