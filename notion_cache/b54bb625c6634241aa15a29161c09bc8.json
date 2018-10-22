@@ -188,13 +188,13 @@
         "created_time": 1535944996070,
         "id": "47b2d6fe-5be5-4b7f-8dc2-bbb4d34ae868",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535945028721,
+        "last_edited_time": 1540183361563,
         "parent_id": "b54bb625-c663-4241-aa15-a29161c09bc8",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "journalctl -u unit",
+              "journalctl -u unit -f",
               [
                 [
                   "c"
@@ -202,19 +202,19 @@
               ]
             ],
             [
-              " : show logs for a given unit"
+              " : show logs for a given unit and —follow"
             ]
           ]
         },
         "type": "text",
-        "version": 74,
+        "version": 109,
         "inline_content": [
           {
-            "Text": "journalctl -u unit",
+            "Text": "journalctl -u unit -f",
             "AttrFlags": 2
           },
           {
-            "Text": " : show logs for a given unit"
+            "Text": " : show logs for a given unit and —follow"
           }
         ]
       },

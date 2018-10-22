@@ -47,7 +47,6 @@
       "8e430231-1b57-4634-99a8-65640f457259",
       "cadaba8b-7199-423c-b2d3-328ec47aa5fb",
       "0c023bfe-d52b-458e-87d0-79553d37911d",
-      "85b76a75-4214-41f1-9af7-c854a65c63c7",
       "8afd080d-e34c-4ffb-9389-52bb78036bf5",
       "0ec09e5c-35dc-4f71-979a-0a64f2b33439",
       "3cb3697c-20f9-4ad9-b314-cf42e849b179",
@@ -64,7 +63,12 @@
       "75224d14-54f3-4925-8325-b0e5adc61e9d",
       "2d8cfe17-6220-40c6-8586-38173fce09a6",
       "0a44e546-8489-42bc-9002-6fbfda4a92ac",
-      "6cc79a4e-8041-4224-81b2-fad4aba55b16"
+      "6cc79a4e-8041-4224-81b2-fad4aba55b16",
+      "7697c470-a238-4b59-a9c3-e2997cce4a0f",
+      "e8c099f1-9f2d-4992-a3a3-d3b58e18bd51",
+      "4791d3bc-9636-4af5-9486-17347563b69d",
+      "42768ea6-da61-4ce2-8f2a-cc09b9db1a07",
+      "6e770d76-4c54-4245-86ab-49ce677d3dd3"
     ],
     "copied_from": "58cb1f78-8e8e-4eb4-bb81-25f6bbb8f844",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -75,7 +79,7 @@
     },
     "id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996165682,
+    "last_edited_time": 1540195025745,
     "parent_id": "019c7ce2-9fe3-4bd7-ae10-acb0833b9d17",
     "parent_table": "block",
     "properties": {
@@ -86,7 +90,7 @@
       ]
     },
     "type": "page",
-    "version": 8,
+    "version": 20,
     "content_resolved": [
       {
         "alive": true,
@@ -178,23 +182,11 @@
         "created_time": 1531736918995,
         "id": "7e40643a-9e86-40e1-9a79-b7ac53990834",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736918995,
+        "last_edited_time": 1540194316382,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Go for writing web servers"
-            ]
-          ]
-        },
-        "type": "sub_header",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "Go for writing web servers"
-          }
-        ]
+        "type": "text",
+        "version": 5
       },
       {
         "alive": true,
@@ -286,21 +278,21 @@
         "created_time": 1531736918995,
         "id": "999a9b31-712f-4664-ace6-fe1609336e81",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736918995,
+        "last_edited_time": 1540194332696,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "In the past I wrote web applications in Perl, PHP, Python (web.py, Tornado, App Engine) so those are the technologies I campare Go to."
+              "In the past I wrote web applications in Perl, PHP, Python (web.py, Tornado, App Engine) so those are the technologies I compare Go to."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 5,
         "inline_content": [
           {
-            "Text": "In the past I wrote web applications in Perl, PHP, Python (web.py, Tornado, App Engine) so those are the technologies I campare Go to."
+            "Text": "In the past I wrote web applications in Perl, PHP, Python (web.py, Tornado, App Engine) so those are the technologies I compare Go to."
           }
         ]
       },
@@ -390,7 +382,7 @@
         "created_time": 1531736918996,
         "id": "647864ad-feee-4ff4-9a90-da21a53240bb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736918996,
+        "last_edited_time": 1540194370523,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
@@ -400,7 +392,7 @@
               [
                 [
                   "a",
-                  "http://forums.fofou.org/"
+                  "https://github.com/kjk/fofou"
                 ]
               ]
             ],
@@ -422,11 +414,11 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 4,
         "inline_content": [
           {
             "Text": "Fofou",
-            "Link": "http://forums.fofou.org/"
+            "Link": "https://github.com/kjk/fofou"
           },
           {
             "Text": " is a simple forum. It is a port of an earlier version I did in Python for App Engine. Finally, "
@@ -518,7 +510,7 @@
         "created_time": 1531736918996,
         "id": "245ccec4-ea54-4409-84c3-8936cfd708f6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736918996,
+        "last_edited_time": 1540195312616,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
@@ -543,7 +535,7 @@
               [
                 [
                   "a",
-                  "/article/5/Blueprint-for-deploying-web-apps-on-CoreOS.html"
+                  "https://www.notion.so/Blueprint-for-deploying-web-apps-on-CoreOS-9b592882a3244247bd09405fc7a556d2"
                 ]
               ]
             ],
@@ -553,7 +545,7 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 4,
         "inline_content": [
           {
             "Text": "I used to run them all on a single $60/month "
@@ -567,7 +559,7 @@
           },
           {
             "Text": "CoreOS running on $5/month Digital Ocean",
-            "Link": "/article/5/Blueprint-for-deploying-web-apps-on-CoreOS.html"
+            "Link": "https://www.notion.so/Blueprint-for-deploying-web-apps-on-CoreOS-9b592882a3244247bd09405fc7a556d2"
           },
           {
             "Text": "."
@@ -652,13 +644,13 @@
         "created_time": 1531736918999,
         "id": "449a7760-616a-4efb-8a74-f791989b4817",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736918999,
+        "last_edited_time": 1540194570239,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "A very capable http server is part of standard library in package ("
+              "A very fast http server is part of standard library (package "
             ],
             [
               "net/http",
@@ -675,10 +667,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 69,
         "inline_content": [
           {
-            "Text": "A very capable http server is part of standard library in package ("
+            "Text": "A very fast http server is part of standard library (package "
           },
           {
             "Text": "net/http",
@@ -1488,37 +1480,13 @@
         "created_time": 1531736919004,
         "id": "0c023bfe-d52b-458e-87d0-79553d37911d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919004,
+        "last_edited_time": 1540194668791,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "This is not specific to writing web server - all your important code should have unit tests."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 1,
-        "inline_content": [
-          {
-            "Text": "This is not specific to writing web server - all your important code should have unit tests."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531736919004,
-        "id": "85b76a75-4214-41f1-9af7-c854a65c63c7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919004,
-        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Go has a "
+              "Important code should have unit tests. Go has a "
             ],
             [
               "built-in API and tool support",
@@ -1535,10 +1503,10 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 14,
         "inline_content": [
           {
-            "Text": "Go has a "
+            "Text": "Important code should have unit tests. Go has a "
           },
           {
             "Text": "built-in API and tool support",
@@ -1579,21 +1547,21 @@
         "created_time": 1531736919004,
         "id": "0ec09e5c-35dc-4f71-979a-0a64f2b33439",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919004,
+        "last_edited_time": 1540194685174,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Deploying a new version of your code to the server is a pain in the ass regardless of the language used but Go makes it relatively easy."
+              "Deploying a new version of your code to the server is a pain in the ass regardless of the language used. Go makes it relatively easy."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 7,
         "inline_content": [
           {
-            "Text": "Deploying a new version of your code to the server is a pain in the ass regardless of the language used but Go makes it relatively easy."
+            "Text": "Deploying a new version of your code to the server is a pain in the ass regardless of the language used. Go makes it relatively easy."
           }
         ]
       },
@@ -1603,21 +1571,21 @@
         "created_time": 1531736919004,
         "id": "3cb3697c-20f9-4ad9-b314-cf42e849b179",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919004,
+        "last_edited_time": 1540194692509,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I test my code locally on Mac but deploy to Linux-based server."
+              "I test my code locally on Mac and deploy to Linux-based server."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 8,
         "inline_content": [
           {
-            "Text": "I test my code locally on Mac but deploy to Linux-based server."
+            "Text": "I test my code locally on Mac and deploy to Linux-based server."
           }
         ]
       },
@@ -1718,21 +1686,21 @@
         "created_time": 1531736919005,
         "id": "ba56d206-afce-4332-ad5b-2ad5cc53af95",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919005,
+        "last_edited_time": 1540194763586,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I find it crucial for productivity to quickly deploy new versions. THat’s why I write deploy scripts early in the process."
+              "Being able quickly deploy new versions is crucial for productivity. For that reason I write deploy scripts early in the process."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 281,
         "inline_content": [
           {
-            "Text": "I find it crucial for productivity to quickly deploy new versions. THat’s why I write deploy scripts early in the process."
+            "Text": "Being able quickly deploy new versions is crucial for productivity. For that reason I write deploy scripts early in the process."
           }
         ]
       },
@@ -1742,21 +1710,21 @@
         "created_time": 1531736919005,
         "id": "cdf48a5f-2824-42a1-b3ca-e6bb63285ecb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919005,
+        "last_edited_time": 1540194795232,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Server config and misc thoughts"
+              "Server configuration and other thoughts"
             ]
           ]
         },
         "type": "header",
-        "version": 1,
+        "version": 33,
         "inline_content": [
           {
-            "Text": "Server config and misc thoughts"
+            "Text": "Server configuration and other thoughts"
           }
         ]
       },
@@ -1790,21 +1758,21 @@
         "created_time": 1531736919005,
         "id": "9b6f3c02-bc12-45c3-87c5-aa36573e87ad",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919005,
+        "last_edited_time": 1540194921394,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Those days for simplicity I use a single server for each program. That makes setup and deployment easier (no need for nginx anymore)."
+              "Those days I use a single server for each program. That makes setup and deployment simpler (no need for nginx anymore)."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 133,
         "inline_content": [
           {
-            "Text": "Those days for simplicity I use a single server for each program. That makes setup and deployment easier (no need for nginx anymore)."
+            "Text": "Those days I use a single server for each program. That makes setup and deployment simpler (no need for nginx anymore)."
           }
         ]
       },
@@ -1985,21 +1953,21 @@
         "created_time": 1531736919005,
         "id": "0a44e546-8489-42bc-9002-6fbfda4a92ac",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736919005,
+        "last_edited_time": 1540194944157,
         "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Most of the needed functionality is part of standard library and 3rdp party libraries are plantiful for more esoteric functionality."
+              "Most of the needed functionality is part of standard library and 3rd party libraries are plentiful for more esoteric functionality."
             ]
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 7,
         "inline_content": [
           {
-            "Text": "Most of the needed functionality is part of standard library and 3rdp party libraries are plantiful for more esoteric functionality."
+            "Text": "Most of the needed functionality is part of standard library and 3rd party libraries are plentiful for more esoteric functionality."
           }
         ]
       },
@@ -2026,6 +1994,134 @@
             "Text": "Writing in Go is almost as fast and fluent as writing in Python but the code is order of magnitude faster and uses less memory."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540194950398,
+        "id": "7697c470-a238-4b59-a9c3-e2997cce4a0f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540194962860,
+        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Learn more about Go"
+            ]
+          ]
+        },
+        "type": "header",
+        "version": 55,
+        "inline_content": [
+          {
+            "Text": "Learn more about Go"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540194963068,
+        "id": "e8c099f1-9f2d-4992-a3a3-d3b58e18bd51",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540194968477,
+        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "To learn more about Go:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 52,
+        "inline_content": [
+          {
+            "Text": "To learn more about Go:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540194969028,
+        "id": "4791d3bc-9636-4af5-9486-17347563b69d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540194994645,
+        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "free book "
+            ],
+            [
+              "Essential Go",
+              [
+                [
+                  "a",
+                  "https://www.programming-books.io/essential/go/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 63,
+        "inline_content": [
+          {
+            "Text": "free book "
+          },
+          {
+            "Text": "Essential Go",
+            "Link": "https://www.programming-books.io/essential/go/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540195017693,
+        "id": "42768ea6-da61-4ce2-8f2a-cc09b9db1a07",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540195035051,
+        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Go Cookbook",
+              [
+                [
+                  "a",
+                  "https://blog.kowalczyk.info/book/go-cookbook.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 30,
+        "inline_content": [
+          {
+            "Text": "Go Cookbook",
+            "Link": "https://blog.kowalczyk.info/book/go-cookbook.html"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540195025745,
+        "id": "6e770d76-4c54-4245-86ab-49ce677d3dd3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540195025745,
+        "parent_id": "8f71eea9-e045-4c45-8c38-3f323dc794cd",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "Thoughts on Go after writing 3 websites",
