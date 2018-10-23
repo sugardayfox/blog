@@ -11,6 +11,7 @@
       "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
       "416a638c-4506-44f6-a97e-e04a27275259",
       "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
+      "373a1571-ce4e-4e72-9ebe-2486ef903d9c",
       "6abd05fb-fcea-4b3d-beac-7f0b12063df5",
       "64d13f24-c26b-4966-b8aa-10b134dfd9a6",
       "bc636291-0eb0-4e74-9c93-e7c020978836",
@@ -35,7 +36,7 @@
     },
     "id": "623523b6-7e15-48a0-b525-749d6921465c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539497286295,
+    "last_edited_time": 1540276833574,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -46,7 +47,7 @@
       ]
     },
     "type": "page",
-    "version": 100,
+    "version": 102,
     "content_resolved": [
       {
         "alive": true,
@@ -315,6 +316,43 @@
           {
             "Text": "how I did it",
             "Link": "https://www.notion.so/How-I-implemented-Oembed-Proxy-for-GitHub-7d25ad342c514a47a00f6e0c4ba84cbc"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540276833574,
+        "id": "373a1571-ce4e-4e72-9ebe-2486ef903d9c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540277050888,
+        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "XML to Go",
+              [
+                [
+                  "a",
+                  "https://www.onlinetool.io/xmltogo/"
+                ]
+              ]
+            ],
+            [
+              " - web-based tool to generate Go struct definition from XML"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 157,
+        "inline_content": [
+          {
+            "Text": "XML to Go",
+            "Link": "https://www.onlinetool.io/xmltogo/"
+          },
+          {
+            "Text": " - web-based tool to generate Go struct definition from XML"
           }
         ]
       },
