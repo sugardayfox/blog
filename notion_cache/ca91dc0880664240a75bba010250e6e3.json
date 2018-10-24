@@ -5,7 +5,10 @@
     "content": [
       "8542ca9b-0fd4-4e9a-8119-b1e69e335699",
       "1828cc10-180f-4161-89fa-a8a886411dbb",
-      "c92447cc-8670-48f4-a7c5-951017818bf7"
+      "c92447cc-8670-48f4-a7c5-951017818bf7",
+      "0a49e711-23cf-4207-9abb-f0bef99093cf",
+      "96c3303c-23a9-4009-a85e-0de98b362a06",
+      "cdde13a5-dd03-4886-942d-f946eb91c9b0"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1493148648481,
@@ -15,7 +18,7 @@
     },
     "id": "ca91dc08-8066-4240-a75b-ba010250e6e3",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1513208463355,
+    "last_edited_time": 1540367806547,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -26,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 3,
+    "version": 9,
     "content_resolved": [
       {
         "alive": true,
@@ -117,6 +120,99 @@
           },
           {
             "Text": " : a drag\u0026drop library"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540367795052,
+        "id": "0a49e711-23cf-4207-9abb-f0bef99093cf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540367796219,
+        "parent_id": "ca91dc08-8066-4240-a75b-ba010250e6e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#droptargets",
+              [
+                [
+                  "a",
+                  "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#droptargets"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#droptargets",
+            "Link": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations#droptargets"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540367797942,
+        "id": "96c3303c-23a9-4009-a85e-0de98b362a06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540367805595,
+        "parent_id": "ca91dc08-8066-4240-a75b-ba010250e6e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.html5rocks.com/en/tutorials/dnd/basics/",
+              [
+                [
+                  "a",
+                  "https://www.html5rocks.com/en/tutorials/dnd/basics/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://www.html5rocks.com/en/tutorials/dnd/basics/",
+            "Link": "https://www.html5rocks.com/en/tutorials/dnd/basics/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540367806547,
+        "id": "cdde13a5-dd03-4886-942d-f946eb91c9b0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540367812448,
+        "parent_id": "ca91dc08-8066-4240-a75b-ba010250e6e3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://apress.jensimmons.com/v5/pro-html5-programming/ch9.html",
+              [
+                [
+                  "a",
+                  "http://apress.jensimmons.com/v5/pro-html5-programming/ch9.html"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "http://apress.jensimmons.com/v5/pro-html5-programming/ch9.html",
+            "Link": "http://apress.jensimmons.com/v5/pro-html5-programming/ch9.html"
           }
         ]
       }
