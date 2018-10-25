@@ -43,13 +43,15 @@
           "d07476a7-a3c0-4da2-b9ae-66a1d74cc1b3",
           "41be8a39-3e0d-40d2-854d-e3b18fabcf6e",
           "cd17edd8-adfa-4474-87d1-af2c360de1fb",
-          "0fc385e9-1a75-45b7-a8e3-185b02f140ff"
+          "0fc385e9-1a75-45b7-a8e3-185b02f140ff",
+          "f92d072a-eba9-4045-bddc-34ecd62bb0c5",
+          "67164d4d-fd34-46b4-b357-fbfbf42e6007"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496213356044,
         "id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530406064826,
+        "last_edited_time": 1540403945470,
         "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
         "parent_table": "block",
         "properties": {
@@ -60,7 +62,7 @@
           ]
         },
         "type": "toggle",
-        "version": 6,
+        "version": 10,
         "content_resolved": [
           {
             "alive": true,
@@ -290,6 +292,49 @@
                 "Link": "https://medium.freecodecamp.org/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346"
               }
             ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540403945470,
+            "id": "f92d072a-eba9-4045-bddc-34ecd62bb0c5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540403945907,
+            "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://30-seconds.github.io/30-seconds-of-css/",
+                  [
+                    [
+                      "a",
+                      "https://30-seconds.github.io/30-seconds-of-css/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://30-seconds.github.io/30-seconds-of-css/",
+                "Link": "https://30-seconds.github.io/30-seconds-of-css/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540403943243,
+            "id": "67164d4d-fd34-46b4-b357-fbfbf42e6007",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540403943243,
+            "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "parent_table": "block",
+            "type": "text",
+            "version": 4
           }
         ],
         "inline_content": [

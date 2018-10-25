@@ -3,6 +3,8 @@
   "Root": {
     "alive": true,
     "content": [
+      "477349aa-e816-450a-b529-c76ac11b3180",
+      "48184943-6db9-4153-ae4a-68d5f9175fc8",
       "c31b2e37-bd4b-4a49-ac5c-c6a044cb7381",
       "c5cd1cf0-d7ac-42e8-9f00-fe5bdbd17569",
       "a3909f65-ba28-468a-a576-0069f4e8990c",
@@ -17,7 +19,7 @@
     },
     "id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539548669723,
+    "last_edited_time": 1540423789366,
     "parent_id": "2ba0b2e0-deae-4c77-b31e-4481777b70a2",
     "parent_table": "block",
     "properties": {
@@ -28,8 +30,614 @@
       ]
     },
     "type": "page",
-    "version": 52,
+    "version": 64,
     "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "c0f26341-a99b-4470-a3d7-7f9d03ffc8d4",
+          "e84e384a-c2f3-4e52-acea-9fbe52bec6c7",
+          "d474d861-472a-43bd-a71a-59ff6472e670",
+          "aa01f32d-831f-488b-ba2d-ea014e1f3d17",
+          "a15ffdd2-17a1-48e1-8e18-5074add4a7f0",
+          "27d575df-1469-466e-b29f-7a4a58aa6537",
+          "7f0106d6-9f62-48f1-ae09-83c3ca9340c8",
+          "a5f2b23c-6b42-448c-8f92-5f26d3817c3a",
+          "1e277fdb-2f06-4c19-a0cd-16ce536f4462"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540422647637,
+        "id": "477349aa-e816-450a-b529-c76ac11b3180",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540425586881,
+        "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q3 2018 conference call (Oct 24 2018)"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 121,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422673197,
+            "id": "c0f26341-a99b-4470-a3d7-7f9d03ffc8d4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423336393,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "v9 of software, talking about AutoPilot (Navigate On AutoPilot)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 156,
+            "inline_content": [
+              {
+                "Text": "v9 of software, talking about AutoPilot (Navigate On AutoPilot)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540423404894,
+            "id": "e84e384a-c2f3-4e52-acea-9fbe52bec6c7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423485166,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Steve Bannon talks about AutoPilot HW progress (validation, production line), ready by end Q1 2019; same cost as old hw but 10x improvement in frame rate"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 392,
+            "inline_content": [
+              {
+                "Text": "Steve Bannon talks about AutoPilot HW progress (validation, production line), ready by end Q1 2019; same cost as old hw but 10x improvement in frame rate"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540423584903,
+            "id": "d474d861-472a-43bd-a71a-59ff6472e670",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423606273,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "removed Full Self Driving from ordering flow because it was confusing to user"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 180,
+            "inline_content": [
+              {
+                "Text": "removed Full Self Driving from ordering flow because it was confusing to user"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540423677030,
+            "id": "aa01f32d-831f-488b-ba2d-ea014e1f3d17",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423789366,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Karpathy says they trained larger NN that require new hw to work"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 172,
+            "inline_content": [
+              {
+                "Text": "Karpathy says they trained larger NN that require new hw to work"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540424197755,
+            "id": "a15ffdd2-17a1-48e1-8e18-5074add4a7f0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540424374389,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Q: cell supply constraints. A: they are expanding Panasonic cell supply, have 3rd party suppliers as well. They made half world-wide car batteries (20 GWh)."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 434,
+            "inline_content": [
+              {
+                "Text": "Q: cell supply constraints. A: they are expanding Panasonic cell supply, have 3rd party suppliers as well. They made half world-wide car batteries (20 GWh)."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540424336024,
+            "id": "27d575df-1469-466e-b29f-7a4a58aa6537",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540424392728,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Q: why better margins on Model 3. A: improvements all over the place"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 186,
+            "inline_content": [
+              {
+                "Text": "Q: why better margins on Model 3. A: improvements all over the place"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540424660800,
+            "id": "7f0106d6-9f62-48f1-ae09-83c3ca9340c8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540424701820,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Q: plan for total M3 production A: hoping for 1 million Model 3 world-wide"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 314,
+            "inline_content": [
+              {
+                "Text": "Q: plan for total M3 production A: hoping for 1 million Model 3 world-wide"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540425379544,
+            "id": "a5f2b23c-6b42-448c-8f92-5f26d3817c3a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540425413172,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Q: what are trade-ins for M3. A: all over the place but many upgrade from much cheaper car"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 254,
+            "inline_content": [
+              {
+                "Text": "Q: what are trade-ins for M3. A: all over the place but many upgrade from much cheaper car"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540425586881,
+            "id": "1e277fdb-2f06-4c19-a0cd-16ce536f4462",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540425706151,
+            "parent_id": "477349aa-e816-450a-b529-c76ac11b3180",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "working on reducing time car build → delivered to 10 days (from 30 days in August, 20 days now). Terms with suppliers: over 60 days on average."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 341,
+            "inline_content": [
+              {
+                "Text": "working on reducing time car build → delivered to 10 days (from 30 days in August, 20 days now). Terms with suppliers: over 60 days on average."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Q3 2018 conference call (Oct 24 2018)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "c369ef0f-425b-4b1f-b0f4-b7d3bc51f2d2",
+          "d6a9f5b6-c04a-4f7f-9a41-061eea6fc66b",
+          "3596f8b7-0953-47a2-a820-e7ae813ff7ef",
+          "bed87527-a006-45b5-875c-9f8caaeedab5",
+          "6237705a-7244-46f7-a580-a142537da2fa",
+          "7c5c0b85-51b9-4314-bf76-334a89ef570f",
+          "01d5dff2-989a-4c10-a29d-e621fb36151a",
+          "e28e306f-c67a-4c99-8c3d-855d7f395e9f",
+          "201235ca-f7f7-4d42-841c-d08c79c07237",
+          "8e42481b-7bf0-4e02-a3a8-923c9db1cb24",
+          "aaaaf336-6e4c-4f6b-aba7-8dd5229b4df7",
+          "26fd06da-202d-458c-9ab6-88eab6fd4a70",
+          "5e4ffa40-b3dc-4745-9905-6c418fec49a1"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540421408586,
+        "id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1540423006280,
+        "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Q3 2018 earnings report (Oct 24 2018)"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 221,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540421720150,
+            "id": "c369ef0f-425b-4b1f-b0f4-b7d3bc51f2d2",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540421730515,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "average 4.3 k cars per week"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 74,
+            "inline_content": [
+              {
+                "Text": "average 4.3 k cars per week"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540421886062,
+            "id": "d6a9f5b6-c04a-4f7f-9a41-061eea6fc66b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422075289,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "sold 56k Model 3, 70k all cars"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 106,
+            "inline_content": [
+              {
+                "Text": "sold 56k Model 3, 70k all cars"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422172334,
+            "id": "3596f8b7-0953-47a2-a820-e7ae813ff7ef",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422193968,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "20% gross margin on Model 3, targeting 25%"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 121,
+            "inline_content": [
+              {
+                "Text": "20% gross margin on Model 3, targeting 25%"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540421966266,
+            "id": "bed87527-a006-45b5-875c-9f8caaeedab5",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540421991418,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "ended up with 364 k (out of 455) reservations, less than 20% cancelled"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 190,
+            "inline_content": [
+              {
+                "Text": "ended up with 364 k (out of 455) reservations, less than 20% cancelled"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422022419,
+            "id": "6237705a-7244-46f7-a580-a142537da2fa",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422039798,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Going to Europe early 2019"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 82,
+            "inline_content": [
+              {
+                "Text": "Going to Europe early 2019"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422318113,
+            "id": "7c5c0b85-51b9-4314-bf76-334a89ef570f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422335006,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "4 new stores and service locations, 351 locations worldwide"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 156,
+            "inline_content": [
+              {
+                "Text": "4 new stores and service locations, 351 locations worldwide"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422347584,
+            "id": "01d5dff2-989a-4c10-a29d-e621fb36151a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422353962,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "mobile service fleet: 373 cars"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 66,
+            "inline_content": [
+              {
+                "Text": "mobile service fleet: 373 cars"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422364918,
+            "id": "e28e306f-c67a-4c99-8c3d-855d7f395e9f",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422384985,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "opened several body shops in US, planning dozens more in next few quarters"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 166,
+            "inline_content": [
+              {
+                "Text": "opened several body shops in US, planning dozens more in next few quarters"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422390890,
+            "id": "201235ca-f7f7-4d42-841c-d08c79c07237",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422438891,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "44 new supercharger locations, total 1352 stations, 11k connectors and over 20k Destination Chargers globally"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 252,
+            "inline_content": [
+              {
+                "Text": "44 new supercharger locations, total 1352 stations, 11k connectors and over 20k Destination Chargers globally"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422452708,
+            "id": "8e42481b-7bf0-4e02-a3a8-923c9db1cb24",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423321106,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "energy storage: 239 MWh (18% from Q2, 118% from Q3 2017), on track to 3x 2017 numbers, 17.2% gross margin (up from 11.8% Q2)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 391,
+            "inline_content": [
+              {
+                "Text": "energy storage: 239 MWh (18% from Q2, 118% from Q3 2017), on track to 3x 2017 numbers, 17.2% gross margin (up from 11.8% Q2)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422566064,
+            "id": "aaaaf336-6e4c-4f6b-aba7-8dd5229b4df7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422580313,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Solar Roof delayed, targeting first half 2019 to increase production"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 154,
+            "inline_content": [
+              {
+                "Text": "Solar Roof delayed, targeting first half 2019 to increase production"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540422857624,
+            "id": "26fd06da-202d-458c-9ab6-88eab6fd4a70",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540422949320,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "lowered cost of user acquisition costs for solar leads to better profitability"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 162,
+            "inline_content": [
+              {
+                "Text": "lowered cost of user acquisition costs for solar leads to better profitability"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1540423006280,
+            "id": "5e4ffa40-b3dc-4745-9905-6c418fec49a1",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540423053151,
+            "parent_id": "48184943-6db9-4153-ae4a-68d5f9175fc8",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "$52m ZEV credits (was 0 in Q2)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 78,
+            "inline_content": [
+              {
+                "Text": "$52m ZEV credits (was 0 in Q2)"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Q3 2018 earnings report (Oct 24 2018)"
+          }
+        ]
+      },
       {
         "alive": true,
         "content": [
@@ -1276,18 +1884,18 @@
         "created_time": 1533157884949,
         "id": "a3909f65-ba28-468a-a576-0069f4e8990c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533164167390,
+        "last_edited_time": 1540421435583,
         "parent_id": "abbbcb44-f6fd-4ba5-bdb0-4b3970180958",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Q2 earnings conference call 2008-08-01 (August 1)"
+              "Q2 2018 earnings conference call 2008-08-01 (August 1)"
             ]
           ]
         },
         "type": "toggle",
-        "version": 172,
+        "version": 182,
         "content_resolved": [
           {
             "alive": true,
@@ -1856,7 +2464,7 @@
         ],
         "inline_content": [
           {
-            "Text": "Q2 earnings conference call 2008-08-01 (August 1)"
+            "Text": "Q2 2018 earnings conference call 2008-08-01 (August 1)"
           }
         ]
       },
