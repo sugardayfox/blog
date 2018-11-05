@@ -10833,11 +10833,11 @@
             },
             "id": "5fe4eafd-8123-4918-9f16-829d535c3203",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1540400302449,
+            "last_edited_time": 1541384109730,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 218,
+            "version": 226,
             "content_resolved": [
               {
                 "alive": true,
@@ -17764,7 +17764,7 @@
                 "created_time": 1533800034537,
                 "id": "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1535655557981,
+                "last_edited_time": 1541384109487,
                 "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
                 "parent_table": "block",
                 "properties": {
@@ -17780,7 +17780,7 @@
                   ]
                 },
                 "type": "toggle",
-                "version": 78,
+                "version": 86,
                 "content_resolved": [
                   {
                     "alive": true,
@@ -19452,13 +19452,14 @@
                     "alive": true,
                     "content": [
                       "0675eb28-4d10-4840-b27d-1cd635bca7c4",
-                      "6df075ec-c999-4574-9b06-2a7f3377ee4b"
+                      "6df075ec-c999-4574-9b06-2a7f3377ee4b",
+                      "8c204671-3d3d-48ac-ad37-1289d7509577"
                     ],
                     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                     "created_time": 1535655550595,
                     "id": "64539033-1c95-4b29-93ce-293a9a10f269",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1535655672595,
+                    "last_edited_time": 1541384110327,
                     "parent_id": "cc6b5e6e-f82f-4f1c-b49e-5c7eed8f57ab",
                     "parent_table": "block",
                     "properties": {
@@ -19478,7 +19479,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 34,
+                    "version": 44,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -19510,7 +19511,7 @@
                         "created_time": 1535655672595,
                         "id": "6df075ec-c999-4574-9b06-2a7f3377ee4b",
                         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                        "last_edited_time": 1535655805856,
+                        "last_edited_time": 1541384109730,
                         "parent_id": "64539033-1c95-4b29-93ce-293a9a10f269",
                         "parent_table": "block",
                         "properties": {
@@ -19521,10 +19522,41 @@
                           ]
                         },
                         "type": "text",
-                        "version": 288,
+                        "version": 290,
                         "inline_content": [
                           {
                             "Text": "More sophisticated would be tools that do the functionality but re-imagined for GUI. Implemented with web UI."
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1541384110327,
+                        "id": "8c204671-3d3d-48ac-ad37-1289d7509577",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1541384111262,
+                        "parent_id": "64539033-1c95-4b29-93ce-293a9a10f269",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://dev.to/davidk01/ptyjs--xtermjs--shell-in-your-browser-1f9c",
+                              [
+                                [
+                                  "a",
+                                  "https://dev.to/davidk01/ptyjs--xtermjs--shell-in-your-browser-1f9c"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "text",
+                        "version": 8,
+                        "inline_content": [
+                          {
+                            "Text": "https://dev.to/davidk01/ptyjs--xtermjs--shell-in-your-browser-1f9c",
+                            "Link": "https://dev.to/davidk01/ptyjs--xtermjs--shell-in-your-browser-1f9c"
                           }
                         ]
                       }

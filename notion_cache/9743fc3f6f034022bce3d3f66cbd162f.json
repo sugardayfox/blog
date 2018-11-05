@@ -2092,13 +2092,14 @@
         "alive": true,
         "content": [
           "d32f6d3d-31d9-4f8a-b54c-befa663405bd",
-          "376d2a07-dcfc-4ad7-9cb8-7c3ccdcf6e3f"
+          "376d2a07-dcfc-4ad7-9cb8-7c3ccdcf6e3f",
+          "07b3a3bf-54b7-4bac-8f6e-a3c371c66c97"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496264325254,
         "id": "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1496264325254,
+        "last_edited_time": 1541384385834,
         "parent_id": "9743fc3f-6f03-4022-bce3-d3f66cbd162f",
         "parent_table": "block",
         "properties": {
@@ -2109,7 +2110,7 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 2,
         "content_resolved": [
           {
             "alive": true,
@@ -2176,6 +2177,37 @@
               {
                 "Text": "https://ops.tips/blog/dockerfile-golang/",
                 "Link": "https://ops.tips/blog/dockerfile-golang/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541384385834,
+            "id": "07b3a3bf-54b7-4bac-8f6e-a3c371c66c97",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541384386195,
+            "parent_id": "291c9e59-2644-4b75-b6ff-b28a4ffcacbb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://weberc2.bitbucket.io/posts/golang-docker-scratch-app.html",
+                  [
+                    [
+                      "a",
+                      "https://weberc2.bitbucket.io/posts/golang-docker-scratch-app.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://weberc2.bitbucket.io/posts/golang-docker-scratch-app.html",
+                "Link": "https://weberc2.bitbucket.io/posts/golang-docker-scratch-app.html"
               }
             ]
           }
