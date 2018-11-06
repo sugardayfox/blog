@@ -1122,10 +1122,15 @@
                 "created_time": 1533749348774,
                 "id": "85c0aa5f-0de2-4010-905a-4c06feb21fc7",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533749584790,
+                "last_edited_time": 1541458568866,
                 "parent_id": "f17970aa-6717-4c0b-b7c6-8ecebe9a5de1",
                 "parent_table": "block",
                 "properties": {
+                  "language": [
+                    [
+                      "Go"
+                    ]
+                  ],
                   "title": [
                     [
                       "func recreateDir(dir string) error {\n\terr := os.RemoveAll(dir)\n\tif err != nil {\n\t\treturn err\n\t}\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc createDirForFile(path string) error {\n\tdir := filepath.Dir(path)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc unzipFile(f *zip.File, dstPath string) error {\n\tr, err := f.Open()\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer r.Close()\n\n\terr = createDirForFile(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tw, err := os.Create(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\t_, err = io.Copy(w, r)\n\tif err != nil {\n\t\tw.Close()\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\terr = w.Close()\n\tif err != nil {\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\treturn nil\n}\n\nfunc unzip(zipPath string, destDir string) error {\n\tst, err := os.Stat(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfileSize := st.Size()\n\tf, err := os.Open(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer f.Close()\n\n\tzr, err := zip.NewReader(f, fileSize)\n\tif err != nil {\n\t\treturn err\n\t}\n\terr = recreateDir(destDir)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tfor _, fi := range zr.File {\n\t\tif fi.FileInfo().IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tdestPath := filepath.Join(destDir, fi.Name)\n\t\terr = unzipFile(fi, destPath)\n\t\tif err != nil {\n\t\t\tos.RemoveAll(destDir)\n\t\t\treturn err\n\t\t}\n\t}\n\treturn nil\n}"
@@ -1133,8 +1138,9 @@
                   ]
                 },
                 "type": "code",
-                "version": 55,
-                "code": "func recreateDir(dir string) error {\n\terr := os.RemoveAll(dir)\n\tif err != nil {\n\t\treturn err\n\t}\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc createDirForFile(path string) error {\n\tdir := filepath.Dir(path)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc unzipFile(f *zip.File, dstPath string) error {\n\tr, err := f.Open()\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer r.Close()\n\n\terr = createDirForFile(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tw, err := os.Create(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\t_, err = io.Copy(w, r)\n\tif err != nil {\n\t\tw.Close()\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\terr = w.Close()\n\tif err != nil {\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\treturn nil\n}\n\nfunc unzip(zipPath string, destDir string) error {\n\tst, err := os.Stat(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfileSize := st.Size()\n\tf, err := os.Open(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer f.Close()\n\n\tzr, err := zip.NewReader(f, fileSize)\n\tif err != nil {\n\t\treturn err\n\t}\n\terr = recreateDir(destDir)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tfor _, fi := range zr.File {\n\t\tif fi.FileInfo().IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tdestPath := filepath.Join(destDir, fi.Name)\n\t\terr = unzipFile(fi, destPath)\n\t\tif err != nil {\n\t\t\tos.RemoveAll(destDir)\n\t\t\treturn err\n\t\t}\n\t}\n\treturn nil\n}"
+                "version": 57,
+                "code": "func recreateDir(dir string) error {\n\terr := os.RemoveAll(dir)\n\tif err != nil {\n\t\treturn err\n\t}\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc createDirForFile(path string) error {\n\tdir := filepath.Dir(path)\n\treturn os.MkdirAll(dir, 0755)\n}\n\nfunc unzipFile(f *zip.File, dstPath string) error {\n\tr, err := f.Open()\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer r.Close()\n\n\terr = createDirForFile(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tw, err := os.Create(dstPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\t_, err = io.Copy(w, r)\n\tif err != nil {\n\t\tw.Close()\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\terr = w.Close()\n\tif err != nil {\n\t\tos.Remove(dstPath)\n\t\treturn err\n\t}\n\treturn nil\n}\n\nfunc unzip(zipPath string, destDir string) error {\n\tst, err := os.Stat(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tfileSize := st.Size()\n\tf, err := os.Open(zipPath)\n\tif err != nil {\n\t\treturn err\n\t}\n\tdefer f.Close()\n\n\tzr, err := zip.NewReader(f, fileSize)\n\tif err != nil {\n\t\treturn err\n\t}\n\terr = recreateDir(destDir)\n\tif err != nil {\n\t\treturn err\n\t}\n\n\tfor _, fi := range zr.File {\n\t\tif fi.FileInfo().IsDir() {\n\t\t\tcontinue\n\t\t}\n\t\tdestPath := filepath.Join(destDir, fi.Name)\n\t\terr = unzipFile(fi, destPath)\n\t\tif err != nil {\n\t\t\tos.RemoveAll(destDir)\n\t\t\treturn err\n\t\t}\n\t}\n\treturn nil\n}",
+                "code_language": "Go"
               }
             ],
             "inline_content": [
