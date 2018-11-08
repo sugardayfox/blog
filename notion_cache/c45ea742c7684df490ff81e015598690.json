@@ -5,6 +5,7 @@
     "content": [
       "fb2dcd1a-906b-4a38-8128-bf2321b5b03e",
       "4f5f2384-e781-474c-8dee-1b40eeab2838",
+      "bc513583-9c7a-4101-b70a-9a75789085ee",
       "a9bc96e8-41d8-4c04-987f-ff17cf776d7f",
       "359e33f0-f6db-4f60-8df1-f55a8d172488",
       "0e677c6d-6f36-43db-afcf-7bca57ff6650",
@@ -24,7 +25,7 @@
     },
     "id": "c45ea742-c768-4df4-90ff-81e015598690",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1531178663737,
+    "last_edited_time": 1541657135654,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -35,7 +36,7 @@
       ]
     },
     "type": "page",
-    "version": 25,
+    "version": 35,
     "content_resolved": [
       {
         "alive": true,
@@ -49,7 +50,7 @@
         "created_time": 1520495445816,
         "id": "fb2dcd1a-906b-4a38-8128-bf2321b5b03e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531178660750,
+        "last_edited_time": 1541657135317,
         "parent_id": "c45ea742-c768-4df4-90ff-81e015598690",
         "parent_table": "block",
         "properties": {
@@ -60,7 +61,7 @@
           ]
         },
         "type": "toggle",
-        "version": 72,
+        "version": 76,
         "content_resolved": [
           {
             "alive": true,
@@ -176,7 +177,7 @@
             "created_time": 1493624728630,
             "id": "292e1bea-a3f8-4615-8c21-b04d80cd3539",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1531178656789,
+            "last_edited_time": 1541657135654,
             "parent_id": "fb2dcd1a-906b-4a38-8128-bf2321b5b03e",
             "parent_table": "block",
             "properties": {
@@ -193,7 +194,7 @@
               ]
             },
             "type": "text",
-            "version": 6,
+            "version": 8,
             "inline_content": [
               {
                 "Text": "https://help.github.com/articles/dealing-with-line-endings/",
@@ -837,6 +838,210 @@
         "inline_content": [
           {
             "Text": "Using submodules"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "61ae4c1b-a961-4865-93ed-029598877cd0",
+          "1e0f69d3-7840-454f-8b30-2c03c94b0f15",
+          "08af5446-6646-499e-bcfc-4bf6a0496cee",
+          "037acbc7-35a5-40f1-9284-560ead6c00c3",
+          "cf1ae7e6-8f51-4505-aca8-08df16506796"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541657057534,
+        "id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1541658408564,
+        "parent_id": "c45ea742-c768-4df4-90ff-81e015598690",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "remember credentials on windows"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 90,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541657066065,
+            "id": "61ae4c1b-a961-4865-93ed-029598877cd0",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541657068204,
+            "parent_id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "git config --global credential.helper wincred",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "git config --global credential.helper wincred",
+                "AttrFlags": 2
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541657091381,
+            "id": "1e0f69d3-7840-454f-8b30-2c03c94b0f15",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541657091766,
+            "parent_id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://help.github.com/articles/caching-your-github-password-in-git/",
+                  [
+                    [
+                      "a",
+                      "https://help.github.com/articles/caching-your-github-password-in-git/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://help.github.com/articles/caching-your-github-password-in-git/",
+                "Link": "https://help.github.com/articles/caching-your-github-password-in-git/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541657068786,
+            "id": "08af5446-6646-499e-bcfc-4bf6a0496cee",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541657074616,
+            "parent_id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://stackoverflow.com/questions/25845963/git-credential-helper-update-password",
+                  [
+                    [
+                      "a",
+                      "https://stackoverflow.com/questions/25845963/git-credential-helper-update-password"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://stackoverflow.com/questions/25845963/git-credential-helper-update-password",
+                "Link": "https://stackoverflow.com/questions/25845963/git-credential-helper-update-password"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541657094864,
+            "id": "037acbc7-35a5-40f1-9284-560ead6c00c3",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541657133555,
+            "parent_id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Can see stored credentials in "
+                ],
+                [
+                  "Credential Manager",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " program, Windows Credentials tab"
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 210,
+            "inline_content": [
+              {
+                "Text": "Can see stored credentials in "
+              },
+              {
+                "Text": "Credential Manager",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " program, Windows Credentials tab"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541658408564,
+            "id": "cf1ae7e6-8f51-4505-aca8-08df16506796",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541658416569,
+            "parent_id": "bc513583-9c7a-4101-b70a-9a75789085ee",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Another option: install "
+                ],
+                [
+                  "https://github.com/Microsoft/Git-Credential-Manager-for-Windows",
+                  [
+                    [
+                      "a",
+                      "https://github.com/Microsoft/Git-Credential-Manager-for-Windows"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 56,
+            "inline_content": [
+              {
+                "Text": "Another option: install "
+              },
+              {
+                "Text": "https://github.com/Microsoft/Git-Credential-Manager-for-Windows",
+                "Link": "https://github.com/Microsoft/Git-Credential-Manager-for-Windows"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "remember credentials on windows"
           }
         ]
       },
