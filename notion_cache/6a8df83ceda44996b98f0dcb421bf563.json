@@ -1,0 +1,105 @@
+{
+  "ID": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+  "Root": {
+    "alive": true,
+    "content": [
+      "6f4ba19a-7438-408c-9624-999ffd5ae53f",
+      "bf81fe36-c226-4c88-908d-3d6eae3c4451"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1541722131991,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1541742299167,
+    "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "chocolatey setup"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 44,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541722135193,
+        "id": "6f4ba19a-7438-408c-9624-999ffd5ae53f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1541722174977,
+        "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/Microsoft/windows-dev-box-setup-scripts",
+              [
+                [
+                  "a",
+                  "https://github.com/Microsoft/windows-dev-box-setup-scripts"
+                ]
+              ]
+            ],
+            [
+              " : choco scripts for automating setting up a dev machine (installs git, Visual Studio, Visual Studio Code etc.)"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 354,
+        "inline_content": [
+          {
+            "Text": "https://github.com/Microsoft/windows-dev-box-setup-scripts",
+            "Link": "https://github.com/Microsoft/windows-dev-box-setup-scripts"
+          },
+          {
+            "Text": " : choco scripts for automating setting up a dev machine (installs git, Visual Studio, Visual Studio Code etc.)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1541722175291,
+        "id": "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1541722175303,
+        "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+        "parent_table": "block",
+        "type": "text",
+        "version": 6
+      }
+    ],
+    "title": "chocolatey setup",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}
