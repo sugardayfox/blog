@@ -14,7 +14,7 @@
     },
     "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1541742299167,
+    "last_edited_time": 1541924088539,
     "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
     "parent_table": "block",
     "properties": {
@@ -25,7 +25,7 @@
       ]
     },
     "type": "page",
-    "version": 44,
+    "version": 48,
     "content_resolved": [
       {
         "alive": true,
@@ -66,15 +66,58 @@
       },
       {
         "alive": true,
+        "content": [
+          "06a28ca1-5053-4293-b525-af8dba46b21b"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541722175291,
         "id": "bf81fe36-c226-4c88-908d-3d6eae3c4451",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541722175303,
+        "last_edited_time": 1541924088539,
         "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
         "parent_table": "block",
-        "type": "text",
-        "version": 6
+        "properties": {
+          "title": [
+            [
+              "my setup"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 31,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1541924088002,
+            "id": "06a28ca1-5053-4293-b525-af8dba46b21b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1541924127702,
+            "parent_id": "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+            "parent_table": "block",
+            "properties": {
+              "language": [
+                [
+                  "Plain Text"
+                ]
+              ],
+              "title": [
+                [
+                  "choco install -y golang\nchoco install -y git\nchoco install -y 7zip"
+                ]
+              ]
+            },
+            "type": "code",
+            "version": 138,
+            "code": "choco install -y golang\nchoco install -y git\nchoco install -y 7zip",
+            "code_language": "Plain Text"
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "my setup"
+          }
+        ]
       }
     ],
     "title": "chocolatey setup",
