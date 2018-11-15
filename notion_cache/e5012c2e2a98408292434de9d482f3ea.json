@@ -8,6 +8,7 @@
       "ab1726c7-bdc2-4e4f-88ca-998f708cbf94",
       "2c5d11ab-6777-4423-963e-152a49bd134a",
       "1ae483e2-60b0-4a6d-b769-08298473af13",
+      "21ddd8f8-d1d5-4f03-a535-4c3d15941c42",
       "c8d4ae40-c891-4eeb-9112-0179e5aa0a92"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -18,7 +19,7 @@
     },
     "id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532924294623,
+    "last_edited_time": 1542245887961,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -29,7 +30,7 @@
       ]
     },
     "type": "page",
-    "version": 15,
+    "version": 17,
     "content_resolved": [
       {
         "alive": true,
@@ -182,6 +183,37 @@
           },
           {
             "Text": " is a full book about HTML5 Canvas"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1542245887961,
+        "id": "21ddd8f8-d1d5-4f03-a535-4c3d15941c42",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1542245888216,
+        "parent_id": "e5012c2e-2a98-4082-9243-4de9d482f3ea",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://flaviocopes.com/canvas/",
+              [
+                [
+                  "a",
+                  "https://flaviocopes.com/canvas/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://flaviocopes.com/canvas/",
+            "Link": "https://flaviocopes.com/canvas/"
           }
         ]
       },
