@@ -13,7 +13,7 @@
       "aab90c2d-e343-4b78-bb0d-965afe6ddce8",
       "9d300206-b461-4ba3-91e3-72aca5b0b49f",
       "87f06de6-19bb-45c7-8aff-54905e02a554",
-      "4ca8fd16-0a4f-4295-a54a-8f73a4928b8f"
+      "3d16729a-6f38-4f16-b4d8-df4676ab9159"
     ],
     "copied_from": "71f74835-0022-4217-a1b3-7c312124903b",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -24,7 +24,7 @@
     },
     "id": "e7f5e7f9-db4b-48ea-9f66-980a025a8ee9",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996368299,
+    "last_edited_time": 1542860547385,
     "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
     "parent_table": "block",
     "properties": {
@@ -35,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 12,
+    "version": 16,
     "content_resolved": [
       {
         "alive": true,
@@ -287,23 +287,44 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531195944555,
-        "id": "4ca8fd16-0a4f-4295-a54a-8f73a4928b8f",
+        "created_time": 1542860547385,
+        "file_ids": [
+          "cdb14cce-5e50-477e-958d-e67a33356845"
+        ],
+        "format": {
+          "block_width": 240,
+          "block_height": 138,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb14cce-5e50-477e-958d-e67a33356845/15minutes-1.1.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 0.575,
+          "block_preserve_scale": true
+        },
+        "id": "3d16729a-6f38-4f16-b4d8-df4676ab9159",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195944555,
+        "last_edited_time": 1542860547814,
         "parent_id": "e7f5e7f9-db4b-48ea-9f66-980a025a8ee9",
         "parent_table": "block",
         "properties": {
           "source": [
             [
-              "//kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-1.1.png"
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb14cce-5e50-477e-958d-e67a33356845/15minutes-1.1.png"
             ]
           ]
         },
         "type": "image",
-        "version": 1,
-        "source": "//kjkpub.s3.amazonaws.com/blog/15minutes/15minutes-1.1.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2F15minutes%2F15minutes-1.1.png"
+        "version": 11,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb14cce-5e50-477e-958d-e67a33356845/15minutes-1.1.png",
+        "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcdb14cce-5e50-477e-958d-e67a33356845%2F15minutes-1.1.png",
+        "format_image": {
+          "block_aspect_ratio": 0.575,
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_preserve_scale": true,
+          "block_width": 240,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb14cce-5e50-477e-958d-e67a33356845/15minutes-1.1.png",
+          "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcdb14cce-5e50-477e-958d-e67a33356845%2F15minutes-1.1.png"
+        }
       }
     ],
     "title": "15minutes 1.1 for windows",

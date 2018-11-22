@@ -17,7 +17,8 @@
       "272caa58-7b3b-450d-9dd6-c5ea7965e3ff",
       "2ab55fd1-ebde-499c-8de2-57e643195275",
       "46d846c8-d110-4192-84de-4e3855e22ba4",
-      "af56c2d6-de44-4b92-a1a9-6e51a1ba434e"
+      "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4",
+      "aa220c4f-13f8-4127-84bf-cadbf061bc63"
     ],
     "copied_from": "b649c623-79fb-48dd-92b3-c0610cc387aa",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -28,7 +29,7 @@
     },
     "id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996226297,
+    "last_edited_time": 1542860456258,
     "parent_id": "dfeb5b7b-d784-4cc4-9e74-19e6c5eab4e3",
     "parent_table": "block",
     "properties": {
@@ -39,7 +40,7 @@
       ]
     },
     "type": "page",
-    "version": 8,
+    "version": 14,
     "content_resolved": [
       {
         "alive": true,
@@ -419,23 +420,56 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531736998537,
-        "id": "af56c2d6-de44-4b92-a1a9-6e51a1ba434e",
+        "created_time": 1542860450070,
+        "file_ids": [
+          "39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad"
+        ],
+        "format": {
+          "block_width": 320,
+          "block_height": 370,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 1.15625,
+          "block_preserve_scale": true
+        },
+        "id": "0a8896fb-fb9b-4e0d-96d6-3cecea6608c4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531736998537,
+        "last_edited_time": 1542860450813,
         "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
         "parent_table": "block",
         "properties": {
           "source": [
             [
-              "=//kjkpub.s3.amazonaws.com/blog/sumatra/sum-shot-03-small.png"
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png"
             ]
           ]
         },
         "type": "image",
-        "version": 1,
-        "source": "=//kjkpub.s3.amazonaws.com/blog/sumatra/sum-shot-03-small.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.so=%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fsumatra%2Fsum-shot-03-small.png"
+        "version": 11,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png",
+        "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad%2Fsum-shot-03-small.png",
+        "format_image": {
+          "block_aspect_ratio": 1.15625,
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_preserve_scale": true,
+          "block_width": 320,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad/sum-shot-03-small.png",
+          "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39fcf7d8-6a1e-4d6b-8d6c-fc73c21ebdad%2Fsum-shot-03-small.png"
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1542860456258,
+        "id": "aa220c4f-13f8-4127-84bf-cadbf061bc63",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1542860456258,
+        "parent_id": "5f344abe-a822-4590-b6bc-5a59d6c6b8df",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       }
     ],
     "title": "SumatraPDF 1.6 released",

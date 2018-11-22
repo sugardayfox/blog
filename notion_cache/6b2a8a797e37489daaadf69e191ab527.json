@@ -12,8 +12,8 @@
       "0163325e-81f8-4149-9998-d468063cbd4b",
       "075591c8-2413-41ab-9131-e50fd600ab33",
       "3bc5cc33-eb64-457b-88e8-a3a0f0e7757f",
-      "5addc8c6-7b0b-4cdd-904f-2bab54ed9d08",
-      "9fc61f1c-ba08-47c2-b226-f19ee9adcb68"
+      "956dee23-bda1-40dd-bc1c-11354bbefaa2",
+      "972b3e81-1f3a-4a6e-b5fb-795ac31c4f29"
     ],
     "copied_from": "c6882ce6-f73c-4285-accb-0dd781556cf5",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -24,7 +24,7 @@
     },
     "id": "6b2a8a79-7e37-489d-aaad-f69e191ab527",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996386089,
+    "last_edited_time": 1542861115097,
     "parent_id": "b059308f-5cc3-43fb-af19-9c71ae359418",
     "parent_table": "block",
     "properties": {
@@ -35,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 12,
+    "version": 20,
     "content_resolved": [
       {
         "alive": true,
@@ -295,44 +295,86 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531200907346,
-        "id": "5addc8c6-7b0b-4cdd-904f-2bab54ed9d08",
+        "created_time": 1542861044031,
+        "file_ids": [
+          "45c3b489-1323-4e6b-9d08-162c9b40f0aa"
+        ],
+        "format": {
+          "block_width": 458,
+          "block_height": 371,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c3b489-1323-4e6b-9d08-162c9b40f0aa/vack-main.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 0.8100436681222707,
+          "block_preserve_scale": true
+        },
+        "id": "956dee23-bda1-40dd-bc1c-11354bbefaa2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531200907346,
+        "last_edited_time": 1542861044696,
         "parent_id": "6b2a8a79-7e37-489d-aaad-f69e191ab527",
         "parent_table": "block",
         "properties": {
           "source": [
             [
-              "http://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png"
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c3b489-1323-4e6b-9d08-162c9b40f0aa/vack-main.png"
             ]
           ]
         },
         "type": "image",
-        "version": 1,
-        "source": "http://kjkpub.s3.amazonaws.com/blog/vack/vack-main.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.sohttp:%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fvack%2Fvack-main.png"
+        "version": 11,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c3b489-1323-4e6b-9d08-162c9b40f0aa/vack-main.png",
+        "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45c3b489-1323-4e6b-9d08-162c9b40f0aa%2Fvack-main.png",
+        "format_image": {
+          "block_aspect_ratio": 0.8100436681222707,
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_preserve_scale": true,
+          "block_width": 458,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45c3b489-1323-4e6b-9d08-162c9b40f0aa/vack-main.png",
+          "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45c3b489-1323-4e6b-9d08-162c9b40f0aa%2Fvack-main.png"
+        }
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531200907347,
-        "id": "9fc61f1c-ba08-47c2-b226-f19ee9adcb68",
+        "created_time": 1542861113046,
+        "file_ids": [
+          "4f915fbd-9dc3-41d0-a79e-8947027162f7"
+        ],
+        "format": {
+          "block_width": 458,
+          "block_height": 371,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f915fbd-9dc3-41d0-a79e-8947027162f7/vack-results.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 0.8100436681222707,
+          "block_preserve_scale": true
+        },
+        "id": "972b3e81-1f3a-4a6e-b5fb-795ac31c4f29",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531200907347,
+        "last_edited_time": 1542861113629,
         "parent_id": "6b2a8a79-7e37-489d-aaad-f69e191ab527",
         "parent_table": "block",
         "properties": {
           "source": [
             [
-              "http://kjkpub.s3.amazonaws.com/blog/vack/vack-results.png"
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f915fbd-9dc3-41d0-a79e-8947027162f7/vack-results.png"
             ]
           ]
         },
         "type": "image",
-        "version": 1,
-        "source": "http://kjkpub.s3.amazonaws.com/blog/vack/vack-results.png",
-        "image_url": "https://www.notion.so/image/https:%2F%2Fwww.notion.sohttp:%2F%2Fkjkpub.s3.amazonaws.com%2Fblog%2Fvack%2Fvack-results.png"
+        "version": 11,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f915fbd-9dc3-41d0-a79e-8947027162f7/vack-results.png",
+        "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4f915fbd-9dc3-41d0-a79e-8947027162f7%2Fvack-results.png",
+        "format_image": {
+          "block_aspect_ratio": 0.8100436681222707,
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_preserve_scale": true,
+          "block_width": 458,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f915fbd-9dc3-41d0-a79e-8947027162f7/vack-results.png",
+          "image_url": "https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4f915fbd-9dc3-41d0-a79e-8947027162f7%2Fvack-results.png"
+        }
       }
     ],
     "title": "VisualAck 0.3.2 released ",
