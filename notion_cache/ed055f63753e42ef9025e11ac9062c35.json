@@ -10,6 +10,8 @@
       "c117379a-1178-42fc-958b-914b5ec633fe",
       "104f2fcc-6bb4-4caa-9164-92429978c6bd",
       "6d840b71-269e-40bc-b238-618f2392636a",
+      "b66503d6-af00-4808-8fdf-e08a519f6b42",
+      "054b9945-cd4b-4aa8-82b1-4142e123dcc9",
       "a2cf6835-0ff1-4b06-8641-6bb712970115",
       "aa6503d1-331e-40c2-aec7-f095d570f09b",
       "273e0f95-302a-4cd8-8713-9a3a53e0d833",
@@ -45,7 +47,6 @@
       "45eb2162-74fd-48e2-b6e9-8d57d0bd673c",
       "02cbb85a-6baf-4061-82d3-5bb1b11b422d",
       "685312b2-9fc2-4b04-b0e1-02b0348fafe0",
-      "8518a491-3441-4f20-97f1-2154aed6af70",
       "a5c85fe6-1334-4e97-9826-460e6463e1d5",
       "4dbe88c5-650b-4a46-b73b-71ccadc13647"
     ],
@@ -57,7 +58,7 @@
     },
     "id": "ed055f63-753e-42ef-9025-e11ac9062c35",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1542242440377,
+    "last_edited_time": 1543030235455,
     "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
     "parent_table": "block",
     "properties": {
@@ -68,7 +69,7 @@
       ]
     },
     "type": "page",
-    "version": 31,
+    "version": 37,
     "content_resolved": [
       {
         "alive": true,
@@ -279,6 +280,74 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1543030189509,
+        "id": "b66503d6-af00-4808-8fdf-e08a519f6b42",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1543030196117,
+        "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://www.icce.rug.nl/documents/cplusplus/",
+              [
+                [
+                  "a",
+                  "http://www.icce.rug.nl/documents/cplusplus/"
+                ]
+              ]
+            ],
+            [
+              " : a large book on C++"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 59,
+        "inline_content": [
+          {
+            "Text": "http://www.icce.rug.nl/documents/cplusplus/",
+            "Link": "http://www.icce.rug.nl/documents/cplusplus/"
+          },
+          {
+            "Text": " : a large book on C++"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1543030214612,
+        "id": "054b9945-cd4b-4aa8-82b1-4142e123dcc9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1543030214973,
+        "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/AnthonyCalandra/modern-cpp-features",
+              [
+                [
+                  "a",
+                  "https://github.com/AnthonyCalandra/modern-cpp-features"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://github.com/AnthonyCalandra/modern-cpp-features",
+            "Link": "https://github.com/AnthonyCalandra/modern-cpp-features"
           }
         ]
       },
@@ -1433,7 +1502,7 @@
         "created_time": 1512942309927,
         "id": "685312b2-9fc2-4b04-b0e1-02b0348fafe0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530094250355,
+        "last_edited_time": 1543030235455,
         "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
         "parent_table": "block",
         "properties": {
@@ -1450,42 +1519,11 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 6,
+        "version": 8,
         "inline_content": [
           {
             "Text": "https://github.com/greg7mdp/sparsepp",
             "Link": "https://github.com/greg7mdp/sparsepp"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512942315279,
-        "id": "8518a491-3441-4f20-97f1-2154aed6af70",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530094251211,
-        "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://github.com/AnthonyCalandra/modern-cpp-features",
-              [
-                [
-                  "a",
-                  "https://github.com/AnthonyCalandra/modern-cpp-features"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 6,
-        "inline_content": [
-          {
-            "Text": "https://github.com/AnthonyCalandra/modern-cpp-features",
-            "Link": "https://github.com/AnthonyCalandra/modern-cpp-features"
           }
         ]
       },
