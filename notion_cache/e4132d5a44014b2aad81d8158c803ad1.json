@@ -10859,6 +10859,7 @@
               "38eb5611-867f-435e-9ad3-a4c2622d3a65",
               "23544543-3509-47d2-9d00-deef27dc6cbb",
               "65fd9edf-e5bc-4b65-b054-d7fc09a28720",
+              "aecfc6d5-0492-42d4-8eb8-85e400364b66",
               "aa0adfa1-43e9-4c7e-8e43-2c998626310b"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -10868,11 +10869,11 @@
             },
             "id": "5fe4eafd-8123-4918-9f16-829d535c3203",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1541881298511,
+            "last_edited_time": 1543308007520,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 234,
+            "version": 236,
             "content_resolved": [
               {
                 "alive": true,
@@ -22786,6 +22787,43 @@
                 "inline_content": [
                   {
                     "Text": "make windows build of fireman"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1543308007520,
+                "id": "aecfc6d5-0492-42d4-8eb8-85e400364b66",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1543308012826,
+                "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "web version of "
+                    ],
+                    [
+                      "https://github.com/jondot/goweight",
+                      [
+                        [
+                          "a",
+                          "https://github.com/jondot/goweight"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 62,
+                "inline_content": [
+                  {
+                    "Text": "web version of "
+                  },
+                  {
+                    "Text": "https://github.com/jondot/goweight",
+                    "Link": "https://github.com/jondot/goweight"
                   }
                 ]
               },
