@@ -52,7 +52,6 @@
       "49db8142-d6c8-49ba-ad2e-f90e78f84515",
       "09151562-7b76-4981-a9d2-70682e1ce21a",
       "747563e7-2a30-4807-a8cc-a795bb9156f9",
-      "5b6aa187-c720-4a38-a8f5-0453f0dca9bf",
       "a4c56859-53e6-4fc0-bd30-1fac3cea28dc",
       "8ca7b6f8-ff41-4819-bd8e-b65cefcb5422",
       "9331d690-308e-4620-9be4-a68232593824",
@@ -77,7 +76,7 @@
     },
     "id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540009772249,
+    "last_edited_time": 1544253117782,
     "parent_id": "2377733d-91ad-43a5-bceb-937810ec75ba",
     "parent_table": "block",
     "properties": {
@@ -88,7 +87,7 @@
       ]
     },
     "type": "page",
-    "version": 376,
+    "version": 378,
     "content_resolved": [
       {
         "alive": true,
@@ -1324,21 +1323,39 @@
         "created_time": 1530923729843,
         "id": "3dc8e96a-c91f-4afe-9896-a19ad4599274",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532029553262,
+        "last_edited_time": 1544252950255,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Quickly testing evaluate scripts"
+              "Quickly testing "
+            ],
+            [
+              "evaluate ",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "scripts"
             ]
           ]
         },
         "type": "header",
-        "version": 102,
+        "version": 108,
         "inline_content": [
           {
-            "Text": "Quickly testing evaluate scripts"
+            "Text": "Quickly testing "
+          },
+          {
+            "Text": "evaluate ",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "scripts"
           }
         ]
       },
@@ -1348,7 +1365,7 @@
         "created_time": 1532027360240,
         "id": "ae4bef4a-fff8-4a0a-a62d-14947e1c5f13",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532027665978,
+        "last_edited_time": 1544252932356,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
@@ -1365,12 +1382,12 @@
               ]
             ],
             [
-              " because you have to re-run the browser, load the page etc."
+              " because you have to start the browser, load the page etc."
             ]
           ]
         },
         "type": "text",
-        "version": 326,
+        "version": 348,
         "inline_content": [
           {
             "Text": "It's slow to test browser script executed via "
@@ -1380,7 +1397,7 @@
             "AttrFlags": 2
           },
           {
-            "Text": " because you have to re-run the browser, load the page etc."
+            "Text": " because you have to start the browser, load the page etc."
           }
         ]
       },
@@ -1462,21 +1479,21 @@
         "created_time": 1532027768606,
         "id": "a7e22857-f770-422b-ad79-df9e6a731ba2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532027798013,
+        "last_edited_time": 1544253021624,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "copy\u0026paste in console window in Chrome dev tools"
+              "copy \u0026 paste in console window in Chrome dev tools"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 102,
+        "version": 106,
         "inline_content": [
           {
-            "Text": "copy\u0026paste in console window in Chrome dev tools"
+            "Text": "copy \u0026 paste in console window in Chrome dev tools"
           }
         ]
       },
@@ -1536,21 +1553,21 @@
         "created_time": 1530924132630,
         "id": "09151562-7b76-4981-a9d2-70682e1ce21a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532028100763,
+        "last_edited_time": 1544253004734,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "It's faster to iterate on code this way and I can also use JavaScript debugger."
+              "It's faster to iterate on code this way. You can also use browser's JavaScript debugger."
             ]
           ]
         },
         "type": "text",
-        "version": 434,
+        "version": 614,
         "inline_content": [
           {
-            "Text": "It's faster to iterate on code this way and I can also use JavaScript debugger."
+            "Text": "It's faster to iterate on code this way. You can also use browser's JavaScript debugger."
           }
         ]
       },
@@ -1560,13 +1577,13 @@
         "created_time": 1530924212762,
         "id": "747563e7-2a30-4807-a8cc-a795bb9156f9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532028150233,
+        "last_edited_time": 1544253098581,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "As shown in the snippet, I can also trigger the debugger for sing-stepping through the code by adding "
+              "As shown in the snippet, I can also trigger the debugger for single-stepping through the code with "
             ],
             [
               "debugger;",
@@ -1577,46 +1594,22 @@
               ]
             ],
             [
-              " statement to the script."
+              " statement."
             ]
           ]
         },
         "type": "text",
-        "version": 461,
+        "version": 523,
         "inline_content": [
           {
-            "Text": "As shown in the snippet, I can also trigger the debugger for sing-stepping through the code by adding "
+            "Text": "As shown in the snippet, I can also trigger the debugger for single-stepping through the code with "
           },
           {
             "Text": "debugger;",
             "AttrFlags": 2
           },
           {
-            "Text": " statement to the script."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532028150233,
-        "id": "5b6aa187-c720-4a38-a8f5-0453f0dca9bf",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532028167489,
-        "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "That's useful because it's impossible to set breakpoints manually in code pasted into console."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 188,
-        "inline_content": [
-          {
-            "Text": "That's useful because it's impossible to set breakpoints manually in code pasted into console."
+            "Text": " statement."
           }
         ]
       },
@@ -1674,7 +1667,7 @@
         "created_time": 1532029785540,
         "id": "9331d690-308e-4620-9be4-a68232593824",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532029914767,
+        "last_edited_time": 1544253137056,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
@@ -1689,19 +1682,19 @@
               ]
             ],
             [
-              " allows hooking many other events, reading and setting cookies, simulating interaction like mouse clicks etc."
+              " allows hooking many events, reading and setting cookies, simulating interaction like mouse clicks etc."
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 359,
+        "version": 361,
         "inline_content": [
           {
             "Text": "Page class",
             "Link": "https://pptr.dev/#?product=Puppeteer\u0026show=api-class-page"
           },
           {
-            "Text": " allows hooking many other events, reading and setting cookies, simulating interaction like mouse clicks etc."
+            "Text": " allows hooking many events, reading and setting cookies, simulating interaction like mouse clicks etc."
           }
         ]
       },
@@ -1785,7 +1778,7 @@
         "created_time": 1532030021175,
         "id": "7d2f54f3-b793-4d6c-8420-aa88629ac6de",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532030045365,
+        "last_edited_time": 1544253217924,
         "parent_id": "ea07db1b-9bff-415a-b180-b0525f3898f6",
         "parent_table": "block",
         "properties": {
@@ -1800,19 +1793,19 @@
               ]
             ],
             [
-              " allows getting JavaScript and CSS coverage"
+              " allows measuring JavaScript and CSS coverage"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 122,
+        "version": 151,
         "inline_content": [
           {
             "Text": "Coverage class",
             "Link": "https://pptr.dev/#?product=Puppeteer\u0026show=api-class-coverage"
           },
           {
-            "Text": " allows getting JavaScript and CSS coverage"
+            "Text": " allows measuring JavaScript and CSS coverage"
           }
         ]
       },

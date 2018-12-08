@@ -5,7 +5,10 @@
     "content": [
       "12743913-bbfd-4b6c-a4ed-e4d2e04dca43",
       "28b11fa0-55bd-4543-977a-92083435e301",
-      "f7801f0c-ca57-4412-acb1-8b54ffa99a3c"
+      "f7801f0c-ca57-4412-acb1-8b54ffa99a3c",
+      "45c6699f-8561-4f1c-bdb2-9a84708fda94",
+      "94aad0af-2ae5-43e8-ac92-7aa0fbe9faea",
+      "6ef7b369-a6ca-4089-9614-ade05b4de249"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512352584261,
@@ -15,7 +18,7 @@
     },
     "id": "36fecd75-b5a7-45b9-9214-12daf5e7c2a1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1512352584261,
+    "last_edited_time": 1544222756270,
     "parent_id": "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
     "parent_table": "block",
     "properties": {
@@ -26,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 0,
+    "version": 6,
     "content_resolved": [
       {
         "alive": true,
@@ -111,6 +114,117 @@
           },
           {
             "Text": " : custom menu in C"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544222571257,
+        "id": "45c6699f-8561-4f1c-bdb2-9a84708fda94",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544222576621,
+        "parent_id": "36fecd75-b5a7-45b9-9214-12daf5e7c2a1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/brave/browser-laptop/wiki/Custom-titlebar-and-menu-(Windows-only)",
+              [
+                [
+                  "a",
+                  "https://github.com/brave/browser-laptop/wiki/Custom-titlebar-and-menu-(Windows-only)"
+                ]
+              ]
+            ],
+            [
+              " : custom menu"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 39,
+        "inline_content": [
+          {
+            "Text": "https://github.com/brave/browser-laptop/wiki/Custom-titlebar-and-menu-(Windows-only)",
+            "Link": "https://github.com/brave/browser-laptop/wiki/Custom-titlebar-and-menu-(Windows-only)"
+          },
+          {
+            "Text": " : custom menu"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544222577063,
+        "id": "94aad0af-2ae5-43e8-ac92-7aa0fbe9faea",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544222608449,
+        "parent_id": "36fecd75-b5a7-45b9-9214-12daf5e7c2a1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/bsclifton/BrowserWindowStyles",
+              [
+                [
+                  "a",
+                  "https://github.com/bsclifton/BrowserWindowStyles"
+                ]
+              ]
+            ],
+            [
+              " : menu in title bar"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 147,
+        "inline_content": [
+          {
+            "Text": "https://github.com/bsclifton/BrowserWindowStyles",
+            "Link": "https://github.com/bsclifton/BrowserWindowStyles"
+          },
+          {
+            "Text": " : menu in title bar"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544222756270,
+        "id": "6ef7b369-a6ca-4089-9614-ade05b4de249",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544222759786,
+        "parent_id": "36fecd75-b5a7-45b9-9214-12daf5e7c2a1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.codeproject.com/Tips/751520/Custom-Context-Menu",
+              [
+                [
+                  "a",
+                  "https://www.codeproject.com/Tips/751520/Custom-Context-Menu"
+                ]
+              ]
+            ],
+            [
+              " : custom contexts menu"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 53,
+        "inline_content": [
+          {
+            "Text": "https://www.codeproject.com/Tips/751520/Custom-Context-Menu",
+            "Link": "https://www.codeproject.com/Tips/751520/Custom-Context-Menu"
+          },
+          {
+            "Text": " : custom contexts menu"
           }
         ]
       }

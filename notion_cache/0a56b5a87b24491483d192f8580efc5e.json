@@ -13,6 +13,7 @@
       "276cc271-e3a9-40ac-bbdc-90c0959d8ec1",
       "db99a3c7-e4fb-49aa-9425-e992bf405e09",
       "91691dc4-d6fd-494c-8481-d1e97ba0e3cb",
+      "1d8f8c8c-34c2-495b-a54d-2882d582ef45",
       "a5fae962-a78e-4be7-9705-6049c569150e"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -23,7 +24,7 @@
     },
     "id": "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529120456638,
+    "last_edited_time": 1544217561311,
     "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
     "parent_table": "block",
     "properties": {
@@ -34,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 5,
+    "version": 7,
     "content_resolved": [
       {
         "alive": true,
@@ -899,6 +900,37 @@
           {
             "Text": "https://www.hanselman.com/blog/TheYearOfLinuxOnTheWindowsDesktopWSLTipsAndTricks.aspx",
             "Link": "https://www.hanselman.com/blog/TheYearOfLinuxOnTheWindowsDesktopWSLTipsAndTricks.aspx"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544217561311,
+        "id": "1d8f8c8c-34c2-495b-a54d-2882d582ef45",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544217561898,
+        "parent_id": "0a56b5a8-7b24-4914-83d1-92f8580efc5e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/",
+              [
+                [
+                  "a",
+                  "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 7,
+        "inline_content": [
+          {
+            "Text": "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/",
+            "Link": "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/"
           }
         ]
       },

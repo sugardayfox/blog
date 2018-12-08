@@ -4,7 +4,9 @@
     "alive": true,
     "content": [
       "6f4ba19a-7438-408c-9624-999ffd5ae53f",
-      "bf81fe36-c226-4c88-908d-3d6eae3c4451"
+      "396513ca-1e02-420e-b227-8aef89ac6500",
+      "bf81fe36-c226-4c88-908d-3d6eae3c4451",
+      "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1541722131991,
@@ -14,18 +16,18 @@
     },
     "id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1541993079004,
+    "last_edited_time": 1544217655257,
     "parent_id": "fbf4f25f-ad76-491c-a266-d07154f5a6f9",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "chocolatey setup"
+          "chocolatey setup and boxstarter"
         ]
       ]
     },
     "type": "page",
-    "version": 52,
+    "version": 105,
     "content_resolved": [
       {
         "alive": true,
@@ -61,6 +63,43 @@
           },
           {
             "Text": " : choco scripts for automating setting up a dev machine (installs git, Visual Studio, Visual Studio Code etc.)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544217655257,
+        "id": "396513ca-1e02-420e-b227-8aef89ac6500",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544217666293,
+        "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/",
+              [
+                [
+                  "a",
+                  "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/"
+                ]
+              ]
+            ],
+            [
+              " : example boxstarter script"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 103,
+        "inline_content": [
+          {
+            "Text": "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/",
+            "Link": "https://blog.questionable.services/article/accidentally-macos-wsl-windows-development/"
+          },
+          {
+            "Text": " : example boxstarter script"
           }
         ]
       },
@@ -118,9 +157,21 @@
             "Text": "my setup"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544217649581,
+        "id": "b18a4a13-dbb5-4bb8-a816-aadbccdfba5f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544217652993,
+        "parent_id": "6a8df83c-eda4-4996-b98f-0dcb421bf563",
+        "parent_table": "block",
+        "type": "text",
+        "version": 24
       }
     ],
-    "title": "chocolatey setup",
+    "title": "chocolatey setup and boxstarter",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
