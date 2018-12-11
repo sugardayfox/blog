@@ -25,7 +25,7 @@
     },
     "id": "bf84c089-9a20-47aa-b6b7-155f8ae33567",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1544327529213,
+    "last_edited_time": 1544499726588,
     "parent_id": "1077c159-5493-41df-b4d4-75571b1f99d3",
     "parent_table": "block",
     "properties": {
@@ -36,7 +36,7 @@
       ]
     },
     "type": "page",
-    "version": 17,
+    "version": 34,
     "content_resolved": [
       {
         "alive": true,
@@ -461,14 +461,15 @@
       {
         "alive": true,
         "content": [
-          "3830eaf2-b28a-4184-960f-449d4343ad78",
-          "03fad323-751a-4206-b162-e27b00741428"
+          "2f9e5505-6a0f-41bf-bf2b-fba0c0ec6ca7",
+          "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+          "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512366353696,
         "id": "a3ab5da5-cbeb-4641-b3da-207a679ef657",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512366353696,
+        "last_edited_time": 1544499735399,
         "parent_id": "bf84c089-9a20-47aa-b6b7-155f8ae33567",
         "parent_table": "block",
         "properties": {
@@ -479,66 +480,428 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 47,
         "content_resolved": [
           {
             "alive": true,
+            "content": [
+              "46b7dfad-6097-4b0a-bd7c-dd1f3bb125af",
+              "5973b67b-c082-459b-bb46-59e3394956fe",
+              "780eafd2-2455-4569-a928-c673df59e308"
+            ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1512366358186,
-            "id": "3830eaf2-b28a-4184-960f-449d4343ad78",
+            "created_time": 1544499728260,
+            "id": "2f9e5505-6a0f-41bf-bf2b-fba0c0ec6ca7",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512366358186,
+            "last_edited_time": 1544499815081,
             "parent_id": "a3ab5da5-cbeb-4641-b3da-207a679ef657",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "Pan-seared pork loin chops based on"
+                  "temperatures (me: 130 F)"
                 ]
               ]
             },
-            "type": "text",
-            "version": 0,
+            "type": "toggle",
+            "version": 78,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499735097,
+                "id": "46b7dfad-6097-4b0a-bd7c-dd1f3bb125af",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499764539,
+                "parent_id": "2f9e5505-6a0f-41bf-bf2b-fba0c0ec6ca7",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "120 F - 127 F : rare"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 57,
+                "inline_content": [
+                  {
+                    "Text": "120 F - 127 F : rare"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499750997,
+                "id": "5973b67b-c082-459b-bb46-59e3394956fe",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499779290,
+                "parent_id": "2f9e5505-6a0f-41bf-bf2b-fba0c0ec6ca7",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "129 F - 136 F : medium rare"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 79,
+                "inline_content": [
+                  {
+                    "Text": "129 F - 136 F : medium rare"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499779491,
+                "id": "780eafd2-2455-4569-a928-c673df59e308",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499802589,
+                "parent_id": "2f9e5505-6a0f-41bf-bf2b-fba0c0ec6ca7",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "138 F - 144 F : medium"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 73,
+                "inline_content": [
+                  {
+                    "Text": "138 F - 144 F : medium"
+                  }
+                ]
+              }
+            ],
             "inline_content": [
               {
-                "Text": "Pan-seared pork loin chops based on"
+                "Text": "temperatures (me: 130 F)"
               }
             ]
           },
           {
             "alive": true,
+            "content": [
+              "81ea9f37-49d9-4185-9493-ee97efd6872b",
+              "32d995f5-f794-4b68-9bea-017121eb4fca",
+              "7fb4a823-d9de-4ba2-be37-fc81bcd3064c",
+              "1cf8151f-268f-4c2f-8ace-5704711e27fa",
+              "d20a9047-54a7-42d6-9686-cee2574e855c"
+            ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1512366358186,
-            "id": "03fad323-751a-4206-b162-e27b00741428",
+            "created_time": 1544499661974,
+            "id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1512366358186,
+            "last_edited_time": 1544499726258,
             "parent_id": "a3ab5da5-cbeb-4641-b3da-207a679ef657",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "http://www.americastestkitchen.com/recipes/detail.php?docid=26544",
-                  [
-                    [
-                      "a",
-                      "http://www.americastestkitchen.com/recipes/detail.php?docid=26544"
-                    ]
-                  ]
-                ],
-                [
-                  "\n. salt each side and rest 45 min in room temp\n. in 275 F oven cook until reaches 120-125 F internal (30-45 mins)\n. sear in a pan to finish\n. rest 10 mins"
+                  "oven + sear"
                 ]
               ]
             },
-            "type": "text",
-            "version": 0,
-            "inline_content": [
+            "type": "toggle",
+            "version": 82,
+            "content_resolved": [
               {
-                "Text": "http://www.americastestkitchen.com/recipes/detail.php?docid=26544",
-                "Link": "http://www.americastestkitchen.com/recipes/detail.php?docid=26544"
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499665944,
+                "id": "81ea9f37-49d9-4185-9493-ee97efd6872b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499704512,
+                "parent_id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Based on "
+                    ],
+                    [
+                      "http://www.americastestkitchen.com/recipes/detail.php?docid=26544",
+                      [
+                        [
+                          "a",
+                          "http://www.americastestkitchen.com/recipes/detail.php?docid=26544"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 19,
+                "inline_content": [
+                  {
+                    "Text": "Based on "
+                  },
+                  {
+                    "Text": "http://www.americastestkitchen.com/recipes/detail.php?docid=26544",
+                    "Link": "http://www.americastestkitchen.com/recipes/detail.php?docid=26544"
+                  }
+                ]
               },
               {
-                "Text": "\n. salt each side and rest 45 min in room temp\n. in 275 F oven cook until reaches 120-125 F internal (30-45 mins)\n. sear in a pan to finish\n. rest 10 mins"
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499673350,
+                "id": "32d995f5-f794-4b68-9bea-017121eb4fca",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499677014,
+                "parent_id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "salt each side and rest 45 min in room temp"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 16,
+                "inline_content": [
+                  {
+                    "Text": "salt each side and rest 45 min in room temp"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499677014,
+                "id": "7fb4a823-d9de-4ba2-be37-fc81bcd3064c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499681417,
+                "parent_id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "in 275 F oven cook until reaches 120-125 F internal (30-45 mins)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 13,
+                "inline_content": [
+                  {
+                    "Text": "in 275 F oven cook until reaches 120-125 F internal (30-45 mins)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499681417,
+                "id": "1cf8151f-268f-4c2f-8ace-5704711e27fa",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499684681,
+                "parent_id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "sear in a pan to finish"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 13,
+                "inline_content": [
+                  {
+                    "Text": "sear in a pan to finish"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499684681,
+                "id": "d20a9047-54a7-42d6-9686-cee2574e855c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499686986,
+                "parent_id": "f7fd8399-07a7-4213-a3ec-fde4605d67b3",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "rest 10 mins"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 11,
+                "inline_content": [
+                  {
+                    "Text": "rest 10 mins"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "oven + sear"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "ee910c45-622f-4680-87e1-0c5e3bb7cd23",
+              "410418f9-4726-4e75-bff9-461aa6ed7e12",
+              "9fb82867-77cd-4493-a760-e2f409d60f63",
+              "14164855-4097-436d-8315-747f3adeb807",
+              "35c87a84-1cce-4cdf-9071-b49728ec03e6"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544499707646,
+            "id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544499845927,
+            "parent_id": "a3ab5da5-cbeb-4641-b3da-207a679ef657",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "sear + oven"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 54,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499712456,
+                "id": "ee910c45-622f-4680-87e1-0c5e3bb7cd23",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499720874,
+                "parent_id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Based on "
+                    ],
+                    [
+                      "https://www.chefsteps.com/activities/pork-chop?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood",
+                      [
+                        [
+                          "a",
+                          "https://www.chefsteps.com/activities/pork-chop?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 30,
+                "inline_content": [
+                  {
+                    "Text": "Based on "
+                  },
+                  {
+                    "Text": "https://www.chefsteps.com/activities/pork-chop?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood",
+                    "Link": "https://www.chefsteps.com/activities/pork-chop?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499820397,
+                "id": "410418f9-4726-4e75-bff9-461aa6ed7e12",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499834314,
+                "parent_id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "chill in fridge, oil, sear on high heat"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 94,
+                "inline_content": [
+                  {
+                    "Text": "chill in fridge, oil, sear on high heat"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499834641,
+                "id": "9fb82867-77cd-4493-a760-e2f409d60f63",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499845818,
+                "parent_id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "move to cold plate, season with salt"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 85,
+                "inline_content": [
+                  {
+                    "Text": "move to cold plate, season with salt"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499845927,
+                "id": "14164855-4097-436d-8315-747f3adeb807",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499903189,
+                "parent_id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "in 175 F oven to desired temp (e.g. 130 F for medium rare). 225 F oven to get it faster."
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 209,
+                "inline_content": [
+                  {
+                    "Text": "in 175 F oven to desired temp (e.g. 130 F for medium rare). 225 F oven to get it faster."
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544499721803,
+                "id": "35c87a84-1cce-4cdf-9071-b49728ec03e6",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544499721803,
+                "parent_id": "5c6e2115-621d-4b2c-a82e-4ae50c6f4c44",
+                "parent_table": "block",
+                "type": "text",
+                "version": 5
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "sear + oven"
               }
             ]
           }

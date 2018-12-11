@@ -184,9 +184,13 @@
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1508796059670,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
     "id": "4bec391e-e511-4093-953e-46bd8e794435",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1513673259872,
+    "last_edited_time": 1544499472477,
     "parent_id": "fd609bad-390c-47fa-836a-d3e519eb4254",
     "parent_table": "block",
     "properties": {
@@ -197,7 +201,7 @@
       ]
     },
     "type": "page",
-    "version": 2,
+    "version": 6,
     "content_resolved": [
       {
         "alive": true,
@@ -5664,7 +5668,15 @@
         "version": 0
       }
     ],
-    "title": "buzzfeed tasty.co"
+    "title": "buzzfeed tasty.co",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
   },
   "Users": [
     {

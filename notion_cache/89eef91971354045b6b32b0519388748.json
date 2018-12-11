@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "891240b5-4512-4294-b9de-54203f40f983",
+      "9251c754-4286-440e-9d87-01d91492240e",
       "2a54acb5-cea8-4600-b608-cf4afc7afdc5",
       "66168900-29a4-4b49-98d6-a9af85807d8a",
       "222676a7-9844-4d5d-a627-0cc98ff04bd4",
@@ -39,7 +40,7 @@
     },
     "id": "89eef919-7135-4045-b6b3-2b0519388748",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1538600217413,
+    "last_edited_time": 1544502897203,
     "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "parent_table": "block",
     "properties": {
@@ -50,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 76,
+    "version": 78,
     "content_resolved": [
       {
         "alive": true,
@@ -73,6 +74,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544502897203,
+        "id": "9251c754-4286-440e-9d87-01d91492240e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544502911866,
+        "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://mayagao.github.io/css-quick-reference/",
+              [
+                [
+                  "a",
+                  "https://mayagao.github.io/css-quick-reference/"
+                ]
+              ]
+            ],
+            [
+              " : visual explanation of some grid properties"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 112,
+        "inline_content": [
+          {
+            "Text": "https://mayagao.github.io/css-quick-reference/",
+            "Link": "https://mayagao.github.io/css-quick-reference/"
+          },
+          {
+            "Text": " : visual explanation of some grid properties"
           }
         ]
       },
