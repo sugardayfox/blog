@@ -9,6 +9,7 @@
       "a3ab5da5-cbeb-4641-b3da-207a679ef657",
       "d6a2305d-4735-49b0-9e53-8d019dadc9f5",
       "7395606b-6f7f-480a-9b11-bcba4e0fd718",
+      "fa9241e4-e50d-4213-892b-799e49197a09",
       "08c891c5-f2a5-4718-9113-20b7633e039d",
       "d5f1e865-44f2-44ef-81f8-c5598d697b81",
       "7aabc272-f0c6-415e-a077-e15986b9de61",
@@ -25,7 +26,7 @@
     },
     "id": "bf84c089-9a20-47aa-b6b7-155f8ae33567",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1544499726588,
+    "last_edited_time": 1544673836602,
     "parent_id": "1077c159-5493-41df-b4d4-75571b1f99d3",
     "parent_table": "block",
     "properties": {
@@ -36,7 +37,7 @@
       ]
     },
     "type": "page",
-    "version": 34,
+    "version": 40,
     "content_resolved": [
       {
         "alive": true,
@@ -969,6 +970,7 @@
         "alive": true,
         "content": [
           "3fcb3a57-1282-4351-96d2-25af30a843fc",
+          "d553753b-acab-42a0-8bf2-3443826f725c",
           "5b0613f5-a548-48a8-88f6-2b3b7393e3fd",
           "20ce5047-a352-43a9-a968-a5d26d902f9a",
           "39bbec72-6895-4ee2-8443-d34b9655363b"
@@ -977,7 +979,7 @@
         "created_time": 1544327526680,
         "id": "7395606b-6f7f-480a-9b11-bcba4e0fd718",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1544329338483,
+        "last_edited_time": 1544673685706,
         "parent_id": "bf84c089-9a20-47aa-b6b7-155f8ae33567",
         "parent_table": "block",
         "properties": {
@@ -988,21 +990,174 @@
           ]
         },
         "type": "toggle",
-        "version": 21,
+        "version": 37,
         "content_resolved": [
           {
             "alive": true,
+            "content": [
+              "3bfcbe0d-9b5e-490d-a395-2ec034efe465",
+              "73a526f2-f060-41c2-a4e5-dfc905cba68d",
+              "e8dd6c69-9259-4855-acc4-2c584677b122",
+              "bf2dfae2-8491-4e8f-8b81-34f4f41ec7b2",
+              "a4639c83-1b11-47a1-b2bb-5c595b281872"
+            ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1544329338483,
             "id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1544411749273,
+            "last_edited_time": 1544673685706,
             "parent_id": "7395606b-6f7f-480a-9b11-bcba4e0fd718",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "low temp in oven: chill, clean and dry, oil fish and sear one side (skin side or vertebrae if no skin) on high heat, move to plate seared side up, season with salt, cook at 175F, until 100 F (rare), 106-109F (medium-rare), 111-115F (medium), 115-120F (medium-well), well-done (122F), start with 113F. Based on "
+                  "low temp in oven: chill, clean and dry, oil fish and sear one side (skin side or vertebrae if no skin) on high heat, move to plate seared side up, season with salt, cook at 175F, until:"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 777,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673670985,
+                "id": "3bfcbe0d-9b5e-490d-a395-2ec034efe465",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673675548,
+                "parent_id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "100 F (rare)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 16,
+                "inline_content": [
+                  {
+                    "Text": "100 F (rare)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673675548,
+                "id": "73a526f2-f060-41c2-a4e5-dfc905cba68d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673677701,
+                "parent_id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "106-109F (medium-rare), "
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 7,
+                "inline_content": [
+                  {
+                    "Text": "106-109F (medium-rare), "
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673677701,
+                "id": "e8dd6c69-9259-4855-acc4-2c584677b122",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673679479,
+                "parent_id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "111-115F (medium), "
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 7,
+                "inline_content": [
+                  {
+                    "Text": "111-115F (medium), "
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673679479,
+                "id": "bf2dfae2-8491-4e8f-8b81-34f4f41ec7b2",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673682442,
+                "parent_id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "115-120F (medium-well)"
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 11,
+                "inline_content": [
+                  {
+                    "Text": "115-120F (medium-well)"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673682442,
+                "id": "a4639c83-1b11-47a1-b2bb-5c595b281872",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673684538,
+                "parent_id": "3fcb3a57-1282-4351-96d2-25af30a843fc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "well-done (122F), "
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 7,
+                "inline_content": [
+                  {
+                    "Text": "well-done (122F), "
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "low temp in oven: chill, clean and dry, oil fish and sear one side (skin side or vertebrae if no skin) on high heat, move to plate seared side up, season with salt, cook at 175F, until:"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544673684538,
+            "id": "d553753b-acab-42a0-8bf2-3443826f725c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544673685706,
+            "parent_id": "7395606b-6f7f-480a-9b11-bcba4e0fd718",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "start with 113F. Based on "
                 ],
                 [
                   "https://www.chefsteps.com/activities/salmon-other-fish--3?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood",
@@ -1016,10 +1171,10 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 744,
+            "version": 8,
             "inline_content": [
               {
-                "Text": "low temp in oven: chill, clean and dry, oil fish and sear one side (skin side or vertebrae if no skin) on high heat, move to plate seared side up, season with salt, cook at 175F, until 100 F (rare), 106-109F (medium-rare), 111-115F (medium), 115-120F (medium-well), well-done (122F), start with 113F. Based on "
+                "Text": "start with 113F. Based on "
               },
               {
                 "Text": "https://www.chefsteps.com/activities/salmon-other-fish--3?context=tender-cuts-one-simple-technique-for-cooking-meat-poultry-and-seafood",
@@ -1116,6 +1271,384 @@
         "inline_content": [
           {
             "Text": "fish"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "6ba80869-ca54-40b0-9d32-f16b415224df",
+          "21175b16-f194-4883-9c9b-06e22a4fc3c8",
+          "3276016b-444f-40fd-80e1-f3f3b54b34e9",
+          "0e307079-4893-4ca1-8932-ba3648e1ee51"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1544673830872,
+        "id": "fa9241e4-e50d-4213-892b-799e49197a09",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1544673929452,
+        "parent_id": "bf84c089-9a20-47aa-b6b7-155f8ae33567",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "temperatures"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 76,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544673929452,
+            "id": "6ba80869-ca54-40b0-9d32-f16b415224df",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544673938014,
+            "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "based on "
+                ],
+                [
+                  "https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide",
+                  [
+                    [
+                      "a",
+                      "https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 25,
+            "inline_content": [
+              {
+                "Text": "based on "
+              },
+              {
+                "Text": "https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide",
+                "Link": "https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "3ad42d23-262a-4606-a2c9-a483459d14b8",
+              "3380b231-514a-479c-8327-b28a08d9e46c",
+              "cb6e6371-2b21-433b-8504-c533a913628c"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544673836238,
+            "id": "21175b16-f194-4883-9c9b-06e22a4fc3c8",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544673856495,
+            "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "steak"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 32,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673839393,
+                "id": "3ad42d23-262a-4606-a2c9-a483459d14b8",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673846169,
+                "parent_id": "21175b16-f194-4883-9c9b-06e22a4fc3c8",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "129 F : rare"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 52,
+                "inline_content": [
+                  {
+                    "Text": "129 F : rare"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673846384,
+                "id": "3380b231-514a-479c-8327-b28a08d9e46c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673850696,
+                "parent_id": "21175b16-f194-4883-9c9b-06e22a4fc3c8",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "136 F : medium"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 41,
+                "inline_content": [
+                  {
+                    "Text": "136 F : medium"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673850889,
+                "id": "cb6e6371-2b21-433b-8504-c533a913628c",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673855637,
+                "parent_id": "21175b16-f194-4883-9c9b-06e22a4fc3c8",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "154 F : well done"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 39,
+                "inline_content": [
+                  {
+                    "Text": "154 F : well done"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "steak"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "0724e95d-c4b5-4ba7-afd2-af6f3a78e302",
+              "06d12d75-bc71-403e-9d82-03981c2c3424",
+              "403590b4-9a81-4790-a803-099a3fad8fc3"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544673856069,
+            "id": "3276016b-444f-40fd-80e1-f3f3b54b34e9",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544673895869,
+            "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "pork"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 26,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673867419,
+                "id": "0724e95d-c4b5-4ba7-afd2-af6f3a78e302",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673871375,
+                "parent_id": "3276016b-444f-40fd-80e1-f3f3b54b34e9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "136 F : rare"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 32,
+                "inline_content": [
+                  {
+                    "Text": "136 F : rare"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673871534,
+                "id": "06d12d75-bc71-403e-9d82-03981c2c3424",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673880298,
+                "parent_id": "3276016b-444f-40fd-80e1-f3f3b54b34e9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "144 F : medium rare"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 75,
+                "inline_content": [
+                  {
+                    "Text": "144 F : medium rare"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673880480,
+                "id": "403590b4-9a81-4790-a803-099a3fad8fc3",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673885659,
+                "parent_id": "3276016b-444f-40fd-80e1-f3f3b54b34e9",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "158 F : well done"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 39,
+                "inline_content": [
+                  {
+                    "Text": "158 F : well done"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "pork"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "content": [
+              "90b2ee58-dcb5-4816-a451-f2714df2003b",
+              "b682d444-9f3a-4f93-898e-11d583aecc29",
+              "07df57fb-ddb1-4e4f-a800-2a146d3053f5"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1544673885828,
+            "id": "0e307079-4893-4ca1-8932-ba3648e1ee51",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1544673915125,
+            "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "fish"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 31,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673897746,
+                "id": "90b2ee58-dcb5-4816-a451-f2714df2003b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673910703,
+                "parent_id": "0e307079-4893-4ca1-8932-ba3648e1ee51",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "104 F : tender"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 36,
+                "inline_content": [
+                  {
+                    "Text": "104 F : tender"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673902140,
+                "id": "b682d444-9f3a-4f93-898e-11d583aecc29",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673913497,
+                "parent_id": "0e307079-4893-4ca1-8932-ba3648e1ee51",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "122 F : tender and flaky"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 53,
+                "inline_content": [
+                  {
+                    "Text": "122 F : tender and flaky"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1544673915125,
+                "id": "07df57fb-ddb1-4e4f-a800-2a146d3053f5",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1544673920527,
+                "parent_id": "0e307079-4893-4ca1-8932-ba3648e1ee51",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "131 F : well done"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 39,
+                "inline_content": [
+                  {
+                    "Text": "131 F : well done"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "fish"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "temperatures"
           }
         ]
       },
