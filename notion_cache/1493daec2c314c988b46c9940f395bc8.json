@@ -18,7 +18,7 @@
     },
     "id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1535587360005,
+    "last_edited_time": 1544915421240,
     "parent_id": "5be79f93-59c2-454e-8181-e841e607c33e",
     "parent_table": "block",
     "properties": {
@@ -29,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 102,
+    "version": 110,
     "content_resolved": [
       {
         "alive": true,
@@ -61,13 +61,24 @@
         "created_time": 1535586648746,
         "id": "1fecd6f2-6136-4e75-90a2-e211489af387",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535586737902,
+        "last_edited_time": 1544915142280,
         "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
         "parent_table": "block",
         "properties": {
           "title": [
             [
               "Here's how to configure some of golang keybindings to be more like visual code. In "
+            ],
+            [
+              "File/Settings",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ",  "
             ],
             [
               "Keymap",
@@ -78,22 +89,29 @@
               ]
             ],
             [
-              " preferences:"
+              ":"
             ]
           ]
         },
         "type": "text",
-        "version": 272,
+        "version": 316,
         "inline_content": [
           {
             "Text": "Here's how to configure some of golang keybindings to be more like visual code. In "
+          },
+          {
+            "Text": "File/Settings",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ",  "
           },
           {
             "Text": "Keymap",
             "AttrFlags": 2
           },
           {
-            "Text": " preferences:"
+            "Text": ":"
           }
         ]
       },
@@ -103,7 +121,7 @@
         "created_time": 1535586738100,
         "id": "ba2b30a7-f55a-4001-b875-49ef39321e73",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535586830667,
+        "last_edited_time": 1544915421240,
         "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
         "parent_table": "block",
         "properties": {
@@ -129,11 +147,25 @@
                   "c"
                 ]
               ]
+            ],
+            [
+              " ("
+            ],
+            [
+              "ctrl-p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ")"
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 131,
+        "version": 133,
         "inline_content": [
           {
             "Text": "type "
@@ -148,6 +180,16 @@
           {
             "Text": "cmd-p",
             "AttrFlags": 2
+          },
+          {
+            "Text": " ("
+          },
+          {
+            "Text": "ctrl-p",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ")"
           }
         ]
       },
@@ -217,7 +259,7 @@
         "created_time": 1535587360005,
         "id": "567577e2-393c-4fce-bc19-546e351cd7b8",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535587377505,
+        "last_edited_time": 1544915390258,
         "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
         "parent_table": "block",
         "properties": {
@@ -226,7 +268,7 @@
               "type "
             ],
             [
-              "refactor",
+              "rename",
               [
                 [
                   "c"
@@ -234,7 +276,7 @@
               ]
             ],
             [
-              " change "
+              ", change "
             ],
             [
               "refactor / rename",
@@ -258,17 +300,17 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 144,
+        "version": 182,
         "inline_content": [
           {
             "Text": "type "
           },
           {
-            "Text": "refactor",
+            "Text": "rename",
             "AttrFlags": 2
           },
           {
-            "Text": " change "
+            "Text": ", change "
           },
           {
             "Text": "refactor / rename",
@@ -289,11 +331,95 @@
         "created_time": 1535586748102,
         "id": "bd8eb52b-8cde-4007-84f8-1e4962f32500",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535586993311,
+        "last_edited_time": 1544915488958,
         "parent_id": "1493daec-2c31-4c98-8b46-c9940f395bc8",
         "parent_table": "block",
-        "type": "text",
-        "version": 17
+        "properties": {
+          "title": [
+            [
+              "type "
+            ],
+            [
+              "find actions",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ", change "
+            ],
+            [
+              "help / find actions",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to "
+            ],
+            [
+              "cmd-shift-p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " ("
+            ],
+            [
+              "ctrl-shift-p",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ")"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 314,
+        "inline_content": [
+          {
+            "Text": "type "
+          },
+          {
+            "Text": "find actions",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ", change "
+          },
+          {
+            "Text": "help / find actions",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to "
+          },
+          {
+            "Text": "cmd-shift-p",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " ("
+          },
+          {
+            "Text": "ctrl-shift-p",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ")"
+          }
+        ]
       }
     ],
     "title": "Changing golang keybindings to vscode",
