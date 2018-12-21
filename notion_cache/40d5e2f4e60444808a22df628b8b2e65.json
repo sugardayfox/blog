@@ -15,6 +15,7 @@
       "98fd57a6-4d8c-4e0e-adfd-848980517b41",
       "142f9547-4c2d-4345-9c3e-00a579171627",
       "ae0f090a-21c9-4a82-9043-51a3044df13f",
+      "330a10f7-37a3-4232-adfc-3f0c69f37abd",
       "71139623-292b-4777-82f3-79b4a1a597e0",
       "4591d590-f95d-41b7-80b9-701a2dcccf10",
       "2bb571ce-b2c8-4206-a674-8d75dba58321",
@@ -74,7 +75,7 @@
     },
     "id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530481639290,
+    "last_edited_time": 1545337028096,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -85,7 +86,7 @@
       ]
     },
     "type": "page",
-    "version": 14,
+    "version": 16,
     "content_resolved": [
       {
         "alive": true,
@@ -472,6 +473,37 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545337028096,
+        "id": "330a10f7-37a3-4232-adfc-3f0c69f37abd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545337039214,
+        "parent_id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.infoq.com/presentations/electron-pitfalls",
+              [
+                [
+                  "a",
+                  "https://www.infoq.com/presentations/electron-pitfalls?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "https://www.infoq.com/presentations/electron-pitfalls",
+            "Link": "https://www.infoq.com/presentations/electron-pitfalls?utm_campaign=infoq_content\u0026utm_source=infoq\u0026utm_medium=feed\u0026utm_term=global"
           }
         ]
       },
