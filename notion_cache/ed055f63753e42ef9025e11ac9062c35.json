@@ -9,6 +9,8 @@
       "616c08e7-0c86-428c-a12c-3bf6742f50cb",
       "c117379a-1178-42fc-958b-914b5ec633fe",
       "104f2fcc-6bb4-4caa-9164-92429978c6bd",
+      "341257f8-9f5e-4da5-8342-b5d483714a22",
+      "6b8c6ff9-35bf-4dc6-995f-2e808886815a",
       "6d840b71-269e-40bc-b238-618f2392636a",
       "b66503d6-af00-4808-8fdf-e08a519f6b42",
       "054b9945-cd4b-4aa8-82b1-4142e123dcc9",
@@ -58,7 +60,7 @@
     },
     "id": "ed055f63-753e-42ef-9025-e11ac9062c35",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1543030235455,
+    "last_edited_time": 1545453609247,
     "parent_id": "aea20e01-890c-4874-ae08-4557d7789195",
     "parent_table": "block",
     "properties": {
@@ -69,7 +71,7 @@
       ]
     },
     "type": "page",
-    "version": 37,
+    "version": 41,
     "content_resolved": [
       {
         "alive": true,
@@ -256,6 +258,61 @@
           },
           {
             "Text": " : list of clang-tidy modernization options"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545453605167,
+        "id": "341257f8-9f5e-4da5-8342-b5d483714a22",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545453609044,
+        "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "C++17:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 28,
+        "inline_content": [
+          {
+            "Text": "C++17:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545453609247,
+        "id": "6b8c6ff9-35bf-4dc6-995f-2e808886815a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545453610156,
+        "parent_id": "ed055f63-753e-42ef-9025-e11ac9062c35",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md",
+              [
+                [
+                  "a",
+                  "https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md",
+            "Link": "https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md"
           }
         ]
       },
