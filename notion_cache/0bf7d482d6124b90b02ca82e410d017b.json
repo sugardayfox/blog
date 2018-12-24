@@ -6,7 +6,7 @@
       "3dd55d1b-b484-4279-a5db-f566299d7edf",
       "f2fc9529-3eeb-4edb-b984-81c8e07afebf",
       "4bad70fd-9e85-4358-a178-311ede978272",
-      "a9ada07e-2824-4842-9c2c-0f737dc21f73",
+      "395f6c6a-f50d-44e4-8919-a45fcc064d3e",
       "da8f5db2-1172-47f5-8783-1618007b5579",
       "4349d772-9e29-4062-a72b-edf9a0f416e2",
       "9efff589-e02a-4f47-8ac7-a4bcd6da8320",
@@ -37,7 +37,7 @@
     },
     "id": "0bf7d482-d612-4b90-b02c-a82e410d017b",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1543836476058,
+    "last_edited_time": 1545562027994,
     "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
     "parent_table": "block",
     "permissions": [
@@ -54,7 +54,7 @@
       ]
     },
     "type": "page",
-    "version": 10,
+    "version": 13,
     "content_resolved": [
       {
         "alive": true,
@@ -292,14 +292,34 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1470765986879,
-        "id": "a9ada07e-2824-4842-9c2c-0f737dc21f73",
+        "created_time": 1545562027994,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "395f6c6a-f50d-44e4-8919-a45fcc064d3e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1470765986879,
+        "last_edited_time": 1545562981176,
         "parent_id": "0bf7d482-d612-4b90-b02c-a82e410d017b",
         "parent_table": "block",
-        "type": "text",
-        "version": 0
+        "properties": {
+          "title": [
+            [
+              "Typescript basics"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 318,
+        "title": "Typescript basics",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
       },
       {
         "alive": true,

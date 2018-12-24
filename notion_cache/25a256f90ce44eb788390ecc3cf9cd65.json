@@ -12,7 +12,8 @@
       "4d625835-41be-43c9-b94b-a87da9feeee7",
       "ed25f870-79cc-4b0b-9080-460e062053e4",
       "d18cd62f-7c3c-4bda-a4bb-b4fed138034c",
-      "61134d00-ba68-455b-b8aa-a9d87a06c806"
+      "395f6c6a-f50d-44e4-8919-a45fcc064d3e",
+      "acd83be5-5177-432e-8a88-8500a016ca4f"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1530921610129,
@@ -22,7 +23,7 @@
     },
     "id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539496188708,
+    "last_edited_time": 1545563255384,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -33,7 +34,7 @@
       ]
     },
     "type": "page",
-    "version": 233,
+    "version": 241,
     "content_resolved": [
       {
         "alive": true,
@@ -306,10 +307,42 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1539496188708,
-        "id": "61134d00-ba68-455b-b8aa-a9d87a06c806",
+        "created_time": 1545562027994,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "395f6c6a-f50d-44e4-8919-a45fcc064d3e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539496188708,
+        "last_edited_time": 1545562981176,
+        "parent_id": "0bf7d482-d612-4b90-b02c-a82e410d017b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Typescript basics"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 318,
+        "title": "Typescript basics",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545563255384,
+        "id": "acd83be5-5177-432e-8a88-8500a016ca4f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545563255384,
         "parent_id": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
         "parent_table": "block",
         "type": "text",
