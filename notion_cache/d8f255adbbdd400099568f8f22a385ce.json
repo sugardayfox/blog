@@ -3,6 +3,7 @@
   "Root": {
     "alive": true,
     "content": [
+      "0b8dba87-aac6-4809-9389-f66410558dda",
       "46450f65-0194-40cf-8308-28b7b9ff42ae",
       "863e9da0-f3f5-45f8-9489-e1ad034a86fa",
       "4a93d278-f1fa-4a2d-9867-f02579e716f1",
@@ -19,19 +20,75 @@
     },
     "id": "d8f255ad-bbdd-4000-9956-8f8f22a385ce",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530091916304,
+    "last_edited_time": 1545691024632,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "ajax"
+          "ajax, fetch"
         ]
       ]
     },
     "type": "page",
-    "version": 31,
+    "version": 47,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545691024632,
+        "id": "0b8dba87-aac6-4809-9389-f66410558dda",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545691049331,
+        "parent_id": "d8f255ad-bbdd-4000-9956-8f8f22a385ce",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://remysharp.com/2018/12/24/memfetch",
+              [
+                [
+                  "a",
+                  "https://remysharp.com/2018/12/24/memfetch"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://github.com/remy/memfetch",
+              [
+                [
+                  "a",
+                  "https://github.com/remy/memfetch"
+                ]
+              ]
+            ],
+            [
+              ": fetch wrapper that does caching"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 94,
+        "inline_content": [
+          {
+            "Text": "https://remysharp.com/2018/12/24/memfetch",
+            "Link": "https://remysharp.com/2018/12/24/memfetch"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://github.com/remy/memfetch",
+            "Link": "https://github.com/remy/memfetch"
+          },
+          {
+            "Text": ": fetch wrapper that does caching"
+          }
+        ]
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -363,7 +420,7 @@
         "version": 8
       }
     ],
-    "title": "ajax",
+    "title": "ajax, fetch",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
