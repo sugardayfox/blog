@@ -287,7 +287,7 @@
         "created_time": 1539491251364,
         "id": "3d05208b-8f89-4e34-8bac-94b5924c864c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539810138163,
+        "last_edited_time": 1545831188137,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
@@ -305,12 +305,12 @@
               ]
             ],
             [
-              " that was created to enable embedding arbitrary content from one web site in another. "
+              " that was created to enable embedding arbitrary content from one website in another. "
             ]
           ]
         },
         "type": "text",
-        "version": 734,
+        "version": 736,
         "inline_content": [
           {
             "Text": "I researched things and turns out there's a standard called "
@@ -320,7 +320,7 @@
             "Link": "https://oembed.com/"
           },
           {
-            "Text": " that was created to enable embedding arbitrary content from one web site in another. "
+            "Text": " that was created to enable embedding arbitrary content from one website in another. "
           }
         ]
       },
@@ -397,13 +397,13 @@
         "created_time": 1539491439807,
         "id": "f23e98f5-b35d-43e5-9f20-302c018cb2fd",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539491515989,
+        "last_edited_time": 1545831425853,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "This article describes high-level design of "
+              "This article describes the high-level design of "
             ],
             [
               "Oembed Proxy for GitHub",
@@ -420,10 +420,10 @@
           ]
         },
         "type": "text",
-        "version": 188,
+        "version": 196,
         "inline_content": [
           {
-            "Text": "This article describes high-level design of "
+            "Text": "This article describes the high-level design of "
           },
           {
             "Text": "Oembed Proxy for GitHub",
@@ -488,21 +488,21 @@
         "created_time": 1539491685946,
         "id": "c8b1df28-f220-41f4-ae87-7b1328a67eaf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539810349813,
+        "last_edited_time": 1545831421096,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "You can add code to support each services you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There's way too many web services out there and more are created every day."
+              "You can add code to support each service you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There are way too many web services out there and more are created every day."
             ]
           ]
         },
         "type": "text",
-        "version": 648,
+        "version": 676,
         "inline_content": [
           {
-            "Text": "You can add code to support each services you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There's way too many web services out there and more are created every day."
+            "Text": "You can add code to support each service you know about (and pray that they provide a stable way to get the necessary information) but it's not scalable. There are way too many web services out there and more are created every day."
           }
         ]
       },
@@ -646,13 +646,13 @@
         "created_time": 1539492316968,
         "id": "602171f0-0626-42a3-be21-95f1c5c17e57",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539492358813,
+        "last_edited_time": 1545831761984,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "GitHub doesn't support Oembed so instead you can use link via my Oembed Proxy: "
+              "GitHub doesn't support Oembed so instead, you can use URL via my Oembed Proxy: "
             ],
             [
               "https://www.onlinetool.io/gitoembed/widget?url=https%3A%2F%2Fgithub.com%2Fessentialbooks%2Fbooks%2Fblob%2Fmaster%2FREADME.md",
@@ -666,10 +666,10 @@
           ]
         },
         "type": "text",
-        "version": 226,
+        "version": 241,
         "inline_content": [
           {
-            "Text": "GitHub doesn't support Oembed so instead you can use link via my Oembed Proxy: "
+            "Text": "GitHub doesn't support Oembed so instead, you can use URL via my Oembed Proxy: "
           },
           {
             "Text": "https://www.onlinetool.io/gitoembed/widget?url=https%3A%2F%2Fgithub.com%2Fessentialbooks%2Fbooks%2Fblob%2Fmaster%2FREADME.md",
@@ -1153,13 +1153,13 @@
         "created_time": 1539493270111,
         "id": "1c592e14-c89f-46da-92bb-f09308a04d63",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539494324761,
+        "last_edited_time": 1545831596499,
         "parent_id": "7d25ad34-2c51-4a47-a00f-6e0c4ba84cbc",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "First I needed a server. Usually I use Digital Ocean but this time I went for biggest bang for the buck and used "
+              "First I needed a server. Usually, I use Digital Ocean but this time I went for biggest bang for the buck and used "
             ],
             [
               "C2L server",
@@ -1188,10 +1188,10 @@
           ]
         },
         "type": "text",
-        "version": 385,
+        "version": 387,
         "inline_content": [
           {
-            "Text": "First I needed a server. Usually I use Digital Ocean but this time I went for biggest bang for the buck and used "
+            "Text": "First I needed a server. Usually, I use Digital Ocean but this time I went for biggest bang for the buck and used "
           },
           {
             "Text": "C2L server",
