@@ -29,6 +29,8 @@
       "2aed360e-955c-41aa-9ae3-70f392990607",
       "0bd4d07a-4960-4537-8643-9d3122452e89",
       "4bfc5528-d5a2-42fb-acf3-55dbe51256b3",
+      "99fa2bf7-4b42-4923-a085-888b41e0b813",
+      "d996de80-e51b-4ec0-8986-b20694b0ddaf",
       "397e5dd5-59d3-4a20-b59d-52a6c5597c67",
       "25a9f07c-474a-437f-870d-20617549f37f",
       "d0c34608-b047-4c0c-b879-252380c28cce",
@@ -75,7 +77,7 @@
     },
     "id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1545337028096,
+    "last_edited_time": 1545912437631,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -86,7 +88,7 @@
       ]
     },
     "type": "page",
-    "version": 16,
+    "version": 20,
     "content_resolved": [
       {
         "alive": true,
@@ -912,6 +914,80 @@
         "inline_content": [
           {
             "Text": "Apps in electron:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545912317932,
+        "id": "99fa2bf7-4b42-4923-a085-888b41e0b813",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545912325686,
+        "parent_id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/fabiospampinato/notable",
+              [
+                [
+                  "a",
+                  "https://github.com/fabiospampinato/notable"
+                ]
+              ]
+            ],
+            [
+              " : a markdown editor"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 54,
+        "inline_content": [
+          {
+            "Text": "https://github.com/fabiospampinato/notable",
+            "Link": "https://github.com/fabiospampinato/notable"
+          },
+          {
+            "Text": " : a markdown editor"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1545912437631,
+        "id": "d996de80-e51b-4ec0-8986-b20694b0ddaf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1545912441798,
+        "parent_id": "40d5e2f4-e604-4480-8a22-df628b8b2e65",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/laurent22/joplin",
+              [
+                [
+                  "a",
+                  "https://github.com/laurent22/joplin"
+                ]
+              ]
+            ],
+            [
+              " : another markdown editor"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 59,
+        "inline_content": [
+          {
+            "Text": "https://github.com/laurent22/joplin",
+            "Link": "https://github.com/laurent22/joplin"
+          },
+          {
+            "Text": " : another markdown editor"
           }
         ]
       },
