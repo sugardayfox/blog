@@ -5,6 +5,7 @@
     "content": [
       "59a42373-bf4a-4ad2-b660-fbcdbd27031b",
       "2646f64f-3943-4581-8ebe-7958e6b1b61b",
+      "2830f0af-cab8-44ae-b247-dac76a2af28e",
       "3464b73f-0e06-4751-8d63-15e523fea63c",
       "e00841d6-11ee-4c3b-b560-3f8b0ef211ba",
       "f07441cd-692a-4aa6-87b0-d0e421689c53",
@@ -22,7 +23,7 @@
     },
     "id": "8c708a15-fad2-4e38-bbd3-513320386063",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540277864379,
+    "last_edited_time": 1546141089608,
     "parent_id": "4da97980-9fb6-45cb-886a-51c656751d35",
     "parent_table": "block",
     "properties": {
@@ -33,7 +34,7 @@
       ]
     },
     "type": "page",
-    "version": 86,
+    "version": 88,
     "content_resolved": [
       {
         "alive": true,
@@ -92,14 +93,50 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1540277303740,
-        "id": "3464b73f-0e06-4751-8d63-15e523fea63c",
+        "created_time": 1546141089608,
+        "id": "2830f0af-cab8-44ae-b247-dac76a2af28e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1540277303740,
+        "last_edited_time": 1546141089608,
         "parent_id": "8c708a15-fad2-4e38-bbd3-513320386063",
         "parent_table": "block",
         "type": "text",
         "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1540277303740,
+        "id": "3464b73f-0e06-4751-8d63-15e523fea63c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546141110719,
+        "parent_id": "8c708a15-fad2-4e38-bbd3-513320386063",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Good default font: "
+            ],
+            [
+              "font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 61,
+        "inline_content": [
+          {
+            "Text": "Good default font: "
+          },
+          {
+            "Text": "font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";",
+            "AttrFlags": 2
+          }
+        ]
       },
       {
         "alive": true,
