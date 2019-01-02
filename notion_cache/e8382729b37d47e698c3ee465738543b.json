@@ -94,6 +94,7 @@
       {
         "alive": true,
         "content": [
+          "b03f75d2-e460-4589-b8e8-cf6a35741452",
           "f8f6bf92-9f83-49c3-b10c-7a9cdc25e63a",
           "261833e2-4c2a-4c70-a6e9-a79119500cb9",
           "a0580d36-b2bd-4f96-a823-8922e475bbec",
@@ -120,7 +121,7 @@
         "created_time": 1512336190887,
         "id": "3852b41a-1b91-44cf-b9a3-769c2c1c2f43",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1530062881566,
+        "last_edited_time": 1546394242018,
         "parent_id": "e8382729-b37d-47e6-98c3-ee465738543b",
         "parent_table": "block",
         "properties": {
@@ -131,8 +132,45 @@
           ]
         },
         "type": "toggle",
-        "version": 116,
+        "version": 118,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1546394242018,
+            "id": "b03f75d2-e460-4589-b8e8-cf6a35741452",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1546394301793,
+            "parent_id": "3852b41a-1b91-44cf-b9a3-769c2c1c2f43",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.vectorlogo.zone/",
+                  [
+                    [
+                      "a",
+                      "https://www.vectorlogo.zone/"
+                    ]
+                  ]
+                ],
+                [
+                  " : free svg versions of logos of known companies. Can use to create a new icon by \"remixing\" existing one"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 364,
+            "inline_content": [
+              {
+                "Text": "https://www.vectorlogo.zone/",
+                "Link": "https://www.vectorlogo.zone/"
+              },
+              {
+                "Text": " : free svg versions of logos of known companies. Can use to create a new icon by \"remixing\" existing one"
+              }
+            ]
+          },
           {
             "alive": true,
             "content": [
