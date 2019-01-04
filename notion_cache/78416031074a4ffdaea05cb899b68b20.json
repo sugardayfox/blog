@@ -8,6 +8,7 @@
       "25b600dd-1caf-4354-be4c-d65adfc587f2",
       "bf1561b8-1329-42ef-af95-abc277b86e19",
       "3a34dc75-4d4e-4f81-90be-2703bf049645",
+      "2bc39fde-996c-4d8a-af8f-d6a470619849",
       "88a6487a-e917-4560-85aa-92879a2c4b73"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -18,18 +19,18 @@
     },
     "id": "78416031-074a-4ffd-aea0-5cb899b68b20",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1530045860204,
+    "last_edited_time": 1546547360740,
     "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "webasssembly, wasm"
+          "webasssembly, wasm, web assembly"
         ]
       ]
     },
     "type": "page",
-    "version": 12,
+    "version": 42,
     "content_resolved": [
       {
         "alive": true,
@@ -1421,7 +1422,7 @@
         "created_time": 1512333494123,
         "id": "3a34dc75-4d4e-4f81-90be-2703bf049645",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512333494123,
+        "last_edited_time": 1546547363701,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -1436,19 +1437,82 @@
               ]
             ],
             [
-              ", https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/"
+              ", "
+            ],
+            [
+              "https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/",
+              [
+                [
+                  "a",
+                  "https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/"
+                ]
+              ]
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 0,
+        "version": 6,
         "inline_content": [
           {
             "Text": "https://github.com/aochagavia/rocket_wasm/",
             "Link": "https://github.com/aochagavia/rocket_wasm/"
           },
           {
-            "Text": ", https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/"
+            "Text": ", "
+          },
+          {
+            "Text": "https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/",
+            "Link": "https://aochagavia.github.io/blog/rocket—-a-rust-game-running-on-wasm/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546547360740,
+        "id": "2bc39fde-996c-4d8a-af8f-d6a470619849",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546547374893,
+        "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/gabrielcuvillier/dhewm3-webassembly-port",
+              [
+                [
+                  "a",
+                  "https://github.com/gabrielcuvillier/dhewm3-webassembly-port"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://groups.google.com/forum/#!msg/emscripten-discuss/pKcWvKppjUA/ihx7MwHMDgAJ",
+              [
+                [
+                  "a",
+                  "https://groups.google.com/forum/#!msg/emscripten-discuss/pKcWvKppjUA/ihx7MwHMDgAJ"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 13,
+        "inline_content": [
+          {
+            "Text": "https://github.com/gabrielcuvillier/dhewm3-webassembly-port",
+            "Link": "https://github.com/gabrielcuvillier/dhewm3-webassembly-port"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://groups.google.com/forum/#!msg/emscripten-discuss/pKcWvKppjUA/ihx7MwHMDgAJ",
+            "Link": "https://groups.google.com/forum/#!msg/emscripten-discuss/pKcWvKppjUA/ihx7MwHMDgAJ"
           }
         ]
       },
@@ -1465,7 +1529,7 @@
         "version": 0
       }
     ],
-    "title": "webasssembly, wasm",
+    "title": "webasssembly, wasm, web assembly",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
