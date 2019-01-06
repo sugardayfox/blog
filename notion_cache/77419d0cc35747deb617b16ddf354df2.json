@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "851599ae-18b0-42d4-8eb8-388c1463e236",
+      "ff9d6701-6b9f-43d0-a481-b1cbf98e9049",
       "c7e35fa1-ca30-4dc8-819e-e8991af4f184",
       "6dc9b063-56dd-4d18-97f0-a938e9cf5df5",
       "6077ff6f-034b-41b7-be5a-6eb0b8c08ef5",
@@ -114,7 +115,7 @@
     },
     "id": "77419d0c-c357-47de-b617-b16ddf354df2",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1528133994469,
+    "last_edited_time": 1546711262626,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -125,7 +126,7 @@
       ]
     },
     "type": "page",
-    "version": 196,
+    "version": 198,
     "content_resolved": [
       {
         "alive": true,
@@ -148,6 +149,37 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546711262626,
+        "id": "ff9d6701-6b9f-43d0-a481-b1cbf98e9049",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1546711263695,
+        "parent_id": "77419d0c-c357-47de-b617-b16ddf354df2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://codea.io/blog/the-ios-menu/",
+              [
+                [
+                  "a",
+                  "https://codea.io/blog/the-ios-menu/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "https://codea.io/blog/the-ios-menu/",
+            "Link": "https://codea.io/blog/the-ios-menu/"
           }
         ]
       },

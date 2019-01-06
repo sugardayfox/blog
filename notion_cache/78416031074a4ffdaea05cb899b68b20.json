@@ -35,6 +35,7 @@
       {
         "alive": true,
         "content": [
+          "d3192dea-9e32-40f4-ae87-c64cc474d415",
           "688f7805-dc9d-4333-810d-74e28190af2f",
           "2e1cf4f0-3429-4e26-9f72-317b6b50f63c",
           "a979ccac-df7e-4678-a665-655e4db7f1a5",
@@ -72,7 +73,7 @@
         "created_time": 1493148422871,
         "id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1537561458249,
+        "last_edited_time": 1546715134503,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -83,8 +84,45 @@
           ]
         },
         "type": "toggle",
-        "version": 22,
+        "version": 24,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1546715134503,
+            "id": "d3192dea-9e32-40f4-ae87-c64cc474d415",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1546715143864,
+            "parent_id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://sludge.red/",
+                  [
+                    [
+                      "a",
+                      "https://sludge.red/"
+                    ]
+                  ]
+                ],
+                [
+                  " : explorer for webassembly modules"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 92,
+            "inline_content": [
+              {
+                "Text": "https://sludge.red/",
+                "Link": "https://sludge.red/"
+              },
+              {
+                "Text": " : explorer for webassembly modules"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
