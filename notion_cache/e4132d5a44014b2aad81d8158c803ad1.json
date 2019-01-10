@@ -12411,13 +12411,15 @@
                       "1e1dd6c3-ba71-413c-bde1-97d1e38db3a9",
                       "740c6114-204f-4334-90b0-b4eb63c37d66",
                       "274918d0-0a81-4625-85eb-ac99bf754f67",
+                      "69e23899-7656-4b93-80fd-496d8dbd747f",
+                      "41ed3085-baee-4780-b1e7-648a8ddfc68c",
                       "70c1064a-7f2e-4a8d-8839-c0530f25ed04"
                     ],
                     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                     "created_time": 1496375335801,
                     "id": "8b09f535-e611-4c32-8b80-cc0075bd965e",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1533802061272,
+                    "last_edited_time": 1547063197326,
                     "parent_id": "a4afbbc6-05d9-48c4-af26-cbc42559073b",
                     "parent_table": "block",
                     "properties": {
@@ -12428,7 +12430,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 13,
+                    "version": 17,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -12667,6 +12669,93 @@
                           {
                             "Text": "http://binvis.io/#/",
                             "Link": "http://binvis.io/#/"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1547063051326,
+                        "id": "69e23899-7656-4b93-80fd-496d8dbd747f",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1547063181802,
+                        "parent_id": "8b09f535-e611-4c32-8b80-cc0075bd965e",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://github.com/sharkdp/hexyl",
+                              [
+                                [
+                                  "a",
+                                  "https://github.com/sharkdp/hexyl"
+                                ]
+                              ]
+                            ],
+                            [
+                              ", "
+                            ],
+                            [
+                              "https://news.ycombinator.com/item?id=18865264",
+                              [
+                                [
+                                  "a",
+                                  "https://news.ycombinator.com/item?id=18865264"
+                                ]
+                              ]
+                            ],
+                            [
+                              " : has nice trick: coloring bytes based on type"
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 147,
+                        "inline_content": [
+                          {
+                            "Text": "https://github.com/sharkdp/hexyl",
+                            "Link": "https://github.com/sharkdp/hexyl"
+                          },
+                          {
+                            "Text": ", "
+                          },
+                          {
+                            "Text": "https://news.ycombinator.com/item?id=18865264",
+                            "Link": "https://news.ycombinator.com/item?id=18865264"
+                          },
+                          {
+                            "Text": " : has nice trick: coloring bytes based on type"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1547063197326,
+                        "id": "41ed3085-baee-4780-b1e7-648a8ddfc68c",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1547063197739,
+                        "parent_id": "8b09f535-e611-4c32-8b80-cc0075bd965e",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://github.com/evanmiller/hecate",
+                              [
+                                [
+                                  "a",
+                                  "https://github.com/evanmiller/hecate"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 7,
+                        "inline_content": [
+                          {
+                            "Text": "https://github.com/evanmiller/hecate",
+                            "Link": "https://github.com/evanmiller/hecate"
                           }
                         ]
                       },
