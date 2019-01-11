@@ -35,6 +35,7 @@
       {
         "alive": true,
         "content": [
+          "6c9dc56b-47a3-4d4d-9d7f-de3b4d9a4282",
           "d3192dea-9e32-40f4-ae87-c64cc474d415",
           "688f7805-dc9d-4333-810d-74e28190af2f",
           "2e1cf4f0-3429-4e26-9f72-317b6b50f63c",
@@ -73,7 +74,7 @@
         "created_time": 1493148422871,
         "id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1546715134503,
+        "last_edited_time": 1547171100777,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -84,8 +85,39 @@
           ]
         },
         "type": "toggle",
-        "version": 24,
+        "version": 26,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1547171100777,
+            "id": "6c9dc56b-47a3-4d4d-9d7f-de3b4d9a4282",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1547171101856,
+            "parent_id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://dev.to/chromiumdev/fast-gif-parsing-on-the-web-with-wasm--wuffs-48l4",
+                  [
+                    [
+                      "a",
+                      "https://dev.to/chromiumdev/fast-gif-parsing-on-the-web-with-wasm--wuffs-48l4"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "https://dev.to/chromiumdev/fast-gif-parsing-on-the-web-with-wasm--wuffs-48l4",
+                "Link": "https://dev.to/chromiumdev/fast-gif-parsing-on-the-web-with-wasm--wuffs-48l4"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",

@@ -8185,6 +8185,7 @@
                   "5b26afbd-790f-4859-9eba-68d5ea16eab1",
                   "7cd55ca3-c889-4005-9fc9-5320b39e9767",
                   "f08bff3b-9cb3-476d-8b8d-dee3c7263374",
+                  "731071a3-59ad-4b25-b1f3-34927fe094b6",
                   "c3edb379-3562-4f5d-96e6-4438cd27356c",
                   "16240f29-3601-4e7b-b91d-88504031df1e",
                   "7f6ac125-4e06-4947-b954-9cf798494274",
@@ -8201,18 +8202,18 @@
                 "created_time": 1471162547197,
                 "id": "247eac0c-0865-4666-8525-79baeabf1406",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1533799360711,
+                "last_edited_time": 1547145164973,
                 "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
                 "parent_table": "block",
                 "properties": {
                   "title": [
                     [
-                      "BTerm - terminal/ssh client for windows"
+                      "BTerm - terminal/ssh client for windows or web"
                     ]
                   ]
                 },
                 "type": "toggle",
-                "version": 6,
+                "version": 22,
                 "content_resolved": [
                   {
                     "alive": true,
@@ -8440,6 +8441,56 @@
                     "inline_content": [
                       {
                         "Text": "\nRelated:"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1547145164973,
+                    "id": "731071a3-59ad-4b25-b1f3-34927fe094b6",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1547145172073,
+                    "parent_id": "247eac0c-0865-4666-8525-79baeabf1406",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "https://www.shellvault.io/",
+                          [
+                            [
+                              "a",
+                              "https://www.shellvault.io/"
+                            ]
+                          ]
+                        ],
+                        [
+                          ", "
+                        ],
+                        [
+                          "https://news.ycombinator.com/item?id=18873652",
+                          [
+                            [
+                              "a",
+                              "https://news.ycombinator.com/item?id=18873652"
+                            ]
+                          ]
+                        ]
+                      ]
+                    },
+                    "type": "bulleted_list",
+                    "version": 20,
+                    "inline_content": [
+                      {
+                        "Text": "https://www.shellvault.io/",
+                        "Link": "https://www.shellvault.io/"
+                      },
+                      {
+                        "Text": ", "
+                      },
+                      {
+                        "Text": "https://news.ycombinator.com/item?id=18873652",
+                        "Link": "https://news.ycombinator.com/item?id=18873652"
                       }
                     ]
                   },
@@ -8812,7 +8863,7 @@
                 ],
                 "inline_content": [
                   {
-                    "Text": "BTerm - terminal/ssh client for windows"
+                    "Text": "BTerm - terminal/ssh client for windows or web"
                   }
                 ]
               },
