@@ -112,18 +112,18 @@
             "created_time": 1544673836238,
             "id": "21175b16-f194-4883-9c9b-06e22a4fc3c8",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1544673856495,
+            "last_edited_time": 1547347421650,
             "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "steak"
+                  "steak / beef temperature"
                 ]
               ]
             },
             "type": "toggle",
-            "version": 32,
+            "version": 74,
             "content_resolved": [
               {
                 "alive": true,
@@ -200,7 +200,7 @@
             ],
             "inline_content": [
               {
-                "Text": "steak"
+                "Text": "steak / beef temperature"
               }
             ]
           },
@@ -215,18 +215,18 @@
             "created_time": 1544673856069,
             "id": "3276016b-444f-40fd-80e1-f3f3b54b34e9",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1544673895869,
+            "last_edited_time": 1547347427736,
             "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "pork"
+                  "pork temperature"
                 ]
               ]
             },
             "type": "toggle",
-            "version": 26,
+            "version": 58,
             "content_resolved": [
               {
                 "alive": true,
@@ -303,7 +303,7 @@
             ],
             "inline_content": [
               {
-                "Text": "pork"
+                "Text": "pork temperature"
               }
             ]
           },
@@ -318,18 +318,18 @@
             "created_time": 1544673885828,
             "id": "0e307079-4893-4ca1-8932-ba3648e1ee51",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1544673915125,
+            "last_edited_time": 1547347433338,
             "parent_id": "fa9241e4-e50d-4213-892b-799e49197a09",
             "parent_table": "block",
             "properties": {
               "title": [
                 [
-                  "fish"
+                  "fish temperature"
                 ]
               ]
             },
             "type": "toggle",
-            "version": 31,
+            "version": 55,
             "content_resolved": [
               {
                 "alive": true,
@@ -406,7 +406,7 @@
             ],
             "inline_content": [
               {
-                "Text": "fish"
+                "Text": "fish temperature"
               }
             ]
           }
