@@ -73,7 +73,8 @@
               "01cf1ba9-49da-44ba-a475-a2dcc9655856",
               "060a4743-9322-4d94-ac60-bba8121581e3",
               "e1cea37a-0533-4bf3-b148-badc4c486d32",
-              "50fb1472-0dc5-4b20-8565-f3131b71dfda"
+              "50fb1472-0dc5-4b20-8565-f3131b71dfda",
+              "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1533799287746,
@@ -82,11 +83,11 @@
             },
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1541575775060,
+            "last_edited_time": 1547687739164,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 216,
+            "version": 218,
             "content_resolved": [
               {
                 "alive": true,
@@ -10873,6 +10874,67 @@
                   "page_icon": "",
                   "page_small_text": true
                 }
+              },
+              {
+                "alive": true,
+                "content": [
+                  "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c"
+                ],
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1547687739164,
+                "id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1547687769598,
+                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "logging for serverless"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 76,
+                "content_resolved": [
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1547687769598,
+                    "format": {
+                      "page_full_width": true,
+                      "page_small_text": true
+                    },
+                    "id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1547688818029,
+                    "parent_id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "selog - logging for serverless"
+                        ]
+                      ]
+                    },
+                    "type": "page",
+                    "version": 132,
+                    "title": "selog - logging for serverless",
+                    "format_page": {
+                      "page_cover": "",
+                      "page_cover_position": 0,
+                      "page_font": "",
+                      "page_full_width": true,
+                      "page_icon": "",
+                      "page_small_text": true
+                    }
+                  }
+                ],
+                "inline_content": [
+                  {
+                    "Text": "logging for serverless"
+                  }
+                ]
               }
             ],
             "format_column": {

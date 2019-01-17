@@ -1,0 +1,714 @@
+{
+  "ID": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+  "Root": {
+    "alive": true,
+    "content": [
+      "ce8f03d1-ae70-4850-bd49-000cec4ac9fa",
+      "9f1f6fa3-5350-40a4-a802-5067b1ca09b6",
+      "d611f2f5-8131-43cd-912c-bd3297966320",
+      "bb658299-7af5-4ceb-a731-217c23bb33b8",
+      "49e0e1d4-b15a-416b-b673-6ddb0918e3c4",
+      "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8",
+      "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff",
+      "25f23b2a-cd03-4b95-926e-92efdbe87355",
+      "3ebaf124-6100-4341-9b5f-974869d4f998",
+      "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28",
+      "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d",
+      "dc699324-b677-48e7-be2c-7881f5adeefb",
+      "c4000097-a2f1-4935-8824-a1db4b3a2bd0",
+      "9e9d066e-1992-4452-85fb-f9e2673b06e3",
+      "7fd4d427-6581-48c5-bb23-f82b2e83d1bf",
+      "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5",
+      "0a340c34-3097-4862-a3c8-a3fba3d18d4c",
+      "db70ed34-02ca-4acc-b165-8f975e63218e",
+      "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f",
+      "6e3ae4e0-7c11-48ab-987f-bf175d27c08c",
+      "9d572cda-c656-4487-9ee7-7f206623a7e5",
+      "c7947da8-d748-49cc-951e-5f6b30be5dde",
+      "4b73908e-2e66-4b27-ae48-f71a2ab46123",
+      "969751d4-5862-458c-9863-8d5b4128c63d"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1547687769598,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1547688818029,
+    "parent_id": "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "selog - logging for serverless"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 132,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687784040,
+        "id": "ce8f03d1-ae70-4850-bd49-000cec4ac9fa",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547687820324,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A service for easy logging for serverless scenarios."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 121,
+        "inline_content": [
+          {
+            "Text": "A service for easy logging for serverless scenarios."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687867564,
+        "id": "9f1f6fa3-5350-40a4-a802-5067b1ca09b6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547687883501,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Competitive advantages:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 107,
+        "inline_content": [
+          {
+            "Text": "Competitive advantages:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687883712,
+        "id": "d611f2f5-8131-43cd-912c-bd3297966320",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688040440,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "really easy to start logging (login with Google/GitHub/email, generate api token, POST to /log, see log in UI)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 412,
+        "inline_content": [
+          {
+            "Text": "really easy to start logging (login with Google/GitHub/email, generate api token, POST to /log, see log in UI)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688041515,
+        "id": "bb658299-7af5-4ceb-a731-217c23bb33b8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688053942,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "relatively cheap (because it's a one person band)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 139,
+        "inline_content": [
+          {
+            "Text": "relatively cheap (because it's a one person band)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687958876,
+        "id": "49e0e1d4-b15a-416b-b673-6ddb0918e3c4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688102693,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "fast browsing and searching of logs. In general, UI optimized for efficiency"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 249,
+        "inline_content": [
+          {
+            "Text": "fast browsing and searching of logs. In general, UI optimized for efficiency"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688553164,
+        "id": "ad8d17bb-a635-4ace-bae2-6d69ee0d3fd8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688569999,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "meant for low to medium sized logging, not really heavy logging"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 180,
+        "inline_content": [
+          {
+            "Text": "meant for low to medium sized logging, not really heavy logging"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687820597,
+        "id": "ff4d38df-f9ad-496a-9d8c-f9c5b0baf1ff",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547687827601,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Use cases:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 29,
+        "inline_content": [
+          {
+            "Text": "Use cases:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687827917,
+        "id": "25f23b2a-cd03-4b95-926e-92efdbe87355",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547687865851,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "AWS lambda, google cloud functions, Azure Functions etc."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 124,
+        "inline_content": [
+          {
+            "Text": "AWS lambda, google cloud functions, Azure Functions etc."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687837712,
+        "id": "3ebaf124-6100-4341-9b5f-974869d4f998",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547687971428,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "logging from CI services"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 61,
+        "inline_content": [
+          {
+            "Text": "logging from CI services"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687977200,
+        "id": "a0c0bca3-491d-4d1e-a3dc-de6eb9cf3c28",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688028325,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "easy logging during development phase"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 303,
+        "inline_content": [
+          {
+            "Text": "easy logging during development phase"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547687966237,
+        "id": "6ee9a11b-eba8-4c2a-8020-e4adc3a5387d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688114624,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Pricing:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 20,
+        "inline_content": [
+          {
+            "Text": "Pricing:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688115318,
+        "id": "dc699324-b677-48e7-be2c-7881f5adeefb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688160228,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "a free tier with some limitations (e.g. only 7 day retention of logs, limit max size of uploaded data to e.g. 10k)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 284,
+        "inline_content": [
+          {
+            "Text": "a free tier with some limitations (e.g. only 7 day retention of logs, limit max size of uploaded data to e.g. 10k)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688164297,
+        "id": "c4000097-a2f1-4935-8824-a1db4b3a2bd0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688258202,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "$10/month for yearly subscription or $15/month for month-to-month. 1 month retention for browsing, unlimited for storing archived, size limit of 10 MB, "
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 485,
+        "inline_content": [
+          {
+            "Text": "$10/month for yearly subscription or $15/month for month-to-month. 1 month retention for browsing, unlimited for storing archived, size limit of 10 MB, "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688527281,
+        "id": "9e9d066e-1992-4452-85fb-f9e2673b06e3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688535597,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "maybe $49/month for really heavy users"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 81,
+        "inline_content": [
+          {
+            "Text": "maybe $49/month for really heavy users"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688260102,
+        "id": "7fd4d427-6581-48c5-bb23-f82b2e83d1bf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688275558,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Non-obvious features:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 117,
+        "inline_content": [
+          {
+            "Text": "Non-obvious features:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688275751,
+        "id": "c0c0eb5a-1f63-4adf-84c7-155a3fd710a5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688335843,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "command-line tool logwatch $token which allows watching logs from console. Written in Go, uses websocket to talk to the server"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 328,
+        "inline_content": [
+          {
+            "Text": "command-line tool logwatch $token which allows watching logs from console. Written in Go, uses websocket to talk to the server"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688336799,
+        "id": "0a340c34-3097-4862-a3c8-a3fba3d18d4c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688427876,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "daily archives as .zip (or something more efficient) in backblaze, can be downloaded via UI"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 275,
+        "inline_content": [
+          {
+            "Text": "daily archives as .zip (or something more efficient) in backblaze, can be downloaded via UI"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688432331,
+        "id": "db70ed34-02ca-4acc-b165-8f975e63218e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688460248,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "websocket that does real-time updates so that user can see activity"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 179,
+        "inline_content": [
+          {
+            "Text": "websocket that does real-time updates so that user can see activity"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688473919,
+        "id": "a948c8fe-7a3b-4bba-94d5-e2de9b4ca09f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688491875,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "uses firestore for storing long-term info"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 103,
+        "inline_content": [
+          {
+            "Text": "uses firestore for storing long-term info"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688492434,
+        "id": "6e3ae4e0-7c11-48ab-987f-bf175d27c08c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688501374,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "disk for storing logs + archiving to backblaze daily"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 109,
+        "inline_content": [
+          {
+            "Text": "disk for storing logs + archiving to backblaze daily"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688673394,
+        "id": "9d572cda-c656-4487-9ee7-7f206623a7e5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688812649,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tagging for log entries e.g. /log?app=foo\u0026ver=1.3.3 would tag a given log entry with tag "
+            ],
+            [
+              "app",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " with value "
+            ],
+            [
+              "foo",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " and tag "
+            ],
+            [
+              "ver",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " with value "
+            ],
+            [
+              "1.3.3",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ". This is an easy way to partition logs by e.g. application etc."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 629,
+        "inline_content": [
+          {
+            "Text": "tagging for log entries e.g. /log?app=foo\u0026ver=1.3.3 would tag a given log entry with tag "
+          },
+          {
+            "Text": "app",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " with value "
+          },
+          {
+            "Text": "foo",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " and tag "
+          },
+          {
+            "Text": "ver",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " with value "
+          },
+          {
+            "Text": "1.3.3",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ". This is an easy way to partition logs by e.g. application etc."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688818029,
+        "id": "c7947da8-d748-49cc-951e-5f6b30be5dde",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688823682,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "browsing and searching of logs"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 65,
+        "inline_content": [
+          {
+            "Text": "browsing and searching of logs"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688785846,
+        "id": "4b73908e-2e66-4b27-ae48-f71a2ab46123",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688925451,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "sharing of individual log entries or live search results. Generate expiring, unique id for sharing. Expiration for: 1 hour, 1 day, 1 week. When a given share expired, show error message \"This share has expired. Ask for a refreshed share\"."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 665,
+        "inline_content": [
+          {
+            "Text": "sharing of individual log entries or live search results. Generate expiring, unique id for sharing. Expiration for: 1 hour, 1 day, 1 week. When a given share expired, show error message \"This share has expired. Ask for a refreshed share\"."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1547688573123,
+        "id": "969751d4-5862-458c-9863-8d5b4128c63d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1547688587137,
+        "parent_id": "58fd469a-6de6-4afb-a1f9-f1b2cf217b6c",
+        "parent_table": "block",
+        "type": "text",
+        "version": 59
+      }
+    ],
+    "title": "selog - logging for serverless",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 10
+    }
+  ],
+  "Tables": null
+}
