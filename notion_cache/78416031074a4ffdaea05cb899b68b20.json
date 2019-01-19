@@ -35,6 +35,8 @@
       {
         "alive": true,
         "content": [
+          "2e50233d-15f2-4344-912d-c0f1be96eb1a",
+          "e1da87f2-7ddc-4dda-b8fe-674b0010c1c6",
           "6c9dc56b-47a3-4d4d-9d7f-de3b4d9a4282",
           "d3192dea-9e32-40f4-ae87-c64cc474d415",
           "688f7805-dc9d-4333-810d-74e28190af2f",
@@ -74,7 +76,7 @@
         "created_time": 1493148422871,
         "id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1547171100777,
+        "last_edited_time": 1547858310518,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -85,8 +87,70 @@
           ]
         },
         "type": "toggle",
-        "version": 26,
+        "version": 30,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1547858292875,
+            "id": "2e50233d-15f2-4344-912d-c0f1be96eb1a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1547858294222,
+            "parent_id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8",
+                  [
+                    [
+                      "a",
+                      "https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8",
+                "Link": "https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1547858310518,
+            "id": "e1da87f2-7ddc-4dda-b8fe-674b0010c1c6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1547858310900,
+            "parent_id": "1a367348-79d4-4a1d-a8a5-8cf78fc6eccf",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.com/@tdeniffel/c-to-webassembly-pass-and-arrays-to-c-86e0cb0464f5",
+                  [
+                    [
+                      "a",
+                      "https://medium.com/@tdeniffel/c-to-webassembly-pass-and-arrays-to-c-86e0cb0464f5"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 7,
+            "inline_content": [
+              {
+                "Text": "https://medium.com/@tdeniffel/c-to-webassembly-pass-and-arrays-to-c-86e0cb0464f5",
+                "Link": "https://medium.com/@tdeniffel/c-to-webassembly-pass-and-arrays-to-c-86e0cb0464f5"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
