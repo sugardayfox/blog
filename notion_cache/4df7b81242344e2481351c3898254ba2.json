@@ -846,6 +846,7 @@
       {
         "alive": true,
         "content": [
+          "163eae72-150d-498b-a682-e485bb30b1c7",
           "31ed5a72-786d-4c5b-aad2-801cf853d1fb",
           "d5c92ae0-a4d1-444d-b994-386d19ff1198",
           "8b03a215-f500-420f-9ce6-7a2bc49bc865",
@@ -865,7 +866,7 @@
         "created_time": 1512337565531,
         "id": "9154eacf-dfec-4b8d-a3a4-9bd7fea75312",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1547943635811,
+        "last_edited_time": 1548280645041,
         "parent_id": "4df7b812-4234-4e24-8135-1c3898254ba2",
         "parent_table": "block",
         "properties": {
@@ -876,8 +877,39 @@
           ]
         },
         "type": "toggle",
-        "version": 80,
+        "version": 82,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1548280645041,
+            "id": "163eae72-150d-498b-a682-e485bb30b1c7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1548280646131,
+            "parent_id": "9154eacf-dfec-4b8d-a3a4-9bd7fea75312",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://blog.codemagic.io/automatic-code-signing-for-ios-that-doesnt-require-a-mac/",
+                  [
+                    [
+                      "a",
+                      "https://blog.codemagic.io/automatic-code-signing-for-ios-that-doesnt-require-a-mac/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "https://blog.codemagic.io/automatic-code-signing-for-ios-that-doesnt-require-a-mac/",
+                "Link": "https://blog.codemagic.io/automatic-code-signing-for-ios-that-doesnt-require-a-mac/"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
