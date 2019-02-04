@@ -18,7 +18,7 @@
     },
     "id": "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1548791760000,
+    "last_edited_time": 1549184880000,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -29,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 7,
     "content_resolved": [
       {
         "alive": true,
@@ -1666,6 +1666,7 @@
       {
         "alive": true,
         "content": [
+          "1e038fcb-0c8d-4c86-9462-96db4b2907de",
           "613ddb3c-ce2f-40e7-9923-889bbbbc43bb",
           "8be37382-6c34-495a-a980-826f7acc7770",
           "d6af1116-c0bd-4798-8743-727bfc06b6d2",
@@ -1694,7 +1695,7 @@
         "created_time": 1493937182686,
         "id": "a5f977f4-d622-4717-ba55-90719374a423",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1548791760000,
+        "last_edited_time": 1549184880000,
         "parent_id": "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
         "parent_table": "block",
         "properties": {
@@ -1705,8 +1706,39 @@
           ]
         },
         "type": "toggle",
-        "version": 22,
+        "version": 24,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1549184880000,
+            "id": "1e038fcb-0c8d-4c86-9462-96db4b2907de",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1549184880000,
+            "parent_id": "a5f977f4-d622-4717-ba55-90719374a423",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/",
+                  [
+                    [
+                      "a",
+                      "https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 11,
+            "inline_content": [
+              {
+                "Text": "https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/",
+                "Link": "https://izzys.casa/2019/02/everything-you-never-wanted-to-know-about-cmake/"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
