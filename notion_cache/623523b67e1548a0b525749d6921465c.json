@@ -17,7 +17,6 @@
       "bc636291-0eb0-4e74-9c93-e7c020978836",
       "bd8e5818-8cda-4944-a4d3-cec23127df4e",
       "fa4bd070-8ea4-40a5-8964-9124d0ba09a4",
-      "430f919a-9aab-43a5-be8c-70b7b751144f",
       "c970b1fd-89bf-4489-ace9-ff639e342003",
       "c7c82988-3fbf-4cd6-81ed-707b6016148f",
       "bc675e65-0488-4171-b73f-c115fdea9748",
@@ -36,7 +35,7 @@
     },
     "id": "623523b6-7e15-48a0-b525-749d6921465c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540276833574,
+    "last_edited_time": 1549596480000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -47,7 +46,7 @@
       ]
     },
     "type": "page",
-    "version": 102,
+    "version": 104,
     "content_resolved": [
       {
         "alive": true,
@@ -497,7 +496,7 @@
         "created_time": 1532681467875,
         "id": "fa4bd070-8ea4-40a5-8964-9124d0ba09a4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532681467887,
+        "last_edited_time": 1549596480000,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
         "parent_table": "block",
         "properties": {
@@ -517,7 +516,7 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
             "Text": "VisualAck",
@@ -525,43 +524,6 @@
           },
           {
             "Text": " - a visual grep for Mac OS X"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532681467875,
-        "id": "430f919a-9aab-43a5-be8c-70b7b751144f",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532681467887,
-        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "15minutes",
-              [
-                [
-                  "a",
-                  "https://blog.kowalczyk.info/software/15minutes.html"
-                ]
-              ]
-            ],
-            [
-              " - a simple timer for Mac and Windows"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 2,
-        "inline_content": [
-          {
-            "Text": "15minutes",
-            "Link": "https://blog.kowalczyk.info/software/15minutes.html"
-          },
-          {
-            "Text": " - a simple timer for Mac and Windows"
           }
         ]
       },
