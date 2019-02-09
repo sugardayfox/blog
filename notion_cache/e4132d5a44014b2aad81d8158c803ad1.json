@@ -14,7 +14,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540000066435,
+    "last_edited_time": 1549677180000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -25,7 +25,7 @@
       ]
     },
     "type": "page",
-    "version": 503,
+    "version": 510,
     "content_resolved": [
       {
         "alive": true,
@@ -74,7 +74,8 @@
               "060a4743-9322-4d94-ac60-bba8121581e3",
               "e1cea37a-0533-4bf3-b148-badc4c486d32",
               "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-              "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf"
+              "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
+              "b8509aba-aefe-4a70-8d5a-8684c1b68bc8"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1533799287746,
@@ -83,11 +84,11 @@
             },
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1547687739164,
+            "last_edited_time": 1549676820000,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 218,
+            "version": 222,
             "content_resolved": [
               {
                 "alive": true,
@@ -10933,6 +10934,216 @@
                 "inline_content": [
                   {
                     "Text": "logging for serverless"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "content": [
+                  "9f5e974e-343f-446c-9d35-ba1246c13ef4",
+                  "5b2484fe-7355-4cc5-99bd-c6784f09d059",
+                  "772bca45-63de-4fa1-bac3-d23641915a60",
+                  "4171b706-f2f2-4ccf-bcde-944ec90f4ea3",
+                  "c3d99889-ad27-4913-9696-ee151d246392",
+                  "4914bb7c-f625-4316-b85e-5f3c8d9b690a",
+                  "f6fe4a95-6636-4a14-a42e-3376f9fbc90d"
+                ],
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1549676820000,
+                "id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1549677120000,
+                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "web version of gotop"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 41,
+                "content_resolved": [
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549676820000,
+                    "id": "9f5e974e-343f-446c-9d35-ba1246c13ef4",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549676820000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "https://github.com/cjbassi/gotop",
+                          [
+                            [
+                              "a",
+                              "https://github.com/cjbassi/gotop"
+                            ]
+                          ]
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 8,
+                    "inline_content": [
+                      {
+                        "Text": "https://github.com/cjbassi/gotop",
+                        "Link": "https://github.com/cjbassi/gotop"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549676880000,
+                    "id": "5b2484fe-7355-4cc5-99bd-c6784f09d059",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549676940000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "the simplest program that launches gotop remotely via ssh and shows the output in xterm.js hosted inside a web browser"
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 193,
+                    "inline_content": [
+                      {
+                        "Text": "the simplest program that launches gotop remotely via ssh and shows the output in xterm.js hosted inside a web browser"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549677000000,
+                    "id": "772bca45-63de-4fa1-bac3-d23641915a60",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549677000000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "Start with remotetop (rtop ?) that simply copies gotop over ssh to a remote server and launches it"
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 132,
+                    "inline_content": [
+                      {
+                        "Text": "Start with remotetop (rtop ?) that simply copies gotop over ssh to a remote server and launches it"
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549677000000,
+                    "id": "4171b706-f2f2-4ccf-bcde-944ec90f4ea3",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549677120000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "Then provide web version that does the same but acts as a web server and shows in locally installed web server."
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 269,
+                    "inline_content": [
+                      {
+                        "Text": "Then provide web version that does the same but acts as a web server and shows in locally installed web server."
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549677120000,
+                    "id": "c3d99889-ad27-4913-9696-ee151d246392",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549677120000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "Then a version that uses lorca to launch in chrome."
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 90,
+                    "inline_content": [
+                      {
+                        "Text": "Then a version that uses lorca to launch in chrome."
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549677120000,
+                    "id": "4914bb7c-f625-4316-b85e-5f3c8d9b690a",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549677180000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "Then native mac app that uses embedded web view."
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 116,
+                    "inline_content": [
+                      {
+                        "Text": "Then native mac app that uses embedded web view."
+                      }
+                    ]
+                  },
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1549677120000,
+                    "id": "f6fe4a95-6636-4a14-a42e-3376f9fbc90d",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1549677180000,
+                    "parent_id": "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "Then native windows version that uses cef (or maybe electron)."
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 103,
+                    "inline_content": [
+                      {
+                        "Text": "Then native windows version that uses cef (or maybe electron)."
+                      }
+                    ]
+                  }
+                ],
+                "inline_content": [
+                  {
+                    "Text": "web version of gotop"
                   }
                 ]
               }

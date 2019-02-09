@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1539496130227,
+    "last_edited_time": 1549660620000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 81,
+    "version": 84,
     "content_resolved": [
       {
         "alive": true,
@@ -2467,7 +2467,7 @@
         "created_time": 1512367841304,
         "id": "70fd4562-34a7-4164-bfcd-464c6ea5886d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512367841304,
+        "last_edited_time": 1549660620000,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -2478,7 +2478,7 @@
           ]
         },
         "type": "toggle",
-        "version": 0,
+        "version": 5,
         "content_resolved": [
           {
             "alive": true,
@@ -4092,13 +4092,14 @@
       {
         "alive": true,
         "content": [
-          "322e5db6-683c-441f-b3d5-11ff4f24af8a"
+          "322e5db6-683c-441f-b3d5-11ff4f24af8a",
+          "e94d2dbd-5c02-4c42-99f2-19cd7a250d25"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1539060973569,
         "id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1539060979485,
+        "last_edited_time": 1549660620000,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -4109,7 +4110,7 @@
           ]
         },
         "type": "toggle",
-        "version": 30,
+        "version": 32,
         "content_resolved": [
           {
             "alive": true,
@@ -4117,7 +4118,7 @@
             "created_time": 1539060978901,
             "id": "322e5db6-683c-441f-b3d5-11ff4f24af8a",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1539060980805,
+            "last_edited_time": 1549660620000,
             "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
             "parent_table": "block",
             "properties": {
@@ -4134,11 +4135,42 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 20,
+            "version": 23,
             "inline_content": [
               {
                 "Text": "https://ryanwaggoner.com/articles/",
                 "Link": "https://ryanwaggoner.com/articles/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1549660620000,
+            "id": "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1549660620000,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://simpleprogrammer.com/freelancing-business/",
+                  [
+                    [
+                      "a",
+                      "https://simpleprogrammer.com/freelancing-business/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://simpleprogrammer.com/freelancing-business/",
+                "Link": "https://simpleprogrammer.com/freelancing-business/"
               }
             ]
           }
