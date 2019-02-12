@@ -223,7 +223,7 @@
     },
     "id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1549919280000,
+    "last_edited_time": 1549960020000,
     "parent_id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
     "parent_table": "block",
     "properties": {
@@ -239,7 +239,7 @@
       ]
     },
     "type": "page",
-    "version": 311,
+    "version": 316,
     "content_resolved": [
       {
         "alive": true,
@@ -745,13 +745,13 @@
         "created_time": 1532670001986,
         "id": "eadf9335-96d7-45b0-b7f4-f8b728e84f9e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670439113,
+        "last_edited_time": 1549960020000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -761,9 +761,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 7,
         "code": "typedef struct _IMAGE_DOS_HEADER {  // DOS .EXE header\n    USHORT e_magic;         // Magic number\n    USHORT e_cblp;          // Bytes on last page of file\n    USHORT e_cp;            // Pages in file\n    USHORT e_crlc;          // Relocations\n    USHORT e_cparhdr;       // Size of header in paragraphs\n    USHORT e_minalloc;      // Minimum extra paragraphs needed\n    USHORT e_maxalloc;      // Maximum extra paragraphs needed\n    USHORT e_ss;            // Initial (relative) SS value\n    USHORT e_sp;            // Initial SP value\n    USHORT e_csum;          // Checksum\n    USHORT e_ip;            // Initial IP value\n    USHORT e_cs;            // Initial (relative) CS value\n    USHORT e_lfarlc;        // File address of relocation table\n    USHORT e_ovno;          // Overlay number\n    USHORT e_res[4];        // Reserved words\n    USHORT e_oemid;         // OEM identifier (for e_oeminfo)\n    USHORT e_oeminfo;       // OEM information; e_oemid specific\n    USHORT e_res2[10];      // Reserved words\n    LONG   e_lfanew;        // File address of new exe header\n  } IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1035,13 +1035,13 @@
         "created_time": 1532670001986,
         "id": "c232d77c-54ab-4f59-a64a-dcee4fd22d2b",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670436289,
+        "last_edited_time": 1549960020000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1051,9 +1051,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "#define NTSIGNATURE(a) ((LPVOID)((BYTE *)a +    \\\n                        ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew))",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1133,13 +1133,13 @@
         "created_time": 1532670001987,
         "id": "d5aaf908-1503-4b48-ad2a-7d5ee0f7323f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670432149,
+        "last_edited_time": 1549960020000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1149,9 +1149,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "DWORD  WINAPI ImageFileType (\n    LPVOID    lpFile)\n{\n    /* DOS file signature comes first. */\n    if (*(USHORT *)lpFile == IMAGE_DOS_SIGNATURE)\n        {\n        /* Determine location of PE File header from\n           DOS header. */\n        if (LOWORD (*(DWORD *)NTSIGNATURE (lpFile)) ==\n                                IMAGE_OS2_SIGNATURE ||\n            LOWORD (*(DWORD *)NTSIGNATURE (lpFile)) ==\n                             IMAGE_OS2_SIGNATURE_LE)\n            return (DWORD)LOWORD(*(DWORD *)NTSIGNATURE (lpFile));\n\n        else if (*(DWORD *)NTSIGNATURE (lpFile) ==\n                            IMAGE_NT_SIGNATURE)\n            return IMAGE_NT_SIGNATURE;\n\n        else\n            return IMAGE_DOS_SIGNATURE;\n        }\n\n    else\n        /* unknown file type */\n        return 0;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1231,13 +1231,13 @@
         "created_time": 1532670001987,
         "id": "90c21dd2-a2a1-4828-b18a-2da98402a6b6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670429629,
+        "last_edited_time": 1549960020000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1247,9 +1247,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "#define IMAGE_DOS_SIGNATURE             0x5A4D      // MZ\n#define IMAGE_OS2_SIGNATURE             0x454E      // NE\n#define IMAGE_OS2_SIGNATURE_LE          0x454C      // LE\n#define IMAGE_NT_SIGNATURE              0x00004550  // PE00",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1305,13 +1305,13 @@
         "created_time": 1532670001987,
         "id": "eab0c6af-d766-4e98-b6f8-a3af8d95bde5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670427301,
+        "last_edited_time": 1549960020000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1321,9 +1321,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "#define PEFHDROFFSET(a) ((LPVOID)((BYTE *)a +  \\\n    ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew + SIZE_OF_NT_SIGNATURE))",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1379,13 +1379,13 @@
         "created_time": 1532670001987,
         "id": "ddaaa68b-85fe-4d1d-bfd4-9f42766a127a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670423514,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1395,9 +1395,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "PIMAGE_FILE_HEADER   pfh;\n\npfh = (PIMAGE_FILE_HEADER)PEFHDROFFSET (lpFile);",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1483,13 +1483,13 @@
         "created_time": 1532670001987,
         "id": "c8911fea-f581-4b64-93b6-dcc113ca7e86",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670420944,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1499,9 +1499,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_FILE_HEADER {\n    USHORT  Machine;\n    USHORT  NumberOfSections;\n    ULONG   TimeDateStamp;\n    ULONG   PointerToSymbolTable;\n    ULONG   NumberOfSymbols;\n    USHORT  SizeOfOptionalHeader;\n    USHORT  Characteristics;\n} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;\n\n#define IMAGE_SIZEOF_FILE_HEADER             20",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1671,13 +1671,13 @@
         "created_time": 1532670001987,
         "id": "317beb0d-09c6-44b9-ac15-111f6302a24c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670418126,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1687,9 +1687,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int   WINAPI NumOfSections (\n    LPVOID    lpFile)\n{\n    /* Number of sections is indicated in file header. */\n    return (int)((PIMAGE_FILE_HEADER)\n                  PEFHDROFFSET (lpFile))-\u003eNumberOfSections);\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1805,13 +1805,13 @@
         "created_time": 1532670001988,
         "id": "ac90878b-0c0d-4fbf-b7f7-44ead4999c12",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670002606,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "C++"
             ]
           ],
           "title": [
@@ -1821,9 +1821,9 @@
           ]
         },
         "type": "code",
-        "version": 2,
+        "version": 4,
         "code": "#define OPTHDROFFSET(a) ((LPVOID)((BYTE *)a                 + \\\n    ((PIMAGE_DOS_HEADER)a)-\u003ee_lfanew + SIZE_OF_NT_SIGNATURE + \\\n    sizeof (IMAGE_FILE_HEADER)))",
-        "code_language": "Plain Text"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -1903,13 +1903,13 @@
         "created_time": 1532670001988,
         "id": "874bfe6f-d5d6-49f8-a30c-9cce0954c281",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670413213,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -1919,9 +1919,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_OPTIONAL_HEADER {\n    //\n    // Standard fields.\n    //\n    USHORT  Magic;\n    UCHAR   MajorLinkerVersion;\n    UCHAR   MinorLinkerVersion;\n    ULONG   SizeOfCode;\n    ULONG   SizeOfInitializedData;\n    ULONG   SizeOfUninitializedData;\n    ULONG   AddressOfEntryPoint;\n    ULONG   BaseOfCode;\n    ULONG   BaseOfData;\n    //\n    // NT additional fields.\n    //\n    ULONG   ImageBase;\n    ULONG   SectionAlignment;\n    ULONG   FileAlignment;\n    USHORT  MajorOperatingSystemVersion;\n    USHORT  MinorOperatingSystemVersion;\n    USHORT  MajorImageVersion;\n    USHORT  MinorImageVersion;\n    USHORT  MajorSubsystemVersion;\n    USHORT  MinorSubsystemVersion;\n    ULONG   Reserved1;\n    ULONG   SizeOfImage;\n    ULONG   SizeOfHeaders;\n    ULONG   CheckSum;\n    USHORT  Subsystem;\n    USHORT  DllCharacteristics;\n    ULONG   SizeOfStackReserve;\n    ULONG   SizeOfStackCommit;\n    ULONG   SizeOfHeapReserve;\n    ULONG   SizeOfHeapCommit;\n    ULONG   LoaderFlags;\n    ULONG   NumberOfRvaAndSizes;\n    IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];\n} IMAGE_OPTIONAL_HEADER, *PIMAGE_OPTIONAL_HEADER;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -3313,13 +3313,13 @@
         "created_time": 1532670001991,
         "id": "a2305bae-79fe-4ac8-854c-8cfff1c4cf62",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670408497,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -3329,9 +3329,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "// Directory Entries\n\n// Export Directory\n#define IMAGE_DIRECTORY_ENTRY_EXPORT         0\n// Import Directory\n#define IMAGE_DIRECTORY_ENTRY_IMPORT         1\n// Resource Directory\n#define IMAGE_DIRECTORY_ENTRY_RESOURCE       2\n// Exception Directory\n#define IMAGE_DIRECTORY_ENTRY_EXCEPTION      3\n// Security Directory\n#define IMAGE_DIRECTORY_ENTRY_SECURITY       4\n// Base Relocation Table\n#define IMAGE_DIRECTORY_ENTRY_BASERELOC      5\n// Debug Directory\n#define IMAGE_DIRECTORY_ENTRY_DEBUG          6\n// Description String\n#define IMAGE_DIRECTORY_ENTRY_COPYRIGHT      7\n// Machine Value (MIPS GP)\n#define IMAGE_DIRECTORY_ENTRY_GLOBALPTR      8\n// TLS Directory\n#define IMAGE_DIRECTORY_ENTRY_TLS            9\n// Load Configuration Directory\n#define IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG    10",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -3411,13 +3411,13 @@
         "created_time": 1532670001991,
         "id": "11ea6cb4-8460-470a-b8ff-09b1106cfacc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670405647,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -3427,9 +3427,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_DATA_DIRECTORY {\n    ULONG   VirtualAddress;\n    ULONG   Size;\n} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -3623,13 +3623,13 @@
         "created_time": 1532670001992,
         "id": "8ec5fe49-efcf-4925-889d-ab83dd8d9706",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670402160,
+        "last_edited_time": 1549959960000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -3639,9 +3639,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "#define IMAGE_SIZEOF_SHORT_NAME              8\n\ntypedef struct _IMAGE_SECTION_HEADER {\n    UCHAR   Name[IMAGE_SIZEOF_SHORT_NAME];\n    union {\n            ULONG   PhysicalAddress;\n            ULONG   VirtualSize;\n    } Misc;\n    ULONG   VirtualAddress;\n    ULONG   SizeOfRawData;\n    ULONG   PointerToRawData;\n    ULONG   PointerToRelocations;\n    ULONG   PointerToLinenumbers;\n    USHORT  NumberOfRelocations;\n    USHORT  NumberOfLinenumbers;\n    ULONG   Characteristics;\n} IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -3673,13 +3673,13 @@
         "created_time": 1532670001992,
         "id": "b5ad8341-cbb1-4b5e-821e-b31061dbddc6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670398794,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -3689,9 +3689,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "BOOL    WINAPI GetSectionHdrByName (\n    LPVOID                   lpFile,\n    IMAGE_SECTION_HEADER     *sh,\n    char                     *szSection)\n{\n    PIMAGE_SECTION_HEADER    psh;\n    int                      nSections = NumOfSections (lpFile);\n    int                      i;\n\n\n    if ((psh = (PIMAGE_SECTION_HEADER)SECHDROFFSET (lpFile)) !=\n         NULL)\n        {\n        /* find the section by name */\n        for (i=0; i\u003cnSections; i++)\n            {\n            if (!strcmp (psh-\u003eName, szSection))\n                {\n                /* copy data to header */\n                CopyMemory ((LPVOID)sh,\n                            (LPVOID)psh,\n                            sizeof (IMAGE_SECTION_HEADER));\n                return TRUE;\n                }\n            else\n                psh++;\n            }\n        }\n\n    return FALSE;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -4741,13 +4741,13 @@
         "created_time": 1532670001993,
         "id": "636ad793-f8ea-4aa5-9ed8-b7970635bd6c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670386497,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -4757,9 +4757,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "LPVOID  WINAPI ImageDirectoryOffset (\n        LPVOID    lpFile,\n        DWORD     dwIMAGE_DIRECTORY)\n{\n    PIMAGE_OPTIONAL_HEADER   poh;\n    PIMAGE_SECTION_HEADER    psh;\n    int                      nSections = NumOfSections (lpFile);\n    int                      i = 0;\n    LPVOID                   VAImageDir;\n\n    /* Must be 0 thru (NumberOfRvaAndSizes-1). */\n    if (dwIMAGE_DIRECTORY \u003e= poh-\u003eNumberOfRvaAndSizes)\n        return NULL;\n\n    /* Retrieve offsets to optional and section headers. */\n    poh = (PIMAGE_OPTIONAL_HEADER)OPTHDROFFSET (lpFile);\n    psh = (PIMAGE_SECTION_HEADER)SECHDROFFSET (lpFile);\n\n    /* Locate image directory's relative virtual address. */\n    VAImageDir = (LPVOID)poh-\u003eDataDirectory\n                       [dwIMAGE_DIRECTORY].VirtualAddress;\n\n    /* Locate section containing image directory. */\n    while (i++\u003cnSections)\n        {\n        if (psh-\u003eVirtualAddress \u003c= (DWORD)VAImageDir \u0026\u0026\n            psh-\u003eVirtualAddress +\n                 psh-\u003eSizeOfRawData \u003e (DWORD)VAImageDir)\n            break;\n        psh++;\n        }\n\n    if (i \u003e nSections)\n        return NULL;\n\n    /* Return image import directory offset. */\n    return (LPVOID)(((int)lpFile +\n                     (int)VAImageDir. psh-\u003eVirtualAddress) +\n                    (int)psh-\u003ePointerToRawData);\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -5145,13 +5145,13 @@
         "created_time": 1532670001994,
         "id": "6e3e4f8e-7bd0-4cd9-8cfa-989ac134d845",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670381351,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -5161,9 +5161,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_RESOURCE_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    USHORT  NumberOfNamedEntries;\n    USHORT  NumberOfIdEntries;\n} IMAGE_RESOURCE_DIRECTORY, *PIMAGE_RESOURCE_DIRECTORY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -5303,13 +5303,13 @@
         "created_time": 1532670001994,
         "id": "300f6925-6aff-40d9-8c00-c91fc576ca51",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670377169,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -5319,9 +5319,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_RESOURCE_DIRECTORY_ENTRY {\n    ULONG   Name;\n    ULONG   OffsetToData;\n} IMAGE_RESOURCE_DIRECTORY_ENTRY, *PIMAGE_RESOURCE_DIRECTORY_ENTRY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -5449,13 +5449,13 @@
         "created_time": 1532670001995,
         "id": "68cd4067-2fa0-4b93-8da3-935df040067e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670374681,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -5465,9 +5465,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_RESOURCE_DATA_ENTRY {\n    ULONG   OffsetToData;\n    ULONG   Size;\n    ULONG   CodePage;\n    ULONG   Reserved;\n} IMAGE_RESOURCE_DATA_ENTRY, *PIMAGE_RESOURCE_DATA_ENTRY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -5745,13 +5745,13 @@
         "created_time": 1532670001995,
         "id": "b9650235-b65d-4b48-b4e5-1f258ade0ff0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670369221,
+        "last_edited_time": 1549959900000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -5761,9 +5761,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "/*\n * Predefined Resource Types\n */\n#define RT_CURSOR           MAKEINTRESOURCE(1)\n#define RT_BITMAP           MAKEINTRESOURCE(2)\n#define RT_ICON             MAKEINTRESOURCE(3)\n#define RT_MENU             MAKEINTRESOURCE(4)\n#define RT_DIALOG           MAKEINTRESOURCE(5)\n#define RT_STRING           MAKEINTRESOURCE(6)\n#define RT_FONTDIR          MAKEINTRESOURCE(7)\n#define RT_FONT             MAKEINTRESOURCE(8)\n#define RT_ACCELERATOR      MAKEINTRESOURCE(9)\n#define RT_RCDATA           MAKEINTRESOURCE(10)\n#define RT_MESSAGETABLE     MAKEINTRESOURCE(11)",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -5927,13 +5927,13 @@
         "created_time": 1532670001995,
         "id": "7afce9dd-5703-4468-83e7-75cdaf5d7dd8",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670366113,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -5943,9 +5943,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_RESOURCE_DIR_STRING_U {\n    USHORT  Length;\n    WCHAR   NameString[ 1 ];\n} IMAGE_RESOURCE_DIR_STRING_U, *PIMAGE_RESOURCE_DIR_STRING_U;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -6223,13 +6223,13 @@
         "created_time": 1532670001996,
         "id": "f9d09321-4041-41aa-8964-95e13b91ee85",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670361479,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -6239,9 +6239,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int     WINAPI GetListOfResourceTypes (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszResTypes)\n{\n    PIMAGE_RESOURCE_DIRECTORY          prdRoot;\n    PIMAGE_RESOURCE_DIRECTORY_ENTRY    prde;\n    char                               *pMem;\n    int                                nCnt, i;\n\n\n    /* Get root directory of resource tree. */\n    if ((prdRoot = PIMAGE_RESOURCE_DIRECTORY)ImageDirectoryOffset\n           (lpFile, IMAGE_DIRECTORY_ENTRY_RESOURCE)) == NULL)\n        return 0;\n\n    /* Allocate enough space from heap to cover all types. */\n    nCnt = prdRoot-\u003eNumberOfIdEntries * (MAXRESOURCENAME + 1);\n    *pszResTypes = (char *)HeapAlloc (hHeap,\n                                      HEAP_ZERO_MEMORY,\n                                      nCnt);\n    if ((pMem = *pszResTypes) == NULL)\n        return 0;\n\n    /* Set pointer to first resource type entry. */\n    prde = (PIMAGE_RESOURCE_DIRECTORY_ENTRY)((DWORD)prdRoot +\n               sizeof (IMAGE_RESOURCE_DIRECTORY));\n\n    /* Loop through all resource directory entry types. */\n    for (i=0; i\u003cprdRoot-\u003eNumberOfIdEntries; i++)\n        {\n        if (LoadString (hDll, prde-\u003eName, pMem, MAXRESOURCENAME))\n            pMem += strlen (pMem) + 1;\n\n        prde++;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -6393,13 +6393,13 @@
         "created_time": 1532670001996,
         "id": "20bc3121-eb7a-4368-ad40-f5491d10cfd7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670358137,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -6409,9 +6409,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_EXPORT_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    ULONG   Name;\n    ULONG   Base;\n    ULONG   NumberOfFunctions;\n    ULONG   NumberOfNames;\n    PULONG  *AddressOfFunctions;\n    PULONG  *AddressOfNames;\n    PUSHORT *AddressOfNameOrdinals;\n} IMAGE_EXPORT_DIRECTORY, *PIMAGE_EXPORT_DIRECTORY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -6599,13 +6599,13 @@
         "created_time": 1532670001997,
         "id": "93f6d6b2-03cb-4d19-a810-9746f8fea718",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670354062,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -6615,9 +6615,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int  WINAPI GetExportFunctionNames (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszFunctions)\n{\n    IMAGE_SECTION_HEADER       sh;\n    PIMAGE_EXPORT_DIRECTORY    ped;\n    char                       *pNames, *pCnt;\n    int                        i, nCnt;\n\n    /* Get section header and pointer to data directory\n       for .edata section. */\n    if ((ped = (PIMAGE_EXPORT_DIRECTORY)ImageDirectoryOffset\n            (lpFile, IMAGE_DIRECTORY_ENTRY_EXPORT)) == NULL)\n        return 0;\n    GetSectionHdrByName (lpFile, \u0026sh, \".edata\");\n\n    /* Determine the offset of the export function names. */\n    pNames = (char *)(*(int *)((int)ped-\u003eAddressOfNames -\n                               (int)sh.VirtualAddress   +\n                               (int)sh.PointerToRawData +\n                               (int)lpFile)    -\n                      (int)sh.VirtualAddress   +\n                      (int)sh.PointerToRawData +\n                      (int)lpFile);\n\n    /* Figure out how much memory to allocate for all strings. */\n    pCnt = pNames;\n    for (i=0; i\u003c(int)ped-\u003eNumberOfNames; i++)\n        while (*pCnt++);\n    nCnt = (int)(pCnt. pNames);\n\n    /* Allocate memory off heap for function names. */\n    *pszFunctions = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nCnt);\n\n    /* Copy all strings to buffer. */\n    CopyMemory ((LPVOID)*pszFunctions, (LPVOID)pNames, nCnt);\n\n    return nCnt;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -6727,13 +6727,13 @@
         "created_time": 1532670001997,
         "id": "5399294a-fdaa-47aa-bf51-62b52b091777",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670351517,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -6743,9 +6743,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct tagImportDirectory\n    {\n    DWORD    dwRVAFunctionNameList;\n    DWORD    dwUseless1;\n    DWORD    dwUseless2;\n    DWORD    dwRVAModuleName;\n    DWORD    dwRVAFunctionAddressList;\n    }IMAGE_IMPORT_MODULE_DIRECTORY,\n     * PIMAGE_IMPORT_MODULE_DIRECTORY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -6867,13 +6867,13 @@
         "created_time": 1532670001997,
         "id": "ef16eba5-49b2-46cb-8b13-517f3e83cc2c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670346499,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -6883,9 +6883,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int  WINAPI GetImportModuleNames (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszModules)\n{\n    PIMAGE_IMPORT_MODULE_DIRECTORY  pid;\n    IMAGE_SECTION_HEADER            idsh;\n    BYTE                            *pData;\n    int                             nCnt = 0, nSize = 0, i;\n    char                            *pModule[1024];\n    char                            *psz;\n\n    pid = (PIMAGE_IMPORT_MODULE_DIRECTORY)ImageDirectoryOffset\n             (lpFile, IMAGE_DIRECTORY_ENTRY_IMPORT);\n    pData = (BYTE *)pid;\n\n    /* Locate section header for \".idata\" section. */\n    if (!GetSectionHdrByName (lpFile, \u0026idsh, \".idata\"))\n        return 0;\n\n    /* Extract all import modules. */\n    while (pid-\u003edwRVAModuleName)\n        {\n        /* Allocate buffer for absolute string offsets. */\n        pModule[nCnt] = (char *)(pData +\n               (pid-\u003edwRVAModuleName-idsh.VirtualAddress));\n        nSize += strlen (pModule[nCnt]) + 1;\n\n        /* Increment to the next import directory entry. */\n        pid++;\n        nCnt++;\n        }\n\n    /* Copy all strings to one chunk of heap memory. */\n    *pszModules = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nSize);\n    psz = *pszModules;\n    for (i=0; i\u003cnCnt; i++)\n        {\n        strcpy (psz, pModule[i]);\n        psz += strlen (psz) + 1;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -7183,13 +7183,13 @@
         "created_time": 1532670001998,
         "id": "9e9a1751-d595-44bc-9b2b-c8caede5a297",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670311559,
+        "last_edited_time": 1549959780000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -7199,9 +7199,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int  WINAPI GetImportFunctionNamesByModule (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      *pszModule,\n    char      **pszFunctions)\n{\n    PIMAGE_IMPORT_MODULE_DIRECTORY  pid;\n    IMAGE_SECTION_HEADER     idsh;\n    DWORD                    dwBase;\n    int                      nCnt = 0, nSize = 0;\n    DWORD                    dwFunction;\n    char                     *psz;\n\n\n    /* Locate section header for \".idata\" section. */\n    if (!GetSectionHdrByName (lpFile, \u0026idsh, \".idata\"))\n        return 0;\n\n    pid = (PIMAGE_IMPORT_MODULE_DIRECTORY)ImageDirectoryOffset\n             (lpFile, IMAGE_DIRECTORY_ENTRY_IMPORT);\n\n    dwBase = ((DWORD)pid. idsh.VirtualAddress);\n\n    /* Find module's pid. */\n    while (pid-\u003edwRVAModuleName \u0026\u0026\n           strcmp (pszModule,\n                  (char *)(pid-\u003edwRVAModuleName+dwBase)))\n        pid++;\n\n    /* Exit if the module is not found. */\n    if (!pid-\u003edwRVAModuleName)\n        return 0;\n\n    /* Count number of function names and length of strings. */\n    dwFunction = pid-\u003edwRVAFunctionNameList;\n    while (dwFunction                      \u0026\u0026\n           *(DWORD *)(dwFunction + dwBase) \u0026\u0026\n           *(char *)((*(DWORD *)(dwFunction + dwBase)) +\n            dwBase+2))\n        {\n        nSize += strlen ((char *)((*(DWORD *)(dwFunction +\n             dwBase)) + dwBase+2)) + 1;\n        dwFunction += 4;\n        nCnt++;\n        }\n\n    /* Allocate memory off heap for function names. */\n    *pszFunctions = HeapAlloc (hHeap, HEAP_ZERO_MEMORY, nSize);\n    psz = *pszFunctions;\n\n    /* Copy function names to memory pointer. */\n    dwFunction = pid-\u003edwRVAFunctionNameList;\n    while (dwFunction                      \u0026\u0026\n           *(DWORD *)(dwFunction + dwBase) \u0026\u0026\n           *((char *)((*(DWORD *)(dwFunction + dwBase)) +\n            dwBase+2)))\n        {\n        strcpy (psz, (char *)((*(DWORD *)(dwFunction + dwBase)) +\n                dwBase+2));\n        psz += strlen((char *)((*(DWORD *)(dwFunction + dwBase))+\n                dwBase+2)) + 1;\n        dwFunction += 4;\n        }\n\n    return nCnt;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -7383,13 +7383,13 @@
         "created_time": 1532670001998,
         "id": "d1a91f84-6a66-4398-bd14-9d1630967ead",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670319013,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -7399,9 +7399,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "typedef struct _IMAGE_DEBUG_DIRECTORY {\n    ULONG   Characteristics;\n    ULONG   TimeDateStamp;\n    USHORT  MajorVersion;\n    USHORT  MinorVersion;\n    ULONG   Type;\n    ULONG   SizeOfData;\n    ULONG   AddressOfRawData;\n    ULONG   PointerToRawData;\n} IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY;",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -7463,13 +7463,13 @@
         "created_time": 1532670001998,
         "id": "6239a85f-d84b-4b04-b12f-c6abf7e193f2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670322001,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -7479,9 +7479,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "#define IMAGE_DEBUG_TYPE_UNKNOWN          0\n#define IMAGE_DEBUG_TYPE_COFF             1\n#define IMAGE_DEBUG_TYPE_CODEVIEW         2\n#define IMAGE_DEBUG_TYPE_FPO              3\n#define IMAGE_DEBUG_TYPE_MISC             4",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
@@ -7651,13 +7651,13 @@
         "created_time": 1532670001998,
         "id": "ef1fd30f-8773-4230-ac47-f111b00c0e97",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532670327297,
+        "last_edited_time": 1549959840000,
         "parent_id": "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Java/C/C++/C#"
+              "C++"
             ]
           ],
           "title": [
@@ -7667,9 +7667,9 @@
           ]
         },
         "type": "code",
-        "version": 4,
+        "version": 6,
         "code": "int    WINAPI RetrieveModuleName (\n    LPVOID    lpFile,\n    HANDLE    hHeap,\n    char      **pszModule)\n{\n\n    PIMAGE_DEBUG_DIRECTORY    pdd;\n    PIMAGE_DEBUG_MISC         pdm = NULL;\n    int                       nCnt;\n\n    if (!(pdd = (PIMAGE_DEBUG_DIRECTORY)ImageDirectoryOffset\n               (lpFile, IMAGE_DIRECTORY_ENTRY_DEBUG)))\n        return 0;\n\n    while (pdd-\u003eSizeOfData)\n        {\n        if (pdd-\u003eType == IMAGE_DEBUG_TYPE_MISC)\n            {\n            pdm = (PIMAGE_DEBUG_MISC)\n                ((DWORD)pdd-\u003ePointerToRawData + (DWORD)lpFile);\n\n            nCnt = lstrlen (pdm-\u003eData)*(pdm-\u003eUnicode?2:1);\n            *pszModule = (char *)HeapAlloc (hHeap,\n                                            HEAP_ZERO_MEMORY,\n                                            nCnt+1;\n            CopyMemory (*pszModule, pdm-\u003eData, nCnt);\n\n            break;\n            }\n\n        pdd ++;\n        }\n\n    if (pdm != NULL)\n        return nCnt;\n    else\n        return 0;\n}",
-        "code_language": "Java/C/C++/C#"
+        "code_language": "C++"
       },
       {
         "alive": true,
