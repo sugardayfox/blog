@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1549660620000,
+    "last_edited_time": 1550116980000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 84,
+    "version": 85,
     "content_resolved": [
       {
         "alive": true,
@@ -4093,13 +4093,15 @@
         "alive": true,
         "content": [
           "322e5db6-683c-441f-b3d5-11ff4f24af8a",
-          "e94d2dbd-5c02-4c42-99f2-19cd7a250d25"
+          "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
+          "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+          "8f417f48-0425-4754-b92b-f7b515592408"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1539060973569,
         "id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1549660620000,
+        "last_edited_time": 1550116980000,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -4110,7 +4112,7 @@
           ]
         },
         "type": "toggle",
-        "version": 32,
+        "version": 35,
         "content_resolved": [
           {
             "alive": true,
@@ -4173,6 +4175,50 @@
                 "Link": "https://simpleprogrammer.com/freelancing-business/"
               }
             ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1550116980000,
+            "id": "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1550116980000,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "type": "bulleted_list",
+            "version": 9
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1550116991205,
+            "format": {
+              "page_full_width": true,
+              "page_small_text": true
+            },
+            "id": "8f417f48-0425-4754-b92b-f7b515592408",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1550120820000,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Basics of freelancing"
+                ]
+              ]
+            },
+            "type": "page",
+            "version": 248,
+            "title": "Basics of freelancing",
+            "format_page": {
+              "page_cover": "",
+              "page_cover_position": 0,
+              "page_font": "",
+              "page_full_width": true,
+              "page_icon": "",
+              "page_small_text": true
+            }
           }
         ],
         "inline_content": [

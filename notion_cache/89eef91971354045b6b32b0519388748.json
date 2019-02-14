@@ -40,7 +40,7 @@
     },
     "id": "89eef919-7135-4045-b6b3-2b0519388748",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1544502897203,
+    "last_edited_time": 1550085600000,
     "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "parent_table": "block",
     "properties": {
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 78,
+    "version": 79,
     "content_resolved": [
       {
         "alive": true,
@@ -888,11 +888,30 @@
         "created_time": 1508275989270,
         "id": "8cbba8ea-7a47-49ee-9e6f-23d36e358ea9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1513828469235,
+        "last_edited_time": 1550085600000,
         "parent_id": "89eef919-7135-4045-b6b3-2b0519388748",
         "parent_table": "block",
-        "type": "text",
-        "version": 2
+        "properties": {
+          "title": [
+            [
+              "https://mxb.at/blog/css-grid-admin-dashboard/",
+              [
+                [
+                  "a",
+                  "https://mxb.at/blog/css-grid-admin-dashboard/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://mxb.at/blog/css-grid-admin-dashboard/",
+            "Link": "https://mxb.at/blog/css-grid-admin-dashboard/"
+          }
+        ]
       },
       {
         "alive": true,
