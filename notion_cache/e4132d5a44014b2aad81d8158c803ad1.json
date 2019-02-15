@@ -14,7 +14,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1549677180000,
+    "last_edited_time": 1550181240000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -25,7 +25,7 @@
       ]
     },
     "type": "page",
-    "version": 510,
+    "version": 513,
     "content_resolved": [
       {
         "alive": true,
@@ -75,7 +75,8 @@
               "e1cea37a-0533-4bf3-b148-badc4c486d32",
               "50fb1472-0dc5-4b20-8565-f3131b71dfda",
               "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
-              "b8509aba-aefe-4a70-8d5a-8684c1b68bc8"
+              "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
+              "92c58b71-a056-4755-beb3-da1a196b10ca"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1533799287746,
@@ -84,11 +85,11 @@
             },
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549676820000,
+            "last_edited_time": 1550181180000,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 222,
+            "version": 227,
             "content_resolved": [
               {
                 "alive": true,
@@ -11144,6 +11145,78 @@
                 "inline_content": [
                   {
                     "Text": "web version of gotop"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "content": [
+                  "81923859-30d3-422a-98b9-4c725915ca95"
+                ],
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550181120000,
+                "id": "92c58b71-a056-4755-beb3-da1a196b10ca",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550181180000,
+                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "mac gui over lsof"
+                    ]
+                  ]
+                },
+                "type": "toggle",
+                "version": 36,
+                "content_resolved": [
+                  {
+                    "alive": true,
+                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "created_time": 1550181180000,
+                    "id": "81923859-30d3-422a-98b9-4c725915ca95",
+                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                    "last_edited_time": 1550181240000,
+                    "parent_id": "92c58b71-a056-4755-beb3-da1a196b10ca",
+                    "parent_table": "block",
+                    "properties": {
+                      "title": [
+                        [
+                          "like "
+                        ],
+                        [
+                          "https://github.com/sveinbjornt/Sloth",
+                          [
+                            [
+                              "a",
+                              "https://github.com/sveinbjornt/Sloth"
+                            ]
+                          ]
+                        ],
+                        [
+                          " but using web view (in a skeleton objective-c app or lorca) to display data. better ui"
+                        ]
+                      ]
+                    },
+                    "type": "text",
+                    "version": 153,
+                    "inline_content": [
+                      {
+                        "Text": "like "
+                      },
+                      {
+                        "Text": "https://github.com/sveinbjornt/Sloth",
+                        "Link": "https://github.com/sveinbjornt/Sloth"
+                      },
+                      {
+                        "Text": " but using web view (in a skeleton objective-c app or lorca) to display data. better ui"
+                      }
+                    ]
+                  }
+                ],
+                "inline_content": [
+                  {
+                    "Text": "mac gui over lsof"
                   }
                 ]
               }
