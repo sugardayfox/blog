@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1550116980000,
+    "last_edited_time": 1550439060000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 85,
+    "version": 86,
     "content_resolved": [
       {
         "alive": true,
@@ -4182,11 +4182,49 @@
             "created_time": 1550116980000,
             "id": "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1550116980000,
+            "last_edited_time": 1550439060000,
             "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
             "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://kev.inburke.com/kevin/going-solo-successfully/",
+                  [
+                    [
+                      "a",
+                      "https://kev.inburke.com/kevin/going-solo-successfully/"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=19181931",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=19181931"
+                    ]
+                  ]
+                ]
+              ]
+            },
             "type": "bulleted_list",
-            "version": 9
+            "version": 14,
+            "inline_content": [
+              {
+                "Text": "https://kev.inburke.com/kevin/going-solo-successfully/",
+                "Link": "https://kev.inburke.com/kevin/going-solo-successfully/"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=19181931",
+                "Link": "https://news.ycombinator.com/item?id=19181931"
+              }
+            ]
           },
           {
             "alive": true,
