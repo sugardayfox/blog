@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "c6690fbf-02f6-442d-8648-7873539cec5b",
+      "e1cea37a-0533-4bf3-b148-badc4c486d32",
       "7b61f255-a1d2-499b-a820-d0961c476c37"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -14,7 +15,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1550181240000,
+    "last_edited_time": 1550610660000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -25,7 +26,7 @@
       ]
     },
     "type": "page",
-    "version": 513,
+    "version": 516,
     "content_resolved": [
       {
         "alive": true,
@@ -72,7 +73,6 @@
               "056cf732-a069-472d-961b-2effb9f5db23",
               "01cf1ba9-49da-44ba-a475-a2dcc9655856",
               "060a4743-9322-4d94-ac60-bba8121581e3",
-              "e1cea37a-0533-4bf3-b148-badc4c486d32",
               "50fb1472-0dc5-4b20-8565-f3131b71dfda",
               "acfa6091-8e32-4d9d-9a84-0a1f5449a1cf",
               "b8509aba-aefe-4a70-8d5a-8684c1b68bc8",
@@ -85,11 +85,11 @@
             },
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1550181180000,
+            "last_edited_time": 1550610660000,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 227,
+            "version": 229,
             "content_resolved": [
               {
                 "alive": true,
@@ -10714,139 +10714,6 @@
               },
               {
                 "alive": true,
-                "content": [
-                  "b4548a59-1209-4d44-aea0-cfeea04e8912"
-                ],
-                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "created_time": 1537550963624,
-                "id": "e1cea37a-0533-4bf3-b148-badc4c486d32",
-                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1540200099205,
-                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
-                "parent_table": "block",
-                "properties": {
-                  "title": [
-                    [
-                      "implemented",
-                      [
-                        [
-                          "b"
-                        ]
-                      ]
-                    ]
-                  ]
-                },
-                "type": "toggle",
-                "version": 49,
-                "content_resolved": [
-                  {
-                    "alive": true,
-                    "content": [
-                      "7ee8fd54-2246-46ce-b2d3-05d787b284d6",
-                      "7b1faac8-683d-4128-88df-6cfa237f29ff"
-                    ],
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1539454791245,
-                    "id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1540200106463,
-                    "parent_id": "e1cea37a-0533-4bf3-b148-badc4c486d32",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/miku/zek",
-                          [
-                            [
-                              "a",
-                              "https://github.com/miku/zek"
-                            ]
-                          ]
-                        ],
-                        [
-                          " web hosted"
-                        ]
-                      ]
-                    },
-                    "type": "toggle",
-                    "version": 53,
-                    "content_resolved": [
-                      {
-                        "alive": true,
-                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                        "created_time": 1539454811164,
-                        "id": "7ee8fd54-2246-46ce-b2d3-05d787b284d6",
-                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                        "last_edited_time": 1539454815943,
-                        "parent_id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
-                        "parent_table": "block",
-                        "properties": {
-                          "title": [
-                            [
-                              "add to online tools"
-                            ]
-                          ]
-                        },
-                        "type": "text",
-                        "version": 48,
-                        "inline_content": [
-                          {
-                            "Text": "add to online tools"
-                          }
-                        ]
-                      },
-                      {
-                        "alive": true,
-                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                        "created_time": 1539454798740,
-                        "id": "7b1faac8-683d-4128-88df-6cfa237f29ff",
-                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                        "last_edited_time": 1539454807912,
-                        "parent_id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
-                        "parent_table": "block",
-                        "properties": {
-                          "title": [
-                            [
-                              "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/",
-                              [
-                                [
-                                  "a",
-                                  "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/"
-                                ]
-                              ]
-                            ]
-                          ]
-                        },
-                        "type": "bulleted_list",
-                        "version": 20,
-                        "inline_content": [
-                          {
-                            "Text": "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/",
-                            "Link": "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/"
-                          }
-                        ]
-                      }
-                    ],
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/miku/zek",
-                        "Link": "https://github.com/miku/zek"
-                      },
-                      {
-                        "Text": " web hosted"
-                      }
-                    ]
-                  }
-                ],
-                "inline_content": [
-                  {
-                    "Text": "implemented",
-                    "AttrFlags": 1
-                  }
-                ]
-              },
-              {
-                "alive": true,
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1541575775060,
                 "format": {
@@ -15475,6 +15342,7 @@
                       "0fae18fe-e417-4ba5-b766-90b6071c8afd",
                       "db37cb20-486b-4fbb-9dc7-047147350efb",
                       "2789914b-e359-4f96-bb9a-0df34bcd98e6",
+                      "9769bc5a-3c0b-4e0b-a0ad-df221105b6d7",
                       "1bc88b6b-6391-417c-9c05-167474658b2f",
                       "40f1ff9a-0589-4ae1-b5d4-bdc49f61276a",
                       "b6b1289c-2815-4d67-a154-09b8763c0a32",
@@ -15502,7 +15370,7 @@
                     "created_time": 1531465999830,
                     "id": "c337addd-2c45-418b-b200-fd829b0b9324",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1540257292278,
+                    "last_edited_time": 1550610600000,
                     "parent_id": "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
                     "parent_table": "block",
                     "properties": {
@@ -15513,7 +15381,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 141,
+                    "version": 143,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -15918,6 +15786,56 @@
                         "inline_content": [
                           {
                             "Text": "Resources/competition/inspiration:"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1550610600000,
+                        "id": "9769bc5a-3c0b-4e0b-a0ad-df221105b6d7",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1550610600000,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://docs.gitpod.io/release_notes/2019-02-15/february-2019.html",
+                              [
+                                [
+                                  "a",
+                                  "https://docs.gitpod.io/release_notes/2019-02-15/february-2019.html"
+                                ]
+                              ]
+                            ],
+                            [
+                              " : nice documentation, generated with "
+                            ],
+                            [
+                              "https://github.com/rust-lang-nursery/mdBook/tree/master/src/theme",
+                              [
+                                [
+                                  "a",
+                                  "https://github.com/rust-lang-nursery/mdBook/tree/master/src/theme"
+                                ]
+                              ]
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 56,
+                        "inline_content": [
+                          {
+                            "Text": "https://docs.gitpod.io/release_notes/2019-02-15/february-2019.html",
+                            "Link": "https://docs.gitpod.io/release_notes/2019-02-15/february-2019.html"
+                          },
+                          {
+                            "Text": " : nice documentation, generated with "
+                          },
+                          {
+                            "Text": "https://github.com/rust-lang-nursery/mdBook/tree/master/src/theme",
+                            "Link": "https://github.com/rust-lang-nursery/mdBook/tree/master/src/theme"
                           }
                         ]
                       },
@@ -23329,6 +23247,139 @@
             "format_column": {
               "column_ratio": 0.5
             }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "b4548a59-1209-4d44-aea0-cfeea04e8912"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1537550963624,
+        "id": "e1cea37a-0533-4bf3-b148-badc4c486d32",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550610660000,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "implemented",
+              [
+                [
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 52,
+        "content_resolved": [
+          {
+            "alive": true,
+            "content": [
+              "7ee8fd54-2246-46ce-b2d3-05d787b284d6",
+              "7b1faac8-683d-4128-88df-6cfa237f29ff"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1539454791245,
+            "id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1540200106463,
+            "parent_id": "e1cea37a-0533-4bf3-b148-badc4c486d32",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/miku/zek",
+                  [
+                    [
+                      "a",
+                      "https://github.com/miku/zek"
+                    ]
+                  ]
+                ],
+                [
+                  " web hosted"
+                ]
+              ]
+            },
+            "type": "toggle",
+            "version": 53,
+            "content_resolved": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1539454811164,
+                "id": "7ee8fd54-2246-46ce-b2d3-05d787b284d6",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1539454815943,
+                "parent_id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "add to online tools"
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 48,
+                "inline_content": [
+                  {
+                    "Text": "add to online tools"
+                  }
+                ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1539454798740,
+                "id": "7b1faac8-683d-4128-88df-6cfa237f29ff",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1539454807912,
+                "parent_id": "b4548a59-1209-4d44-aea0-cfeea04e8912",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/",
+                      [
+                        [
+                          "a",
+                          "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/"
+                        ]
+                      ]
+                    ]
+                  ]
+                },
+                "type": "bulleted_list",
+                "version": 20,
+                "inline_content": [
+                  {
+                    "Text": "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/",
+                    "Link": "https://old.reddit.com/r/golang/comments/9n6e9o/xmltogo/"
+                  }
+                ]
+              }
+            ],
+            "inline_content": [
+              {
+                "Text": "https://github.com/miku/zek",
+                "Link": "https://github.com/miku/zek"
+              },
+              {
+                "Text": " web hosted"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "implemented",
+            "AttrFlags": 1
           }
         ]
       },
