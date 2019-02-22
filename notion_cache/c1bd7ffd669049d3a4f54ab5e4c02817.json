@@ -3,41 +3,7 @@
   "Root": {
     "alive": true,
     "content": [
-      "80fb9e16-8c2c-4005-8cbb-825542553d2b",
-      "de1d9858-dacd-48d5-93ec-7853ea646554",
-      "f14724e2-4a86-4901-b7e7-7e104e05aba8",
-      "ca928a6b-2c2c-45e5-88b8-6a95977d4e98",
-      "a8fa4d89-5fa6-4250-b2ef-01d58fd268b7",
-      "da977e52-c5a0-46b2-a02e-e18d3a88bdd9",
-      "e99d4925-1a29-4bd0-a063-c0e456a69f07",
-      "50e5f0c3-af1b-420d-b544-8707c98f1b50",
-      "ed666d46-976e-42e4-abf6-8ecb3aff6e79",
-      "af47e9e2-1016-422d-aa16-b667810383db",
-      "412e35dd-36ec-408d-943a-8ab9e4d7bda1",
-      "0abe2c66-8e22-44eb-8a60-b004e82c92dc",
-      "1014b6fb-7877-4e75-b608-d270cb436598",
-      "cfa1184e-ff4f-42a7-ae8c-5c3834ab61ad",
-      "34050d5a-b784-44c8-8199-5ce7c07b83e7",
-      "dd229806-0b33-40af-837f-a659d453e09d",
-      "0e207a84-de8c-4ab7-8e6d-cbb2a6d8da8d",
-      "43ee0047-909f-4755-9412-d1ed7f2196d2",
-      "11bbf405-fb2d-4c6d-b536-3f33326fb867",
-      "b1eb3bb9-2d98-4929-b701-624a6a5455bd",
-      "d3bc410d-2102-4ced-b70a-53a724c504dc",
-      "7e4addef-5976-42e2-8a2f-c094b8728362",
-      "0368cb66-a1f7-42f3-b9f5-8b90e05e47a4",
-      "b6b1a102-a390-4994-b44f-33c09b81cc10",
-      "85b9e2a4-c67e-415e-9f01-0ef9f8fc4663",
-      "ed82b9d1-9b58-4b46-a291-6769b0cd1273",
-      "ea37e64b-0509-4d7d-90c4-3ce26b8c85f1",
-      "5bfd4a7f-730f-4edc-af7e-e047b6343dce",
-      "71a77584-7dba-4984-b24f-b9d655e2d16f",
-      "4bd0d31c-dcec-4d63-88b3-1feab553a619",
-      "142b014e-97be-47b5-9ca1-8376fcb72c89",
-      "8c9a2eff-6fdb-4c68-a0cf-2d22aeee0173",
-      "e0e655e0-65cc-466e-af3b-571839dbc776",
-      "8211b59a-f185-4c7e-a474-b91b670a9f1a",
-      "2ba30b22-ace4-4ac0-a7e6-f334925a9f73"
+      "84404547-467c-49f3-81a6-ed0c867e3eca"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1512456553182,
@@ -47,7 +13,7 @@
     },
     "id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529120363819,
+    "last_edited_time": 1550820600000,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -58,882 +24,375 @@
       ]
     },
     "type": "page",
-    "version": 3,
+    "version": 50,
     "content_resolved": [
       {
         "alive": true,
+        "collection_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456563811,
-        "id": "80fb9e16-8c2c-4005-8cbb-825542553d2b",
+        "created_time": 1550819641621,
+        "id": "84404547-467c-49f3-81a6-ed0c867e3eca",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456563811,
+        "last_edited_time": 1550820900000,
         "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
         "parent_table": "block",
-        "type": "text",
-        "version": 0
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "de1d9858-dacd-48d5-93ec-7853ea646554",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://semaphoreci.com/:",
-              [
-                [
-                  "a",
-                  "https://semaphoreci.com/:"
+        "type": "collection_view",
+        "version": 10,
+        "view_ids": [
+          "1899c35a-d4db-4db5-b50a-1f8ae4c3d458"
+        ],
+        "collection_views": [
+          {
+            "CollectionView": {
+              "id": "1899c35a-d4db-4db5-b50a-1f8ae4c3d458",
+              "alive": true,
+              "format": {
+                "table_properties": [
+                  {
+                    "width": 276,
+                    "visible": true,
+                    "property": "title"
+                  },
+                  {
+                    "width": 200,
+                    "visible": true,
+                    "property": "yOev"
+                  },
+                  {
+                    "width": 242,
+                    "visible": true,
+                    "property": "`dq}"
+                  },
+                  {
+                    "width": 301,
+                    "visible": true,
+                    "property": "dsXj"
+                  }
+                ],
+                "table_wrap": true
+              },
+              "name": "Default View",
+              "page_sort": [
+                "3453e9ad-ee55-4074-8969-af04eba1b26d",
+                "799e449c-9a34-473c-bda6-983db4255638",
+                "5a238315-9f32-4107-924b-0aefd5214d09",
+                "d0915331-9004-44e2-b6f6-448ca82c0689",
+                "ac506a1d-3a70-4602-882f-71ea6485759f",
+                "45824515-ad88-490e-8aee-2295b9b15502",
+                "92bf35d5-72d6-451e-9cb7-97f92a9252a0"
+              ],
+              "parent_id": "84404547-467c-49f3-81a6-ed0c867e3eca",
+              "parent_table": "block",
+              "query": {
+                "aggregate": [
+                  {
+                    "aggregation_type": "count",
+                    "id": "count",
+                    "property": "title",
+                    "type": "title",
+                    "view_type": "table"
+                  }
                 ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://semaphoreci.com/:",
-            "Link": "https://semaphoreci.com/:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "f14724e2-4a86-4901-b7e7-7e104e05aba8",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$30/month for 1 box"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$30/month for 1 box"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "ca928a6b-2c2c-45e5-88b8-6a95977d4e98",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$99 for 2 boxes + docker support"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$99 for 2 boxes + docker support"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "a8fa4d89-5fa6-4250-b2ef-01d58fd268b7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "free for open source and 100 private builds"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "free for open source and 100 private builds"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "da977e52-c5a0-46b2-a02e-e18d3a88bdd9",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "looks well designed"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "looks well designed"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "e99d4925-1a29-4bd0-a063-c0e456a69f07",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "ubuntu 14.04 for build machines"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "ubuntu 14.04 for build machines"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "50e5f0c3-af1b-420d-b544-8707c98f1b50",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://codeship.com/:",
-              [
-                [
-                  "a",
-                  "https://codeship.com/:"
+              },
+              "type": "table",
+              "version": 27
+            },
+            "Collection": {
+              "alive": true,
+              "format": {
+                "collection_page_properties": [
+                  {
+                    "property": "yOev",
+                    "visible": true
+                  },
+                  {
+                    "property": "`dq}",
+                    "visible": true
+                  }
                 ]
-              ]
+              },
+              "id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+              "name": null,
+              "parent_id": "84404547-467c-49f3-81a6-ed0c867e3eca",
+              "parent_table": "block",
+              "schema": {
+                "`dq}": {
+                  "name": "Supported platforms",
+                  "options": null,
+                  "type": "text"
+                },
+                "dsXj": {
+                  "name": "Notes",
+                  "options": null,
+                  "type": "text"
+                },
+                "title": {
+                  "name": "Service",
+                  "options": null,
+                  "type": "title"
+                },
+                "yOev": {
+                  "name": "Cheapest plan",
+                  "options": null,
+                  "type": "text"
+                }
+              },
+              "version": 9
+            },
+            "CollectionRows": [
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550819641621,
+                "id": "3453e9ad-ee55-4074-8969-af04eba1b26d",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550819880000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Mac, Linux, iOS, windows (early)"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "free for open source"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "https://travis-ci.com/",
+                      [
+                        [
+                          "a",
+                          "https://travis-ci.com/"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "$69"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 63
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550819641621,
+                "id": "799e449c-9a34-473c-bda6-983db4255638",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550819880000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Windows, Linux"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "free for open source"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "https://www.appveyor.com/",
+                      [
+                        [
+                          "a",
+                          "https://www.appveyor.com/"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "$29 / $59"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 54
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550819641621,
+                "id": "5a238315-9f32-4107-924b-0aefd5214d09",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550820060000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Linux, Mac, Android"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "free for 16 build hrs, can run docker"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "https://circleci.com/",
+                      [
+                        [
+                          "a",
+                          "https://circleci.com/"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "$50"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 79
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550819940000,
+                "id": "d0915331-9004-44e2-b6f6-448ca82c0689",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550820240000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Linux, Mac"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "first 20 hr ($20) free"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "https://semaphoreci.com/",
+                      [
+                        [
+                          "a",
+                          "https://semaphoreci.com/"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "pay as you go, $20 per 20 hr"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 88
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550820120000,
+                "id": "ac506a1d-3a70-4602-882f-71ea6485759f",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550820540000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Linux, Docker in Pro"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "free for 1 concurrent build, 1 parallel test, limit 100 builds"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "http://codeship.com/",
+                      [
+                        [
+                          "a",
+                          "http://codeship.com/"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "$49"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 47
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550820360000,
+                "id": "45824515-ad88-490e-8aee-2295b9b15502",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550820900000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "properties": {
+                  "`dq}": [
+                    [
+                      "Linux"
+                    ]
+                  ],
+                  "dsXj": [
+                    [
+                      "built into GitHub, introduced in October 2018, still in beta"
+                    ]
+                  ],
+                  "title": [
+                    [
+                      "https://github.com/features/actions",
+                      [
+                        [
+                          "a",
+                          "https://github.com/features/actions"
+                        ]
+                      ]
+                    ]
+                  ],
+                  "yOev": [
+                    [
+                      "free so far"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 101
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1550820900000,
+                "id": "92bf35d5-72d6-451e-9cb7-97f92a9252a0",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1550820900000,
+                "parent_id": "8c29ee8e-ba48-4213-80d0-6b141351560f",
+                "parent_table": "collection",
+                "type": "page",
+                "version": 3
+              }
             ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://codeship.com/:",
-            "Link": "https://codeship.com/:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "ed666d46-976e-42e4-abf6-8ecb3aff6e79",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$0, 1 concurrent build, 1 parallel test, limit 100 builds"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$0, 1 concurrent build, 1 parallel test, limit 100 builds"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "af47e9e2-1016-422d-aa16-b667810383db",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$49 1 concurrent build, 2 paralles test"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$49 1 concurrent build, 2 paralles test"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "412e35dd-36ec-408d-943a-8ab9e4d7bda1",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$99 2 concurrent builds, 2 parallel test"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$99 2 concurrent builds, 2 parallel test"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "0abe2c66-8e22-44eb-8a60-b004e82c92dc",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "docker support: add $75"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "docker support: add $75"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "1014b6fb-7877-4e75-b608-d270cb436598",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://circleci.com/:",
-              [
-                [
-                  "a",
-                  "https://circleci.com/:"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://circleci.com/:",
-            "Link": "https://circleci.com/:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "cfa1184e-ff4f-42a7-ae8c-5c3834ab61ad",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$0, 1 container, 1 concurrent build, limit to 25 hrs of build time"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$0, 1 container, 1 concurrent build, limit to 25 hrs of build time"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "34050d5a-b784-44c8-8199-5ce7c07b83e7",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "add $50 for additional container"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "add $50 for additional container"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "dd229806-0b33-40af-837f-a659d453e09d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://travis-ci.org/:",
-              [
-                [
-                  "a",
-                  "https://travis-ci.org/:"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://travis-ci.org/:",
-            "Link": "https://travis-ci.org/:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "0e207a84-de8c-4ab7-8e6d-cbb2a6d8da8d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "free for open source"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "free for open source"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "43ee0047-909f-4755-9412-d1ed7f2196d2",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$69 1 concurent job"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$69 1 concurent job"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "11bbf405-fb2d-4c6d-b536-3f33326fb867",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$129 2 concurrent jobs"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$129 2 concurrent jobs"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "b1eb3bb9-2d98-4929-b701-624a6a5455bd",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "has osx builds"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "has osx builds"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "d3bc410d-2102-4ced-b70a-53a724c504dc",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "ubuntu 12.04 for container, ubuntu 12.04 or 14.04 for full vm"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "ubuntu 12.04 for container, ubuntu 12.04 or 14.04 for full vm"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "7e4addef-5976-42e2-8a2f-c094b8728362",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://drone.io/:",
-              [
-                [
-                  "a",
-                  "https://drone.io/:"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://drone.io/:",
-            "Link": "https://drone.io/:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "0368cb66-a1f7-42f3-b9f5-8b90e05e47a4",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "free for public projects"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "free for public projects"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "b6b1a102-a390-4994-b44f-33c09b81cc10",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$25 for 5 private projects"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$25 for 5 private projects"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "85b9e2a4-c67e-415e-9f01-0ef9f8fc4663",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$49 for unlimited private projects"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$49 for unlimited private projects"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "ed82b9d1-9b58-4b46-a291-6769b0cd1273",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "also self-hostd version"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "also self-hostd version"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "ea37e64b-0509-4d7d-90c4-3ce26b8c85f1",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "http://www.wercker.com/",
-              [
-                [
-                  "a",
-                  "http://www.wercker.com/"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "http://www.wercker.com/",
-            "Link": "http://www.wercker.com/"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "5bfd4a7f-730f-4edc-af7e-e047b6343dce",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "free for 2 concurrent jobs"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "free for 2 concurrent jobs"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "71a77584-7dba-4984-b24f-b9d655e2d16f",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$350 for unlimited"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$350 for unlimited"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "4bd0d31c-dcec-4d63-88b3-1feab553a619",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "https://www.appveyor.com/",
-              [
-                [
-                  "a",
-                  "https://www.appveyor.com/"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "https://www.appveyor.com/",
-            "Link": "https://www.appveyor.com/"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "142b014e-97be-47b5-9ca1-8376fcb72c89",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "windows support"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "windows support"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "8c9a2eff-6fdb-4c68-a0cf-2d22aeee0173",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$29/month, 1 private project"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$29/month, 1 private project"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "e0e655e0-65cc-466e-af3b-571839dbc776",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$59/month, unlimited projects, 1 concurrent"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$59/month, unlimited projects, 1 concurrent"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "8211b59a-f185-4c7e-a474-b91b670a9f1a",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "$99/month, unlimited projects, 2 concurrent"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "$99/month, unlimited projects, 2 concurrent"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1512456575189,
-        "id": "2ba30b22-ace4-4ac0-a7e6-f334925a9f73",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1512456575189,
-        "parent_id": "c1bd7ffd-6690-49d3-a4f5-4ab5e4c02817",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "free for open-source"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 0,
-        "inline_content": [
-          {
-            "Text": "free for open-source"
           }
         ]
       }

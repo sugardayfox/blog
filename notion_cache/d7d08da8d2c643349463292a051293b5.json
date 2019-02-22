@@ -19,17 +19,19 @@
       "abe3aa3e-a68c-48b7-8f0e-851ddc3f26b4",
       "2f81c8cb-1f7b-438b-8aeb-5b43a7465e06",
       "03689abe-5b55-472c-8ac1-f46cc48c0239",
-      "e3d5c1c3-52c6-4247-8725-35a93df21841"
+      "e3d5c1c3-52c6-4247-8725-35a93df21841",
+      "19873b3b-19f0-46e4-81bf-4ff22d645109"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1529896698833,
     "format": {
       "page_full_width": true,
-      "page_small_text": true
+      "page_small_text": true,
+      "page_cover_position": 0.1
     },
     "id": "d7d08da8-d2c6-4334-9463-292a051293b5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1529897944676,
+    "last_edited_time": 1550808780000,
     "parent_id": "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
     "parent_table": "block",
     "properties": {
@@ -40,7 +42,7 @@
       ]
     },
     "type": "page",
-    "version": 96,
+    "version": 102,
     "content_resolved": [
       {
         "alive": true,
@@ -549,12 +551,49 @@
             "Link": "http://hatriot.github.io/blog/2017/09/19/abusing-delay-load-dll/"
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1550807640000,
+        "id": "19873b3b-19f0-46e4-81bf-4ff22d645109",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1550807640000,
+        "parent_id": "d7d08da8-d2c6-4334-9463-292a051293b5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://pefrm-units.osdn.jp/pefrmdllembed.html",
+              [
+                [
+                  "a",
+                  "http://pefrm-units.osdn.jp/pefrmdllembed.html"
+                ]
+              ]
+            ],
+            [
+              " : takes exe and dll and creates an exe with dll embedded"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 76,
+        "inline_content": [
+          {
+            "Text": "http://pefrm-units.osdn.jp/pefrmdllembed.html",
+            "Link": "http://pefrm-units.osdn.jp/pefrmdllembed.html"
+          },
+          {
+            "Text": " : takes exe and dll and creates an exe with dll embedded"
+          }
+        ]
       }
     ],
     "title": "Embed dll in an exe",
     "format_page": {
       "page_cover": "",
-      "page_cover_position": 0,
+      "page_cover_position": 0.1,
       "page_font": "",
       "page_full_width": true,
       "page_icon": "",

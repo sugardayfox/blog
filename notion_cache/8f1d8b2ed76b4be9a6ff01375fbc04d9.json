@@ -593,11 +593,12 @@
         "created_time": 1529896698833,
         "format": {
           "page_full_width": true,
-          "page_small_text": true
+          "page_small_text": true,
+          "page_cover_position": 0.1
         },
         "id": "d7d08da8-d2c6-4334-9463-292a051293b5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1529897944676,
+        "last_edited_time": 1550808780000,
         "parent_id": "8f1d8b2e-d76b-4be9-a6ff-01375fbc04d9",
         "parent_table": "block",
         "properties": {
@@ -608,11 +609,11 @@
           ]
         },
         "type": "page",
-        "version": 96,
+        "version": 102,
         "title": "Embed dll in an exe",
         "format_page": {
           "page_cover": "",
-          "page_cover_position": 0,
+          "page_cover_position": 0.1,
           "page_font": "",
           "page_full_width": true,
           "page_icon": "",
