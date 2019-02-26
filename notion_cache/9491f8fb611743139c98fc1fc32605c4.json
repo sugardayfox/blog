@@ -16,7 +16,7 @@
     },
     "id": "9491f8fb-6117-4313-9c98-fc1fc32605c4",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1549142280000,
+    "last_edited_time": 1551165240000,
     "parent_id": "515006ec-a4e4-48fa-af52-65dce7674e79",
     "parent_table": "block",
     "properties": {
@@ -27,7 +27,7 @@
       ]
     },
     "type": "page",
-    "version": 165,
+    "version": 171,
     "content_resolved": [
       {
         "alive": true,
@@ -795,10 +795,6 @@
           "da3fb096-37bf-4199-9183-39b88432617a",
           "01b01e8a-8625-4d4f-ac41-8d2abea7b1c2",
           "4fbfc590-51e4-460f-82fd-eb7f1aea5093",
-          "91f1a260-affe-4357-b5a6-9bbbc66a5a07",
-          "3ec0f21a-092f-4cb1-9b8c-63beb394ec2e",
-          "ea1a0551-0c5b-4ca1-95d6-46cd554f7f3d",
-          "96c257c9-9570-4f8e-aa56-9dff7f40b4bf",
           "9196bee1-03a0-407d-b651-a8580322baad",
           "835f34c7-62ac-46dc-9f52-77a76acb8980",
           "cef6bde4-9e61-4c14-93ee-b6ee13f0be56",
@@ -811,7 +807,7 @@
         "created_time": 1530089602372,
         "id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1549141320000,
+        "last_edited_time": 1551165240000,
         "parent_id": "9491f8fb-6117-4313-9c98-fc1fc32605c4",
         "parent_table": "block",
         "properties": {
@@ -822,7 +818,7 @@
           ]
         },
         "type": "toggle",
-        "version": 67,
+        "version": 75,
         "content_resolved": [
           {
             "alive": true,
@@ -861,11 +857,20 @@
             "created_time": 1530089622740,
             "id": "59a8343a-c329-4acd-b2de-d6a748f22906",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
+            "last_edited_time": 1551164880000,
             "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
             "parent_table": "block",
             "properties": {
               "title": [
+                [
+                  "https://stackedit.io/app#, ",
+                  [
+                    [
+                      "a",
+                      "https://stackedit.io/app#"
+                    ]
+                  ]
+                ],
                 [
                   "https://github.com/benweet/stackedit",
                   [
@@ -878,8 +883,12 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 17,
+            "version": 21,
             "inline_content": [
+              {
+                "Text": "https://stackedit.io/app#, ",
+                "Link": "https://stackedit.io/app#"
+              },
               {
                 "Text": "https://github.com/benweet/stackedit",
                 "Link": "https://github.com/benweet/stackedit"
@@ -1022,7 +1031,7 @@
             "created_time": 1530089651714,
             "id": "4fbfc590-51e4-460f-82fd-eb7f1aea5093",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
+            "last_edited_time": 1551165240000,
             "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
             "parent_table": "block",
             "properties": {
@@ -1039,160 +1048,11 @@
               ]
             },
             "type": "bulleted_list",
-            "version": 17,
+            "version": 21,
             "inline_content": [
               {
                 "Text": "https://www.gitbook.com/book/kjk/test-book/edit#/edit/master/README.md",
                 "Link": "https://www.gitbook.com/book/kjk/test-book/edit#/edit/master/README.md"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1530089657874,
-            "id": "91f1a260-affe-4357-b5a6-9bbbc66a5a07",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
-            "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "https://fiddle.md/b836w36wh2h8mv3fj23t8r",
-                  [
-                    [
-                      "a",
-                      "https://fiddle.md/b836w36wh2h8mv3fj23t8r"
-                    ]
-                  ]
-                ],
-                [
-                  ", "
-                ],
-                [
-                  "https://news.ycombinator.com/item?id=9262260",
-                  [
-                    [
-                      "a",
-                      "https://news.ycombinator.com/item?id=9262260"
-                    ]
-                  ]
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 23,
-            "inline_content": [
-              {
-                "Text": "https://fiddle.md/b836w36wh2h8mv3fj23t8r",
-                "Link": "https://fiddle.md/b836w36wh2h8mv3fj23t8r"
-              },
-              {
-                "Text": ", "
-              },
-              {
-                "Text": "https://news.ycombinator.com/item?id=9262260",
-                "Link": "https://news.ycombinator.com/item?id=9262260"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1530089672322,
-            "id": "3ec0f21a-092f-4cb1-9b8c-63beb394ec2e",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
-            "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "http://auth0.github.io/mdocs2/#/new",
-                  [
-                    [
-                      "a",
-                      "http://auth0.github.io/mdocs2/#/new"
-                    ]
-                  ]
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 17,
-            "inline_content": [
-              {
-                "Text": "http://auth0.github.io/mdocs2/#/new",
-                "Link": "http://auth0.github.io/mdocs2/#/new"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1530089673297,
-            "id": "ea1a0551-0c5b-4ca1-95d6-46cd554f7f3d",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
-            "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "http://socrates.io/",
-                  [
-                    [
-                      "a",
-                      "http://socrates.io/"
-                    ]
-                  ]
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 17,
-            "inline_content": [
-              {
-                "Text": "http://socrates.io/",
-                "Link": "http://socrates.io/"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1530089678201,
-            "id": "96c257c9-9570-4f8e-aa56-9dff7f40b4bf",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141140000,
-            "parent_id": "2be8c857-effc-41e2-9aac-43c1a94c02e4",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "http://kjk.roughdraft.io/",
-                  [
-                    [
-                      "a",
-                      "http://kjk.roughdraft.io/"
-                    ]
-                  ]
-                ],
-                [
-                  " - a gist editor/preview"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 19,
-            "inline_content": [
-              {
-                "Text": "http://kjk.roughdraft.io/",
-                "Link": "http://kjk.roughdraft.io/"
-              },
-              {
-                "Text": " - a gist editor/preview"
               }
             ]
           },
@@ -1706,18 +1566,19 @@
       {
         "alive": true,
         "content": [
+          "830e76b1-f45e-4118-8508-39744cd19823",
+          "560fe3a7-f25b-418c-bc75-0bdf860a16a7",
           "9a397389-ae12-4e4e-9140-2c4f2dceea6d",
           "8f2fdaea-732b-40ad-9c42-cf2183485bd0",
           "968ef79e-0579-4df5-8bcf-150841807ea5",
           "8d625d54-a674-4047-98c1-5d4d09136e7a",
-          "560fe3a7-f25b-418c-bc75-0bdf860a16a7",
           "560e007b-38bd-4647-a640-bb84dadd83dc"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1549141140000,
         "id": "a1693189-656c-4b30-b5a1-f9cdf19a81ea",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1549141500000,
+        "last_edited_time": 1551164880000,
         "parent_id": "9491f8fb-6117-4313-9c98-fc1fc32605c4",
         "parent_table": "block",
         "properties": {
@@ -1728,8 +1589,82 @@
           ]
         },
         "type": "toggle",
-        "version": 36,
+        "version": 41,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1551164820000,
+            "id": "830e76b1-f45e-4118-8508-39744cd19823",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551164820000,
+            "parent_id": "a1693189-656c-4b30-b5a1-f9cdf19a81ea",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://markdowner.github.io/",
+                  [
+                    [
+                      "a",
+                      "https://markdowner.github.io/"
+                    ]
+                  ]
+                ],
+                [
+                  " : preview markdown ⇒ html"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 38,
+            "inline_content": [
+              {
+                "Text": "https://markdowner.github.io/",
+                "Link": "https://markdowner.github.io/"
+              },
+              {
+                "Text": " : preview markdown ⇒ html"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1530089427346,
+            "id": "560fe3a7-f25b-418c-bc75-0bdf860a16a7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551164880000,
+            "parent_id": "a1693189-656c-4b30-b5a1-f9cdf19a81ea",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "http://johnmacfarlane.net/babelmark2",
+                  [
+                    [
+                      "a",
+                      "http://johnmacfarlane.net/babelmark2"
+                    ]
+                  ]
+                ],
+                [
+                  " : compare various implementations"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 37,
+            "inline_content": [
+              {
+                "Text": "http://johnmacfarlane.net/babelmark2",
+                "Link": "http://johnmacfarlane.net/babelmark2"
+              },
+              {
+                "Text": " : compare various implementations"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -1875,43 +1810,6 @@
               },
               {
                 "Text": " : shows how different implementation parse the same markdown content"
-              }
-            ]
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1530089427346,
-            "id": "560fe3a7-f25b-418c-bc75-0bdf860a16a7",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1549141380000,
-            "parent_id": "a1693189-656c-4b30-b5a1-f9cdf19a81ea",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "http://johnmacfarlane.net/babelmark2",
-                  [
-                    [
-                      "a",
-                      "http://johnmacfarlane.net/babelmark2"
-                    ]
-                  ]
-                ],
-                [
-                  " : compare various implementations"
-                ]
-              ]
-            },
-            "type": "bulleted_list",
-            "version": 34,
-            "inline_content": [
-              {
-                "Text": "http://johnmacfarlane.net/babelmark2",
-                "Link": "http://johnmacfarlane.net/babelmark2"
-              },
-              {
-                "Text": " : compare various implementations"
               }
             ]
           },

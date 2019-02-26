@@ -9,6 +9,7 @@
       "8c63609c-679f-4a5a-929e-731d891c172f",
       "9b2dad07-3b20-49eb-8e7f-e2f37f118a2f",
       "b581742e-9f43-4912-9ada-9bdb27328398",
+      "383485cc-2a56-49e4-8141-4f236cf51a68",
       "89eef919-7135-4045-b6b3-2b0519388748",
       "3f416dd5-b84f-4ee2-a0e9-7ae1ee0bbdee",
       "3af433aa-634b-417c-9242-3446f488f442"
@@ -21,7 +22,7 @@
     },
     "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1550085600000,
+    "last_edited_time": 1551164700000,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -32,7 +33,7 @@
       ]
     },
     "type": "page",
-    "version": 12,
+    "version": 17,
     "content_resolved": [
       {
         "alive": true,
@@ -1064,6 +1065,79 @@
         "inline_content": [
           {
             "Text": "menus in css"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "ff977c91-ecdb-4b23-b930-f1846a6ced81",
+          "a9624f86-f337-40af-96c9-e431facd8cda"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1551164640000,
+        "id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1551164700000,
+        "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "tables"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 13,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1551164700000,
+            "id": "ff977c91-ecdb-4b23-b930-f1846a6ced81",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551164700000,
+            "parent_id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/",
+                  [
+                    [
+                      "a",
+                      "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/",
+                "Link": "https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1551164700000,
+            "id": "a9624f86-f337-40af-96c9-e431facd8cda",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551164700000,
+            "parent_id": "383485cc-2a56-49e4-8141-4f236cf51a68",
+            "parent_table": "block",
+            "type": "bulleted_list",
+            "version": 4
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "tables"
           }
         ]
       },
