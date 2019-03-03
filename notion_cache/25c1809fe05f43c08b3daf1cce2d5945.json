@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "f58e1916-95cf-4668-bd7d-76e423f0861a",
+      "2304e491-cb38-4051-8a58-34a46a7a6778",
       "16c75c6a-52e5-459c-b554-e6bfd1382817",
       "94214155-dc2a-4d66-98e8-399bd4bcd426",
       "4852bc19-a83f-45cd-87fd-5866c0e8e8ab",
@@ -28,7 +29,7 @@
     },
     "id": "25c1809f-e05f-43c0-8b3d-af1cce2d5945",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1548148740297,
+    "last_edited_time": 1551590700000,
     "parent_id": "6f70163e-a5b8-4ba9-928a-faa2e45d1f51",
     "parent_table": "block",
     "properties": {
@@ -39,7 +40,7 @@
       ]
     },
     "type": "page",
-    "version": 4,
+    "version": 8,
     "content_resolved": [
       {
         "alive": true,
@@ -62,6 +63,72 @@
         "inline_content": [
           {
             "Text": "Linklog:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "15d57e93-5725-4456-9673-feffc273a256"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1551590700000,
+        "id": "2304e491-cb38-4051-8a58-34a46a7a6778",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1551590700000,
+        "parent_id": "25c1809f-e05f-43c0-8b3d-af1cce2d5945",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "windows programming"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 28,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1551590700000,
+            "id": "15d57e93-5725-4456-9673-feffc273a256",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551590700000,
+            "parent_id": "2304e491-cb38-4051-8a58-34a46a7a6778",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://bitbucket.org/rj/goey",
+                  [
+                    [
+                      "a",
+                      "https://bitbucket.org/rj/goey"
+                    ]
+                  ]
+                ],
+                [
+                  " : "
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 15,
+            "inline_content": [
+              {
+                "Text": "https://bitbucket.org/rj/goey",
+                "Link": "https://bitbucket.org/rj/goey"
+              },
+              {
+                "Text": " : "
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "windows programming"
           }
         ]
       },
