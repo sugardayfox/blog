@@ -19,7 +19,7 @@
     },
     "id": "78416031-074a-4ffd-aea0-5cb899b68b20",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1546547360740,
+    "last_edited_time": 1551657960000,
     "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
     "parent_table": "block",
     "properties": {
@@ -30,7 +30,7 @@
       ]
     },
     "type": "page",
-    "version": 42,
+    "version": 43,
     "content_resolved": [
       {
         "alive": true,
@@ -1320,13 +1320,14 @@
           "6080894d-f117-40f6-8d04-452d693be5c1",
           "21beeeb5-3268-4382-8105-ca9d6b5eb5b1",
           "ae777659-fdfd-47f7-86a3-3dac8171120e",
-          "83d8e313-20e6-48bc-8e28-8184b631af58"
+          "83d8e313-20e6-48bc-8e28-8184b631af58",
+          "c04bc6b2-06aa-4947-90bd-b00adcb64cbc"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1529363134437,
         "id": "2d253658-a91d-4020-b39d-fa92fcea950c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535320683187,
+        "last_edited_time": 1551657960000,
         "parent_id": "78416031-074a-4ffd-aea0-5cb899b68b20",
         "parent_table": "block",
         "properties": {
@@ -1337,7 +1338,7 @@
           ]
         },
         "type": "toggle",
-        "version": 40,
+        "version": 42,
         "content_resolved": [
           {
             "alive": true,
@@ -1504,6 +1505,37 @@
               {
                 "Text": "https://www.reddit.com/r/golang/comments/8vgmpj/go_111_webassembly_for_the_gophers/",
                 "Link": "https://www.reddit.com/r/golang/comments/8vgmpj/go_111_webassembly_for_the_gophers/"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1551657960000,
+            "id": "c04bc6b2-06aa-4947-90bd-b00adcb64cbc",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1551657960000,
+            "parent_id": "2d253658-a91d-4020-b39d-fa92fcea950c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://dev.to/jeremylikness/gopher-meet-plasma-a-webassembly-experiment-4anl",
+                  [
+                    [
+                      "a",
+                      "https://dev.to/jeremylikness/gopher-meet-plasma-a-webassembly-experiment-4anl"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://dev.to/jeremylikness/gopher-meet-plasma-a-webassembly-experiment-4anl",
+                "Link": "https://dev.to/jeremylikness/gopher-meet-plasma-a-webassembly-experiment-4anl"
               }
             ]
           }
