@@ -1,0 +1,160 @@
+{
+  "ID": "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+  "Root": {
+    "alive": true,
+    "content": [
+      "1b95afdc-22bb-49f2-ba13-10c542cde7bb"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1552017696817,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1552017720000,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "GraphQL"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 23,
+    "content_resolved": [
+      {
+        "alive": true,
+        "content": [
+          "7e90c48b-397c-4abf-b62d-f87ffeab2ca6",
+          "fbed9fa8-a0ec-47dd-8ede-07909545e40c",
+          "11e3642e-77a7-41ce-9bf8-21800ed4c14d"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552017660000,
+        "id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552017720000,
+        "parent_id": "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 22,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552017720000,
+            "id": "7e90c48b-397c-4abf-b62d-f87ffeab2ca6",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552017720000,
+            "parent_id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.freecodecamp.org/deep-dive-into-graphql-with-golang-d3e02a429ac3",
+                  [
+                    [
+                      "a",
+                      "https://medium.freecodecamp.org/deep-dive-into-graphql-with-golang-d3e02a429ac3"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 9,
+            "inline_content": [
+              {
+                "Text": "https://medium.freecodecamp.org/deep-dive-into-graphql-with-golang-d3e02a429ac3",
+                "Link": "https://medium.freecodecamp.org/deep-dive-into-graphql-with-golang-d3e02a429ac3"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552017720000,
+            "id": "fbed9fa8-a0ec-47dd-8ede-07909545e40c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552017720000,
+            "parent_id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://graphql.github.io/learn/queries/#fragments",
+                  [
+                    [
+                      "a",
+                      "https://graphql.github.io/learn/queries/#fragments"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://graphql.github.io/learn/queries/#fragments",
+                "Link": "https://graphql.github.io/learn/queries/#fragments"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552017720000,
+            "id": "11e3642e-77a7-41ce-9bf8-21800ed4c14d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552017720000,
+            "parent_id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
+            "parent_table": "block",
+            "type": "text",
+            "version": 5
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Links"
+          }
+        ]
+      }
+    ],
+    "title": "GraphQL",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 18
+    }
+  ],
+  "Tables": null
+}

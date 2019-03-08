@@ -14,7 +14,7 @@
     },
     "id": "5be79f93-59c2-454e-8181-e841e607c33e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540088622525,
+    "last_edited_time": 1552001640000,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -25,7 +25,7 @@
       ]
     },
     "type": "page",
-    "version": 30,
+    "version": 35,
     "content_resolved": [
       {
         "alive": true,
@@ -61,61 +61,194 @@
       },
       {
         "alive": true,
+        "content": [
+          "0dc1dbf3-8e6a-4360-9e34-73cc021779f4",
+          "90580a0c-45ec-4694-a7b9-773d5c489e2d",
+          "d8052655-b0f4-4b99-957b-727fb93c2a99"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1540088622525,
         "id": "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1540088715560,
+        "last_edited_time": 1552001580000,
         "parent_id": "5be79f93-59c2-454e-8181-e841e607c33e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Format go files on save: Preferences, Tools / File Watches. Click add '+' button at the bottom and pick "
-            ],
-            [
-              "go fmt",
-              [
-                [
-                  "c"
-                ]
-              ]
-            ],
-            [
-              " from the list. This adds pre-built watcher that runs "
-            ],
-            [
-              "go fmt",
-              [
-                [
-                  "c"
-                ]
-              ]
-            ],
-            [
-              " on the file after file save."
+              "Format go files on save:"
             ]
           ]
         },
-        "type": "text",
-        "version": 558,
+        "type": "toggle",
+        "version": 569,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552001520000,
+            "id": "0dc1dbf3-8e6a-4360-9e34-73cc021779f4",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552001640000,
+            "parent_id": "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Menu "
+                ],
+                [
+                  "Preferences",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " (Mac), "
+                ],
+                [
+                  "File / Settings",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " (Win)"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 82,
+            "inline_content": [
+              {
+                "Text": "Menu "
+              },
+              {
+                "Text": "Preferences",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " (Mac), "
+              },
+              {
+                "Text": "File / Settings",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " (Win)"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552001580000,
+            "id": "90580a0c-45ec-4694-a7b9-773d5c489e2d",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552001640000,
+            "parent_id": "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Tools / File Watches",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  ". Click add "
+                ],
+                [
+                  "+",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " button and pick "
+                ],
+                [
+                  "go fmt",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " from the list. This adds pre-built watcher that runs "
+                ],
+                [
+                  "go fmt",
+                  [
+                    [
+                      "c"
+                    ]
+                  ]
+                ],
+                [
+                  " on the file after file save."
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 31,
+            "inline_content": [
+              {
+                "Text": "Tools / File Watches",
+                "AttrFlags": 2
+              },
+              {
+                "Text": ". Click add "
+              },
+              {
+                "Text": "+",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " button and pick "
+              },
+              {
+                "Text": "go fmt",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " from the list. This adds pre-built watcher that runs "
+              },
+              {
+                "Text": "go fmt",
+                "AttrFlags": 2
+              },
+              {
+                "Text": " on the file after file save."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552001580000,
+            "id": "d8052655-b0f4-4b99-957b-727fb93c2a99",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552001580000,
+            "parent_id": "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
+            "parent_table": "block",
+            "type": "text",
+            "version": 3
+          }
+        ],
         "inline_content": [
           {
-            "Text": "Format go files on save: Preferences, Tools / File Watches. Click add '+' button at the bottom and pick "
-          },
-          {
-            "Text": "go fmt",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " from the list. This adds pre-built watcher that runs "
-          },
-          {
-            "Text": "go fmt",
-            "AttrFlags": 2
-          },
-          {
-            "Text": " on the file after file save."
+            "Text": "Format go files on save:"
           }
         ]
       }
