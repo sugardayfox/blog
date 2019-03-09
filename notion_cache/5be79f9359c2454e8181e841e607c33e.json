@@ -4,7 +4,8 @@
     "alive": true,
     "content": [
       "1493daec-2c31-4c98-8b46-c9940f395bc8",
-      "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9"
+      "65ede322-7b66-4fb3-ad0d-1dc3f513a1f9",
+      "6e5258a4-b72e-443c-810b-b65a753f73bb"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1535586591127,
@@ -14,7 +15,7 @@
     },
     "id": "5be79f93-59c2-454e-8181-e841e607c33e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552001640000,
+    "last_edited_time": 1552098240000,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -25,7 +26,7 @@
       ]
     },
     "type": "page",
-    "version": 35,
+    "version": 39,
     "content_resolved": [
       {
         "alive": true,
@@ -251,6 +252,66 @@
             "Text": "Format go files on save:"
           }
         ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "9fd3bb96-212f-44f4-8f74-2f7227b80c8c"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552098240000,
+        "id": "6e5258a4-b72e-443c-810b-b65a753f73bb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552098240000,
+        "parent_id": "5be79f93-59c2-454e-8181-e841e607c33e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Links"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 13,
+        "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552098240000,
+            "id": "9fd3bb96-212f-44f4-8f74-2f7227b80c8c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552098240000,
+            "parent_id": "6e5258a4-b72e-443c-810b-b65a753f73bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://blog.jetbrains.com/go/2019/03/04/debugging-with-goland-advanced-debugging-features/",
+                  [
+                    [
+                      "a",
+                      "https://blog.jetbrains.com/go/2019/03/04/debugging-with-goland-advanced-debugging-features/"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "https://blog.jetbrains.com/go/2019/03/04/debugging-with-goland-advanced-debugging-features/",
+                "Link": "https://blog.jetbrains.com/go/2019/03/04/debugging-with-goland-advanced-debugging-features/"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Links"
+          }
+        ]
       }
     ],
     "title": "goland",
@@ -274,7 +335,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 18
+      "version": 19
     }
   ],
   "Tables": null
