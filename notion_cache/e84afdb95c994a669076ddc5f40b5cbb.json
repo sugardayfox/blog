@@ -7,6 +7,7 @@
       "1e0aa1fa-52b7-4a70-a170-55950ff48a1e",
       "ae08c9fd-f93d-40a3-a863-38351054f389",
       "388295ee-235b-49e4-acec-d210400be334",
+      "e62ab40c-b9ac-4075-8955-c17856b6e7da",
       "ea0704c7-1994-4821-b885-a815a134470a"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -17,7 +18,7 @@
     },
     "id": "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1546507381956,
+    "last_edited_time": 1552367400000,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -28,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 6,
+    "version": 8,
     "content_resolved": [
       {
         "alive": true,
@@ -150,6 +151,43 @@
           {
             "Text": "https://fluttercrashcourse.com/lessons/container-layout-column-row",
             "Link": "https://fluttercrashcourse.com/lessons/container-layout-column-row"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552367400000,
+        "id": "e62ab40c-b9ac-4075-8955-c17856b6e7da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552367400000,
+        "parent_id": "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@Mr.Alvaro/flutter-desktop-launcher-no-windows-4a6c134dc30b",
+              [
+                [
+                  "a",
+                  "https://medium.com/@Mr.Alvaro/flutter-desktop-launcher-no-windows-4a6c134dc30b"
+                ]
+              ]
+            ],
+            [
+              " : tutorial on how to get flutter desktop embedder on windows, in Spanish but google translation works well"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 170,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/@Mr.Alvaro/flutter-desktop-launcher-no-windows-4a6c134dc30b",
+            "Link": "https://medium.com/@Mr.Alvaro/flutter-desktop-launcher-no-windows-4a6c134dc30b"
+          },
+          {
+            "Text": " : tutorial on how to get flutter desktop embedder on windows, in Spanish but google translation works well"
           }
         ]
       },
