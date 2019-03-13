@@ -1,0 +1,375 @@
+{
+  "ID": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+  "Root": {
+    "alive": true,
+    "content": [
+      "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+      "ab8424f4-f114-4776-9c6f-e07866476781",
+      "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+      "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+      "85b21b5b-b505-4dba-a79d-ad869cd10519",
+      "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+      "23d339b6-12c2-4065-bccb-6d57946d09e1",
+      "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+      "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+      "43c56b40-56bd-419e-af2d-7594ec40ecac"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1552422366349,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1552422600000,
+    "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "CDN comparison"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 38,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422480000,
+        "id": "2bb10cd2-9459-4716-b7df-7ea966d3fce6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422480000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Sources:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 14,
+        "inline_content": [
+          {
+            "Text": "Sources:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422480000,
+        "id": "ab8424f4-f114-4776-9c6f-e07866476781",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422480000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.cdnperf.com/",
+              [
+                [
+                  "a",
+                  "https://www.cdnperf.com/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9,
+        "inline_content": [
+          {
+            "Text": "https://www.cdnperf.com/",
+            "Link": "https://www.cdnperf.com/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422480000,
+        "id": "1d0bc1e9-6e06-4ff8-b63f-8a00c1094828",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422600000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://www.cdnperf.com/tools/cdn-calculator",
+              [
+                [
+                  "a",
+                  "https://www.cdnperf.com/tools/cdn-calculator"
+                ]
+              ]
+            ],
+            [
+              " (needed to disable ad blocker for it to work)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 52,
+        "inline_content": [
+          {
+            "Text": "https://www.cdnperf.com/tools/cdn-calculator",
+            "Link": "https://www.cdnperf.com/tools/cdn-calculator"
+          },
+          {
+            "Text": " (needed to disable ad blocker for it to work)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422360000,
+        "id": "4acf6d8c-0040-4ad2-b5cd-dea3ca76bd7d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "From "
+            ],
+            [
+              "https://news.ycombinator.com/item?id=19367845",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=19367845"
+                ]
+              ]
+            ],
+            [
+              ", based on data from "
+            ],
+            [
+              "https://www.cdnperf.com/",
+              [
+                [
+                  "a",
+                  "https://www.cdnperf.com/"
+                ]
+              ]
+            ],
+            [
+              ":"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 51,
+        "inline_content": [
+          {
+            "Text": "From "
+          },
+          {
+            "Text": "https://news.ycombinator.com/item?id=19367845",
+            "Link": "https://news.ycombinator.com/item?id=19367845"
+          },
+          {
+            "Text": ", based on data from "
+          },
+          {
+            "Text": "https://www.cdnperf.com/",
+            "Link": "https://www.cdnperf.com/"
+          },
+          {
+            "Text": ":"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432584,
+        "id": "85b21b5b-b505-4dba-a79d-ad869cd10519",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422480000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "CDNPerf ",
+              [
+                [
+                  "a",
+                  "https://www.cdnperf.com/"
+                ]
+              ]
+            ],
+            [
+              "provides a real-time performance analysis of all major CDN providers."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 7,
+        "inline_content": [
+          {
+            "Text": "CDNPerf ",
+            "Link": "https://www.cdnperf.com/"
+          },
+          {
+            "Text": "provides a real-time performance analysis of all major CDN providers."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432585,
+        "id": "991b89be-2774-4b82-9670-1aef5e4ffdcb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I have researched this space a lot, and my conclusions are:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 2,
+        "inline_content": [
+          {
+            "Text": "I have researched this space a lot, and my conclusions are:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432585,
+        "id": "23d339b6-12c2-4065-bccb-6d57946d09e1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Cloudflare: the best all-in-one solution, as long as you don't go above the Business tier"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Cloudflare: the best all-in-one solution, as long as you don't go above the Business tier"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432585,
+        "id": "f1a81a52-108f-4ee6-b1ef-6eba7d8d2279",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Fastly: the most technically advanced CDN, but also one of the most expensive ones (there is a reason why StackExchange and Reddit moved from Cloudflare to Fastly)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "Fastly: the most technically advanced CDN, but also one of the most expensive ones (there is a reason why StackExchange and Reddit moved from Cloudflare to Fastly)"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432585,
+        "id": "d86a1ed7-cbee-4434-9fa3-eb246092c2d8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "KeyCDN: the best fully-featured value-for-money CDN, if you just want to replace AWS Cloudfront CDN / Google Cloud CDN / Azure CDN"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "KeyCDN: the best fully-featured value-for-money CDN, if you just want to replace AWS Cloudfront CDN / Google Cloud CDN / Azure CDN"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552422432586,
+        "id": "43c56b40-56bd-419e-af2d-7594ec40ecac",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552422420000,
+        "parent_id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "BunnyCDN: the best value-for-money CDN for distributing large static assets across the globe (can get as low as $0.0025 / GB)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "BunnyCDN: the best value-for-money CDN for distributing large static assets across the globe (can get as low as $0.0025 / GB)"
+          }
+        ]
+      }
+    ],
+    "title": "CDN comparison",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 20
+    }
+  ],
+  "Tables": null
+}

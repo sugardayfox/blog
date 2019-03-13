@@ -27,7 +27,7 @@
     },
     "id": "171030c0-8630-4399-8806-6407967f8a76",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996329202,
+    "last_edited_time": 1552469580000,
     "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
     "parent_table": "block",
     "properties": {
@@ -38,7 +38,7 @@
       ]
     },
     "type": "page",
-    "version": 14,
+    "version": 16,
     "content_resolved": [
       {
         "alive": true,
@@ -412,7 +412,7 @@
         "created_time": 1531195848767,
         "id": "5cb1f926-e2d3-4c10-a4cb-fc3f5baaf618",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195848767,
+        "last_edited_time": 1552467240000,
         "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
         "parent_table": "block",
         "properties": {
@@ -429,7 +429,7 @@
               ": "
             ],
             [
-              "FOR /L %A IN (1,1,10) DO @echo hello",
+              "FOR /L %%A IN (1,1,10) DO @echo hello",
               [
                 [
                   "c"
@@ -439,7 +439,7 @@
           ]
         },
         "type": "text",
-        "version": 1,
+        "version": 3,
         "inline_content": [
           {
             "Text": "Do things in a loop",
@@ -449,7 +449,7 @@
             "Text": ": "
           },
           {
-            "Text": "FOR /L %A IN (1,1,10) DO @echo hello",
+            "Text": "FOR /L %%A IN (1,1,10) DO @echo hello",
             "AttrFlags": 2
           }
         ]
@@ -580,13 +580,13 @@
         "created_time": 1531195848767,
         "id": "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195848767,
+        "last_edited_time": 1552469580000,
         "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
         "parent_table": "block",
         "properties": {
           "language": [
             [
-              "Plain Text"
+              "Shell"
             ]
           ],
           "title": [
@@ -596,9 +596,9 @@
           ]
         },
         "type": "code",
-        "version": 1,
+        "version": 3,
         "code": "@ECHO OFF\n@rem \"pushd $dir\" puts $dir on directory stack\npushd .\nSET COMMENT=%1\nIF NOT DEFINED COMMENT SET COMMENT=\"\"\n\nSET FOO=\"bar\"\n\nIF %FOO%==\"bar\" goto IS_BAR\necho The above should always be true\ngoto END\n\n:IS_BAR\nnmake -f Makefile.vc\nIF ERRORLEVEL 1 goto ERR_ONE_OR_HIGHER\necho Compilation successful!\ngoto END\n\n:ERR_ONE_OR_HIGHER\necho Compilation failed!\ngoto END\n\n:END\n@rem popd pops the directory name from the stack and does cd there\npopd",
-        "code_language": "Plain Text"
+        "code_language": "Shell"
       }
     ],
     "title": "Basics of writing DOS .bat batch files",
@@ -622,7 +622,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 19
+      "version": 20
     }
   ],
   "Tables": null

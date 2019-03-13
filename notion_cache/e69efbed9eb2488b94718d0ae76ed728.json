@@ -22,7 +22,7 @@
     },
     "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1551164700000,
+    "last_edited_time": 1552427580000,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -33,11 +33,12 @@
       ]
     },
     "type": "page",
-    "version": 17,
+    "version": 18,
     "content_resolved": [
       {
         "alive": true,
         "content": [
+          "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
           "66886b4b-d6a5-46ae-bef3-587474b1ea51",
           "c03736be-4cde-40b3-ba4f-4f14e0535cd1",
           "f659e9a8-53ca-4f17-8186-2084b1e19854",
@@ -54,7 +55,7 @@
         "created_time": 1496213356044,
         "id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1550085600000,
+        "last_edited_time": 1552427580000,
         "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
         "parent_table": "block",
         "properties": {
@@ -65,8 +66,58 @@
           ]
         },
         "type": "toggle",
-        "version": 14,
+        "version": 18,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552427580000,
+            "id": "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552427580000,
+            "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e",
+                  [
+                    [
+                      "a",
+                      "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=19367149",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=19367149"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e",
+                "Link": "https://dev.to/winduptoy/a-javascript-free-frontend-2d3e"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=19367149",
+                "Link": "https://news.ycombinator.com/item?id=19367149"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -1239,7 +1290,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 19
+      "version": 20
     }
   ],
   "Tables": null

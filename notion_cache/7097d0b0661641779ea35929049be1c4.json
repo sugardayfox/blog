@@ -8,8 +8,9 @@
       "6cf6069b-dbc5-4cff-a0bc-d2e9afb45093",
       "13813823-462b-4a18-af3d-612905ac564d",
       "aa4a3d4f-f468-4eb5-9e75-50dbdee2d258",
+      "a5827afa-aaf7-41bf-b840-723d50a3b682",
       "c61e0393-9453-44eb-b659-333914dcce8d",
-      "acbea1a5-858e-4794-a9eb-a9f804f2e85b"
+      "152f647c-f97f-4b76-8842-53a7a588c38f"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1528075297200,
@@ -19,7 +20,7 @@
     },
     "id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1551211980000,
+    "last_edited_time": 1552429680000,
     "parent_id": "e4fe2d9f-ae30-4e3a-beb9-b8316b9e2d62",
     "parent_table": "block",
     "properties": {
@@ -30,7 +31,7 @@
       ]
     },
     "type": "page",
-    "version": 54,
+    "version": 59,
     "content_resolved": [
       {
         "alive": true,
@@ -208,10 +209,47 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552429620000,
+        "id": "a5827afa-aaf7-41bf-b840-723d50a3b682",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552429680000,
+        "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@benln/10-public-notion-templates-you-can-magically-copy-25d04c1e5da2",
+              [
+                [
+                  "a",
+                  "https://medium.com/@benln/10-public-notion-templates-you-can-magically-copy-25d04c1e5da2"
+                ]
+              ]
+            ],
+            [
+              " : list of notion page templates"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 50,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/@benln/10-public-notion-templates-you-can-magically-copy-25d04c1e5da2",
+            "Link": "https://medium.com/@benln/10-public-notion-templates-you-can-magically-copy-25d04c1e5da2"
+          },
+          {
+            "Text": " : list of notion page templates"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1551211920000,
         "id": "c61e0393-9453-44eb-b659-333914dcce8d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1551211980000,
+        "last_edited_time": 1552429680000,
         "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
         "parent_table": "block",
         "properties": {
@@ -231,7 +269,7 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 78,
+        "version": 80,
         "inline_content": [
           {
             "Text": "https://notion.vip/notion-blocks-deconstructed/",
@@ -245,14 +283,33 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1528075324830,
-        "id": "acbea1a5-858e-4794-a9eb-a9f804f2e85b",
+        "created_time": 1552429680000,
+        "id": "152f647c-f97f-4b76-8842-53a7a588c38f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1528075324830,
+        "last_edited_time": 1552429680000,
         "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
         "parent_table": "block",
-        "type": "text",
-        "version": 4
+        "properties": {
+          "title": [
+            [
+              "https://www.notion.so/Notion-Tips-and-Hacks-f36b5a8c73184d73a6a9da9f47e49bb0",
+              [
+                [
+                  "a",
+                  "https://www.notion.so/Notion-Tips-and-Hacks-f36b5a8c73184d73a6a9da9f47e49bb0"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5,
+        "inline_content": [
+          {
+            "Text": "https://www.notion.so/Notion-Tips-and-Hacks-f36b5a8c73184d73a6a9da9f47e49bb0",
+            "Link": "https://www.notion.so/Notion-Tips-and-Hacks-f36b5a8c73184d73a6a9da9f47e49bb0"
+          }
+        ]
       }
     ],
     "title": "notion",
@@ -276,7 +333,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 19
+      "version": 20
     }
   ],
   "Tables": null

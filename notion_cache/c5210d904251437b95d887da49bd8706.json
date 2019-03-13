@@ -9,7 +9,7 @@
       "dd5c0a81-3dfe-4487-a6cd-432f82c0c2fc",
       "f3dfcf36-fb46-4129-80b8-efa4336c0ea5",
       "c674bebe-8adf-44d1-8c3a-36cc18c131e2",
-      "a8dd73fc-6497-49e7-9378-6341a70e5f5a"
+      "b51c5400-2cb8-42eb-8dec-2185ad877a9b"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1531194475639,
@@ -19,7 +19,7 @@
     },
     "id": "c5210d90-4251-437b-95d8-87da49bd8706",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540614784431,
+    "last_edited_time": 1552422480000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -30,7 +30,7 @@
       ]
     },
     "type": "page",
-    "version": 114,
+    "version": 124,
     "content_resolved": [
       {
         "alive": true,
@@ -227,39 +227,34 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532995162309,
-        "id": "a8dd73fc-6497-49e7-9378-6341a70e5f5a",
+        "created_time": 1552422366349,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b51c5400-2cb8-42eb-8dec-2185ad877a9b",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1533840263085,
+        "last_edited_time": 1552422600000,
         "parent_id": "c5210d90-4251-437b-95d8-87da49bd8706",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "CDN pricing comparison: "
-            ],
-            [
-              "https://www.cdnperf.com/tools/cdn-calculator",
-              [
-                [
-                  "a",
-                  "https://www.cdnperf.com/tools/cdn-calculator"
-                ]
-              ]
+              "CDN comparison"
             ]
           ]
         },
-        "type": "text",
-        "version": 70,
-        "inline_content": [
-          {
-            "Text": "CDN pricing comparison: "
-          },
-          {
-            "Text": "https://www.cdnperf.com/tools/cdn-calculator",
-            "Link": "https://www.cdnperf.com/tools/cdn-calculator"
-          }
-        ]
+        "type": "page",
+        "version": 38,
+        "title": "CDN comparison",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
       }
     ],
     "title": "Research",
@@ -283,7 +278,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 19
+      "version": 20
     }
   ],
   "Tables": null
