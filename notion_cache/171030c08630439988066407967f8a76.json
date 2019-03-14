@@ -7,6 +7,7 @@
       "d4d6ce5e-ede9-41e0-ab73-936aa14c308c",
       "f791acfc-cfca-46bd-9df7-40cb4b3d72d6",
       "dd4c0ce8-201d-472b-a649-f0f844a77048",
+      "39570cbd-76d3-487c-bfc7-904414b4b4c5",
       "94113210-c0f9-41d0-a312-3b0fbce23beb",
       "99c86b4a-b74a-4f30-8687-cc427ccd2c1e",
       "bcf108b2-3da6-4fe1-81a5-b98b8b30a627",
@@ -16,7 +17,9 @@
       "22bcd48a-6990-49d0-873a-b9fe833e15b3",
       "28c76ebd-dbae-4ef1-9f5f-ea4732975f11",
       "eac5d2ba-a14a-4114-b2a7-403832a57edd",
-      "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9"
+      "7ebbeaba-538a-45b8-8e3a-e4251b52d5c9",
+      "1294b0d1-56fb-41dd-95cd-c34782a02e86",
+      "1672e011-5853-4631-a89e-3cd8ff0a9b8d"
     ],
     "copied_from": "14bbcdfb-f9c1-43c9-a651-a5d3fbb0cf5f",
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -27,7 +30,7 @@
     },
     "id": "171030c0-8630-4399-8806-6407967f8a76",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552469580000,
+    "last_edited_time": 1552537020000,
     "parent_id": "829c38ff-a5e8-4ed5-97a4-d1cd2f07c60c",
     "parent_table": "block",
     "properties": {
@@ -38,7 +41,7 @@
       ]
     },
     "type": "page",
-    "version": 16,
+    "version": 38,
     "content_resolved": [
       {
         "alive": true,
@@ -115,14 +118,57 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531195848767,
+        "created_time": 1552536780000,
         "id": "dd4c0ce8-201d-472b-a649-f0f844a77048",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531624160778,
+        "last_edited_time": 1552536780000,
         "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
         "parent_table": "block",
         "type": "text",
-        "version": 3
+        "version": 5
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1531195848767,
+        "id": "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552536900000,
+        "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For comprehensive info, see a free "
+            ],
+            [
+              "Essential Batch",
+              [
+                [
+                  "a",
+                  "https://www.programming-books.io/essential/batch/"
+                ]
+              ]
+            ],
+            [
+              " book."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 208,
+        "inline_content": [
+          {
+            "Text": "For comprehensive info, see a free "
+          },
+          {
+            "Text": "Essential Batch",
+            "Link": "https://www.programming-books.io/essential/batch/"
+          },
+          {
+            "Text": " book."
+          }
+        ]
       },
       {
         "alive": true,
@@ -599,6 +645,62 @@
         "version": 3,
         "code": "@ECHO OFF\n@rem \"pushd $dir\" puts $dir on directory stack\npushd .\nSET COMMENT=%1\nIF NOT DEFINED COMMENT SET COMMENT=\"\"\n\nSET FOO=\"bar\"\n\nIF %FOO%==\"bar\" goto IS_BAR\necho The above should always be true\ngoto END\n\n:IS_BAR\nnmake -f Makefile.vc\nIF ERRORLEVEL 1 goto ERR_ONE_OR_HIGHER\necho Compilation successful!\ngoto END\n\n:ERR_ONE_OR_HIGHER\necho Compilation failed!\ngoto END\n\n:END\n@rem popd pops the directory name from the stack and does cd there\npopd",
         "code_language": "Shell"
+      },
+      {
+        "alive": true,
+        "copied_from": "39570cbd-76d3-487c-bfc7-904414b4b4c5",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552536911695,
+        "id": "1294b0d1-56fb-41dd-95cd-c34782a02e86",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552536900000,
+        "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For comprehensive info, see a free "
+            ],
+            [
+              "Essential Batch",
+              [
+                [
+                  "a",
+                  "https://www.programming-books.io/essential/batch/"
+                ]
+              ]
+            ],
+            [
+              " book."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 5,
+        "inline_content": [
+          {
+            "Text": "For comprehensive info, see a free "
+          },
+          {
+            "Text": "Essential Batch",
+            "Link": "https://www.programming-books.io/essential/batch/"
+          },
+          {
+            "Text": " book."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552537020000,
+        "id": "1672e011-5853-4631-a89e-3cd8ff0a9b8d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552537020000,
+        "parent_id": "171030c0-8630-4399-8806-6407967f8a76",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
       }
     ],
     "title": "Basics of writing DOS .bat batch files",

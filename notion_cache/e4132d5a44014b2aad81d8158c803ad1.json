@@ -15,7 +15,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1550610660000,
+    "last_edited_time": 1552512480000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -26,7 +26,7 @@
       ]
     },
     "type": "page",
-    "version": 516,
+    "version": 517,
     "content_resolved": [
       {
         "alive": true,
@@ -15342,6 +15342,7 @@
                       "0fae18fe-e417-4ba5-b766-90b6071c8afd",
                       "db37cb20-486b-4fbb-9dc7-047147350efb",
                       "2789914b-e359-4f96-bb9a-0df34bcd98e6",
+                      "4ec62e81-6dee-4850-87dc-228500123a2e",
                       "9769bc5a-3c0b-4e0b-a0ad-df221105b6d7",
                       "1bc88b6b-6391-417c-9c05-167474658b2f",
                       "40f1ff9a-0589-4ae1-b5d4-bdc49f61276a",
@@ -15370,7 +15371,7 @@
                     "created_time": 1531465999830,
                     "id": "c337addd-2c45-418b-b200-fd829b0b9324",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1550610600000,
+                    "last_edited_time": 1552512480000,
                     "parent_id": "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
                     "parent_table": "block",
                     "properties": {
@@ -15381,7 +15382,7 @@
                       ]
                     },
                     "type": "toggle",
-                    "version": 143,
+                    "version": 145,
                     "content_resolved": [
                       {
                         "alive": true,
@@ -15786,6 +15787,62 @@
                         "inline_content": [
                           {
                             "Text": "Resources/competition/inspiration:"
+                          }
+                        ]
+                      },
+                      {
+                        "alive": true,
+                        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "created_time": 1552512480000,
+                        "id": "4ec62e81-6dee-4850-87dc-228500123a2e",
+                        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                        "last_edited_time": 1552512480000,
+                        "parent_id": "c337addd-2c45-418b-b200-fd829b0b9324",
+                        "parent_table": "block",
+                        "properties": {
+                          "title": [
+                            [
+                              "https://www.stackbit.com/",
+                              [
+                                [
+                                  "a",
+                                  "https://www.stackbit.com/"
+                                ]
+                              ]
+                            ],
+                            [
+                              ", "
+                            ],
+                            [
+                              "https://css-tricks.com/stackbit/",
+                              [
+                                [
+                                  "a",
+                                  "https://css-tricks.com/stackbit/"
+                                ]
+                              ]
+                            ],
+                            [
+                              " : they have a similar product but for every other CMS etc."
+                            ]
+                          ]
+                        },
+                        "type": "bulleted_list",
+                        "version": 75,
+                        "inline_content": [
+                          {
+                            "Text": "https://www.stackbit.com/",
+                            "Link": "https://www.stackbit.com/"
+                          },
+                          {
+                            "Text": ", "
+                          },
+                          {
+                            "Text": "https://css-tricks.com/stackbit/",
+                            "Link": "https://css-tricks.com/stackbit/"
+                          },
+                          {
+                            "Text": " : they have a similar product but for every other CMS etc."
                           }
                         ]
                       },
