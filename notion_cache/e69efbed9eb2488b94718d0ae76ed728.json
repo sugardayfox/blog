@@ -22,7 +22,7 @@
     },
     "id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552427580000,
+    "last_edited_time": 1552553340000,
     "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
     "parent_table": "block",
     "properties": {
@@ -33,11 +33,12 @@
       ]
     },
     "type": "page",
-    "version": 18,
+    "version": 19,
     "content_resolved": [
       {
         "alive": true,
         "content": [
+          "4df774cd-9301-42e3-9481-36ff3d7b2e6a",
           "6b10cc03-9d6b-40dd-9da3-7438fd5e08f7",
           "66886b4b-d6a5-46ae-bef3-587474b1ea51",
           "c03736be-4cde-40b3-ba4f-4f14e0535cd1",
@@ -55,7 +56,7 @@
         "created_time": 1496213356044,
         "id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1552427580000,
+        "last_edited_time": 1552553340000,
         "parent_id": "e69efbed-9eb2-488b-9471-8d0ae76ed728",
         "parent_table": "block",
         "properties": {
@@ -66,8 +67,45 @@
           ]
         },
         "type": "toggle",
-        "version": 18,
+        "version": 20,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552553340000,
+            "id": "4df774cd-9301-42e3-9481-36ff3d7b2e6a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552553340000,
+            "parent_id": "8c2fca3e-16aa-4221-9124-2c3bee907133",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425",
+                  [
+                    [
+                      "a",
+                      "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425"
+                    ]
+                  ]
+                ],
+                [
+                  " : how to create dark mode"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 35,
+            "inline_content": [
+              {
+                "Text": "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425",
+                "Link": "https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425"
+              },
+              {
+                "Text": " : how to create dark mode"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
