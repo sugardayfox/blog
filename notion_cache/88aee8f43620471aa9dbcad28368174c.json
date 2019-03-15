@@ -18,12 +18,12 @@
       "785b173c-9617-44a2-95e7-ec2747ea3d42",
       "72918988-57bb-474e-889f-44cf5f5477b9",
       "7bd8bb4e-7ce8-4269-9a5f-099d8b59e190",
-      "c7a407c8-02b9-4c88-86bd-78fb23c603ba",
+      "22863798-5e5e-479c-8a20-3a7da0e4ba74",
       "4ff747e4-3871-45f0-8bca-1387313882a3",
       "9c818728-c54d-4499-a209-04e1167c6cf7",
       "d0ea4690-2f4a-4af8-99a4-fd68f303a873",
       "c0aa3e6b-1046-46d9-b155-a196ad6d1404",
-      "5fa1f731-792a-4bd6-b3cb-92fff1b7232a",
+      "9bffee0b-d1d4-4e2b-af1e-4188bc585193",
       "0ca3a424-52a5-4a2d-9a09-5ad192987042",
       "85e4b259-df34-49cb-b5ab-b0d6dd267426",
       "5938dbdd-d137-48aa-b16a-67a496996822",
@@ -81,7 +81,7 @@
     },
     "id": "88aee8f4-3620-471a-a9db-cad28368174c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1540009788234,
+    "last_edited_time": 1552614300000,
     "parent_id": "7097d0b0-6616-4177-9ea3-5929049be1c4",
     "parent_table": "block",
     "properties": {
@@ -92,7 +92,7 @@
       ]
     },
     "type": "page",
-    "version": 312,
+    "version": 326,
     "content_resolved": [
       {
         "alive": true,
@@ -515,24 +515,24 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531002214747,
-        "id": "c7a407c8-02b9-4c88-86bd-78fb23c603ba",
+        "created_time": 1552614060000,
+        "id": "22863798-5e5e-479c-8a20-3a7da0e4ba74",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531002367165,
+        "last_edited_time": 1552614120000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The way modern SPA application like Notion usually work is that they render most of the HTML on the client with JavaScript using the data they request from the server."
+              "Modern Single Page Applications (SPA) work by getting data from the server in structured format (most often JSON) and rendering HTML in the browser with JavaScript."
             ]
           ]
         },
         "type": "text",
-        "version": 582,
+        "version": 191,
         "inline_content": [
           {
-            "Text": "The way modern SPA application like Notion usually work is that they render most of the HTML on the client with JavaScript using the data they request from the server."
+            "Text": "Modern Single Page Applications (SPA) work by getting data from the server in structured format (most often JSON) and rendering HTML in the browser with JavaScript."
           }
         ]
       },
@@ -542,21 +542,21 @@
         "created_time": 1531002380279,
         "id": "4ff747e4-3871-45f0-8bca-1387313882a3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531002399631,
+        "last_edited_time": 1552614180000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "A quick trip to Chrome Dev Tools confirmed that theory."
+              "A trip to Chrome Dev Tools confirmed that Notion works like that."
             ]
           ]
         },
         "type": "text",
-        "version": 124,
+        "version": 175,
         "inline_content": [
           {
-            "Text": "A quick trip to Chrome Dev Tools confirmed that theory."
+            "Text": "A trip to Chrome Dev Tools confirmed that Notion works like that."
           }
         ]
       },
@@ -667,45 +667,45 @@
         "created_time": 1532323004119,
         "id": "c0aa3e6b-1046-46d9-b155-a196ad6d1404",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532323089233,
+        "last_edited_time": 1552614060000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Lucky for me the API is not obfuscated. It returns responses as JSON data and it isn't hard to figure out the meaning of fields."
+              "Lucky for me the API is not obfuscated. It returns responses as JSON data. It isn't hard to figure out the meaning of fields. "
             ]
           ]
         },
         "type": "text",
-        "version": 22,
+        "version": 96,
         "inline_content": [
           {
-            "Text": "Lucky for me the API is not obfuscated. It returns responses as JSON data and it isn't hard to figure out the meaning of fields."
+            "Text": "Lucky for me the API is not obfuscated. It returns responses as JSON data. It isn't hard to figure out the meaning of fields. "
           }
         ]
       },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1531002486869,
-        "id": "5fa1f731-792a-4bd6-b3cb-92fff1b7232a",
+        "created_time": 1552614060000,
+        "id": "9bffee0b-d1d4-4e2b-af1e-4188bc585193",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532471664580,
+        "last_edited_time": 1552614060000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Instead of deducing structure from HTML I can just ask the server for the structure."
+              "Working with the original JSON structure is much easier that trying to reconstruct it from rendered HTML."
             ]
           ]
         },
         "type": "text",
-        "version": 112,
+        "version": 96,
         "inline_content": [
           {
-            "Text": "Instead of deducing structure from HTML I can just ask the server for the structure."
+            "Text": "Working with the original JSON structure is much easier that trying to reconstruct it from rendered HTML."
           }
         ]
       },
@@ -763,21 +763,21 @@
         "created_time": 1531003756774,
         "id": "5938dbdd-d137-48aa-b16a-67a496996822",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531003835877,
+        "last_edited_time": 1552614000000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "My first step was to write node.js script that logs all XHR requests that the client invokes when rendering a given page."
+              "Instead I wrote node.js script that logs all XHR requests that web browser makes when rendering a given page."
             ]
           ]
         },
         "type": "text",
-        "version": 384,
+        "version": 422,
         "inline_content": [
           {
-            "Text": "My first step was to write node.js script that logs all XHR requests that the client invokes when rendering a given page."
+            "Text": "Instead I wrote node.js script that logs all XHR requests that web browser makes when rendering a given page."
           }
         ]
       },
@@ -1185,21 +1185,21 @@
         "created_time": 1531004484476,
         "id": "bcfbafb0-0560-48a1-b53d-c4d0281389e6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532471936415,
+        "last_edited_time": 1552614240000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "To get the content of a page we start with its UUID which we can find out because it's last part of the url of the page."
+              "To get the content of a page we start with its UUID which we can find out because it's last part of the URL of the page."
             ]
           ]
         },
         "type": "text",
-        "version": 482,
+        "version": 485,
         "inline_content": [
           {
-            "Text": "To get the content of a page we start with its UUID which we can find out because it's last part of the url of the page."
+            "Text": "To get the content of a page we start with its UUID which we can find out because it's last part of the URL of the page."
           }
         ]
       },
@@ -1269,21 +1269,21 @@
         "created_time": 1531004585150,
         "id": "c9bf8931-34d5-4cc5-8aa2-f237537bde28",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531004833291,
+        "last_edited_time": 1552614300000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The rest of the work is figuring out what kinds of blocks there are, how are they represented and writing some code to help in retrieving the data and presenting it in a format that is easier to consume for the purpose of generating output e.g. a customized HTML."
+              "Majority of work was figuring out what kinds of blocks there are, how are they represented in JSON and writing code to to retrieve the data and present it in a format that is easier to work with than the raw data returned by the server."
             ]
           ]
         },
         "type": "text",
-        "version": 801,
+        "version": 919,
         "inline_content": [
           {
-            "Text": "The rest of the work is figuring out what kinds of blocks there are, how are they represented and writing some code to help in retrieving the data and presenting it in a format that is easier to consume for the purpose of generating output e.g. a customized HTML."
+            "Text": "Majority of work was figuring out what kinds of blocks there are, how are they represented in JSON and writing code to to retrieve the data and present it in a format that is easier to work with than the raw data returned by the server."
           }
         ]
       },
@@ -1413,13 +1413,13 @@
         "created_time": 1532330494881,
         "id": "f8d31404-caf4-43c6-80ae-eed44fdd3b7d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532330775111,
+        "last_edited_time": 1552613880000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Having capture sample JSON responses from "
+              "I captured sample JSON responses from "
             ],
             [
               "getRecordValues",
@@ -1441,7 +1441,7 @@
               ]
             ],
             [
-              " I used "
+              " and used "
             ],
             [
               "Quicktype",
@@ -1458,10 +1458,10 @@
           ]
         },
         "type": "text",
-        "version": 394,
+        "version": 403,
         "inline_content": [
           {
-            "Text": "Having capture sample JSON responses from "
+            "Text": "I captured sample JSON responses from "
           },
           {
             "Text": "getRecordValues",
@@ -1475,7 +1475,7 @@
             "AttrFlags": 2
           },
           {
-            "Text": " I used "
+            "Text": " and used "
           },
           {
             "Text": "Quicktype",
@@ -1492,21 +1492,21 @@
         "created_time": 1532330775671,
         "id": "fc1a9595-79e6-4f59-9796-410d0fb982b0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532330934969,
+        "last_edited_time": 1552613880000,
         "parent_id": "88aee8f4-3620-471a-a9db-cad28368174c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I had to tweak them a bit to accommodate response variations."
+              "I had to tweak them a bit to accommodate variations in JSON structure."
             ]
           ]
         },
         "type": "text",
-        "version": 236,
+        "version": 274,
         "inline_content": [
           {
-            "Text": "I had to tweak them a bit to accommodate response variations."
+            "Text": "I had to tweak them a bit to accommodate variations in JSON structure."
           }
         ]
       },
@@ -1915,7 +1915,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 20
+      "version": 21
     }
   ],
   "Tables": null
