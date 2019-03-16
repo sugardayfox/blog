@@ -13,7 +13,7 @@
     },
     "id": "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552427280000,
+    "last_edited_time": 1552723800000,
     "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
     "parent_table": "block",
     "properties": {
@@ -24,11 +24,12 @@
       ]
     },
     "type": "page",
-    "version": 24,
+    "version": 25,
     "content_resolved": [
       {
         "alive": true,
         "content": [
+          "2587fbd8-bc3f-4982-9e5a-67b53ad3ba4b",
           "ae4f4ecb-90e0-46c4-b8c7-5fdccb7c44a5",
           "7e90c48b-397c-4abf-b62d-f87ffeab2ca6",
           "fbed9fa8-a0ec-47dd-8ede-07909545e40c",
@@ -38,7 +39,7 @@
         "created_time": 1552017660000,
         "id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1552427280000,
+        "last_edited_time": 1552723800000,
         "parent_id": "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
         "parent_table": "block",
         "properties": {
@@ -49,8 +50,39 @@
           ]
         },
         "type": "toggle",
-        "version": 24,
+        "version": 26,
         "content_resolved": [
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1552723800000,
+            "id": "2587fbd8-bc3f-4982-9e5a-67b53ad3ba4b",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1552723800000,
+            "parent_id": "1b95afdc-22bb-49f2-ba13-10c542cde7bb",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how",
+                  [
+                    [
+                      "a",
+                      "https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how",
+                "Link": "https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how"
+              }
+            ]
+          },
           {
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -185,7 +217,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 21
+      "version": 28
     }
   ],
   "Tables": null
