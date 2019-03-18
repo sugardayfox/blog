@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "1c5c81fb-6800-40de-842d-08baf19ff4e3",
+      "36b39d1a-c3f4-40e6-b48f-882189625adc",
       "1e0aa1fa-52b7-4a70-a170-55950ff48a1e",
       "ae08c9fd-f93d-40a3-a863-38351054f389",
       "388295ee-235b-49e4-acec-d210400be334",
@@ -18,7 +19,7 @@
     },
     "id": "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552367400000,
+    "last_edited_time": 1552861980000,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -29,7 +30,7 @@
       ]
     },
     "type": "page",
-    "version": 8,
+    "version": 10,
     "content_resolved": [
       {
         "alive": true,
@@ -52,6 +53,43 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1552861980000,
+        "id": "36b39d1a-c3f4-40e6-b48f-882189625adc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1552861980000,
+        "parent_id": "e84afdb9-5c99-4a66-9076-ddc5f40b5cbb",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://medium.com/@eibaan_54644/desktop-flutter-apps-8602dac54f68",
+              [
+                [
+                  "a",
+                  "https://medium.com/@eibaan_54644/desktop-flutter-apps-8602dac54f68"
+                ]
+              ]
+            ],
+            [
+              " : how to do flutter desktop app on Mac with Swift"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 61,
+        "inline_content": [
+          {
+            "Text": "https://medium.com/@eibaan_54644/desktop-flutter-apps-8602dac54f68",
+            "Link": "https://medium.com/@eibaan_54644/desktop-flutter-apps-8602dac54f68"
+          },
+          {
+            "Text": " : how to do flutter desktop app on Mac with Swift"
           }
         ]
       },
