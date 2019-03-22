@@ -15,7 +15,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552512480000,
+    "last_edited_time": 1552941960000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -26,7 +26,7 @@
       ]
     },
     "type": "page",
-    "version": 517,
+    "version": 519,
     "content_resolved": [
       {
         "alive": true,
@@ -20426,26 +20426,13 @@
               {
                 "alive": true,
                 "content": [
-                  "9f0a67d3-1669-43b7-8a7f-19a232044477",
-                  "72e74f3c-fd36-438d-8995-aee26817185a",
-                  "0b55ec92-c0a9-4459-9ca0-4a960614db6d",
-                  "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1",
-                  "f3639543-02d3-4d7b-b70d-d90642f1fead",
-                  "19ca4200-8d42-4998-b777-720f9622ac58",
-                  "6c8e2c1e-9329-4cdd-b441-d6325375de19",
-                  "94d21614-ac25-468a-afc2-3cb9b5ed47f9",
-                  "6f477889-789e-4384-a83c-ae518b5d5d6f",
-                  "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
-                  "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
-                  "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
-                  "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
-                  "bc2518c0-28ce-4173-a53a-fc7d0fc1135d"
+                  "d44593a5-a7aa-4265-a51e-845c80560847"
                 ],
                 "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
                 "created_time": 1512430101413,
                 "id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
                 "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                "last_edited_time": 1540000140496,
+                "last_edited_time": 1552941960000,
                 "parent_id": "5fe4eafd-8123-4918-9f16-829d535c3203",
                 "parent_table": "block",
                 "properties": {
@@ -20461,454 +20448,39 @@
                   ]
                 },
                 "type": "toggle",
-                "version": 17,
+                "version": 36,
                 "content_resolved": [
                   {
                     "alive": true,
                     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430113970,
-                    "id": "9f0a67d3-1669-43b7-8a7f-19a232044477",
+                    "created_time": 1552941952177,
+                    "format": {
+                      "page_full_width": true,
+                      "page_small_text": true
+                    },
+                    "id": "d44593a5-a7aa-4265-a51e-845c80560847",
                     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430113970,
+                    "last_edited_time": 1552942020000,
                     "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
                     "parent_table": "block",
                     "properties": {
                       "title": [
                         [
-                          "Like Sumatra but for the web. Uses wasm for decoding images."
+                          "Sumatra online notes"
                         ]
                       ]
                     },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Like Sumatra but for the web. Uses wasm for decoding images."
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430164857,
-                    "id": "72e74f3c-fd36-438d-8995-aee26817185a",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430164857,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "Could be serverless for most functionality (store things in indexedb)."
-                        ]
-                      ]
-                    },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Could be serverless for most functionality (store things in indexedb)."
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430200712,
-                    "id": "0b55ec92-c0a9-4459-9ca0-4a960614db6d",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430200712,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "Could have a pro version that "
-                        ]
-                      ]
-                    },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Could have a pro version that "
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430147522,
-                    "id": "78603f34-5d10-4fe4-aeb9-5543fc7d8dd1",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430147522,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "Could have electron-based desktop app. "
-                        ]
-                      ]
-                    },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Could have electron-based desktop app. "
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430163354,
-                    "id": "f3639543-02d3-4d7b-b70d-d90642f1fead",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430163354,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "Start with comic book reader, because that's the simplest."
-                        ]
-                      ]
-                    },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Start with comic book reader, because that's the simplest."
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430113970,
-                    "id": "19ca4200-8d42-4998-b777-720f9622ac58",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430113970,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "Links:"
-                        ]
-                      ]
-                    },
-                    "type": "text",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "Links:"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430113970,
-                    "id": "6c8e2c1e-9329-4cdd-b441-d6325375de19",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430113970,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/workhorsy/comic_book_reader",
-                          [
-                            [
-                              "a",
-                              "https://github.com/workhorsy/comic_book_reader"
-                            ]
-                          ]
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/workhorsy/comic_book_reader",
-                        "Link": "https://github.com/workhorsy/comic_book_reader"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430113970,
-                    "id": "94d21614-ac25-468a-afc2-3cb9b5ed47f9",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430113970,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/louischatriot/reader",
-                          [
-                            [
-                              "a",
-                              "https://github.com/louischatriot/reader"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : a simple image reader"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/louischatriot/reader",
-                        "Link": "https://github.com/louischatriot/reader"
-                      },
-                      {
-                        "Text": " : a simple image reader"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512430113970,
-                    "id": "6f477889-789e-4384-a83c-ae518b5d5d6f",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512430113970,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/comicweb/kthoom",
-                          [
-                            [
-                              "a",
-                              "https://github.com/comicweb/kthoom"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : comic book reader"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/comicweb/kthoom",
-                        "Link": "https://github.com/comicweb/kthoom"
-                      },
-                      {
-                        "Text": " : comic book reader"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1512788814713,
-                    "id": "259c302d-f1fa-46ee-89d8-6e06aeab2a64",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1512788814713,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/LibreRead/server",
-                          [
-                            [
-                              "a",
-                              "https://github.com/LibreRead/server"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : epub reader"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/LibreRead/server",
-                        "Link": "https://github.com/LibreRead/server"
-                      },
-                      {
-                        "Text": " : epub reader"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1513037616394,
-                    "id": "8ec6d683-ffa0-4c74-9be0-fc45bfe20108",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1513037616394,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/janeczku/calibre-web",
-                          [
-                            [
-                              "a",
-                              "https://github.com/janeczku/calibre-web"
-                            ]
-                          ]
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 0,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/janeczku/calibre-web",
-                        "Link": "https://github.com/janeczku/calibre-web"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1531349201654,
-                    "id": "ac2261f2-b3bf-4ad9-baae-89f67bd0afb4",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1531349231167,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://medium.com/google-design/google-photos-45b714dfbed1",
-                          [
-                            [
-                              "a",
-                              "https://medium.com/google-design/google-photos-45b714dfbed1"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : description of Google Photo layout and other implemenation details. Relevant for comic book viewer"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 294,
-                    "inline_content": [
-                      {
-                        "Text": "https://medium.com/google-design/google-photos-45b714dfbed1",
-                        "Link": "https://medium.com/google-design/google-photos-45b714dfbed1"
-                      },
-                      {
-                        "Text": " : description of Google Photo layout and other implemenation details. Relevant for comic book viewer"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1536000863680,
-                    "id": "7491f5db-419c-46a3-b3b9-8ebd3c15981a",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1536000888906,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://onedrive.live.com/?authkey=!ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2!17238\u0026cid=DC1D63D0C3D0B4A2",
-                          [
-                            [
-                              "a",
-                              "https://onedrive.live.com/?authkey=%21ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2%2117238\u0026cid=DC1D63D0C3D0B4A2"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : decent UI for seeing multiple images"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 86,
-                    "inline_content": [
-                      {
-                        "Text": "https://onedrive.live.com/?authkey=!ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2!17238\u0026cid=DC1D63D0C3D0B4A2",
-                        "Link": "https://onedrive.live.com/?authkey=%21ALH5Ofp8QJpafCA\u0026v=photos\u0026id=DC1D63D0C3D0B4A2%2117238\u0026cid=DC1D63D0C3D0B4A2"
-                      },
-                      {
-                        "Text": " : decent UI for seeing multiple images"
-                      }
-                    ]
-                  },
-                  {
-                    "alive": true,
-                    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "created_time": 1540000140496,
-                    "id": "bc2518c0-28ce-4173-a53a-fc7d0fc1135d",
-                    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-                    "last_edited_time": 1540000149461,
-                    "parent_id": "0bc09c93-f2f2-46ae-9221-6c011b2bae79",
-                    "parent_table": "block",
-                    "properties": {
-                      "title": [
-                        [
-                          "https://github.com/kyicy/readimension",
-                          [
-                            [
-                              "a",
-                              "https://github.com/kyicy/readimension"
-                            ]
-                          ]
-                        ],
-                        [
-                          ", "
-                        ],
-                        [
-                          "https://github.com/satorumurmur/bibi",
-                          [
-                            [
-                              "a",
-                              "https://github.com/satorumurmur/bibi"
-                            ]
-                          ]
-                        ],
-                        [
-                          " : epub reader on web"
-                        ]
-                      ]
-                    },
-                    "type": "bulleted_list",
-                    "version": 56,
-                    "inline_content": [
-                      {
-                        "Text": "https://github.com/kyicy/readimension",
-                        "Link": "https://github.com/kyicy/readimension"
-                      },
-                      {
-                        "Text": ", "
-                      },
-                      {
-                        "Text": "https://github.com/satorumurmur/bibi",
-                        "Link": "https://github.com/satorumurmur/bibi"
-                      },
-                      {
-                        "Text": " : epub reader on web"
-                      }
-                    ]
+                    "type": "page",
+                    "version": 60,
+                    "title": "Sumatra online notes",
+                    "format_page": {
+                      "page_cover": "",
+                      "page_cover_position": 0,
+                      "page_font": "",
+                      "page_full_width": true,
+                      "page_icon": "",
+                      "page_small_text": true
+                    }
                   }
                 ],
                 "inline_content": [
@@ -23474,7 +23046,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 29
+      "version": 43
     }
   ],
   "Tables": null

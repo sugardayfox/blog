@@ -1,0 +1,230 @@
+{
+  "ID": "46231b41-455b-457b-8305-d189add1004b",
+  "Root": {
+    "alive": true,
+    "content": [
+      "e4914249-e61f-4dc4-8acf-41e09736992b",
+      "d07e17a3-99f1-46bc-bd29-387b6693c329",
+      "aff2c0f7-7d37-4753-9363-73f2335d9b9f",
+      "324c2d7f-3da0-492b-af1c-c4956ba92f59",
+      "611eb9d7-627f-4473-8994-35bdf6c446ef",
+      "16993f44-7de7-41a0-894a-05e058e92982"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1553024316245,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "46231b41-455b-457b-8305-d189add1004b",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1553024400000,
+    "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "choco, chocolatey"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 34,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024280000,
+        "id": "e4914249-e61f-4dc4-8acf-41e09736992b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024340000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Installing stuff:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 22,
+        "inline_content": [
+          {
+            "Text": "Installing stuff:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024342728,
+        "id": "d07e17a3-99f1-46bc-bd29-387b6693c329",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024400000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "properties": {
+          "language": [
+            [
+              "Go"
+            ]
+          ],
+          "title": [
+            [
+              "choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'"
+            ]
+          ]
+        },
+        "type": "code",
+        "version": 12,
+        "code": "choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'",
+        "code_language": "Go"
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024340000,
+        "id": "aff2c0f7-7d37-4753-9363-73f2335d9b9f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024340000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Uninstall: "
+            ],
+            [
+              "choco uninstall cmake",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 42,
+        "inline_content": [
+          {
+            "Text": "Uninstall: "
+          },
+          {
+            "Text": "choco uninstall cmake",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024340000,
+        "id": "324c2d7f-3da0-492b-af1c-c4956ba92f59",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024340000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "List installed locally: "
+            ],
+            [
+              "choco list --local-only",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 73,
+        "inline_content": [
+          {
+            "Text": "List installed locally: "
+          },
+          {
+            "Text": "choco list --local-only",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024400000,
+        "id": "611eb9d7-627f-4473-8994-35bdf6c446ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024400000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "List all package available: "
+            ],
+            [
+              "choco list",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 54,
+        "inline_content": [
+          {
+            "Text": "List all package available: "
+          },
+          {
+            "Text": "choco list",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553024400000,
+        "id": "16993f44-7de7-41a0-894a-05e058e92982",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553024400000,
+        "parent_id": "46231b41-455b-457b-8305-d189add1004b",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "choco, chocolatey",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "en",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "America/Los_Angeles",
+      "version": 43
+    }
+  ],
+  "Tables": null
+}

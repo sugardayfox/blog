@@ -14,7 +14,7 @@
     },
     "id": "c9bef0f1-c8fe-40a2-bc8b-06ace2bd7d8f",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552017660000,
+    "last_edited_time": 1553024280000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -32,7 +32,7 @@
       ]
     },
     "type": "page",
-    "version": 77,
+    "version": 78,
     "content_resolved": [
       {
         "alive": true,
@@ -91,6 +91,7 @@
               "ee81607f-5650-4a86-acd6-b16b82fb1982",
               "921e0268-afd1-4d8c-8d00-630d0a4056ff",
               "1eaf4ae2-2268-47e6-aea9-72369bd5a4e9",
+              "46231b41-455b-457b-8305-d189add1004b",
               "24f3e1d0-9d10-48b6-9e66-b47de19abac4",
               "c843f1e0-eea9-43ed-b394-009b7a9f1b56",
               "2d968e01-ffe9-45bf-bd90-b4616396cf0a",
@@ -114,7 +115,8 @@
               "afb51309-3534-4530-93b1-f4a56d95c294",
               "d596823b-59e2-41b0-ac3c-983228bf492d",
               "56216027-c0e3-43b2-985d-35648b9c0891",
-              "53b92beb-07b0-40e7-9ac3-133b1697d5ce"
+              "53b92beb-07b0-40e7-9ac3-133b1697d5ce",
+              "a9969fdc-d396-4544-91f8-980bc5517d13"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1512456410501,
@@ -123,11 +125,11 @@
             },
             "id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1552017660000,
+            "last_edited_time": 1553024280000,
             "parent_id": "62b80980-1615-4854-be6e-a27b1af66960",
             "parent_table": "block",
             "type": "column",
-            "version": 212,
+            "version": 217,
             "content_resolved": [
               {
                 "alive": true,
@@ -340,6 +342,38 @@
                 "type": "page",
                 "version": 23,
                 "title": "caddy"
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1553024316245,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "id": "46231b41-455b-457b-8305-d189add1004b",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1553024400000,
+                "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "choco, chocolatey"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 34,
+                "title": "choco, chocolatey",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
               },
               {
                 "alive": true,
@@ -1048,6 +1082,18 @@
                   "page_icon": "",
                   "page_small_text": true
                 }
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1553024280000,
+                "id": "a9969fdc-d396-4544-91f8-980bc5517d13",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1553024280000,
+                "parent_id": "66c160f5-e60e-4aa2-8683-c9dce71188bc",
+                "parent_table": "block",
+                "type": "text",
+                "version": 3
               }
             ],
             "format_column": {
@@ -2067,7 +2113,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "America/Los_Angeles",
-      "version": 29
+      "version": 43
     }
   ],
   "Tables": null
