@@ -5,6 +5,7 @@
     "content": [
       "173dfa36-a160-430a-b034-b9ff16573864",
       "69ff66f1-7ccc-4e80-b526-8d8acff0b3cc",
+      "b8157d15-d19f-4954-8174-eb33130ecdbf",
       "7e4161d8-c47f-4b3b-b2df-1a017319b9bb",
       "6dd03084-1d27-4ce4-9118-6c87d94e3eec",
       "48ec5601-d86c-4f5a-85b2-910d0739681c",
@@ -47,7 +48,7 @@
     },
     "id": "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1548910920000,
+    "last_edited_time": 1553287380000,
     "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
     "parent_table": "block",
     "properties": {
@@ -58,7 +59,7 @@
       ]
     },
     "type": "page",
-    "version": 76,
+    "version": 79,
     "content_resolved": [
       {
         "alive": true,
@@ -93,6 +94,43 @@
         "inline_content": [
           {
             "Text": "Source code:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553287320000,
+        "id": "b8157d15-d19f-4954-8174-eb33130ecdbf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553287380000,
+        "parent_id": "bd555850-3f1e-44b3-984b-2c6dbb9bf457",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/wustho/epr",
+              [
+                [
+                  "a",
+                  "https://github.com/wustho/epr"
+                ]
+              ]
+            ],
+            [
+              " : cmd-line epub reader in python"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 42,
+        "inline_content": [
+          {
+            "Text": "https://github.com/wustho/epr",
+            "Link": "https://github.com/wustho/epr"
+          },
+          {
+            "Text": " : cmd-line epub reader in python"
           }
         ]
       },
@@ -1114,12 +1152,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 43
     }
   ],
   "Tables": null

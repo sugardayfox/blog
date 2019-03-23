@@ -6,6 +6,8 @@
       "d4cdcfc3-e723-4773-a7c6-fe2ca5ee0ae0",
       "9e3cdab4-dbcb-4117-b1a5-889f373d148b",
       "e41ffcd1-c59d-4c5e-9ece-ab270057f5bc",
+      "5f7c0d9e-6afd-4c68-a24e-62ccc8c33a5c",
+      "564f48c6-4b9b-41a9-897d-5da9bcec6324",
       "bd01ab98-31cc-4375-8a28-009af25dd3a4",
       "781ca4f1-962d-471c-b101-8eab5f41b4e5",
       "3e9c1983-8ee6-4970-81d9-23d6b5a78150",
@@ -54,7 +56,7 @@
     },
     "id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1549919280000,
+    "last_edited_time": 1553301180000,
     "parent_id": "ee0eee35-e706-4e75-9b2f-69d1d03125b2",
     "parent_table": "block",
     "properties": {
@@ -65,7 +67,7 @@
       ]
     },
     "type": "page",
-    "version": 36,
+    "version": 41,
     "content_resolved": [
       {
         "alive": true,
@@ -137,6 +139,80 @@
         "inline_content": [
           {
             "Text": "Links:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553301120000,
+        "id": "5f7c0d9e-6afd-4c68-a24e-62ccc8c33a5c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553301180000,
+        "parent_id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/monocasa/exefmt",
+              [
+                [
+                  "a",
+                  "https://github.com/monocasa/exefmt"
+                ]
+              ]
+            ],
+            [
+              " : pe reader, pdb reader, in rust, early stages"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 75,
+        "inline_content": [
+          {
+            "Text": "https://github.com/monocasa/exefmt",
+            "Link": "https://github.com/monocasa/exefmt"
+          },
+          {
+            "Text": " : pe reader, pdb reader, in rust, early stages"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553300760000,
+        "id": "564f48c6-4b9b-41a9-897d-5da9bcec6324",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553301180000,
+        "parent_id": "65db085c-d90f-45d2-a271-8f19a7566e1b",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/lief-project/LIEF/tree/master/src",
+              [
+                [
+                  "a",
+                  "https://github.com/lief-project/LIEF/tree/master/src"
+                ]
+              ]
+            ],
+            [
+              " : C++ code to read pe, coff and other file formats, can also re-assemble them, ~80k loc"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 127,
+        "inline_content": [
+          {
+            "Text": "https://github.com/lief-project/LIEF/tree/master/src",
+            "Link": "https://github.com/lief-project/LIEF/tree/master/src"
+          },
+          {
+            "Text": " : C++ code to read pe, coff and other file formats, can also re-assemble them, ~80k loc"
           }
         ]
       },
@@ -1425,12 +1501,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 43
     }
   ],
   "Tables": null
