@@ -63,6 +63,10 @@
       "b9a4c6c4-875f-484b-af9f-0a273c40b91c",
       "49241da0-7453-4ac3-bf45-50adde8398f4",
       "41c79182-92ca-4a39-a113-89be41d397a8",
+      "72c1598f-2c70-44c0-8949-87644bd45adc",
+      "898ff87e-0d3a-439a-afab-803fe2ccc07b",
+      "9928ddad-460a-4f4c-a00b-2bddc21c33ef",
+      "1bdd529c-6a24-4ec1-86b7-7cd772a6659c",
       "8ec3a7f1-01c7-4386-a9cb-eae91aa9fdd1"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -78,7 +82,7 @@
     },
     "id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1553570340000,
+    "last_edited_time": 1553572560000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -89,7 +93,7 @@
       ]
     },
     "type": "page",
-    "version": 251,
+    "version": 283,
     "content_resolved": [
       {
         "alive": true,
@@ -1595,23 +1599,95 @@
         "created_time": 1553569740000,
         "id": "41c79182-92ca-4a39-a113-89be41d397a8",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553569800000,
+        "last_edited_time": 1553572440000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "MIME is a format used for encoding e-mail messages. While being very close "
+              "MIME is a format used for encoding e-mail messages. While in some ways it's very close to this format, they made a mistake of using a boundary string for separating multiple parts. It's just so unnecessarily hard to implement. A MIME decoder is more than 500 lines of code and doesn't offer more features."
             ]
           ]
         },
         "type": "text",
-        "version": 116,
+        "version": 627,
         "inline_content": [
           {
-            "Text": "MIME is a format used for encoding e-mail messages. While being very close "
+            "Text": "MIME is a format used for encoding e-mail messages. While in some ways it's very close to this format, they made a mistake of using a boundary string for separating multiple parts. It's just so unnecessarily hard to implement. A MIME decoder is more than 500 lines of code and doesn't offer more features."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553572440000,
+        "id": "72c1598f-2c70-44c0-8949-87644bd45adc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553572560000,
+        "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Other example of massive mistakes of the past is choosing XML as a format for describing ant or Visual Studio build files. XML is super slow, hard to work with and proper implementation requires thousands of lines of code."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 414,
+        "inline_content": [
+          {
+            "Text": "Other example of massive mistakes of the past is choosing XML as a format for describing ant or Visual Studio build files. XML is super slow, hard to work with and proper implementation requires thousands of lines of code."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553572560000,
+        "id": "898ff87e-0d3a-439a-afab-803fe2ccc07b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553572560000,
+        "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Obvious things are often only obvious in hindsight."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 67,
+        "inline_content": [
+          {
+            "Text": "Obvious things are often only obvious in hindsight."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553572560000,
+        "id": "9928ddad-460a-4f4c-a00b-2bddc21c33ef",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553572560000,
+        "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553572500000,
+        "id": "1bdd529c-6a24-4ec1-86b7-7cd772a6659c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553572500000,
+        "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
       },
       {
         "alive": true,
