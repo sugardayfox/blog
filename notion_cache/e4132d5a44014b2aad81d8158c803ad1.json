@@ -3,6 +3,7 @@
   "Root": {
     "alive": true,
     "content": [
+      "86727062-3797-48ca-854a-ba0e328260a9",
       "c6690fbf-02f6-442d-8648-7873539cec5b",
       "e1cea37a-0533-4bf3-b148-badc4c486d32",
       "7b61f255-a1d2-499b-a820-d0961c476c37"
@@ -15,7 +16,7 @@
     },
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1552941960000,
+    "last_edited_time": 1553629740000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -26,8 +27,40 @@
       ]
     },
     "type": "page",
-    "version": 519,
+    "version": 523,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1553629779546,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1553645880000,
+        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Log for ideas"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 116,
+        "title": "Log for ideas",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
       {
         "alive": true,
         "content": [
@@ -23041,12 +23074,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 43
+      "time_zone": "",
+      "version": 56
     }
   ],
   "Tables": null
