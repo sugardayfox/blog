@@ -50,7 +50,7 @@
     },
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1553645880000,
+    "last_edited_time": 1553912760000,
     "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "parent_table": "block",
     "properties": {
@@ -61,7 +61,7 @@
       ]
     },
     "type": "page",
-    "version": 116,
+    "version": 119,
     "content_resolved": [
       {
         "alive": true,
@@ -232,21 +232,59 @@
         "created_time": 1553643240000,
         "id": "bee77862-e70d-471f-8301-6a7e02106dd0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553643240000,
+        "last_edited_time": 1553912760000,
         "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "mini: write the simplest comic book reader on the web"
+              "mini: write the simplest comic book reader on the web. Use "
+            ],
+            [
+              "https://github.com/codedread/kthoom",
+              [
+                [
+                  "a",
+                  "https://github.com/codedread/kthoom"
+                ]
+              ]
+            ],
+            [
+              " and "
+            ],
+            [
+              "https://github.com/workhorsy/comic_book_reader",
+              [
+                [
+                  "a",
+                  "https://github.com/workhorsy/comic_book_reader"
+                ]
+              ]
+            ],
+            [
+              " as a base. combine with pdfvuer for PDF viewing"
             ]
           ]
         },
         "type": "text",
-        "version": 64,
+        "version": 132,
         "inline_content": [
           {
-            "Text": "mini: write the simplest comic book reader on the web"
+            "Text": "mini: write the simplest comic book reader on the web. Use "
+          },
+          {
+            "Text": "https://github.com/codedread/kthoom",
+            "Link": "https://github.com/codedread/kthoom"
+          },
+          {
+            "Text": " and "
+          },
+          {
+            "Text": "https://github.com/workhorsy/comic_book_reader",
+            "Link": "https://github.com/workhorsy/comic_book_reader"
+          },
+          {
+            "Text": " as a base. combine with pdfvuer for PDF viewing"
           }
         ]
       },
@@ -1153,7 +1191,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 56
+      "version": 62
     }
   ],
   "Tables": null

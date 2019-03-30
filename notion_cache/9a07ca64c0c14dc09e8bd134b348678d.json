@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1550439060000,
+    "last_edited_time": 1553894280000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 86,
+    "version": 88,
     "content_resolved": [
       {
         "alive": true,
@@ -4095,13 +4095,15 @@
           "322e5db6-683c-441f-b3d5-11ff4f24af8a",
           "e94d2dbd-5c02-4c42-99f2-19cd7a250d25",
           "994ce4bd-a674-4c4e-8d12-eb4a1d7dd574",
+          "a643a618-2e95-48cb-a40c-5cf03dd2ee64",
+          "82576ef3-e97a-4f74-9952-aba398f75b36",
           "8f417f48-0425-4754-b92b-f7b515592408"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1539060973569,
         "id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1550116980000,
+        "last_edited_time": 1553894280000,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -4112,7 +4114,7 @@
           ]
         },
         "type": "toggle",
-        "version": 35,
+        "version": 39,
         "content_resolved": [
           {
             "alive": true,
@@ -4223,6 +4225,99 @@
               {
                 "Text": "https://news.ycombinator.com/item?id=19181931",
                 "Link": "https://news.ycombinator.com/item?id=19181931"
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1553892120000,
+            "id": "a643a618-2e95-48cb-a40c-5cf03dd2ee64",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1553894280000,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://andyadams.org/everything-i-know-about-freelancing/",
+                  [
+                    [
+                      "a",
+                      "https://andyadams.org/everything-i-know-about-freelancing/"
+                    ]
+                  ]
+                ],
+                [
+                  ", "
+                ],
+                [
+                  "https://news.ycombinator.com/item?id=19522053",
+                  [
+                    [
+                      "a",
+                      "https://news.ycombinator.com/item?id=19522053"
+                    ]
+                  ]
+                ],
+                [
+                  ","
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 12,
+            "inline_content": [
+              {
+                "Text": "https://andyadams.org/everything-i-know-about-freelancing/",
+                "Link": "https://andyadams.org/everything-i-know-about-freelancing/"
+              },
+              {
+                "Text": ", "
+              },
+              {
+                "Text": "https://news.ycombinator.com/item?id=19522053",
+                "Link": "https://news.ycombinator.com/item?id=19522053"
+              },
+              {
+                "Text": ","
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1553894280000,
+            "id": "82576ef3-e97a-4f74-9952-aba398f75b36",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1553894280000,
+            "parent_id": "f79996b1-a1a4-4467-8db0-1704748c3d8c",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://certainly.software/",
+                  [
+                    [
+                      "a",
+                      "https://certainly.software/"
+                    ]
+                  ]
+                ],
+                [
+                  " : a good \"hire me\" page"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 28,
+            "inline_content": [
+              {
+                "Text": "https://certainly.software/",
+                "Link": "https://certainly.software/"
+              },
+              {
+                "Text": " : a good \"hire me\" page"
               }
             ]
           },
@@ -4468,12 +4563,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 43
+      "time_zone": "",
+      "version": 62
     }
   ],
   "Tables": null
