@@ -40,7 +40,7 @@
     },
     "id": "7c647e80-7f31-49d8-980e-85cd7779d180",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1532996368299,
+    "last_edited_time": 1554002760000,
     "parent_id": "11703b89-1c9f-48ad-ae04-7eb3f6a2f004",
     "parent_table": "block",
     "properties": {
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 12,
+    "version": 13,
     "content_resolved": [
       {
         "alive": true,
@@ -173,7 +173,7 @@
         "created_time": 1531195944349,
         "id": "6fe77f0b-b786-4250-ae3d-169817abf121",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1531195944349,
+        "last_edited_time": 1554002760000,
         "parent_id": "7c647e80-7f31-49d8-980e-85cd7779d180",
         "parent_table": "block",
         "properties": {
@@ -182,7 +182,7 @@
               "generate public and private key (e.g. with "
             ],
             [
-              "ssh-keygen -q -f ~/.ssh/id_rsa -t rsa",
+              "ssh-keygen -t rsa -b 4096 -C \"a comment\"",
               [
                 [
                   "c"
@@ -206,13 +206,13 @@
           ]
         },
         "type": "bulleted_list",
-        "version": 1,
+        "version": 4,
         "inline_content": [
           {
             "Text": "generate public and private key (e.g. with "
           },
           {
-            "Text": "ssh-keygen -q -f ~/.ssh/id_rsa -t rsa",
+            "Text": "ssh-keygen -t rsa -b 4096 -C \"a comment\"",
             "AttrFlags": 2
           },
           {
@@ -985,12 +985,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 67
     }
   ],
   "Tables": null
