@@ -33,7 +33,7 @@
     },
     "id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1553894280000,
+    "last_edited_time": 1554166140000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "permissions": [
@@ -51,7 +51,7 @@
       ]
     },
     "type": "page",
-    "version": 88,
+    "version": 89,
     "content_resolved": [
       {
         "alive": true,
@@ -3648,13 +3648,14 @@
           "e81eae50-797e-4ee3-915a-7a147f42eaef",
           "d1eeacca-5b64-4a47-8f1f-97f1606b8741",
           "fe855cbe-29a5-4e52-bb98-623883f33936",
-          "20566b7c-36af-4633-a9a4-3bdb6074f425"
+          "20566b7c-36af-4633-a9a4-3bdb6074f425",
+          "74a556f4-242b-4752-afb0-8a3c37aeaa8c"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1518848865846,
         "id": "b725097a-bd79-48df-b36e-ad5f89e18654",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532924015337,
+        "last_edited_time": 1554166140000,
         "parent_id": "9a07ca64-c0c1-4dc0-9e8b-d134b348678d",
         "parent_table": "block",
         "properties": {
@@ -3665,7 +3666,7 @@
           ]
         },
         "type": "toggle",
-        "version": 38,
+        "version": 40,
         "content_resolved": [
           {
             "alive": true,
@@ -3926,6 +3927,43 @@
               },
               {
                 "Text": " : notes on using adsense well; has links to online seo tools."
+              }
+            ]
+          },
+          {
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1554166140000,
+            "id": "74a556f4-242b-4752-afb0-8a3c37aeaa8c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1554166140000,
+            "parent_id": "b725097a-bd79-48df-b36e-ad5f89e18654",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://backlinko.com/on-page-seo",
+                  [
+                    [
+                      "a",
+                      "https://backlinko.com/on-page-seo"
+                    ]
+                  ]
+                ],
+                [
+                  " : a good list for basics of seo"
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 39,
+            "inline_content": [
+              {
+                "Text": "https://backlinko.com/on-page-seo",
+                "Link": "https://backlinko.com/on-page-seo"
+              },
+              {
+                "Text": " : a good list for basics of seo"
               }
             ]
           }
@@ -4568,7 +4606,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 62
+      "version": 70
     }
   ],
   "Tables": null

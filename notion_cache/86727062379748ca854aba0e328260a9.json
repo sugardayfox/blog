@@ -3,6 +3,20 @@
   "Root": {
     "alive": true,
     "content": [
+      "6906cbdd-d9ca-48ce-85f0-164ae8401cbf",
+      "86d93eb5-125e-4944-be47-f16f710ef890",
+      "8fbe29d0-4ff3-43e9-8cfc-62e481a6b42d",
+      "fac25245-979d-4316-926e-33041096ae39",
+      "1c94a761-863c-4585-a2f8-5e46f59e3cb7",
+      "843451ee-9ffa-473b-b69d-bc8e610e5ecd",
+      "0ec45a78-48c1-4a7f-8fe4-507cbfc7214b",
+      "aab1923f-9591-4da9-9e22-6c3840a3f200",
+      "d01a28ac-ed3b-4141-a0f3-7451e281e6fb",
+      "4712a02a-4475-4c3b-92fa-cc04e714474d",
+      "ac503b6a-4c1d-4bf8-9619-7e31c6e2ed00",
+      "2cbcfc57-7018-421b-b593-184f1e60660c",
+      "96df03a7-318a-410e-ae5c-2f46b0686195",
+      "9dcaa3da-1334-445e-b56f-720fd40c8262",
       "9097055c-718a-4e03-b67b-b03d767a9231",
       "bd5a8a23-922b-41c9-87aa-10c78fa54b7d",
       "04d6964d-8849-42f9-b961-d5ebdc6ecaa1",
@@ -65,7 +79,7 @@
     },
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554082740000,
+    "last_edited_time": 1554160680000,
     "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "parent_table": "block",
     "properties": {
@@ -76,8 +90,403 @@
       ]
     },
     "type": "page",
-    "version": 144,
+    "version": 168,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160620000,
+        "id": "6906cbdd-d9ca-48ce-85f0-164ae8401cbf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160620000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160644618,
+        "id": "86d93eb5-125e-4944-be47-f16f710ef890",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160620000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-01",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 10,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-01",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160620000,
+        "id": "8fbe29d0-4ff3-43e9-8cfc-62e481a6b42d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160620000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "#nopub"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 10,
+        "inline_content": [
+          {
+            "Text": "#nopub"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160620000,
+        "id": "fac25245-979d-4316-926e-33041096ae39",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160680000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Someone wants notion → google sheets, "
+            ],
+            [
+              "https://old.reddit.com/r/NotionSo/comments/b8ay2t/is_there_a_way_to_have_notion_talk_to_my_google/",
+              [
+                [
+                  "a",
+                  "https://old.reddit.com/r/NotionSo/comments/b8ay2t/is_there_a_way_to_have_notion_talk_to_my_google/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 113,
+        "inline_content": [
+          {
+            "Text": "Someone wants notion → google sheets, "
+          },
+          {
+            "Text": "https://old.reddit.com/r/NotionSo/comments/b8ay2t/is_there_a_way_to_have_notion_talk_to_my_google/",
+            "Link": "https://old.reddit.com/r/NotionSo/comments/b8ay2t/is_there_a_way_to_have_notion_talk_to_my_google/"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160200000,
+        "id": "1c94a761-863c-4585-a2f8-5e46f59e3cb7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160200000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160235912,
+        "id": "843451ee-9ffa-473b-b69d-bc8e610e5ecd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160200000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-01",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 10,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-01",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160620000,
+        "id": "0ec45a78-48c1-4a7f-8fe4-507cbfc7214b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160620000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "#go"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 7,
+        "inline_content": [
+          {
+            "Text": "#go"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160200000,
+        "id": "aab1923f-9591-4da9-9e22-6c3840a3f200",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160260000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Write a tool for visualizing Go binary size. Could be web based on windows / mac app. Or all of them and use web based version to let people try the app but for heavy use direct them to $29-$39 windows / mac app."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 297,
+        "inline_content": [
+          {
+            "Text": "Write a tool for visualizing Go binary size. Could be web based on windows / mac app. Or all of them and use web based version to let people try the app but for heavy use direct them to $29-$39 windows / mac app."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160260000,
+        "id": "d01a28ac-ed3b-4141-a0f3-7451e281e6fb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160260000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Inspiration:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "Inspiration:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160260000,
+        "id": "4712a02a-4475-4c3b-92fa-cc04e714474d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160380000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://science.raphael.poss.name/go-executable-size-visualization-with-d3.html",
+              [
+                [
+                  "a",
+                  "https://science.raphael.poss.name/go-executable-size-visualization-with-d3.html"
+                ]
+              ]
+            ],
+            [
+              ", the actual visualizer is confusing and slow"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 63,
+        "inline_content": [
+          {
+            "Text": "https://science.raphael.poss.name/go-executable-size-visualization-with-d3.html",
+            "Link": "https://science.raphael.poss.name/go-executable-size-visualization-with-d3.html"
+          },
+          {
+            "Text": ", the actual visualizer is confusing and slow"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160260000,
+        "id": "ac503b6a-4c1d-4bf8-9619-7e31c6e2ed00",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160260000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/knz/go-binsize-viz",
+              [
+                [
+                  "a",
+                  "https://github.com/knz/go-binsize-viz"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 5,
+        "inline_content": [
+          {
+            "Text": "https://github.com/knz/go-binsize-viz",
+            "Link": "https://github.com/knz/go-binsize-viz"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160380000,
+        "id": "2cbcfc57-7018-421b-b593-184f1e60660c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160560000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "http://evmar.github.io/webtreemap/",
+              [
+                [
+                  "a",
+                  "http://evmar.github.io/webtreemap/"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://github.com/evmar/webtreemap",
+              [
+                [
+                  "a",
+                  "https://github.com/evmar/webtreemap"
+                ]
+              ]
+            ],
+            [
+              "- much faster and less confusing implementation of a visualizer"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 86,
+        "inline_content": [
+          {
+            "Text": "http://evmar.github.io/webtreemap/",
+            "Link": "http://evmar.github.io/webtreemap/"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://github.com/evmar/webtreemap",
+            "Link": "https://github.com/evmar/webtreemap"
+          },
+          {
+            "Text": "- much faster and less confusing implementation of a visualizer"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160440000,
+        "id": "96df03a7-318a-410e-ae5c-2f46b0686195",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160560000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Should also have an option to produce a linear list (or a tree view) or maybe flamegraph"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 120,
+        "inline_content": [
+          {
+            "Text": "Should also have an option to produce a linear list (or a tree view) or maybe flamegraph"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554160200000,
+        "id": "9dcaa3da-1334-445e-b56f-720fd40c8262",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554160200000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -1659,7 +2068,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 67
+      "version": 70
     }
   ],
   "Tables": null
