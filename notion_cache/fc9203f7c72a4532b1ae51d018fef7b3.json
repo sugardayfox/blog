@@ -96,7 +96,7 @@
     },
     "id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1553635080000,
+    "last_edited_time": 1554277500000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -107,7 +107,7 @@
       ]
     },
     "type": "page",
-    "version": 346,
+    "version": 349,
     "content_resolved": [
       {
         "alive": true,
@@ -461,21 +461,21 @@
         "created_time": 1553573520000,
         "id": "77f50f3d-ebde-447f-a898-2197077f0438",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553573580000,
+        "last_edited_time": 1554277440000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Implementing this format isn't challenging but it's ad-hoc. For each kind of data I would have to write a completely new formatter/parser."
+              "Implementing this format isn't challenging but the format is ad-hoc. For each kind of data I would have to write a completely new formatter / parser."
             ]
           ]
         },
         "type": "text",
-        "version": 89,
+        "version": 112,
         "inline_content": [
           {
-            "Text": "Implementing this format isn't challenging but it's ad-hoc. For each kind of data I would have to write a completely new formatter/parser."
+            "Text": "Implementing this format isn't challenging but the format is ad-hoc. For each kind of data I would have to write a completely new formatter / parser."
           }
         ]
       },
@@ -583,21 +583,39 @@
         "created_time": 1553564940000,
         "id": "363337c2-7dbe-4d62-85b9-ec1aa716cc84",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553564940000,
+        "last_edited_time": 1554277440000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "We must amend our format:"
+              "We must amend our format add add a record separator, like "
+            ],
+            [
+              "---",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ":"
             ]
           ]
         },
         "type": "text",
-        "version": 31,
+        "version": 95,
         "inline_content": [
           {
-            "Text": "We must amend our format:"
+            "Text": "We must amend our format add add a record separator, like "
+          },
+          {
+            "Text": "---",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ":"
           }
         ]
       },
@@ -805,21 +823,21 @@
         "created_time": 1553573700000,
         "id": "b66523ba-8271-4e86-a0ed-ec23ae9c5128",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553573700000,
+        "last_edited_time": 1554277440000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Same goes for unescaping."
+              "Same goes for un-escaping."
             ]
           ]
         },
         "type": "text",
-        "version": 29,
+        "version": 31,
         "inline_content": [
           {
-            "Text": "Same goes for unescaping."
+            "Text": "Same goes for un-escaping."
           }
         ]
       },
@@ -927,7 +945,7 @@
         "created_time": 1553565960000,
         "id": "8ad93a78-9e96-45de-b682-e1ff713ca9a3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553634540000,
+        "last_edited_time": 1554277500000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
@@ -941,19 +959,19 @@
               ]
             ],
             [
-              " is the size of the value. Knowing the size we don't need escaping. It'ss faster, simpler to implement, more readable and supports binary data (like images)."
+              " is the size of the value. Knowing the size we don't need escaping. It's faster, simpler to implement, more readable and supports binary data (like images)."
             ]
           ]
         },
         "type": "text",
-        "version": 331,
+        "version": 333,
         "inline_content": [
           {
             "Text": "33",
             "AttrFlags": 2
           },
           {
-            "Text": " is the size of the value. Knowing the size we don't need escaping. It'ss faster, simpler to implement, more readable and supports binary data (like images)."
+            "Text": " is the size of the value. Knowing the size we don't need escaping. It's faster, simpler to implement, more readable and supports binary data (like images)."
           }
         ]
       },
@@ -1315,21 +1333,21 @@
         "created_time": 1553573880000,
         "id": "4391f252-0777-4dc3-b120-a6569ebde52a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1553573880000,
+        "last_edited_time": 1554277500000,
         "parent_id": "fc9203f7-c72a-4532-b1ae-51d018fef7b3",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Above we have logged an HTPP requests info and car info in the same file. "
+              "Above we have logged an HTTP requests info and car info in the same file. "
             ]
           ]
         },
         "type": "text",
-        "version": 5,
+        "version": 10,
         "inline_content": [
           {
-            "Text": "Above we have logged an HTPP requests info and car info in the same file. "
+            "Text": "Above we have logged an HTTP requests info and car info in the same file. "
           }
         ]
       },
@@ -2164,7 +2182,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 56
+      "version": 77
     }
   ],
   "Tables": null
