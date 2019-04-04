@@ -1,0 +1,705 @@
+{
+  "ID": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+  "Root": {
+    "alive": true,
+    "content": [
+      "2385346d-bea6-4a25-953e-0a092b1b7ed3",
+      "e10be3ea-a15a-42ed-9402-7e2994b2ae2e",
+      "7cfe63e1-e883-413c-a2ea-1e322ec8e13f",
+      "8a43572c-2089-49b9-ada4-d9a6f54528b7",
+      "34865f18-1534-4533-b4e4-3d95e7aef26b",
+      "5d410760-28d4-480e-8daa-6f84ef0e7dbd",
+      "3de69350-279a-4d35-909b-98721a9c29e4",
+      "ceddf244-c034-4d65-888b-66c9c046bc43",
+      "0f70e298-9b67-4fcd-bf7e-a5c867580932",
+      "888fefa3-9290-48ed-adbe-e387c8ab5eeb",
+      "325bf3e1-101e-4777-b09e-1cadec9b5ecf",
+      "b0f5e8a7-8116-4987-8077-9e49b6b75967",
+      "3cbc29d8-ab7a-4861-8ce5-b9b788b2a554",
+      "de552710-13f7-4466-8b6c-c135ea4e1e19",
+      "b5193c00-5beb-449b-b5f7-e19e7afa6e9e",
+      "34365611-51cf-4385-94d9-27b698f0c2f6",
+      "26086d5d-e0bc-46ca-ae37-8f6506051109",
+      "c285910f-5935-432c-b85d-f27539ddcf06",
+      "0e4461c3-d873-4e09-9aff-f4aba3c5a68c",
+      "a90a6ff4-d971-48b3-9d7f-0b53c2f384a8",
+      "6f2a8bf8-f1cb-43e9-9ac5-a1c7be191a69",
+      "fed03bfa-293f-41a9-a55a-d7440d578c1b",
+      "0a3bbd66-053a-4fe6-b200-87920953fec9",
+      "60e65f29-ddb6-459d-a6cd-1a360bb71564"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1554366794619,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1554368820000,
+    "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "4/4/2019 Thu, writing installer for Windows software"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 136,
+    "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366780000,
+        "id": "2385346d-bea6-4a25-953e-0a092b1b7ed3",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554366780000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-04",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 9,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-04",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366780000,
+        "id": "e10be3ea-a15a-42ed-9402-7e2994b2ae2e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554366840000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I'm writing small Windows utility and one of the taxes one has to pay in Windows software is the need for an installer."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 169,
+        "inline_content": [
+          {
+            "Text": "I'm writing small Windows utility and one of the taxes one has to pay in Windows software is the need for an installer."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366840000,
+        "id": "7cfe63e1-e883-413c-a2ea-1e322ec8e13f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367140000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I have thoughts on what is a good installer. This is how an installer looks:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 120,
+        "inline_content": [
+          {
+            "Text": "I have thoughts on what is a good installer. This is how an installer looks:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554368760000,
+        "id": "8a43572c-2089-49b9-ada4-d9a6f54528b7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554368760000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554368760000,
+        "file_ids": [
+          "841f4f45-3dbb-44ef-9ecf-f18195700323"
+        ],
+        "format": {
+          "block_width": 626,
+          "block_height": 473,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841f4f45-3dbb-44ef-9ecf-f18195700323/Untitled.png",
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_aspect_ratio": 0.755591054313099,
+          "block_preserve_scale": true
+        },
+        "id": "34865f18-1534-4533-b4e4-3d95e7aef26b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554368760000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "source": [
+            [
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841f4f45-3dbb-44ef-9ecf-f18195700323/Untitled.png"
+            ]
+          ]
+        },
+        "type": "image",
+        "version": 8,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841f4f45-3dbb-44ef-9ecf-f18195700323/Untitled.png",
+        "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F841f4f45-3dbb-44ef-9ecf-f18195700323%2FUntitled.png",
+        "format_image": {
+          "block_aspect_ratio": 0.755591054313099,
+          "block_full_width": false,
+          "block_page_width": false,
+          "block_preserve_scale": true,
+          "block_width": 626,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841f4f45-3dbb-44ef-9ecf-f18195700323/Untitled.png",
+          "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F841f4f45-3dbb-44ef-9ecf-f18195700323%2FUntitled.png"
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366900000,
+        "id": "5d410760-28d4-480e-8daa-6f84ef0e7dbd",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554368820000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "(it's a first draft, there will be more info on that window)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 120,
+        "inline_content": [
+          {
+            "Text": "(it's a first draft, there will be more info on that window)."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366900000,
+        "id": "3de69350-279a-4d35-909b-98721a9c29e4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554366960000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "An installer is not a complicated thing. All it does:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 102,
+        "inline_content": [
+          {
+            "Text": "An installer is not a complicated thing. All it does:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366960000,
+        "id": "ceddf244-c034-4d65-888b-66c9c046bc43",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554366960000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "copy the files to a destination folder"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 48,
+        "inline_content": [
+          {
+            "Text": "copy the files to a destination folder"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366960000,
+        "id": "0f70e298-9b67-4fcd-bf7e-a5c867580932",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367020000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "create few registry entries for the uninstaller"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 70,
+        "inline_content": [
+          {
+            "Text": "create few registry entries for the uninstaller"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367020000,
+        "id": "888fefa3-9290-48ed-adbe-e387c8ab5eeb",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367080000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "create a shortcut in start menu and desktop"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 56,
+        "inline_content": [
+          {
+            "Text": "create a shortcut in start menu and desktop"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367080000,
+        "id": "325bf3e1-101e-4777-b09e-1cadec9b5ecf",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367080000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It's tedious work but not very challenging."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 72,
+        "inline_content": [
+          {
+            "Text": "It's tedious work but not very challenging."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367080000,
+        "id": "b0f5e8a7-8116-4987-8077-9e49b6b75967",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367200000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "And yet most programmers relegate creating the installer to a tool like InnoSetup, NSIS, MSI or some such."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 158,
+        "inline_content": [
+          {
+            "Text": "And yet most programmers relegate creating the installer to a tool like InnoSetup, NSIS, MSI or some such."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367200000,
+        "id": "3cbc29d8-ab7a-4861-8ce5-b9b788b2a554",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367200000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "As a result they end up with lowest common denominator for the installation experience."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 117,
+        "inline_content": [
+          {
+            "Text": "As a result they end up with lowest common denominator for the installation experience."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367200000,
+        "id": "de552710-13f7-4466-8b6c-c135ea4e1e19",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367380000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "MSI is especially bad. MSI installers tend to grind for several seconds doing god knows what."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 161,
+        "inline_content": [
+          {
+            "Text": "MSI is especially bad. MSI installers tend to grind for several seconds doing god knows what."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367380000,
+        "id": "b5193c00-5beb-449b-b5f7-e19e7afa6e9e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367440000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "NSIS is better but the default is to create a multi-step installer where users has to click and click and click to advance the installation."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 225,
+        "inline_content": [
+          {
+            "Text": "NSIS is better but the default is to create a multi-step installer where users has to click and click and click to advance the installation."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367440000,
+        "id": "34365611-51cf-4385-94d9-27b698f0c2f6",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367500000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "My installer really has only one button: \"Install and Run\". There's no need to show the licence, to ask the user to select options, to ask to accept the terms."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 265,
+        "inline_content": [
+          {
+            "Text": "My installer really has only one button: \"Install and Run\". There's no need to show the licence, to ask the user to select options, to ask to accept the terms."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367500000,
+        "id": "26086d5d-e0bc-46ca-ae37-8f6506051109",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367500000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Amazon has one click buying, I have one click installation."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 64,
+        "inline_content": [
+          {
+            "Text": "Amazon has one click buying, I have one click installation."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367500000,
+        "id": "c285910f-5935-432c-b85d-f27539ddcf06",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367560000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's an installation trick that I've learned from uTorrent."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 127,
+        "inline_content": [
+          {
+            "Text": "Here's an installation trick that I've learned from uTorrent."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367560000,
+        "id": "0e4461c3-d873-4e09-9aff-f4aba3c5a68c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367680000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Most installers are separate programs that embeds the payload to be installed (i.e. application and other files it needs) inside the installer and extracts the payload to installation directory."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 254,
+        "inline_content": [
+          {
+            "Text": "Most installers are separate programs that embeds the payload to be installed (i.e. application and other files it needs) inside the installer and extracts the payload to installation directory."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367680000,
+        "id": "a90a6ff4-d971-48b3-9d7f-0b53c2f384a8",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367740000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Installation logic is just few kilobytes of the code so I create applications that are their own installers."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 163,
+        "inline_content": [
+          {
+            "Text": "Installation logic is just few kilobytes of the code so I create applications that are their own installers."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367740000,
+        "id": "6f2a8bf8-f1cb-43e9-9ac5-a1c7be191a69",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367860000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "If the file has \"-installer\" in the exe name (e.g. "
+            ],
+            [
+              "fastfilefinder-v0.1-installer.exe",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "), I assume it should run in the installer mode and show the installer UI. The installer then copies itself under non-installer name, e.g. "
+            ],
+            [
+              "fastfilefinder.exe",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " in which case I assume it should act as an app."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 402,
+        "inline_content": [
+          {
+            "Text": "If the file has \"-installer\" in the exe name (e.g. "
+          },
+          {
+            "Text": "fastfilefinder-v0.1-installer.exe",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "), I assume it should run in the installer mode and show the installer UI. The installer then copies itself under non-installer name, e.g. "
+          },
+          {
+            "Text": "fastfilefinder.exe",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " in which case I assume it should act as an app."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367860000,
+        "id": "fed03bfa-293f-41a9-a55a-d7440d578c1b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367860000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The app also accepts "
+            ],
+            [
+              "-unstall",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " cmd-line argument to perform un-installation logic (delete the files, remove registry entries)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 230,
+        "inline_content": [
+          {
+            "Text": "The app also accepts "
+          },
+          {
+            "Text": "-unstall",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " cmd-line argument to perform un-installation logic (delete the files, remove registry entries)."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367860000,
+        "id": "0a3bbd66-053a-4fe6-b200-87920953fec9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367920000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "type": "text",
+        "version": 7
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554367020000,
+        "id": "60e65f29-ddb6-459d-a6cd-1a360bb71564",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554367020000,
+        "parent_id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
+      }
+    ],
+    "title": "4/4/2019 Thu, writing installer for Windows software",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "",
+      "version": 85
+    }
+  ],
+  "Tables": null
+}

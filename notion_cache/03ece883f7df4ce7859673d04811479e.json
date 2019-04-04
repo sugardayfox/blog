@@ -4,6 +4,8 @@
     "alive": true,
     "content": [
       "da8bb0eb-517b-42f6-bd47-243c353a26cf",
+      "e29face0-6696-4709-96a6-fb8ea750ccc2",
+      "b7c27f52-4ad1-4a5e-9dbc-5c1b6db0ee4a",
       "751d064a-76bf-46fa-9b29-3da1a88cd033",
       "8846aafe-b5a9-4389-8f35-b870628ad218"
     ],
@@ -15,7 +17,7 @@
     },
     "id": "03ece883-f7df-4ce7-8596-73d04811479e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554262620000,
+    "last_edited_time": 1554366780000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -26,7 +28,7 @@
       ]
     },
     "type": "page",
-    "version": 77,
+    "version": 87,
     "content_resolved": [
       {
         "alive": true,
@@ -34,23 +36,87 @@
         "created_time": 1554244680000,
         "id": "da8bb0eb-517b-42f6-bd47-243c353a26cf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554244740000,
+        "last_edited_time": 1554317100000,
         "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "This is where I record the things I work on and random thoughts related to writing software."
+              "This is where I record the things I work on and random thoughts related to writing software, shipping software and charging for software."
             ]
           ]
         },
         "type": "text",
-        "version": 140,
+        "version": 188,
         "inline_content": [
           {
-            "Text": "This is where I record the things I work on and random thoughts related to writing software."
+            "Text": "This is where I record the things I work on and random thoughts related to writing software, shipping software and charging for software."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554366794619,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "e29face0-6696-4709-96a6-fb8ea750ccc2",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554368820000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/4/2019 Thu, writing installer for Windows software"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 136,
+        "title": "4/4/2019 Thu, writing installer for Windows software",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554331484975,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "b7c27f52-4ad1-4a5e-9dbc-5c1b6db0ee4a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554366780000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/3/2019, Wed, Half-screen rule for websites"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 116,
+        "title": "4/3/2019, Wed, Half-screen rule for websites",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
       },
       {
         "alive": true,
@@ -62,19 +128,19 @@
         },
         "id": "751d064a-76bf-46fa-9b29-3da1a88cd033",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554263040000,
+        "last_edited_time": 1554366660000,
         "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Tue, 4/2/2019 (Apple's biggest Swift mistake)"
+              "4/2/2019 Tue, Apple's biggest Swift mistake"
             ]
           ]
         },
         "type": "page",
-        "version": 92,
-        "title": "Tue, 4/2/2019 (Apple's biggest Swift mistake)",
+        "version": 103,
+        "title": "4/2/2019 Tue, Apple's biggest Swift mistake",
         "format_page": {
           "page_cover": "",
           "page_cover_position": 0,
@@ -118,7 +184,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 74
+      "version": 85
     }
   ],
   "Tables": null

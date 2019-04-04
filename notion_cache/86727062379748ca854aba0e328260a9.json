@@ -3,6 +3,21 @@
   "Root": {
     "alive": true,
     "content": [
+      "b312aea6-1398-4d03-8fb4-f1dc04d95c96",
+      "d70844ee-edc4-4c70-8376-fe29c18fc1dc",
+      "f391a1fc-81de-43bd-ba7d-e3dcb1053f7a",
+      "07a377db-422f-4b64-ade2-5eecf69fc3a7",
+      "28a2c2bc-bc75-4cf1-a0ac-cb0f7a12ce32",
+      "fd9a0a8c-6771-4941-a696-d2a4ca9e7736",
+      "b6b5e019-6921-4e95-bc05-601a10ac8556",
+      "4fa5a74d-0810-4811-8b78-63837e34768f",
+      "3a0efcfc-677f-42fb-93b2-38bbd527d439",
+      "9ee5a762-f8d8-4a32-94c4-7a6243ba7cd9",
+      "9fb40612-0033-4a6b-841c-8abfafaf35da",
+      "41df9cb8-0c65-4025-a4ab-3c99b699c898",
+      "66d7eacc-e89b-4bd2-9346-e1759cceadec",
+      "b22b950f-7ae3-40b4-9636-bd2f7aa4e653",
+      "e2fa18c2-34af-471d-b37d-33049222087e",
       "bdb6da88-8f91-45bb-8531-390d60691ef9",
       "ac6f2d38-1138-47da-9bf3-8b454356cbfb",
       "77ef9523-9cd2-4d07-a09b-f9eb11c0412d",
@@ -84,7 +99,7 @@
     },
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554233280000,
+    "last_edited_time": 1554364860000,
     "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "parent_table": "block",
     "properties": {
@@ -95,8 +110,445 @@
       ]
     },
     "type": "page",
-    "version": 175,
+    "version": 206,
     "content_resolved": [
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364200000,
+        "id": "b312aea6-1398-4d03-8fb4-f1dc04d95c96",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364260000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 13
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364260942,
+        "id": "d70844ee-edc4-4c70-8376-fe29c18fc1dc",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364260000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-04",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 10,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-04",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364380000,
+        "id": "f391a1fc-81de-43bd-ba7d-e3dcb1053f7a",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364380000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This is an idea for a better code browsing tool."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 55,
+        "inline_content": [
+          {
+            "Text": "This is an idea for a better code browsing tool."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364260000,
+        "id": "07a377db-422f-4b64-ade2-5eecf69fc3a7",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364320000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Have you ever flip flopped between multiple files when trying to understand a large code base?"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 114,
+        "inline_content": [
+          {
+            "Text": "Have you ever flip flopped between multiple files when trying to understand a large code base?"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364320000,
+        "id": "28a2c2bc-bc75-4cf1-a0ac-cb0f7a12ce32",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364800000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I did, many types. Even the most advanced code browsing tools, like SourceGraph, are very frustrating when trying to understand code. The issue is this: we're not trying to understand 100 thousand lines of code at once, because that's not humanly possible. We browse the code to understand a tiny portion of a large code base but the tools are not made for that. We can do full text search, maybe with semantic understanding but when the parts of the code needed to understand a given concept spans several files, we must jump between files and loose context."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 820,
+        "inline_content": [
+          {
+            "Text": "I did, many types. Even the most advanced code browsing tools, like SourceGraph, are very frustrating when trying to understand code. The issue is this: we're not trying to understand 100 thousand lines of code at once, because that's not humanly possible. We browse the code to understand a tiny portion of a large code base but the tools are not made for that. We can do full text search, maybe with semantic understanding but when the parts of the code needed to understand a given concept spans several files, we must jump between files and loose context."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364800000,
+        "id": "fd9a0a8c-6771-4941-a696-d2a4ca9e7736",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364860000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The idea is rather simple: augment standard search capabilities with a scratch buffer and add ability to quickly add parts of the code that are interesting (either by one-click add of a function / type  etc. or select the code and add)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 250,
+        "inline_content": [
+          {
+            "Text": "The idea is rather simple: augment standard search capabilities with a scratch buffer and add ability to quickly add parts of the code that are interesting (either by one-click add of a function / type  etc. or select the code and add)."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554364860000,
+        "id": "b6b5e019-6921-4e95-bc05-601a10ac8556",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554364860000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "This scratch buffer allows to gather all relevant code in one place."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 109,
+        "inline_content": [
+          {
+            "Text": "This scratch buffer allows to gather all relevant code in one place."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554353940000,
+        "id": "4fa5a74d-0810-4811-8b78-63837e34768f",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554353940000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554353955666,
+        "id": "3a0efcfc-677f-42fb-93b2-38bbd527d439",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554353940000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-03",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 11,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-03",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554353940000,
+        "id": "9ee5a762-f8d8-4a32-94c4-7a6243ba7cd9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554353940000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "#notion"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 13,
+        "inline_content": [
+          {
+            "Text": "#notion"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554353940000,
+        "id": "9fb40612-0033-4a6b-841c-8abfafaf35da",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554354060000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Write a previewer for testing notion api requests by using cors proxy "
+            ],
+            [
+              "cors.io",
+              [
+                [
+                  "a",
+                  "http://cors.io"
+                ]
+              ]
+            ],
+            [
+              " and others. Simple front-end where user can pick which API to call, provide arguments and see JSON result. Inspiration:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 282,
+        "inline_content": [
+          {
+            "Text": "Write a previewer for testing notion api requests by using cors proxy "
+          },
+          {
+            "Text": "cors.io",
+            "Link": "http://cors.io"
+          },
+          {
+            "Text": " and others. Simple front-end where user can pick which API to call, provide arguments and see JSON result. Inspiration:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554354060000,
+        "id": "41df9cb8-0c65-4025-a4ab-3c99b699c898",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554354060000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://github.com/htmlpreview/htmlpreview.github.com/blob/master/htmlpreview.js",
+              [
+                [
+                  "a",
+                  "https://github.com/htmlpreview/htmlpreview.github.com/blob/master/htmlpreview.js"
+                ]
+              ]
+            ],
+            [
+              " for cors proxy use"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 30,
+        "inline_content": [
+          {
+            "Text": "https://github.com/htmlpreview/htmlpreview.github.com/blob/master/htmlpreview.js",
+            "Link": "https://github.com/htmlpreview/htmlpreview.github.com/blob/master/htmlpreview.js"
+          },
+          {
+            "Text": " for cors proxy use"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554354060000,
+        "id": "66d7eacc-e89b-4bd2-9346-e1759cceadec",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554354060000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://htmlpreview.github.io/",
+              [
+                [
+                  "a",
+                  "https://htmlpreview.github.io/"
+                ]
+              ]
+            ],
+            [
+              " for nice, simple UI"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 28,
+        "inline_content": [
+          {
+            "Text": "https://htmlpreview.github.io/",
+            "Link": "https://htmlpreview.github.io/"
+          },
+          {
+            "Text": " for nice, simple UI"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554354060000,
+        "id": "b22b950f-7ae3-40b4-9636-bd2f7aa4e653",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554354300000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://cors.io/",
+              [
+                [
+                  "a",
+                  "https://cors.io/"
+                ]
+              ]
+            ],
+            [
+              " : cors proxy"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 25,
+        "inline_content": [
+          {
+            "Text": "https://cors.io/",
+            "Link": "https://cors.io/"
+          },
+          {
+            "Text": " : cors proxy"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554354240000,
+        "id": "e2fa18c2-34af-471d-b37d-33049222087e",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554354240000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://corsproxy.github.io/",
+              [
+                [
+                  "a",
+                  "https://corsproxy.github.io/"
+                ]
+              ]
+            ],
+            [
+              " : another cors pr"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 26,
+        "inline_content": [
+          {
+            "Text": "https://corsproxy.github.io/",
+            "Link": "https://corsproxy.github.io/"
+          },
+          {
+            "Text": " : another cors pr"
+          }
+        ]
+      },
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -2216,7 +2668,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 74
+      "version": 85
     }
   ],
   "Tables": null
