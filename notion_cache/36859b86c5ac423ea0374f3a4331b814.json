@@ -15,8 +15,8 @@
       "9a4ce34e-f27e-4462-bba8-7ffcb1983504",
       "aa8548fa-e31e-48cd-bb9f-eb7196cec8cc",
       "87466dd4-9ad9-4ae5-a1f8-229f878614ae",
-      "1bf6552f-cc33-4b31-b989-36a082f6341c",
       "9fce2e17-4e42-486f-80d6-9564461ed207",
+      "1bf6552f-cc33-4b31-b989-36a082f6341c",
       "0a19d7a6-755d-42a4-98b2-a993451ab886",
       "eefac7ca-c15a-4744-bc72-7a3c71400a3d",
       "0202fa11-8e4b-4a80-8b83-f40dac058216",
@@ -30,7 +30,7 @@
     },
     "id": "36859b86-c5ac-423e-a037-4f3a4331b814",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554447960000,
+    "last_edited_time": 1554501600000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -41,7 +41,7 @@
       ]
     },
     "type": "page",
-    "version": 151,
+    "version": 154,
     "content_resolved": [
       {
         "alive": true,
@@ -674,6 +674,62 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1546328688597,
+        "id": "9fce2e17-4e42-486f-80d6-9564461ed207",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554501600000,
+        "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "for "
+            ],
+            [
+              "Hibernating Rhinos",
+              [
+                [
+                  "a",
+                  "https://ravendb.net/about"
+                ]
+              ]
+            ],
+            [
+              " I've ported a ~50k loc Java driver to Go. See the result at "
+            ],
+            [
+              "https://github.com/ravendb/ravendb-go-client",
+              [
+                [
+                  "a",
+                  "https://github.com/ravendb/ravendb-go-client"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 331,
+        "inline_content": [
+          {
+            "Text": "for "
+          },
+          {
+            "Text": "Hibernating Rhinos",
+            "Link": "https://ravendb.net/about"
+          },
+          {
+            "Text": " I've ported a ~50k loc Java driver to Go. See the result at "
+          },
+          {
+            "Text": "https://github.com/ravendb/ravendb-go-client",
+            "Link": "https://github.com/ravendb/ravendb-go-client"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1546328572805,
         "id": "1bf6552f-cc33-4b31-b989-36a082f6341c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -711,62 +767,6 @@
           },
           {
             "Text": " before Go even reached v1.0"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1546328688597,
-        "id": "9fce2e17-4e42-486f-80d6-9564461ed207",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554271260000,
-        "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "for "
-            ],
-            [
-              "Hibernating Rhinos",
-              [
-                [
-                  "a",
-                  "https://ravendb.net/about"
-                ]
-              ]
-            ],
-            [
-              " I've ported a ~50k loc Java driver to Go. See the result at "
-            ],
-            [
-              "https://github.com/ravendb/ravendb-go-client",
-              [
-                [
-                  "a",
-                  "https://github.com/ravendb/ravendb-go-client"
-                ]
-              ]
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 328,
-        "inline_content": [
-          {
-            "Text": "for "
-          },
-          {
-            "Text": "Hibernating Rhinos",
-            "Link": "https://ravendb.net/about"
-          },
-          {
-            "Text": " I've ported a ~50k loc Java driver to Go. See the result at "
-          },
-          {
-            "Text": "https://github.com/ravendb/ravendb-go-client",
-            "Link": "https://github.com/ravendb/ravendb-go-client"
           }
         ]
       },
@@ -1032,7 +1032,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 85
+      "version": 86
     }
   ],
   "Tables": null
