@@ -157,7 +157,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554539280000,
+    "last_edited_time": 1554539460000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -168,7 +168,7 @@
       ]
     },
     "type": "page",
-    "version": 635,
+    "version": 636,
     "content_resolved": [
       {
         "alive": true,
@@ -509,21 +509,21 @@
         "created_time": 1554248820000,
         "id": "797aafaa-5aa5-45e2-9cae-4761f41813cf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554248880000,
+        "last_edited_time": 1554539460000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Codecov is barely adequate. The biggest problem is that for Go, they count empty lines as not executed so it's impossible to get 100% code coverage as reported by the tool. Coveralls seems to have the same problem."
+              "Codecov is barely adequate. For Go, they count non-code lines (comments etc.) as not executed. It's impossible to get 100% code coverage as reported by the tool. Coveralls seems to have the same problem."
             ]
           ]
         },
         "type": "text",
-        "version": 294,
+        "version": 365,
         "inline_content": [
           {
-            "Text": "Codecov is barely adequate. The biggest problem is that for Go, they count empty lines as not executed so it's impossible to get 100% code coverage as reported by the tool. Coveralls seems to have the same problem."
+            "Text": "Codecov is barely adequate. For Go, they count non-code lines (comments etc.) as not executed. It's impossible to get 100% code coverage as reported by the tool. Coveralls seems to have the same problem."
           }
         ]
       },
