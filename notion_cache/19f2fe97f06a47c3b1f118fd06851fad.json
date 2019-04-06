@@ -166,7 +166,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554545220000,
+    "last_edited_time": 1554545340000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -177,7 +177,7 @@
       ]
     },
     "type": "page",
-    "version": 660,
+    "version": 662,
     "content_resolved": [
       {
         "alive": true,
@@ -1336,21 +1336,21 @@
         "created_time": 1554249600000,
         "id": "36fefd42-e06a-47a3-ad97-010f3a534004",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554250980000,
+        "last_edited_time": 1554545340000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "The objective of the port was to keep it as close as possible to Java code base, as it needs to be kept in sync in the future with Java changes."
+              "The objective of the port was to keep it as close as possible to Java code base, as it needs to be kept in sync with Java changes in the future."
             ]
           ]
         },
         "type": "text",
-        "version": 183,
+        "version": 220,
         "inline_content": [
           {
-            "Text": "The objective of the port was to keep it as close as possible to Java code base, as it needs to be kept in sync in the future with Java changes."
+            "Text": "The objective of the port was to keep it as close as possible to Java code base, as it needs to be kept in sync with Java changes in the future."
           }
         ]
       },
@@ -1714,21 +1714,21 @@
         "created_time": 1554254400000,
         "id": "89108d29-52e2-43f9-9eae-9f0b18962b31",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554254520000,
+        "last_edited_time": 1554545280000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Porting wasn't difficult but it did require changing lots of function signatures to return error values and propagate them along the call chain."
+              "Porting wasn't difficult but it did require changing lots of function signatures to return error values and propagate them up the call stack."
             ]
           ]
         },
         "type": "text",
-        "version": 235,
+        "version": 255,
         "inline_content": [
           {
-            "Text": "Porting wasn't difficult but it did require changing lots of function signatures to return error values and propagate them along the call chain."
+            "Text": "Porting wasn't difficult but it did require changing lots of function signatures to return error values and propagate them up the call stack."
           }
         ]
       },
