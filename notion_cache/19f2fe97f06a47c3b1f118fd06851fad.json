@@ -106,6 +106,7 @@
       "6a975d37-2aec-4fae-81df-14ca80c3024d",
       "99b201f1-ccd3-40cd-8d91-6eb163bee013",
       "f44d4d8f-b0db-4358-a962-6a4999c9e35a",
+      "cd9e6ae7-4fe4-4504-8665-44c6dd2d5cc5",
       "fa0934d7-1f20-476a-91ee-09ef9063b273",
       "d8e321e3-c253-4023-b3f0-c8237cad6142",
       "659863f6-b8ac-4360-81c4-1f47067313bf",
@@ -165,7 +166,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554544860000,
+    "last_edited_time": 1554545220000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -176,7 +177,7 @@
       ]
     },
     "type": "page",
-    "version": 654,
+    "version": 660,
     "content_resolved": [
       {
         "alive": true,
@@ -2447,7 +2448,7 @@
         "created_time": 1554252480000,
         "id": "86e462a7-4424-4ce3-a222-31a6bdc6a9cb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554252540000,
+        "last_edited_time": 1554545100000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -2458,7 +2459,7 @@
           ]
         },
         "type": "text",
-        "version": 74,
+        "version": 77,
         "inline_content": [
           {
             "Text": "Simple cases of inheritance can be ported with embedding."
@@ -2547,7 +2548,7 @@
         "created_time": 1554253020000,
         "id": "2aeafae5-62d5-48e6-b8fa-cb61119d78b6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554253080000,
+        "last_edited_time": 1554545160000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -2575,12 +2576,34 @@
               ]
             ],
             [
-              ", so it'll inherit all the methods."
+              ", so "
+            ],
+            [
+              "B",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " inherit all the methods and fields of "
+            ],
+            [
+              "A",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              "."
             ]
           ]
         },
         "type": "text",
-        "version": 109,
+        "version": 140,
         "inline_content": [
           {
             "Text": "We've embedded "
@@ -2597,7 +2620,21 @@
             "AttrFlags": 2
           },
           {
-            "Text": ", so it'll inherit all the methods."
+            "Text": ", so "
+          },
+          {
+            "Text": "B",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " inherit all the methods and fields of "
+          },
+          {
+            "Text": "A",
+            "AttrFlags": 2
+          },
+          {
+            "Text": "."
           }
         ]
       },
@@ -2655,13 +2692,13 @@
         "created_time": 1554447000000,
         "id": "5fdf7b54-b140-4acd-a784-2b6c089bd584",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554447060000,
+        "last_edited_time": 1554545160000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "One option to emulate it is to use embedding and structs with function pointers. This essentially re-implements virtual table that Java gives you for free as part of "
+              "One option to emulate virtual function is to use embedding of structs and function pointers. This essentially re-implements virtual table that Java gives you for free as part of "
             ],
             [
               "object",
@@ -2677,10 +2714,10 @@
           ]
         },
         "type": "text",
-        "version": 347,
+        "version": 385,
         "inline_content": [
           {
-            "Text": "One option to emulate it is to use embedding and structs with function pointers. This essentially re-implements virtual table that Java gives you for free as part of "
+            "Text": "One option to emulate virtual function is to use embedding of structs and function pointers. This essentially re-implements virtual table that Java gives you for free as part of "
           },
           {
             "Text": "object",
@@ -2697,21 +2734,21 @@
         "created_time": 1554447060000,
         "id": "a53917bb-5134-48f4-83d1-2bf09db0ecde",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554447120000,
+        "last_edited_time": 1554545220000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Another option is to write a stand-alone function that dispatches the right function for a given type based on the type."
+              "Another option is to write a stand-alone function that dispatches the right function for a given type by using type switch."
             ]
           ]
         },
         "type": "text",
-        "version": 212,
+        "version": 263,
         "inline_content": [
           {
-            "Text": "Another option is to write a stand-alone function that dispatches the right function for a given type based on the type."
+            "Text": "Another option is to write a stand-alone function that dispatches the right function for a given type by using type switch."
           }
         ]
       },
@@ -3057,21 +3094,45 @@
         "created_time": 1554253740000,
         "id": "f44d4d8f-b0db-4358-a962-6a4999c9e35a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554253920000,
+        "last_edited_time": 1554545040000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "That makes more sense. When I write a library to, say, parse markdown, I don't want expose internals of the implementation to users of the library. But hiding those internals from myself is counter-productive."
+              "That makes more sense. "
             ]
           ]
         },
         "type": "text",
-        "version": 363,
+        "version": 365,
         "inline_content": [
           {
-            "Text": "That makes more sense. When I write a library to, say, parse markdown, I don't want expose internals of the implementation to users of the library. But hiding those internals from myself is counter-productive."
+            "Text": "That makes more sense. "
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554545040000,
+        "id": "cd9e6ae7-4fe4-4504-8665-44c6dd2d5cc5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554545040000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "When I write a library to, say, parse markdown, I don't want to expose internals of the implementation to users of the library. But hiding those internals from myself is counter-productive."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 7,
+        "inline_content": [
+          {
+            "Text": "When I write a library to, say, parse markdown, I don't want to expose internals of the implementation to users of the library. But hiding those internals from myself is counter-productive."
           }
         ]
       },
@@ -3081,21 +3142,21 @@
         "created_time": 1554253800000,
         "id": "fa0934d7-1f20-476a-91ee-09ef9063b273",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554254040000,
+        "last_edited_time": 1554545100000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Java programmers noticed that issue and sometimes they use an interface as a hack to fix over-exposed classes. By returning an interface instead of a a concrete class, they hide some of the public APIs available to direct users of the class behind an interface."
+              "Java programmers noticed that issue and sometimes use an interface as a hack to fix over-exposed classes. By returning an interface instead of a a concrete class, you can hide some of the public APIs available to direct users of the class."
             ]
           ]
         },
         "type": "text",
-        "version": 359,
+        "version": 374,
         "inline_content": [
           {
-            "Text": "Java programmers noticed that issue and sometimes they use an interface as a hack to fix over-exposed classes. By returning an interface instead of a a concrete class, they hide some of the public APIs available to direct users of the class behind an interface."
+            "Text": "Java programmers noticed that issue and sometimes use an interface as a hack to fix over-exposed classes. By returning an interface instead of a a concrete class, you can hide some of the public APIs available to direct users of the class."
           }
         ]
       },
@@ -3317,21 +3378,21 @@
         "created_time": 1554254880000,
         "id": "9545838e-57e9-4a47-959c-01acc08d9e8f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554447300000,
+        "last_edited_time": 1554544980000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "To replicate chaining in Go I used an \"stateful error\" approach:"
+              "To replicate chaining in Go I used a \"stateful error\" approach:"
             ]
           ]
         },
         "type": "text",
-        "version": 118,
+        "version": 120,
         "inline_content": [
           {
-            "Text": "To replicate chaining in Go I used an \"stateful error\" approach:"
+            "Text": "To replicate chaining in Go I used a \"stateful error\" approach:"
           }
         ]
       },
@@ -3391,7 +3452,7 @@
         "created_time": 1554255167009,
         "id": "b6842a3d-4414-4e68-9104-3dd54874cffe",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554447360000,
+        "last_edited_time": 1554544980000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -3402,13 +3463,13 @@
           ],
           "title": [
             [
-              "var result *Foo\nerr := NewQuery().WhereEquals(\"Name\", \"Frank\").GroupBy(\"City\").Execute(\u0026result)"
+              "var result *Foo\nerr := NewQuery().WhereEquals(\"Name\", \"Frank\").GroupBy(\"Age\").Execute(\u0026result)"
             ]
           ]
         },
         "type": "code",
-        "version": 150,
-        "code": "var result *Foo\nerr := NewQuery().WhereEquals(\"Name\", \"Frank\").GroupBy(\"City\").Execute(\u0026result)",
+        "version": 155,
+        "code": "var result *Foo\nerr := NewQuery().WhereEquals(\"Name\", \"Frank\").GroupBy(\"Age\").Execute(\u0026result)",
         "code_language": "Go"
       },
       {
