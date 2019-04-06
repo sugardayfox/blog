@@ -10,15 +10,6 @@
       "e2ee09a5-225c-41a2-9109-5235641ebc45",
       "4fb604ea-35e8-4213-8a67-e5ee6389e070",
       "ec80e79f-3b58-4a79-98d8-9583b19fbb65",
-      "57757f0c-b4c2-4b72-bb0f-f7fae2fc0474",
-      "fc283922-a502-4ec1-8086-38e676b68ecd",
-      "5439e5e2-2a22-416c-be60-d1cda729e0c4",
-      "e2c627e7-4887-4936-adb2-76cae0a1160b",
-      "323bcc27-f3c3-4526-9a60-63e0a36f8343",
-      "5e6f312c-0842-4040-8a5f-9932840b89e1",
-      "77661aed-6fea-4333-87f2-9c1c3f084788",
-      "f84e60e3-d511-445f-a835-008e5054e5c4",
-      "d055c837-e11f-4f8b-bad2-5c107548bd89",
       "52e66306-2a2a-43a0-8f6d-c09116d698a1",
       "9ea766c6-c727-4532-9ab9-650905ad2641",
       "fbe325b0-8342-41cc-b998-af52e0e74c4b",
@@ -134,6 +125,15 @@
       "5756e6dc-03d1-452a-a47d-477ca3847279",
       "f3328c9c-d624-4389-b79c-dea7de10028f",
       "310c2689-8448-415b-9ed1-ef03a461b187",
+      "6e64b428-a0d7-466f-a228-6f76f5947ec4",
+      "5d035232-aae4-407a-9318-c469b3b0dbad",
+      "0f5af36c-76e2-4b48-8724-50defd82174b",
+      "629369d1-f93a-4b6d-9bb8-9c8f96d60138",
+      "33c022ec-390c-4f12-8167-3f1a9fde546c",
+      "56bbd2b9-7648-4c39-9b7a-321679385cf9",
+      "41a44bc9-9695-43c4-ace9-3ba0bcde960d",
+      "6a3e358a-889b-4335-b44b-ffc67f800fd5",
+      "ed6ffbc7-c731-40d5-b3e4-7d2172698355",
       "a4e978c3-ab9f-421d-83ad-818382f5d7f6",
       "e3552904-f512-4baa-85d4-c5cf50324d3c",
       "08f3abc6-d3d6-4cb0-baf2-62578364c72c",
@@ -156,7 +156,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554522240000,
+    "last_edited_time": 1554524160000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -167,7 +167,7 @@
       ]
     },
     "type": "page",
-    "version": 598,
+    "version": 621,
     "content_resolved": [
       {
         "alive": true,
@@ -259,7 +259,7 @@
         "created_time": 1554247260000,
         "id": "e2ee09a5-225c-41a2-9109-5235641ebc45",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554267060000,
+        "last_edited_time": 1554524040000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -277,12 +277,12 @@
               ]
             ],
             [
-              ", a NoSQL JSON document database. Code with tests was around 50 thousand lines of code."
+              ", a NoSQL JSON document database. Code with tests was around 50 thousand lines."
             ]
           ]
         },
         "type": "text",
-        "version": 222,
+        "version": 228,
         "inline_content": [
           {
             "Text": "The code in question is a Java client for "
@@ -292,7 +292,7 @@
             "Link": "https://ravendb.net/"
           },
           {
-            "Text": ", a NoSQL JSON document database. Code with tests was around 50 thousand lines of code."
+            "Text": ", a NoSQL JSON document database. Code with tests was around 50 thousand lines."
           }
         ]
       },
@@ -360,377 +360,6 @@
         "inline_content": [
           {
             "Text": "This article describes what I've learn in the process."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554247380000,
-        "id": "57757f0c-b4c2-4b72-bb0f-f7fae2fc0474",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554248520000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Notion for organizing the work"
-            ]
-          ]
-        },
-        "type": "sub_header",
-        "version": 50,
-        "inline_content": [
-          {
-            "Text": "Notion for organizing the work"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554247680000,
-        "id": "fc283922-a502-4ec1-8086-38e676b68ecd",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554448200000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "I'm a heavy user of "
-            ],
-            [
-              "Notion.so",
-              [
-                [
-                  "a",
-                  "https://www.notion.so"
-                ]
-              ]
-            ],
-            [
-              ". Simplifying a lot, Notion is a hierarchical note taking application. Think a cross of Evernote and a wiki, exquisitely designed and implemented by top notch software designers."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 632,
-        "inline_content": [
-          {
-            "Text": "I'm a heavy user of "
-          },
-          {
-            "Text": "Notion.so",
-            "Link": "https://www.notion.so"
-          },
-          {
-            "Text": ". Simplifying a lot, Notion is a hierarchical note taking application. Think a cross of Evernote and a wiki, exquisitely designed and implemented by top notch software designers."
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554250560000,
-        "id": "5439e5e2-2a22-416c-be60-d1cda729e0c4",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554250680000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Here's a how I used Notion to help me organize my work on Go port:"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 55,
-        "inline_content": [
-          {
-            "Text": "Here's a how I used Notion to help me organize my work on Go port:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554247980000,
-        "file_ids": [
-          "f49c3662-fb67-434d-b259-dccf4e4dca45"
-        ],
-        "format": {
-          "block_width": 591,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
-          "block_full_width": false,
-          "block_page_width": true,
-          "block_aspect_ratio": 1.140439932318105,
-          "block_preserve_scale": true
-        },
-        "id": "e2c627e7-4887-4936-adb2-76cae0a1160b",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554247980000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "source": [
-            [
-              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png"
-            ]
-          ]
-        },
-        "type": "image",
-        "version": 8,
-        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
-        "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff49c3662-fb67-434d-b259-dccf4e4dca45%2FUntitled.png",
-        "format_image": {
-          "block_aspect_ratio": 1.140439932318105,
-          "block_full_width": false,
-          "block_page_width": true,
-          "block_preserve_scale": true,
-          "block_width": 591,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
-          "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff49c3662-fb67-434d-b259-dccf4e4dca45%2FUntitled.png"
-        }
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554247980000,
-        "id": "323bcc27-f3c3-4526-9a60-63e0a36f8343",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554248040000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Here's what's there:"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 24,
-        "inline_content": [
-          {
-            "Text": "Here's what's there:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554247860000,
-        "id": "5e6f312c-0842-4040-8a5f-9932840b89e1",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554250860000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "not shown above, I have a page that is a calendar view where I take short notes about what I work on on a given day and how much time I spent. This is important information since it was a hourly contract. Thanks to those notes I know that I spent 601 hours over 11 months"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 423,
-        "inline_content": [
-          {
-            "Text": "not shown above, I have a page that is a calendar view where I take short notes about what I work on on a given day and how much time I spent. This is important information since it was a hourly contract. Thanks to those notes I know that I spent 601 hours over 11 months"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "content": [
-          "7779af7e-a32c-4873-bcaf-2af4ef1fa926",
-          "30200a68-0a30-455a-9897-4fe818cfc69c"
-        ],
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554248100000,
-        "id": "77661aed-6fea-4333-87f2-9c1c3f084788",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554248280000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "clients like to know the progress. I had a page for each moth were I summarized the work done like this:"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 203,
-        "content_resolved": [
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1554248160000,
-            "file_ids": [
-              "0042bfc8-3fbe-4213-b5ec-452b0f7e7845"
-            ],
-            "format": {
-              "block_width": 286,
-              "block_height": 277,
-              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
-              "block_full_width": false,
-              "block_page_width": false,
-              "block_aspect_ratio": 0.9685314685314685,
-              "block_preserve_scale": true
-            },
-            "id": "7779af7e-a32c-4873-bcaf-2af4ef1fa926",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1554248160000,
-            "parent_id": "77661aed-6fea-4333-87f2-9c1c3f084788",
-            "parent_table": "block",
-            "properties": {
-              "source": [
-                [
-                  "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png"
-                ]
-              ]
-            },
-            "type": "image",
-            "version": 8,
-            "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
-            "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0042bfc8-3fbe-4213-b5ec-452b0f7e7845%2FUntitled.png",
-            "format_image": {
-              "block_aspect_ratio": 0.9685314685314685,
-              "block_full_width": false,
-              "block_page_width": false,
-              "block_preserve_scale": true,
-              "block_width": 286,
-              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
-              "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0042bfc8-3fbe-4213-b5ec-452b0f7e7845%2FUntitled.png"
-            }
-          },
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1554247740000,
-            "id": "30200a68-0a30-455a-9897-4fe818cfc69c",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1554250860000,
-            "parent_id": "77661aed-6fea-4333-87f2-9c1c3f084788",
-            "parent_table": "block",
-            "properties": {
-              "title": [
-                [
-                  "Those pages were shared with the client."
-                ]
-              ]
-            },
-            "type": "text",
-            "version": 105,
-            "inline_content": [
-              {
-                "Text": "Those pages were shared with the client."
-              }
-            ]
-          }
-        ],
-        "inline_content": [
-          {
-            "Text": "clients like to know the progress. I had a page for each moth were I summarized the work done like this:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "content": [
-          "34df4ff1-2984-43e9-88e9-9acbfddfb0ed"
-        ],
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554248280000,
-        "id": "f84e60e3-d511-445f-a835-008e5054e5c4",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554248400000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "A short-term todo list helps when starting work each day:"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 156,
-        "content_resolved": [
-          {
-            "alive": true,
-            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "created_time": 1554248400000,
-            "file_ids": [
-              "39d50365-d267-4774-a23d-1bc093bd19eb"
-            ],
-            "format": {
-              "block_width": 151,
-              "block_height": 36,
-              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
-              "block_full_width": false,
-              "block_page_width": false,
-              "block_aspect_ratio": 0.23841059602649006,
-              "block_preserve_scale": true
-            },
-            "id": "34df4ff1-2984-43e9-88e9-9acbfddfb0ed",
-            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1554248400000,
-            "parent_id": "f84e60e3-d511-445f-a835-008e5054e5c4",
-            "parent_table": "block",
-            "properties": {
-              "source": [
-                [
-                  "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png"
-                ]
-              ]
-            },
-            "type": "image",
-            "version": 8,
-            "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
-            "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39d50365-d267-4774-a23d-1bc093bd19eb%2FUntitled.png",
-            "format_image": {
-              "block_aspect_ratio": 0.23841059602649006,
-              "block_full_width": false,
-              "block_page_width": false,
-              "block_preserve_scale": true,
-              "block_width": 151,
-              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
-              "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39d50365-d267-4774-a23d-1bc093bd19eb%2FUntitled.png"
-            }
-          }
-        ],
-        "inline_content": [
-          {
-            "Text": "A short-term todo list helps when starting work each day:"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554248400000,
-        "id": "d055c837-e11f-4f8b-bad2-5c107548bd89",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554250860000,
-        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "I even managed invoices as Notion pages and used \"Export to PDF\" function to generate PDF version of the invoice"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 177,
-        "inline_content": [
-          {
-            "Text": "I even managed invoices as Notion pages and used \"Export to PDF\" function to generate PDF version of the invoice"
           }
         ]
       },
@@ -3864,6 +3493,389 @@
         "inline_content": [
           {
             "Text": "Most other code ends up being of equivalent length."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "57757f0c-b4c2-4b72-bb0f-f7fae2fc0474",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179543,
+        "id": "6e64b428-a0d7-466f-a228-6f76f5947ec4",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Notion for organizing the work"
+            ]
+          ]
+        },
+        "type": "sub_header",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Notion for organizing the work"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "fc283922-a502-4ec1-8086-38e676b68ecd",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179545,
+        "id": "5d035232-aae4-407a-9318-c469b3b0dbad",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I'm a heavy user of "
+            ],
+            [
+              "Notion.so",
+              [
+                [
+                  "a",
+                  "https://www.notion.so"
+                ]
+              ]
+            ],
+            [
+              ". Simplifying a lot, Notion is a hierarchical note taking application. Think a cross of Evernote and a wiki, exquisitely designed and implemented by top notch software designers."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "I'm a heavy user of "
+          },
+          {
+            "Text": "Notion.so",
+            "Link": "https://www.notion.so"
+          },
+          {
+            "Text": ". Simplifying a lot, Notion is a hierarchical note taking application. Think a cross of Evernote and a wiki, exquisitely designed and implemented by top notch software designers."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "5439e5e2-2a22-416c-be60-d1cda729e0c4",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179545,
+        "id": "0f5af36c-76e2-4b48-8724-50defd82174b",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's how I used Notion to organize my work on Go port:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Here's how I used Notion to organize my work on Go port:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "e2c627e7-4887-4936-adb2-76cae0a1160b",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179547,
+        "file_ids": [
+          "f49c3662-fb67-434d-b259-dccf4e4dca45"
+        ],
+        "format": {
+          "block_width": 591,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_aspect_ratio": 1.140439932318105,
+          "block_preserve_scale": true
+        },
+        "id": "629369d1-f93a-4b6d-9bb8-9c8f96d60138",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "source": [
+            [
+              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png"
+            ]
+          ]
+        },
+        "type": "image",
+        "version": 3,
+        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
+        "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff49c3662-fb67-434d-b259-dccf4e4dca45%2FUntitled.png",
+        "format_image": {
+          "block_aspect_ratio": 1.140439932318105,
+          "block_full_width": false,
+          "block_page_width": true,
+          "block_preserve_scale": true,
+          "block_width": 591,
+          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f49c3662-fb67-434d-b259-dccf4e4dca45/Untitled.png",
+          "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff49c3662-fb67-434d-b259-dccf4e4dca45%2FUntitled.png"
+        }
+      },
+      {
+        "alive": true,
+        "copied_from": "323bcc27-f3c3-4526-9a60-63e0a36f8343",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179547,
+        "id": "33c022ec-390c-4f12-8167-3f1a9fde546c",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's what's there:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "Here's what's there:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "5e6f312c-0842-4040-8a5f-9932840b89e1",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179547,
+        "id": "56bbd2b9-7648-4c39-9b7a-321679385cf9",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "not shown above, I have a page that is a calendar view where I take short notes about what I work on on a given day and how much time I spent. This is important information since it was a hourly contract. Thanks to those notes I know that I spent 601 hours over 11 months"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "not shown above, I have a page that is a calendar view where I take short notes about what I work on on a given day and how much time I spent. This is important information since it was a hourly contract. Thanks to those notes I know that I spent 601 hours over 11 months"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "c0640b6d-fb03-43d5-99a0-f9017be1908a",
+          "c1e193bf-2ac5-4679-bfc7-2499241ced1c"
+        ],
+        "copied_from": "77661aed-6fea-4333-87f2-9c1c3f084788",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179548,
+        "id": "41a44bc9-9695-43c4-ace9-3ba0bcde960d",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "clients like to know the progress. I had a page for each moth were I summarized the work done like this:"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "7779af7e-a32c-4873-bcaf-2af4ef1fa926",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1554524179548,
+            "file_ids": [
+              "0042bfc8-3fbe-4213-b5ec-452b0f7e7845"
+            ],
+            "format": {
+              "block_width": 286,
+              "block_height": 277,
+              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
+              "block_full_width": false,
+              "block_page_width": false,
+              "block_aspect_ratio": 0.9685314685314685,
+              "block_preserve_scale": true
+            },
+            "id": "c0640b6d-fb03-43d5-99a0-f9017be1908a",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1554524160000,
+            "parent_id": "41a44bc9-9695-43c4-ace9-3ba0bcde960d",
+            "parent_table": "block",
+            "properties": {
+              "source": [
+                [
+                  "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png"
+                ]
+              ]
+            },
+            "type": "image",
+            "version": 2,
+            "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
+            "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0042bfc8-3fbe-4213-b5ec-452b0f7e7845%2FUntitled.png",
+            "format_image": {
+              "block_aspect_ratio": 0.9685314685314685,
+              "block_full_width": false,
+              "block_page_width": false,
+              "block_preserve_scale": true,
+              "block_width": 286,
+              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0042bfc8-3fbe-4213-b5ec-452b0f7e7845/Untitled.png",
+              "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0042bfc8-3fbe-4213-b5ec-452b0f7e7845%2FUntitled.png"
+            }
+          },
+          {
+            "alive": true,
+            "copied_from": "30200a68-0a30-455a-9897-4fe818cfc69c",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1554524179548,
+            "id": "c1e193bf-2ac5-4679-bfc7-2499241ced1c",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1554524160000,
+            "parent_id": "41a44bc9-9695-43c4-ace9-3ba0bcde960d",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "Those pages were shared with the client."
+                ]
+              ]
+            },
+            "type": "text",
+            "version": 2,
+            "inline_content": [
+              {
+                "Text": "Those pages were shared with the client."
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "clients like to know the progress. I had a page for each moth were I summarized the work done like this:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "content": [
+          "f6e2f55b-08ac-445e-9cff-1625225c4964"
+        ],
+        "copied_from": "f84e60e3-d511-445f-a835-008e5054e5c4",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179549,
+        "id": "6a3e358a-889b-4335-b44b-ffc67f800fd5",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "A short-term todo list helps when starting work each day:"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3,
+        "content_resolved": [
+          {
+            "alive": true,
+            "copied_from": "34df4ff1-2984-43e9-88e9-9acbfddfb0ed",
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1554524179549,
+            "file_ids": [
+              "39d50365-d267-4774-a23d-1bc093bd19eb"
+            ],
+            "format": {
+              "block_width": 151,
+              "block_height": 36,
+              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
+              "block_full_width": false,
+              "block_page_width": false,
+              "block_aspect_ratio": 0.23841059602649006,
+              "block_preserve_scale": true
+            },
+            "id": "f6e2f55b-08ac-445e-9cff-1625225c4964",
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1554524160000,
+            "parent_id": "6a3e358a-889b-4335-b44b-ffc67f800fd5",
+            "parent_table": "block",
+            "properties": {
+              "source": [
+                [
+                  "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png"
+                ]
+              ]
+            },
+            "type": "image",
+            "version": 2,
+            "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
+            "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39d50365-d267-4774-a23d-1bc093bd19eb%2FUntitled.png",
+            "format_image": {
+              "block_aspect_ratio": 0.23841059602649006,
+              "block_full_width": false,
+              "block_page_width": false,
+              "block_preserve_scale": true,
+              "block_width": 151,
+              "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39d50365-d267-4774-a23d-1bc093bd19eb/Untitled.png",
+              "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F39d50365-d267-4774-a23d-1bc093bd19eb%2FUntitled.png"
+            }
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "A short-term todo list helps when starting work each day:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "copied_from": "d055c837-e11f-4f8b-bad2-5c107548bd89",
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554524179549,
+        "id": "ed6ffbc7-c731-40d5-b3e4-7d2172698355",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524160000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I even managed invoices as Notion pages and used \"Export to PDF\" function to generate PDF version of the invoice"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 3,
+        "inline_content": [
+          {
+            "Text": "I even managed invoices as Notion pages and used \"Export to PDF\" function to generate PDF version of the invoice"
           }
         ]
       },
