@@ -157,7 +157,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554526860000,
+    "last_edited_time": 1554539280000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -168,7 +168,7 @@
       ]
     },
     "type": "page",
-    "version": 634,
+    "version": 635,
     "content_resolved": [
       {
         "alive": true,
@@ -3457,7 +3457,7 @@
         "created_time": 1554252756343,
         "id": "c5f5bf85-faf4-4c5a-8a85-bbcefaa4e603",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554252840000,
+        "last_edited_time": 1554539280000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -3468,13 +3468,13 @@
           ],
           "title": [
             [
-              "class Foo {\n\tprivate int bar;\n\n\tpublic void setBar(int bar) {\n\t\tthis.bar = bar;\n\t}\n\n\tpublic int betBar() {\n\t\treturn this.bar;\n\t}\n}"
+              "class Foo {\n\tprivate int bar;\n\n\tpublic void setBar(int bar) {\n\t\tthis.bar = bar;\n\t}\n\n\tpublic int getBar() {\n\t\treturn this.bar;\n\t}\n}"
             ]
           ]
         },
         "type": "code",
-        "version": 194,
-        "code": "class Foo {\n\tprivate int bar;\n\n\tpublic void setBar(int bar) {\n\t\tthis.bar = bar;\n\t}\n\n\tpublic int betBar() {\n\t\treturn this.bar;\n\t}\n}",
+        "version": 197,
+        "code": "class Foo {\n\tprivate int bar;\n\n\tpublic void setBar(int bar) {\n\t\tthis.bar = bar;\n\t}\n\n\tpublic int getBar() {\n\t\treturn this.bar;\n\t}\n}",
         "code_language": "Java"
       },
       {
@@ -4348,7 +4348,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 87
+      "version": 89
     }
   ],
   "Tables": null
