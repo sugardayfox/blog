@@ -166,7 +166,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554545340000,
+    "last_edited_time": 1554572160000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -177,7 +177,7 @@
       ]
     },
     "type": "page",
-    "version": 662,
+    "version": 663,
     "content_resolved": [
       {
         "alive": true,
@@ -2374,7 +2374,7 @@
         "created_time": 1554254822346,
         "id": "0cc45867-26cd-4bb5-a25e-70daa2ac72e2",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554254820000,
+        "last_edited_time": 1554572160000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -2385,13 +2385,13 @@
           ],
           "title": [
             [
-              "type FooArgs {\n\tA int\n\tB string\n}\nfunc foo(args *FooArgs) { }"
+              "type FooArgs struct {\n\tA int\n\tB string\n}\nfunc foo(args *FooArgs) { }"
             ]
           ]
         },
         "type": "code",
-        "version": 69,
-        "code": "type FooArgs {\n\tA int\n\tB string\n}\nfunc foo(args *FooArgs) { }",
+        "version": 77,
+        "code": "type FooArgs struct {\n\tA int\n\tB string\n}\nfunc foo(args *FooArgs) { }",
         "code_language": "Go"
       },
       {
