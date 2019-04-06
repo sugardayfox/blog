@@ -68,6 +68,7 @@
       "96feec96-9ede-4d98-aaf4-3b794cca607e",
       "aa519fa2-29d6-44d7-9c65-3928a4883091",
       "d614d6b0-685d-413e-9419-0e875071fde4",
+      "bcac8583-1308-4f6c-9232-ea60a1704ebe",
       "facc63d6-acc3-4e73-b03e-ea0e3d0412ba",
       "40cc3348-5dff-4b84-aef1-1aa2cb9f8d91",
       "72b0d9e2-fe6e-431b-b836-c8780163b35f",
@@ -156,7 +157,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554524220000,
+    "last_edited_time": 1554524880000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -167,7 +168,7 @@
       ]
     },
     "type": "page",
-    "version": 624,
+    "version": 633,
     "content_resolved": [
       {
         "alive": true,
@@ -1350,21 +1351,57 @@
         "created_time": 1554250980000,
         "id": "bcffa408-2aeb-4a80-b325-2d49d11187a6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554251100000,
+        "last_edited_time": 1554524700000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "I'm somewhat surprised how much code could be ported with line-by-line method."
+              "I'm somewhat surprised how much code I ported in a line-by-line fashion. The most time consuming part of the port was reversing the order of variable declaration, from Java's "
+            ],
+            [
+              "type name",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " to Go's "
+            ],
+            [
+              "name type",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              ". I wish there was a tool that would do that part for me."
             ]
           ]
         },
         "type": "text",
-        "version": 160,
+        "version": 448,
         "inline_content": [
           {
-            "Text": "I'm somewhat surprised how much code could be ported with line-by-line method."
+            "Text": "I'm somewhat surprised how much code I ported in a line-by-line fashion. The most time consuming part of the port was reversing the order of variable declaration, from Java's "
+          },
+          {
+            "Text": "type name",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " to Go's "
+          },
+          {
+            "Text": "name type",
+            "AttrFlags": 2
+          },
+          {
+            "Text": ". I wish there was a tool that would do that part for me."
           }
         ]
       },
@@ -1740,21 +1777,21 @@
         "created_time": 1554252300000,
         "id": "ffd61de2-3c30-4f86-8539-fb40d76743f5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554252360000,
+        "last_edited_time": 1554524760000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Porting generic APIs was one of the biggest challenges."
+              "Porting generic APIs was the biggest challenge."
             ]
           ]
         },
         "type": "text",
-        "version": 126,
+        "version": 135,
         "inline_content": [
           {
-            "Text": "Porting generic APIs was one of the biggest challenges."
+            "Text": "Porting generic APIs was the biggest challenge."
           }
         ]
       },
@@ -2013,10 +2050,52 @@
       {
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1554446839045,
+        "created_time": 1554524760000,
         "id": "d614d6b0-685d-413e-9419-0e875071fde4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554446820000,
+        "last_edited_time": 1554524880000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I could use reflection to query type of "
+            ],
+            [
+              "result",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " and create values of that type from JSON document."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 244,
+        "inline_content": [
+          {
+            "Text": "I could use reflection to query type of "
+          },
+          {
+            "Text": "result",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " and create values of that type from JSON document."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554446839045,
+        "id": "bcac8583-1308-4f6c-9232-ea60a1704ebe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554524760000,
         "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
         "parent_table": "block",
         "properties": {
@@ -2027,7 +2106,7 @@
           ]
         },
         "type": "text",
-        "version": 28,
+        "version": 3,
         "inline_content": [
           {
             "Text": "And the caller side:"
