@@ -143,6 +143,9 @@
       "b03b53ec-a4da-49d0-87b8-0bf3b388bdaf",
       "e3552904-f512-4baa-85d4-c5cf50324d3c",
       "08f3abc6-d3d6-4cb0-baf2-62578364c72c",
+      "a15bd0bf-ed74-4cc8-b384-4c69c07692c1",
+      "098fa7ed-6217-418d-aa82-2b8dd3d39e72",
+      "94071858-50fb-4186-b034-c977803cf1fe",
       "3355af87-12af-493d-8617-d9abfc05a587",
       "3747b873-c7b8-46b8-88b7-bc05284bef50",
       "9fbadeba-3f8d-405a-bb03-db2ba2b0fd0a",
@@ -162,7 +165,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554544620000,
+    "last_edited_time": 1554544800000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -173,7 +176,7 @@
       ]
     },
     "type": "page",
-    "version": 648,
+    "version": 653,
     "content_resolved": [
       {
         "alive": true,
@@ -4171,6 +4174,104 @@
         "inline_content": [
           {
             "Text": "Additional resources"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544740000,
+        "id": "a15bd0bf-ed74-4cc8-b384-4c69c07692c1",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544740000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I've provided some additional commentary in response to questions:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 106,
+        "inline_content": [
+          {
+            "Text": "I've provided some additional commentary in response to questions:"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544740000,
+        "id": "098fa7ed-6217-418d-aa82-2b8dd3d39e72",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544740000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "in "
+            ],
+            [
+              "Hacker News discussion",
+              [
+                [
+                  "a",
+                  "https://news.ycombinator.com/item?id=19589614"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 62,
+        "inline_content": [
+          {
+            "Text": "in "
+          },
+          {
+            "Text": "Hacker News discussion",
+            "Link": "https://news.ycombinator.com/item?id=19589614"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544800000,
+        "id": "94071858-50fb-4186-b034-c977803cf1fe",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544800000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "in "
+            ],
+            [
+              "/r/golang discussion",
+              [
+                [
+                  "a",
+                  "https://old.reddit.com/r/golang/comments/ba0lsm/lessons_learned_porting_50k_loc_from_java_to_go/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 28,
+        "inline_content": [
+          {
+            "Text": "in "
+          },
+          {
+            "Text": "/r/golang discussion",
+            "Link": "https://old.reddit.com/r/golang/comments/ba0lsm/lessons_learned_porting_50k_loc_from_java_to_go/"
           }
         ]
       },
