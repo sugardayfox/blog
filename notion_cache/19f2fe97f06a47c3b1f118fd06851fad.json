@@ -95,6 +95,11 @@
       "f9e1b97a-0c8b-4c79-8b2a-c31f7b3a2e2e",
       "581e6555-051f-4334-a4bf-496c5527649f",
       "6177a0d5-7d2e-48c2-98d3-b487a5bf675c",
+      "bdadbde2-8b24-4a83-a2be-21aea5b4fd58",
+      "8ede1482-94ed-4b11-8943-165a989dd466",
+      "c72789c0-c387-4f74-8c2e-31bdb02bf611",
+      "8c854967-f90b-4286-bc3e-df00df101817",
+      "8c5e0f66-19c6-4a62-a522-fdebeccdd2e0",
       "1bcbdcc9-ed9c-46f2-a52f-4c4790b5721c",
       "84bab2fd-bdfa-4f7e-a44f-78fbf0c7d98a",
       "8a84bd2f-9129-4d6b-9916-15ef68b194b5",
@@ -157,7 +162,7 @@
     },
     "id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554539460000,
+    "last_edited_time": 1554544620000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -168,7 +173,7 @@
       ]
     },
     "type": "page",
-    "version": 636,
+    "version": 648,
     "content_resolved": [
       {
         "alive": true,
@@ -2800,6 +2805,126 @@
         "inline_content": [
           {
             "Text": "In more cases I dropped interfaces and instead exposed concrete structs in the API."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544380000,
+        "id": "bdadbde2-8b24-4a83-a2be-21aea5b4fd58",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544620000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Circular imports between packages"
+            ]
+          ]
+        },
+        "type": "sub_sub_header",
+        "version": 48,
+        "inline_content": [
+          {
+            "Text": "Circular imports between packages"
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544380000,
+        "id": "8ede1482-94ed-4b11-8943-165a989dd466",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544380000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Java allows circular imports between packages."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 62,
+        "inline_content": [
+          {
+            "Text": "Java allows circular imports between packages."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544380000,
+        "id": "c72789c0-c387-4f74-8c2e-31bdb02bf611",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544380000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Go does not."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 16,
+        "inline_content": [
+          {
+            "Text": "Go does not."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544380000,
+        "id": "8c854967-f90b-4286-bc3e-df00df101817",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544500000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "As a result I was not able to replicate the package structure of Java code in my port."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 108,
+        "inline_content": [
+          {
+            "Text": "As a result I was not able to replicate the package structure of Java code in my port."
+          }
+        ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554544500000,
+        "id": "8c5e0f66-19c6-4a62-a522-fdebeccdd2e0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554544620000,
+        "parent_id": "19f2fe97-f06a-47c3-b1f1-18fd06851fad",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For simplicity I went with a single package. Not ideal, because it ended up being very large package. So large, in fact, that Go 1.10 couldn't handle so many source files in a single package on Windows. Luckily it was fixed in Go 1.11."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 372,
+        "inline_content": [
+          {
+            "Text": "For simplicity I went with a single package. Not ideal, because it ended up being very large package. So large, in fact, that Go 1.10 couldn't handle so many source files in a single package on Windows. Luckily it was fixed in Go 1.11."
           }
         ]
       },
