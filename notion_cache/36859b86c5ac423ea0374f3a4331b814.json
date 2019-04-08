@@ -30,7 +30,7 @@
     },
     "id": "36859b86-c5ac-423e-a037-4f3a4331b814",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554501600000,
+    "last_edited_time": 1554664560000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -41,7 +41,7 @@
       ]
     },
     "type": "page",
-    "version": 154,
+    "version": 159,
     "content_resolved": [
       {
         "alive": true,
@@ -149,7 +149,8 @@
               "4c5f67fd-286a-4bc4-b13a-ab122ac5afb7",
               "362ad29d-0360-4aea-9cc2-31a2f14f2782",
               "477ff4aa-6ce1-48a5-9298-9db68136aa85",
-              "90dc6939-c23f-41d7-9e46-ad4cf97eb00f"
+              "90dc6939-c23f-41d7-9e46-ad4cf97eb00f",
+              "4616da17-f445-4ac1-b339-03322d51cbd6"
             ],
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1554265200000,
@@ -158,11 +159,11 @@
             },
             "id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1554271320000,
+            "last_edited_time": 1554664560000,
             "parent_id": "ca4f2d38-04f0-4608-a076-fee536d008d2",
             "parent_table": "block",
             "type": "column",
-            "version": 11,
+            "version": 13,
             "content_resolved": [
               {
                 "alive": true,
@@ -273,6 +274,18 @@
                     "Link": "https://blog.kowalczyk.info"
                   }
                 ]
+              },
+              {
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1554664560000,
+                "id": "4616da17-f445-4ac1-b339-03322d51cbd6",
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1554664560000,
+                "parent_id": "6cb149ea-da1d-4a8b-9d62-c5c8f7a8ca6a",
+                "parent_table": "block",
+                "type": "text",
+                "version": 3
               }
             ],
             "format_column": {
@@ -677,7 +690,7 @@
         "created_time": 1546328688597,
         "id": "9fce2e17-4e42-486f-80d6-9564461ed207",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554501600000,
+        "last_edited_time": 1554664500000,
         "parent_id": "36859b86-c5ac-423e-a037-4f3a4331b814",
         "parent_table": "block",
         "properties": {
@@ -695,7 +708,19 @@
               ]
             ],
             [
-              " I've ported a ~50k loc Java driver to Go. See the result at "
+              " I've ported a ~50k loc Java driver to Go. Read "
+            ],
+            [
+              "how I did it",
+              [
+                [
+                  "a",
+                  "https://www.notion.so/Lessons-learned-porting-50k-loc-from-Java-to-Go-19f2fe97f06a47c3b1f118fd06851fad"
+                ]
+              ]
+            ],
+            [
+              ". See the result at "
             ],
             [
               "https://github.com/ravendb/ravendb-go-client",
@@ -705,11 +730,14 @@
                   "https://github.com/ravendb/ravendb-go-client"
                 ]
               ]
+            ],
+            [
+              "."
             ]
           ]
         },
         "type": "bulleted_list",
-        "version": 331,
+        "version": 376,
         "inline_content": [
           {
             "Text": "for "
@@ -719,11 +747,21 @@
             "Link": "https://ravendb.net/about"
           },
           {
-            "Text": " I've ported a ~50k loc Java driver to Go. See the result at "
+            "Text": " I've ported a ~50k loc Java driver to Go. Read "
+          },
+          {
+            "Text": "how I did it",
+            "Link": "https://www.notion.so/Lessons-learned-porting-50k-loc-from-Java-to-Go-19f2fe97f06a47c3b1f118fd06851fad"
+          },
+          {
+            "Text": ". See the result at "
           },
           {
             "Text": "https://github.com/ravendb/ravendb-go-client",
             "Link": "https://github.com/ravendb/ravendb-go-client"
+          },
+          {
+            "Text": "."
           }
         ]
       },
@@ -1032,7 +1070,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 86
+      "version": 91
     }
   ],
   "Tables": null
