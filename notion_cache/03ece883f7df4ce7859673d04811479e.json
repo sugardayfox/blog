@@ -4,6 +4,7 @@
     "alive": true,
     "content": [
       "da8bb0eb-517b-42f6-bd47-243c353a26cf",
+      "270d8956-01be-4446-a3d6-ab7d3cd691d0",
       "e29face0-6696-4709-96a6-fb8ea750ccc2",
       "b7c27f52-4ad1-4a5e-9dbc-5c1b6db0ee4a",
       "751d064a-76bf-46fa-9b29-3da1a88cd033",
@@ -17,7 +18,7 @@
     },
     "id": "03ece883-f7df-4ce7-8596-73d04811479e",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554366780000,
+    "last_edited_time": 1554751380000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -28,7 +29,7 @@
       ]
     },
     "type": "page",
-    "version": 87,
+    "version": 91,
     "content_resolved": [
       {
         "alive": true,
@@ -53,6 +54,38 @@
             "Text": "This is where I record the things I work on and random thoughts related to writing software, shipping software and charging for software."
           }
         ]
+      },
+      {
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554751436301,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "id": "270d8956-01be-4446-a3d6-ab7d3cd691d0",
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554751800000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/8/2019"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 33,
+        "title": "4/8/2019",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
       },
       {
         "alive": true,
@@ -184,7 +217,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 85
+      "version": 93
     }
   ],
   "Tables": null
