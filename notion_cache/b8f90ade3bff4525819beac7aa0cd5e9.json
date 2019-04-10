@@ -6,7 +6,19 @@
     "content": [
       "40928888-9bd2-403e-a909-b30b95183db2",
       "d4b92089-947d-4b14-9be3-9d90e8eb0f0e",
-      "8e68402f-23fe-48ad-a652-300af221f9f9"
+      "c698913e-74f5-4e4d-a7f7-ad38e1453ec2",
+      "8e68402f-23fe-48ad-a652-300af221f9f9",
+      "ec64da5a-7709-49a6-b659-c37cb015fa91",
+      "7cd069c7-f920-413e-84a9-c3a2cf226206",
+      "09a48f6c-c893-4bc5-a9ad-e2adfe77ed5a",
+      "0d32bb36-1bd7-490e-a35c-a4c1514bffbf",
+      "b441d113-a366-4d18-b394-4d6e6d5ed7a1",
+      "72f4c8ed-09e3-453a-8560-5f3ecc6f17ea",
+      "789afac7-0f69-4725-aa24-6544dd180286",
+      "de5f993a-6d67-484b-ab52-eb054a98c973",
+      "7d94862b-ba9b-40be-8dcd-0bd202403cd7",
+      "89cb91f9-dcd4-4d6e-bd28-da02e1e18e5b",
+      "400bc378-c121-4c40-a6e7-82e0e9007eb1"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1554853995543,
@@ -15,18 +27,18 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554854100000,
+    "last_edited_time": 1554885480000,
     "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
     "parent_table": "block",
     "properties": {
       "title": [
         [
-          "4/9/2019, blog and notionapi"
+          "4/9/2019, blog and notionapi, auto-update best practices"
         ]
       ]
     },
     "type": "page",
-    "version": 40,
+    "version": 95,
     "content_resolved": [
       {
         "id": "40928888-9bd2-403e-a909-b30b95183db2",
@@ -58,21 +70,45 @@
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1554854040000,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554854100000,
+        "last_edited_time": 1554885480000,
         "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "It's the most complete rendering as it ever been. Moved blog HTML renderer mostly to notionapi's."
+              "It's the most complete rendering as it ever been."
             ]
           ]
         },
         "type": "text",
-        "version": 139,
+        "version": 141,
         "inline_content": [
           {
-            "Text": "It's the most complete rendering as it ever been. Moved blog HTML renderer mostly to notionapi's."
+            "Text": "It's the most complete rendering as it ever been."
+          }
+        ]
+      },
+      {
+        "id": "c698913e-74f5-4e4d-a7f7-ad38e1453ec2",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554885480000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554885480000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Moved blog  and essential books HTML renderer to notionapi's."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 28,
+        "inline_content": [
+          {
+            "Text": "Moved blog  and essential books HTML renderer to notionapi's."
           }
         ]
       },
@@ -82,14 +118,254 @@
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1554854100000,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554854100000,
+        "last_edited_time": 1554862200000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 13
+      },
+      {
+        "id": "ec64da5a-7709-49a6-b659-c37cb015fa91",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862246205,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862260000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I'm writing desktop software and such software needs an auto-update system."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 212,
+        "inline_content": [
+          {
+            "Text": "I'm writing desktop software and such software needs an auto-update system."
+          }
+        ]
+      },
+      {
+        "id": "7cd069c7-f920-413e-84a9-c3a2cf226206",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862260000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862260000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here are simple rules for how to write auto-update system:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 88,
+        "inline_content": [
+          {
+            "Text": "Here are simple rules for how to write auto-update system:"
+          }
+        ]
+      },
+      {
+        "id": "09a48f6c-c893-4bc5-a9ad-e2adfe77ed5a",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862260000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862260000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "check if there is a new version"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 45,
+        "inline_content": [
+          {
+            "Text": "check if there is a new version"
+          }
+        ]
+      },
+      {
+        "id": "0d32bb36-1bd7-490e-a35c-a4c1514bffbf",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862260000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862320000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "if there is a new version, download it in the background"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 65,
+        "inline_content": [
+          {
+            "Text": "if there is a new version, download it in the background"
+          }
+        ]
+      },
+      {
+        "id": "b441d113-a366-4d18-b394-4d6e6d5ed7a1",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862320000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862320000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "when download finishes, notify the user that new version is available"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 110,
+        "inline_content": [
+          {
+            "Text": "when download finishes, notify the user that new version is available"
+          }
+        ]
+      },
+      {
+        "id": "72f4c8ed-09e3-453a-8560-5f3ecc6f17ea",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862320000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862320000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "a single click should launch the update"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 71,
+        "inline_content": [
+          {
+            "Text": "a single click should launch the update"
+          }
+        ]
+      },
+      {
+        "id": "789afac7-0f69-4725-aa24-6544dd180286",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862320000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554884160000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "when update finishes, the program re-launches itself"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 65,
+        "inline_content": [
+          {
+            "Text": "when update finishes, the program re-launches itself"
+          }
+        ]
+      },
+      {
+        "id": "de5f993a-6d67-484b-ab52-eb054a98c973",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862380000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554884160000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "The most common mistake is to make the user wait for the download of new version to finish. It's so stupid. Download first, and then run. Instant gratification for the user."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 207,
+        "inline_content": [
+          {
+            "Text": "The most common mistake is to make the user wait for the download of new version to finish. It's so stupid. Download first, and then run. Instant gratification for the user."
+          }
+        ]
+      },
+      {
+        "id": "7d94862b-ba9b-40be-8dcd-0bd202403cd7",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554884100000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554884100000,
         "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
         "parent_table": "block",
         "type": "text",
-        "version": 4
+        "version": 6
+      },
+      {
+        "id": "89cb91f9-dcd4-4d6e-bd28-da02e1e18e5b",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862500000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554884160000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "TODO: show how fast file finder notifies about update"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 73,
+        "inline_content": [
+          {
+            "Text": "TODO: show how fast file finder notifies about update"
+          }
+        ]
+      },
+      {
+        "id": "400bc378-c121-4c40-a6e7-82e0e9007eb1",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1554862440000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1554862440000,
+        "parent_id": "b8f90ade-3bff-4525-819b-eac7aa0cd5e9",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
       }
     ],
-    "title": "4/9/2019, blog and notionapi",
+    "title": "4/9/2019, blog and notionapi, auto-update best practices",
     "format_page": {
       "page_cover": "",
       "page_cover_position": 0,
