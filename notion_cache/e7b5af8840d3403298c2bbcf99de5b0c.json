@@ -1,0 +1,186 @@
+{
+  "ID": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+  "Root": {
+    "id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+    "alive": true,
+    "content": [
+      "04cb1b80-7817-4bad-b2b4-9ecf908a7b8a",
+      "0bcf9590-1f78-41c5-bc31-ed6c32ad64ff",
+      "de3f10ac-f029-4c63-a4b9-aea1b6ee5440",
+      "baa791ba-dae6-4c5a-b566-17278b496358",
+      "839361fa-7c33-48b1-b4b2-ce0f94905221"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1555050703874,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1555051380000,
+    "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "4/11/2019"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 30,
+    "content_resolved": [
+      {
+        "id": "04cb1b80-7817-4bad-b2b4-9ecf908a7b8a",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555050660000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555051020000,
+        "parent_id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Generating API bindings for Windows APIs is time consuming. There are so many APIs to cover."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 113,
+        "inline_content": [
+          {
+            "Text": "Generating API bindings for Windows APIs is time consuming. There are so many APIs to cover."
+          }
+        ]
+      },
+      {
+        "id": "0bcf9590-1f78-41c5-bc31-ed6c32ad64ff",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555051020000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555051140000,
+        "parent_id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "It would be great to generate bindings automatically. To do that, we need a machine-readable description of the apis."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 141,
+        "inline_content": [
+          {
+            "Text": "It would be great to generate bindings automatically. To do that, we need a machine-readable description of the apis."
+          }
+        ]
+      },
+      {
+        "id": "de3f10ac-f029-4c63-a4b9-aea1b6ee5440",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555051140000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555051320000,
+        "parent_id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Thankfully, creator of API Monitor tool created this information by parsing MSDN web pages and made .xml files."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 153,
+        "inline_content": [
+          {
+            "Text": "Thankfully, creator of API Monitor tool created this information by parsing MSDN web pages and made .xml files."
+          }
+        ]
+      },
+      {
+        "id": "baa791ba-dae6-4c5a-b566-17278b496358",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555051320000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555051380000,
+        "parent_id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I'm writing "
+            ],
+            [
+              "https://github.com/kjk/winapigen",
+              [
+                [
+                  "a",
+                  "https://github.com/kjk/winapigen"
+                ]
+              ]
+            ],
+            [
+              " which uses this information to generate Go bindings (and potentially more)."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 100,
+        "inline_content": [
+          {
+            "Text": "I'm writing "
+          },
+          {
+            "Text": "https://github.com/kjk/winapigen",
+            "Link": "https://github.com/kjk/winapigen"
+          },
+          {
+            "Text": " which uses this information to generate Go bindings (and potentially more)."
+          }
+        ]
+      },
+      {
+        "id": "839361fa-7c33-48b1-b4b2-ce0f94905221",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555051380000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555051380000,
+        "parent_id": "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      }
+    ],
+    "title": "4/11/2019",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "",
+      "version": 96
+    }
+  ],
+  "Tables": null
+}
