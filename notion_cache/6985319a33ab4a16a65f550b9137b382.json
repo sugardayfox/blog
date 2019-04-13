@@ -1,8 +1,10 @@
 {
   "ID": "6985319a-33ab-4a16-a65f-550b9137b382",
   "Root": {
+    "id": "6985319a-33ab-4a16-a65f-550b9137b382",
     "alive": true,
     "content": [
+      "ddbc7332-33a8-4dfd-b0bb-dacace3a6082",
       "d7d383ee-5670-49a9-bbe8-9291a678109d",
       "ff98a52c-70cb-44b8-8092-1ffc08db54e1",
       "5e82ae42-6572-41ad-9c5b-d4db530b1ee9",
@@ -41,9 +43,8 @@
       "page_full_width": true,
       "page_small_text": true
     },
-    "id": "6985319a-33ab-4a16-a65f-550b9137b382",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1544520114982,
+    "last_edited_time": 1555105980000,
     "parent_id": "21236666-884a-4407-bb7d-f39f819f0135",
     "parent_table": "block",
     "properties": {
@@ -54,13 +55,44 @@
       ]
     },
     "type": "page",
-    "version": 26,
+    "version": 28,
     "content_resolved": [
       {
+        "id": "ddbc7332-33a8-4dfd-b0bb-dacace3a6082",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555105980000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555105980000,
+        "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://blog.can.ac/2018/05/02/making-the-perfect-injector-abusing-windows-address-sanitization-and-cow/",
+              [
+                [
+                  "a",
+                  "https://blog.can.ac/2018/05/02/making-the-perfect-injector-abusing-windows-address-sanitization-and-cow/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 9,
+        "inline_content": [
+          {
+            "Text": "https://blog.can.ac/2018/05/02/making-the-perfect-injector-abusing-windows-address-sanitization-and-cow/",
+            "Link": "https://blog.can.ac/2018/05/02/making-the-perfect-injector-abusing-windows-address-sanitization-and-cow/"
+          }
+        ]
+      },
+      {
+        "id": "d7d383ee-5670-49a9-bbe8-9291a678109d",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512958396401,
-        "id": "d7d383ee-5670-49a9-bbe8-9291a678109d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544520114982,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -88,10 +120,10 @@
         ]
       },
       {
+        "id": "ff98a52c-70cb-44b8-8092-1ffc08db54e1",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544520107789,
-        "id": "ff98a52c-70cb-44b8-8092-1ffc08db54e1",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544520108316,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -119,10 +151,10 @@
         ]
       },
       {
+        "id": "5e82ae42-6572-41ad-9c5b-d4db530b1ee9",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544519798771,
-        "id": "5e82ae42-6572-41ad-9c5b-d4db530b1ee9",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519812333,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -150,10 +182,10 @@
         ]
       },
       {
+        "id": "9a4c730f-cbb5-4e43-b00e-9f1241dfd5b7",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544519814035,
-        "id": "9a4c730f-cbb5-4e43-b00e-9f1241dfd5b7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519828338,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -181,10 +213,10 @@
         ]
       },
       {
+        "id": "ce3edb90-53b5-40d8-b716-0b8f0b28093e",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544519829299,
-        "id": "ce3edb90-53b5-40d8-b716-0b8f0b28093e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519840832,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -212,10 +244,10 @@
         ]
       },
       {
+        "id": "bc25cc76-9127-4b8b-a58c-7c3a932fd298",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544519841859,
-        "id": "bc25cc76-9127-4b8b-a58c-7c3a932fd298",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519848678,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -243,10 +275,10 @@
         ]
       },
       {
+        "id": "7848b54b-d106-4c63-a6a5-c3455b4c9b7a",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1544519849475,
-        "id": "7848b54b-d106-4c63-a6a5-c3455b4c9b7a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519858316,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -274,10 +306,10 @@
         ]
       },
       {
+        "id": "c0624572-ccbd-4294-88f7-5c40ea8ec6ce",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959384239,
-        "id": "c0624572-ccbd-4294-88f7-5c40ea8ec6ce",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006217543,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -311,10 +343,10 @@
         ]
       },
       {
+        "id": "b559f960-dc57-47a6-b2cb-a2fa0f62aacc",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959386038,
-        "id": "b559f960-dc57-47a6-b2cb-a2fa0f62aacc",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1512959386038,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -342,10 +374,10 @@
         ]
       },
       {
+        "id": "76a77736-70a8-412d-8abf-22b0141b5143",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514006102886,
-        "id": "76a77736-70a8-412d-8abf-22b0141b5143",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006103808,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -373,10 +405,10 @@
         ]
       },
       {
+        "id": "5caf64d9-8046-4a3e-865b-bc1d95401b87",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959398885,
-        "id": "5caf64d9-8046-4a3e-865b-bc1d95401b87",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544519792035,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -410,10 +442,10 @@
         ]
       },
       {
+        "id": "37ff1bc5-6ac6-44ea-a96f-364fc1e109df",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959705054,
-        "id": "37ff1bc5-6ac6-44ea-a96f-364fc1e109df",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006119906,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -447,10 +479,10 @@
         ]
       },
       {
+        "id": "55566890-cafe-42c1-9166-35785e7684e7",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959716209,
-        "id": "55566890-cafe-42c1-9166-35785e7684e7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006124955,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -478,10 +510,10 @@
         ]
       },
       {
+        "id": "1a8ce268-fe84-4adf-a332-e5355bad94ab",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959732584,
-        "id": "1a8ce268-fe84-4adf-a332-e5355bad94ab",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006129650,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -515,10 +547,10 @@
         ]
       },
       {
+        "id": "60fd2a18-7798-4e24-8307-786fabb6654d",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959738255,
-        "id": "60fd2a18-7798-4e24-8307-786fabb6654d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1544520272743,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -571,10 +603,10 @@
         ]
       },
       {
+        "id": "6bfcdc2f-6778-40df-9e3e-f11a75e929ab",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959744372,
-        "id": "6bfcdc2f-6778-40df-9e3e-f11a75e929ab",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006135777,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -602,10 +634,10 @@
         ]
       },
       {
+        "id": "5e3aa441-5328-432d-8b5d-f800548c39eb",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959760494,
-        "id": "5e3aa441-5328-432d-8b5d-f800548c39eb",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006143386,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -633,10 +665,10 @@
         ]
       },
       {
+        "id": "48ea5792-ab6f-4096-be65-1ca158cd2c97",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959771035,
-        "id": "48ea5792-ab6f-4096-be65-1ca158cd2c97",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006148298,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -664,10 +696,10 @@
         ]
       },
       {
+        "id": "80c0c89c-9b92-4327-bebd-4ac0146fd7f6",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959779785,
-        "id": "80c0c89c-9b92-4327-bebd-4ac0146fd7f6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006157097,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -714,10 +746,10 @@
         ]
       },
       {
+        "id": "716230ae-a438-40f4-b00b-09ef8e8c5370",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959785774,
-        "id": "716230ae-a438-40f4-b00b-09ef8e8c5370",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006166610,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -745,10 +777,10 @@
         ]
       },
       {
+        "id": "9928f955-3a91-46f3-bceb-b52a4237372a",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959787237,
-        "id": "9928f955-3a91-46f3-bceb-b52a4237372a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006172702,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -776,10 +808,10 @@
         ]
       },
       {
+        "id": "3ae39f8c-892b-4356-8125-309ba161f5e4",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959795493,
-        "id": "3ae39f8c-892b-4356-8125-309ba161f5e4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006178954,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -807,10 +839,10 @@
         ]
       },
       {
+        "id": "7be1510c-5153-4c8f-8ce8-66d6813709ef",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959802721,
-        "id": "7be1510c-5153-4c8f-8ce8-66d6813709ef",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006185009,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -838,10 +870,10 @@
         ]
       },
       {
+        "id": "870db3c8-30f1-4046-a590-85b6e87c739f",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959808555,
-        "id": "870db3c8-30f1-4046-a590-85b6e87c739f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006192312,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -869,10 +901,10 @@
         ]
       },
       {
+        "id": "fc070e9c-c383-456c-a5f7-7dcb2a68805e",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959815054,
-        "id": "fc070e9c-c383-456c-a5f7-7dcb2a68805e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006196528,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -900,10 +932,10 @@
         ]
       },
       {
+        "id": "74eadb45-c659-4208-8164-ecf9c10e3f5a",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959821696,
-        "id": "74eadb45-c659-4208-8164-ecf9c10e3f5a",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006203776,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -937,10 +969,10 @@
         ]
       },
       {
+        "id": "f3a03d73-aa8e-40b6-988e-51977fa76fd5",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959828396,
-        "id": "f3a03d73-aa8e-40b6-988e-51977fa76fd5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006211000,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -968,10 +1000,10 @@
         ]
       },
       {
+        "id": "07a5aae2-e81d-48f9-b150-b565b9f792c0",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1514006287461,
-        "id": "07a5aae2-e81d-48f9-b150-b565b9f792c0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1514006287812,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -1005,10 +1037,10 @@
         ]
       },
       {
+        "id": "29240d32-3770-4d34-9d01-d560478933f3",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1523828264956,
-        "id": "29240d32-3770-4d34-9d01-d560478933f3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1523828265499,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -1036,10 +1068,10 @@
         ]
       },
       {
+        "id": "9e8ab3d9-97f6-400c-8519-9516c9117f24",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1526241769989,
-        "id": "9e8ab3d9-97f6-400c-8519-9516c9117f24",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1526241781288,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -1073,10 +1105,10 @@
         ]
       },
       {
+        "id": "1aa5fd5c-d904-4b72-8e22-46ccd2ef526e",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512959834838,
-        "id": "1aa5fd5c-d904-4b72-8e22-46ccd2ef526e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1512959834838,
         "parent_id": "6985319a-33ab-4a16-a65f-550b9137b382",
@@ -1101,12 +1133,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 98
     }
   ],
   "Tables": null
