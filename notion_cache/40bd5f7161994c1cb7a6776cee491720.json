@@ -1,0 +1,930 @@
+{
+  "ID": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+  "Root": {
+    "id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+    "alive": true,
+    "content": [
+      "95231f5e-7603-4604-b92f-f1443271773b",
+      "24c40184-ef10-4110-b9cc-f149cced765f",
+      "13a12d08-8c7f-42ba-acd2-64732780fb20",
+      "93880ee7-d0db-43c7-a583-b51c1d170e2a",
+      "22334882-f205-4f75-b98b-5ec060970764",
+      "93dca1bf-ff42-4cc9-b0f8-996d365bf3d9",
+      "7017c7b3-e222-43af-b952-9653057275a4",
+      "b8eb0603-118a-4a5d-ac52-8b94a9f4868d",
+      "2cb18532-c5f4-46ef-a3d6-c3f5e9988b92",
+      "1e6b824f-64c3-4e2b-ada5-d54cbe728e82",
+      "e85de679-364a-4316-8dc9-3d1423888e1c",
+      "e03729a8-3611-4bbe-9a47-26269d3f9b23",
+      "cbabf212-7395-4fd4-9bdf-dbc42d8b6bc4",
+      "97faeefc-9af5-431c-9dcb-417407acdb07",
+      "46cca566-3df0-4ade-84a6-8cbd8fc05c3d",
+      "5b2d5684-6642-4bcc-9d5f-ffa8cdc93cf7",
+      "513e5427-0595-459d-8fa5-1f54cf3f6340",
+      "acb09b0c-de71-46c3-b5fb-2e0702c689f2",
+      "e7ea2cce-5b3e-4a91-a15a-535b82b7cdc0",
+      "5c25e675-90e4-40b7-910a-20bec8ee1ea5",
+      "f73febb6-3a75-4669-afde-f845e51687b6",
+      "de0fa51e-e5fd-4abf-a53c-8218c247887d",
+      "2994729e-55a6-455f-a09b-1004bdc1ab39",
+      "96b89a80-2863-40ff-832e-036734696d33"
+    ],
+    "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "created_time": 1555262551676,
+    "format": {
+      "page_full_width": true,
+      "page_small_text": true
+    },
+    "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+    "last_edited_time": 1555263720000,
+    "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+    "parent_table": "block",
+    "properties": {
+      "title": [
+        [
+          "4/13/2019 python cheat-sheet"
+        ]
+      ]
+    },
+    "type": "page",
+    "version": 88,
+    "content_resolved": [
+      {
+        "id": "95231f5e-7603-4604-b92f-f1443271773b",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262520000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262820000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Cheat-sheets summarize information. They are useful but I'm always disappointed with execution."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 123,
+        "inline_content": [
+          {
+            "Text": "Cheat-sheets summarize information. They are useful but I'm always disappointed with execution."
+          }
+        ]
+      },
+      {
+        "id": "24c40184-ef10-4110-b9cc-f149cced765f",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262640000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262700000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "For example, this "
+            ],
+            [
+              "Python Cheat-shee",
+              [
+                [
+                  "a",
+                  "https://gto76.github.io/python-cheatsheet/"
+                ]
+              ]
+            ],
+            [
+              "t has 2 problems:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 67,
+        "inline_content": [
+          {
+            "Text": "For example, this "
+          },
+          {
+            "Text": "Python Cheat-shee",
+            "Link": "https://gto76.github.io/python-cheatsheet/"
+          },
+          {
+            "Text": "t has 2 problems:"
+          }
+        ]
+      },
+      {
+        "id": "13a12d08-8c7f-42ba-acd2-64732780fb20",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262640000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262700000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "upper half of window is taken by useless information"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 117,
+        "inline_content": [
+          {
+            "Text": "upper half of window is taken by useless information"
+          }
+        ]
+      },
+      {
+        "id": "93880ee7-d0db-43c7-a583-b51c1d170e2a",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262700000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262820000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "clicking on a link takes you to the middle of a giant html page and you loose table of content"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 154,
+        "inline_content": [
+          {
+            "Text": "clicking on a link takes you to the middle of a giant html page and you loose table of content"
+          }
+        ]
+      },
+      {
+        "id": "22334882-f205-4f75-b98b-5ec060970764",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262820000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262820000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Second problems is common to all cheat-sheets I've seen."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 89,
+        "inline_content": [
+          {
+            "Text": "Second problems is common to all cheat-sheets I've seen."
+          }
+        ]
+      },
+      {
+        "id": "93dca1bf-ff42-4cc9-b0f8-996d365bf3d9",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262820000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262880000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Navigation section should always be accessible."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 92,
+        "inline_content": [
+          {
+            "Text": "Navigation section should always be accessible."
+          }
+        ]
+      },
+      {
+        "id": "7017c7b3-e222-43af-b952-9653057275a4",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262880000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555262880000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I decided to improve on the above cheat-sheet and made good progress."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 79,
+        "inline_content": [
+          {
+            "Text": "I decided to improve on the above cheat-sheet and made good progress."
+          }
+        ]
+      },
+      {
+        "id": "b8eb0603-118a-4a5d-ac52-8b94a9f4868d",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262880000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263060000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Removing useless information at the top was easy. Here's the difference in information density. Original at the left, my version at the right:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 224,
+        "inline_content": [
+          {
+            "Text": "Removing useless information at the top was easy. Here's the difference in information density. Original at the left, my version at the right:"
+          }
+        ]
+      },
+      {
+        "id": "2cb18532-c5f4-46ef-a3d6-c3f5e9988b92",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263060000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263060000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "id": "1e6b824f-64c3-4e2b-ada5-d54cbe728e82",
+        "alive": true,
+        "content": [
+          "35f14cb0-76a9-4b8e-906e-a46734bc4a4a",
+          "9504eeba-36f1-4957-a68f-0ed4ae2a6264"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263060000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263060000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "type": "column_list",
+        "version": 5,
+        "content_resolved": [
+          {
+            "id": "35f14cb0-76a9-4b8e-906e-a46734bc4a4a",
+            "alive": true,
+            "content": [
+              "d0aad3d4-da7c-4558-a398-03677fbb2baa"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1555263060000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1555263060000,
+            "parent_id": "1e6b824f-64c3-4e2b-ada5-d54cbe728e82",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "d0aad3d4-da7c-4558-a398-03677fbb2baa",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1555263060000,
+                "file_ids": [
+                  "ab28abcc-2e65-4c1b-b2d1-489b5c5842e1"
+                ],
+                "format": {
+                  "block_width": 480,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab28abcc-2e65-4c1b-b2d1-489b5c5842e1/Untitled.png",
+                  "block_full_width": false,
+                  "block_page_width": false,
+                  "block_aspect_ratio": 0.9,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555263060000,
+                "parent_id": "35f14cb0-76a9-4b8e-906e-a46734bc4a4a",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab28abcc-2e65-4c1b-b2d1-489b5c5842e1/Untitled.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 10,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab28abcc-2e65-4c1b-b2d1-489b5c5842e1/Untitled.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fab28abcc-2e65-4c1b-b2d1-489b5c5842e1%2FUntitled.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.9,
+                  "block_full_width": false,
+                  "block_page_width": false,
+                  "block_preserve_scale": true,
+                  "block_width": 480,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab28abcc-2e65-4c1b-b2d1-489b5c5842e1/Untitled.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fab28abcc-2e65-4c1b-b2d1-489b5c5842e1%2FUntitled.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          },
+          {
+            "id": "9504eeba-36f1-4957-a68f-0ed4ae2a6264",
+            "alive": true,
+            "content": [
+              "371ce103-c2eb-42b6-b485-052d2fa42e3b"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1555263060000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1555263060000,
+            "parent_id": "1e6b824f-64c3-4e2b-ada5-d54cbe728e82",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "371ce103-c2eb-42b6-b485-052d2fa42e3b",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1555263060000,
+                "file_ids": [
+                  "d2b7c392-d80f-4201-8051-ca1f3b7f668b"
+                ],
+                "format": {
+                  "block_width": 1030,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2b7c392-d80f-4201-8051-ca1f3b7f668b/Untitled.png",
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_aspect_ratio": 0.9,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555263060000,
+                "parent_id": "9504eeba-36f1-4957-a68f-0ed4ae2a6264",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2b7c392-d80f-4201-8051-ca1f3b7f668b/Untitled.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 10,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2b7c392-d80f-4201-8051-ca1f3b7f668b/Untitled.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2b7c392-d80f-4201-8051-ca1f3b7f668b%2FUntitled.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.9,
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_preserve_scale": true,
+                  "block_width": 1030,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2b7c392-d80f-4201-8051-ca1f3b7f668b/Untitled.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2b7c392-d80f-4201-8051-ca1f3b7f668b%2FUntitled.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "id": "e85de679-364a-4316-8dc9-3d1423888e1c",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263060000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263060000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "type": "text",
+        "version": 199
+      },
+      {
+        "id": "e03729a8-3611-4bbe-9a47-26269d3f9b23",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262940000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263180000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "More important improvement is that navigation stays at the top. With a little bit of JavaScript I made it so that instead of just scrolling to the middle of HTML, I pull out the content and insert it at the top."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 120,
+        "inline_content": [
+          {
+            "Text": "More important improvement is that navigation stays at the top. With a little bit of JavaScript I made it so that instead of just scrolling to the middle of HTML, I pull out the content and insert it at the top."
+          }
+        ]
+      },
+      {
+        "id": "cbabf212-7395-4fd4-9bdf-dbc42d8b6bc4",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263180000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263240000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "That leaves navigation at the top stay in place. You can quickly go to another section."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 142,
+        "inline_content": [
+          {
+            "Text": "That leaves navigation at the top stay in place. You can quickly go to another section."
+          }
+        ]
+      },
+      {
+        "id": "97faeefc-9af5-431c-9dcb-417407acdb07",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263180000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263240000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Here's the difference after navigating to \"Enumerate\" section:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 87,
+        "inline_content": [
+          {
+            "Text": "Here's the difference after navigating to \"Enumerate\" section:"
+          }
+        ]
+      },
+      {
+        "id": "46cca566-3df0-4ade-84a6-8cbd8fc05c3d",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263240000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263240000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "id": "5b2d5684-6642-4bcc-9d5f-ffa8cdc93cf7",
+        "alive": true,
+        "content": [
+          "490dc0af-c7ed-4959-ae79-208bc35884bf",
+          "30099ed2-78b9-4584-8002-5548b399c129"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263300000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263300000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "type": "column_list",
+        "version": 5,
+        "content_resolved": [
+          {
+            "id": "490dc0af-c7ed-4959-ae79-208bc35884bf",
+            "alive": true,
+            "content": [
+              "25360904-b0ba-46f9-953c-4ca67bb3cf76"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1555263300000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1555263300000,
+            "parent_id": "5b2d5684-6642-4bcc-9d5f-ffa8cdc93cf7",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "25360904-b0ba-46f9-953c-4ca67bb3cf76",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1555263240000,
+                "file_ids": [
+                  "73bb02d0-7a78-4df0-b807-3da1d55a5017"
+                ],
+                "format": {
+                  "block_width": 771,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73bb02d0-7a78-4df0-b807-3da1d55a5017/Untitled.png",
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_aspect_ratio": 0.6199740596627756,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555263300000,
+                "parent_id": "490dc0af-c7ed-4959-ae79-208bc35884bf",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73bb02d0-7a78-4df0-b807-3da1d55a5017/Untitled.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 10,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73bb02d0-7a78-4df0-b807-3da1d55a5017/Untitled.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F73bb02d0-7a78-4df0-b807-3da1d55a5017%2FUntitled.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.6199740596627756,
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_preserve_scale": true,
+                  "block_width": 771,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73bb02d0-7a78-4df0-b807-3da1d55a5017/Untitled.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F73bb02d0-7a78-4df0-b807-3da1d55a5017%2FUntitled.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          },
+          {
+            "id": "30099ed2-78b9-4584-8002-5548b399c129",
+            "alive": true,
+            "content": [
+              "87b3269c-48d5-441b-9046-864e11bc2249"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1555263300000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1555263300000,
+            "parent_id": "5b2d5684-6642-4bcc-9d5f-ffa8cdc93cf7",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "87b3269c-48d5-441b-9046-864e11bc2249",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1555263240000,
+                "file_ids": [
+                  "6bafb95f-f98b-434f-bb85-1f6276a04131"
+                ],
+                "format": {
+                  "block_width": 771,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bafb95f-f98b-434f-bb85-1f6276a04131/Untitled.png",
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_aspect_ratio": 0.6199740596627756,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555263300000,
+                "parent_id": "30099ed2-78b9-4584-8002-5548b399c129",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bafb95f-f98b-434f-bb85-1f6276a04131/Untitled.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 11,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bafb95f-f98b-434f-bb85-1f6276a04131/Untitled.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6bafb95f-f98b-434f-bb85-1f6276a04131%2FUntitled.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.6199740596627756,
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_preserve_scale": true,
+                  "block_width": 771,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6bafb95f-f98b-434f-bb85-1f6276a04131/Untitled.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6bafb95f-f98b-434f-bb85-1f6276a04131%2FUntitled.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "id": "513e5427-0595-459d-8fa5-1f54cf3f6340",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263300000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263300000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "I have a few more ideas."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 57,
+        "inline_content": [
+          {
+            "Text": "I have a few more ideas."
+          }
+        ]
+      },
+      {
+        "id": "acb09b0c-de71-46c3-b5fb-2e0702c689f2",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263300000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263480000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "add a small, persistent \"TOC\" fixed to the top of the page. It would expand when you mouse over it."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 157,
+        "inline_content": [
+          {
+            "Text": "add a small, persistent \"TOC\" fixed to the top of the page. It would expand when you mouse over it."
+          }
+        ]
+      },
+      {
+        "id": "e7ea2cce-5b3e-4a91-a15a-535b82b7cdc0",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263360000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263360000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "That way there's a way to navigate even when scroll the page."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 71,
+        "inline_content": [
+          {
+            "Text": "That way there's a way to navigate even when scroll the page."
+          }
+        ]
+      },
+      {
+        "id": "5c25e675-90e4-40b7-910a-20bec8ee1ea5",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263360000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263480000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "apply similar navigation scheme to subsections, for large topics."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 162,
+        "inline_content": [
+          {
+            "Text": "apply similar navigation scheme to subsections, for large topics."
+          }
+        ]
+      },
+      {
+        "id": "f73febb6-3a75-4669-afde-f845e51687b6",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263420000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263540000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "one could imagine a whole book presented in such a way. Lightning fast navigation between chapters / sub chapters (because the whole HTML is already loaded)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 256,
+        "inline_content": [
+          {
+            "Text": "one could imagine a whole book presented in such a way. Lightning fast navigation between chapters / sub chapters (because the whole HTML is already loaded)"
+          }
+        ]
+      },
+      {
+        "id": "de0fa51e-e5fd-4abf-a53c-8218c247887d",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263540000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263600000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "one could imagine this could work for more than programming language cheat-sheets but e.g. also for command-line utilities like "
+            ],
+            [
+              "docker",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " or "
+            ],
+            [
+              "ls",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 223,
+        "inline_content": [
+          {
+            "Text": "one could imagine this could work for more than programming language cheat-sheets but e.g. also for command-line utilities like "
+          },
+          {
+            "Text": "docker",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " or "
+          },
+          {
+            "Text": "ls",
+            "AttrFlags": 2
+          }
+        ]
+      },
+      {
+        "id": "2994729e-55a6-455f-a09b-1004bdc1ab39",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555263600000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263660000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "such scheme could also be used for API documentation, like "
+            ],
+            [
+              "Go package documentation",
+              [
+                [
+                  "a",
+                  "https://godoc.org/"
+                ]
+              ]
+            ],
+            [
+              "."
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 136,
+        "inline_content": [
+          {
+            "Text": "such scheme could also be used for API documentation, like "
+          },
+          {
+            "Text": "Go package documentation",
+            "Link": "https://godoc.org/"
+          },
+          {
+            "Text": "."
+          }
+        ]
+      },
+      {
+        "id": "96b89a80-2863-40ff-832e-036734696d33",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262820000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263720000,
+        "parent_id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Basically any kind of reference documentation where you want to quickly navigate between topics."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 117,
+        "inline_content": [
+          {
+            "Text": "Basically any kind of reference documentation where you want to quickly navigate between topics."
+          }
+        ]
+      }
+    ],
+    "title": "4/13/2019 python cheat-sheet",
+    "format_page": {
+      "page_cover": "",
+      "page_cover_position": 0,
+      "page_font": "",
+      "page_full_width": true,
+      "page_icon": "",
+      "page_small_text": true
+    }
+  },
+  "Users": [
+    {
+      "email": "kkowalczyk@gmail.com",
+      "family_name": "Kowalczyk",
+      "given_name": "Krzysztof",
+      "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+      "locale": "",
+      "mobile_onboarding_completed": true,
+      "onboarding_completed": true,
+      "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
+      "time_zone": "",
+      "version": 99
+    }
+  ],
+  "Tables": null
+}

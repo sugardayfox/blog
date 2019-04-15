@@ -4,6 +4,12 @@
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "alive": true,
     "content": [
+      "79d9b3bc-7632-448b-8599-9e2e386ef78e",
+      "fd965c92-4b72-4420-85af-91240a01a4c4",
+      "7908c896-9814-47fc-92e2-35c2ddf7b533",
+      "1b87165f-0008-4eac-8ca0-1ff573654b4b",
+      "18b9876b-3565-4c9a-989d-e2b312a98d5c",
+      "6d012c56-71c6-49a0-adb8-d889f0c424ff",
       "91daae3e-4479-4b4f-b8fe-0d3de151522b",
       "8163b28e-8cb8-4a84-b853-1c15552bd758",
       "98c63aff-1749-4788-8fe1-0d2860f8b8a0",
@@ -105,7 +111,7 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1555051920000,
+    "last_edited_time": 1555291080000,
     "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "parent_table": "block",
     "properties": {
@@ -116,8 +122,215 @@
       ]
     },
     "type": "page",
-    "version": 222,
+    "version": 267,
     "content_resolved": [
+      {
+        "id": "79d9b3bc-7632-448b-8599-9e2e386ef78e",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555291080000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555291080000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "id": "fd965c92-4b72-4420-85af-91240a01a4c4",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555291085003,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555291080000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-14",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 12,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-14",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7908c896-9814-47fc-92e2-35c2ddf7b533",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555291080000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555291080000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Port "
+            ],
+            [
+              "https://gethead.info/",
+              [
+                [
+                  "a",
+                  "https://gethead.info/"
+                ]
+              ]
+            ],
+            [
+              " to use cheat-sheet navigation scheme"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 55,
+        "inline_content": [
+          {
+            "Text": "Port "
+          },
+          {
+            "Text": "https://gethead.info/",
+            "Link": "https://gethead.info/"
+          },
+          {
+            "Text": " to use cheat-sheet navigation scheme"
+          }
+        ]
+      },
+      {
+        "id": "1b87165f-0008-4eac-8ca0-1ff573654b4b",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555290780000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555290840000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 13
+      },
+      {
+        "id": "18b9876b-3565-4c9a-989d-e2b312a98d5c",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555290840698,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555290840000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-14",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 11,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-14",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6d012c56-71c6-49a0-adb8-d889f0c424ff",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555290840000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555290840000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Port "
+            ],
+            [
+              "https://30secondsofcode.org/index",
+              [
+                [
+                  "a",
+                  "https://30secondsofcode.org/index"
+                ]
+              ]
+            ],
+            [
+              " and "
+            ],
+            [
+              "https://30-seconds.github.io/30-seconds-of-css/",
+              [
+                [
+                  "a",
+                  "https://30-seconds.github.io/30-seconds-of-css/"
+                ]
+              ]
+            ],
+            [
+              " to use the same navigation scheme as python cheat-sheet"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 100,
+        "inline_content": [
+          {
+            "Text": "Port "
+          },
+          {
+            "Text": "https://30secondsofcode.org/index",
+            "Link": "https://30secondsofcode.org/index"
+          },
+          {
+            "Text": " and "
+          },
+          {
+            "Text": "https://30-seconds.github.io/30-seconds-of-css/",
+            "Link": "https://30-seconds.github.io/30-seconds-of-css/"
+          },
+          {
+            "Text": " to use the same navigation scheme as python cheat-sheet"
+          }
+        ]
+      },
       {
         "id": "91daae3e-4479-4b4f-b8fe-0d3de151522b",
         "alive": true,
@@ -2834,7 +3047,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 96
+      "version": 99
     }
   ],
   "Tables": null

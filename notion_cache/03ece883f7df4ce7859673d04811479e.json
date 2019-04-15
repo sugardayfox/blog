@@ -5,6 +5,8 @@
     "alive": true,
     "content": [
       "da8bb0eb-517b-42f6-bd47-243c353a26cf",
+      "76631d76-ce90-41b8-ba26-0c5ca553e421",
+      "40bd5f71-6199-4c1c-b7a6-776cee491720",
       "13ddfc52-fc77-4262-abb3-2a43217a0344",
       "e7b5af88-40d3-4032-98c2-bbcf99de5b0c",
       "3de112a3-49e1-4294-b694-8a3e0220092e",
@@ -22,7 +24,7 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1555104540000,
+    "last_edited_time": 1555315320000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -33,7 +35,7 @@
       ]
     },
     "type": "page",
-    "version": 107,
+    "version": 115,
     "content_resolved": [
       {
         "id": "da8bb0eb-517b-42f6-bd47-243c353a26cf",
@@ -58,6 +60,70 @@
             "Text": "This is where I record the things I work on and random thoughts related to writing software, shipping software and charging for software."
           }
         ]
+      },
+      {
+        "id": "76631d76-ce90-41b8-ba26-0c5ca553e421",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555315375795,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555315560000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/14/2019"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 28,
+        "title": "4/14/2019",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
+      },
+      {
+        "id": "40bd5f71-6199-4c1c-b7a6-776cee491720",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1555262551676,
+        "format": {
+          "page_full_width": true,
+          "page_small_text": true
+        },
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1555263720000,
+        "parent_id": "03ece883-f7df-4ce7-8596-73d04811479e",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "4/13/2019 python cheat-sheet"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 88,
+        "title": "4/13/2019 python cheat-sheet",
+        "format_page": {
+          "page_cover": "",
+          "page_cover_position": 0,
+          "page_font": "",
+          "page_full_width": true,
+          "page_icon": "",
+          "page_small_text": true
+        }
       },
       {
         "id": "13ddfc52-fc77-4262-abb3-2a43217a0344",
@@ -349,7 +415,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 98
+      "version": 99
     }
   ],
   "Tables": null
