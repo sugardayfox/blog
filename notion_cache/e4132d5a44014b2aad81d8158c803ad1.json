@@ -4,7 +4,6 @@
     "id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
     "alive": true,
     "content": [
-      "86727062-3797-48ca-854a-ba0e328260a9",
       "c6690fbf-02f6-442d-8648-7873539cec5b",
       "e1cea37a-0533-4bf3-b148-badc4c486d32",
       "7b61f255-a1d2-499b-a820-d0961c476c37"
@@ -16,7 +15,7 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1555085280000,
+    "last_edited_time": 1555450800000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -27,40 +26,8 @@
       ]
     },
     "type": "page",
-    "version": 524,
+    "version": 536,
     "content_resolved": [
-      {
-        "id": "86727062-3797-48ca-854a-ba0e328260a9",
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1553629779546,
-        "format": {
-          "page_full_width": true,
-          "page_small_text": true
-        },
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1555051920000,
-        "parent_id": "e4132d5a-4401-4b2a-ad81-d8158c803ad1",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Log for ideas"
-            ]
-          ]
-        },
-        "type": "page",
-        "version": 222,
-        "title": "Log for ideas",
-        "format_page": {
-          "page_cover": "",
-          "page_cover_position": 0,
-          "page_font": "",
-          "page_full_width": true,
-          "page_icon": "",
-          "page_small_text": true
-        }
-      },
       {
         "id": "c6690fbf-02f6-442d-8648-7873539cec5b",
         "alive": true,
@@ -81,6 +48,7 @@
             "id": "370e30ac-05b6-46ea-b211-f01791b6c740",
             "alive": true,
             "content": [
+              "86727062-3797-48ca-854a-ba0e328260a9",
               "be23f1ed-3146-4701-a5d5-ad9a85066864",
               "9a12a5a3-7c5a-4f6e-857b-5eed19bcdcf9",
               "46c83e72-9b12-4494-b694-badf0d064a66",
@@ -119,12 +87,44 @@
               "column_ratio": 0.5
             },
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1555085280000,
+            "last_edited_time": 1555450800000,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 231,
+            "version": 233,
             "content_resolved": [
+              {
+                "id": "86727062-3797-48ca-854a-ba0e328260a9",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1553629779546,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555450800000,
+                "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Log for ideas"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 282,
+                "title": "Log for ideas",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
+              },
               {
                 "id": "be23f1ed-3146-4701-a5d5-ad9a85066864",
                 "alive": true,
@@ -11142,6 +11142,7 @@
             "id": "5fe4eafd-8123-4918-9f16-829d535c3203",
             "alive": true,
             "content": [
+              "4a09dc7a-9da2-425e-bcc2-e43081144575",
               "a4afbbc6-05d9-48c4-af26-cbc42559073b",
               "a9dcef4f-0652-458d-94d5-c166e7a3b8ce",
               "6e90b1fd-e26f-4f63-91cb-90c3bb67630f",
@@ -11179,12 +11180,44 @@
               "column_ratio": 0.5
             },
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-            "last_edited_time": 1543308007520,
+            "last_edited_time": 1555450800000,
             "parent_id": "c6690fbf-02f6-442d-8648-7873539cec5b",
             "parent_table": "block",
             "type": "column",
-            "version": 236,
+            "version": 238,
             "content_resolved": [
+              {
+                "id": "4a09dc7a-9da2-425e-bcc2-e43081144575",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1553635815528,
+                "format": {
+                  "page_full_width": true,
+                  "page_small_text": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1555452000000,
+                "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "My ideas for other companies / products"
+                    ]
+                  ]
+                },
+                "type": "page",
+                "version": 233,
+                "title": "My ideas for other companies / products",
+                "format_page": {
+                  "page_cover": "",
+                  "page_cover_position": 0,
+                  "page_font": "",
+                  "page_full_width": true,
+                  "page_icon": "",
+                  "page_small_text": true
+                }
+              },
               {
                 "id": "a4afbbc6-05d9-48c4-af26-cbc42559073b",
                 "alive": true,
@@ -23124,7 +23157,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 98
+      "version": 102
     }
   ],
   "Tables": null
