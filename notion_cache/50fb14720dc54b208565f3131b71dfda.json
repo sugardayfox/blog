@@ -1,16 +1,15 @@
 {
   "ID": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
   "Root": {
+    "id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
     "alive": true,
     "content": [
       "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
-      "12be9f6e-e875-4977-b531-134c7eccd6dd",
       "672eb5a7-7e9e-404d-8643-eef6e523613b",
       "bdf99463-fde7-436a-aca2-028b44df4551",
       "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
       "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
       "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
-      "8b55fe41-d10f-441e-ae19-238b386c57e4",
       "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
       "fe8c33eb-802f-4767-b292-9adfd0b82f43",
       "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
@@ -25,13 +24,10 @@
       "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
       "9fffd054-7df9-4986-9987-401214a4b4f0",
       "e2eff078-216b-4c93-8884-1fe619849bb3",
-      "25920961-f256-490b-86e8-0ed3ccde4f62",
       "6d40670e-8709-4bc3-9a53-68ed367bc05c",
       "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
       "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
       "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
-      "00033585-dbaa-4e1e-b977-323b575f2f5d",
-      "393ec539-e86a-4ca1-8164-5723e5551762",
       "286fee2a-24bb-46ac-95ac-32469bb5abb6"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -40,10 +36,9 @@
       "page_full_width": true,
       "page_small_text": true
     },
-    "id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1541581461015,
-    "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
+    "last_edited_time": 1555557960000,
+    "parent_id": "4a09dc7a-9da2-425e-bcc2-e43081144575",
     "parent_table": "block",
     "properties": {
       "title": [
@@ -53,15 +48,15 @@
       ]
     },
     "type": "page",
-    "version": 142,
+    "version": 155,
     "content_resolved": [
       {
+        "id": "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541575784234,
-        "id": "2174731b-1cc3-49d9-a9f7-3a88af9b7508",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541575813356,
+        "last_edited_time": 1555557960000,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
         "parent_table": "block",
         "properties": {
@@ -72,7 +67,7 @@
           ]
         },
         "type": "text",
-        "version": 172,
+        "version": 174,
         "inline_content": [
           {
             "Text": "Those are my ideas on how Photopea can make (more) money."
@@ -80,22 +75,10 @@
         ]
       },
       {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1541575816478,
-        "id": "12be9f6e-e875-4977-b531-134c7eccd6dd",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541575816478,
-        "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
+        "id": "672eb5a7-7e9e-404d-8643-eef6e523613b",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541575813734,
-        "id": "672eb5a7-7e9e-404d-8643-eef6e523613b",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541575822282,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -116,10 +99,10 @@
         ]
       },
       {
+        "id": "bdf99463-fde7-436a-aca2-028b44df4551",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541575822551,
-        "id": "bdf99463-fde7-436a-aca2-028b44df4551",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576015225,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -140,10 +123,10 @@
         ]
       },
       {
+        "id": "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541575927144,
-        "id": "f58eb2cb-89a0-4c9b-b5c0-78f9b2313862",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576077361,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -183,10 +166,10 @@
         ]
       },
       {
+        "id": "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576521085,
-        "id": "f5ac9b87-43eb-4d2e-83c9-9c783893c0fe",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576549112,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -207,12 +190,12 @@
         ]
       },
       {
+        "id": "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541581461015,
-        "id": "bcd693d9-7303-4efb-b6f0-2f37fdef15ab",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541581589980,
+        "last_edited_time": 1555557960000,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
         "parent_table": "block",
         "properties": {
@@ -247,7 +230,7 @@
           ]
         },
         "type": "text",
-        "version": 733,
+        "version": 735,
         "inline_content": [
           {
             "Text": "You mentioned ("
@@ -269,22 +252,10 @@
         ]
       },
       {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1541576077776,
-        "id": "8b55fe41-d10f-441e-ae19-238b386c57e4",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541576077776,
-        "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
+        "id": "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576077609,
-        "id": "9fe9a9bb-37a7-4661-8ff8-d67ad75ebefa",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576094217,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -305,10 +276,10 @@
         ]
       },
       {
+        "id": "fe8c33eb-802f-4767-b292-9adfd0b82f43",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576094549,
-        "id": "fe8c33eb-802f-4767-b292-9adfd0b82f43",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576115315,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -329,10 +300,10 @@
         ]
       },
       {
+        "id": "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576115528,
-        "id": "7798982d-4f86-4b0d-8ddc-ccac8df3a9b3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541577599335,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -353,10 +324,10 @@
         ]
       },
       {
+        "id": "22339a09-aef8-471e-a539-f0edca562e92",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576299102,
-        "id": "22339a09-aef8-471e-a539-f0edca562e92",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576336840,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -415,10 +386,10 @@
         ]
       },
       {
+        "id": "db11b198-59e5-4a33-aba7-0d5f90d8d744",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576337270,
-        "id": "db11b198-59e5-4a33-aba7-0d5f90d8d744",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541577617188,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -439,10 +410,10 @@
         ]
       },
       {
+        "id": "c17f9047-78e9-4119-aed0-f56652524b6c",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576379346,
-        "id": "c17f9047-78e9-4119-aed0-f56652524b6c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576836650,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -463,10 +434,10 @@
         ]
       },
       {
+        "id": "f7370581-6ab2-4308-aadd-f4a9a7b4774c",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576836887,
-        "id": "f7370581-6ab2-4308-aadd-f4a9a7b4774c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541576996492,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -563,10 +534,10 @@
         ]
       },
       {
+        "id": "49569045-1684-4639-be30-7fa0dd625dec",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541577113640,
-        "id": "49569045-1684-4639-be30-7fa0dd625dec",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541578264021,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -587,10 +558,10 @@
         ]
       },
       {
+        "id": "f92d50ff-ac50-41a5-9bfb-755c3188173f",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541576997182,
-        "id": "f92d50ff-ac50-41a5-9bfb-755c3188173f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541577039375,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -611,10 +582,10 @@
         ]
       },
       {
+        "id": "9bf0acff-beb0-4549-8a49-ad534956b8ff",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541577040041,
-        "id": "9bf0acff-beb0-4549-8a49-ad534956b8ff",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541577657002,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -635,10 +606,10 @@
         ]
       },
       {
+        "id": "5a16e527-af6c-49b2-88a6-c181969677e1",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541577269007,
-        "id": "5a16e527-af6c-49b2-88a6-c181969677e1",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541577571317,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -659,10 +630,10 @@
         ]
       },
       {
+        "id": "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541577572624,
-        "id": "fb2de1c6-fcdc-4c19-8b27-d3b1eebc5faa",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541578392306,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -683,10 +654,10 @@
         ]
       },
       {
+        "id": "9fffd054-7df9-4986-9987-401214a4b4f0",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578392746,
-        "id": "9fffd054-7df9-4986-9987-401214a4b4f0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541578695360,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -707,12 +678,12 @@
         ]
       },
       {
+        "id": "e2eff078-216b-4c93-8884-1fe619849bb3",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578696158,
-        "id": "e2eff078-216b-4c93-8884-1fe619849bb3",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541578837527,
+        "last_edited_time": 1555557960000,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
         "parent_table": "block",
         "properties": {
@@ -723,7 +694,7 @@
           ]
         },
         "type": "text",
-        "version": 939,
+        "version": 941,
         "inline_content": [
           {
             "Text": "The beauty of this business model is that if it takes off, you can get rid of ads and pro accounts. You could even open-source the editor because the value is would be not in the editor but in network of artists that can do the work. Such network effects are almost impossible to overcome (if someone was thinking about competing with you)."
@@ -731,22 +702,10 @@
         ]
       },
       {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1541578838618,
-        "id": "25920961-f256-490b-86e8-0ed3ccde4f62",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541578838618,
-        "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
+        "id": "6d40670e-8709-4bc3-9a53-68ed367bc05c",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578838227,
-        "id": "6d40670e-8709-4bc3-9a53-68ed367bc05c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541578847525,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -767,10 +726,10 @@
         ]
       },
       {
+        "id": "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578848015,
-        "id": "4a98a6e2-a5c3-4fc3-803d-54d56704a411",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541578874858,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -791,10 +750,10 @@
         ]
       },
       {
+        "id": "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578875391,
-        "id": "e8668e30-7d70-4f2f-9606-ff2ffbca8df0",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541579119031,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -834,10 +793,10 @@
         ]
       },
       {
+        "id": "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541578935506,
-        "id": "b6a05a0f-2507-4b58-bdfc-1289f501f51d",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541579348514,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -858,65 +817,10 @@
         ]
       },
       {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1541579352010,
-        "id": "00033585-dbaa-4e1e-b977-323b575f2f5d",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541579352010,
-        "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-        "parent_table": "block",
-        "type": "text",
-        "version": 4
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1541579351488,
-        "id": "393ec539-e86a-4ca1-8164-5723e5551762",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1541579401044,
-        "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "If you want me to expand on those idea, you can "
-            ],
-            [
-              "reach out to me",
-              [
-                [
-                  "a",
-                  "https://blog.kowalczyk.info/contactme.html"
-                ]
-              ]
-            ],
-            [
-              "."
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 240,
-        "inline_content": [
-          {
-            "Text": "If you want me to expand on those idea, you can "
-          },
-          {
-            "Text": "reach out to me",
-            "Link": "https://blog.kowalczyk.info/contactme.html"
-          },
-          {
-            "Text": "."
-          }
-        ]
-      },
-      {
+        "id": "286fee2a-24bb-46ac-95ac-32469bb5abb6",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1541575918451,
-        "id": "286fee2a-24bb-46ac-95ac-32469bb5abb6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1541575918465,
         "parent_id": "50fb1472-0dc5-4b20-8565-f3131b71dfda",
@@ -941,12 +845,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 103
     }
   ],
   "Tables": null
