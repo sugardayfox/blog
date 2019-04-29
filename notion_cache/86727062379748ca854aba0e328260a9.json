@@ -4,6 +4,11 @@
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "alive": true,
     "content": [
+      "5a28b50f-d264-475e-ae6b-dae8c1a5e37c",
+      "365d065e-a266-4a2a-a62a-1baf373ec655",
+      "e6ffd4da-56ea-4b49-96be-04cc8bc121eb",
+      "882d0376-efbc-4eea-9464-d732a012d675",
+      "80f69fba-a54d-4a8f-857d-821279493b85",
       "98b2841b-2096-4213-a0ec-73c335c21646",
       "1b3c3431-9fe4-4028-a6f2-bca0c255bec9",
       "f4098f58-f189-468f-b2a1-217f4bbe513f",
@@ -132,7 +137,7 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1556424360000,
+    "last_edited_time": 1556471820000,
     "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
     "parent_table": "block",
     "properties": {
@@ -143,8 +148,244 @@
       ]
     },
     "type": "page",
-    "version": 305,
+    "version": 327,
     "content_resolved": [
+      {
+        "id": "5a28b50f-d264-475e-ae6b-dae8c1a5e37c",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556471280000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556471280000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "id": "365d065e-a266-4a2a-a62a-1baf373ec655",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556471311779,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556471280000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-04-28",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-04-28",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e6ffd4da-56ea-4b49-96be-04cc8bc121eb",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556471280000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556471340000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Make a windows gui app that wraps cv2pdb. Re-use most of fast file finder. "
+            ],
+            [
+              "https://github.com/rainers/cv2pdb",
+              [
+                [
+                  "a",
+                  "https://github.com/rainers/cv2pdb"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 113,
+        "inline_content": [
+          {
+            "Text": "Make a windows gui app that wraps cv2pdb. Re-use most of fast file finder. "
+          },
+          {
+            "Text": "https://github.com/rainers/cv2pdb",
+            "Link": "https://github.com/rainers/cv2pdb"
+          }
+        ]
+      },
+      {
+        "id": "882d0376-efbc-4eea-9464-d732a012d675",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556471340000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556471400000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Then write an article how to debug Go apps on Windows"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 78,
+        "inline_content": [
+          {
+            "Text": "Then write an article how to debug Go apps on Windows"
+          }
+        ]
+      },
+      {
+        "id": "80f69fba-a54d-4a8f-857d-821279493b85",
+        "alive": true,
+        "content": [
+          "9c84c680-a440-48ab-9913-93856bf5801c",
+          "49cb9c28-8515-4c90-b8fd-96c5aa6cd1be",
+          "25130f09-1949-4545-bc11-b9bfc42aa376"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556471400000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556471820000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Resources"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 24,
+        "content_resolved": [
+          {
+            "id": "9c84c680-a440-48ab-9913-93856bf5801c",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556471400000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556471400000,
+            "parent_id": "80f69fba-a54d-4a8f-857d-821279493b85",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path",
+                  [
+                    [
+                      "a",
+                      "https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 8,
+            "inline_content": [
+              {
+                "Text": "https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path",
+                "Link": "https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path"
+              }
+            ]
+          },
+          {
+            "id": "49cb9c28-8515-4c90-b8fd-96c5aa6cd1be",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556471400000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556471400000,
+            "parent_id": "80f69fba-a54d-4a8f-857d-821279493b85",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://docs.microsoft.com/en-us/windows/desktop/dxtecharts/debugging-with-symbols",
+                  [
+                    [
+                      "a",
+                      "https://docs.microsoft.com/en-us/windows/desktop/dxtecharts/debugging-with-symbols"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://docs.microsoft.com/en-us/windows/desktop/dxtecharts/debugging-with-symbols",
+                "Link": "https://docs.microsoft.com/en-us/windows/desktop/dxtecharts/debugging-with-symbols"
+              }
+            ]
+          },
+          {
+            "id": "25130f09-1949-4545-bc11-b9bfc42aa376",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556471400000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556471820000,
+            "parent_id": "80f69fba-a54d-4a8f-857d-821279493b85",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://www.microsoft.com/en-us/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab",
+                  [
+                    [
+                      "a",
+                      "https://www.microsoft.com/en-us/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 7,
+            "inline_content": [
+              {
+                "Text": "https://www.microsoft.com/en-us/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab",
+                "Link": "https://www.microsoft.com/en-us/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "Resources"
+          }
+        ]
+      },
       {
         "id": "98b2841b-2096-4213-a0ec-73c335c21646",
         "alive": true,
