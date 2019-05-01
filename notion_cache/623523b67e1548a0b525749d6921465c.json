@@ -1,12 +1,14 @@
 {
   "ID": "623523b6-7e15-48a0-b525-749d6921465c",
   "Root": {
+    "id": "623523b6-7e15-48a0-b525-749d6921465c",
     "alive": true,
     "content": [
       "0628691b-cf32-4202-917b-c20ffb93e6ec",
       "291e550d-9da5-47d0-b0a8-6164696a63c7",
+      "d11ec24a-2bc3-4022-9bbd-b996d6f5ff95",
+      "a84035e3-19ef-4e83-a1df-d08ce81384f6",
       "89650e34-f0a9-4fe6-b61b-23c8652d67b5",
-      "9c1a2db7-78c2-4abd-a50d-0ad1a5cfb9a3",
       "720f3373-697e-49cf-ad02-23014612b4b6",
       "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
       "416a638c-4506-44f6-a97e-e04a27275259",
@@ -33,9 +35,8 @@
       "page_full_width": true,
       "page_small_text": true
     },
-    "id": "623523b6-7e15-48a0-b525-749d6921465c",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1554504060000,
+    "last_edited_time": 1556683980000,
     "parent_id": "568ac4c0-64c3-4ef6-a6ad-0b8d77230681",
     "parent_table": "block",
     "properties": {
@@ -46,13 +47,13 @@
       ]
     },
     "type": "page",
-    "version": 109,
+    "version": 117,
     "content_resolved": [
       {
+        "id": "0628691b-cf32-4202-917b-c20ffb93e6ec",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681451073,
-        "id": "0628691b-cf32-4202-917b-c20ffb93e6ec",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681469617,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -73,34 +74,201 @@
         ]
       },
       {
+        "id": "291e550d-9da5-47d0-b0a8-6164696a63c7",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467873,
-        "id": "291e550d-9da5-47d0-b0a8-6164696a63c7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1532681467887,
+        "last_edited_time": 1556683980000,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Software for Windows:"
+              "Software for Windows"
             ]
           ]
         },
         "type": "sub_header",
-        "version": 2,
+        "version": 4,
         "inline_content": [
           {
-            "Text": "Software for Windows:"
+            "Text": "Software for Windows"
           }
         ]
       },
       {
+        "id": "d11ec24a-2bc3-4022-9bbd-b996d6f5ff95",
+        "alive": true,
+        "content": [
+          "f250540d-f3ae-488b-a960-89dbef3ac8d7",
+          "2ba1430e-3fe4-4096-b823-6fb7420bb71e"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556683920000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556683920000,
+        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+        "parent_table": "block",
+        "type": "column_list",
+        "version": 7,
+        "content_resolved": [
+          {
+            "id": "f250540d-f3ae-488b-a960-89dbef3ac8d7",
+            "alive": true,
+            "content": [
+              "9c1a2db7-78c2-4abd-a50d-0ad1a5cfb9a3",
+              "bf5ffe22-cfb3-45ce-ac13-861dd92c63bf"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556683920000,
+            "format": {
+              "column_ratio": 0.5000000000000001
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556683920000,
+            "parent_id": "d11ec24a-2bc3-4022-9bbd-b996d6f5ff95",
+            "parent_table": "block",
+            "type": "column",
+            "version": 8,
+            "content_resolved": [
+              {
+                "id": "9c1a2db7-78c2-4abd-a50d-0ad1a5cfb9a3",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1532681467874,
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1556683920000,
+                "parent_id": "f250540d-f3ae-488b-a960-89dbef3ac8d7",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "Fast File Finder",
+                      [
+                        [
+                          "a",
+                          "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
+                        ]
+                      ]
+                    ],
+                    [
+                      " is a tool to quickly find files by name, on Windows."
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 106,
+                "inline_content": [
+                  {
+                    "Text": "Fast File Finder",
+                    "Link": "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
+                  },
+                  {
+                    "Text": " is a tool to quickly find files by name, on Windows."
+                  }
+                ]
+              },
+              {
+                "id": "bf5ffe22-cfb3-45ce-ac13-861dd92c63bf",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1556683920000,
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1556683920000,
+                "parent_id": "f250540d-f3ae-488b-a960-89dbef3ac8d7",
+                "parent_table": "block",
+                "type": "text",
+                "version": 3
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5000000000000001
+            }
+          },
+          {
+            "id": "2ba1430e-3fe4-4096-b823-6fb7420bb71e",
+            "alive": true,
+            "content": [
+              "93f843c0-51b7-483e-9428-903553f61262"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556683920000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556683920000,
+            "parent_id": "d11ec24a-2bc3-4022-9bbd-b996d6f5ff95",
+            "parent_table": "block",
+            "type": "column",
+            "version": 6,
+            "content_resolved": [
+              {
+                "id": "93f843c0-51b7-483e-9428-903553f61262",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1556683860000,
+                "file_ids": [
+                  "031b54d9-1ccf-4bf7-8482-47ab53a2c8c2"
+                ],
+                "format": {
+                  "block_width": 786,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/031b54d9-1ccf-4bf7-8482-47ab53a2c8c2/shot-01.png",
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_aspect_ratio": 0.8155216284987278,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1556683920000,
+                "parent_id": "2ba1430e-3fe4-4096-b823-6fb7420bb71e",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/031b54d9-1ccf-4bf7-8482-47ab53a2c8c2/shot-01.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 12,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/031b54d9-1ccf-4bf7-8482-47ab53a2c8c2/shot-01.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F031b54d9-1ccf-4bf7-8482-47ab53a2c8c2%2Fshot-01.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.8155216284987278,
+                  "block_full_width": false,
+                  "block_page_width": true,
+                  "block_preserve_scale": true,
+                  "block_width": 786,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/031b54d9-1ccf-4bf7-8482-47ab53a2c8c2/shot-01.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F031b54d9-1ccf-4bf7-8482-47ab53a2c8c2%2Fshot-01.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "id": "a84035e3-19ef-4e83-a1df-d08ce81384f6",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556683860000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556683860000,
+        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
+        "parent_table": "block",
+        "type": "text",
+        "version": 4
+      },
+      {
+        "id": "89650e34-f0a9-4fe6-b61b-23c8652d67b5",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467874,
-        "id": "89650e34-f0a9-4fe6-b61b-23c8652d67b5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -134,47 +302,10 @@
         ]
       },
       {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532681467874,
-        "id": "9c1a2db7-78c2-4abd-a50d-0ad1a5cfb9a3",
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1554504060000,
-        "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
-        "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "Fast File Finder",
-              [
-                [
-                  "a",
-                  "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
-                ]
-              ]
-            ],
-            [
-              " - a tool to quickly find files by name, on Windows"
-            ]
-          ]
-        },
-        "type": "bulleted_list",
-        "version": 98,
-        "inline_content": [
-          {
-            "Text": "Fast File Finder",
-            "Link": "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
-          },
-          {
-            "Text": " - a tool to quickly find files by name, on Windows"
-          }
-        ]
-      },
-      {
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1532681467874,
         "id": "720f3373-697e-49cf-ad02-23014612b4b6",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1532681467874,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -208,10 +339,10 @@
         ]
       },
       {
+        "id": "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467874,
-        "id": "ff715e69-f6c2-4aab-9e6c-4f535d1c8ef7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -232,10 +363,10 @@
         ]
       },
       {
+        "id": "416a638c-4506-44f6-a97e-e04a27275259",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467874,
-        "id": "416a638c-4506-44f6-a97e-e04a27275259",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -269,10 +400,10 @@
         ]
       },
       {
+        "id": "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1539497286295,
-        "id": "c2fade1a-71ed-4503-b02d-c38a6a8f506e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1539497371496,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -319,10 +450,10 @@
         ]
       },
       {
+        "id": "373a1571-ce4e-4e72-9ebe-2486ef903d9c",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1540276833574,
-        "id": "373a1571-ce4e-4e72-9ebe-2486ef903d9c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1540277050888,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -356,10 +487,10 @@
         ]
       },
       {
+        "id": "6abd05fb-fcea-4b3d-beac-7f0b12063df5",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467874,
-        "id": "6abd05fb-fcea-4b3d-beac-7f0b12063df5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -380,10 +511,10 @@
         ]
       },
       {
+        "id": "64d13f24-c26b-4966-b8aa-10b134dfd9a6",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467874,
-        "id": "64d13f24-c26b-4966-b8aa-10b134dfd9a6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -417,10 +548,10 @@
         ]
       },
       {
+        "id": "bc636291-0eb0-4e74-9c93-e7c020978836",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "bc636291-0eb0-4e74-9c93-e7c020978836",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -454,10 +585,10 @@
         ]
       },
       {
+        "id": "bd8e5818-8cda-4944-a4d3-cec23127df4e",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "bd8e5818-8cda-4944-a4d3-cec23127df4e",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -491,10 +622,10 @@
         ]
       },
       {
+        "id": "fa4bd070-8ea4-40a5-8964-9124d0ba09a4",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "fa4bd070-8ea4-40a5-8964-9124d0ba09a4",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1549596480000,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -528,10 +659,10 @@
         ]
       },
       {
+        "id": "c970b1fd-89bf-4489-ace9-ff639e342003",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "c970b1fd-89bf-4489-ace9-ff639e342003",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -565,10 +696,10 @@
         ]
       },
       {
+        "id": "c7c82988-3fbf-4cd6-81ed-707b6016148f",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "c7c82988-3fbf-4cd6-81ed-707b6016148f",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -602,10 +733,10 @@
         ]
       },
       {
+        "id": "bc675e65-0488-4171-b73f-c115fdea9748",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "bc675e65-0488-4171-b73f-c115fdea9748",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -639,10 +770,10 @@
         ]
       },
       {
+        "id": "2c0aae86-be45-4ee1-983e-b67561f583e5",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "2c0aae86-be45-4ee1-983e-b67561f583e5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -676,10 +807,10 @@
         ]
       },
       {
+        "id": "321d6c7f-2b7f-4e26-8c31-31bda299fe8b",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "321d6c7f-2b7f-4e26-8c31-31bda299fe8b",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -713,10 +844,10 @@
         ]
       },
       {
+        "id": "6e3e0f08-e531-4b46-92e6-47417222ccaf",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "6e3e0f08-e531-4b46-92e6-47417222ccaf",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -750,10 +881,10 @@
         ]
       },
       {
+        "id": "c05a388f-34d2-495b-8b37-ccfca6468d24",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "c05a388f-34d2-495b-8b37-ccfca6468d24",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -787,10 +918,10 @@
         ]
       },
       {
+        "id": "ab3fddf1-cc5e-4955-9dfd-9c80410546db",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467875,
-        "id": "ab3fddf1-cc5e-4955-9dfd-9c80410546db",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681490266,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -824,10 +955,10 @@
         ]
       },
       {
+        "id": "95220725-08db-4212-a580-a5e236527451",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532681467876,
-        "id": "95220725-08db-4212-a580-a5e236527451",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1532681467887,
         "parent_id": "623523b6-7e15-48a0-b525-749d6921465c",
@@ -869,7 +1000,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 86
+      "version": 116
     }
   ],
   "Tables": null
