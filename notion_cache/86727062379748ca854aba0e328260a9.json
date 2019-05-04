@@ -4,6 +4,14 @@
     "id": "86727062-3797-48ca-854a-ba0e328260a9",
     "alive": true,
     "content": [
+      "da2465ce-ed2f-4f8b-b5db-b93046453d26",
+      "cd26445e-f0a1-4185-bd4e-39fdb99c2058",
+      "dc25db17-e1a4-4848-bfe0-ccb899c6572b",
+      "81c97f2d-23d6-4ff8-a56c-6489a2044c1e",
+      "92a42dc2-7d2c-46e0-b873-58cdbd361742",
+      "e20cf657-c65c-4978-93b7-0aabe220394f",
+      "7c0f1e9d-76e8-4a8e-a178-d3ac3967ecdf",
+      "ea65aa31-ef76-46ab-8804-62632c92b655",
       "c68c2165-f40d-4d01-8ad5-56e4c18e8360",
       "cf03b77f-04e2-45fe-a72e-19bb61bb9341",
       "f6a54a1b-e8c0-4f75-9ede-f3a91dbfef3a",
@@ -143,7 +151,7 @@
       "page_small_text": true
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1556750940000,
+    "last_edited_time": 1556934480000,
     "parent_id": "370e30ac-05b6-46ea-b211-f01791b6c740",
     "parent_table": "block",
     "properties": {
@@ -154,8 +162,258 @@
       ]
     },
     "type": "page",
-    "version": 335,
+    "version": 349,
     "content_resolved": [
+      {
+        "id": "da2465ce-ed2f-4f8b-b5db-b93046453d26",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934180000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934180000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "type": "divider",
+        "version": 12
+      },
+      {
+        "id": "cd26445e-f0a1-4185-bd4e-39fdb99c2058",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934238831,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934240000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "‣",
+              [
+                [
+                  "d",
+                  {
+                    "date_format": "relative",
+                    "start_date": "2019-05-03",
+                    "type": "date"
+                  }
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 15,
+        "inline_content": [
+          {
+            "Text": "‣",
+            "Date": {
+              "date_format": "relative",
+              "start_date": "2019-05-03",
+              "type": "date"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dc25db17-e1a4-4848-bfe0-ccb899c6572b",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934240000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934240000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Improve on "
+            ],
+            [
+              "https://codepan.net",
+              [
+                [
+                  "a",
+                  "https://codepan.net/"
+                ]
+              ]
+            ],
+            [
+              ". It's almost perfect but could use a few improvements:"
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 93,
+        "inline_content": [
+          {
+            "Text": "Improve on "
+          },
+          {
+            "Text": "https://codepan.net",
+            "Link": "https://codepan.net/"
+          },
+          {
+            "Text": ". It's almost perfect but could use a few improvements:"
+          }
+        ]
+      },
+      {
+        "id": "81c97f2d-23d6-4ff8-a56c-6489a2044c1e",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934240000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934300000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "add a "
+            ],
+            [
+              "/dashboard",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " link which lists pens (local stored in browser and those stored in a gist). This is accessible via "
+            ],
+            [
+              "Home",
+              [
+                [
+                  "c"
+                ]
+              ]
+            ],
+            [
+              " link at the top"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 203,
+        "inline_content": [
+          {
+            "Text": "add a "
+          },
+          {
+            "Text": "/dashboard",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " link which lists pens (local stored in browser and those stored in a gist). This is accessible via "
+          },
+          {
+            "Text": "Home",
+            "AttrFlags": 2
+          },
+          {
+            "Text": " link at the top"
+          }
+        ]
+      },
+      {
+        "id": "92a42dc2-7d2c-46e0-b873-58cdbd361742",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934240000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934360000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "improve how gists are stored (currently it's just a single json file; make it multiple files for each type)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 140,
+        "inline_content": [
+          {
+            "Text": "improve how gists are stored (currently it's just a single json file; make it multiple files for each type)"
+          }
+        ]
+      },
+      {
+        "id": "e20cf657-c65c-4978-93b7-0aabe220394f",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934360000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934360000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "rewrite in svelte (just for my education)"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 61,
+        "inline_content": [
+          {
+            "Text": "rewrite in svelte (just for my education)"
+          }
+        ]
+      },
+      {
+        "id": "7c0f1e9d-76e8-4a8e-a178-d3ac3967ecdf",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934420000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934480000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "could remodel a bit so that github username and save button are lined with top"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 127,
+        "inline_content": [
+          {
+            "Text": "could remodel a bit so that github username and save button are lined with top"
+          }
+        ]
+      },
+      {
+        "id": "ea65aa31-ef76-46ab-8804-62632c92b655",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556934480000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556934480000,
+        "parent_id": "86727062-3797-48ca-854a-ba0e328260a9",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "could then use that as a basis for anotepad site and code eval"
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 68,
+        "inline_content": [
+          {
+            "Text": "could then use that as a basis for anotepad site and code eval"
+          }
+        ]
+      },
       {
         "id": "c68c2165-f40d-4d01-8ad5-56e4c18e8360",
         "alive": true,
@@ -4178,7 +4436,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 116
+      "version": 121
     }
   ],
   "Tables": null
