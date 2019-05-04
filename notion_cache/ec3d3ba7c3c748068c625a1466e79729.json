@@ -1,6 +1,7 @@
 {
   "ID": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
   "Root": {
+    "id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
     "alive": true,
     "content": [
       "0a4f86bf-117b-4484-b32d-2a366a298126",
@@ -8,9 +9,11 @@
       "8dfa50c1-dd26-4f5e-a28c-5524f7d9dc40",
       "8f745c6e-1e5a-4547-a911-c144c78d574c",
       "49efe062-0d75-4d0b-8d36-404b79e84cb6",
+      "4dfb8c5e-9757-414d-9540-b0c643538e96",
       "75af566e-bf6d-4b6f-aea9-6719071c0ef7",
       "c0f55765-3328-4d17-8e80-a261b165d018",
-      "234c10e5-6dee-46c3-acbb-bb8270446a02"
+      "234c10e5-6dee-46c3-acbb-bb8270446a02",
+      "1a841e3c-a954-4281-9c6a-ec9dec9de298"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1496352325479,
@@ -18,9 +21,8 @@
       "page_full_width": true,
       "page_small_text": true
     },
-    "id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1527621878212,
+    "last_edited_time": 1556908680000,
     "parent_id": "1c88e826-c6ef-4432-bd0e-188560b1a34f",
     "parent_table": "block",
     "properties": {
@@ -31,13 +33,13 @@
       ]
     },
     "type": "page",
-    "version": 10,
+    "version": 13,
     "content_resolved": [
       {
+        "id": "0a4f86bf-117b-4484-b32d-2a366a298126",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496352327422,
-        "id": "0a4f86bf-117b-4484-b32d-2a366a298126",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1496352327422,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -58,10 +60,10 @@
         ]
       },
       {
+        "id": "042e6f61-e2f0-4e4f-a4f3-f0709d12b9e5",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1496352329240,
-        "id": "042e6f61-e2f0-4e4f-a4f3-f0709d12b9e5",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1496352329240,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -89,10 +91,10 @@
         ]
       },
       {
+        "id": "8dfa50c1-dd26-4f5e-a28c-5524f7d9dc40",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1512518318258,
-        "id": "8dfa50c1-dd26-4f5e-a28c-5524f7d9dc40",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1512518318258,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -120,10 +122,10 @@
         ]
       },
       {
+        "id": "8f745c6e-1e5a-4547-a911-c144c78d574c",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1518335259788,
-        "id": "8f745c6e-1e5a-4547-a911-c144c78d574c",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1518335260786,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -151,10 +153,10 @@
         ]
       },
       {
+        "id": "49efe062-0d75-4d0b-8d36-404b79e84cb6",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1527621878212,
-        "id": "49efe062-0d75-4d0b-8d36-404b79e84cb6",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1527621878765,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -182,10 +184,60 @@
         ]
       },
       {
+        "id": "4dfb8c5e-9757-414d-9540-b0c643538e96",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556908680000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556908680000,
+        "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "https://sendwithses.gitbook.io/helpdocs/random-stuff/easy-to-remember-color-guide-for-non-designers",
+              [
+                [
+                  "a",
+                  "https://sendwithses.gitbook.io/helpdocs/random-stuff/easy-to-remember-color-guide-for-non-designers"
+                ]
+              ]
+            ],
+            [
+              ", "
+            ],
+            [
+              "https://old.reddit.com/r/programming/comments/bk7eg6/easy_to_remember_color_guide_for_nondesigners/",
+              [
+                [
+                  "a",
+                  "https://old.reddit.com/r/programming/comments/bk7eg6/easy_to_remember_color_guide_for_nondesigners/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "bulleted_list",
+        "version": 8,
+        "inline_content": [
+          {
+            "Text": "https://sendwithses.gitbook.io/helpdocs/random-stuff/easy-to-remember-color-guide-for-non-designers",
+            "Link": "https://sendwithses.gitbook.io/helpdocs/random-stuff/easy-to-remember-color-guide-for-non-designers"
+          },
+          {
+            "Text": ", "
+          },
+          {
+            "Text": "https://old.reddit.com/r/programming/comments/bk7eg6/easy_to_remember_color_guide_for_nondesigners/",
+            "Link": "https://old.reddit.com/r/programming/comments/bk7eg6/easy_to_remember_color_guide_for_nondesigners/"
+          }
+        ]
+      },
+      {
+        "id": "75af566e-bf6d-4b6f-aea9-6719071c0ef7",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1519975966789,
-        "id": "75af566e-bf6d-4b6f-aea9-6719071c0ef7",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1519975977384,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -206,10 +258,10 @@
         ]
       },
       {
+        "id": "c0f55765-3328-4d17-8e80-a261b165d018",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1519975977612,
-        "id": "c0f55765-3328-4d17-8e80-a261b165d018",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1519975978374,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -237,10 +289,10 @@
         ]
       },
       {
+        "id": "234c10e5-6dee-46c3-acbb-bb8270446a02",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1519975983628,
-        "id": "234c10e5-6dee-46c3-acbb-bb8270446a02",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1519975984107,
         "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
@@ -266,6 +318,18 @@
             "Link": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-QuietLight/themes/QuietLight.tmTheme"
           }
         ]
+      },
+      {
+        "id": "1a841e3c-a954-4281-9c6a-ec9dec9de298",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556908680000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556908680000,
+        "parent_id": "ec3d3ba7-c3c7-4806-8c62-5a1466e79729",
+        "parent_table": "block",
+        "type": "text",
+        "version": 3
       }
     ],
     "title": "colors",
@@ -284,12 +348,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 29
+      "time_zone": "",
+      "version": 118
     }
   ],
   "Tables": null

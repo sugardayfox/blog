@@ -9,6 +9,7 @@
       "256a0293-af62-452e-8a55-a13680504d8a",
       "98a73fba-b84e-414d-addf-85d79cdde7b6",
       "e74d785b-17b8-4c47-a516-d77faec50ebd",
+      "94287ef2-a41c-4029-9e1e-c8a2c6ab0f2b",
       "94a57c44-ab3d-4a93-b9d8-7b23c1d3c722",
       "e0b9d485-cf61-4f80-b5ad-52d1fdabb5b7",
       "ca20ffeb-8f51-4746-9b58-8535f2ec7a42",
@@ -19,9 +20,12 @@
       "653a2410-3fb2-4d93-814a-40bdb77f3753",
       "6fb32419-2e87-4f6f-8876-3693d26726da",
       "324f9ba5-3bf0-4240-b113-1847249d05a2",
+      "cc06c332-34ff-403b-a46b-c6a30567d153",
+      "f4b64af6-fbed-4329-b2e7-1fd26116521d",
+      "2fdff308-a80b-42b2-9531-ea29319fc1bb",
+      "4a696400-1df8-4106-80d3-3e7cc33b6345",
       "bf5cbd52-5437-440e-9fa7-c6dace4d1652",
-      "caa035e0-0822-4bff-9052-6ba2432c68e6",
-      "31420c3f-b274-4bc3-9295-a56eda2a81a3",
+      "c3d6cc82-79c9-449e-8bdf-a10431c9d0f8",
       "0edf85f0-9b25-4bf5-92e6-63e580ac3122",
       "9def2635-e270-4b21-b01e-1e7c14094a83",
       "6447862a-e72f-4cf5-8590-4ac463fe83ec",
@@ -29,7 +33,7 @@
       "da4fb38b-34a7-4efe-9ab2-f6f539b3aca0",
       "e5af1107-a494-401d-8dad-c53545579040",
       "56c5f212-5866-4a2b-b308-43d8964cc991",
-      "bb5bcba2-dacf-4029-b36e-58640214db13",
+      "d4c9882a-2757-496a-8494-1faccb283e89",
       "683d5251-21b9-4c5c-98ec-4a34f52334f7",
       "25bce43f-cc93-4ea5-a444-82b927cf89dd",
       "b299623a-2845-4fb4-bfdb-2ecf1a5e5720",
@@ -54,7 +58,7 @@
       "page_cover_position": 0.5
     },
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1556733480000,
+    "last_edited_time": 1556930700000,
     "parent_id": "8999d1d7-32c7-4061-b439-ff9efd8f8a70",
     "parent_table": "block",
     "properties": {
@@ -65,7 +69,7 @@
       ]
     },
     "type": "page",
-    "version": 155,
+    "version": 181,
     "content_resolved": [
       {
         "id": "a9b30d79-697c-4b58-a0a3-d281dd2d0f86",
@@ -73,21 +77,21 @@
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1556683680000,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1556683680000,
+        "last_edited_time": 1556930700000,
         "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
         "parent_table": "block",
         "properties": {
           "title": [
             [
-              "Date: 2019-04-05"
+              "Date: 2019-05-01"
             ]
           ]
         },
         "type": "text",
-        "version": 5,
+        "version": 29,
         "inline_content": [
           {
-            "Text": "Date: 2019-04-05"
+            "Text": "Date: 2019-05-01"
           }
         ]
       },
@@ -191,6 +195,43 @@
         "inline_content": [
           {
             "Text": "It might surprise you that I spent more time on things that are not related to core functionality. Let's call it a tax of shipping desktop software."
+          }
+        ]
+      },
+      {
+        "id": "94287ef2-a41c-4029-9e1e-c8a2c6ab0f2b",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556930220000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556930220000,
+        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "#url "
+            ],
+            [
+              "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/",
+              [
+                [
+                  "a",
+                  "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
+                ]
+              ]
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 10,
+        "inline_content": [
+          {
+            "Text": "#url "
+          },
+          {
+            "Text": "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/",
+            "Link": "https://blog.kowalczyk.info/software/fast-file-finder-for-windows/"
           }
         ]
       },
@@ -452,7 +493,7 @@
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1556568420000,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1556568480000,
+        "last_edited_time": 1556930280000,
         "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
         "parent_table": "block",
         "properties": {
@@ -475,7 +516,7 @@
           ]
         },
         "type": "text",
-        "version": 97,
+        "version": 99,
         "inline_content": [
           {
             "Text": "It also has a "
@@ -486,6 +527,102 @@
           },
           {
             "Text": " so that people can tell me how to improve the program."
+          }
+        ]
+      },
+      {
+        "id": "cc06c332-34ff-403b-a46b-c6a30567d153",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556930280000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556930280000,
+        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Signing certificate"
+            ]
+          ]
+        },
+        "type": "sub_header",
+        "version": 7,
+        "inline_content": [
+          {
+            "Text": "Signing certificate"
+          }
+        ]
+      },
+      {
+        "id": "f4b64af6-fbed-4329-b2e7-1fd26116521d",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556930280000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556930400000,
+        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "On Windows anti-virus software and Microsoft's anti-phishing systems are lousy and often flag innocent software as malware."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 219,
+        "inline_content": [
+          {
+            "Text": "On Windows anti-virus software and Microsoft's anti-phishing systems are lousy and often flag innocent software as malware."
+          }
+        ]
+      },
+      {
+        "id": "2fdff308-a80b-42b2-9531-ea29319fc1bb",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556930400000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556930460000,
+        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "You can decrease the probability of that by signing your installer and executables with software signing certificate."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 122,
+        "inline_content": [
+          {
+            "Text": "You can decrease the probability of that by signing your installer and executables with software signing certificate."
+          }
+        ]
+      },
+      {
+        "id": "4a696400-1df8-4106-80d3-3e7cc33b6345",
+        "alive": true,
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1556930460000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1556930580000,
+        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "Unfortunately, this certificate is both expensive and pain in the ass to buy. Entities selling them want a proof of your (or your company) identity but the rules are often bureaucratic idiocy."
+            ]
+          ]
+        },
+        "type": "text",
+        "version": 313,
+        "inline_content": [
+          {
+            "Text": "Unfortunately, this certificate is both expensive and pain in the ass to buy. Entities selling them want a proof of your (or your company) identity but the rules are often bureaucratic idiocy."
           }
         ]
       },
@@ -514,70 +651,134 @@
         ]
       },
       {
-        "id": "caa035e0-0822-4bff-9052-6ba2432c68e6",
+        "id": "c3d6cc82-79c9-449e-8bdf-a10431c9d0f8",
         "alive": true,
+        "content": [
+          "6f99bf12-207e-46a8-9203-8e951618614a",
+          "5b436e20-cb96-4dc9-ac4c-7ab0db5b8737"
+        ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1556568480000,
+        "created_time": 1556930220000,
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1556569620000,
+        "last_edited_time": 1556930220000,
         "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
         "parent_table": "block",
-        "properties": {
-          "title": [
-            [
-              "You need an installer because it makes the life of your users easier:"
-            ]
-          ]
-        },
-        "type": "text",
-        "version": 121,
-        "inline_content": [
+        "type": "column_list",
+        "version": 5,
+        "content_resolved": [
           {
-            "Text": "You need an installer because it makes the life of your users easier:"
+            "id": "6f99bf12-207e-46a8-9203-8e951618614a",
+            "alive": true,
+            "content": [
+              "caa035e0-0822-4bff-9052-6ba2432c68e6"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556930220000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556930220000,
+            "parent_id": "c3d6cc82-79c9-449e-8bdf-a10431c9d0f8",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "caa035e0-0822-4bff-9052-6ba2432c68e6",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1556568480000,
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1556930220000,
+                "parent_id": "6f99bf12-207e-46a8-9203-8e951618614a",
+                "parent_table": "block",
+                "properties": {
+                  "title": [
+                    [
+                      "You need an installer because it makes the life of your users easier."
+                    ]
+                  ]
+                },
+                "type": "text",
+                "version": 125,
+                "inline_content": [
+                  {
+                    "Text": "You need an installer because it makes the life of your users easier."
+                  }
+                ]
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
+          },
+          {
+            "id": "5b436e20-cb96-4dc9-ac4c-7ab0db5b8737",
+            "alive": true,
+            "content": [
+              "31420c3f-b274-4bc3-9295-a56eda2a81a3"
+            ],
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1556930220000,
+            "format": {
+              "column_ratio": 0.5
+            },
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1556930220000,
+            "parent_id": "c3d6cc82-79c9-449e-8bdf-a10431c9d0f8",
+            "parent_table": "block",
+            "type": "column",
+            "version": 5,
+            "content_resolved": [
+              {
+                "id": "31420c3f-b274-4bc3-9295-a56eda2a81a3",
+                "alive": true,
+                "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "created_time": 1556568540000,
+                "file_ids": [
+                  "250b683c-50d5-4751-90c0-af31d4ad80e3"
+                ],
+                "format": {
+                  "block_width": 626,
+                  "block_height": 473,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
+                  "block_full_width": false,
+                  "block_page_width": false,
+                  "block_aspect_ratio": 0.755591054313099,
+                  "block_preserve_scale": true
+                },
+                "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+                "last_edited_time": 1556930220000,
+                "parent_id": "5b436e20-cb96-4dc9-ac4c-7ab0db5b8737",
+                "parent_table": "block",
+                "properties": {
+                  "source": [
+                    [
+                      "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png"
+                    ]
+                  ]
+                },
+                "type": "image",
+                "version": 13,
+                "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
+                "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F250b683c-50d5-4751-90c0-af31d4ad80e3%2Ffastfilefinder-installer-1.2_EKAY5HHOHE.png",
+                "format_image": {
+                  "block_aspect_ratio": 0.755591054313099,
+                  "block_full_width": false,
+                  "block_page_width": false,
+                  "block_preserve_scale": true,
+                  "block_width": 626,
+                  "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
+                  "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F250b683c-50d5-4751-90c0-af31d4ad80e3%2Ffastfilefinder-installer-1.2_EKAY5HHOHE.png"
+                }
+              }
+            ],
+            "format_column": {
+              "column_ratio": 0.5
+            }
           }
         ]
-      },
-      {
-        "id": "31420c3f-b274-4bc3-9295-a56eda2a81a3",
-        "alive": true,
-        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1556568540000,
-        "file_ids": [
-          "250b683c-50d5-4751-90c0-af31d4ad80e3"
-        ],
-        "format": {
-          "block_width": 626,
-          "block_height": 473,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
-          "block_full_width": false,
-          "block_page_width": false,
-          "block_aspect_ratio": 0.755591054313099,
-          "block_preserve_scale": true
-        },
-        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1556568540000,
-        "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
-        "parent_table": "block",
-        "properties": {
-          "source": [
-            [
-              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png"
-            ]
-          ]
-        },
-        "type": "image",
-        "version": 10,
-        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
-        "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F250b683c-50d5-4751-90c0-af31d4ad80e3%2Ffastfilefinder-installer-1.2_EKAY5HHOHE.png",
-        "format_image": {
-          "block_aspect_ratio": 0.755591054313099,
-          "block_full_width": false,
-          "block_page_width": false,
-          "block_preserve_scale": true,
-          "block_width": 626,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250b683c-50d5-4751-90c0-af31d4ad80e3/fastfilefinder-installer-1.2_EKAY5HHOHE.png",
-          "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F250b683c-50d5-4751-90c0-af31d4ad80e3%2Ffastfilefinder-installer-1.2_EKAY5HHOHE.png"
-        }
       },
       {
         "id": "0edf85f0-9b25-4bf5-92e6-63e580ac3122",
@@ -748,44 +949,29 @@
         ]
       },
       {
-        "id": "bb5bcba2-dacf-4029-b36e-58640214db13",
+        "id": "d4c9882a-2757-496a-8494-1faccb283e89",
         "alive": true,
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "created_time": 1556568840000,
-        "file_ids": [
-          "47c44be8-7893-4623-8a66-e382b481e785"
-        ],
+        "created_time": 1556930160000,
         "format": {
-          "block_width": 672,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47c44be8-7893-4623-8a66-e382b481e785/fastfilefinder_sHtija6t4B.png",
+          "block_width": 786,
           "block_full_width": false,
-          "block_page_width": false,
-          "block_aspect_ratio": 0.8155216284987278,
+          "block_page_width": true,
+          "block_aspect_ratio": 0.15139949109414758,
           "block_preserve_scale": true
         },
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1556569860000,
+        "last_edited_time": 1556930160000,
         "parent_id": "39a15945-1174-40d9-9a9e-f0f7de1b618a",
         "parent_table": "block",
-        "properties": {
-          "source": [
-            [
-              "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47c44be8-7893-4623-8a66-e382b481e785/fastfilefinder_sHtija6t4B.png"
-            ]
-          ]
-        },
-        "type": "image",
-        "version": 11,
-        "source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47c44be8-7893-4623-8a66-e382b481e785/fastfilefinder_sHtija6t4B.png",
-        "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F47c44be8-7893-4623-8a66-e382b481e785%2Ffastfilefinder_sHtija6t4B.png",
-        "format_image": {
-          "block_aspect_ratio": 0.8155216284987278,
+        "type": "embed",
+        "version": 4,
+        "format_embed": {
           "block_full_width": false,
-          "block_page_width": false,
+          "block_height": 0,
+          "block_page_width": true,
           "block_preserve_scale": true,
-          "block_width": 672,
-          "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47c44be8-7893-4623-8a66-e382b481e785/fastfilefinder_sHtija6t4B.png",
-          "image_url": "https://www.notion.so/signed/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F47c44be8-7893-4623-8a66-e382b481e785%2Ffastfilefinder_sHtija6t4B.png"
+          "display_source": ""
         }
       },
       {
@@ -1051,7 +1237,7 @@
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
       "time_zone": "",
-      "version": 116
+      "version": 118
     }
   ],
   "Tables": null
