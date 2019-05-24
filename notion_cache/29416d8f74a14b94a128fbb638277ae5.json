@@ -1,10 +1,12 @@
 {
   "ID": "29416d8f-74a1-4b94-a128-fbb638277ae5",
   "Root": {
+    "id": "29416d8f-74a1-4b94-a128-fbb638277ae5",
     "alive": true,
     "content": [
       "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
-      "77e4858a-eefe-4b91-8295-d3dfb431b602"
+      "77e4858a-eefe-4b91-8295-d3dfb431b602",
+      "b7684c4c-67c2-44c4-a8bb-c8a4edf1ffaa"
     ],
     "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
     "created_time": 1532381987679,
@@ -12,9 +14,8 @@
       "page_full_width": true,
       "page_small_text": true
     },
-    "id": "29416d8f-74a1-4b94-a128-fbb638277ae5",
     "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-    "last_edited_time": 1535774099686,
+    "last_edited_time": 1558667580000,
     "parent_id": "c47b7a17-6b4e-440c-a17d-a97af441c43a",
     "parent_table": "block",
     "properties": {
@@ -25,18 +26,21 @@
       ]
     },
     "type": "page",
-    "version": 48,
+    "version": 55,
     "content_resolved": [
       {
+        "id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
         "alive": true,
         "content": [
-          "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51"
+          "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51",
+          "21538575-1157-44ef-a171-f06186d8f318",
+          "e4d5ebda-9114-473c-b116-a6d127e95d56",
+          "e53b0484-2714-4c17-8923-d30bf2b22582"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1532381990610,
-        "id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1535748912087,
+        "last_edited_time": 1558660440000,
         "parent_id": "29416d8f-74a1-4b94-a128-fbb638277ae5",
         "parent_table": "block",
         "properties": {
@@ -47,13 +51,13 @@
           ]
         },
         "type": "toggle",
-        "version": 33,
+        "version": 38,
         "content_resolved": [
           {
+            "id": "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51",
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1532381993363,
-            "id": "5b6e8e4c-9db3-4ed1-b4f0-847d42795c51",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "last_edited_time": 1535748912087,
             "parent_id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
@@ -79,6 +83,99 @@
                 "Link": "https://svelte.technology/guide"
               }
             ]
+          },
+          {
+            "id": "21538575-1157-44ef-a171-f06186d8f318",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558660380000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558660380000,
+            "parent_id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/rollup/rollup-plugin-node-resolve",
+                  [
+                    [
+                      "a",
+                      "https://github.com/rollup/rollup-plugin-node-resolve"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/rollup/rollup-plugin-node-resolve",
+                "Link": "https://github.com/rollup/rollup-plugin-node-resolve"
+              }
+            ]
+          },
+          {
+            "id": "e4d5ebda-9114-473c-b116-a6d127e95d56",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558660380000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558660380000,
+            "parent_id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/rollup/rollup-plugin-commonjs",
+                  [
+                    [
+                      "a",
+                      "https://github.com/rollup/rollup-plugin-commonjs"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/rollup/rollup-plugin-commonjs",
+                "Link": "https://github.com/rollup/rollup-plugin-commonjs"
+              }
+            ]
+          },
+          {
+            "id": "e53b0484-2714-4c17-8923-d30bf2b22582",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558660440000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558660440000,
+            "parent_id": "d21c58ea-9cb0-4ce4-848d-22cfb6d88687",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/rollup/awesome",
+                  [
+                    [
+                      "a",
+                      "https://github.com/rollup/awesome"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/rollup/awesome",
+                "Link": "https://github.com/rollup/awesome"
+              }
+            ]
           }
         ],
         "inline_content": [
@@ -88,6 +185,7 @@
         ]
       },
       {
+        "id": "77e4858a-eefe-4b91-8295-d3dfb431b602",
         "alive": true,
         "content": [
           "3868251b-8fbb-4fc8-973a-bb903e9ee146",
@@ -96,7 +194,6 @@
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "created_time": 1535748898299,
-        "id": "77e4858a-eefe-4b91-8295-d3dfb431b602",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
         "last_edited_time": 1535773497893,
         "parent_id": "29416d8f-74a1-4b94-a128-fbb638277ae5",
@@ -112,10 +209,10 @@
         "version": 64,
         "content_resolved": [
           {
+            "id": "3868251b-8fbb-4fc8-973a-bb903e9ee146",
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1535748901056,
-            "id": "3868251b-8fbb-4fc8-973a-bb903e9ee146",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "last_edited_time": 1535748906123,
             "parent_id": "77e4858a-eefe-4b91-8295-d3dfb431b602",
@@ -143,10 +240,10 @@
             ]
           },
           {
+            "id": "d2578e3d-2951-4313-821f-46107aef38bc",
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1535773355271,
-            "id": "d2578e3d-2951-4313-821f-46107aef38bc",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "last_edited_time": 1535773355271,
             "parent_id": "77e4858a-eefe-4b91-8295-d3dfb431b602",
@@ -155,10 +252,10 @@
             "version": 4
           },
           {
+            "id": "0aad927d-1ac5-44e3-8b15-e6bdbc782b1e",
             "alive": true,
             "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "created_time": 1535773372119,
-            "id": "0aad927d-1ac5-44e3-8b15-e6bdbc782b1e",
             "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
             "last_edited_time": 1535773372119,
             "parent_id": "77e4858a-eefe-4b91-8295-d3dfb431b602",
@@ -170,6 +267,130 @@
         "inline_content": [
           {
             "Text": "Full apps"
+          }
+        ]
+      },
+      {
+        "id": "b7684c4c-67c2-44c4-a8bb-c8a4edf1ffaa",
+        "alive": true,
+        "content": [
+          "cb24d7c5-d19c-45bd-ad95-4c205cc6ae18",
+          "fb0a8b99-8210-4a01-b76e-0757b8059022",
+          "1f89e565-213b-4a67-956c-78f049a77bdd"
+        ],
+        "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "created_time": 1558660380000,
+        "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+        "last_edited_time": 1558667580000,
+        "parent_id": "29416d8f-74a1-4b94-a128-fbb638277ae5",
+        "parent_table": "block",
+        "properties": {
+          "title": [
+            [
+              "codemirror"
+            ]
+          ]
+        },
+        "type": "toggle",
+        "version": 22,
+        "content_resolved": [
+          {
+            "id": "cb24d7c5-d19c-45bd-ad95-4c205cc6ae18",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558660380000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558660440000,
+            "parent_id": "b7684c4c-67c2-44c4-a8bb-c8a4edf1ffaa",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/Rich-Harris/brooklyn-js-rollup-talk/blob/master/src/app/slides/06-squirrel/CodeMirror.html",
+                  [
+                    [
+                      "a",
+                      "https://github.com/Rich-Harris/brooklyn-js-rollup-talk/blob/master/src/app/slides/06-squirrel/CodeMirror.html"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 13,
+            "inline_content": [
+              {
+                "Text": "https://github.com/Rich-Harris/brooklyn-js-rollup-talk/blob/master/src/app/slides/06-squirrel/CodeMirror.html",
+                "Link": "https://github.com/Rich-Harris/brooklyn-js-rollup-talk/blob/master/src/app/slides/06-squirrel/CodeMirror.html"
+              }
+            ]
+          },
+          {
+            "id": "fb0a8b99-8210-4a01-b76e-0757b8059022",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558660800000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558660800000,
+            "parent_id": "b7684c4c-67c2-44c4-a8bb-c8a4edf1ffaa",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/sveltejs/svelte-repl/blob/master/src/CodeMirror.svelte",
+                  [
+                    [
+                      "a",
+                      "https://github.com/sveltejs/svelte-repl/blob/master/src/CodeMirror.svelte"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/sveltejs/svelte-repl/blob/master/src/CodeMirror.svelte",
+                "Link": "https://github.com/sveltejs/svelte-repl/blob/master/src/CodeMirror.svelte"
+              }
+            ]
+          },
+          {
+            "id": "1f89e565-213b-4a67-956c-78f049a77bdd",
+            "alive": true,
+            "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "created_time": 1558667580000,
+            "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
+            "last_edited_time": 1558667580000,
+            "parent_id": "b7684c4c-67c2-44c4-a8bb-c8a4edf1ffaa",
+            "parent_table": "block",
+            "properties": {
+              "title": [
+                [
+                  "https://github.com/egoist/codepan/blob/master/src/utils/create-editor.js",
+                  [
+                    [
+                      "a",
+                      "https://github.com/egoist/codepan/blob/master/src/utils/create-editor.js"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "type": "bulleted_list",
+            "version": 5,
+            "inline_content": [
+              {
+                "Text": "https://github.com/egoist/codepan/blob/master/src/utils/create-editor.js",
+                "Link": "https://github.com/egoist/codepan/blob/master/src/utils/create-editor.js"
+              }
+            ]
+          }
+        ],
+        "inline_content": [
+          {
+            "Text": "codemirror"
           }
         ]
       }
@@ -190,12 +411,12 @@
       "family_name": "Kowalczyk",
       "given_name": "Krzysztof",
       "id": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-      "locale": "en",
+      "locale": "",
       "mobile_onboarding_completed": true,
       "onboarding_completed": true,
       "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-      "time_zone": "America/Los_Angeles",
-      "version": 43
+      "time_zone": "",
+      "version": 138
     }
   ],
   "Tables": null
